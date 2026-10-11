@@ -2,7 +2,7 @@
 /* Gerador do Kit de Redes do Fonte de Mana.
    Uso: node tools/kit/gerar.cjs <raiz do repositório> <número da edição> [--pagina] [--sem-video]
    Lê kit/edN/kit.json (formato em tools/kit/LEIA.md) e gera em kit/edN/:
-     carrossel-01.jpg ..., video-vertical-edN.mp4 e index.html
+     carrossel-01.jpg ..., video-vertical-edN.mp4 e index.html (textos para Instagram, TikTok e Threads)
    e reescreve kit/index.html (perfil, edição mais recente e edições anteriores).
    --pagina    só refaz as páginas, usando as imagens e o vídeo que já existem.
    --sem-video não renderiza o vídeo. */
@@ -52,8 +52,10 @@ function validate(sp) {
   len(t.legendaCarrossel, 1800, 'textos.legendaCarrossel');
   len(t.legendaVideo, 1500, 'textos.legendaVideo');
   req(/fontedemana\.com\.br/.test(t.legendaCarrossel || '') && /fontedemana\.com\.br/.test(t.legendaVideo || ''), 'as legendas precisam citar fontedemana.com.br');
-  len(t.tituloShorts, 100, 'textos.tituloShorts');
-  len(t.whatsapp, 1500, 'textos.whatsapp');
+  if (!ONLY_PAGE || t.threadsCarrossel || t.threadsVideo) {
+    len(t.threadsCarrossel, 280, 'textos.threadsCarrossel');
+    len(t.threadsVideo, 280, 'textos.threadsVideo');
+  }
   req(Array.isArray(t.narracao) && t.narracao.length === 5, 'textos.narracao precisa de 5 cenas');
   (t.narracao || []).forEach((x, i) => { len(x.cena, 60, `narracao[${i}].cena`); len(x.texto, 260, `narracao[${i}].texto`); });
   req(Array.isArray(t.threadsFio) && t.threadsFio.length >= 3 && t.threadsFio.length <= 8, 'textos.threadsFio precisa de 3 a 8 posts');
@@ -519,17 +521,18 @@ function editionSection(n, prefix, next) {
   if (slides.length) parts.push(`<div class="grid car">${slides.map((f, i) => `<figure><img src="${prefix}${f}" alt="Carrossel ${i + 1} de ${slides.length}" style="aspect-ratio:4/5"><figcaption>Carrossel ${i + 1} de ${slides.length} <a class="dl" href="${prefix}${f}" download>Baixar</a></figcaption></figure>`).join('')}</div>`);
   parts.push('</section>');
   const narr = t.narracao.map(x => x.cena + '\n' + x.texto).join('\n\n') + '\n\n' + IA_NOTE;
-  parts.push(`<section class="col"><h2>Textos da edição ${n}</h2>${[
+  parts.push(`<section class="col"><h2>Instagram e TikTok, edição ${n}</h2>${[
     txBlock(next(), 'Legenda do carrossel (Instagram)', t.legendaCarrossel.trim() + '\n\n' + DISCLAIMER),
     txBlock(next(), 'Legenda do vídeo (Reels e TikTok)', t.legendaVideo.trim() + '\n\n' + DISCLAIMER),
-    txBlock(next(), 'Título do YouTube Shorts', t.tituloShorts.trim()),
-    txBlock(next(), 'Canal do WhatsApp', t.whatsapp.trim()),
     txBlock(next(), 'Roteiro da narração', narr)
   ].join('')}</section>`);
+  const media = [];
+  if (t.threadsCarrossel) media.push(txBlock(next(), 'Post com as imagens do carrossel', t.threadsCarrossel.trim() + '\n\n' + DISCLAIMER, { count: true, obs: `Anexe as ${slides.length || ''} imagens do carrossel no mesmo post, na ordem. O Threads aceita até 20.`.replace('as  imagens', 'as imagens') }));
+  if (t.threadsVideo) media.push(txBlock(next(), 'Post com o vídeo', t.threadsVideo.trim() + '\n\n' + DISCLAIMER, { count: true, obs: 'Anexe o vídeo vertical da edição.' }));
   const fio = t.threadsFio.concat([DISCLAIMER]);
   const fioHTML = fio.map((x, i) => txBlock(next(), `Fio, post ${i + 1} de ${fio.length}${x === DISCLAIMER ? ' (aviso de conteúdo de fã)' : ''}`, x, { count: true })).join('');
   const av = (t.threadsAvulsos || []).map(a => txBlock(next(), a.titulo, a.texto, { count: true, obs: a.obs })).join('');
-  parts.push(`<section class="col"><h2>Threads, edição ${n}</h2><p class="how">Cada post do Threads aceita até 500 caracteres, e todos aqui cabem. Publique o post 1 do fio e vá adicionando os seguintes como continuação, na ordem. Use uma tag por post, a sugestão é MTG. Os posts avulsos são para espalhar ao longo do dia. Se anexar uma imagem do kit a um deles, responda ao post com o aviso de conteúdo de fã.</p><h3 class="sub">Fio do dia</h3>${fioHTML}${av ? '<h3 class="sub">Posts avulsos</h3>' + av : ''}</section>`);
+  parts.push(`<section class="col"><h2>Threads, edição ${n}</h2><p class="how">Cada post do Threads aceita até 500 caracteres, e todos aqui cabem. Os posts com imagem e com vídeo já levam o aviso de conteúdo de fã no fim. No fio, publique o post 1 e vá adicionando os seguintes como continuação, na ordem. Os posts avulsos são para espalhar ao longo do dia. Use uma tag por post, a sugestão é MTG.</p>${media.length ? '<h3 class="sub">Posts com imagem e vídeo</h3>' + media.join('') : ''}<h3 class="sub">Fio do dia</h3>${fioHTML}${av ? '<h3 class="sub">Posts avulsos</h3>' + av : ''}</section>`);
   return parts.join('\n');
 }
 function editionsAvailable() {

@@ -3,8 +3,8 @@
 O kit de cada edição sai de um arquivo `kit/edN/kit.json` escrito a partir da edição do dia (`data/edN.js`). O script `tools/kit/gerar.cjs` lê esse arquivo e gera:
 
 - `kit/edN/carrossel-01.jpg` em diante (Instagram, 1080x1350)
-- `kit/edN/video-vertical-edN.mp4` (Reels, TikTok e Shorts, 1080x1920, 48 s, sem som)
-- `kit/edN/index.html` e `kit/index.html` (a página fontedemana.com.br/kit, que fica escondida do Google)
+- `kit/edN/video-vertical-edN.mp4` (Reels, TikTok e Threads, 1080x1920, 48 s, sem som)
+- `kit/edN/index.html` e `kit/index.html` (a página fontedemana.com.br/kit, que fica escondida do Google), com os textos para Instagram, TikTok e Threads
 
 ## Como rodar
 
@@ -22,9 +22,9 @@ O script acha sozinho o Chromium (`/opt/pw-browsers`), o Playwright (ou instala 
 - Rumor só aparece como rumor (campo `sussurro`), dizendo que é uma fonte só ou que não foi confirmado.
 - Mesmo estilo do jornal: português do Brasil, tom de quem joga Commander, frases curtas, sem fórmulas de IA.
 - Nada de " · ", " – ", " — " ou "—". Para intervalos use "6 a 12 nov".
-- Só as tags `<b>` e `<i>` nos campos de texto das imagens. Os textos de legenda, WhatsApp e Threads são texto puro (o WhatsApp usa *asteriscos* para negrito).
+- Só as tags `<b>` e `<i>` nos campos de texto das imagens. Os textos de legenda e de Threads são texto puro.
 - Cores: W (branco: Brasil, lojas, eventos, datas), U (azul: deck e regras), B (preto: ban), R (vermelho: polêmica), G (verde: novidade e lançamento), A (artefato: bolso e preço), M (dourado: Topdeck e multicolor).
-- O aviso de Fan Content entra sozinho no fim das duas legendas e como último post do fio do Threads. Não escreva o aviso no kit.json.
+- O aviso de Fan Content entra sozinho no fim das duas legendas, dos dois posts de Threads com mídia e como último post do fio. Não escreva o aviso no kit.json.
 - As imagens vêm de `img/edN-art.jpg` (capa e cena 1) e `img/edN-card.jpg` (Topdeck). Se não existirem, o script usa a arte do terreno da cor da capa.
 
 ## Formato do kit.json
@@ -62,8 +62,8 @@ Os números entre parênteses são o máximo de caracteres (sem contar as tags).
       "textos": {
         "legendaCarrossel": legenda do Instagram com o link fontedemana.com.br, créditos das artes e hashtags (1800),
         "legendaVideo": legenda do Reels e TikTok com o link e uma pergunta para os comentários (1500),
-        "tituloShorts": (100),
-        "whatsapp": texto do canal do WhatsApp, com *negrito* e o link https://fontedemana.com.br (1500),
+        "threadsCarrossel": texto do post do Threads que leva as imagens do carrossel, com o link fontedemana.com.br (280),
+        "threadsVideo": texto do post do Threads que leva o vídeo, com o link fontedemana.com.br (280),
         "narracao": [{"cena": "Cena 1, de 0 a 13 s (Notícia Lendária)", "texto": (260)}, ...],   (exatamente 5)
         "threadsFio": [(480), ...],                                         (3 a 8 posts, o último leva o link)
         "threadsAvulsos": [{"titulo": (40), "texto": (480), "obs": (120, opcional)}]   (até 6)
@@ -79,6 +79,15 @@ Os números entre parênteses são o máximo de caracteres (sem contar as tags).
 - Cena 5, de 41 a 48 s: chamada final fixa para o site e o @fontedemana.
 
 A narração tem 5 trechos, um por cena, curtos o bastante para ler no tempo de cada cena.
+
+## Threads
+
+O Threads recebe quatro tipos de conteúdo, todos com até 500 caracteres por post:
+
+- `threadsCarrossel`: post curto que acompanha as imagens do carrossel (o Threads aceita até 20 por post). O aviso de Fan Content entra no fim, então o texto tem no máximo 280 caracteres.
+- `threadsVideo`: post curto que acompanha o vídeo, com o mesmo limite.
+- `threadsFio`: 3 a 8 posts em sequência contando a edição, só texto. O último leva o link do site.
+- `threadsAvulsos`: até 6 posts soltos para espalhar ao longo do dia, como uma pergunta para a comunidade, uma dica de regra, um preço, a agenda ou um sussurro (sempre dizendo que é rumor). Use `obs` para uma dica de como postar, por exemplo virar enquete.
 
 ## Quando a cena 2 não tem preço
 
