@@ -1,0 +1,244 @@
+{
+ "n": 6,
+ "data": "11 out",
+ "carrossel": {
+  "capa": {
+   "cor": "A",
+   "titulo": "A Marvel ganhou um Countdown Kit",
+   "sub": "<b>30 cartas</b> por <b>US$ 199,99</b>, com venda a partir de <b>2 de novembro</b> e quantidade limitada",
+   "credito": "Arte: Heroic Intervention, James Ryman"
+  },
+  "cartoes": [
+   {
+    "cor": "A",
+    "titulo": "Countdown Kit da Marvel",
+    "itens": [
+     {
+      "cor": "A",
+      "html": "<b>US$ 199,99</b> por kit, com 30 cartas de mais de 30 artistas"
+     },
+     {
+      "cor": "W",
+      "html": "Venda só no site da Secret Lair, em <b>2 de novembro às 14h</b> de Brasília"
+     },
+     {
+      "cor": "G",
+      "html": "Artes de momentos clássicos, como a <b>Jean Grey virando Fênix</b>"
+     },
+     {
+      "cor": "U",
+      "html": "A lista completa das cartas ainda não saiu"
+     }
+    ],
+    "nota": {
+     "rotulo": "No seu bolso",
+     "texto": "dá US$ 6,67 por carta antes de frete e imposto. Espera a lista fechar."
+    },
+    "fonte": "Fontes: Secret Lair, Vice, MTG Rocks"
+   },
+   {
+    "cor": "A",
+    "titulo": "Temporada das esfinges",
+    "linhas": [
+     {
+      "nome": "Magister Sphinx",
+      "valor": "+565%",
+      "sub": "foi a US$ 4,59",
+      "porque": "está em 76% dos decks de Ur-Sphinx"
+     },
+     {
+      "nome": "Tivit, Seller of Secrets",
+      "valor": "+274%",
+      "sub": "foil NM desde US$ 11,48"
+     }
+    ],
+    "nota": {
+     "rotulo": "No seu bolso",
+     "texto": "se tem Magister Sphinx velha no fichário, esse é o momento de trocar."
+    },
+    "fonte": "Fontes: MTG Rocks, Draftsim e EDHREC"
+   },
+   {
+    "cor": "G",
+    "titulo": "Precons de Darkhold Destiny",
+    "itens": [
+     {
+      "cor": "G",
+      "html": "Os decks: <b>Strange Academy</b>, <b>Gods of Asgard</b>, <b>Midnight Sons</b> e <b>Lords of Hel</b>"
+     },
+     {
+      "cor": "U",
+      "html": "Pelas descrições, os comandantes são <b>Doutor Estranho</b>, <b>Thor</b>, <b>Blade</b> e outra versão da <b>Hela</b>"
+     },
+     {
+      "cor": "A",
+      "html": "Listas de cartas e preços ainda não saíram"
+     },
+     {
+      "cor": "W",
+      "html": "Lançamento em <b>9 de abril de 2027</b>"
+     }
+    ],
+    "nota": {
+     "rotulo": "Na sua mesa",
+     "texto": "segura a pré-venda até sair a lista."
+    },
+    "fonte": "Fontes: EDHREC, Wargamer, MTG Rocks"
+   }
+  ],
+  "topdeck": {
+   "titulo": "Fierce Guardianship",
+   "habilidades": [
+    {
+     "rotulo": "De graça com comandante",
+     "texto": "Com o seu comandante no campo, ela sai sem gastar mana"
+    },
+    {
+     "rotulo": "Anula o que não é criatura",
+     "texto": "Pega mágica, artefato, encantamento e planeswalker"
+    },
+    {
+     "rotulo": "Sem comandante, ainda dá",
+     "texto": "Vira um contra-mágica normal de três manas"
+    }
+   ],
+   "extra": "Está em <b>863 mil decks</b> no EDHREC e em <b>88% dos decks de Kraum e Tymna</b>. É Game Changer.",
+   "credito": "Ilustração de Randy Vargas"
+  },
+  "ban": {
+   "numero": "1",
+   "unidade": "DIA",
+   "texto": "Amanhã tem janela de banimentos. A lista do Commander não muda desde 9 de fevereiro, e nada indica mudança."
+  },
+  "turnos": [
+   {
+    "cor": "B",
+    "data": "12 out",
+    "texto": "Bans e Secret Lair Corn Maze"
+   },
+   {
+    "cor": "R",
+    "data": "13 out",
+    "texto": "Prazo do sindicato da Wizards"
+   },
+   {
+    "cor": "W",
+    "data": "até 15 out",
+    "texto": "Festa de Commander nas lojas"
+   },
+   {
+    "cor": "A",
+    "data": "2 nov",
+    "texto": "Venda do Countdown Kit da Marvel"
+   },
+   {
+    "cor": "G",
+    "data": "13 nov",
+    "texto": "Star Trek e MagicCon: Atlanta"
+   }
+  ],
+  "sussurro": "O MTG Rocks já lista oito cartas do Countdown Kit, com a Fierce Guardianship puxando o valor. Só uma fonte por enquanto."
+ },
+ "video": {
+  "cena1": {
+   "titulo": "A Marvel ganhou um Countdown Kit",
+   "pilulas": [
+    "US$ 199,99",
+    "30 cartas",
+    "2 de novembro"
+   ]
+  },
+  "cena2": {
+   "rotulo": "No bolso",
+   "cor": "A",
+   "titulo": "Temporada das esfinges",
+   "linhas": [
+    {
+     "nome": "Magister Sphinx",
+     "numero": 565,
+     "prefixo": "+",
+     "sufixo": "%",
+     "sub": "foi a US$ 4,59"
+    },
+    {
+     "nome": "Tivit",
+     "numero": 274,
+     "prefixo": "+",
+     "sufixo": "%",
+     "sub": "foil NM desde US$ 11,48"
+    }
+   ],
+   "fonte": "Fontes: MTG Rocks e Draftsim"
+  },
+  "cena3": {
+   "linhas": [
+    "<b>De graça</b> com o comandante na mesa",
+    "Anula tudo que <b>não é criatura</b>",
+    "Está em <b>863 mil</b> decks no EDHREC"
+   ]
+  },
+  "cena4": {
+   "texto": "Amanhã tem janela de banimentos. Nada indica mudança no Commander.",
+   "sussurro": "Oito cartas do Countdown Kit já circulam. Só uma fonte por enquanto."
+  }
+ },
+ "textos": {
+  "legendaCarrossel": "A Marvel ganhou um Countdown Kit na Secret Lair! São 30 cartas por US$ 199,99, com venda a partir de 2 de novembro, às 14h de Brasília, e quantidade limitada.\n\nNo carrossel tem os detalhes do kit, a temporada das esfinges que fez a Magister Sphinx subir 565%, os nomes dos precons de Darkhold Destiny, a Fierce Guardianship explicada no Topdeck do Dia e a agenda da semana.\n\nA edição completa, com as fontes e o Sussurro do dia, está no link da bio: fontedemana.com.br\n\nSalva e manda pro seu grupo de Commander.\n\nArte: Heroic Intervention, de James Ryman. Fierce Guardianship, de Randy Vargas.\n\n#magicthegathering #mtg #commander #edh #mtgcommander #mtgbrasil #magicbrasil #edhbrasil #secretlair",
+  "legendaVideo": "A Marvel ganhou um Countdown Kit, as esfinges dispararam no preço e a Fierce Guardianship é o Topdeck do Dia. Tudo em 48 segundos.\n\nEdição completa no link da bio: fontedemana.com.br\n\nVocê compraria o kit sem ver a lista completa? Conta aqui nos comentários.\n\n#magicthegathering #mtg #commander #edh #mtgbrasil #magicbrasil #secretlair",
+  "tituloShorts": "Countdown Kit da Marvel por US$ 199,99, esfinges em alta e a Fierce Guardianship explicada",
+  "whatsapp": "*Fonte de Mana, edição 6* (domingo, 11 de outubro)\n\n*A Marvel ganhou um Countdown Kit.* São 30 cartas por US$ 199,99 no site da Secret Lair, com venda a partir de 2 de novembro, às 14h de Brasília, e quantidade limitada.\n\n*No bolso:* a The Ur-Sphinx abriu a temporada das esfinges. A Magister Sphinx foi de US$ 0,69 para US$ 4,59, segundo o MTG Rocks.\n\n*Darkhold Destiny:* os quatro precons já têm nome, Strange Academy, Gods of Asgard, Midnight Sons e Lords of Hel.\n\n*Topdeck do Dia:* Fierce Guardianship, o contra-mágica de graça do Commander.\n\n*Amanhã tem janela de banimentos.* A lista do Commander não muda desde 9 de fevereiro.\n\nEdição completa: https://fontedemana.com.br",
+  "narracao": [
+   {
+    "cena": "Cena 1, de 0 a 13 s (Notícia Lendária)",
+    "texto": "A Marvel ganhou um Countdown Kit na Secret Lair! São 30 cartas por 199 dólares e 99 centavos, e a venda abre em 2 de novembro, com quantidade limitada."
+   },
+   {
+    "cena": "Cena 2, de 13 a 21 s (No bolso)",
+    "texto": "No bolso, começou a temporada das esfinges. A Magister Sphinx subiu 565% e a Tivit, 274%."
+   },
+   {
+    "cena": "Cena 3, de 21 a 32 s (Topdeck do Dia)",
+    "texto": "O Topdeck do Dia é a Fierce Guardianship. Com o seu comandante na mesa, ela sai de graça e anula tudo que não é criatura."
+   },
+   {
+    "cena": "Cena 4, de 32 a 41 s (Riscos do Ban e Sussurro)",
+    "texto": "Amanhã tem janela de banimentos, mas nada indica mudança no Commander. E oito cartas do kit já circulam, mas por enquanto é só uma fonte."
+   },
+   {
+    "cena": "Cena 5, de 41 a 48 s (chamada final)",
+    "texto": "A edição completa está no link da bio, em fontedemana.com.br. Segue a gente pra receber todo dia!"
+   }
+  ],
+  "threadsFio": [
+   "A Marvel ganhou um Countdown Kit na Secret Lair.\n\nSão 30 cartas por US$ 199,99, com venda a partir de 2 de novembro. Neste fio tem o que já se sabe do kit, as esfinges que dispararam no preço, os nomes dos precons de Darkhold e a carta do dia.",
+   "O kit comemora os 87 anos dos quadrinhos da Marvel, com 30 cartas ilustradas por mais de 30 artistas. As artes recriam momentos clássicos, como a origem do Quarteto Fantástico e a Jean Grey virando Fênix.\n\nA venda é só no site da Secret Lair, em 2 de novembro às 14h de Brasília, e a quantidade é limitada. Dá US$ 6,67 por carta antes de frete e imposto.",
+   "No bolso, começou a temporada das esfinges. A The Ur-Sphinx, do precon Multiverse Reforged, barateia outras esfinges, e a galera foi atrás das peças antigas:\n\nMagister Sphinx foi de US$ 0,69 para US$ 4,59, alta de 565%\nTivit, Seller of Secrets subiu 274%, com foil NM a partir de US$ 11,48\n\nDados do MTG Rocks, com o Draftsim confirmando a alta.",
+   "Os quatro precons de Darkhold Destiny já têm nome: Strange Academy, Gods of Asgard, Midnight Sons e Lords of Hel.\n\nPelas descrições, os comandantes são Doutor Estranho, Thor, Blade e outra versão da Hela. Listas e preços ainda não saíram, e o lançamento segue em 9 de abril de 2027.",
+   "Topdeck do Dia: Fierce Guardianship.\n\nCom o seu comandante no campo de batalha, ela sai sem gastar mana nenhuma e anula qualquer mágica que não seja criatura. Sem comandante, vira um contra-mágica normal de três manas.\n\nEstá em 863 mil decks no EDHREC e é Game Changer. Pega no pulo: comandante parado na zona de comando não conta.",
+   "Amanhã, 12 de outubro, tem janela de banimentos. A lista do Commander não muda desde 9 de fevereiro, e nada indica que o formato entra nessa.\n\nA edição completa, com todas as fontes, está em fontedemana.com.br"
+  ],
+  "threadsAvulsos": [
+   {
+    "titulo": "Pergunta para a comunidade",
+    "texto": "A Secret Lair vai vender o Countdown Kit da Marvel por US$ 199,99, mas a lista completa das 30 cartas ainda não saiu.\n\nVocê compraria sem ver a lista ou espera?",
+    "obs": "Dá para postar como enquete, com as opções Compraria e Espero a lista."
+   },
+   {
+    "titulo": "Dica de regra",
+    "texto": "Dica rápida de Commander: a Fierce Guardianship só sai de graça se o seu comandante estiver no campo de batalha. Comandante parado na zona de comando não conta.\n\nSem comandante na mesa, ela vira um contra-mágica normal de três manas."
+   },
+   {
+    "titulo": "No bolso",
+    "texto": "A Magister Sphinx de Conflux foi de US$ 0,69 para US$ 4,59 em uma semana, segundo o MTG Rocks. O motivo é a The Ur-Sphinx, de Reality Fracture, que barateia outras esfinges.\n\nEla está em 76% dos decks de Ur-Sphinx no EDHREC. Tem uma velha no fichário?"
+   },
+   {
+    "titulo": "Agenda",
+    "texto": "Agenda de Commander:\n\n12 de outubro: janela de banimentos e Secret Lair Corn Maze Superdrop\nAté 15 de outubro: primeira rodada da Festa de Commander de Reality Fracture nas lojas\n2 de novembro: venda do Countdown Kit da Marvel, às 14h de Brasília\nAté 5 de novembro: Commander Night em dupla de Reality Fracture nas lojas\n\nJá marcou com a sua mesa?"
+   },
+   {
+    "titulo": "Sussurro",
+    "texto": "As cores dos precons de Darkhold ainda não são oficiais, mas a Wargamer já arriscou: Lords of Hel em preto e vermelho de sacrificar fichas, Midnight Sons em branco e preto de vampiros, Gods of Asgard em Naya de equipamentos e Strange Academy em Esper de blink.\n\nPor enquanto, só ela trouxe esse detalhe."
+   }
+  ]
+ }
+}

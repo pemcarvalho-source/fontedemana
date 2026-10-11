@@ -1,0 +1,35 @@
+{
+ "bio": "Notícias diárias de Magic: The Gathering\nCommander checado toda manhã, às 6h\nConteúdo de fã não oficial",
+ "imagens": [
+  {
+   "arquivo": "perfil-instagram.jpg",
+   "nome": "Foto de perfil",
+   "proporcao": "1/1"
+  },
+  {
+   "arquivo": "destaque-noticias.jpg",
+   "nome": "Capa do destaque Notícias",
+   "proporcao": "9/16"
+  },
+  {
+   "arquivo": "destaque-topdeck.jpg",
+   "nome": "Capa do destaque Topdeck",
+   "proporcao": "9/16"
+  },
+  {
+   "arquivo": "destaque-bans.jpg",
+   "nome": "Capa do destaque Bans",
+   "proporcao": "9/16"
+  },
+  {
+   "arquivo": "destaque-agenda.jpg",
+   "nome": "Capa do destaque Agenda",
+   "proporcao": "9/16"
+  },
+  {
+   "arquivo": "destaque-bolso.jpg",
+   "nome": "Capa do destaque Bolso",
+   "proporcao": "9/16"
+  }
+ ]
+}
