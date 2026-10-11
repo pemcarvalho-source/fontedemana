@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Fonte de Mana</title>
-<meta name="description" content="Sua fonte diária de informação sobre Magic: The Gathering. Notícias de Commander do Brasil e dos EUA, checadas e resumidas toda manhã.">
+<meta name="description" content="Sua fonte diária de informação sobre Magic: The Gathering. Notícias de Commander checadas e resumidas toda manhã.">
 <link rel="canonical" href="https://fontedemana.com.br/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Fonte de Mana">
 <meta property="og:locale" content="pt_BR">
 <meta property="og:title" content="Fonte de Mana">
-<meta property="og:description" content="Sua fonte diária de informação sobre Magic: The Gathering. Commander, Brasil e EUA, toda manhã.">
+<meta property="og:description" content="Sua fonte diária de informação sobre Magic: The Gathering. Notícias de Commander toda manhã.">
 <meta property="og:url" content="https://fontedemana.com.br/">
 <meta property="og:image" content="https://fontedemana.com.br/og.jpg">
 <meta property="og:image:width" content="1200">
@@ -144,6 +144,7 @@ p{margin:0}
 .mc-legal svg{width:11px;height:11px;flex-shrink:0}
 .mc-legal > span:not(.coll){display:inline-flex;align-items:center;gap:4px}
 .hero.solo{grid-template-columns:minmax(0,1fr)!important}
+.hero.solo > .mcard{grid-column:1/-1!important;grid-row:auto!important;max-width:380px!important;margin-inline:auto!important}
 .pt{font-family:var(--f-disp);font-weight:700;font-size:17px;padding:2px 12px;border-radius:8px;white-space:nowrap}
 .pt small{font-family:var(--f-mono);font-size:9px;font-weight:500;letter-spacing:.03em;color:#4A4538;margin-left:5px}
 .gem{width:14px;height:14px;transform:rotate(45deg);border-radius:2px;flex-shrink:0;border:1px solid rgba(0,0,0,.7);box-shadow:-1px 1px 0 rgba(0,0,0,.5)}
@@ -165,10 +166,25 @@ p{margin:0}
 .btn:hover{border-color:var(--ink)}
 
 /* Herói */
-.hero{display:grid;grid-template-columns:1fr;gap:18px;align-items:start}
-.hero > .mcard{order:-2}
-.hero .side{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
-@media (min-width:920px){.hero{grid-template-columns:minmax(0,1fr) minmax(320px,390px) minmax(0,1fr);gap:22px}.hero .side{grid-template-columns:1fr;align-content:center;height:100%}.hero .side.left{order:-1}.hero > .mcard{order:0}}
+/* Celular: carta no topo e todos os cartões num único grid de 2 colunas (o último ocupa a linha inteira se a conta for ímpar) */
+.hero{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;align-items:start}
+.hero > .mcard{grid-column:1/-1;order:-1;margin-bottom:6px}
+.hero .side{display:contents}
+.hero .tile.span2{grid-column:1/-1}
+.hero > .ban{grid-column:1/-1}
+/* Tablet em pé: carta à esquerda ocupando a altura, cartões empilhados à direita */
+@media (min-width:600px) and (max-width:919px){
+  .hero{grid-template-columns:minmax(330px,1.15fr) minmax(240px,1fr);grid-template-rows:auto 1fr;gap:12px 18px}
+  .hero > .mcard{grid-column:1;grid-row:1/span 2;max-width:none;margin:0;order:0}
+  .hero .side{display:flex;flex-direction:column;gap:12px;grid-column:2}
+  .hero .side.left{grid-row:1}
+  .hero .side.right{grid-row:2;align-self:start}
+  .hero .tile.span2{grid-column:auto}
+}
+/* Computador e tablet deitado: cartões dos dois lados da carta */
+@media (min-width:920px){.hero{grid-template-columns:minmax(0,1fr) minmax(320px,390px) minmax(0,1fr);gap:22px}.hero .side{display:grid;grid-template-columns:1fr;gap:12px;align-content:center;height:100%}.hero .side.left{order:-1}.hero > .mcard{order:0;grid-column:auto;margin-bottom:0}.hero .tile.span2{grid-column:auto}}
+/* Topdeck em tablet: carta ao lado dos blocos */
+@media (min-width:700px) and (max-width:879px){.anat-in{grid-template-columns:300px minmax(0,1fr)}.blocks{grid-template-columns:1fr}.blocks .wide{grid-column:auto}}
 .tile{position:relative;overflow:hidden;display:flex;flex-direction:column;gap:7px;text-decoration:none;color:var(--ink);background-color:var(--panel);background-image:var(--tex-paper);border-radius:11px;padding:21px 14px 13px;border:1px solid var(--line);box-shadow:0 6px 16px -12px rgba(0,0,0,.55);transition:transform .15s,box-shadow .15s;min-width:0}
 .tile::before{content:"";position:absolute;inset:0 0 auto;height:9px;background-color:var(--fc);background-image:var(--tex-frame),linear-gradient(180deg,rgba(255,255,255,.35),rgba(0,0,0,.28));border-bottom:1px solid rgba(0,0,0,.55)}
 .tile:hover{transform:translateY(-2px);box-shadow:0 12px 22px -14px rgba(0,0,0,.6)}
@@ -390,7 +406,7 @@ footer .legal{font-size:13px;font-style:italic}
     if(ed.pulse && ed.pulse.items.length) t.push({c:"R", sec:"Termômetro", txt:ed.pulse.items[0].title, chips:[fmtViews(ed.pulse.items[0].views)+" views"], href:"#"+ids.pulse});
     if(ed.agenda && ed.agenda.length) t.push({c:"W", sec:"Próximos Turnos", txt:ed.agenda[0].label+", "+ed.agenda[0].html.replace(/<[^>]+>/g,"").split(".")[0].replace(/^./,function(x){return x.toLowerCase();}), chips:[ed.agenda.length+" datas"], href:"#"+ids.agenda});
     if(ed.rumors && ed.rumors.length) t.push({c:"Q", sec:"Sussurros", txt:ed.rumors[0].title, chips:[ed.rumors.length+(ed.rumors.length>1?" rumores":" rumor")], href:"#"+ids.rumors, dashed:true});
-    return t.map(function(x){ return '<a class="tile fr-'+x.c+(x.dashed?' dashed':'')+'" href="'+x.href+'"><span class="t-top">'+pip(x.c)+'<span class="t-sec">'+esc(x.sec)+'</span></span><span class="t-txt">'+esc(x.txt)+'</span><span class="chips">'+tagChips(x.chips)+'</span></a>'; });
+    return t.map(function(x,i,arr){ var sp=(arr.length%2===1 && i===arr.length-1)?' span2':''; return '<a class="tile fr-'+x.c+(x.dashed?' dashed':'')+sp+'" href="'+x.href+'"><span class="t-top">'+pip(x.c)+'<span class="t-sec">'+esc(x.sec)+'</span></span><span class="t-txt">'+esc(x.txt)+'</span><span class="chips">'+tagChips(x.chips)+'</span></a>'; });
   }
 
   function banBar(ed){

@@ -1,6 +1,6 @@
 # Fonte de Mana
 
-Sua fonte diária de informação sobre Magic: The Gathering. Notícias de Commander do Brasil e dos EUA, checadas e resumidas toda manhã.
+Sua fonte diária de informação sobre Magic: The Gathering. Notícias de Commander checadas e resumidas toda manhã.
 
 Site: https://fontedemana.com.br
 
