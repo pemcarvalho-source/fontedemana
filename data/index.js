@@ -1,9 +1,17 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "Fierce Guardianship",
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 6,
+   "date": "2026-10-11",
+   "dateLabel": "Domingo, 11 de outubro de 2026",
+   "head": "Secret Lair Countdown Kit da Marvel custa US$ 199,99 e abre venda em 2 de novembro",
+   "biome": "A"
+  },
   {
    "n": 5,
    "date": "2026-10-10",
