@@ -18,7 +18,9 @@ O script acha sozinho o Chromium (`/opt/pw-browsers`), o Playwright (ou instala 
 
 ## Regras de conteúdo
 
-- Use só fatos que estão na edição do dia, com os mesmos números, datas e fontes. Nada de dado novo, estimativa ou conversão para reais.
+- Use só fatos que estão na edição do dia, com os mesmos números, datas e fontes. Nada de dado novo, estimativa ou conversão nova: os valores em reais são os que a edição já traz.
+- Moeda: todo valor em dinheiro aparece em dólar, com o valor em reais entre parênteses, igual à edição (exemplo: "US$ 29,99 (R$ 150,10)"). Se a edição não trouxer `fx` (dia sem cotação confiável), fica só o dólar. No `valor` das linhas de preço (máximo 8) e no `numero` animado do vídeo vai só o dólar; o valor em reais vai no `sub`. Na narração, fale o dólar e depois "uns X reais", arredondado.
+- Nota da cotação: toda peça com valor convertido leva uma nota curta com a data e a fonte do `fx` da edição. Nas imagens, ela vai no fim do `fonte` do cartão e da cena 2 do vídeo (exemplo: "Fonte: Wargamer. Reais: cotação BCE de 9 out") e, no Topdeck, no fim do `extra`. Nas legendas e nos posts do Threads com valor convertido, entra uma linha no fim: "Valores em reais pela cotação de 9 out (Banco Central Europeu)." Respeite os limites de tamanho; se faltar espaço, encurte a lista de fontes.
 - Nunca escreva no kit avisos sobre o funcionamento da rotina, como créditos esgotados, site que não abriu ou imagem que não carregou. Esses avisos vão só na mensagem final da rotina.
 - Rumor só aparece como rumor (campo `sussurro`), dizendo que é uma fonte só ou que não foi confirmado.
 - Mesmo estilo do jornal: português do Brasil, tom de quem joga Commander, frases curtas, sem fórmulas de IA.
