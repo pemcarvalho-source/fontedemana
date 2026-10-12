@@ -1,0 +1,100 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fonte de Mana//Pauta//PT
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fonte de Mana: pauta
+X-WR-TIMEZONE:America/Sao_Paulo
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
+X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:fdm-2026-10-12-threads-tarde@fontedemana.com.br
+DTSTAMP:20261012T145604Z
+DTSTART:20261012T180000Z
+DURATION:PT15M
+SUMMARY:15:00 Threads: Fio da edição 7
+DESCRIPTION:Fio de 6 posts sobre o Superdrop\, a Wort e a janela de banimen
+ tos. Poste em sequência\, um bloco por post.\n\nPost 1:\nO Corn Maze Supe
+ rdrop abre hoje às 13h de Brasília.\n\nSão oito drops do Secret Lair de
+  uma vez\, com staple de Commander em quase todos. Neste fio tem preço\, 
+ quais drops valem mais\, a carta do dia e o que esperar da janela de banim
+ entos.\n\nPost 2:\nOs drops: Fear Me\, Love Me\, Should You Need Us e Thro
+ ugh the Labyrinth (do filme Labirinto)\, How It's Done (KPop Demon Hunters
+ )\, Marvel: Zombies\, Artist Series: Veronique Meignaud\, Manufactured Gro
+ unds e Peace\, Love\, & Treefolk.\n\nCada um sai por US$ 29\,99 (R$ 150\,1
+ 0)\, ou US$ 39\,99 (R$ 200\,15) em foil. A pré-fila abre às 12h e a vend
+ a às 13h.\n\nPost 3:\nPra Commander\, chamam atenção Wort\, Boggart Aun
+ tie\, Trinisphere\, Timber Protector\, Swan Song\, Underworld Breach\, Ash
+ nod's Altar e Tempt with Discovery.\n\nE a cada US$ 199 (R$ 996\,00) gasto
+ s vem um Maze of Ith foil de brinde\, enquanto durar o estoque.\n\nPost 4:
+ \nNa conta da Wargamer\, Fear Me\, Love Me soma uns US$ 56\,81 (R$ 284\,33
+ ) em avulsas e Peace\, Love\, & Treefolk uns US$ 50\,78 (R$ 254\,15)\, os 
+ dois acima do preço do drop. O da Veronique Meignaud\, com US$ 26\,45 (R$
+  132\,38)\, e o de terrenos não foil\, com US$ 11\,16 (R$ 55\,86)\, ficam
+  abaixo.\n\nPost 5:\nTopdeck do Dia: Wort\, Boggart Auntie.\n\nComandante 
+ goblin em preto e vermelho. Só criatura preta ou artefato bloqueia ela\, 
+ e no começo de cada turno seu um goblin do cemitério volta pra mão. Nã
+ o era reimpressa desde Lorwyn\, de 2007\, e volta hoje no Superdrop.\n\nPo
+ st 6:\nHoje também tem janela de banimentos. Até o fechamento da ediçã
+ o nada saiu sobre o Commander\, que não muda a lista desde 9 de fevereiro
+ .\n\nA edição completa\, com todas as fontes\, está em fontedemana.com.
+ br\n\nValores em reais pela cotação de 9 out (Banco Central Europeu).\n\
+ nPasso a passo:\n1. Publique o Post 1 e toque em adicionar ao fio para col
+ ar os outros\, na ordem.\n2. Responda quem comentar na primeira hora.\n\nV
+ alores em reais pela cotação de 9 out (Banco Central Europeu).\n\nPauta 
+ completa: https://fontedemana.com.br/pauta/2026-10-12/#threads-tarde
+URL:https://fontedemana.com.br/pauta/2026-10-12/#threads-tarde
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Fio da edição 7
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-12-stories-tarde@fontedemana.com.br
+DTSTAMP:20261012T145604Z
+DTSTART:20261012T180000Z
+DURATION:PT15M
+SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
+DESCRIPTION:Story com a Wort e o sticker de link para a edição completa.\
+ n\nArquivos:\n- Story 3\, Topdeck do Dia: https://fontedemana.com.br/pauta
+ /2026-10-12/story-3.jpg\n\nPasso a passo:\n1. Poste a imagem no Story.\n2.
+  Adicione o sticker de link para fontedemana.com.br com o texto Edição c
+ ompleta.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-12/#s
+ tories-tarde
+URL:https://fontedemana.com.br/pauta/2026-10-12/#stories-tarde
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Topdeck do Dia com link
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-12-reels@fontedemana.com.br
+DTSTAMP:20261012T145604Z
+DTSTART:20261012T220000Z
+DURATION:PT15M
+SUMMARY:19:00 Reels: Vídeo do jornal com música
+DESCRIPTION:Vídeo de 48 s da edição 7\, já com os valores em reais\, co
+ m música em alta e sem narração. Se o plantão dos banimentos trouxer v
+ ídeo novo\, ele substitui este.\n\nArquivos:\n- Vídeo do jornal\, 48 s: 
+ https://fontedemana.com.br/pauta/2026-10-12/reels-ed7.mp4\n\nLegenda:\nO C
+ orn Maze Superdrop abriu hoje com oito drops do Secret Lair. Em 48 segundo
+ s: os drops que mais valem\, a Wort no Topdeck do Dia e a janela de banime
+ ntos.\n\nEdição completa no link da bio: fontedemana.com.br\n\nQual drop
+  você pegou? Conta aqui nos comentários.\n\n#magicthegathering #mtg #com
+ mander #edh #mtgbrasil #magicbrasil #secretlair\n\nFonte de Mana is unoffi
+ cial Fan Content permitted under the Fan Content Policy. Not approved/endo
+ rsed by Wizards. Portions of the materials used are property of Wizards of
+  the Coast. ©Wizards of the Coast LLC.\n\nPasso a passo:\n1. No Instagram
+ \, toque em + e escolha Reel.\n2. Adicione uma música em alta pela biblio
+ teca do app e deixe o volume baixo.\n3. Cole a legenda e publique.\n\nPaut
+ a completa: https://fontedemana.com.br/pauta/2026-10-12/#reels
+URL:https://fontedemana.com.br/pauta/2026-10-12/#reels
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reels: Vídeo do jornal com música
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
