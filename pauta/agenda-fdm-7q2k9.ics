@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-10-12-threads-tarde@fontedemana.com.br
-DTSTAMP:20261012T145604Z
+DTSTAMP:20261012T173707Z
 DTSTART:20261012T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 7
@@ -52,7 +52,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-12-stories-tarde@fontedemana.com.br
-DTSTAMP:20261012T145604Z
+DTSTAMP:20261012T173707Z
 DTSTART:20261012T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -71,29 +71,70 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-12-reels@fontedemana.com.br
-DTSTAMP:20261012T145604Z
+DTSTAMP:20261012T173707Z
 DTSTART:20261012T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
 DESCRIPTION:Vídeo de 48 s da edição 7\, já com os valores em reais\, co
- m música em alta e sem narração. Se o plantão dos banimentos trouxer v
- ídeo novo\, ele substitui este.\n\nArquivos:\n- Vídeo do jornal\, 48 s: 
- https://fontedemana.com.br/pauta/2026-10-12/reels-ed7.mp4\n\nLegenda:\nO C
- orn Maze Superdrop abriu hoje com oito drops do Secret Lair. Em 48 segundo
- s: os drops que mais valem\, a Wort no Topdeck do Dia e a janela de banime
- ntos.\n\nEdição completa no link da bio: fontedemana.com.br\n\nQual drop
-  você pegou? Conta aqui nos comentários.\n\n#magicthegathering #mtg #com
- mander #edh #mtgbrasil #magicbrasil #secretlair\n\nFonte de Mana is unoffi
- cial Fan Content permitted under the Fan Content Policy. Not approved/endo
- rsed by Wizards. Portions of the materials used are property of Wizards of
-  the Coast. ©Wizards of the Coast LLC.\n\nPasso a passo:\n1. No Instagram
- \, toque em + e escolha Reel.\n2. Adicione uma música em alta pela biblio
- teca do app e deixe o volume baixo.\n3. Cole a legenda e publique.\n\nPaut
- a completa: https://fontedemana.com.br/pauta/2026-10-12/#reels
+ m música em alta e sem narração.\n\nArquivos:\n- Vídeo do jornal\, 48 
+ s: https://fontedemana.com.br/pauta/2026-10-12/reels-ed7.mp4\n\nLegenda:\n
+ O Corn Maze Superdrop abriu hoje com oito drops do Secret Lair. Em 48 segu
+ ndos: os drops que mais valem\, a Wort no Topdeck do Dia e a janela de ban
+ imentos\, que não mexeu no Commander.\n\nEdição completa no link da bio
+ : fontedemana.com.br\n\nQual drop você pegou? Conta aqui nos comentários
+ .\n\n#magicthegathering #mtg #commander #edh #mtgbrasil #magicbrasil #secr
+ etlair\n\nFonte de Mana is unofficial Fan Content permitted under the Fan 
+ Content Policy. Not approved/endorsed by Wizards. Portions of the material
+ s used are property of Wizards of the Coast. ©Wizards of the Coast LLC.\n
+ \nPasso a passo:\n1. No Instagram\, toque em + e escolha Reel.\n2. Adicion
+ e uma música em alta pela biblioteca do app e deixe o volume baixo.\n3. C
+ ole a legenda e publique.\n\nPauta completa: https://fontedemana.com.br/pa
+ uta/2026-10-12/#reels
 URL:https://fontedemana.com.br/pauta/2026-10-12/#reels
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Reels: Vídeo do jornal com música
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-12-threads-plantao@fontedemana.com.br
+DTSTAMP:20261012T173707Z
+DTSTART:20261012T200000Z
+DURATION:PT15M
+SUMMARY:17:00 Threads: Resultado dos banimentos
+DESCRIPTION:Post com o resultado da janela de hoje\, lembrando a enquete da
+ s 11h.\n\nPost:\nResultado da janela de banimentos: nada mudou no Commande
+ r. A lista de banidas e os Game Changers seguem iguais.\n\nA Wizards só m
+ exeu no Competitive Brawl\, do Arena: Yuriko\, Spider-Man 2099 e Light-Paw
+ s saíram como comandantes. Os formatos de papel ficaram como estavam.\n\n
+ Quem votou "Não muda nada" na enquete das 11h acertou. A próxima janela 
+ é em 30 de novembro.\n\nPasso a passo:\n1. Publique o post.\n2. Se der\, 
+ responda à enquete das 11h com o link deste post.\n\nPauta completa: http
+ s://fontedemana.com.br/pauta/2026-10-12/#threads-plantao
+URL:https://fontedemana.com.br/pauta/2026-10-12/#threads-plantao
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Resultado dos banimentos
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-12-stories-plantao@fontedemana.com.br
+DTSTAMP:20261012T173707Z
+DTSTART:20261012T200000Z
+DURATION:PT15M
+SUMMARY:17:00 Instagram Stories: Story do resultado
+DESCRIPTION:Story com o resultado dos banimentos.\n\nArquivos:\n- Story 4\,
+  resultado dos banimentos: https://fontedemana.com.br/pauta/2026-10-12/sto
+ ry-4.jpg\n\nPasso a passo:\n1. Poste a imagem no Story.\n2. Adicione um st
+ icker de quiz: O Commander mudou hoje? com Sim e Não\, a certa é Não.\n
+ \nPauta completa: https://fontedemana.com.br/pauta/2026-10-12/#stories-pla
+ ntao
+URL:https://fontedemana.com.br/pauta/2026-10-12/#stories-plantao
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Story do resultado
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT

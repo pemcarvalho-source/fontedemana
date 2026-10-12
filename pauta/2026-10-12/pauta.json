@@ -61,7 +61,7 @@
    "hora": "19:00",
    "rede": "Reels",
    "titulo": "Vídeo do jornal com música",
-   "oQue": "Vídeo de 48 s da edição 7, já com os valores em reais, com música em alta e sem narração. Se o plantão dos banimentos trouxer vídeo novo, ele substitui este.",
+   "oQue": "Vídeo de 48 s da edição 7, já com os valores em reais, com música em alta e sem narração.",
    "arquivos": [
     {
      "nome": "Vídeo do jornal, 48 s",
@@ -71,13 +71,47 @@
    "textos": [
     {
      "rotulo": "Legenda",
-     "texto": "O Corn Maze Superdrop abriu hoje com oito drops do Secret Lair. Em 48 segundos: os drops que mais valem, a Wort no Topdeck do Dia e a janela de banimentos.\n\nEdição completa no link da bio: fontedemana.com.br\n\nQual drop você pegou? Conta aqui nos comentários.\n\n#magicthegathering #mtg #commander #edh #mtgbrasil #magicbrasil #secretlair\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+     "texto": "O Corn Maze Superdrop abriu hoje com oito drops do Secret Lair. Em 48 segundos: os drops que mais valem, a Wort no Topdeck do Dia e a janela de banimentos, que não mexeu no Commander.\n\nEdição completa no link da bio: fontedemana.com.br\n\nQual drop você pegou? Conta aqui nos comentários.\n\n#magicthegathering #mtg #commander #edh #mtgbrasil #magicbrasil #secretlair\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
     }
    ],
    "passos": [
     "No Instagram, toque em + e escolha Reel.",
     "Adicione uma música em alta pela biblioteca do app e deixe o volume baixo.",
     "Cole a legenda e publique."
+   ]
+  },
+  {
+   "id": "threads-plantao",
+   "hora": "17:00",
+   "rede": "Threads",
+   "titulo": "Resultado dos banimentos",
+   "oQue": "Post com o resultado da janela de hoje, lembrando a enquete das 11h.",
+   "textos": [
+    {
+     "rotulo": "Post",
+     "texto": "Resultado da janela de banimentos: nada mudou no Commander. A lista de banidas e os Game Changers seguem iguais.\n\nA Wizards só mexeu no Competitive Brawl, do Arena: Yuriko, Spider-Man 2099 e Light-Paws saíram como comandantes. Os formatos de papel ficaram como estavam.\n\nQuem votou \"Não muda nada\" na enquete das 11h acertou. A próxima janela é em 30 de novembro."
+    }
+   ],
+   "passos": [
+    "Publique o post.",
+    "Se der, responda à enquete das 11h com o link deste post."
+   ]
+  },
+  {
+   "id": "stories-plantao",
+   "hora": "17:00",
+   "rede": "Instagram Stories",
+   "titulo": "Story do resultado",
+   "oQue": "Story com o resultado dos banimentos.",
+   "arquivos": [
+    {
+     "nome": "Story 4, resultado dos banimentos",
+     "url": "https://fontedemana.com.br/pauta/2026-10-12/story-4.jpg"
+    }
+   ],
+   "passos": [
+    "Poste a imagem no Story.",
+    "Adicione um sticker de quiz: O Commander mudou hoje? com Sim e Não, a certa é Não."
    ]
   }
  ]
