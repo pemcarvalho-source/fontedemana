@@ -19,6 +19,7 @@ O script acha sozinho o Chromium (`/opt/pw-browsers`), o Playwright (ou instala 
 ## Regras de conteúdo
 
 - Use só fatos que estão na edição do dia, com os mesmos números, datas e fontes. Nada de dado novo, estimativa ou conversão para reais.
+- Nunca escreva no kit avisos sobre o funcionamento da rotina, como créditos esgotados, site que não abriu ou imagem que não carregou. Esses avisos vão só na mensagem final da rotina.
 - Rumor só aparece como rumor (campo `sussurro`), dizendo que é uma fonte só ou que não foi confirmado.
 - Mesmo estilo do jornal: português do Brasil, tom de quem joga Commander, frases curtas, sem fórmulas de IA.
 - Nada de " · ", " – ", " — " ou "—". Para intervalos use "6 a 12 nov".
