@@ -1,0 +1,78 @@
+{
+ "data": "2026-10-13",
+ "fx": "Valores em reais pela cotação de 12 out (Banco Central Europeu).",
+ "avisos": [
+  {
+   "id": "gravacao",
+   "dia": "2026-10-12",
+   "hora": "18:30",
+   "rede": "Gravação",
+   "titulo": "Gravar a narração do TikTok de amanhã",
+   "oQue": "Grave a narração do TikTok de amanhã sobre a Wort, Boggart Auntie: um áudio por cena, lendo a fala de cada uma. São 4 cenas, uns 43 s no total.",
+   "arquivos": [
+    {
+     "nome": "Vídeo mudo do TikTok",
+     "url": "https://fontedemana.com.br/pauta/2026-10-13/tiktok/tiktok-mudo.mp4"
+    }
+   ],
+   "roteiro": [
+    {
+     "cena": "Cena 1, uns 8 s",
+     "tela": "A goblin que ficou 19 anos sem reimpressão",
+     "fala": "Essa comandante goblin passou dezenove anos sem reimpressão. A Wort, de Lorwyn, voltou ontem no Secret Lair."
+    },
+    {
+     "cena": "Cena 2, uns 12 s",
+     "tela": "Todo turno um goblin volta pra mão",
+     "fala": "Todo começo de turno seu, um goblin do cemitério volta pra mão. E só criatura preta ou artefato bloqueia ela. Com Goblin Matron, é tutor todo turno."
+    },
+    {
+     "cena": "Cena 3, uns 13 s",
+     "tela": "Quanto custa: Wort de Lorwyn (2007) US$ 29,48 (R$ 147,17); Drop Should You Need Us US$ 29,99 (R$ 149,72)",
+     "fala": "A de Lorwyn estava em uns 29 dólares, uns 147 reais. O drop onde ela vem como Hoggle sai por 29,99 dólares, uns 150 reais. Compara com a avulsa."
+    },
+    {
+     "cena": "Cena 4, uns 10 s",
+     "tela": "Você jogaria a Wort de comandante? @fontedemana",
+     "fala": "A Wort entra no comando do seu deck de goblins? Responde aqui. Carta do dia todo dia no arroba fonte de mana."
+    }
+   ],
+   "passos": [
+    "Abra o Gravador do iPhone num lugar silencioso e segure o celular a um palmo da boca.",
+    "Grave um áudio por cena, lendo a fala do roteiro, com uma pausa curta antes e depois.",
+    "Renomeie os áudios como cena_1, cena_2, cena_3 e cena_4.",
+    "Mande os áudios ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"áudios do TikTok de 2026-10-13\"."
+   ]
+  },
+  {
+   "id": "tiktok",
+   "hora": "11:30",
+   "rede": "TikTok",
+   "titulo": "Carta do Dia: Wort, Boggart Auntie",
+   "oQue": "Vídeo de gancho narrado sobre a Wort, a comandante goblin que voltou no Secret Lair depois de 19 anos. Poste com a legenda e fixe o comentário.",
+   "arquivos": [
+    {
+     "nome": "Vídeo mudo do TikTok",
+     "url": "https://fontedemana.com.br/pauta/2026-10-13/tiktok/tiktok-mudo.mp4"
+    }
+   ],
+   "textos": [
+    {
+     "rotulo": "Legenda",
+     "texto": "A Wort, Boggart Auntie ficou 19 anos sem reimpressão e voltou no Corn Maze Superdrop do Secret Lair, com o nome de Hoggle. Você jogaria ela de comandante?\n\nReais pela cotação de 12 out (Banco Central Europeu).\n\n#mtg #magicthegathering #commander #edh #mtgbrasil #secretlair #goblins\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+    },
+    {
+     "rotulo": "Comentário fixado",
+     "texto": "Qual goblin você puxaria de volta primeiro com a Wort? Eu começaria pelo Goblin Matron."
+    }
+   ],
+   "passos": [
+    "Abra o TikTok, toque em + e escolha o vídeo baixado.",
+    "Em Sons, escolha um som em alta da biblioteca do TikTok e deixe o volume dele entre 15% e 20%, com a narração no máximo.",
+    "Cole a Legenda. A voz é sua, então não precisa marcar rótulo de conteúdo de IA.",
+    "Publique, abra os comentários, cole o Comentário fixado e fixe ele no topo.",
+    "Se os áudios não chegaram a tempo, poste o vídeo mudo com um som em alta no volume normal."
+   ]
+  }
+ ]
+}

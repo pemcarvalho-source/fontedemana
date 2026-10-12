@@ -1,0 +1,64 @@
+{
+ "data": "2026-10-13",
+ "tema": "Carta do Dia: Wort, Boggart Auntie volta depois de 19 anos sem reimpressão",
+ "arte": "img/ed7-art.jpg",
+ "carta": "img/ed7-card.jpg",
+ "credito": "Arte: Maze of Ith, Mark Poole",
+ "fx": "Reais pela cotação de 12 out (Banco Central Europeu)",
+ "legenda": "A Wort, Boggart Auntie ficou 19 anos sem reimpressão e voltou no Corn Maze Superdrop do Secret Lair, com o nome de Hoggle. Você jogaria ela de comandante?\n\nReais pela cotação de 12 out (Banco Central Europeu).\n\n#mtg #magicthegathering #commander #edh #mtgbrasil #secretlair #goblins\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
+ "comentario": "Qual goblin você puxaria de volta primeiro com a Wort? Eu começaria pelo Goblin Matron.",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "cor": "M",
+   "chip": "Carta do Dia",
+   "kicker": "Topdeck da Fonte de Mana",
+   "titulo": "A goblin que ficou 19 anos sem reimpressão",
+   "sub": "Wort, Boggart Auntie voltou no Corn Maze Superdrop do Secret Lair",
+   "narracao": "Essa comandante goblin passou dezenove anos sem reimpressão. A Wort, de Lorwyn, voltou ontem no Secret Lair.",
+   "segundos": 8
+  },
+  {
+   "tipo": "texto",
+   "cor": "M",
+   "kicker": "O que ela faz",
+   "titulo": "Todo turno um goblin volta pra mão",
+   "sub": "E só criatura preta ou artefato bloqueia.",
+   "rodape": "2.991 decks no EDHREC jogam com ela no comando.",
+   "fonte": "Fonte: EDHREC",
+   "narracao": "Todo começo de turno seu, um goblin do cemitério volta pra mão. E só criatura preta ou artefato bloqueia ela. Com Goblin Matron, é tutor todo turno.",
+   "segundos": 12
+  },
+  {
+   "tipo": "lista",
+   "cor": "A",
+   "chip": "No bolso",
+   "kicker": "Quanto custa",
+   "linhas": [
+    {
+     "nome": "Wort de Lorwyn (2007)",
+     "valor": "US$ 29,48",
+     "real": "(R$ 147,17)"
+    },
+    {
+     "nome": "Drop Should You Need Us",
+     "valor": "US$ 29,99",
+     "real": "(R$ 149,72)"
+    }
+   ],
+   "rodape": "No drop ela vem com o nome de Hoggle, Heart in Conflict.",
+   "fonte": "TCGplayer via Scryfall e Wizards, 12 out",
+   "narracao": "A de Lorwyn estava em uns 29 dólares, uns 147 reais. O drop onde ela vem como Hoggle sai por 29,99 dólares, uns 150 reais. Compara com a avulsa.",
+   "segundos": 12.8
+  },
+  {
+   "tipo": "cta",
+   "cor": "M",
+   "kicker": "Todo dia no Instagram",
+   "titulo": "Você jogaria a Wort de comandante?",
+   "destaque": "@fontedemana",
+   "narracao": "A Wort entra no comando do seu deck de goblins? Responde aqui. Carta do dia todo dia no arroba fonte de mana.",
+   "segundos": 10
+  }
+ ]
+}
