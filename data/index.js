@@ -1,10 +1,18 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "Wort, Boggart Auntie",
   "Fierce Guardianship",
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 7,
+   "date": "2026-10-12",
+   "dateLabel": "Segunda, 12 de outubro de 2026",
+   "head": "Corn Maze Superdrop abre hoje às 13h com Wort, Trinisphere e Swan Song",
+   "biome": "A"
+  },
   {
    "n": 6,
    "date": "2026-10-11",
