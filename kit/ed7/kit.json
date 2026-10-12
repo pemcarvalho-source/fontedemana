@@ -1,0 +1,203 @@
+{
+ "n": 7,
+ "data": "12 out",
+ "carrossel": {
+  "capa": {
+   "cor": "A",
+   "titulo": "Corn Maze Superdrop abre hoje",
+   "sub": "Oito drops do Secret Lair a partir das <b>13h de Brasília</b>, com <b>Wort</b>, <b>Trinisphere</b> e <b>Swan Song</b>",
+   "credito": "Arte: Maze of Ith, Mark Poole"
+  },
+  "cartoes": [
+   {
+    "cor": "A",
+    "titulo": "Corn Maze Superdrop",
+    "itens": [
+     {
+      "cor": "W",
+      "html": "Venda no site do Secret Lair às <b>13h de Brasília</b>, com pré-fila às 12h"
+     },
+     {
+      "cor": "A",
+      "html": "<b>US$ 29,99</b> cada drop, ou <b>US$ 39,99</b> em foil"
+     },
+     {
+      "cor": "G",
+      "html": "Labirinto, KPop Demon Hunters, Marvel Zombies e drops de artista"
+     },
+     {
+      "cor": "U",
+      "html": "Staples: <b>Trinisphere</b>, <b>Swan Song</b>, <b>Underworld Breach</b> e <b>Ashnod's Altar</b>"
+     }
+    ],
+    "nota": {
+     "rotulo": "No seu bolso",
+     "texto": "a cada US$ 199 gastos vem um Maze of Ith foil de brinde, enquanto durar o estoque."
+    },
+    "fonte": "Fontes: Wizards, Wargamer, The Spark"
+   },
+   {
+    "cor": "A",
+    "titulo": "Quais drops valem mais",
+    "itens": [
+     {
+      "cor": "A",
+      "html": "<b>Fear Me, Love Me</b> soma uns <b>US$ 56,81</b> em avulsas"
+     },
+     {
+      "cor": "G",
+      "html": "<b>Peace, Love, &amp; Treefolk</b> soma uns <b>US$ 50,78</b>"
+     },
+     {
+      "cor": "B",
+      "html": "Veronique Meignaud (US$ 26,45) e terrenos não foil (US$ 11,16) ficam abaixo do preço do drop"
+     }
+    ],
+    "nota": {
+     "rotulo": "No seu bolso",
+     "texto": "se só quer a Wort, compara com a avulsa antes de entrar na fila."
+    },
+    "fonte": "Fonte: contas da Wargamer, soma das avulsas de cada drop"
+   }
+  ],
+  "topdeck": {
+   "titulo": "Wort, Boggart Auntie",
+   "habilidades": [
+    {
+     "rotulo": "Amedrontar",
+     "texto": "Só criatura preta ou artefato consegue bloquear a Wort"
+    },
+    {
+     "rotulo": "Goblin de volta todo turno",
+     "texto": "Na sua manutenção, um goblin do cemitério volta pra mão"
+    }
+   ],
+   "extra": "Comandante de <b>2.991 decks</b> no EDHREC, ganha hoje a primeira reimpressão desde <b>Lorwyn</b>, no Superdrop.",
+   "credito": "Ilustração de Larry MacDougall"
+  },
+  "ban": {
+   "numero": "12",
+   "unidade": "OUT",
+   "texto": "Hoje tem janela de banimentos. Até o fechamento nada saiu sobre o Commander, que não muda a lista desde 9 de fevereiro."
+  },
+  "turnos": [
+   {
+    "cor": "A",
+    "data": "12 out",
+    "texto": "Corn Maze às 13h e bans"
+   },
+   {
+    "cor": "R",
+    "data": "13 out",
+    "texto": "Prazo do sindicato da Wizards"
+   },
+   {
+    "cor": "W",
+    "data": "até 15 out",
+    "texto": "Festa de Commander nas lojas"
+   },
+   {
+    "cor": "A",
+    "data": "2 nov",
+    "texto": "Venda do Countdown Kit da Marvel"
+   },
+   {
+    "cor": "G",
+    "data": "13 nov",
+    "texto": "Star Trek e MagicCon: Atlanta"
+   }
+  ],
+  "sussurro": "Um vazamento fala num precon do Homem-Aranha em dezembro, com Peter Parker de comandante. Pode ser trote, e a Wizards não anunciou nada."
+ },
+ "video": {
+  "cena1": {
+   "titulo": "Corn Maze Superdrop abre hoje",
+   "pilulas": [
+    "13h de Brasília",
+    "8 drops",
+    "US$ 29,99"
+   ]
+  },
+  "cena2": {
+   "rotulo": "No bolso",
+   "cor": "A",
+   "titulo": "Quais drops valem mais",
+   "itens": [
+    "<b>Fear Me, Love Me</b>: US$ 56,81 em avulsas",
+    "<b>Treefolk</b>: US$ 50,78 em avulsas",
+    "O drop custa <b>US$ 29,99</b>"
+   ],
+   "fonte": "Fonte: contas da Wargamer"
+  },
+  "cena3": {
+   "linhas": [
+    "<b>Amedrontar</b>: quase ninguém bloqueia",
+    "Goblin <b>de volta</b> todo turno",
+    "Primeira reimpressão desde <b>Lorwyn</b>"
+   ]
+  },
+  "cena4": {
+   "texto": "Hoje tem janela de banimentos. Até agora nada sobre o Commander.",
+   "sussurro": "Um precon do Homem-Aranha em dezembro? Pode ser trote."
+  }
+ },
+ "textos": {
+  "legendaCarrossel": "O Corn Maze Superdrop abre hoje às 13h de Brasília! São oito drops do Secret Lair, com Labirinto, KPop Demon Hunters e Marvel Zombies, e tem staple de Commander em quase todos: Wort, Trinisphere, Swan Song, Underworld Breach e Ashnod's Altar.\n\nNo carrossel tem preço, os drops que mais devolvem em avulsas pelas contas da Wargamer, a Wort explicada no Topdeck do Dia e a agenda da semana.\n\nA edição completa, com as fontes e os Sussurros do dia, está no link da bio: fontedemana.com.br\n\nSalva e manda pro seu grupo de Commander.\n\nArte: Maze of Ith, de Mark Poole. Wort, Boggart Auntie, de Larry MacDougall.\n\n#magicthegathering #mtg #commander #edh #mtgcommander #mtgbrasil #magicbrasil #edhbrasil #secretlair",
+  "legendaVideo": "Corn Maze Superdrop hoje às 13h, os drops que mais valem e a Wort no Topdeck do Dia. Tudo em 48 segundos.\n\nEdição completa no link da bio: fontedemana.com.br\n\nQual drop você vai tentar pegar? Conta aqui nos comentários.\n\n#magicthegathering #mtg #commander #edh #mtgbrasil #magicbrasil #secretlair",
+  "threadsCarrossel": "O Corn Maze Superdrop abre hoje às 13h de Brasília, com oito drops do Secret Lair e staple de Commander em quase todos.\n\nArrasta as imagens pra ver preço, os drops que mais valem e a Wort no Topdeck do Dia. Edição completa em fontedemana.com.br",
+  "threadsVideo": "Corn Maze Superdrop hoje às 13h, os drops que mais devolvem em avulsas e a Wort explicada, tudo em 48 segundos.\n\nEdição completa em fontedemana.com.br",
+  "narracao": [
+   {
+    "cena": "Cena 1, de 0 a 13 s (Notícia Lendária)",
+    "texto": "O Corn Maze Superdrop abre hoje à uma da tarde, no horário de Brasília! São oito drops do Secret Lair, a 29 dólares e 99 cada, com staple de Commander em quase todos."
+   },
+   {
+    "cena": "Cena 2, de 13 a 21 s (No bolso)",
+    "texto": "No bolso, pelas contas da Wargamer, Fear Me, Love Me e o drop dos treefolks são os que mais devolvem em cartas avulsas."
+   },
+   {
+    "cena": "Cena 3, de 21 a 32 s (Topdeck do Dia)",
+    "texto": "O Topdeck do Dia é a Wort, Boggart Auntie. Quase ninguém bloqueia, e todo turno um goblin volta do cemitério pra sua mão."
+   },
+   {
+    "cena": "Cena 4, de 32 a 41 s (Riscos do Ban e Sussurro)",
+    "texto": "Hoje também tem janela de banimentos, mas até agora nada sobre o Commander. E tem rumor de precon do Homem-Aranha, que pode ser trote."
+   },
+   {
+    "cena": "Cena 5, de 41 a 48 s (chamada final)",
+    "texto": "A edição completa está no link da bio, em fontedemana.com.br. Segue a gente pra receber todo dia!"
+   }
+  ],
+  "threadsFio": [
+   "O Corn Maze Superdrop abre hoje às 13h de Brasília.\n\nSão oito drops do Secret Lair de uma vez, com staple de Commander em quase todos. Neste fio tem preço, quais drops valem mais, a carta do dia e o que esperar da janela de banimentos.",
+   "Os drops: Fear Me, Love Me, Should You Need Us e Through the Labyrinth (do filme Labirinto), How It's Done (KPop Demon Hunters), Marvel: Zombies, Artist Series: Veronique Meignaud, Manufactured Grounds e Peace, Love, & Treefolk.\n\nCada um sai por US$ 29,99, ou US$ 39,99 em foil. A pré-fila abre às 12h e a venda às 13h.",
+   "Pra Commander, chamam atenção Wort, Boggart Auntie, Trinisphere, Timber Protector, Swan Song, Underworld Breach, Ashnod's Altar e Tempt with Discovery.\n\nE a cada US$ 199 gastos vem um Maze of Ith foil de brinde, enquanto durar o estoque.",
+   "Na conta da Wargamer, Fear Me, Love Me soma uns US$ 56,81 em avulsas e Peace, Love, & Treefolk uns US$ 50,78, os dois acima do preço do drop. O da Veronique Meignaud (US$ 26,45) e o de terrenos não foil (US$ 11,16) ficam abaixo.",
+   "Topdeck do Dia: Wort, Boggart Auntie.\n\nComandante goblin em preto e vermelho. Só criatura preta ou artefato bloqueia ela, e no começo de cada turno seu um goblin do cemitério volta pra mão. Não era reimpressa desde Lorwyn, de 2007, e volta hoje no Superdrop.",
+   "Hoje também tem janela de banimentos. Até o fechamento da edição nada saiu sobre o Commander, que não muda a lista desde 9 de fevereiro.\n\nA edição completa, com todas as fontes, está em fontedemana.com.br"
+  ],
+  "threadsAvulsos": [
+   {
+    "titulo": "Pergunta para a comunidade",
+    "texto": "O Corn Maze Superdrop abre hoje às 13h com oito drops do Secret Lair.\n\nQual você vai tentar pegar: Labirinto, KPop Demon Hunters, Marvel Zombies ou o dos treefolks?",
+    "obs": "Dá para postar como enquete, com as quatro opções."
+   },
+   {
+    "titulo": "Dica de regra",
+    "texto": "Dica rápida de Commander: a Wort, Boggart Auntie devolve o goblin do cemitério pra mão, não pro campo. Você ainda paga a mana pra conjurar de novo.\n\nE carta com Metamorfo conta como Goblin no cemitério, então dá pra puxar um Changeling de volta."
+   },
+   {
+    "titulo": "No bolso",
+    "texto": "Até hoje a Wort, Boggart Auntie só tinha a impressão de Lorwyn, de 2007, e passava dos US$ 29 no TCGplayer.\n\nHoje ela ganha a primeira reimpressão, no drop Should You Need Us do Corn Maze. Se só quer ela pro deck de goblins, compara com a avulsa antes de entrar na fila."
+   },
+   {
+    "titulo": "Agenda",
+    "texto": "Agenda de Commander:\n\n12 de outubro: Corn Maze Superdrop às 13h e janela de banimentos\n13 de outubro: prazo do sindicato United Wizards of the Coast\nAté 15 de outubro: primeira rodada da Festa de Commander nas lojas\n2 de novembro: venda do Countdown Kit da Marvel, às 14h\n\nJá marcou com a sua mesa?"
+   },
+   {
+    "titulo": "Sussurro",
+    "texto": "Um vazamento de setembro, repercutido pelo MTG Rocks, fala num precon Jeskai do Homem-Aranha chamado Spider-Mania, com Peter Parker de comandante e lançamento em 4 de dezembro.\n\nO próprio site avisa que pode ser trote, e a Wizards não anunciou nada."
+   }
+  ]
+ }
+}
