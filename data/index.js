@@ -1,11 +1,19 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "Smothering Tithe",
   "Wort, Boggart Auntie",
   "Fierce Guardianship",
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 8,
+   "date": "2026-10-13",
+   "dateLabel": "Terça, 13 de outubro de 2026",
+   "head": "Janela de banimentos passa e o Commander fica como está",
+   "biome": "B"
+  },
   {
    "n": 7,
    "date": "2026-10-12",
