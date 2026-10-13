@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-10-12-threads-tarde@fontedemana.com.br
-DTSTAMP:20261013T100010Z
+DTSTAMP:20261013T102208Z
 DTSTART:20261012T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 7
@@ -52,7 +52,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-12-stories-tarde@fontedemana.com.br
-DTSTAMP:20261013T100010Z
+DTSTAMP:20261013T102208Z
 DTSTART:20261012T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -71,7 +71,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-12-reels@fontedemana.com.br
-DTSTAMP:20261013T100010Z
+DTSTAMP:20261013T102208Z
 DTSTART:20261012T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -99,7 +99,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-12-threads-plantao@fontedemana.com.br
-DTSTAMP:20261013T100010Z
+DTSTAMP:20261013T102208Z
 DTSTART:20261012T200000Z
 DURATION:PT15M
 SUMMARY:17:00 Threads: Resultado dos banimentos
@@ -121,7 +121,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-12-stories-plantao@fontedemana.com.br
-DTSTAMP:20261013T100010Z
+DTSTAMP:20261013T102208Z
 DTSTART:20261012T200000Z
 DURATION:PT15M
 SUMMARY:17:00 Instagram Stories: Story do resultado
@@ -140,7 +140,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-gravacao@fontedemana.com.br
-DTSTAMP:20261013T100010Z
+DTSTAMP:20261013T102208Z
 DTSTART:20261012T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -178,7 +178,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-tiktok@fontedemana.com.br
-DTSTAMP:20261013T100010Z
+DTSTAMP:20261013T102208Z
 DTSTART:20261013T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Carta do Dia: Wort\, Boggart Auntie
@@ -205,6 +205,204 @@ URL:https://fontedemana.com.br/pauta/2026-10-13/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:TikTok: Carta do Dia: Wort\, Boggart Auntie
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-13-threads-manha@fontedemana.com.br
+DTSTAMP:20261013T102208Z
+DTSTART:20261013T133000Z
+DURATION:PT15M
+SUMMARY:10:30 Threads: Pergunta do dia sobre os bans
+DESCRIPTION:Post de pergunta para puxar conversa: a janela passou sem mudan
+ ça\, qual carta a pessoa queria ver banida ou liberada.\n\nPost:\nA janel
+ a de banimentos passou e o Commander ficou igual.\n\nVocê queria ver algu
+ ma carta banida ou liberada? Qual?\n\nPasso a passo:\n1. Abra o Threads e 
+ cole o Post.\n2. Publique e responda quem comentar na primeira hora\, puxa
+ ndo o nome da carta citada.\n\nPauta completa: https://fontedemana.com.br/
+ pauta/2026-10-13/#threads-manha
+URL:https://fontedemana.com.br/pauta/2026-10-13/#threads-manha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Pergunta do dia sobre os bans
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-13-stories-manha@fontedemana.com.br
+DTSTAMP:20261013T102208Z
+DTSTART:20261013T133000Z
+DURATION:PT15M
+SUMMARY:10:30 Instagram Stories: Capa do carrossel com sticker de pergunta
+DESCRIPTION:Story com a capa da edição 8 e um sticker de pergunta para aq
+ uecer o carrossel do meio-dia.\n\nArquivos:\n- Carrossel 1 de 6: https://f
+ ontedemana.com.br/kit/ed8/carrossel-01.jpg\n\nPasso a passo:\n1. Baixe a c
+ apa e poste no Story.\n2. Adicione o sticker de Pergunta no terço de baix
+ o\, sem cobrir o título: Qual carta você queria ver banida no Commander?
+ \n3. Publique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10
+ -13/#stories-manha
+URL:https://fontedemana.com.br/pauta/2026-10-13/#stories-manha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Capa do carrossel com sticker de pergunta
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-13-feed@fontedemana.com.br
+DTSTAMP:20261013T102208Z
+DTSTART:20261013T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram feed: Carrossel da edição 8
+DESCRIPTION:Carrossel de 6 imagens: bans sem mudança\, 24 precons em 2027\
+ , Smothering Tithe no Topdeck do Dia e a agenda.\n\nArquivos:\n- Carrossel
+  1 de 6: https://fontedemana.com.br/kit/ed8/carrossel-01.jpg\n- Carrossel 
+ 2 de 6: https://fontedemana.com.br/kit/ed8/carrossel-02.jpg\n- Carrossel 3
+  de 6: https://fontedemana.com.br/kit/ed8/carrossel-03.jpg\n- Carrossel 4 
+ de 6: https://fontedemana.com.br/kit/ed8/carrossel-04.jpg\n- Carrossel 5 d
+ e 6: https://fontedemana.com.br/kit/ed8/carrossel-05.jpg\n- Carrossel 6 de
+  6: https://fontedemana.com.br/kit/ed8/carrossel-06.jpg\n\nLegenda:\nA jan
+ ela de banimentos de 12 de outubro passou e o Commander ficou como estava.
+  Nenhuma carta banida\, nenhuma liberada\, e a lista de Game Changers nem 
+ foi citada. A próxima chance de mudança é 30 de novembro.\n\nE tem novi
+ dade pra 2027: Mark Rosewater confirmou pelo menos quatro precons em cada 
+ uma das seis coleções do ano\, ou seja\, 24 decks de Commander no mínim
+ o.\n\nNo carrossel tem tudo isso\, o Smothering Tithe explicado no Topdeck
+  do Dia e a agenda.\n\nA edição completa\, com as fontes e os Sussurros\
+ , está no link da bio: fontedemana.com.br\n\nArte: Stasis\, de Jérémie 
+ Solomon. Smothering Tithe\, de Mark Behm.\n\nValores em reais pela cotaç
+ ão de 9 out (Banco Central\, PTAX).\n\n#magicthegathering #mtg #commander
+  #edh #mtgcommander #mtgbrasil #magicbrasil #edhbrasil #gamechangers\n\nFo
+ nte de Mana is unofficial Fan Content permitted under the Fan Content Poli
+ cy. Not approved/endorsed by Wizards. Portions of the materials used are p
+ roperty of Wizards of the Coast. ©Wizards of the Coast LLC.\n\nPasso a pa
+ sso:\n1. No Instagram\, toque em + e escolha Post.\n2. Selecione as 6 imag
+ ens na ordem\, da 1 à 6.\n3. Cole a Legenda e publique.\n\nPauta completa
+ : https://fontedemana.com.br/pauta/2026-10-13/#feed
+URL:https://fontedemana.com.br/pauta/2026-10-13/#feed
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram feed: Carrossel da edição 8
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-13-stories-meio-dia@fontedemana.com.br
+DTSTAMP:20261013T102208Z
+DTSTART:20261013T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
+DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
+  sobre a janela de banimentos.\n\nPasso a passo:\n1. No carrossel publicad
+ o\, toque no avião de papel e em Adicionar post ao seu story.\n2. Adicion
+ e o sticker de Enquete embaixo do post: A Wizards devia ter mexido no Comm
+ ander? com Sim e Não.\n3. Publique.\n\nPauta completa: https://fontedeman
+ a.com.br/pauta/2026-10-13/#stories-meio-dia
+URL:https://fontedemana.com.br/pauta/2026-10-13/#stories-meio-dia
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-13-threads-tarde@fontedemana.com.br
+DTSTAMP:20261013T102208Z
+DTSTART:20261013T180000Z
+DURATION:PT15M
+SUMMARY:15:00 Threads: Fio da edição 8
+DESCRIPTION:Fio de 5 posts sobre a janela de banimentos\, os 24 precons de 
+ 2027 e o Smothering Tithe. Um bloco por post\, na ordem.\n\nPost 1:\nSaiu 
+ o anúncio de banimentos de 12 de outubro\, e o Commander de papel ficou d
+ e fora.\n\nNeste fio: o que mudou (nada)\, os 24 precons de 2027 e a carta
+  do dia.\n\nPost 2:\nNo Commander\, nenhuma carta foi banida nem liberada.
+  A lista de Game Changers nem aparece no anúncio\, então segue igual. A 
+ única mexida foi no Brawl competitivo do MTG Arena\, que é outro formato
+ .\n\nA próxima janela de banimentos é em 30 de novembro.\n\nPost 3:\nNov
+ idade pra 2027: Mark Rosewater confirmou no blog dele que as seis coleçõ
+ es do ano vêm com pelo menos quatro precons cada. Dá 24 decks de Command
+ er no mínimo\, sem contar produtos extras.\n\nPost 4:\nTopdeck do Dia: Sm
+ othering Tithe.\n\nEncantamento branco de quatro manas. Toda vez que um op
+ onente compra um card\, ele paga 2 ou você cria um Tesouro. É Game Chang
+ er\, está em 946 mil decks no EDHREC e sai por US$ 56\,92 (R$ 283\,99) no
+  TCGplayer.\n\nPost 5:\nA edição completa\, com todas as fontes\, está 
+ em fontedemana.com.br\n\nValores em reais pela cotação de 9 out (Banco C
+ entral\, PTAX).\n\nPasso a passo:\n1. Publique o Post 1 e toque em adicion
+ ar ao fio para colar os outros\, na ordem.\n2. Responda quem comentar na p
+ rimeira hora.\n\nValores em reais pela cotação PTAX de 9 out\, US$ 1 = R
+ $ 4\,9892 (Banco Central).\n\nPauta completa: https://fontedemana.com.br/p
+ auta/2026-10-13/#threads-tarde
+URL:https://fontedemana.com.br/pauta/2026-10-13/#threads-tarde
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Fio da edição 8
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-13-stories-tarde@fontedemana.com.br
+DTSTAMP:20261013T102208Z
+DTSTART:20261013T180000Z
+DURATION:PT15M
+SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
+DESCRIPTION:Story com a imagem do Smothering Tithe no Topdeck do Dia e o st
+ icker de link para a edição completa.\n\nArquivos:\n- Topdeck do Dia\, S
+ mothering Tithe: https://fontedemana.com.br/kit/ed8/carrossel-04.jpg\n\nPa
+ sso a passo:\n1. Baixe a imagem e poste no Story.\n2. Adicione o sticker d
+ e Link para fontedemana.com.br com o texto Edição completa\, embaixo da 
+ carta.\n3. Publique.\n\nPauta completa: https://fontedemana.com.br/pauta/2
+ 026-10-13/#stories-tarde
+URL:https://fontedemana.com.br/pauta/2026-10-13/#stories-tarde
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Topdeck do Dia com link
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-13-reels@fontedemana.com.br
+DTSTAMP:20261013T102208Z
+DTSTART:20261013T220000Z
+DURATION:PT15M
+SUMMARY:19:00 Reels: Vídeo do jornal com música
+DESCRIPTION:Vídeo de 48 s da edição 8 com música em alta e sem narraç
+ ão.\n\nArquivos:\n- Vídeo do jornal\, 48 s: https://fontedemana.com.br/k
+ it/ed8/video-vertical-ed8.mp4\n\nLegenda:\nOs bans passaram e o Commander 
+ ficou igual\, 2027 vem com pelo menos 24 precons e o Smothering Tithe no T
+ opdeck do Dia. Tudo em 48 segundos.\n\nEdição completa no link da bio: f
+ ontedemana.com.br\n\nVocê queria algum ban ou unban nessa janela? Conta a
+ qui nos comentários.\n\n#magicthegathering #mtg #commander #edh #mtgbrasi
+ l #magicbrasil\n\nFonte de Mana is unofficial Fan Content permitted under 
+ the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the 
+ materials used are property of Wizards of the Coast. ©Wizards of the Coas
+ t LLC.\n\nPasso a passo:\n1. No Instagram\, toque em + e escolha Reel.\n2.
+  Escolha o vídeo e adicione uma música em alta pela biblioteca do app\, 
+ com volume baixo.\n3. Cole a Legenda e publique.\n\nPauta completa: https:
+ //fontedemana.com.br/pauta/2026-10-13/#reels
+URL:https://fontedemana.com.br/pauta/2026-10-13/#reels
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reels: Vídeo do jornal com música
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-13-threads-noite@fontedemana.com.br
+DTSTAMP:20261013T102208Z
+DTSTART:20261013T220000Z
+DURATION:PT15M
+SUMMARY:19:00 Threads: Post com o vídeo do jornal
+DESCRIPTION:Post no Threads com o mesmo vídeo de 48 s da edição 8.\n\nAr
+ quivos:\n- Vídeo do jornal\, 48 s: https://fontedemana.com.br/kit/ed8/vid
+ eo-vertical-ed8.mp4\n\nPost:\nBans sem mudança no Commander\, pelo menos 
+ 24 precons em 2027 e o Smothering Tithe explicado\, tudo em 48 segundos.\n
+ \nEdição completa em fontedemana.com.br\n\nPasso a passo:\n1. No Threads
+ \, anexe o vídeo baixado.\n2. Cole o Post e publique.\n\nPauta completa: 
+ https://fontedemana.com.br/pauta/2026-10-13/#threads-noite
+URL:https://fontedemana.com.br/pauta/2026-10-13/#threads-noite
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Post com o vídeo do jornal
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
