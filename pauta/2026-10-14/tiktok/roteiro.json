@@ -1,0 +1,50 @@
+{
+ "data": "2026-10-14",
+ "tema": "Fonte do Dia: a janela de banimentos passou e o Commander ficou igual",
+ "arte": "img/ed8-art.jpg",
+ "carta": "img/ed8-card.jpg",
+ "credito": "Arte: Stasis, Jérémie Solomon",
+ "fx": null,
+ "legenda": "A janela de banimentos de 12 de outubro passou e o Commander ficou como estava. Nenhuma banida, nenhuma liberada, e os Game Changers seguem iguais. A próxima é 30 de novembro. Qual carta você acha que cai?\n\n#mtg #magicthegathering #commander #edh #mtgbrasil #banimento #gamechangers\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
+ "comentario": "Meu palpite pra 30 de novembro: a lista de Game Changers mexe antes da lista de banidas. E o seu?",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "cor": "B",
+   "chip": "Fonte do Dia",
+   "kicker": "Banimentos de 12 de outubro",
+   "titulo": "O martelo do ban não caiu no Commander",
+   "sub": "Ninguém banido, ninguém liberado e os Game Changers seguem iguais",
+   "narracao": "Saiu o anúncio de banimentos de 12 de outubro e o Commander ficou de fora. Ninguém foi banido e ninguém voltou.",
+   "segundos": 9.6
+  },
+  {
+   "tipo": "texto",
+   "cor": "B",
+   "kicker": "O que mudou",
+   "titulo": "Só o Brawl do Arena mexeu",
+   "sub": "A lista de Game Changers nem aparece no anúncio, então segue como estava.",
+   "fonte": "Fonte: Wizards e MTG Rocks",
+   "narracao": "A única mudança foi no Brawl competitivo do MTG Arena, que é outro formato. A lista de Game Changers nem foi citada, então segue igual.",
+   "segundos": 11.2
+  },
+  {
+   "tipo": "texto",
+   "cor": "U",
+   "kicker": "Na sua mesa",
+   "titulo": "Seu deck continua no mesmo bracket",
+   "sub": "Smothering Tithe segue Game Changer, e quem segurava troca ganhou mais um mês e meio.",
+   "narracao": "Na prática, seu deck continua no mesmo bracket. Smothering Tithe segue como Game Changer, e quem segurava troca esperando ban ganhou mais um mês e meio.",
+   "segundos": 11.6
+  },
+  {
+   "tipo": "cta",
+   "cor": "M",
+   "kicker": "Todo dia no Instagram",
+   "titulo": "Próxima janela: 30 de novembro",
+   "destaque": "@fontedemana",
+   "narracao": "A próxima janela é 30 de novembro. Qual carta você acha que cai? Comenta aqui e segue o arroba fonte de mana.",
+   "segundos": 10
+  }
+ ]
+}

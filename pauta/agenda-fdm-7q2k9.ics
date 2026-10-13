@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-10-12-threads-tarde@fontedemana.com.br
-DTSTAMP:20261013T102208Z
+DTSTAMP:20261013T212402Z
 DTSTART:20261012T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 7
@@ -52,7 +52,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-12-stories-tarde@fontedemana.com.br
-DTSTAMP:20261013T102208Z
+DTSTAMP:20261013T212402Z
 DTSTART:20261012T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -71,7 +71,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-12-reels@fontedemana.com.br
-DTSTAMP:20261013T102208Z
+DTSTAMP:20261013T212402Z
 DTSTART:20261012T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -99,7 +99,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-12-threads-plantao@fontedemana.com.br
-DTSTAMP:20261013T102208Z
+DTSTAMP:20261013T212402Z
 DTSTART:20261012T200000Z
 DURATION:PT15M
 SUMMARY:17:00 Threads: Resultado dos banimentos
@@ -121,7 +121,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-12-stories-plantao@fontedemana.com.br
-DTSTAMP:20261013T102208Z
+DTSTAMP:20261013T212402Z
 DTSTART:20261012T200000Z
 DURATION:PT15M
 SUMMARY:17:00 Instagram Stories: Story do resultado
@@ -140,7 +140,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-gravacao@fontedemana.com.br
-DTSTAMP:20261013T102208Z
+DTSTAMP:20261013T212402Z
 DTSTART:20261012T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -178,7 +178,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-tiktok@fontedemana.com.br
-DTSTAMP:20261013T102208Z
+DTSTAMP:20261013T212402Z
 DTSTART:20261013T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Carta do Dia: Wort\, Boggart Auntie
@@ -210,7 +210,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-threads-manha@fontedemana.com.br
-DTSTAMP:20261013T102208Z
+DTSTAMP:20261013T212402Z
 DTSTART:20261013T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia sobre os bans
@@ -230,7 +230,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-stories-manha@fontedemana.com.br
-DTSTAMP:20261013T102208Z
+DTSTAMP:20261013T212402Z
 DTSTART:20261013T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do carrossel com sticker de pergunta
@@ -250,7 +250,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-feed@fontedemana.com.br
-DTSTAMP:20261013T102208Z
+DTSTAMP:20261013T212402Z
 DTSTART:20261013T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 8
@@ -288,7 +288,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261013T102208Z
+DTSTAMP:20261013T212402Z
 DTSTART:20261013T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -307,7 +307,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-threads-tarde@fontedemana.com.br
-DTSTAMP:20261013T102208Z
+DTSTAMP:20261013T212402Z
 DTSTART:20261013T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 8
@@ -341,7 +341,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-stories-tarde@fontedemana.com.br
-DTSTAMP:20261013T102208Z
+DTSTAMP:20261013T212402Z
 DTSTART:20261013T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -361,7 +361,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-reels@fontedemana.com.br
-DTSTAMP:20261013T102208Z
+DTSTAMP:20261013T212402Z
 DTSTART:20261013T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -388,7 +388,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-threads-noite@fontedemana.com.br
-DTSTAMP:20261013T102208Z
+DTSTAMP:20261013T212402Z
 DTSTART:20261013T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Threads: Post com o vídeo do jornal
@@ -403,6 +403,75 @@ URL:https://fontedemana.com.br/pauta/2026-10-13/#threads-noite
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Threads: Post com o vídeo do jornal
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-14-gravacao@fontedemana.com.br
+DTSTAMP:20261013T212402Z
+DTSTART:20261013T213000Z
+DURATION:PT15M
+SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
+DESCRIPTION:Grave a narração do TikTok de amanhã sobre a janela de banim
+ entos que passou sem mexer no Commander: um áudio por cena\, lendo a fala
+  de cada uma. São 4 cenas\, uns 42 s no total.\n\nArquivos:\n- Vídeo mud
+ o do TikTok: https://fontedemana.com.br/pauta/2026-10-14/tiktok/tiktok-mud
+ o.mp4\n\nRoteiro de gravação:\nCena 1\, uns 10 s\nNa tela: O martelo do 
+ ban não caiu no Commander\nFala: Saiu o anúncio de banimentos de 12 de o
+ utubro e o Commander ficou de fora. Ninguém foi banido e ninguém voltou.
+ \n\nCena 2\, uns 11 s\nNa tela: Só o Brawl do Arena mexeu\nFala: A única
+  mudança foi no Brawl competitivo do MTG Arena\, que é outro formato. A 
+ lista de Game Changers nem foi citada\, então segue igual.\n\nCena 3\, un
+ s 12 s\nNa tela: Seu deck continua no mesmo bracket\nFala: Na prática\, s
+ eu deck continua no mesmo bracket. Smothering Tithe segue como Game Change
+ r\, e quem segurava troca esperando ban ganhou mais um mês e meio.\n\nCen
+ a 4\, uns 10 s\nNa tela: Próxima janela: 30 de novembro @fontedemana\nFal
+ a: A próxima janela é 30 de novembro. Qual carta você acha que cai? Com
+ enta aqui e segue o arroba fonte de mana.\n\n\nPasso a passo:\n1. Abra o G
+ ravador do iPhone num lugar silencioso e segure o celular a um palmo da bo
+ ca.\n2. Grave um áudio por cena\, lendo a fala do roteiro\, com uma pausa
+  curta antes e depois.\n3. Renomeie os áudios como cena_1\, cena_2\, cena
+ _3 e cena_4.\n4. Mande os áudios ao Claude no projeto MGT strategy (pode 
+ ser respondendo à mensagem desta tarefa) dizendo "áudios do TikTok de 20
+ 26-10-14".\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-14/
+ #gravacao
+URL:https://fontedemana.com.br/pauta/2026-10-14/#gravacao
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Gravação: Gravar a narração do TikTok de amanhã
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-14-tiktok@fontedemana.com.br
+DTSTAMP:20261013T212402Z
+DTSTART:20261014T143000Z
+DURATION:PT15M
+SUMMARY:11:30 TikTok: Fonte do Dia: o ban passou e o Commander ficou igual
+DESCRIPTION:Vídeo de gancho narrado sobre a janela de banimentos de 12 de 
+ outubro\, que não mexeu no Commander nem nos Game Changers. Poste com a l
+ egenda e fixe o comentário.\n\nArquivos:\n- Vídeo mudo do TikTok: https:
+ //fontedemana.com.br/pauta/2026-10-14/tiktok/tiktok-mudo.mp4\n\nLegenda:\n
+ A janela de banimentos de 12 de outubro passou e o Commander ficou como es
+ tava. Nenhuma banida\, nenhuma liberada\, e os Game Changers seguem iguais
+ . A próxima é 30 de novembro. Qual carta você acha que cai?\n\n#mtg #ma
+ gicthegathering #commander #edh #mtgbrasil #banimento #gamechangers\n\nFon
+ te de Mana is unofficial Fan Content permitted under the Fan Content Polic
+ y. Not approved/endorsed by Wizards. Portions of the materials used are pr
+ operty of Wizards of the Coast. ©Wizards of the Coast LLC.\n\nComentário
+  fixado:\nMeu palpite pra 30 de novembro: a lista de Game Changers mexe an
+ tes da lista de banidas. E o seu?\n\nPasso a passo:\n1. Abra o TikTok\, to
+ que em + e escolha o vídeo baixado.\n2. Em Sons\, escolha um som em alta 
+ da biblioteca do TikTok e deixe o volume dele entre 15% e 20%\, com a narr
+ ação no máximo.\n3. Cole a Legenda. A voz é sua\, então não precisa 
+ marcar rótulo de conteúdo de IA.\n4. Publique\, abra os comentários\, c
+ ole o Comentário fixado e fixe ele no topo.\n5. Se os áudios não chegar
+ am a tempo\, poste o vídeo mudo com um som em alta no volume normal.\n\nP
+ auta completa: https://fontedemana.com.br/pauta/2026-10-14/#tiktok
+URL:https://fontedemana.com.br/pauta/2026-10-14/#tiktok
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TikTok: Fonte do Dia: o ban passou e o Commander ficou igual
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
