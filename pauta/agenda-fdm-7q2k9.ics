@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-10-12-threads-tarde@fontedemana.com.br
-DTSTAMP:20261013T000648Z
+DTSTAMP:20261013T100010Z
 DTSTART:20261012T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 7
@@ -52,7 +52,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-12-stories-tarde@fontedemana.com.br
-DTSTAMP:20261013T000648Z
+DTSTAMP:20261013T100010Z
 DTSTART:20261012T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -71,7 +71,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-12-reels@fontedemana.com.br
-DTSTAMP:20261013T000648Z
+DTSTAMP:20261013T100010Z
 DTSTART:20261012T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -99,7 +99,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-12-threads-plantao@fontedemana.com.br
-DTSTAMP:20261013T000648Z
+DTSTAMP:20261013T100010Z
 DTSTART:20261012T200000Z
 DURATION:PT15M
 SUMMARY:17:00 Threads: Resultado dos banimentos
@@ -121,7 +121,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-12-stories-plantao@fontedemana.com.br
-DTSTAMP:20261013T000648Z
+DTSTAMP:20261013T100010Z
 DTSTART:20261012T200000Z
 DURATION:PT15M
 SUMMARY:17:00 Instagram Stories: Story do resultado
@@ -140,7 +140,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-gravacao@fontedemana.com.br
-DTSTAMP:20261013T000648Z
+DTSTAMP:20261013T100010Z
 DTSTART:20261012T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -166,8 +166,9 @@ DESCRIPTION:Grave a narração do TikTok de amanhã sobre a Wort\, Boggart
  depois.\n3. Renomeie os áudios como cena_1\, cena_2\, cena_3 e cena_4.\n4
  . Mande os áudios ao Claude no projeto MGT strategy (pode ser respondendo
   à mensagem desta tarefa) dizendo "áudios do TikTok de 2026-10-13".\n\nV
- alores em reais pela cotação de 12 out (Banco Central Europeu).\n\nPauta
-  completa: https://fontedemana.com.br/pauta/2026-10-13/#gravacao
+ alores em reais pela cotação PTAX de 9 out\, US$ 1 = R$ 4\,9892 (Banco C
+ entral).\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-13/#g
+ ravacao
 URL:https://fontedemana.com.br/pauta/2026-10-13/#gravacao
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -177,7 +178,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-tiktok@fontedemana.com.br
-DTSTAMP:20261013T000648Z
+DTSTAMP:20261013T100010Z
 DTSTART:20261013T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Carta do Dia: Wort\, Boggart Auntie
@@ -187,20 +188,19 @@ DESCRIPTION:Vídeo de gancho narrado sobre a Wort\, a comandante goblin que
  m.br/pauta/2026-10-13/tiktok/tiktok-narrado.mp4\n\nLegenda:\nA Wort\, Bogg
  art Auntie ficou 19 anos sem reimpressão e voltou no Corn Maze Superdrop 
  do Secret Lair\, com o nome de Hoggle. Você jogaria ela de comandante?\n\
- nReais pela cotação de 12 out (Banco Central Europeu).\n\n#mtg #magicthe
- gathering #commander #edh #mtgbrasil #secretlair #goblins\n\nFonte de Mana
-  is unofficial Fan Content permitted under the Fan Content Policy. Not app
- roved/endorsed by Wizards. Portions of the materials used are property of 
- Wizards of the Coast. ©Wizards of the Coast LLC.\n\nComentário fixado:\n
- Qual goblin você puxaria de volta primeiro com a Wort? Eu começaria pelo
-  Goblin Matron.\n\nPasso a passo:\n1. Abra o TikTok\, toque em + e escolha
-  o vídeo baixado.\n2. Em Sons\, escolha um som em alta da biblioteca do T
- ikTok e deixe o volume dele entre 15% e 20%\, com a narração no máximo.
- \n3. Cole a Legenda. A voz é sua\, então não precisa marcar rótulo de 
- conteúdo de IA.\n4. Publique\, abra os comentários\, cole o Comentário 
- fixado e fixe ele no topo.\n5. Se os áudios não chegaram a tempo\, poste
-  o vídeo mudo com um som em alta no volume normal.\n\nPauta completa: htt
- ps://fontedemana.com.br/pauta/2026-10-13/#tiktok
+ n#mtg #magicthegathering #commander #edh #mtgbrasil #secretlair #goblins\n
+ \nFonte de Mana is unofficial Fan Content permitted under the Fan Content 
+ Policy. Not approved/endorsed by Wizards. Portions of the materials used a
+ re property of Wizards of the Coast. ©Wizards of the Coast LLC.\n\nComent
+ ário fixado:\nQual goblin você puxaria de volta primeiro com a Wort? Eu 
+ começaria pelo Goblin Matron.\n\nPasso a passo:\n1. Abra o TikTok\, toque
+  em + e escolha o vídeo baixado.\n2. Em Sons\, escolha um som em alta da 
+ biblioteca do TikTok e deixe o volume dele entre 15% e 20%\, com a narraç
+ ão no máximo.\n3. Cole a Legenda. A voz é sua\, então não precisa mar
+ car rótulo de conteúdo de IA.\n4. Publique\, abra os comentários\, cole
+  o Comentário fixado e fixe ele no topo.\n5. Se os áudios não chegaram 
+ a tempo\, poste o vídeo mudo com um som em alta no volume normal.\n\nPaut
+ a completa: https://fontedemana.com.br/pauta/2026-10-13/#tiktok
 URL:https://fontedemana.com.br/pauta/2026-10-13/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
