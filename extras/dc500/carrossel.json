@@ -1,0 +1,57 @@
+{
+  "capa": {
+    "cor": "R",
+    "chip": "Formato brasileiro",
+    "kicker": "Guia rápido",
+    "titulo": "Commander com teto de <b>US$ 100 (R$ 500)</b>",
+    "sub": "É o <b>Duel Commander 500</b>, o DC500: 1 contra 1, 100 cartas e torneios em lojas do Brasil. Entenda em 5 telas"
+  },
+  "cartoes": [
+    {
+      "cor": "R", "titulo": "O que é o DC500",
+      "itens": [
+        {"cor": "R", "html": "Partida <b>1x1</b>, com <b>20 de vida</b> para cada jogador"},
+        {"cor": "B", "html": "Deck de <b>100 cartas</b> contando o comandante, sem repetir carta (só terrenos básicos)"},
+        {"cor": "G", "html": "Todas as cartas respeitam as <b>cores do comandante</b>"}
+      ],
+      "nota": {"rotulo": "Diferença da mesa de 4", "texto": "aqui é duelo, só você e o oponente na mesa."},
+      "fonte": "Fonte: MTGDC500"
+    },
+    {
+      "cor": "A", "titulo": "O teto de preço",
+      "itens": [
+        {"cor": "A", "html": "As cartas somam no máximo <b>US$ 100 (R$ 500)</b>, sem contar o comandante"},
+        {"cor": "U", "html": "É um <b>teto</b>, não uma meta. Gastar menos é permitido"},
+        {"cor": "R", "html": "Preço muda. Uma lista válida hoje pode estourar amanhã, então <b>reconfira antes do torneio</b>"}
+      ],
+      "nota": {"rotulo": "Quem define a fonte", "texto": "o organizador de cada torneio escolhe de onde vem o preço."},
+      "fx": "O teto do formato é em reais. O dólar é aproximado pela cotação PTAX de 9 out (R$ 4,99).",
+      "fonte": "Fonte: MTGDC500"
+    },
+    {
+      "cor": "B", "titulo": "Banlist e regulamento",
+      "itens": [
+        {"cor": "B", "html": "Usa a <b>banlist do Duel Commander</b>, que não é a do Commander de 4 jogadores"},
+        {"cor": "W", "html": "Algumas cartas são proibidas no deck todo, outras só <b>como comandante</b>"},
+        {"cor": "U", "html": "A loja pode publicar <b>regras extras</b>. Leia o regulamento do evento"}
+      ],
+      "nota": {"rotulo": "Antes de comprar carta", "texto": "confira a banlist do Duel Commander no site oficial."},
+      "fonte": "Fonte: MTGDC500, Duel Commander"
+    },
+    {
+      "cor": "G", "titulo": "O que se joga hoje",
+      "itens": [
+        {"cor": "G", "html": "Comandantes em alta no portal: <b>Cloud, Midgar Mercenary</b> (79 decks), <b>King T'Challa</b> (61) e <b>Quintorius, History Chaser</b> (59)"},
+        {"cor": "W", "html": "Staples baratas: <b>Command Tower</b> por US$ 0,34 (R$ 1,69) e <b>Swords to Plowshares</b> por US$ 2,40 (R$ 11,99)"},
+        {"cor": "A", "html": "O portal já registra <b>818 torneios</b> e <b>7.458 decks</b>"}
+      ],
+      "fx": "Números do portal em 13 out. Dólar pela cotação PTAX de 9 out (R$ 4,99).",
+      "fonte": "Fonte: MTGDC500"
+    }
+  ],
+  "cta": {
+    "pergunta": "A sua loja joga <b>DC500</b>?",
+    "quando": "Conta nos comentários onde e quando",
+    "salvar": "Salva esse guia e manda pra quem quer começar no Commander"
+  }
+}
