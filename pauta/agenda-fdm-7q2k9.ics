@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-10-12-threads-tarde@fontedemana.com.br
-DTSTAMP:20261014T000539Z
+DTSTAMP:20261014T002244Z
 DTSTART:20261012T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 7
@@ -52,7 +52,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-12-stories-tarde@fontedemana.com.br
-DTSTAMP:20261014T000539Z
+DTSTAMP:20261014T002244Z
 DTSTART:20261012T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -71,7 +71,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-12-reels@fontedemana.com.br
-DTSTAMP:20261014T000539Z
+DTSTAMP:20261014T002244Z
 DTSTART:20261012T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -99,7 +99,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-12-threads-plantao@fontedemana.com.br
-DTSTAMP:20261014T000539Z
+DTSTAMP:20261014T002244Z
 DTSTART:20261012T200000Z
 DURATION:PT15M
 SUMMARY:17:00 Threads: Resultado dos banimentos
@@ -121,7 +121,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-12-stories-plantao@fontedemana.com.br
-DTSTAMP:20261014T000539Z
+DTSTAMP:20261014T002244Z
 DTSTART:20261012T200000Z
 DURATION:PT15M
 SUMMARY:17:00 Instagram Stories: Story do resultado
@@ -140,7 +140,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-gravacao@fontedemana.com.br
-DTSTAMP:20261014T000539Z
+DTSTAMP:20261014T002244Z
 DTSTART:20261012T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -178,7 +178,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-tiktok@fontedemana.com.br
-DTSTAMP:20261014T000539Z
+DTSTAMP:20261014T002244Z
 DTSTART:20261013T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Carta do Dia: Wort\, Boggart Auntie
@@ -210,7 +210,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-threads-manha@fontedemana.com.br
-DTSTAMP:20261014T000539Z
+DTSTAMP:20261014T002244Z
 DTSTART:20261013T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia sobre os bans
@@ -230,7 +230,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-stories-manha@fontedemana.com.br
-DTSTAMP:20261014T000539Z
+DTSTAMP:20261014T002244Z
 DTSTART:20261013T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do carrossel com sticker de pergunta
@@ -250,7 +250,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-feed@fontedemana.com.br
-DTSTAMP:20261014T000539Z
+DTSTAMP:20261014T002244Z
 DTSTART:20261013T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 8
@@ -288,7 +288,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261014T000539Z
+DTSTAMP:20261014T002244Z
 DTSTART:20261013T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -307,7 +307,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-threads-tarde@fontedemana.com.br
-DTSTAMP:20261014T000539Z
+DTSTAMP:20261014T002244Z
 DTSTART:20261013T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 8
@@ -341,7 +341,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-stories-tarde@fontedemana.com.br
-DTSTAMP:20261014T000539Z
+DTSTAMP:20261014T002244Z
 DTSTART:20261013T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -361,7 +361,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-reels@fontedemana.com.br
-DTSTAMP:20261014T000539Z
+DTSTAMP:20261014T002244Z
 DTSTART:20261013T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -388,7 +388,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-threads-noite@fontedemana.com.br
-DTSTAMP:20261014T000539Z
+DTSTAMP:20261014T002244Z
 DTSTART:20261013T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Threads: Post com o vídeo do jornal
@@ -408,7 +408,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-14-gravacao@fontedemana.com.br
-DTSTAMP:20261014T000539Z
+DTSTAMP:20261014T002244Z
 DTSTART:20261013T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -446,34 +446,34 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-14-tiktok@fontedemana.com.br
-DTSTAMP:20261014T000539Z
+DTSTAMP:20261014T002244Z
 DTSTART:20261014T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Dicionário do Commander: o que quer dizer EDH
 DESCRIPTION:Vídeo narrado que explica a sigla EDH: os cinco Elder Dragons 
  de Legends\, a conta dos 21 de dano de comandante e o Highlander do "só p
  ode haver um". Poste com a legenda e fixe o comentário.\n\nArquivos:\n- V
- ídeo mudo do TikTok: https://fontedemana.com.br/pauta/2026-10-14/tiktok/t
- iktok-mudo.mp4\n\nLegenda:\nEDH quer dizer Elder Dragon Highlander. Elder 
- Dragon são os cinco dragões anciões da coleção Legends\, de 1994\, qu
- e foram os primeiros comandantes do formato. Highlander vem do filme de 19
- 86\, o do "só pode haver um"\, e por isso o deck tem uma cópia de cada c
- arta. E os 21 de dano de comandante? Três golpes de um dragão 7/7.\n\nVo
- cê fala EDH ou Commander?\n\n#mtg #magicthegathering #commander #edh #mtg
- brasil #dicionariodocommander #nicolbolas\n\nFonte de Mana is unofficial F
- an Content permitted under the Fan Content Policy. Not approved/endorsed b
- y Wizards. Portions of the materials used are property of Wizards of the C
- oast. ©Wizards of the Coast LLC.\n\nComentário fixado:\nSe a regra antig
- a voltasse\, qual dos cinco você pegava: Arcades Sabboth\, Chromium\, Nic
- ol Bolas\, Palladia-Mors ou Vaevictis Asmadi?\n\nPasso a passo:\n1. Abra o
-  TikTok\, toque em + e escolha o vídeo baixado.\n2. Em Sons\, escolha um 
- som em alta da biblioteca do TikTok e deixe o volume dele entre 15% e 20%\
- , com a narração no máximo.\n3. Cole a Legenda. A voz é sua\, então n
- ão precisa marcar rótulo de conteúdo de IA.\n4. Publique\, abra os come
- ntários\, cole o Comentário fixado e fixe ele no topo.\n5. Se os áudios
-  não chegaram a tempo\, poste o vídeo mudo com um som em alta no volume 
- normal.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-14/#ti
- ktok
+ ídeo narrado do TikTok: https://fontedemana.com.br/pauta/2026-10-14/tikto
+ k/tiktok-narrado.mp4\n\nLegenda:\nEDH quer dizer Elder Dragon Highlander. 
+ Elder Dragon são os cinco dragões anciões da coleção Legends\, de 199
+ 4\, que foram os primeiros comandantes do formato. Highlander vem do filme
+  de 1986\, o do "só pode haver um"\, e por isso o deck tem uma cópia de 
+ cada carta. E os 21 de dano de comandante? Três golpes de um dragão 7/7.
+ \n\nVocê fala EDH ou Commander?\n\n#mtg #magicthegathering #commander #ed
+ h #mtgbrasil #dicionariodocommander #nicolbolas\n\nFonte de Mana is unoffi
+ cial Fan Content permitted under the Fan Content Policy. Not approved/endo
+ rsed by Wizards. Portions of the materials used are property of Wizards of
+  the Coast. ©Wizards of the Coast LLC.\n\nComentário fixado:\nSe a regra
+  antiga voltasse\, qual dos cinco você pegava: Arcades Sabboth\, Chromium
+ \, Nicol Bolas\, Palladia-Mors ou Vaevictis Asmadi?\n\nPasso a passo:\n1. 
+ Abra o TikTok\, toque em + e escolha o vídeo baixado.\n2. Em Sons\, escol
+ ha um som em alta da biblioteca do TikTok e deixe o volume dele entre 15% 
+ e 20%\, com a narração no máximo.\n3. Cole a Legenda. A voz é sua\, en
+ tão não precisa marcar rótulo de conteúdo de IA.\n4. Publique\, abra o
+ s comentários\, cole o Comentário fixado e fixe ele no topo.\n5. Se os 
+ áudios não chegaram a tempo\, poste o vídeo mudo com um som em alta no 
+ volume normal.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10
+ -14/#tiktok
 URL:https://fontedemana.com.br/pauta/2026-10-14/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
