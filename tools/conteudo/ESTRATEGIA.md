@@ -80,8 +80,29 @@ Toda segunda, com os números dos últimos 7 dias (prints do Instagram em Visão
 3. Se o carrossel original de dia calmo ganhar do carrossel do jornal, o critério de dia forte fica mais exigente; se perder, mais flexível.
 4. Registrar a decisão abaixo e ajustar `plano.json`.
 
-Linha de base para comparar: 28,3% de visualizações de não seguidores, 0 salvamentos, 0 compartilhamentos, 9 seguidores.
+## Linha de base
+
+Números de antes da estratégia nova, para comparar nas revisões.
+
+**Instagram** (prints, 13 set a 13 out): 251 visualizações, 28,3% de não seguidores, 62 contas alcançadas, 24 curtidas, 1 comentário, 0 salvamentos, 0 compartilhamentos, 9 seguidores. Reels: 73 visualizações em 2 vídeos. Ainda sem conexão no Metricool.
+
+**TikTok** (Metricool, 12 a 14 out, medido em 14 out às 19h): 3 vídeos, 332 visualizações (média de 111 por vídeo), 10 curtidas, 4 comentários, 0 compartilhamentos.
+- 13 out, Wort volta depois de 19 anos sem reimpressão (história da carta): 173 visualizações, 4 curtidas, 2 comentários.
+- 12 out, Corn Maze Superdrop (notícia): 102 visualizações, 4 curtidas, 1 comentário.
+- 14 out, Dicionário: o que quer dizer EDH (original): 57 visualizações, 2 curtidas, 1 comentário, com só umas 7 horas no ar.
+- O Metricool ainda não trouxe alcance, origem (Para Você, busca) nem tempo assistido. Conferir de novo na revisão.
+
+**Threads** (Metricool, 11 a 14 out): 20 posts, 846 visualizações, 11 interações.
+- Mais vistos: o primeiro post do fio dos banimentos (253), o post de estreia (159), os nomes dos precons de Darkhold (144), a pergunta sobre a janela de banimentos (94, 1 resposta).
+- No fio, os posts depois do primeiro despencam: 253 no primeiro, depois 23, 22, 4 e 0. Quase ninguém abre a sequência.
+- As perguntas puxam resposta (cada uma teve 1), os posts informativos quase não.
+
+**Hipóteses para a primeira revisão** (dados de 3 dias, ainda não viraram regra):
+- Por vídeo, o TikTok já alcança bem mais que o Reels. Se continuar assim, ele é a rede de alcance e o original narrado tem que ser a peça mais caprichada do dia.
+- História de carta foi o vídeo que mais rodou. Bom sinal para os pilares História e Lore.
+- No Threads, o primeiro post do fio carrega tudo. Testar fio de 3 posts, com a notícia inteira no primeiro.
 
 ## Histórico de ajustes
 
+- 14 out 2026: linha de base de TikTok e Threads registrada a partir do Metricool.
 - 14 out 2026, v1: mix notícia + original, força do dia decide o feed, calendário de 7 pilares em semanas A e B, Threads das 19:00 sai da grade.
