@@ -1,0 +1,142 @@
+{
+  "versao": "2026-10-14 v1",
+  "comentario": "Plano editorial da Fonte de Mana. Lido por tools/conteudo/contexto.cjs (tarefa da noite) e tools/pauta/manha.cjs (tarefa da manhã). A explicação completa está em tools/conteudo/ESTRATEGIA.md. Semana A = semana ISO ímpar, semana B = semana ISO par.",
+
+  "grade": [
+    {"id": "threads-manha",    "hora": "10:30", "ativo": true},
+    {"id": "stories-manha",    "hora": "10:30", "ativo": true},
+    {"id": "tiktok",           "hora": "11:30", "ativo": true},
+    {"id": "feed",             "hora": "12:00", "ativo": true},
+    {"id": "stories-meio-dia", "hora": "12:00", "ativo": true},
+    {"id": "threads-tarde",    "hora": "15:00", "ativo": true},
+    {"id": "stories-tarde",    "hora": "15:00", "ativo": true},
+    {"id": "reels",            "hora": "19:00", "ativo": true},
+    {"id": "threads-noite",    "hora": "19:00", "ativo": false}
+  ],
+
+  "calendario": {
+    "seg": {"A": "historia", "B": "lore"},
+    "ter": {"A": "dicionario", "B": "dicionario"},
+    "qua": {"A": "deck", "B": "combo"},
+    "qui": {"A": "top5", "B": "top5"},
+    "sex": {"A": "regra", "B": "termometro"},
+    "sab": {"A": "dc500", "B": "vitrine"},
+    "dom": {"A": "bolsa", "B": "debate"}
+  },
+
+  "pilares": {
+    "historia": {
+      "nome": "História de uma carta",
+      "oQue": "Bastidores de uma carta que marcou o Commander: de onde veio a ideia, o que mudou no design, primeira coleção, artista e por que ela importa hoje na mesa.",
+      "fontes": "Making Magic (coluna semanal de design do Mark Rosewater em magic.wizards.com), mtg.wiki (página da carta), Scryfall (dados e impressões), EDHREC (número de decks).",
+      "gancho": "Um fato surpreendente do design ou do passado da carta nos 2 primeiros segundos.",
+      "pergunta": "Você joga essa carta? Em qual comandante?",
+      "fila": "historia"
+    },
+    "lore": {
+      "nome": "Lore em 1 minuto",
+      "oQue": "A história de um personagem, plano ou evento do Multiverso contada como fofoca de mesa, ligada a uma carta jogável no Commander (de preferência um comandante).",
+      "fontes": "Magic Story (magic.wizards.com/en/story), mtg.wiki (personagem ou plano), Scryfall (cartas do personagem).",
+      "gancho": "Quem é essa figura e o que ela fez de mais absurdo.",
+      "pergunta": "Qual personagem você quer ver na próxima?",
+      "fila": "lore"
+    },
+    "dicionario": {
+      "nome": "Dicionário do Commander",
+      "oQue": "Um termo ou gíria da mesa explicado em linguagem simples, com uma carta real como exemplo e o erro mais comum sobre ele. Série numerada.",
+      "fontes": "Regras Abrangentes (glossário oficial), mtg.wiki (gírias), Scryfall (carta de exemplo), EDHREC.",
+      "gancho": "Frase de mesa com o termo (ex.: \"segura que vou dar ramp\") e a pergunta: você sabe o que isso quer dizer?",
+      "pergunta": "Que termo da mesa te confundiu no começo?",
+      "fila": "dicionario"
+    },
+    "deck": {
+      "nome": "Deck em 40 segundos",
+      "oQue": "Um comandante popular e o plano de jogo em três passos (início, meio, como vence), com cartas reais da página dele no EDHREC e o custo aproximado.",
+      "fontes": "EDHREC (página do comandante, cartas mais jogadas), Scryfall (preços), Moxfield ou Archidekt para listas públicas.",
+      "gancho": "Como esse comandante vence em três passos.",
+      "pergunta": "Que carta você colocaria nesse deck?",
+      "fila": null
+    },
+    "combo": {
+      "nome": "Combo da semana",
+      "oQue": "Um combo de duas ou três cartas explicado passo a passo na mesa, com o que precisa estar no campo, o resultado e como o oponente pode parar.",
+      "fontes": "Commander Spellbook (combos verificados), Scryfall (texto Oracle e rulings), EDHREC.",
+      "gancho": "Duas cartas, jogo ganho. Você conhece essa?",
+      "pergunta": "Combo na mesa casual: pode ou é falta de educação?",
+      "fila": null
+    },
+    "top5": {
+      "nome": "Top 5",
+      "oQue": "Ranking de cinco cartas de uma tribo, tema ou comandante, com o número de decks no EDHREC e uma frase sobre o que cada uma faz na mesa. O carrossel deste pilar é feito para ser salvo.",
+      "fontes": "EDHREC (páginas de tribos em /tribes, de temas e de comandantes, com número de decks), lista oficial de Game Changers, Scryfall (preços).",
+      "gancho": "As 5 cartas que não podem faltar em um deck de <tema>.",
+      "pergunta": "Faltou alguma? Qual seria a sua número 1?",
+      "fila": "top5"
+    },
+    "regra": {
+      "nome": "Regra Bizarra",
+      "oQue": "Uma interação ou regra estranha que acontece de verdade na mesa, explicada com as cartas e a regra oficial, sem juridiquês.",
+      "fontes": "Regras Abrangentes e rulings do Gatherer ou Scryfall (obrigatório confirmar), coluna de regras do EDHREC, Draftsim e MTGRocks como ponto de partida.",
+      "gancho": "Essa jogada parece ilegal, mas é permitida (ou o contrário).",
+      "pergunta": "Já viu isso acontecer na sua mesa?",
+      "fila": "regra"
+    },
+    "termometro": {
+      "nome": "Termômetro",
+      "oQue": "O assunto do vídeo de Magic mais visto da semana (campo pulse das últimas 7 edições) em versão própria da Fonte de Mana, com os fatos conferidos. Nunca copiar o roteiro do vídeo.",
+      "fontes": "pulse das edições (data/edN.js), fontes primárias do assunto, duas fontes para qualquer fato.",
+      "gancho": "Todo mundo está falando disso. O que é verdade?",
+      "pergunta": "Você concorda com o hype?",
+      "fila": null
+    },
+    "dc500": {
+      "nome": "Radar DC500",
+      "oQue": "Duel Commander 500: um comandante barato e a ideia de lista dentro do teto, ou uma novidade do formato (banlist, torneio em loja com data confirmada).",
+      "fontes": "MTGDC500 (site oficial do formato), LigaMagic (preços e eventos), EDHREC, Scryfall.",
+      "gancho": "Dá para jogar Commander com teto de R$ 500?",
+      "pergunta": "A sua loja joga DC500?",
+      "fila": null
+    },
+    "vitrine": {
+      "nome": "Vitrine de acessórios",
+      "oQue": "Um acessório de Magic útil para quem joga Commander (sleeve, deck box, playmat, fichário, contador), com o que tem de bom, o preço com fonte e onde achar no Brasil.",
+      "fontes": "Sites das marcas (gamegenic.com, ultimateguard.com, dragonshield.com, ultrapro.com), lojas brasileiras (Paladins Games, LigaMagic, lojas que o Paulo segue).",
+      "gancho": "O acessório que resolve <problema da mesa>.",
+      "pergunta": "Qual sleeve você usa?",
+      "fila": null
+    },
+    "bolsa": {
+      "nome": "Bolsa de Mana",
+      "oQue": "Uma carta jogada no Commander que mudou de preço na semana: quanto, por quê e se faz sentido comprar agora para jogar (nunca recomendação de investimento).",
+      "fontes": "MTGStocks (news e Weekly Winners), Scryfall (preço do dia), EDHREC (quantos decks usam).",
+      "gancho": "Essa carta dobrou de preço em uma semana.",
+      "pergunta": "Você compra agora ou espera cair?",
+      "fila": null
+    },
+    "debate": {
+      "nome": "Debate da semana",
+      "oQue": "Um tema que divide a comunidade de Commander, com os dois lados apresentados de forma justa e uma enquete. A Fonte de Mana não toma partido.",
+      "fontes": "Posições oficiais da Wizards quando existirem (política de proxies, brackets, Game Changers), artigos com os dois lados.",
+      "gancho": "A discussão que nunca acaba na mesa de Commander.",
+      "pergunta": "De que lado você está?",
+      "fila": "debate"
+    },
+    "loja": {
+      "nome": "Rota das Lojas",
+      "oQue": "Visita do Paulo a uma loja de São Paulo: estrutura, estoque, preços, eventos de Commander. Só entra quando existe extras/lojas/AAAA-MM-DD.json com a visita marcada.",
+      "fontes": "A própria visita e as anotações do Paulo no arquivo da visita.",
+      "gancho": "Fui conferir a <loja>. Vale a visita?",
+      "pergunta": "Qual loja a gente visita na próxima?",
+      "fila": null
+    }
+  },
+
+  "filas": {
+    "historia": ["Sol Ring", "Command Tower", "Rhystic Study", "Smothering Tithe", "Cyclonic Rift", "Edgar Markov", "Atraxa, Praetors' Voice", "The Ur-Dragon", "Lightning Greaves", "Ashling, the Pilgrim"],
+    "lore": ["Ashling, a peregrina de Lorwyn", "Edgar Markov e a linhagem de Sorin", "Nicol Bolas", "Urza e Mishra", "Teferi", "Liliana Vess", "Elesh Norn e a Phyrexia", "Jodah", "Kenrith e Eldraine", "Tiamat e os dragões cromáticos"],
+    "dicionario": ["EDH", "Staple", "Mana dork", "Stack (pilha)", "Ramp", "Tutor", "Board wipe", "Commander tax", "Identidade de cores", "Game Changer", "Rule 0", "Topdeck", "ETB", "Voltron", "Stax", "Blink", "Reanimator", "Proliferate", "Cantrip", "Mana rock", "Fetch land", "Shock land", "Sac outlet", "Partner", "Group hug", "Wincon", "Goodstuff", "Pod", "Mulligan", "Scoop", "Aristocrats", "Landfall", "cEDH", "Bracket", "Precon", "As 99"],
+    "top5": ["Elementais para o deck de Ashling", "Vampiros mais fortes do Commander", "Dragões obrigatórios em um deck de dragões", "Terrenos que todo deck de Commander deveria ter", "Mana rocks baratos", "Board wipes", "Comandantes para quem está começando", "Remoções instantâneas", "Elfos", "Zumbis", "Goblins", "Anjos"],
+    "regra": ["Panglacial Wurm conjurado do meio do grimório", "Mindslaver e jogar o turno do oponente", "Dano de comandante com comandante roubado", "Teferi's Protection e phasing", "Humility com Opalescence e as camadas", "Worldgorger Dragon e o loop que empata", "Split second", "Lich's Mastery e perder permanentes", "Hive Mind com Pact", "Criatura virada para baixo (morph) não tem nome"],
+    "debate": ["Proxy na mesa casual: pode ou não?", "Rule 0 antes de toda partida: necessário ou chato?", "Universes Beyond no Commander", "Brackets funcionam na prática?", "Sol Ring deveria sair do formato?", "Mesa de 4 ou duelo 1x1?", "Precon original ou upgrade logo na compra?", "Tutor demais deixa o jogo repetitivo?"]
+  }
+}

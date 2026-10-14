@@ -52,16 +52,29 @@ function validate(sp) {
   len(t.legendaCarrossel, 1800, 'textos.legendaCarrossel');
   len(t.legendaVideo, 1500, 'textos.legendaVideo');
   req(/fontedemana\.com\.br/.test(t.legendaCarrossel || '') && /fontedemana\.com\.br/.test(t.legendaVideo || ''), 'as legendas precisam citar fontedemana.com.br');
-  if (!ONLY_PAGE || t.threadsCarrossel || t.threadsVideo) {
-    len(t.threadsCarrossel, 280, 'textos.threadsCarrossel');
-    len(t.threadsVideo, 280, 'textos.threadsVideo');
+  // threadsCarrossel, threadsVideo e narracao são opcionais desde 14 out 2026 (não são mais postados)
+  if (t.threadsCarrossel) len(t.threadsCarrossel, 280, 'textos.threadsCarrossel');
+  if (t.threadsVideo) len(t.threadsVideo, 280, 'textos.threadsVideo');
+  if (t.narracao) {
+    req(Array.isArray(t.narracao) && t.narracao.length === 5, 'textos.narracao precisa de 5 cenas');
+    (t.narracao || []).forEach((x, i) => { len(x.cena, 60, `narracao[${i}].cena`); len(x.texto, 260, `narracao[${i}].texto`); });
   }
-  req(Array.isArray(t.narracao) && t.narracao.length === 5, 'textos.narracao precisa de 5 cenas');
-  (t.narracao || []).forEach((x, i) => { len(x.cena, 60, `narracao[${i}].cena`); len(x.texto, 260, `narracao[${i}].texto`); });
   req(Array.isArray(t.threadsFio) && t.threadsFio.length >= 3 && t.threadsFio.length <= 8, 'textos.threadsFio precisa de 3 a 8 posts');
   (t.threadsFio || []).forEach((x, i) => len(x, 480, `threadsFio[${i}]`));
   req(Array.isArray(t.threadsAvulsos) && t.threadsAvulsos.length <= 6, 'textos.threadsAvulsos precisa ser lista (até 6)');
   (t.threadsAvulsos || []).forEach((x, i) => { len(x.titulo, 40, `threadsAvulsos[${i}].titulo`); len(x.texto, 480, `threadsAvulsos[${i}].texto`); if (x.obs) len(x.obs, 120, `threadsAvulsos[${i}].obs`); });
+  // bloco opcional lido por tools/pauta/manha.cjs
+  if (sp.pauta) {
+    const pa = sp.pauta;
+    req(['forte', 'calmo'].includes(pa.forca), 'pauta.forca precisa ser "forte" ou "calmo"');
+    len(pa.porque, 120, 'pauta.porque');
+    len(pa.storyPergunta, 80, 'pauta.storyPergunta');
+    if (pa.enquete) {
+      len(pa.enquete.pergunta, 80, 'pauta.enquete.pergunta');
+      req(Array.isArray(pa.enquete.opcoes) && pa.enquete.opcoes.length >= 2 && pa.enquete.opcoes.length <= 4, 'pauta.enquete.opcoes precisa de 2 a 4');
+      (pa.enquete.opcoes || []).forEach((x, j) => len(x, 25, `pauta.enquete.opcoes[${j}]`));
+    }
+  }
   if (!ONLY_PAGE) {
     const c = sp.carrossel || {};
     req(c.capa, 'carrossel.capa faltando');
@@ -520,12 +533,12 @@ function editionSection(n, prefix, next) {
   if (hasVideo) parts.push(`<div class="vid"><video src="${prefix}${video}" controls playsinline preload="metadata"></video><a class="dl" href="${prefix}${video}" download>Baixar vídeo</a></div>`);
   if (slides.length) parts.push(`<div class="grid car">${slides.map((f, i) => `<figure><img src="${prefix}${f}" alt="Carrossel ${i + 1} de ${slides.length}" style="aspect-ratio:4/5"><figcaption>Carrossel ${i + 1} de ${slides.length} <a class="dl" href="${prefix}${f}" download>Baixar</a></figcaption></figure>`).join('')}</div>`);
   parts.push('</section>');
-  const narr = t.narracao.map(x => x.cena + '\n' + x.texto).join('\n\n') + '\n\n' + IA_NOTE;
-  parts.push(`<section class="col"><h2>Instagram e TikTok, edição ${n}</h2>${[
+  const blocos = [
     txBlock(next(), 'Legenda do carrossel (Instagram)', t.legendaCarrossel.trim() + '\n\n' + DISCLAIMER),
-    txBlock(next(), 'Legenda do vídeo (Reels e TikTok)', t.legendaVideo.trim() + '\n\n' + DISCLAIMER),
-    txBlock(next(), 'Roteiro da narração', narr)
-  ].join('')}</section>`);
+    txBlock(next(), 'Legenda do vídeo (Reels)', t.legendaVideo.trim() + '\n\n' + DISCLAIMER)
+  ];
+  if (Array.isArray(t.narracao) && t.narracao.length) blocos.push(txBlock(next(), 'Roteiro da narração', t.narracao.map(x => x.cena + '\n' + x.texto).join('\n\n') + '\n\n' + IA_NOTE));
+  parts.push(`<section class="col"><h2>Instagram, edição ${n}</h2>${blocos.join('')}</section>`);
   const media = [];
   if (t.threadsCarrossel) media.push(txBlock(next(), 'Post com as imagens do carrossel', t.threadsCarrossel.trim() + '\n\n' + DISCLAIMER, { count: true, obs: `Anexe as ${slides.length || ''} imagens do carrossel no mesmo post, na ordem. O Threads aceita até 20.`.replace('as  imagens', 'as imagens') }));
   if (t.threadsVideo) media.push(txBlock(next(), 'Post com o vídeo', t.threadsVideo.trim() + '\n\n' + DISCLAIMER, { count: true, obs: 'Anexe o vídeo vertical da edição.' }));
