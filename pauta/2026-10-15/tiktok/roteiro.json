@@ -1,0 +1,89 @@
+{
+ "data": "2026-10-15",
+ "tema": "Os 5 Elementais que mais aparecem nos decks de Ashling, the Limitless",
+ "item": "Elementais para o deck de Ashling",
+ "arte": "pauta/2026-10-15/tiktok/arte.jpg",
+ "carta": "pauta/2026-10-15/tiktok/carta.jpg",
+ "credito": "Arte: Ashling, the Limitless, Kai Carpenter",
+ "fx": "Reais pela cotação PTAX de 13 out (Banco Central)",
+ "legenda": "Os 5 Elementais que mais aparecem nos decks de Ashling, the Limitless no EDHREC, e os cinco juntos custam menos de dois dólares. Faltou algum? Qual seria o seu número 1?\n\nPreços do Scryfall, impressão de Lorwyn Eclipsed Commander. Reais pela cotação PTAX de 13 out (Banco Central).\n\n#magicthegathering #mtg #commander #edh #ashling #elementais #mtgbrasil",
+ "comentario": "Qual Elemental você colocaria no lugar de um desses cinco? Conta aqui que eu leio todos.",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "cor": "M",
+   "chip": "Top 5 #1",
+   "kicker": "Ashling, the Limitless",
+   "titulo": "Os 5 Elementais que não podem faltar",
+   "sub": "Os mais jogados com ela no EDHREC, em mais de 27 mil decks",
+   "narracao": "Vai montar Ashling, the Limitless? Esses são os cinco Elementais que mais aparecem com ela no EDHREC. E os cinco juntos custam menos de dois dólares.",
+   "segundos": 11.6
+  },
+  {
+   "tipo": "lista",
+   "cor": "A",
+   "chip": "No bolso",
+   "kicker": "Do 1 ao 3",
+   "linhas": [
+    {
+     "nome": "Risen Reef",
+     "valor": "US$ 0,25",
+     "real": "(R$ 1,25)"
+    },
+    {
+     "nome": "Maelstrom Wanderer",
+     "valor": "US$ 0,28",
+     "real": "(R$ 1,40)"
+    },
+    {
+     "nome": "Mulldrifter",
+     "valor": "US$ 0,40",
+     "real": "(R$ 2,00)"
+    }
+   ],
+   "fonte": "EDHREC e Scryfall, out 2026",
+   "narracao": "Número um, Risen Reef, em noventa e seis por cento dos decks. Depois, Maelstrom Wanderer e Mulldrifter.",
+   "segundos": 8
+  },
+  {
+   "tipo": "lista",
+   "cor": "A",
+   "chip": "No bolso",
+   "kicker": "Fechando o Top 5",
+   "linhas": [
+    {
+     "nome": "Yarok",
+     "valor": "US$ 0,29",
+     "real": "(R$ 1,45)"
+    },
+    {
+     "nome": "Greenwarden",
+     "valor": "US$ 0,26",
+     "real": "(R$ 1,30)"
+    }
+   ],
+   "rodape": "Os cinco: US$ 1,48 (R$ 7,41).",
+   "fonte": "EDHREC e Scryfall, out 2026",
+   "narracao": "Fechando, Yarok e Greenwarden of Murasa. Os cinco juntos saem por uns sete reais.",
+   "segundos": 6.8
+  },
+  {
+   "tipo": "texto",
+   "cor": "G",
+   "kicker": "O truque da Ashling",
+   "titulo": "Paga 4, ganha a criatura duas vezes",
+   "sub": "Com evoke 4, o Elemental entra, é sacrificado e volta como cópia com ímpeto. Maelstrom Wanderer por 4 ainda faz os dois cascade.",
+   "narracao": "O truque: com Ashling, todo Elemental da mão sai por quatro. Ele entra, é sacrificado e volta como cópia com ímpeto. Maelstrom Wanderer por quatro ainda faz os dois cascade.",
+   "segundos": 13.2
+  },
+  {
+   "tipo": "cta",
+   "cor": "M",
+   "kicker": "Todo dia no Instagram",
+   "titulo": "Faltou algum? Qual seria o seu número 1?",
+   "destaque": "@fontedemana",
+   "narracao": "Faltou algum? Qual seria o seu número um? Segue o arroba fonte de mana.",
+   "segundos": 6.8
+  }
+ ]
+}

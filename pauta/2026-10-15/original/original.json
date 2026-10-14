@@ -1,0 +1,85 @@
+{
+  "data": "2026-10-15",
+  "pilar": "top5",
+  "item": "Elementais para o deck de Ashling",
+  "tema": "Os 5 Elementais que mais aparecem nos decks de Ashling, the Limitless",
+  "cartas": ["Ashling, the Limitless", "Risen Reef", "Maelstrom Wanderer", "Mulldrifter", "Yarok, the Desecrated", "Greenwarden of Murasa"],
+  "fx": "Valores em reais pela cotação PTAX de 13 out (Banco Central).",
+  "carrossel": {
+    "capa": {
+      "cor": "M",
+      "chip": "Top 5 #1",
+      "kicker": "Ashling, the Limitless",
+      "titulo": "5 Elementais que <b>não podem faltar</b>",
+      "sub": "Os mais jogados com ela no EDHREC, em mais de 27 mil decks. E os cinco juntos custam <b>US$ 1,48 (R$ 7,41)</b>.",
+      "arte": "pauta/2026-10-15/tiktok/arte.jpg",
+      "credito": "Arte: Ashling, the Limitless, Kai Carpenter"
+    },
+    "cartoes": [
+      {
+        "cor": "G",
+        "titulo": "1. Risen Reef",
+        "carta": "pauta/2026-10-15/original/carta-1.jpg",
+        "itens": [
+          {"cor": "G", "html": "Em <b>96%</b> dos decks de Ashling. Cada Elemental que entra olha o topo: terreno vai pro campo, o resto pra mão."},
+          {"cor": "A", "html": "Com Ashling, o Elemental entra duas vezes, então são dois gatilhos. <b>US$ 0,25 (R$ 1,25)</b>."}
+        ],
+        "fonte": "Fonte: EDHREC e Scryfall, out 2026"
+      },
+      {
+        "cor": "M",
+        "titulo": "2. Maelstrom Wanderer",
+        "carta": "pauta/2026-10-15/original/carta-2.jpg",
+        "itens": [
+          {"cor": "M", "html": "Em <b>93%</b> dos decks. Pago por 4 com evoke, ainda faz os <b>dois cascade</b>, que olham o custo cheio, 8."},
+          {"cor": "A", "html": "A cópia que volta dá ímpeto pro seu time no turno. <b>US$ 0,28 (R$ 1,40)</b>."}
+        ],
+        "fonte": "Fonte: EDHREC e Scryfall, out 2026"
+      },
+      {
+        "cor": "U",
+        "titulo": "3. Mulldrifter",
+        "carta": "pauta/2026-10-15/original/carta-3.jpg",
+        "itens": [
+          {"cor": "U", "html": "Em <b>91%</b> dos decks. Com o evoke dele, por 3: compra 2, é sacrificado, a cópia entra e compra <b>mais 2</b>."},
+          {"cor": "A", "html": "Quatro cartas e um voador com ímpeto. <b>US$ 0,40 (R$ 2,00)</b>."}
+        ],
+        "fonte": "Fonte: EDHREC e Scryfall, out 2026"
+      },
+      {
+        "cor": "B",
+        "titulo": "4. Yarok, the Desecrated",
+        "carta": "pauta/2026-10-15/original/carta-4.jpg",
+        "itens": [
+          {"cor": "B", "html": "Em <b>88%</b> dos decks. Todo gatilho de entrar acontece <b>duas vezes</b>: Mulldrifter compra 4, e a cópia mais 4."},
+          {"cor": "A", "html": "Ainda bloqueia bem com toque mortífero e vínculo com a vida. <b>US$ 0,29 (R$ 1,45)</b>."}
+        ],
+        "fonte": "Fonte: EDHREC e Scryfall, out 2026"
+      },
+      {
+        "cor": "G",
+        "titulo": "5. Greenwarden of Murasa",
+        "carta": "pauta/2026-10-15/original/carta-5.jpg",
+        "itens": [
+          {"cor": "G", "html": "Em <b>87%</b> dos decks. Por 4: entra e devolve uma carta do cemitério, morre e devolve outra, a cópia devolve mais uma."},
+          {"cor": "A", "html": "Até três cartas de volta pra mão. <b>US$ 0,26 (R$ 1,30)</b>."}
+        ],
+        "fonte": "Fonte: EDHREC e Scryfall, out 2026"
+      }
+    ],
+    "cta": {
+      "pergunta": "Faltou algum? <b>Qual seria o seu número 1?</b>",
+      "quando": "Top 5 toda quinta no @fontedemana",
+      "salvar": "Salve para montar a Ashling ou mande pra quem joga com ela"
+    }
+  },
+  "legenda": "Top 5 Elementais para o deck de Commander de Ashling, the Limitless: as cartas de Magic que mais aparecem com ela no EDHREC, e os cinco juntos custam US$ 1,48 (R$ 7,41).\n\n1. Risen Reef, em 96% dos decks\n2. Maelstrom Wanderer, 93%\n3. Mulldrifter, 91%\n4. Yarok, the Desecrated, 88%\n5. Greenwarden of Murasa, 87%\n\nO segredo da Ashling: todo Elemental da mão sai por 4 com evoke, é sacrificado e volta como cópia com ímpeto. Ou seja, o efeito de entrar acontece duas vezes.\n\nFontes: EDHREC (mais de 27 mil decks de Ashling) e Scryfall (preços da impressão de Lorwyn Eclipsed Commander). Valores em reais pela cotação PTAX de 13 out (Banco Central).\n\nMais no fontedemana.com.br\n\nFaltou algum? Qual seria o seu número 1?\n\n#magicthegathering #mtg #commander #edh #ashling #elementais #mtgbrasil #deckdecommander",
+  "threads": {
+    "texto": "Ashling, the Limitless deixa todo Elemental da mão sair por 4 e ainda devolve uma cópia com ímpeto quando ele é sacrificado.\n\nNo EDHREC, os cinco Elementais mais jogados com ela são Risen Reef, Maelstrom Wanderer, Mulldrifter, Yarok e Greenwarden of Murasa.\n\nSe você só pudesse colocar um deles no deck, qual seria? E qual Elemental você acha que ficou de fora?",
+    "obs": "Enquete com as opções Maelstrom Wanderer, Mulldrifter, Yarok e Risen Reef"
+  },
+  "enquete": {
+    "pergunta": "Melhor Elemental pra Ashling?",
+    "opcoes": ["Maelstrom Wanderer", "Mulldrifter", "Yarok", "Risen Reef"]
+  }
+}
