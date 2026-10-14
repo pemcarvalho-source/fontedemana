@@ -69,18 +69,26 @@ Rode `node tools/pauta/pauta.cjs . AAAA-MM-DD` na raiz do clone. Ele confere tam
 
 1. Clone: `git clone --depth 1 https://github.com/pemcarvalho-source/fontedemana ./gh` e trabalhe dentro de `./gh`. Leia este arquivo inteiro.
 2. Amanhã = `AMANHA` (data de São Paulo + 1 dia). Leia `data/index.js` e a edição mais recente `data/edN.js`.
-3. Escolha o tema do TikTok de amanhã:
-   - Se houver assunto quente confirmado nas últimas 24 horas (Notícia Lendária da edição de hoje, banimento, lançamento), ele ganha.
-   - Senão, siga o calendário abaixo; sem item no calendário, siga o pilar do dia da semana de amanhã.
-   - Pilares: segunda, quarta e sexta, Fonte do Dia (a notícia mais forte da edição de hoje); terça, Carta do Dia (o Topdeck da edição de hoje ou uma carta ligada à notícia); quinta, Mesa Quente (ranking de 5, com dados do EDHREC ou da lista oficial de Game Changers); sábado, Rota das Lojas (o Paulo grava na loja); domingo, Bolsa de Mana (preços da semana, só os que saíram nas edições).
-   - Pesquisa extra: no máximo 6 buscas na web, com as regras de verificação do jornal.
+3. Escolha o tema do TikTok de amanhã. **Regra principal: conteúdo nunca se repete.** A edição de hoje já saiu inteira nas redes hoje (carrossel, Reels, Threads e Stories), então o TikTok de amanhã não pode ser sobre ela.
+   - Antes de escolher, monte a lista do que já foi publicado: as manchetes (`stories[].title`), o Topdeck (`card.name`), os sussurros e o `summary` das duas edições mais recentes (`data/edN.js` e `data/ed(N-1).js`), os títulos de `kit/edN/kit.json`, e o `tema` de todos os `pauta/*/tiktok/roteiro.json` e os títulos dos avisos de `pauta/*/pauta.json` dos últimos 30 dias. O tema de amanhã não pode tratar do mesmo assunto de nenhum item dessa lista (mesma notícia, mesmo anúncio, mesma carta, mesmo termo), nem com outro ângulo.
+   - Notícia só entra se for anúncio oficial da Wizards (banimento, Game Changers, regra, produto de Commander) publicado depois das 6h de hoje, que ainda não esteja na lista acima. Fora isso, o TikTok é sempre conteúdo original, pelo pilar do dia da semana de amanhã:
+     - segunda, **História de uma carta**: uma carta que existe e marcou o Commander (ano, coleção, artista e por que importa hoje), com dados do Scryfall e do EDHREC.
+     - terça, **Dicionário do Commander**: um termo do vocabulário do jogo (staple, mana dork, stack, ramp, tutor, board wipe...), explicado com um exemplo de carta real. A fila de termos está em `extras/index.html`; pule os que já saíram.
+     - quarta, **Deck em 40 segundos**: um comandante popular no EDHREC e o plano de jogo em três passos, com cartas reais da página dele no EDHREC.
+     - quinta, **Mesa Quente**: ranking de 5, com dados do EDHREC ou da lista oficial de Game Changers.
+     - sexta, **Termômetro**: o assunto do vídeo com mais visualizações no `pulse` das últimas 7 edições vira uma versão própria da Fonte de Mana, com fatos conferidos. Nunca copie o roteiro do vídeo.
+     - sábado, **Rota das Lojas**: o Paulo grava na loja.
+     - domingo, **Bolsa de Mana**: uma carta de Commander que mudou de preço na semana e por quê, com o preço do dia (Scryfall ou MTGStocks). Não pode ser carta que já foi Topdeck nem manchete.
+   - Tudo precisa ter base em cartas, regras e fatos que existem: dado de carta pelo Scryfall, número de decks pelo EDHREC, história e curiosidade com fonte primária ou duas fontes. Ponha as fontes no campo `fonte` das cenas.
+   - Imagens de conteúdo original: baixe do Scryfall (regras de User-Agent do jornal) o `art_crop` para `pauta/AMANHA/tiktok/arte.jpg` e o `large` para `pauta/AMANHA/tiktok/carta.jpg`, e aponte `arte` e `carta` do roteiro para esses arquivos. Nunca grave em `img/`.
+   - Pesquisa extra: no máximo 8 buscas na web, com as regras de verificação do jornal.
 4. Escreva `pauta/AMANHA/tiktok/roteiro.json`:
 
         {
           "data": "AMANHA",
           "tema": (80),
-          "arte": "img/edN-art.jpg" ou null,      (arte de fundo; precisa existir no repositório)
-          "carta": "img/edN-card.jpg" ou null,    (imagem de carta na cena final)
+          "arte": "pauta/AMANHA/tiktok/arte.jpg" ou null,    (arte de fundo; precisa existir no repositório)
+          "carta": "pauta/AMANHA/tiktok/carta.jpg" ou null,  (imagem de carta na cena final)
           "credito": "Arte: <carta>, <artista>" ou null,
           "fx": "Reais pela cotação de 9 out (Banco Central Europeu)" ou null,
           "legenda": legenda do TikTok com a pergunta, a nota da cotação se houver valor, hashtags e o aviso de Fan Content,
