@@ -8,7 +8,7 @@
    "hora": "18:30",
    "rede": "Gravação",
    "titulo": "Gravar a narração do TikTok de amanhã",
-   "oQue": "Grave a narração do TikTok de amanhã sobre a janela de banimentos que passou sem mexer no Commander: um áudio por cena, lendo a fala de cada uma. São 4 cenas, uns 42 s no total.",
+   "oQue": "Grave a narração do TikTok de amanhã, do Dicionário do Commander: o que quer dizer EDH. Um áudio por cena, lendo a fala de cada uma. São 5 cenas, uns 46 s no total. Este roteiro substitui o do banimento, que repetia o conteúdo de 12 e 13/10.",
    "arquivos": [
     {
      "nome": "Vídeo mudo do TikTok",
@@ -17,30 +17,35 @@
    ],
    "roteiro": [
     {
-     "cena": "Cena 1, uns 10 s",
-     "tela": "O martelo do ban não caiu no Commander",
-     "fala": "Saiu o anúncio de banimentos de 12 de outubro e o Commander ficou de fora. Ninguém foi banido e ninguém voltou."
+     "cena": "Cena 1, uns 9 s",
+     "tela": "EDH é Elder Dragon Highlander",
+     "fala": "EDH quer dizer Elder Dragon Highlander. E cada parte do nome explica uma regra que você usa até hoje."
     },
     {
      "cena": "Cena 2, uns 11 s",
-     "tela": "Só o Brawl do Arena mexeu",
-     "fala": "A única mudança foi no Brawl competitivo do MTG Arena, que é outro formato. A lista de Game Changers nem foi citada, então segue igual."
+     "tela": "O comandante tinha que ser um dragão ancião",
+     "fala": "Elder Dragon são os cinco dragões anciões de Legends, de 1994. No começo, o comandante tinha que ser um deles, como o Nicol Bolas."
     },
     {
-     "cena": "Cena 3, uns 12 s",
-     "tela": "Seu deck continua no mesmo bracket",
-     "fala": "Na prática, seu deck continua no mesmo bracket. Smothering Tithe segue como Game Changer, e quem segurava troca esperando ban ganhou mais um mês e meio."
+     "cena": "Cena 3, uns 8 s",
+     "tela": "21 de dano é três golpes de um dragão 7/7",
+     "fala": "Todos eram sete por sete. Três golpes somam vinte e um, e daí veio o dano de comandante."
     },
     {
-     "cena": "Cena 4, uns 10 s",
-     "tela": "Próxima janela: 30 de novembro @fontedemana",
-     "fala": "A próxima janela é 30 de novembro. Qual carta você acha que cai? Comenta aqui e segue o arroba fonte de mana."
+     "cena": "Cena 4, uns 8 s",
+     "tela": "Só pode haver um",
+     "fala": "Highlander vem do filme do só pode haver um. Por isso, uma cópia de cada carta no deck."
+    },
+    {
+     "cena": "Cena 5, uns 9 s",
+     "tela": "EDH ou Commander: como você chama?",
+     "fala": "Em 2011 o formato virou Commander. E você, fala EDH ou Commander? Comenta e segue o arroba fonte de mana."
     }
    ],
    "passos": [
     "Abra o Gravador do iPhone num lugar silencioso e segure o celular a um palmo da boca.",
     "Grave um áudio por cena, lendo a fala do roteiro, com uma pausa curta antes e depois.",
-    "Renomeie os áudios como cena_1, cena_2, cena_3 e cena_4.",
+    "Renomeie os áudios como cena_1, cena_2, cena_3, cena_4 e cena_5.",
     "Mande os áudios ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"áudios do TikTok de 2026-10-14\"."
    ]
   },
@@ -48,8 +53,8 @@
    "id": "tiktok",
    "hora": "11:30",
    "rede": "TikTok",
-   "titulo": "Fonte do Dia: o ban passou e o Commander ficou igual",
-   "oQue": "Vídeo de gancho narrado sobre a janela de banimentos de 12 de outubro, que não mexeu no Commander nem nos Game Changers. Poste com a legenda e fixe o comentário.",
+   "titulo": "Dicionário do Commander: o que quer dizer EDH",
+   "oQue": "Vídeo narrado que explica a sigla EDH: os cinco Elder Dragons de Legends, a conta dos 21 de dano de comandante e o Highlander do \"só pode haver um\". Poste com a legenda e fixe o comentário.",
    "arquivos": [
     {
      "nome": "Vídeo mudo do TikTok",
@@ -59,11 +64,11 @@
    "textos": [
     {
      "rotulo": "Legenda",
-     "texto": "A janela de banimentos de 12 de outubro passou e o Commander ficou como estava. Nenhuma banida, nenhuma liberada, e os Game Changers seguem iguais. A próxima é 30 de novembro. Qual carta você acha que cai?\n\n#mtg #magicthegathering #commander #edh #mtgbrasil #banimento #gamechangers\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+     "texto": "EDH quer dizer Elder Dragon Highlander. Elder Dragon são os cinco dragões anciões da coleção Legends, de 1994, que foram os primeiros comandantes do formato. Highlander vem do filme de 1986, o do \"só pode haver um\", e por isso o deck tem uma cópia de cada carta. E os 21 de dano de comandante? Três golpes de um dragão 7/7.\n\nVocê fala EDH ou Commander?\n\n#mtg #magicthegathering #commander #edh #mtgbrasil #dicionariodocommander #nicolbolas\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
     },
     {
      "rotulo": "Comentário fixado",
-     "texto": "Meu palpite pra 30 de novembro: a lista de Game Changers mexe antes da lista de banidas. E o seu?"
+     "texto": "Se a regra antiga voltasse, qual dos cinco você pegava: Arcades Sabboth, Chromium, Nicol Bolas, Palladia-Mors ou Vaevictis Asmadi?"
     }
    ],
    "passos": [

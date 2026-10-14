@@ -1,50 +1,61 @@
 {
  "data": "2026-10-14",
- "tema": "Fonte do Dia: a janela de banimentos passou e o Commander ficou igual",
- "arte": "img/ed8-art.jpg",
- "carta": "img/ed8-card.jpg",
- "credito": "Arte: Stasis, Jérémie Solomon",
+ "tema": "Dicionário do Commander: o que quer dizer EDH",
+ "arte": "pauta/2026-10-14/tiktok/arte.jpg",
+ "carta": "pauta/2026-10-14/tiktok/carta.jpg",
+ "credito": "Arte: Nicol Bolas, Edward P. Beard, Jr.",
  "fx": null,
- "legenda": "A janela de banimentos de 12 de outubro passou e o Commander ficou como estava. Nenhuma banida, nenhuma liberada, e os Game Changers seguem iguais. A próxima é 30 de novembro. Qual carta você acha que cai?\n\n#mtg #magicthegathering #commander #edh #mtgbrasil #banimento #gamechangers\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
- "comentario": "Meu palpite pra 30 de novembro: a lista de Game Changers mexe antes da lista de banidas. E o seu?",
+ "legenda": "EDH quer dizer Elder Dragon Highlander. Elder Dragon são os cinco dragões anciões da coleção Legends, de 1994, que foram os primeiros comandantes do formato. Highlander vem do filme de 1986, o do \"só pode haver um\", e por isso o deck tem uma cópia de cada carta. E os 21 de dano de comandante? Três golpes de um dragão 7/7.\n\nVocê fala EDH ou Commander?\n\n#mtg #magicthegathering #commander #edh #mtgbrasil #dicionariodocommander #nicolbolas\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
+ "comentario": "Se a regra antiga voltasse, qual dos cinco você pegava: Arcades Sabboth, Chromium, Nicol Bolas, Palladia-Mors ou Vaevictis Asmadi?",
  "cenas": [
   {
    "tipo": "gancho",
-   "cor": "B",
-   "chip": "Fonte do Dia",
-   "kicker": "Banimentos de 12 de outubro",
-   "titulo": "O martelo do ban não caiu no Commander",
-   "sub": "Ninguém banido, ninguém liberado e os Game Changers seguem iguais",
-   "narracao": "Saiu o anúncio de banimentos de 12 de outubro e o Commander ficou de fora. Ninguém foi banido e ninguém voltou.",
-   "segundos": 9.6
-  },
-  {
-   "tipo": "texto",
-   "cor": "B",
-   "kicker": "O que mudou",
-   "titulo": "Só o Brawl do Arena mexeu",
-   "sub": "A lista de Game Changers nem aparece no anúncio, então segue como estava.",
-   "fonte": "Fonte: Wizards e MTG Rocks",
-   "narracao": "A única mudança foi no Brawl competitivo do MTG Arena, que é outro formato. A lista de Game Changers nem foi citada, então segue igual.",
-   "segundos": 11.2
+   "cor": "U",
+   "chip": "Dicionário",
+   "kicker": "O que quer dizer EDH",
+   "titulo": "EDH é Elder Dragon Highlander",
+   "sub": "E cada palavra da sigla explica uma regra que você usa até hoje",
+   "narracao": "EDH quer dizer Elder Dragon Highlander. E cada parte do nome explica uma regra que você usa até hoje.",
+   "segundos": 8.8
   },
   {
    "tipo": "texto",
    "cor": "U",
-   "kicker": "Na sua mesa",
-   "titulo": "Seu deck continua no mesmo bracket",
-   "sub": "Smothering Tithe segue Game Changer, e quem segurava troca ganhou mais um mês e meio.",
-   "narracao": "Na prática, seu deck continua no mesmo bracket. Smothering Tithe segue como Game Changer, e quem segurava troca esperando ban ganhou mais um mês e meio.",
-   "segundos": 11.6
+   "kicker": "Elder Dragon",
+   "titulo": "O comandante tinha que ser um dragão ancião",
+   "sub": "No começo, só valiam os cinco Elder Dragons de Legends, de 1994. Nicol Bolas era um deles.",
+   "fonte": "Fontes: Draftsim e Scryfall",
+   "narracao": "Elder Dragon são os cinco dragões anciões de Legends, de 1994. No começo, o comandante tinha que ser um deles, como o Nicol Bolas.",
+   "segundos": 10.8
+  },
+  {
+   "tipo": "texto",
+   "cor": "U",
+   "kicker": "A conta dos 21",
+   "titulo": "21 de dano é três golpes de um dragão 7/7",
+   "sub": "Os cinco eram 7/7 com voar. Três ataques já decidiam o jogo, e o dano de comandante ficou em 21.",
+   "fonte": "Fontes: EDHREC e Draftsim",
+   "narracao": "Todos eram sete por sete. Três golpes somam vinte e um, e daí veio o dano de comandante.",
+   "segundos": 8.4
+  },
+  {
+   "tipo": "texto",
+   "cor": "U",
+   "kicker": "Highlander",
+   "titulo": "Só pode haver um",
+   "sub": "O nome vem do filme Highlander, de 1986. Por isso o deck tem uma cópia de cada carta, fora os terrenos básicos.",
+   "fonte": "Fontes: Wikipedia e Draftsim",
+   "narracao": "Highlander vem do filme do só pode haver um. Por isso, uma cópia de cada carta no deck.",
+   "segundos": 8.4
   },
   {
    "tipo": "cta",
    "cor": "M",
    "kicker": "Todo dia no Instagram",
-   "titulo": "Próxima janela: 30 de novembro",
+   "titulo": "EDH ou Commander: como você chama?",
    "destaque": "@fontedemana",
-   "narracao": "A próxima janela é 30 de novembro. Qual carta você acha que cai? Comenta aqui e segue o arroba fonte de mana.",
-   "segundos": 10
+   "narracao": "Em 2011 o formato virou Commander. E você, fala EDH ou Commander? Comenta e segue o arroba fonte de mana.",
+   "segundos": 9.2
   }
  ]
 }
