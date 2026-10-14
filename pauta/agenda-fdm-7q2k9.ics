@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-10-12-threads-tarde@fontedemana.com.br
-DTSTAMP:20261014T002244Z
+DTSTAMP:20261014T102229Z
 DTSTART:20261012T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 7
@@ -52,7 +52,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-12-stories-tarde@fontedemana.com.br
-DTSTAMP:20261014T002244Z
+DTSTAMP:20261014T102229Z
 DTSTART:20261012T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -71,7 +71,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-12-reels@fontedemana.com.br
-DTSTAMP:20261014T002244Z
+DTSTAMP:20261014T102229Z
 DTSTART:20261012T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -99,7 +99,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-12-threads-plantao@fontedemana.com.br
-DTSTAMP:20261014T002244Z
+DTSTAMP:20261014T102229Z
 DTSTART:20261012T200000Z
 DURATION:PT15M
 SUMMARY:17:00 Threads: Resultado dos banimentos
@@ -121,7 +121,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-12-stories-plantao@fontedemana.com.br
-DTSTAMP:20261014T002244Z
+DTSTAMP:20261014T102229Z
 DTSTART:20261012T200000Z
 DURATION:PT15M
 SUMMARY:17:00 Instagram Stories: Story do resultado
@@ -140,7 +140,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-gravacao@fontedemana.com.br
-DTSTAMP:20261014T002244Z
+DTSTAMP:20261014T102229Z
 DTSTART:20261012T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -178,7 +178,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-tiktok@fontedemana.com.br
-DTSTAMP:20261014T002244Z
+DTSTAMP:20261014T102229Z
 DTSTART:20261013T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Carta do Dia: Wort\, Boggart Auntie
@@ -210,7 +210,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-threads-manha@fontedemana.com.br
-DTSTAMP:20261014T002244Z
+DTSTAMP:20261014T102229Z
 DTSTART:20261013T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia sobre os bans
@@ -230,7 +230,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-stories-manha@fontedemana.com.br
-DTSTAMP:20261014T002244Z
+DTSTAMP:20261014T102229Z
 DTSTART:20261013T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do carrossel com sticker de pergunta
@@ -250,7 +250,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-feed@fontedemana.com.br
-DTSTAMP:20261014T002244Z
+DTSTAMP:20261014T102229Z
 DTSTART:20261013T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 8
@@ -288,7 +288,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261014T002244Z
+DTSTAMP:20261014T102229Z
 DTSTART:20261013T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -307,7 +307,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-threads-tarde@fontedemana.com.br
-DTSTAMP:20261014T002244Z
+DTSTAMP:20261014T102229Z
 DTSTART:20261013T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 8
@@ -341,7 +341,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-stories-tarde@fontedemana.com.br
-DTSTAMP:20261014T002244Z
+DTSTAMP:20261014T102229Z
 DTSTART:20261013T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -361,7 +361,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-reels@fontedemana.com.br
-DTSTAMP:20261014T002244Z
+DTSTAMP:20261014T102229Z
 DTSTART:20261013T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -388,7 +388,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-threads-noite@fontedemana.com.br
-DTSTAMP:20261014T002244Z
+DTSTAMP:20261014T102229Z
 DTSTART:20261013T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Threads: Post com o vídeo do jornal
@@ -408,7 +408,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-14-gravacao@fontedemana.com.br
-DTSTAMP:20261014T002244Z
+DTSTAMP:20261014T102229Z
 DTSTART:20261013T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -445,8 +445,49 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:fdm-2026-10-14-threads-manha@fontedemana.com.br
+DTSTAMP:20261014T102229Z
+DTSTART:20261014T133000Z
+DURATION:PT15M
+SUMMARY:10:30 Threads: Enquete do dia: jogar ou vender o Jace
+DESCRIPTION:Pergunta para puxar conversa sobre o Jace de Reality Fracture\,
+  que mais que dobrou de preço. Dá para virar enquete com Jogar e Vender.
+ \n\nPost:\nO Jace de Reality Fracture mais que dobrou de preço.\n\nVocê 
+ abriu um? Vai jogar no Commander ou vender enquanto está em alta?\n\nPass
+ o a passo:\n1. Abra o Threads e cole o Post.\n2. Toque no ícone de enquet
+ e e crie duas opções: Jogar no Commander e Vender agora.\n3. Publique e 
+ responda quem comentar na primeira hora.\n\nPauta completa: https://fonted
+ emana.com.br/pauta/2026-10-14/#threads-manha
+URL:https://fontedemana.com.br/pauta/2026-10-14/#threads-manha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Enquete do dia: jogar ou vender o Jace
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-14-stories-manha@fontedemana.com.br
+DTSTAMP:20261014T102229Z
+DTSTART:20261014T133000Z
+DURATION:PT15M
+SUMMARY:10:30 Instagram Stories: Capa do carrossel com sticker de pergunta
+DESCRIPTION:Story com a capa da edição 9 e um sticker de pergunta para aq
+ uecer o carrossel do meio-dia.\n\nArquivos:\n- Carrossel 1 de 5: https://f
+ ontedemana.com.br/kit/ed9/carrossel-01.jpg\n\nPasso a passo:\n1. Baixe a c
+ apa e poste no Story.\n2. Adicione o sticker de Pergunta no terço de baix
+ o\, sem cobrir o título: Você tem o Jace de Reality Fracture?\n3. Publiq
+ ue.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-14/#storie
+ s-manha
+URL:https://fontedemana.com.br/pauta/2026-10-14/#stories-manha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Capa do carrossel com sticker de pergunta
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:fdm-2026-10-14-tiktok@fontedemana.com.br
-DTSTAMP:20261014T002244Z
+DTSTAMP:20261014T102229Z
 DTSTART:20261014T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Dicionário do Commander: o que quer dizer EDH
@@ -478,6 +519,169 @@ URL:https://fontedemana.com.br/pauta/2026-10-14/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:TikTok: Dicionário do Commander: o que quer dizer EDH
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-14-feed@fontedemana.com.br
+DTSTAMP:20261014T102229Z
+DTSTART:20261014T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram feed: Carrossel da edição 9
+DESCRIPTION:Carrossel de 5 imagens: o Jace de Reality Fracture mais que dob
+ rando de preço\, Kinnan no Topdeck do Dia\, riscos do ban\, agenda e o Su
+ ssurro.\n\nArquivos:\n- Carrossel 1 de 5: https://fontedemana.com.br/kit/e
+ d9/carrossel-01.jpg\n- Carrossel 2 de 5: https://fontedemana.com.br/kit/ed
+ 9/carrossel-02.jpg\n- Carrossel 3 de 5: https://fontedemana.com.br/kit/ed9
+ /carrossel-03.jpg\n- Carrossel 4 de 5: https://fontedemana.com.br/kit/ed9/
+ carrossel-04.jpg\n- Carrossel 5 de 5: https://fontedemana.com.br/kit/ed9/c
+ arrossel-05.jpg\n\nLegenda:\nO Jace de Reality Fracture virou a carta mais
+  disputada da coleção. The Theorist\, Jace Beleren caiu até uns US$ 31 
+ (R$ 155\,30) logo depois do lançamento e hoje está em US$ 65\,56 (R$ 328
+ \,43) no TCGplayer. A versão sem borda já passa de US$ 81\,27 (R$ 407\,1
+ 3).\n\nO motivo é a mesa multiplayer: ele te faz comprar um card no come
+ ço da etapa de compra de cada oponente. Num pod de quatro\, são três ca
+ rds extras por rodada\, e ele já aparece em listas de cEDH de Kinnan e Ro
+ grakh.\n\nNo Topdeck do Dia\, o próprio Kinnan\, Bonder Prodigy\, explica
+ do sem mistério.\n\nA edição completa\, com as fontes e os Sussurros\, 
+ está no link da bio: fontedemana.com.br\n\nArte: The Theorist\, Jace Bele
+ ren\, de Ekaterina Burmak. Kinnan\, Bonder Prodigy\, de Jason Rainville.\n
+ \nValores em reais pela cotação de 13 out (Banco Central\, PTAX).\n\n#ma
+ gicthegathering #mtg #commander #edh #mtgcommander #mtgbrasil #magicbrasil
+  #edhbrasil #realityfracture #cedh\n\nFonte de Mana is unofficial Fan Cont
+ ent permitted under the Fan Content Policy. Not approved/endorsed by Wizar
+ ds. Portions of the materials used are property of Wizards of the Coast. 
+ ©Wizards of the Coast LLC.\n\nPasso a passo:\n1. No Instagram\, toque em 
+ + e escolha Post.\n2. Selecione as 5 imagens na ordem\, da 1 à 5.\n3. Col
+ e a Legenda e publique.\n\nValores em reais pela cotação PTAX de 13 out\
+ , US$ 1 = R$ 5\,0096 (Banco Central).\n\nPauta completa: https://fontedema
+ na.com.br/pauta/2026-10-14/#feed
+URL:https://fontedemana.com.br/pauta/2026-10-14/#feed
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram feed: Carrossel da edição 9
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-14-stories-meio-dia@fontedemana.com.br
+DTSTAMP:20261014T102229Z
+DTSTART:20261014T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
+DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
+  sobre o preço do Jace.\n\nPasso a passo:\n1. No carrossel publicado\, to
+ que no avião de papel e em Adicionar post ao seu story.\n2. Adicione o st
+ icker de Enquete embaixo do post: O Jace chega a US$ 100 (R$ 500\,96)? com
+  Sim e Não.\n3. Publique.\n\nValores em reais pela cotação PTAX de 13 o
+ ut\, US$ 1 = R$ 5\,0096 (Banco Central).\n\nPauta completa: https://fonted
+ emana.com.br/pauta/2026-10-14/#stories-meio-dia
+URL:https://fontedemana.com.br/pauta/2026-10-14/#stories-meio-dia
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-14-threads-tarde@fontedemana.com.br
+DTSTAMP:20261014T102229Z
+DTSTART:20261014T180000Z
+DURATION:PT15M
+SUMMARY:15:00 Threads: Fio da edição 9
+DESCRIPTION:Fio de 5 posts sobre o preço do Jace de Reality Fracture\, por
+  que ele subiu e o Kinnan. Um bloco por post\, na ordem.\n\nPost 1:\nO Jac
+ e de Reality Fracture virou a carta da coleção que todo mundo quer no fi
+ chário.\n\nNeste fio: quanto ele vale\, por que subiu e a carta do dia.\n
+ \nPost 2:\nThe Theorist\, Jace Beleren caiu até uns US$ 31 (R$ 155\,30) l
+ ogo depois do lançamento\, segundo o MTG Rocks. Em 14 de outubro\, a vers
+ ão normal estava em US$ 65\,56 (R$ 328\,43) no TCGplayer\, e a sem borda 
+ em US$ 81\,27 (R$ 407\,13).\n\nPost 3:\nPor que subiu? Mesa multiplayer. E
+ le te faz comprar um card no começo da etapa de compra de cada oponente. 
+ Num pod de quatro\, são três cards extras por rodada. Já aparece em lis
+ tas de cEDH de Kinnan e Rograkh.\n\nPost 4:\nTopdeck do Dia: Kinnan\, Bond
+ er Prodigy.\n\nCriatura verde e azul de duas manas. Toda vez que você vir
+ a algo que não é terreno pra gerar mana\, ganha mais um do mesmo tipo. E
+ stá em 16\,2 mil decks Temur no EDHREC e sai por US$ 17\,16 (R$ 85\,96).\
+ n\nPost 5:\nA edição completa\, com todas as fontes\, está em fontedema
+ na.com.br\n\nValores em reais pela cotação de 13 out (Banco Central\, PT
+ AX).\n\nPasso a passo:\n1. Publique o Post 1 e toque em adicionar ao fio p
+ ara colar os outros\, na ordem.\n2. Responda quem comentar na primeira hor
+ a.\n\nValores em reais pela cotação PTAX de 13 out\, US$ 1 = R$ 5\,0096 
+ (Banco Central).\n\nPauta completa: https://fontedemana.com.br/pauta/2026-
+ 10-14/#threads-tarde
+URL:https://fontedemana.com.br/pauta/2026-10-14/#threads-tarde
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Fio da edição 9
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-14-stories-tarde@fontedemana.com.br
+DTSTAMP:20261014T102229Z
+DTSTART:20261014T180000Z
+DURATION:PT15M
+SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
+DESCRIPTION:Story com a imagem do Kinnan\, Bonder Prodigy no Topdeck do Dia
+  e o sticker de link para a edição completa.\n\nArquivos:\n- Topdeck do 
+ Dia\, Kinnan: https://fontedemana.com.br/kit/ed9/carrossel-03.jpg\n\nPasso
+  a passo:\n1. Baixe a imagem e poste no Story.\n2. Adicione o sticker de L
+ ink para fontedemana.com.br com o texto Edição completa\, embaixo do tex
+ to do Topdeck.\n3. Publique.\n\nPauta completa: https://fontedemana.com.br
+ /pauta/2026-10-14/#stories-tarde
+URL:https://fontedemana.com.br/pauta/2026-10-14/#stories-tarde
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Topdeck do Dia com link
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-14-reels@fontedemana.com.br
+DTSTAMP:20261014T102229Z
+DTSTART:20261014T220000Z
+DURATION:PT15M
+SUMMARY:19:00 Reels: Vídeo do jornal com música
+DESCRIPTION:Vídeo de 48 s da edição 9 com música em alta e sem narraç
+ ão.\n\nArquivos:\n- Vídeo do jornal\, 48 s: https://fontedemana.com.br/k
+ it/ed9/video-vertical-ed9.mp4\n\nLegenda:\nO Jace de Reality Fracture mais
+  que dobrou de preço\, puxado pelo Commander\, e o Kinnan no Topdeck do D
+ ia. Tudo em 48 segundos.\n\nEdição completa no link da bio: fontedemana.
+ com.br\n\nVocê já colocou o Jace no seu deck ou vai vender o seu? Conta 
+ aqui nos comentários.\n\nValores em reais pela cotação de 13 out (Banco
+  Central\, PTAX).\n\n#magicthegathering #mtg #commander #edh #mtgbrasil #m
+ agicbrasil\n\nFonte de Mana is unofficial Fan Content permitted under the 
+ Fan Content Policy. Not approved/endorsed by Wizards. Portions of the mate
+ rials used are property of Wizards of the Coast. ©Wizards of the Coast LL
+ C.\n\nPasso a passo:\n1. No Instagram\, toque em + e escolha Reel.\n2. Esc
+ olha o vídeo e adicione uma música em alta pela biblioteca do app\, com 
+ volume baixo.\n3. Cole a Legenda e publique.\n\nPauta completa: https://fo
+ ntedemana.com.br/pauta/2026-10-14/#reels
+URL:https://fontedemana.com.br/pauta/2026-10-14/#reels
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reels: Vídeo do jornal com música
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-14-threads-noite@fontedemana.com.br
+DTSTAMP:20261014T102229Z
+DTSTART:20261014T220000Z
+DURATION:PT15M
+SUMMARY:19:00 Threads: Post com o vídeo do jornal
+DESCRIPTION:Post no Threads com o mesmo vídeo de 48 s da edição 9.\n\nAr
+ quivos:\n- Vídeo do jornal\, 48 s: https://fontedemana.com.br/kit/ed9/vid
+ eo-vertical-ed9.mp4\n\nPost:\nJace de Reality Fracture mais que dobrando d
+ e preço e o Kinnan no Topdeck do Dia\, tudo em 48 segundos.\n\nEdição c
+ ompleta em fontedemana.com.br\n\nPasso a passo:\n1. No Threads\, anexe o v
+ ídeo baixado.\n2. Cole o Post e publique.\n\nPauta completa: https://font
+ edemana.com.br/pauta/2026-10-14/#threads-noite
+URL:https://fontedemana.com.br/pauta/2026-10-14/#threads-noite
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Post com o vídeo do jornal
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT

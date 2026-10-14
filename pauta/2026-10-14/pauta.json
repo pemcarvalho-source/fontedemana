@@ -1,6 +1,6 @@
 {
  "data": "2026-10-14",
- "fx": null,
+ "fx": "Valores em reais pela cotação PTAX de 13 out, US$ 1 = R$ 5,0096 (Banco Central).",
  "avisos": [
   {
    "id": "gravacao",
@@ -50,6 +50,42 @@
    ]
   },
   {
+   "id": "threads-manha",
+   "hora": "10:30",
+   "rede": "Threads",
+   "titulo": "Enquete do dia: jogar ou vender o Jace",
+   "oQue": "Pergunta para puxar conversa sobre o Jace de Reality Fracture, que mais que dobrou de preço. Dá para virar enquete com Jogar e Vender.",
+   "textos": [
+    {
+     "rotulo": "Post",
+     "texto": "O Jace de Reality Fracture mais que dobrou de preço.\n\nVocê abriu um? Vai jogar no Commander ou vender enquanto está em alta?"
+    }
+   ],
+   "passos": [
+    "Abra o Threads e cole o Post.",
+    "Toque no ícone de enquete e crie duas opções: Jogar no Commander e Vender agora.",
+    "Publique e responda quem comentar na primeira hora."
+   ]
+  },
+  {
+   "id": "stories-manha",
+   "hora": "10:30",
+   "rede": "Instagram Stories",
+   "titulo": "Capa do carrossel com sticker de pergunta",
+   "oQue": "Story com a capa da edição 9 e um sticker de pergunta para aquecer o carrossel do meio-dia.",
+   "arquivos": [
+    {
+     "nome": "Carrossel 1 de 5",
+     "url": "https://fontedemana.com.br/kit/ed9/carrossel-01.jpg"
+    }
+   ],
+   "passos": [
+    "Baixe a capa e poste no Story.",
+    "Adicione o sticker de Pergunta no terço de baixo, sem cobrir o título: Você tem o Jace de Reality Fracture?",
+    "Publique."
+   ]
+  },
+  {
    "id": "tiktok",
    "hora": "11:30",
    "rede": "TikTok",
@@ -77,6 +113,156 @@
     "Cole a Legenda. A voz é sua, então não precisa marcar rótulo de conteúdo de IA.",
     "Publique, abra os comentários, cole o Comentário fixado e fixe ele no topo.",
     "Se os áudios não chegaram a tempo, poste o vídeo mudo com um som em alta no volume normal."
+   ]
+  },
+  {
+   "id": "feed",
+   "hora": "12:00",
+   "rede": "Instagram feed",
+   "titulo": "Carrossel da edição 9",
+   "oQue": "Carrossel de 5 imagens: o Jace de Reality Fracture mais que dobrando de preço, Kinnan no Topdeck do Dia, riscos do ban, agenda e o Sussurro.",
+   "arquivos": [
+    {
+     "nome": "Carrossel 1 de 5",
+     "url": "https://fontedemana.com.br/kit/ed9/carrossel-01.jpg"
+    },
+    {
+     "nome": "Carrossel 2 de 5",
+     "url": "https://fontedemana.com.br/kit/ed9/carrossel-02.jpg"
+    },
+    {
+     "nome": "Carrossel 3 de 5",
+     "url": "https://fontedemana.com.br/kit/ed9/carrossel-03.jpg"
+    },
+    {
+     "nome": "Carrossel 4 de 5",
+     "url": "https://fontedemana.com.br/kit/ed9/carrossel-04.jpg"
+    },
+    {
+     "nome": "Carrossel 5 de 5",
+     "url": "https://fontedemana.com.br/kit/ed9/carrossel-05.jpg"
+    }
+   ],
+   "textos": [
+    {
+     "rotulo": "Legenda",
+     "texto": "O Jace de Reality Fracture virou a carta mais disputada da coleção. The Theorist, Jace Beleren caiu até uns US$ 31 (R$ 155,30) logo depois do lançamento e hoje está em US$ 65,56 (R$ 328,43) no TCGplayer. A versão sem borda já passa de US$ 81,27 (R$ 407,13).\n\nO motivo é a mesa multiplayer: ele te faz comprar um card no começo da etapa de compra de cada oponente. Num pod de quatro, são três cards extras por rodada, e ele já aparece em listas de cEDH de Kinnan e Rograkh.\n\nNo Topdeck do Dia, o próprio Kinnan, Bonder Prodigy, explicado sem mistério.\n\nA edição completa, com as fontes e os Sussurros, está no link da bio: fontedemana.com.br\n\nArte: The Theorist, Jace Beleren, de Ekaterina Burmak. Kinnan, Bonder Prodigy, de Jason Rainville.\n\nValores em reais pela cotação de 13 out (Banco Central, PTAX).\n\n#magicthegathering #mtg #commander #edh #mtgcommander #mtgbrasil #magicbrasil #edhbrasil #realityfracture #cedh\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+    }
+   ],
+   "passos": [
+    "No Instagram, toque em + e escolha Post.",
+    "Selecione as 5 imagens na ordem, da 1 à 5.",
+    "Cole a Legenda e publique."
+   ]
+  },
+  {
+   "id": "stories-meio-dia",
+   "hora": "12:00",
+   "rede": "Instagram Stories",
+   "titulo": "Repost do carrossel com enquete",
+   "oQue": "Compartilhe o carrossel recém postado no Story com uma enquete sobre o preço do Jace.",
+   "passos": [
+    "No carrossel publicado, toque no avião de papel e em Adicionar post ao seu story.",
+    "Adicione o sticker de Enquete embaixo do post: O Jace chega a US$ 100 (R$ 500,96)? com Sim e Não.",
+    "Publique."
+   ]
+  },
+  {
+   "id": "threads-tarde",
+   "hora": "15:00",
+   "rede": "Threads",
+   "titulo": "Fio da edição 9",
+   "oQue": "Fio de 5 posts sobre o preço do Jace de Reality Fracture, por que ele subiu e o Kinnan. Um bloco por post, na ordem.",
+   "textos": [
+    {
+     "rotulo": "Post 1",
+     "texto": "O Jace de Reality Fracture virou a carta da coleção que todo mundo quer no fichário.\n\nNeste fio: quanto ele vale, por que subiu e a carta do dia."
+    },
+    {
+     "rotulo": "Post 2",
+     "texto": "The Theorist, Jace Beleren caiu até uns US$ 31 (R$ 155,30) logo depois do lançamento, segundo o MTG Rocks. Em 14 de outubro, a versão normal estava em US$ 65,56 (R$ 328,43) no TCGplayer, e a sem borda em US$ 81,27 (R$ 407,13)."
+    },
+    {
+     "rotulo": "Post 3",
+     "texto": "Por que subiu? Mesa multiplayer. Ele te faz comprar um card no começo da etapa de compra de cada oponente. Num pod de quatro, são três cards extras por rodada. Já aparece em listas de cEDH de Kinnan e Rograkh."
+    },
+    {
+     "rotulo": "Post 4",
+     "texto": "Topdeck do Dia: Kinnan, Bonder Prodigy.\n\nCriatura verde e azul de duas manas. Toda vez que você vira algo que não é terreno pra gerar mana, ganha mais um do mesmo tipo. Está em 16,2 mil decks Temur no EDHREC e sai por US$ 17,16 (R$ 85,96)."
+    },
+    {
+     "rotulo": "Post 5",
+     "texto": "A edição completa, com todas as fontes, está em fontedemana.com.br\n\nValores em reais pela cotação de 13 out (Banco Central, PTAX)."
+    }
+   ],
+   "passos": [
+    "Publique o Post 1 e toque em adicionar ao fio para colar os outros, na ordem.",
+    "Responda quem comentar na primeira hora."
+   ]
+  },
+  {
+   "id": "stories-tarde",
+   "hora": "15:00",
+   "rede": "Instagram Stories",
+   "titulo": "Topdeck do Dia com link",
+   "oQue": "Story com a imagem do Kinnan, Bonder Prodigy no Topdeck do Dia e o sticker de link para a edição completa.",
+   "arquivos": [
+    {
+     "nome": "Topdeck do Dia, Kinnan",
+     "url": "https://fontedemana.com.br/kit/ed9/carrossel-03.jpg"
+    }
+   ],
+   "passos": [
+    "Baixe a imagem e poste no Story.",
+    "Adicione o sticker de Link para fontedemana.com.br com o texto Edição completa, embaixo do texto do Topdeck.",
+    "Publique."
+   ]
+  },
+  {
+   "id": "reels",
+   "hora": "19:00",
+   "rede": "Reels",
+   "titulo": "Vídeo do jornal com música",
+   "oQue": "Vídeo de 48 s da edição 9 com música em alta e sem narração.",
+   "arquivos": [
+    {
+     "nome": "Vídeo do jornal, 48 s",
+     "url": "https://fontedemana.com.br/kit/ed9/video-vertical-ed9.mp4"
+    }
+   ],
+   "textos": [
+    {
+     "rotulo": "Legenda",
+     "texto": "O Jace de Reality Fracture mais que dobrou de preço, puxado pelo Commander, e o Kinnan no Topdeck do Dia. Tudo em 48 segundos.\n\nEdição completa no link da bio: fontedemana.com.br\n\nVocê já colocou o Jace no seu deck ou vai vender o seu? Conta aqui nos comentários.\n\nValores em reais pela cotação de 13 out (Banco Central, PTAX).\n\n#magicthegathering #mtg #commander #edh #mtgbrasil #magicbrasil\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+    }
+   ],
+   "passos": [
+    "No Instagram, toque em + e escolha Reel.",
+    "Escolha o vídeo e adicione uma música em alta pela biblioteca do app, com volume baixo.",
+    "Cole a Legenda e publique."
+   ]
+  },
+  {
+   "id": "threads-noite",
+   "hora": "19:00",
+   "rede": "Threads",
+   "titulo": "Post com o vídeo do jornal",
+   "oQue": "Post no Threads com o mesmo vídeo de 48 s da edição 9.",
+   "arquivos": [
+    {
+     "nome": "Vídeo do jornal, 48 s",
+     "url": "https://fontedemana.com.br/kit/ed9/video-vertical-ed9.mp4"
+    }
+   ],
+   "textos": [
+    {
+     "rotulo": "Post",
+     "texto": "Jace de Reality Fracture mais que dobrando de preço e o Kinnan no Topdeck do Dia, tudo em 48 segundos.\n\nEdição completa em fontedemana.com.br"
+    }
+   ],
+   "passos": [
+    "No Threads, anexe o vídeo baixado.",
+    "Cole o Post e publique."
    ]
   }
  ]
