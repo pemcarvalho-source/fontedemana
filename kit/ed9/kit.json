@@ -1,0 +1,102 @@
+{
+ "n": 9,
+ "data": "14 out",
+ "carrossel": {
+  "capa": {
+   "cor": "A",
+   "titulo": "Jace de Reality Fracture mais que dobra de preço",
+   "sub": "O planeswalker saiu de uns US$ 31 (R$ 155,30) pra <b>US$ 65,56 (R$ 328,43)</b> no TCGplayer, puxado pelas mesas de Commander",
+   "credito": "Arte: The Theorist, Jace Beleren, Ekaterina Burmak"
+  },
+  "cartoes": [
+   {
+    "cor": "A",
+    "titulo": "Jace em alta",
+    "itens": [
+     {"cor": "A", "html": "Versão normal: <b>US$ 65,56 (R$ 328,43)</b> no TCGplayer em 14 de outubro"},
+     {"cor": "A", "html": "Sem borda: <b>US$ 81,27 (R$ 407,13)</b>. O piso pós lançamento foi de US$ 31 (R$ 155,30)"},
+     {"cor": "U", "html": "Compra um card no começo da etapa de compra de <b>cada oponente</b>. No pod de quatro, são três por rodada"},
+     {"cor": "U", "html": "Já aparece em listas de cEDH de <b>Kinnan</b> e de <b>Rograkh</b>"}
+    ],
+    "nota": {"rotulo": "No seu bolso", "texto": "carta nova costuma oscilar, então quem só quer jogar com ele pode esperar."},
+    "fonte": "Fontes: Scryfall, MTG Rocks. Reais: PTAX de 13 out"
+   }
+  ],
+  "topdeck": {
+   "titulo": "Kinnan, Bonder Prodigy",
+   "habilidades": [
+    {"rotulo": "Mana em dobro", "texto": "Virou algo que não é terreno pra gerar mana? Ganha mais um do mesmo tipo"},
+    {"rotulo": "Cavar criatura", "texto": "Por 7, olha cinco do topo e baixa de graça uma criatura que não seja Humana"}
+   ],
+   "extra": "Comandante de cEDH em verde e azul, em <b>16,2 mil decks</b> Temur no EDHREC. Sai por US$ 17,16 (R$ 85,96). Reais: PTAX de 13 out",
+   "credito": "Ilustração de Jason Rainville"
+  },
+  "ban": {
+   "numero": "47",
+   "unidade": "DIAS",
+   "texto": "A próxima janela de banimentos é em 30 de novembro. A de 12 de outubro não mexeu no Commander."
+  },
+  "turnos": [
+   {"cor": "W", "data": "até 15 out", "texto": "Festa de Commander nas lojas"},
+   {"cor": "A", "data": "19 out", "texto": "Festival in a Box: Atlanta"},
+   {"cor": "W", "data": "23 a 29 out", "texto": "Segunda rodada da Festa de Commander"},
+   {"cor": "A", "data": "2 nov", "texto": "Venda do Countdown Kit da Marvel"},
+   {"cor": "G", "data": "13 nov", "texto": "Star Trek e MagicCon: Atlanta"}
+  ],
+  "sussurro": "O podcast do MTGGoldfish perguntou se o Jace chega a US$ 100 (R$ 500,96). É papo de finanças, nada confirmado."
+ },
+ "video": {
+  "cena1": {
+   "titulo": "Jace de Reality Fracture mais que dobra de preço",
+   "pilulas": ["Piso de US$ 31", "Hoje US$ 65,56", "Puxado pelo Commander"]
+  },
+  "cena2": {
+   "rotulo": "No bolso",
+   "cor": "A",
+   "titulo": "Quanto vale o Jace hoje",
+   "itens": [
+    "Normal: <b>US$ 65,56</b> (R$ 328,43)",
+    "Sem borda: <b>US$ 81,27</b> (R$ 407,13)",
+    "Piso pós lançamento: US$ 31 (R$ 155,30)"
+   ],
+   "fonte": "Fontes: Scryfall, MTG Rocks. Reais: PTAX de 13 out"
+  },
+  "cena3": {
+   "linhas": [
+    "Virou pedra de mana? <b>Ganha mais um</b> do mesmo tipo",
+    "Com mana infinita, <b>cava criatura</b> sem parar",
+    "Comandante de cEDH em verde e azul"
+   ]
+  },
+  "cena4": {
+   "texto": "A próxima janela de banimentos é em 30 de novembro. Até lá, o Commander segue como está.",
+   "sussurro": "O Jace chega a US$ 100? É só papo de podcast."
+  }
+ },
+ "textos": {
+  "legendaCarrossel": "O Jace de Reality Fracture virou a carta mais disputada da coleção. The Theorist, Jace Beleren caiu até uns US$ 31 (R$ 155,30) logo depois do lançamento e hoje está em US$ 65,56 (R$ 328,43) no TCGplayer. A versão sem borda já passa de US$ 81,27 (R$ 407,13).\n\nO motivo é a mesa multiplayer: ele te faz comprar um card no começo da etapa de compra de cada oponente. Num pod de quatro, são três cards extras por rodada, e ele já aparece em listas de cEDH de Kinnan e Rograkh.\n\nNo Topdeck do Dia, o próprio Kinnan, Bonder Prodigy, explicado sem mistério.\n\nA edição completa, com as fontes e os Sussurros, está no link da bio: fontedemana.com.br\n\nArte: The Theorist, Jace Beleren, de Ekaterina Burmak. Kinnan, Bonder Prodigy, de Jason Rainville.\n\nValores em reais pela cotação de 13 out (Banco Central, PTAX).\n\n#magicthegathering #mtg #commander #edh #mtgcommander #mtgbrasil #magicbrasil #edhbrasil #realityfracture #cedh",
+  "legendaVideo": "O Jace de Reality Fracture mais que dobrou de preço, puxado pelo Commander, e o Kinnan no Topdeck do Dia. Tudo em 48 segundos.\n\nEdição completa no link da bio: fontedemana.com.br\n\nVocê já colocou o Jace no seu deck ou vai vender o seu? Conta aqui nos comentários.\n\nValores em reais pela cotação de 13 out (Banco Central, PTAX).\n\n#magicthegathering #mtg #commander #edh #mtgbrasil #magicbrasil",
+  "threadsCarrossel": "O Jace de Reality Fracture saiu de uns US$ 31 (R$ 155,30) pra US$ 65,56 (R$ 328,43) no TCGplayer. Quem puxa é o Commander.\n\nArrasta pra ver os preços e o Kinnan explicado. Edição em fontedemana.com.br\n\nReais pela cotação de 13 out (Banco Central, PTAX).",
+  "threadsVideo": "Jace de Reality Fracture mais que dobrando de preço e o Kinnan no Topdeck do Dia, tudo em 48 segundos.\n\nEdição completa em fontedemana.com.br",
+  "narracao": [
+   {"cena": "Cena 1, de 0 a 13 s (Notícia Lendária)", "texto": "O Jace de Reality Fracture mais que dobrou de preço. Ele caiu até uns 31 dólares, uns 155 reais, depois do lançamento, e quem puxou a alta foi o Commander."},
+   {"cena": "Cena 2, de 13 a 21 s (No bolso)", "texto": "Hoje a versão normal está em 65 dólares e 56, uns 328 reais. A sem borda passa de 81 dólares, uns 407 reais."},
+   {"cena": "Cena 3, de 21 a 32 s (Topdeck do Dia)", "texto": "O Topdeck do Dia é o Kinnan. Cada pedra de mana que você vira gera um mana a mais, e com mana infinita ele cava criatura sem parar."},
+   {"cena": "Cena 4, de 32 a 41 s (Riscos do Ban e Sussurro)", "texto": "A próxima janela de banimentos é em 30 de novembro. E no podcast já tem gente perguntando se o Jace chega a cem dólares, uns 501 reais, mas é só papo."},
+   {"cena": "Cena 5, de 41 a 48 s (chamada final)", "texto": "A edição completa está no link da bio, em fontedemana.com.br. Segue a gente pra receber todo dia!"}
+  ],
+  "threadsFio": [
+   "O Jace de Reality Fracture virou a carta da coleção que todo mundo quer no fichário.\n\nNeste fio: quanto ele vale, por que subiu e a carta do dia.",
+   "The Theorist, Jace Beleren caiu até uns US$ 31 (R$ 155,30) logo depois do lançamento, segundo o MTG Rocks. Em 14 de outubro, a versão normal estava em US$ 65,56 (R$ 328,43) no TCGplayer, e a sem borda em US$ 81,27 (R$ 407,13).",
+   "Por que subiu? Mesa multiplayer. Ele te faz comprar um card no começo da etapa de compra de cada oponente. Num pod de quatro, são três cards extras por rodada. Já aparece em listas de cEDH de Kinnan e Rograkh.",
+   "Topdeck do Dia: Kinnan, Bonder Prodigy.\n\nCriatura verde e azul de duas manas. Toda vez que você vira algo que não é terreno pra gerar mana, ganha mais um do mesmo tipo. Está em 16,2 mil decks Temur no EDHREC e sai por US$ 17,16 (R$ 85,96).",
+   "A edição completa, com todas as fontes, está em fontedemana.com.br\n\nValores em reais pela cotação de 13 out (Banco Central, PTAX)."
+  ],
+  "threadsAvulsos": [
+   {"titulo": "Pergunta para a comunidade", "texto": "O Jace de Reality Fracture mais que dobrou de preço.\n\nVocê abriu um? Vai jogar no Commander ou vender enquanto está em alta?", "obs": "Dá pra virar enquete: jogar ou vender."},
+   {"titulo": "Dica de regra", "texto": "Dica rápida sobre o Kinnan: ele copia o tipo de mana, não a quantidade.\n\nUm Sol Ring que gera dois incolores dá só mais um incolor. E terreno não conta, nem terreno que virou criatura."},
+   {"titulo": "Agenda", "texto": "Agenda de Commander:\n\nAté 15 de outubro: primeira rodada da Festa de Commander nas lojas\n19 de outubro: Festival in a Box: Atlanta\n23 a 29 de outubro: segunda rodada da Festa de Commander\n30 de novembro: próxima janela de banimentos\n\nJá marcou com a sua mesa?"},
+   {"titulo": "Sussurro", "texto": "Rumor: o podcast 609 do MTGGoldfish levantou a pergunta se o Jace de Reality Fracture chega a US$ 100 (R$ 500,96). É discussão de finanças, não previsão confirmada.\n\nValores em reais pela cotação de 13 out (Banco Central, PTAX)."}
+  ]
+ }
+}
