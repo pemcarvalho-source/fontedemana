@@ -1,19 +1,18 @@
 # Jornal diário da Fonte de Mana (tarefa das 5h55)
 
-Publica a edição de hoje no artifact e no site fontedemana.com.br e gera o Kit de Redes. Leia antes `tools/REGRAS.md` (texto, fontes, moeda, Fan Content, Scryfall, git). Subtítulo: "Sua fonte diária de informação sobre Magic: The Gathering". É conteúdo de fã não oficial: nunca use logos ou marcas da Wizards e nunca remova o aviso de Fan Content do rodapé da página. Ninguém responde durante a execução: decida sozinho.
+Publica a edição de hoje no site fontedemana.com.br e gera o Kit de Redes. Leia antes `tools/REGRAS.md` (texto, fontes, moeda, Fan Content, Scryfall, git). Subtítulo: "Sua fonte diária de informação sobre Magic: The Gathering". É conteúdo de fã não oficial: nunca use logos ou marcas da Wizards e nunca remova o aviso de Fan Content do rodapé da página. Ninguém responde durante a execução: decida sozinho.
 
 ## 0. Como o jornal está montado
 
-- Artifact `https://claude.ai/artifact/75MQH44mbb2H4w5TvmQ7Tn` com: `index.html` (visual e código, NUNCA muda no dia a dia), `data/index.js` (`window.MANA_POOL_INDEX = {"featuredCards": [...], "editions": [...]};`, edições mais recentes primeiro, cada uma `{"n","date","dateLabel","head","biome"}`; featuredCards = cartas que já foram Topdeck, mais recente primeiro), `data/edN.js` (`MANA_POOL_ED({...});`), `img/edN-art.jpg` (arte da Notícia Lendária), `img/edN-card.jpg` (carta do Topdeck) e `lands/*.jpg` (fixas, não mexa). Ao publicar, envie só os arquivos novos ou alterados.
-- O mesmo jornal é servido em `https://fontedemana.com.br` pelo repositório (clone em `./gh`). O `index.html` do site é diferente do artifact (tem as tags de prévia do link) e nunca é sobrescrito.
+- O jornal é o site `https://fontedemana.com.br`, servido pelo GitHub Pages a partir do repositório (clone em `./gh`). É o único lugar onde ele é publicado (o antigo artifact do claude.ai não é mais atualizado).
+- Arquivos: `index.html` (visual, código e tags de prévia do link; NUNCA muda no dia a dia), `data/index.js` (`window.MANA_POOL_INDEX = {"featuredCards": [...], "editions": [...]};`, edições mais recentes primeiro, cada uma `{"n","date","dateLabel","head","biome"}`; featuredCards = cartas que já foram Topdeck, mais recente primeiro), `data/edN.js` (`MANA_POOL_ED({...});`), `img/edN-art.jpg` (arte da Notícia Lendária), `img/edN-card.jpg` (carta do Topdeck) e `lands/*.jpg` (fixas, não mexa).
 
 ## 1. Ler o estado atual
 
-1. Artifact, action "read", url acima. Leia o HTML salvo inteiro com Read (em partes com offset e limit se precisar; a publicação só é aceita depois disso) e copie esse arquivo, sem alterar nada, para `./site/index.html`.
-2. Artifact "read" com path `data/index.js`, salve em `./site/data/index.js`. N = `editions[0].n`.
-3. Leia `./gh/data/edN.js` (a edição anterior: cobertura, manchetes, agenda, sussurros, pulse, carta). Se o arquivo não existir no clone, use Artifact "read" com path `data/edN.js`.
-4. Rode `node ./gh/tools/conteudo/contexto.cjs ./gh <hoje AAAA-MM-DD> --publicados`. Ele lista em poucas linhas o que já saiu nos últimos 30 dias (manchetes, Topdecks, cartas e temas dos originais). Não repita notícia sem fato novo e não use como Topdeck uma carta dessa lista.
-5. A nova edição é N+1. A janela de cobertura vai do dia seguinte ao fim da cobertura anterior até hoje.
+1. Leia `./gh/data/index.js`. N = `editions[0].n`. Não abra o `index.html`: ele não muda.
+2. Leia `./gh/data/edN.js` (a edição anterior: cobertura, manchetes, agenda, sussurros, pulse, carta).
+3. Rode `node ./gh/tools/conteudo/contexto.cjs ./gh <hoje AAAA-MM-DD> --publicados`. Ele lista em poucas linhas o que já saiu nos últimos 30 dias (manchetes, Topdecks, cartas e temas dos originais). Não repita notícia sem fato novo e não use como Topdeck uma carta dessa lista.
+4. A nova edição é N+1. A janela de cobertura vai do dia seguinte ao fim da cobertura anterior até hoje.
 
 ## 2. Pesquisar
 
@@ -60,11 +59,11 @@ Regras de texto de `tools/REGRAS.md`. `notes` fica sempre vazio: aviso de rotina
 
 ## 8. Imagens
 
-Pelo Scryfall, como em `tools/REGRAS.md`. Carta do Topdeck: `image_uris.large` em `./site/img/ed(N+1)-card.jpg` (use artista, set e número dessa impressão). Arte da Notícia Lendária: carta ligada à manchete principal (a citada, o comandante revelado, o artefato da coleção) ou cuja arte ilustre o assunto (ex.: Booster Tutor para boosters), nunca a mesma do Topdeck: `image_uris.art_crop` em `./site/img/ed(N+1)-art.jpg`. Sem imagem: `card.image = null` (a página faz uma proxy com o texto) e `art.image = null` (a página usa o terreno da cor de `art.biome`).
+Pelo Scryfall, como em `tools/REGRAS.md`. Carta do Topdeck: `image_uris.large` em `./gh/img/ed(N+1)-card.jpg` (use artista, set e número dessa impressão). Arte da Notícia Lendária: carta ligada à manchete principal (a citada, o comandante revelado, o artefato da coleção) ou cuja arte ilustre o assunto (ex.: Booster Tutor para boosters), nunca a mesma do Topdeck: `image_uris.art_crop` em `./gh/img/ed(N+1)-art.jpg`. Sem imagem: `card.image = null` (a página faz uma proxy com o texto) e `art.image = null` (a página usa o terreno da cor de `art.biome`).
 
 ## 9. Montar a edição N+1
 
-`./site/data/ed(N+1).js` com `MANA_POOL_ED( <JSON> );`, no formato da edição anterior:
+`./gh/data/ed(N+1).js` com `MANA_POOL_ED( <JSON> );`, no formato da edição anterior:
 - n, date ("AAAA-MM-DD", hoje em São Paulo), dateLabel ("Domingo, 11 de outubro de 2026"), coverage ("Notícias de 11 de outubro" ou "Notícias de 10 e 11 de outubro").
 - lead: {"title": "Resumo do Dia", "flavor": linha curta no estilo de flavor text ligada à Notícia Lendária, sem inventar fato}.
 - art: {"biome": cor da Notícia Lendária (W, U, B, R, G, A ou M), "seed": n, "label": nome da carta, "card": nome da carta, "artist", "uri": link scryfall.com da impressão, "image": "img/ed(N+1)-art.jpg" ou null}.
@@ -79,23 +78,19 @@ Pelo Scryfall, como em `tools/REGRAS.md`. Carta do Topdeck: `image_uris.large` e
 - fx: com valor convertido, {"rate": número, "date": "AAAA-MM-DD", "source": "Banco Central Europeu" ou a fonte usada, "url", "html": "Valores em reais pela cotação de 9 out, US$ 1 = R$ 5,005 (Banco Central Europeu)."}; sem valor convertido, null.
 - notes: [] sempre.
 
-Depois atualize `./site/data/index.js`: no início de editions `{"n": N+1, "date", "dateLabel", "head": título da Notícia Lendária (ou "Dia calmo no Multiverso"), "biome": art.biome}`, no início de featuredCards o nome da carta do Topdeck, no máximo 31 entradas em editions (apague as mais antigas do índice). Mantenha o comentário da primeira linha e os nomes internos MANA_POOL_INDEX e MANA_POOL_ED.
+Depois atualize `./gh/data/index.js`: no início de editions `{"n": N+1, "date", "dateLabel", "head": título da Notícia Lendária (ou "Dia calmo no Multiverso"), "biome": art.biome}`, no início de featuredCards o nome da carta do Topdeck, no máximo 31 entradas em editions (apague as mais antigas do índice). Mantenha o comentário da primeira linha e os nomes internos MANA_POOL_INDEX e MANA_POOL_ED.
 
 ## 10. Validar
 
-`node ./gh/tools/jornal/validar.cjs ./site N+1`. Corrija tudo o que ele apontar e rode de novo até sair OK. Não publique com erro.
+`node ./gh/tools/jornal/validar.cjs ./gh N+1`. Corrija tudo o que ele apontar e rode de novo até sair OK. Não publique com erro.
 
-## 11. Publicar no artifact
+## 11. Publicar no site (obrigatório)
 
-Artifact "publish" com url `https://claude.ai/artifact/75MQH44mbb2H4w5TvmQ7Tn` (sempre, senão cria outra página), file_path = caminho absoluto de `./site/index.html` (use pwd) e files = {"data/index.js": "./site/data/index.js", "data/ed(N+1).js": "./site/data/ed(N+1).js", "img/ed(N+1)-art.jpg": "./site/img/ed(N+1)-art.jpg", "img/ed(N+1)-card.jpg": "./site/img/ed(N+1)-card.jpg"} (imagens só se existirem). Sem icon. Conflito de versão: leia o que voltou, junte e publique de novo.
-
-## 11b. Publicar no site (obrigatório)
-
-1. Copie para `./gh` só os arquivos desta edição: `data/index.js`, `data/ed(N+1).js` e as duas imagens (se existirem). Nada mais.
-2. `cd ./gh && git add data img`, commit "Edição N+1 de <data>" e push, com as regras de `tools/REGRAS.md`. Se o push falhar de vez, guarde o erro exato (o artifact já está publicado, a edição não se perde).
+1. `cd ./gh && git add data img`, commit "Edição N+1 de <data>" e push, com as regras de `tools/REGRAS.md`. Não adicione nada fora de `data/` e `img/`.
+2. O site é o único lugar do jornal: se o push falhar por permissão ou rede depois da nova tentativa de `tools/REGRAS.md`, espere 2 minutos e tente mais 2 vezes antes de desistir. Se não der, guarde o erro exato, siga para a 11b (o kit vai junto no envio final) e tente enviar tudo de novo no fim da execução.
 3. Uns 2 minutos depois de um push que deu certo, WebFetch `https://fontedemana.com.br/data/ed(N+1).js`. Se ainda não aparecer, espere mais 2 minutos e confira uma última vez.
 
-## 11c. Kit de Redes (depois da 11b, mesmo se o push falhou)
+## 11b. Kit de Redes (depois da 11, mesmo se o push falhou)
 
 1. Leia `./gh/tools/kit/LEIA.md` (formato e limites do kit.json). Não precisa abrir kits antigos.
 2. Escreva `./gh/kit/ed(N+1)/kit.json` só com fatos, números, datas e fontes da edição N+1. Capa e cena 1 = Notícia Lendária; cartões = manchetes, em ordem; Topdeck e cena 3 = carta do dia; ban, turnos e sussurro vêm de ban, agenda e rumors. Inclua o bloco `pauta` com a força do dia (critério abaixo).
@@ -108,7 +103,7 @@ Artifact "publish" com url `https://claude.ai/artifact/75MQH44mbb2H4w5TvmQ7Tn` (
 
 ## 12. Avisar
 
-Mensagem final curta em português: a Notícia Lendária em uma frase, quantas manchetes e sussurros, a força do dia (forte ou calmo) e por quê, a carta do Topdeck, se as imagens do Scryfall carregaram (se não: conferir no editor da rotina se o ambiente libera api.scryfall.com e cards.scryfall.io), se a LigaMagic abriu, a cotação usada (data e fonte) ou que saiu sem conversão, se o site foi atualizado (se não, o erro exato), se o Kit de Redes saiu em fontedemana.com.br/kit (com ou sem vídeo) e quantos créditos do vidIQ restam. Se algo impediu a publicação, diga o quê.
+Mensagem final curta em português: a Notícia Lendária em uma frase, quantas manchetes e sussurros, a força do dia (forte ou calmo) e por quê, a carta do Topdeck, se as imagens do Scryfall carregaram (se não: conferir no editor da rotina se o ambiente libera api.scryfall.com e cards.scryfall.io), se a LigaMagic abriu, a cotação usada (data e fonte) ou que saiu sem conversão, se o site foi atualizado (se não, o erro exato, porque a edição não foi ao ar), se o Kit de Redes saiu em fontedemana.com.br/kit (com ou sem vídeo) e quantos créditos do vidIQ restam. Se algo impediu a publicação, diga o quê.
 
 Créditos do vidIQ, com o totalCredits depois da busca e renewableResetsAt no horário de Brasília:
 - Entre 5 e 9: comece com "Atenção: os créditos do vidIQ acabam amanhã. A edição de amanhã é a última com o Termômetro das Redes até a renovação em <data>."

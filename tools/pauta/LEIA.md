@@ -12,7 +12,7 @@ Leia antes `tools/REGRAS.md`. A estratégia (notícia + original, força do dia,
 | 5:55 | Jornal | Edição, site e Kit de Redes, com a força do dia no kit (`tools/jornal/LEIA.md`) |
 | 7:20 | Manhã | `node tools/pauta/manha.cjs . HOJE` monta o resto da pauta sozinho |
 
-Escreva só na pasta `pauta/`. Nunca chame ferramenta paga do vidIQ, nunca publique no artifact do jornal e nunca mexa em tarefas agendadas.
+Escreva só na pasta `pauta/`. Nunca chame ferramenta paga do vidIQ e nunca mexa em tarefas agendadas.
 
 ## Tarefa da noite: original de amanhã (18h21)
 
