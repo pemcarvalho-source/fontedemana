@@ -1,12 +1,20 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "Kinnan, Bonder Prodigy",
   "Smothering Tithe",
   "Wort, Boggart Auntie",
   "Fierce Guardianship",
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 9,
+   "date": "2026-10-14",
+   "dateLabel": "Quarta, 14 de outubro de 2026",
+   "head": "Jace de Reality Fracture mais que dobra de preço puxado pelo Commander",
+   "biome": "A"
+  },
   {
    "n": 8,
    "date": "2026-10-13",
