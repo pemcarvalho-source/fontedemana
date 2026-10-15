@@ -91,6 +91,7 @@ daNoite.forEach(a => {
   const narr = 'pauta/' + DATA + '/tiktok/tiktok-narrado.mp4';
   if (ex(narr)) a.arquivos = [{ nome: 'Vídeo do TikTok narrado', url: url(narr) }];
   if (hora('tiktok')) a.hora = hora('tiktok');
+  a.titulo = String(a.titulo || '').replace(/^tiktok:\s*/i, '') || a.titulo; // a página já mostra a rede
 });
 const tiktok = daNoite.find(a => a.id === 'tiktok');
 if (!tiktok) avisosLog.push('não há TikTok preparado para hoje (a tarefa da noite não deixou o aviso)');
