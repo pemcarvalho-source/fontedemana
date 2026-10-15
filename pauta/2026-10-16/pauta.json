@@ -1,0 +1,76 @@
+{
+  "data": "2026-10-16",
+  "fx": null,
+  "avisos": [
+    {
+      "id": "gravacao",
+      "dia": "2026-10-15",
+      "hora": "18:30",
+      "rede": "Gravação",
+      "titulo": "Gravar a narração do TikTok de amanhã",
+      "oQue": "Chama o Juiz #1: seu comandante roubado bate em você, conta dano de comandante? Quatro áudios curtos, um por cena. Na cena 2, leia a pergunta e pare: a contagem de 5 segundos já está no vídeo.",
+      "arquivos": [
+        {
+          "nome": "Vídeo mudo (tiktok-mudo.mp4)",
+          "url": "https://fontedemana.com.br/pauta/2026-10-16/tiktok/tiktok-mudo.mp4"
+        }
+      ],
+      "roteiro": [
+        {
+          "cena": "Cena 1, uns 9 s",
+          "tela": "Roubaram seu comandante e bateram em você",
+          "fala": "Chama o Juiz, episódio um. O oponente roubou seu comandante com Act of Treason e bateu em você com ele."
+        },
+        {
+          "cena": "Cena 2, uns 13 s, mais 5 s de contagem",
+          "tela": "Esse dano conta como dano de comandante? (A) Não, ele é o seu comandante, B) Sim, conta normal pros 21, C) Conta, mas zera quando ele voltar)",
+          "fala": "Isso conta como dano de comandante? A, não, ele é seu. B, sim, conta pros vinte e um. C, conta, mas zera quando ele voltar. Comenta a sua letra."
+        },
+        {
+          "cena": "Cena 3, uns 12 s",
+          "tela": "Conta, e conta contra você (A) Não, ele é o seu comandante, B) Sim, conta normal pros 21, C) Conta, mas zera quando ele voltar)",
+          "fala": "Letra B. A regra fala em dano do mesmo comandante, não importa quem controla. E o placar não zera. Três ataques de sete e você está fora."
+        },
+        {
+          "cena": "Cena 4, uns 6 s",
+          "tela": "Mais regras de mesa no perfil",
+          "fala": "Acertou? Segue o arroba fonte de mana e manda pro amigo que errou."
+        }
+      ],
+      "passos": [
+        "Grave um áudio por cena no Gravador do iPhone, num lugar silencioso, com o celular a um palmo da boca.",
+        "Nomeie os áudios cena_1, cena_2, cena_3 e cena_4.",
+        "Mande os áudios ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"áudios do TikTok de 2026-10-16\"."
+      ]
+    },
+    {
+      "id": "tiktok",
+      "hora": "11:30",
+      "rede": "TikTok",
+      "titulo": "Chama o Juiz #1: comandante roubado conta dano?",
+      "oQue": "Quiz de regra com contagem de 5 segundos: quem vê comenta A, B ou C antes da resposta. A certa é a B (Regras Abrangentes, 903.10a).",
+      "arquivos": [
+        {
+          "nome": "Vídeo do TikTok (tiktok-mudo.mp4)",
+          "url": "https://fontedemana.com.br/pauta/2026-10-16/tiktok/tiktok-mudo.mp4"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Chama o Juiz #1: roubaram seu comandante e bateram em você com ele. Conta dano de comandante?\nComenta A, B ou C antes de ver a resposta!\nRegra conferida nas Regras Abrangentes, 903.10a.\n\n#mtg #magicthegathering #commander #edh #mtgbrasil #regrasdomagic"
+        },
+        {
+          "rotulo": "Comentário fixado",
+          "texto": "Qual foi a sua letra? E quem da sua mesa já apanhou do próprio comandante?"
+        }
+      ],
+      "passos": [
+        "Poste com um som em alta da biblioteca do TikTok, volume entre 15% e 20%, por baixo da narração.",
+        "Voz própria não precisa de rótulo de IA.",
+        "Fixe o comentário logo depois de postar.",
+        "Se os áudios não chegarem, poste o vídeo mudo com música em alta."
+      ]
+    }
+  ]
+}

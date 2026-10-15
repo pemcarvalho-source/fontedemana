@@ -1,0 +1,64 @@
+{
+ "data": "2026-10-16",
+ "tema": "Chama o Juiz #1: comandante roubado bate em você. Conta dano de comandante?",
+ "item": "Dano de comandante com comandante roubado",
+ "arte": "pauta/2026-10-16/tiktok/arte.jpg",
+ "carta": "pauta/2026-10-16/tiktok/carta.jpg",
+ "credito": "Arte: Act of Treason, Eric Deschamps",
+ "fx": null,
+ "legenda": "Chama o Juiz #1: roubaram seu comandante e bateram em você com ele. Conta dano de comandante?\nComenta A, B ou C antes de ver a resposta!\nRegra conferida nas Regras Abrangentes, 903.10a.\n\n#mtg #magicthegathering #commander #edh #mtgbrasil #regrasdomagic",
+ "comentario": "Qual foi a sua letra? E quem da sua mesa já apanhou do próprio comandante?",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "cor": "U",
+   "chip": "Chama o Juiz #1",
+   "kicker": "Situação real de mesa",
+   "titulo": "Roubaram seu comandante e bateram em você",
+   "sub": "Foi com <b>Act of Treason</b>, até o fim do turno.",
+   "narracao": "Chama o Juiz, episódio um. O oponente roubou seu comandante com Act of Treason e bateu em você com ele.",
+   "segundos": 9.2
+  },
+  {
+   "tipo": "quiz",
+   "cor": "U",
+   "chip": "Valendo",
+   "kicker": "Chama o Juiz",
+   "titulo": "Esse dano conta como dano de comandante?",
+   "opcoes": [
+    "Não, ele é o seu comandante",
+    "Sim, conta normal pros 21",
+    "Conta, mas zera quando ele voltar"
+   ],
+   "contagem": 5,
+   "narracao": "Isso conta como dano de comandante? A, não, ele é seu. B, sim, conta pros vinte e um. C, conta, mas zera quando ele voltar. Comenta a sua letra.",
+   "segundos": 12.8
+  },
+  {
+   "tipo": "resposta",
+   "cor": "U",
+   "chip": "Resposta",
+   "kicker": "Chama o Juiz",
+   "titulo": "Conta, e conta contra você",
+   "opcoes": [
+    "Não, ele é o seu comandante",
+    "Sim, conta normal pros 21",
+    "Conta, mas zera quando ele voltar"
+   ],
+   "certa": "B",
+   "sub": "A regra fala em dano do mesmo comandante. Não importa quem controla nem de quem ele é. E o placar nunca zera.",
+   "fonte": "Regras Abrangentes, 903.10a",
+   "narracao": "Letra B. A regra fala em dano do mesmo comandante, não importa quem controla. E o placar não zera. Três ataques de sete e você está fora.",
+   "segundos": 12
+  },
+  {
+   "tipo": "cta",
+   "cor": "M",
+   "kicker": "Todo dia no Instagram",
+   "titulo": "Mais regras de mesa no perfil",
+   "destaque": "@fontedemana",
+   "narracao": "Acertou? Segue o arroba fonte de mana e manda pro amigo que errou.",
+   "segundos": 6.4
+  }
+ ]
+}

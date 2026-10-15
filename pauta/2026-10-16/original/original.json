@@ -1,0 +1,28 @@
+{
+  "data": "2026-10-16",
+  "pilar": "regra",
+  "item": "Dano de comandante com comandante roubado",
+  "tema": "Chama o Juiz #1: comandante roubado bate em você. Conta dano de comandante?",
+  "cartas": ["Act of Treason"],
+  "fx": null,
+  "carrossel": {
+    "capa": {"cor": "U", "chip": "Chama o Juiz #1", "kicker": "Situação real de mesa", "titulo": "Roubaram seu comandante e <b>bateram em você</b>", "sub": "Conta como dano de comandante? Responde antes de arrastar.", "arte": "pauta/2026-10-16/tiktok/arte.jpg", "credito": "Arte: Act of Treason, Eric Deschamps"},
+    "cartoes": [
+      {"cor": "U", "titulo": "A pergunta",
+       "itens": [{"cor": "U", "html": "<b>A)</b> Não conta, ele é o seu comandante"}, {"cor": "U", "html": "<b>B)</b> Conta normal para os 21 de dano"}, {"cor": "U", "html": "<b>C)</b> Conta, mas zera quando ele voltar pra você"}],
+       "nota": {"rotulo": "Antes de arrastar", "texto": "comenta a sua letra aqui embaixo."},
+       "fonte": "Fonte: Regras Abrangentes"},
+      {"cor": "U", "titulo": "Resposta: letra B",
+       "itens": [{"cor": "U", "html": "A regra 903.10a fala em <b>21 de dano de combate do mesmo comandante</b>. Não diz de quem ele é nem quem controla."}, {"cor": "U", "html": "O placar é por comandante e <b>nunca zera</b>. O dano que ele causou roubado continua valendo depois."}],
+       "nota": {"rotulo": "Na prática", "texto": "três ataques de um comandante com 7 de poder somam 21, e você está fora."},
+       "fonte": "Fonte: Regras Abrangentes, 903.10a"},
+      {"cor": "R", "titulo": "A carta e o erro comum", "carta": "pauta/2026-10-16/original/carta-1.jpg",
+       "itens": [{"cor": "R", "html": "<b>Act of Treason</b> pega a criatura até o fim do turno, desvira e dá ímpeto. Seu comandante ataca você na hora."}, {"cor": "R", "html": "O erro: achar que comandante não fere o próprio dono. Fere, e o dano conta para os 21."}],
+       "fonte": "Fonte: Scryfall e Regras Abrangentes"}
+    ],
+    "cta": {"pergunta": "Acertou de <b>primeira</b>?", "quando": "Comenta a sua letra e confere com a galera", "salvar": "manda pra quem jura que comandante não bate no dono"}
+  },
+  "legenda": "Chama o Juiz #1: roubaram seu comandante e bateram em você com ele. Conta dano de comandante? Regra de Commander que muita mesa erra.\n\nA, B ou C? Comenta antes de arrastar.\n\nA resposta está nas Regras Abrangentes, 903.10a. Carta do exemplo: Act of Treason (Scryfall).\n\nMais Commander todo dia em fontedemana.com.br\n\nAcertou de primeira? Marca o parceiro de mesa que erraria.\n\n#mtg #magicthegathering #commander #edh #mtgbrasil #regrasdomagic #chamaojuiz",
+  "threads": {"texto": "Chama o Juiz #1\n\nO oponente roubou seu comandante com Act of Treason e bateu em você com ele.\n\nEsse dano conta como dano de comandante contra você?\n\nA) Não, ele é o seu comandante\nB) Sim, conta normal para os 21\nC) Conta, mas zera quando ele voltar\n\nResponde só com a letra. A resposta sai aqui à tarde.", "obs": "Resposta para as 15h: letra B. Regra 903.10a, dano do mesmo comandante conta, não importa quem controla, e não zera."},
+  "enquete": {"pergunta": "Comandante roubado bateu em você. Conta dano de comandante?", "opcoes": ["Sim, conta", "Não conta"]}
+}
