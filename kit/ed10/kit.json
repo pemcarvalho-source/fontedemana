@@ -1,0 +1,166 @@
+{
+ "n": 10,
+ "data": "15 out",
+ "carrossel": {
+  "capa": {
+   "cor": "A",
+   "titulo": "Reality Fracture ganha dois Secret Lairs",
+   "sub": "<b>Strange School</b> e <b>Duality Distorted</b> saem a US$ 29,99 (R$ 150,24) cada. O pacote com tudo custa US$ 234,99 (R$ 1.177,21).",
+   "credito": "Arte: Ophiomancer, Hiro Usuda"
+  },
+  "cartoes": [
+   {
+    "cor": "A",
+    "titulo": "Os Secret Lairs de Reality",
+    "linhas": [
+     {
+      "nome": "Cada drop, normal",
+      "valor": "$29,99",
+      "sub": "R$ 150,24, ou US$ 39,99 em foil",
+      "porque": "Strange School tem 5 cartas, Duality Distorted 4"
+     },
+     {
+      "nome": "Pacote com tudo",
+      "valor": "$234,99",
+      "sub": "R$ 1.177,21, normal e foil",
+      "porque": "vem com o Reality Fracture Secret Lair Bundle"
+     }
+    ],
+    "nota": {
+     "rotulo": "Na sua mesa",
+     "texto": "o destaque pro Commander é o Tribute to the World Tree."
+    },
+    "fonte": "Fontes: Wizards, ICv2. Reais: PTAX 13 out"
+   },
+   {
+    "cor": "A",
+    "titulo": "Jace tribal mexe num Jace antigo",
+    "linhas": [
+     {
+      "nome": "Jace, Unraveler of Secrets",
+      "valor": "US$ 3,39",
+      "sub": "R$ 16,98 com frete, era US$ 1,10",
+      "porque": "procura dos decks de Jace, Multiverse Architect"
+     }
+    ],
+    "nota": {
+     "rotulo": "Na sua mesa",
+     "texto": "segue barato. A versão de Innistrad Remastered está em US$ 3,87 (R$ 19,39)."
+    },
+    "fonte": "Fontes: MTG Rocks, Scryfall. Reais: PTAX 13 out"
+   }
+  ],
+  "topdeck": {
+   "titulo": "Tribute to the World Tree",
+   "habilidades": [
+    {
+     "rotulo": "Criatura grande compra",
+     "texto": "Entrou criatura sua com 3 ou mais de poder, você compra um card."
+    },
+    {
+     "rotulo": "Criatura pequena cresce",
+     "texto": "Com 2 ou menos de poder, ela ganha dois marcadores +1/+1. Token 1/1 vira 3/3."
+    }
+   ],
+   "extra": "Está no Secret Lair Duality Distorted. A versão de March of the Machine sai por <b>US$ 15,44 (R$ 77,35)</b>. Reais: cotação PTAX de 13 out.",
+   "credito": "Ilustração de Kristina Carroll"
+  },
+  "ban": {
+   "numero": "46",
+   "unidade": "DIAS",
+   "texto": "para a próxima janela de banimentos, em 30 de novembro. A de 12 de outubro passou sem mexer no Commander."
+  },
+  "turnos": [
+   {
+    "cor": "W",
+    "data": "15 out",
+    "texto": "Último dia da 1ª Festa de Commander"
+   },
+   {
+    "cor": "A",
+    "data": "19 out",
+    "texto": "Festival in a Box: Atlanta"
+   },
+   {
+    "cor": "A",
+    "data": "23 out",
+    "texto": "Secret Lair Bundle nas lojas"
+   },
+   {
+    "cor": "W",
+    "data": "23 a 29 out",
+    "texto": "Segunda Festa de Commander"
+   },
+   {
+    "cor": "A",
+    "data": "2 nov",
+    "texto": "Venda do Countdown Kit da Marvel"
+   }
+  ],
+  "sussurro": "Teasers de Star Trek falam em gatilho que dispara de novo e em comprar dois em vez de um. Ainda não foi confirmado pela Wizards."
+ },
+ "video": {
+  "cena1": {
+   "titulo": "Reality Fracture ganha dois Secret Lairs",
+   "pilulas": [
+    "Strange School",
+    "Duality Distorted",
+    "Pacote de US$ 234,99"
+   ]
+  },
+  "cena2": {
+   "rotulo": "No bolso",
+   "cor": "A",
+   "titulo": "Jace tribal mexe no preço",
+   "itens": [
+    "Jace, Unraveler of Secrets triplicou de preço.",
+    "Saiu de US$ 1,10 para US$ 3,39 com frete.",
+    "A procura vem dos decks de Jace tribal."
+   ],
+   "fonte": "Fontes: MTG Rocks e Scryfall"
+  },
+  "cena3": {
+   "linhas": [
+    "<b>Tribute to the World Tree</b> é o Topdeck do Dia.",
+    "Criatura grande compra card. Pequena ganha dois +1/+1.",
+    "Agora em moldura antiga no Duality Distorted."
+   ]
+  },
+  "cena4": {
+   "texto": "46 dias para a próxima janela de banimentos, em 30 de novembro.",
+   "sussurro": "Star Trek com gatilho em dobro? Ainda não confirmado."
+  }
+ },
+ "textos": {
+  "legendaCarrossel": "Reality Fracture ganhou dois Secret Lairs!\n\nStrange School vem em preto e branco, no clima de mangá de escola: Attrition, Bitter Ordeal, Ophiomancer, Sign in Blood e Soul Spike. Duality Distorted traz moldura antiga e arte que homenageia cartas clássicas: Thoughtseize, Desperate Ritual, Pyroblast e Tribute to the World Tree.\n\nCada drop custa US$ 29,99 (R$ 150,24), ou US$ 39,99 (R$ 200,33) em foil. O pacote com tudo e mais o Reality Fracture Secret Lair Bundle sai por US$ 234,99 (R$ 1.177,21). A data da venda ainda não saiu.\n\nE o efeito Jace continua: Jace, Unraveler of Secrets saiu de US$ 1,10 (R$ 5,51) para US$ 3,39 (R$ 16,98) com frete, puxado pelos decks de Jace tribal.\n\nTopdeck do Dia: Tribute to the World Tree.\n\nEdição completa em fontedemana.com.br\n\nArte da capa: Ophiomancer, Hiro Usuda. Topdeck: Tribute to the World Tree, Kristina Carroll.\n\nValores em reais pela cotação PTAX de 13 out (Banco Central).\n\n#mtg #magicthegathering #commander #edh #secretlair #realityfracture #mtgbrasil",
+  "legendaVideo": "Dois Secret Lairs novos de Reality Fracture, um Jace antigo triplicando de preço e o Tribute to the World Tree no Topdeck do Dia.\n\nVocê compraria o pacote com tudo ou só um dos drops? Conta aqui embaixo.\n\nEdição completa em fontedemana.com.br\n\nValores em reais pela cotação PTAX de 13 out (Banco Central).\n\n#mtg #magicthegathering #commander #edh #secretlair",
+  "threadsFio": [
+   "Reality Fracture ganhou dois Secret Lairs. Strange School tem Attrition, Bitter Ordeal, Ophiomancer, Sign in Blood e Soul Spike, tudo em preto e branco no clima de mangá. Duality Distorted tem Thoughtseize, Desperate Ritual, Pyroblast e Tribute to the World Tree, com moldura antiga.",
+   "Cada drop custa US$ 29,99 (R$ 150,24), ou US$ 39,99 (R$ 200,33) em foil. O pacote com tudo e o Reality Fracture Secret Lair Bundle sai por US$ 234,99 (R$ 1.177,21). O Bundle sozinho chega às lojas em 23 de outubro.",
+   "Pra mesa de Commander, o destaque é o Tribute to the World Tree. E Attrition com Ophiomancer é uma dupla velha conhecida: cobra na manutenção, sacrifica e destrói uma criatura.",
+   "O efeito Jace continua. Jace, Unraveler of Secrets saiu de US$ 1,10 (R$ 5,51) para US$ 3,39 (R$ 16,98) com frete, segundo o MTG Rocks, puxado pelos decks de Jace tribal do Jace, Multiverse Architect.",
+   "Edição completa, com o Topdeck do Dia e a agenda, em fontedemana.com.br\n\nValores em reais pela cotação PTAX de 13 out (Banco Central)."
+  ],
+  "threadsAvulsos": [
+   {
+    "titulo": "Pergunta do dia",
+    "texto": "Dos dois Secret Lairs de Reality Fracture, qual você compraria: Strange School, Duality Distorted ou nenhum?",
+    "obs": "Opções: Strange School, Duality Distorted, os dois, nenhum"
+   }
+  ]
+ },
+ "pauta": {
+  "forca": "calmo",
+  "porque": "os Secret Lairs foram anunciados em 13 de outubro, fora da janela de hoje, e o Jace é desdobramento de ontem.",
+  "storyPergunta": "Qual carta de Secret Lair você mais quer no seu deck?",
+  "enquete": {
+   "pergunta": "Qual Secret Lair de Reality Fracture você compraria?",
+   "opcoes": [
+    "Strange School",
+    "Duality Distorted",
+    "Os dois",
+    "Nenhum"
+   ]
+  }
+ }
+}
