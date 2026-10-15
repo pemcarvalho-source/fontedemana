@@ -100,6 +100,12 @@ Números de antes da estratégia nova, para comparar nas revisões.
 
 **Instagram** (prints, 13 set a 13 out): 251 visualizações, 28,3% de não seguidores, 62 contas alcançadas, 24 curtidas, 1 comentário, 0 salvamentos, 0 compartilhamentos, 9 seguidores. Reels: 73 visualizações em 2 vídeos. Ainda sem conexão no Metricool.
 
+**Instagram** (Metricool, conectado em 15 out, medido às 17h30):
+- Carrosséis do jornal (11 a 14 out, 6 posts): 17 a 25 visualizações e 5 a 10 contas alcançadas cada, 1 a 2 curtidas, 0 salvamentos, 0 seguidores vindos de post.
+- Reels: o vídeo do jornal de 13 out (bans e 24 precons) teve 72 visualizações e 60 contas alcançadas; o do Corn Maze, 56 e 43; o de 12 out, 10 e 7. Um Reel alcança de 6 a 10 vezes mais contas que um carrossel.
+- Carrossel original de 15 out (Top 5 Elementais de Ashling): 4 visualizações nas primeiras 5 horas, ainda sincronizando. Comparar com os do jornal na revisão de segunda.
+- A divisão seguidores x não seguidores ainda não veio pelo Metricool.
+
 **TikTok** (Metricool, 12 a 14 out, medido em 14 out às 19h): 3 vídeos, 332 visualizações (média de 111 por vídeo), 10 curtidas, 4 comentários, 0 compartilhamentos.
 - 13 out, Wort volta depois de 19 anos sem reimpressão (história da carta): 173 visualizações, 4 curtidas, 2 comentários.
 - 12 out, Corn Maze Superdrop (notícia): 102 visualizações, 4 curtidas, 1 comentário.
@@ -122,5 +128,6 @@ Números de antes da estratégia nova, para comparar nas revisões.
 
 - 15 out 2026, v2 (aprovada pelo Paulo depois de ver um exemplo de cada formato; começa na sexta 16): ciclo de 3 semanas com a semana C de formatos novos (Treta das Cores, Matemática da Mesa, Top 5 Lado B, Qual entra?, Toda mesa tem um), Regra Bizarra vira o quiz Chama o Juiz, campo `formato` nos pilares, `FORMATOS.md` com os moldes e as referências, `chance.cjs` para as contas, cena quiz com contagem no TikTok e tela de barras no carrossel.
 
+- 15 out 2026: linha de base do Instagram pelo Metricool.
 - 14 out 2026: linha de base de TikTok e Threads registrada a partir do Metricool.
 - 14 out 2026, v1: mix notícia + original, força do dia decide o feed, calendário de 7 pilares em semanas A e B, Threads das 19:00 sai da grade.
