@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-10-12-threads-tarde@fontedemana.com.br
-DTSTAMP:20261014T213218Z
+DTSTAMP:20261015T024427Z
 DTSTART:20261012T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 7
@@ -52,7 +52,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-12-stories-tarde@fontedemana.com.br
-DTSTAMP:20261014T213218Z
+DTSTAMP:20261015T024427Z
 DTSTART:20261012T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -71,7 +71,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-12-reels@fontedemana.com.br
-DTSTAMP:20261014T213218Z
+DTSTAMP:20261015T024427Z
 DTSTART:20261012T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -99,7 +99,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-12-threads-plantao@fontedemana.com.br
-DTSTAMP:20261014T213218Z
+DTSTAMP:20261015T024427Z
 DTSTART:20261012T200000Z
 DURATION:PT15M
 SUMMARY:17:00 Threads: Resultado dos banimentos
@@ -121,7 +121,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-12-stories-plantao@fontedemana.com.br
-DTSTAMP:20261014T213218Z
+DTSTAMP:20261015T024427Z
 DTSTART:20261012T200000Z
 DURATION:PT15M
 SUMMARY:17:00 Instagram Stories: Story do resultado
@@ -140,7 +140,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-gravacao@fontedemana.com.br
-DTSTAMP:20261014T213218Z
+DTSTAMP:20261015T024427Z
 DTSTART:20261012T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -178,7 +178,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-tiktok@fontedemana.com.br
-DTSTAMP:20261014T213218Z
+DTSTAMP:20261015T024427Z
 DTSTART:20261013T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Carta do Dia: Wort\, Boggart Auntie
@@ -210,7 +210,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-threads-manha@fontedemana.com.br
-DTSTAMP:20261014T213218Z
+DTSTAMP:20261015T024427Z
 DTSTART:20261013T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia sobre os bans
@@ -230,7 +230,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-stories-manha@fontedemana.com.br
-DTSTAMP:20261014T213218Z
+DTSTAMP:20261015T024427Z
 DTSTART:20261013T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do carrossel com sticker de pergunta
@@ -250,7 +250,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-feed@fontedemana.com.br
-DTSTAMP:20261014T213218Z
+DTSTAMP:20261015T024427Z
 DTSTART:20261013T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 8
@@ -288,7 +288,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261014T213218Z
+DTSTAMP:20261015T024427Z
 DTSTART:20261013T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -307,7 +307,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-threads-tarde@fontedemana.com.br
-DTSTAMP:20261014T213218Z
+DTSTAMP:20261015T024427Z
 DTSTART:20261013T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 8
@@ -341,7 +341,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-stories-tarde@fontedemana.com.br
-DTSTAMP:20261014T213218Z
+DTSTAMP:20261015T024427Z
 DTSTART:20261013T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -361,7 +361,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-reels@fontedemana.com.br
-DTSTAMP:20261014T213218Z
+DTSTAMP:20261015T024427Z
 DTSTART:20261013T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -388,7 +388,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-threads-noite@fontedemana.com.br
-DTSTAMP:20261014T213218Z
+DTSTAMP:20261015T024427Z
 DTSTART:20261013T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Threads: Post com o vídeo do jornal
@@ -408,7 +408,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-14-gravacao@fontedemana.com.br
-DTSTAMP:20261014T213218Z
+DTSTAMP:20261015T024427Z
 DTSTART:20261013T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -446,7 +446,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-14-threads-manha@fontedemana.com.br
-DTSTAMP:20261014T213218Z
+DTSTAMP:20261015T024427Z
 DTSTART:20261014T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Enquete do dia: jogar ou vender o Jace
@@ -467,7 +467,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-14-stories-manha@fontedemana.com.br
-DTSTAMP:20261014T213218Z
+DTSTAMP:20261015T024427Z
 DTSTART:20261014T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do carrossel com sticker de pergunta
@@ -487,7 +487,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-14-tiktok@fontedemana.com.br
-DTSTAMP:20261014T213218Z
+DTSTAMP:20261015T024427Z
 DTSTART:20261014T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Dicionário do Commander: o que quer dizer EDH
@@ -524,7 +524,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-14-feed@fontedemana.com.br
-DTSTAMP:20261014T213218Z
+DTSTAMP:20261015T024427Z
 DTSTART:20261014T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 9
@@ -565,7 +565,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-14-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261014T213218Z
+DTSTAMP:20261015T024427Z
 DTSTART:20261014T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -585,7 +585,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-14-threads-tarde@fontedemana.com.br
-DTSTAMP:20261014T213218Z
+DTSTAMP:20261015T024427Z
 DTSTART:20261014T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 9
@@ -619,7 +619,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-14-stories-tarde@fontedemana.com.br
-DTSTAMP:20261014T213218Z
+DTSTAMP:20261015T024427Z
 DTSTART:20261014T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -639,7 +639,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-14-reels@fontedemana.com.br
-DTSTAMP:20261014T213218Z
+DTSTAMP:20261015T024427Z
 DTSTART:20261014T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -667,7 +667,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-14-threads-noite@fontedemana.com.br
-DTSTAMP:20261014T213218Z
+DTSTAMP:20261015T024427Z
 DTSTART:20261014T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Threads: Post com o vídeo do jornal
@@ -687,7 +687,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-15-gravacao@fontedemana.com.br
-DTSTAMP:20261014T213218Z
+DTSTAMP:20261015T024427Z
 DTSTART:20261014T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -729,26 +729,26 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-15-tiktok@fontedemana.com.br
-DTSTAMP:20261014T213218Z
+DTSTAMP:20261015T024427Z
 DTSTART:20261015T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: TikTok: Top 5 Elementais para Ashling
 DESCRIPTION:Vídeo do Top 5 com os Elementais mais jogados com Ashling\, th
  e Limitless\, os preços e o truque do evoke por 4.\n\nArquivos:\n- Vídeo
-  do TikTok (mudo): https://fontedemana.com.br/pauta/2026-10-15/tiktok/tikt
- ok-mudo.mp4\n\nLegenda:\nOs 5 Elementais que mais aparecem nos decks de As
- hling\, the Limitless no EDHREC\, e os cinco juntos custam menos de dois d
- ólares. Faltou algum? Qual seria o seu número 1?\n\nPreços do Scryfall\
- , impressão de Lorwyn Eclipsed Commander. Reais pela cotação PTAX de 13
-  out (Banco Central).\n\n#magicthegathering #mtg #commander #edh #ashling 
- #elementais #mtgbrasil\n\nComentário fixado:\nQual Elemental você coloca
- ria no lugar de um desses cinco? Conta aqui que eu leio todos.\n\nPasso a 
- passo:\n1. Poste o vídeo narrado com um som em alta da biblioteca do TikT
- ok\, com volume entre 15% e 20%.\n2. A narração é a sua própria voz\, 
- então não precisa marcar rótulo de IA.\n3. Depois de postar\, escreva o
-  comentário e fixe no topo.\n4. Se os áudios não chegaram\, poste o ví
- deo mudo com uma música em alta.\n\nPauta completa: https://fontedemana.c
- om.br/pauta/2026-10-15/#tiktok
+  do TikTok (narrado): https://fontedemana.com.br/pauta/2026-10-15/tiktok/t
+ iktok-narrado.mp4\n\nLegenda:\nOs 5 Elementais que mais aparecem nos decks
+  de Ashling\, the Limitless no EDHREC\, e os cinco juntos custam menos de 
+ dois dólares. Faltou algum? Qual seria o seu número 1?\n\nPreços do Scr
+ yfall\, impressão de Lorwyn Eclipsed Commander. Reais pela cotação PTAX
+  de 13 out (Banco Central).\n\n#magicthegathering #mtg #commander #edh #as
+ hling #elementais #mtgbrasil\n\nComentário fixado:\nQual Elemental você 
+ colocaria no lugar de um desses cinco? Conta aqui que eu leio todos.\n\nPa
+ sso a passo:\n1. Poste o vídeo narrado com um som em alta da biblioteca d
+ o TikTok\, com volume entre 15% e 20%.\n2. A narração é a sua própria 
+ voz\, então não precisa marcar rótulo de IA.\n3. Depois de postar\, esc
+ reva o comentário e fixe no topo.\n4. Se os áudios não chegaram\, poste
+  o vídeo mudo com uma música em alta.\n\nPauta completa: https://fontede
+ mana.com.br/pauta/2026-10-15/#tiktok
 URL:https://fontedemana.com.br/pauta/2026-10-15/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
