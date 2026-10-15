@@ -90,9 +90,18 @@ Humor de observação sobre tipos de jogador de Commander. Cada peça: as frases
 - **Deck em 40 segundos**: sempre o bracket esperado, o preço aproximado e o plano em três passos.
 - **Debate**: os dois lados com o mesmo espaço; a enquete mostra as duas opções frente a frente.
 
+## Datas comemorativas
+
+O `plano.json` tem uma lista `datas` com janelas de dias (Halloween e Dia do Saci, Finados, Sexta-feira 13, Black Friday, Natal, Réveillon, Carnaval, Dia do Gato, Páscoa, Dia das Mães, Dia dos Namorados, Festa Junina, Aniversário do Magic, Dia dos Pais, Dia do Folclore e Dia das Crianças). O `contexto.cjs` mostra a data ativa com o tema, o ângulo para o pilar do dia, buscas prontas no Scryfall e cartas já conferidas.
+
+- **Na janela**: o pilar do dia continua com o seu molde e pega o tema quando couber (um Top 5 de vampiros no Halloween, um Qual entra? de presentes no Natal). Pelo menos uma peça da janela usa o tema.
+- **No dia**: TikTok, carrossel e Threads são do tema. Algumas datas trocam o pilar do calendário (`pilarNoDia`): Halloween vira Chama o Juiz de terror, Natal vira Top 5 de Natal, Black Friday vira Bolsa de Mana, Carnaval vira Lore de Rakdos, Páscoa vira Top 5 de coelhos e ovos, Aniversário do Magic vira História de uma carta da Alpha.
+- **Sempre**: as cartas citadas existem (confira no Scryfall), o tema não libera repetir carta ou assunto, e datas de luto ou religiosas (Finados, Páscoa) têm tom respeitoso.
+- **Datas que mudam de dia** (Carnaval, Páscoa, Black Friday, Mães, Pais, Sexta-feira 13) estão com o ano no `plano.json` e precisam ser renovadas a cada ano.
+
 ## No jornal
 
-- **Topdeck do Dia**: além de variar cor, tipo e raridade, alterne o perfil da carta na semana: staple conhecida, carta nova, carta antiga com história e um Lado B (pouco jogada no EDHREC, mas forte no papel dela).
+- **Topdeck do Dia**: além de variar cor, tipo e raridade, alterne o perfil da carta na semana: staple conhecida, carta nova, carta antiga com história e um Lado B (pouco jogada no EDHREC, mas forte no papel dela). Em data comemorativa, prefira uma carta do tema.
 - **Produtos licenciados** (joias, roupas, acessórios oficiais de Magic) entram como notícia quando têm data e fonte primária, na cor W ou G conforme o assunto.
 
 ## Ideias que esperam ferramenta ou o Paulo

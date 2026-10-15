@@ -65,6 +65,10 @@ O Paulo mandou gravações de criadores de Magic como inspiração. O que mais s
 
 O que medir na revisão: comentários por visualização no Chama o Juiz e no Qual entra?; salvamentos e envios na Matemática da Mesa e no Lado B; envios no humor (Treta das Cores e Toda mesa tem um).
 
+## Datas comemorativas (15 out)
+
+Pedido do Paulo: aproveitar as datas que todo mundo já está comentando. A lista fica em `datas` no `plano.json` e os detalhes em `FORMATOS.md`. Na janela da data, o pilar do dia pega o tema quando couber; no dia, as peças originais são do tema e algumas datas trocam o pilar. Na revisão, comparar as peças de data com as do mesmo pilar fora de data.
+
 ## Regras de engajamento em toda peça original
 
 - Gancho nos 2 primeiros segundos ou na capa: número, pergunta ou algo que contraria o senso comum.
@@ -113,6 +117,8 @@ Números de antes da estratégia nova, para comparar nas revisões.
 - No Threads, o primeiro post do fio carrega tudo. Testar fio de 3 posts, com a notícia inteira no primeiro.
 
 ## Histórico de ajustes
+
+- 15 out 2026, v3: calendário de datas comemorativas (16 datas, de Halloween e Dia do Saci a Dia das Crianças), com tema, ângulo por pilar, buscas e cartas conferidas no Scryfall; o jornal também vê a data e prefere um Topdeck do tema.
 
 - 15 out 2026, v2 (aprovada pelo Paulo depois de ver um exemplo de cada formato; começa na sexta 16): ciclo de 3 semanas com a semana C de formatos novos (Treta das Cores, Matemática da Mesa, Top 5 Lado B, Qual entra?, Toda mesa tem um), Regra Bizarra vira o quiz Chama o Juiz, campo `formato` nos pilares, `FORMATOS.md` com os moldes e as referências, `chance.cjs` para as contas, cena quiz com contagem no TikTok e tela de barras no carrossel.
 

@@ -33,8 +33,39 @@ function pilarDo(d) {
   const ciclo = plano.ciclo && Array.isArray(plano.ciclo.semanas) && plano.ciclo.semanas.length ? plano.ciclo : null;
   const ab = ciclo ? ciclo.semanas[(sem + (ciclo.deslocamento || 0)) % ciclo.semanas.length] : (sem % 2 ? 'A' : 'B');
   const visita = ler('extras/lojas/' + d + '.json') != null;
-  const id = visita ? 'loja' : ((plano.calendario || {})[dia] || {})[ab];
-  return { dia, sem, ab, id, visita, def: (plano.pilares || {})[id] || null };
+  const doCalendario = ((plano.calendario || {})[dia] || {})[ab];
+  const troca = datasDe(d).find(x => x.ehHoje && x.pilarNoDia && (plano.pilares || {})[x.pilarNoDia]);
+  const id = visita ? 'loja' : (troca ? troca.pilarNoDia : doCalendario);
+  return { dia, sem, ab, id, visita, troca: !visita && troca ? { data: troca.nome, antes: doCalendario } : null, def: (plano.pilares || {})[id] || null };
+}
+
+/* ---------- datas comemorativas ---------- */
+const MESES = ['jan', 'fev', 'mar', 'abr', 'mai', 'jun', 'jul', 'ago', 'set', 'out', 'nov', 'dez'];
+const curta = s => { const m = String(s).slice(-5); return (+m.slice(3)) + ' ' + MESES[+m.slice(0, 2) - 1]; };
+function datasDe(d) {
+  const md = d.slice(5);
+  return (plano.datas || []).filter(x => {
+    if (!x.de || !x.ate) return false;
+    if (x.de.length === 10) return d >= x.de && d <= x.ate;          // só naquele ano
+    return x.de <= x.ate ? (md >= x.de && md <= x.ate) : (md >= x.de || md <= x.ate);  // todo ano, pode virar o ano
+  }).map(x => Object.assign({}, x, { ehHoje: !!x.dia && (x.dia.length === 10 ? x.dia === d : x.dia === md) }));
+}
+function linhasDatas(d, pilarId, curto) {
+  const L = [];
+  for (const x of datasDe(d)) {
+    const janela = x.de === x.ate ? curta(x.de) : (x.de.slice(-5, -3) === x.ate.slice(-5, -3) ? `${+x.de.slice(-2)} a ${curta(x.ate)}` : `${curta(x.de)} a ${curta(x.ate)}`);
+    const ex = (x.exemplos || []).length ? ' Cartas conferidas no Scryfall: ' + x.exemplos.join(', ') + '.' : '';
+    if (curto) { L.push(`Data comemorativa: ${x.nome} (${janela}${x.dia ? ', o dia é ' + curta(x.dia) : ''}). ${x.tema}${ex} Se houver carta boa do tema e ainda não usada, prefira-a no Topdeck.`); continue; }
+    const ang = (x.angulos || {})[pilarId] || (x.angulos || {}).geral || '';
+    L.push(`Data comemorativa: ${x.nome} (${janela}${x.dia ? ', o dia é ' + curta(x.dia) : ''})${x.ehHoje ? '. ESTA DATA É O DIA: TikTok, carrossel e Threads são do tema' : '. Use o tema no pilar do dia quando couber; pelo menos uma peça da janela usa o tema'}.`);
+    L.push('  Tema: ' + x.tema);
+    if (ang) L.push('  No pilar do dia: ' + ang);
+    if ((x.buscas || []).length) L.push('  Buscas no Scryfall (acrescente f:commander e order=edhrec): ' + x.buscas.join(' | '));
+    if (ex) L.push(' ' + ex);
+    if (x.cuidado) L.push('  Cuidado: ' + x.cuidado);
+    L.push('  O tema muda o assunto, nunca o molde do pilar, e não libera repetir carta ou tema já publicado.');
+  }
+  return L;
 }
 
 /* ---------- o que já foi publicado ---------- */
@@ -103,7 +134,7 @@ if (!SO_PUB) {
   out.push(`Data: ${DATA} (${EXTENSO[p.dia]}), semana ISO ${p.sem}, semana ${p.ab}. Plano ${plano.versao || '?'}.`);
   if (!p.def) out.push('Pilar: não encontrado em tools/conteudo/plano.json. Use "historia".');
   else {
-    out.push(`Pilar: ${p.def.nome} (${p.id})${p.visita ? ', visita marcada em extras/lojas/' + DATA + '.json' : ''}`);
+    out.push(`Pilar: ${p.def.nome} (${p.id})${p.visita ? ', visita marcada em extras/lojas/' + DATA + '.json' : ''}${p.troca ? ', no lugar de ' + (((plano.pilares || {})[p.troca.antes] || {}).nome || p.troca.antes) + ' por causa de ' + p.troca.data : ''}`);
     out.push('O que é: ' + p.def.oQue, 'Fontes: ' + p.def.fontes, 'Gancho: ' + p.def.gancho, 'Pergunta para os comentários: ' + p.def.pergunta);
     if (p.def.formato) out.push('Formato: ' + p.def.formato + ' (detalhes e exemplos em tools/conteudo/FORMATOS.md)');
     if (p.def.fila) {
@@ -121,7 +152,11 @@ if (!SO_PUB) {
       out.push('Vídeos do Termômetro das últimas 7 edições (mais vistos primeiro):', ...its.slice(0, 8).map(x => `- ${x.views} visualizações, ${x.channel}: ${plain(x.title)} ${x.url}`));
     }
   }
+  out.push(...linhasDatas(DATA, p.id, false));
   out.push('');
+} else {
+  const L = linhasDatas(DATA, null, true);
+  if (L.length) out.push(...L, '');
 }
 out.push(...publicados());
 console.log(out.join('\n'));
