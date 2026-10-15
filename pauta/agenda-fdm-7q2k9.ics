@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-10-12-threads-tarde@fontedemana.com.br
-DTSTAMP:20261015T024427Z
+DTSTAMP:20261015T102132Z
 DTSTART:20261012T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 7
@@ -52,7 +52,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-12-stories-tarde@fontedemana.com.br
-DTSTAMP:20261015T024427Z
+DTSTAMP:20261015T102132Z
 DTSTART:20261012T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -71,7 +71,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-12-reels@fontedemana.com.br
-DTSTAMP:20261015T024427Z
+DTSTAMP:20261015T102132Z
 DTSTART:20261012T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -99,7 +99,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-12-threads-plantao@fontedemana.com.br
-DTSTAMP:20261015T024427Z
+DTSTAMP:20261015T102132Z
 DTSTART:20261012T200000Z
 DURATION:PT15M
 SUMMARY:17:00 Threads: Resultado dos banimentos
@@ -121,7 +121,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-12-stories-plantao@fontedemana.com.br
-DTSTAMP:20261015T024427Z
+DTSTAMP:20261015T102132Z
 DTSTART:20261012T200000Z
 DURATION:PT15M
 SUMMARY:17:00 Instagram Stories: Story do resultado
@@ -140,7 +140,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-gravacao@fontedemana.com.br
-DTSTAMP:20261015T024427Z
+DTSTAMP:20261015T102132Z
 DTSTART:20261012T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -178,7 +178,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-tiktok@fontedemana.com.br
-DTSTAMP:20261015T024427Z
+DTSTAMP:20261015T102132Z
 DTSTART:20261013T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Carta do Dia: Wort\, Boggart Auntie
@@ -210,7 +210,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-threads-manha@fontedemana.com.br
-DTSTAMP:20261015T024427Z
+DTSTAMP:20261015T102132Z
 DTSTART:20261013T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia sobre os bans
@@ -230,7 +230,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-stories-manha@fontedemana.com.br
-DTSTAMP:20261015T024427Z
+DTSTAMP:20261015T102132Z
 DTSTART:20261013T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do carrossel com sticker de pergunta
@@ -250,7 +250,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-feed@fontedemana.com.br
-DTSTAMP:20261015T024427Z
+DTSTAMP:20261015T102132Z
 DTSTART:20261013T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 8
@@ -288,7 +288,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261015T024427Z
+DTSTAMP:20261015T102132Z
 DTSTART:20261013T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -307,7 +307,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-threads-tarde@fontedemana.com.br
-DTSTAMP:20261015T024427Z
+DTSTAMP:20261015T102132Z
 DTSTART:20261013T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 8
@@ -341,7 +341,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-stories-tarde@fontedemana.com.br
-DTSTAMP:20261015T024427Z
+DTSTAMP:20261015T102132Z
 DTSTART:20261013T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -361,7 +361,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-reels@fontedemana.com.br
-DTSTAMP:20261015T024427Z
+DTSTAMP:20261015T102132Z
 DTSTART:20261013T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -388,7 +388,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-13-threads-noite@fontedemana.com.br
-DTSTAMP:20261015T024427Z
+DTSTAMP:20261015T102132Z
 DTSTART:20261013T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Threads: Post com o vídeo do jornal
@@ -408,7 +408,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-14-gravacao@fontedemana.com.br
-DTSTAMP:20261015T024427Z
+DTSTAMP:20261015T102132Z
 DTSTART:20261013T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -446,7 +446,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-14-threads-manha@fontedemana.com.br
-DTSTAMP:20261015T024427Z
+DTSTAMP:20261015T102132Z
 DTSTART:20261014T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Enquete do dia: jogar ou vender o Jace
@@ -467,7 +467,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-14-stories-manha@fontedemana.com.br
-DTSTAMP:20261015T024427Z
+DTSTAMP:20261015T102132Z
 DTSTART:20261014T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do carrossel com sticker de pergunta
@@ -487,7 +487,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-14-tiktok@fontedemana.com.br
-DTSTAMP:20261015T024427Z
+DTSTAMP:20261015T102132Z
 DTSTART:20261014T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Dicionário do Commander: o que quer dizer EDH
@@ -524,7 +524,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-14-feed@fontedemana.com.br
-DTSTAMP:20261015T024427Z
+DTSTAMP:20261015T102132Z
 DTSTART:20261014T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 9
@@ -565,7 +565,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-14-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261015T024427Z
+DTSTAMP:20261015T102132Z
 DTSTART:20261014T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -585,7 +585,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-14-threads-tarde@fontedemana.com.br
-DTSTAMP:20261015T024427Z
+DTSTAMP:20261015T102132Z
 DTSTART:20261014T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 9
@@ -619,7 +619,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-14-stories-tarde@fontedemana.com.br
-DTSTAMP:20261015T024427Z
+DTSTAMP:20261015T102132Z
 DTSTART:20261014T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -639,7 +639,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-14-reels@fontedemana.com.br
-DTSTAMP:20261015T024427Z
+DTSTAMP:20261015T102132Z
 DTSTART:20261014T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -667,7 +667,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-14-threads-noite@fontedemana.com.br
-DTSTAMP:20261015T024427Z
+DTSTAMP:20261015T102132Z
 DTSTART:20261014T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Threads: Post com o vídeo do jornal
@@ -687,7 +687,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-15-gravacao@fontedemana.com.br
-DTSTAMP:20261015T024427Z
+DTSTAMP:20261015T102132Z
 DTSTART:20261014T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -718,8 +718,8 @@ DESCRIPTION:Top 5 Elementais para o deck de Ashling\, the Limitless. Grave
  na_2\, cena_3\, cena_4 e cena_5.\n3. Mande os áudios ao Claude no projeto
   MGT strategy\, pode ser respondendo à mensagem desta tarefa\, dizendo "
  áudios do TikTok de 2026-10-15".\n\nValores em reais pela cotação PTAX 
- de 13 out (Banco Central).\n\nPauta completa: https://fontedemana.com.br/p
- auta/2026-10-15/#gravacao
+ de 13 out\, US$ 1 = R$ 5\,0096 (Banco Central).\n\nPauta completa: https:/
+ /fontedemana.com.br/pauta/2026-10-15/#gravacao
 URL:https://fontedemana.com.br/pauta/2026-10-15/#gravacao
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -729,30 +729,226 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-15-tiktok@fontedemana.com.br
-DTSTAMP:20261015T024427Z
+DTSTAMP:20261015T102132Z
 DTSTART:20261015T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: TikTok: Top 5 Elementais para Ashling
 DESCRIPTION:Vídeo do Top 5 com os Elementais mais jogados com Ashling\, th
  e Limitless\, os preços e o truque do evoke por 4.\n\nArquivos:\n- Vídeo
-  do TikTok (narrado): https://fontedemana.com.br/pauta/2026-10-15/tiktok/t
- iktok-narrado.mp4\n\nLegenda:\nOs 5 Elementais que mais aparecem nos decks
-  de Ashling\, the Limitless no EDHREC\, e os cinco juntos custam menos de 
- dois dólares. Faltou algum? Qual seria o seu número 1?\n\nPreços do Scr
- yfall\, impressão de Lorwyn Eclipsed Commander. Reais pela cotação PTAX
-  de 13 out (Banco Central).\n\n#magicthegathering #mtg #commander #edh #as
- hling #elementais #mtgbrasil\n\nComentário fixado:\nQual Elemental você 
- colocaria no lugar de um desses cinco? Conta aqui que eu leio todos.\n\nPa
- sso a passo:\n1. Poste o vídeo narrado com um som em alta da biblioteca d
- o TikTok\, com volume entre 15% e 20%.\n2. A narração é a sua própria 
- voz\, então não precisa marcar rótulo de IA.\n3. Depois de postar\, esc
- reva o comentário e fixe no topo.\n4. Se os áudios não chegaram\, poste
-  o vídeo mudo com uma música em alta.\n\nPauta completa: https://fontede
- mana.com.br/pauta/2026-10-15/#tiktok
+  do TikTok narrado: https://fontedemana.com.br/pauta/2026-10-15/tiktok/tik
+ tok-narrado.mp4\n\nLegenda:\nOs 5 Elementais que mais aparecem nos decks d
+ e Ashling\, the Limitless no EDHREC\, e os cinco juntos custam menos de do
+ is dólares. Faltou algum? Qual seria o seu número 1?\n\nPreços do Scryf
+ all\, impressão de Lorwyn Eclipsed Commander. Reais pela cotação PTAX d
+ e 13 out (Banco Central).\n\n#magicthegathering #mtg #commander #edh #ashl
+ ing #elementais #mtgbrasil\n\nComentário fixado:\nQual Elemental você co
+ locaria no lugar de um desses cinco? Conta aqui que eu leio todos.\n\nPass
+ o a passo:\n1. Poste o vídeo narrado com um som em alta da biblioteca do 
+ TikTok\, com volume entre 15% e 20%.\n2. A narração é a sua própria vo
+ z\, então não precisa marcar rótulo de IA.\n3. Depois de postar\, escre
+ va o comentário e fixe no topo.\n4. Se os áudios não chegaram\, poste o
+  vídeo mudo com uma música em alta.\n\nPauta completa: https://fontedema
+ na.com.br/pauta/2026-10-15/#tiktok
 URL:https://fontedemana.com.br/pauta/2026-10-15/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:TikTok: TikTok: Top 5 Elementais para Ashling
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-15-threads-manha@fontedemana.com.br
+DTSTAMP:20261015T102132Z
+DTSTART:20261015T133000Z
+DURATION:PT15M
+SUMMARY:10:30 Threads: Debate: Os 5 Elementais que mais aparecem nos decks 
+ de Ashling\, the…
+DESCRIPTION:Post de debate do conteúdo original de hoje (Top 5) para puxar
+  conversa.\n\nPost:\nAshling\, the Limitless deixa todo Elemental da mão 
+ sair por 4 e ainda devolve uma cópia com ímpeto quando ele é sacrificad
+ o.\n\nNo EDHREC\, os cinco Elementais mais jogados com ela são Risen Reef
+ \, Maelstrom Wanderer\, Mulldrifter\, Yarok e Greenwarden of Murasa.\n\nSe
+  você só pudesse colocar um deles no deck\, qual seria? E qual Elemental
+  você acha que ficou de fora?\n\nPasso a passo:\n1. Abra o Threads e cole
+  o Post.\n2. Dica: Enquete com as opções Maelstrom Wanderer\, Mulldrifte
+ r\, Yarok e Risen Reef\n3. Publique e responda quem comentar na primeira h
+ ora.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-15/#threa
+ ds-manha
+URL:https://fontedemana.com.br/pauta/2026-10-15/#threads-manha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Debate: Os 5 Elementais que mais aparecem nos decks de
+  Ashling\, the…
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-15-stories-manha@fontedemana.com.br
+DTSTAMP:20261015T102132Z
+DTSTART:20261015T133000Z
+DURATION:PT15M
+SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
+DESCRIPTION:Story com a capa da edição 10 (Reality Fracture ganha dois Se
+ cret Lairs) e um sticker de pergunta para puxar a conversa.\n\nArquivos:\n
+ - Capa da edição 10: https://fontedemana.com.br/kit/ed10/carrossel-01.jp
+ g\n\nPasso a passo:\n1. Baixe a capa e poste no Story.\n2. Adicione o stic
+ ker de Pergunta no terço de baixo\, sem cobrir o título: Qual carta de S
+ ecret Lair você mais quer no seu deck?\n3. Publique.\n\nPauta completa: h
+ ttps://fontedemana.com.br/pauta/2026-10-15/#stories-manha
+URL:https://fontedemana.com.br/pauta/2026-10-15/#stories-manha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Capa do jornal com sticker de pergunta
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-15-feed@fontedemana.com.br
+DTSTAMP:20261015T102132Z
+DTSTART:20261015T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram feed: Top 5: Os 5 Elementais que mais aparecem nos 
+ decks de Ashling\, the…
+DESCRIPTION:Carrossel original de 7 imagens (Top 5): Os 5 Elementais que ma
+ is aparecem nos decks de Ashling\, the Limitless. Feito para salvar e comp
+ artilhar.\n\nArquivos:\n- Imagem 1 de 7: https://fontedemana.com.br/pauta/
+ 2026-10-15/original/carrossel-01.jpg\n- Imagem 2 de 7: https://fontedemana
+ .com.br/pauta/2026-10-15/original/carrossel-02.jpg\n- Imagem 3 de 7: https
+ ://fontedemana.com.br/pauta/2026-10-15/original/carrossel-03.jpg\n- Imagem
+  4 de 7: https://fontedemana.com.br/pauta/2026-10-15/original/carrossel-04
+ .jpg\n- Imagem 5 de 7: https://fontedemana.com.br/pauta/2026-10-15/origina
+ l/carrossel-05.jpg\n- Imagem 6 de 7: https://fontedemana.com.br/pauta/2026
+ -10-15/original/carrossel-06.jpg\n- Imagem 7 de 7: https://fontedemana.com
+ .br/pauta/2026-10-15/original/carrossel-07.jpg\n\nLegenda:\nTop 5 Elementa
+ is para o deck de Commander de Ashling\, the Limitless: as cartas de Magic
+  que mais aparecem com ela no EDHREC\, e os cinco juntos custam US$ 1\,48 
+ (R$ 7\,41).\n\n1. Risen Reef\, em 96% dos decks\n2. Maelstrom Wanderer\, 9
+ 3%\n3. Mulldrifter\, 91%\n4. Yarok\, the Desecrated\, 88%\n5. Greenwarden 
+ of Murasa\, 87%\n\nO segredo da Ashling: todo Elemental da mão sai por 4 
+ com evoke\, é sacrificado e volta como cópia com ímpeto. Ou seja\, o ef
+ eito de entrar acontece duas vezes.\n\nFontes: EDHREC (mais de 27 mil deck
+ s de Ashling) e Scryfall (preços da impressão de Lorwyn Eclipsed Command
+ er). Valores em reais pela cotação PTAX de 13 out (Banco Central).\n\nMa
+ is no fontedemana.com.br\n\nFaltou algum? Qual seria o seu número 1?\n\n#
+ magicthegathering #mtg #commander #edh #ashling #elementais #mtgbrasil #de
+ ckdecommander\n\nFonte de Mana is unofficial Fan Content permitted under t
+ he Fan Content Policy. Not approved/endorsed by Wizards. Portions of the m
+ aterials used are property of Wizards of the Coast. ©Wizards of the Coast
+  LLC.\n\nPasso a passo:\n1. No Instagram\, toque em + e escolha Post.\n2. 
+ Selecione as 7 imagens na ordem\, da 1 à 7.\n3. Cole a Legenda e publique
+ .\n\nValores em reais pela cotação PTAX de 13 out\, US$ 1 = R$ 5\,0096 (
+ Banco Central).\n\nPauta completa: https://fontedemana.com.br/pauta/2026-1
+ 0-15/#feed
+URL:https://fontedemana.com.br/pauta/2026-10-15/#feed
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram feed: Top 5: Os 5 Elementais que mais aparecem nos de
+ cks de Ashling\, the…
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-15-stories-meio-dia@fontedemana.com.br
+DTSTAMP:20261015T102132Z
+DTSTART:20261015T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
+DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
+ .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
+ e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
+ o do post: Melhor Elemental pra Ashling? com Maelstrom Wanderer\, Mulldrif
+ ter\, Yarok e Risen Reef.\n3. Publique.\n\nPauta completa: https://fontede
+ mana.com.br/pauta/2026-10-15/#stories-meio-dia
+URL:https://fontedemana.com.br/pauta/2026-10-15/#stories-meio-dia
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-15-threads-tarde@fontedemana.com.br
+DTSTAMP:20261015T102132Z
+DTSTART:20261015T180000Z
+DURATION:PT15M
+SUMMARY:15:00 Threads: Fio da edição 10
+DESCRIPTION:Fio com 6 posts contando a edição 10. O último é o aviso de
+  conteúdo de fã.\n\nPost 1:\nReality Fracture ganhou dois Secret Lairs. 
+ Strange School tem Attrition\, Bitter Ordeal\, Ophiomancer\, Sign in Blood
+  e Soul Spike\, tudo em preto e branco no clima de mangá. Duality Distort
+ ed tem Thoughtseize\, Desperate Ritual\, Pyroblast e Tribute to the World 
+ Tree\, com moldura antiga.\n\nPost 2:\nCada drop custa US$ 29\,99 (R$ 150\
+ ,24)\, ou US$ 39\,99 (R$ 200\,33) em foil. O pacote com tudo e o Reality F
+ racture Secret Lair Bundle sai por US$ 234\,99 (R$ 1.177\,21). O Bundle so
+ zinho chega às lojas em 23 de outubro.\n\nPost 3:\nPra mesa de Commander\
+ , o destaque é o Tribute to the World Tree. E Attrition com Ophiomancer 
+ é uma dupla velha conhecida: cobra na manutenção\, sacrifica e destrói
+  uma criatura.\n\nPost 4:\nO efeito Jace continua. Jace\, Unraveler of Sec
+ rets saiu de US$ 1\,10 (R$ 5\,51) para US$ 3\,39 (R$ 16\,98) com frete\, s
+ egundo o MTG Rocks\, puxado pelos decks de Jace tribal do Jace\, Multivers
+ e Architect.\n\nPost 5:\nEdição completa\, com o Topdeck do Dia e a agen
+ da\, em fontedemana.com.br\n\nValores em reais pela cotação PTAX de 13 o
+ ut (Banco Central).\n\nPost 6 (aviso de fã):\nFonte de Mana is unofficial
+  Fan Content permitted under the Fan Content Policy. Not approved/endorsed
+  by Wizards. Portions of the materials used are property of Wizards of the
+  Coast. ©Wizards of the Coast LLC.\n\nPasso a passo:\n1. No Threads\, pub
+ lique o Post 1.\n2. Toque em Adicionar à sequência e cole os posts segui
+ ntes\, um por vez\, na ordem.\n3. Publique o fio inteiro de uma vez.\n\nVa
+ lores em reais pela cotação PTAX de 13 out\, US$ 1 = R$ 5\,0096 (Banco C
+ entral).\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-15/#t
+ hreads-tarde
+URL:https://fontedemana.com.br/pauta/2026-10-15/#threads-tarde
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Fio da edição 10
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-15-stories-tarde@fontedemana.com.br
+DTSTAMP:20261015T102132Z
+DTSTART:20261015T180000Z
+DURATION:PT15M
+SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
+DESCRIPTION:Story com a imagem de Tribute to the World Tree no Topdeck do D
+ ia e o sticker de link para a edição completa.\n\nArquivos:\n- Topdeck d
+ o Dia: https://fontedemana.com.br/kit/ed10/carrossel-04.jpg\n\nPasso a pas
+ so:\n1. Baixe a imagem e poste no Story.\n2. Adicione o sticker de Link pa
+ ra fontedemana.com.br com o texto Edição completa\, embaixo do texto do 
+ Topdeck.\n3. Publique.\n\nPauta completa: https://fontedemana.com.br/pauta
+ /2026-10-15/#stories-tarde
+URL:https://fontedemana.com.br/pauta/2026-10-15/#stories-tarde
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Topdeck do Dia com link
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-15-reels@fontedemana.com.br
+DTSTAMP:20261015T102132Z
+DTSTART:20261015T220000Z
+DURATION:PT15M
+SUMMARY:19:00 Reels: Vídeo do jornal com música
+DESCRIPTION:Vídeo de 48 s da edição 10 com música em alta e sem narraç
+ ão.\n\nArquivos:\n- Vídeo da edição 10: https://fontedemana.com.br/kit
+ /ed10/video-vertical-ed10.mp4\n\nLegenda:\nDois Secret Lairs novos de Real
+ ity Fracture\, um Jace antigo triplicando de preço e o Tribute to the Wor
+ ld Tree no Topdeck do Dia.\n\nVocê compraria o pacote com tudo ou só um 
+ dos drops? Conta aqui embaixo.\n\nEdição completa em fontedemana.com.br\
+ n\nValores em reais pela cotação PTAX de 13 out (Banco Central).\n\n#mtg
+  #magicthegathering #commander #edh #secretlair\n\nFonte de Mana is unoffi
+ cial Fan Content permitted under the Fan Content Policy. Not approved/endo
+ rsed by Wizards. Portions of the materials used are property of Wizards of
+  the Coast. ©Wizards of the Coast LLC.\n\nPasso a passo:\n1. No Instagram
+ \, toque em + e escolha Reel.\n2. Escolha o vídeo e adicione uma música 
+ em alta pela biblioteca do app\, com volume baixo.\n3. Cole a Legenda e pu
+ blique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-15/#re
+ els
+URL:https://fontedemana.com.br/pauta/2026-10-15/#reels
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reels: Vídeo do jornal com música
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
