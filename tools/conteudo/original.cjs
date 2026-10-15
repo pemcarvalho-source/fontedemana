@@ -46,7 +46,13 @@ req(Array.isArray(c.cartoes) && c.cartoes.length >= 3 && c.cartoes.length <= 5, 
 (c.cartoes || []).forEach((k, i) => {
   const n = `cartoes[${i}]`;
   cor(k.cor, n + '.cor'); len(k.titulo, 34, n + '.titulo'); len(k.fonte, 70, n + '.fonte');
-  req(Array.isArray(k.itens) && k.itens.length >= 2 && k.itens.length <= 4, n + '.itens precisa de 2 a 4');
+  if (k.barras) {
+    req(Array.isArray(k.barras) && k.barras.length >= 2 && k.barras.length <= 4, n + '.barras precisa de 2 a 4 barras');
+    (k.barras || []).forEach((b, j) => { len(b.rotulo, 22, `${n}.barras[${j}].rotulo`); len(b.texto, 8, `${n}.barras[${j}].texto`); req(typeof b.valor === 'number' && b.valor >= 0 && b.valor <= 100, `${n}.barras[${j}].valor precisa ser número de 0 a 100 (a porcentagem que o tools/conteudo/chance.cjs imprimiu)`); });
+    if (k.destaque != null) req(Number.isInteger(k.destaque) && k.destaque >= 0 && k.destaque < (k.barras || []).length, n + '.destaque precisa ser o índice da barra em destaque (0 é a primeira)');
+    req(!k.carta && !k.nota, n + ': tela com barras não leva carta nem nota');
+    req(Array.isArray(k.itens) && k.itens.length >= 1 && k.itens.length <= 2, n + '.itens precisa de 1 a 2 numa tela com barras');
+  } else req(Array.isArray(k.itens) && k.itens.length >= 2 && k.itens.length <= 4, n + '.itens precisa de 2 a 4');
   (k.itens || []).forEach((x, j) => { cor(x.cor, `${n}.itens[${j}].cor`); len(x.html, 120, `${n}.itens[${j}].html`); });
   if (k.nota) { len(k.nota.rotulo, 24, n + '.nota.rotulo'); len(k.nota.texto, 95, n + '.nota.texto'); }
   len(k.fx, 110, n + '.fx', true);

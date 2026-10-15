@@ -17,9 +17,9 @@ Escreva só na pasta `pauta/`. Nunca chame ferramenta paga do vidIQ e nunca mexa
 ## Tarefa da noite: original de amanhã (18h21)
 
 1. Clone (regras em `tools/REGRAS.md`) e trabalhe dentro de `./gh`. AMANHA = `TZ=America/Sao_Paulo date -d tomorrow +%F`.
-2. Rode `node tools/conteudo/contexto.cjs . AMANHA`. Ele mostra o pilar de amanhã (o que fazer, fontes, gancho, pergunta), os próximos itens da fila do pilar e a lista de tudo o que já foi publicado. É a única leitura necessária para não repetir: não abra pautas e edições antigas.
+2. Rode `node tools/conteudo/contexto.cjs . AMANHA`. Ele mostra o pilar de amanhã (o que fazer, fontes, gancho, pergunta e, quando houver, o formato), os próximos itens da fila do pilar e a lista de tudo o que já foi publicado. É a única leitura necessária para não repetir: não abra pautas e edições antigas. Se aparecer a linha **Formato**, leia em `tools/conteudo/FORMATOS.md` a parte geral e a seção daquele formato, e siga o molde nas três redes.
 3. Escolha o tema. **Conteúdo nunca se repete**: nada da lista do contexto (mesma notícia, carta, termo ou anúncio, nem com outro ângulo). Use o pilar do contexto e, se houver fila, o primeiro item livre que tenha fontes boas. Exceção: anúncio oficial da Wizards publicado depois das 6h de hoje (ban, Game Changers, regra, produto de Commander) que não esteja na lista vira o tema do TikTok; nesse caso o carrossel original pode ser pulado.
-4. Pesquise: no máximo 8 buscas na web, mais as páginas do EDHREC, do Commander Spellbook e do Scryfall que o pilar pedir. Tudo com base em cartas, regras e fatos que existem, com as regras de verificação. Cotação: use o `fx` da edição mais recente (`data/edN.js`) se tiver até 4 dias; senão, a regra de moeda.
+4. Pesquise: no máximo 8 buscas na web, mais as páginas do EDHREC, do Commander Spellbook e do Scryfall que o pilar pedir. Tudo com base em cartas, regras e fatos que existem, com as regras de verificação. Porcentagem de chance de achar carta só pelo `node tools/conteudo/chance.cjs` (uso no cabeçalho do arquivo), nunca de cabeça. Cotação: use o `fx` da edição mais recente (`data/edN.js`) se tiver até 4 dias; senão, a regra de moeda.
 5. Imagens pelo Scryfall: `art_crop` em `pauta/AMANHA/tiktok/arte.jpg` e `large` em `pauta/AMANHA/tiktok/carta.jpg`. Para telas do carrossel com carta (Top 5, Deck, Combo, História), `image_uris.normal` em `pauta/AMANHA/original/carta-1.jpg`, `carta-2.jpg`... Prefira a impressão de moldura comum, não a serializada nem a showcase. Nunca grave em `img/`.
 6. Escreva `pauta/AMANHA/tiktok/roteiro.json` (formato abaixo) e rode `node tools/pauta/tiktok.cjs . AMANHA` (timeout 600000 ms). Se der `ERROS:`, encurte o texto apontado e rode de novo, até 4 vezes. Abra com Read a cena 1 e a cena de lista.
 7. Escreva `pauta/AMANHA/original/original.json` (formato abaixo) e rode `node tools/conteudo/original.cjs . AMANHA`. Mesma regra de correção, até 4 vezes. Abra com Read a capa e uma tela com carta. Se não sair, siga sem ele: a manhã usa o carrossel do jornal.
@@ -52,6 +52,13 @@ Sábado com visita marcada (`extras/lojas/AMANHA.json`, pilar Rota das Lojas): o
       ]
     }
 
+Cenas do quiz (pilar Chama o Juiz; exemplo completo em `tools/conteudo/FORMATOS.md`):
+
+        {"tipo": "quiz", "cor": "U", "chip": (18), "kicker": (40), "titulo": a pergunta (64), "opcoes": [(40), (40), (40)], "contagem": 5, "narracao": (260)}
+        {"tipo": "resposta", "cor": "U", "chip": (18), "kicker": (40), "titulo": o veredito (64), "opcoes": as mesmas do quiz, "certa": "A", "sub": (140), "fonte": "Regras Abrangentes, <número>" (60), "narracao": (260)}
+
+`opcoes` tem de 2 a 4 textos; a cena quiz precisa de uma resposta depois dela com as mesmas opções na mesma ordem. `contagem` (3 a 5) acrescenta essa quantidade de segundos com o número regressivo depois da fala, no vídeo mudo e no narrado.
+
 A cena final chama para o @fontedemana e o site, sem prometer "parte 2". Cores: W Brasil e eventos, U regras, B ban, R polêmica, G novidade, A bolso, M Topdeck e multicolor.
 
 ## Formato do `pauta/AAAA-MM-DD/original/original.json`
@@ -73,6 +80,8 @@ A cena final chama para o @fontedemana e o site, sem prometer "parte 2". Cores: 
            "fx": nota curta da cotação na tela (110, opcional),
            "fonte": "Fonte: EDHREC, out 2026" (70)}
         ],
+        tela com gráfico (Matemática da Mesa): no lugar da carta, "barras": [{"rotulo": (22), "valor": 0 a 100, "texto": "31,2%" (8)}] (2 a 4,
+        valores do chance.cjs), "destaque": índice da barra em destaque (opcional), 1 ou 2 itens e nenhuma nota,
         "cta": {"pergunta": (70, pode ter <b>), "quando": (60), "salvar": motivo para salvar ou mandar (70)}
       },
       "legenda": legenda do Instagram (1800): primeira linha com o gancho e palavras de busca (Commander, deck, carta de Magic, o tema), fontes, link fontedemana.com.br, pergunta e hashtags. Sem o aviso de Fan Content (a pauta põe).

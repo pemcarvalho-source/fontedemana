@@ -17,6 +17,8 @@ if (!/^\d{4}-\d{2}-\d{2}$/.test(DATA)) { console.error('Uso: node tools/pauta/ti
 const DIR = path.join(ROOT, 'pauta', DATA, 'tiktok');
 const FPS = 30, FADE = 0.4;
 const SEPS = [' · ', ' – ', ' — ', '—'];
+const TIPOS = ['gancho', 'lista', 'texto', 'cta', 'quiz', 'resposta'];
+const LETRAS = 'ABCD';
 
 const exists = p => { try { return fs.statSync(p).size > 0; } catch (e) { return false; } };
 const esc = s => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -38,7 +40,18 @@ function validate(r) {
   req(Array.isArray(r.cenas) && r.cenas.length >= 3 && r.cenas.length <= 5, 'cenas precisa de 3 a 5 itens');
   (r.cenas || []).forEach((c, i) => {
     const n = 'cenas[' + i + ']';
-    req(['gancho', 'lista', 'texto', 'cta'].includes(c.tipo), n + '.tipo precisa ser gancho, lista, texto ou cta');
+    req(TIPOS.includes(c.tipo), n + '.tipo precisa ser ' + TIPOS.join(', '));
+    if (c.tipo === 'quiz' || c.tipo === 'resposta') {
+      req(Array.isArray(c.opcoes) && c.opcoes.length >= 2 && c.opcoes.length <= 4, n + '.opcoes precisa de 2 a 4 textos');
+      (c.opcoes || []).forEach((o, j) => len(o, 40, `${n}.opcoes[${j}]`));
+    }
+    if (c.tipo === 'resposta') req(typeof c.certa === 'string' && c.certa.length === 1 && LETRAS.slice(0, (c.opcoes || []).length).includes(c.certa), n + '.certa precisa ser a letra da opção certa (A, B, C ou D)');
+    if (c.contagem != null) req(c.tipo === 'quiz' && Number.isInteger(c.contagem) && c.contagem >= 3 && c.contagem <= 5, n + '.contagem só vale em cena quiz, inteiro de 3 a 5 (segundos)');
+    if (c.tipo === 'quiz') {
+      const resp = (r.cenas || []).slice(i + 1).find(x => x.tipo === 'resposta');
+      req(resp, n + ': cena quiz precisa de uma cena resposta depois dela');
+      if (resp) req(JSON.stringify(resp.opcoes) === JSON.stringify(c.opcoes), n + ': a cena resposta precisa repetir as mesmas opcoes do quiz, na mesma ordem');
+    }
     req('WUBRGAM'.includes(c.cor || 'A') && String(c.cor || 'A').length === 1, n + '.cor inválida');
     len(c.narracao, 260, n + '.narracao');
     len(c.chip, 18, n + '.chip', true);
@@ -87,7 +100,7 @@ function chromePath() {
 }
 
 /* ---------- quadros ---------- */
-function pageHTML(r, c, i) {
+function pageHTML(r, c, i, conta) {
   const css = fs.readFileSync(path.join(ROOT, 'tools/kit/kit.css'), 'utf8')
     .split('{{FONTS}}').join(furl(path.join(ROOT, 'tools/kit/fonts')))
     .split('{{LANDS}}').join(furl(path.join(ROOT, 'lands')));
@@ -118,7 +131,23 @@ h1{font-family:CZ;font-weight:700;font-size:88px;line-height:1.05;margin-top:24p
 .srcl{margin-top:26px;font-family:CZ;font-weight:600;font-size:24px;letter-spacing:.06em;color:var(--muted);text-transform:uppercase}
 .fxn{margin-top:20px;font-family:CP;font-style:italic;font-size:27px;color:var(--muted)}
 .big{font-family:CD;font-weight:900;font-size:76px;line-height:1.08;color:var(--goldtxt);margin-top:40px;text-shadow:0 3px 14px rgba(0,0,0,.7)}
-.cardimg{position:absolute;left:50%;transform:translateX(-50%) rotate(-3deg);width:500px;top:330px;border-radius:26px;box-shadow:0 0 0 6px #0b0a09,0 40px 80px -20px rgba(0,0,0,.9)}`;
+.cardimg{position:absolute;left:50%;transform:translateX(-50%) rotate(-3deg);width:500px;top:330px;border-radius:26px;box-shadow:0 0 0 6px #0b0a09,0 40px 80px -20px rgba(0,0,0,.9)}
+.qz{right:64px}
+.qz h1{font-size:72px}
+.qz .tbox{padding:14px 30px;margin-top:36px}
+.op{display:grid;grid-template-columns:76px 1fr 64px;gap:22px;align-items:center;padding:20px 0;border-bottom:2px solid rgba(0,0,0,.14)}
+.op:last-child{border-bottom:0}
+.op .lt{width:76px;height:76px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:CZ;font-weight:700;font-size:44px;color:#F3EEE2;background:#2a2620;box-shadow:-3px 3px 0 rgba(0,0,0,.9)}
+.op .ot{font-family:CP;font-weight:600;font-size:46px;line-height:1.12}
+.op .mk{width:64px;height:64px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'DejaVu Sans',sans-serif;font-weight:700;font-size:40px;color:#fff}
+.op.ok{background:rgba(31,107,63,.16);border-radius:14px;margin:0 -16px;padding:20px 16px;border-bottom-color:transparent}
+.op.ok .lt,.op.ok .mk{background:#1F6B3F}
+.op.no{opacity:.42}
+.op.no .ot{text-decoration:line-through;text-decoration-thickness:3px}
+.rp .op{padding:14px 0}.rp .op .ot{font-size:40px}.rp .op.ok{padding:14px 16px}.rp h1{font-size:68px}.rp .sub{font-size:46px;margin-top:26px}
+.cd{position:absolute;top:300px;right:64px;display:flex;flex-direction:column;align-items:center;gap:18px}
+.cd .n{width:250px;height:250px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:CD;font-weight:900;font-size:170px;line-height:1;color:var(--goldtxt);background:rgba(15,15,19,.82);box-shadow:0 0 0 8px var(--goldtxt),0 30px 60px -10px rgba(0,0,0,.9)}
+.cd .t{font-family:CZ;font-weight:700;font-size:40px;color:#F3EEE2;text-shadow:0 3px 12px rgba(0,0,0,.9);background:rgba(15,15,19,.7);padding:10px 26px;border-radius:40px}`;
   const top = `<div class="top"><div class="brand">Fonte <span class="de">de</span> Mana</div>${c.chip ? '<span class="chip">' + esc(c.chip) + '</span>' : ''}</div>`;
   const fx = r.fx && JSON.stringify(c).includes('R$') ? `<div class="fxn">${esc(r.fx)}</div>` : '';
   const fonte = c.fonte ? `<div class="srcl">${esc(c.fonte)}</div>` : '';
@@ -129,6 +158,14 @@ h1{font-family:CZ;font-weight:700;font-size:88px;line-height:1.05;margin-top:24p
     inner = `<div class="art"></div>${top}<div class="body" style="top:820px"><div class="kicker">${pip(c.cor || 'A')} ${esc(c.kicker)}</div>
       <div class="tbox fr-${c.cor || 'A'}">${c.linhas.map(l => `<div class="row"><span class="n">${esc(l.nome)}</span><span class="v">${esc(l.valor)}${l.real ? '<small>' + esc(l.real) + '</small>' : ''}</span></div>`).join('')}</div>
       ${c.rodape ? '<div class="foot">' + rich(c.rodape) + '</div>' : ''}${fonte}${fx}</div>`;
+  } else if (c.tipo === 'quiz' || c.tipo === 'resposta') {
+    const resp = c.tipo === 'resposta', certa = resp ? LETRAS.indexOf(c.certa) : -1;
+    ah = resp ? 640 : 760;
+    const ops = c.opcoes.map((o, j) => `<div class="op${j === certa ? ' ok' : (resp ? ' no' : '')}"><span class="lt">${LETRAS[j]}</span><span class="ot">${rich(o)}</span>${j === certa ? '<span class="mk">✓</span>' : '<span></span>'}</div>`).join('');
+    const letras = LETRAS.slice(0, c.opcoes.length).split('');
+    const cd = conta ? `<div class="cd"><div class="n">${conta}</div><div class="t">Comenta: ${letras.slice(0, -1).join(', ')} ou ${letras[letras.length - 1]}?</div></div>` : '';
+    inner = `<div class="art"></div>${top}${cred}${cd}<div class="body qz${resp ? ' rp' : ''}" style="top:${resp ? 680 : 800}px"><div class="kicker">${pip(c.cor || 'U')} ${esc(c.kicker)}</div>
+      <h1>${rich(c.titulo)}</h1><div class="tbox fr-${c.cor || 'U'}">${ops}</div>${c.sub ? '<div class="sub">' + rich(c.sub) + '</div>' : ''}${fonte}${fx}</div>`;
   } else if (c.tipo === 'cta') {
     inner = `<div class="art"></div>${top}${card ? '<img class="cardimg" src="' + card + '">' : ''}
       <div class="body" style="top:1110px"><div class="kicker">${pip(c.cor || 'M')} ${esc(c.kicker)}</div>
@@ -149,40 +186,58 @@ async function renderFrames(r) {
   const pg = await browser.newPage({ viewport: { width: 1080, height: 1920 } });
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'fdm-pauta-'));
   const out = [];
+  fs.readdirSync(DIR).filter(f => /^cena-\d+-c\d\.jpg$/.test(f)).forEach(f => fs.unlinkSync(path.join(DIR, f)));
   for (let i = 0; i < r.cenas.length; i++) {
-    const f = path.join(tmp, 'cena-' + (i + 1) + '.html');
-    fs.writeFileSync(f, pageHTML(r, r.cenas[i], i));
-    await pg.goto(furl(f));
-    await pg.evaluate(() => document.fonts.ready);
-    await pg.waitForTimeout(250);
-    const over = await pg.evaluate(() => { const b = document.querySelector('.body'); if (!b) return 0; const r = b.getBoundingClientRect(); return Math.max(0, r.bottom - 1640); });
-    if (over > 0) throw new Error(`cena ${i + 1}: o texto passa da área segura em ${Math.round(over)} px; encurte o texto dessa cena`);
-    const jpg = path.join(DIR, 'cena-' + (i + 1) + '.jpg');
-    await pg.screenshot({ path: jpg, type: 'jpeg', quality: 90 });
-    out.push(jpg);
+    const c = r.cenas[i];
+    const quadros = [null].concat(contagemDe(c));
+    for (const n of quadros) {
+      const f = path.join(tmp, 'cena-' + (i + 1) + (n ? '-c' + n : '') + '.html');
+      fs.writeFileSync(f, pageHTML(r, c, i, n));
+      await pg.goto(furl(f));
+      await pg.evaluate(() => document.fonts.ready);
+      await pg.waitForTimeout(250);
+      const over = await pg.evaluate(() => { const b = document.querySelector('.body'); if (!b) return 0; const r = b.getBoundingClientRect(); return Math.max(0, r.bottom - 1640); });
+      if (over > 0) throw new Error(`cena ${i + 1}: o texto passa da área segura em ${Math.round(over)} px; encurte o texto dessa cena`);
+      await pg.screenshot({ path: quadroDe(i, n), type: 'jpeg', quality: 90 });
+    }
+    out.push(quadroDe(i));
   }
   await browser.close();
   return out;
 }
+/* contagem regressiva da cena quiz: [5, 4, 3, 2, 1] e o caminho de cada quadro */
+function contagemDe(c) { const n = c.tipo === 'quiz' && c.contagem ? c.contagem : 0; return Array.from({ length: n }, (x, k) => n - k); }
+function quadroDe(i, n) { return path.join(DIR, 'cena-' + (i + 1) + (n ? '-c' + n : '') + '.jpg'); }
 
 /* ---------- vídeo ---------- */
 function run(args, timeout) { const p = cp.spawnSync('ffmpeg', args, { encoding: 'utf8', timeout: timeout || 300000 }); if (p.status !== 0) throw new Error('ffmpeg falhou: ' + (p.stderr || '').slice(-600)); return p; }
 function dur(f) { return parseFloat(cp.execFileSync('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', f], { encoding: 'utf8' }).trim()); }
 function estimate(txt) { const w = plain(txt).split(/\s+/).filter(Boolean).length; return Math.max(5, Math.round((w / 2.5 + 1.2) * 10) / 10); }
 
-function buildVideo(frames, lens, audios, out) {
+/* conts[i]: quadros da contagem regressiva da cena i (1 s cada, depois da fala), lista vazia nas outras cenas */
+function buildVideo(frames, lens, audios, out, conts) {
+  conts = conts || frames.map(() => []);
   const args = ['-y', '-loglevel', 'error'];
-  const seg = lens.map((L, i) => L + (i < lens.length - 1 ? FADE : 0.6));
-  frames.forEach((f, i) => args.push('-framerate', String(FPS), '-loop', '1', '-t', seg[i].toFixed(3), '-i', f));
+  const durs = lens.map((L, i) => L + conts[i].length);
+  const seg = durs.map((D, i) => D + (i < durs.length - 1 ? FADE : 0.6));
+  const fl = []; let idx = 0;
+  const entrada = (f, t) => { args.push('-framerate', String(FPS), '-loop', '1', '-t', t.toFixed(3), '-i', f); return idx++; };
+  const crop = (j, y) => `[${j}:v]scale=1134:2016,crop=1080:1920:x='(iw-ow)/2':y='${y}',setsar=1,format=yuv420p`;
+  frames.forEach((f, i) => {
+    const sobra = seg[i] - durs[i];
+    if (!conts[i].length) { fl.push(crop(entrada(f, seg[i]), `(ih-oh)*(1-t/${seg[i].toFixed(3)})`) + `[v${i}]`); return; }
+    const partes = [];
+    fl.push(crop(entrada(f, lens[i]), `(ih-oh)*(1-t/${lens[i].toFixed(3)})`) + `[b${i}]`); partes.push(`[b${i}]`);
+    conts[i].forEach((q, k) => { fl.push(crop(entrada(q, 1 + (k === conts[i].length - 1 ? sobra : 0)), '0') + `[c${i}_${k}]`); partes.push(`[c${i}_${k}]`); });
+    fl.push(`${partes.join('')}concat=n=${partes.length}:v=1:a=0,fps=${FPS},settb=1/${FPS}[v${i}]`);
+  });
   (audios || []).forEach(a => args.push('-i', a));
-  const fl = [];
-  frames.forEach((f, i) => fl.push(`[${i}:v]scale=1134:2016,crop=1080:1920:x='(iw-ow)/2':y='(ih-oh)*(1-t/${seg[i].toFixed(3)})',setsar=1,format=yuv420p[v${i}]`));
   let prev = 'v0', off = 0;
   for (let i = 1; i < frames.length; i++) { off += seg[i - 1] - FADE; fl.push(`[${prev}][v${i}]xfade=transition=fade:duration=${FADE}:offset=${off.toFixed(3)}[x${i}]`); prev = 'x' + i; }
   const total = seg.reduce((a, b) => a + b, 0) - FADE * (frames.length - 1);
   if (audios) {
     let start = 0;
-    audios.forEach((a, i) => { const d = Math.round((start + 0.35) * 1000); fl.push(`[${frames.length + i}:a]adelay=${d}|${d}[a${i}]`); start += lens[i]; });
+    audios.forEach((a, i) => { const d = Math.round((start + 0.35) * 1000); fl.push(`[${idx + i}:a]adelay=${d}|${d}[a${i}]`); start += durs[i]; });
     fl.push(`${audios.map((a, i) => '[a' + i + ']').join('')}amix=inputs=${audios.length}:normalize=0:duration=longest,apad,loudnorm=I=-14:TP=-1.5:LRA=11,aresample=48000[aout]`);
   }
   args.push('-filter_complex', fl.join(';'), '-map', '[' + prev + ']');
@@ -198,17 +253,19 @@ function buildVideo(frames, lens, audios, out) {
   const r = JSON.parse(fs.readFileSync(rp, 'utf8'));
   const E = validate(r);
   if (E.length) { console.log('ERROS:\n' + E.map(e => '  ' + e).join('\n')); process.exit(1); }
+  const conts = r.cenas.map((c, i) => contagemDe(c).map(n => quadroDe(i, n)));
+  const nConta = conts.reduce((a, b) => a + b.length, 0);
   if (!AUDIOS) {
     const frames = await renderFrames(r);
     const lens = r.cenas.map(c => estimate(c.narracao));
-    const total = buildVideo(frames, lens, null, path.join(DIR, 'tiktok-mudo.mp4'));
+    const total = buildVideo(frames, lens, null, path.join(DIR, 'tiktok-mudo.mp4'), conts);
     r.cenas.forEach((c, i) => { c.segundos = lens[i]; });
     fs.writeFileSync(rp, JSON.stringify(r, null, 1) + '\n');
-    console.log('OK, ' + frames.length + ' cenas, vídeo mudo de ' + total.toFixed(1) + ' s em pauta/' + DATA + '/tiktok/tiktok-mudo.mp4');
+    console.log('OK, ' + frames.length + ' cenas' + (nConta ? ' (com contagem de ' + nConta + ' s depois da pergunta)' : '') + ', vídeo mudo de ' + total.toFixed(1) + ' s em pauta/' + DATA + '/tiktok/tiktok-mudo.mp4');
   } else {
     if (AUDIOS.length !== r.cenas.length) { console.log('ERROS:\n  mande um áudio por cena: o roteiro tem ' + r.cenas.length + ' cenas e chegaram ' + AUDIOS.length + ' áudios'); process.exit(1); }
-    const frames = r.cenas.map((c, i) => path.join(DIR, 'cena-' + (i + 1) + '.jpg'));
-    if (!frames.every(exists)) await renderFrames(r);
+    const frames = r.cenas.map((c, i) => quadroDe(i));
+    if (!frames.every(exists) || !conts.every(l => l.every(exists))) await renderFrames(r);
     const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'fdm-narr-'));
     const clean = AUDIOS.map((a, i) => {
       const o = path.join(tmp, 'c' + (i + 1) + '.wav');
@@ -216,7 +273,7 @@ function buildVideo(frames, lens, audios, out) {
       return o;
     });
     const lens = clean.map(f => dur(f) + 0.8);
-    const total = buildVideo(frames, lens, clean, path.join(DIR, 'tiktok-narrado.mp4'));
+    const total = buildVideo(frames, lens, clean, path.join(DIR, 'tiktok-narrado.mp4'), conts);
     console.log('OK, vídeo narrado de ' + total.toFixed(1) + ' s em pauta/' + DATA + '/tiktok/tiktok-narrado.mp4 (cenas de ' + lens.map(x => x.toFixed(1)).join(', ') + ' s)');
   }
 })().catch(e => { console.log('ERROS:\n  ' + e.message); process.exit(1); });

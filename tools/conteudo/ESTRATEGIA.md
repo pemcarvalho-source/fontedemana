@@ -1,6 +1,6 @@
 # Estratégia de conteúdo da Fonte de Mana
 
-Versão 1, 14 out 2026. Revisada toda semana com as estatísticas que o Paulo manda. As rotinas leem a parte operacional em `tools/conteudo/plano.json`; este arquivo explica o porquê.
+Versão 2, 15 out 2026. Revisada toda semana com as estatísticas que o Paulo manda. As rotinas leem a parte operacional em `tools/conteudo/plano.json`; este arquivo explica o porquê. Os moldes de cada formato, e as referências de criadores que inspiraram cada um, estão em `tools/conteudo/FORMATOS.md`.
 
 ## Diagnóstico (Instagram, 13 set a 13 out, conta com 4 dias de vida)
 
@@ -41,21 +41,29 @@ O jornal marca cada edição como `forte` ou `calmo` no `kit.json`.
 
 Saiu da grade: o post das 19:00 no Threads com o vídeo do jornal (repetia o Reels e o Threads é rede de texto). Volta se a revisão semanal mostrar o contrário: basta mudar `ativo` em `plano.json`.
 
-## Calendário de originais (semana A = ISO ímpar, B = ISO par)
+## Calendário de originais (ciclo de 3 semanas)
 
-| Dia | Semana A | Semana B |
-| --- | --- | --- |
-| Segunda | História de uma carta (bastidores de design) | Lore em 1 minuto |
-| Terça | Dicionário do Commander | Dicionário do Commander |
-| Quarta | Deck em 40 segundos | Combo da semana |
-| Quinta | Top 5 (feito para salvar) | Top 5 |
-| Sexta | Regra Bizarra | Termômetro (vídeo mais visto em versão própria) |
-| Sábado | Radar DC500 | Vitrine de acessórios |
-| Domingo | Bolsa de Mana | Debate da semana (proxy x original e afins) |
+A letra da semana vem de `ciclo` em `plano.json`: semana ISO 42 (12 a 18 out 2026) é C a partir de sexta 16, a 43 é A, a 44 é B, a 45 é C e assim por diante.
+
+| Dia | Semana A | Semana B | Semana C (formatos novos) |
+| --- | --- | --- | --- |
+| Segunda | História de uma carta (bastidores de design) | Lore em 1 minuto | Treta das Cores (esquete das cores com regra) |
+| Terça | Dicionário do Commander | Dicionário do Commander | Dicionário do Commander |
+| Quarta | Deck em 40 segundos | Combo da semana | Matemática da Mesa (chance de achar as cartas) |
+| Quinta | Top 5 (feito para salvar) | Top 5 | Top 5 Lado B (cartas esquecidas que funcionam) |
+| Sexta | Chama o Juiz (quiz de regra) | Termômetro (vídeo mais visto em versão própria) | Chama o Juiz |
+| Sábado | Radar DC500 | Vitrine de acessórios | Qual entra? (duelo de duas cartas) |
+| Domingo | Bolsa de Mana | Debate da semana (proxy x original e afins) | Toda mesa tem um (humor de mesa) |
 
 Rota das Lojas substitui o pilar do dia quando existir `extras/lojas/AAAA-MM-DD.json` com a visita marcada. Notícia oficial da Wizards publicada depois das 6h (ban, Game Changers, regra, produto de Commander) pode tomar o lugar do original no TikTok.
 
 Cada original sai em três formatos complementares, nunca a mesma peça repostada: vídeo narrado (TikTok), carrossel de 5 a 7 telas (Instagram) e post de debate (Threads).
+
+## Por que a semana C (15 out)
+
+O Paulo mandou gravações de criadores de Magic como inspiração. O que mais se repetiu nelas e falta na grade: **pergunta com resposta escondida** (quiz com contagem), **número que muda uma decisão** (probabilidade), **humor de mesa** (o post de humor tinha 7.320 envios, mais que todos os outros juntos) e **descoberta** (cartas esquecidas, com 537 envios para 1.641 curtidas). A semana C testa esses moldes sem tirar nenhum pilar que o Paulo pediu; a Regra Bizarra virou o quiz Chama o Juiz em todas as semanas, com a mesma fila.
+
+O que medir na revisão: comentários por visualização no Chama o Juiz e no Qual entra?; salvamentos e envios na Matemática da Mesa e no Lado B; envios no humor (Treta das Cores e Toda mesa tem um).
 
 ## Regras de engajamento em toda peça original
 
@@ -63,6 +71,8 @@ Cada original sai em três formatos complementares, nunca a mesma peça repostad
 - Primeira linha da legenda com palavra de busca: Commander, deck, carta de Magic e o tema.
 - Termina com pergunta concreta, de preferência com opções, e com um motivo para salvar ou mandar para alguém.
 - Séries com nome fixo, para criar hábito.
+- No carrossel, uma ideia por tela e uma dúvida no fim de cada tela que obriga a arrastar.
+- Pedido de envio com destinatário ("manda pro seu parceiro de mesa que..."), não só "compartilhe".
 
 ## Fora da automação (vale fazer à mão)
 
@@ -75,7 +85,7 @@ Cada original sai em três formatos complementares, nunca a mesma peça repostad
 
 Toda segunda, com os números dos últimos 7 dias (prints do Instagram em Visão geral e Conteúdo ordenado por Visualizações, Salvamentos e Compartilhamentos, mais TikTok e Threads, ou Metricool):
 
-1. Comparar notícia x original e pilar x pilar em alcance, % de não seguidores, salvamentos + compartilhamentos por alcance, comentários e seguidores ganhos.
+1. Comparar notícia x original, pilar x pilar e semana C x semanas A e B em alcance, % de não seguidores, salvamentos + compartilhamentos por alcance, comentários e seguidores ganhos.
 2. Pilar campeão por 2 semanas ganha mais um dia. Pilar no fim da fila por 2 semanas troca de formato ou sai.
 3. Se o carrossel original de dia calmo ganhar do carrossel do jornal, o critério de dia forte fica mais exigente; se perder, mais flexível.
 4. Registrar a decisão abaixo e ajustar `plano.json`.
@@ -103,6 +113,8 @@ Números de antes da estratégia nova, para comparar nas revisões.
 - No Threads, o primeiro post do fio carrega tudo. Testar fio de 3 posts, com a notícia inteira no primeiro.
 
 ## Histórico de ajustes
+
+- 15 out 2026, v2 (aprovada pelo Paulo depois de ver um exemplo de cada formato; começa na sexta 16): ciclo de 3 semanas com a semana C de formatos novos (Treta das Cores, Matemática da Mesa, Top 5 Lado B, Qual entra?, Toda mesa tem um), Regra Bizarra vira o quiz Chama o Juiz, campo `formato` nos pilares, `FORMATOS.md` com os moldes e as referências, `chance.cjs` para as contas, cena quiz com contagem no TikTok e tela de barras no carrossel.
 
 - 14 out 2026: linha de base de TikTok e Threads registrada a partir do Metricool.
 - 14 out 2026, v1: mix notícia + original, força do dia decide o feed, calendário de 7 pilares em semanas A e B, Threads das 19:00 sai da grade.

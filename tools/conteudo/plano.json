@@ -1,27 +1,29 @@
 {
-  "versao": "2026-10-14 v1",
-  "comentario": "Plano editorial da Fonte de Mana. Lido por tools/conteudo/contexto.cjs (tarefa da noite) e tools/pauta/manha.cjs (tarefa da manhã). A explicação completa está em tools/conteudo/ESTRATEGIA.md. Semana A = semana ISO ímpar, semana B = semana ISO par.",
+  "versao": "2026-10-15 v2",
+  "comentario": "Plano editorial da Fonte de Mana. Lido por tools/conteudo/contexto.cjs (tarefa da noite) e tools/pauta/manha.cjs (tarefa da manhã). A explicação completa está em tools/conteudo/ESTRATEGIA.md e os formatos (com as referências que inspiraram cada um) em tools/conteudo/FORMATOS.md. Ciclo de 3 semanas: a letra da semana é ciclo.semanas[(semana ISO + ciclo.deslocamento) % 3].",
+
+  "ciclo": {"semanas": ["A", "B", "C"], "deslocamento": 2, "nota": "Semana ISO 42 (12 a 18 out 2026) = C a partir de sexta 16, 43 = A, 44 = B, 45 = C. Semana C traz os formatos novos de 15 out."},
 
   "grade": [
-    {"id": "threads-manha",    "hora": "10:30", "ativo": true},
-    {"id": "stories-manha",    "hora": "10:30", "ativo": true},
-    {"id": "tiktok",           "hora": "11:30", "ativo": true},
-    {"id": "feed",             "hora": "12:00", "ativo": true},
+    {"id": "threads-manha", "hora": "10:30", "ativo": true},
+    {"id": "stories-manha", "hora": "10:30", "ativo": true},
+    {"id": "tiktok", "hora": "11:30", "ativo": true},
+    {"id": "feed", "hora": "12:00", "ativo": true},
     {"id": "stories-meio-dia", "hora": "12:00", "ativo": true},
-    {"id": "threads-tarde",    "hora": "15:00", "ativo": true},
-    {"id": "stories-tarde",    "hora": "15:00", "ativo": true},
-    {"id": "reels",            "hora": "19:00", "ativo": true},
-    {"id": "threads-noite",    "hora": "19:00", "ativo": false}
+    {"id": "threads-tarde", "hora": "15:00", "ativo": true},
+    {"id": "stories-tarde", "hora": "15:00", "ativo": true},
+    {"id": "reels", "hora": "19:00", "ativo": true},
+    {"id": "threads-noite", "hora": "19:00", "ativo": false}
   ],
 
   "calendario": {
-    "seg": {"A": "historia", "B": "lore"},
-    "ter": {"A": "dicionario", "B": "dicionario"},
-    "qua": {"A": "deck", "B": "combo"},
-    "qui": {"A": "top5", "B": "top5"},
-    "sex": {"A": "regra", "B": "termometro"},
-    "sab": {"A": "dc500", "B": "vitrine"},
-    "dom": {"A": "bolsa", "B": "debate"}
+    "seg": {"A": "historia", "B": "lore", "C": "treta"},
+    "ter": {"A": "dicionario", "B": "dicionario", "C": "dicionario"},
+    "qua": {"A": "deck", "B": "combo", "C": "matematica"},
+    "qui": {"A": "top5", "B": "top5", "C": "ladob"},
+    "sex": {"A": "regra", "B": "termometro", "C": "regra"},
+    "sab": {"A": "dc500", "B": "vitrine", "C": "qualentra"},
+    "dom": {"A": "bolsa", "B": "debate", "C": "todamesa"}
   },
 
   "pilares": {
@@ -55,6 +57,7 @@
       "fontes": "EDHREC (página do comandante, cartas mais jogadas), Scryfall (preços), Moxfield ou Archidekt para listas públicas.",
       "gancho": "Como esse comandante vence em três passos.",
       "pergunta": "Que carta você colocaria nesse deck?",
+      "formato": "Diga sempre o bracket esperado, o preço aproximado da lista e o plano em três passos (início, meio, como vence). No carrossel, o comandante na capa e uma tela por passo com a carta-chave.",
       "fila": null
     },
     "combo": {
@@ -71,14 +74,16 @@
       "fontes": "EDHREC (páginas de tribos em /tribes, de temas e de comandantes, com número de decks), lista oficial de Game Changers, Scryfall (preços).",
       "gancho": "As 5 cartas que não podem faltar em um deck de <tema>.",
       "pergunta": "Faltou alguma? Qual seria a sua número 1?",
+      "formato": "Uma carta por tela, com a imagem, o número de decks no EDHREC e o preço. Capa com o número no título. CTA com motivo para salvar e para mandar a quem joga aquele tema.",
       "fila": "top5"
     },
     "regra": {
-      "nome": "Regra Bizarra",
-      "oQue": "Uma interação ou regra estranha que acontece de verdade na mesa, explicada com as cartas e a regra oficial, sem juridiquês.",
-      "fontes": "Regras Abrangentes e rulings do Gatherer ou Scryfall (obrigatório confirmar), coluna de regras do EDHREC, Draftsim e MTGRocks como ponto de partida.",
-      "gancho": "Essa jogada parece ilegal, mas é permitida (ou o contrário).",
-      "pergunta": "Já viu isso acontecer na sua mesa?",
+      "nome": "Chama o Juiz",
+      "oQue": "Quiz de regra: uma situação real da mesa de Commander, a pergunta com 3 respostas (A, B e C), 5 segundos para o público comentar e a resposta com o número da regra oficial, explicada sem juridiquês. As respostas erradas são o que a mesa costuma achar.",
+      "fontes": "Regras Abrangentes e rulings do Gatherer ou Scryfall (obrigatório confirmar e citar o número da regra), coluna de regras do EDHREC, Draftsim e MTGRocks como ponto de partida.",
+      "gancho": "A situação em uma frase de mesa (ex.: \"roubaram seu comandante e bateram em você com ele\").",
+      "pergunta": "Acertou? Comenta a sua letra antes de ver a resposta.",
+      "formato": "TikTok: gancho (a situação), quiz (pergunta, 3 opcoes, contagem 5), resposta (as mesmas opcoes, certa, sub com o porquê, fonte com o número da regra) e cta. Carrossel: capa com a situação; tela com a pergunta e as opções A, B e C nos itens; tela com a resposta e a regra; tela com a carta envolvida e o erro comum. Threads: a pergunta com as três opções pedindo a letra nos comentários; em obs, a resposta para o Paulo responder no próprio post às 15h.",
       "fila": "regra"
     },
     "termometro": {
@@ -119,7 +124,53 @@
       "fontes": "Posições oficiais da Wizards quando existirem (política de proxies, brackets, Game Changers), artigos com os dois lados.",
       "gancho": "A discussão que nunca acaba na mesa de Commander.",
       "pergunta": "De que lado você está?",
+      "formato": "Os dois lados lado a lado, com o mesmo espaço e o melhor argumento de cada um. A enquete dos Stories mostra as duas opções como duas cartas (ou dois rótulos) frente a frente.",
       "fila": "debate"
+    },
+    "treta": {
+      "nome": "Treta das Cores",
+      "oQue": "Esquete sem rosto: dois jogadores, cada um de uma cor, discutem uma jogada real na mesa de Commander. O humor vem do jeito de cada cor (o azul que anula tudo, o verde que só pensa em bicho grande, o preto que paga vida por tudo, o branco que tem regra pra tudo, o vermelho que bate na cara) e o final resolve a treta com a regra de verdade.",
+      "fontes": "Regras Abrangentes e rulings do Scryfall para a interação (obrigatório), Scryfall para as cartas, mtg.wiki (color pie) para o jeito de cada cor.",
+      "gancho": "Uma fala de mesa que todo mundo já ouviu, dita pelo personagem da cor.",
+      "pergunta": "Nessa treta, quem tinha razão?",
+      "formato": "TikTok: uma cena por fala, a cor da cena é a cor de quem fala e o chip leva o nome do personagem (ex.: Azul, Verde); no máximo 3 falas e a cena seguinte explica a regra com a fonte; o Paulo grava as duas vozes mudando o tom. Carrossel: o diálogo nos itens, cada item com a cor de quem fala (a bolinha vira o rosto do personagem), e a tela final com a regra. Threads: a fala mais engraçada e a pergunta. A piada é sempre com a cor, nunca com pessoa real, loja ou criador.",
+      "fila": "treta"
+    },
+    "matematica": {
+      "nome": "Matemática da Mesa",
+      "oQue": "Uma decisão de deck de Commander explicada com a chance real de achar as cartas: quantos terrenos, quantas remoções, por que várias cartas diferentes com a mesma função compensam num formato de uma cópia só, chance de abrir com a peça certa. Todo número sai do tools/conteudo/chance.cjs, nunca de cabeça.",
+      "fontes": "tools/conteudo/chance.cjs (a conta), EDHREC (quantos terrenos e cartas de cada função os decks usam), Regras Abrangentes 103 (mão inicial, mulligan e compra do primeiro turno), Scryfall (cartas de exemplo).",
+      "gancho": "Uma porcentagem que assusta (ex.: \"você tem uns 7% de chance de abrir com o seu Sol Ring\").",
+      "pergunta": "Quantas você joga no seu deck?",
+      "formato": "Carrossel em tensão, uma ideia por tela: capa com a pergunta e o número; o problema (\"então é só pôr mais?\" \"Calma.\"); a conta em barras (campo barras com os valores do chance.cjs e a resposta em destaque); o custo da escolha; a conclusão prática. TikTok: gancho com o número, cena lista com as porcentagens (nome = situação, valor = %), cena texto com a conclusão. Threads: \"chuta antes: qual a chance de...?\". Sempre dizer que a conta é sem mulligan.",
+      "fila": "matematica"
+    },
+    "ladob": {
+      "nome": "Top 5 Lado B",
+      "oQue": "Top 5 de uma cor com cartas que quase ninguém joga no Commander, mas que funcionam: poucas inclusões no EDHREC, preço baixo e um motivo claro para entrar no deck. Série por cor, como o lado B de um disco.",
+      "fontes": "EDHREC (número de decks e percentual, para mostrar que é pouco jogada), Scryfall (texto, preço, coleção e rulings).",
+      "gancho": "5 cartas <cor> que você provavelmente nunca jogou (e deveria).",
+      "pergunta": "Conhecia alguma? Qual entra no seu deck?",
+      "formato": "Mesmo molde do Top 5 (uma carta por tela, decks no EDHREC e preço), chip \"Top 5 Lado B\". Prefira cartas antigas ou esquecidas, com moldura antiga quando a impressão existir. Nunca usar carta que esteja entre as mais jogadas da cor no EDHREC. Threads: \"qual carta esquecida você joga que ninguém conhece?\".",
+      "fila": "ladob"
+    },
+    "qualentra": {
+      "nome": "Qual entra?",
+      "oQue": "Duelo de duas cartas que disputam a mesma vaga no deck (mesmo papel, custo parecido): o que cada uma faz melhor, números do EDHREC, preço e em que deck cada uma ganha. A Fonte de Mana mostra os dois lados e a enquete decide.",
+      "fontes": "EDHREC (decks e percentual de cada uma), Scryfall (texto, preço, rulings), Commander Spellbook (se uma delas fecha combo).",
+      "gancho": "<Carta A> ou <Carta B>: só tem vaga para uma.",
+      "pergunta": "Qual entra no seu deck?",
+      "formato": "TikTok: gancho com as duas cartas, cena lista com os números lado a lado (decks no EDHREC e preço), cena texto com quando cada uma ganha, cta pedindo o voto. Carrossel: capa com o duelo, uma tela por carta com a imagem, tela de comparação, CTA. Enquete dos Stories com as duas cartas. Threads: a pergunta seca com as duas opções.",
+      "fila": "qualentra"
+    },
+    "todamesa": {
+      "nome": "Toda mesa tem um",
+      "oQue": "Humor de observação sobre os tipos de jogador que aparecem em toda mesa de Commander, sempre ligado a uma carta real que esse jogador adora e a uma dica de etiqueta de mesa no final.",
+      "fontes": "Scryfall (cartas citadas), EDHREC (se a carta é popular), Regras Abrangentes quando citar regra, duas fontes para qualquer costume ou etiqueta citada.",
+      "gancho": "Toda mesa de Commander tem um <tipo>. Marca quem é.",
+      "pergunta": "Marca aqui o amigo que é assim.",
+      "formato": "TikTok: gancho com o tipo, cenas texto com as frases que ele sempre diz, cena com a carta que ele adora e a dica de mesa, cta \"marca o amigo\". Carrossel: um tipo por tela com a carta, ou um tipo só em passos. Threads: \"qual tipo de jogador mais aparece na sua mesa?\" com opções. Humor sobre hábitos de jogo, nunca sobre pessoa real, aparência, gênero ou grupo; ninguém é humilhado.",
+      "fila": "todamesa"
     },
     "loja": {
       "nome": "Rota das Lojas",
@@ -136,7 +187,12 @@
     "lore": ["Ashling, a peregrina de Lorwyn", "Edgar Markov e a linhagem de Sorin", "Nicol Bolas", "Urza e Mishra", "Teferi", "Liliana Vess", "Elesh Norn e a Phyrexia", "Jodah", "Kenrith e Eldraine", "Tiamat e os dragões cromáticos"],
     "dicionario": ["EDH", "Staple", "Mana dork", "Stack (pilha)", "Ramp", "Tutor", "Board wipe", "Commander tax", "Identidade de cores", "Game Changer", "Rule 0", "Topdeck", "ETB", "Voltron", "Stax", "Blink", "Reanimator", "Proliferate", "Cantrip", "Mana rock", "Fetch land", "Shock land", "Sac outlet", "Partner", "Group hug", "Wincon", "Goodstuff", "Pod", "Mulligan", "Scoop", "Aristocrats", "Landfall", "cEDH", "Bracket", "Precon", "As 99"],
     "top5": ["Elementais para o deck de Ashling", "Vampiros mais fortes do Commander", "Dragões obrigatórios em um deck de dragões", "Terrenos que todo deck de Commander deveria ter", "Mana rocks baratos", "Board wipes", "Comandantes para quem está começando", "Remoções instantâneas", "Elfos", "Zumbis", "Goblins", "Anjos"],
-    "regra": ["Panglacial Wurm conjurado do meio do grimório", "Mindslaver e jogar o turno do oponente", "Dano de comandante com comandante roubado", "Teferi's Protection e phasing", "Humility com Opalescence e as camadas", "Worldgorger Dragon e o loop que empata", "Split second", "Lich's Mastery e perder permanentes", "Hive Mind com Pact", "Criatura virada para baixo (morph) não tem nome"],
-    "debate": ["Proxy na mesa casual: pode ou não?", "Rule 0 antes de toda partida: necessário ou chato?", "Universes Beyond no Commander", "Brackets funcionam na prática?", "Sol Ring deveria sair do formato?", "Mesa de 4 ou duelo 1x1?", "Precon original ou upgrade logo na compra?", "Tutor demais deixa o jogo repetitivo?"]
+    "regra": ["Dano de comandante com comandante roubado", "Comandante que voltou para a mão paga imposto?", "Comandante exilado volta para a zona de comando?", "Dois comandantes (Partner): um imposto para cada", "Identidade de cor conta o símbolo de mana no texto", "Panglacial Wurm conjurado do meio do grimório", "Mindslaver e jogar o turno do oponente", "Teferi's Protection e phasing", "Humility com Opalescence e as camadas", "Worldgorger Dragon e o loop que empata", "Split second", "Lich's Mastery e perder permanentes", "Hive Mind com Pact", "Criatura virada para baixo (morph) não tem nome"],
+    "debate": ["Proxy na mesa casual: pode ou não?", "Rule 0 antes de toda partida: necessário ou chato?", "Universes Beyond no Commander", "Brackets funcionam na prática?", "Sol Ring deveria sair do formato?", "Mesa de 4 ou duelo 1x1?", "Precon original ou upgrade logo na compra?", "Tutor demais deixa o jogo repetitivo?"],
+    "treta": ["Hexproof não salva de board wipe", "Indestrutível contra exílio e -X/-X", "Contra-mágica não anula habilidade ativada", "Toque mortífero com atropelar", "Sacrificar em resposta à remoção", "Split second e habilidades de mana", "Comandante morre: cemitério ou zona de comando?", "Vida alta não salva de dano de comandante", "Ward: paga ou a mágica é anulada", "Phasing não é sair do campo"],
+    "matematica": ["Chance de abrir com o Sol Ring na mão inicial", "36, 37 ou 38 terrenos: chance de 3 terrenos na mão", "1 remoção ou 10: chance de ter uma até o turno 4", "Redundância: 1 tutor ou 5 para achar a peça do combo", "Chance de abrir com um mana rock de 2", "Board wipe na hora certa com 3, 5 ou 8 no deck", "Tribal: chance de ter a tribo na mão com 20, 25 ou 30 criaturas"],
+    "ladob": ["Preto", "Azul", "Verde", "Vermelho", "Branco", "Artefatos incolores", "Terrenos", "Multicoloridas"],
+    "qualentra": ["Swords to Plowshares ou Path to Exile", "Rhystic Study ou Mystic Remora", "Cultivate ou Kodama's Reach", "Arcane Signet ou Fellwar Stone", "Counterspell ou Arcane Denial", "Demonic Tutor ou Vampiric Tutor", "Lightning Greaves ou Swiftfoot Boots", "Beast Within ou Generous Gift", "Toxic Deluge ou Damnation", "Cyclonic Rift ou Evacuation"],
+    "todamesa": ["O que demora 10 minutos no turno", "O que jura que o deck é casual", "O que esquece os próprios gatilhos", "O que pede pra ler a carta de novo", "O que faz board wipe e pede desculpa", "O que monta combo e explica por 5 minutos", "O que nunca ataca", "O que faz acordo com todo mundo", "O que traz deck novo toda semana", "O que embaralha por 3 minutos"]
   }
 }

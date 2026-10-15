@@ -29,7 +29,9 @@ function semanaISO(d) {
 const NOMES = ['dom', 'seg', 'ter', 'qua', 'qui', 'sex', 'sab'];
 const EXTENSO = { dom: 'domingo', seg: 'segunda', ter: 'terça', qua: 'quarta', qui: 'quinta', sex: 'sexta', sab: 'sábado' };
 function pilarDo(d) {
-  const dia = NOMES[new Date(ms(d)).getUTCDay()], sem = semanaISO(d), ab = sem % 2 ? 'A' : 'B';
+  const dia = NOMES[new Date(ms(d)).getUTCDay()], sem = semanaISO(d);
+  const ciclo = plano.ciclo && Array.isArray(plano.ciclo.semanas) && plano.ciclo.semanas.length ? plano.ciclo : null;
+  const ab = ciclo ? ciclo.semanas[(sem + (ciclo.deslocamento || 0)) % ciclo.semanas.length] : (sem % 2 ? 'A' : 'B');
   const visita = ler('extras/lojas/' + d + '.json') != null;
   const id = visita ? 'loja' : ((plano.calendario || {})[dia] || {})[ab];
   return { dia, sem, ab, id, visita, def: (plano.pilares || {})[id] || null };
@@ -103,6 +105,7 @@ if (!SO_PUB) {
   else {
     out.push(`Pilar: ${p.def.nome} (${p.id})${p.visita ? ', visita marcada em extras/lojas/' + DATA + '.json' : ''}`);
     out.push('O que é: ' + p.def.oQue, 'Fontes: ' + p.def.fontes, 'Gancho: ' + p.def.gancho, 'Pergunta para os comentários: ' + p.def.pergunta);
+    if (p.def.formato) out.push('Formato: ' + p.def.formato + ' (detalhes e exemplos em tools/conteudo/FORMATOS.md)');
     if (p.def.fila) {
       const usados = usadosDaFila();
       const fila = ((plano.filas || {})[p.def.fila] || []);
