@@ -16,7 +16,7 @@ Escreva só na pasta `pauta/`. Nunca chame ferramenta paga do vidIQ e nunca mexa
 
 ## Tarefa da noite: original de amanhã (18h21)
 
-1. Clone (regras em `tools/REGRAS.md`) e trabalhe dentro de `./gh`. AMANHA = `TZ=America/Sao_Paulo date -d tomorrow +%F`.
+1. Prepare a pasta de trabalho como em `tools/REGRAS.md` (a sessão já abre no repositório). AMANHA = `TZ=America/Sao_Paulo date -d tomorrow +%F`.
 2. Rode `node tools/conteudo/contexto.cjs . AMANHA`. Ele mostra o pilar de amanhã (o que fazer, fontes, gancho, pergunta e, quando houver, o formato), os próximos itens da fila do pilar e a lista de tudo o que já foi publicado. É a única leitura necessária para não repetir: não abra pautas e edições antigas. Se aparecer a linha **Formato**, leia em `tools/conteudo/FORMATOS.md` a parte geral e a seção daquele formato, e siga o molde nas três redes. Se aparecer **Data comemorativa**, siga o que ela diz para a data (tema, ângulo do pilar, buscas e cartas conferidas) e a seção Datas comemorativas do `FORMATOS.md`.
 3. Escolha o tema. **Conteúdo nunca se repete**: nada da lista do contexto (mesma notícia, carta, termo ou anúncio, nem com outro ângulo). Use o pilar do contexto e, se houver fila, o primeiro item livre que tenha fontes boas. Exceção: anúncio oficial da Wizards publicado depois das 6h de hoje (ban, Game Changers, regra, produto de Commander) que não esteja na lista vira o tema do TikTok; nesse caso o carrossel original pode ser pulado.
 4. Pesquise: no máximo 8 buscas na web, mais as páginas do EDHREC, do Commander Spellbook e do Scryfall que o pilar pedir. Tudo com base em cartas, regras e fatos que existem, com as regras de verificação. Porcentagem de chance de achar carta só pelo `node tools/conteudo/chance.cjs` (uso no cabeçalho do arquivo), nunca de cabeça. Cotação: use o `fx` da edição mais recente (`data/edN.js`) se tiver até 4 dias; senão, a regra de moeda.
@@ -92,8 +92,8 @@ A cena final chama para o @fontedemana e o site, sem prometer "parte 2". Cores: 
 ## Tarefa da manhã: pauta do dia (7h20)
 
 Só script, sem escrever texto novo:
-1. Clone. HOJE = `TZ=America/Sao_Paulo date +%F`.
-2. `node tools/pauta/manha.cjs . HOJE`. Se o resumo disser que a edição ou o kit de hoje ainda não saíram, `sleep 600`, `git pull --rebase --depth 50 origin main` e rode de novo, no máximo 3 vezes; depois siga com o que tiver.
+1. Prepare a pasta de trabalho como em `tools/REGRAS.md`. HOJE = `TZ=America/Sao_Paulo date +%F`.
+2. `node tools/pauta/manha.cjs . HOJE`. Se o resumo disser que a edição ou o kit de hoje ainda não saíram, `git stash -u`, `sleep 600`, `git pull --rebase --depth 50 origin main`, `git stash drop` e rode de novo, no máximo 3 vezes; depois siga com o que tiver.
 3. Se aparecer `ERROS:` num texto vindo do kit ou do original, corrija esse texto direto em `pauta/HOJE/pauta.json` e rode `node tools/pauta/pauta.cjs . HOJE` (não rode o manha.cjs de novo, ele refaz o arquivo).
 4. `git add pauta`, commit "Pauta de HOJE" e push. Uns 2 minutos depois, WebFetch `https://fontedemana.com.br/pauta/HOJE/`.
 5. Mensagem final: o resumo que o script imprime depois de `---`.
@@ -128,5 +128,5 @@ O script decide o feed pela força do dia (`pauta.forca` do kit): dia forte, car
 ## Juntar a narração (quando o Paulo mandar os áudios)
 
 Em qualquer conversa com acesso ao repositório:
-1. Clone, salve os áudios na ordem das cenas e rode `node tools/pauta/tiktok.cjs . AAAA-MM-DD --narrar cena_1.m4a cena_2.m4a ...` (um por cena). Cada cena dura o tempo da fala, com o silêncio das pontas cortado e o volume no padrão das redes.
+1. Na pasta de trabalho (`tools/REGRAS.md`), salve os áudios em `/tmp/fdm/`, na ordem das cenas, e rode `node tools/pauta/tiktok.cjs . AAAA-MM-DD --narrar /tmp/fdm/cena_1.m4a /tmp/fdm/cena_2.m4a ...` (um por cena). Cada cena dura o tempo da fala, com o silêncio das pontas cortado e o volume no padrão das redes.
 2. No `pauta/AAAA-MM-DD/pauta.json`, troque o arquivo do aviso `tiktok` por `https://fontedemana.com.br/pauta/AAAA-MM-DD/tiktok/tiktok-narrado.mp4`, rode `pauta.cjs`, envie e mande o link ao Paulo.

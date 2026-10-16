@@ -39,7 +39,7 @@ Fica no rodapé do site, no fim das legendas do Instagram e do TikTok, nos posts
 ## Imagens do Scryfall
 
     UA="FonteDeMana/1.0 (jornal pessoal)"
-    curl -sS -G -H "User-Agent: $UA" -H "Accept: application/json" --data-urlencode 'q=!"Nome Exato"' --data-urlencode unique=prints --data-urlencode order=released "https://api.scryfall.com/cards/search" -o busca.json
+    curl -sS -G -H "User-Agent: $UA" -H "Accept: application/json" --data-urlencode 'q=!"Nome Exato"' --data-urlencode unique=prints --data-urlencode order=released "https://api.scryfall.com/cards/search" -o /tmp/fdm/busca.json
 
 - Espere 0,2 s entre chamadas. O endpoint `/cards/named` falha com cartas recém-reveladas.
 - Impressão em inglês, não digital, de preferência a mais conhecida. `image_uris.art_crop` para arte de fundo, `image_uris.large` para a carta (duas faces: `card_faces[0].image_uris`).
@@ -47,7 +47,10 @@ Fica no rodapé do site, no fim das legendas do Instagram e do TikTok, nos posts
 
 ## Repositório e convivência
 
-- Clone: `git clone --depth 1 https://github.com/pemcarvalho-source/fontedemana ./gh` (se falhar, espere 10 s e tente de novo). O acesso já vem pelo git do terminal; não procure a ferramenta add_repo.
+- Pasta de trabalho: a sessão já abre dentro do repositório. No começo, confira com `git remote get-url origin` (termina em `pemcarvalho-source/fontedemana`) e atualize com `git fetch origin main` e `git checkout -q -B main FETCH_HEAD`.
+- Só se a pasta de abertura não for o repositório: `git clone --depth 1 https://github.com/pemcarvalho-source/fontedemana ./gh` (se falhar, espere 10 s e tente de novo) e `cd gh`. O acesso já vem pelo git do terminal; não procure a ferramenta add_repo.
+- Os caminhos dos LEIA são relativos à raiz do repositório; rode os comandos de dentro dela.
+- Rascunhos (busca do Scryfall, áudios recebidos, testes) ficam em `/tmp/fdm/` (`mkdir -p /tmp/fdm`), fora do repositório. No fim, `git status --short` sai vazio.
 - Commit: `git -c user.name="Paulo Eduardo" -c user.email="pemcarvalho@gmail.com" commit -m "<mensagem>"` e `git push origin HEAD:main`.
 - Push recusado por commits novos ("fetch first", "non-fast-forward"): `git -c user.name="Paulo Eduardo" -c user.email="pemcarvalho@gmail.com" pull --rebase --depth 50 origin main` e push de novo. Recusado por permissão ou rede: mais uma tentativa depois de 10 s; depois disso, guarde o erro exato para a mensagem final.
 - Cada rotina escreve só nas suas pastas. Jornal: `data/`, `img/` e `kit/`. Pauta e originais: `pauta/`. Ninguém altera `index.html`, `CNAME`, `og.jpg`, `favicon.png`, `apple-touch-icon.png`, `lands/`, `README.md` ou `tools/` durante uma execução agendada.
