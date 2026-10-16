@@ -1,0 +1,85 @@
+{
+ "data": "2026-10-17",
+ "tema": "Qual entra? #1: Swords to Plowshares ou Path to Exile",
+ "item": "Swords to Plowshares ou Path to Exile",
+ "arte": "pauta/2026-10-17/tiktok/arte.jpg",
+ "carta": "pauta/2026-10-17/tiktok/carta.jpg",
+ "credito": "Arte: Path to Exile, Todd Lockwood",
+ "fx": "Reais pela cotação PTAX de 15 out (Banco Central)",
+ "legenda": "Qual entra? #1: Swords to Plowshares ou Path to Exile. Só tem vaga para uma.\nComenta Swords ou Path!\n\nNo EDHREC, Swords está em 2,93 milhões de decks e Path em 2,30 milhões.\nNo Scryfall, Swords sai por US$ 1,03 (R$ 5,20) e Path por US$ 0,97 (R$ 4,90), nas impressões do precon de Reality Fracture.\nReais pela cotação PTAX de 15 out (Banco Central).\n\nQual entra no seu deck?\n\n#mtg #magicthegathering #commander #edh #mtgbrasil #qualentra",
+ "comentario": "Swords ou Path? Uma palavra só. E se você joga as duas, conta qual sai primeiro quando o deck aperta.",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "cor": "R",
+   "chip": "Qual entra? #1",
+   "kicker": "Duas cartas, uma vaga",
+   "titulo": "Swords ou Path: só cabe uma",
+   "sub": "Um mana, exila qualquer criatura. Muda o troco do oponente.",
+   "narracao": "Qual entra, episódio um. Swords ou Path? Um mana, exila qualquer criatura. Só cabe uma.",
+   "segundos": 7.2
+  },
+  {
+   "tipo": "lista",
+   "cor": "A",
+   "chip": "Nos decks",
+   "kicker": "Números do EDHREC",
+   "linhas": [
+    {
+     "nome": "Swords to Plowshares",
+     "valor": "2,93 mi",
+     "real": "(61,0%)"
+    },
+    {
+     "nome": "Path to Exile",
+     "valor": "2,30 mi",
+     "real": "(47,8%)"
+    }
+   ],
+   "rodape": "Decks no EDHREC e, entre parênteses, a fatia dos decks com branco que jogam cada uma.",
+   "fonte": "Fonte: EDHREC, 16 out 2026",
+   "narracao": "No EDHREC, a Swords está em sessenta e um por cento dos decks com branco. A Path, em quarenta e oito.",
+   "segundos": 9.6
+  },
+  {
+   "tipo": "lista",
+   "cor": "A",
+   "chip": "No bolso",
+   "kicker": "Precon de Reality Fracture",
+   "linhas": [
+    {
+     "nome": "Swords to Plowshares",
+     "valor": "US$ 1,03",
+     "real": "(R$ 5,20)"
+    },
+    {
+     "nome": "Path to Exile",
+     "valor": "US$ 0,97",
+     "real": "(R$ 4,90)"
+    }
+   ],
+   "rodape": "No preço, empate técnico. As duas cabem em qualquer deck.",
+   "fonte": "Fonte: Scryfall, 16 out 2026",
+   "narracao": "No bolso, empate. As duas saem por um dólar, uns cinco reais.",
+   "segundos": 6
+  },
+  {
+   "tipo": "texto",
+   "cor": "R",
+   "kicker": "Quando cada uma ganha",
+   "titulo": "Swords dá vida, Path dá terreno",
+   "sub": "Cedo no jogo, o terreno de graça da Path acelera o oponente. No fim, pesa pouco, e a Path na sua criatura busca terreno pra você.",
+   "narracao": "Swords dá vida ao oponente, quase nunca importa. Path dá um terreno, que cedo acelera ele. Mas na sua criatura, Path vira rampa.",
+   "segundos": 10.4
+  },
+  {
+   "tipo": "cta",
+   "cor": "M",
+   "kicker": "Todo dia no Instagram",
+   "titulo": "Comenta Swords ou Path",
+   "destaque": "@fontedemana",
+   "narracao": "Comenta Swords ou Path, e manda pro amigo que joga as duas. Segue o arroba fonte de mana.",
+   "segundos": 8.4
+  }
+ ]
+}

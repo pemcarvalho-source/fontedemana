@@ -1,0 +1,81 @@
+{
+ "data": "2026-10-17",
+ "fx": "Valores em reais pela cotação PTAX de 15 out (Banco Central).",
+ "avisos": [
+  {
+   "id": "gravacao",
+   "dia": "2026-10-16",
+   "hora": "18:30",
+   "rede": "Gravação",
+   "titulo": "Gravar a narração do TikTok de amanhã",
+   "oQue": "Qual entra? #1: Swords to Plowshares ou Path to Exile. Cinco áudios curtos, um por cena, leia no seu ritmo e com cara de mesa.",
+   "arquivos": [
+    {
+     "nome": "Vídeo mudo (tiktok-mudo.mp4)",
+     "url": "https://fontedemana.com.br/pauta/2026-10-17/tiktok/tiktok-mudo.mp4"
+    }
+   ],
+   "roteiro": [
+    {
+     "cena": "Cena 1, uns 7 s",
+     "tela": "Swords ou Path: só cabe uma",
+     "fala": "Qual entra, episódio um. Swords ou Path? Um mana, exila qualquer criatura. Só cabe uma."
+    },
+    {
+     "cena": "Cena 2, uns 10 s",
+     "tela": "Números do EDHREC: Swords to Plowshares 2,93 mi (61,0%), Path to Exile 2,30 mi (47,8%)",
+     "fala": "No EDHREC, a Swords está em sessenta e um por cento dos decks com branco. A Path, em quarenta e oito."
+    },
+    {
+     "cena": "Cena 3, uns 6 s",
+     "tela": "Precon de Reality Fracture: Swords to Plowshares US$ 1,03 (R$ 5,20), Path to Exile US$ 0,97 (R$ 4,90)",
+     "fala": "No bolso, empate. As duas saem por um dólar, uns cinco reais."
+    },
+    {
+     "cena": "Cena 4, uns 10 s",
+     "tela": "Swords dá vida, Path dá terreno",
+     "fala": "Swords dá vida ao oponente, quase nunca importa. Path dá um terreno, que cedo acelera ele. Mas na sua criatura, Path vira rampa."
+    },
+    {
+     "cena": "Cena 5, uns 8 s",
+     "tela": "Comenta Swords ou Path",
+     "fala": "Comenta Swords ou Path, e manda pro amigo que joga as duas. Segue o arroba fonte de mana."
+    }
+   ],
+   "passos": [
+    "Grave um áudio por cena no Gravador do iPhone, num lugar silencioso, com o celular a um palmo da boca.",
+    "Nomeie os áudios cena_1, cena_2, cena_3, cena_4 e cena_5.",
+    "Mande os áudios ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"áudios do TikTok de 2026-10-17\"."
+   ]
+  },
+  {
+   "id": "tiktok",
+   "hora": "11:30",
+   "rede": "TikTok",
+   "titulo": "Qual entra? #1: Swords ou Path",
+   "oQue": "Duelo de remoção de um mana: números do EDHREC e preço lado a lado, quando cada uma ganha e o voto nos comentários. A Fonte de Mana não escolhe, a galera decide.",
+   "arquivos": [
+    {
+     "nome": "Vídeo do TikTok (mudo)",
+     "url": "https://fontedemana.com.br/pauta/2026-10-17/tiktok/tiktok-mudo.mp4"
+    }
+   ],
+   "textos": [
+    {
+     "rotulo": "Legenda",
+     "texto": "Qual entra? #1: Swords to Plowshares ou Path to Exile. Só tem vaga para uma.\nComenta Swords ou Path!\n\nNo EDHREC, Swords está em 2,93 milhões de decks e Path em 2,30 milhões.\nNo Scryfall, Swords sai por US$ 1,03 (R$ 5,20) e Path por US$ 0,97 (R$ 4,90), nas impressões do precon de Reality Fracture.\nReais pela cotação PTAX de 15 out (Banco Central).\n\nQual entra no seu deck?\n\n#mtg #magicthegathering #commander #edh #mtgbrasil #qualentra"
+    },
+    {
+     "rotulo": "Comentário fixado",
+     "texto": "Swords ou Path? Uma palavra só. E se você joga as duas, conta qual sai primeiro quando o deck aperta."
+    }
+   ],
+   "passos": [
+    "Poste com um som em alta da biblioteca do TikTok, volume entre 15% e 20%, por baixo da narração.",
+    "Voz própria não precisa de rótulo de IA.",
+    "Fixe o comentário logo depois de postar.",
+    "Se os áudios não chegarem, poste o vídeo mudo com música em alta."
+   ]
+  }
+ ]
+}
