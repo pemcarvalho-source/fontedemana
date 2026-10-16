@@ -1,5 +1,5 @@
 {
-  "versao": "2026-10-15 v3",
+  "versao": "2026-10-16 v4",
   "comentario": "Plano editorial da Fonte de Mana. Lido por tools/conteudo/contexto.cjs (tarefa da noite) e tools/pauta/manha.cjs (tarefa da manhã). A explicação completa está em tools/conteudo/ESTRATEGIA.md e os formatos (com as referências que inspiraram cada um) em tools/conteudo/FORMATOS.md. Ciclo de 3 semanas: a letra da semana é ciclo.semanas[(semana ISO + ciclo.deslocamento) % 3]. Datas comemorativas em datas: de e ate como MM-DD (todo ano) ou AAAA-MM-DD (só aquele ano); no dia, pilarNoDia troca o pilar do calendário.",
 
   "ciclo": {"semanas": ["A", "B", "C"], "deslocamento": 2, "nota": "Semana ISO 42 (12 a 18 out 2026) = C a partir de sexta 16, 43 = A, 44 = B, 45 = C. Semana C traz os formatos novos de 15 out."},
@@ -25,6 +25,8 @@
     "sab": {"A": "dc500", "B": "vitrine", "C": "qualentra"},
     "dom": {"A": "bolsa", "B": "debate", "C": "todamesa"}
   },
+
+  "engajamento": ["Gancho na capa ou nos 2 primeiros segundos: um número, uma pergunta ou algo que contraria o senso comum.", "No carrossel, uma ideia por tela, e cada tela deixa uma dúvida que leva à próxima.", "Uma frase que resume a tensão do tema, numa tela só.", "Um dado duro em destaque (preço, porcentagem, decks no EDHREC, custo médio de mana), com a fonte.", "Comentário que custa uma palavra: \"comenta X ou Y\", com as opções escritas na tela.", "Pedido de envio com destinatário (\"manda pro amigo que...\"), não só \"compartilhe\"."],
 
   "datas": [
     {"id": "halloween", "nome": "Halloween e Dia do Saci", "de": "10-24", "ate": "10-31", "dia": "10-31", "pilarNoDia": "regra", "tema": "Terror em Magic: vampiros, zumbis, lobisomens, bruxas (Warlock), criaturas Horror, Duskmourn (a coleção da casa mal-assombrada) e Innistrad. No Brasil, 31 de outubro também é o Dia do Saci (lei estadual de São Paulo de 2004), e dá para ligar o folclore ao terror.", "angulos": {"regra": "Chama o Juiz de terror: uma regra com carta de terror (ex.: o zumbi que volta do cemitério volta sem os marcadores, porque é um objeto novo).", "top5": "Top 5 vampiros, zumbis ou lobisomens (a fila do Top 5 já tem Vampiros e Zumbis).", "lore": "Lore de terror: Edgar Markov, Sorin e Olivia Voldaren, a linhagem dos vampiros de Innistrad.", "combo": "Combo de vampiro: Exquisite Blood com Sanguine Bond (confirmar no Commander Spellbook).", "qualentra": "Duelo de terror: duas cartas de vampiro, zumbi ou bruxa pela mesma vaga.", "todamesa": "Toda mesa tem um que só monta deck de terror.", "geral": "Uma carta ou um personagem de terror no assunto do pilar do dia."}, "buscas": ["t:vampire", "t:zombie", "t:werewolf", "t:horror", "t:warlock", "name:witch", "set:dsk"], "exemplos": ["Edgar Markov", "Olivia Voldaren", "Blood Artist", "Gray Merchant of Asphodel", "Tovolar, Dire Overlord", "Sedgemoor Witch", "Witch's Cottage", "Valgavoth, Terror Eater", "The Jolly Balloon Man", "The Gitrog Monster"]},

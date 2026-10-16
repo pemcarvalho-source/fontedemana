@@ -137,6 +137,7 @@ if (!SO_PUB) {
     out.push(`Pilar: ${p.def.nome} (${p.id})${p.visita ? ', visita marcada em extras/lojas/' + DATA + '.json' : ''}${p.troca ? ', no lugar de ' + (((plano.pilares || {})[p.troca.antes] || {}).nome || p.troca.antes) + ' por causa de ' + p.troca.data : ''}`);
     out.push('O que é: ' + p.def.oQue, 'Fontes: ' + p.def.fontes, 'Gancho: ' + p.def.gancho, 'Pergunta para os comentários: ' + p.def.pergunta);
     if (p.def.formato) out.push('Formato: ' + p.def.formato + ' (detalhes e exemplos em tools/conteudo/FORMATOS.md)');
+    if ((plano.engajamento || []).length) out.push('Em toda peça: ' + plano.engajamento.join(' '));
     if (p.def.fila) {
       const usados = usadosDaFila();
       const fila = ((plano.filas || {})[p.def.fila] || []);

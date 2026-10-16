@@ -124,6 +124,8 @@ Números de antes da estratégia nova, para comparar nas revisões.
 
 ## Histórico de ajustes
 
+- 16 out 2026, v4: lote 2 de referências (review de precon com nota própria); lembretes de engajamento em `plano.json` (engajamento), mostrados pelo `contexto.cjs` em todo pilar; ideia Nota da Mesa registrada em `FORMATOS.md`.
+
 - 15 out 2026, v3: calendário de datas comemorativas (16 datas, de Halloween e Dia do Saci a Dia das Crianças), com tema, ângulo por pilar, buscas e cartas conferidas no Scryfall; o jornal também vê a data e prefere um Topdeck do tema.
 
 - 15 out 2026, v2 (aprovada pelo Paulo depois de ver um exemplo de cada formato; começa na sexta 16): ciclo de 3 semanas com a semana C de formatos novos (Treta das Cores, Matemática da Mesa, Top 5 Lado B, Qual entra?, Toda mesa tem um), Regra Bizarra vira o quiz Chama o Juiz, campo `formato` nos pilares, `FORMATOS.md` com os moldes e as referências, `chance.cjs` para as contas, cena quiz com contagem no TikTok e tela de barras no carrossel.

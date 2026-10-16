@@ -1,6 +1,6 @@
 # Formatos de conteúdo da Fonte de Mana
 
-Versão 1, 15 out 2026. Nasceu das gravações de criadores que o Paulo mandou como inspiração (registro no fim). A tarefa da noite lê este arquivo quando o `contexto.cjs` mostra uma linha **Formato**. O pilar diz o assunto; o formato diz o molde da peça em cada rede.
+Versão 2, 16 out 2026. Nasceu das gravações de criadores que o Paulo mandou como inspiração (registro no fim). A tarefa da noite lê este arquivo quando o `contexto.cjs` mostra uma linha **Formato**. O pilar diz o assunto; o formato diz o molde da peça em cada rede.
 
 **Regra de ouro:** a referência inspira o molde, nunca o conteúdo. Não copiar roteiro, frase, piada, tema, arte nem o visual de outro criador. Toda peça usa fatos próprios conferidos com `tools/REGRAS.md` e o visual da Fonte de Mana.
 
@@ -14,6 +14,11 @@ Versão 1, 15 out 2026. Nasceu das gravações de criadores que o Paulo mandou c
 - **A carta de verdade na tela.** A imagem da carta (Scryfall) ocupa o centro; o texto explica o que ela faz na mesa.
 - **Legenda em linhas curtas** com os dados duros primeiro (bracket, preço, arquétipo) e o resto depois.
 - **Humor de situação reconhecível.** A piada é sobre o que acontece na mesa, ligada a uma regra ou carta real. Nunca sobre pessoa real, loja, criador, aparência, gênero ou qualquer grupo.
+- **A tensão do tema numa frase, numa tela só.** Ex.: "o comandante quer uma coisa, o deck entrega outra". É a tela que a pessoa lembra e manda para os amigos.
+- **Um dado duro em destaque.** Custo médio de mana, porcentagem, número de decks no EDHREC: um número grande na tela, com a fonte embaixo.
+- **Comentário que custa uma palavra.** "Comenta X ou Y" com as duas palavras escritas na tela. Pergunta aberta rende menos comentário.
+- **Arte de carta, não arte gerada.** O Instagram marca imagem gerada por IA com o rótulo "AI content". A Fonte de Mana usa a arte das cartas (Scryfall), que é o visual que o Paulo quer.
+- **Música que combina com o tema** quando o carrossel vai com música do Instagram (dica para o Paulo na hora de postar).
 
 ## Formatos com ferramenta pronta
 
@@ -106,6 +111,8 @@ O `plano.json` tem uma lista `datas` com janelas de dias (Halloween e Dia do Sac
 
 ## Ideias que esperam ferramenta ou o Paulo
 
+- **Nota da Mesa**: review de precon ou de deck com uma nota própria da Fonte de Mana, de critérios públicos (terrenos, rampa, compra, remoções, board wipes, custo médio de mana e quantas cartas conversam com o comandante) e faixas com nome. Telas: o plano em uma linha e as cores, as melhores cartas, onde é forte, a frase de tensão, onde perde pontos com o custo médio em destaque, a pergunta de uma palavra e a nota. Combina com dia forte de revelação de precon e com os decks do Paulo. Falta um script que classifique as cartas da lista (tags do Scryfall como otag:ramp, otag:draw, otag:removal e otag:board-wipe) e a regra da nota publicada no site.
+
 - **Decks da casa**: os decks reais do Paulo (ex.: Edgar Markov) em carrossel de grade 3x3 com as 99, bracket, preço e o relatório das partidas. Falta o layout de grade no `carrossel.cjs` e a lista do deck em `extras/decks/`.
 - **E se fosse carta?**: cartas fan-made com moldura própria da Fonte de Mana (nunca imitando a moldura oficial), em temas de domínio público como o folclore brasileiro (Saci, Curupira, Iara, Boitatá), com a mecânica contando a história. Falta um gerador de carta e arte com crédito; sempre com o aviso de carta não oficial.
 - **Do fichário**: foto da carta física na mão do Paulo, sem rosto, com o título por cima. Depende de fotos dele.
@@ -127,3 +134,4 @@ Uma linha por referência. A análise completa de cada lote fica no projeto MGT 
 | 15 out | joeyimitatesart (Reels) | Humor de mesa de Commander ("baseado em fatos reais") | 23,2 mil curtidas, 355 comentários, 7.320 envios | Toda mesa tem um |
 | 15 out | rocklovejewelry e Magic (carrossel) | Coleção de joias Mox, cada peça ao lado da carta original, lançamento com data | 2.172 curtidas, 1.122 envios | Produtos licenciados no jornal |
 | 15 out | Stories de mtgbrasilofc, moxvault.tcg, magicfinderapp, the_dianatavares | Repost de seguidor, visita à loja, "qual loja vocês indicam?", "Tinder MTG" das cores | sem número visível | Ideias de Stories para a Rota das Lojas |
+| 16 out | manafloodedbr (carrossel, 8 telas) | Review de precon com nota própria e faixa: plano, melhores cartas, pontos fortes e fracos, custo médio de mana, frase de tensão, "comente X ou Y"; arte gerada por IA (com rótulo) e música no carrossel | recém-postado | Nota da Mesa (ideia), comentário de uma palavra, dado duro, frase de tensão |
