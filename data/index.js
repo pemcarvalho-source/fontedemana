@@ -1,6 +1,7 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "Vraska, Betrayal's Sting",
   "Tribute to the World Tree",
   "Kinnan, Bonder Prodigy",
   "Smothering Tithe",
@@ -9,6 +10,13 @@ window.MANA_POOL_INDEX = {
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 11,
+   "date": "2026-10-16",
+   "dateLabel": "Sexta, 16 de outubro de 2026",
+   "head": "Tam faz Vraska, Betrayal's Sting quase quadruplicar de preço",
+   "biome": "A"
+  },
   {
    "n": 10,
    "date": "2026-10-15",
