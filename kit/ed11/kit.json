@@ -1,0 +1,77 @@
+{
+  "n": 11,
+  "data": "16 out",
+  "carrossel": {
+    "capa": {
+      "cor": "A",
+      "titulo": "Tam faz Vraska quase quadruplicar de preço",
+      "sub": "A onda de superfriends pega mais uma: <b>Vraska, Betrayal's Sting</b> subiu 282% em um mês e já passa de <b>US$ 3,90 (R$ 19,70)</b>.",
+      "credito": "Arte: Tam, the Possibility, Martina Fačková"
+    },
+    "cartoes": [
+      {
+        "cor": "A",
+        "titulo": "Vraska, Betrayal's Sting dispara",
+        "linhas": [
+          {"nome": "Vraska (Lorwyn Ecl. Cmd.)", "valor": "+282%", "sub": "US$ 1,02 para US$ 3,90 (R$ 19,70)", "porque": "em um mês, com mais de 550 vendas, segundo o MTG Rocks"},
+          {"nome": "Vraska (Phyrexia original)", "valor": "US$ 4,93", "sub": "R$ 24,91 no Scryfall em 16 out", "porque": "a versão de 2023 também acompanha"}
+        ],
+        "nota": {"rotulo": "No seu bolso", "texto": "quem abriu o precon de Lorwyn Eclipsed Commander tem uma. Pra jogar, ainda é barata."},
+        "fonte": "Fontes: MTG Rocks, Scryfall. Reais: PTAX de 15 out"
+      }
+    ],
+    "topdeck": {
+      "titulo": "Vraska, Betrayal's Sting",
+      "habilidades": [
+        {"rotulo": "0: compra e prolifera", "texto": "Compra um card e sobe um marcador em tudo que já tem, até nos outros walkers."},
+        {"rotulo": "−2: vira Tesouro", "texto": "A criatura vira Tesouro. Não morre, então passa por indestrutível."},
+        {"rotulo": "−9: veneno", "texto": "O alvo fica com nove venenos. Mais um e ele perde."}
+      ],
+      "extra": "Em <b>126 mil</b> decks no EDHREC. Com Vorinclex ou Innkeeper's Talent vira combo de vitória. <b>US$ 4,93 (R$ 24,91)</b>. Reais: PTAX de 15 out",
+      "credito": "Ilustração de Chase Stone"
+    },
+    "ban": {"numero": "45", "unidade": "DIAS", "texto": "Para a próxima janela de banimentos, em 30 de novembro. A de 12 de outubro não mexeu no Commander."},
+    "turnos": [
+      {"cor": "A", "data": "19 out", "texto": "Festival in a Box: Atlanta"},
+      {"cor": "A", "data": "23 out", "texto": "Secret Lair Bundle nas lojas"},
+      {"cor": "W", "data": "23 a 29 out", "texto": "2ª rodada da Festa de Commander"},
+      {"cor": "A", "data": "2 nov", "texto": "Venda do Countdown Kit da Marvel"},
+      {"cor": "G", "data": "6 a 12 nov", "texto": "Pré de Star Trek"}
+    ],
+    "sussurro": null
+  },
+  "video": {
+    "cena1": {"titulo": "Tam faz Vraska quase quadruplicar de preço", "pilulas": ["Superfriends em alta", "+282% em um mês"]},
+    "cena2": {
+      "rotulo": "No bolso",
+      "cor": "A",
+      "titulo": "Vraska, Betrayal's Sting",
+      "linhas": [
+        {"nome": "Em um mês", "numero": 282, "prefixo": "+", "sufixo": "%", "sub": "US$ 3,90 (R$ 19,70)"}
+      ],
+      "fonte": "Fontes: MTG Rocks, Scryfall. Reais: PTAX de 15 out"
+    },
+    "cena3": {"linhas": ["<b>Vraska, Betrayal's Sting</b> compra, prolifera e remove.", "O −2 transforma criatura em Tesouro, sem matar.", "Com Vorinclex ela fecha o jogo no veneno."]},
+    "cena4": {"texto": "45 dias para a próxima janela de banimentos. Segunda (19) tem Festival in a Box.", "sussurro": null}
+  },
+  "textos": {
+    "legendaCarrossel": "A temporada de superfriends não para. Agora foi a vez de Vraska, Betrayal's Sting.\n\nA versão do precon de Lorwyn Eclipsed Commander saiu de US$ 1,02 (R$ 5,15) para US$ 3,90 (R$ 19,70) em um mês, alta de 282%, segundo o MTG Rocks. No Scryfall, a original de Phyrexia: All Will Be One está em US$ 4,93 (R$ 24,91).\n\nA culpa é de Tam, the Possibility e Jace, Multiverse Architect, os comandantes de Reality Fracture que puxam planeswalker e proliferar.\n\nNo Topdeck do Dia, a própria Vraska: compra, remove criatura transformando em Tesouro e, com Vorinclex ou Innkeeper's Talent, fecha jogo no veneno.\n\nEdição completa em fontedemana.com.br\n\nArtes: Tam, the Possibility, de Martina Fačková. Vraska, Betrayal's Sting, de Chase Stone.\n\nValores em reais pela cotação PTAX de 15 out (Banco Central).\n\n#mtg #magicthegathering #commander #edh #mtgbrasil #superfriends #mtgcommander",
+    "legendaVideo": "Vraska, Betrayal's Sting subiu 282% em um mês puxada pelos decks de Tam e Jace. E ela ainda é o Topdeck do Dia.\n\nTem Vraska no fichário? Joga ou vende? Conta aqui.\n\nEdição completa em fontedemana.com.br\n\nValores em reais pela cotação PTAX de 15 out (Banco Central).\n\n#mtg #magicthegathering #commander #edh #mtgbrasil",
+    "threadsFio": [
+      "A onda de superfriends de Reality Fracture pegou mais uma carta: Vraska, Betrayal's Sting.",
+      "A versão do precon de Lorwyn Eclipsed Commander foi de US$ 1,02 (R$ 5,15) para US$ 3,90 (R$ 19,70) em um mês, alta de 282%, segundo o MTG Rocks. No Scryfall, a original de Phyrexia está em US$ 4,93 (R$ 24,91).",
+      "O MTG Rocks liga quase 4.200 decks novos com ela a Tam, the Possibility e quase 2.500 a Jace, Multiverse Architect. Tam barateia planeswalker e prolifera, e o 0 da Vraska também prolifera.",
+      "Ela é o Topdeck do Dia. O −2 transforma criatura em Tesouro sem matar, o que passa por indestrutível. E com Vorinclex ou Innkeeper's Talent ela entra com 12 de lealdade e mata no veneno na hora.",
+      "Pega no pulo: o −9 sozinho deixa o oponente com nove venenos, não dez. Falta um proliferar.\n\nEdição completa em fontedemana.com.br\n\nValores em reais pela cotação PTAX de 15 out (Banco Central)."
+    ],
+    "threadsAvulsos": [
+      {"titulo": "Pergunta do dia", "texto": "Vraska, Betrayal's Sting subiu 282% em um mês com os decks de Tam e Jace. Você joga superfriends no Commander ou acha o arquétipo chato de enfrentar?", "obs": "Opções de enquete: jogo e amo, acho chato de enfrentar"}
+    ]
+  },
+  "pauta": {
+    "forca": "calmo",
+    "porque": "Alta de preço é desdobramento da onda de superfriends de Reality Fracture, que já saiu nas últimas edições.",
+    "storyPergunta": "Tem alguma planeswalker parada no fichário?",
+    "enquete": {"pergunta": "Superfriends na mesa de Commander:", "opcoes": ["Jogo e amo", "Chato de enfrentar"]}
+  }
+}
