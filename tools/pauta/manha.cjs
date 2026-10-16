@@ -205,7 +205,7 @@ fs.readdirSync(path.join(ROOT, 'pauta')).filter(d => /^\d{4}-\d{2}-\d{2}$/.test(
 
 /* ---------- resumo para a mensagem final ---------- */
 const ord = avisos.slice().sort((a, b) => ((a.dia || DATA) + a.hora).localeCompare((b.dia || DATA) + b.hora)).filter(a => !a.dia || a.dia === DATA);
-const L = [`Pauta de hoje (${DATA})`, `Dia ${forca}${forcaKit ? '' : (kit ? ' (o kit não marcou a força, ficou o jornal)' : ' (sem kit do jornal hoje)')}${kit && kit.pauta && kit.pauta.porque ? ': ' + plain(kit.pauta.porque) : ''}. Feed das 12:00: ${feedOrig ? 'carrossel original (' + nomePilar + ')' : (kit ? 'carrossel do jornal' : 'nenhum')}.`];
+const L = [`Pauta de hoje (${DATA})`, `Dia ${forca}${forcaKit ? '' : (kit ? ' (o kit não marcou a força, ficou o jornal)' : ' (sem kit do jornal hoje)')}${kit && kit.pauta && kit.pauta.porque ? ': ' + plain(kit.pauta.porque).replace(/[.!]+$/, '') : ''}. Feed das 12:00: ${feedOrig ? 'carrossel original (' + nomePilar + ')' : (kit ? 'carrossel do jornal' : 'nenhum')}.`];
 ord.forEach(a => L.push(`${a.hora} ${a.rede}: ${a.titulo}`));
 L.push(`Página: ${SITE}/pauta/${DATA}/`);
 if (tiktok) L.push(ex('pauta/' + DATA + '/tiktok/tiktok-narrado.mp4') ? 'TikTok já narrado.' : 'TikTok ainda sem narração: mande os áudios até 11h ou poste o vídeo mudo com música.');
