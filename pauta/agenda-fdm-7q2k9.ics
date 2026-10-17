@@ -8,276 +8,8 @@ X-WR-TIMEZONE:America/Sao_Paulo
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:fdm-2026-10-13-gravacao@fontedemana.com.br
-DTSTAMP:20261017T012635Z
-DTSTART:20261012T213000Z
-DURATION:PT15M
-SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
-DESCRIPTION:Grave a narração do TikTok de amanhã sobre a Wort\, Boggart 
- Auntie: um áudio por cena\, lendo a fala de cada uma. São 4 cenas\, uns 
- 43 s no total.\n\nArquivos:\n- Vídeo mudo do TikTok: https://fontedemana.
- com.br/pauta/2026-10-13/tiktok/tiktok-mudo.mp4\n\nRoteiro de gravação:\n
- Cena 1\, uns 8 s\nNa tela: A goblin que ficou 19 anos sem reimpressão\nFa
- la: Essa comandante goblin passou dezenove anos sem reimpressão. A Wort\,
-  de Lorwyn\, voltou ontem no Secret Lair.\n\nCena 2\, uns 12 s\nNa tela: T
- odo turno um goblin volta pra mão\nFala: Todo começo de turno seu\, um g
- oblin do cemitério volta pra mão. E só criatura preta ou artefato bloqu
- eia ela. Com Goblin Matron\, é tutor todo turno.\n\nCena 3\, uns 13 s\nNa
-  tela: Quanto custa: Wort de Lorwyn (2007) US$ 29\,48 (R$ 147\,17)\; Drop 
- Should You Need Us US$ 29\,99 (R$ 149\,72)\nFala: A de Lorwyn estava em un
- s 29 dólares\, uns 147 reais. O drop onde ela vem como Hoggle sai por 29\
- ,99 dólares\, uns 150 reais. Compara com a avulsa.\n\nCena 4\, uns 10 s\n
- Na tela: Você jogaria a Wort de comandante? @fontedemana\nFala: A Wort en
- tra no comando do seu deck de goblins? Responde aqui. Carta do dia todo di
- a no arroba fonte de mana.\n\n\nPasso a passo:\n1. Abra o Gravador do iPho
- ne num lugar silencioso e segure o celular a um palmo da boca.\n2. Grave u
- m áudio por cena\, lendo a fala do roteiro\, com uma pausa curta antes e 
- depois.\n3. Renomeie os áudios como cena_1\, cena_2\, cena_3 e cena_4.\n4
- . Mande os áudios ao Claude no projeto MGT strategy (pode ser respondendo
-  à mensagem desta tarefa) dizendo "áudios do TikTok de 2026-10-13".\n\nV
- alores em reais pela cotação PTAX de 9 out\, US$ 1 = R$ 4\,9892 (Banco C
- entral).\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-13/#g
- ravacao
-URL:https://fontedemana.com.br/pauta/2026-10-13/#gravacao
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Gravação: Gravar a narração do TikTok de amanhã
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-13-tiktok@fontedemana.com.br
-DTSTAMP:20261017T012635Z
-DTSTART:20261013T143000Z
-DURATION:PT15M
-SUMMARY:11:30 TikTok: Carta do Dia: Wort\, Boggart Auntie
-DESCRIPTION:Vídeo de gancho narrado sobre a Wort\, a comandante goblin que
-  voltou no Secret Lair depois de 19 anos. Poste com a legenda e fixe o com
- entário.\n\nArquivos:\n- Vídeo narrado do TikTok: https://fontedemana.co
- m.br/pauta/2026-10-13/tiktok/tiktok-narrado.mp4\n\nLegenda:\nA Wort\, Bogg
- art Auntie ficou 19 anos sem reimpressão e voltou no Corn Maze Superdrop 
- do Secret Lair\, com o nome de Hoggle. Você jogaria ela de comandante?\n\
- n#mtg #magicthegathering #commander #edh #mtgbrasil #secretlair #goblins\n
- \nFonte de Mana is unofficial Fan Content permitted under the Fan Content 
- Policy. Not approved/endorsed by Wizards. Portions of the materials used a
- re property of Wizards of the Coast. ©Wizards of the Coast LLC.\n\nComent
- ário fixado:\nQual goblin você puxaria de volta primeiro com a Wort? Eu 
- começaria pelo Goblin Matron.\n\nPasso a passo:\n1. Abra o TikTok\, toque
-  em + e escolha o vídeo baixado.\n2. Em Sons\, escolha um som em alta da 
- biblioteca do TikTok e deixe o volume dele entre 15% e 20%\, com a narraç
- ão no máximo.\n3. Cole a Legenda. A voz é sua\, então não precisa mar
- car rótulo de conteúdo de IA.\n4. Publique\, abra os comentários\, cole
-  o Comentário fixado e fixe ele no topo.\n5. Se os áudios não chegaram 
- a tempo\, poste o vídeo mudo com um som em alta no volume normal.\n\nPaut
- a completa: https://fontedemana.com.br/pauta/2026-10-13/#tiktok
-URL:https://fontedemana.com.br/pauta/2026-10-13/#tiktok
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:TikTok: Carta do Dia: Wort\, Boggart Auntie
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-13-threads-manha@fontedemana.com.br
-DTSTAMP:20261017T012635Z
-DTSTART:20261013T133000Z
-DURATION:PT15M
-SUMMARY:10:30 Threads: Pergunta do dia sobre os bans
-DESCRIPTION:Post de pergunta para puxar conversa: a janela passou sem mudan
- ça\, qual carta a pessoa queria ver banida ou liberada.\n\nPost:\nA janel
- a de banimentos passou e o Commander ficou igual.\n\nVocê queria ver algu
- ma carta banida ou liberada? Qual?\n\nPasso a passo:\n1. Abra o Threads e 
- cole o Post.\n2. Publique e responda quem comentar na primeira hora\, puxa
- ndo o nome da carta citada.\n\nPauta completa: https://fontedemana.com.br/
- pauta/2026-10-13/#threads-manha
-URL:https://fontedemana.com.br/pauta/2026-10-13/#threads-manha
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Pergunta do dia sobre os bans
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-13-stories-manha@fontedemana.com.br
-DTSTAMP:20261017T012635Z
-DTSTART:20261013T133000Z
-DURATION:PT15M
-SUMMARY:10:30 Instagram Stories: Capa do carrossel com sticker de pergunta
-DESCRIPTION:Story com a capa da edição 8 e um sticker de pergunta para aq
- uecer o carrossel do meio-dia.\n\nArquivos:\n- Carrossel 1 de 6: https://f
- ontedemana.com.br/kit/ed8/carrossel-01.jpg\n\nPasso a passo:\n1. Baixe a c
- apa e poste no Story.\n2. Adicione o sticker de Pergunta no terço de baix
- o\, sem cobrir o título: Qual carta você queria ver banida no Commander?
- \n3. Publique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10
- -13/#stories-manha
-URL:https://fontedemana.com.br/pauta/2026-10-13/#stories-manha
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Capa do carrossel com sticker de pergunta
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-13-feed@fontedemana.com.br
-DTSTAMP:20261017T012635Z
-DTSTART:20261013T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram feed: Carrossel da edição 8
-DESCRIPTION:Carrossel de 6 imagens: bans sem mudança\, 24 precons em 2027\
- , Smothering Tithe no Topdeck do Dia e a agenda.\n\nArquivos:\n- Carrossel
-  1 de 6: https://fontedemana.com.br/kit/ed8/carrossel-01.jpg\n- Carrossel 
- 2 de 6: https://fontedemana.com.br/kit/ed8/carrossel-02.jpg\n- Carrossel 3
-  de 6: https://fontedemana.com.br/kit/ed8/carrossel-03.jpg\n- Carrossel 4 
- de 6: https://fontedemana.com.br/kit/ed8/carrossel-04.jpg\n- Carrossel 5 d
- e 6: https://fontedemana.com.br/kit/ed8/carrossel-05.jpg\n- Carrossel 6 de
-  6: https://fontedemana.com.br/kit/ed8/carrossel-06.jpg\n\nLegenda:\nA jan
- ela de banimentos de 12 de outubro passou e o Commander ficou como estava.
-  Nenhuma carta banida\, nenhuma liberada\, e a lista de Game Changers nem 
- foi citada. A próxima chance de mudança é 30 de novembro.\n\nE tem novi
- dade pra 2027: Mark Rosewater confirmou pelo menos quatro precons em cada 
- uma das seis coleções do ano\, ou seja\, 24 decks de Commander no mínim
- o.\n\nNo carrossel tem tudo isso\, o Smothering Tithe explicado no Topdeck
-  do Dia e a agenda.\n\nA edição completa\, com as fontes e os Sussurros\
- , está no link da bio: fontedemana.com.br\n\nArte: Stasis\, de Jérémie 
- Solomon. Smothering Tithe\, de Mark Behm.\n\nValores em reais pela cotaç
- ão de 9 out (Banco Central\, PTAX).\n\n#magicthegathering #mtg #commander
-  #edh #mtgcommander #mtgbrasil #magicbrasil #edhbrasil #gamechangers\n\nFo
- nte de Mana is unofficial Fan Content permitted under the Fan Content Poli
- cy. Not approved/endorsed by Wizards. Portions of the materials used are p
- roperty of Wizards of the Coast. ©Wizards of the Coast LLC.\n\nPasso a pa
- sso:\n1. No Instagram\, toque em + e escolha Post.\n2. Selecione as 6 imag
- ens na ordem\, da 1 à 6.\n3. Cole a Legenda e publique.\n\nPauta completa
- : https://fontedemana.com.br/pauta/2026-10-13/#feed
-URL:https://fontedemana.com.br/pauta/2026-10-13/#feed
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram feed: Carrossel da edição 8
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-13-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261017T012635Z
-DTSTART:20261013T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
-DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
-  sobre a janela de banimentos.\n\nPasso a passo:\n1. No carrossel publicad
- o\, toque no avião de papel e em Adicionar post ao seu story.\n2. Adicion
- e o sticker de Enquete embaixo do post: A Wizards devia ter mexido no Comm
- ander? com Sim e Não.\n3. Publique.\n\nPauta completa: https://fontedeman
- a.com.br/pauta/2026-10-13/#stories-meio-dia
-URL:https://fontedemana.com.br/pauta/2026-10-13/#stories-meio-dia
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-13-threads-tarde@fontedemana.com.br
-DTSTAMP:20261017T012635Z
-DTSTART:20261013T180000Z
-DURATION:PT15M
-SUMMARY:15:00 Threads: Fio da edição 8
-DESCRIPTION:Fio de 5 posts sobre a janela de banimentos\, os 24 precons de 
- 2027 e o Smothering Tithe. Um bloco por post\, na ordem.\n\nPost 1:\nSaiu 
- o anúncio de banimentos de 12 de outubro\, e o Commander de papel ficou d
- e fora.\n\nNeste fio: o que mudou (nada)\, os 24 precons de 2027 e a carta
-  do dia.\n\nPost 2:\nNo Commander\, nenhuma carta foi banida nem liberada.
-  A lista de Game Changers nem aparece no anúncio\, então segue igual. A 
- única mexida foi no Brawl competitivo do MTG Arena\, que é outro formato
- .\n\nA próxima janela de banimentos é em 30 de novembro.\n\nPost 3:\nNov
- idade pra 2027: Mark Rosewater confirmou no blog dele que as seis coleçõ
- es do ano vêm com pelo menos quatro precons cada. Dá 24 decks de Command
- er no mínimo\, sem contar produtos extras.\n\nPost 4:\nTopdeck do Dia: Sm
- othering Tithe.\n\nEncantamento branco de quatro manas. Toda vez que um op
- onente compra um card\, ele paga 2 ou você cria um Tesouro. É Game Chang
- er\, está em 946 mil decks no EDHREC e sai por US$ 56\,92 (R$ 283\,99) no
-  TCGplayer.\n\nPost 5:\nA edição completa\, com todas as fontes\, está 
- em fontedemana.com.br\n\nValores em reais pela cotação de 9 out (Banco C
- entral\, PTAX).\n\nPasso a passo:\n1. Publique o Post 1 e toque em adicion
- ar ao fio para colar os outros\, na ordem.\n2. Responda quem comentar na p
- rimeira hora.\n\nValores em reais pela cotação PTAX de 9 out\, US$ 1 = R
- $ 4\,9892 (Banco Central).\n\nPauta completa: https://fontedemana.com.br/p
- auta/2026-10-13/#threads-tarde
-URL:https://fontedemana.com.br/pauta/2026-10-13/#threads-tarde
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Fio da edição 8
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-13-stories-tarde@fontedemana.com.br
-DTSTAMP:20261017T012635Z
-DTSTART:20261013T180000Z
-DURATION:PT15M
-SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
-DESCRIPTION:Story com a imagem do Smothering Tithe no Topdeck do Dia e o st
- icker de link para a edição completa.\n\nArquivos:\n- Topdeck do Dia\, S
- mothering Tithe: https://fontedemana.com.br/kit/ed8/carrossel-04.jpg\n\nPa
- sso a passo:\n1. Baixe a imagem e poste no Story.\n2. Adicione o sticker d
- e Link para fontedemana.com.br com o texto Edição completa\, embaixo da 
- carta.\n3. Publique.\n\nPauta completa: https://fontedemana.com.br/pauta/2
- 026-10-13/#stories-tarde
-URL:https://fontedemana.com.br/pauta/2026-10-13/#stories-tarde
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Topdeck do Dia com link
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-13-reels@fontedemana.com.br
-DTSTAMP:20261017T012635Z
-DTSTART:20261013T220000Z
-DURATION:PT15M
-SUMMARY:19:00 Reels: Vídeo do jornal com música
-DESCRIPTION:Vídeo de 48 s da edição 8 com música em alta e sem narraç
- ão.\n\nArquivos:\n- Vídeo do jornal\, 48 s: https://fontedemana.com.br/k
- it/ed8/video-vertical-ed8.mp4\n\nLegenda:\nOs bans passaram e o Commander 
- ficou igual\, 2027 vem com pelo menos 24 precons e o Smothering Tithe no T
- opdeck do Dia. Tudo em 48 segundos.\n\nEdição completa no link da bio: f
- ontedemana.com.br\n\nVocê queria algum ban ou unban nessa janela? Conta a
- qui nos comentários.\n\n#magicthegathering #mtg #commander #edh #mtgbrasi
- l #magicbrasil\n\nFonte de Mana is unofficial Fan Content permitted under 
- the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the 
- materials used are property of Wizards of the Coast. ©Wizards of the Coas
- t LLC.\n\nPasso a passo:\n1. No Instagram\, toque em + e escolha Reel.\n2.
-  Escolha o vídeo e adicione uma música em alta pela biblioteca do app\, 
- com volume baixo.\n3. Cole a Legenda e publique.\n\nPauta completa: https:
- //fontedemana.com.br/pauta/2026-10-13/#reels
-URL:https://fontedemana.com.br/pauta/2026-10-13/#reels
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reels: Vídeo do jornal com música
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-13-threads-noite@fontedemana.com.br
-DTSTAMP:20261017T012635Z
-DTSTART:20261013T220000Z
-DURATION:PT15M
-SUMMARY:19:00 Threads: Post com o vídeo do jornal
-DESCRIPTION:Post no Threads com o mesmo vídeo de 48 s da edição 8.\n\nAr
- quivos:\n- Vídeo do jornal\, 48 s: https://fontedemana.com.br/kit/ed8/vid
- eo-vertical-ed8.mp4\n\nPost:\nBans sem mudança no Commander\, pelo menos 
- 24 precons em 2027 e o Smothering Tithe explicado\, tudo em 48 segundos.\n
- \nEdição completa em fontedemana.com.br\n\nPasso a passo:\n1. No Threads
- \, anexe o vídeo baixado.\n2. Cole o Post e publique.\n\nPauta completa: 
- https://fontedemana.com.br/pauta/2026-10-13/#threads-noite
-URL:https://fontedemana.com.br/pauta/2026-10-13/#threads-noite
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Post com o vídeo do jornal
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fdm-2026-10-14-gravacao@fontedemana.com.br
-DTSTAMP:20261017T012635Z
+DTSTAMP:20261017T102125Z
 DTSTART:20261013T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -315,7 +47,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-14-threads-manha@fontedemana.com.br
-DTSTAMP:20261017T012635Z
+DTSTAMP:20261017T102125Z
 DTSTART:20261014T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Enquete do dia: jogar ou vender o Jace
@@ -336,7 +68,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-14-stories-manha@fontedemana.com.br
-DTSTAMP:20261017T012635Z
+DTSTAMP:20261017T102125Z
 DTSTART:20261014T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do carrossel com sticker de pergunta
@@ -356,7 +88,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-14-tiktok@fontedemana.com.br
-DTSTAMP:20261017T012635Z
+DTSTAMP:20261017T102125Z
 DTSTART:20261014T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Dicionário do Commander: o que quer dizer EDH
@@ -393,7 +125,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-14-feed@fontedemana.com.br
-DTSTAMP:20261017T012635Z
+DTSTAMP:20261017T102125Z
 DTSTART:20261014T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 9
@@ -434,7 +166,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-14-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261017T012635Z
+DTSTAMP:20261017T102125Z
 DTSTART:20261014T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -454,7 +186,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-14-threads-tarde@fontedemana.com.br
-DTSTAMP:20261017T012635Z
+DTSTAMP:20261017T102125Z
 DTSTART:20261014T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 9
@@ -488,7 +220,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-14-stories-tarde@fontedemana.com.br
-DTSTAMP:20261017T012635Z
+DTSTAMP:20261017T102125Z
 DTSTART:20261014T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -508,7 +240,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-14-reels@fontedemana.com.br
-DTSTAMP:20261017T012635Z
+DTSTAMP:20261017T102125Z
 DTSTART:20261014T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -536,7 +268,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-14-threads-noite@fontedemana.com.br
-DTSTAMP:20261017T012635Z
+DTSTAMP:20261017T102125Z
 DTSTART:20261014T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Threads: Post com o vídeo do jornal
@@ -556,7 +288,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-15-gravacao@fontedemana.com.br
-DTSTAMP:20261017T012635Z
+DTSTAMP:20261017T102125Z
 DTSTART:20261014T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -598,7 +330,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-15-tiktok@fontedemana.com.br
-DTSTAMP:20261017T012635Z
+DTSTAMP:20261017T102125Z
 DTSTART:20261015T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: TikTok: Top 5 Elementais para Ashling
@@ -627,7 +359,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-15-threads-manha@fontedemana.com.br
-DTSTAMP:20261017T012635Z
+DTSTAMP:20261017T102125Z
 DTSTART:20261015T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Os 5 Elementais que mais aparecem nos decks 
@@ -653,7 +385,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-15-stories-manha@fontedemana.com.br
-DTSTAMP:20261017T012635Z
+DTSTAMP:20261017T102125Z
 DTSTART:20261015T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -673,7 +405,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-15-feed@fontedemana.com.br
-DTSTAMP:20261017T012635Z
+DTSTAMP:20261017T102125Z
 DTSTART:20261015T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Top 5: Os 5 Elementais que mais aparecem nos 
@@ -718,7 +450,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-15-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261017T012635Z
+DTSTAMP:20261017T102125Z
 DTSTART:20261015T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -737,7 +469,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-15-threads-tarde@fontedemana.com.br
-DTSTAMP:20261017T012635Z
+DTSTAMP:20261017T102125Z
 DTSTART:20261015T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 10
@@ -775,7 +507,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-15-stories-tarde@fontedemana.com.br
-DTSTAMP:20261017T012635Z
+DTSTAMP:20261017T102125Z
 DTSTART:20261015T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -795,7 +527,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-15-reels@fontedemana.com.br
-DTSTAMP:20261017T012635Z
+DTSTAMP:20261017T102125Z
 DTSTART:20261015T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -823,7 +555,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-16-gravacao@fontedemana.com.br
-DTSTAMP:20261017T012635Z
+DTSTAMP:20261017T102125Z
 DTSTART:20261015T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -860,7 +592,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-16-tiktok@fontedemana.com.br
-DTSTAMP:20261017T012635Z
+DTSTAMP:20261017T102125Z
 DTSTART:20261016T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Chama o Juiz #1: comandante roubado conta dano?
@@ -887,7 +619,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-16-threads-manha@fontedemana.com.br
-DTSTAMP:20261017T012635Z
+DTSTAMP:20261017T102125Z
 DTSTART:20261016T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Chama o Juiz #1: comandante roubado bate em 
@@ -913,7 +645,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-16-stories-manha@fontedemana.com.br
-DTSTAMP:20261017T012635Z
+DTSTAMP:20261017T102125Z
 DTSTART:20261016T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -933,7 +665,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-16-feed@fontedemana.com.br
-DTSTAMP:20261017T012635Z
+DTSTAMP:20261017T102125Z
 DTSTART:20261016T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Chama o Juiz #1: comandante roubado bate em v
@@ -969,7 +701,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-16-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261017T012635Z
+DTSTAMP:20261017T102125Z
 DTSTART:20261016T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -988,7 +720,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-16-threads-tarde@fontedemana.com.br
-DTSTAMP:20261017T012635Z
+DTSTAMP:20261017T102125Z
 DTSTART:20261016T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 11
@@ -1024,7 +756,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-16-stories-tarde@fontedemana.com.br
-DTSTAMP:20261017T012635Z
+DTSTAMP:20261017T102125Z
 DTSTART:20261016T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1044,7 +776,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-16-reels@fontedemana.com.br
-DTSTAMP:20261017T012635Z
+DTSTAMP:20261017T102125Z
 DTSTART:20261016T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -1071,7 +803,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-17-gravacao@fontedemana.com.br
-DTSTAMP:20261017T012635Z
+DTSTAMP:20261017T102125Z
 DTSTART:20261016T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -1096,9 +828,9 @@ DESCRIPTION:Qual entra? #1: Swords to Plowshares ou Path to Exile. Cinco á
  o\, com o celular a um palmo da boca.\n2. Nomeie os áudios cena_1\, cena_
  2\, cena_3\, cena_4 e cena_5.\n3. Mande os áudios ao Claude no projeto MG
  T strategy (pode ser respondendo à mensagem desta tarefa) dizendo "áudio
- s do TikTok de 2026-10-17".\n\nValores em reais pela cotação PTAX de 15 
- out (Banco Central).\n\nPauta completa: https://fontedemana.com.br/pauta/2
- 026-10-17/#gravacao
+ s do TikTok de 2026-10-17".\n\nValores em reais pela cotação PTAX de 16 
+ out\, US$ 1 = R$ 5\,0826 (Banco Central).\n\nPauta completa: https://fonte
+ demana.com.br/pauta/2026-10-17/#gravacao
 URL:https://fontedemana.com.br/pauta/2026-10-17/#gravacao
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1108,7 +840,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-17-tiktok@fontedemana.com.br
-DTSTAMP:20261017T012635Z
+DTSTAMP:20261017T102125Z
 DTSTART:20261017T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Qual entra? #1: Swords ou Path
@@ -1128,12 +860,199 @@ DESCRIPTION:Duelo de remoção de um mana: números do EDHREC e preço lado
  ikTok\, volume entre 15% e 20%\, por baixo da narração.\n2. Voz própria
   não precisa de rótulo de IA.\n3. Fixe o comentário logo depois de post
  ar.\n4. Se os áudios não chegarem\, poste o vídeo mudo com música em a
- lta.\n\nValores em reais pela cotação PTAX de 15 out (Banco Central).\n\
- nPauta completa: https://fontedemana.com.br/pauta/2026-10-17/#tiktok
+ lta.\n\nValores em reais pela cotação PTAX de 16 out\, US$ 1 = R$ 5\,082
+ 6 (Banco Central).\n\nPauta completa: https://fontedemana.com.br/pauta/202
+ 6-10-17/#tiktok
 URL:https://fontedemana.com.br/pauta/2026-10-17/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:TikTok: Qual entra? #1: Swords ou Path
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-17-threads-manha@fontedemana.com.br
+DTSTAMP:20261017T102125Z
+DTSTART:20261017T133000Z
+DURATION:PT15M
+SUMMARY:10:30 Threads: Pergunta do dia: Você vai comprar algum deles ou va
+ i esperar ver as…
+DESCRIPTION:Pergunta para puxar conversa sobre a notícia do dia.\n\nPost:\
+ nOs precons de Commander de Star Trek podem atrasar nos EUA e na Europa. V
+ ocê vai comprar algum deles ou vai esperar ver as listas na mesa primeiro
+ ?\n\nPasso a passo:\n1. Abra o Threads e cole o Post.\n2. Dica: Enquete: v
+ ou comprar\, vou esperar\, não ligo pra Star Trek\n3. Publique e responda
+  quem comentar na primeira hora.\n\nPauta completa: https://fontedemana.co
+ m.br/pauta/2026-10-17/#threads-manha
+URL:https://fontedemana.com.br/pauta/2026-10-17/#threads-manha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Pergunta do dia: Você vai comprar algum deles ou vai 
+ esperar ver as…
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-17-stories-manha@fontedemana.com.br
+DTSTAMP:20261017T102125Z
+DTSTART:20261017T133000Z
+DURATION:PT15M
+SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
+DESCRIPTION:Story com a capa da edição 12 (Precons de Star Trek atrasam n
+ os EUA e na Europa) e um sticker de pergunta para puxar a conversa.\n\nArq
+ uivos:\n- Capa da edição 12: https://fontedemana.com.br/kit/ed12/carross
+ el-01.jpg\n\nPasso a passo:\n1. Baixe a capa e poste no Story.\n2. Adicion
+ e o sticker de Pergunta no terço de baixo\, sem cobrir o título: Você r
+ eservou algum precon de Star Trek?\n3. Publique.\n\nPauta completa: https:
+ //fontedemana.com.br/pauta/2026-10-17/#stories-manha
+URL:https://fontedemana.com.br/pauta/2026-10-17/#stories-manha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Capa do jornal com sticker de pergunta
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-17-feed@fontedemana.com.br
+DTSTAMP:20261017T102125Z
+DTSTART:20261017T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram feed: Carrossel da edição 12
+DESCRIPTION:Carrossel de 7 imagens da edição 12: Precons de Star Trek atr
+ asam nos EUA e na Europa\, Countdown Kit da Marvel\, Weekly Winners\, Topd
+ eck: Astral Dragon.\n\nArquivos:\n- Imagem 1 de 7: https://fontedemana.com
+ .br/kit/ed12/carrossel-01.jpg\n- Imagem 2 de 7: https://fontedemana.com.br
+ /kit/ed12/carrossel-02.jpg\n- Imagem 3 de 7: https://fontedemana.com.br/ki
+ t/ed12/carrossel-03.jpg\n- Imagem 4 de 7: https://fontedemana.com.br/kit/e
+ d12/carrossel-04.jpg\n- Imagem 5 de 7: https://fontedemana.com.br/kit/ed12
+ /carrossel-05.jpg\n- Imagem 6 de 7: https://fontedemana.com.br/kit/ed12/ca
+ rrossel-06.jpg\n- Imagem 7 de 7: https://fontedemana.com.br/kit/ed12/carro
+ ssel-07.jpg\n\nLegenda:\nOs precons de Commander de Star Trek vão atrasar
+  nos EUA e na Europa. A Wizards avisou na sexta que os decks podem chegar 
+ só depois do lançamento de 13 de novembro. Pré e Play Boosters seguem n
+ o prazo\, e o comunicado não cita a América Latina.\n\nNa edição de ho
+ je também tem a lista completa do Countdown Kit da Marvel\, com duas cart
+ as novas de Darkhold Destiny\, e o Weekly Winners do MTGStocks com Astral 
+ Dragon subindo 52%.\n\nO Topdeck do Dia é o próprio Astral Dragon\, o dr
+ agão que copia seus artefatos e encantamentos.\n\nEdição completa em fo
+ ntedemana.com.br\n\nArtes: Delay\, de Svetlin Velinov. Astral Dragon\, de 
+ Anastasia Ovchinnikova.\n\nValores em reais pela cotação PTAX de 16 out 
+ (Banco Central).\n\n#mtg #magicthegathering #commander #edh #mtgbrasil #st
+ artrek #fontedemana\n\nFonte de Mana is unofficial Fan Content permitted u
+ nder the Fan Content Policy. Not approved/endorsed by Wizards. Portions of
+  the materials used are property of Wizards of the Coast. ©Wizards of the
+  Coast LLC.\n\nPasso a passo:\n1. No Instagram\, toque em + e escolha Post
+ .\n2. Selecione as 7 imagens na ordem\, da 1 à 7.\n3. Cole a Legenda e pu
+ blique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-17/#fe
+ ed
+URL:https://fontedemana.com.br/pauta/2026-10-17/#feed
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram feed: Carrossel da edição 12
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-17-stories-meio-dia@fontedemana.com.br
+DTSTAMP:20261017T102125Z
+DTSTART:20261017T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
+DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
+ .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
+ e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
+ o do post: Precon de Star Trek atrasado: e aí? com Espero o meu\, Desisti
+  e Nem ia comprar.\n3. Publique.\n\nPauta completa: https://fontedemana.co
+ m.br/pauta/2026-10-17/#stories-meio-dia
+URL:https://fontedemana.com.br/pauta/2026-10-17/#stories-meio-dia
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-17-threads-tarde@fontedemana.com.br
+DTSTAMP:20261017T102125Z
+DTSTART:20261017T180000Z
+DURATION:PT15M
+SUMMARY:15:00 Threads: Fio da edição 12
+DESCRIPTION:Fio com 6 posts contando a edição 12. O último é o aviso de
+  conteúdo de fã.\n\nPost 1:\nFonte de Mana de sábado\, 17 de outubro. A
+  Wizards avisou que parte dos produtos de Star Trek vai atrasar por proble
+ mas de produção e frete. O mais afetado: os precons de Commander.\n\nPos
+ t 2:\nNos EUA e no Canadá\, os decks de Commander podem chegar depois do 
+ lançamento de 13 de novembro. Na Europa atrasam também Collector Booster
+ s\, Scene Boxes e o Beam Me Up Bundle. O pré de 6 de novembro continua\, 
+ e o comunicado não cita a América Latina.\n\nPost 3:\nO Countdown Kit da
+  Marvel teve as 30 cartas reveladas. Custa US$ 199\,99 (R$ 1.016\,47)\, sa
+ i em 2 de novembro só no site do Secret Lair e traz Doctor Strange\, Mast
+ er of Magic e Beta Ray Bill antes de Darkhold Destiny.\n\nPost 4:\nNo Week
+ ly Winners do MTGStocks: Magister Sphinx +99%\, Astral Dragon +52% a US$ 4
+ 8\,52 (R$ 246\,61) e The Theorist\, Jace Beleren +50% a US$ 75\,05 (R$ 381
+ \,45).\n\nPost 5:\nTopdeck do Dia: Astral Dragon. Entra e cria duas cópia
+ s de um artefato\, encantamento ou terreno\, só que como dragões 3/3 voa
+ dores. Edição completa em fontedemana.com.br\n\nValores em reais pela co
+ tação PTAX de 16 out (Banco Central).\n\nPost 6 (aviso de fã):\nFonte d
+ e Mana is unofficial Fan Content permitted under the Fan Content Policy. N
+ ot approved/endorsed by Wizards. Portions of the materials used are proper
+ ty of Wizards of the Coast. ©Wizards of the Coast LLC.\n\nPasso a passo:\
+ n1. No Threads\, publique o Post 1.\n2. Toque em Adicionar à sequência e
+  cole os posts seguintes\, um por vez\, na ordem.\n3. Publique o fio intei
+ ro de uma vez.\n\nValores em reais pela cotação PTAX de 16 out\, US$ 1 =
+  R$ 5\,0826 (Banco Central).\n\nPauta completa: https://fontedemana.com.br
+ /pauta/2026-10-17/#threads-tarde
+URL:https://fontedemana.com.br/pauta/2026-10-17/#threads-tarde
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Fio da edição 12
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-17-stories-tarde@fontedemana.com.br
+DTSTAMP:20261017T102125Z
+DTSTART:20261017T180000Z
+DURATION:PT15M
+SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
+DESCRIPTION:Story com a imagem de Astral Dragon no Topdeck do Dia e o stick
+ er de link para a edição completa.\n\nArquivos:\n- Topdeck do Dia: https
+ ://fontedemana.com.br/kit/ed12/carrossel-05.jpg\n\nPasso a passo:\n1. Baix
+ e a imagem e poste no Story.\n2. Adicione o sticker de Link para fontedema
+ na.com.br com o texto Edição completa\, embaixo do texto do Topdeck.\n3.
+  Publique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-17/
+ #stories-tarde
+URL:https://fontedemana.com.br/pauta/2026-10-17/#stories-tarde
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Topdeck do Dia com link
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-17-reels@fontedemana.com.br
+DTSTAMP:20261017T102125Z
+DTSTART:20261017T220000Z
+DURATION:PT15M
+SUMMARY:19:00 Reels: Vídeo do jornal com música
+DESCRIPTION:Vídeo de 48 s da edição 12 com música em alta e sem narraç
+ ão.\n\nArquivos:\n- Vídeo da edição 12: https://fontedemana.com.br/kit
+ /ed12/video-vertical-ed12.mp4\n\nLegenda:\nPrecons de Star Trek atrasados 
+ nos EUA e na Europa\, Countdown Kit da Marvel revelado e Astral Dragon sub
+ indo 52%. Tudo em fontedemana.com.br\n\nVocê já reservou algum precon de
+  Star Trek?\n\nValores em reais pela cotação PTAX de 16 out (Banco Centr
+ al).\n\n#mtg #magicthegathering #commander #edh #mtgbrasil\n\nFonte de Man
+ a is unofficial Fan Content permitted under the Fan Content Policy. Not ap
+ proved/endorsed by Wizards. Portions of the materials used are property of
+  Wizards of the Coast. ©Wizards of the Coast LLC.\n\nPasso a passo:\n1. N
+ o Instagram\, toque em + e escolha Reel.\n2. Escolha o vídeo e adicione u
+ ma música em alta pela biblioteca do app\, com volume baixo.\n3. Cole a L
+ egenda e publique.\n\nPauta completa: https://fontedemana.com.br/pauta/202
+ 6-10-17/#reels
+URL:https://fontedemana.com.br/pauta/2026-10-17/#reels
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reels: Vídeo do jornal com música
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT

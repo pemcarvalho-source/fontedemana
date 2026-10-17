@@ -1,81 +1,260 @@
 {
- "data": "2026-10-17",
- "fx": "Valores em reais pela cotação PTAX de 15 out (Banco Central).",
- "avisos": [
-  {
-   "id": "gravacao",
-   "dia": "2026-10-16",
-   "hora": "18:30",
-   "rede": "Gravação",
-   "titulo": "Gravar a narração do TikTok de amanhã",
-   "oQue": "Qual entra? #1: Swords to Plowshares ou Path to Exile. Cinco áudios curtos, um por cena, leia no seu ritmo e com cara de mesa.",
-   "arquivos": [
+  "data": "2026-10-17",
+  "fx": "Valores em reais pela cotação PTAX de 16 out, US$ 1 = R$ 5,0826 (Banco Central).",
+  "forca": "forte",
+  "feed": "jornal",
+  "avisos": [
     {
-     "nome": "Vídeo mudo (tiktok-mudo.mp4)",
-     "url": "https://fontedemana.com.br/pauta/2026-10-17/tiktok/tiktok-mudo.mp4"
+      "id": "gravacao",
+      "dia": "2026-10-16",
+      "hora": "18:30",
+      "rede": "Gravação",
+      "titulo": "Gravar a narração do TikTok de amanhã",
+      "oQue": "Qual entra? #1: Swords to Plowshares ou Path to Exile. Cinco áudios curtos, um por cena, leia no seu ritmo e com cara de mesa.",
+      "arquivos": [
+        {
+          "nome": "Vídeo mudo (tiktok-mudo.mp4)",
+          "url": "https://fontedemana.com.br/pauta/2026-10-17/tiktok/tiktok-mudo.mp4"
+        }
+      ],
+      "roteiro": [
+        {
+          "cena": "Cena 1, uns 7 s",
+          "tela": "Swords ou Path: só cabe uma",
+          "fala": "Qual entra, episódio um. Swords ou Path? Um mana, exila qualquer criatura. Só cabe uma."
+        },
+        {
+          "cena": "Cena 2, uns 10 s",
+          "tela": "Números do EDHREC: Swords to Plowshares 2,93 mi (61,0%), Path to Exile 2,30 mi (47,8%)",
+          "fala": "No EDHREC, a Swords está em sessenta e um por cento dos decks com branco. A Path, em quarenta e oito."
+        },
+        {
+          "cena": "Cena 3, uns 6 s",
+          "tela": "Precon de Reality Fracture: Swords to Plowshares US$ 1,03 (R$ 5,20), Path to Exile US$ 0,97 (R$ 4,90)",
+          "fala": "No bolso, empate. As duas saem por um dólar, uns cinco reais."
+        },
+        {
+          "cena": "Cena 4, uns 10 s",
+          "tela": "Swords dá vida, Path dá terreno",
+          "fala": "Swords dá vida ao oponente, quase nunca importa. Path dá um terreno, que cedo acelera ele. Mas na sua criatura, Path vira rampa."
+        },
+        {
+          "cena": "Cena 5, uns 8 s",
+          "tela": "Comenta Swords ou Path",
+          "fala": "Comenta Swords ou Path, e manda pro amigo que joga as duas. Segue o arroba fonte de mana."
+        }
+      ],
+      "passos": [
+        "Grave um áudio por cena no Gravador do iPhone, num lugar silencioso, com o celular a um palmo da boca.",
+        "Nomeie os áudios cena_1, cena_2, cena_3, cena_4 e cena_5.",
+        "Mande os áudios ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"áudios do TikTok de 2026-10-17\"."
+      ]
+    },
+    {
+      "id": "tiktok",
+      "hora": "11:30",
+      "rede": "TikTok",
+      "titulo": "Qual entra? #1: Swords ou Path",
+      "oQue": "Duelo de remoção de um mana: números do EDHREC e preço lado a lado, quando cada uma ganha e o voto nos comentários. A Fonte de Mana não escolhe, a galera decide.",
+      "arquivos": [
+        {
+          "nome": "Vídeo do TikTok narrado",
+          "url": "https://fontedemana.com.br/pauta/2026-10-17/tiktok/tiktok-narrado.mp4"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Qual entra? #1: Swords to Plowshares ou Path to Exile. Só tem vaga para uma.\nComenta Swords ou Path!\n\nNo EDHREC, Swords está em 2,93 milhões de decks e Path em 2,30 milhões.\nNo Scryfall, Swords sai por US$ 1,03 (R$ 5,20) e Path por US$ 0,97 (R$ 4,90), nas impressões do precon de Reality Fracture.\nReais pela cotação PTAX de 15 out (Banco Central).\n\nQual entra no seu deck?\n\n#mtg #magicthegathering #commander #edh #mtgbrasil #qualentra"
+        },
+        {
+          "rotulo": "Comentário fixado",
+          "texto": "Swords ou Path? Uma palavra só. E se você joga as duas, conta qual sai primeiro quando o deck aperta."
+        }
+      ],
+      "passos": [
+        "Poste com um som em alta da biblioteca do TikTok, volume entre 15% e 20%, por baixo da narração.",
+        "Voz própria não precisa de rótulo de IA.",
+        "Fixe o comentário logo depois de postar.",
+        "Se os áudios não chegarem, poste o vídeo mudo com música em alta."
+      ]
+    },
+    {
+      "id": "threads-manha",
+      "hora": "10:30",
+      "rede": "Threads",
+      "titulo": "Pergunta do dia: Você vai comprar algum deles ou vai esperar ver as…",
+      "oQue": "Pergunta para puxar conversa sobre a notícia do dia.",
+      "textos": [
+        {
+          "rotulo": "Post",
+          "texto": "Os precons de Commander de Star Trek podem atrasar nos EUA e na Europa. Você vai comprar algum deles ou vai esperar ver as listas na mesa primeiro?"
+        }
+      ],
+      "passos": [
+        "Abra o Threads e cole o Post.",
+        "Dica: Enquete: vou comprar, vou esperar, não ligo pra Star Trek",
+        "Publique e responda quem comentar na primeira hora."
+      ]
+    },
+    {
+      "id": "stories-manha",
+      "hora": "10:30",
+      "rede": "Instagram Stories",
+      "titulo": "Capa do jornal com sticker de pergunta",
+      "oQue": "Story com a capa da edição 12 (Precons de Star Trek atrasam nos EUA e na Europa) e um sticker de pergunta para puxar a conversa.",
+      "arquivos": [
+        {
+          "nome": "Capa da edição 12",
+          "url": "https://fontedemana.com.br/kit/ed12/carrossel-01.jpg"
+        }
+      ],
+      "passos": [
+        "Baixe a capa e poste no Story.",
+        "Adicione o sticker de Pergunta no terço de baixo, sem cobrir o título: Você reservou algum precon de Star Trek?",
+        "Publique."
+      ]
+    },
+    {
+      "id": "feed",
+      "hora": "12:00",
+      "rede": "Instagram feed",
+      "titulo": "Carrossel da edição 12",
+      "origem": "jornal:ed12",
+      "oQue": "Carrossel de 7 imagens da edição 12: Precons de Star Trek atrasam nos EUA e na Europa, Countdown Kit da Marvel, Weekly Winners, Topdeck: Astral Dragon.",
+      "arquivos": [
+        {
+          "nome": "Imagem 1 de 7",
+          "url": "https://fontedemana.com.br/kit/ed12/carrossel-01.jpg"
+        },
+        {
+          "nome": "Imagem 2 de 7",
+          "url": "https://fontedemana.com.br/kit/ed12/carrossel-02.jpg"
+        },
+        {
+          "nome": "Imagem 3 de 7",
+          "url": "https://fontedemana.com.br/kit/ed12/carrossel-03.jpg"
+        },
+        {
+          "nome": "Imagem 4 de 7",
+          "url": "https://fontedemana.com.br/kit/ed12/carrossel-04.jpg"
+        },
+        {
+          "nome": "Imagem 5 de 7",
+          "url": "https://fontedemana.com.br/kit/ed12/carrossel-05.jpg"
+        },
+        {
+          "nome": "Imagem 6 de 7",
+          "url": "https://fontedemana.com.br/kit/ed12/carrossel-06.jpg"
+        },
+        {
+          "nome": "Imagem 7 de 7",
+          "url": "https://fontedemana.com.br/kit/ed12/carrossel-07.jpg"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Os precons de Commander de Star Trek vão atrasar nos EUA e na Europa. A Wizards avisou na sexta que os decks podem chegar só depois do lançamento de 13 de novembro. Pré e Play Boosters seguem no prazo, e o comunicado não cita a América Latina.\n\nNa edição de hoje também tem a lista completa do Countdown Kit da Marvel, com duas cartas novas de Darkhold Destiny, e o Weekly Winners do MTGStocks com Astral Dragon subindo 52%.\n\nO Topdeck do Dia é o próprio Astral Dragon, o dragão que copia seus artefatos e encantamentos.\n\nEdição completa em fontedemana.com.br\n\nArtes: Delay, de Svetlin Velinov. Astral Dragon, de Anastasia Ovchinnikova.\n\nValores em reais pela cotação PTAX de 16 out (Banco Central).\n\n#mtg #magicthegathering #commander #edh #mtgbrasil #startrek #fontedemana\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        }
+      ],
+      "passos": [
+        "No Instagram, toque em + e escolha Post.",
+        "Selecione as 7 imagens na ordem, da 1 à 7.",
+        "Cole a Legenda e publique."
+      ]
+    },
+    {
+      "id": "stories-meio-dia",
+      "hora": "12:00",
+      "rede": "Instagram Stories",
+      "titulo": "Repost do carrossel com enquete",
+      "oQue": "Compartilhe o carrossel recém postado no Story com uma enquete.",
+      "passos": [
+        "No carrossel publicado, toque no avião de papel e em Adicionar post ao seu story.",
+        "Adicione o sticker de Enquete embaixo do post: Precon de Star Trek atrasado: e aí? com Espero o meu, Desisti e Nem ia comprar.",
+        "Publique."
+      ]
+    },
+    {
+      "id": "threads-tarde",
+      "hora": "15:00",
+      "rede": "Threads",
+      "titulo": "Fio da edição 12",
+      "oQue": "Fio com 6 posts contando a edição 12. O último é o aviso de conteúdo de fã.",
+      "textos": [
+        {
+          "rotulo": "Post 1",
+          "texto": "Fonte de Mana de sábado, 17 de outubro. A Wizards avisou que parte dos produtos de Star Trek vai atrasar por problemas de produção e frete. O mais afetado: os precons de Commander."
+        },
+        {
+          "rotulo": "Post 2",
+          "texto": "Nos EUA e no Canadá, os decks de Commander podem chegar depois do lançamento de 13 de novembro. Na Europa atrasam também Collector Boosters, Scene Boxes e o Beam Me Up Bundle. O pré de 6 de novembro continua, e o comunicado não cita a América Latina."
+        },
+        {
+          "rotulo": "Post 3",
+          "texto": "O Countdown Kit da Marvel teve as 30 cartas reveladas. Custa US$ 199,99 (R$ 1.016,47), sai em 2 de novembro só no site do Secret Lair e traz Doctor Strange, Master of Magic e Beta Ray Bill antes de Darkhold Destiny."
+        },
+        {
+          "rotulo": "Post 4",
+          "texto": "No Weekly Winners do MTGStocks: Magister Sphinx +99%, Astral Dragon +52% a US$ 48,52 (R$ 246,61) e The Theorist, Jace Beleren +50% a US$ 75,05 (R$ 381,45)."
+        },
+        {
+          "rotulo": "Post 5",
+          "texto": "Topdeck do Dia: Astral Dragon. Entra e cria duas cópias de um artefato, encantamento ou terreno, só que como dragões 3/3 voadores. Edição completa em fontedemana.com.br\n\nValores em reais pela cotação PTAX de 16 out (Banco Central)."
+        },
+        {
+          "rotulo": "Post 6 (aviso de fã)",
+          "texto": "Fonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        }
+      ],
+      "passos": [
+        "No Threads, publique o Post 1.",
+        "Toque em Adicionar à sequência e cole os posts seguintes, um por vez, na ordem.",
+        "Publique o fio inteiro de uma vez."
+      ]
+    },
+    {
+      "id": "stories-tarde",
+      "hora": "15:00",
+      "rede": "Instagram Stories",
+      "titulo": "Topdeck do Dia com link",
+      "oQue": "Story com a imagem de Astral Dragon no Topdeck do Dia e o sticker de link para a edição completa.",
+      "arquivos": [
+        {
+          "nome": "Topdeck do Dia",
+          "url": "https://fontedemana.com.br/kit/ed12/carrossel-05.jpg"
+        }
+      ],
+      "passos": [
+        "Baixe a imagem e poste no Story.",
+        "Adicione o sticker de Link para fontedemana.com.br com o texto Edição completa, embaixo do texto do Topdeck.",
+        "Publique."
+      ]
+    },
+    {
+      "id": "reels",
+      "hora": "19:00",
+      "rede": "Reels",
+      "titulo": "Vídeo do jornal com música",
+      "oQue": "Vídeo de 48 s da edição 12 com música em alta e sem narração.",
+      "arquivos": [
+        {
+          "nome": "Vídeo da edição 12",
+          "url": "https://fontedemana.com.br/kit/ed12/video-vertical-ed12.mp4"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Precons de Star Trek atrasados nos EUA e na Europa, Countdown Kit da Marvel revelado e Astral Dragon subindo 52%. Tudo em fontedemana.com.br\n\nVocê já reservou algum precon de Star Trek?\n\nValores em reais pela cotação PTAX de 16 out (Banco Central).\n\n#mtg #magicthegathering #commander #edh #mtgbrasil\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        }
+      ],
+      "passos": [
+        "No Instagram, toque em + e escolha Reel.",
+        "Escolha o vídeo e adicione uma música em alta pela biblioteca do app, com volume baixo.",
+        "Cole a Legenda e publique."
+      ]
     }
-   ],
-   "roteiro": [
-    {
-     "cena": "Cena 1, uns 7 s",
-     "tela": "Swords ou Path: só cabe uma",
-     "fala": "Qual entra, episódio um. Swords ou Path? Um mana, exila qualquer criatura. Só cabe uma."
-    },
-    {
-     "cena": "Cena 2, uns 10 s",
-     "tela": "Números do EDHREC: Swords to Plowshares 2,93 mi (61,0%), Path to Exile 2,30 mi (47,8%)",
-     "fala": "No EDHREC, a Swords está em sessenta e um por cento dos decks com branco. A Path, em quarenta e oito."
-    },
-    {
-     "cena": "Cena 3, uns 6 s",
-     "tela": "Precon de Reality Fracture: Swords to Plowshares US$ 1,03 (R$ 5,20), Path to Exile US$ 0,97 (R$ 4,90)",
-     "fala": "No bolso, empate. As duas saem por um dólar, uns cinco reais."
-    },
-    {
-     "cena": "Cena 4, uns 10 s",
-     "tela": "Swords dá vida, Path dá terreno",
-     "fala": "Swords dá vida ao oponente, quase nunca importa. Path dá um terreno, que cedo acelera ele. Mas na sua criatura, Path vira rampa."
-    },
-    {
-     "cena": "Cena 5, uns 8 s",
-     "tela": "Comenta Swords ou Path",
-     "fala": "Comenta Swords ou Path, e manda pro amigo que joga as duas. Segue o arroba fonte de mana."
-    }
-   ],
-   "passos": [
-    "Grave um áudio por cena no Gravador do iPhone, num lugar silencioso, com o celular a um palmo da boca.",
-    "Nomeie os áudios cena_1, cena_2, cena_3, cena_4 e cena_5.",
-    "Mande os áudios ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"áudios do TikTok de 2026-10-17\"."
-   ]
-  },
-  {
-   "id": "tiktok",
-   "hora": "11:30",
-   "rede": "TikTok",
-   "titulo": "Qual entra? #1: Swords ou Path",
-   "oQue": "Duelo de remoção de um mana: números do EDHREC e preço lado a lado, quando cada uma ganha e o voto nos comentários. A Fonte de Mana não escolhe, a galera decide.",
-   "arquivos": [
-    {
-     "nome": "Vídeo do TikTok narrado",
-     "url": "https://fontedemana.com.br/pauta/2026-10-17/tiktok/tiktok-narrado.mp4"
-    }
-   ],
-   "textos": [
-    {
-     "rotulo": "Legenda",
-     "texto": "Qual entra? #1: Swords to Plowshares ou Path to Exile. Só tem vaga para uma.\nComenta Swords ou Path!\n\nNo EDHREC, Swords está em 2,93 milhões de decks e Path em 2,30 milhões.\nNo Scryfall, Swords sai por US$ 1,03 (R$ 5,20) e Path por US$ 0,97 (R$ 4,90), nas impressões do precon de Reality Fracture.\nReais pela cotação PTAX de 15 out (Banco Central).\n\nQual entra no seu deck?\n\n#mtg #magicthegathering #commander #edh #mtgbrasil #qualentra"
-    },
-    {
-     "rotulo": "Comentário fixado",
-     "texto": "Swords ou Path? Uma palavra só. E se você joga as duas, conta qual sai primeiro quando o deck aperta."
-    }
-   ],
-   "passos": [
-    "Poste com um som em alta da biblioteca do TikTok, volume entre 15% e 20%, por baixo da narração.",
-    "Voz própria não precisa de rótulo de IA.",
-    "Fixe o comentário logo depois de postar.",
-    "Se os áudios não chegarem, poste o vídeo mudo com música em alta."
-   ]
-  }
- ]
+  ]
 }
