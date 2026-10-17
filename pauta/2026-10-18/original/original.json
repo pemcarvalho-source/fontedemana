@@ -1,0 +1,119 @@
+{
+  "data": "2026-10-18",
+  "pilar": "todamesa",
+  "item": "O que demora 10 minutos no turno",
+  "tema": "Toda mesa tem um #1: o que demora 10 minutos no turno",
+  "cartas": [
+    "Sensei's Divining Top",
+    "Sylvan Library"
+  ],
+  "fx": null,
+  "carrossel": {
+    "capa": {
+      "cor": "M",
+      "chip": "Toda mesa tem um #1",
+      "kicker": "Marca quem é",
+      "titulo": "O que demora <b>10 minutos</b> no turno",
+      "sub": "Toda mesa de Commander tem um. Arrasta e vê se é o seu amigo. Ou se é <b>você</b>.",
+      "arte": "pauta/2026-10-18/tiktok/arte.jpg",
+      "credito": "Arte: Sensei's Divining Top, Michael Sutfin"
+    },
+    "cartoes": [
+      {
+        "cor": "M",
+        "titulo": "As frases dele",
+        "itens": [
+          {
+            "cor": "M",
+            "html": "\"Peraí, deixa eu só pensar.\""
+          },
+          {
+            "cor": "M",
+            "html": "\"Quantas cartas você tem na mão mesmo?\""
+          },
+          {
+            "cor": "M",
+            "html": "\"Tô quase, juro.\" E começa a ler o cemitério de todo mundo."
+          }
+        ],
+        "nota": {
+          "rotulo": "Sinal clássico",
+          "texto": "ele só começa a pensar quando chega a vez dele."
+        },
+        "fonte": "Fonte de Mana, observação de mesa"
+      },
+      {
+        "cor": "U",
+        "titulo": "O brinquedo favorito",
+        "carta": "pauta/2026-10-18/original/carta-1.jpg",
+        "itens": [
+          {
+            "cor": "U",
+            "html": "Paga 1, olha as três de cima e reordena. Pode fazer <b>no turno de qualquer um</b>."
+          },
+          {
+            "cor": "U",
+            "html": "Está em <b>371 mil decks</b> no EDHREC. Ou seja, tem um pião girando em muita mesa."
+          }
+        ],
+        "fonte": "Fonte: EDHREC e Scryfall, out 2026"
+      },
+      {
+        "cor": "G",
+        "titulo": "E quando ele joga verde",
+        "carta": "pauta/2026-10-18/original/carta-2.jpg",
+        "itens": [
+          {
+            "cor": "G",
+            "html": "Compra duas a mais. Depois escolhe duas e, para cada uma, paga 4 de vida ou devolve ao topo."
+          },
+          {
+            "cor": "G",
+            "html": "Toda etapa de compra vira uma <b>reunião de planejamento</b>."
+          }
+        ],
+        "fonte": "Fonte: Scryfall"
+      },
+      {
+        "cor": "W",
+        "titulo": "A dica de mesa",
+        "itens": [
+          {
+            "cor": "W",
+            "html": "Pensa no seu turno <b>enquanto os outros jogam</b>: olha a mesa e chega com o plano pronto."
+          },
+          {
+            "cor": "W",
+            "html": "A compra só muda o plano se for muito melhor do que o que você já ia fazer."
+          },
+          {
+            "cor": "W",
+            "html": "Vai olhar o topo com o pião? Olha uma vez e decide."
+          }
+        ],
+        "nota": {
+          "rotulo": "Resumo",
+          "texto": "a mesa espera com gosto quem já chega sabendo o que vai fazer."
+        },
+        "fonte": "Fontes: StarCityGames e Draftsim"
+      }
+    ],
+    "cta": {
+      "pergunta": "Seu grupo usa <b>TIMER</b> ou deixa o <b>PIÃO</b> girar?",
+      "quando": "Comenta TIMER ou PIÃO",
+      "salvar": "Manda pro amigo que gira o pião no seu turno"
+    }
+  },
+  "legenda": "Toda mesa de Commander tem um: o que demora 10 minutos no turno.\nA carta de Magic favorita dele: Sensei's Divining Top, em 371 mil decks no EDHREC.\nA dupla da demora: o pião e a Sylvan Library no mesmo deck.\n\nA dica de mesa: pensa no seu turno enquanto os outros jogam e chega na sua vez com o plano pronto. A compra só muda o plano se for muito melhor.\n\nFontes: EDHREC, Scryfall, StarCityGames e Draftsim.\nTodo dia tem notícia de Magic e Commander em fontedemana.com.br\n\nSeu grupo usa timer ou deixa o pião girar? Comenta TIMER ou PIÃO.\nE marca o amigo que é assim.\n\n#mtg #magicthegathering #commander #edh #mtgbrasil #magicbrasil #deckdecommander #cartasdemagic",
+  "threads": {
+    "texto": "Toda mesa de Commander tem um. Qual desses mais aparece na sua?\n\nA) O que demora 10 minutos no turno\nB) O que jura que o deck é casual\nC) O que esquece os próprios gatilhos\nD) O que pede pra ler a carta de novo\n\nResponde com a letra. E se marcar o amigo, melhor ainda.",
+    "obs": "Dá para postar como enquete do Threads com as quatro opções."
+  },
+  "enquete": {
+    "pergunta": "Seu grupo usa timer no turno de Commander?",
+    "opcoes": [
+      "Sim, timer na mesa",
+      "Não, o pião gira"
+    ]
+  }
+}

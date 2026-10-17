@@ -1,0 +1,81 @@
+{
+  "data": "2026-10-18",
+  "fx": null,
+  "avisos": [
+    {
+      "id": "gravacao",
+      "dia": "2026-10-17",
+      "hora": "18:30",
+      "rede": "Gravação",
+      "titulo": "Gravar a narração do TikTok de amanhã",
+      "oQue": "Toda mesa tem um #1: o que demora 10 minutos no turno. Cinco cenas curtas, uns 40 segundos de fala no total. Fala solta, tom de quem zoa o amigo na mesa.",
+      "arquivos": [
+        {
+          "nome": "Vídeo mudo para ensaiar",
+          "url": "https://fontedemana.com.br/pauta/2026-10-18/tiktok/tiktok-mudo.mp4"
+        }
+      ],
+      "roteiro": [
+        {
+          "cena": "Cena 1, uns 8 s",
+          "tela": "Toda mesa tem um que demora 10 minutos no turno",
+          "fala": "Toda mesa de Commander tem um. O que demora dez minutos no turno. Talvez seja você."
+        },
+        {
+          "cena": "Cena 2, uns 9 s",
+          "tela": "\"Peraí, deixa eu só pensar\"",
+          "fala": "Ele diz peraí, deixa eu só pensar. Pergunta quantas cartas você tem na mão. E jura que tá quase."
+        },
+        {
+          "cena": "Cena 3, uns 12 s",
+          "tela": "Sensei's Divining Top, 371 mil decks no EDHREC",
+          "fala": "A carta preferida dele é o pião, Sensei's Divining Top, em mais de trezentos e setenta mil decks no EDHREC. Olha o topo e reordena, todo turno."
+        },
+        {
+          "cena": "Cena 4, uns 10 s",
+          "tela": "Pensa no seu turno no turno dos outros",
+          "fala": "A dica: pensa no seu turno enquanto os outros jogam. Na sua vez, só muda o plano se a compra for muito melhor."
+        },
+        {
+          "cena": "Cena 5, uns 6 s",
+          "tela": "Manda pro amigo que gira o pião no seu turno",
+          "fala": "Marca o amigo que é assim. E segue a Fonte de Mana."
+        }
+      ],
+      "passos": [
+        "Grave um áudio por cena no Gravador do iPhone, num lugar silencioso, com o celular a um palmo da boca.",
+        "Nomeie os áudios cena_1, cena_2, cena_3, cena_4 e cena_5.",
+        "Mande os áudios ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"áudios do TikTok de 2026-10-18\"."
+      ]
+    },
+    {
+      "id": "tiktok",
+      "hora": "11:30",
+      "rede": "TikTok",
+      "titulo": "TikTok: Toda mesa tem um #1, o que demora no turno",
+      "oQue": "Primeiro da série Toda mesa tem um: o jogador que demora 10 minutos no turno, a carta favorita dele (Sensei's Divining Top) e a dica de mesa.",
+      "arquivos": [
+        {
+          "nome": "Vídeo do TikTok",
+          "url": "https://fontedemana.com.br/pauta/2026-10-18/tiktok/tiktok-mudo.mp4"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Toda mesa de Commander tem um: o que demora 10 minutos no turno 😅\nA carta favorita dele? Sensei's Divining Top, em mais de 370 mil decks no EDHREC.\nA dica: pensa no seu turno enquanto os outros jogam.\nSeu grupo usa timer? Comenta TIMER ou PIÃO.\nE marca aqui o amigo que é assim.\n#mtg #magicthegathering #commander #edh #mtgbrasil #magicbrasil"
+        },
+        {
+          "rotulo": "Comentário fixado",
+          "texto": "Comenta TIMER ou PIÃO: seu grupo põe timer na mesa ou deixa o pião girar à vontade? 👇"
+        }
+      ],
+      "passos": [
+        "Poste com um som em alta da biblioteca do TikTok, volume entre 15% e 20% para não cobrir a voz.",
+        "Voz própria não precisa de rótulo de IA.",
+        "Fixe o comentário logo depois de postar.",
+        "Se os áudios não chegarem a tempo, poste o vídeo mudo com música em alta."
+      ]
+    }
+  ]
+}

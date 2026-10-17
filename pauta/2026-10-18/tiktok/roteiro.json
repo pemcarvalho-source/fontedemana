@@ -1,0 +1,67 @@
+{
+  "data": "2026-10-18",
+  "tema": "Toda mesa tem um #1: o que demora 10 minutos no turno",
+  "item": "O que demora 10 minutos no turno",
+  "arte": "pauta/2026-10-18/tiktok/arte.jpg",
+  "carta": "pauta/2026-10-18/tiktok/carta.jpg",
+  "credito": "Arte: Sensei's Divining Top, Michael Sutfin",
+  "fx": null,
+  "legenda": "Toda mesa de Commander tem um: o que demora 10 minutos no turno 😅\nA carta favorita dele? Sensei's Divining Top, em mais de 370 mil decks no EDHREC.\nA dica: pensa no seu turno enquanto os outros jogam.\nSeu grupo usa timer? Comenta TIMER ou PIÃO.\nE marca aqui o amigo que é assim.\n#mtg #magicthegathering #commander #edh #mtgbrasil #magicbrasil",
+  "comentario": "Comenta TIMER ou PIÃO: seu grupo põe timer na mesa ou deixa o pião girar à vontade? 👇",
+  "cenas": [
+    {
+      "tipo": "gancho",
+      "cor": "M",
+      "chip": "Toda mesa #1",
+      "kicker": "Marca quem é",
+      "titulo": "Toda mesa tem um que demora <b>10 minutos</b> no turno",
+      "sub": "Você conhece. Talvez você seja.",
+      "narracao": "Toda mesa de Commander tem um. O que demora dez minutos no turno. Talvez seja você.",
+      "segundos": 7.6
+    },
+    {
+      "tipo": "texto",
+      "cor": "M",
+      "kicker": "As frases dele",
+      "titulo": "\"Peraí, deixa eu só pensar\"",
+      "sub": "\"Quantas cartas você tem na mão?\" e \"tô quase, juro\", enquanto lê o cemitério de todo mundo.",
+      "narracao": "Ele diz peraí, deixa eu só pensar. Pergunta quantas cartas você tem na mão. E jura que tá quase.",
+      "segundos": 8.8
+    },
+    {
+      "tipo": "lista",
+      "cor": "U",
+      "chip": "A carta dele",
+      "kicker": "O brinquedo favorito",
+      "linhas": [
+        {
+          "nome": "Sensei's Divining Top",
+          "valor": "371 mil",
+          "real": "decks"
+        }
+      ],
+      "rodape": "Pagar 1, olhar o topo, reordenar. <b>Todo turno. De todo mundo.</b>",
+      "fonte": "Fonte: EDHREC, out 2026",
+      "narracao": "A carta preferida dele é o pião, Sensei's Divining Top, em mais de trezentos e setenta mil decks no EDHREC. Olha o topo e reordena, todo turno.",
+      "segundos": 12
+    },
+    {
+      "tipo": "texto",
+      "cor": "W",
+      "kicker": "A dica de mesa",
+      "titulo": "Pensa no seu turno <b>no turno dos outros</b>",
+      "sub": "Olha a mesa enquanto eles jogam e chega na sua vez já com o plano. A compra só muda o plano se for muito melhor.",
+      "narracao": "A dica: pensa no seu turno enquanto os outros jogam. Na sua vez, só muda o plano se a compra for muito melhor.",
+      "segundos": 10.4
+    },
+    {
+      "tipo": "cta",
+      "cor": "M",
+      "kicker": "Marca o amigo que é assim",
+      "titulo": "Manda pro amigo que gira o pião no seu turno",
+      "destaque": "@fontedemana",
+      "narracao": "Marca o amigo que é assim. E segue a Fonte de Mana.",
+      "segundos": 6
+    }
+  ]
+}
