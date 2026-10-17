@@ -124,6 +124,8 @@ Números de antes da estratégia nova, para comparar nas revisões.
 
 ## Histórico de ajustes
 
+- 17 out 2026: vídeos do TikTok e Reels do jornal com o texto dentro da zona segura do celular (entre x 120 e 880 e acima de y 1560 no quadro de 1080x1920), depois que o Paulo viu o TikTok cortando a esquerda num iPhone. O app amplia o vídeo para preencher a tela e corta as laterais.
+
 - 16 out 2026, v4: lote 2 de referências (review de precon com nota própria); lembretes de engajamento em `plano.json` (engajamento), mostrados pelo `contexto.cjs` em todo pilar; ideia Nota da Mesa registrada em `FORMATOS.md`.
 
 - 15 out 2026, v3: calendário de datas comemorativas (16 datas, de Halloween e Dia do Saci a Dia das Crianças), com tema, ângulo por pilar, buscas e cartas conferidas no Scryfall; o jornal também vê a data e prefere um Topdeck do tema.

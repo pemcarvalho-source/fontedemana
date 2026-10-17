@@ -263,13 +263,13 @@ html,body{width:1080px;height:1920px;overflow:hidden}
 .scene{position:absolute;inset:0;opacity:0}
 .a{opacity:0;will-change:transform,opacity}
 .bgblur{position:absolute;inset:-80px;background-size:cover;background-position:50% 50%;filter:blur(36px) brightness(.42) saturate(1.1)}
-.bug{position:absolute;left:70px;top:236px;font-size:44px}
-.stack{position:absolute;left:70px;right:150px;display:flex;flex-direction:column}
-.artbox{position:absolute;left:70px;top:316px;width:850px;height:620px;overflow:hidden;border-radius:14px;box-shadow:0 0 0 8px #0b0a09,0 0 0 18px #C8A345,0 0 0 22px #0b0a09,0 40px 80px -20px rgba(0,0,0,.9)}
+.bug{position:absolute;left:120px;top:236px;font-size:44px}
+.stack{position:absolute;left:120px;right:200px;display:flex;flex-direction:column}
+.artbox{position:absolute;left:120px;top:316px;width:760px;height:556px;overflow:hidden;border-radius:14px;box-shadow:0 0 0 8px #0b0a09,0 0 0 18px #C8A345,0 0 0 22px #0b0a09,0 40px 80px -20px rgba(0,0,0,.9)}
 .kbimg{position:absolute;inset:0;background-size:cover;background-position:50% 45%;transform-origin:55% 45%}
-.s1 .stack{top:1000px;gap:26px}
+.s1 .stack{top:936px;gap:24px}
 .s1 .kicker{font-size:34px}
-.s1 h1{font-family:CZ;font-weight:700;font-size:86px;line-height:1.04;text-shadow:0 4px 18px rgba(0,0,0,.7)}
+.s1 h1{font-family:CZ;font-weight:700;font-size:80px;line-height:1.04;text-shadow:0 4px 18px rgba(0,0,0,.7)}
 .pills{display:flex;flex-wrap:wrap;gap:18px;margin-top:8px}
 .pill{font-family:CZ;font-weight:700;font-size:38px;padding:14px 26px;border-radius:99px;background:#F2E1A5;color:#14110D;border:3px solid #0b0a09;box-shadow:0 6px 0 rgba(0,0,0,.45)}
 .s2 .stack{top:330px;gap:28px}
@@ -283,9 +283,9 @@ html,body{width:1080px;height:1920px;overflow:hidden}
 .vrow .pct{grid-row:1/3;grid-column:2;font-family:CZ;font-weight:700;font-size:120px;color:#1F6B3F;line-height:1}
 .vline{font-size:48px;line-height:1.2;color:#16130F}
 .s2 .src{font-size:28px}
-.s3 .kicker{position:absolute;left:70px;top:300px;font-size:36px}
-.s3 .cimg{position:absolute;left:235px;top:380px;width:520px;border-radius:26px;box-shadow:0 0 0 6px #0b0a09,0 40px 80px -20px rgba(0,0,0,.95)}
-.s3 .tdname{position:absolute;left:70px;right:150px;top:520px;font-family:CZ;font-weight:700;font-size:96px;line-height:1.05}
+.s3 .kicker{position:absolute;left:120px;top:300px;font-size:36px}
+.s3 .cimg{position:absolute;left:280px;top:380px;width:520px;border-radius:26px;box-shadow:0 0 0 6px #0b0a09,0 40px 80px -20px rgba(0,0,0,.95)}
+.s3 .tdname{position:absolute;left:120px;right:200px;top:520px;font-family:CZ;font-weight:700;font-size:96px;line-height:1.05}
 .s3 .stack{top:1150px;gap:26px}
 .ab{font-size:52px;line-height:1.15;color:#EDE7D9}
 .ab b{font-family:CZ;font-weight:700;color:var(--goldtxt)}
@@ -301,10 +301,10 @@ html,body{width:1080px;height:1920px;overflow:hidden}
 .s4 .rum{border:4px dashed #8A8698;border-radius:26px;padding:34px 38px;background:rgba(15,15,19,.75)}
 .s4 .rum .kicker{font-size:30px;color:#C9C4D6}
 .s4 .rum p{font-size:50px;line-height:1.2;margin-top:14px}
-.s5 .c{position:absolute;left:60px;right:60px;text-align:center}
+.s5 .c{position:absolute;left:120px;right:120px;text-align:center}
 .s5 .brand{font-size:94px;white-space:nowrap}
 .s5 .when{font-size:56px;color:#E6DFCF}
-.s5 .pool{position:absolute;left:90px;right:90px;top:930px;height:150px}
+.s5 .pool{position:absolute;left:120px;right:120px;top:930px;height:150px}
 .s5 .url{font-family:CZ;font-weight:700;font-size:66px;letter-spacing:.05em;color:var(--goldtxt)}
 .s5 .bio{font-family:CZ;font-weight:700;font-size:36px;letter-spacing:.16em;color:var(--muted)}
 .s5 .follow{display:inline-block;font-family:CZ;font-weight:700;font-size:48px;padding:18px 40px;border-radius:99px;background:#F2E1A5;color:#14110D;border:3px solid #0b0a09;box-shadow:0 8px 0 rgba(0,0,0,.45)}
@@ -572,6 +572,8 @@ function writePages() {
 }
 
 /* ---------- principal ---------- */
+function fail(lista) { console.log('ERROS:\n' + lista.map(e => '  ' + e).join('\n')); process.exit(1); }
+
 (async () => {
   if (!exists(path.join(DIR, 'kit.json'))) { console.error(`Não achei kit/ed${N}/kit.json`); process.exit(2); }
   const sp = readSpec(N);
