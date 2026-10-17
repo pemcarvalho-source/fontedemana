@@ -1,0 +1,207 @@
+{
+ "n": 12,
+ "data": "17 out",
+ "carrossel": {
+  "capa": {
+   "cor": "G",
+   "titulo": "Precons de Star Trek atrasam nos EUA e na Europa",
+   "sub": "A Wizards avisa que os <b>decks de Commander</b> podem chegar depois de 13 de novembro. Pré e Play Boosters seguem no prazo.",
+   "credito": "Arte: Delay, Svetlin Velinov"
+  },
+  "cartoes": [
+   {
+    "cor": "G",
+    "titulo": "Star Trek: o que atrasa",
+    "itens": [
+     {
+      "cor": "G",
+      "html": "<b>EUA e Canadá:</b> decks de Commander podem chegar depois de 13 de novembro."
+     },
+     {
+      "cor": "G",
+      "html": "<b>Europa:</b> atrasam Commander, Collector Boosters, Scene Boxes e Beam Me Up Bundle."
+     },
+     {
+      "cor": "G",
+      "html": "<b>Ásia e Pacífico:</b> precons no prazo, Collector Boosters e Bundles atrasam."
+     },
+     {
+      "cor": "W",
+      "html": "Pré em 6 de novembro e lançamento em 13 de novembro continuam."
+     }
+    ],
+    "nota": {
+     "rotulo": "No Brasil",
+     "texto": "o comunicado não cita a América Latina. Reservou precon? Confirme a data com a sua loja."
+    },
+    "fonte": "Fontes: Wizards of the Coast e MTG Rocks"
+   },
+   {
+    "cor": "A",
+    "titulo": "Countdown Kit da Marvel",
+    "itens": [
+     {
+      "cor": "A",
+      "html": "30 cartas por <b>US$ 199,99 (R$ 1.016,47)</b>, só no site do Secret Lair, em 2 de novembro."
+     },
+     {
+      "cor": "G",
+      "html": "Duas cartas novas de Darkhold Destiny: Doctor Strange, Master of Magic e Beta Ray Bill."
+     },
+     {
+      "cor": "A",
+      "html": "Reimpressões somam de US$ 248 a US$ 256, com Fierce Guardianship a cerca de US$ 59."
+     }
+    ],
+    "fonte": "Fontes: Wizards, MTG Rocks e Draftsim. Reais: PTAX de 16 out"
+   },
+   {
+    "cor": "A",
+    "titulo": "Weekly Winners",
+    "linhas": [
+     {
+      "nome": "Magister Sphinx",
+      "valor": "+99%",
+      "sub": "foi a US$ 7,94 (R$ 40,36)",
+      "porque": "onda das esfinges de The Ur-Sphinx"
+     },
+     {
+      "nome": "Astral Dragon",
+      "valor": "+52%",
+      "sub": "foi a US$ 48,52 (R$ 246,61)",
+      "porque": "upgrade do precon Multiverse Reforged"
+     },
+     {
+      "nome": "The Theorist, Jace Beleren",
+      "valor": "+50%",
+      "sub": "foi a US$ 75,05 (R$ 381,45)",
+      "porque": "procura no Commander e no cEDH"
+     }
+    ],
+    "fonte": "Fonte: MTGStocks. Reais: PTAX de 16 out"
+   }
+  ],
+  "topdeck": {
+   "titulo": "Astral Dragon",
+   "habilidades": [
+    {
+     "rotulo": "Projetar imagem",
+     "texto": "Cria duas cópias de um artefato ou encantamento como dragões 3/3 voadores."
+    },
+    {
+     "rotulo": "Copia do oponente",
+     "texto": "Pode copiar a permanente de outro jogador, e as cópias ficam com você."
+    },
+    {
+     "rotulo": "Pega no pulo",
+     "texto": "As cópias são criaturas: Sol Ring copiado só gera mana no seu próximo turno."
+    }
+   ],
+   "extra": "Em <b>66,2 mil</b> decks no EDHREC. Subiu 52% na semana, para US$ 48,52 (R$ 246,61). Reais: PTAX de 16 out.",
+   "credito": "Ilustração de Anastasia Ovchinnikova"
+  },
+  "ban": null,
+  "turnos": [
+   {
+    "cor": "A",
+    "data": "19 out",
+    "texto": "Festival in a Box: Atlanta"
+   },
+   {
+    "cor": "A",
+    "data": "23 out",
+    "texto": "Secret Lair Bundle de Reality Fracture"
+   },
+   {
+    "cor": "W",
+    "data": "23 a 29 out",
+    "texto": "Segunda rodada da Festa de Commander"
+   },
+   {
+    "cor": "A",
+    "data": "2 nov",
+    "texto": "Venda do Countdown Kit da Marvel"
+   },
+   {
+    "cor": "G",
+    "data": "6 a 12 nov",
+    "texto": "Pré de Star Trek nas lojas"
+   }
+  ],
+  "sussurro": null
+ },
+ "video": {
+  "cena1": {
+   "titulo": "Precons de Star Trek atrasam nos EUA e na Europa",
+   "pilulas": [
+    "Commander após 13/11",
+    "Pré segue em 6/11",
+    "Brasil não citado"
+   ]
+  },
+  "cena2": {
+   "rotulo": "No bolso",
+   "cor": "A",
+   "titulo": "Weekly Winners da semana",
+   "linhas": [
+    {
+     "nome": "Astral Dragon",
+     "numero": 52,
+     "prefixo": "+",
+     "sufixo": "%",
+     "sub": "US$ 48,52 (R$ 246,61)"
+    },
+    {
+     "nome": "Jace Beleren",
+     "numero": 50,
+     "prefixo": "+",
+     "sufixo": "%",
+     "sub": "US$ 75,05 (R$ 381,45)"
+    }
+   ],
+   "fonte": "Fonte: MTGStocks. Reais: PTAX de 16 out"
+  },
+  "cena3": {
+   "linhas": [
+    "<b>Astral Dragon</b> copia duas vezes um artefato seu.",
+    "As cópias viram dragões 3/3 voadores.",
+    "Com Cursed Mirror, vira combo de cópias infinitas."
+   ]
+  },
+  "cena4": {
+   "texto": "Segunda tem Festival in a Box. Dia 2 de novembro abre a venda do Countdown Kit da Marvel.",
+   "sussurro": null
+  }
+ },
+ "textos": {
+  "legendaCarrossel": "Os precons de Commander de Star Trek vão atrasar nos EUA e na Europa. A Wizards avisou na sexta que os decks podem chegar só depois do lançamento de 13 de novembro. Pré e Play Boosters seguem no prazo, e o comunicado não cita a América Latina.\n\nNa edição de hoje também tem a lista completa do Countdown Kit da Marvel, com duas cartas novas de Darkhold Destiny, e o Weekly Winners do MTGStocks com Astral Dragon subindo 52%.\n\nO Topdeck do Dia é o próprio Astral Dragon, o dragão que copia seus artefatos e encantamentos.\n\nEdição completa em fontedemana.com.br\n\nArtes: Delay, de Svetlin Velinov. Astral Dragon, de Anastasia Ovchinnikova.\n\nValores em reais pela cotação PTAX de 16 out (Banco Central).\n\n#mtg #magicthegathering #commander #edh #mtgbrasil #startrek #fontedemana",
+  "legendaVideo": "Precons de Star Trek atrasados nos EUA e na Europa, Countdown Kit da Marvel revelado e Astral Dragon subindo 52%. Tudo em fontedemana.com.br\n\nVocê já reservou algum precon de Star Trek?\n\nValores em reais pela cotação PTAX de 16 out (Banco Central).\n\n#mtg #magicthegathering #commander #edh #mtgbrasil",
+  "threadsFio": [
+   "Fonte de Mana de sábado, 17 de outubro. A Wizards avisou que parte dos produtos de Star Trek vai atrasar por problemas de produção e frete. O mais afetado: os precons de Commander.",
+   "Nos EUA e no Canadá, os decks de Commander podem chegar depois do lançamento de 13 de novembro. Na Europa atrasam também Collector Boosters, Scene Boxes e o Beam Me Up Bundle. O pré de 6 de novembro continua, e o comunicado não cita a América Latina.",
+   "O Countdown Kit da Marvel teve as 30 cartas reveladas. Custa US$ 199,99 (R$ 1.016,47), sai em 2 de novembro só no site do Secret Lair e traz Doctor Strange, Master of Magic e Beta Ray Bill antes de Darkhold Destiny.",
+   "No Weekly Winners do MTGStocks: Magister Sphinx +99%, Astral Dragon +52% a US$ 48,52 (R$ 246,61) e The Theorist, Jace Beleren +50% a US$ 75,05 (R$ 381,45).",
+   "Topdeck do Dia: Astral Dragon. Entra e cria duas cópias de um artefato, encantamento ou terreno, só que como dragões 3/3 voadores. Edição completa em fontedemana.com.br\n\nValores em reais pela cotação PTAX de 16 out (Banco Central)."
+  ],
+  "threadsAvulsos": [
+   {
+    "titulo": "Pergunta do dia",
+    "texto": "Os precons de Commander de Star Trek podem atrasar nos EUA e na Europa. Você vai comprar algum deles ou vai esperar ver as listas na mesa primeiro?",
+    "obs": "Enquete: vou comprar, vou esperar, não ligo pra Star Trek"
+   }
+  ]
+ },
+ "pauta": {
+  "forca": "forte",
+  "porque": "Anúncio oficial de ontem: precons de Commander de Star Trek atrasam nos EUA e na Europa, fato novo que mexe na compra.",
+  "storyPergunta": "Você reservou algum precon de Star Trek?",
+  "enquete": {
+   "pergunta": "Precon de Star Trek atrasado: e aí?",
+   "opcoes": [
+    "Espero o meu",
+    "Desisti",
+    "Nem ia comprar"
+   ]
+  }
+ }
+}
