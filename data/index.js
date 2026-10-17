@@ -1,6 +1,7 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "Astral Dragon",
   "Vraska, Betrayal's Sting",
   "Tribute to the World Tree",
   "Kinnan, Bonder Prodigy",
@@ -10,6 +11,13 @@ window.MANA_POOL_INDEX = {
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 12,
+   "date": "2026-10-17",
+   "dateLabel": "Sábado, 17 de outubro de 2026",
+   "head": "Precons de Commander de Star Trek atrasam nos EUA e na Europa",
+   "biome": "G"
+  },
   {
    "n": 11,
    "date": "2026-10-16",
