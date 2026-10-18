@@ -1,0 +1,72 @@
+{
+ "data": "2026-10-19",
+ "tema": "História de uma carta #1: Sol Ring, 33 anos e em 83% dos decks de Commander",
+ "item": "Sol Ring",
+ "arte": "pauta/2026-10-19/tiktok/arte.jpg",
+ "carta": "pauta/2026-10-19/tiktok/carta.jpg",
+ "credito": "Arte: Sol Ring, Mark Tedin",
+ "fx": "Reais pela cotação PTAX de 16 out (Banco Central)",
+ "legenda": "O Sol Ring tem 33 anos e está em 83% dos decks de Commander no EDHREC. Da Alpha de 1993 aos precons de hoje, a história do anel de 1 mana que ninguém tira do deck.\n\nVocê joga Sol Ring? Comenta em qual comandante.\n\nPreços do Scryfall. Reais pela cotação PTAX de 16 out (Banco Central).\n\n#mtg #magicthegathering #commander #edh #solring #mtgbrasil #magicbrasil",
+ "comentario": "Comenta o comandante que mais usa seu Sol Ring. E qual foi o turno 1 mais absurdo que você já viu com ele?",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "cor": "M",
+   "chip": "História #1",
+   "kicker": "Sol Ring, Alpha 1993",
+   "titulo": "33 anos e em 83% dos decks de Commander",
+   "sub": "Um anel de 1 mana que saiu na primeira coleção de Magic e nunca mais largou a mesa.",
+   "narracao": "Essa carta tem 33 anos e está em 83% dos decks de Commander do EDHREC. É o Sol Ring.",
+   "segundos": 8.8
+  },
+  {
+   "tipo": "texto",
+   "cor": "M",
+   "kicker": "Da Alpha ao primeiro precon",
+   "titulo": "Paga 1, ganha 2 de mana",
+   "sub": "Incomum na Alpha, com arte de Mark Tedin. Em 2011, veio em cada um dos cinco primeiros precons de Commander.",
+   "narracao": "Saiu na Alpha, em 1993, como incomum. Paga um, ganha dois de mana todo turno. Em 2011, veio em cada um dos cinco primeiros precons de Commander.",
+   "segundos": 12
+  },
+  {
+   "tipo": "lista",
+   "cor": "A",
+   "chip": "No bolso",
+   "kicker": "Quanto custa um Sol Ring",
+   "linhas": [
+    {
+     "nome": "Beta (1993)",
+     "valor": "US$ 869,99",
+     "real": "(R$ 4.421,81)"
+    },
+    {
+     "nome": "Foundations Commander",
+     "valor": "US$ 1,22",
+     "real": "(R$ 6,20)"
+    }
+   ],
+   "rodape": "Já são 134 versões em papel, com arte de mais de 60 artistas.",
+   "fonte": "Scryfall, 18 out 2026",
+   "narracao": "Um de Beta passa de 869 dólares, uns 4.400 reais. O mais barato sai por um dólar e vinte, uns 6 reais.",
+   "segundos": 10
+  },
+  {
+   "tipo": "texto",
+   "cor": "B",
+   "kicker": "Banido? Não no Commander",
+   "titulo": "Banido no Legacy, intocável no Commander",
+   "sub": "Em 2024 caíram Mana Crypt e Jeweled Lotus. O comitê disse que banir o Sol Ring mudaria a identidade do formato.",
+   "narracao": "No Legacy ele é banido. Mas em 2024 o comitê do Commander disse que tirar o Sol Ring mudaria a cara do formato.",
+   "segundos": 10.4
+  },
+  {
+   "tipo": "cta",
+   "cor": "M",
+   "kicker": "Todo dia no Instagram",
+   "titulo": "Você joga Sol Ring? Em qual comandante?",
+   "destaque": "@fontedemana",
+   "narracao": "Você joga Sol Ring? Comenta em qual comandante e segue a Fonte de Mana.",
+   "segundos": 6.8
+  }
+ ]
+}

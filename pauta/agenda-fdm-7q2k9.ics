@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-10-15-gravacao@fontedemana.com.br
-DTSTAMP:20261018T102135Z
+DTSTAMP:20261018T212627Z
 DTSTART:20261014T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -51,7 +51,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-15-tiktok@fontedemana.com.br
-DTSTAMP:20261018T102135Z
+DTSTAMP:20261018T212627Z
 DTSTART:20261015T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: TikTok: Top 5 Elementais para Ashling
@@ -80,7 +80,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-15-threads-manha@fontedemana.com.br
-DTSTAMP:20261018T102135Z
+DTSTAMP:20261018T212627Z
 DTSTART:20261015T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Os 5 Elementais que mais aparecem nos decks 
@@ -106,7 +106,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-15-stories-manha@fontedemana.com.br
-DTSTAMP:20261018T102135Z
+DTSTAMP:20261018T212627Z
 DTSTART:20261015T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -126,7 +126,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-15-feed@fontedemana.com.br
-DTSTAMP:20261018T102135Z
+DTSTAMP:20261018T212627Z
 DTSTART:20261015T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Top 5: Os 5 Elementais que mais aparecem nos 
@@ -171,7 +171,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-15-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261018T102135Z
+DTSTAMP:20261018T212627Z
 DTSTART:20261015T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -190,7 +190,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-15-threads-tarde@fontedemana.com.br
-DTSTAMP:20261018T102135Z
+DTSTAMP:20261018T212627Z
 DTSTART:20261015T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 10
@@ -228,7 +228,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-15-stories-tarde@fontedemana.com.br
-DTSTAMP:20261018T102135Z
+DTSTAMP:20261018T212627Z
 DTSTART:20261015T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -248,7 +248,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-15-reels@fontedemana.com.br
-DTSTAMP:20261018T102135Z
+DTSTAMP:20261018T212627Z
 DTSTART:20261015T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -276,7 +276,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-16-gravacao@fontedemana.com.br
-DTSTAMP:20261018T102135Z
+DTSTAMP:20261018T212627Z
 DTSTART:20261015T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -313,7 +313,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-16-tiktok@fontedemana.com.br
-DTSTAMP:20261018T102135Z
+DTSTAMP:20261018T212627Z
 DTSTART:20261016T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Chama o Juiz #1: comandante roubado conta dano?
@@ -340,7 +340,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-16-threads-manha@fontedemana.com.br
-DTSTAMP:20261018T102135Z
+DTSTAMP:20261018T212627Z
 DTSTART:20261016T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Chama o Juiz #1: comandante roubado bate em 
@@ -366,7 +366,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-16-stories-manha@fontedemana.com.br
-DTSTAMP:20261018T102135Z
+DTSTAMP:20261018T212627Z
 DTSTART:20261016T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -386,7 +386,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-16-feed@fontedemana.com.br
-DTSTAMP:20261018T102135Z
+DTSTAMP:20261018T212627Z
 DTSTART:20261016T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Chama o Juiz #1: comandante roubado bate em v
@@ -422,7 +422,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-16-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261018T102135Z
+DTSTAMP:20261018T212627Z
 DTSTART:20261016T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -441,7 +441,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-16-threads-tarde@fontedemana.com.br
-DTSTAMP:20261018T102135Z
+DTSTAMP:20261018T212627Z
 DTSTART:20261016T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 11
@@ -477,7 +477,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-16-stories-tarde@fontedemana.com.br
-DTSTAMP:20261018T102135Z
+DTSTAMP:20261018T212627Z
 DTSTART:20261016T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -497,7 +497,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-16-reels@fontedemana.com.br
-DTSTAMP:20261018T102135Z
+DTSTAMP:20261018T212627Z
 DTSTART:20261016T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -524,7 +524,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-17-gravacao@fontedemana.com.br
-DTSTAMP:20261018T102135Z
+DTSTAMP:20261018T212627Z
 DTSTART:20261016T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -561,7 +561,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-17-tiktok@fontedemana.com.br
-DTSTAMP:20261018T102135Z
+DTSTAMP:20261018T212627Z
 DTSTART:20261017T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Qual entra? #1: Swords ou Path
@@ -593,7 +593,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-17-threads-manha@fontedemana.com.br
-DTSTAMP:20261018T102135Z
+DTSTAMP:20261018T212627Z
 DTSTART:20261017T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Você vai comprar algum deles ou va
@@ -615,7 +615,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-17-stories-manha@fontedemana.com.br
-DTSTAMP:20261018T102135Z
+DTSTAMP:20261018T212627Z
 DTSTART:20261017T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -635,7 +635,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-17-feed@fontedemana.com.br
-DTSTAMP:20261018T102135Z
+DTSTAMP:20261018T212627Z
 DTSTART:20261017T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 12
@@ -675,7 +675,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-17-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261018T102135Z
+DTSTAMP:20261018T212627Z
 DTSTART:20261017T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -694,7 +694,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-17-threads-tarde@fontedemana.com.br
-DTSTAMP:20261018T102135Z
+DTSTAMP:20261018T212627Z
 DTSTART:20261017T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 12
@@ -732,7 +732,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-17-stories-tarde@fontedemana.com.br
-DTSTAMP:20261018T102135Z
+DTSTAMP:20261018T212627Z
 DTSTART:20261017T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -752,7 +752,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-17-reels@fontedemana.com.br
-DTSTAMP:20261018T102135Z
+DTSTAMP:20261018T212627Z
 DTSTART:20261017T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -779,7 +779,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-gravacao@fontedemana.com.br
-DTSTAMP:20261018T102135Z
+DTSTAMP:20261018T212627Z
 DTSTART:20261017T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -814,7 +814,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-tiktok@fontedemana.com.br
-DTSTAMP:20261018T102135Z
+DTSTAMP:20261018T212627Z
 DTSTART:20261018T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Toda mesa tem um #1\, o que demora no turno
@@ -843,7 +843,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-threads-manha@fontedemana.com.br
-DTSTAMP:20261018T102135Z
+DTSTAMP:20261018T212627Z
 DTSTART:20261018T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Toda mesa tem um #1: o que demora 10 minutos
@@ -867,7 +867,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-stories-manha@fontedemana.com.br
-DTSTAMP:20261018T102135Z
+DTSTAMP:20261018T212627Z
 DTSTART:20261018T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -887,7 +887,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-feed@fontedemana.com.br
-DTSTAMP:20261018T102135Z
+DTSTAMP:20261018T212627Z
 DTSTART:20261018T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Toda mesa tem um #1: o que demora 10 minutos 
@@ -927,7 +927,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261018T102135Z
+DTSTAMP:20261018T212627Z
 DTSTART:20261018T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -946,7 +946,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-threads-tarde@fontedemana.com.br
-DTSTAMP:20261018T102135Z
+DTSTAMP:20261018T212627Z
 DTSTART:20261018T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 13
@@ -982,7 +982,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-stories-tarde@fontedemana.com.br
-DTSTAMP:20261018T102135Z
+DTSTAMP:20261018T212627Z
 DTSTART:20261018T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1002,7 +1002,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-reels@fontedemana.com.br
-DTSTAMP:20261018T102135Z
+DTSTAMP:20261018T212627Z
 DTSTART:20261018T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -1024,6 +1024,78 @@ URL:https://fontedemana.com.br/pauta/2026-10-18/#reels
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Reels: Vídeo do jornal com música
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-19-gravacao@fontedemana.com.br
+DTSTAMP:20261018T212627Z
+DTSTART:20261018T213000Z
+DURATION:PT15M
+SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
+DESCRIPTION:História de uma carta #1: Sol Ring. São 5 cenas curtas\, uns 
+ 38 s no total. Leia a fala de cada cena num áudio separado\, com calma e 
+ no tom de quem conta um causo da mesa.\n\nArquivos:\n- Vídeo mudo (tiktok
+ -mudo.mp4): https://fontedemana.com.br/pauta/2026-10-19/tiktok/tiktok-mudo
+ .mp4\n\nRoteiro de gravação:\nCena 1\, uns 7 s\nNa tela: 33 anos e em 83
+ % dos decks de Commander. Um anel de 1 mana que saiu na primeira coleção
+  de Magic e nunca mais largou a mesa.\nFala: Essa carta tem 33 anos e est
+ á em 83% dos decks de Commander do EDHREC. É o Sol Ring.\n\nCena 2\, uns
+  10 s\nNa tela: Paga 1\, ganha 2 de mana. Incomum na Alpha\, com arte de M
+ ark Tedin. Em 2011\, veio em cada um dos cinco primeiros precons de Comman
+ der.\nFala: Saiu na Alpha\, em 1993\, como incomum. Paga um\, ganha dois d
+ e mana todo turno. Em 2011\, veio em cada um dos cinco primeiros precons d
+ e Commander.\n\nCena 3\, uns 8 s\nNa tela: Quanto custa um Sol Ring: Beta 
+ (1993) US$ 869\,99 (R$ 4.421\,81)\, Foundations Commander US$ 1\,22 (R$ 6\
+ ,20)\nFala: Um de Beta passa de 869 dólares\, uns 4.400 reais. O mais bar
+ ato sai por um dólar e vinte\, uns 6 reais.\n\nCena 4\, uns 8 s\nNa tela:
+  Banido no Legacy\, intocável no Commander. Em 2024 caíram Mana Crypt e 
+ Jeweled Lotus. O comitê disse que banir o Sol Ring mudaria a identidade d
+ o formato.\nFala: No Legacy ele é banido. Mas em 2024 o comitê do Comman
+ der disse que tirar o Sol Ring mudaria a cara do formato.\n\nCena 5\, uns 
+ 5 s\nNa tela: Você joga Sol Ring? Em qual comandante? @fontedemana\nFala:
+  Você joga Sol Ring? Comenta em qual comandante e segue a Fonte de Mana.\
+ n\n\nPasso a passo:\n1. Abra o Gravador do iPhone num lugar silencioso\, c
+ om o celular a um palmo da boca.\n2. Grave um áudio por cena\, na ordem\,
+  lendo só a fala daquela cena.\n3. Nomeie os arquivos cena_1\, cena_2\, c
+ ena_3\, cena_4 e cena_5.\n4. Mande os áudios ao Claude no projeto MGT str
+ ategy (pode ser respondendo à mensagem desta tarefa) dizendo "áudios do 
+ TikTok de 2026-10-19".\n\nValores em reais pela cotação PTAX de 16 out (
+ Banco Central).\n\nPauta completa: https://fontedemana.com.br/pauta/2026-1
+ 0-19/#gravacao
+URL:https://fontedemana.com.br/pauta/2026-10-19/#gravacao
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Gravação: Gravar a narração do TikTok de amanhã
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-19-tiktok@fontedemana.com.br
+DTSTAMP:20261018T212627Z
+DTSTART:20261019T143000Z
+DURATION:PT15M
+SUMMARY:11:30 TikTok: TikTok: a história do Sol Ring
+DESCRIPTION:História de uma carta #1: o Sol Ring\, da Alpha de 1993 aos 83
+ % dos decks de Commander\, com preço e o caso do banimento que não veio.
+ \n\nArquivos:\n- Vídeo (tiktok-mudo.mp4): https://fontedemana.com.br/paut
+ a/2026-10-19/tiktok/tiktok-mudo.mp4\n\nLegenda:\nO Sol Ring tem 33 anos e 
+ está em 83% dos decks de Commander no EDHREC. Da Alpha de 1993 aos precon
+ s de hoje\, a história do anel de 1 mana que ninguém tira do deck.\n\nVo
+ cê joga Sol Ring? Comenta em qual comandante.\n\nPreços do Scryfall. Rea
+ is pela cotação PTAX de 16 out (Banco Central).\n\n#mtg #magicthegatheri
+ ng #commander #edh #solring #mtgbrasil #magicbrasil\n\nComentário fixado:
+ \nComenta o comandante que mais usa seu Sol Ring. E qual foi o turno 1 mai
+ s absurdo que você já viu com ele?\n\nPasso a passo:\n1. Poste o vídeo 
+ com um som em alta da biblioteca do TikTok\, com volume entre 15% e 20%.\n
+ 2. A narração é a sua voz\, então não precisa de rótulo de IA.\n3. C
+ ole a legenda e fixe o comentário logo depois de postar.\n4. Se os áudio
+ s não chegaram\, poste o vídeo mudo com uma música em alta.\n\nPauta co
+ mpleta: https://fontedemana.com.br/pauta/2026-10-19/#tiktok
+URL:https://fontedemana.com.br/pauta/2026-10-19/#tiktok
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TikTok: TikTok: a história do Sol Ring
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT

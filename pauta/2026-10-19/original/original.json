@@ -1,0 +1,113 @@
+{
+  "data": "2026-10-19",
+  "pilar": "historia",
+  "item": "Sol Ring",
+  "tema": "História de uma carta #1: Sol Ring, da Alpha a 83% dos decks de Commander",
+  "cartas": [
+    "Sol Ring",
+    "Mana Crypt",
+    "Jeweled Lotus"
+  ],
+  "fx": "Valores em reais pela cotação PTAX de 16 out (Banco Central).",
+  "carrossel": {
+    "capa": {
+      "cor": "M",
+      "chip": "História #1",
+      "kicker": "Sol Ring, Alpha 1993",
+      "titulo": "A carta de <b>33 anos</b> que ninguém tira do deck",
+      "sub": "Está em <b>83%</b> dos decks de Commander no EDHREC. Como um anel de 1 mana virou a cara do formato?",
+      "arte": "pauta/2026-10-19/tiktok/arte.jpg",
+      "credito": "Arte: Sol Ring, Mark Tedin"
+    },
+    "cartoes": [
+      {
+        "cor": "M",
+        "titulo": "Onde tudo começou",
+        "carta": "pauta/2026-10-19/original/carta-1.jpg",
+        "itens": [
+          {
+            "cor": "M",
+            "html": "Alpha, 1993: incomum, arte de <b>Mark Tedin</b> e o tipo ainda era Mono Artifact."
+          },
+          {
+            "cor": "M",
+            "html": "Paga 1 e ganha <b>2 de mana</b> todo turno. Jogou no turno 1, tem 4 de mana no turno 2."
+          }
+        ],
+        "fonte": "Fonte: Scryfall"
+      },
+      {
+        "cor": "W",
+        "titulo": "Como virou tradição",
+        "itens": [
+          {
+            "cor": "W",
+            "html": "Junho de 2011: cada um dos <b>cinco</b> primeiros precons de Commander vem com um Sol Ring."
+          },
+          {
+            "cor": "W",
+            "html": "Quem abriu o primeiro precon já começou com ele no deck."
+          }
+        ],
+        "nota": {
+          "rotulo": "Hoje",
+          "texto": "são <b>134 versões</b> em papel, com arte de mais de 60 artistas"
+        },
+        "fonte": "Fonte: Commander's Herald, Draftsim e Scryfall"
+      },
+      {
+        "cor": "A",
+        "titulo": "Quanto custa um anel",
+        "itens": [
+          {
+            "cor": "A",
+            "html": "<b>Beta (1993)</b>: US$ 869,99 (R$ 4.421,81)"
+          },
+          {
+            "cor": "A",
+            "html": "Revised (1994): US$ 37,31 (R$ 189,63)"
+          },
+          {
+            "cor": "A",
+            "html": "<b>Foundations Commander</b>: US$ 1,22 (R$ 6,20)"
+          }
+        ],
+        "fx": "Reais pela cotação PTAX de 16 out (Banco Central).",
+        "fonte": "Fonte: Scryfall, 18 out 2026"
+      },
+      {
+        "cor": "B",
+        "titulo": "Banido? Não no Commander",
+        "carta": "pauta/2026-10-19/original/carta-2.jpg",
+        "itens": [
+          {
+            "cor": "B",
+            "html": "Banido no Legacy e restrito no Vintage."
+          },
+          {
+            "cor": "B",
+            "html": "Set 2024: Mana Crypt e Jeweled Lotus caem, e o comitê diz que banir o Sol Ring mudaria a <b>identidade</b> do formato."
+          }
+        ],
+        "fonte": "Fonte: Scryfall, Card Kingdom e Draftsim"
+      }
+    ],
+    "cta": {
+      "pergunta": "Sol Ring no seu deck: comenta <b>SEMPRE</b> ou <b>NUNCA</b>",
+      "quando": "Nova história de carta toda semana",
+      "salvar": "Manda pro amigo que joga Sol Ring sem saber de onde ele veio"
+    }
+  },
+  "legenda": "Sol Ring, a carta de Magic que está em 83% dos decks de Commander, tem 33 anos de história.\n\nEle saiu na Alpha, em 1993, como incomum, com arte de Mark Tedin. Paga 1, ganha 2 de mana todo turno. Em junho de 2011, cada um dos cinco primeiros precons de Commander veio com um, e ele nunca mais saiu da mesa. Hoje são 134 versões em papel: um de Beta custa US$ 869,99 (R$ 4.421,81) e o da Foundations Commander, US$ 1,22 (R$ 6,20). É banido no Legacy, restrito no Vintage e, em setembro de 2024, quando Mana Crypt e Jeweled Lotus caíram no Commander, o comitê disse que banir o Sol Ring mudaria a identidade do formato.\n\nFontes: Scryfall, EDHREC, Commander's Herald, Card Kingdom e Draftsim.\nValores em reais pela cotação PTAX de 16 out (Banco Central).\n\nMais em fontedemana.com.br\n\nVocê joga Sol Ring? Em qual comandante?\n\n#mtg #magicthegathering #commander #edh #solring #mtgbrasil #magicbrasil #cartademagic",
+  "threads": {
+    "texto": "O Sol Ring está em 83% dos decks de Commander no EDHREC, e em 2024 o comitê disse que não bane porque ele faz parte da identidade do formato.\n\nPergunta sincera: ele deixa a mesa mais divertida ou só premia quem compra ele na mão inicial?\n\nComenta FICA ou SAI.",
+    "obs": "Enquete com Fica e Sai"
+  },
+  "enquete": {
+    "pergunta": "O Sol Ring devia continuar liberado no Commander?",
+    "opcoes": [
+      "Fica",
+      "Sai"
+    ]
+  }
+}
