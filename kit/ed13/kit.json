@@ -1,0 +1,174 @@
+{
+ "n": 13,
+ "data": "18 out",
+ "carrossel": {
+  "capa": {
+   "cor": "G",
+   "titulo": "Star Trek revela os quatro precons de 26 a 29 out",
+   "sub": "A Wizards publicou o calendário de prévias: <b>estreia na terça (20)</b> e um deck de Commander por dia na semana seguinte.",
+   "credito": "Arte: Infinite Guideline Station, Piotr Dura"
+  },
+  "cartoes": [
+   {
+    "cor": "G",
+    "titulo": "Prévias de Star Trek",
+    "itens": [
+     {
+      "cor": "G",
+      "html": "<b>20 out:</b> estreia no canal oficial de Magic e na twitch.tv/magic."
+     },
+     {
+      "cor": "G",
+      "html": "<b>21 a 29 out:</b> cartas novas todo dia com criadores e sites."
+     },
+     {
+      "cor": "G",
+      "html": "<b>Precons:</b> Borg dia 26, Federation Fleet 27, Klingon Fury 28 e Landing Party 29."
+     },
+     {
+      "cor": "W",
+      "html": "<b>30 out:</b> galeria completa. Lançamento segue em 13 de novembro."
+     }
+    ],
+    "nota": {
+     "rotulo": "Na sua mesa",
+     "texto": "os comandantes dos quatro decks só ficam confirmados nesses dias."
+    },
+    "fonte": "Fontes: Wizards of the Coast e Playgroup"
+   },
+   {
+    "cor": "A",
+    "titulo": "Uthros Research Craft",
+    "linhas": [
+     {
+      "nome": "Uthros Research Craft",
+      "valor": "US$ 2,59",
+      "sub": "(R$ 13,16), era US$ 1,26",
+      "porque": "comandantes de artefato de Reality Fracture"
+     },
+     {
+      "nome": "Arte estendida",
+      "valor": "US$ 3,57",
+      "sub": "(R$ 18,14) no Scryfall"
+     }
+    ],
+    "nota": {
+     "rotulo": "No seu bolso",
+     "texto": "é carta de precon, muita gente tem uma parada no fichário."
+    },
+    "fonte": "Fontes: MTG Rocks e Scryfall. Reais: PTAX de 16 out"
+   }
+  ],
+  "topdeck": {
+   "titulo": "Uthros Research Craft",
+   "habilidades": [
+    {
+     "rotulo": "Estação",
+     "texto": "Vire outra criatura sua e ponha na nave marcadores iguais ao poder dela."
+    },
+    {
+     "rotulo": "Com 3 marcadores",
+     "texto": "Cada artefato que você conjura compra uma carta e põe mais um marcador."
+    },
+    {
+     "rotulo": "Pega no pulo",
+     "texto": "Só conta conjurar: ficha de Tesouro ou artefato reanimado não compra."
+    }
+   ],
+   "extra": "Em <b>17,3 mil</b> decks no EDHREC. Dobrou de preço e está em US$ 2,59 (R$ 13,16). Reais: PTAX de 16 out.",
+   "credito": "Ilustração de Piotr Dura"
+  },
+  "ban": null,
+  "turnos": [
+   {
+    "cor": "A",
+    "data": "19 out",
+    "texto": "Festival in a Box: Atlanta"
+   },
+   {
+    "cor": "G",
+    "data": "20 out",
+    "texto": "Estreia de Star Trek"
+   },
+   {
+    "cor": "A",
+    "data": "23 out",
+    "texto": "Secret Lair Bundle de Reality Fracture"
+   },
+   {
+    "cor": "G",
+    "data": "26 a 29 out",
+    "texto": "Precons de Star Trek revelados"
+   },
+   {
+    "cor": "G",
+    "data": "30 out",
+    "texto": "Galeria completa de Star Trek"
+   }
+  ],
+  "sussurro": "O MTG Rocks espera muitas Espaçonaves em Star Trek, o que pode puxar naves antigas como a Uthros. Ainda não confirmado."
+ },
+ "video": {
+  "cena1": {
+   "titulo": "Star Trek revela os quatro precons de 26 a 29 out",
+   "pilulas": [
+    "Estreia na terça (20)",
+    "Um precon por dia",
+    "Galeria em 30/10"
+   ]
+  },
+  "cena2": {
+   "rotulo": "No bolso",
+   "cor": "A",
+   "titulo": "Uthros Research Craft dobra",
+   "itens": [
+    "Era cerca de US$ 1,26 (R$ 6,40) antes da alta.",
+    "Agora está em US$ 2,59 (R$ 13,16) no Scryfall.",
+    "Puxada pelos comandantes de artefato de Reality Fracture."
+   ],
+   "fonte": "Fontes: MTG Rocks e Scryfall. Reais: PTAX de 16 out"
+  },
+  "cena3": {
+   "linhas": [
+    "<b>Uthros Research Craft</b> compra carta a cada artefato.",
+    "Com 12 marcadores, vira voadora e cresce com seus artefatos.",
+    "Está em 17,3 mil decks no EDHREC."
+   ]
+  },
+  "cena4": {
+   "texto": "Segunda tem Festival in a Box. Terça estreia Star Trek, e os precons saem de 26 a 29 de outubro.",
+   "sussurro": "Star Trek pode trazer muitas Espaçonaves. Ainda não confirmado."
+  }
+ },
+ "textos": {
+  "legendaCarrossel": "Já tem data para conhecer os precons de Star Trek. A Wizards publicou o calendário de prévias: a coleção estreia na terça (20), as cartas novas aparecem de 21 a 29 de outubro e cada deck de Commander tem o seu dia. We Are the Borg sai dia 26, Federation Fleet dia 27, Klingon Fury dia 28 e Landing Party dia 29.\n\nNa edição de hoje também tem a Uthros Research Craft, que dobrou de preço puxada pelos comandantes de artefato de Reality Fracture.\n\nO Topdeck do Dia é a própria Uthros, a espaçonave que compra uma carta a cada artefato que você conjura.\n\nEdição completa em fontedemana.com.br\n\nArtes: Infinite Guideline Station e Uthros Research Craft, de Piotr Dura.\n\nValores em reais pela cotação PTAX de 16 out (Banco Central).\n\n#mtg #magicthegathering #commander #edh #mtgbrasil #startrek #fontedemana",
+  "legendaVideo": "Calendário das prévias de Star Trek, com os quatro precons de 26 a 29 de outubro, e a Uthros Research Craft dobrando de preço. Tudo em fontedemana.com.br\n\nQual precon de Star Trek você mais quer ver?\n\nValores em reais pela cotação PTAX de 16 out (Banco Central).\n\n#mtg #magicthegathering #commander #edh #mtgbrasil",
+  "threadsFio": [
+   "Fonte de Mana de domingo, 18 de outubro. A Wizards publicou o calendário de prévias de Star Trek. A coleção estreia na terça (20) no canal oficial de Magic e na twitch.tv/magic.",
+   "Os precons de Commander têm um dia cada: We Are the Borg em 26 de outubro, Federation Fleet em 27, Klingon Fury em 28 e Landing Party em 29. A galeria completa sai em 30 de outubro e o lançamento segue em 13 de novembro.",
+   "No bolso: a Uthros Research Craft, do precon de Edge of Eternities, dobrou de preço com os comandantes de artefato de Reality Fracture. Era cerca de US$ 1,26 (R$ 6,40) e está em US$ 2,59 (R$ 13,16) no Scryfall.",
+   "Topdeck do Dia: Uthros Research Craft. Com 3 marcadores, compra uma carta a cada artefato que você conjura. Com 12, vira voadora e ganha +1 de poder por artefato seu. Edição completa em fontedemana.com.br\n\nValores em reais pela cotação PTAX de 16 out (Banco Central)."
+  ],
+  "threadsAvulsos": [
+   {
+    "titulo": "Pergunta do dia",
+    "texto": "Os quatro precons de Star Trek saem de 26 a 29 de outubro. Qual você mais quer ver: Borg, Federation Fleet, Klingon Fury ou Landing Party?",
+    "obs": "Enquete: Borg, Federation Fleet, Klingon Fury, Landing Party"
+   }
+  ]
+ },
+ "pauta": {
+  "forca": "calmo",
+  "porque": "O calendário saiu na sexta e Star Trek já foi manchete ontem. A alta da Uthros é pequena em dólar.",
+  "storyPergunta": "Qual precon de Star Trek você mais quer ver?",
+  "enquete": {
+   "pergunta": "Qual precon de Star Trek te anima mais?",
+   "opcoes": [
+    "Borg",
+    "Federation Fleet",
+    "Klingon Fury",
+    "Landing Party"
+   ]
+  }
+ }
+}
