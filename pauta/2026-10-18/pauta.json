@@ -1,6 +1,8 @@
 {
   "data": "2026-10-18",
-  "fx": null,
+  "fx": "Valores em reais pela cotação PTAX de 16 out, US$ 1 = R$ 5,0826 (Banco Central).",
+  "forca": "calmo",
+  "feed": "original",
   "avisos": [
     {
       "id": "gravacao",
@@ -52,7 +54,7 @@
       "id": "tiktok",
       "hora": "11:30",
       "rede": "TikTok",
-      "titulo": "TikTok: Toda mesa tem um #1, o que demora no turno",
+      "titulo": "Toda mesa tem um #1, o que demora no turno",
       "oQue": "Primeiro da série Toda mesa tem um: o jogador que demora 10 minutos no turno, a carta favorita dele (Sensei's Divining Top) e a dica de mesa.",
       "arquivos": [
         {
@@ -75,6 +77,175 @@
         "Voz própria não precisa de rótulo de IA.",
         "Fixe o comentário logo depois de postar.",
         "Se os áudios não chegarem a tempo, poste o vídeo mudo com música em alta."
+      ]
+    },
+    {
+      "id": "threads-manha",
+      "hora": "10:30",
+      "rede": "Threads",
+      "titulo": "Debate: Toda mesa tem um #1: o que demora 10 minutos no turno",
+      "oQue": "Post de debate do conteúdo original de hoje (Toda mesa tem um) para puxar conversa.",
+      "textos": [
+        {
+          "rotulo": "Post",
+          "texto": "Toda mesa de Commander tem um. Qual desses mais aparece na sua?\n\nA) O que demora 10 minutos no turno\nB) O que jura que o deck é casual\nC) O que esquece os próprios gatilhos\nD) O que pede pra ler a carta de novo\n\nResponde com a letra. E se marcar o amigo, melhor ainda."
+        }
+      ],
+      "passos": [
+        "Abra o Threads e cole o Post.",
+        "Dica: Dá para postar como enquete do Threads com as quatro opções.",
+        "Publique e responda quem comentar na primeira hora."
+      ]
+    },
+    {
+      "id": "stories-manha",
+      "hora": "10:30",
+      "rede": "Instagram Stories",
+      "titulo": "Capa do jornal com sticker de pergunta",
+      "oQue": "Story com a capa da edição 13 (Star Trek revela os quatro precons de 26 a 29 out) e um sticker de pergunta para puxar a conversa.",
+      "arquivos": [
+        {
+          "nome": "Capa da edição 13",
+          "url": "https://fontedemana.com.br/kit/ed13/carrossel-01.jpg"
+        }
+      ],
+      "passos": [
+        "Baixe a capa e poste no Story.",
+        "Adicione o sticker de Pergunta no terço de baixo, sem cobrir o título: Qual precon de Star Trek você mais quer ver?",
+        "Publique."
+      ]
+    },
+    {
+      "id": "feed",
+      "hora": "12:00",
+      "rede": "Instagram feed",
+      "titulo": "Toda mesa tem um #1: o que demora 10 minutos no turno",
+      "origem": "original:2026-10-18",
+      "oQue": "Carrossel original de 6 imagens (Toda mesa tem um): Toda mesa tem um #1: o que demora 10 minutos no turno. Feito para salvar e compartilhar.",
+      "arquivos": [
+        {
+          "nome": "Imagem 1 de 6",
+          "url": "https://fontedemana.com.br/pauta/2026-10-18/original/carrossel-01.jpg"
+        },
+        {
+          "nome": "Imagem 2 de 6",
+          "url": "https://fontedemana.com.br/pauta/2026-10-18/original/carrossel-02.jpg"
+        },
+        {
+          "nome": "Imagem 3 de 6",
+          "url": "https://fontedemana.com.br/pauta/2026-10-18/original/carrossel-03.jpg"
+        },
+        {
+          "nome": "Imagem 4 de 6",
+          "url": "https://fontedemana.com.br/pauta/2026-10-18/original/carrossel-04.jpg"
+        },
+        {
+          "nome": "Imagem 5 de 6",
+          "url": "https://fontedemana.com.br/pauta/2026-10-18/original/carrossel-05.jpg"
+        },
+        {
+          "nome": "Imagem 6 de 6",
+          "url": "https://fontedemana.com.br/pauta/2026-10-18/original/carrossel-06.jpg"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Toda mesa de Commander tem um: o que demora 10 minutos no turno.\nA carta de Magic favorita dele: Sensei's Divining Top, em 371 mil decks no EDHREC.\nA dupla da demora: o pião e a Sylvan Library no mesmo deck.\n\nA dica de mesa: pensa no seu turno enquanto os outros jogam e chega na sua vez com o plano pronto. A compra só muda o plano se for muito melhor.\n\nFontes: EDHREC, Scryfall, StarCityGames e Draftsim.\nTodo dia tem notícia de Magic e Commander em fontedemana.com.br\n\nSeu grupo usa timer ou deixa o pião girar? Comenta TIMER ou PIÃO.\nE marca o amigo que é assim.\n\n#mtg #magicthegathering #commander #edh #mtgbrasil #magicbrasil #deckdecommander #cartasdemagic\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        }
+      ],
+      "passos": [
+        "No Instagram, toque em + e escolha Post.",
+        "Selecione as 6 imagens na ordem, da 1 à 6.",
+        "Cole a Legenda e publique."
+      ]
+    },
+    {
+      "id": "stories-meio-dia",
+      "hora": "12:00",
+      "rede": "Instagram Stories",
+      "titulo": "Repost do carrossel com enquete",
+      "oQue": "Compartilhe o carrossel recém postado no Story com uma enquete.",
+      "passos": [
+        "No carrossel publicado, toque no avião de papel e em Adicionar post ao seu story.",
+        "Adicione o sticker de Enquete embaixo do post: Seu grupo usa timer no turno de Commander? com Sim, timer na mesa e Não, o pião gira.",
+        "Publique."
+      ]
+    },
+    {
+      "id": "threads-tarde",
+      "hora": "15:00",
+      "rede": "Threads",
+      "titulo": "Fio da edição 13",
+      "oQue": "Fio com 5 posts contando a edição 13. O último é o aviso de conteúdo de fã.",
+      "textos": [
+        {
+          "rotulo": "Post 1",
+          "texto": "Fonte de Mana de domingo, 18 de outubro. A Wizards publicou o calendário de prévias de Star Trek. A coleção estreia na terça (20) no canal oficial de Magic e na twitch.tv/magic."
+        },
+        {
+          "rotulo": "Post 2",
+          "texto": "Os precons de Commander têm um dia cada: We Are the Borg em 26 de outubro, Federation Fleet em 27, Klingon Fury em 28 e Landing Party em 29. A galeria completa sai em 30 de outubro e o lançamento segue em 13 de novembro."
+        },
+        {
+          "rotulo": "Post 3",
+          "texto": "No bolso: a Uthros Research Craft, do precon de Edge of Eternities, dobrou de preço com os comandantes de artefato de Reality Fracture. Era cerca de US$ 1,26 (R$ 6,40) e está em US$ 2,59 (R$ 13,16) no Scryfall."
+        },
+        {
+          "rotulo": "Post 4",
+          "texto": "Topdeck do Dia: Uthros Research Craft. Com 3 marcadores, compra uma carta a cada artefato que você conjura. Com 12, vira voadora e ganha +1 de poder por artefato seu. Edição completa em fontedemana.com.br\n\nValores em reais pela cotação PTAX de 16 out (Banco Central)."
+        },
+        {
+          "rotulo": "Post 5 (aviso de fã)",
+          "texto": "Fonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        }
+      ],
+      "passos": [
+        "No Threads, publique o Post 1.",
+        "Toque em Adicionar à sequência e cole os posts seguintes, um por vez, na ordem.",
+        "Publique o fio inteiro de uma vez."
+      ]
+    },
+    {
+      "id": "stories-tarde",
+      "hora": "15:00",
+      "rede": "Instagram Stories",
+      "titulo": "Topdeck do Dia com link",
+      "oQue": "Story com a imagem de Uthros Research Craft no Topdeck do Dia e o sticker de link para a edição completa.",
+      "arquivos": [
+        {
+          "nome": "Topdeck do Dia",
+          "url": "https://fontedemana.com.br/kit/ed13/carrossel-04.jpg"
+        }
+      ],
+      "passos": [
+        "Baixe a imagem e poste no Story.",
+        "Adicione o sticker de Link para fontedemana.com.br com o texto Edição completa, embaixo do texto do Topdeck.",
+        "Publique."
+      ]
+    },
+    {
+      "id": "reels",
+      "hora": "19:00",
+      "rede": "Reels",
+      "titulo": "Vídeo do jornal com música",
+      "oQue": "Vídeo de 48 s da edição 13 com música em alta e sem narração.",
+      "arquivos": [
+        {
+          "nome": "Vídeo da edição 13",
+          "url": "https://fontedemana.com.br/kit/ed13/video-vertical-ed13.mp4"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Calendário das prévias de Star Trek, com os quatro precons de 26 a 29 de outubro, e a Uthros Research Craft dobrando de preço. Tudo em fontedemana.com.br\n\nQual precon de Star Trek você mais quer ver?\n\nValores em reais pela cotação PTAX de 16 out (Banco Central).\n\n#mtg #magicthegathering #commander #edh #mtgbrasil\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        }
+      ],
+      "passos": [
+        "No Instagram, toque em + e escolha Reel.",
+        "Escolha o vídeo e adicione uma música em alta pela biblioteca do app, com volume baixo.",
+        "Cole a Legenda e publique."
       ]
     }
   ]
