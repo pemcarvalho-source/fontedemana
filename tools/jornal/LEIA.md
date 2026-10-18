@@ -18,15 +18,15 @@ Publica a edição de hoje no site fontedemana.com.br e gera o Kit de Redes. Lei
 
 Escopo: só Commander (ban e regra de outros formatos não entram), Brasil e EUA, temas de regras, coleções e decks de Commander, Reserved List (só com movimento relevante de preço), ban e Game Changers, acessórios, eventos, produtos (Secret Lair, boosters, god packs), polêmicas e preços.
 
-**Radar fixo (sempre, nesta ordem):**
-1. WebFetch `https://magic.wizards.com/en/news/announcements`.
-2. WebFetch `https://www.mtgstocks.com/news` e abra os artigos da janela sobre Commander, preços, produtos ou ban. Às sextas, o "Weekly Winners" vira manchete de Bolso (cartas jogadas em Commander). Preço em dólar do MTGStocks vale sozinho (verif "MTGStocks", com a data). Análises, "cartas para comprar" e previsões são fonte secundária e nunca viram fato. As páginas `/interests` e de cartas individuais aparecem vazias: não insista.
-3. LigaMagic, no máximo 2 tentativas: WebFetch `https://www.ligamagic.com.br/` e uma WebSearch `site:ligamagic.com.br` com o assunto principal do dia. 403 ou nada: não tente de novo nem contorne (espelho, cache), anote só para a mensagem final. Trecho de busca com link em ligamagic.com.br vale como LigaMagic.
+**Radar fixo (sempre, nesta ordem).** Toda página é aberta como manda "Páginas da web" em `tools/REGRAS.md`: WebSearch primeiro e WebFetch só no link que voltou na busca.
+1. Wizards: WebSearch com `allowed_domains` ["magic.wizards.com"] e "Magic announcements <mês> <ano>"; WebFetch no link de `/en/news/announcements` que voltar (ou direto nos anúncios da janela que aparecerem).
+2. MTGStocks: WebSearch com `allowed_domains` ["mtgstocks.com"] e "MTGStocks news <mês> <ano>"; WebFetch no link de `/news` que voltar e abra os artigos da janela sobre Commander, preços, produtos ou ban. Às sextas, o "Weekly Winners" vira manchete de Bolso (cartas jogadas em Commander). Preço em dólar do MTGStocks vale sozinho (verif "MTGStocks", com a data). Análises, "cartas para comprar" e previsões são fonte secundária e nunca viram fato. As páginas `/interests` e de cartas individuais aparecem vazias: não insista.
+3. LigaMagic, no máximo 2 tentativas: uma WebSearch com `allowed_domains` ["ligamagic.com.br"] e o assunto principal do dia, e WebFetch num link dela que voltar. 403 ou nada: não tente de novo nem contorne (espelho, cache), anote só para a mensagem final. Trecho de busca com link em ligamagic.com.br vale como LigaMagic.
 4. Duas WebSearch amplas de notícias de Commander da semana (por exemplo "MTG Commander news" e "Magic Commander precon reveal" com o mês).
 5. Lojas e criadores que o Paulo segue (epicsaopaulo, pink.mtg, freitastcg, supplyhouseoficial, mesaderpg, commanderlvl17, armageddoncardshop, mtgversus, moxvault.tcg, tapforme_mtg, kirin.tcg, mtgbrasilofc, ligamagic, gamegenicsupplies): Instagram não é lido. Faça 2 buscas na web pelo nome, alternando os nomes a cada dia. MTG Brasil (Praça Baronesa da Bocaina, 123, Alto de Pinheiros, perto do metrô Vila Madalena) e Epic São Paulo são lojas de São Paulo; evento de Commander delas com data confirmada na página da loja ou na LigaMagic entra com etiqueta Brasil ou na agenda. Lançamento da Gamegenic entra com etiqueta Acessórios. Afirmação de criador sem confirmação vai para os Sussurros.
 6. Termômetro (vidIQ, seção 2b).
 
-**Aprofundar:** cada pista do radar que pode virar manchete ganha até 2 buscas para confirmar (fonte primária ou segunda fonte independente). Total da pesquisa de notícias: de 8 a 18 chamadas, fora o Topdeck. Dia sem pista nova termina no radar; não procure assunto antigo para encher a edição.
+**Aprofundar:** cada pista do radar que pode virar manchete ganha até 2 buscas para confirmar (fonte primária ou segunda fonte independente). Total da pesquisa de notícias: de 10 a 24 chamadas (cada página custa uma busca e uma abertura), fora o Topdeck. Dia sem pista nova termina no radar; não procure assunto antigo para encher a edição.
 
 ## 2b. Termômetro das Redes (vidIQ)
 
@@ -54,7 +54,7 @@ Regras de texto de `tools/REGRAS.md`. `notes` fica sempre vazio: aviso de rotina
 ## 7. Topdeck do Dia (uma carta nova em toda edição)
 
 1. Carta legal no Commander que não esteja em featuredCards nem na lista do contexto. Prefira ligada às notícias do dia (subiu de preço, revelada, banida, citada). Sem ligação boa, uma carta relevante para Commander hoje, variando cor, tipo e raridade na semana, e também o perfil: staple conhecida, carta nova, carta antiga com história e, de vez em quando, um Lado B (pouco jogada no EDHREC, mas forte no papel dela). Se o `contexto.cjs` mostrar uma data comemorativa, prefira uma carta do tema que ainda não foi Topdeck.
-2. Dados: Scryfall (Oracle em inglês, custo, tipo, raridade, coleção, número, artista, lealdade ou P/R, identidade de cor, `prices.usd`); texto em português pela impressão `lang:pt` (`printed_text`), ou tradução fiel no padrão das cartas em português; EDHREC (`https://edhrec.com/cards/<nome-com-hifens>`: decks, percentual, comandantes que mais usam); Commander Spellbook (`https://commanderspellbook.com/search/?q=card%3A%22<Nome%20codificado>%22`: número de combos e até 3 exemplos, ou combos = null); MTGStocks se a carta estiver num artigo da janela.
+2. Dados: Scryfall (Oracle em inglês, custo, tipo, raridade, coleção, número, artista, lealdade ou P/R, identidade de cor, `prices.usd`); texto em português pela impressão `lang:pt` (`printed_text`), ou tradução fiel no padrão das cartas em português; EDHREC (WebSearch "edhrec <Nome da Carta>" e WebFetch no link de `edhrec.com` ou `edhrecstatic.com` que voltar: decks, percentual, comandantes que mais usam); Commander Spellbook (WebSearch com `allowed_domains` ["commanderspellbook.com"] e "<Nome da Carta> combo", WebFetch no link que voltar: número de combos e até 3 exemplos; sem resultado, os combos da página do EDHREC; sem nenhum, combos = null); MTGStocks se a carta estiver num artigo da janela.
 3. Conteúdo: why (1 ou 2 frases ligando ao dia, seção em `<b>`), roles (comandante? como joga nas 99?), rarityText (o que a raridade significa aqui e reimpressões), alone (2 a 4 habilidades explicadas, rótulo curto), inDeck (como funciona no deck e com quais peças), watch (erro de regra comum, começando em minúscula, porque a página já escreve "Pega no pulo," antes), stats (exatamente 4: decks no EDHREC, percentual, preço em dólar com data, fonte e reais entre parênteses, e mais um), topCmd (até 4 comandantes com percentual), links (EDHREC, Scryfall e outros usados).
 
 ## 8. Imagens
@@ -88,7 +88,7 @@ Depois atualize `data/index.js`: no início de editions `{"n": N+1, "date", "dat
 
 1. `git add data img`, commit "Edição N+1 de <data>" e push, com as regras de `tools/REGRAS.md`. Não adicione nada fora de `data/` e `img/`.
 2. O site é o único lugar do jornal: se o push falhar por permissão ou rede depois da nova tentativa de `tools/REGRAS.md`, espere 2 minutos e tente mais 2 vezes antes de desistir. Se não der, guarde o erro exato, siga para a 11b (o kit vai junto no envio final) e tente enviar tudo de novo no fim da execução.
-3. Uns 2 minutos depois de um push que deu certo, WebFetch `https://fontedemana.com.br/data/ed(N+1).js`. Se ainda não aparecer, espere mais 2 minutos e confira uma última vez.
+3. Confira a publicação pelo GitHub, como em "Repositório e convivência" de `tools/REGRAS.md`: `data/ed(N+1).js` no `origin/main` e a execução "pages build and deployment" do seu commit com `success`. Não use WebFetch no site.
 
 ## 11b. Kit de Redes (depois da 11, mesmo se o push falhou)
 
@@ -97,7 +97,7 @@ Depois atualize `data/index.js`: no início de editions `{"n": N+1, "date", "dat
 3. `node tools/kit/gerar.cjs . N+1` com timeout de 600000 ms (o vídeo leva uns 2 minutos). Se der ERROS, corrija o kit.json (em geral encurtar o texto apontado) e rode de novo, até 4 vezes. Se o vídeo continuar falhando, rode com `--sem-video` e avise no final.
 4. Abra com Read a capa (`kit/ed(N+1)/carrossel-01.jpg`) e a imagem do Topdeck (logo depois dos cartões).
 5. `git add kit`, commit "Kit de Redes da edição N+1" e push (mesmas regras). Nada fora de `kit/`.
-6. Uns 2 minutos depois, WebFetch `https://fontedemana.com.br/kit/ed(N+1)/`.
+6. Confira pelo GitHub do mesmo jeito: `kit/ed(N+1)/index.html` no `origin/main` e a execução "pages build and deployment" do commit do kit com `success`.
 
 **Força do dia (`pauta.forca`).** "forte" quando a Notícia Lendária é fato novo de impacto direto na mesa ou no bolso de quem joga Commander, publicado na janela de hoje e ainda não noticiado: ban ou mudança de Game Changers, regra nova, revelação de precon ou coleção de Commander, produto com preço ou data anunciados, carta com variação grande de preço, polêmica coberta por vários veículos. "calmo" no resto, inclusive desdobramento de assunto que saiu nas últimas 3 edições. No dia calmo, o feed do Instagram fica com o conteúdo original preparado na noite anterior.
 

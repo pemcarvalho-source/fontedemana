@@ -20,10 +20,24 @@ Valem para o jornal, o Kit de Redes, a pauta e os conteúdos originais. Cada rot
 - Nunca inventar número, data, preço ou estatística. Parafrasear sempre; no máximo uma citação de menos de 15 palavras por fonte.
 - Vídeo de criador nunca é fonte de fato sozinho.
 
+## Páginas da web (WebFetch)
+
+- Nas execuções agendadas, o WebFetch só abre sem pedir confirmação os links que vieram no resultado de uma WebSearch da mesma execução. Endereço digitado ou montado, inclusive os que aparecem no texto da tarefa ou num LEIA, vira pedido de confirmação ao Paulo, que expira sem resposta de madrugada.
+- Por isso: nunca WebFetch em endereço montado. Primeiro WebSearch (de preferência com `allowed_domains` do site), depois WebFetch no link exato que voltou. As páginas de índice também aparecem na busca (ex.: `magic.wizards.com/en/news/announcements`, `mtgstocks.com/news`).
+- Buscas de referência:
+  - Wizards: `allowed_domains` ["magic.wizards.com"], "Magic announcements <mês> <ano>" e, se precisar, o assunto.
+  - MTGStocks: ["mtgstocks.com"], "MTGStocks news <mês> <ano>" (ou "Weekly Winners <ano>").
+  - LigaMagic: ["ligamagic.com.br"], o assunto do dia.
+  - EDHREC: "edhrec <Nome da Carta>". `edhrec.com` e `edhrecstatic.com` têm o mesmo conteúdo e valem igual.
+  - Commander Spellbook: ["commanderspellbook.com"], "<Nome da Carta> combo". Vale o link da busca (`/search/?q=...`) ou os de combo (`/combo/...`).
+  - Cotação: "cotação dólar PTAX hoje" (ver Moeda).
+- O WebFetch de um link da busca falhou ou pediu permissão? Não repita nem contorne: use outro resultado ou o trecho da própria busca, e conte na mensagem final.
+- Nada de WebFetch no próprio site para conferir publicação: a conferência é pelo GitHub (ver "Repositório e convivência").
+
 ## Moeda
 
 - Todo valor em dinheiro: dólar primeiro e real entre parênteses, "US$ 29,99 (R$ 150,10)". Reais = dólares × cotação, duas casas, formato brasileiro.
-- Cotação: WebFetch em `https://api.frankfurter.dev/v1/latest?from=USD&to=BRL`, aceita se `date` tiver no máximo 4 dias. Se falhar, PTAX publicada em bcb.gov.br ou o mesmo valor em dois veículos confiáveis da mesma data. Sem cotação confiável, só o dólar e nenhuma nota.
+- Cotação: PTAX do Banco Central, achada como manda "Páginas da web" (abaixo): WebSearch "cotação dólar PTAX hoje" e abra dois resultados de veículos diferentes (ex.: numerando.com.br, noticiasagricolas.com.br, cotacaododia.com). Vale o mesmo valor, do mesmo tipo (compra ou venda) e da mesma data nos dois, com no máximo 4 dias. Valores diferentes nos dois: abra um terceiro e use o que se repetir. Sem dois iguais, só o dólar e nenhuma nota. Fonte na nota: "Banco Central (PTAX)".
 - Peça com valor convertido leva a nota com data e fonte da cotação (ex.: "Valores em reais pela cotação de 9 out (Banco Central Europeu)."). Na fala: o dólar e depois "uns X reais", arredondado.
 - Preço que só existe em reais (LigaMagic ou loja brasileira) aparece em reais, com a fonte, sem conversão.
 - Percentuais não se convertem. Valor que já está entre parênteses: reescreva para não abrir parênteses dentro de parênteses.
@@ -52,6 +66,7 @@ Fica no rodapé do site, no fim das legendas do Instagram e do TikTok, nos posts
 - Os caminhos dos LEIA são relativos à raiz do repositório; rode os comandos de dentro dela.
 - Rascunhos (busca do Scryfall, áudios recebidos, testes) ficam em `/tmp/fdm/` (`mkdir -p /tmp/fdm`), fora do repositório. No fim, `git status --short` sai vazio.
 - Commit: `git -c user.name="Paulo Eduardo" -c user.email="pemcarvalho@gmail.com" commit -m "<mensagem>"` e `git push origin HEAD:main`.
+- Conferir a publicação (não use WebFetch no site): `git fetch -q origin main` e `git cat-file -e origin/main:<arquivo>` (sai sem erro se o arquivo está no main). Depois, se a ferramenta do GitHub estiver disponível (ToolSearch "github actions"), `actions_list` com method `list_workflow_runs` em pemcarvalho-source/fontedemana: a execução "pages build and deployment" com `head_sha` igual ao do seu commit precisa estar `completed` e `success` (leva 1 a 2 minutos; espere 2 minutos e confira de novo até 2 vezes). Sem a ferramenta do GitHub, vale só o `git cat-file`, e diga isso na mensagem final.
 - Push recusado por commits novos ("fetch first", "non-fast-forward"): `git -c user.name="Paulo Eduardo" -c user.email="pemcarvalho@gmail.com" pull --rebase --depth 50 origin main` e push de novo. Recusado por permissão ou rede: mais uma tentativa depois de 10 s; depois disso, guarde o erro exato para a mensagem final.
 - Cada rotina escreve só nas suas pastas. Jornal: `data/`, `img/` e `kit/`. Pauta e originais: `pauta/`. Ninguém altera `index.html`, `CNAME`, `og.jpg`, `favicon.png`, `apple-touch-icon.png`, `lands/`, `README.md`, `tools/` ou `.claude/` durante uma execução agendada.
 - Orquestrador: as tarefas agendadas entram por `.claude/skills/fdm-orquestrar/SKILL.md`; o mapa da estrutura está em `tools/rotinas/README.md`.

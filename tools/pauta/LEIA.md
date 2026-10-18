@@ -27,7 +27,7 @@ Escreva só na pasta `pauta/`. Nunca chame ferramenta paga do vidIQ e nunca mexa
 8. Escreva ou atualize `pauta/AMANHA/pauta.json` com dois avisos (mantenha outros que já existirem):
    - `gravacao`: dia = hoje, hora 18:30, rede Gravação, titulo "Gravar a narração do TikTok de amanhã", `roteiro` com uma linha por cena (cena "Cena 1, uns 8 s", tela = o texto da cena, fala = a narração), arquivo do vídeo mudo e os passos: gravar um áudio por cena no Gravador do iPhone, num lugar silencioso, com o celular a um palmo da boca; nomear cena_1, cena_2...; mandar os áudios ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo "áudios do TikTok de AAAA-MM-DD".
    - `tiktok`: hora 11:30, rede TikTok, arquivo `tiktok-narrado.mp4` (se já existir) ou o mudo, textos Legenda e Comentário fixado, passos: postar com som em alta entre 15% e 20% pela biblioteca do TikTok, voz própria não precisa de rótulo de IA, fixar o comentário; se os áudios não chegarem, postar o vídeo mudo com música em alta.
-9. Rode `node tools/pauta/pauta.cjs . AMANHA`. Envie (`git add pauta`, commit "Pauta de AMANHA: original e gravação") e, uns 2 minutos depois, confira com WebFetch `https://fontedemana.com.br/pauta/AMANHA/`.
+9. Rode `node tools/pauta/pauta.cjs . AMANHA`. Envie (`git add pauta`, commit "Pauta de AMANHA: original e gravação") e confira a publicação pelo GitHub (`pauta/AMANHA/pauta.json` no `origin/main` e "pages build and deployment" do commit com `success`), como em "Repositório e convivência" de `tools/REGRAS.md`. Não use WebFetch no site.
 10. Mensagem final, curta: "Gravação para amanhã (AMANHA): <pilar>, <tema>", o roteiro cena a cena (segundos e fala), o link do vídeo mudo, o link da página, se o carrossel original saiu (quantas telas) e como mandar os áudios. Se algo falhou, o erro exato.
 
 Sábado com visita marcada (`extras/lojas/AMANHA.json`, pilar Rota das Lojas): o Paulo grava na loja. Não há vídeo nem carrossel para gerar: faça o roteiro como lista do que filmar e pule os passos 6 e 7 (o aviso `tiktok` aponta para o que ele gravar).
@@ -95,7 +95,7 @@ Só script, sem escrever texto novo:
 1. Prepare a pasta de trabalho como em `tools/REGRAS.md`. HOJE = `TZ=America/Sao_Paulo date +%F`.
 2. `node tools/pauta/manha.cjs . HOJE`. Se o resumo disser que a edição ou o kit de hoje ainda não saíram, `git stash -u`, `sleep 600`, `git pull --rebase --depth 50 origin main`, `git stash drop` e rode de novo, no máximo 3 vezes; depois siga com o que tiver.
 3. Se aparecer `ERROS:` num texto vindo do kit ou do original, corrija esse texto direto em `pauta/HOJE/pauta.json` e rode `node tools/pauta/pauta.cjs . HOJE` (não rode o manha.cjs de novo, ele refaz o arquivo).
-4. `git add pauta`, commit "Pauta de HOJE" e push. Uns 2 minutos depois, WebFetch `https://fontedemana.com.br/pauta/HOJE/`.
+4. `git add pauta`, commit "Pauta de HOJE" e push. Confira a publicação pelo GitHub (`pauta/HOJE/pauta.json` no `origin/main` e "pages build and deployment" do commit com `success`), como em "Repositório e convivência" de `tools/REGRAS.md`. Não use WebFetch no site.
 5. Mensagem final: o resumo que o script imprime depois de `---`.
 
 O script decide o feed pela força do dia (`pauta.forca` do kit): dia forte, carrossel do jornal; dia calmo, carrossel original (ou o mais recente do banco, de até 6 dias, que não foi para o feed). Também apaga `.jpg` e `.mp4` de pastas da pauta com mais de 7 dias.

@@ -11,11 +11,11 @@ Ninguém responde durante uma execução agendada: decida sozinho. Escreva em po
 
 ## Fases
 
-| Fase | Quando | O miolo | Pastas que pode escrever | Conferência no site |
+| Fase | Quando | O miolo | Pastas que pode escrever | Arquivo que confirma a publicação |
 | --- | --- | --- | --- | --- |
-| `jornal` | 5h55 | `tools/jornal/LEIA.md`, seções 1 a 12 | `data/`, `img/`, `kit/` | `https://fontedemana.com.br/data/edN.js` e `https://fontedemana.com.br/kit/edN/` |
-| `pauta` | 7h20 | seção "Fase pauta" abaixo | `pauta/` | `https://fontedemana.com.br/pauta/HOJE/` |
-| `noite` | 18h21 | `tools/pauta/LEIA.md`, seção "Tarefa da noite: original de amanhã" | `pauta/` | `https://fontedemana.com.br/pauta/AMANHA/` |
+| `jornal` | 5h55 | `tools/jornal/LEIA.md`, seções 1 a 12 | `data/`, `img/`, `kit/` | `data/edN.js` e `kit/edN/index.html` |
+| `pauta` | 7h20 | seção "Fase pauta" abaixo | `pauta/` | `pauta/HOJE/pauta.json` |
+| `noite` | 18h21 | `tools/pauta/LEIA.md`, seção "Tarefa da noite: original de amanhã" | `pauta/` | `pauta/AMANHA/pauta.json` |
 | `narracao` | quando o Paulo manda os áudios | `tools/pauta/LEIA.md`, seção "Juntar a narração" | `pauta/` | o link do `tiktok-narrado.mp4` |
 
 ## 1. Preparar (todas as fases)
@@ -40,12 +40,12 @@ Siga o guia da tabela, passo a passo, sem pular nenhum. Onde o guia mandar envia
 
 1. **Enviar**: `git add` só das pastas da fase, `git -c user.name="Paulo Eduardo" -c user.email="pemcarvalho@gmail.com" commit -m "<mensagem do guia>"` e `git push origin HEAD:main`. Push recusado por commits novos: `git -c user.name="Paulo Eduardo" -c user.email="pemcarvalho@gmail.com" pull --rebase --depth 50 origin main` e push de novo. Recusado por permissão ou rede: mais uma tentativa depois de 10 s; depois disso, guarde o erro exato.
 2. **Limpar**: `git status --short` precisa sair vazio. Sobrou rascunho dentro do repositório? Mova para `/tmp/fdm/`. Sobrou alteração fora das pastas da fase? Desfaça só essa alteração (`git checkout -- <arquivo>`) e conte na mensagem final.
-3. **Conferir**: uns 2 minutos depois do push, WebFetch no endereço da tabela. Se ainda não aparecer, espere mais 2 minutos e confira uma última vez.
+3. **Conferir**: pelo GitHub, nunca com WebFetch no site. `git fetch -q origin main` e `git cat-file -e origin/main:<arquivo da tabela>`; depois, se a ferramenta do GitHub estiver disponível (ToolSearch "github actions"), `actions_list` com `list_workflow_runs`: a execução "pages build and deployment" com o `head_sha` do seu commit precisa estar `completed` e `success`. Ainda rodando: espere 2 minutos e confira de novo, no máximo 2 vezes.
 4. **Mensagem final**: a que a fase pede, sem os separadores " · ", " – " ou " — ". Se algo falhou, diga a etapa e copie o erro exato.
 
 ## Limites de toda execução
 
 - Escreva só nas pastas da fase. Nunca altere `index.html`, `CNAME`, `og.jpg`, `favicon.png`, `apple-touch-icon.png`, `lands/`, `README.md`, `tools/` ou `.claude/` durante uma execução agendada.
 - Não mexa em tarefas agendadas nem no artifact do jornal. Ferramenta paga do vidIQ só na fase `jornal`, uma busca por dia, como manda o guia.
-- Os endereços que podem ser abertos com WebFetch são os do texto da tarefa agendada e os de conferência da tabela acima.
+- WebFetch só em link que voltou numa WebSearch da mesma execução (ver "Páginas da web" em `tools/REGRAS.md`). Endereço digitado ou montado pede confirmação ao Paulo e expira sem resposta.
 - Se o Paulo responder na conversa de qualquer fase com os áudios do TikTok, rode a fase `narracao` nessa mesma conversa.

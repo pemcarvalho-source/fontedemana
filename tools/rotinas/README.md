@@ -38,6 +38,7 @@ Linha de base: em 16/10/2026 a régua sai igual para ed11, ed10 e a pauta de 16/
 - **Pauta depende do jornal terminar a tempo** (espera de até 30 minutos às 7h20). Resolve na fase 3.
 - **Regras repetidas** no texto das tarefas, nos LEIA e no REGRAS; **três validadores** com checagens iguais (separadores, moeda). Unificar na fase 2.
 - **Repositório crescendo**: 129 MB em 49 commits (16/10), porque imagens e vídeos ficam no histórico. A limpeza de 7 dias apaga do site, não do histórico. Tirar a mídia do histórico antes de chegar perto de 1 GB.
+- **WebFetch em execução agendada** só abre link vindo de WebSearch da mesma execução (resolvido em 18/10 com busca antes de abrir).
 - **Conectores**: Metricool não está ligado na tarefa do jornal; Spotify e Docs estão ligados sem uso.
 - **Tarefa antiga desligada** ("Fonte de Mana diário (antiga, desligada)") ainda existe, com o fluxo do artifact.
 - **Calendário muda a cada execução**: o `.ics` grava a hora da geração (DTSTAMP), então rodar a pauta de novo sempre gera um commit, mesmo sem mudança real.
@@ -46,3 +47,4 @@ Linha de base: em 16/10/2026 a régua sai igual para ed11, ed10 e a pauta de 16/
 ## Andamento
 
 - 16/10/2026: fase 0 e fase 1 entregues no ramo `refatoracao`. A tarefa da pauta passa a usar o orquestrador quando o ramo entrar no `main` (até lá, segue o fluxo antigo). Jornal e noite trocam depois de 2 execuções limpas da pauta. Correção junto: o resumo da pauta saía com ponto duplo quando a força do dia terminava em ponto.
+- 18/10/2026: WebFetch passa a abrir só links que voltaram numa WebSearch da mesma execução (endereço digitado ou montado pedia confirmação ao Paulo e expirava de madrugada). Nova seção "Páginas da web" em `tools/REGRAS.md`; radar, Topdeck e cotação do jornal buscam antes de abrir; cotação só pela PTAX em dois veículos (o frankfurter não aparece na busca); conferência da publicação pelo GitHub (`origin/main` e "pages build and deployment"), sem WebFetch no site. Texto da tarefa do jornal e legado atualizados.
