@@ -28,6 +28,7 @@ Valem para o jornal, o Kit de Redes, a pauta e os conteúdos originais. Cada rot
   - Wizards: `allowed_domains` ["magic.wizards.com"], "Magic announcements <mês> <ano>" e, se precisar, o assunto.
   - MTGStocks: ["mtgstocks.com"], "MTGStocks news <mês> <ano>" (ou "Weekly Winners <ano>").
   - LigaMagic: ["ligamagic.com.br"], o assunto do dia.
+  - MTG Salvation: ["mtgsalvation.com"], "MTG Salvation news <mês> <ano>" (notícias em `/news`, cartas reveladas em `/spoilers`). Notícia dele é fonte secundária e o fórum é rumor.
   - EDHREC: "edhrec <Nome da Carta>". `edhrec.com` e `edhrecstatic.com` têm o mesmo conteúdo e valem igual.
   - Commander Spellbook: ["commanderspellbook.com"], "<Nome da Carta> combo". Vale o link da busca (`/search/?q=...`) ou os de combo (`/combo/...`).
   - Cotação: "cotação dólar PTAX hoje" (ver Moeda).
