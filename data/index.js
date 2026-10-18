@@ -1,6 +1,7 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "Uthros Research Craft",
   "Astral Dragon",
   "Vraska, Betrayal's Sting",
   "Tribute to the World Tree",
@@ -11,6 +12,13 @@ window.MANA_POOL_INDEX = {
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 13,
+   "date": "2026-10-18",
+   "dateLabel": "Domingo, 18 de outubro de 2026",
+   "head": "Star Trek ganha calendário de prévias, com os precons revelados de 26 a 29 de outubro",
+   "biome": "G"
+  },
   {
    "n": 12,
    "date": "2026-10-17",
