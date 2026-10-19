@@ -1,6 +1,7 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "Tymna the Weaver",
   "Uthros Research Craft",
   "Astral Dragon",
   "Vraska, Betrayal's Sting",
@@ -12,6 +13,13 @@ window.MANA_POOL_INDEX = {
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 14,
+   "date": "2026-10-19",
+   "dateLabel": "Segunda, 19 de outubro de 2026",
+   "head": "Festival in a Box: Atlanta abre venda hoje com a primeira caixa de Mystery Booster Commander",
+   "biome": "A"
+  },
   {
    "n": 13,
    "date": "2026-10-18",
