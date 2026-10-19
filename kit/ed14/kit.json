@@ -1,0 +1,161 @@
+{
+ "n": 14,
+ "data": "19 out",
+ "carrossel": {
+  "capa": {
+   "cor": "A",
+   "titulo": "Festival in a Box abre hoje com Mystery Commander",
+   "sub": "Por <b>US$ 249,99 (R$ 1.270,60)</b>, a primeira caixa fechada de Mystery Booster Commander Edition, com Secret Lair e promos.",
+   "credito": "Arte: Tana, the Bloodsower, Magali Villeneuve"
+  },
+  "cartoes": [
+   {
+    "cor": "A",
+    "titulo": "Festival in a Box: Atlanta",
+    "itens": [
+     {
+      "cor": "A",
+      "html": "<b>US$ 249,99 (R$ 1.270,60)</b> no site do Secret Lair, máximo de duas por pessoa."
+     },
+     {
+      "cor": "G",
+      "html": "<b>24 boosters</b> de Mystery Booster Commander Edition, com 60 comandantes inéditos na coleção."
+     },
+     {
+      "cor": "M",
+      "html": "<b>Secret Gallery: Atlanta</b> em foil e promos sem texto de Tana, Tymna e Dance of the Dead."
+     },
+     {
+      "cor": "U",
+      "html": "<b>13 nov:</b> as cartas novas passam a valer no Commander."
+     }
+    ],
+    "nota": {
+     "rotulo": "No seu bolso",
+     "texto": "estoque limitado. Na mesa, os comandantes novos só entram em 13 de novembro."
+    },
+    "fonte": "Fontes: Wizards, EDHREC e Playgroup. Reais: PTAX de 16 out"
+   }
+  ],
+  "topdeck": {
+   "titulo": "Tymna the Weaver",
+   "habilidades": [
+    {
+     "rotulo": "Compra depois do combate",
+     "texto": "Acertou três oponentes no combate? Pague 3 de vida e compre 3 cartas."
+    },
+    {
+     "rotulo": "Parceiro",
+     "texto": "Divide a zona de comando com outra carta de Parceiro, como Kraum ou Tana."
+    },
+    {
+     "rotulo": "Pega no pulo",
+     "texto": "Conta oponentes atingidos, não criaturas. Três no mesmo jogador dão uma carta."
+    }
+   ],
+   "extra": "Em <b>39,1 mil</b> decks no EDHREC. Ganha promo nova no Festival in a Box. A mais barata sai por US$ 10,85 (R$ 55,15). Reais: PTAX de 16 out.",
+   "credito": "Ilustração de Winona Nelson"
+  },
+  "ban": null,
+  "turnos": [
+   {
+    "cor": "A",
+    "data": "19 out",
+    "texto": "Festival in a Box: Atlanta"
+   },
+   {
+    "cor": "G",
+    "data": "20 out",
+    "texto": "Estreia de Star Trek"
+   },
+   {
+    "cor": "A",
+    "data": "23 out",
+    "texto": "Secret Lair Bundle de Reality Fracture"
+   },
+   {
+    "cor": "G",
+    "data": "26 a 29 out",
+    "texto": "Precons de Star Trek revelados"
+   },
+   {
+    "cor": "G",
+    "data": "30 out",
+    "texto": "Galeria completa de Star Trek"
+   }
+  ],
+  "sussurro": "Um site já crava Picard, Spock e Worf como comandantes dos precons de Star Trek. A Wizards ainda não confirmou."
+ },
+ "video": {
+  "cena1": {
+   "titulo": "Festival in a Box abre hoje com Mystery Commander",
+   "pilulas": [
+    "24 boosters na caixa",
+    "Máximo de duas",
+    "Promos sem texto"
+   ]
+  },
+  "cena2": {
+   "rotulo": "No bolso",
+   "cor": "A",
+   "titulo": "Quanto custa a caixa",
+   "linhas": [
+    {
+     "nome": "Festival in a Box",
+     "numero": 249,
+     "prefixo": "US$ ",
+     "sufixo": ",99",
+     "sub": "(R$ 1.270,60), 2 por pessoa"
+    },
+    {
+     "nome": "Comandantes inéditos",
+     "numero": 60,
+     "prefixo": "",
+     "sufixo": "",
+     "sub": "valem a partir de 13 nov"
+    }
+   ],
+   "fonte": "Fontes: Wizards e Playgroup. Reais: PTAX de 16 out"
+  },
+  "cena3": {
+   "linhas": [
+    "<b>Tymna the Weaver</b> compra uma carta por oponente atingido.",
+    "Parceira clássica de Kraum e Tana, ganha promo nova hoje.",
+    "Está em 39,1 mil decks no EDHREC."
+   ]
+  },
+  "cena4": {
+   "texto": "Hoje sai o Festival in a Box. Amanhã estreia Star Trek, e os precons são revelados de 26 a 29 de outubro.",
+   "sussurro": "Picard, Spock e Worf nos precons de Star Trek? Ainda não confirmado."
+  }
+ },
+ "textos": {
+  "legendaCarrossel": "Hoje é dia de Festival in a Box: Atlanta 2026 no site do Secret Lair. Por US$ 249,99 (R$ 1.270,60), com no máximo duas por pessoa, vem a primeira caixa fechada de Mystery Booster Commander Edition: 24 boosters feitos para draft de Commander, cada um com um comandante reimpresso e um inédito.\n\nNa caixa também vêm o Secret Gallery: Atlanta em foil (Parallax Tide, Regrowth, Viridian Revel e Assassin's Trophy) e promos sem texto de Tana, the Bloodsower, Tymna the Weaver e Dance of the Dead. As cartas novas só valem no Commander a partir de 13 de novembro.\n\nO Topdeck do Dia é a Tymna the Weaver, a parceira que transforma ataque em compra de carta.\n\nEdição completa em fontedemana.com.br\n\nArtes: Tana, the Bloodsower, de Magali Villeneuve, e Tymna the Weaver, de Winona Nelson.\n\nValores em reais pela cotação PTAX de 16 out (Banco Central).\n\n#mtg #magicthegathering #commander #edh #mtgbrasil #mysterybooster #secretlair #fontedemana",
+  "legendaVideo": "Festival in a Box: Atlanta abre hoje com a primeira caixa de Mystery Booster Commander Edition, por US$ 249,99 (R$ 1.270,60). E a Tymna the Weaver no Topdeck. Tudo em fontedemana.com.br\n\nVocê abriria uma caixa de Mystery Booster Commander ou prefere esperar as cartas avulsas?\n\nValores em reais pela cotação PTAX de 16 out (Banco Central).\n\n#mtg #magicthegathering #commander #edh #mtgbrasil",
+  "threadsFio": [
+   "Fonte de Mana de segunda, 19 de outubro. Abre hoje no site do Secret Lair o Festival in a Box: Atlanta 2026, por US$ 249,99 (R$ 1.270,60), com no máximo duas por pessoa. A Wizards não informou o horário.",
+   "Dentro vem a primeira caixa fechada de Mystery Booster Commander Edition, com 24 boosters. Cada booster de 20 cartas traz um comandante reimpresso e um inédito, e são 60 comandantes novos na coleção. Eles só valem no Commander a partir de 13 de novembro.",
+   "Também vêm o Secret Gallery: Atlanta em foil, com Parallax Tide, Regrowth, Viridian Revel e Assassin's Trophy, e as promos sem texto de Tana, the Bloodsower, Tymna the Weaver e Dance of the Dead.",
+   "Topdeck do Dia: Tymna the Weaver. Depois do combate, você paga 1 de vida por oponente que levou dano e compra a mesma quantidade de cartas. Com Parceiro, divide o comando com Kraum, Tana e companhia. Edição completa em fontedemana.com.br\n\nValores em reais pela cotação PTAX de 16 out (Banco Central)."
+  ],
+  "threadsAvulsos": [
+   {
+    "titulo": "Pergunta do dia",
+    "texto": "Abre hoje o Festival in a Box com a primeira caixa de Mystery Booster Commander. Você abriria uma caixa ou espera as cartas avulsas?",
+    "obs": "Enquete: Abriria a caixa, Espero as avulsas"
+   }
+  ]
+ },
+ "pauta": {
+  "forca": "calmo",
+  "porque": "Venda anunciada no começo do mês e já noticiada. Hoje só chega a data, sem fato novo de peso.",
+  "storyPergunta": "Você abriria uma caixa de Mystery Booster Commander?",
+  "enquete": {
+   "pergunta": "Mystery Booster Commander: caixa ou avulsas?",
+   "opcoes": [
+    "Abriria a caixa",
+    "Espero as avulsas"
+   ]
+  }
+ }
+}
