@@ -1,0 +1,76 @@
+{
+ "data": "2026-10-20",
+ "tema": "Dicionário do Commander #2: o que é staple",
+ "item": "Staple",
+ "arte": "pauta/2026-10-20/tiktok/arte.jpg",
+ "carta": "pauta/2026-10-20/tiktok/carta.jpg",
+ "credito": "Arte: Arcane Signet, Dan Murayama Scott",
+ "fx": "Reais pela cotação PTAX de 16 out (Banco Central)",
+ "legenda": "\"Isso aí é staple, tem que ter.\" Você sabe o que quer dizer? Dicionário do Commander #2: staple é a carta que aparece em quase todo deck que pode jogar ela. O Arcane Signet está em 72% dos decks no EDHREC e custa uns 40 centavos de dólar. Mas staple não é obrigação.\n\nQue termo da mesa te confundiu no começo? Conta aqui.\n\nReais pela cotação PTAX de 16 out (Banco Central). Dados: EDHREC (últimos 2 anos) e Scryfall.\n\n#mtg #magicthegathering #commander #edh #mtgbrasil #staple #dicionariodocommander",
+ "comentario": "Staple que você corta sem dó do teu deck: comenta qual 👇",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "cor": "A",
+   "chip": "Dicionário #2",
+   "kicker": "Dicionário do Commander",
+   "titulo": "\"Isso aí é staple, tem que ter\"",
+   "sub": "Você sabe o que quer dizer? Em menos de um minuto você nunca mais fica boiando na mesa.",
+   "narracao": "Cadê o Arcane Signet? Isso é staple, tem que ter. Você sabe o que é staple?",
+   "segundos": 7.6
+  },
+  {
+   "tipo": "texto",
+   "cor": "U",
+   "kicker": "O que é",
+   "titulo": "A carta que aparece em quase todo deck",
+   "sub": "Staple não é carta rara nem cara. É a que entra de novo e de novo, em todo deck que pode jogar ela.",
+   "narracao": "Staple é a carta que aparece em quase todo deck que pode jogar ela. No formato inteiro ou só na cor.",
+   "segundos": 9.6
+  },
+  {
+   "tipo": "lista",
+   "cor": "A",
+   "chip": "No bolso",
+   "kicker": "No EDHREC",
+   "linhas": [
+    {
+     "nome": "Arcane Signet, 72%",
+     "valor": "US$ 0,40",
+     "real": "(R$ 2,03)"
+    },
+    {
+     "nome": "Counterspell, 42% azul",
+     "valor": "US$ 3,01",
+     "real": "(R$ 15,30)"
+    },
+    {
+     "nome": "Cultivate, 41% verde",
+     "valor": "US$ 0,46",
+     "real": "(R$ 2,34)"
+    }
+   ],
+   "fonte": "EDHREC, % dos decks que podem jogar; Scryfall",
+   "narracao": "O Signet está em setenta e dois por cento dos decks e custa uns dois reais. Counterspell e Cultivate são staples do azul e do verde.",
+   "segundos": 11.6
+  },
+  {
+   "tipo": "texto",
+   "cor": "R",
+   "kicker": "O erro mais comum",
+   "titulo": "Staple não é obrigação",
+   "sub": "28% dos decks ficam sem o Arcane Signet. Se o teu plano pede outra carta, corta sem culpa.",
+   "narracao": "O erro comum: achar que é obrigatória. Vinte e oito por cento dos decks ficam sem o Signet.",
+   "segundos": 8.4
+  },
+  {
+   "tipo": "cta",
+   "cor": "M",
+   "kicker": "Todo dia no Instagram",
+   "titulo": "Um termo novo a cada Dicionário",
+   "destaque": "@fontedemana",
+   "narracao": "Que termo da mesa te confundiu? Comenta aí.",
+   "segundos": 5
+  }
+ ]
+}

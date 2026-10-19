@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-10-16-gravacao@fontedemana.com.br
-DTSTAMP:20261019T102114Z
+DTSTAMP:20261019T212816Z
 DTSTART:20261015T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -46,7 +46,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-16-tiktok@fontedemana.com.br
-DTSTAMP:20261019T102114Z
+DTSTAMP:20261019T212816Z
 DTSTART:20261016T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Chama o Juiz #1: comandante roubado conta dano?
@@ -73,7 +73,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-16-threads-manha@fontedemana.com.br
-DTSTAMP:20261019T102114Z
+DTSTAMP:20261019T212816Z
 DTSTART:20261016T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Chama o Juiz #1: comandante roubado bate em 
@@ -99,7 +99,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-16-stories-manha@fontedemana.com.br
-DTSTAMP:20261019T102114Z
+DTSTAMP:20261019T212816Z
 DTSTART:20261016T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -119,7 +119,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-16-feed@fontedemana.com.br
-DTSTAMP:20261019T102114Z
+DTSTAMP:20261019T212816Z
 DTSTART:20261016T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Chama o Juiz #1: comandante roubado bate em v
@@ -155,7 +155,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-16-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261019T102114Z
+DTSTAMP:20261019T212816Z
 DTSTART:20261016T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -174,7 +174,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-16-threads-tarde@fontedemana.com.br
-DTSTAMP:20261019T102114Z
+DTSTAMP:20261019T212816Z
 DTSTART:20261016T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 11
@@ -210,7 +210,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-16-stories-tarde@fontedemana.com.br
-DTSTAMP:20261019T102114Z
+DTSTAMP:20261019T212816Z
 DTSTART:20261016T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -230,7 +230,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-16-reels@fontedemana.com.br
-DTSTAMP:20261019T102114Z
+DTSTAMP:20261019T212816Z
 DTSTART:20261016T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -257,7 +257,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-17-gravacao@fontedemana.com.br
-DTSTAMP:20261019T102114Z
+DTSTAMP:20261019T212816Z
 DTSTART:20261016T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -294,7 +294,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-17-tiktok@fontedemana.com.br
-DTSTAMP:20261019T102114Z
+DTSTAMP:20261019T212816Z
 DTSTART:20261017T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Qual entra? #1: Swords ou Path
@@ -326,7 +326,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-17-threads-manha@fontedemana.com.br
-DTSTAMP:20261019T102114Z
+DTSTAMP:20261019T212816Z
 DTSTART:20261017T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Você vai comprar algum deles ou va
@@ -348,7 +348,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-17-stories-manha@fontedemana.com.br
-DTSTAMP:20261019T102114Z
+DTSTAMP:20261019T212816Z
 DTSTART:20261017T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -368,7 +368,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-17-feed@fontedemana.com.br
-DTSTAMP:20261019T102114Z
+DTSTAMP:20261019T212816Z
 DTSTART:20261017T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 12
@@ -408,7 +408,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-17-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261019T102114Z
+DTSTAMP:20261019T212816Z
 DTSTART:20261017T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -427,7 +427,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-17-threads-tarde@fontedemana.com.br
-DTSTAMP:20261019T102114Z
+DTSTAMP:20261019T212816Z
 DTSTART:20261017T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 12
@@ -465,7 +465,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-17-stories-tarde@fontedemana.com.br
-DTSTAMP:20261019T102114Z
+DTSTAMP:20261019T212816Z
 DTSTART:20261017T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -485,7 +485,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-17-reels@fontedemana.com.br
-DTSTAMP:20261019T102114Z
+DTSTAMP:20261019T212816Z
 DTSTART:20261017T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -512,7 +512,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-gravacao@fontedemana.com.br
-DTSTAMP:20261019T102114Z
+DTSTAMP:20261019T212816Z
 DTSTART:20261017T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -547,7 +547,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-tiktok@fontedemana.com.br
-DTSTAMP:20261019T102114Z
+DTSTAMP:20261019T212816Z
 DTSTART:20261018T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Toda mesa tem um #1\, o que demora no turno
@@ -576,7 +576,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-threads-manha@fontedemana.com.br
-DTSTAMP:20261019T102114Z
+DTSTAMP:20261019T212816Z
 DTSTART:20261018T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Toda mesa tem um #1: o que demora 10 minutos
@@ -600,7 +600,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-stories-manha@fontedemana.com.br
-DTSTAMP:20261019T102114Z
+DTSTAMP:20261019T212816Z
 DTSTART:20261018T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -620,7 +620,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-feed@fontedemana.com.br
-DTSTAMP:20261019T102114Z
+DTSTAMP:20261019T212816Z
 DTSTART:20261018T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Toda mesa tem um #1: o que demora 10 minutos 
@@ -660,7 +660,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261019T102114Z
+DTSTAMP:20261019T212816Z
 DTSTART:20261018T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -679,7 +679,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-threads-tarde@fontedemana.com.br
-DTSTAMP:20261019T102114Z
+DTSTAMP:20261019T212816Z
 DTSTART:20261018T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 13
@@ -715,7 +715,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-stories-tarde@fontedemana.com.br
-DTSTAMP:20261019T102114Z
+DTSTAMP:20261019T212816Z
 DTSTART:20261018T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -735,7 +735,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-reels@fontedemana.com.br
-DTSTAMP:20261019T102114Z
+DTSTAMP:20261019T212816Z
 DTSTART:20261018T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -762,7 +762,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-19-gravacao@fontedemana.com.br
-DTSTAMP:20261019T102114Z
+DTSTAMP:20261019T212816Z
 DTSTART:20261018T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -805,7 +805,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-19-tiktok@fontedemana.com.br
-DTSTAMP:20261019T102114Z
+DTSTAMP:20261019T212816Z
 DTSTART:20261019T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: a história do Sol Ring
@@ -834,7 +834,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-19-threads-manha@fontedemana.com.br
-DTSTAMP:20261019T102114Z
+DTSTAMP:20261019T212816Z
 DTSTART:20261019T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: História de uma carta #1: Sol Ring\, da Alp
@@ -858,7 +858,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-19-stories-manha@fontedemana.com.br
-DTSTAMP:20261019T102114Z
+DTSTAMP:20261019T212816Z
 DTSTART:20261019T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -878,7 +878,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-19-feed@fontedemana.com.br
-DTSTAMP:20261019T102114Z
+DTSTAMP:20261019T212816Z
 DTSTART:20261019T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: História de uma carta #1: Sol Ring\, da Alph
@@ -923,7 +923,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-19-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261019T102114Z
+DTSTAMP:20261019T212816Z
 DTSTART:20261019T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -942,7 +942,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-19-threads-tarde@fontedemana.com.br
-DTSTAMP:20261019T102114Z
+DTSTAMP:20261019T212816Z
 DTSTART:20261019T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 14
@@ -979,7 +979,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-19-stories-tarde@fontedemana.com.br
-DTSTAMP:20261019T102114Z
+DTSTAMP:20261019T212816Z
 DTSTART:20261019T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -999,7 +999,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-19-reels@fontedemana.com.br
-DTSTAMP:20261019T102114Z
+DTSTAMP:20261019T212816Z
 DTSTART:20261019T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -1023,6 +1023,70 @@ URL:https://fontedemana.com.br/pauta/2026-10-19/#reels
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Reels: Vídeo do jornal com música
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-20-gravacao@fontedemana.com.br
+DTSTAMP:20261019T212816Z
+DTSTART:20261019T213000Z
+DURATION:PT15M
+SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
+DESCRIPTION:Dicionário do Commander #2: o que é staple. Cinco falas curta
+ s\, uma por cena\, lendo o roteiro abaixo.\n\nArquivos:\n- Vídeo mudo (pa
+ ra ver o tempo das cenas): https://fontedemana.com.br/pauta/2026-10-20/tik
+ tok/tiktok-mudo.mp4\n\nRoteiro de gravação:\nCena 1\, uns 8 s\nNa tela: 
+ Isso aí é staple\, tem que ter\nFala: Cadê o Arcane Signet? Isso é sta
+ ple\, tem que ter. Você sabe o que é staple?\n\nCena 2\, uns 10 s\nNa te
+ la: A carta que aparece em quase todo deck\nFala: Staple é a carta que ap
+ arece em quase todo deck que pode jogar ela. No formato inteiro ou só na 
+ cor.\n\nCena 3\, uns 12 s\nNa tela: Arcane Signet em 72% dos decks\, Count
+ erspell em 42% no azul\, Cultivate em 41% no verde\nFala: O Signet está e
+ m setenta e dois por cento dos decks e custa uns dois reais. Counterspell 
+ e Cultivate são staples do azul e do verde.\n\nCena 4\, uns 8 s\nNa tela:
+  Staple não é obrigação\nFala: O erro comum: achar que é obrigatória
+ . Vinte e oito por cento dos decks ficam sem o Signet.\n\nCena 5\, uns 5 s
+ \nNa tela: Um termo novo a cada Dicionário. @fontedemana\nFala: Que termo
+  da mesa te confundiu? Comenta aí.\n\n\nPasso a passo:\n1. Grave um áudi
+ o por cena no Gravador do iPhone\, num lugar silencioso\, com o celular a 
+ um palmo da boca.\n2. Nomeie os áudios cena_1\, cena_2\, cena_3\, cena_4 
+ e cena_5.\n3. Mande os áudios ao Claude no projeto MGT strategy (pode ser
+  respondendo à mensagem desta tarefa) dizendo "áudios do TikTok de 2026-
+ 10-20".\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-20/#gr
+ avacao
+URL:https://fontedemana.com.br/pauta/2026-10-20/#gravacao
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Gravação: Gravar a narração do TikTok de amanhã
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-20-tiktok@fontedemana.com.br
+DTSTAMP:20261019T212816Z
+DTSTART:20261020T143000Z
+DURATION:PT15M
+SUMMARY:11:30 TikTok: TikTok: Dicionário do Commander #2\, staple
+DESCRIPTION:Vídeo do Dicionário do Commander #2 explicando o que é stapl
+ e\, com o Arcane Signet de exemplo.\n\nArquivos:\n- Vídeo mudo: https://f
+ ontedemana.com.br/pauta/2026-10-20/tiktok/tiktok-mudo.mp4\n\nLegenda:\n"Is
+ so aí é staple\, tem que ter." Você sabe o que quer dizer? Dicionário 
+ do Commander #2: staple é a carta que aparece em quase todo deck que pode
+  jogar ela. O Arcane Signet está em 72% dos decks no EDHREC e custa uns 4
+ 0 centavos de dólar. Mas staple não é obrigação.\n\nQue termo da mesa
+  te confundiu no começo? Conta aqui.\n\nReais pela cotação PTAX de 16 o
+ ut (Banco Central). Dados: EDHREC (últimos 2 anos) e Scryfall.\n\n#mtg #m
+ agicthegathering #commander #edh #mtgbrasil #staple #dicionariodocommander
+ \n\nComentário fixado:\nStaple que você corta sem dó do teu deck: comen
+ ta qual 👇\n\nPasso a passo:\n1. Poste com um som em alta da biblioteca 
+ do TikTok\, com volume entre 15% e 20%.\n2. Voz própria não precisa de r
+ ótulo de IA.\n3. Fixe o comentário logo depois de postar.\n4. Se os áud
+ ios não chegaram\, poste o vídeo mudo com música em alta.\n\nPauta comp
+ leta: https://fontedemana.com.br/pauta/2026-10-20/#tiktok
+URL:https://fontedemana.com.br/pauta/2026-10-20/#tiktok
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TikTok: TikTok: Dicionário do Commander #2\, staple
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT

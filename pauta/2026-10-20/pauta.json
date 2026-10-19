@@ -1,0 +1,81 @@
+{
+  "data": "2026-10-20",
+  "fx": null,
+  "avisos": [
+    {
+      "id": "gravacao",
+      "dia": "2026-10-19",
+      "hora": "18:30",
+      "rede": "Gravação",
+      "titulo": "Gravar a narração do TikTok de amanhã",
+      "oQue": "Dicionário do Commander #2: o que é staple. Cinco falas curtas, uma por cena, lendo o roteiro abaixo.",
+      "arquivos": [
+        {
+          "nome": "Vídeo mudo (para ver o tempo das cenas)",
+          "url": "https://fontedemana.com.br/pauta/2026-10-20/tiktok/tiktok-mudo.mp4"
+        }
+      ],
+      "roteiro": [
+        {
+          "cena": "Cena 1, uns 8 s",
+          "tela": "Isso aí é staple, tem que ter",
+          "fala": "Cadê o Arcane Signet? Isso é staple, tem que ter. Você sabe o que é staple?"
+        },
+        {
+          "cena": "Cena 2, uns 10 s",
+          "tela": "A carta que aparece em quase todo deck",
+          "fala": "Staple é a carta que aparece em quase todo deck que pode jogar ela. No formato inteiro ou só na cor."
+        },
+        {
+          "cena": "Cena 3, uns 12 s",
+          "tela": "Arcane Signet em 72% dos decks, Counterspell em 42% no azul, Cultivate em 41% no verde",
+          "fala": "O Signet está em setenta e dois por cento dos decks e custa uns dois reais. Counterspell e Cultivate são staples do azul e do verde."
+        },
+        {
+          "cena": "Cena 4, uns 8 s",
+          "tela": "Staple não é obrigação",
+          "fala": "O erro comum: achar que é obrigatória. Vinte e oito por cento dos decks ficam sem o Signet."
+        },
+        {
+          "cena": "Cena 5, uns 5 s",
+          "tela": "Um termo novo a cada Dicionário. @fontedemana",
+          "fala": "Que termo da mesa te confundiu? Comenta aí."
+        }
+      ],
+      "passos": [
+        "Grave um áudio por cena no Gravador do iPhone, num lugar silencioso, com o celular a um palmo da boca.",
+        "Nomeie os áudios cena_1, cena_2, cena_3, cena_4 e cena_5.",
+        "Mande os áudios ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"áudios do TikTok de 2026-10-20\"."
+      ]
+    },
+    {
+      "id": "tiktok",
+      "hora": "11:30",
+      "rede": "TikTok",
+      "titulo": "TikTok: Dicionário do Commander #2, staple",
+      "oQue": "Vídeo do Dicionário do Commander #2 explicando o que é staple, com o Arcane Signet de exemplo.",
+      "arquivos": [
+        {
+          "nome": "Vídeo mudo",
+          "url": "https://fontedemana.com.br/pauta/2026-10-20/tiktok/tiktok-mudo.mp4"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "\"Isso aí é staple, tem que ter.\" Você sabe o que quer dizer? Dicionário do Commander #2: staple é a carta que aparece em quase todo deck que pode jogar ela. O Arcane Signet está em 72% dos decks no EDHREC e custa uns 40 centavos de dólar. Mas staple não é obrigação.\n\nQue termo da mesa te confundiu no começo? Conta aqui.\n\nReais pela cotação PTAX de 16 out (Banco Central). Dados: EDHREC (últimos 2 anos) e Scryfall.\n\n#mtg #magicthegathering #commander #edh #mtgbrasil #staple #dicionariodocommander"
+        },
+        {
+          "rotulo": "Comentário fixado",
+          "texto": "Staple que você corta sem dó do teu deck: comenta qual 👇"
+        }
+      ],
+      "passos": [
+        "Poste com um som em alta da biblioteca do TikTok, com volume entre 15% e 20%.",
+        "Voz própria não precisa de rótulo de IA.",
+        "Fixe o comentário logo depois de postar.",
+        "Se os áudios não chegaram, poste o vídeo mudo com música em alta."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "data": "2026-10-20",
+  "pilar": "dicionario",
+  "item": "Staple",
+  "tema": "Dicionário do Commander #2: o que é staple",
+  "cartas": [
+    "Arcane Signet",
+    "Counterspell",
+    "Cultivate"
+  ],
+  "fx": "Valores em reais pela cotação PTAX de 16 out (Banco Central).",
+  "carrossel": {
+    "capa": {
+      "cor": "A",
+      "chip": "Dicionário #2",
+      "kicker": "Dicionário do Commander",
+      "titulo": "O que é <b>staple</b>?",
+      "sub": "\"Isso aí é staple, tem que ter.\" A frase mais ouvida na mesa e a <b>mais mal entendida</b>.",
+      "arte": "pauta/2026-10-20/tiktok/arte.jpg",
+      "credito": "Arte: Arcane Signet, Dan Murayama Scott"
+    },
+    "cartoes": [
+      {
+        "cor": "U",
+        "titulo": "O que quer dizer",
+        "itens": [
+          {
+            "cor": "U",
+            "html": "Staple é a carta que aparece em <b>quase todo deck</b> que pode jogar ela."
+          },
+          {
+            "cor": "U",
+            "html": "Pode ser staple do formato inteiro ou só de uma cor. Qual é a diferença? Arrasta."
+          }
+        ],
+        "nota": {
+          "rotulo": "Na mesa",
+          "texto": "\"cadê o Signet?\" quer dizer: por que você deixou o básico de fora?"
+        },
+        "fonte": "Fonte: glossário da comunidade (TappedOut)"
+      },
+      {
+        "cor": "A",
+        "titulo": "Staple do formato",
+        "carta": "pauta/2026-10-20/original/carta-1.jpg",
+        "itens": [
+          {
+            "cor": "A",
+            "html": "<b>72%</b> dos decks no EDHREC têm o Arcane Signet, qualquer que seja a cor."
+          },
+          {
+            "cor": "A",
+            "html": "Custa <b>US$ 0,40 (R$ 2,03)</b>. Staple não é carta cara."
+          }
+        ],
+        "fx": "Reais pela cotação PTAX de 16 out (Banco Central).",
+        "fonte": "Fonte: EDHREC e Scryfall, out 2026"
+      },
+      {
+        "cor": "U",
+        "titulo": "Staple da cor",
+        "carta": "pauta/2026-10-20/original/carta-3.jpg",
+        "itens": [
+          {
+            "cor": "U",
+            "html": "<b>42%</b> dos decks que jogam azul têm Counterspell."
+          },
+          {
+            "cor": "U",
+            "html": "A conta é só entre os decks que <b>podem</b> jogar a carta. Fora do azul, ela nem entra."
+          }
+        ],
+        "fonte": "Fonte: EDHREC, out 2026"
+      },
+      {
+        "cor": "G",
+        "titulo": "No verde também",
+        "carta": "pauta/2026-10-20/original/carta-2.jpg",
+        "itens": [
+          {
+            "cor": "G",
+            "html": "<b>41%</b> dos decks verdes jogam Cultivate, por <b>US$ 0,46 (R$ 2,34)</b>."
+          },
+          {
+            "cor": "G",
+            "html": "Então staple é obrigação? Na próxima tela."
+          }
+        ],
+        "fx": "Reais pela cotação PTAX de 16 out (Banco Central).",
+        "fonte": "Fonte: EDHREC e Scryfall, out 2026"
+      },
+      {
+        "cor": "R",
+        "titulo": "O erro mais comum",
+        "itens": [
+          {
+            "cor": "R",
+            "html": "Staple <b>não é obrigação</b>: 28% dos decks ficam sem o Arcane Signet."
+          },
+          {
+            "cor": "R",
+            "html": "Se o plano do teu deck pede outra carta, corta sem culpa."
+          }
+        ],
+        "nota": {
+          "rotulo": "Resumindo",
+          "texto": "staple diz o que todo mundo joga, não o que o teu deck precisa."
+        },
+        "fonte": "Fonte: EDHREC, out 2026"
+      }
+    ],
+    "cta": {
+      "pergunta": "Staple você joga todas ou corta? Comenta <b>JOGO</b> ou <b>CORTO</b>.",
+      "quando": "Um termo novo da mesa em cada Dicionário",
+      "salvar": "Manda pro amigo que fala staple sem saber o que é"
+    }
+  },
+  "legenda": "Staple no Commander: o que quer dizer essa palavra que todo mundo fala na mesa? Dicionário do Commander #2, com cartas de Magic de verdade como exemplo.\n\nStaple é a carta que aparece em quase todo deck que pode jogar ela. O Arcane Signet está em 72% dos decks no EDHREC e custa US$ 0,40 (R$ 2,03). Counterspell está em 42% dos decks azuis e Cultivate em 41% dos verdes. O erro mais comum é achar que staple é obrigação: 28% dos decks ficam sem o Signet.\n\nValores em reais pela cotação PTAX de 16 out (Banco Central). Fontes: EDHREC (últimos 2 anos) e Scryfall.\n\nMais em fontedemana.com.br\n\nE você, joga todas as staples ou corta? Comenta JOGO ou CORTO. E salva para mandar pro amigo que acabou de começar.\n\n#mtg #magicthegathering #commander #edh #mtgbrasil #deckdecommander #staple #dicionariodocommander",
+  "threads": {
+    "texto": "Dicionário do Commander #2: staple.\n\nO Arcane Signet está em 72% dos decks no EDHREC. Ou seja, 28% vivem sem ele.\n\nPergunta séria: staple é o que todo deck deveria jogar ou só o que todo mundo joga por preguiça de pensar?\n\nQual staple você corta sem dó do teu deck?",
+    "obs": "Enquete: Jogo todas / Corto sem dó"
+  },
+  "enquete": {
+    "pergunta": "Staple no teu deck: joga todas ou corta?",
+    "opcoes": [
+      "Jogo todas",
+      "Corto sem dó"
+    ]
+  }
+}
