@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-10-17-gravacao@fontedemana.com.br
-DTSTAMP:20261020T102147Z
+DTSTAMP:20261020T213007Z
 DTSTART:20261016T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -46,7 +46,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-17-tiktok@fontedemana.com.br
-DTSTAMP:20261020T102147Z
+DTSTAMP:20261020T213007Z
 DTSTART:20261017T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Qual entra? #1: Swords ou Path
@@ -78,7 +78,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-17-threads-manha@fontedemana.com.br
-DTSTAMP:20261020T102147Z
+DTSTAMP:20261020T213007Z
 DTSTART:20261017T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Você vai comprar algum deles ou va
@@ -100,7 +100,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-17-stories-manha@fontedemana.com.br
-DTSTAMP:20261020T102147Z
+DTSTAMP:20261020T213007Z
 DTSTART:20261017T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -120,7 +120,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-17-feed@fontedemana.com.br
-DTSTAMP:20261020T102147Z
+DTSTAMP:20261020T213007Z
 DTSTART:20261017T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 12
@@ -160,7 +160,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-17-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261020T102147Z
+DTSTAMP:20261020T213007Z
 DTSTART:20261017T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -179,7 +179,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-17-threads-tarde@fontedemana.com.br
-DTSTAMP:20261020T102147Z
+DTSTAMP:20261020T213007Z
 DTSTART:20261017T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 12
@@ -217,7 +217,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-17-stories-tarde@fontedemana.com.br
-DTSTAMP:20261020T102147Z
+DTSTAMP:20261020T213007Z
 DTSTART:20261017T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -237,7 +237,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-17-reels@fontedemana.com.br
-DTSTAMP:20261020T102147Z
+DTSTAMP:20261020T213007Z
 DTSTART:20261017T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -264,7 +264,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-gravacao@fontedemana.com.br
-DTSTAMP:20261020T102147Z
+DTSTAMP:20261020T213007Z
 DTSTART:20261017T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -299,7 +299,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-tiktok@fontedemana.com.br
-DTSTAMP:20261020T102147Z
+DTSTAMP:20261020T213007Z
 DTSTART:20261018T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Toda mesa tem um #1\, o que demora no turno
@@ -328,7 +328,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-threads-manha@fontedemana.com.br
-DTSTAMP:20261020T102147Z
+DTSTAMP:20261020T213007Z
 DTSTART:20261018T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Toda mesa tem um #1: o que demora 10 minutos
@@ -352,7 +352,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-stories-manha@fontedemana.com.br
-DTSTAMP:20261020T102147Z
+DTSTAMP:20261020T213007Z
 DTSTART:20261018T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -372,7 +372,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-feed@fontedemana.com.br
-DTSTAMP:20261020T102147Z
+DTSTAMP:20261020T213007Z
 DTSTART:20261018T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Toda mesa tem um #1: o que demora 10 minutos 
@@ -412,7 +412,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261020T102147Z
+DTSTAMP:20261020T213007Z
 DTSTART:20261018T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -431,7 +431,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-threads-tarde@fontedemana.com.br
-DTSTAMP:20261020T102147Z
+DTSTAMP:20261020T213007Z
 DTSTART:20261018T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 13
@@ -467,7 +467,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-stories-tarde@fontedemana.com.br
-DTSTAMP:20261020T102147Z
+DTSTAMP:20261020T213007Z
 DTSTART:20261018T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -487,7 +487,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-reels@fontedemana.com.br
-DTSTAMP:20261020T102147Z
+DTSTAMP:20261020T213007Z
 DTSTART:20261018T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -514,7 +514,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-19-gravacao@fontedemana.com.br
-DTSTAMP:20261020T102147Z
+DTSTAMP:20261020T213007Z
 DTSTART:20261018T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -557,7 +557,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-19-tiktok@fontedemana.com.br
-DTSTAMP:20261020T102147Z
+DTSTAMP:20261020T213007Z
 DTSTART:20261019T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: a história do Sol Ring
@@ -586,7 +586,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-19-threads-manha@fontedemana.com.br
-DTSTAMP:20261020T102147Z
+DTSTAMP:20261020T213007Z
 DTSTART:20261019T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: História de uma carta #1: Sol Ring\, da Alp
@@ -610,7 +610,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-19-stories-manha@fontedemana.com.br
-DTSTAMP:20261020T102147Z
+DTSTAMP:20261020T213007Z
 DTSTART:20261019T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -630,7 +630,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-19-feed@fontedemana.com.br
-DTSTAMP:20261020T102147Z
+DTSTAMP:20261020T213007Z
 DTSTART:20261019T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: História de uma carta #1: Sol Ring\, da Alph
@@ -675,7 +675,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-19-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261020T102147Z
+DTSTAMP:20261020T213007Z
 DTSTART:20261019T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -694,7 +694,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-19-threads-tarde@fontedemana.com.br
-DTSTAMP:20261020T102147Z
+DTSTAMP:20261020T213007Z
 DTSTART:20261019T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 14
@@ -731,7 +731,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-19-stories-tarde@fontedemana.com.br
-DTSTAMP:20261020T102147Z
+DTSTAMP:20261020T213007Z
 DTSTART:20261019T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -751,7 +751,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-19-reels@fontedemana.com.br
-DTSTAMP:20261020T102147Z
+DTSTAMP:20261020T213007Z
 DTSTART:20261019T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -780,7 +780,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-20-gravacao@fontedemana.com.br
-DTSTAMP:20261020T102147Z
+DTSTAMP:20261020T213007Z
 DTSTART:20261019T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -815,7 +815,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-20-tiktok@fontedemana.com.br
-DTSTAMP:20261020T102147Z
+DTSTAMP:20261020T213007Z
 DTSTART:20261020T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Dicionário do Commander #2\, staple
@@ -844,7 +844,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-20-threads-manha@fontedemana.com.br
-DTSTAMP:20261020T102147Z
+DTSTAMP:20261020T213007Z
 DTSTART:20261020T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Você acha que regra para carta de 
@@ -866,7 +866,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-20-stories-manha@fontedemana.com.br
-DTSTAMP:20261020T102147Z
+DTSTAMP:20261020T213007Z
 DTSTART:20261020T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -886,7 +886,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-20-feed@fontedemana.com.br
-DTSTAMP:20261020T102147Z
+DTSTAMP:20261020T213007Z
 DTSTART:20261020T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 15
@@ -923,7 +923,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-20-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261020T102147Z
+DTSTAMP:20261020T213007Z
 DTSTART:20261020T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -942,7 +942,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-20-threads-tarde@fontedemana.com.br
-DTSTAMP:20261020T102147Z
+DTSTAMP:20261020T213007Z
 DTSTART:20261020T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 15
@@ -974,7 +974,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-20-stories-tarde@fontedemana.com.br
-DTSTAMP:20261020T102147Z
+DTSTAMP:20261020T213007Z
 DTSTART:20261020T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -994,7 +994,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-20-reels@fontedemana.com.br
-DTSTAMP:20261020T102147Z
+DTSTAMP:20261020T213007Z
 DTSTART:20261020T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -1016,6 +1016,74 @@ URL:https://fontedemana.com.br/pauta/2026-10-20/#reels
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Reels: Vídeo do jornal com música
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-21-gravacao@fontedemana.com.br
+DTSTAMP:20261020T213007Z
+DTSTART:20261020T213000Z
+DURATION:PT15M
+SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
+DESCRIPTION:Deck em 40 segundos: Krenko\, Mob Boss vence em três passos. G
+ rave uma fala por cena\, no seu ritmo\, seguindo o roteiro.\n\nArquivos:\n
+ - Vídeo mudo do TikTok: https://fontedemana.com.br/pauta/2026-10-21/tikto
+ k/tiktok-mudo.mp4\n\nRoteiro de gravação:\nCena 1\, uns 8 s\nNa tela: O 
+ goblin que dobra o exército. 5º comandante mais montado do EDHREC\, em 4
+ 4.682 decks.\nFala: Krenko está em mais de 44 mil decks. Cada vez que ele
+  vira\, o exército de goblins dobra.\n\nCena 2\, uns 8 s\nNa tela: Quanto
+  custa: Lista média sem básicos US$ 290 (R$ 1.473\,95)\, Impact Tremors 
+ US$ 2\,79 (R$ 14\,18). Sem Game Changer: bracket 2 ou 3.\nFala: A lista m
+ édia sai por uns 290 dólares\, uns 1.470 reais. Sem Game Changer: bracke
+ t 2 ou 3.\n\nCena 3\, uns 11 s\nNa tela: Pressa\, desvirar e terremoto. Co
+ meço: Swiftfoot Boots. Meio: Thousand-Year Elixir desvira o Krenko. Final
+ : Impact Tremors bate em todo mundo.\nFala: Começo: Swiftfoot Boots\, pra
+  usar o Krenko no turno que entra. Meio: Thousand-Year Elixir desvira ele.
+  Final: Impact Tremors.\n\nCena 4\, uns 10 s\nNa tela: 3 goblins viram 12 
+ num turno. Vira o Krenko: 3 fichas\, 6 goblins. Desvira e vira de novo: 12
+ . Com Impact Tremors\, 9 de dano em cada oponente.\nFala: Com três goblin
+ s\, vira o Krenko: mais três. Desvira: mais seis. Com Impact Tremors\, no
+ ve de dano em cada oponente.\n\nCena 5\, uns 6 s\nNa tela: Que carta você
+  colocaria nesse deck?\nFala: Que carta você colocaria nesse deck? Manda 
+ pro amigo que joga de goblin.\n\n\nPasso a passo:\n1. Grave um áudio por 
+ cena no Gravador do iPhone\, num lugar silencioso\, com o celular a um pal
+ mo da boca.\n2. Nomeie os áudios cena_1\, cena_2\, cena_3\, cena_4 e cena
+ _5.\n3. Mande os áudios ao Claude no projeto MGT strategy (pode ser respo
+ ndendo à mensagem desta tarefa) dizendo "áudios do TikTok de 2026-10-21"
+ .\n\nValores em reais pela cotação PTAX de 16 out (Banco Central).\n\nPa
+ uta completa: https://fontedemana.com.br/pauta/2026-10-21/#gravacao
+URL:https://fontedemana.com.br/pauta/2026-10-21/#gravacao
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Gravação: Gravar a narração do TikTok de amanhã
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-21-tiktok@fontedemana.com.br
+DTSTAMP:20261020T213007Z
+DTSTART:20261021T143000Z
+DURATION:PT15M
+SUMMARY:11:30 TikTok: Deck em 40 segundos: Krenko\, Mob Boss
+DESCRIPTION:TikTok narrado com o plano do Krenko em três passos\, o preço
+  da lista média e a conta dos goblins.\n\nArquivos:\n- Vídeo do TikTok: 
+ https://fontedemana.com.br/pauta/2026-10-21/tiktok/tiktok-mudo.mp4\n\nLege
+ nda:\nKrenko\, Mob Boss em 40 segundos: o goblin que dobra o exército a c
+ ada toque.\nBracket 2 ou 3\, lista média por uns US$ 290 (R$ 1.473\,95).\
+ nQue carta você colocaria nesse deck? Comenta aí.\nReais pela cotação 
+ PTAX de 16 out (Banco Central).\n#mtg #magicthegathering #commander #edh #
+ krenko #goblins #mtgbrasil\n\nComentário fixado:\nKrenko está em 44.682 
+ decks no EDHREC. Qual goblin não pode faltar no seu? Comenta o nome da ca
+ rta.\n\nPasso a passo:\n1. Poste com um som em alta da biblioteca do TikTo
+ k\, com volume entre 15% e 20%.\n2. A voz é sua\, então não precisa de 
+ rótulo de IA.\n3. Fixe o comentário logo depois de postar.\n4. Se os áu
+ dios não chegaram\, poste o vídeo mudo com música em alta.\n\nValores e
+ m reais pela cotação PTAX de 16 out (Banco Central).\n\nPauta completa: 
+ https://fontedemana.com.br/pauta/2026-10-21/#tiktok
+URL:https://fontedemana.com.br/pauta/2026-10-21/#tiktok
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TikTok: Deck em 40 segundos: Krenko\, Mob Boss
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT

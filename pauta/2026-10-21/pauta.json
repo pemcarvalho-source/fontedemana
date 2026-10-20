@@ -1,0 +1,81 @@
+{
+  "data": "2026-10-21",
+  "fx": "Valores em reais pela cotação PTAX de 16 out (Banco Central).",
+  "avisos": [
+    {
+      "id": "gravacao",
+      "dia": "2026-10-20",
+      "hora": "18:30",
+      "rede": "Gravação",
+      "titulo": "Gravar a narração do TikTok de amanhã",
+      "oQue": "Deck em 40 segundos: Krenko, Mob Boss vence em três passos. Grave uma fala por cena, no seu ritmo, seguindo o roteiro.",
+      "arquivos": [
+        {
+          "nome": "Vídeo mudo do TikTok",
+          "url": "https://fontedemana.com.br/pauta/2026-10-21/tiktok/tiktok-mudo.mp4"
+        }
+      ],
+      "roteiro": [
+        {
+          "cena": "Cena 1, uns 8 s",
+          "tela": "O goblin que dobra o exército. 5º comandante mais montado do EDHREC, em 44.682 decks.",
+          "fala": "Krenko está em mais de 44 mil decks. Cada vez que ele vira, o exército de goblins dobra."
+        },
+        {
+          "cena": "Cena 2, uns 8 s",
+          "tela": "Quanto custa: Lista média sem básicos US$ 290 (R$ 1.473,95), Impact Tremors US$ 2,79 (R$ 14,18). Sem Game Changer: bracket 2 ou 3.",
+          "fala": "A lista média sai por uns 290 dólares, uns 1.470 reais. Sem Game Changer: bracket 2 ou 3."
+        },
+        {
+          "cena": "Cena 3, uns 11 s",
+          "tela": "Pressa, desvirar e terremoto. Começo: Swiftfoot Boots. Meio: Thousand-Year Elixir desvira o Krenko. Final: Impact Tremors bate em todo mundo.",
+          "fala": "Começo: Swiftfoot Boots, pra usar o Krenko no turno que entra. Meio: Thousand-Year Elixir desvira ele. Final: Impact Tremors."
+        },
+        {
+          "cena": "Cena 4, uns 10 s",
+          "tela": "3 goblins viram 12 num turno. Vira o Krenko: 3 fichas, 6 goblins. Desvira e vira de novo: 12. Com Impact Tremors, 9 de dano em cada oponente.",
+          "fala": "Com três goblins, vira o Krenko: mais três. Desvira: mais seis. Com Impact Tremors, nove de dano em cada oponente."
+        },
+        {
+          "cena": "Cena 5, uns 6 s",
+          "tela": "Que carta você colocaria nesse deck?",
+          "fala": "Que carta você colocaria nesse deck? Manda pro amigo que joga de goblin."
+        }
+      ],
+      "passos": [
+        "Grave um áudio por cena no Gravador do iPhone, num lugar silencioso, com o celular a um palmo da boca.",
+        "Nomeie os áudios cena_1, cena_2, cena_3, cena_4 e cena_5.",
+        "Mande os áudios ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"áudios do TikTok de 2026-10-21\"."
+      ]
+    },
+    {
+      "id": "tiktok",
+      "hora": "11:30",
+      "rede": "TikTok",
+      "titulo": "Deck em 40 segundos: Krenko, Mob Boss",
+      "oQue": "TikTok narrado com o plano do Krenko em três passos, o preço da lista média e a conta dos goblins.",
+      "arquivos": [
+        {
+          "nome": "Vídeo do TikTok",
+          "url": "https://fontedemana.com.br/pauta/2026-10-21/tiktok/tiktok-mudo.mp4"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Krenko, Mob Boss em 40 segundos: o goblin que dobra o exército a cada toque.\nBracket 2 ou 3, lista média por uns US$ 290 (R$ 1.473,95).\nQue carta você colocaria nesse deck? Comenta aí.\nReais pela cotação PTAX de 16 out (Banco Central).\n#mtg #magicthegathering #commander #edh #krenko #goblins #mtgbrasil"
+        },
+        {
+          "rotulo": "Comentário fixado",
+          "texto": "Krenko está em 44.682 decks no EDHREC. Qual goblin não pode faltar no seu? Comenta o nome da carta."
+        }
+      ],
+      "passos": [
+        "Poste com um som em alta da biblioteca do TikTok, com volume entre 15% e 20%.",
+        "A voz é sua, então não precisa de rótulo de IA.",
+        "Fixe o comentário logo depois de postar.",
+        "Se os áudios não chegaram, poste o vídeo mudo com música em alta."
+      ]
+    }
+  ]
+}

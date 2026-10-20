@@ -1,0 +1,21 @@
+{
+  "data": "2026-10-21",
+  "pilar": "deck",
+  "item": null,
+  "tema": "Krenko, Mob Boss vence em três passos",
+  "cartas": ["Krenko, Mob Boss", "Swiftfoot Boots", "Thousand-Year Elixir", "Impact Tremors"],
+  "fx": "Valores em reais pela cotação PTAX de 16 out (Banco Central).",
+  "carrossel": {
+    "capa": {"cor": "M", "chip": "Deck em 40 s", "kicker": "Krenko, Mob Boss", "titulo": "3 goblins viram <b>12</b> num turno", "sub": "O 5º comandante mais montado do EDHREC, em <b>44.682 decks</b>. Bracket 2 ou 3, lista média por uns <b>US$ 290 (R$ 1.473,95)</b>.", "arte": "pauta/2026-10-21/tiktok/arte.jpg", "credito": "Arte: Krenko, Mob Boss, Karl Kopinski"},
+    "cartoes": [
+      {"cor": "R", "titulo": "Passo 1: pressa", "carta": "pauta/2026-10-21/original/carta-1.jpg", "itens": [{"cor": "R", "html": "Krenko precisa virar para criar goblins. Com <b>Swiftfoot Boots</b>, ele usa a habilidade no turno em que entra."}, {"cor": "R", "html": "Está em <b>55%</b> dos decks dele. Mas uma vez por turno basta?"}], "fonte": "Fonte: EDHREC, out 2026"},
+      {"cor": "R", "titulo": "Passo 2: desvirar", "carta": "pauta/2026-10-21/original/carta-2.jpg", "itens": [{"cor": "R", "html": "<b>Thousand-Year Elixir</b> desvira o Krenko por 1 de mana. Com 3 goblins: vira, 6. Desvira e vira de novo, <b>12</b>."}, {"cor": "R", "html": "Muito goblin na mesa. E como isso vira dano?"}], "fonte": "Fonte: EDHREC, out 2026"},
+      {"cor": "R", "titulo": "Passo 3: terremoto", "carta": "pauta/2026-10-21/original/carta-3.jpg", "itens": [{"cor": "R", "html": "<b>Impact Tremors</b>: cada criatura que entra dá 1 de dano em cada oponente. Aquelas 9 fichas, <b>9 de dano</b> em cada um."}, {"cor": "R", "html": "Está em <b>85%</b> dos decks de Krenko."}], "fonte": "Fonte: EDHREC, out 2026"},
+      {"cor": "A", "titulo": "O deck numa frase", "itens": [{"cor": "M", "html": "<b>Se o Krenko vira duas vezes, a mesa já está perdendo.</b>"}, {"cor": "A", "html": "Lista média sem básicos: uns <b>US$ 290 (R$ 1.473,95)</b>, nas versões mais baratas."}, {"cor": "A", "html": "Nenhuma carta da lista média é Game Changer: <b>bracket 2 ou 3</b>."}], "nota": {"rotulo": "Cuidado", "texto": "remoção no Krenko desmonta o plano, por isso as botas também dão hexproof."}, "fx": "Reais pela cotação PTAX de 16 out (Banco Central).", "fonte": "Fonte: EDHREC e Scryfall, out 2026"}
+    ],
+    "cta": {"pergunta": "Que carta você colocaria? Comenta <b>Elixir</b> ou <b>Tremors</b>", "quando": "Nos comentários, uma palavra só", "salvar": "Manda pro amigo que joga de goblin e nunca vira o Krenko duas vezes"}
+  },
+  "legenda": "Krenko, Mob Boss em 40 segundos: deck de Commander de goblins, carta de Magic que dobra o exército a cada toque.\nBracket 2 ou 3. Lista média sem básicos por uns US$ 290 (R$ 1.473,95). 44.682 decks no EDHREC.\n\nComeço: Swiftfoot Boots, pro Krenko usar a habilidade no turno que entra.\nMeio: Thousand-Year Elixir desvira o Krenko e o exército dobra de novo.\nComo vence: Impact Tremors, 1 de dano em cada oponente por goblin que entra.\n\nFontes: EDHREC (decks e lista média) e Scryfall (preços). Valores em reais pela cotação PTAX de 16 out (Banco Central).\nMais em fontedemana.com.br\n\nQue carta você colocaria nesse deck?\n\n#mtg #magicthegathering #commander #edh #krenko #goblins #mtgbrasil #deckdecommander",
+  "threads": {"texto": "Krenko, Mob Boss está em 44.682 decks no EDHREC e a lista média nem tem Game Changer. Mesmo assim, quando ele vira duas vezes no mesmo turno, a mesa inteira olha pra ele.\n\nNa sua mesa, Krenko é bracket 2 de boa ou é o primeiro alvo de remoção? Comenta \"de boa\" ou \"alvo\".", "obs": "Enquete com as duas opções: de boa ou primeiro alvo"},
+  "enquete": {"pergunta": "Krenko na sua mesa é...", "opcoes": ["De boa no bracket 2", "Primeiro alvo"]}
+}

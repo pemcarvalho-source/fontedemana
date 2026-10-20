@@ -1,0 +1,72 @@
+{
+ "data": "2026-10-21",
+ "tema": "Deck em 40 segundos: Krenko, Mob Boss vence em três passos",
+ "item": null,
+ "arte": "pauta/2026-10-21/tiktok/arte.jpg",
+ "carta": "pauta/2026-10-21/tiktok/carta.jpg",
+ "credito": "Arte: Krenko, Mob Boss, Karl Kopinski",
+ "fx": "Reais pela cotação PTAX de 16 out (Banco Central)",
+ "legenda": "Krenko, Mob Boss em 40 segundos: o goblin que dobra o exército a cada toque.\nBracket 2 ou 3, lista média por uns US$ 290 (R$ 1.473,95).\nQue carta você colocaria nesse deck? Comenta aí.\nReais pela cotação PTAX de 16 out (Banco Central).\n#mtg #magicthegathering #commander #edh #krenko #goblins #mtgbrasil",
+ "comentario": "Krenko está em 44.682 decks no EDHREC. Qual goblin não pode faltar no seu? Comenta o nome da carta.",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "cor": "M",
+   "chip": "Deck em 40 s",
+   "kicker": "Krenko, Mob Boss",
+   "titulo": "O goblin que dobra o exército",
+   "sub": "5º comandante mais montado do EDHREC, em 44.682 decks.",
+   "narracao": "Krenko está em mais de 44 mil decks. Cada vez que ele vira, o exército de goblins dobra.",
+   "segundos": 8.4
+  },
+  {
+   "tipo": "lista",
+   "cor": "A",
+   "chip": "No bolso",
+   "kicker": "Quanto custa",
+   "linhas": [
+    {
+     "nome": "Lista média sem básicos",
+     "valor": "US$ 290",
+     "real": "(R$ 1.473,95)"
+    },
+    {
+     "nome": "Impact Tremors",
+     "valor": "US$ 2,79",
+     "real": "(R$ 14,18)"
+    }
+   ],
+   "rodape": "Sem Game Changer: bracket 2 ou 3.",
+   "fonte": "EDHREC e Scryfall, out 2026",
+   "narracao": "A lista média sai por uns 290 dólares, uns 1.470 reais. Sem Game Changer: bracket 2 ou 3.",
+   "segundos": 8.4
+  },
+  {
+   "tipo": "texto",
+   "cor": "R",
+   "kicker": "Plano em três passos",
+   "titulo": "Pressa, desvirar e terremoto",
+   "sub": "Começo: Swiftfoot Boots. Meio: Thousand-Year Elixir desvira o Krenko. Final: Impact Tremors bate em todo mundo.",
+   "narracao": "Começo: Swiftfoot Boots, pra usar o Krenko no turno que entra. Meio: Thousand-Year Elixir desvira ele. Final: Impact Tremors.",
+   "segundos": 8.8
+  },
+  {
+   "tipo": "texto",
+   "cor": "R",
+   "kicker": "A conta na mesa",
+   "titulo": "3 goblins viram 12 num turno",
+   "sub": "Vira o Krenko: 3 fichas, 6 goblins. Desvira e vira de novo: 12. Com Impact Tremors, 9 de dano em cada oponente.",
+   "narracao": "Com três goblins, vira o Krenko: mais três. Desvira: mais seis. Com Impact Tremors, nove de dano em cada oponente.",
+   "segundos": 9.2
+  },
+  {
+   "tipo": "cta",
+   "cor": "M",
+   "kicker": "Todo dia no Instagram",
+   "titulo": "Que carta você colocaria nesse deck?",
+   "destaque": "@fontedemana",
+   "narracao": "Que carta você colocaria nesse deck? Manda pro amigo que joga de goblin.",
+   "segundos": 6.4
+  }
+ ]
+}
