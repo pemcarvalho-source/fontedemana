@@ -1,0 +1,63 @@
+{
+ "n": 15,
+ "data": "20 out",
+ "carrossel": {
+  "capa": {"cor": "U", "titulo": "Tolabow ganha texto novo antes do Commander", "sub": "O boletim do <b>Mystery Booster Commander</b> reescreve a lontra, cria a regra do <i>rulebreaker</i> e muda as cartas de fundir.", "credito": "Arte: Tolabow, Loch Rascal, Brian Valeza"},
+  "cartoes": [
+   {"cor": "U", "titulo": "O que muda nas regras",
+    "itens": [
+     {"cor": "U", "html": "Com <b>Tolabow</b> no comando, instantâneas e feitiços podem ter uma cor a mais, à sua escolha."},
+     {"cor": "U", "html": "Regra nova 903.5e: <i>rulebreaker</i> funciona antes do jogo, só se a carta for o seu comandante."},
+     {"cor": "U", "html": "Cartas de fundir deixam de ser dupla-face e ganham a regra 713."},
+     {"cor": "G", "html": "As cartas novas valem no Commander em <b>13 de novembro</b>."}
+    ],
+    "nota": {"rotulo": "Na sua mesa", "texto": "vale o Oracle, não o texto impresso. Abriu um Tolabow? Monte pela regra nova."},
+    "fonte": "Fontes: Wizards of the Coast e EDHREC"}
+  ],
+  "topdeck": {"titulo": "Gisela, the Broken Blade",
+   "habilidades": [
+    {"rotulo": "Voar, iniciativa e vínculo", "texto": "Bate primeiro e pelo ar, e cada dano vira vida para você."},
+    {"rotulo": "Fusão", "texto": "Com Bruna em campo, as duas viram Brisela, uma 9/10 no fim do seu turno."},
+    {"rotulo": "Brisela trava a mesa", "texto": "Oponentes não conjuram mágicas de valor de mana 3 ou menos."}
+   ],
+   "extra": "Comandante de <b>951 decks</b> no EDHREC, e 98% deles jogam a Bruna. US$ 23,47 no Scryfall em 20 de outubro.",
+   "credito": "Ilustração de Clint Cearley"},
+  "ban": {"numero": "41", "unidade": "DIAS", "texto": "para a próxima janela de banimentos, em 30 de novembro. A de 12 de outubro não mexeu no Commander."},
+  "turnos": [
+   {"cor": "G", "data": "20 out", "texto": "Hoje: estreia de Star Trek"},
+   {"cor": "G", "data": "21 a 29 out", "texto": "Prévias de cartas de Star Trek"},
+   {"cor": "A", "data": "23 out", "texto": "Secret Lair Bundle nas lojas"},
+   {"cor": "W", "data": "23 a 29 out", "texto": "Segunda rodada da Festa de Commander"},
+   {"cor": "G", "data": "26 a 29 out", "texto": "Precons de Star Trek revelados"}
+  ],
+  "sussurro": "O Festival in a Box: Atlanta teria esgotado em 20 minutos, segundo o MTG Rocks. A Wizards não confirmou."
+ },
+ "video": {
+  "cena1": {"titulo": "Tolabow ganha texto novo antes do Commander", "pilulas": ["Regra 903.5e", "Meld na regra 713", "Vale em 13 nov"]},
+  "cena2": {"rotulo": "Regras", "cor": "U", "titulo": "Cartas de fundir mudam de casa",
+   "itens": ["Meld deixa de ser dupla-face e ganha a regra 713.", "Overgrown Pest não pega mais carta de fundir.", "Sete subtipos novos de planeswalker entram nas regras."],
+   "fonte": "Fonte: boletim da Wizards de 19 out"},
+  "cena3": {"linhas": ["<b>Gisela, the Broken Blade</b>: voar, iniciativa e vínculo.", "Com a Bruna em campo, as duas viram Brisela, uma 9/10.", "Comandante de 951 decks no EDHREC."]},
+  "cena4": {"texto": "41 dias para a próxima janela de banimentos. Hoje tem estreia de Star Trek.", "sussurro": "Festival in a Box esgotou em 20 minutos? Não confirmado."}
+ },
+ "textos": {
+  "legendaCarrossel": "Saiu o boletim de regras do Mystery Booster Commander Edition, e a lontra Tolabow, Loch Rascal ganhou texto novo antes de chegar às mesas.\n\nCom Tolabow no comando, suas instantâneas e feitiços podem ter uma cor a mais, escolhida por você. A regra nova 903.5e diz que habilidades rulebreaker funcionam antes do jogo, só quando a carta é o seu comandante. E as cartas de fundir deixam de ser dupla-face: agora têm a regra 713 só para elas.\n\nAs cartas novas valem no Commander em 13 de novembro.\n\nNo Topdeck do Dia, Gisela, the Broken Blade, metade da fusão mais famosa da mesa.\n\nEdição completa em fontedemana.com.br\n\nArte da capa: Tolabow, Loch Rascal, Brian Valeza. Topdeck: ilustração de Clint Cearley.\n\n#mtg #magicthegathering #commander #edh #mtgbrasil #mtgcommander",
+  "legendaVideo": "Tolabow ganhou texto novo, o rulebreaker ganhou regra e as cartas de fundir mudaram de casa. E no Topdeck, Gisela, the Broken Blade.\n\nVocê já jogou com uma carta de fundir no Commander? Conta aqui.\n\nEdição completa em fontedemana.com.br\n\n#mtg #magicthegathering #commander #edh #mtgbrasil",
+  "threadsFio": [
+   "Saiu o boletim de regras do Mystery Booster Commander Edition. Três mudanças que importam para quem joga Commander.",
+   "1. Tolabow, Loch Rascal foi reescrita. Com ela no comando, suas instantâneas e feitiços podem ter uma cor a mais, escolhida por você, e o deck pode ter qualquer terreno básico.",
+   "2. Regra nova 903.5e: habilidades rulebreaker funcionam antes do jogo começar, mas só quando a carta é o seu comandante.",
+   "3. Cartas de fundir deixam de ser dupla-face e ganham a regra 713. Carta que procura dupla-face, como Overgrown Pest, não pega mais meld. As cartas novas valem no Commander em 13 de novembro.",
+   "No Topdeck do Dia, Gisela, the Broken Blade. Edição completa em fontedemana.com.br"
+  ],
+  "threadsAvulsos": [
+   {"titulo": "Pergunta do dia", "texto": "A Wizards tirou as cartas de fundir da família das dupla-face. Você acha que regra para carta de nicho ainda vale a pena?", "obs": "Enquete: Vale, regra clara é tudo / Tanto faz, ninguém joga meld"}
+  ]
+ },
+ "pauta": {
+  "forca": "forte",
+  "porque": "Regra nova publicada ontem: rulebreaker, cartas de fundir na regra 713 e errata da Tolabow.",
+  "storyPergunta": "Você joga com alguma carta de fundir?",
+  "enquete": {"pergunta": "Já viu a Brisela na mesa?", "opcoes": ["Já, e sofri", "Nunca vi"]}
+ }
+}
