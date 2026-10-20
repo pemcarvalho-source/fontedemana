@@ -1,6 +1,7 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "Gisela, the Broken Blade",
   "Tymna the Weaver",
   "Uthros Research Craft",
   "Astral Dragon",
@@ -13,6 +14,13 @@ window.MANA_POOL_INDEX = {
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 15,
+   "date": "2026-10-20",
+   "dateLabel": "Terça, 20 de outubro de 2026",
+   "head": "Tolabow, Loch Rascal ganha texto novo antes de chegar ao Commander",
+   "biome": "U"
+  },
   {
    "n": 14,
    "date": "2026-10-19",
