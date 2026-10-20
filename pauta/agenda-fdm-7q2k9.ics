@@ -8,256 +8,8 @@ X-WR-TIMEZONE:America/Sao_Paulo
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:fdm-2026-10-16-gravacao@fontedemana.com.br
-DTSTAMP:20261020T011558Z
-DTSTART:20261015T213000Z
-DURATION:PT15M
-SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
-DESCRIPTION:Chama o Juiz #1: seu comandante roubado bate em você\, conta d
- ano de comandante? Quatro áudios curtos\, um por cena. Na cena 2\, leia a
-  pergunta e pare: a contagem de 5 segundos já está no vídeo.\n\nArquivo
- s:\n- Vídeo mudo (tiktok-mudo.mp4): https://fontedemana.com.br/pauta/2026
- -10-16/tiktok/tiktok-mudo.mp4\n\nRoteiro de gravação:\nCena 1\, uns 9 s\
- nNa tela: Roubaram seu comandante e bateram em você\nFala: Chama o Juiz\,
-  episódio um. O oponente roubou seu comandante com Act of Treason e bateu
-  em você com ele.\n\nCena 2\, uns 13 s\, mais 5 s de contagem\nNa tela: E
- sse dano conta como dano de comandante? (A) Não\, ele é o seu comandante
- \, B) Sim\, conta normal pros 21\, C) Conta\, mas zera quando ele voltar)\
- nFala: Isso conta como dano de comandante? A\, não\, ele é seu. B\, sim\
- , conta pros vinte e um. C\, conta\, mas zera quando ele voltar. Comenta a
-  sua letra.\n\nCena 3\, uns 12 s\nNa tela: Conta\, e conta contra você (A
- ) Não\, ele é o seu comandante\, B) Sim\, conta normal pros 21\, C) Cont
- a\, mas zera quando ele voltar)\nFala: Letra B. A regra fala em dano do me
- smo comandante\, não importa quem controla. E o placar não zera. Três a
- taques de sete e você está fora.\n\nCena 4\, uns 6 s\nNa tela: Mais regr
- as de mesa no perfil\nFala: Acertou? Segue o arroba fonte de mana e manda 
- pro amigo que errou.\n\n\nPasso a passo:\n1. Grave um áudio por cena no G
- ravador do iPhone\, num lugar silencioso\, com o celular a um palmo da boc
- a.\n2. Nomeie os áudios cena_1\, cena_2\, cena_3 e cena_4.\n3. Mande os 
- áudios ao Claude no projeto MGT strategy (pode ser respondendo à mensage
- m desta tarefa) dizendo "áudios do TikTok de 2026-10-16".\n\nPauta comple
- ta: https://fontedemana.com.br/pauta/2026-10-16/#gravacao
-URL:https://fontedemana.com.br/pauta/2026-10-16/#gravacao
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Gravação: Gravar a narração do TikTok de amanhã
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-16-tiktok@fontedemana.com.br
-DTSTAMP:20261020T011558Z
-DTSTART:20261016T143000Z
-DURATION:PT15M
-SUMMARY:11:30 TikTok: Chama o Juiz #1: comandante roubado conta dano?
-DESCRIPTION:Quiz de regra com contagem de 5 segundos: quem vê comenta A\, 
- B ou C antes da resposta. A certa é a B (Regras Abrangentes\, 903.10a).\n
- \nArquivos:\n- Vídeo do TikTok narrado: https://fontedemana.com.br/pauta/
- 2026-10-16/tiktok/tiktok-narrado.mp4\n\nLegenda:\nChama o Juiz #1: roubara
- m seu comandante e bateram em você com ele. Conta dano de comandante?\nCo
- menta A\, B ou C antes de ver a resposta!\nRegra conferida nas Regras Abra
- ngentes\, 903.10a.\n\n#mtg #magicthegathering #commander #edh #mtgbrasil #
- regrasdomagic\n\nComentário fixado:\nQual foi a sua letra? E quem da sua 
- mesa já apanhou do próprio comandante?\n\nPasso a passo:\n1. Poste com u
- m som em alta da biblioteca do TikTok\, volume entre 15% e 20%\, por baixo
-  da narração.\n2. Voz própria não precisa de rótulo de IA.\n3. Fixe o
-  comentário logo depois de postar.\n4. Se os áudios não chegarem\, post
- e o vídeo mudo com música em alta.\n\nPauta completa: https://fontedeman
- a.com.br/pauta/2026-10-16/#tiktok
-URL:https://fontedemana.com.br/pauta/2026-10-16/#tiktok
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:TikTok: Chama o Juiz #1: comandante roubado conta dano?
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-16-threads-manha@fontedemana.com.br
-DTSTAMP:20261020T011558Z
-DTSTART:20261016T133000Z
-DURATION:PT15M
-SUMMARY:10:30 Threads: Debate: Chama o Juiz #1: comandante roubado bate em 
- você. Conta dano…
-DESCRIPTION:Post de debate do conteúdo original de hoje (Chama o Juiz) par
- a puxar conversa.\n\nPost:\nChama o Juiz #1\n\nO oponente roubou seu coman
- dante com Act of Treason e bateu em você com ele.\n\nEsse dano conta como
-  dano de comandante contra você?\n\nA) Não\, ele é o seu comandante\nB)
-  Sim\, conta normal para os 21\nC) Conta\, mas zera quando ele voltar\n\nR
- esponde só com a letra. A resposta sai aqui à tarde.\n\nPasso a passo:\n
- 1. Abra o Threads e cole o Post.\n2. Dica: Resposta para as 15h: letra B. 
- Regra 903.10a\, dano do mesmo comandante conta\, não importa quem control
- a\, e não zera.\n3. Publique e responda quem comentar na primeira hora.\n
- \nPauta completa: https://fontedemana.com.br/pauta/2026-10-16/#threads-man
- ha
-URL:https://fontedemana.com.br/pauta/2026-10-16/#threads-manha
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Debate: Chama o Juiz #1: comandante roubado bate em vo
- cê. Conta dano…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-16-stories-manha@fontedemana.com.br
-DTSTAMP:20261020T011558Z
-DTSTART:20261016T133000Z
-DURATION:PT15M
-SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
-DESCRIPTION:Story com a capa da edição 11 (Tam faz Vraska quase quadrupli
- car de preço) e um sticker de pergunta para puxar a conversa.\n\nArquivos
- :\n- Capa da edição 11: https://fontedemana.com.br/kit/ed11/carrossel-01
- .jpg\n\nPasso a passo:\n1. Baixe a capa e poste no Story.\n2. Adicione o s
- ticker de Pergunta no terço de baixo\, sem cobrir o título: Tem alguma p
- laneswalker parada no fichário?\n3. Publique.\n\nPauta completa: https://
- fontedemana.com.br/pauta/2026-10-16/#stories-manha
-URL:https://fontedemana.com.br/pauta/2026-10-16/#stories-manha
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Capa do jornal com sticker de pergunta
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-16-feed@fontedemana.com.br
-DTSTAMP:20261020T011558Z
-DTSTART:20261016T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram feed: Chama o Juiz #1: comandante roubado bate em v
- ocê. Conta dano de…
-DESCRIPTION:Carrossel original de 5 imagens (Chama o Juiz): Chama o Juiz #1
- : comandante roubado bate em você. Conta dano de comandante?. Feito para 
- salvar e compartilhar.\n\nArquivos:\n- Imagem 1 de 5: https://fontedemana.
- com.br/pauta/2026-10-16/original/carrossel-01.jpg\n- Imagem 2 de 5: https:
- //fontedemana.com.br/pauta/2026-10-16/original/carrossel-02.jpg\n- Imagem 
- 3 de 5: https://fontedemana.com.br/pauta/2026-10-16/original/carrossel-03.
- jpg\n- Imagem 4 de 5: https://fontedemana.com.br/pauta/2026-10-16/original
- /carrossel-04.jpg\n- Imagem 5 de 5: https://fontedemana.com.br/pauta/2026-
- 10-16/original/carrossel-05.jpg\n\nLegenda:\nChama o Juiz #1: roubaram seu
-  comandante e bateram em você com ele. Conta dano de comandante? Regra de
-  Commander que muita mesa erra.\n\nA\, B ou C? Comenta antes de arrastar.\
- n\nA resposta está nas Regras Abrangentes\, 903.10a. Carta do exemplo: Ac
- t of Treason (Scryfall).\n\nMais Commander todo dia em fontedemana.com.br\
- n\nAcertou de primeira? Marca o parceiro de mesa que erraria.\n\n#mtg #mag
- icthegathering #commander #edh #mtgbrasil #regrasdomagic #chamaojuiz\n\nFo
- nte de Mana is unofficial Fan Content permitted under the Fan Content Poli
- cy. Not approved/endorsed by Wizards. Portions of the materials used are p
- roperty of Wizards of the Coast. ©Wizards of the Coast LLC.\n\nPasso a pa
- sso:\n1. No Instagram\, toque em + e escolha Post.\n2. Selecione as 5 imag
- ens na ordem\, da 1 à 5.\n3. Cole a Legenda e publique.\n\nPauta completa
- : https://fontedemana.com.br/pauta/2026-10-16/#feed
-URL:https://fontedemana.com.br/pauta/2026-10-16/#feed
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram feed: Chama o Juiz #1: comandante roubado bate em voc
- ê. Conta dano de…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-16-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261020T011558Z
-DTSTART:20261016T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
-DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
- .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
- e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
- o do post: Comandante roubado bateu em você. Conta dano de comandante? co
- m Sim\, conta e Não conta.\n3. Publique.\n\nPauta completa: https://fonte
- demana.com.br/pauta/2026-10-16/#stories-meio-dia
-URL:https://fontedemana.com.br/pauta/2026-10-16/#stories-meio-dia
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-16-threads-tarde@fontedemana.com.br
-DTSTAMP:20261020T011558Z
-DTSTART:20261016T180000Z
-DURATION:PT15M
-SUMMARY:15:00 Threads: Fio da edição 11
-DESCRIPTION:Fio com 6 posts contando a edição 11. O último é o aviso de
-  conteúdo de fã.\n\nPost 1:\nA onda de superfriends de Reality Fracture 
- pegou mais uma carta: Vraska\, Betrayal's Sting.\n\nPost 2:\nA versão do 
- precon de Lorwyn Eclipsed Commander foi de US$ 1\,02 (R$ 5\,15) para US$ 3
- \,90 (R$ 19\,70) em um mês\, alta de 282%\, segundo o MTG Rocks. No Scryf
- all\, a original de Phyrexia está em US$ 4\,93 (R$ 24\,91).\n\nPost 3:\nO
-  MTG Rocks liga quase 4.200 decks novos com ela a Tam\, the Possibility e 
- quase 2.500 a Jace\, Multiverse Architect. Tam barateia planeswalker e pro
- lifera\, e o 0 da Vraska também prolifera.\n\nPost 4:\nEla é o Topdeck d
- o Dia. O −2 transforma criatura em Tesouro sem matar\, o que passa por i
- ndestrutível. E com Vorinclex ou Innkeeper's Talent ela entra com 12 de l
- ealdade e mata no veneno na hora.\n\nPost 5:\nPega no pulo: o −9 sozinho
-  deixa o oponente com nove venenos\, não dez. Falta um proliferar.\n\nEdi
- ção completa em fontedemana.com.br\n\nValores em reais pela cotação PT
- AX de 15 out (Banco Central).\n\nPost 6 (aviso de fã):\nFonte de Mana is 
- unofficial Fan Content permitted under the Fan Content Policy. Not approve
- d/endorsed by Wizards. Portions of the materials used are property of Wiza
- rds of the Coast. ©Wizards of the Coast LLC.\n\nPasso a passo:\n1. No Thr
- eads\, publique o Post 1.\n2. Toque em Adicionar à sequência e cole os p
- osts seguintes\, um por vez\, na ordem.\n3. Publique o fio inteiro de uma 
- vez.\n\nValores em reais pela cotação PTAX de 15 out\, US$ 1 = R$ 5\,052
- 1 (Banco Central).\n\nPauta completa: https://fontedemana.com.br/pauta/202
- 6-10-16/#threads-tarde
-URL:https://fontedemana.com.br/pauta/2026-10-16/#threads-tarde
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Fio da edição 11
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-16-stories-tarde@fontedemana.com.br
-DTSTAMP:20261020T011558Z
-DTSTART:20261016T180000Z
-DURATION:PT15M
-SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
-DESCRIPTION:Story com a imagem de Vraska\, Betrayal's Sting no Topdeck do D
- ia e o sticker de link para a edição completa.\n\nArquivos:\n- Topdeck d
- o Dia: https://fontedemana.com.br/kit/ed11/carrossel-03.jpg\n\nPasso a pas
- so:\n1. Baixe a imagem e poste no Story.\n2. Adicione o sticker de Link pa
- ra fontedemana.com.br com o texto Edição completa\, embaixo do texto do 
- Topdeck.\n3. Publique.\n\nPauta completa: https://fontedemana.com.br/pauta
- /2026-10-16/#stories-tarde
-URL:https://fontedemana.com.br/pauta/2026-10-16/#stories-tarde
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Topdeck do Dia com link
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-16-reels@fontedemana.com.br
-DTSTAMP:20261020T011558Z
-DTSTART:20261016T220000Z
-DURATION:PT15M
-SUMMARY:19:00 Reels: Vídeo do jornal com música
-DESCRIPTION:Vídeo de 48 s da edição 11 com música em alta e sem narraç
- ão.\n\nArquivos:\n- Vídeo da edição 11: https://fontedemana.com.br/kit
- /ed11/video-vertical-ed11.mp4\n\nLegenda:\nVraska\, Betrayal's Sting subiu
-  282% em um mês puxada pelos decks de Tam e Jace. E ela ainda é o Topdec
- k do Dia.\n\nTem Vraska no fichário? Joga ou vende? Conta aqui.\n\nEdiç
- ão completa em fontedemana.com.br\n\nValores em reais pela cotação PTAX
-  de 15 out (Banco Central).\n\n#mtg #magicthegathering #commander #edh #mt
- gbrasil\n\nFonte de Mana is unofficial Fan Content permitted under the Fan
-  Content Policy. Not approved/endorsed by Wizards. Portions of the materia
- ls used are property of Wizards of the Coast. ©Wizards of the Coast LLC.\
- n\nPasso a passo:\n1. No Instagram\, toque em + e escolha Reel.\n2. Escolh
- a o vídeo e adicione uma música em alta pela biblioteca do app\, com vol
- ume baixo.\n3. Cole a Legenda e publique.\n\nPauta completa: https://fonte
- demana.com.br/pauta/2026-10-16/#reels
-URL:https://fontedemana.com.br/pauta/2026-10-16/#reels
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reels: Vídeo do jornal com música
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fdm-2026-10-17-gravacao@fontedemana.com.br
-DTSTAMP:20261020T011558Z
+DTSTAMP:20261020T102147Z
 DTSTART:20261016T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -294,7 +46,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-17-tiktok@fontedemana.com.br
-DTSTAMP:20261020T011558Z
+DTSTAMP:20261020T102147Z
 DTSTART:20261017T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Qual entra? #1: Swords ou Path
@@ -326,7 +78,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-17-threads-manha@fontedemana.com.br
-DTSTAMP:20261020T011558Z
+DTSTAMP:20261020T102147Z
 DTSTART:20261017T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Você vai comprar algum deles ou va
@@ -348,7 +100,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-17-stories-manha@fontedemana.com.br
-DTSTAMP:20261020T011558Z
+DTSTAMP:20261020T102147Z
 DTSTART:20261017T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -368,7 +120,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-17-feed@fontedemana.com.br
-DTSTAMP:20261020T011558Z
+DTSTAMP:20261020T102147Z
 DTSTART:20261017T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 12
@@ -408,7 +160,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-17-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261020T011558Z
+DTSTAMP:20261020T102147Z
 DTSTART:20261017T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -427,7 +179,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-17-threads-tarde@fontedemana.com.br
-DTSTAMP:20261020T011558Z
+DTSTAMP:20261020T102147Z
 DTSTART:20261017T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 12
@@ -465,7 +217,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-17-stories-tarde@fontedemana.com.br
-DTSTAMP:20261020T011558Z
+DTSTAMP:20261020T102147Z
 DTSTART:20261017T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -485,7 +237,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-17-reels@fontedemana.com.br
-DTSTAMP:20261020T011558Z
+DTSTAMP:20261020T102147Z
 DTSTART:20261017T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -512,7 +264,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-gravacao@fontedemana.com.br
-DTSTAMP:20261020T011558Z
+DTSTAMP:20261020T102147Z
 DTSTART:20261017T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -547,7 +299,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-tiktok@fontedemana.com.br
-DTSTAMP:20261020T011558Z
+DTSTAMP:20261020T102147Z
 DTSTART:20261018T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Toda mesa tem um #1\, o que demora no turno
@@ -576,7 +328,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-threads-manha@fontedemana.com.br
-DTSTAMP:20261020T011558Z
+DTSTAMP:20261020T102147Z
 DTSTART:20261018T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Toda mesa tem um #1: o que demora 10 minutos
@@ -600,7 +352,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-stories-manha@fontedemana.com.br
-DTSTAMP:20261020T011558Z
+DTSTAMP:20261020T102147Z
 DTSTART:20261018T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -620,7 +372,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-feed@fontedemana.com.br
-DTSTAMP:20261020T011558Z
+DTSTAMP:20261020T102147Z
 DTSTART:20261018T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Toda mesa tem um #1: o que demora 10 minutos 
@@ -660,7 +412,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261020T011558Z
+DTSTAMP:20261020T102147Z
 DTSTART:20261018T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -679,7 +431,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-threads-tarde@fontedemana.com.br
-DTSTAMP:20261020T011558Z
+DTSTAMP:20261020T102147Z
 DTSTART:20261018T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 13
@@ -715,7 +467,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-stories-tarde@fontedemana.com.br
-DTSTAMP:20261020T011558Z
+DTSTAMP:20261020T102147Z
 DTSTART:20261018T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -735,7 +487,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-reels@fontedemana.com.br
-DTSTAMP:20261020T011558Z
+DTSTAMP:20261020T102147Z
 DTSTART:20261018T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -762,7 +514,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-19-gravacao@fontedemana.com.br
-DTSTAMP:20261020T011558Z
+DTSTAMP:20261020T102147Z
 DTSTART:20261018T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -805,7 +557,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-19-tiktok@fontedemana.com.br
-DTSTAMP:20261020T011558Z
+DTSTAMP:20261020T102147Z
 DTSTART:20261019T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: a história do Sol Ring
@@ -834,7 +586,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-19-threads-manha@fontedemana.com.br
-DTSTAMP:20261020T011558Z
+DTSTAMP:20261020T102147Z
 DTSTART:20261019T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: História de uma carta #1: Sol Ring\, da Alp
@@ -858,7 +610,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-19-stories-manha@fontedemana.com.br
-DTSTAMP:20261020T011558Z
+DTSTAMP:20261020T102147Z
 DTSTART:20261019T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -878,7 +630,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-19-feed@fontedemana.com.br
-DTSTAMP:20261020T011558Z
+DTSTAMP:20261020T102147Z
 DTSTART:20261019T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: História de uma carta #1: Sol Ring\, da Alph
@@ -923,7 +675,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-19-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261020T011558Z
+DTSTAMP:20261020T102147Z
 DTSTART:20261019T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -942,7 +694,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-19-threads-tarde@fontedemana.com.br
-DTSTAMP:20261020T011558Z
+DTSTAMP:20261020T102147Z
 DTSTART:20261019T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 14
@@ -979,7 +731,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-19-stories-tarde@fontedemana.com.br
-DTSTAMP:20261020T011558Z
+DTSTAMP:20261020T102147Z
 DTSTART:20261019T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -999,7 +751,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-19-reels@fontedemana.com.br
-DTSTAMP:20261020T011558Z
+DTSTAMP:20261020T102147Z
 DTSTART:20261019T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -1028,7 +780,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-20-gravacao@fontedemana.com.br
-DTSTAMP:20261020T011558Z
+DTSTAMP:20261020T102147Z
 DTSTART:20261019T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -1063,30 +815,207 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-20-tiktok@fontedemana.com.br
-DTSTAMP:20261020T011558Z
+DTSTAMP:20261020T102147Z
 DTSTART:20261020T143000Z
 DURATION:PT15M
-SUMMARY:11:30 TikTok: TikTok: Dicionário do Commander #2\, staple
+SUMMARY:11:30 TikTok: Dicionário do Commander #2\, staple
 DESCRIPTION:Vídeo do Dicionário do Commander #2 explicando o que é stapl
- e\, com o Arcane Signet de exemplo.\n\nArquivos:\n- Vídeo narrado: https:
- //fontedemana.com.br/pauta/2026-10-20/tiktok/tiktok-narrado.mp4\n\nLegenda
- :\n"Isso aí é staple\, tem que ter." Você sabe o que quer dizer? Dicion
- ário do Commander #2: staple é a carta que aparece em quase todo deck qu
- e pode jogar ela. O Arcane Signet está em 72% dos decks no EDHREC e custa
-  uns 40 centavos de dólar. Mas staple não é obrigação.\n\nQue termo d
- a mesa te confundiu no começo? Conta aqui.\n\nReais pela cotação PTAX d
- e 16 out (Banco Central). Dados: EDHREC (últimos 2 anos) e Scryfall.\n\n#
- mtg #magicthegathering #commander #edh #mtgbrasil #staple #dicionariodocom
- mander\n\nComentário fixado:\nStaple que você corta sem dó do teu deck:
-  comenta qual 👇\n\nPasso a passo:\n1. Poste com um som em alta da bibli
- oteca do TikTok\, com volume entre 15% e 20%.\n2. Voz própria não precis
- a de rótulo de IA.\n3. Fixe o comentário logo depois de postar.\n4. Se o
- s áudios não chegaram\, poste o vídeo mudo com música em alta.\n\nPaut
- a completa: https://fontedemana.com.br/pauta/2026-10-20/#tiktok
+ e\, com o Arcane Signet de exemplo.\n\nArquivos:\n- Vídeo do TikTok narra
+ do: https://fontedemana.com.br/pauta/2026-10-20/tiktok/tiktok-narrado.mp4\
+ n\nLegenda:\n"Isso aí é staple\, tem que ter." Você sabe o que quer diz
+ er? Dicionário do Commander #2: staple é a carta que aparece em quase to
+ do deck que pode jogar ela. O Arcane Signet está em 72% dos decks no EDHR
+ EC e custa uns 40 centavos de dólar. Mas staple não é obrigação.\n\nQ
+ ue termo da mesa te confundiu no começo? Conta aqui.\n\nReais pela cotaç
+ ão PTAX de 16 out (Banco Central). Dados: EDHREC (últimos 2 anos) e Scry
+ fall.\n\n#mtg #magicthegathering #commander #edh #mtgbrasil #staple #dicio
+ nariodocommander\n\nComentário fixado:\nStaple que você corta sem dó do
+  teu deck: comenta qual 👇\n\nPasso a passo:\n1. Poste com um som em alt
+ a da biblioteca do TikTok\, com volume entre 15% e 20%.\n2. Voz própria n
+ ão precisa de rótulo de IA.\n3. Fixe o comentário logo depois de postar
+ .\n4. Se os áudios não chegaram\, poste o vídeo mudo com música em alt
+ a.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-20/#tiktok
 URL:https://fontedemana.com.br/pauta/2026-10-20/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:TikTok: TikTok: Dicionário do Commander #2\, staple
+DESCRIPTION:TikTok: Dicionário do Commander #2\, staple
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-20-threads-manha@fontedemana.com.br
+DTSTAMP:20261020T102147Z
+DTSTART:20261020T133000Z
+DURATION:PT15M
+SUMMARY:10:30 Threads: Pergunta do dia: Você acha que regra para carta de 
+ nicho ainda vale…
+DESCRIPTION:Pergunta para puxar conversa sobre a notícia do dia.\n\nPost:\
+ nA Wizards tirou as cartas de fundir da família das dupla-face. Você ach
+ a que regra para carta de nicho ainda vale a pena?\n\nPasso a passo:\n1. A
+ bra o Threads e cole o Post.\n2. Dica: Enquete: Vale\, regra clara é tudo
+  / Tanto faz\, ninguém joga meld\n3. Publique e responda quem comentar na
+  primeira hora.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-1
+ 0-20/#threads-manha
+URL:https://fontedemana.com.br/pauta/2026-10-20/#threads-manha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Pergunta do dia: Você acha que regra para carta de ni
+ cho ainda vale…
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-20-stories-manha@fontedemana.com.br
+DTSTAMP:20261020T102147Z
+DTSTART:20261020T133000Z
+DURATION:PT15M
+SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
+DESCRIPTION:Story com a capa da edição 15 (Tolabow ganha texto novo antes
+  do Commander) e um sticker de pergunta para puxar a conversa.\n\nArquivos
+ :\n- Capa da edição 15: https://fontedemana.com.br/kit/ed15/carrossel-01
+ .jpg\n\nPasso a passo:\n1. Baixe a capa e poste no Story.\n2. Adicione o s
+ ticker de Pergunta no terço de baixo\, sem cobrir o título: Você joga c
+ om alguma carta de fundir?\n3. Publique.\n\nPauta completa: https://fonted
+ emana.com.br/pauta/2026-10-20/#stories-manha
+URL:https://fontedemana.com.br/pauta/2026-10-20/#stories-manha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Capa do jornal com sticker de pergunta
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-20-feed@fontedemana.com.br
+DTSTAMP:20261020T102147Z
+DTSTART:20261020T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram feed: Carrossel da edição 15
+DESCRIPTION:Carrossel de 5 imagens da edição 15: Tolabow ganha texto novo
+  antes do Commander\, Topdeck: Gisela\, the Broken Blade.\n\nArquivos:\n- 
+ Imagem 1 de 5: https://fontedemana.com.br/kit/ed15/carrossel-01.jpg\n- Ima
+ gem 2 de 5: https://fontedemana.com.br/kit/ed15/carrossel-02.jpg\n- Imagem
+  3 de 5: https://fontedemana.com.br/kit/ed15/carrossel-03.jpg\n- Imagem 4 
+ de 5: https://fontedemana.com.br/kit/ed15/carrossel-04.jpg\n- Imagem 5 de 
+ 5: https://fontedemana.com.br/kit/ed15/carrossel-05.jpg\n\nLegenda:\nSaiu 
+ o boletim de regras do Mystery Booster Commander Edition\, e a lontra Tola
+ bow\, Loch Rascal ganhou texto novo antes de chegar às mesas.\n\nCom Tola
+ bow no comando\, suas instantâneas e feitiços podem ter uma cor a mais\,
+  escolhida por você. A regra nova 903.5e diz que habilidades rulebreaker 
+ funcionam antes do jogo\, só quando a carta é o seu comandante. E as car
+ tas de fundir deixam de ser dupla-face: agora têm a regra 713 só para el
+ as.\n\nAs cartas novas valem no Commander em 13 de novembro.\n\nNo Topdeck
+  do Dia\, Gisela\, the Broken Blade\, metade da fusão mais famosa da mesa
+ .\n\nEdição completa em fontedemana.com.br\n\nArte da capa: Tolabow\, Lo
+ ch Rascal\, Brian Valeza. Topdeck: ilustração de Clint Cearley.\n\n#mtg 
+ #magicthegathering #commander #edh #mtgbrasil #mtgcommander\n\nFonte de Ma
+ na is unofficial Fan Content permitted under the Fan Content Policy. Not a
+ pproved/endorsed by Wizards. Portions of the materials used are property o
+ f Wizards of the Coast. ©Wizards of the Coast LLC.\n\nPasso a passo:\n1. 
+ No Instagram\, toque em + e escolha Post.\n2. Selecione as 5 imagens na or
+ dem\, da 1 à 5.\n3. Cole a Legenda e publique.\n\nPauta completa: https:/
+ /fontedemana.com.br/pauta/2026-10-20/#feed
+URL:https://fontedemana.com.br/pauta/2026-10-20/#feed
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram feed: Carrossel da edição 15
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-20-stories-meio-dia@fontedemana.com.br
+DTSTAMP:20261020T102147Z
+DTSTART:20261020T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
+DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
+ .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
+ e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
+ o do post: Já viu a Brisela na mesa? com Já\, e sofri e Nunca vi.\n3. Pu
+ blique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-20/#st
+ ories-meio-dia
+URL:https://fontedemana.com.br/pauta/2026-10-20/#stories-meio-dia
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-20-threads-tarde@fontedemana.com.br
+DTSTAMP:20261020T102147Z
+DTSTART:20261020T180000Z
+DURATION:PT15M
+SUMMARY:15:00 Threads: Fio da edição 15
+DESCRIPTION:Fio com 6 posts contando a edição 15. O último é o aviso de
+  conteúdo de fã.\n\nPost 1:\nSaiu o boletim de regras do Mystery Booster
+  Commander Edition. Três mudanças que importam para quem joga Commander.
+ \n\nPost 2:\n1. Tolabow\, Loch Rascal foi reescrita. Com ela no comando\, 
+ suas instantâneas e feitiços podem ter uma cor a mais\, escolhida por vo
+ cê\, e o deck pode ter qualquer terreno básico.\n\nPost 3:\n2. Regra nov
+ a 903.5e: habilidades rulebreaker funcionam antes do jogo começar\, mas s
+ ó quando a carta é o seu comandante.\n\nPost 4:\n3. Cartas de fundir dei
+ xam de ser dupla-face e ganham a regra 713. Carta que procura dupla-face\,
+  como Overgrown Pest\, não pega mais meld. As cartas novas valem no Comma
+ nder em 13 de novembro.\n\nPost 5:\nNo Topdeck do Dia\, Gisela\, the Broke
+ n Blade. Edição completa em fontedemana.com.br\n\nPost 6 (aviso de fã):
+ \nFonte de Mana is unofficial Fan Content permitted under the Fan Content 
+ Policy. Not approved/endorsed by Wizards. Portions of the materials used a
+ re property of Wizards of the Coast. ©Wizards of the Coast LLC.\n\nPasso 
+ a passo:\n1. No Threads\, publique o Post 1.\n2. Toque em Adicionar à seq
+ uência e cole os posts seguintes\, um por vez\, na ordem.\n3. Publique o 
+ fio inteiro de uma vez.\n\nPauta completa: https://fontedemana.com.br/paut
+ a/2026-10-20/#threads-tarde
+URL:https://fontedemana.com.br/pauta/2026-10-20/#threads-tarde
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Fio da edição 15
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-20-stories-tarde@fontedemana.com.br
+DTSTAMP:20261020T102147Z
+DTSTART:20261020T180000Z
+DURATION:PT15M
+SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
+DESCRIPTION:Story com a imagem de Gisela\, the Broken Blade no Topdeck do D
+ ia e o sticker de link para a edição completa.\n\nArquivos:\n- Topdeck d
+ o Dia: https://fontedemana.com.br/kit/ed15/carrossel-03.jpg\n\nPasso a pas
+ so:\n1. Baixe a imagem e poste no Story.\n2. Adicione o sticker de Link pa
+ ra fontedemana.com.br com o texto Edição completa\, embaixo do texto do 
+ Topdeck.\n3. Publique.\n\nPauta completa: https://fontedemana.com.br/pauta
+ /2026-10-20/#stories-tarde
+URL:https://fontedemana.com.br/pauta/2026-10-20/#stories-tarde
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Topdeck do Dia com link
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-20-reels@fontedemana.com.br
+DTSTAMP:20261020T102147Z
+DTSTART:20261020T220000Z
+DURATION:PT15M
+SUMMARY:19:00 Reels: Vídeo do jornal com música
+DESCRIPTION:Vídeo de 48 s da edição 15 com música em alta e sem narraç
+ ão.\n\nArquivos:\n- Vídeo da edição 15: https://fontedemana.com.br/kit
+ /ed15/video-vertical-ed15.mp4\n\nLegenda:\nTolabow ganhou texto novo\, o r
+ ulebreaker ganhou regra e as cartas de fundir mudaram de casa. E no Topdec
+ k\, Gisela\, the Broken Blade.\n\nVocê já jogou com uma carta de fundir 
+ no Commander? Conta aqui.\n\nEdição completa em fontedemana.com.br\n\n#m
+ tg #magicthegathering #commander #edh #mtgbrasil\n\nFonte de Mana is unoff
+ icial Fan Content permitted under the Fan Content Policy. Not approved/end
+ orsed by Wizards. Portions of the materials used are property of Wizards o
+ f the Coast. ©Wizards of the Coast LLC.\n\nPasso a passo:\n1. No Instagra
+ m\, toque em + e escolha Reel.\n2. Escolha o vídeo e adicione uma música
+  em alta pela biblioteca do app\, com volume baixo.\n3. Cole a Legenda e p
+ ublique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-20/#r
+ eels
+URL:https://fontedemana.com.br/pauta/2026-10-20/#reels
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reels: Vídeo do jornal com música
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT

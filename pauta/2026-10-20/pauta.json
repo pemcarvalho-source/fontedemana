@@ -1,6 +1,8 @@
 {
   "data": "2026-10-20",
-  "fx": null,
+  "fx": "Valores em reais pela cotação PTAX de 16 out (Banco Central).",
+  "forca": "forte",
+  "feed": "jornal",
   "avisos": [
     {
       "id": "gravacao",
@@ -52,11 +54,11 @@
       "id": "tiktok",
       "hora": "11:30",
       "rede": "TikTok",
-      "titulo": "TikTok: Dicionário do Commander #2, staple",
+      "titulo": "Dicionário do Commander #2, staple",
       "oQue": "Vídeo do Dicionário do Commander #2 explicando o que é staple, com o Arcane Signet de exemplo.",
       "arquivos": [
         {
-          "nome": "Vídeo narrado",
+          "nome": "Vídeo do TikTok narrado",
           "url": "https://fontedemana.com.br/pauta/2026-10-20/tiktok/tiktok-narrado.mp4"
         }
       ],
@@ -75,6 +77,175 @@
         "Voz própria não precisa de rótulo de IA.",
         "Fixe o comentário logo depois de postar.",
         "Se os áudios não chegaram, poste o vídeo mudo com música em alta."
+      ]
+    },
+    {
+      "id": "threads-manha",
+      "hora": "10:30",
+      "rede": "Threads",
+      "titulo": "Pergunta do dia: Você acha que regra para carta de nicho ainda vale…",
+      "oQue": "Pergunta para puxar conversa sobre a notícia do dia.",
+      "textos": [
+        {
+          "rotulo": "Post",
+          "texto": "A Wizards tirou as cartas de fundir da família das dupla-face. Você acha que regra para carta de nicho ainda vale a pena?"
+        }
+      ],
+      "passos": [
+        "Abra o Threads e cole o Post.",
+        "Dica: Enquete: Vale, regra clara é tudo / Tanto faz, ninguém joga meld",
+        "Publique e responda quem comentar na primeira hora."
+      ]
+    },
+    {
+      "id": "stories-manha",
+      "hora": "10:30",
+      "rede": "Instagram Stories",
+      "titulo": "Capa do jornal com sticker de pergunta",
+      "oQue": "Story com a capa da edição 15 (Tolabow ganha texto novo antes do Commander) e um sticker de pergunta para puxar a conversa.",
+      "arquivos": [
+        {
+          "nome": "Capa da edição 15",
+          "url": "https://fontedemana.com.br/kit/ed15/carrossel-01.jpg"
+        }
+      ],
+      "passos": [
+        "Baixe a capa e poste no Story.",
+        "Adicione o sticker de Pergunta no terço de baixo, sem cobrir o título: Você joga com alguma carta de fundir?",
+        "Publique."
+      ]
+    },
+    {
+      "id": "feed",
+      "hora": "12:00",
+      "rede": "Instagram feed",
+      "titulo": "Carrossel da edição 15",
+      "origem": "jornal:ed15",
+      "oQue": "Carrossel de 5 imagens da edição 15: Tolabow ganha texto novo antes do Commander, Topdeck: Gisela, the Broken Blade.",
+      "arquivos": [
+        {
+          "nome": "Imagem 1 de 5",
+          "url": "https://fontedemana.com.br/kit/ed15/carrossel-01.jpg"
+        },
+        {
+          "nome": "Imagem 2 de 5",
+          "url": "https://fontedemana.com.br/kit/ed15/carrossel-02.jpg"
+        },
+        {
+          "nome": "Imagem 3 de 5",
+          "url": "https://fontedemana.com.br/kit/ed15/carrossel-03.jpg"
+        },
+        {
+          "nome": "Imagem 4 de 5",
+          "url": "https://fontedemana.com.br/kit/ed15/carrossel-04.jpg"
+        },
+        {
+          "nome": "Imagem 5 de 5",
+          "url": "https://fontedemana.com.br/kit/ed15/carrossel-05.jpg"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Saiu o boletim de regras do Mystery Booster Commander Edition, e a lontra Tolabow, Loch Rascal ganhou texto novo antes de chegar às mesas.\n\nCom Tolabow no comando, suas instantâneas e feitiços podem ter uma cor a mais, escolhida por você. A regra nova 903.5e diz que habilidades rulebreaker funcionam antes do jogo, só quando a carta é o seu comandante. E as cartas de fundir deixam de ser dupla-face: agora têm a regra 713 só para elas.\n\nAs cartas novas valem no Commander em 13 de novembro.\n\nNo Topdeck do Dia, Gisela, the Broken Blade, metade da fusão mais famosa da mesa.\n\nEdição completa em fontedemana.com.br\n\nArte da capa: Tolabow, Loch Rascal, Brian Valeza. Topdeck: ilustração de Clint Cearley.\n\n#mtg #magicthegathering #commander #edh #mtgbrasil #mtgcommander\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        }
+      ],
+      "passos": [
+        "No Instagram, toque em + e escolha Post.",
+        "Selecione as 5 imagens na ordem, da 1 à 5.",
+        "Cole a Legenda e publique."
+      ]
+    },
+    {
+      "id": "stories-meio-dia",
+      "hora": "12:00",
+      "rede": "Instagram Stories",
+      "titulo": "Repost do carrossel com enquete",
+      "oQue": "Compartilhe o carrossel recém postado no Story com uma enquete.",
+      "passos": [
+        "No carrossel publicado, toque no avião de papel e em Adicionar post ao seu story.",
+        "Adicione o sticker de Enquete embaixo do post: Já viu a Brisela na mesa? com Já, e sofri e Nunca vi.",
+        "Publique."
+      ]
+    },
+    {
+      "id": "threads-tarde",
+      "hora": "15:00",
+      "rede": "Threads",
+      "titulo": "Fio da edição 15",
+      "oQue": "Fio com 6 posts contando a edição 15. O último é o aviso de conteúdo de fã.",
+      "textos": [
+        {
+          "rotulo": "Post 1",
+          "texto": "Saiu o boletim de regras do Mystery Booster Commander Edition. Três mudanças que importam para quem joga Commander."
+        },
+        {
+          "rotulo": "Post 2",
+          "texto": "1. Tolabow, Loch Rascal foi reescrita. Com ela no comando, suas instantâneas e feitiços podem ter uma cor a mais, escolhida por você, e o deck pode ter qualquer terreno básico."
+        },
+        {
+          "rotulo": "Post 3",
+          "texto": "2. Regra nova 903.5e: habilidades rulebreaker funcionam antes do jogo começar, mas só quando a carta é o seu comandante."
+        },
+        {
+          "rotulo": "Post 4",
+          "texto": "3. Cartas de fundir deixam de ser dupla-face e ganham a regra 713. Carta que procura dupla-face, como Overgrown Pest, não pega mais meld. As cartas novas valem no Commander em 13 de novembro."
+        },
+        {
+          "rotulo": "Post 5",
+          "texto": "No Topdeck do Dia, Gisela, the Broken Blade. Edição completa em fontedemana.com.br"
+        },
+        {
+          "rotulo": "Post 6 (aviso de fã)",
+          "texto": "Fonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        }
+      ],
+      "passos": [
+        "No Threads, publique o Post 1.",
+        "Toque em Adicionar à sequência e cole os posts seguintes, um por vez, na ordem.",
+        "Publique o fio inteiro de uma vez."
+      ]
+    },
+    {
+      "id": "stories-tarde",
+      "hora": "15:00",
+      "rede": "Instagram Stories",
+      "titulo": "Topdeck do Dia com link",
+      "oQue": "Story com a imagem de Gisela, the Broken Blade no Topdeck do Dia e o sticker de link para a edição completa.",
+      "arquivos": [
+        {
+          "nome": "Topdeck do Dia",
+          "url": "https://fontedemana.com.br/kit/ed15/carrossel-03.jpg"
+        }
+      ],
+      "passos": [
+        "Baixe a imagem e poste no Story.",
+        "Adicione o sticker de Link para fontedemana.com.br com o texto Edição completa, embaixo do texto do Topdeck.",
+        "Publique."
+      ]
+    },
+    {
+      "id": "reels",
+      "hora": "19:00",
+      "rede": "Reels",
+      "titulo": "Vídeo do jornal com música",
+      "oQue": "Vídeo de 48 s da edição 15 com música em alta e sem narração.",
+      "arquivos": [
+        {
+          "nome": "Vídeo da edição 15",
+          "url": "https://fontedemana.com.br/kit/ed15/video-vertical-ed15.mp4"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Tolabow ganhou texto novo, o rulebreaker ganhou regra e as cartas de fundir mudaram de casa. E no Topdeck, Gisela, the Broken Blade.\n\nVocê já jogou com uma carta de fundir no Commander? Conta aqui.\n\nEdição completa em fontedemana.com.br\n\n#mtg #magicthegathering #commander #edh #mtgbrasil\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        }
+      ],
+      "passos": [
+        "No Instagram, toque em + e escolha Reel.",
+        "Escolha o vídeo e adicione uma música em alta pela biblioteca do app, com volume baixo.",
+        "Cole a Legenda e publique."
       ]
     }
   ]
