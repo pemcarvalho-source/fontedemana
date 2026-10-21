@@ -42,22 +42,67 @@
    "segundos": 8.4
   },
   {
-   "tipo": "texto",
+   "tipo": "combo",
    "cor": "R",
-   "kicker": "Plano em três passos",
-   "titulo": "Pressa, desvirar e terremoto",
-   "sub": "Começo: Swiftfoot Boots. Meio: Thousand-Year Elixir desvira o Krenko. Final: Impact Tremors bate em todo mundo.",
-   "narracao": "Começo: Swiftfoot Boots, pra usar o Krenko no turno que entra. Meio: Thousand-Year Elixir desvira ele. Final: Impact Tremors.",
-   "segundos": 8.8
+   "kicker": "As 3 peças, nesta ordem",
+   "titulo": "Terremoto antes das fichas",
+   "numerar": true,
+   "cartas": [
+    "pauta/2026-10-21/original/carta-3.jpg",
+    "pauta/2026-10-21/original/carta-2.jpg",
+    "pauta/2026-10-21/tiktok/carta.jpg"
+   ],
+   "passos": [
+    {
+     "txt": "<b>Impact Tremors</b>: ficha que entra antes dele não dá dano",
+     "valor": "2 manas"
+    },
+    {
+     "txt": "<b>Thousand-Year Elixir</b>: Krenko vira no turno em que entra",
+     "valor": "3 manas"
+    },
+    {
+     "txt": "<b>Krenko</b> por último, com os goblins baratos antes",
+     "valor": "4 manas"
+    }
+   ],
+   "rodape": "Sem o Elixir, Swiftfoot Boots dá a pressa, mas o Krenko vira uma vez só.",
+   "narracao": "As três peças, nessa ordem. Primeiro Impact Tremors, porque ficha que entra antes dele não dá dano. Depois o Elixir. Por último o Krenko, com os goblins baratos antes.",
+   "segundos": 12.8
   },
   {
-   "tipo": "texto",
+   "tipo": "combo",
    "cor": "R",
-   "kicker": "A conta na mesa",
-   "titulo": "3 goblins viram 12 num turno",
-   "sub": "Vira o Krenko: 3 fichas, 6 goblins. Desvira e vira de novo: 12. Com Impact Tremors, 9 de dano em cada oponente.",
-   "narracao": "Com três goblins, vira o Krenko: mais três. Desvira: mais seis. Com Impact Tremors, nove de dano em cada oponente.",
-   "segundos": 9.2
+   "kicker": "Gatilhos, em cada oponente",
+   "titulo": "10 de dano com 5 manas",
+   "numerar": false,
+   "cartas": [
+    "pauta/2026-10-21/tiktok/carta.jpg",
+    "pauta/2026-10-21/original/carta-2.jpg",
+    "pauta/2026-10-21/original/carta-3.jpg"
+   ],
+   "passos": [
+    {
+     "txt": "Krenko entra: 1 gatilho do Tremors",
+     "valor": "1 de dano"
+    },
+    {
+     "txt": "Vira o Krenko: 3 fichas, 3 gatilhos",
+     "valor": "4 de dano"
+    },
+    {
+     "txt": "Paga 1 no Elixir e desvira o Krenko",
+     "valor": "4 de dano"
+    },
+    {
+     "txt": "Vira de novo: 6 fichas, 6 gatilhos",
+     "valor": "10 de dano"
+    }
+   ],
+   "rodape": "Na mesa antes: Tremors, Elixir e 2 goblins.",
+   "fonte": "Regras Abrangentes, 608.2h, e Scryfall",
+   "narracao": "Com Tremors, Elixir e dois goblins na mesa: Krenko entra, um de dano. Vira, três fichas, três gatilhos. Desvira com o Elixir e vira de novo: mais seis. Dez em cada oponente.",
+   "segundos": 14
   },
   {
    "tipo": "cta",

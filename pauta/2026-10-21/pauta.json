@@ -27,14 +27,14 @@
           "fala": "A lista média sai por uns 290 dólares, uns 1.470 reais. Sem Game Changer: bracket 2 ou 3."
         },
         {
-          "cena": "Cena 3, uns 11 s",
-          "tela": "Pressa, desvirar e terremoto. Começo: Swiftfoot Boots. Meio: Thousand-Year Elixir desvira o Krenko. Final: Impact Tremors bate em todo mundo.",
-          "fala": "Começo: Swiftfoot Boots, pra usar o Krenko no turno que entra. Meio: Thousand-Year Elixir desvira ele. Final: Impact Tremors."
+          "cena": "Cena 3, uns 13 s",
+          "tela": "Terremoto antes das fichas. Impact Tremors: ficha que entra antes dele não dá dano (2 manas); Thousand-Year Elixir: Krenko vira no turno em que entra (3...",
+          "fala": "As três peças, nessa ordem. Primeiro Impact Tremors, porque ficha que entra antes dele não dá dano. Depois o Elixir. Por último o Krenko, com os goblins baratos antes."
         },
         {
-          "cena": "Cena 4, uns 10 s",
-          "tela": "3 goblins viram 12 num turno. Vira o Krenko: 3 fichas, 6 goblins. Desvira e vira de novo: 12. Com Impact Tremors, 9 de dano em cada oponente.",
-          "fala": "Com três goblins, vira o Krenko: mais três. Desvira: mais seis. Com Impact Tremors, nove de dano em cada oponente."
+          "cena": "Cena 4, uns 14 s",
+          "tela": "10 de dano com 5 manas. Krenko entra: 1 gatilho do Tremors (1 de dano); Vira o Krenko: 3 fichas, 3 gatilhos (4 de dano); Paga 1 no Elixir e desvira o Krenko...",
+          "fala": "Com Tremors, Elixir e dois goblins na mesa: Krenko entra, um de dano. Vira, três fichas, três gatilhos. Desvira com o Elixir e vira de novo: mais seis. Dez em cada oponente."
         },
         {
           "cena": "Cena 5, uns 6 s",
@@ -53,7 +53,7 @@
       "hora": "11:30",
       "rede": "TikTok",
       "titulo": "Deck em 40 segundos: Krenko, Mob Boss",
-      "oQue": "TikTok narrado com o plano do Krenko em três passos, o preço da lista média e a conta dos goblins.",
+      "oQue": "TikTok narrado com o plano do Krenko, o preço da lista média, as 3 cartas do combo na ordem certa e a sequência dos gatilhos até 10 de dano.",
       "arquivos": [
         {
           "nome": "Vídeo do TikTok",

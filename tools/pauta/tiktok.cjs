@@ -17,7 +17,7 @@ if (!/^\d{4}-\d{2}-\d{2}$/.test(DATA)) { console.error('Uso: node tools/pauta/ti
 const DIR = path.join(ROOT, 'pauta', DATA, 'tiktok');
 const FPS = 30, FADE = 0.4;
 const SEPS = [' · ', ' – ', ' — ', '—'];
-const TIPOS = ['gancho', 'lista', 'texto', 'cta', 'quiz', 'resposta'];
+const TIPOS = ['gancho', 'lista', 'texto', 'cta', 'quiz', 'resposta', 'combo'];
 /* Zona segura no quadro de 1080x1920 (medida num iPhone em 17 out 2026 e conferida com o guia de zonas seguras do TikTok):
    o app amplia o vídeo para preencher a tela e corta as laterais, o zoom do movimento corta mais 26 px por lado,
    os botões ocupam a direita da metade de baixo e a legenda ocupa o rodapé. Texto entre x 120 e 880 e acima de y 1560. */
@@ -65,6 +65,12 @@ function validate(r) {
     len(c.rodape, 110, n + '.rodape', true);
     len(c.fonte, 60, n + '.fonte', true);
     len(c.destaque, 24, n + '.destaque', true);
+    if (c.tipo === 'combo') {
+      req(Array.isArray(c.cartas) && c.cartas.length >= 1 && c.cartas.length <= 3, n + '.cartas precisa de 1 a 3 imagens');
+      (c.cartas || []).forEach((f, j) => req(typeof f === 'string' && exists(path.join(ROOT, f)), `${n}.cartas[${j}] não encontrada: ${f}`));
+      req(Array.isArray(c.passos) && c.passos.length >= 2 && c.passos.length <= 4, n + '.passos precisa de 2 a 4');
+      (c.passos || []).forEach((p, j) => { len(p.txt, 70, `${n}.passos[${j}].txt`); len(p.valor, 10, `${n}.passos[${j}].valor`, true); });
+    }
     if (c.tipo === 'lista') {
       req(Array.isArray(c.linhas) && c.linhas.length >= 1 && c.linhas.length <= 3, n + '.linhas precisa de 1 a 3');
       (c.linhas || []).forEach((l, j) => { len(l.nome, 30, `${n}.linhas[${j}].nome`); len(l.valor, 12, `${n}.linhas[${j}].valor`); len(l.real, 16, `${n}.linhas[${j}].real`, true); if (/US\$/.test(l.valor || '') && r.fx) req(/^\(R\$ /.test(l.real || ''), `${n}.linhas[${j}].real precisa do valor em reais entre parênteses`); });
@@ -149,6 +155,16 @@ h1{font-family:CZ;font-weight:700;font-size:80px;line-height:1.05;margin-top:22p
 .op.no{opacity:.42}
 .op.no .ot{text-decoration:line-through;text-decoration-thickness:3px}
 .rp .op{padding:14px 0}.rp .op .ot{font-size:40px}.rp .op.ok{padding:14px 16px}.rp h1{font-size:68px}.rp .sub{font-size:46px;margin-top:26px}
+.crow{position:absolute;top:430px;left:120px;right:120px;display:flex;justify-content:center;gap:20px}
+.cc{position:relative}.cc img{display:block;border-radius:14px;box-shadow:0 0 0 4px #0b0a09,0 24px 50px -14px rgba(0,0,0,.9)}
+.cc .cn{position:absolute;bottom:-30px;left:50%;margin-left:-34px;width:68px;height:68px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:CD;font-weight:900;font-size:44px;color:#0F0F13;background:var(--goldtxt);box-shadow:0 0 0 5px #0F0F13}
+.cb{right:120px}.cb h1{font-size:62px;margin-top:14px}.cb .tbox{padding:8px 30px;margin-top:24px}
+.ps{display:grid;grid-template-columns:56px 1fr auto;gap:18px;align-items:center;padding:13px 0;border-bottom:2px solid rgba(0,0,0,.14)}
+.ps:last-child{border-bottom:0}
+.ps .pn{width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:CZ;font-weight:700;font-size:34px;color:#F3EEE2;background:#2a2620}
+.ps .pt{font-family:CP;font-weight:600;font-size:36px;line-height:1.14}
+.ps .pv{font-family:CZ;font-weight:700;font-size:40px;white-space:nowrap;color:#8c1d12}
+.cb .foot{font-size:38px;margin-top:22px}
 .cd{position:absolute;top:400px;right:120px;display:flex;flex-direction:column;align-items:center;gap:18px}
 .cd .n{width:250px;height:250px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:CD;font-weight:900;font-size:170px;line-height:1;color:var(--goldtxt);background:rgba(15,15,19,.82);box-shadow:0 0 0 8px var(--goldtxt),0 30px 60px -10px rgba(0,0,0,.9)}
 .cd .t{font-family:CZ;font-weight:700;font-size:40px;color:#F3EEE2;text-shadow:0 3px 12px rgba(0,0,0,.9);background:rgba(15,15,19,.7);padding:10px 26px;border-radius:40px}`;
@@ -170,6 +186,13 @@ h1{font-family:CZ;font-weight:700;font-size:80px;line-height:1.05;margin-top:22p
     const cd = conta ? `<div class="cd"><div class="n">${conta}</div><div class="t">Comenta: ${letras.slice(0, -1).join(', ')} ou ${letras[letras.length - 1]}?</div></div>` : '';
     inner = `<div class="art"></div>${top}${cred}${cd}<div class="body qz${resp ? ' rp' : ''}" style="top:${resp ? 640 : 760}px"><div class="kicker">${pip(c.cor || 'U')} ${esc(c.kicker)}</div>
       <h1>${rich(c.titulo)}</h1><div class="tbox fr-${c.cor || 'U'}">${ops}</div>${c.sub ? '<div class="sub">' + rich(c.sub) + '</div>' : ''}${fonte}${fx}</div>`;
+  } else if (c.tipo === 'combo') {
+    ah = 760;
+    const nc = c.cartas.length, w = nc === 1 ? 300 : nc === 2 ? 290 : 240;
+    const cartas = c.cartas.map((f, j) => `<div class="cc"><img src="${furl(path.join(ROOT, f))}" style="width:${w}px">${c.numerar ? '<span class="cn">' + (j + 1) + '</span>' : ''}</div>`).join('');
+    const passos = c.passos.map((p, j) => `<div class="ps"><span class="pn">${j + 1}</span><span class="pt">${rich(p.txt)}</span>${p.valor ? '<span class="pv">' + esc(p.valor) + '</span>' : '<span></span>'}</div>`).join('');
+    inner = `<div class="art"></div>${top}<div class="crow">${cartas}</div><div class="body cb" style="top:${430 + Math.round(w * 1.395) + (c.numerar ? 70 : 45)}px"><div class="kicker">${pip(c.cor || 'R')} ${esc(c.kicker)}</div>
+      <h1>${rich(c.titulo)}</h1><div class="tbox fr-${c.cor || 'R'}">${passos}</div>${c.rodape ? '<div class="foot">' + rich(c.rodape) + '</div>' : ''}${fonte}${fx}</div>`;
   } else if (c.tipo === 'cta') {
     inner = `<div class="art"></div>${top}${card ? '<img class="cardimg" src="' + card + '">' : ''}
       <div class="body" style="top:1050px"><div class="kicker">${pip(c.cor || 'M')} ${esc(c.kicker)}</div>
