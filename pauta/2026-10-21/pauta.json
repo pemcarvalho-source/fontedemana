@@ -1,6 +1,8 @@
 {
   "data": "2026-10-21",
-  "fx": "Valores em reais pela cotação PTAX de 16 out (Banco Central).",
+  "fx": "Valores em reais pela cotação de 19 out, US$ 1 = R$ 5,0564 (PTAX do Banco Central).",
+  "forca": "forte",
+  "feed": "jornal",
   "avisos": [
     {
       "id": "gravacao",
@@ -56,7 +58,7 @@
       "oQue": "TikTok narrado com o plano do Krenko, o preço da lista média, as 3 cartas do combo na ordem certa e a sequência dos gatilhos até 10 de dano.",
       "arquivos": [
         {
-          "nome": "Vídeo narrado do TikTok",
+          "nome": "Vídeo do TikTok narrado",
           "url": "https://fontedemana.com.br/pauta/2026-10-21/tiktok/tiktok-narrado.mp4"
         }
       ],
@@ -75,6 +77,187 @@
         "A voz é sua, então não precisa de rótulo de IA.",
         "Fixe o comentário logo depois de postar.",
         "Se os áudios não chegaram, poste o vídeo mudo com música em alta."
+      ]
+    },
+    {
+      "id": "threads-manha",
+      "hora": "10:30",
+      "rede": "Threads",
+      "titulo": "Pergunta do dia: Se fosse comprar só um, qual seria: Picard, Spock…",
+      "oQue": "Pergunta para puxar conversa sobre a notícia do dia.",
+      "textos": [
+        {
+          "rotulo": "Post",
+          "texto": "Saíram os quatro comandantes dos precons de Star Trek. Se fosse comprar só um, qual seria: Picard, Spock, Worf ou a Rainha Borg?"
+        }
+      ],
+      "passos": [
+        "Abra o Threads e cole o Post.",
+        "Dica: Enquete: Picard, Spock, Worf, Rainha Borg",
+        "Publique e responda quem comentar na primeira hora."
+      ]
+    },
+    {
+      "id": "stories-manha",
+      "hora": "10:30",
+      "rede": "Instagram Stories",
+      "titulo": "Capa do jornal com sticker de pergunta",
+      "oQue": "Story com a capa da edição 16 (Star Trek revela os 4 comandantes dos precons) e um sticker de pergunta para puxar a conversa.",
+      "arquivos": [
+        {
+          "nome": "Capa da edição 16",
+          "url": "https://fontedemana.com.br/kit/ed16/carrossel-01.jpg"
+        }
+      ],
+      "passos": [
+        "Baixe a capa e poste no Story.",
+        "Adicione o sticker de Pergunta no terço de baixo, sem cobrir o título: Qual precon de Star Trek você compraria primeiro?",
+        "Publique."
+      ]
+    },
+    {
+      "id": "feed",
+      "hora": "12:00",
+      "rede": "Instagram feed",
+      "titulo": "Carrossel da edição 16",
+      "origem": "jornal:ed16",
+      "oQue": "Carrossel de 7 imagens da edição 16: Star Trek revela os 4 comandantes dos precons, Secret Lair Bundle atrasa, Magic bate recorde de receita, Topdeck: Thought Reflection.",
+      "arquivos": [
+        {
+          "nome": "Imagem 1 de 7",
+          "url": "https://fontedemana.com.br/kit/ed16/carrossel-01.jpg"
+        },
+        {
+          "nome": "Imagem 2 de 7",
+          "url": "https://fontedemana.com.br/kit/ed16/carrossel-02.jpg"
+        },
+        {
+          "nome": "Imagem 3 de 7",
+          "url": "https://fontedemana.com.br/kit/ed16/carrossel-03.jpg"
+        },
+        {
+          "nome": "Imagem 4 de 7",
+          "url": "https://fontedemana.com.br/kit/ed16/carrossel-04.jpg"
+        },
+        {
+          "nome": "Imagem 5 de 7",
+          "url": "https://fontedemana.com.br/kit/ed16/carrossel-05.jpg"
+        },
+        {
+          "nome": "Imagem 6 de 7",
+          "url": "https://fontedemana.com.br/kit/ed16/carrossel-06.jpg"
+        },
+        {
+          "nome": "Imagem 7 de 7",
+          "url": "https://fontedemana.com.br/kit/ed16/carrossel-07.jpg"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Star Trek mostrou as caras dos quatro precons de Commander. Todos de três cores:\n\nFederation Fleet: Jean-Luc Picard, Luminary (azul, vermelho e branco)\nLanding Party: Commander Spock (verde, branco e azul)\nKlingon Fury: Worf, Defiant Commander (vermelho, branco e preto)\nWe Are the Borg: The Borg Queen (branco, azul e preto)\n\nA Rainha Borg assimila: puxa a primeira criatura do grimório de um oponente para o seu lado, com marcador +1/+1, virando artefato Borg. Cada precon tem 100 cartas, 32 inéditas. Pré de 6 a 12 de novembro e lançamento em 13 de novembro.\n\nTambém hoje: o Secret Lair Bundle de Reality Fracture atrasou no mundo todo e não chega mais em 23 de outubro. E o Magic faturou 616,1 milhões de dólares (R$ 3,12 bilhões) no terceiro trimestre, recorde da história, segundo a Hasbro.\n\nTopdeck do Dia: Thought Reflection, o encantamento que faz toda compra virar duas. O novo Mr. Spock faz o mesmo por 4 manas.\n\nEdição completa em fontedemana.com.br\n\nArte da capa: The Borg Queen, Jodie Muir. Thought Reflection: Chris Seaman.\nValores em reais pela cotação de 19 out (PTAX do Banco Central).\n\n#magicthegathering #mtg #commander #edh #mtgbrasil #startrek\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        }
+      ],
+      "passos": [
+        "No Instagram, toque em + e escolha Post.",
+        "Selecione as 7 imagens na ordem, da 1 à 7.",
+        "Cole a Legenda e publique."
+      ]
+    },
+    {
+      "id": "stories-meio-dia",
+      "hora": "12:00",
+      "rede": "Instagram Stories",
+      "titulo": "Repost do carrossel com enquete",
+      "oQue": "Compartilhe o carrossel recém postado no Story com uma enquete.",
+      "passos": [
+        "No carrossel publicado, toque no avião de papel e em Adicionar post ao seu story.",
+        "Adicione o sticker de Enquete embaixo do post: Qual precon de Star Trek você quer? com Picard, Spock, Worf e Rainha Borg.",
+        "Publique."
+      ]
+    },
+    {
+      "id": "threads-tarde",
+      "hora": "15:00",
+      "rede": "Threads",
+      "titulo": "Fio da edição 16",
+      "oQue": "Fio com 7 posts contando a edição 16. O último é o aviso de conteúdo de fã.",
+      "textos": [
+        {
+          "rotulo": "Post 1",
+          "texto": "Star Trek revelou os quatro comandantes dos precons de Commander. Todos de três cores. Bora ver um por um."
+        },
+        {
+          "rotulo": "Post 2",
+          "texto": "Federation Fleet: Jean-Luc Picard, Luminary, em azul, vermelho e branco. Compra carta quando entra artefato, lendário ou Saga seu de 3 manas ou mais. Landing Party: Commander Spock, em verde, branco e azul. Quando entra ou ataca, revela o topo e conjura de graça se o custo couber no número de terrenos com nomes diferentes."
+        },
+        {
+          "rotulo": "Post 3",
+          "texto": "Klingon Fury: Worf, Defiant Commander, em vermelho, branco e preto. Entra com um 2/1 com ímpeto, e cada oponente atacado libera uma carta do topo. We Are the Borg: The Borg Queen, em branco, azul e preto, por 7 manas. Puxa a primeira criatura do grimório de um oponente e assimila."
+        },
+        {
+          "rotulo": "Post 4",
+          "texto": "Ainda hoje: o Secret Lair Bundle de Reality Fracture atrasou no mundo todo e não chega mais em 23 de outubro. E o Magic faturou 616,1 milhões de dólares (R$ 3,12 bilhões) no terceiro trimestre, o maior da história, segundo a Hasbro."
+        },
+        {
+          "rotulo": "Post 5",
+          "texto": "Topdeck do Dia: Thought Reflection. Toda compra vira duas. Custa 7 manas, e o novo Mr. Spock de Star Trek faz o mesmo por 4. Com os dois em campo, cada compra vira quatro."
+        },
+        {
+          "rotulo": "Post 6",
+          "texto": "Edição completa em fontedemana.com.br\n\nValores em reais pela cotação de 19 out (PTAX do Banco Central)."
+        },
+        {
+          "rotulo": "Post 7 (aviso de fã)",
+          "texto": "Fonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        }
+      ],
+      "passos": [
+        "No Threads, publique o Post 1.",
+        "Toque em Adicionar à sequência e cole os posts seguintes, um por vez, na ordem.",
+        "Publique o fio inteiro de uma vez."
+      ]
+    },
+    {
+      "id": "stories-tarde",
+      "hora": "15:00",
+      "rede": "Instagram Stories",
+      "titulo": "Topdeck do Dia com link",
+      "oQue": "Story com a imagem de Thought Reflection no Topdeck do Dia e o sticker de link para a edição completa.",
+      "arquivos": [
+        {
+          "nome": "Topdeck do Dia",
+          "url": "https://fontedemana.com.br/kit/ed16/carrossel-05.jpg"
+        }
+      ],
+      "passos": [
+        "Baixe a imagem e poste no Story.",
+        "Adicione o sticker de Link para fontedemana.com.br com o texto Edição completa, embaixo do texto do Topdeck.",
+        "Publique."
+      ]
+    },
+    {
+      "id": "reels",
+      "hora": "19:00",
+      "rede": "Reels",
+      "titulo": "Vídeo do jornal com música",
+      "oQue": "Vídeo de 48 s da edição 16 com música em alta e sem narração.",
+      "arquivos": [
+        {
+          "nome": "Vídeo da edição 16",
+          "url": "https://fontedemana.com.br/kit/ed16/video-vertical-ed16.mp4"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Os quatro comandantes dos precons de Star Trek saíram: Picard, Spock, Worf e a Rainha Borg, todos de três cores. Mais o atraso do Secret Lair Bundle de Reality Fracture, o recorde de receita do Magic e o Topdeck do Dia, Thought Reflection.\n\nQual dos quatro precons você compraria primeiro? Conta nos comentários.\n\nEdição completa em fontedemana.com.br\n\nValores em reais pela cotação de 19 out (PTAX do Banco Central).\n\n#magicthegathering #mtg #commander #edh #startrek\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        }
+      ],
+      "passos": [
+        "No Instagram, toque em + e escolha Reel.",
+        "Escolha o vídeo e adicione uma música em alta pela biblioteca do app, com volume baixo.",
+        "Cole a Legenda e publique."
       ]
     }
   ]

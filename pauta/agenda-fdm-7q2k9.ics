@@ -8,263 +8,8 @@ X-WR-TIMEZONE:America/Sao_Paulo
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:fdm-2026-10-17-gravacao@fontedemana.com.br
-DTSTAMP:20261021T014106Z
-DTSTART:20261016T213000Z
-DURATION:PT15M
-SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
-DESCRIPTION:Qual entra? #1: Swords to Plowshares ou Path to Exile. Cinco á
- udios curtos\, um por cena\, leia no seu ritmo e com cara de mesa.\n\nArqu
- ivos:\n- Vídeo mudo (tiktok-mudo.mp4): https://fontedemana.com.br/pauta/2
- 026-10-17/tiktok/tiktok-mudo.mp4\n\nRoteiro de gravação:\nCena 1\, uns 7
-  s\nNa tela: Swords ou Path: só cabe uma\nFala: Qual entra\, episódio um
- . Swords ou Path? Um mana\, exila qualquer criatura. Só cabe uma.\n\nCena
-  2\, uns 10 s\nNa tela: Números do EDHREC: Swords to Plowshares 2\,93 mi 
- (61\,0%)\, Path to Exile 2\,30 mi (47\,8%)\nFala: No EDHREC\, a Swords est
- á em sessenta e um por cento dos decks com branco. A Path\, em quarenta e
-  oito.\n\nCena 3\, uns 6 s\nNa tela: Precon de Reality Fracture: Swords to
-  Plowshares US$ 1\,03 (R$ 5\,20)\, Path to Exile US$ 0\,97 (R$ 4\,90)\nFal
- a: No bolso\, empate. As duas saem por um dólar\, uns cinco reais.\n\nCen
- a 4\, uns 10 s\nNa tela: Swords dá vida\, Path dá terreno\nFala: Swords 
- dá vida ao oponente\, quase nunca importa. Path dá um terreno\, que cedo
-  acelera ele. Mas na sua criatura\, Path vira rampa.\n\nCena 5\, uns 8 s\n
- Na tela: Comenta Swords ou Path\nFala: Comenta Swords ou Path\, e manda pr
- o amigo que joga as duas. Segue o arroba fonte de mana.\n\n\nPasso a passo
- :\n1. Grave um áudio por cena no Gravador do iPhone\, num lugar silencios
- o\, com o celular a um palmo da boca.\n2. Nomeie os áudios cena_1\, cena_
- 2\, cena_3\, cena_4 e cena_5.\n3. Mande os áudios ao Claude no projeto MG
- T strategy (pode ser respondendo à mensagem desta tarefa) dizendo "áudio
- s do TikTok de 2026-10-17".\n\nValores em reais pela cotação PTAX de 16 
- out\, US$ 1 = R$ 5\,0826 (Banco Central).\n\nPauta completa: https://fonte
- demana.com.br/pauta/2026-10-17/#gravacao
-URL:https://fontedemana.com.br/pauta/2026-10-17/#gravacao
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Gravação: Gravar a narração do TikTok de amanhã
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-17-tiktok@fontedemana.com.br
-DTSTAMP:20261021T014106Z
-DTSTART:20261017T143000Z
-DURATION:PT15M
-SUMMARY:11:30 TikTok: Qual entra? #1: Swords ou Path
-DESCRIPTION:Duelo de remoção de um mana: números do EDHREC e preço lado
-  a lado\, quando cada uma ganha e o voto nos comentários. A Fonte de Mana
-  não escolhe\, a galera decide.\n\nArquivos:\n- Vídeo do TikTok narrado:
-  https://fontedemana.com.br/pauta/2026-10-17/tiktok/tiktok-narrado.mp4\n\n
- Legenda:\nQual entra? #1: Swords to Plowshares ou Path to Exile. Só tem v
- aga para uma.\nComenta Swords ou Path!\n\nNo EDHREC\, Swords está em 2\,9
- 3 milhões de decks e Path em 2\,30 milhões.\nNo Scryfall\, Swords sai po
- r US$ 1\,03 (R$ 5\,20) e Path por US$ 0\,97 (R$ 4\,90)\, nas impressões d
- o precon de Reality Fracture.\nReais pela cotação PTAX de 15 out (Banco 
- Central).\n\nQual entra no seu deck?\n\n#mtg #magicthegathering #commander
-  #edh #mtgbrasil #qualentra\n\nComentário fixado:\nSwords ou Path? Uma pa
- lavra só. E se você joga as duas\, conta qual sai primeiro quando o deck
-  aperta.\n\nPasso a passo:\n1. Poste com um som em alta da biblioteca do T
- ikTok\, volume entre 15% e 20%\, por baixo da narração.\n2. Voz própria
-  não precisa de rótulo de IA.\n3. Fixe o comentário logo depois de post
- ar.\n4. Se os áudios não chegarem\, poste o vídeo mudo com música em a
- lta.\n\nValores em reais pela cotação PTAX de 16 out\, US$ 1 = R$ 5\,082
- 6 (Banco Central).\n\nPauta completa: https://fontedemana.com.br/pauta/202
- 6-10-17/#tiktok
-URL:https://fontedemana.com.br/pauta/2026-10-17/#tiktok
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:TikTok: Qual entra? #1: Swords ou Path
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-17-threads-manha@fontedemana.com.br
-DTSTAMP:20261021T014106Z
-DTSTART:20261017T133000Z
-DURATION:PT15M
-SUMMARY:10:30 Threads: Pergunta do dia: Você vai comprar algum deles ou va
- i esperar ver as…
-DESCRIPTION:Pergunta para puxar conversa sobre a notícia do dia.\n\nPost:\
- nOs precons de Commander de Star Trek podem atrasar nos EUA e na Europa. V
- ocê vai comprar algum deles ou vai esperar ver as listas na mesa primeiro
- ?\n\nPasso a passo:\n1. Abra o Threads e cole o Post.\n2. Dica: Enquete: v
- ou comprar\, vou esperar\, não ligo pra Star Trek\n3. Publique e responda
-  quem comentar na primeira hora.\n\nPauta completa: https://fontedemana.co
- m.br/pauta/2026-10-17/#threads-manha
-URL:https://fontedemana.com.br/pauta/2026-10-17/#threads-manha
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Pergunta do dia: Você vai comprar algum deles ou vai 
- esperar ver as…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-17-stories-manha@fontedemana.com.br
-DTSTAMP:20261021T014106Z
-DTSTART:20261017T133000Z
-DURATION:PT15M
-SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
-DESCRIPTION:Story com a capa da edição 12 (Precons de Star Trek atrasam n
- os EUA e na Europa) e um sticker de pergunta para puxar a conversa.\n\nArq
- uivos:\n- Capa da edição 12: https://fontedemana.com.br/kit/ed12/carross
- el-01.jpg\n\nPasso a passo:\n1. Baixe a capa e poste no Story.\n2. Adicion
- e o sticker de Pergunta no terço de baixo\, sem cobrir o título: Você r
- eservou algum precon de Star Trek?\n3. Publique.\n\nPauta completa: https:
- //fontedemana.com.br/pauta/2026-10-17/#stories-manha
-URL:https://fontedemana.com.br/pauta/2026-10-17/#stories-manha
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Capa do jornal com sticker de pergunta
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-17-feed@fontedemana.com.br
-DTSTAMP:20261021T014106Z
-DTSTART:20261017T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram feed: Carrossel da edição 12
-DESCRIPTION:Carrossel de 7 imagens da edição 12: Precons de Star Trek atr
- asam nos EUA e na Europa\, Countdown Kit da Marvel\, Weekly Winners\, Topd
- eck: Astral Dragon.\n\nArquivos:\n- Imagem 1 de 7: https://fontedemana.com
- .br/kit/ed12/carrossel-01.jpg\n- Imagem 2 de 7: https://fontedemana.com.br
- /kit/ed12/carrossel-02.jpg\n- Imagem 3 de 7: https://fontedemana.com.br/ki
- t/ed12/carrossel-03.jpg\n- Imagem 4 de 7: https://fontedemana.com.br/kit/e
- d12/carrossel-04.jpg\n- Imagem 5 de 7: https://fontedemana.com.br/kit/ed12
- /carrossel-05.jpg\n- Imagem 6 de 7: https://fontedemana.com.br/kit/ed12/ca
- rrossel-06.jpg\n- Imagem 7 de 7: https://fontedemana.com.br/kit/ed12/carro
- ssel-07.jpg\n\nLegenda:\nOs precons de Commander de Star Trek vão atrasar
-  nos EUA e na Europa. A Wizards avisou na sexta que os decks podem chegar 
- só depois do lançamento de 13 de novembro. Pré e Play Boosters seguem n
- o prazo\, e o comunicado não cita a América Latina.\n\nNa edição de ho
- je também tem a lista completa do Countdown Kit da Marvel\, com duas cart
- as novas de Darkhold Destiny\, e o Weekly Winners do MTGStocks com Astral 
- Dragon subindo 52%.\n\nO Topdeck do Dia é o próprio Astral Dragon\, o dr
- agão que copia seus artefatos e encantamentos.\n\nEdição completa em fo
- ntedemana.com.br\n\nArtes: Delay\, de Svetlin Velinov. Astral Dragon\, de 
- Anastasia Ovchinnikova.\n\nValores em reais pela cotação PTAX de 16 out 
- (Banco Central).\n\n#mtg #magicthegathering #commander #edh #mtgbrasil #st
- artrek #fontedemana\n\nFonte de Mana is unofficial Fan Content permitted u
- nder the Fan Content Policy. Not approved/endorsed by Wizards. Portions of
-  the materials used are property of Wizards of the Coast. ©Wizards of the
-  Coast LLC.\n\nPasso a passo:\n1. No Instagram\, toque em + e escolha Post
- .\n2. Selecione as 7 imagens na ordem\, da 1 à 7.\n3. Cole a Legenda e pu
- blique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-17/#fe
- ed
-URL:https://fontedemana.com.br/pauta/2026-10-17/#feed
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram feed: Carrossel da edição 12
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-17-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261021T014106Z
-DTSTART:20261017T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
-DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
- .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
- e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
- o do post: Precon de Star Trek atrasado: e aí? com Espero o meu\, Desisti
-  e Nem ia comprar.\n3. Publique.\n\nPauta completa: https://fontedemana.co
- m.br/pauta/2026-10-17/#stories-meio-dia
-URL:https://fontedemana.com.br/pauta/2026-10-17/#stories-meio-dia
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-17-threads-tarde@fontedemana.com.br
-DTSTAMP:20261021T014106Z
-DTSTART:20261017T180000Z
-DURATION:PT15M
-SUMMARY:15:00 Threads: Fio da edição 12
-DESCRIPTION:Fio com 6 posts contando a edição 12. O último é o aviso de
-  conteúdo de fã.\n\nPost 1:\nFonte de Mana de sábado\, 17 de outubro. A
-  Wizards avisou que parte dos produtos de Star Trek vai atrasar por proble
- mas de produção e frete. O mais afetado: os precons de Commander.\n\nPos
- t 2:\nNos EUA e no Canadá\, os decks de Commander podem chegar depois do 
- lançamento de 13 de novembro. Na Europa atrasam também Collector Booster
- s\, Scene Boxes e o Beam Me Up Bundle. O pré de 6 de novembro continua\, 
- e o comunicado não cita a América Latina.\n\nPost 3:\nO Countdown Kit da
-  Marvel teve as 30 cartas reveladas. Custa US$ 199\,99 (R$ 1.016\,47)\, sa
- i em 2 de novembro só no site do Secret Lair e traz Doctor Strange\, Mast
- er of Magic e Beta Ray Bill antes de Darkhold Destiny.\n\nPost 4:\nNo Week
- ly Winners do MTGStocks: Magister Sphinx +99%\, Astral Dragon +52% a US$ 4
- 8\,52 (R$ 246\,61) e The Theorist\, Jace Beleren +50% a US$ 75\,05 (R$ 381
- \,45).\n\nPost 5:\nTopdeck do Dia: Astral Dragon. Entra e cria duas cópia
- s de um artefato\, encantamento ou terreno\, só que como dragões 3/3 voa
- dores. Edição completa em fontedemana.com.br\n\nValores em reais pela co
- tação PTAX de 16 out (Banco Central).\n\nPost 6 (aviso de fã):\nFonte d
- e Mana is unofficial Fan Content permitted under the Fan Content Policy. N
- ot approved/endorsed by Wizards. Portions of the materials used are proper
- ty of Wizards of the Coast. ©Wizards of the Coast LLC.\n\nPasso a passo:\
- n1. No Threads\, publique o Post 1.\n2. Toque em Adicionar à sequência e
-  cole os posts seguintes\, um por vez\, na ordem.\n3. Publique o fio intei
- ro de uma vez.\n\nValores em reais pela cotação PTAX de 16 out\, US$ 1 =
-  R$ 5\,0826 (Banco Central).\n\nPauta completa: https://fontedemana.com.br
- /pauta/2026-10-17/#threads-tarde
-URL:https://fontedemana.com.br/pauta/2026-10-17/#threads-tarde
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Fio da edição 12
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-17-stories-tarde@fontedemana.com.br
-DTSTAMP:20261021T014106Z
-DTSTART:20261017T180000Z
-DURATION:PT15M
-SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
-DESCRIPTION:Story com a imagem de Astral Dragon no Topdeck do Dia e o stick
- er de link para a edição completa.\n\nArquivos:\n- Topdeck do Dia: https
- ://fontedemana.com.br/kit/ed12/carrossel-05.jpg\n\nPasso a passo:\n1. Baix
- e a imagem e poste no Story.\n2. Adicione o sticker de Link para fontedema
- na.com.br com o texto Edição completa\, embaixo do texto do Topdeck.\n3.
-  Publique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-17/
- #stories-tarde
-URL:https://fontedemana.com.br/pauta/2026-10-17/#stories-tarde
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Topdeck do Dia com link
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-17-reels@fontedemana.com.br
-DTSTAMP:20261021T014106Z
-DTSTART:20261017T220000Z
-DURATION:PT15M
-SUMMARY:19:00 Reels: Vídeo do jornal com música
-DESCRIPTION:Vídeo de 48 s da edição 12 com música em alta e sem narraç
- ão.\n\nArquivos:\n- Vídeo da edição 12: https://fontedemana.com.br/kit
- /ed12/video-vertical-ed12.mp4\n\nLegenda:\nPrecons de Star Trek atrasados 
- nos EUA e na Europa\, Countdown Kit da Marvel revelado e Astral Dragon sub
- indo 52%. Tudo em fontedemana.com.br\n\nVocê já reservou algum precon de
-  Star Trek?\n\nValores em reais pela cotação PTAX de 16 out (Banco Centr
- al).\n\n#mtg #magicthegathering #commander #edh #mtgbrasil\n\nFonte de Man
- a is unofficial Fan Content permitted under the Fan Content Policy. Not ap
- proved/endorsed by Wizards. Portions of the materials used are property of
-  Wizards of the Coast. ©Wizards of the Coast LLC.\n\nPasso a passo:\n1. N
- o Instagram\, toque em + e escolha Reel.\n2. Escolha o vídeo e adicione u
- ma música em alta pela biblioteca do app\, com volume baixo.\n3. Cole a L
- egenda e publique.\n\nPauta completa: https://fontedemana.com.br/pauta/202
- 6-10-17/#reels
-URL:https://fontedemana.com.br/pauta/2026-10-17/#reels
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reels: Vídeo do jornal com música
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fdm-2026-10-18-gravacao@fontedemana.com.br
-DTSTAMP:20261021T014106Z
+DTSTAMP:20261021T102118Z
 DTSTART:20261017T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -299,7 +44,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-tiktok@fontedemana.com.br
-DTSTAMP:20261021T014106Z
+DTSTAMP:20261021T102118Z
 DTSTART:20261018T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Toda mesa tem um #1\, o que demora no turno
@@ -328,7 +73,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-threads-manha@fontedemana.com.br
-DTSTAMP:20261021T014106Z
+DTSTAMP:20261021T102118Z
 DTSTART:20261018T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Toda mesa tem um #1: o que demora 10 minutos
@@ -352,7 +97,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-stories-manha@fontedemana.com.br
-DTSTAMP:20261021T014106Z
+DTSTAMP:20261021T102118Z
 DTSTART:20261018T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -372,7 +117,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-feed@fontedemana.com.br
-DTSTAMP:20261021T014106Z
+DTSTAMP:20261021T102118Z
 DTSTART:20261018T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Toda mesa tem um #1: o que demora 10 minutos 
@@ -412,7 +157,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261021T014106Z
+DTSTAMP:20261021T102118Z
 DTSTART:20261018T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -431,7 +176,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-threads-tarde@fontedemana.com.br
-DTSTAMP:20261021T014106Z
+DTSTAMP:20261021T102118Z
 DTSTART:20261018T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 13
@@ -467,7 +212,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-stories-tarde@fontedemana.com.br
-DTSTAMP:20261021T014106Z
+DTSTAMP:20261021T102118Z
 DTSTART:20261018T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -487,7 +232,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-18-reels@fontedemana.com.br
-DTSTAMP:20261021T014106Z
+DTSTAMP:20261021T102118Z
 DTSTART:20261018T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -514,7 +259,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-19-gravacao@fontedemana.com.br
-DTSTAMP:20261021T014106Z
+DTSTAMP:20261021T102118Z
 DTSTART:20261018T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -557,7 +302,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-19-tiktok@fontedemana.com.br
-DTSTAMP:20261021T014106Z
+DTSTAMP:20261021T102118Z
 DTSTART:20261019T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: a história do Sol Ring
@@ -586,7 +331,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-19-threads-manha@fontedemana.com.br
-DTSTAMP:20261021T014106Z
+DTSTAMP:20261021T102118Z
 DTSTART:20261019T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: História de uma carta #1: Sol Ring\, da Alp
@@ -610,7 +355,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-19-stories-manha@fontedemana.com.br
-DTSTAMP:20261021T014106Z
+DTSTAMP:20261021T102118Z
 DTSTART:20261019T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -630,7 +375,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-19-feed@fontedemana.com.br
-DTSTAMP:20261021T014106Z
+DTSTAMP:20261021T102118Z
 DTSTART:20261019T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: História de uma carta #1: Sol Ring\, da Alph
@@ -675,7 +420,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-19-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261021T014106Z
+DTSTAMP:20261021T102118Z
 DTSTART:20261019T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -694,7 +439,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-19-threads-tarde@fontedemana.com.br
-DTSTAMP:20261021T014106Z
+DTSTAMP:20261021T102118Z
 DTSTART:20261019T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 14
@@ -731,7 +476,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-19-stories-tarde@fontedemana.com.br
-DTSTAMP:20261021T014106Z
+DTSTAMP:20261021T102118Z
 DTSTART:20261019T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -751,7 +496,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-19-reels@fontedemana.com.br
-DTSTAMP:20261021T014106Z
+DTSTAMP:20261021T102118Z
 DTSTART:20261019T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -780,7 +525,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-20-gravacao@fontedemana.com.br
-DTSTAMP:20261021T014106Z
+DTSTAMP:20261021T102118Z
 DTSTART:20261019T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -815,7 +560,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-20-tiktok@fontedemana.com.br
-DTSTAMP:20261021T014106Z
+DTSTAMP:20261021T102118Z
 DTSTART:20261020T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Dicionário do Commander #2\, staple
@@ -844,7 +589,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-20-threads-manha@fontedemana.com.br
-DTSTAMP:20261021T014106Z
+DTSTAMP:20261021T102118Z
 DTSTART:20261020T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Você acha que regra para carta de 
@@ -866,7 +611,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-20-stories-manha@fontedemana.com.br
-DTSTAMP:20261021T014106Z
+DTSTAMP:20261021T102118Z
 DTSTART:20261020T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -886,7 +631,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-20-feed@fontedemana.com.br
-DTSTAMP:20261021T014106Z
+DTSTAMP:20261021T102118Z
 DTSTART:20261020T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 15
@@ -923,7 +668,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-20-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261021T014106Z
+DTSTAMP:20261021T102118Z
 DTSTART:20261020T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -942,7 +687,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-20-threads-tarde@fontedemana.com.br
-DTSTAMP:20261021T014106Z
+DTSTAMP:20261021T102118Z
 DTSTART:20261020T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 15
@@ -974,7 +719,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-20-stories-tarde@fontedemana.com.br
-DTSTAMP:20261021T014106Z
+DTSTAMP:20261021T102118Z
 DTSTART:20261020T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -994,7 +739,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-20-reels@fontedemana.com.br
-DTSTAMP:20261021T014106Z
+DTSTAMP:20261021T102118Z
 DTSTART:20261020T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -1021,7 +766,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-21-gravacao@fontedemana.com.br
-DTSTAMP:20261021T014106Z
+DTSTAMP:20261021T102118Z
 DTSTART:20261020T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -1052,8 +797,9 @@ DESCRIPTION:Deck em 40 segundos: Krenko\, Mob Boss vence em três passos. G
  a boca.\n2. Nomeie os áudios cena_1\, cena_2\, cena_3\, cena_4 e cena_5.\
  n3. Mande os áudios ao Claude no projeto MGT strategy (pode ser responden
  do à mensagem desta tarefa) dizendo "áudios do TikTok de 2026-10-21".\n\
- nValores em reais pela cotação PTAX de 16 out (Banco Central).\n\nPauta 
- completa: https://fontedemana.com.br/pauta/2026-10-21/#gravacao
+ nValores em reais pela cotação de 19 out\, US$ 1 = R$ 5\,0564 (PTAX do B
+ anco Central).\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10
+ -21/#gravacao
 URL:https://fontedemana.com.br/pauta/2026-10-21/#gravacao
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1063,13 +809,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-21-tiktok@fontedemana.com.br
-DTSTAMP:20261021T014106Z
+DTSTAMP:20261021T102118Z
 DTSTART:20261021T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Deck em 40 segundos: Krenko\, Mob Boss
 DESCRIPTION:TikTok narrado com o plano do Krenko\, o preço da lista média
  \, as 3 cartas do combo na ordem certa e a sequência dos gatilhos até 10
-  de dano.\n\nArquivos:\n- Vídeo narrado do TikTok: https://fontedemana.co
+  de dano.\n\nArquivos:\n- Vídeo do TikTok narrado: https://fontedemana.co
  m.br/pauta/2026-10-21/tiktok/tiktok-narrado.mp4\n\nLegenda:\nKrenko\, Mob 
  Boss em 40 segundos: o goblin que dobra o exército a cada toque.\nBracket
   2 ou 3\, lista média por uns US$ 290 (R$ 1.473\,95).\nQue carta você co
@@ -1081,12 +827,209 @@ DESCRIPTION:TikTok narrado com o plano do Krenko\, o preço da lista média
  e 15% e 20%.\n2. A voz é sua\, então não precisa de rótulo de IA.\n3. 
  Fixe o comentário logo depois de postar.\n4. Se os áudios não chegaram\
  , poste o vídeo mudo com música em alta.\n\nValores em reais pela cotaç
- ão PTAX de 16 out (Banco Central).\n\nPauta completa: https://fontedemana
- .com.br/pauta/2026-10-21/#tiktok
+ ão de 19 out\, US$ 1 = R$ 5\,0564 (PTAX do Banco Central).\n\nPauta compl
+ eta: https://fontedemana.com.br/pauta/2026-10-21/#tiktok
 URL:https://fontedemana.com.br/pauta/2026-10-21/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:TikTok: Deck em 40 segundos: Krenko\, Mob Boss
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-21-threads-manha@fontedemana.com.br
+DTSTAMP:20261021T102118Z
+DTSTART:20261021T133000Z
+DURATION:PT15M
+SUMMARY:10:30 Threads: Pergunta do dia: Se fosse comprar só um\, qual seri
+ a: Picard\, Spock…
+DESCRIPTION:Pergunta para puxar conversa sobre a notícia do dia.\n\nPost:\
+ nSaíram os quatro comandantes dos precons de Star Trek. Se fosse comprar 
+ só um\, qual seria: Picard\, Spock\, Worf ou a Rainha Borg?\n\nPasso a pa
+ sso:\n1. Abra o Threads e cole o Post.\n2. Dica: Enquete: Picard\, Spock\,
+  Worf\, Rainha Borg\n3. Publique e responda quem comentar na primeira hora
+ .\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-21/#threads-
+ manha
+URL:https://fontedemana.com.br/pauta/2026-10-21/#threads-manha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Pergunta do dia: Se fosse comprar só um\, qual seria:
+  Picard\, Spock…
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-21-stories-manha@fontedemana.com.br
+DTSTAMP:20261021T102118Z
+DTSTART:20261021T133000Z
+DURATION:PT15M
+SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
+DESCRIPTION:Story com a capa da edição 16 (Star Trek revela os 4 comandan
+ tes dos precons) e um sticker de pergunta para puxar a conversa.\n\nArquiv
+ os:\n- Capa da edição 16: https://fontedemana.com.br/kit/ed16/carrossel-
+ 01.jpg\n\nPasso a passo:\n1. Baixe a capa e poste no Story.\n2. Adicione o
+  sticker de Pergunta no terço de baixo\, sem cobrir o título: Qual preco
+ n de Star Trek você compraria primeiro?\n3. Publique.\n\nPauta completa: 
+ https://fontedemana.com.br/pauta/2026-10-21/#stories-manha
+URL:https://fontedemana.com.br/pauta/2026-10-21/#stories-manha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Capa do jornal com sticker de pergunta
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-21-feed@fontedemana.com.br
+DTSTAMP:20261021T102118Z
+DTSTART:20261021T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram feed: Carrossel da edição 16
+DESCRIPTION:Carrossel de 7 imagens da edição 16: Star Trek revela os 4 co
+ mandantes dos precons\, Secret Lair Bundle atrasa\, Magic bate recorde de 
+ receita\, Topdeck: Thought Reflection.\n\nArquivos:\n- Imagem 1 de 7: http
+ s://fontedemana.com.br/kit/ed16/carrossel-01.jpg\n- Imagem 2 de 7: https:/
+ /fontedemana.com.br/kit/ed16/carrossel-02.jpg\n- Imagem 3 de 7: https://fo
+ ntedemana.com.br/kit/ed16/carrossel-03.jpg\n- Imagem 4 de 7: https://fonte
+ demana.com.br/kit/ed16/carrossel-04.jpg\n- Imagem 5 de 7: https://fontedem
+ ana.com.br/kit/ed16/carrossel-05.jpg\n- Imagem 6 de 7: https://fontedemana
+ .com.br/kit/ed16/carrossel-06.jpg\n- Imagem 7 de 7: https://fontedemana.co
+ m.br/kit/ed16/carrossel-07.jpg\n\nLegenda:\nStar Trek mostrou as caras dos
+  quatro precons de Commander. Todos de três cores:\n\nFederation Fleet: J
+ ean-Luc Picard\, Luminary (azul\, vermelho e branco)\nLanding Party: Comma
+ nder Spock (verde\, branco e azul)\nKlingon Fury: Worf\, Defiant Commander
+  (vermelho\, branco e preto)\nWe Are the Borg: The Borg Queen (branco\, az
+ ul e preto)\n\nA Rainha Borg assimila: puxa a primeira criatura do grimór
+ io de um oponente para o seu lado\, com marcador +1/+1\, virando artefato 
+ Borg. Cada precon tem 100 cartas\, 32 inéditas. Pré de 6 a 12 de novembr
+ o e lançamento em 13 de novembro.\n\nTambém hoje: o Secret Lair Bundle d
+ e Reality Fracture atrasou no mundo todo e não chega mais em 23 de outubr
+ o. E o Magic faturou 616\,1 milhões de dólares (R$ 3\,12 bilhões) no te
+ rceiro trimestre\, recorde da história\, segundo a Hasbro.\n\nTopdeck do 
+ Dia: Thought Reflection\, o encantamento que faz toda compra virar duas. O
+  novo Mr. Spock faz o mesmo por 4 manas.\n\nEdição completa em fontedema
+ na.com.br\n\nArte da capa: The Borg Queen\, Jodie Muir. Thought Reflection
+ : Chris Seaman.\nValores em reais pela cotação de 19 out (PTAX do Banco 
+ Central).\n\n#magicthegathering #mtg #commander #edh #mtgbrasil #startrek\
+ n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content
+  Policy. Not approved/endorsed by Wizards. Portions of the materials used 
+ are property of Wizards of the Coast. ©Wizards of the Coast LLC.\n\nPasso
+  a passo:\n1. No Instagram\, toque em + e escolha Post.\n2. Selecione as 7
+  imagens na ordem\, da 1 à 7.\n3. Cole a Legenda e publique.\n\nValores e
+ m reais pela cotação de 19 out\, US$ 1 = R$ 5\,0564 (PTAX do Banco Centr
+ al).\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-21/#feed
+URL:https://fontedemana.com.br/pauta/2026-10-21/#feed
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram feed: Carrossel da edição 16
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-21-stories-meio-dia@fontedemana.com.br
+DTSTAMP:20261021T102118Z
+DTSTART:20261021T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
+DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
+ .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
+ e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
+ o do post: Qual precon de Star Trek você quer? com Picard\, Spock\, Worf 
+ e Rainha Borg.\n3. Publique.\n\nPauta completa: https://fontedemana.com.br
+ /pauta/2026-10-21/#stories-meio-dia
+URL:https://fontedemana.com.br/pauta/2026-10-21/#stories-meio-dia
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-21-threads-tarde@fontedemana.com.br
+DTSTAMP:20261021T102118Z
+DTSTART:20261021T180000Z
+DURATION:PT15M
+SUMMARY:15:00 Threads: Fio da edição 16
+DESCRIPTION:Fio com 7 posts contando a edição 16. O último é o aviso de
+  conteúdo de fã.\n\nPost 1:\nStar Trek revelou os quatro comandantes dos
+  precons de Commander. Todos de três cores. Bora ver um por um.\n\nPost 2
+ :\nFederation Fleet: Jean-Luc Picard\, Luminary\, em azul\, vermelho e bra
+ nco. Compra carta quando entra artefato\, lendário ou Saga seu de 3 manas
+  ou mais. Landing Party: Commander Spock\, em verde\, branco e azul. Quand
+ o entra ou ataca\, revela o topo e conjura de graça se o custo couber no 
+ número de terrenos com nomes diferentes.\n\nPost 3:\nKlingon Fury: Worf\,
+  Defiant Commander\, em vermelho\, branco e preto. Entra com um 2/1 com í
+ mpeto\, e cada oponente atacado libera uma carta do topo. We Are the Borg:
+  The Borg Queen\, em branco\, azul e preto\, por 7 manas. Puxa a primeira 
+ criatura do grimório de um oponente e assimila.\n\nPost 4:\nAinda hoje: o
+  Secret Lair Bundle de Reality Fracture atrasou no mundo todo e não chega
+  mais em 23 de outubro. E o Magic faturou 616\,1 milhões de dólares (R$ 
+ 3\,12 bilhões) no terceiro trimestre\, o maior da história\, segundo a H
+ asbro.\n\nPost 5:\nTopdeck do Dia: Thought Reflection. Toda compra vira du
+ as. Custa 7 manas\, e o novo Mr. Spock de Star Trek faz o mesmo por 4. Com
+  os dois em campo\, cada compra vira quatro.\n\nPost 6:\nEdição completa
+  em fontedemana.com.br\n\nValores em reais pela cotação de 19 out (PTAX 
+ do Banco Central).\n\nPost 7 (aviso de fã):\nFonte de Mana is unofficial 
+ Fan Content permitted under the Fan Content Policy. Not approved/endorsed 
+ by Wizards. Portions of the materials used are property of Wizards of the 
+ Coast. ©Wizards of the Coast LLC.\n\nPasso a passo:\n1. No Threads\, publ
+ ique o Post 1.\n2. Toque em Adicionar à sequência e cole os posts seguin
+ tes\, um por vez\, na ordem.\n3. Publique o fio inteiro de uma vez.\n\nVal
+ ores em reais pela cotação de 19 out\, US$ 1 = R$ 5\,0564 (PTAX do Banco
+  Central).\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-21/
+ #threads-tarde
+URL:https://fontedemana.com.br/pauta/2026-10-21/#threads-tarde
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Fio da edição 16
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-21-stories-tarde@fontedemana.com.br
+DTSTAMP:20261021T102118Z
+DTSTART:20261021T180000Z
+DURATION:PT15M
+SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
+DESCRIPTION:Story com a imagem de Thought Reflection no Topdeck do Dia e o 
+ sticker de link para a edição completa.\n\nArquivos:\n- Topdeck do Dia: 
+ https://fontedemana.com.br/kit/ed16/carrossel-05.jpg\n\nPasso a passo:\n1.
+  Baixe a imagem e poste no Story.\n2. Adicione o sticker de Link para font
+ edemana.com.br com o texto Edição completa\, embaixo do texto do Topdeck
+ .\n3. Publique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-1
+ 0-21/#stories-tarde
+URL:https://fontedemana.com.br/pauta/2026-10-21/#stories-tarde
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Topdeck do Dia com link
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-21-reels@fontedemana.com.br
+DTSTAMP:20261021T102118Z
+DTSTART:20261021T220000Z
+DURATION:PT15M
+SUMMARY:19:00 Reels: Vídeo do jornal com música
+DESCRIPTION:Vídeo de 48 s da edição 16 com música em alta e sem narraç
+ ão.\n\nArquivos:\n- Vídeo da edição 16: https://fontedemana.com.br/kit
+ /ed16/video-vertical-ed16.mp4\n\nLegenda:\nOs quatro comandantes dos preco
+ ns de Star Trek saíram: Picard\, Spock\, Worf e a Rainha Borg\, todos de 
+ três cores. Mais o atraso do Secret Lair Bundle de Reality Fracture\, o r
+ ecorde de receita do Magic e o Topdeck do Dia\, Thought Reflection.\n\nQua
+ l dos quatro precons você compraria primeiro? Conta nos comentários.\n\n
+ Edição completa em fontedemana.com.br\n\nValores em reais pela cotação
+  de 19 out (PTAX do Banco Central).\n\n#magicthegathering #mtg #commander 
+ #edh #startrek\n\nFonte de Mana is unofficial Fan Content permitted under 
+ the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the 
+ materials used are property of Wizards of the Coast. ©Wizards of the Coas
+ t LLC.\n\nPasso a passo:\n1. No Instagram\, toque em + e escolha Reel.\n2.
+  Escolha o vídeo e adicione uma música em alta pela biblioteca do app\, 
+ com volume baixo.\n3. Cole a Legenda e publique.\n\nPauta completa: https:
+ //fontedemana.com.br/pauta/2026-10-21/#reels
+URL:https://fontedemana.com.br/pauta/2026-10-21/#reels
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reels: Vídeo do jornal com música
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
