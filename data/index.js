@@ -1,6 +1,7 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "Thought Reflection",
   "Gisela, the Broken Blade",
   "Tymna the Weaver",
   "Uthros Research Craft",
@@ -14,6 +15,13 @@ window.MANA_POOL_INDEX = {
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 16,
+   "date": "2026-10-21",
+   "dateLabel": "Quarta, 21 de outubro de 2026",
+   "head": "Star Trek revela os quatro comandantes dos precons",
+   "biome": "M"
+  },
   {
    "n": 15,
    "date": "2026-10-20",
