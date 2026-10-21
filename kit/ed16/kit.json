@@ -1,0 +1,214 @@
+{
+ "n": 16,
+ "data": "21 out",
+ "carrossel": {
+  "capa": {
+   "cor": "G",
+   "titulo": "Star Trek revela os 4 comandantes dos precons",
+   "sub": "<b>Picard</b>, <b>Spock</b>, <b>Worf</b> e a <b>Rainha Borg</b> lideram os quatro decks de Commander, todos de três cores.",
+   "credito": "Arte: The Borg Queen, Jodie Muir"
+  },
+  "cartoes": [
+   {
+    "cor": "G",
+    "titulo": "Os quatro precons de Star Trek",
+    "itens": [
+     {
+      "cor": "U",
+      "html": "<b>Federation Fleet</b>: Picard, Luminary. Azul, vermelho e branco."
+     },
+     {
+      "cor": "G",
+      "html": "<b>Landing Party</b>: Commander Spock. Verde, branco e azul."
+     },
+     {
+      "cor": "R",
+      "html": "<b>Klingon Fury</b>: Worf, Defiant Commander. Vermelho, branco e preto."
+     },
+     {
+      "cor": "B",
+      "html": "<b>We Are the Borg</b>: The Borg Queen. Branco, azul e preto."
+     }
+    ],
+    "nota": {
+     "rotulo": "Na sua mesa",
+     "texto": "pré de 6 a 12 de novembro e lançamento em 13 de novembro."
+    },
+    "fonte": "Fontes: Wizards, MTG Salvation, Scryfall"
+   },
+   {
+    "cor": "A",
+    "titulo": "Secret Lair Bundle atrasa",
+    "itens": [
+     {
+      "cor": "A",
+      "html": "O <b>Secret Lair Bundle de Reality Fracture</b> não chega mais em 23 de outubro."
+     },
+     {
+      "cor": "A",
+      "html": "O atraso vale no mundo todo, por problemas de produção e envio. Ainda sem data nova."
+     },
+     {
+      "cor": "A",
+      "html": "Quem comprou no Chaos Vault recebe pelo calendário normal do Secret Lair."
+     }
+    ],
+    "nota": {
+     "rotulo": "No seu bolso",
+     "texto": "encomendou na loja? Confirme a data com o lojista."
+    },
+    "fonte": "Fontes: Wizards of the Coast, Star City Games"
+   },
+   {
+    "cor": "G",
+    "titulo": "Magic bate recorde de receita",
+    "linhas": [
+     {
+      "nome": "Magic no 3º trimestre",
+      "valor": "+34%",
+      "sub": "616,1 mi de dólares (R$ 3,12 bi)",
+      "porque": "primeiro trimestre da história acima de 600 milhões de dólares"
+     },
+     {
+      "nome": "Wizards e digital",
+      "valor": "+31%",
+      "sub": "747,2 mi de dólares (R$ 3,78 bi)"
+     }
+    ],
+    "nota": {
+     "rotulo": "Na prática",
+     "texto": "a Hasbro subiu a previsão de crescimento do ano para 7% a 9%."
+    },
+    "fonte": "Fontes: Hasbro, Investing.com. Reais: PTAX de 19 out"
+   }
+  ],
+  "topdeck": {
+   "titulo": "Thought Reflection",
+   "habilidades": [
+    {
+     "rotulo": "Toda compra vira duas",
+     "texto": "Na etapa de compra você pega duas. Comprar três vira seis."
+    },
+    {
+     "rotulo": "Acumula",
+     "texto": "Com Thought Reflection e Mr. Spock em campo, cada compra vira quatro cartas."
+    },
+    {
+     "rotulo": "Só para você",
+     "texto": "Se todo mundo compra, só você leva em dobro."
+    }
+   ],
+   "extra": "O novo <b>Mr. Spock</b> faz o mesmo por 4 manas. Ela custa 7, está em 13,4 mil decks e sai a <b>US$ 1,15 (R$ 5,81)</b>. Reais: PTAX de 19 out",
+   "credito": "Ilustração de Chris Seaman"
+  },
+  "ban": {
+   "numero": "40",
+   "unidade": "DIAS",
+   "texto": "para a próxima janela de banimentos, em 30 de novembro. A de 12 de outubro não mexeu no Commander."
+  },
+  "turnos": [
+   {
+    "cor": "G",
+    "data": "21 a 29 out",
+    "texto": "Prévias de Star Trek"
+   },
+   {
+    "cor": "W",
+    "data": "23 a 29 out",
+    "texto": "Segunda rodada da Festa de Commander"
+   },
+   {
+    "cor": "G",
+    "data": "26 a 29 out",
+    "texto": "Listas dos precons de Star Trek"
+   },
+   {
+    "cor": "G",
+    "data": "30 out",
+    "texto": "Galeria completa de Star Trek"
+   },
+   {
+    "cor": "A",
+    "data": "2 nov",
+    "texto": "Venda do Countdown Kit da Marvel"
+   }
+  ],
+  "sussurro": null
+ },
+ "video": {
+  "cena1": {
+   "titulo": "Star Trek revela os 4 comandantes dos precons",
+   "pilulas": [
+    "Picard e Spock",
+    "Worf",
+    "Rainha Borg"
+   ]
+  },
+  "cena2": {
+   "rotulo": "No bolso",
+   "cor": "A",
+   "titulo": "Magic bate recorde de receita",
+   "linhas": [
+    {
+     "nome": "Magic no trimestre",
+     "numero": 34,
+     "prefixo": "+",
+     "sufixo": "%",
+     "sub": "616,1 mi de dólares"
+    },
+    {
+     "nome": "Wizards e digital",
+     "numero": 31,
+     "prefixo": "+",
+     "sufixo": "%",
+     "sub": "747,2 mi de dólares"
+    }
+   ],
+   "fonte": "Fonte: Hasbro. Reais: PTAX de 19 out"
+  },
+  "cena3": {
+   "linhas": [
+    "<b>Thought Reflection</b>: toda compra vira duas.",
+    "O novo Mr. Spock faz o mesmo por 4 manas.",
+    "Com os dois em campo, cada compra vira quatro."
+   ]
+  },
+  "cena4": {
+   "texto": "40 dias para a próxima janela de banimentos. Listas dos precons de Star Trek de 26 a 29 de outubro.",
+   "sussurro": null
+  }
+ },
+ "textos": {
+  "legendaCarrossel": "Star Trek mostrou as caras dos quatro precons de Commander. Todos de três cores:\n\nFederation Fleet: Jean-Luc Picard, Luminary (azul, vermelho e branco)\nLanding Party: Commander Spock (verde, branco e azul)\nKlingon Fury: Worf, Defiant Commander (vermelho, branco e preto)\nWe Are the Borg: The Borg Queen (branco, azul e preto)\n\nA Rainha Borg assimila: puxa a primeira criatura do grimório de um oponente para o seu lado, com marcador +1/+1, virando artefato Borg. Cada precon tem 100 cartas, 32 inéditas. Pré de 6 a 12 de novembro e lançamento em 13 de novembro.\n\nTambém hoje: o Secret Lair Bundle de Reality Fracture atrasou no mundo todo e não chega mais em 23 de outubro. E o Magic faturou 616,1 milhões de dólares (R$ 3,12 bilhões) no terceiro trimestre, recorde da história, segundo a Hasbro.\n\nTopdeck do Dia: Thought Reflection, o encantamento que faz toda compra virar duas. O novo Mr. Spock faz o mesmo por 4 manas.\n\nEdição completa em fontedemana.com.br\n\nArte da capa: The Borg Queen, Jodie Muir. Thought Reflection: Chris Seaman.\nValores em reais pela cotação de 19 out (PTAX do Banco Central).\n\n#magicthegathering #mtg #commander #edh #mtgbrasil #startrek",
+  "legendaVideo": "Os quatro comandantes dos precons de Star Trek saíram: Picard, Spock, Worf e a Rainha Borg, todos de três cores. Mais o atraso do Secret Lair Bundle de Reality Fracture, o recorde de receita do Magic e o Topdeck do Dia, Thought Reflection.\n\nQual dos quatro precons você compraria primeiro? Conta nos comentários.\n\nEdição completa em fontedemana.com.br\n\nValores em reais pela cotação de 19 out (PTAX do Banco Central).\n\n#magicthegathering #mtg #commander #edh #startrek",
+  "threadsFio": [
+   "Star Trek revelou os quatro comandantes dos precons de Commander. Todos de três cores. Bora ver um por um.",
+   "Federation Fleet: Jean-Luc Picard, Luminary, em azul, vermelho e branco. Compra carta quando entra artefato, lendário ou Saga seu de 3 manas ou mais. Landing Party: Commander Spock, em verde, branco e azul. Quando entra ou ataca, revela o topo e conjura de graça se o custo couber no número de terrenos com nomes diferentes.",
+   "Klingon Fury: Worf, Defiant Commander, em vermelho, branco e preto. Entra com um 2/1 com ímpeto, e cada oponente atacado libera uma carta do topo. We Are the Borg: The Borg Queen, em branco, azul e preto, por 7 manas. Puxa a primeira criatura do grimório de um oponente e assimila.",
+   "Ainda hoje: o Secret Lair Bundle de Reality Fracture atrasou no mundo todo e não chega mais em 23 de outubro. E o Magic faturou 616,1 milhões de dólares (R$ 3,12 bilhões) no terceiro trimestre, o maior da história, segundo a Hasbro.",
+   "Topdeck do Dia: Thought Reflection. Toda compra vira duas. Custa 7 manas, e o novo Mr. Spock de Star Trek faz o mesmo por 4. Com os dois em campo, cada compra vira quatro.",
+   "Edição completa em fontedemana.com.br\n\nValores em reais pela cotação de 19 out (PTAX do Banco Central)."
+  ],
+  "threadsAvulsos": [
+   {
+    "titulo": "Qual precon de Star Trek?",
+    "texto": "Saíram os quatro comandantes dos precons de Star Trek. Se fosse comprar só um, qual seria: Picard, Spock, Worf ou a Rainha Borg?",
+    "obs": "Enquete: Picard, Spock, Worf, Rainha Borg"
+   }
+  ]
+ },
+ "pauta": {
+  "forca": "forte",
+  "porque": "Revelação dos quatro comandantes dos precons de Star Trek, publicada ontem à tarde e ainda não noticiada.",
+  "storyPergunta": "Qual precon de Star Trek você compraria primeiro?",
+  "enquete": {
+   "pergunta": "Qual precon de Star Trek você quer?",
+   "opcoes": [
+    "Picard",
+    "Spock",
+    "Worf",
+    "Rainha Borg"
+   ]
+  }
+ }
+}
