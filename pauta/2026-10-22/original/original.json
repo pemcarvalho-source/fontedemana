@@ -1,0 +1,85 @@
+{
+  "data": "2026-10-22",
+  "pilar": "top5",
+  "item": "Vampiros mais fortes do Commander",
+  "tema": "Top 5 #2: os vampiros que mais aparecem nos decks de Vampiros do Commander",
+  "cartas": ["Cordial Vampire", "Blood Artist", "Sanctum Seeker", "Vito, Thorn of the Dusk Rose", "Captivating Vampire"],
+  "fx": "Valores em reais pela cotação PTAX de 19 out (Banco Central).",
+  "carrossel": {
+    "capa": {
+      "cor": "B",
+      "chip": "Top 5 #2",
+      "kicker": "Vampiros no Commander",
+      "titulo": "5 vampiros que <b>não podem faltar</b>",
+      "sub": "Os mais jogados nos decks de Vampiros do EDHREC. E os cinco juntos custam <b>US$ 18,44 (R$ 93,24)</b>.",
+      "arte": "pauta/2026-10-22/tiktok/arte.jpg",
+      "credito": "Arte: Blood Artist, Johannes Voss"
+    },
+    "cartoes": [
+      {
+        "cor": "B",
+        "titulo": "1. Cordial Vampire",
+        "carta": "pauta/2026-10-22/original/carta-1.jpg",
+        "itens": [
+          {"cor": "B", "html": "Em <b>9,47 mil decks</b>. Qualquer criatura que morre, até a do oponente, dá +1/+1 para todos os seus vampiros."},
+          {"cor": "A", "html": "Cada ficha sacrificada é +1/+1 no time inteiro. <b>US$ 2,16 (R$ 10,92)</b>."}
+        ],
+        "fonte": "Fonte: EDHREC e Scryfall, out 2026"
+      },
+      {
+        "cor": "B",
+        "titulo": "2. Blood Artist",
+        "carta": "pauta/2026-10-22/original/carta-2.jpg",
+        "itens": [
+          {"cor": "B", "html": "Em <b>9,40 mil decks</b>. Cada criatura que morre tira 1 de vida de um jogador e você ganha 1."},
+          {"cor": "A", "html": "Dez fichas sacrificadas, dez de dano. <b>US$ 2,95 (R$ 14,92)</b>."}
+        ],
+        "fonte": "Fonte: EDHREC e Scryfall, out 2026"
+      },
+      {
+        "cor": "B",
+        "titulo": "3. Sanctum Seeker",
+        "carta": "pauta/2026-10-22/original/carta-3.jpg",
+        "itens": [
+          {"cor": "B", "html": "Em <b>7,87 mil decks</b>. Cada vampiro seu que ataca tira 1 de vida de <b>cada</b> oponente, e você ganha 1."},
+          {"cor": "A", "html": "Ataque com 5 vampiros: 15 de dano na mesa sem passar bloqueio. <b>US$ 0,32 (R$ 1,62)</b>."}
+        ],
+        "fonte": "Fonte: EDHREC e Scryfall, out 2026"
+      },
+      {
+        "cor": "R",
+        "titulo": "4. Vito, Thorn of the Dusk Rose",
+        "carta": "pauta/2026-10-22/original/carta-4.jpg",
+        "itens": [
+          {"cor": "B", "html": "Em <b>7 mil decks</b>. Toda vida que você ganha, um oponente perde a mesma quantidade."},
+          {"cor": "A", "html": "Com Blood Artist e Sanctum Seeker, cada gatilho bate duas vezes. <b>US$ 9,68 (R$ 48,95)</b>."}
+        ],
+        "fonte": "Fonte: EDHREC e Scryfall, out 2026"
+      },
+      {
+        "cor": "B",
+        "titulo": "5. Captivating Vampire",
+        "carta": "pauta/2026-10-22/original/carta-5.jpg",
+        "itens": [
+          {"cor": "B", "html": "Em <b>6,92 mil decks</b>. Dá +1/+1 aos outros vampiros e, virando cinco deles, rouba uma criatura de vez."},
+          {"cor": "A", "html": "O comandante do oponente vira vampiro e muda de lado. <b>US$ 3,33 (R$ 16,84)</b>."}
+        ],
+        "fonte": "Fonte: EDHREC e Scryfall, out 2026"
+      }
+    ],
+    "cta": {
+      "pergunta": "Faltou algum? <b>Qual seria o seu número 1?</b>",
+      "quando": "Top 5 toda quinta no @fontedemana",
+      "salvar": "Salve para montar o seu deck ou mande pro amigo que joga de vampiro"
+    }
+  },
+  "legenda": "Top 5 vampiros para o seu deck de Commander: as cartas de Magic que mais aparecem nos decks de Vampiros do EDHREC, e os cinco juntos custam US$ 18,44 (R$ 93,24).\n\n1. Cordial Vampire, em 9,47 mil decks\n2. Blood Artist, 9,40 mil\n3. Sanctum Seeker, 7,87 mil\n4. Vito, Thorn of the Dusk Rose, 7 mil\n5. Captivating Vampire, 6,92 mil\n\nO segredo do deck: vampiro não precisa bater forte. Cada criatura que morre vira marcador e perda de vida para a mesa, e o Vito transforma toda vida que você ganha em dano.\n\nFontes: EDHREC (página de Vampiros) e Scryfall (impressão mais barata de cada carta). Valores em reais pela cotação PTAX de 19 out (Banco Central).\n\nMais no fontedemana.com.br\n\nFaltou algum? Qual seria o seu número 1?\n\n#magicthegathering #mtg #commander #edh #vampiros #edgarmarkov #mtgbrasil #deckdecommander",
+  "threads": {
+    "texto": "Os cinco vampiros mais jogados nos decks de Vampiros do EDHREC: Cordial Vampire, Blood Artist, Sanctum Seeker, Vito e Captivating Vampire.\n\nDois deles ganham quando qualquer criatura morre. Os outros três drenam a mesa no ataque, viram vida em dano ou roubam criatura.\n\nNo seu deck de vampiro, quem é o número 1? E qual vampiro ficou injustamente de fora?",
+    "obs": "Enquete com as opções Cordial Vampire, Blood Artist, Sanctum Seeker e Vito"
+  },
+  "enquete": {
+    "pergunta": "Melhor vampiro do Commander?",
+    "opcoes": ["Cordial Vampire", "Blood Artist", "Sanctum Seeker", "Vito"]
+  }
+}

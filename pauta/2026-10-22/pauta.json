@@ -1,0 +1,81 @@
+{
+ "data": "2026-10-22",
+ "fx": "Valores em reais pela cotação PTAX de 19 out (Banco Central).",
+ "avisos": [
+  {
+   "id": "gravacao",
+   "dia": "2026-10-21",
+   "hora": "18:30",
+   "rede": "Gravação",
+   "titulo": "Gravar a narração do TikTok de amanhã",
+   "oQue": "Top 5 #2: os vampiros que mais aparecem nos decks de Vampiros do Commander. Grave uma fala por cena, no seu ritmo, seguindo o roteiro.",
+   "arquivos": [
+    {
+     "nome": "Vídeo mudo do TikTok",
+     "url": "https://fontedemana.com.br/pauta/2026-10-22/tiktok/tiktok-mudo.mp4"
+    }
+   ],
+   "roteiro": [
+    {
+     "cena": "Cena 1, uns 9 s",
+     "tela": "5 vampiros que não podem faltar. Os mais jogados nos decks de Vampiros do EDHREC. O número 1 está em 9,47 mil decks.",
+     "fala": "Cinco vampiros que não podem faltar no seu deck de Commander. O primeiro está em mais de nove mil decks."
+    },
+    {
+     "cena": "Cena 2, uns 7 s",
+     "tela": "Do 1 ao 3: Cordial Vampire US$ 2,16 (R$ 10,92), Blood Artist US$ 2,95 (R$ 14,92), Sanctum Seeker US$ 0,32 (R$ 1,62)",
+     "fala": "Cordial Vampire, Blood Artist e Sanctum Seeker, que drena a mesa a cada ataque."
+    },
+    {
+     "cena": "Cena 3, uns 7 s",
+     "tela": "Fechando o Top 5: Vito, Thorn of the Dusk Rose US$ 9,68 (R$ 48,95), Captivating Vampire US$ 3,33 (R$ 16,84). Os cinco: US$ 18,44 (R$ 93,24).",
+     "fala": "Fechando, Vito e Captivating Vampire. Os cinco saem por uns noventa e três reais."
+    },
+    {
+     "cena": "Cena 4, uns 9 s",
+     "tela": "Vampiro não precisa bater forte. Cada criatura que morre, até a do oponente, dá marcador com Cordial Vampire e tira 1 de vida com Blood Artist.",
+     "fala": "O segredo: vampiro não precisa bater forte. Cada criatura que morre na mesa vira marcador e perda de vida."
+    },
+    {
+     "cena": "Cena 5, uns 6 s",
+     "tela": "Faltou algum? Qual seria o seu número 1? @fontedemana",
+     "fala": "Qual seria o seu número um? Manda pro amigo que joga de vampiro."
+    }
+   ],
+   "passos": [
+    "Grave um áudio por cena no Gravador do iPhone, num lugar silencioso, com o celular a um palmo da boca.",
+    "Nomeie os áudios cena_1, cena_2, cena_3, cena_4 e cena_5.",
+    "Mande os áudios ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"áudios do TikTok de 2026-10-22\"."
+   ]
+  },
+  {
+   "id": "tiktok",
+   "hora": "11:30",
+   "rede": "TikTok",
+   "titulo": "Top 5 #2: vampiros do Commander",
+   "oQue": "TikTok narrado com os cinco vampiros mais jogados nos decks de Vampiros do EDHREC, o preço de cada um e o segredo do deck.",
+   "arquivos": [
+    {
+     "nome": "Vídeo do TikTok (mudo até a narração chegar)",
+     "url": "https://fontedemana.com.br/pauta/2026-10-22/tiktok/tiktok-mudo.mp4"
+    }
+   ],
+   "textos": [
+    {
+     "rotulo": "Legenda",
+     "texto": "Top 5 vampiros do Commander: os mais jogados nos decks de Vampiros do EDHREC.\nOs cinco juntos saem por US$ 18,44 (R$ 93,24).\nFaltou algum? Comenta o seu número 1.\nReais pela cotação PTAX de 19 out (Banco Central).\n#mtg #magicthegathering #commander #edh #vampiros #vampire #mtgbrasil"
+    },
+    {
+     "rotulo": "Comentário fixado",
+     "texto": "Cordial Vampire está em 9,47 mil decks de Vampiros no EDHREC. Qual vampiro não sai do seu deck? Comenta o nome da carta."
+    }
+   ],
+   "passos": [
+    "Poste com um som em alta da biblioteca do TikTok, com volume entre 15% e 20%.",
+    "A voz é sua, então não precisa de rótulo de IA.",
+    "Fixe o comentário logo depois de postar.",
+    "Se os áudios não chegaram, poste o vídeo mudo com música em alta."
+   ]
+  }
+ ]
+}

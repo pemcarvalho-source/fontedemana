@@ -1,0 +1,89 @@
+{
+ "data": "2026-10-22",
+ "tema": "Top 5 #2: os vampiros que mais aparecem nos decks de Vampiros do Commander",
+ "item": "Vampiros mais fortes do Commander",
+ "arte": "pauta/2026-10-22/tiktok/arte.jpg",
+ "carta": "pauta/2026-10-22/tiktok/carta.jpg",
+ "credito": "Arte: Blood Artist, Johannes Voss",
+ "fx": "Reais pela cotação PTAX de 19 out (Banco Central)",
+ "legenda": "Top 5 vampiros do Commander: os mais jogados nos decks de Vampiros do EDHREC.\nOs cinco juntos saem por US$ 18,44 (R$ 93,24).\nFaltou algum? Comenta o seu número 1.\nReais pela cotação PTAX de 19 out (Banco Central).\n#mtg #magicthegathering #commander #edh #vampiros #vampire #mtgbrasil",
+ "comentario": "Cordial Vampire está em 9,47 mil decks de Vampiros no EDHREC. Qual vampiro não sai do seu deck? Comenta o nome da carta.",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "cor": "B",
+   "chip": "Top 5 #2",
+   "kicker": "Vampiros no Commander",
+   "titulo": "5 vampiros que não podem faltar",
+   "sub": "Os mais jogados nos decks de Vampiros do EDHREC. O número 1 está em <b>9,47 mil decks</b>.",
+   "narracao": "Cinco vampiros que não podem faltar no seu deck de Commander. O primeiro está em mais de nove mil decks.",
+   "segundos": 9.2
+  },
+  {
+   "tipo": "lista",
+   "cor": "B",
+   "chip": "Top 5 #2",
+   "kicker": "Do 1 ao 3",
+   "linhas": [
+    {
+     "nome": "Cordial Vampire",
+     "valor": "US$ 2,16",
+     "real": "(R$ 10,92)"
+    },
+    {
+     "nome": "Blood Artist",
+     "valor": "US$ 2,95",
+     "real": "(R$ 14,92)"
+    },
+    {
+     "nome": "Sanctum Seeker",
+     "valor": "US$ 0,32",
+     "real": "(R$ 1,62)"
+    }
+   ],
+   "fonte": "EDHREC e Scryfall, out 2026",
+   "narracao": "Cordial Vampire, Blood Artist e Sanctum Seeker, que drena a mesa a cada ataque.",
+   "segundos": 6.8
+  },
+  {
+   "tipo": "lista",
+   "cor": "A",
+   "chip": "No bolso",
+   "kicker": "Fechando o Top 5",
+   "linhas": [
+    {
+     "nome": "Vito, Thorn of the Dusk Rose",
+     "valor": "US$ 9,68",
+     "real": "(R$ 48,95)"
+    },
+    {
+     "nome": "Captivating Vampire",
+     "valor": "US$ 3,33",
+     "real": "(R$ 16,84)"
+    }
+   ],
+   "rodape": "Os cinco: US$ 18,44 (R$ 93,24).",
+   "fonte": "EDHREC e Scryfall, out 2026",
+   "narracao": "Fechando, Vito e Captivating Vampire. Os cinco saem por uns noventa e três reais.",
+   "segundos": 6.8
+  },
+  {
+   "tipo": "texto",
+   "cor": "B",
+   "kicker": "O segredo do deck",
+   "titulo": "Vampiro não precisa bater forte",
+   "sub": "Cada criatura que morre, até a do oponente, dá marcador com Cordial Vampire e tira 1 de vida com Blood Artist.",
+   "narracao": "O segredo: vampiro não precisa bater forte. Cada criatura que morre na mesa vira marcador e perda de vida.",
+   "segundos": 8.8
+  },
+  {
+   "tipo": "cta",
+   "cor": "M",
+   "kicker": "Todo dia no Instagram",
+   "titulo": "Faltou algum? Qual seria o seu número 1?",
+   "destaque": "@fontedemana",
+   "narracao": "Qual seria o seu número um? Manda pro amigo que joga de vampiro.",
+   "segundos": 6.4
+  }
+ ]
+}
