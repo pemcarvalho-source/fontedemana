@@ -1,6 +1,7 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "Kenrith, the Returned King",
   "Thought Reflection",
   "Gisela, the Broken Blade",
   "Tymna the Weaver",
@@ -15,6 +16,13 @@ window.MANA_POOL_INDEX = {
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 17,
+   "date": "2026-10-22",
+   "dateLabel": "Quinta, 22 de outubro de 2026",
+   "head": "Stardates de Star Trek colocam Minamo e Sheoldred nos Play Boosters",
+   "biome": "A"
+  },
   {
    "n": 16,
    "date": "2026-10-21",
