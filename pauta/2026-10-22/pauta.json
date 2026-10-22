@@ -1,81 +1,260 @@
 {
- "data": "2026-10-22",
- "fx": "Valores em reais pela cotação PTAX de 19 out (Banco Central).",
- "avisos": [
-  {
-   "id": "gravacao",
-   "dia": "2026-10-21",
-   "hora": "18:30",
-   "rede": "Gravação",
-   "titulo": "Gravar a narração do TikTok de amanhã",
-   "oQue": "Top 5 #2: os vampiros que mais aparecem nos decks de Vampiros do Commander. Grave uma fala por cena, no seu ritmo, seguindo o roteiro.",
-   "arquivos": [
+  "data": "2026-10-22",
+  "fx": "Valores em reais pela cotação de 21 out, US$ 1 = R$ 5,0277 (PTAX do Banco Central).",
+  "forca": "calmo",
+  "feed": "original",
+  "avisos": [
     {
-     "nome": "Vídeo mudo do TikTok",
-     "url": "https://fontedemana.com.br/pauta/2026-10-22/tiktok/tiktok-mudo.mp4"
+      "id": "gravacao",
+      "dia": "2026-10-21",
+      "hora": "18:30",
+      "rede": "Gravação",
+      "titulo": "Gravar a narração do TikTok de amanhã",
+      "oQue": "Top 5 #2: os vampiros que mais aparecem nos decks de Vampiros do Commander. Grave uma fala por cena, no seu ritmo, seguindo o roteiro.",
+      "arquivos": [
+        {
+          "nome": "Vídeo mudo do TikTok",
+          "url": "https://fontedemana.com.br/pauta/2026-10-22/tiktok/tiktok-mudo.mp4"
+        }
+      ],
+      "roteiro": [
+        {
+          "cena": "Cena 1, uns 9 s",
+          "tela": "5 vampiros que não podem faltar. Os mais jogados nos decks de Vampiros do EDHREC. O número 1 está em 9,47 mil decks.",
+          "fala": "Cinco vampiros que não podem faltar no seu deck de Commander. O primeiro está em mais de nove mil decks."
+        },
+        {
+          "cena": "Cena 2, uns 7 s",
+          "tela": "Do 1 ao 3, cartas na tela com o preço: Cordial Vampire: US$ 2,16 (R$ 10,92); Blood Artist: US$ 2,95 (R$ 14,92); Sanctum Seeker: US$ 0,32 (R$ 1,62)",
+          "fala": "Cordial Vampire, Blood Artist e Sanctum Seeker, que drena a mesa a cada ataque."
+        },
+        {
+          "cena": "Cena 3, uns 7 s",
+          "tela": "Do 4 ao 5, cartas na tela com o preço: Vito: US$ 9,68 (R$ 48,95); Captivating Vampire: US$ 3,33 (R$ 16,84). Os cinco: US$ 18,44 (R$ 93,24).",
+          "fala": "Fechando, Vito e Captivating Vampire. Os cinco saem por uns noventa e três reais."
+        },
+        {
+          "cena": "Cena 4, uns 9 s",
+          "tela": "Vampiro não precisa bater forte. Cada criatura que morre, até a do oponente, dá marcador com Cordial Vampire e tira 1 de vida com Blood Artist.",
+          "fala": "O segredo: vampiro não precisa bater forte. Cada criatura que morre na mesa vira marcador e perda de vida."
+        },
+        {
+          "cena": "Cena 5, uns 6 s",
+          "tela": "Faltou algum? Qual seria o seu número 1? @fontedemana",
+          "fala": "Qual seria o seu número um? Manda pro amigo que joga de vampiro."
+        }
+      ],
+      "passos": [
+        "Grave um áudio por cena no Gravador do iPhone, num lugar silencioso, com o celular a um palmo da boca.",
+        "Nomeie os áudios cena_1, cena_2, cena_3, cena_4 e cena_5.",
+        "Mande os áudios ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"áudios do TikTok de 2026-10-22\"."
+      ]
+    },
+    {
+      "id": "tiktok",
+      "hora": "11:30",
+      "rede": "TikTok",
+      "titulo": "Top 5 #2: vampiros do Commander",
+      "oQue": "TikTok narrado com os cinco vampiros mais jogados nos decks de Vampiros do EDHREC, o preço de cada um e o segredo do deck.",
+      "arquivos": [
+        {
+          "nome": "Vídeo do TikTok narrado",
+          "url": "https://fontedemana.com.br/pauta/2026-10-22/tiktok/tiktok-narrado.mp4"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Top 5 vampiros do Commander: os mais jogados nos decks de Vampiros do EDHREC.\nOs cinco juntos saem por US$ 18,44 (R$ 93,24).\nFaltou algum? Comenta o seu número 1.\nReais pela cotação PTAX de 19 out (Banco Central).\n#mtg #magicthegathering #commander #edh #vampiros #vampire #mtgbrasil"
+        },
+        {
+          "rotulo": "Comentário fixado",
+          "texto": "Cordial Vampire está em 9,47 mil decks de Vampiros no EDHREC. Qual vampiro não sai do seu deck? Comenta o nome da carta."
+        }
+      ],
+      "passos": [
+        "Poste com um som em alta da biblioteca do TikTok, com volume entre 15% e 20%.",
+        "A voz é sua, então não precisa de rótulo de IA.",
+        "Fixe o comentário logo depois de postar.",
+        "Se os áudios não chegaram, poste o vídeo mudo com música em alta."
+      ]
+    },
+    {
+      "id": "threads-manha",
+      "hora": "10:30",
+      "rede": "Threads",
+      "titulo": "Debate: Top 5 #2: os vampiros que mais aparecem nos decks de…",
+      "oQue": "Post de debate do conteúdo original de hoje (Top 5) para puxar conversa.",
+      "textos": [
+        {
+          "rotulo": "Post",
+          "texto": "Os cinco vampiros mais jogados nos decks de Vampiros do EDHREC: Cordial Vampire, Blood Artist, Sanctum Seeker, Vito e Captivating Vampire.\n\nDois deles ganham quando qualquer criatura morre. Os outros três drenam a mesa no ataque, viram vida em dano ou roubam criatura.\n\nNo seu deck de vampiro, quem é o número 1? E qual vampiro ficou injustamente de fora?"
+        }
+      ],
+      "passos": [
+        "Abra o Threads e cole o Post.",
+        "Dica: Enquete com as opções Cordial Vampire, Blood Artist, Sanctum Seeker e Vito",
+        "Publique e responda quem comentar na primeira hora."
+      ]
+    },
+    {
+      "id": "stories-manha",
+      "hora": "10:30",
+      "rede": "Instagram Stories",
+      "titulo": "Capa do jornal com sticker de pergunta",
+      "oQue": "Story com a capa da edição 17 (Stardates de Star Trek trazem Minamo e Sheoldred) e um sticker de pergunta para puxar a conversa.",
+      "arquivos": [
+        {
+          "nome": "Capa da edição 17",
+          "url": "https://fontedemana.com.br/kit/ed17/carrossel-01.jpg"
+        }
+      ],
+      "passos": [
+        "Baixe a capa e poste no Story.",
+        "Adicione o sticker de Pergunta no terço de baixo, sem cobrir o título: Qual carta Stardates você quer abrir?",
+        "Publique."
+      ]
+    },
+    {
+      "id": "feed",
+      "hora": "12:00",
+      "rede": "Instagram feed",
+      "titulo": "Top 5 #2: os vampiros que mais aparecem nos decks de Vampiros do…",
+      "origem": "original:2026-10-22",
+      "oQue": "Carrossel original de 7 imagens (Top 5): Top 5 #2: os vampiros que mais aparecem nos decks de Vampiros do Commander. Feito para salvar e compartilhar.",
+      "arquivos": [
+        {
+          "nome": "Imagem 1 de 7",
+          "url": "https://fontedemana.com.br/pauta/2026-10-22/original/carrossel-01.jpg"
+        },
+        {
+          "nome": "Imagem 2 de 7",
+          "url": "https://fontedemana.com.br/pauta/2026-10-22/original/carrossel-02.jpg"
+        },
+        {
+          "nome": "Imagem 3 de 7",
+          "url": "https://fontedemana.com.br/pauta/2026-10-22/original/carrossel-03.jpg"
+        },
+        {
+          "nome": "Imagem 4 de 7",
+          "url": "https://fontedemana.com.br/pauta/2026-10-22/original/carrossel-04.jpg"
+        },
+        {
+          "nome": "Imagem 5 de 7",
+          "url": "https://fontedemana.com.br/pauta/2026-10-22/original/carrossel-05.jpg"
+        },
+        {
+          "nome": "Imagem 6 de 7",
+          "url": "https://fontedemana.com.br/pauta/2026-10-22/original/carrossel-06.jpg"
+        },
+        {
+          "nome": "Imagem 7 de 7",
+          "url": "https://fontedemana.com.br/pauta/2026-10-22/original/carrossel-07.jpg"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Top 5 vampiros para o seu deck de Commander: as cartas de Magic que mais aparecem nos decks de Vampiros do EDHREC, e os cinco juntos custam US$ 18,44 (R$ 93,24).\n\n1. Cordial Vampire, em 9,47 mil decks\n2. Blood Artist, 9,40 mil\n3. Sanctum Seeker, 7,87 mil\n4. Vito, Thorn of the Dusk Rose, 7 mil\n5. Captivating Vampire, 6,92 mil\n\nO segredo do deck: vampiro não precisa bater forte. Cada criatura que morre vira marcador e perda de vida para a mesa, e o Vito transforma toda vida que você ganha em dano.\n\nFontes: EDHREC (página de Vampiros) e Scryfall (impressão mais barata de cada carta). Valores em reais pela cotação PTAX de 19 out (Banco Central).\n\nMais no fontedemana.com.br\n\nFaltou algum? Qual seria o seu número 1?\n\n#magicthegathering #mtg #commander #edh #vampiros #edgarmarkov #mtgbrasil #deckdecommander\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        }
+      ],
+      "passos": [
+        "No Instagram, toque em + e escolha Post.",
+        "Selecione as 7 imagens na ordem, da 1 à 7.",
+        "Cole a Legenda e publique."
+      ]
+    },
+    {
+      "id": "stories-meio-dia",
+      "hora": "12:00",
+      "rede": "Instagram Stories",
+      "titulo": "Repost do carrossel com enquete",
+      "oQue": "Compartilhe o carrossel recém postado no Story com uma enquete.",
+      "passos": [
+        "No carrossel publicado, toque no avião de papel e em Adicionar post ao seu story.",
+        "Adicione o sticker de Enquete embaixo do post: Melhor vampiro do Commander? com Cordial Vampire, Blood Artist, Sanctum Seeker e Vito.",
+        "Publique."
+      ]
+    },
+    {
+      "id": "threads-tarde",
+      "hora": "15:00",
+      "rede": "Threads",
+      "titulo": "Fio da edição 17",
+      "oQue": "Fio com 6 posts contando a edição 17. O último é o aviso de conteúdo de fã.",
+      "textos": [
+        {
+          "rotulo": "Post 1",
+          "texto": "Star Trek tem uma folha bônus chamada Stardates: 30 míticas reimpressas com a cara da série. Uma delas aparece no lugar de uma comum em 1 de cada 25 Play Boosters."
+        },
+        {
+          "rotulo": "Post 2",
+          "texto": "Já estão no Scryfall: Sheoldred, the Apocalypse, Minamo, School at Water's Edge, Bristly Bill, Spine Sower, Prosper, Tome-Bound e Kenrith, the Returned King. Sheoldred sai hoje a partir de US$ 82,16 (R$ 413,08) e Minamo, a partir de US$ 57,96 (R$ 291,41)."
+        },
+        {
+          "rotulo": "Post 3",
+          "texto": "Segundo dia de prévias: Death Is Irrelevant, mítica Borg de 8 manas, deixa suas criaturas artefato indestrutíveis e assimila uma criatura de qualquer cemitério a cada fim de turno seu. Mirror Universe Intrusion copia criaturas do oponente."
+        },
+        {
+          "rotulo": "Post 4",
+          "texto": "Topdeck do Dia: Kenrith, the Returned King. Cinco cores, uma habilidade por cor. Pega no pulo: a reanimação devolve a criatura ao dono. Mirou no cemitério do oponente, ela volta para ele."
+        },
+        {
+          "rotulo": "Post 5",
+          "texto": "Edição completa em fontedemana.com.br\n\nValores em reais pela cotação de 21 out (Banco Central, PTAX)."
+        },
+        {
+          "rotulo": "Post 6 (aviso de fã)",
+          "texto": "Fonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        }
+      ],
+      "passos": [
+        "No Threads, publique o Post 1.",
+        "Toque em Adicionar à sequência e cole os posts seguintes, um por vez, na ordem.",
+        "Publique o fio inteiro de uma vez."
+      ]
+    },
+    {
+      "id": "stories-tarde",
+      "hora": "15:00",
+      "rede": "Instagram Stories",
+      "titulo": "Topdeck do Dia com link",
+      "oQue": "Story com a imagem de Kenrith, the Returned King no Topdeck do Dia e o sticker de link para a edição completa.",
+      "arquivos": [
+        {
+          "nome": "Topdeck do Dia",
+          "url": "https://fontedemana.com.br/kit/ed17/carrossel-04.jpg"
+        }
+      ],
+      "passos": [
+        "Baixe a imagem e poste no Story.",
+        "Adicione o sticker de Link para fontedemana.com.br com o texto Edição completa, embaixo do texto do Topdeck.",
+        "Publique."
+      ]
+    },
+    {
+      "id": "reels",
+      "hora": "19:00",
+      "rede": "Reels",
+      "titulo": "Vídeo do jornal com música",
+      "oQue": "Vídeo de 48 s da edição 17 com música em alta e sem narração.",
+      "arquivos": [
+        {
+          "nome": "Vídeo da edição 17",
+          "url": "https://fontedemana.com.br/kit/ed17/video-vertical-ed17.mp4"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Os Stardates de Star Trek colocam Sheoldred e Minamo nos Play Boosters, uma carta a cada 25 pacotes. E o Topdeck do Dia é Kenrith, the Returned King.\n\nVocê abriria Play Booster de Star Trek atrás de um Stardates? Conta nos comentários.\n\nEdição completa em fontedemana.com.br\n\nValores em reais pela cotação de 21 out (Banco Central, PTAX).\n\n#mtg #magicthegathering #commander #edh #mtgbrasil\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        }
+      ],
+      "passos": [
+        "No Instagram, toque em + e escolha Reel.",
+        "Escolha o vídeo e adicione uma música em alta pela biblioteca do app, com volume baixo.",
+        "Cole a Legenda e publique."
+      ]
     }
-   ],
-   "roteiro": [
-    {
-     "cena": "Cena 1, uns 9 s",
-     "tela": "5 vampiros que não podem faltar. Os mais jogados nos decks de Vampiros do EDHREC. O número 1 está em 9,47 mil decks.",
-     "fala": "Cinco vampiros que não podem faltar no seu deck de Commander. O primeiro está em mais de nove mil decks."
-    },
-    {
-     "cena": "Cena 2, uns 7 s",
-     "tela": "Do 1 ao 3, cartas na tela com o preço: Cordial Vampire: US$ 2,16 (R$ 10,92); Blood Artist: US$ 2,95 (R$ 14,92); Sanctum Seeker: US$ 0,32 (R$ 1,62)",
-     "fala": "Cordial Vampire, Blood Artist e Sanctum Seeker, que drena a mesa a cada ataque."
-    },
-    {
-     "cena": "Cena 3, uns 7 s",
-     "tela": "Do 4 ao 5, cartas na tela com o preço: Vito: US$ 9,68 (R$ 48,95); Captivating Vampire: US$ 3,33 (R$ 16,84). Os cinco: US$ 18,44 (R$ 93,24).",
-     "fala": "Fechando, Vito e Captivating Vampire. Os cinco saem por uns noventa e três reais."
-    },
-    {
-     "cena": "Cena 4, uns 9 s",
-     "tela": "Vampiro não precisa bater forte. Cada criatura que morre, até a do oponente, dá marcador com Cordial Vampire e tira 1 de vida com Blood Artist.",
-     "fala": "O segredo: vampiro não precisa bater forte. Cada criatura que morre na mesa vira marcador e perda de vida."
-    },
-    {
-     "cena": "Cena 5, uns 6 s",
-     "tela": "Faltou algum? Qual seria o seu número 1? @fontedemana",
-     "fala": "Qual seria o seu número um? Manda pro amigo que joga de vampiro."
-    }
-   ],
-   "passos": [
-    "Grave um áudio por cena no Gravador do iPhone, num lugar silencioso, com o celular a um palmo da boca.",
-    "Nomeie os áudios cena_1, cena_2, cena_3, cena_4 e cena_5.",
-    "Mande os áudios ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"áudios do TikTok de 2026-10-22\"."
-   ]
-  },
-  {
-   "id": "tiktok",
-   "hora": "11:30",
-   "rede": "TikTok",
-   "titulo": "Top 5 #2: vampiros do Commander",
-   "oQue": "TikTok narrado com os cinco vampiros mais jogados nos decks de Vampiros do EDHREC, o preço de cada um e o segredo do deck.",
-   "arquivos": [
-    {
-     "nome": "Vídeo do TikTok narrado",
-     "url": "https://fontedemana.com.br/pauta/2026-10-22/tiktok/tiktok-narrado.mp4"
-    }
-   ],
-   "textos": [
-    {
-     "rotulo": "Legenda",
-     "texto": "Top 5 vampiros do Commander: os mais jogados nos decks de Vampiros do EDHREC.\nOs cinco juntos saem por US$ 18,44 (R$ 93,24).\nFaltou algum? Comenta o seu número 1.\nReais pela cotação PTAX de 19 out (Banco Central).\n#mtg #magicthegathering #commander #edh #vampiros #vampire #mtgbrasil"
-    },
-    {
-     "rotulo": "Comentário fixado",
-     "texto": "Cordial Vampire está em 9,47 mil decks de Vampiros no EDHREC. Qual vampiro não sai do seu deck? Comenta o nome da carta."
-    }
-   ],
-   "passos": [
-    "Poste com um som em alta da biblioteca do TikTok, com volume entre 15% e 20%.",
-    "A voz é sua, então não precisa de rótulo de IA.",
-    "Fixe o comentário logo depois de postar.",
-    "Se os áudios não chegaram, poste o vídeo mudo com música em alta."
-   ]
-  }
- ]
+  ]
 }
