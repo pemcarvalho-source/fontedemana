@@ -1,6 +1,20 @@
 # Estratégia de conteúdo da Fonte de Mana
 
-Versão 2, 15 out 2026. Revisada toda semana com as estatísticas que o Paulo manda. As rotinas leem a parte operacional em `tools/conteudo/plano.json`; este arquivo explica o porquê. Os moldes de cada formato, e as referências de criadores que inspiraram cada um, estão em `tools/conteudo/FORMATOS.md`.
+Versão 5, 22 out 2026. Revisada toda segunda pela revisão semanal (`tools/conteudo/REVISAO.md`), com os dados do Metricool. As rotinas leem a parte operacional em `tools/conteudo/plano.json`; este arquivo explica o porquê. Os moldes de cada formato, e as referências de criadores que inspiraram cada um, estão em `tools/conteudo/FORMATOS.md`.
+
+**A partir de 22 out, números de desempenho, gastos com anúncio e relatórios ficam só no documento privado da estratégia**, porque este repositório é público. Aqui ficam as decisões e o porquê, em palavras.
+
+## Ajustes de 22 out 2026 (v5, valem para as peças a partir de 26 out)
+
+A primeira análise com o Metricool (10 a 21 out) mostrou: seguidor orgânico chegando devagar e quase todo o crescimento vindo de posts impulsionados; o vídeo prende na capa, mas perde a maior parte do público entre o 2º e o 6º segundo; o conteúdo original é mais compartilhado que o do jornal (o quiz Chama o Juiz foi o mais repassado); o Reels do jornal com música alcança quem não segue, mas não gera conversa nem compartilhamento; no Threads, só o primeiro post de cada fio é lido; impulso com objetivo de visualizações no TikTok trouxe muita view e quase nenhum seguidor. Por isso:
+
+1. **Molde novo do vídeo original** (`plano.json` > `video`, conferido pelo `tiktok.cjs`): 20 a 30 s, a promessa no primeiro segundo, cenas curtas com as partes entrando uma de cada vez, sem abertura, final na revelação.
+2. **Reels das 19:00 = o vídeo original do dia**, o mesmo arquivo do TikTok. O vídeo do jornal com música saiu da grade.
+3. **Anúncio só na peça campeã da semana**, com 72 h ou mais no ar e o gancho na meta; objetivo seguidores no TikTok e visitas ao perfil no Instagram, nunca visualizações; toda campanha registrada no documento privado (`plano.json` > `anuncio`).
+4. **Threads das 15:00 num post só**, com a notícia inteira, e o tópico MTG em todo post. Responder conversas de Magic de outras contas fica à mão.
+5. **Legendas**: palavra de busca e pergunta na primeira linha, até 3 hashtags, comentário fixado com a pergunta.
+6. **Um teste por variável por semana** (`plano.json` > `testes`): TikTok às 18h de 2 a 8 nov, Reel de teste com gancho B em 4 e 10 nov, legendas sem hashtag em dias alternados de 9 a 15 nov.
+7. **Revisão toda segunda** com regras fixas de cor e de decisão (`tools/conteudo/REVISAO.md`); metas até 16 nov em `plano.json` > `metas`.
 
 ## Diagnóstico (Instagram, 13 set a 13 out, conta com 4 dias de vida)
 
@@ -35,9 +49,10 @@ O jornal marca cada edição como `forte` ou `calmo` no `kit.json`.
 | 11:30 | TikTok | Original narrado | igual |
 | 12:00 | Instagram feed | Carrossel do jornal | Carrossel original |
 | 12:00 | Stories | Repost do feed com enquete | igual |
-| 15:00 | Threads | Fio do jornal | igual |
+| 15:00 | Threads | Notícia do jornal num post só (até 25 out, fio) | igual |
 | 15:00 | Stories | Topdeck do Dia com link | igual |
-| 19:00 | Reels | Vídeo do jornal com música | igual |
+| 19:00 | Reels | Vídeo original do dia, o mesmo do TikTok (até 25 out, vídeo do jornal com música) | igual |
+| 21:00 (dias de teste) | Reels | Reel de teste: o vídeo do dia com o gancho B, só para quem não segue | igual |
 
 Saiu da grade: o post das 19:00 no Threads com o vídeo do jornal (repetia o Reels e o Threads é rede de texto). Volta se a revisão semanal mostrar o contrário: basta mudar `ativo` em `plano.json`.
 
@@ -82,17 +97,20 @@ Pedido do Paulo: aproveitar as datas que todo mundo já está comentando. A list
 
 - Responder comentários na primeira hora depois de postar.
 - Rota das Lojas sempre como post em Collab com a loja (aparece no perfil dos dois).
-- Testar o vídeo original como Trial Reel (só não seguidores veem) uma vez por semana e comparar com o Reels do jornal.
-- Ligar Instagram, TikTok e Threads à marca da Fonte de Mana no Metricool: a revisão semanal passa a puxar os números sozinha.
+- Nos dias de teste, postar o Reel de teste (a pauta mostra o passo a passo).
+- 15 minutos por dia respondendo posts de Magic de outras contas no Threads e comentando com conteúdo em criadores maiores de Commander.
+- Ligar o Meta Ads ao Metricool, para o gasto e o alcance pago do Instagram virem sozinhos. Instagram, TikTok e Threads já estão ligados.
+- Mandar, quando a revisão pedir, o print do TikTok Studio com a % de 2 s, 6 s e vídeo completo (o Metricool não traz).
+- Contar todo impulso no dia em que começar (rede, peça, objetivo, público, dias e gasto), em qualquer conversa do projeto.
 
 ## Revisão semanal
 
-Toda segunda, com os números dos últimos 7 dias (prints do Instagram em Visão geral e Conteúdo ordenado por Visualizações, Salvamentos e Compartilhamentos, mais TikTok e Threads, ou Metricool):
+Toda segunda às 8h58, pela tarefa agendada "Fonte de Mana: revisão semanal", seguindo `tools/conteudo/REVISAO.md`:
 
-1. Comparar notícia x original, pilar x pilar e semana C x semanas A e B em alcance, % de não seguidores, salvamentos + compartilhamentos por alcance, comentários e seguidores ganhos.
-2. Pilar campeão por 2 semanas ganha mais um dia. Pilar no fim da fila por 2 semanas troca de formato ou sai.
-3. Se o carrossel original de dia calmo ganhar do carrossel do jornal, o critério de dia forte fica mais exigente; se perder, mais flexível.
-4. Registrar a decisão abaixo e ajustar `plano.json`.
+1. O Metricool alimenta o `tools/conteudo/revisao.cjs`, que separa o pago do orgânico e monta o placar: seguidores orgânicos, views por vídeo no TikTok e no Reels, % que sai nos 3 primeiros segundos, compartilhamentos + salvamentos por mil contas alcançadas (original e jornal), comentários por mil views e seguidores por mil views. Peças só entram com 72 h ou mais no ar.
+2. Cor por indicador contra a média das duas semanas anteriores: verde (20% ou mais acima), amarelo, vermelho (20% ou mais abaixo). O veredito olha seguidores orgânicos e views: verde mantém e acelera o que ganhou, amarelo ajusta uma variável, vermelho troca formato ou pilar.
+3. Pilar no topo por 2 revisões ganha mais um dia; no fim por 2 revisões, troca de formato ou sai. Se o carrossel original de dia calmo ganhar do carrossel do jornal, o critério de dia forte fica mais exigente; se perder, mais flexível.
+4. No máximo três decisões por semana, cada uma mexendo numa variável. O relatório e as decisões vão para o documento privado; o Paulo aprova na conversa e só então o `plano.json` muda, com uma linha no histórico abaixo.
 
 ## Linha de base
 
@@ -123,6 +141,8 @@ Números de antes da estratégia nova, para comparar nas revisões.
 - No Threads, o primeiro post do fio carrega tudo. Testar fio de 3 posts, com a notícia inteira no primeiro.
 
 ## Histórico de ajustes
+
+- 22 out 2026, v5 (aprovada pelo Paulo depois do diagnóstico das redes; vale para as peças a partir de 26 out): molde novo do vídeo com revelação progressiva e gancho B (`tiktok.cjs`), Reels das 19:00 com o vídeo original, Threads das 15:00 num post só (`threadsPost` no kit), até 3 hashtags e tópico MTG, testes datados, regra de anúncio, metas até 16 nov e a revisão semanal agendada (`REVISAO.md` e `revisao.cjs`). Números e gastos passam a ficar só no documento privado.
 
 - 17 out 2026: vídeos do TikTok e Reels do jornal com o texto dentro da zona segura do celular (entre x 120 e 880 e acima de y 1560 no quadro de 1080x1920), depois que o Paulo viu o TikTok cortando a esquerda num iPhone. O app amplia o vídeo para preencher a tela e corta as laterais.
 

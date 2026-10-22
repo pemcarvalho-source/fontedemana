@@ -5,6 +5,9 @@
        lê pauta/<data>/tiktok/roteiro.json, gera cena-1.jpg em diante e tiktok-mudo.mp4 (sem som, tempo estimado pela narração)
      node tools/pauta/tiktok.cjs <raiz do repositório> <AAAA-MM-DD> --narrar <audio da cena 1> <audio da cena 2> ...
        um áudio por cena, na ordem; corta o silêncio das pontas, ajusta cada cena ao tempo da fala e gera tiktok-narrado.mp4
+       (com ganchoB no roteiro, o último áudio é o do gancho B e sai também tiktok-teste-narrado.mp4)
+   A partir de plano.json > video.desde vale o molde novo: cenas curtas, partes reveladas uma de cada vez
+   (cena-N-pK.jpg) e, com ganchoB, a versão de teste (cena-1b.jpg, tiktok-teste.mp4).
    Formato do roteiro.json em tools/pauta/LEIA.md. */
 'use strict';
 const fs = require('fs'), path = require('path'), os = require('os'), cp = require('child_process');
@@ -23,6 +26,11 @@ const TIPOS = ['gancho', 'lista', 'texto', 'cta', 'quiz', 'resposta', 'combo'];
    os botões ocupam a direita da metade de baixo e a legenda ocupa o rodapé. Texto entre x 120 e 880 e acima de y 1560. */
 const LIMITE_BAIXO = 1560;
 const LETRAS = 'ABCD';
+/* Molde do vídeo (plano.json > video), só para datas a partir de video.desde: cenas curtas, revelação progressiva
+   (título, subtítulo, linhas, opções e cartas entram um de cada vez) e versão de teste com gancho B (r.ganchoB).
+   Antes dessa data, tudo segue como antes: um quadro por cena. */
+const PLANO = (() => { try { return JSON.parse(fs.readFileSync(path.join(ROOT, 'tools/conteudo/plano.json'), 'utf8')); } catch (e) { return {}; } })();
+const V = PLANO.video && PLANO.video.desde && DATA >= PLANO.video.desde ? PLANO.video : null;
 
 const exists = p => { try { return fs.statSync(p).size > 0; } catch (e) { return false; } };
 const esc = s => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -41,7 +49,9 @@ function validate(r) {
   };
   req(r.data === DATA, 'roteiro.json: data precisa ser ' + DATA);
   len(r.tema, 80, 'tema');
-  req(Array.isArray(r.cenas) && r.cenas.length >= 3 && r.cenas.length <= 5, 'cenas precisa de 3 a 5 itens');
+  const [cmin, cmax] = V ? V.cenas : [3, 5];
+  req(Array.isArray(r.cenas) && r.cenas.length >= cmin && r.cenas.length <= cmax, `cenas precisa de ${cmin} a ${cmax} itens`);
+  const falaMax = c => !V ? 260 : c.tipo === 'gancho' ? V.ganchoMax : c.tipo === 'cta' ? V.ctaMax : V.narracaoMax;
   (r.cenas || []).forEach((c, i) => {
     const n = 'cenas[' + i + ']';
     req(TIPOS.includes(c.tipo), n + '.tipo precisa ser ' + TIPOS.join(', '));
@@ -57,7 +67,7 @@ function validate(r) {
       if (resp) req(JSON.stringify(resp.opcoes) === JSON.stringify(c.opcoes), n + ': a cena resposta precisa repetir as mesmas opcoes do quiz, na mesma ordem');
     }
     req('WUBRGAM'.includes(c.cor || 'A') && String(c.cor || 'A').length === 1, n + '.cor inválida');
-    len(c.narracao, 260, n + '.narracao');
+    len(c.narracao, falaMax(c), n + '.narracao');
     len(c.chip, 18, n + '.chip', true);
     len(c.kicker, 40, n + '.kicker');
     if (c.tipo !== 'lista') len(c.titulo, 64, n + '.titulo');
@@ -77,11 +87,31 @@ function validate(r) {
       (c.linhas || []).forEach((l, j) => { len(l.nome, 30, `${n}.linhas[${j}].nome`); len(l.valor, 12, `${n}.linhas[${j}].valor`); len(l.real, 16, `${n}.linhas[${j}].real`, true); if (/US\$/.test(l.valor || '') && r.fx) req(/^\(R\$ /.test(l.real || ''), `${n}.linhas[${j}].real precisa do valor em reais entre parênteses`); });
     }
   });
+  if (V) {
+    if (r.pilar != null) req((PLANO.pilares || {})[r.pilar], 'pilar desconhecido em plano.json: ' + r.pilar);
+    if (r.ganchoB != null) {
+      const g = r.ganchoB;
+      req(g && typeof g === 'object' && (g.tipo || 'gancho') === 'gancho', 'ganchoB precisa ser uma cena do tipo gancho');
+      if (g && typeof g === 'object') {
+        req('WUBRGAM'.includes(g.cor || 'A') && String(g.cor || 'A').length === 1, 'ganchoB.cor inválida');
+        len(g.narracao, V.ganchoMax, 'ganchoB.narracao'); len(g.kicker, 40, 'ganchoB.kicker'); len(g.titulo, 64, 'ganchoB.titulo');
+        len(g.sub, 140, 'ganchoB.sub', true); len(g.chip, 18, 'ganchoB.chip', true);
+        req(plain(g.titulo) !== plain(((r.cenas || [])[0] || {}).titulo), 'ganchoB.titulo precisa ser diferente do título da cena 1 (é o gancho que está sendo testado)');
+      }
+    }
+    if (Array.isArray(r.cenas) && !E.length) {
+      const est = r.cenas.map(c => estimate(c.narracao));
+      const soma = est.reduce((a, b) => a + b, 0);
+      const teto = (V.longos || []).includes(r.pilar) ? V.segundosLongos : V.segundos[1];
+      req(soma <= teto + 2, `a fala soma uns ${soma.toFixed(0)} s (máximo ${teto} s${r.pilar ? ' para o pilar ' + r.pilar : ''}, sem contar a contagem): encurte as falas ou tire uma cena`);
+      r.cenas.forEach((c, i) => { const b = nBlocos(c), cada = est[i] / b; req(cada <= V.parado, `cena ${i + 1} fica uns ${cada.toFixed(1)} s com a mesma tela (${b} ${b > 1 ? 'partes' : 'parte'} para ${est[i].toFixed(1)} s de fala): encurte a fala, acrescente sub ou rodapé, ou divida em duas cenas`); });
+    }
+  } else req(r.ganchoB == null, 'ganchoB só vale a partir de ' + ((PLANO.video || {}).desde || 'a data do molde novo'));
   if (r.arte) req(exists(path.join(ROOT, r.arte)), 'arte não encontrada: ' + r.arte);
   if (r.carta) req(exists(path.join(ROOT, r.carta)), 'carta não encontrada: ' + r.carta);
   const texto = JSON.stringify(r);
   SEPS.forEach(s => req(!texto.includes(s), 'separador proibido: "' + s + '"'));
-  const semLinhas = JSON.stringify({ c: (r.cenas || []).map(c => Object.assign({}, c, { linhas: undefined, narracao: undefined })), l: r.legenda || '', m: r.comentario || '' });
+  const semLinhas = JSON.stringify({ c: (r.cenas || []).concat(r.ganchoB && typeof r.ganchoB === 'object' ? [r.ganchoB] : []).map(c => Object.assign({}, c, { linhas: undefined, narracao: undefined })), l: r.legenda || '', m: r.comentario || '' });
   if (r.fx) { const re = /US\$ ?\d+(?:[.,]\d+)*/g; let m; while ((m = re.exec(semLinhas))) if (!/^ ?\(R\$ ?\d/.test(semLinhas.slice(re.lastIndex, re.lastIndex + 8))) E.push('valor em dólar sem o real entre parênteses: ' + m[0]); }
   else req(!/\(R\$/.test(texto), 'tem valor em reais mas falta fx com a nota da cotação');
   return E;
@@ -111,7 +141,21 @@ function chromePath() {
 }
 
 /* ---------- quadros ---------- */
-function pageHTML(r, c, i, conta) {
+/* Partes que entram uma de cada vez em cada tipo de cena (molde novo). Fora do molde novo, a cena é uma parte só. */
+function nBlocos(c) {
+  if (!V) return 1;
+  if (c.tipo === 'lista') return ((c.linhas || []).length + (c.rodape ? 1 : 0)) || 1;
+  if (c.tipo === 'quiz') return 1 + (c.opcoes || []).length + (c.sub ? 1 : 0);
+  if (c.tipo === 'resposta') return 1 + (c.sub ? 1 : 0);
+  if (c.tipo === 'combo') return Math.max((c.cartas || []).length, (c.passos || []).length, 1) + (c.rodape ? 1 : 0);
+  if (c.tipo === 'cta') return 1 + (c.destaque ? 1 : 0);
+  return 1 + (c.sub ? 1 : 0) + (c.rodape ? 1 : 0);
+}
+
+/* passo: quantas partes da cena aparecem (null = todas). As escondidas ocupam o mesmo espaço, então nada pula. */
+function pageHTML(r, c, i, conta, passo) {
+  const h = k => (passo != null && k > passo) ? ' style="visibility:hidden"' : '';
+  const nb = nBlocos(c);
   const css = fs.readFileSync(path.join(ROOT, 'tools/kit/kit.css'), 'utf8')
     .split('{{FONTS}}').join(furl(path.join(ROOT, 'tools/kit/fonts')))
     .split('{{LANDS}}').join(furl(path.join(ROOT, 'lands')));
@@ -170,40 +214,42 @@ h1{font-family:CZ;font-weight:700;font-size:80px;line-height:1.05;margin-top:22p
 .cd .n{width:250px;height:250px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:CD;font-weight:900;font-size:170px;line-height:1;color:var(--goldtxt);background:rgba(15,15,19,.82);box-shadow:0 0 0 8px var(--goldtxt),0 30px 60px -10px rgba(0,0,0,.9)}
 .cd .t{font-family:CZ;font-weight:700;font-size:40px;color:#F3EEE2;text-shadow:0 3px 12px rgba(0,0,0,.9);background:rgba(15,15,19,.7);padding:10px 26px;border-radius:40px}`;
   const top = `<div class="top"><div class="brand">Fonte <span class="de">de</span> Mana</div>${c.chip ? '<span class="chip">' + esc(c.chip) + '</span>' : ''}</div>`;
-  const fx = r.fx && JSON.stringify(c).includes('R$') ? `<div class="fxn">${esc(r.fx)}</div>` : '';
-  const fonte = c.fonte ? `<div class="srcl">${esc(c.fonte)}</div>` : '';
+  const fx = r.fx && JSON.stringify(c).includes('R$') ? `<div class="fxn"${h(nb)}>${esc(r.fx)}</div>` : '';
+  const fonte = c.fonte ? `<div class="srcl"${h(nb)}>${esc(c.fonte)}</div>` : '';
   const cred = r.credito && i === 0 ? `<div class="cred" style="top:930px">${esc(r.credito)}</div>` : '';
   let inner, ah = 1080;
   if (c.tipo === 'lista') {
     ah = 730;
-    inner = `<div class="art"></div>${top}<div class="body" style="top:770px"><div class="kicker">${pip(c.cor || 'A')} ${esc(c.kicker)}</div>
-      <div class="tbox fr-${c.cor || 'A'}">${c.linhas.map(l => `<div class="row"><span class="n">${esc(l.nome)}</span><span class="v">${esc(l.valor)}${l.real ? '<small>' + esc(l.real) + '</small>' : ''}</span></div>`).join('')}</div>
-      ${c.rodape ? '<div class="foot">' + rich(c.rodape) + '</div>' : ''}${fonte}${fx}</div>`;
+    inner = `<div class="art"></div>${top}<div class="body" style="top:770px"><div class="kicker"${h(1)}>${pip(c.cor || 'A')} ${esc(c.kicker)}</div>
+      <div class="tbox fr-${c.cor || 'A'}"${h(1)}>${c.linhas.map((l, j) => `<div class="row"${h(j + 1)}><span class="n">${esc(l.nome)}</span><span class="v">${esc(l.valor)}${l.real ? '<small>' + esc(l.real) + '</small>' : ''}</span></div>`).join('')}</div>
+      ${c.rodape ? '<div class="foot"' + h(c.linhas.length + 1) + '>' + rich(c.rodape) + '</div>' : ''}${fonte}${fx}</div>`;
   } else if (c.tipo === 'quiz' || c.tipo === 'resposta') {
     const resp = c.tipo === 'resposta', certa = resp ? LETRAS.indexOf(c.certa) : -1;
     ah = resp ? 600 : 720;
-    const ops = c.opcoes.map((o, j) => `<div class="op${j === certa ? ' ok' : (resp ? ' no' : '')}"><span class="lt">${LETRAS[j]}</span><span class="ot">${rich(o)}</span>${j === certa ? '<span class="mk">✓</span>' : '<span></span>'}</div>`).join('');
+    const kOp = j => resp ? 1 : 2 + j;
+    const ops = c.opcoes.map((o, j) => `<div class="op${j === certa ? ' ok' : (resp ? ' no' : '')}"${h(kOp(j))}><span class="lt">${LETRAS[j]}</span><span class="ot">${rich(o)}</span>${j === certa ? '<span class="mk">✓</span>' : '<span></span>'}</div>`).join('');
     const letras = LETRAS.slice(0, c.opcoes.length).split('');
     const cd = conta ? `<div class="cd"><div class="n">${conta}</div><div class="t">Comenta: ${letras.slice(0, -1).join(', ')} ou ${letras[letras.length - 1]}?</div></div>` : '';
-    inner = `<div class="art"></div>${top}${cred}${cd}<div class="body qz${resp ? ' rp' : ''}" style="top:${resp ? 640 : 760}px"><div class="kicker">${pip(c.cor || 'U')} ${esc(c.kicker)}</div>
-      <h1>${rich(c.titulo)}</h1><div class="tbox fr-${c.cor || 'U'}">${ops}</div>${c.sub ? '<div class="sub">' + rich(c.sub) + '</div>' : ''}${fonte}${fx}</div>`;
+    inner = `<div class="art"></div>${top}${cred}${cd}<div class="body qz${resp ? ' rp' : ''}" style="top:${resp ? 640 : 760}px"><div class="kicker"${h(1)}>${pip(c.cor || 'U')} ${esc(c.kicker)}</div>
+      <h1${h(1)}>${rich(c.titulo)}</h1><div class="tbox fr-${c.cor || 'U'}"${h(kOp(0))}>${ops}</div>${c.sub ? '<div class="sub"' + h(nb) + '>' + rich(c.sub) + '</div>' : ''}${fonte}${fx}</div>`;
   } else if (c.tipo === 'combo') {
     ah = 760;
     const nc = c.cartas.length, w = nc === 1 ? 300 : nc === 2 ? 290 : 240;
     const ini = c.inicio || 1; /* "inicio": 4 numera as cartas e os passos a partir do 4 (Top 5 dividido em duas cenas) */
-    const cartas = c.cartas.map((f, j) => `<div class="cc"><img src="${furl(path.join(ROOT, f))}" style="width:${w}px">${c.numerar ? '<span class="cn">' + (j + ini) + '</span>' : ''}</div>`).join('');
-    const passos = c.passos.map((p, j) => `<div class="ps"><span class="pn">${j + ini}</span><span class="pt">${rich(p.txt)}</span>${p.valor ? '<span class="pv">' + esc(p.valor) + '</span>' : '<span></span>'}</div>`).join('');
-    inner = `<div class="art"></div>${top}<div class="crow">${cartas}</div><div class="body cb" style="top:${430 + Math.round(w * 1.395) + (c.numerar ? 70 : 45)}px"><div class="kicker">${pip(c.cor || 'R')} ${esc(c.kicker)}</div>
-      <h1>${rich(c.titulo)}</h1><div class="tbox fr-${c.cor || 'R'}">${passos}</div>${c.rodape ? '<div class="foot">' + rich(c.rodape) + '</div>' : ''}${fonte}${fx}</div>`;
+    const m = Math.max(nc, c.passos.length, 1);
+    const cartas = c.cartas.map((f, j) => `<div class="cc"${h(j + 1)}><img src="${furl(path.join(ROOT, f))}" style="width:${w}px">${c.numerar ? '<span class="cn">' + (j + ini) + '</span>' : ''}</div>`).join('');
+    const passos = c.passos.map((p, j) => `<div class="ps"${h(j + 1)}><span class="pn">${j + ini}</span><span class="pt">${rich(p.txt)}</span>${p.valor ? '<span class="pv">' + esc(p.valor) + '</span>' : '<span></span>'}</div>`).join('');
+    inner = `<div class="art"></div>${top}<div class="crow">${cartas}</div><div class="body cb" style="top:${430 + Math.round(w * 1.395) + (c.numerar ? 70 : 45)}px"><div class="kicker"${h(1)}>${pip(c.cor || 'R')} ${esc(c.kicker)}</div>
+      <h1${h(1)}>${rich(c.titulo)}</h1><div class="tbox fr-${c.cor || 'R'}"${h(1)}>${passos}</div>${c.rodape ? '<div class="foot"' + h(m + 1) + '>' + rich(c.rodape) + '</div>' : ''}${fonte}${fx}</div>`;
   } else if (c.tipo === 'cta') {
     inner = `<div class="art"></div>${top}${card ? '<img class="cardimg" src="' + card + '">' : ''}
-      <div class="body" style="top:1050px"><div class="kicker">${pip(c.cor || 'M')} ${esc(c.kicker)}</div>
-      <h1 style="font-size:76px">${rich(c.titulo)}</h1>${c.destaque ? '<div class="big">' + esc(c.destaque) + '</div>' : ''}${fx}</div>`;
+      <div class="body" style="top:1050px"><div class="kicker"${h(1)}>${pip(c.cor || 'M')} ${esc(c.kicker)}</div>
+      <h1 style="font-size:76px">${rich(c.titulo)}</h1>${c.destaque ? '<div class="big"' + h(2) + '>' + esc(c.destaque) + '</div>' : ''}${fx}</div>`;
   } else {
     const t = c.tipo === 'gancho' ? 1000 : 860;
     ah = c.tipo === 'gancho' ? 1000 : 820;
-    inner = `<div class="art"></div>${top}${cred}<div class="body" style="top:${t}px"><div class="kicker">${pip(c.cor || 'A')} ${esc(c.kicker)}</div>
-      <h1>${rich(c.titulo)}</h1>${c.sub ? '<div class="sub">' + rich(c.sub) + '</div>' : ''}${c.rodape ? '<div class="foot">' + rich(c.rodape) + '</div>' : ''}${fonte}${fx}</div>`;
+    inner = `<div class="art"></div>${top}${cred}<div class="body" style="top:${t}px"><div class="kicker"${h(1)}>${pip(c.cor || 'A')} ${esc(c.kicker)}</div>
+      <h1${h(1)}>${rich(c.titulo)}</h1>${c.sub ? '<div class="sub"' + h(2) + '>' + rich(c.sub) + '</div>' : ''}${c.rodape ? '<div class="foot"' + h(c.sub ? 3 : 2) + '>' + rich(c.rodape) + '</div>' : ''}${fonte}${fx}</div>`;
   }
   return `<!doctype html><html><head><meta charset="utf-8"><style>${css}${extra}</style></head><body><div class="canvas" style="--ah:${ah}px">${inner}</div></body></html>`;
 }
@@ -215,24 +261,36 @@ async function renderFrames(r) {
   const pg = await browser.newPage({ viewport: { width: 1080, height: 1920 } });
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'fdm-pauta-'));
   const out = [];
-  fs.readdirSync(DIR).filter(f => /^cena-\d+-c\d\.jpg$/.test(f)).forEach(f => fs.unlinkSync(path.join(DIR, f)));
-  for (let i = 0; i < r.cenas.length; i++) {
-    const c = r.cenas[i];
-    const quadros = [null].concat(contagemDe(c));
-    for (const n of quadros) {
-      const f = path.join(tmp, 'cena-' + (i + 1) + (n ? '-c' + n : '') + '.html');
-      fs.writeFileSync(f, pageHTML(r, c, i, n));
-      await pg.goto(furl(f));
-      await pg.evaluate(() => document.fonts.ready);
-      await pg.waitForTimeout(250);
+  fs.readdirSync(DIR).filter(f => /^cena-\d+-c\d\.jpg$/.test(f) || /^cena-\d+-p\d+\.jpg$/.test(f) || /^cena-1b(-p\d+)?\.jpg$/.test(f)).forEach(f => fs.unlinkSync(path.join(DIR, f)));
+  const shot = async (html, nome, rotulo, checa) => {
+    const f = path.join(tmp, nome + '.html');
+    fs.writeFileSync(f, html);
+    await pg.goto(furl(f));
+    await pg.evaluate(() => document.fonts.ready);
+    await pg.waitForTimeout(250);
+    if (checa) {
       const over = await pg.evaluate(lim => { const b = document.querySelector('.body'); if (!b) return 0; const r = b.getBoundingClientRect(); return Math.max(0, r.bottom - lim); }, LIMITE_BAIXO);
-      if (over > 0) throw new Error(`cena ${i + 1}: o texto passa da área segura em ${Math.round(over)} px; encurte o texto dessa cena`);
-      await pg.screenshot({ path: quadroDe(i, n), type: 'jpeg', quality: 90 });
+      if (over > 0) throw new Error(`${rotulo}: o texto passa da área segura em ${Math.round(over)} px; encurte o texto dessa cena`);
     }
-    out.push(quadroDe(i));
+    await pg.screenshot({ path: path.join(DIR, nome + '.jpg'), type: 'jpeg', quality: 90 });
+  };
+  const lista = r.cenas.map((c, i) => ({ c, i, tag: String(i + 1), rotulo: 'cena ' + (i + 1) }));
+  if (V && r.ganchoB) lista.push({ c: cenaB(r), i: 0, tag: '1b', rotulo: 'ganchoB' });
+  for (const { c, i, tag, rotulo } of lista) {
+    await shot(pageHTML(r, c, i, null), 'cena-' + tag, rotulo, true);
+    if (V) for (let k = 1; k < nBlocos(c); k++) await shot(pageHTML(r, c, i, null, k), 'cena-' + tag + '-p' + k, rotulo, false);
+    for (const n of contagemDe(c)) await shot(pageHTML(r, c, i, n), 'cena-' + tag + '-c' + n, rotulo, true);
+    if (tag !== '1b') out.push(quadroDe(i));
   }
   await browser.close();
   return out;
+}
+/* cena 1 da versão de teste: o gancho B herda cor e chip da cena 1 */
+function cenaB(r) { return Object.assign({ tipo: 'gancho', cor: r.cenas[0].cor, chip: r.cenas[0].chip }, r.ganchoB); }
+/* quadros de uma cena, na ordem em que entram: as partes reveladas e, por último, a cena inteira */
+function passosDe(tag, c) {
+  const n = V ? nBlocos(c) : 1;
+  return Array.from({ length: n - 1 }, (x, k) => path.join(DIR, 'cena-' + tag + '-p' + (k + 1) + '.jpg')).concat([path.join(DIR, 'cena-' + tag + '.jpg')]);
 }
 /* contagem regressiva da cena quiz: [5, 4, 3, 2, 1] e o caminho de cada quadro */
 function contagemDe(c) { const n = c.tipo === 'quiz' && c.contagem ? c.contagem : 0; return Array.from({ length: n }, (x, k) => n - k); }
@@ -241,7 +299,50 @@ function quadroDe(i, n) { return path.join(DIR, 'cena-' + (i + 1) + (n ? '-c' + 
 /* ---------- vídeo ---------- */
 function run(args, timeout) { const p = cp.spawnSync('ffmpeg', args, { encoding: 'utf8', timeout: timeout || 300000 }); if (p.status !== 0) throw new Error('ffmpeg falhou: ' + (p.stderr || '').slice(-600)); return p; }
 function dur(f) { return parseFloat(cp.execFileSync('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', f], { encoding: 'utf8' }).trim()); }
-function estimate(txt) { const w = plain(txt).split(/\s+/).filter(Boolean).length; return Math.max(5, Math.round((w / 2.5 + 1.2) * 10) / 10); }
+function estimate(txt) { const w = plain(txt).split(/\s+/).filter(Boolean).length; return V ? Math.max(2.5, Math.round((w / 2.7 + 0.6) * 10) / 10) : Math.max(5, Math.round((w / 2.5 + 1.2) * 10) / 10); }
+
+/* Molde novo: cada cena é a sequência dos seus quadros (partes reveladas e a cena inteira) em corte seco, com o mesmo
+   movimento contínuo da cena; depois vem a contagem do quiz, se houver; entre cenas, o mesmo fade. Tudo em quadros
+   inteiros, para os cortes e o fade caírem no lugar certo. steps[i]: arquivos da cena i; lens[i]: segundos de fala. */
+function buildVideoV(steps, lens, audios, out, conts) {
+  conts = conts || steps.map(() => []);
+  const args = ['-y', '-loglevel', 'error'];
+  const fr = s => Math.max(1, Math.round(s * FPS));
+  const fadeF = fr(FADE), fl = []; let idx = 0;
+  const entrada = (f, nf) => { args.push('-framerate', String(FPS), '-loop', '1', '-t', (nf / FPS).toFixed(4), '-i', f); return idx++; };
+  const crop = (j, y) => `[${j}:v]scale=1134:2016,crop=1080:1920:x='(iw-ow)/2':y='${y}',setsar=1,format=yuv420p`;
+  const dursF = [], segF = [];
+  steps.forEach((S, i) => {
+    const cont = conts[i] || [];
+    const LF = Math.max(fr(lens[i]), S.length);
+    const extra = i < steps.length - 1 ? fadeF : fr(0.6);
+    dursF.push(LF + cont.length * FPS); segF.push(LF + cont.length * FPS + extra);
+    const visF = LF + (cont.length ? 0 : extra);
+    const base = Math.floor(LF / S.length), partes = []; let off = 0;
+    S.forEach((f, k) => {
+      let nf = k < S.length - 1 ? base : LF - base * (S.length - 1);
+      if (k === S.length - 1 && !cont.length) nf += extra;
+      fl.push(crop(entrada(f, nf), `(ih-oh)*(1-(t+${(off / FPS).toFixed(4)})/${(visF / FPS).toFixed(4)})`) + `[s${i}_${k}]`);
+      partes.push(`[s${i}_${k}]`); off += nf;
+    });
+    cont.forEach((q, k) => { fl.push(crop(entrada(q, FPS + (k === cont.length - 1 ? extra : 0)), '0') + `[c${i}_${k}]`); partes.push(`[c${i}_${k}]`); });
+    fl.push(`${partes.join('')}concat=n=${partes.length}:v=1:a=0,fps=${FPS},settb=1/${FPS}[v${i}]`);
+  });
+  (audios || []).forEach(a => args.push('-i', a));
+  let prev = 'v0', offF = 0;
+  for (let i = 1; i < steps.length; i++) { offF += segF[i - 1] - fadeF; fl.push(`[${prev}][v${i}]xfade=transition=fade:duration=${(fadeF / FPS).toFixed(4)}:offset=${(offF / FPS).toFixed(4)}[x${i}]`); prev = 'x' + i; }
+  const total = (segF.reduce((a, b) => a + b, 0) - fadeF * (steps.length - 1)) / FPS;
+  if (audios) {
+    let startF = 0;
+    audios.forEach((a, i) => { const d = Math.round((startF / FPS + 0.35) * 1000); fl.push(`[${idx + i}:a]adelay=${d}|${d}[a${i}]`); startF += dursF[i]; });
+    fl.push(`${audios.map((a, i) => '[a' + i + ']').join('')}amix=inputs=${audios.length}:normalize=0:duration=longest,apad,loudnorm=I=-14:TP=-1.5:LRA=11,aresample=48000[aout]`);
+  }
+  args.push('-filter_complex', fl.join(';'), '-map', '[' + prev + ']');
+  if (audios) args.push('-map', '[aout]', '-c:a', 'aac', '-b:a', '192k');
+  args.push('-t', total.toFixed(3), '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '21', '-pix_fmt', 'yuv420p', '-r', String(FPS), '-movflags', '+faststart', out);
+  run(args, 400000);
+  return total;
+}
 
 /* conts[i]: quadros da contagem regressiva da cena i (1 s cada, depois da fala), lista vazia nas outras cenas */
 function buildVideo(frames, lens, audios, out, conts) {
@@ -284,7 +385,45 @@ function buildVideo(frames, lens, audios, out, conts) {
   if (E.length) { console.log('ERROS:\n' + E.map(e => '  ' + e).join('\n')); process.exit(1); }
   const conts = r.cenas.map((c, i) => contagemDe(c).map(n => quadroDe(i, n)));
   const nConta = conts.reduce((a, b) => a + b.length, 0);
-  if (!AUDIOS) {
+  if (V) {
+    /* molde novo: revelação progressiva e, com ganchoB, a versão de teste (tiktok-teste.mp4 e tiktok-teste-narrado.mp4) */
+    const n = r.cenas.length, B = r.ganchoB ? cenaB(r) : null;
+    const steps = r.cenas.map((c, i) => passosDe(String(i + 1), c));
+    const stepsB = B ? [passosDe('1b', B)].concat(steps.slice(1)) : null;
+    const contsB = [[]].concat(conts.slice(1));
+    const nQuadros = steps.reduce((a, s) => a + s.length, 0);
+    if (!AUDIOS) {
+      await renderFrames(r);
+      const lens = r.cenas.map(c => estimate(c.narracao));
+      const total = buildVideoV(steps, lens, null, path.join(DIR, 'tiktok-mudo.mp4'), conts);
+      let msgB = '';
+      if (B) { const tB = buildVideoV(stepsB, [estimate(B.narracao)].concat(lens.slice(1)), null, path.join(DIR, 'tiktok-teste.mp4'), contsB); msgB = '; versão de teste com o gancho B, de ' + tB.toFixed(1) + ' s, em pauta/' + DATA + '/tiktok/tiktok-teste.mp4 (grave também a fala do gancho B como cena_1b)'; }
+      r.cenas.forEach((c, i) => { c.segundos = lens[i]; });
+      if (B) r.ganchoB.segundos = estimate(B.narracao);
+      fs.writeFileSync(rp, JSON.stringify(r, null, 1) + '\n');
+      console.log('OK, ' + n + ' cenas em ' + nQuadros + ' quadros (cada parte entra em até ' + V.parado + ' s)' + (nConta ? ' com contagem de ' + nConta + ' s depois da pergunta' : '') + ', vídeo mudo de ' + total.toFixed(1) + ' s em pauta/' + DATA + '/tiktok/tiktok-mudo.mp4' + msgB);
+    } else {
+      if (AUDIOS.length !== n && !(B && AUDIOS.length === n + 1)) { console.log('ERROS:\n  mande um áudio por cena' + (B ? ' e, por último, o do gancho B' : '') + ': o roteiro tem ' + n + ' cenas' + (B ? ' mais o gancho B' : '') + ' e chegaram ' + AUDIOS.length + ' áudios'); process.exit(1); }
+      const todos = steps.concat(B ? [stepsB[0]] : []).every(s => s.every(exists)) && conts.every(l => l.every(exists));
+      if (!todos) await renderFrames(r);
+      const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'fdm-narr-'));
+      const clean = AUDIOS.map((a, i) => {
+        const o = path.join(tmp, 'c' + (i + 1) + '.wav');
+        run(['-y', '-loglevel', 'error', '-i', a, '-af', 'silenceremove=start_periods=1:start_threshold=-42dB:start_silence=0.05,areverse,silenceremove=start_periods=1:start_threshold=-42dB:start_silence=0.15,areverse,aresample=48000', '-ac', '2', o]);
+        return o;
+      });
+      const principais = clean.slice(0, n);
+      const lens = principais.map(f => dur(f) + 0.8);
+      const total = buildVideoV(steps, lens, principais, path.join(DIR, 'tiktok-narrado.mp4'), conts);
+      let msgB = '';
+      if (B) {
+        const aB = clean[n] || clean[0];
+        const tB = buildVideoV(stepsB, [dur(aB) + 0.8].concat(lens.slice(1)), [aB].concat(principais.slice(1)), path.join(DIR, 'tiktok-teste-narrado.mp4'), contsB);
+        msgB = '; versão de teste narrada de ' + tB.toFixed(1) + ' s em pauta/' + DATA + '/tiktok/tiktok-teste-narrado.mp4' + (clean[n] ? '' : ' (sem o áudio do gancho B: usei a fala da cena 1)');
+      }
+      console.log('OK, vídeo narrado de ' + total.toFixed(1) + ' s em pauta/' + DATA + '/tiktok/tiktok-narrado.mp4 (cenas de ' + lens.map(x => x.toFixed(1)).join(', ') + ' s)' + msgB);
+    }
+  } else if (!AUDIOS) {
     const frames = await renderFrames(r);
     const lens = r.cenas.map(c => estimate(c.narracao));
     const total = buildVideo(frames, lens, null, path.join(DIR, 'tiktok-mudo.mp4'), conts);

@@ -17,12 +17,13 @@ Ninguém responde durante uma execução agendada: decida sozinho. Escreva em po
 | `pauta` | 7h20 | seção "Fase pauta" abaixo | `pauta/` | `pauta/HOJE/pauta.json` |
 | `noite` | 18h21 | `tools/pauta/LEIA.md`, seção "Tarefa da noite: original de amanhã" | `pauta/` | `pauta/AMANHA/pauta.json` |
 | `narracao` | quando o Paulo manda os áudios | `tools/pauta/LEIA.md`, seção "Juntar a narração" | `pauta/` | o link do `tiktok-narrado.mp4` |
+| `revisao` | segunda, 8h58 | `tools/conteudo/REVISAO.md` | nenhuma (dados em `/tmp/fdm/revisao/`, relatório no documento privado); `tools/conteudo/` só depois que o Paulo aprovar | o relatório na aba Revisões semanais do documento |
 
 ## 1. Preparar (todas as fases)
 
 1. Rode `node tools/fdm/preparar.cjs . <fase>`. Ele confere o repositório, atualiza com o main, calcula `HOJE` e `AMANHA` (fuso de São Paulo), cria `/tmp/fdm/` e confere ffmpeg e Chromium.
 2. Saiu `ERRO:`? Não tente contornar: pare e use a mensagem de erro na mensagem final. Saiu `AVISOS:`? Siga e repita os avisos na mensagem final.
-3. Nas fases `jornal`, `noite` e `narracao`, leia `tools/REGRAS.md` inteiro antes de começar. A fase `pauta` é só script e não precisa.
+3. Nas fases `jornal`, `noite`, `narracao` e `revisao`, leia `tools/REGRAS.md` inteiro antes de começar. A fase `pauta` é só script e não precisa.
 
 ## 2. Executar a fase
 
@@ -32,9 +33,9 @@ Ninguém responde durante uma execução agendada: decida sozinho. Escreva em po
 2. Apareceu `ERROS:` num texto que veio do kit ou do original? Corrija só esse texto em `pauta/HOJE/pauta.json`, sem mudar o sentido, e rode `node tools/pauta/pauta.cjs . HOJE`. Não rode o `manha.cjs` de novo depois de corrigir à mão (ele refaz o arquivo).
 3. Mensagem final: o resumo que o script imprimiu depois da linha `---`.
 
-### Fases jornal, noite e narracao
+### Fases jornal, noite, narracao e revisao
 
-Siga o guia da tabela, passo a passo, sem pular nenhum. Onde o guia mandar enviar (commit e push), siga as regras de envio abaixo.
+Siga o guia da tabela, passo a passo, sem pular nenhum. Onde o guia mandar enviar (commit e push), siga as regras de envio abaixo. A fase `revisao` não envia nada ao repositório (ele é público): números e gastos ficam só no documento privado.
 
 ## 3. Encerrar (todas as fases)
 

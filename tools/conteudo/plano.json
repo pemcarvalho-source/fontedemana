@@ -1,6 +1,6 @@
 {
-  "versao": "2026-10-16 v4",
-  "comentario": "Plano editorial da Fonte de Mana. Lido por tools/conteudo/contexto.cjs (tarefa da noite) e tools/pauta/manha.cjs (tarefa da manhã). A explicação completa está em tools/conteudo/ESTRATEGIA.md e os formatos (com as referências que inspiraram cada um) em tools/conteudo/FORMATOS.md. Ciclo de 3 semanas: a letra da semana é ciclo.semanas[(semana ISO + ciclo.deslocamento) % 3]. Datas comemorativas em datas: de e ate como MM-DD (todo ano) ou AAAA-MM-DD (só aquele ano); no dia, pilarNoDia troca o pilar do calendário.",
+  "versao": "2026-10-22 v5",
+  "comentario": "Plano editorial da Fonte de Mana. Lido por tools/conteudo/contexto.cjs (tarefa da noite), tools/pauta/manha.cjs (tarefa da manhã) e tools/pauta/tiktok.cjs (molde do vídeo). A explicação completa está em tools/conteudo/ESTRATEGIA.md, os formatos (com as referências que inspiraram cada um) em tools/conteudo/FORMATOS.md e a revisão semanal em tools/conteudo/REVISAO.md. Ciclo de 3 semanas: a letra da semana é ciclo.semanas[(semana ISO + ciclo.deslocamento) % 3]. Datas comemorativas em datas: de e ate como MM-DD (todo ano) ou AAAA-MM-DD (só aquele ano); no dia, pilarNoDia troca o pilar do calendário. Os blocos video, reels, threads e legenda valem para datas a partir de desde (antes disso, tudo segue como na v4). testes: de e ate (ou dias) em AAAA-MM-DD; hora troca o horário da grade nesses dias.",
 
   "ciclo": {"semanas": ["A", "B", "C"], "deslocamento": 2, "nota": "Semana ISO 42 (12 a 18 out 2026) = C a partir de sexta 16, 43 = A, 44 = B, 45 = C. Semana C traz os formatos novos de 15 out."},
 
@@ -15,6 +15,55 @@
     {"id": "reels", "hora": "19:00", "ativo": true},
     {"id": "threads-noite", "hora": "19:00", "ativo": false}
   ],
+
+  "video": {
+    "desde": "2026-10-26",
+    "cenas": [3, 7],
+    "narracaoMax": 110, "ganchoMax": 90, "ctaMax": 60,
+    "segundos": [20, 30], "segundosLongos": 45, "longos": ["deck", "combo"],
+    "parado": 3.5,
+    "regras": [
+      "Duração de 20 a 30 s (Deck e Combo até 45 s), sem contar a contagem do quiz.",
+      "Primeiro segundo: a promessa na tela e na voz ao mesmo tempo, com a resposta ou o resultado que o vídeo entrega (ex.: \"10 de dano com 5 manas. A ordem importa.\"). Estatística e contexto vêm depois.",
+      "Cenas curtas: uma ideia por cena, fala de até 110 caracteres (gancho até 90). O vídeo revela título, subtítulo, linhas e cartas um de cada vez, então nada fica parado mais de 3 s.",
+      "Sem abertura: nada de vinheta, apresentação ou chamada do site no começo. O site vai na legenda e no comentário fixado.",
+      "Final: corta na revelação. A cena cta é opcional e curta (fala de até 60 caracteres, ex.: \"Segue a Fonte de Mana para o próximo.\").",
+      "Combo continua com as cartas na tela, a ordem de jogar e a sequência dos gatilhos, só que em cenas mais curtas."
+    ]
+  },
+
+  "reels": {"desde": "2026-10-26", "fonte": "original", "nota": "O Reels das 19:00 é o vídeo original do dia (o mesmo arquivo do TikTok, narrado ou mudo). O vídeo do jornal com música saiu da grade: alcançava quem não segue, mas não gerava conversa nem compartilhamento."},
+
+  "threads": {"desde": "2026-10-26", "fio": false, "topico": "MTG", "nota": "Às 15:00, a notícia inteira num post só (kit.textos.threadsPost; sem ele, o primeiro post do fio). Nos fios, quase ninguém passava do primeiro post."},
+
+  "legenda": {
+    "desde": "2026-10-26",
+    "hashtags": 3,
+    "regras": [
+      "Primeira linha da legenda: palavra de busca (Commander, deck, carta de Magic e o tema) e a pergunta de uma palavra.",
+      "No máximo 3 hashtags por legenda, no fim (a pauta corta o que passar).",
+      "Comentário fixado com a mesma pergunta e as opções escritas."
+    ]
+  },
+
+  "testes": [
+    {"id": "tiktok-18h", "de": "2026-11-02", "ate": "2026-11-08", "hora": {"tiktok": "18:00"}, "mede": "Visualizações do TikTok nas primeiras 24 h, contra a mediana da semana anterior às 11:30."},
+    {"id": "reel-teste", "dias": ["2026-11-04", "2026-11-10"], "hora": "21:00", "mede": "Alcance em 72 h do Reel de teste (só não seguidores, gancho B) contra o Reels normal do mesmo dia. Gancho B que ganhar vira o molde de gancho."},
+    {"id": "sem-hashtag", "dias": ["2026-11-09", "2026-11-11", "2026-11-13", "2026-11-15"], "hashtags": 0, "mede": "Visualizações e alcance dos dias sem hashtag contra os dias com 3 hashtags da mesma semana (10, 12 e 14 nov)."}
+  ],
+
+  "anuncio": {
+    "regras": [
+      "Só a peça campeã da semana (maior compartilhamento + salvamento por mil contas alcançadas), escolhida na revisão de segunda, com 72 h ou mais no ar.",
+      "Só se o gancho estiver na meta: 6 s assistidos acima de 35% no TikTok ou pulo abaixo de 50% no Reels.",
+      "Objetivo: seguidores no TikTok e visitas ao perfil no Instagram. Nunca visualizações.",
+      "Prefira conteúdo original que não envelhece. Notícia perde validade em dias.",
+      "Toda campanha entra na tabela Registro de campanhas do documento privado da revisão (não no repositório, que é público): data, rede, peça, objetivo, público, dias e gasto."
+    ]
+  },
+
+  "metas": {"ate": "2026-11-16", "nota": "Metas da primeira rodada de ajustes, conferidas pela revisão semanal (tools/conteudo/REVISAO.md). As bases e os números de cada semana ficam só no documento privado.",
+    "seguidoresOrganicos": 30, "tiktokViews": 500, "reelsViews": 300, "tiktok6s": 35, "reelsPulo": 50, "valorOriginal": 60, "conversa": 10, "conversao": 3},
 
   "calendario": {
     "seg": {"A": "historia", "B": "lore", "C": "treta"},

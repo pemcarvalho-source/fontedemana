@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /* Começo padrão de toda execução da Fonte de Mana (orquestrador, .claude/skills/fdm-orquestrar/SKILL.md).
-   Uso: node tools/fdm/preparar.cjs <raiz do repositório> <fase>      fase: jornal, pauta, noite ou narracao
+   Uso: node tools/fdm/preparar.cjs <raiz do repositório> <fase>      fase: jornal, pauta, noite, narracao ou revisao
    1. confere que a pasta é o repositório da Fonte de Mana e que não há alteração pendente;
    2. atualiza com o main do GitHub (git fetch + checkout -B main);
    3. calcula HOJE e AMANHA no fuso de São Paulo e cria a pasta de rascunhos /tmp/fdm;
@@ -15,7 +15,8 @@ const FASES = {
   jornal: { pastas: ['data', 'img', 'kit'], video: true },
   pauta: { pastas: ['pauta'], video: false },
   noite: { pastas: ['pauta'], video: true },
-  narracao: { pastas: ['pauta'], video: true }
+  narracao: { pastas: ['pauta'], video: true },
+  revisao: { pastas: [], video: false }
 };
 const erro = m => { console.log('ERRO: ' + m); process.exit(1); };
 if (!FASES[FASE]) erro('fase desconhecida "' + FASE + '". Use: ' + Object.keys(FASES).join(', '));

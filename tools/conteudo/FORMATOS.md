@@ -20,6 +20,18 @@ Versão 2, 16 out 2026. Nasceu das gravações de criadores que o Paulo mandou c
 - **Arte de carta, não arte gerada.** O Instagram marca imagem gerada por IA com o rótulo "AI content". A Fonte de Mana usa a arte das cartas (Scryfall), que é o visual que o Paulo quer.
 - **Música que combina com o tema** quando o carrossel vai com música do Instagram (dica para o Paulo na hora de postar).
 
+## Vídeo: o molde de 26 out 2026
+
+A primeira análise das redes (22 out) mostrou que a capa do vídeo prende, mas a maior parte do público vai embora entre o 2º e o 6º segundo, no TikTok e no Reels. A cena 1 ficava uns 8 s parada e a fala abria com estatística. A partir dos roteiros de 26 out, todo vídeo original (TikTok e Reels das 19:00) segue `plano.json` > `video`, e o `tiktok.cjs` confere:
+
+- **20 a 30 s** de fala (Deck e Combo até 45 s), de 3 a 7 cenas curtas.
+- **A promessa no primeiro segundo**, na tela e na voz: o resultado, a resposta ou o número que o vídeo entrega ("10 de dano com 5 manas. A ordem importa."). Estatística e contexto depois.
+- **Uma ideia por cena**, fala de até 110 caracteres (gancho até 90). O vídeo revela as partes uma de cada vez (título, subtítulo, cada linha, cada opção, cada carta), então nada fica parado mais de 3,5 s.
+- **Sem abertura**: nada de vinheta, apresentação ou chamada do site no começo. Site na legenda e no comentário fixado.
+- **Final na revelação**. A cta é opcional e curta ("Comenta o goblin que não sai do seu deck.").
+- **Combo**: continua com as cartas, a ordem de jogar e a sequência dos gatilhos, em cenas mais curtas.
+- **Reel de teste** (dias em `plano.json` > `testes`): o mesmo vídeo com outro gancho (`ganchoB`), postado só para quem não segue. O gancho que ganhar vira referência para os próximos.
+
 ## Formatos com ferramenta pronta
 
 ### Chama o Juiz (pilar `regra`)

@@ -61,6 +61,8 @@ function validate(sp) {
   }
   req(Array.isArray(t.threadsFio) && t.threadsFio.length >= 3 && t.threadsFio.length <= 8, 'textos.threadsFio precisa de 3 a 8 posts');
   (t.threadsFio || []).forEach((x, i) => len(x, 480, `threadsFio[${i}]`));
+  // post único da notícia, usado pela pauta no Threads das 15:00 desde 26 out 2026 (plano.json > threads)
+  if (t.threadsPost != null) { len(t.threadsPost, 480, 'textos.threadsPost'); req(/fontedemana\.com\.br/.test(t.threadsPost || ''), 'textos.threadsPost precisa citar fontedemana.com.br'); }
   req(Array.isArray(t.threadsAvulsos) && t.threadsAvulsos.length <= 6, 'textos.threadsAvulsos precisa ser lista (até 6)');
   (t.threadsAvulsos || []).forEach((x, i) => { len(x.titulo, 40, `threadsAvulsos[${i}].titulo`); len(x.texto, 480, `threadsAvulsos[${i}].texto`); if (x.obs) len(x.obs, 120, `threadsAvulsos[${i}].obs`); });
   // bloco opcional lido por tools/pauta/manha.cjs
@@ -542,10 +544,11 @@ function editionSection(n, prefix, next) {
   const media = [];
   if (t.threadsCarrossel) media.push(txBlock(next(), 'Post com as imagens do carrossel', t.threadsCarrossel.trim() + '\n\n' + DISCLAIMER, { count: true, obs: `Anexe as ${slides.length || ''} imagens do carrossel no mesmo post, na ordem. O Threads aceita até 20.`.replace('as  imagens', 'as imagens') }));
   if (t.threadsVideo) media.push(txBlock(next(), 'Post com o vídeo', t.threadsVideo.trim() + '\n\n' + DISCLAIMER, { count: true, obs: 'Anexe o vídeo vertical da edição.' }));
+  const unico = t.threadsPost ? txBlock(next(), 'Post único da notícia (Threads das 15:00)', t.threadsPost, { count: true }) : '';
   const fio = t.threadsFio.concat([DISCLAIMER]);
   const fioHTML = fio.map((x, i) => txBlock(next(), `Fio, post ${i + 1} de ${fio.length}${x === DISCLAIMER ? ' (aviso de conteúdo de fã)' : ''}`, x, { count: true })).join('');
   const av = (t.threadsAvulsos || []).map(a => txBlock(next(), a.titulo, a.texto, { count: true, obs: a.obs })).join('');
-  parts.push(`<section class="col"><h2>Threads, edição ${n}</h2><p class="how">Cada post do Threads aceita até 500 caracteres, e todos aqui cabem. Os posts com imagem e com vídeo já levam o aviso de conteúdo de fã no fim. No fio, publique o post 1 e vá adicionando os seguintes como continuação, na ordem. Os posts avulsos são para espalhar ao longo do dia. Use uma tag por post, a sugestão é MTG.</p>${media.length ? '<h3 class="sub">Posts com imagem e vídeo</h3>' + media.join('') : ''}<h3 class="sub">Fio do dia</h3>${fioHTML}${av ? '<h3 class="sub">Posts avulsos</h3>' + av : ''}</section>`);
+  parts.push(`<section class="col"><h2>Threads, edição ${n}</h2><p class="how">Cada post do Threads aceita até 500 caracteres, e todos aqui cabem. Os posts com imagem e com vídeo já levam o aviso de conteúdo de fã no fim. No fio, publique o post 1 e vá adicionando os seguintes como continuação, na ordem. Os posts avulsos são para espalhar ao longo do dia. Use uma tag por post, a sugestão é MTG.</p>${media.length ? '<h3 class="sub">Posts com imagem e vídeo</h3>' + media.join('') : ''}${unico ? '<h3 class="sub">Post único da notícia</h3>' + unico : ''}<h3 class="sub">Fio do dia</h3>${fioHTML}${av ? '<h3 class="sub">Posts avulsos</h3>' + av : ''}</section>`);
   return parts.join('\n');
 }
 function editionsAvailable() {

@@ -61,6 +61,7 @@ Números entre parênteses são o máximo de caracteres (sem contar as tags).
       "textos": {
         "legendaCarrossel": legenda do Instagram com o link fontedemana.com.br, créditos das artes e hashtags (1800),
         "legendaVideo": legenda do Reels com o link e uma pergunta para os comentários (1500),
+        "threadsPost": a notícia do dia inteira num post só, com o link fontedemana.com.br (480),
         "threadsFio": [(480), ...],                                         (3 a 8 posts, o último leva o link)
         "threadsAvulsos": [{"titulo": (40), "texto": (480), "obs": (120, opcional)}]   (1 ou 2; o primeiro é a pergunta do dia)
       },
@@ -87,6 +88,12 @@ O primeiro `threadsAvulsos` é a pergunta do Threads das 10:30 nos dias fortes: 
 ## Threads
 
 Até 500 caracteres por post. O fio (`threadsFio`) conta a edição em 3 a 8 posts só de texto; o último leva o link do site e, se houver valor convertido, a nota da cotação. O aviso de Fan Content entra como post final, sozinho.
+
+`threadsPost` é o que vai ao ar no Threads das 15:00 a partir de 26/10/2026: a Notícia Lendária inteira num post só (até 480 caracteres), começando pelo fato, com o número que importa, uma pergunta curta para responder e o link `fontedemana.com.br` no fim. Se houver valor convertido, a nota da cotação vai no mesmo post. Nos fios, quase ninguém passava do primeiro post, por isso a notícia não se divide mais. O fio continua no kit para a página.
+
+## Legendas
+
+No máximo 3 hashtags por legenda, no fim (a partir de 26/10/2026 a pauta corta o que passar). A primeira linha leva a palavra de busca (Commander, carta de Magic e o assunto) e o gancho.
 
 ## Quando a cena 2 não tem preço
 

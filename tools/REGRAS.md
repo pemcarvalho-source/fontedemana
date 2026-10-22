@@ -72,4 +72,5 @@ Fica no rodapé do site, no fim das legendas do Instagram e do TikTok, nos posts
 - Cada rotina escreve só nas suas pastas. Jornal: `data/`, `img/` e `kit/`. Pauta e originais: `pauta/`. Ninguém altera `index.html`, `CNAME`, `og.jpg`, `favicon.png`, `apple-touch-icon.png`, `lands/`, `README.md`, `tools/` ou `.claude/` durante uma execução agendada.
 - Orquestrador: as tarefas agendadas entram por `.claude/skills/fdm-orquestrar/SKILL.md`; o mapa da estrutura está em `tools/rotinas/README.md`.
 - Nenhuma rotina mexe em tarefas agendadas. Só o jornal usa ferramenta paga do vidIQ (uma busca por dia).
-- Estratégia e calendário: `tools/conteudo/ESTRATEGIA.md` e `tools/conteudo/plano.json`.
+- Estratégia e calendário: `tools/conteudo/ESTRATEGIA.md` e `tools/conteudo/plano.json`. Revisão semanal: `tools/conteudo/REVISAO.md`.
+- O repositório é público. Números de desempenho das redes, gastos com anúncio e relatórios da revisão nunca entram nele (nem em commit, nem na pauta): ficam no documento privado da estratégia.

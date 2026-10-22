@@ -138,6 +138,15 @@ if (!SO_PUB) {
     out.push('O que é: ' + p.def.oQue, 'Fontes: ' + p.def.fontes, 'Gancho: ' + p.def.gancho, 'Pergunta para os comentários: ' + p.def.pergunta);
     if (p.def.formato) out.push('Formato: ' + p.def.formato + ' (detalhes e exemplos em tools/conteudo/FORMATOS.md)');
     if ((plano.engajamento || []).length) out.push('Em toda peça: ' + plano.engajamento.join(' '));
+    // molde v5 do vídeo e das legendas (só a partir de desde)
+    const vale = b => !!(b && b.desde && DATA >= b.desde);
+    if (vale(plano.video)) {
+      const longo = (plano.video.longos || []).includes(p.id);
+      out.push(`Vídeo (molde desde ${plano.video.desde}; ponha "pilar": "${p.id}" no roteiro.json): ${plano.video.regras.join(' ')} Teto para este pilar: ${longo ? plano.video.segundosLongos : plano.video.segundos[1]} s de fala, ${plano.video.cenas[0]} a ${plano.video.cenas[1]} cenas. O tiktok.cjs confere os limites e acusa cena parada.`);
+    }
+    if (vale(plano.legenda)) out.push('Legendas: ' + plano.legenda.regras.join(' '));
+    const teste = (plano.testes || []).find(t => t.id === 'reel-teste' && (t.dias || []).includes(DATA));
+    if (teste && vale(plano.video)) out.push('Reel de teste neste dia: escreva também "ganchoB" no roteiro.json (outro gancho para o mesmo vídeo, com título e fala diferentes da cena 1, mesmo tipo gancho) e acrescente ao aviso de gravação a linha "Cena 1B (gancho do Reel de teste)" com a fala do ganchoB, para ser gravada por último como cena_1b. Mede: ' + teste.mede);
     if (p.def.fila) {
       const usados = usadosDaFila();
       const fila = ((plano.filas || {})[p.def.fila] || []);

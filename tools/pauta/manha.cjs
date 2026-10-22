@@ -26,7 +26,22 @@ const avisosLog = [];
 /* ---------- entradas ---------- */
 const plano = json('tools/conteudo/plano.json') || {};
 const grade = (plano.grade || []).filter(g => g.ativo);
-const hora = id => (grade.find(g => g.id === id) || {}).hora;
+// testes datados (plano.testes): trocam a hora de uma peça, tiram hashtags ou acrescentam o Reel de teste
+const testesHoje = (plano.testes || []).filter(t => (t.dias || []).includes(DATA) || (t.de && t.ate && DATA >= t.de && DATA <= t.ate));
+const horaTeste = id => { const t = testesHoje.find(x => x.hora && typeof x.hora === 'object' && x.hora[id]); return t ? t.hora[id] : null; };
+const hora = id => horaTeste(id) || (grade.find(g => g.id === id) || {}).hora;
+// blocos da v5 (valem a partir de desde; antes disso a pauta sai como na v4)
+const vale = b => !!(b && b.desde && DATA >= b.desde);
+const REELS_ORIG = vale(plano.reels) && plano.reels.fonte === 'original';
+const THREADS_UM = vale(plano.threads) && plano.threads.fio === false;
+const TOPICO = THREADS_UM ? (plano.threads.topico || 'MTG') : null;
+const maxTags = (() => { const t = testesHoje.find(x => x.hashtags != null); return t ? t.hashtags : (vale(plano.legenda) ? plano.legenda.hashtags : null); })();
+// mantém só as primeiras maxTags hashtags da legenda (o resto sai); sem regra, devolve o texto como veio
+const tags = s => {
+  if (maxTags == null) return s;
+  let k = 0;
+  return String(s).replace(/(^|[ \t\n])#[\p{L}\p{N}_]+/gu, (m, antes) => (++k <= maxTags ? m : (antes === '\n' ? '\n' : ''))).replace(/[ \t]+\n/g, '\n').replace(/\n[ \t]+/g, '\n').replace(/[ \t]{2,}/g, ' ').replace(/\n{3,}/g, '\n\n').trim();
+};
 
 let ed = null, n = null;
 {
@@ -44,7 +59,7 @@ const kSlides = kit ? fs.readdirSync(path.join(ROOT, kdir)).filter(f => /^carros
 const kVideo = kit && ex(kdir + 'video-vertical-ed' + n + '.mp4') ? kdir + 'video-vertical-ed' + n + '.mp4' : null;
 if (!n) avisosLog.push('a edição de hoje ainda não está no jornal');
 else if (!kit) avisosLog.push('o kit da edição ' + n + ' ainda não saiu');
-else if (!kVideo) avisosLog.push('o kit da edição ' + n + ' saiu sem vídeo, então não há Reels hoje');
+else if (!kVideo && !REELS_ORIG) avisosLog.push('o kit da edição ' + n + ' saiu sem vídeo, então não há Reels hoje');
 
 function original(d) {
   const o = json('pauta/' + d + '/original/original.json');
@@ -75,12 +90,13 @@ const feedOrig = !!orig && (!kit || forca === 'calmo');
 const nomePilar = orig ? ((plano.pilares || {})[orig.o.pilar] || {}).nome || orig.o.pilar : '';
 const fxNota = (ed && ed.fx && ed.fx.html) || (orig && orig.o.fx) || null;
 const url = p => SITE + '/' + p;
-const legenda = t => String(t).trim() + '\n\n' + DISCLAIMER;
+const legenda = t => tags(String(t).trim()) + '\n\n' + DISCLAIMER;
+const comTopico = passos => TOPICO ? passos.slice(0, -1).concat(['Toque em Adicionar tópico e escolha ' + TOPICO + '.'], passos.slice(-1)) : passos;
 
 /* ---------- avisos ---------- */
 const anterior = json('pauta/' + DATA + '/pauta.json');
 // mantém tudo o que não é montado aqui (gravação e TikTok da noite, e qualquer aviso avulso); o resto é refeito
-const MONTADOS = ['threads-manha', 'stories-manha', 'feed', 'stories-meio-dia', 'threads-tarde', 'stories-tarde', 'reels', 'threads-noite'];
+const MONTADOS = ['threads-manha', 'stories-manha', 'feed', 'stories-meio-dia', 'threads-tarde', 'stories-tarde', 'reels', 'reels-teste', 'threads-noite'];
 const daNoite = (anterior && anterior.avisos || []).filter(a => !MONTADOS.includes(a.id));
 const gerados = [];
 const add = a => { if (a.hora) gerados.push(a); };
@@ -92,6 +108,7 @@ daNoite.forEach(a => {
   if (ex(narr)) a.arquivos = [{ nome: 'Vídeo do TikTok narrado', url: url(narr) }];
   if (hora('tiktok')) a.hora = hora('tiktok');
   a.titulo = String(a.titulo || '').replace(/^tiktok:\s*/i, '') || a.titulo; // a página já mostra a rede
+  (a.textos || []).forEach(t => { if (/^legenda/i.test(t.rotulo || '')) t.texto = tags(t.texto); });
 });
 const tiktok = daNoite.find(a => a.id === 'tiktok');
 if (!tiktok) avisosLog.push('não há TikTok preparado para hoje (a tarefa da noite não deixou o aviso)');
@@ -104,12 +121,12 @@ if (!tiktok) avisosLog.push('não há TikTok preparado para hoje (a tarefa da no
     add({ id: 'threads-manha', hora: hora('threads-manha'), rede: 'Threads', titulo: corta('Debate: ' + plain(orig.o.tema), 70),
       oQue: corta(`Post de debate do conteúdo original de hoje (${nomePilar}) para puxar conversa.`, 400),
       textos: [{ rotulo: 'Post', texto: t.texto }],
-      passos: ['Abra o Threads e cole o Post.'].concat(t.obs ? ['Dica: ' + plain(t.obs)] : [], ['Publique e responda quem comentar na primeira hora.']) });
+      passos: comTopico(['Abra o Threads e cole o Post.'].concat(t.obs ? ['Dica: ' + plain(t.obs)] : [], ['Publique e responda quem comentar na primeira hora.'])) });
   } else if (av) {
     add({ id: 'threads-manha', hora: hora('threads-manha'), rede: 'Threads', titulo: corta('Pergunta do dia: ' + pergunta(av.texto), 70),
       oQue: 'Pergunta para puxar conversa sobre a notícia do dia.',
       textos: [{ rotulo: 'Post', texto: av.texto }],
-      passos: ['Abra o Threads e cole o Post.'].concat(av.obs ? ['Dica: ' + plain(av.obs)] : [], ['Publique e responda quem comentar na primeira hora.']) });
+      passos: comTopico(['Abra o Threads e cole o Post.'].concat(av.obs ? ['Dica: ' + plain(av.obs)] : [], ['Publique e responda quem comentar na primeira hora.'])) });
   }
 }
 
@@ -152,8 +169,17 @@ if (gerados.find(a => a.id === 'feed')) {
       enq ? corta(`Adicione o sticker de Enquete embaixo do post: ${plain(enq.pergunta)} com ${listaOps}.`, 220) : 'Adicione o sticker de Pergunta embaixo do post: Qual parte você salvaria?', 'Publique.'] });
 }
 
-// 15:00 Threads: fio do jornal (o aviso de fã vai como último post)
-if (kit) {
+// 15:00 Threads: a notícia num post só (v5) ou o fio do jornal (o aviso de fã vai como último post do fio)
+if (kit && THREADS_UM) {
+  let post = String(kit.textos.threadsPost || (kit.textos.threadsFio || [])[0] || '').trim();
+  const link = '\n\nEdição completa em fontedemana.com.br';
+  if (post && !/fontedemana\.com\.br/.test(post) && (post + link).length <= 500) post += link;
+  if (!kit.textos.threadsPost && post) avisosLog.push('o kit não trouxe threadsPost; o Threads das 15:00 usa o primeiro post do fio');
+  if (post) add({ id: 'threads-tarde', hora: hora('threads-tarde'), rede: 'Threads', titulo: 'Notícia do dia num post só',
+    oQue: corta(`A edição ${n} contada num post só, sem fio: nos fios, quase ninguém passava do primeiro post.`, 400),
+    textos: [{ rotulo: 'Post', texto: post }],
+    passos: comTopico(['No Threads, cole o Post, sem sequência.', 'Publique e responda quem comentar na primeira hora.']) });
+} else if (kit) {
   const fio = (kit.textos.threadsFio || []).concat([DISCLAIMER]);
   add({ id: 'threads-tarde', hora: hora('threads-tarde'), rede: 'Threads', titulo: 'Fio da edição ' + n,
     oQue: `Fio com ${fio.length} posts contando a edição ${n}. O último é o aviso de conteúdo de fã.`,
@@ -171,8 +197,29 @@ if (kit && kit.carrossel.topdeck) {
     passos: ['Baixe a imagem e poste no Story.', 'Adicione o sticker de Link para fontedemana.com.br com o texto Edição completa, embaixo do texto do Topdeck.', 'Publique.'] });
 }
 
-// 19:00 Reels: vídeo do jornal com música
-if (kVideo) {
+// 19:00 Reels: o vídeo original do dia (v5), o mesmo arquivo do TikTok; sem ele, o vídeo do jornal com música
+const tkDir = 'pauta/' + DATA + '/tiktok/';
+const roteiro = json(tkDir + 'roteiro.json');
+const tkVideo = ex(tkDir + 'tiktok-narrado.mp4') ? tkDir + 'tiktok-narrado.mp4' : (ex(tkDir + 'tiktok-mudo.mp4') ? tkDir + 'tiktok-mudo.mp4' : null);
+const legOrig = roteiro && roteiro.legenda ? (/Fan Content/.test(roteiro.legenda) ? tags(roteiro.legenda.trim()) : legenda(roteiro.legenda)) : null;
+if (REELS_ORIG && tiktok && roteiro && tkVideo && legOrig) {
+  const narr = /narrado/.test(tkVideo);
+  add({ id: 'reels', hora: hora('reels'), rede: 'Reels', titulo: corta('Vídeo original: ' + plain(roteiro.tema), 70),
+    oQue: corta(`O vídeo original de hoje no Instagram, o mesmo arquivo do TikTok${narr ? ', já narrado' : ', ainda mudo'}. É o formato que mais chega a quem não segue.`, 400),
+    arquivos: [{ nome: narr ? 'Vídeo original narrado' : 'Vídeo original mudo', url: url(tkVideo) }],
+    textos: [{ rotulo: 'Legenda', texto: legOrig }].concat(roteiro.comentario ? [{ rotulo: 'Comentário fixado', texto: roteiro.comentario }] : []),
+    passos: ['No Instagram, toque em + e escolha Reel.', 'Escolha o vídeo baixado daqui, nunca o salvo do TikTok (o Instagram derruba vídeo com marca d\'água).' + (narr ? '' : ' Ele está mudo: adicione uma música em alta com volume baixo.'), 'Na capa, use o primeiro quadro, o do gancho.', 'Cole a Legenda e publique.', 'Fixe o comentário e responda quem comentar na primeira hora.'] });
+  // Reel de teste da semana (plano.testes > reel-teste): o mesmo vídeo com o gancho B, só para quem não segue
+  const rt = testesHoje.find(t => t.id === 'reel-teste');
+  const tVideo = ex(tkDir + 'tiktok-teste-narrado.mp4') ? tkDir + 'tiktok-teste-narrado.mp4' : (ex(tkDir + 'tiktok-teste.mp4') ? tkDir + 'tiktok-teste.mp4' : null);
+  if (rt && tVideo) add({ id: 'reels-teste', hora: typeof rt.hora === 'string' ? rt.hora : '21:00', rede: 'Reels', titulo: 'Reel de teste: o mesmo vídeo com o gancho B',
+    oQue: 'Teste da semana: o vídeo de hoje com outro gancho, mostrado só para quem não segue. Na revisão de segunda, o alcance dele em 72 horas é comparado com o do Reels das 19:00.',
+    arquivos: [{ nome: 'Vídeo de teste, gancho B' + (/narrado/.test(tVideo) ? '' : ' (mudo)'), url: url(tVideo) }],
+    textos: [{ rotulo: 'Legenda', texto: legOrig }],
+    passos: ['No Instagram, toque em + e escolha Reel, com o vídeo de teste.', 'Antes de compartilhar, ative a opção de Reel de teste (Trial reel), para ele aparecer só para quem não segue.', 'Deixe o compartilhamento automático desligado: se o gancho B ganhar, a revisão avisa para publicar para todos.', 'Cole a Legenda e publique.'] });
+  else if (rt) avisosLog.push('hoje é dia de Reel de teste, mas a noite não gerou o vídeo com o gancho B');
+} else if (kVideo) {
+  if (REELS_ORIG) avisosLog.push('sem o vídeo original de hoje, o Reels volta a ser o vídeo do jornal');
   add({ id: 'reels', hora: hora('reels'), rede: 'Reels', titulo: 'Vídeo do jornal com música',
     oQue: `Vídeo de 48 s da edição ${n} com música em alta e sem narração.`,
     arquivos: [{ nome: 'Vídeo da edição ' + n, url: url(kVideo) }],
@@ -209,6 +256,7 @@ const L = [`Pauta de hoje (${DATA})`, `Dia ${forca}${forcaKit ? '' : (kit ? ' (o
 ord.forEach(a => L.push(`${a.hora} ${a.rede}: ${a.titulo}`));
 L.push(`Página: ${SITE}/pauta/${DATA}/`);
 if (tiktok) L.push(ex('pauta/' + DATA + '/tiktok/tiktok-narrado.mp4') ? 'TikTok já narrado.' : 'TikTok ainda sem narração: mande os áudios até 11h ou poste o vídeo mudo com música.');
+if (testesHoje.length) L.push('Teste do dia: ' + testesHoje.map(t => t.id === 'tiktok-18h' ? 'TikTok às ' + t.hora.tiktok : t.id === 'sem-hashtag' ? 'legendas sem hashtag' : t.id === 'reel-teste' ? 'Reel de teste com o gancho B' : t.id).join(', ') + '.');
 L.push('Os alarmes do calendário tocam 5 minutos antes de cada horário.');
 if (avisosLog.length) L.push('Atenção: ' + avisosLog.join('; ') + '.');
 if (apagados) L.push(`(limpeza: ${apagados} arquivos de mídia com mais de 7 dias apagados)`);

@@ -21,12 +21,13 @@ Escreva só na pasta `pauta/`. Nunca chame ferramenta paga do vidIQ e nunca mexa
 3. Escolha o tema. **Conteúdo nunca se repete**: nada da lista do contexto (mesma notícia, carta, termo ou anúncio, nem com outro ângulo). Use o pilar do contexto e, se houver fila, o primeiro item livre que tenha fontes boas. Exceção: anúncio oficial da Wizards publicado depois das 6h de hoje (ban, Game Changers, regra, produto de Commander) que não esteja na lista vira o tema do TikTok; nesse caso o carrossel original pode ser pulado.
 4. Pesquise: no máximo 8 buscas na web, mais as páginas do EDHREC, do Commander Spellbook e do Scryfall que o pilar pedir. Tudo com base em cartas, regras e fatos que existem, com as regras de verificação. Porcentagem de chance de achar carta só pelo `node tools/conteudo/chance.cjs` (uso no cabeçalho do arquivo), nunca de cabeça. Cotação: use o `fx` da edição mais recente (`data/edN.js`) se tiver até 4 dias; senão, a regra de moeda.
 5. Imagens pelo Scryfall: `art_crop` em `pauta/AMANHA/tiktok/arte.jpg` e `large` em `pauta/AMANHA/tiktok/carta.jpg`. Para telas do carrossel com carta (Top 5, Deck, Combo, História), `image_uris.normal` em `pauta/AMANHA/original/carta-1.jpg`, `carta-2.jpg`... Prefira a impressão de moldura comum, não a serializada nem a showcase. Nunca grave em `img/`.
-6. Escreva `pauta/AMANHA/tiktok/roteiro.json` (formato abaixo) e rode `node tools/pauta/tiktok.cjs . AMANHA` (timeout 600000 ms). Se der `ERROS:`, encurte o texto apontado e rode de novo, até 4 vezes. Abra com Read a cena 1 e a cena de lista.
+6. Escreva `pauta/AMANHA/tiktok/roteiro.json` (formato abaixo) e rode `node tools/pauta/tiktok.cjs . AMANHA` (timeout 600000 ms). Se der `ERROS:`, encurte o texto apontado e rode de novo, até 4 vezes. Abra com Read a cena 1 e a cena de lista. **Molde novo (a partir de 26/10/2026):** quando o contexto mostrar a linha **Vídeo**, siga essas regras (20 a 30 s, promessa no primeiro segundo, cenas curtas, sem abertura, cta opcional) e ponha `"pilar"` no roteiro. O script revela as partes de cada cena uma de cada vez e recusa cena que fica parada mais de 3,5 s ou fala que passa do teto; nesse caso encurte a fala, acrescente `sub` ou `rodape`, ou divida a cena. Se o contexto mostrar **Reel de teste**, escreva também o `ganchoB`; o script gera `tiktok-teste.mp4`.
 7. Escreva `pauta/AMANHA/original/original.json` (formato abaixo) e rode `node tools/conteudo/original.cjs . AMANHA`. Mesma regra de correção, até 4 vezes. Abra com Read a capa e uma tela com carta. Se não sair, siga sem ele: a manhã usa o carrossel do jornal.
    - Os três formatos tratam do mesmo tema, mas não são a mesma peça: o TikTok conta e explica em voz; o carrossel é a versão para salvar (lista, ranking, passo a passo, com uma carta por tela quando fizer sentido); o Threads é a pergunta ou o debate que puxa comentários.
 8. Escreva ou atualize `pauta/AMANHA/pauta.json` com dois avisos (mantenha outros que já existirem):
    - `gravacao`: dia = hoje, hora 18:30, rede Gravação, titulo "Gravar a narração do TikTok de amanhã", `roteiro` com uma linha por cena (cena "Cena 1, uns 8 s", tela = o texto da cena, fala = a narração), arquivo do vídeo mudo e os passos: gravar um áudio por cena no Gravador do iPhone, num lugar silencioso, com o celular a um palmo da boca; nomear cena_1, cena_2...; mandar os áudios ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo "áudios do TikTok de AAAA-MM-DD".
-   - `tiktok`: hora 11:30, rede TikTok, arquivo `tiktok-narrado.mp4` (se já existir) ou o mudo, textos Legenda e Comentário fixado, passos: postar com som em alta entre 15% e 20% pela biblioteca do TikTok, voz própria não precisa de rótulo de IA, fixar o comentário; se os áudios não chegarem, postar o vídeo mudo com música em alta.
+   - `tiktok`: hora 11:30, rede TikTok, arquivo `tiktok-narrado.mp4` (se já existir) ou o mudo, textos Legenda e Comentário fixado, passos: postar com som em alta entre 15% e 20% pela biblioteca do TikTok, voz própria não precisa de rótulo de IA, fixar o comentário; se os áudios não chegarem, postar o vídeo mudo com música em alta. A partir de 26/10 a mesma legenda e o mesmo vídeo vão também para o Reels das 19:00 (a pauta da manhã monta esse aviso), então a legenda termina com o aviso de Fan Content e leva no máximo 3 hashtags.
+   - Com `ganchoB` (dia de Reel de teste): no aviso `gravacao`, acrescente por último a linha "Cena 1B (gancho do Reel de teste)", com a tela e a fala do ganchoB, e diga nos passos para nomear esse áudio `cena_1b` e mandar junto com os outros.
 9. Rode `node tools/pauta/pauta.cjs . AMANHA`. Envie (`git add pauta`, commit "Pauta de AMANHA: original e gravação") e confira a publicação pelo GitHub (`pauta/AMANHA/pauta.json` no `origin/main` e "pages build and deployment" do commit com `success`), como em "Repositório e convivência" de `tools/REGRAS.md`. Não use WebFetch no site.
 10. Mensagem final, curta: "Gravação para amanhã (AMANHA): <pilar>, <tema>", o roteiro cena a cena (segundos e fala), o link do vídeo mudo, o link da página, se o carrossel original saiu (quantas telas) e como mandar os áudios. Se algo falhou, o erro exato.
 
@@ -36,6 +37,7 @@ Sábado com visita marcada (`extras/lojas/AMANHA.json`, pilar Rota das Lojas): o
 
     {
       "data": "AMANHA",
+      "pilar": id do pilar em plano.json (ex.: "deck"; a partir de 26/10, decide o teto de duração),
       "tema": (80),
       "item": item da fila usado ou null,
       "arte": "pauta/AMANHA/tiktok/arte.jpg" ou null,
@@ -58,6 +60,14 @@ Cenas do quiz (pilar Chama o Juiz; exemplo completo em `tools/conteudo/FORMATOS.
         {"tipo": "resposta", "cor": "U", "chip": (18), "kicker": (40), "titulo": o veredito (64), "opcoes": as mesmas do quiz, "certa": "A", "sub": (140), "fonte": "Regras Abrangentes, <número>" (60), "narracao": (260)}
 
 `opcoes` tem de 2 a 4 textos; a cena quiz precisa de uma resposta depois dela com as mesmas opções na mesma ordem. `contagem` (3 a 5) acrescenta essa quantidade de segundos com o número regressivo depois da fala, no vídeo mudo e no narrado.
+
+**Molde novo, roteiros a partir de 26/10/2026** (`plano.json` > `video`; o `tiktok.cjs` confere):
+
+- 3 a 7 cenas. Fala de até 110 caracteres por cena; no gancho, até 90; na cta, até 60 (a cta é opcional).
+- Soma das falas de até 30 s (Deck e Combo, até 45 s), sem contar a contagem do quiz.
+- O vídeo revela as partes de cada cena uma de cada vez: gancho e texto (título, depois `sub`, depois `rodape`), lista (uma linha por vez), quiz (pergunta, depois uma opção por vez), resposta (veredito, depois `sub`), combo (uma carta e um passo por vez), cta (título, depois `destaque`). Cada parte fica no ar no máximo 3,5 s; fala longa com poucas partes é recusada.
+- A primeira fala e o título da cena 1 dizem a promessa do vídeo (o resultado, a resposta, o número). Nada de "oi, pessoal", vinheta ou "segue a página" no começo.
+- `ganchoB` (só em dia de Reel de teste): `{"kicker": (40), "titulo": (64), "sub": (140, opcional), "chip": (18, opcional), "narracao": (90)}`, outro gancho para o mesmo vídeo, com título diferente do da cena 1. Gera `tiktok-teste.mp4` (e, na narração, `tiktok-teste-narrado.mp4`).
 
 A cena final chama para o @fontedemana e o site, sem prometer "parte 2". Cores: W Brasil e eventos, U regras, B ban, R polêmica, G novidade, A bolso, M Topdeck e multicolor.
 
@@ -100,6 +110,8 @@ Só script, sem escrever texto novo:
 
 O script decide o feed pela força do dia (`pauta.forca` do kit): dia forte, carrossel do jornal; dia calmo, carrossel original (ou o mais recente do banco, de até 6 dias, que não foi para o feed). Também apaga `.jpg` e `.mp4` de pastas da pauta com mais de 7 dias.
 
+A partir de 26/10/2026 (`plano.json` > `reels`, `threads`, `legenda` e `testes`): o Reels das 19:00 é o vídeo original do dia (o arquivo do TikTok, narrado ou mudo, com a legenda e o comentário do roteiro); o Threads das 15:00 é a notícia num post só (`threadsPost` do kit) e os posts do Threads pedem o tópico MTG; as legendas ficam com no máximo 3 hashtags (o script corta o resto). Nos dias de teste, o script troca a hora do TikTok, tira as hashtags ou acrescenta o Reel de teste das 21:00, e diz no resumo qual é o teste do dia.
+
 ## Formato do `pauta/AAAA-MM-DD/pauta.json`
 
     {
@@ -128,5 +140,5 @@ O script decide o feed pela força do dia (`pauta.forca` do kit): dia forte, car
 ## Juntar a narração (quando o Paulo mandar os áudios)
 
 Em qualquer conversa com acesso ao repositório:
-1. Na pasta de trabalho (`tools/REGRAS.md`), salve os áudios em `/tmp/fdm/`, na ordem das cenas, e rode `node tools/pauta/tiktok.cjs . AAAA-MM-DD --narrar /tmp/fdm/cena_1.m4a /tmp/fdm/cena_2.m4a ...` (um por cena). Cada cena dura o tempo da fala, com o silêncio das pontas cortado e o volume no padrão das redes.
-2. No `pauta/AAAA-MM-DD/pauta.json`, troque o arquivo do aviso `tiktok` por `https://fontedemana.com.br/pauta/AAAA-MM-DD/tiktok/tiktok-narrado.mp4`, rode `pauta.cjs`, envie e mande o link ao Paulo.
+1. Na pasta de trabalho (`tools/REGRAS.md`), salve os áudios em `/tmp/fdm/`, na ordem das cenas, e rode `node tools/pauta/tiktok.cjs . AAAA-MM-DD --narrar /tmp/fdm/cena_1.m4a /tmp/fdm/cena_2.m4a ...` (um por cena). Cada cena dura o tempo da fala, com o silêncio das pontas cortado e o volume no padrão das redes. Se o roteiro tiver `ganchoB`, o áudio `cena_1b` vai por último; sem ele, a versão de teste usa a fala da cena 1.
+2. No `pauta/AAAA-MM-DD/pauta.json`, troque o arquivo do aviso `tiktok` por `https://fontedemana.com.br/pauta/AAAA-MM-DD/tiktok/tiktok-narrado.mp4` e, se existirem, o do aviso `reels` pelo mesmo link e o do `reels-teste` por `.../tiktok/tiktok-teste-narrado.mp4` (tire dos passos a linha que manda pôr música no vídeo mudo). Rode `pauta.cjs`, envie e mande o link ao Paulo.
