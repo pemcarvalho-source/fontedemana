@@ -23,12 +23,12 @@
     },
     {
      "cena": "Cena 2, uns 7 s",
-     "tela": "Do 1 ao 3: Cordial Vampire US$ 2,16 (R$ 10,92), Blood Artist US$ 2,95 (R$ 14,92), Sanctum Seeker US$ 0,32 (R$ 1,62)",
+     "tela": "Do 1 ao 3, cartas na tela com o preço: Cordial Vampire: US$ 2,16 (R$ 10,92); Blood Artist: US$ 2,95 (R$ 14,92); Sanctum Seeker: US$ 0,32 (R$ 1,62)",
      "fala": "Cordial Vampire, Blood Artist e Sanctum Seeker, que drena a mesa a cada ataque."
     },
     {
      "cena": "Cena 3, uns 7 s",
-     "tela": "Fechando o Top 5: Vito, Thorn of the Dusk Rose US$ 9,68 (R$ 48,95), Captivating Vampire US$ 3,33 (R$ 16,84). Os cinco: US$ 18,44 (R$ 93,24).",
+     "tela": "Do 4 ao 5, cartas na tela com o preço: Vito: US$ 9,68 (R$ 48,95); Captivating Vampire: US$ 3,33 (R$ 16,84). Os cinco: US$ 18,44 (R$ 93,24).",
      "fala": "Fechando, Vito e Captivating Vampire. Os cinco saem por uns noventa e três reais."
     },
     {

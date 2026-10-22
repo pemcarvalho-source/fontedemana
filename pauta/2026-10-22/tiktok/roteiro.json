@@ -20,25 +20,26 @@
    "segundos": 9.2
   },
   {
-   "tipo": "lista",
+   "tipo": "combo",
    "cor": "B",
    "chip": "Top 5 #2",
    "kicker": "Do 1 ao 3",
-   "linhas": [
+   "titulo": "Os três mais jogados",
+   "cartas": [
+    "pauta/2026-10-22/original/carta-1.jpg",
+    "pauta/2026-10-22/original/carta-2.jpg",
+    "pauta/2026-10-22/original/carta-3.jpg"
+   ],
+   "numerar": true,
+   "passos": [
     {
-     "nome": "Cordial Vampire",
-     "valor": "US$ 2,16",
-     "real": "(R$ 10,92)"
+     "txt": "Cordial Vampire: US$ 2,16 (R$ 10,92)"
     },
     {
-     "nome": "Blood Artist",
-     "valor": "US$ 2,95",
-     "real": "(R$ 14,92)"
+     "txt": "Blood Artist: US$ 2,95 (R$ 14,92)"
     },
     {
-     "nome": "Sanctum Seeker",
-     "valor": "US$ 0,32",
-     "real": "(R$ 1,62)"
+     "txt": "Sanctum Seeker: US$ 0,32 (R$ 1,62)"
     }
    ],
    "fonte": "EDHREC e Scryfall, out 2026",
@@ -46,26 +47,29 @@
    "segundos": 6.8
   },
   {
-   "tipo": "lista",
+   "tipo": "combo",
    "cor": "A",
    "chip": "No bolso",
-   "kicker": "Fechando o Top 5",
-   "linhas": [
+   "kicker": "Do 4 ao 5",
+   "titulo": "Quem fecha o Top 5",
+   "cartas": [
+    "pauta/2026-10-22/original/carta-4.jpg",
+    "pauta/2026-10-22/original/carta-5.jpg"
+   ],
+   "numerar": true,
+   "passos": [
     {
-     "nome": "Vito, Thorn of the Dusk Rose",
-     "valor": "US$ 9,68",
-     "real": "(R$ 48,95)"
+     "txt": "Vito: US$ 9,68 (R$ 48,95)"
     },
     {
-     "nome": "Captivating Vampire",
-     "valor": "US$ 3,33",
-     "real": "(R$ 16,84)"
+     "txt": "Captivating Vampire: US$ 3,33 (R$ 16,84)"
     }
    ],
-   "rodape": "Os cinco: US$ 18,44 (R$ 93,24).",
+   "rodape": "Os cinco: <b>US$ 18,44 (R$ 93,24)</b>.",
    "fonte": "EDHREC e Scryfall, out 2026",
    "narracao": "Fechando, Vito e Captivating Vampire. Os cinco saem por uns noventa e três reais.",
-   "segundos": 6.8
+   "segundos": 6.8,
+   "inicio": 4
   },
   {
    "tipo": "texto",

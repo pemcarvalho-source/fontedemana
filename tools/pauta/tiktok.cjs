@@ -69,6 +69,7 @@ function validate(r) {
       req(Array.isArray(c.cartas) && c.cartas.length >= 1 && c.cartas.length <= 3, n + '.cartas precisa de 1 a 3 imagens');
       (c.cartas || []).forEach((f, j) => req(typeof f === 'string' && exists(path.join(ROOT, f)), `${n}.cartas[${j}] não encontrada: ${f}`));
       req(Array.isArray(c.passos) && c.passos.length >= 2 && c.passos.length <= 4, n + '.passos precisa de 2 a 4');
+      if (c.inicio != null) req(Number.isInteger(c.inicio) && c.inicio >= 1 && c.inicio <= 9, n + '.inicio precisa ser inteiro de 1 a 9 (primeiro número das cartas e dos passos)');
       (c.passos || []).forEach((p, j) => { len(p.txt, 70, `${n}.passos[${j}].txt`); len(p.valor, 10, `${n}.passos[${j}].valor`, true); });
     }
     if (c.tipo === 'lista') {
@@ -189,8 +190,9 @@ h1{font-family:CZ;font-weight:700;font-size:80px;line-height:1.05;margin-top:22p
   } else if (c.tipo === 'combo') {
     ah = 760;
     const nc = c.cartas.length, w = nc === 1 ? 300 : nc === 2 ? 290 : 240;
-    const cartas = c.cartas.map((f, j) => `<div class="cc"><img src="${furl(path.join(ROOT, f))}" style="width:${w}px">${c.numerar ? '<span class="cn">' + (j + 1) + '</span>' : ''}</div>`).join('');
-    const passos = c.passos.map((p, j) => `<div class="ps"><span class="pn">${j + 1}</span><span class="pt">${rich(p.txt)}</span>${p.valor ? '<span class="pv">' + esc(p.valor) + '</span>' : '<span></span>'}</div>`).join('');
+    const ini = c.inicio || 1; /* "inicio": 4 numera as cartas e os passos a partir do 4 (Top 5 dividido em duas cenas) */
+    const cartas = c.cartas.map((f, j) => `<div class="cc"><img src="${furl(path.join(ROOT, f))}" style="width:${w}px">${c.numerar ? '<span class="cn">' + (j + ini) + '</span>' : ''}</div>`).join('');
+    const passos = c.passos.map((p, j) => `<div class="ps"><span class="pn">${j + ini}</span><span class="pt">${rich(p.txt)}</span>${p.valor ? '<span class="pv">' + esc(p.valor) + '</span>' : '<span></span>'}</div>`).join('');
     inner = `<div class="art"></div>${top}<div class="crow">${cartas}</div><div class="body cb" style="top:${430 + Math.round(w * 1.395) + (c.numerar ? 70 : 45)}px"><div class="kicker">${pip(c.cor || 'R')} ${esc(c.kicker)}</div>
       <h1>${rich(c.titulo)}</h1><div class="tbox fr-${c.cor || 'R'}">${passos}</div>${c.rodape ? '<div class="foot">' + rich(c.rodape) + '</div>' : ''}${fonte}${fx}</div>`;
   } else if (c.tipo === 'cta') {
