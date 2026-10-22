@@ -1,0 +1,188 @@
+{
+ "n": 17,
+ "data": "22 out",
+ "carrossel": {
+  "capa": {
+   "cor": "A",
+   "titulo": "Stardates de Star Trek trazem Minamo e Sheoldred",
+   "sub": "A folha bônus de Star Trek reimprime staples caras do Commander e aparece em <b>1 de cada 25 Play Boosters</b>.",
+   "credito": "Arte: Minamo, School at Water's Edge, Jaroslav Kosmina"
+  },
+  "cartoes": [
+   {
+    "cor": "A",
+    "titulo": "Stardates nos Play Boosters",
+    "linhas": [
+     {
+      "nome": "Sheoldred, the Apocalypse",
+      "valor": "US$ 82",
+      "sub": "US$ 82,16 (R$ 413,08)"
+     },
+     {
+      "nome": "Minamo",
+      "valor": "US$ 58",
+      "sub": "US$ 57,96 (R$ 291,41)"
+     },
+     {
+      "nome": "Bristly Bill, Spine Sower",
+      "valor": "US$ 24",
+      "sub": "US$ 23,99 (R$ 120,61)"
+     }
+    ],
+    "nota": {
+     "rotulo": "No seu bolso",
+     "texto": "ia comprar Minamo? Espere a pré para ver o preço."
+    },
+    "fonte": "Fontes: Wizards, MTG Rocks e Scryfall. Reais: PTAX de 21 out"
+   },
+   {
+    "cor": "G",
+    "titulo": "Star Trek, segundo dia",
+    "itens": [
+     {
+      "cor": "B",
+      "html": "<b>Death Is Irrelevant</b>: mítica Borg de 8 manas que assimila uma criatura de qualquer cemitério a cada fim de turno seu."
+     },
+     {
+      "cor": "U",
+      "html": "<b>Mirror Universe Intrusion</b> copia uma criatura do oponente, ou todas, pagando o kicker."
+     },
+     {
+      "cor": "W",
+      "html": "<b>Captain Jean-Luc Picard</b>, que vazou no Arena, agora está confirmado no Scryfall."
+     }
+    ],
+    "nota": {
+     "rotulo": "Na sua mesa",
+     "texto": "Death Is Irrelevant conversa direto com o precon We Are the Borg."
+    },
+    "fonte": "Fontes: MTG Salvation e Scryfall"
+   }
+  ],
+  "topdeck": {
+   "titulo": "Kenrith, the Returned King",
+   "habilidades": [
+    {
+     "rotulo": "Uma habilidade por cor",
+     "texto": "Pressa, marcador +1/+1, 5 de vida, compra e reanimação, cada uma por uma cor."
+    },
+    {
+     "rotulo": "Motor de combo",
+     "texto": "Com Composite Golem, sacrifica e traz de volta em loop, com mortes infinitas."
+    },
+    {
+     "rotulo": "Pega no pulo",
+     "texto": "a reanimação devolve a criatura ao dono, não a você."
+    }
+   ],
+   "extra": "Comandante de <b>31,9 mil decks</b> no EDHREC e também nos Stardates. Custa US$ 1,29 (R$ 6,49) no Scryfall. Reais: PTAX de 21 out.",
+   "credito": "Ilustração de Kieran Yanner"
+  },
+  "ban": {
+   "numero": "39",
+   "unidade": "DIAS",
+   "texto": "para a próxima janela de banimentos, em 30 de novembro. A de 12 de outubro não mexeu no Commander."
+  },
+  "turnos": [
+   {
+    "cor": "W",
+    "data": "23 a 29 out",
+    "texto": "Segunda rodada da Festa de Commander"
+   },
+   {
+    "cor": "G",
+    "data": "26 a 29 out",
+    "texto": "Listas dos precons de Star Trek"
+   },
+   {
+    "cor": "G",
+    "data": "30 out",
+    "texto": "Galeria completa de Star Trek"
+   },
+   {
+    "cor": "A",
+    "data": "2 nov",
+    "texto": "Venda do Countdown Kit da Marvel"
+   },
+   {
+    "cor": "G",
+    "data": "6 a 12 nov",
+    "texto": "Pré de Star Trek nas lojas"
+   }
+  ],
+  "sussurro": null
+ },
+ "video": {
+  "cena1": {
+   "titulo": "Stardates de Star Trek trazem Minamo e Sheoldred",
+   "pilulas": [
+    "1 em 25 Play Boosters",
+    "30 míticas",
+    "13 de novembro"
+   ]
+  },
+  "cena2": {
+   "rotulo": "No bolso",
+   "cor": "A",
+   "titulo": "Quanto valem hoje",
+   "linhas": [
+    {
+     "nome": "Sheoldred",
+     "numero": 82,
+     "prefixo": "US$ ",
+     "sufixo": "",
+     "sub": "R$ 413,08 no Scryfall"
+    },
+    {
+     "nome": "Minamo",
+     "numero": 58,
+     "prefixo": "US$ ",
+     "sufixo": "",
+     "sub": "R$ 291,41 no Scryfall"
+    }
+   ],
+   "fonte": "Fonte: Scryfall. Reais: PTAX de 21 out"
+  },
+  "cena3": {
+   "linhas": [
+    "<b>Kenrith, the Returned King</b>: cinco cores, cinco habilidades.",
+    "Com Composite Golem, vira loop infinito.",
+    "Reanimou do oponente? Volta para ele."
+   ]
+  },
+  "cena4": {
+   "texto": "Faltam 39 dias para a próxima janela de banimentos, em 30 de novembro.",
+   "sussurro": null
+  }
+ },
+ "textos": {
+  "legendaCarrossel": "Star Trek tem uma folha bônus chamada Stardates: 30 míticas reimpressas com a cara da série, uma a cada 25 Play Boosters.\n\nNo Scryfall já estão cinco: Sheoldred, the Apocalypse, Minamo, School at Water's Edge, Bristly Bill, Spine Sower, Prosper, Tome-Bound e Kenrith, the Returned King. A versão mais barata de Sheoldred custa US$ 82,16 (R$ 413,08) e a de Minamo, US$ 57,96 (R$ 291,41).\n\nNo segundo dia de prévias, a mítica Death Is Irrelevant puxa uma criatura de qualquer cemitério a cada fim de turno seu. Prato cheio para o precon da Rainha Borg.\n\nNo Topdeck do Dia, Kenrith, the Returned King, o rei de cinco cores que também ganhou versão Stardates.\n\nEdição completa em fontedemana.com.br\n\nArtes: Minamo, School at Water's Edge, de Jaroslav Kosmina. Kenrith, the Returned King, de Kieran Yanner.\n\nValores em reais pela cotação de 21 out (Banco Central, PTAX).\n\n#mtg #magicthegathering #commander #edh #mtgbrasil #startrek",
+  "legendaVideo": "Os Stardates de Star Trek colocam Sheoldred e Minamo nos Play Boosters, uma carta a cada 25 pacotes. E o Topdeck do Dia é Kenrith, the Returned King.\n\nVocê abriria Play Booster de Star Trek atrás de um Stardates? Conta nos comentários.\n\nEdição completa em fontedemana.com.br\n\nValores em reais pela cotação de 21 out (Banco Central, PTAX).\n\n#mtg #magicthegathering #commander #edh #mtgbrasil",
+  "threadsFio": [
+   "Star Trek tem uma folha bônus chamada Stardates: 30 míticas reimpressas com a cara da série. Uma delas aparece no lugar de uma comum em 1 de cada 25 Play Boosters.",
+   "Já estão no Scryfall: Sheoldred, the Apocalypse, Minamo, School at Water's Edge, Bristly Bill, Spine Sower, Prosper, Tome-Bound e Kenrith, the Returned King. Sheoldred sai hoje a partir de US$ 82,16 (R$ 413,08) e Minamo, a partir de US$ 57,96 (R$ 291,41).",
+   "Segundo dia de prévias: Death Is Irrelevant, mítica Borg de 8 manas, deixa suas criaturas artefato indestrutíveis e assimila uma criatura de qualquer cemitério a cada fim de turno seu. Mirror Universe Intrusion copia criaturas do oponente.",
+   "Topdeck do Dia: Kenrith, the Returned King. Cinco cores, uma habilidade por cor. Pega no pulo: a reanimação devolve a criatura ao dono. Mirou no cemitério do oponente, ela volta para ele.",
+   "Edição completa em fontedemana.com.br\n\nValores em reais pela cotação de 21 out (Banco Central, PTAX)."
+  ],
+  "threadsAvulsos": [
+   {
+    "titulo": "Pergunta do dia",
+    "texto": "Os Stardates de Star Trek trazem Sheoldred e Minamo em 1 de cada 25 Play Boosters. Isso te faz abrir pacote ou você prefere comprar a carta avulsa?",
+    "obs": "Enquete: abro pacote, compro avulsa"
+   }
+  ]
+ },
+ "pauta": {
+  "forca": "calmo",
+  "porque": "Stardates e prévias são desdobramento de Star Trek, assunto das últimas três edições.",
+  "storyPergunta": "Qual carta Stardates você quer abrir?",
+  "enquete": {
+   "pergunta": "Stardates no Play Booster: você abre pacote?",
+   "opcoes": [
+    "Abro pacote",
+    "Compro avulsa"
+   ]
+  }
+ }
+}
