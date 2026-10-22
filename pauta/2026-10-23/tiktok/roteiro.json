@@ -1,0 +1,65 @@
+{
+ "data": "2026-10-23",
+ "pilar": "regra",
+ "tema": "Chama o Juiz #2: comandante voltou para a mão. Paga imposto para jogar de novo?",
+ "item": "Comandante que voltou para a mão paga imposto?",
+ "arte": "pauta/2026-10-23/tiktok/arte.jpg",
+ "carta": "pauta/2026-10-23/tiktok/carta.jpg",
+ "credito": "Arte: Cyclonic Rift, Chris Rahn",
+ "fx": null,
+ "legenda": "Chama o Juiz #2: um Cyclonic Rift devolveu seu comandante para a mão. Para jogar de novo, paga o imposto de comandante?\n\nComenta A, B ou C antes de ver a resposta.\n\nResposta com a regra no vídeo e no fontedemana.com.br\n\n#mtg #commander #magicthegathering",
+ "comentario": "Resposta: letra C. O imposto só vale para quem conjura da zona de comando (Regras Abrangentes, 903.8). Da mão, você paga só o custo normal. Quantas vezes você já pagou imposto à toa?",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "cor": "U",
+   "chip": "Chama o Juiz #2",
+   "kicker": "Situação de mesa",
+   "titulo": "Um Cyclonic Rift devolveu seu comandante para a mão",
+   "sub": "Você já jogou ele duas vezes da zona de comando nesta partida.",
+   "narracao": "Um Cyclonic Rift devolveu seu comandante para a mão. E você já jogou ele duas vezes da zona de comando.",
+   "segundos": 9.2
+  },
+  {
+   "tipo": "quiz",
+   "cor": "U",
+   "chip": "Valendo",
+   "kicker": "Chama o Juiz",
+   "titulo": "Para jogar ele da mão, quanto você paga de imposto?",
+   "opcoes": [
+    "Mais 4, o imposto de sempre",
+    "Mais 2, só pela última vez",
+    "Nada, só o custo normal"
+   ],
+   "contagem": 5,
+   "narracao": "Para jogar ele da mão agora, quanto você paga de imposto? A, mais quatro. B, mais dois. C, nada. Comenta A, B ou C, você tem cinco segundos.",
+   "segundos": 12.4
+  },
+  {
+   "tipo": "resposta",
+   "cor": "U",
+   "chip": "Resposta",
+   "kicker": "Chama o Juiz",
+   "titulo": "Da mão, não tem imposto",
+   "opcoes": [
+    "Mais 4, o imposto de sempre",
+    "Mais 2, só pela última vez",
+    "Nada, só o custo normal"
+   ],
+   "certa": "C",
+   "sub": "O imposto só existe quando você conjura da zona de comando. E jogar da mão nem conta para o imposto depois.",
+   "fonte": "Regras Abrangentes, 903.8",
+   "narracao": "Letra C. O imposto de comandante só vale quando você conjura da zona de comando. Da mão, paga o custo normal. E essa vez nem soma no imposto das próximas.",
+   "segundos": 13.2
+  },
+  {
+   "tipo": "cta",
+   "cor": "M",
+   "kicker": "Todo dia no Instagram",
+   "titulo": "Uma regra por semana para ganhar a discussão na mesa",
+   "destaque": "@fontedemana",
+   "narracao": "Manda pro amigo que sempre paga imposto à toa. E segue a Fonte de Mana.",
+   "segundos": 7.2
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+  "data": "2026-10-23",
+  "pilar": "regra",
+  "item": "Comandante que voltou para a mão paga imposto?",
+  "tema": "Chama o Juiz #2: comandante voltou para a mão. Paga imposto para jogar de novo?",
+  "cartas": ["Cyclonic Rift", "Command Beacon"],
+  "fx": null,
+  "carrossel": {
+    "capa": {"cor": "U", "chip": "Chama o Juiz #2", "kicker": "Situação de mesa", "titulo": "Seu comandante voltou para a <b>mão</b>. Paga imposto?", "sub": "Um Cyclonic Rift na mesa e o seu comandante, já jogado duas vezes, volta para a sua mão. E agora?", "arte": "pauta/2026-10-23/tiktok/arte.jpg", "credito": "Arte: Cyclonic Rift, Chris Rahn"},
+    "cartoes": [
+      {"cor": "U", "titulo": "Quanto você paga de imposto?",
+       "itens": [
+         {"cor": "U", "html": "<b>A)</b> Mais 4, o imposto de sempre"},
+         {"cor": "U", "html": "<b>B)</b> Mais 2, só pela última vez"},
+         {"cor": "U", "html": "<b>C)</b> Nada, só o custo normal"}
+       ],
+       "nota": {"rotulo": "Antes de arrastar", "texto": "comenta a sua letra, A, B ou C. Sem olhar a próxima tela."},
+       "fonte": "Fonte: Regras Abrangentes, 903.8"},
+      {"cor": "U", "titulo": "Letra C: da mão, imposto zero",
+       "itens": [
+         {"cor": "U", "html": "O imposto de comandante, <b>mais 2 por vez</b>, só vale quando você conjura <b>da zona de comando</b>."},
+         {"cor": "U", "html": "Jogou da mão? Paga o custo da carta e pronto. E essa vez <b>não soma</b> no imposto das próximas."}
+       ],
+       "nota": {"rotulo": "Em uma frase", "texto": "o imposto é da zona de comando, não do comandante."},
+       "fonte": "Fonte: Regras Abrangentes, 903.8, e rulings oficiais"},
+      {"cor": "U", "titulo": "O erro comum", "carta": "pauta/2026-10-23/original/carta-1.jpg",
+       "itens": [
+         {"cor": "U", "html": "Quando o comandante ia para a mão, você <b>escolhe</b>: mão ou zona de comando."},
+         {"cor": "U", "html": "A mesa manda direto para a zona de comando e paga <b>mais 4</b> à toa. Na mão, ele sai mais barato."}
+       ],
+       "fonte": "Fonte: Regras Abrangentes, 903.9"},
+      {"cor": "U", "titulo": "Quem usa isso a favor", "carta": "pauta/2026-10-23/original/carta-2.jpg",
+       "itens": [
+         {"cor": "U", "html": "Command Beacon tira o comandante da zona de comando e põe na <b>sua mão</b>."},
+         {"cor": "U", "html": "Comandante caro, morto três vezes? Sacrifica o terreno e joga ele <b>sem imposto</b>."}
+       ],
+       "fonte": "Fonte: Scryfall, rulings de Command Beacon"}
+    ],
+    "cta": {"pergunta": "Acertou de primeira? Comenta <b>A, B ou C</b>", "quando": "Toda sexta tem Chama o Juiz", "salvar": "Manda pra quem sempre paga imposto à toa"}
+  },
+  "legenda": "Chama o Juiz #2: comandante voltou para a mão no Commander. Paga imposto para jogar de novo?\n\nUm Cyclonic Rift devolve o seu comandante, que já foi jogado duas vezes da zona de comando. Quanto custa jogar ele da mão?\n\nA) Mais 4\nB) Mais 2\nC) Nada, só o custo normal\n\nComenta a sua letra antes de arrastar. A resposta, a regra e o erro que a mesa mais comete estão no carrossel.\n\nFontes: Regras Abrangentes (903.8 e 903.9) e rulings oficiais de Command Beacon no Scryfall.\n\nMais regra de Commander sem juridiquês em fontedemana.com.br\n\nSalva para a próxima discussão na mesa e manda pro amigo que sempre paga imposto à toa.\n\n#mtg #commander #magicthegathering",
+  "threads": {"texto": "Chama o Juiz #2\n\nUm Cyclonic Rift devolveu seu comandante para a sua mão. Você já tinha jogado ele duas vezes da zona de comando nesta partida.\n\nPara jogar ele da mão agora, quanto paga de imposto?\n\nA) Mais 4\nB) Mais 2\nC) Nada, só o custo normal\n\nComenta só a letra. Resposta aqui às 15h.", "obs": "Resposta: C. Imposto só vale para quem conjura da zona de comando (Regras Abrangentes, 903.8)."},
+  "enquete": {"pergunta": "Comandante voltou para a mão. Paga imposto?", "opcoes": ["Mais 4", "Mais 2", "Nada"]}
+}
