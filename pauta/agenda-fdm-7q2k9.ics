@@ -8,274 +8,8 @@ X-WR-TIMEZONE:America/Sao_Paulo
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:fdm-2026-10-19-gravacao@fontedemana.com.br
-DTSTAMP:20261023T002115Z
-DTSTART:20261018T213000Z
-DURATION:PT15M
-SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
-DESCRIPTION:História de uma carta #1: Sol Ring. São 5 cenas curtas\, uns 
- 38 s no total. Leia a fala de cada cena num áudio separado\, com calma e 
- no tom de quem conta um causo da mesa.\n\nArquivos:\n- Vídeo mudo (tiktok
- -mudo.mp4): https://fontedemana.com.br/pauta/2026-10-19/tiktok/tiktok-mudo
- .mp4\n\nRoteiro de gravação:\nCena 1\, uns 7 s\nNa tela: 33 anos e em 83
- % dos decks de Commander. Um anel de 1 mana que saiu na primeira coleção
-  de Magic e nunca mais largou a mesa.\nFala: Essa carta tem 33 anos e est
- á em 83% dos decks de Commander do EDHREC. É o Sol Ring.\n\nCena 2\, uns
-  10 s\nNa tela: Paga 1\, ganha 2 de mana. Incomum na Alpha\, com arte de M
- ark Tedin. Em 2011\, veio em cada um dos cinco primeiros precons de Comman
- der.\nFala: Saiu na Alpha\, em 1993\, como incomum. Paga um\, ganha dois d
- e mana todo turno. Em 2011\, veio em cada um dos cinco primeiros precons d
- e Commander.\n\nCena 3\, uns 8 s\nNa tela: Quanto custa um Sol Ring: Beta 
- (1993) US$ 869\,99 (R$ 4.421\,81)\, Foundations Commander US$ 1\,22 (R$ 6\
- ,20)\nFala: Um de Beta passa de 869 dólares\, uns 4.400 reais. O mais bar
- ato sai por um dólar e vinte\, uns 6 reais.\n\nCena 4\, uns 8 s\nNa tela:
-  Banido no Legacy\, intocável no Commander. Em 2024 caíram Mana Crypt e 
- Jeweled Lotus. O comitê disse que banir o Sol Ring mudaria a identidade d
- o formato.\nFala: No Legacy ele é banido. Mas em 2024 o comitê do Comman
- der disse que tirar o Sol Ring mudaria a cara do formato.\n\nCena 5\, uns 
- 5 s\nNa tela: Você joga Sol Ring? Em qual comandante? @fontedemana\nFala:
-  Você joga Sol Ring? Comenta em qual comandante e segue a Fonte de Mana.\
- n\n\nPasso a passo:\n1. Abra o Gravador do iPhone num lugar silencioso\, c
- om o celular a um palmo da boca.\n2. Grave um áudio por cena\, na ordem\,
-  lendo só a fala daquela cena.\n3. Nomeie os arquivos cena_1\, cena_2\, c
- ena_3\, cena_4 e cena_5.\n4. Mande os áudios ao Claude no projeto MGT str
- ategy (pode ser respondendo à mensagem desta tarefa) dizendo "áudios do 
- TikTok de 2026-10-19".\n\nValores em reais pela cotação PTAX de 16 out\,
-  US$ 1 = R$ 5\,0826 (Banco Central).\n\nPauta completa: https://fontedeman
- a.com.br/pauta/2026-10-19/#gravacao
-URL:https://fontedemana.com.br/pauta/2026-10-19/#gravacao
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Gravação: Gravar a narração do TikTok de amanhã
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-19-tiktok@fontedemana.com.br
-DTSTAMP:20261023T002115Z
-DTSTART:20261019T143000Z
-DURATION:PT15M
-SUMMARY:11:30 TikTok: a história do Sol Ring
-DESCRIPTION:História de uma carta #1: o Sol Ring\, da Alpha de 1993 aos 83
- % dos decks de Commander\, com preço e o caso do banimento que não veio.
- \n\nArquivos:\n- Vídeo do TikTok narrado: https://fontedemana.com.br/paut
- a/2026-10-19/tiktok/tiktok-narrado.mp4\n\nLegenda:\nO Sol Ring tem 33 anos
-  e está em 83% dos decks de Commander no EDHREC. Da Alpha de 1993 aos pre
- cons de hoje\, a história do anel de 1 mana que ninguém tira do deck.\n\
- nVocê joga Sol Ring? Comenta em qual comandante.\n\nPreços do Scryfall. 
- Reais pela cotação PTAX de 16 out (Banco Central).\n\n#mtg #magicthegath
- ering #commander #edh #solring #mtgbrasil #magicbrasil\n\nComentário fixa
- do:\nComenta o comandante que mais usa seu Sol Ring. E qual foi o turno 1 
- mais absurdo que você já viu com ele?\n\nPasso a passo:\n1. Poste o víd
- eo com um som em alta da biblioteca do TikTok\, com volume entre 15% e 20%
- .\n2. A narração é a sua voz\, então não precisa de rótulo de IA.\n3
- . Cole a legenda e fixe o comentário logo depois de postar.\n4. Se os áu
- dios não chegaram\, poste o vídeo mudo com uma música em alta.\n\nPauta
-  completa: https://fontedemana.com.br/pauta/2026-10-19/#tiktok
-URL:https://fontedemana.com.br/pauta/2026-10-19/#tiktok
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:TikTok: a história do Sol Ring
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-19-threads-manha@fontedemana.com.br
-DTSTAMP:20261023T002115Z
-DTSTART:20261019T133000Z
-DURATION:PT15M
-SUMMARY:10:30 Threads: Debate: História de uma carta #1: Sol Ring\, da Alp
- ha a 83% dos decks…
-DESCRIPTION:Post de debate do conteúdo original de hoje (História de uma 
- carta) para puxar conversa.\n\nPost:\nO Sol Ring está em 83% dos decks de
-  Commander no EDHREC\, e em 2024 o comitê disse que não bane porque ele 
- faz parte da identidade do formato.\n\nPergunta sincera: ele deixa a mesa 
- mais divertida ou só premia quem compra ele na mão inicial?\n\nComenta F
- ICA ou SAI.\n\nPasso a passo:\n1. Abra o Threads e cole o Post.\n2. Dica: 
- Enquete com Fica e Sai\n3. Publique e responda quem comentar na primeira h
- ora.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-19/#threa
- ds-manha
-URL:https://fontedemana.com.br/pauta/2026-10-19/#threads-manha
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Debate: História de uma carta #1: Sol Ring\, da Alpha
-  a 83% dos decks…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-19-stories-manha@fontedemana.com.br
-DTSTAMP:20261023T002115Z
-DTSTART:20261019T133000Z
-DURATION:PT15M
-SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
-DESCRIPTION:Story com a capa da edição 14 (Festival in a Box abre hoje co
- m Mystery Commander) e um sticker de pergunta para puxar a conversa.\n\nAr
- quivos:\n- Capa da edição 14: https://fontedemana.com.br/kit/ed14/carros
- sel-01.jpg\n\nPasso a passo:\n1. Baixe a capa e poste no Story.\n2. Adicio
- ne o sticker de Pergunta no terço de baixo\, sem cobrir o título: Você 
- abriria uma caixa de Mystery Booster Commander?\n3. Publique.\n\nPauta com
- pleta: https://fontedemana.com.br/pauta/2026-10-19/#stories-manha
-URL:https://fontedemana.com.br/pauta/2026-10-19/#stories-manha
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Capa do jornal com sticker de pergunta
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-19-feed@fontedemana.com.br
-DTSTAMP:20261023T002115Z
-DTSTART:20261019T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram feed: História de uma carta #1: Sol Ring\, da Alph
- a a 83% dos decks de…
-DESCRIPTION:Carrossel original de 6 imagens (História de uma carta): Hist
- ória de uma carta #1: Sol Ring\, da Alpha a 83% dos decks de Commander. F
- eito para salvar e compartilhar.\n\nArquivos:\n- Imagem 1 de 6: https://fo
- ntedemana.com.br/pauta/2026-10-19/original/carrossel-01.jpg\n- Imagem 2 de
-  6: https://fontedemana.com.br/pauta/2026-10-19/original/carrossel-02.jpg\
- n- Imagem 3 de 6: https://fontedemana.com.br/pauta/2026-10-19/original/car
- rossel-03.jpg\n- Imagem 4 de 6: https://fontedemana.com.br/pauta/2026-10-1
- 9/original/carrossel-04.jpg\n- Imagem 5 de 6: https://fontedemana.com.br/p
- auta/2026-10-19/original/carrossel-05.jpg\n- Imagem 6 de 6: https://fonted
- emana.com.br/pauta/2026-10-19/original/carrossel-06.jpg\n\nLegenda:\nSol R
- ing\, a carta de Magic que está em 83% dos decks de Commander\, tem 33 an
- os de história.\n\nEle saiu na Alpha\, em 1993\, como incomum\, com arte 
- de Mark Tedin. Paga 1\, ganha 2 de mana todo turno. Em junho de 2011\, cad
- a um dos cinco primeiros precons de Commander veio com um\, e ele nunca ma
- is saiu da mesa. Hoje são 134 versões em papel: um de Beta custa US$ 869
- \,99 (R$ 4.421\,81) e o da Foundations Commander\, US$ 1\,22 (R$ 6\,20). 
- É banido no Legacy\, restrito no Vintage e\, em setembro de 2024\, quando
-  Mana Crypt e Jeweled Lotus caíram no Commander\, o comitê disse que ban
- ir o Sol Ring mudaria a identidade do formato.\n\nFontes: Scryfall\, EDHRE
- C\, Commander's Herald\, Card Kingdom e Draftsim.\nValores em reais pela c
- otação PTAX de 16 out (Banco Central).\n\nMais em fontedemana.com.br\n\n
- Você joga Sol Ring? Em qual comandante?\n\n#mtg #magicthegathering #comma
- nder #edh #solring #mtgbrasil #magicbrasil #cartademagic\n\nFonte de Mana 
- is unofficial Fan Content permitted under the Fan Content Policy. Not appr
- oved/endorsed by Wizards. Portions of the materials used are property of W
- izards of the Coast. ©Wizards of the Coast LLC.\n\nPasso a passo:\n1. No 
- Instagram\, toque em + e escolha Post.\n2. Selecione as 6 imagens na ordem
- \, da 1 à 6.\n3. Cole a Legenda e publique.\n\nValores em reais pela cota
- ção PTAX de 16 out\, US$ 1 = R$ 5\,0826 (Banco Central).\n\nPauta comple
- ta: https://fontedemana.com.br/pauta/2026-10-19/#feed
-URL:https://fontedemana.com.br/pauta/2026-10-19/#feed
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram feed: História de uma carta #1: Sol Ring\, da Alpha 
- a 83% dos decks de…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-19-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261023T002115Z
-DTSTART:20261019T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
-DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
- .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
- e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
- o do post: O Sol Ring devia continuar liberado no Commander? com Fica e Sa
- i.\n3. Publique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-
- 10-19/#stories-meio-dia
-URL:https://fontedemana.com.br/pauta/2026-10-19/#stories-meio-dia
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-19-threads-tarde@fontedemana.com.br
-DTSTAMP:20261023T002115Z
-DTSTART:20261019T180000Z
-DURATION:PT15M
-SUMMARY:15:00 Threads: Fio da edição 14
-DESCRIPTION:Fio com 5 posts contando a edição 14. O último é o aviso de
-  conteúdo de fã.\n\nPost 1:\nFonte de Mana de segunda\, 19 de outubro. A
- bre hoje no site do Secret Lair o Festival in a Box: Atlanta 2026\, por US
- $ 249\,99 (R$ 1.270\,60)\, com no máximo duas por pessoa. A Wizards não 
- informou o horário.\n\nPost 2:\nDentro vem a primeira caixa fechada de My
- stery Booster Commander Edition\, com 24 boosters. Cada booster de 20 cart
- as traz um comandante reimpresso e um inédito\, e são 60 comandantes nov
- os na coleção. Eles só valem no Commander a partir de 13 de novembro.\n
- \nPost 3:\nTambém vêm o Secret Gallery: Atlanta em foil\, com Parallax T
- ide\, Regrowth\, Viridian Revel e Assassin's Trophy\, e as promos sem text
- o de Tana\, the Bloodsower\, Tymna the Weaver e Dance of the Dead.\n\nPost
-  4:\nTopdeck do Dia: Tymna the Weaver. Depois do combate\, você paga 1 de
-  vida por oponente que levou dano e compra a mesma quantidade de cartas. C
- om Parceiro\, divide o comando com Kraum\, Tana e companhia. Edição comp
- leta em fontedemana.com.br\n\nValores em reais pela cotação PTAX de 16 o
- ut (Banco Central).\n\nPost 5 (aviso de fã):\nFonte de Mana is unofficial
-  Fan Content permitted under the Fan Content Policy. Not approved/endorsed
-  by Wizards. Portions of the materials used are property of Wizards of the
-  Coast. ©Wizards of the Coast LLC.\n\nPasso a passo:\n1. No Threads\, pub
- lique o Post 1.\n2. Toque em Adicionar à sequência e cole os posts segui
- ntes\, um por vez\, na ordem.\n3. Publique o fio inteiro de uma vez.\n\nVa
- lores em reais pela cotação PTAX de 16 out\, US$ 1 = R$ 5\,0826 (Banco C
- entral).\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-19/#t
- hreads-tarde
-URL:https://fontedemana.com.br/pauta/2026-10-19/#threads-tarde
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Fio da edição 14
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-19-stories-tarde@fontedemana.com.br
-DTSTAMP:20261023T002115Z
-DTSTART:20261019T180000Z
-DURATION:PT15M
-SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
-DESCRIPTION:Story com a imagem de Tymna the Weaver no Topdeck do Dia e o st
- icker de link para a edição completa.\n\nArquivos:\n- Topdeck do Dia: ht
- tps://fontedemana.com.br/kit/ed14/carrossel-03.jpg\n\nPasso a passo:\n1. B
- aixe a imagem e poste no Story.\n2. Adicione o sticker de Link para fonted
- emana.com.br com o texto Edição completa\, embaixo do texto do Topdeck.\
- n3. Publique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-
- 19/#stories-tarde
-URL:https://fontedemana.com.br/pauta/2026-10-19/#stories-tarde
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Topdeck do Dia com link
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-19-reels@fontedemana.com.br
-DTSTAMP:20261023T002115Z
-DTSTART:20261019T220000Z
-DURATION:PT15M
-SUMMARY:19:00 Reels: Vídeo do jornal com música
-DESCRIPTION:Vídeo de 48 s da edição 14 com música em alta e sem narraç
- ão.\n\nArquivos:\n- Vídeo da edição 14: https://fontedemana.com.br/kit
- /ed14/video-vertical-ed14.mp4\n\nLegenda:\nFestival in a Box: Atlanta abre
-  hoje com a primeira caixa de Mystery Booster Commander Edition\, por US$ 
- 249\,99 (R$ 1.270\,60). E a Tymna the Weaver no Topdeck. Tudo em fontedema
- na.com.br\n\nVocê abriria uma caixa de Mystery Booster Commander ou prefe
- re esperar as cartas avulsas?\n\nValores em reais pela cotação PTAX de 1
- 6 out (Banco Central).\n\n#mtg #magicthegathering #commander #edh #mtgbras
- il\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Cont
- ent Policy. Not approved/endorsed by Wizards. Portions of the materials us
- ed are property of Wizards of the Coast. ©Wizards of the Coast LLC.\n\nPa
- sso a passo:\n1. No Instagram\, toque em + e escolha Reel.\n2. Escolha o v
- ídeo e adicione uma música em alta pela biblioteca do app\, com volume b
- aixo.\n3. Cole a Legenda e publique.\n\nValores em reais pela cotação PT
- AX de 16 out\, US$ 1 = R$ 5\,0826 (Banco Central).\n\nPauta completa: http
- s://fontedemana.com.br/pauta/2026-10-19/#reels
-URL:https://fontedemana.com.br/pauta/2026-10-19/#reels
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reels: Vídeo do jornal com música
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fdm-2026-10-20-gravacao@fontedemana.com.br
-DTSTAMP:20261023T002115Z
+DTSTAMP:20261023T102144Z
 DTSTART:20261019T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -310,7 +44,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-20-tiktok@fontedemana.com.br
-DTSTAMP:20261023T002115Z
+DTSTAMP:20261023T102144Z
 DTSTART:20261020T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Dicionário do Commander #2\, staple
@@ -339,7 +73,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-20-threads-manha@fontedemana.com.br
-DTSTAMP:20261023T002115Z
+DTSTAMP:20261023T102144Z
 DTSTART:20261020T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Você acha que regra para carta de 
@@ -361,7 +95,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-20-stories-manha@fontedemana.com.br
-DTSTAMP:20261023T002115Z
+DTSTAMP:20261023T102144Z
 DTSTART:20261020T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -381,7 +115,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-20-feed@fontedemana.com.br
-DTSTAMP:20261023T002115Z
+DTSTAMP:20261023T102144Z
 DTSTART:20261020T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 15
@@ -418,7 +152,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-20-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261023T002115Z
+DTSTAMP:20261023T102144Z
 DTSTART:20261020T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -437,7 +171,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-20-threads-tarde@fontedemana.com.br
-DTSTAMP:20261023T002115Z
+DTSTAMP:20261023T102144Z
 DTSTART:20261020T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 15
@@ -469,7 +203,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-20-stories-tarde@fontedemana.com.br
-DTSTAMP:20261023T002115Z
+DTSTAMP:20261023T102144Z
 DTSTART:20261020T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -489,7 +223,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-20-reels@fontedemana.com.br
-DTSTAMP:20261023T002115Z
+DTSTAMP:20261023T102144Z
 DTSTART:20261020T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -516,7 +250,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-21-gravacao@fontedemana.com.br
-DTSTAMP:20261023T002115Z
+DTSTAMP:20261023T102144Z
 DTSTART:20261020T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -559,7 +293,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-21-tiktok@fontedemana.com.br
-DTSTAMP:20261023T002115Z
+DTSTAMP:20261023T102144Z
 DTSTART:20261021T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Deck em 40 segundos: Krenko\, Mob Boss
@@ -588,7 +322,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-21-threads-manha@fontedemana.com.br
-DTSTAMP:20261023T002115Z
+DTSTAMP:20261023T102144Z
 DTSTART:20261021T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Se fosse comprar só um\, qual seri
@@ -610,7 +344,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-21-stories-manha@fontedemana.com.br
-DTSTAMP:20261023T002115Z
+DTSTAMP:20261023T102144Z
 DTSTART:20261021T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -630,7 +364,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-21-feed@fontedemana.com.br
-DTSTAMP:20261023T002115Z
+DTSTAMP:20261023T102144Z
 DTSTART:20261021T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 16
@@ -676,7 +410,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-21-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261023T002115Z
+DTSTAMP:20261023T102144Z
 DTSTART:20261021T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -695,7 +429,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-21-threads-tarde@fontedemana.com.br
-DTSTAMP:20261023T002115Z
+DTSTAMP:20261023T102144Z
 DTSTART:20261021T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 16
@@ -736,7 +470,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-21-stories-tarde@fontedemana.com.br
-DTSTAMP:20261023T002115Z
+DTSTAMP:20261023T102144Z
 DTSTART:20261021T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -756,7 +490,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-21-reels@fontedemana.com.br
-DTSTAMP:20261023T002115Z
+DTSTAMP:20261023T102144Z
 DTSTART:20261021T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -785,7 +519,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-22-gravacao@fontedemana.com.br
-DTSTAMP:20261023T002115Z
+DTSTAMP:20261023T102144Z
 DTSTART:20261021T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -826,7 +560,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-22-tiktok@fontedemana.com.br
-DTSTAMP:20261023T002115Z
+DTSTAMP:20261023T102144Z
 DTSTART:20261022T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Top 5 #2: vampiros do Commander
@@ -855,7 +589,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-22-threads-manha@fontedemana.com.br
-DTSTAMP:20261023T002115Z
+DTSTAMP:20261023T102144Z
 DTSTART:20261022T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Top 5 #2: os vampiros que mais aparecem nos 
@@ -880,7 +614,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-22-stories-manha@fontedemana.com.br
-DTSTAMP:20261023T002115Z
+DTSTAMP:20261023T102144Z
 DTSTART:20261022T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -900,7 +634,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-22-feed@fontedemana.com.br
-DTSTAMP:20261023T002115Z
+DTSTAMP:20261023T102144Z
 DTSTART:20261022T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Top 5 #2: os vampiros que mais aparecem nos d
@@ -945,7 +679,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-22-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261023T002115Z
+DTSTAMP:20261023T102144Z
 DTSTART:20261022T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -964,7 +698,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-22-threads-tarde@fontedemana.com.br
-DTSTAMP:20261023T002115Z
+DTSTAMP:20261023T102144Z
 DTSTART:20261022T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 17
@@ -1001,7 +735,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-22-stories-tarde@fontedemana.com.br
-DTSTAMP:20261023T002115Z
+DTSTAMP:20261023T102144Z
 DTSTART:20261022T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1021,7 +755,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-22-reels@fontedemana.com.br
-DTSTAMP:20261023T002115Z
+DTSTAMP:20261023T102144Z
 DTSTART:20261022T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -1049,7 +783,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-23-gravacao@fontedemana.com.br
-DTSTAMP:20261023T002115Z
+DTSTAMP:20261023T102144Z
 DTSTART:20261022T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -1086,31 +820,217 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-23-tiktok@fontedemana.com.br
-DTSTAMP:20261023T002115Z
+DTSTAMP:20261023T102144Z
 DTSTART:20261023T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Chama o Juiz #2 no TikTok
 DESCRIPTION:Quiz de regra: comandante que voltou para a mão paga imposto? 
- Vídeo já narrado com a sua voz.\n\nArquivos:\n- tiktok-narrado.mp4: http
- s://fontedemana.com.br/pauta/2026-10-23/tiktok/tiktok-narrado.mp4\n\nLegen
- da:\nChama o Juiz #2: um Cyclonic Rift devolveu seu comandante para a mão
- . Para jogar de novo\, paga o imposto de comandante?\n\nComenta A\, B ou C
-  antes de ver a resposta.\n\nResposta com a regra no vídeo e no fontedema
- na.com.br\n\n#mtg #commander #magicthegathering\n\nFonte de Mana is unoffi
- cial Fan Content permitted under the Fan Content Policy. Not approved/endo
- rsed by Wizards. Portions of the materials used are property of Wizards of
-  the Coast. ©Wizards of the Coast LLC.\n\nComentário fixado:\nResposta: 
- letra C. O imposto só vale para quem conjura da zona de comando (Regras A
- brangentes\, 903.8). Da mão\, você paga só o custo normal. Quantas veze
- s você já pagou imposto à toa?\n\nPasso a passo:\n1. Poste o vídeo com
-  um som em alta da biblioteca do TikTok\, volume entre 15% e 20%.\n2. A vo
- z é sua\, não precisa do rótulo de IA.\n3. Cole a legenda e fixe o come
- ntário.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-23/#t
- iktok
+ Vídeo já narrado com a sua voz.\n\nArquivos:\n- Vídeo do TikTok narrado
+ : https://fontedemana.com.br/pauta/2026-10-23/tiktok/tiktok-narrado.mp4\n\
+ nLegenda:\nChama o Juiz #2: um Cyclonic Rift devolveu seu comandante para 
+ a mão. Para jogar de novo\, paga o imposto de comandante?\n\nComenta A\, 
+ B ou C antes de ver a resposta.\n\nResposta com a regra no vídeo e no fon
+ tedemana.com.br\n\n#mtg #commander #magicthegathering\n\nFonte de Mana is 
+ unofficial Fan Content permitted under the Fan Content Policy. Not approve
+ d/endorsed by Wizards. Portions of the materials used are property of Wiza
+ rds of the Coast. ©Wizards of the Coast LLC.\n\nComentário fixado:\nResp
+ osta: letra C. O imposto só vale para quem conjura da zona de comando (Re
+ gras Abrangentes\, 903.8). Da mão\, você paga só o custo normal. Quanta
+ s vezes você já pagou imposto à toa?\n\nPasso a passo:\n1. Poste o víd
+ eo com um som em alta da biblioteca do TikTok\, volume entre 15% e 20%.\n2
+ . A voz é sua\, não precisa do rótulo de IA.\n3. Cole a legenda e fixe 
+ o comentário.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10
+ -23/#tiktok
 URL:https://fontedemana.com.br/pauta/2026-10-23/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:TikTok: Chama o Juiz #2 no TikTok
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-23-threads-manha@fontedemana.com.br
+DTSTAMP:20261023T102144Z
+DTSTART:20261023T133000Z
+DURATION:PT15M
+SUMMARY:10:30 Threads: Debate: Chama o Juiz #2: comandante voltou para a m
+ ão. Paga imposto…
+DESCRIPTION:Post de debate do conteúdo original de hoje (Chama o Juiz) par
+ a puxar conversa.\n\nPost:\nChama o Juiz #2\n\nUm Cyclonic Rift devolveu s
+ eu comandante para a sua mão. Você já tinha jogado ele duas vezes da zo
+ na de comando nesta partida.\n\nPara jogar ele da mão agora\, quanto paga
+  de imposto?\n\nA) Mais 4\nB) Mais 2\nC) Nada\, só o custo normal\n\nCome
+ nta só a letra. Resposta aqui às 15h.\n\nPasso a passo:\n1. Abra o Threa
+ ds e cole o Post.\n2. Dica: Resposta: C. Imposto só vale para quem conjur
+ a da zona de comando (Regras Abrangentes\, 903.8).\n3. Publique e responda
+  quem comentar na primeira hora.\n\nPauta completa: https://fontedemana.co
+ m.br/pauta/2026-10-23/#threads-manha
+URL:https://fontedemana.com.br/pauta/2026-10-23/#threads-manha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Debate: Chama o Juiz #2: comandante voltou para a mão
+ . Paga imposto…
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-23-stories-manha@fontedemana.com.br
+DTSTAMP:20261023T102144Z
+DTSTART:20261023T133000Z
+DURATION:PT15M
+SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
+DESCRIPTION:Story com a capa da edição 18 (Georgiou deixa você jogar com
+  vida negativa) e um sticker de pergunta para puxar a conversa.\n\nArquivo
+ s:\n- Capa da edição 18: https://fontedemana.com.br/kit/ed18/carrossel-0
+ 1.jpg\n\nPasso a passo:\n1. Baixe a capa e poste no Story.\n2. Adicione o 
+ sticker de Pergunta no terço de baixo\, sem cobrir o título: Você jogar
+ ia com vida negativa?\n3. Publique.\n\nPauta completa: https://fontedemana
+ .com.br/pauta/2026-10-23/#stories-manha
+URL:https://fontedemana.com.br/pauta/2026-10-23/#stories-manha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Capa do jornal com sticker de pergunta
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-23-feed@fontedemana.com.br
+DTSTAMP:20261023T102144Z
+DTSTART:20261023T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram feed: Chama o Juiz #2: comandante voltou para a mã
+ o. Paga imposto para…
+DESCRIPTION:Carrossel original de 6 imagens (Chama o Juiz): Chama o Juiz #2
+ : comandante voltou para a mão. Paga imposto para jogar de novo?. Feito p
+ ara salvar e compartilhar.\n\nArquivos:\n- Imagem 1 de 6: https://fontedem
+ ana.com.br/pauta/2026-10-23/original/carrossel-01.jpg\n- Imagem 2 de 6: ht
+ tps://fontedemana.com.br/pauta/2026-10-23/original/carrossel-02.jpg\n- Ima
+ gem 3 de 6: https://fontedemana.com.br/pauta/2026-10-23/original/carrossel
+ -03.jpg\n- Imagem 4 de 6: https://fontedemana.com.br/pauta/2026-10-23/orig
+ inal/carrossel-04.jpg\n- Imagem 5 de 6: https://fontedemana.com.br/pauta/2
+ 026-10-23/original/carrossel-05.jpg\n- Imagem 6 de 6: https://fontedemana.
+ com.br/pauta/2026-10-23/original/carrossel-06.jpg\n\nLegenda:\nChama o Jui
+ z #2: comandante voltou para a mão no Commander. Paga imposto para jogar 
+ de novo?\n\nUm Cyclonic Rift devolve o seu comandante\, que já foi jogado
+  duas vezes da zona de comando. Quanto custa jogar ele da mão?\n\nA) Mais
+  4\nB) Mais 2\nC) Nada\, só o custo normal\n\nComenta a sua letra antes d
+ e arrastar. A resposta\, a regra e o erro que a mesa mais comete estão no
+  carrossel.\n\nFontes: Regras Abrangentes (903.8 e 903.9) e rulings oficia
+ is de Command Beacon no Scryfall.\n\nMais regra de Commander sem juridiqu
+ ês em fontedemana.com.br\n\nSalva para a próxima discussão na mesa e ma
+ nda pro amigo que sempre paga imposto à toa.\n\n#mtg #commander #magicthe
+ gathering\n\nFonte de Mana is unofficial Fan Content permitted under the F
+ an Content Policy. Not approved/endorsed by Wizards. Portions of the mater
+ ials used are property of Wizards of the Coast. ©Wizards of the Coast LLC
+ .\n\nPasso a passo:\n1. No Instagram\, toque em + e escolha Post.\n2. Sele
+ cione as 6 imagens na ordem\, da 1 à 6.\n3. Cole a Legenda e publique.\n\
+ nPauta completa: https://fontedemana.com.br/pauta/2026-10-23/#feed
+URL:https://fontedemana.com.br/pauta/2026-10-23/#feed
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram feed: Chama o Juiz #2: comandante voltou para a mão.
+  Paga imposto para…
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-23-stories-meio-dia@fontedemana.com.br
+DTSTAMP:20261023T102144Z
+DTSTART:20261023T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
+DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
+ .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
+ e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
+ o do post: Comandante voltou para a mão. Paga imposto? com Mais 4\, Mais 
+ 2 e Nada.\n3. Publique.\n\nPauta completa: https://fontedemana.com.br/paut
+ a/2026-10-23/#stories-meio-dia
+URL:https://fontedemana.com.br/pauta/2026-10-23/#stories-meio-dia
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-23-threads-tarde@fontedemana.com.br
+DTSTAMP:20261023T102144Z
+DTSTART:20261023T180000Z
+DURATION:PT15M
+SUMMARY:15:00 Threads: Fio da edição 18
+DESCRIPTION:Fio com 6 posts contando a edição 18. O último é o aviso de
+  conteúdo de fã.\n\nPost 1:\nGeorgiou\, Terran Emperor\, revelada nas pr
+ évias de Star Trek: mítica lendária preta de 6 manas\, 4/6. Enquanto el
+ a estiver no campo\, você não perde por ficar com 0 ou menos de vida.\n\
+ nPost 2:\nNo fim de cada turno seu\, você perde 3 de vida e compra uma ca
+ rta. Se a vida estiver em 0 ou menos\, cria dez fichas Oficial 1/1 vermelh
+ as. Dano de comandante e veneno continuam valendo.\n\nPost 3:\nOutra novid
+ ade: Strange new worlds\, palavra que conta terrenos com nomes diferentes.
+  Excalbian Gamemaster cria uma ficha 1/1 para cada nome. Básico repetido 
+ conta como um só.\n\nPost 4:\nTopdeck do Dia: Platinum Angel\, de 2003. V
+ ocê não perde o jogo e ninguém vence enquanto ele estiver no campo. A p
+ artir de US$ 9\,59 (R$ 48\,21) no Scryfall.\n\nPost 5:\nEdição completa 
+ em fontedemana.com.br\n\nValores em reais pela cotação de 21 out (Banco 
+ Central\, PTAX).\n\nPost 6 (aviso de fã):\nFonte de Mana is unofficial Fa
+ n Content permitted under the Fan Content Policy. Not approved/endorsed by
+  Wizards. Portions of the materials used are property of Wizards of the Co
+ ast. ©Wizards of the Coast LLC.\n\nPasso a passo:\n1. No Threads\, publiq
+ ue o Post 1.\n2. Toque em Adicionar à sequência e cole os posts seguinte
+ s\, um por vez\, na ordem.\n3. Publique o fio inteiro de uma vez.\n\nValor
+ es em reais pela cotação de 21 out\, US$ 1 = R$ 5\,027 (PTAX do Banco Ce
+ ntral).\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-23/#th
+ reads-tarde
+URL:https://fontedemana.com.br/pauta/2026-10-23/#threads-tarde
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Fio da edição 18
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-23-stories-tarde@fontedemana.com.br
+DTSTAMP:20261023T102144Z
+DTSTART:20261023T180000Z
+DURATION:PT15M
+SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
+DESCRIPTION:Story com a imagem de Platinum Angel no Topdeck do Dia e o stic
+ ker de link para a edição completa.\n\nArquivos:\n- Topdeck do Dia: http
+ s://fontedemana.com.br/kit/ed18/carrossel-04.jpg\n\nPasso a passo:\n1. Bai
+ xe a imagem e poste no Story.\n2. Adicione o sticker de Link para fontedem
+ ana.com.br com o texto Edição completa\, embaixo do texto do Topdeck.\n3
+ . Publique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-23
+ /#stories-tarde
+URL:https://fontedemana.com.br/pauta/2026-10-23/#stories-tarde
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Topdeck do Dia com link
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-23-reels@fontedemana.com.br
+DTSTAMP:20261023T102144Z
+DTSTART:20261023T220000Z
+DURATION:PT15M
+SUMMARY:19:00 Reels: Vídeo do jornal com música
+DESCRIPTION:Vídeo de 48 s da edição 18 com música em alta e sem narraç
+ ão.\n\nArquivos:\n- Vídeo da edição 18: https://fontedemana.com.br/kit
+ /ed18/video-vertical-ed18.mp4\n\nLegenda:\nCommander: Georgiou\, Terran Em
+ peror deixa você jogar com vida negativa e ainda cria dez fichas. Nova m
+ ítica preta das prévias de Star Trek.\n\nVocê colocaria Georgiou de com
+ andante ou nas 99 de um deck de Necropotence? Conta aqui nos comentários.
+ \n\nEdição completa em fontedemana.com.br\n\n#mtg #commander #startrek\n
+ \nFonte de Mana is unofficial Fan Content permitted under the Fan Content 
+ Policy. Not approved/endorsed by Wizards. Portions of the materials used a
+ re property of Wizards of the Coast. ©Wizards of the Coast LLC.\n\nPasso 
+ a passo:\n1. No Instagram\, toque em + e escolha Reel.\n2. Escolha o víde
+ o e adicione uma música em alta pela biblioteca do app\, com volume baixo
+ .\n3. Cole a Legenda e publique.\n\nPauta completa: https://fontedemana.co
+ m.br/pauta/2026-10-23/#reels
+URL:https://fontedemana.com.br/pauta/2026-10-23/#reels
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reels: Vídeo do jornal com música
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
