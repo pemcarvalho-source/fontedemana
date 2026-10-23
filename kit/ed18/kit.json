@@ -1,0 +1,70 @@
+{
+  "n": 18,
+  "data": "23 out",
+  "carrossel": {
+    "capa": {"cor": "B", "titulo": "Georgiou deixa você jogar com vida negativa", "sub": "Nova mítica preta de Star Trek desliga a derrota por vida zerada e paga em cartas e <b>dez fichas</b>.", "credito": "Arte: Georgiou, Terran Emperor, Julia Metzger"},
+    "cartoes": [
+      {"cor": "B", "titulo": "Georgiou, Terran Emperor",
+       "itens": [
+         {"cor": "B", "html": "Mítica lendária de 6 manas, 4/6. Você não perde o jogo por ficar com 0 ou menos de vida."},
+         {"cor": "B", "html": "No fim do seu turno, perde 3 de vida e compra uma carta."},
+         {"cor": "R", "html": "Com vida em 0 ou menos, cria <b>dez fichas</b> Oficial 1/1 vermelhas."}
+       ],
+       "nota": {"rotulo": "Na sua mesa", "texto": "dano de comandante e veneno continuam valendo. Se ela sair com sua vida negativa, você perde."},
+       "fonte": "Fontes: MTG Salvation e Scryfall"},
+      {"cor": "U", "titulo": "Strange new worlds",
+       "itens": [
+         {"cor": "U", "html": "Conta terrenos com nomes diferentes. Básico repetido conta como um só."},
+         {"cor": "W", "html": "<b>Excalbian Gamemaster</b>, mítica de 6 manas, cria uma ficha 1/1 para cada nome de terreno."},
+         {"cor": "U", "html": "<b>Ensign Pavel Chekov</b> deixa você jogar terrenos exilados dos oponentes."}
+       ],
+       "fonte": "Fontes: Wizards of the Coast e Scryfall"}
+    ],
+    "topdeck": {"titulo": "Platinum Angel",
+      "habilidades": [
+        {"rotulo": "Escudo total", "texto": "Você não perde por nada: vida zerada, dano de comandante, veneno."},
+        {"rotulo": "Tranca a vitória", "texto": "Nenhum oponente vence, nem com Thassa's Oracle."},
+        {"rotulo": "Alvo pintado", "texto": "Criatura 4/4 de 7 manas sem proteção. Saiu do campo, acabou."}
+      ],
+      "extra": "Em <b>93,8 mil</b> decks no EDHREC. A partir de US$ 9,59 (R$ 48,21) no Scryfall. Reais: PTAX de 21 out",
+      "credito": "Ilustração de Brom"},
+    "ban": null,
+    "turnos": [
+      {"cor": "G", "data": "23 a 29 out", "texto": "Prévias de Star Trek todo dia"},
+      {"cor": "G", "data": "26 a 29 out", "texto": "Listas dos quatro precons"},
+      {"cor": "G", "data": "30 out", "texto": "Galeria completa de Star Trek"},
+      {"cor": "A", "data": "2 nov", "texto": "Venda do Countdown Kit da Marvel"},
+      {"cor": "G", "data": "13 nov", "texto": "Star Trek chega às lojas"}
+    ],
+    "sussurro": null
+  },
+  "video": {
+    "cena1": {"titulo": "Georgiou deixa você jogar com vida negativa", "pilulas": ["Mítica preta", "6 manas", "Star Trek"]},
+    "cena2": {"rotulo": "Novidade", "cor": "G", "titulo": "Strange new worlds",
+      "itens": ["Conta terrenos com nomes diferentes que você controla", "Excalbian Gamemaster cria uma ficha 1/1 por nome", "Básico repetido conta como um só"],
+      "fonte": "Fontes: Wizards of the Coast e Scryfall"},
+    "cena3": {"linhas": ["<b>Platinum Angel</b>: você não perde e ninguém vence", "Desde 2003, em 93,8 mil decks no EDHREC", "Com Ad Nauseam, revela o grimório inteiro sem morrer"]},
+    "cena4": {"texto": "Listas completas dos precons de Star Trek de 26 a 29 de outubro, um por dia.", "sussurro": null}
+  },
+  "textos": {
+    "legendaCarrossel": "Commander: carta de Magic nova que deixa você jogar com vida negativa. Georgiou, Terran Emperor chegou nas prévias de Star Trek.\n\nGeorgiou é uma mítica lendária preta de 6 manas. Enquanto ela estiver no campo, você não perde por ficar com 0 ou menos de vida. No fim do seu turno, perde 3 de vida e compra uma carta, e se a vida estiver em 0 ou menos, cria dez fichas Oficial 1/1.\n\nAtenção na mesa: dano de comandante e veneno continuam valendo, e se ela sair do campo com sua vida negativa, você perde na hora.\n\nTambém tem a palavra Strange new worlds, que conta terrenos com nomes diferentes, e o Topdeck do Dia é Platinum Angel.\n\nEdição completa em fontedemana.com.br\n\nArte da capa: Georgiou, Terran Emperor, Julia Metzger. Topdeck: Platinum Angel, Brom.\n\nValores em reais pela cotação de 21 out (Banco Central, PTAX).\n\n#mtg #commander #startrek",
+    "legendaVideo": "Commander: Georgiou, Terran Emperor deixa você jogar com vida negativa e ainda cria dez fichas. Nova mítica preta das prévias de Star Trek.\n\nVocê colocaria Georgiou de comandante ou nas 99 de um deck de Necropotence? Conta aqui nos comentários.\n\nEdição completa em fontedemana.com.br\n\n#mtg #commander #startrek",
+    "threadsPost": "Star Trek revelou Georgiou, Terran Emperor: mítica preta de 6 manas que impede você de perder por vida zerada. No fim do seu turno, você perde 3 de vida e compra uma carta. Com vida em 0 ou menos, cria dez fichas 1/1. Dano de comandante e veneno ainda matam, e se ela sair com sua vida negativa, você perde. Comandante ou nas 99? fontedemana.com.br",
+    "threadsFio": [
+      "Georgiou, Terran Emperor, revelada nas prévias de Star Trek: mítica lendária preta de 6 manas, 4/6. Enquanto ela estiver no campo, você não perde por ficar com 0 ou menos de vida.",
+      "No fim de cada turno seu, você perde 3 de vida e compra uma carta. Se a vida estiver em 0 ou menos, cria dez fichas Oficial 1/1 vermelhas. Dano de comandante e veneno continuam valendo.",
+      "Outra novidade: Strange new worlds, palavra que conta terrenos com nomes diferentes. Excalbian Gamemaster cria uma ficha 1/1 para cada nome. Básico repetido conta como um só.",
+      "Topdeck do Dia: Platinum Angel, de 2003. Você não perde o jogo e ninguém vence enquanto ele estiver no campo. A partir de US$ 9,59 (R$ 48,21) no Scryfall.",
+      "Edição completa em fontedemana.com.br\n\nValores em reais pela cotação de 21 out (Banco Central, PTAX)."
+    ],
+    "threadsAvulsos": [
+      {"titulo": "Pergunta do dia", "texto": "Georgiou, Terran Emperor deixa você jogar com vida negativa e cria dez fichas quando a vida zera. Você jogaria com ela de comandante ou nas 99?", "obs": "Opções: comandante, nas 99, nenhum dos dois"}
+    ]
+  },
+  "pauta": {
+    "forca": "calmo",
+    "porque": "Georgiou é mais uma carta da temporada de prévias de Star Trek, assunto das últimas edições.",
+    "storyPergunta": "Você jogaria com vida negativa?",
+    "enquete": {"pergunta": "Georgiou, Terran Emperor no seu deck?", "opcoes": ["De comandante", "Nas 99", "Nem pensar"]}
+  }
+}
