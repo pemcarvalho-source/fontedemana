@@ -30,25 +30,26 @@
    "segundos": 12.4
   },
   {
-   "tipo": "lista",
+   "tipo": "combo",
    "cor": "A",
    "chip": "No bolso",
    "kicker": "Comprou, sangrou",
-   "linhas": [
+   "titulo": "Três cartas que punem a compra",
+   "cartas": [
+    "pauta/2026-10-24/original/carta-1.jpg",
+    "pauta/2026-10-24/original/carta-3.jpg",
+    "pauta/2026-10-24/original/carta-2.jpg"
+   ],
+   "numerar": true,
+   "passos": [
     {
-     "nome": "Kederekt Parasite",
-     "valor": "US$ 7,73",
-     "real": "(R$ 38,86)"
+     "txt": "Kederekt Parasite: US$ 7,73 (R$ 38,86)"
     },
     {
-     "nome": "Fate Unraveler",
-     "valor": "US$ 2,79",
-     "real": "(R$ 14,03)"
+     "txt": "Fate Unraveler: US$ 2,79 (R$ 14,03)"
     },
     {
-     "nome": "Underworld Dreams",
-     "valor": "US$ 1,94",
-     "real": "(R$ 9,75)"
+     "txt": "Underworld Dreams: US$ 1,94 (R$ 9,75)"
     }
    ],
    "fonte": "Scryfall, 23 out",
