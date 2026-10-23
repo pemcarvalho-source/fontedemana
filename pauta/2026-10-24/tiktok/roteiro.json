@@ -1,0 +1,77 @@
+{
+ "data": "2026-10-24",
+ "pilar": "dc500",
+ "tema": "Valgavoth, o demônio de Duskmourn, cresce a cada turno do oponente",
+ "item": null,
+ "arte": "pauta/2026-10-24/tiktok/arte.jpg",
+ "carta": "pauta/2026-10-24/tiktok/carta.jpg",
+ "credito": "Arte: Valgavoth, Harrower of Souls, Chris Cold",
+ "fx": "Reais pela cotação de 21 out (Banco Central, PTAX)",
+ "legenda": "Valgavoth, o demônio da casa mal-assombrada de Duskmourn, no DC500: o Commander 1 contra 1 com teto de R$ 500, e o comandante fica fora da conta.\n\nO truque é fazer o oponente perder vida no próprio turno. Três peças que fazem isso somam US$ 12,46 (R$ 62,64) no Scryfall.\n\nA sua loja joga DC500?\n\nReais pela cotação de 21 out (Banco Central, PTAX). O preço que vale no torneio é o da fonte que a loja escolher.\n\n#dc500 #commander #mtg",
+ "comentario": "Valgavoth no DC500: quais outras cartas de terror você poria nessa lista?",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "cor": "R",
+   "chip": "Radar DC500",
+   "kicker": "Especial de Halloween",
+   "titulo": "O demônio de Duskmourn no teto de R$ 500",
+   "sub": "No DC500, o comandante fica fora da conta",
+   "narracao": "O demônio da casa mal-assombrada cabe num deck de Commander de quinhentos reais. No DC500, o comandante nem entra na conta.",
+   "segundos": 9.6
+  },
+  {
+   "tipo": "texto",
+   "cor": "B",
+   "kicker": "Como o Valgavoth funciona",
+   "titulo": "Perdeu vida no próprio turno? Ele cresce e você compra",
+   "sub": "Uma vez em cada turno do oponente: um marcador +1/+1 e uma carta para você",
+   "narracao": "Valgavoth é um quatro por quatro voador. Na primeira vez que o oponente perde vida no turno dele, o demônio ganha um marcador e você compra uma carta.",
+   "segundos": 12.4
+  },
+  {
+   "tipo": "lista",
+   "cor": "A",
+   "chip": "No bolso",
+   "kicker": "Comprou, sangrou",
+   "linhas": [
+    {
+     "nome": "Kederekt Parasite",
+     "valor": "US$ 7,73",
+     "real": "(R$ 38,86)"
+    },
+    {
+     "nome": "Fate Unraveler",
+     "valor": "US$ 2,79",
+     "real": "(R$ 14,03)"
+    },
+    {
+     "nome": "Underworld Dreams",
+     "valor": "US$ 1,94",
+     "real": "(R$ 9,75)"
+    }
+   ],
+   "fonte": "Scryfall, 23 out",
+   "narracao": "O truque é punir a compra de carta. Essas três tiram vida do oponente quando ele compra no próprio turno, e juntas custam uns sessenta e três reais.",
+   "segundos": 12.4
+  },
+  {
+   "tipo": "texto",
+   "cor": "R",
+   "kicker": "Na mesa",
+   "titulo": "Todo turno dele vira carta para você",
+   "sub": "O oponente compra, toma 1 de dano, e o Valgavoth cresce. Para mirar nele, o oponente ainda paga 2 de vida",
+   "narracao": "Na mesa fica assim: ele compra, toma um de dano, e o seu demônio cresce. E quem quiser mirar no Valgavoth paga duas vidas antes.",
+   "segundos": 11.2
+  },
+  {
+   "tipo": "cta",
+   "cor": "M",
+   "kicker": "Todo dia no Instagram",
+   "titulo": "A sua loja joga DC500?",
+   "destaque": "@fontedemana",
+   "narracao": "A sua loja joga DC500? Mais ideias de deck no fontedemana ponto com ponto br.",
+   "segundos": 7.2
+  }
+ ]
+}

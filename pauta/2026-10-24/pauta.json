@@ -1,0 +1,81 @@
+{
+ "data": "2026-10-24",
+ "fx": "Valores em reais pela cotação de 21 out (Banco Central, PTAX).",
+ "avisos": [
+  {
+   "id": "gravacao",
+   "dia": "2026-10-23",
+   "hora": "18:30",
+   "rede": "Gravação",
+   "titulo": "Gravar a narração do TikTok de amanhã",
+   "oQue": "Radar DC500 com tema de Halloween: Valgavoth, o demônio de Duskmourn, e as três cartas baratas que fazem o oponente sangrar quando compra. Grave um áudio por cena, lendo a fala de cada uma.",
+   "arquivos": [
+    {
+     "nome": "Vídeo mudo (tiktok-mudo.mp4)",
+     "url": "https://fontedemana.com.br/pauta/2026-10-24/tiktok/tiktok-mudo.mp4"
+    }
+   ],
+   "roteiro": [
+    {
+     "cena": "Cena 1, uns 10 s",
+     "tela": "O demônio de Duskmourn no teto de R$ 500. No DC500, o comandante fica fora da conta",
+     "fala": "O demônio da casa mal-assombrada cabe num deck de Commander de quinhentos reais. No DC500, o comandante nem entra na conta."
+    },
+    {
+     "cena": "Cena 2, uns 12 s",
+     "tela": "Perdeu vida no próprio turno? Ele cresce e você compra. Uma vez em cada turno do oponente: um marcador +1/+1 e uma carta para você",
+     "fala": "Valgavoth é um quatro por quatro voador. Na primeira vez que o oponente perde vida no turno dele, o demônio ganha um marcador e você compra uma carta."
+    },
+    {
+     "cena": "Cena 3, uns 12 s",
+     "tela": "Comprou, sangrou: Kederekt Parasite US$ 7,73 (R$ 38,86), Fate Unraveler US$ 2,79 (R$ 14,03), Underworld Dreams US$ 1,94 (R$ 9,75)",
+     "fala": "O truque é punir a compra de carta. Essas três tiram vida do oponente quando ele compra no próprio turno, e juntas custam uns sessenta e três reais."
+    },
+    {
+     "cena": "Cena 4, uns 11 s",
+     "tela": "Todo turno dele vira carta para você. O oponente compra, toma 1 de dano, e o Valgavoth cresce. Para mirar nele, o oponente ainda paga 2 de vida",
+     "fala": "Na mesa fica assim: ele compra, toma um de dano, e o seu demônio cresce. E quem quiser mirar no Valgavoth paga duas vidas antes."
+    },
+    {
+     "cena": "Cena 5, uns 7 s",
+     "tela": "A sua loja joga DC500? @fontedemana",
+     "fala": "A sua loja joga DC500? Mais ideias de deck no fontedemana ponto com ponto br."
+    }
+   ],
+   "passos": [
+    "Grave um áudio por cena no Gravador do iPhone, num lugar silencioso, com o celular a um palmo da boca.",
+    "Nomeie os áudios cena_1, cena_2, cena_3, cena_4 e cena_5.",
+    "Mande os áudios ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"áudios do TikTok de 2026-10-24\"."
+   ]
+  },
+  {
+   "id": "tiktok",
+   "hora": "11:30",
+   "rede": "TikTok",
+   "titulo": "Valgavoth no DC500, o demônio no teto de R$ 500",
+   "oQue": "Vídeo do Radar DC500 com tema de Halloween: Valgavoth e as cartas que punem a compra, dentro do teto do formato.",
+   "arquivos": [
+    {
+     "nome": "Vídeo mudo (tiktok-mudo.mp4)",
+     "url": "https://fontedemana.com.br/pauta/2026-10-24/tiktok/tiktok-mudo.mp4"
+    }
+   ],
+   "textos": [
+    {
+     "rotulo": "Legenda",
+     "texto": "Valgavoth, o demônio da casa mal-assombrada de Duskmourn, no DC500: o Commander 1 contra 1 com teto de R$ 500, e o comandante fica fora da conta.\n\nO truque é fazer o oponente perder vida no próprio turno. Três peças que fazem isso somam US$ 12,46 (R$ 62,64) no Scryfall.\n\nA sua loja joga DC500?\n\nReais pela cotação de 21 out (Banco Central, PTAX). O preço que vale no torneio é o da fonte que a loja escolher.\n\n#dc500 #commander #mtg"
+    },
+    {
+     "rotulo": "Comentário fixado",
+     "texto": "Valgavoth no DC500: quais outras cartas de terror você poria nessa lista?"
+    }
+   ],
+   "passos": [
+    "Poste com um som em alta da biblioteca do TikTok, com volume entre 15% e 20%.",
+    "A voz é sua, não precisa de rótulo de IA.",
+    "Fixe o comentário logo depois de postar.",
+    "Se os áudios não chegarem, poste o vídeo mudo com uma música em alta."
+   ]
+  }
+ ]
+}

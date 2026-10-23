@@ -1,0 +1,52 @@
+{
+  "data": "2026-10-24",
+  "pilar": "dc500",
+  "item": null,
+  "tema": "Valgavoth, Harrower of Souls e as cartas que punem a compra",
+  "cartas": ["Valgavoth, Harrower of Souls", "Kederekt Parasite", "Underworld Dreams", "Fate Unraveler"],
+  "fx": "Valores em reais pela cotação de 21 out (Banco Central, PTAX).",
+  "carrossel": {
+    "capa": {"cor": "R", "chip": "Radar DC500", "kicker": "Especial de Halloween", "titulo": "O demônio de Duskmourn no <b>teto de R$ 500</b>", "sub": "Valgavoth custa mais que as três peças-chave do deck juntas. No DC500, <b>o comandante fica fora da conta</b>", "arte": "pauta/2026-10-24/tiktok/arte.jpg", "credito": "Arte: Valgavoth, Harrower of Souls, Chris Cold"},
+    "cartoes": [
+      {"cor": "A", "titulo": "A conta do teto",
+       "itens": [
+         {"cor": "A", "html": "No DC500, as 99 somam no máximo <b>R$ 500</b>, e o comandante <b>não entra no limite</b>"},
+         {"cor": "R", "html": "Valgavoth sai por <b>US$ 24,08 (R$ 121,05)</b> e não gasta nada do teto"},
+         {"cor": "U", "html": "Quem escolhe a fonte de preço é <b>o organizador do torneio</b>"}
+       ],
+       "nota": {"rotulo": "Antes do evento", "texto": "reconfira a lista na fonte que a loja usar, preço muda."},
+       "fx": "Dólar do Scryfall em 23 out. Reais pela cotação de 21 out (Banco Central, PTAX).",
+       "fonte": "Fonte: MTGDC500, Scryfall"},
+      {"cor": "B", "titulo": "Como o demônio cresce",
+       "itens": [
+         {"cor": "B", "html": "Voador <b>4/4</b> por quatro manas, preto e vermelho"},
+         {"cor": "R", "html": "Na <b>primeira vez</b> que o oponente perde vida <b>no turno dele</b>: marcador +1/+1 e você compra uma carta"},
+         {"cor": "W", "html": "Para mirar nele, o oponente <b>paga 2 de vida</b> antes"}
+       ],
+       "nota": {"rotulo": "A pergunta é", "texto": "como fazer o oponente perder vida todo turno sem gastar?"},
+       "fonte": "Fonte: Scryfall"},
+      {"cor": "R", "titulo": "Kederekt Parasite", "carta": "pauta/2026-10-24/original/carta-1.jpg",
+       "itens": [
+         {"cor": "R", "html": "Um <b>Horror</b> de uma mana: o oponente compra e toma <b>1 de dano</b>, se você tiver permanente vermelha"},
+         {"cor": "A", "html": "<b>US$ 7,73 (R$ 38,86)</b>, a peça mais cara das três"}
+       ],
+       "fonte": "Fonte: Scryfall, 23 out"},
+      {"cor": "B", "titulo": "Underworld Dreams", "carta": "pauta/2026-10-24/original/carta-2.jpg",
+       "itens": [
+         {"cor": "B", "html": "Encantamento: cada carta que o oponente compra vira <b>1 de dano</b> nele"},
+         {"cor": "A", "html": "<b>US$ 1,94 (R$ 9,75)</b>. O custo é três manas pretas"}
+       ],
+       "fonte": "Fonte: Scryfall, 23 out"},
+      {"cor": "B", "titulo": "Fate Unraveler", "carta": "pauta/2026-10-24/original/carta-3.jpg",
+       "itens": [
+         {"cor": "B", "html": "Uma <b>bruxa</b> (Hag) que faz o mesmo e ainda bloqueia"},
+         {"cor": "A", "html": "<b>US$ 2,79 (R$ 14,03)</b>. As três juntas: <b>US$ 12,46 (R$ 62,64)</b>"}
+       ],
+       "fonte": "Fonte: Scryfall, 23 out. As três estão na lista média do EDHREC"}
+    ],
+    "cta": {"pergunta": "A sua loja joga <b>DC500</b>?", "quando": "Conta onde e quando nos comentários", "salvar": "Salva para montar o seu Valgavoth sem estourar o teto"}
+  },
+  "legenda": "Commander barato com terror: Valgavoth, o demônio de Duskmourn, num deck de Magic dentro do teto do DC500.\n\nNo Duel Commander 500, as 99 cartas somam no máximo R$ 500 e o comandante fica fora da conta. Valgavoth cresce e compra carta quando o oponente perde vida no próprio turno. Kederekt Parasite, Underworld Dreams e Fate Unraveler fazem exatamente isso, e as três juntas custam US$ 12,46 (R$ 62,64).\n\nFontes: MTGDC500, Scryfall e EDHREC. Mais no fontedemana.com.br\n\nA sua loja joga DC500?\n\n#dc500 #commander #mtg",
+  "threads": {"texto": "No DC500, o comandante não entra no teto de R$ 500. O Valgavoth custa uns 121 reais e sai de graça na conta, enquanto três cartas que fazem o oponente sangrar na compra somam uns 63 reais.\n\nIsso é esperteza ou brecha? O comandante devia entrar no teto?", "obs": "Enquete: Comandante fora do teto / Comandante dentro do teto"},
+  "enquete": {"pergunta": "O comandante devia entrar no teto do DC500?", "opcoes": ["Sim, tudo na conta", "Não, fica de fora"]}
+}
