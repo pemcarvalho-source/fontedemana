@@ -11,6 +11,7 @@
    A partir de plano.json > rosto.desde vale a cena "rosto": no vídeo mudo ela sai como cena de texto; na narração, se o
    arquivo dessa cena for um vídeo (o Paulo falando para a câmera), ele entra no lugar do quadro, com o título por cima
    (cena-N-rosto.png). Na narração, cada arquivo pode ser áudio ou vídeo; das cenas sem rosto, só a voz é usada.
+   Cena "carta": uma carta grande na tela, com o preço logo abaixo (Top 5, Deck, listas de cartas: uma carta por cena).
    Formato do roteiro.json em tools/pauta/LEIA.md. */
 'use strict';
 const fs = require('fs'), path = require('path'), os = require('os'), cp = require('child_process');
@@ -23,7 +24,7 @@ if (!/^\d{4}-\d{2}-\d{2}$/.test(DATA)) { console.error('Uso: node tools/pauta/ti
 const DIR = path.join(ROOT, 'pauta', DATA, 'tiktok');
 const FPS = 30, FADE = 0.4;
 const SEPS = [' · ', ' – ', ' — ', '—'];
-const TIPOS = ['gancho', 'lista', 'texto', 'cta', 'quiz', 'resposta', 'combo', 'rosto'];
+const TIPOS = ['gancho', 'lista', 'texto', 'cta', 'quiz', 'resposta', 'combo', 'rosto', 'carta'];
 /* Zona segura no quadro de 1080x1920 (medida num iPhone em 17 out 2026 e conferida com o guia de zonas seguras do TikTok):
    o app amplia o vídeo para preencher a tela e corta as laterais, o zoom do movimento corta mais 26 px por lado,
    os botões ocupam a direita da metade de baixo e a legenda ocupa o rodapé. Texto entre x 120 e 880 e acima de y 1560. */
@@ -76,7 +77,7 @@ function validate(r) {
     if (c.tipo === 'rosto') { req(RO, n + ': cena rosto só vale a partir de ' + ((PLANO.rosto || {}).desde || 'plano.json > rosto.desde')); len(c.gravar, 140, n + '.gravar (o que o Paulo mostra e faz na gravação)'); }
     len(c.chip, 18, n + '.chip', true);
     len(c.kicker, 40, n + '.kicker');
-    if (c.tipo !== 'lista') len(c.titulo, 64, n + '.titulo');
+    if (c.tipo !== 'lista') len(c.titulo, c.tipo === 'carta' ? 40 : 64, n + '.titulo', c.tipo === 'carta');
     len(c.sub, 140, n + '.sub', true);
     len(c.rodape, 110, n + '.rodape', true);
     len(c.fonte, 60, n + '.fonte', true);
@@ -87,6 +88,12 @@ function validate(r) {
       req(Array.isArray(c.passos) && c.passos.length >= 2 && c.passos.length <= 4, n + '.passos precisa de 2 a 4');
       if (c.inicio != null) req(Number.isInteger(c.inicio) && c.inicio >= 1 && c.inicio <= 9, n + '.inicio precisa ser inteiro de 1 a 9 (primeiro número das cartas e dos passos)');
       (c.passos || []).forEach((p, j) => { len(p.txt, 70, `${n}.passos[${j}].txt`); len(p.valor, 10, `${n}.passos[${j}].valor`, true); });
+    }
+    if (c.tipo === 'carta') {
+      req(typeof c.carta === 'string' && exists(path.join(ROOT, c.carta)), `${n}.carta não encontrada: ${c.carta}`);
+      len(c.valor, 12, n + '.valor', true); len(c.real, 16, n + '.real', true);
+      req(!c.real || c.valor, n + '.real precisa do valor em dólar (valor) antes');
+      if (/US\$/.test(c.valor || '') && r.fx) req(/^\(R\$ /.test(c.real || ''), n + '.real precisa do valor em reais entre parênteses');
     }
     if (c.tipo === 'lista') {
       req(Array.isArray(c.linhas) && c.linhas.length >= 1 && c.linhas.length <= 3, n + '.linhas precisa de 1 a 3');
@@ -128,7 +135,7 @@ function validate(r) {
   if (r.carta) req(exists(path.join(ROOT, r.carta)), 'carta não encontrada: ' + r.carta);
   const texto = JSON.stringify(r);
   SEPS.forEach(s => req(!texto.includes(s), 'separador proibido: "' + s + '"'));
-  const semLinhas = JSON.stringify({ c: (r.cenas || []).concat(r.ganchoB && typeof r.ganchoB === 'object' ? [r.ganchoB] : []).map(c => Object.assign({}, c, { linhas: undefined, narracao: undefined })), l: r.legenda || '', m: r.comentario || '' });
+  const semLinhas = JSON.stringify({ c: (r.cenas || []).concat(r.ganchoB && typeof r.ganchoB === 'object' ? [r.ganchoB] : []).map(c => Object.assign({}, c, { linhas: undefined, narracao: undefined }, c.tipo === 'carta' ? { valor: undefined } : {})), l: r.legenda || '', m: r.comentario || '' });
   if (r.fx) { const re = /US\$ ?\d+(?:[.,]\d+)*/g; let m; while ((m = re.exec(semLinhas))) if (!/^ ?\(R\$ ?\d/.test(semLinhas.slice(re.lastIndex, re.lastIndex + 8))) E.push('valor em dólar sem o real entre parênteses: ' + m[0]); }
   else req(!/\(R\$/.test(texto), 'tem valor em reais mas falta fx com a nota da cotação');
   return E;
@@ -166,6 +173,7 @@ function nBlocos(c) {
   if (c.tipo === 'resposta') return 1 + (c.sub ? 1 : 0);
   if (c.tipo === 'combo') return Math.max((c.cartas || []).length, (c.passos || []).length, 1) + (c.rodape ? 1 : 0);
   if (c.tipo === 'cta') return 1 + (c.destaque ? 1 : 0);
+  if (c.tipo === 'carta') return 1 + (c.valor ? 1 : 0) + (c.sub ? 1 : 0);
   return 1 + (c.sub ? 1 : 0) + (c.rodape ? 1 : 0);
 }
 
@@ -227,6 +235,13 @@ h1{font-family:CZ;font-weight:700;font-size:80px;line-height:1.05;margin-top:22p
 .ps .pt{font-family:CP;font-weight:600;font-size:36px;line-height:1.14}
 .ps .pv{font-family:CZ;font-weight:700;font-size:40px;white-space:nowrap;color:#8c1d12}
 .cb .foot{font-size:38px;margin-top:22px}
+.ccg{position:absolute;top:400px;left:50%;transform:translateX(-50%);width:540px;border-radius:30px;box-shadow:0 0 0 6px #0b0a09,0 40px 80px -20px rgba(0,0,0,.95)}
+.cg h1{font-size:56px;margin-top:10px}
+.pz{display:flex;align-items:baseline;flex-wrap:wrap;gap:6px 22px;margin-top:14px}
+.pz .v{font-family:CZ;font-weight:700;font-size:78px;line-height:1.05;color:var(--goldtxt);text-shadow:0 3px 14px rgba(0,0,0,.7);white-space:nowrap}
+.pz .r{font-family:CP;font-weight:600;font-size:46px;color:#F3EEE2;white-space:nowrap}
+.cg .sub{font-size:40px;line-height:1.2;margin-top:12px}
+.cg .srcl{margin-top:18px}.cg .fxn{margin-top:12px}
 .cd{position:absolute;top:400px;right:120px;display:flex;flex-direction:column;align-items:center;gap:18px}
 .cd .n{width:250px;height:250px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:CD;font-weight:900;font-size:170px;line-height:1;color:var(--goldtxt);background:rgba(15,15,19,.82);box-shadow:0 0 0 8px var(--goldtxt),0 30px 60px -10px rgba(0,0,0,.9)}
 .cd .t{font-family:CZ;font-weight:700;font-size:40px;color:#F3EEE2;text-shadow:0 3px 12px rgba(0,0,0,.9);background:rgba(15,15,19,.7);padding:10px 26px;border-radius:40px}`;
@@ -258,6 +273,12 @@ h1{font-family:CZ;font-weight:700;font-size:80px;line-height:1.05;margin-top:22p
     const passos = c.passos.map((p, j) => `<div class="ps"${h(j + 1)}><span class="pn">${j + ini}</span><span class="pt">${rich(p.txt)}</span>${p.valor ? '<span class="pv">' + esc(p.valor) + '</span>' : '<span></span>'}</div>`).join('');
     inner = `<div class="art"></div>${top}<div class="crow">${cartas}</div><div class="body cb" style="top:${430 + Math.round(w * 1.395) + (c.numerar ? 70 : 45)}px"><div class="kicker"${h(1)}>${pip(c.cor || 'R')} ${esc(c.kicker)}</div>
       <h1${h(1)}>${rich(c.titulo)}</h1><div class="tbox fr-${c.cor || 'R'}"${h(1)}>${passos}</div>${c.rodape ? '<div class="foot"' + h(m + 1) + '>' + rich(c.rodape) + '</div>' : ''}${fonte}${fx}</div>`;
+  } else if (c.tipo === 'carta') {
+    /* uma carta grande (540 px de largura, uns 750 de altura) e o preço logo abaixo; entram a carta, depois o preço, depois o sub */
+    ah = 1240;
+    const kv = c.valor ? 2 : 1;
+    inner = `<div class="art"></div>${top}<img class="ccg"${h(1)} src="${furl(path.join(ROOT, c.carta))}"><div class="body cg" style="top:1185px"><div class="kicker"${h(1)}>${pip(c.cor || 'A')} ${esc(c.kicker)}</div>
+      ${c.titulo ? '<h1' + h(1) + '>' + rich(c.titulo) + '</h1>' : ''}${c.valor ? '<div class="pz"' + h(kv) + '><span class="v">' + esc(c.valor) + '</span>' + (c.real ? '<span class="r">' + esc(c.real) + '</span>' : '') + '</div>' : ''}${c.sub ? '<div class="sub"' + h(kv + 1) + '>' + rich(c.sub) + '</div>' : ''}${fonte}${fx}</div>`;
   } else if (c.tipo === 'cta') {
     inner = `<div class="art"></div>${top}${card ? '<img class="cardimg" src="' + card + '">' : ''}
       <div class="body" style="top:1050px"><div class="kicker"${h(1)}>${pip(c.cor || 'M')} ${esc(c.kicker)}</div>

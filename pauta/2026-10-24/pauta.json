@@ -23,23 +23,23 @@
     },
     {
      "cena": "Cena 2, uns 12 s",
-     "tela": "Perdeu vida no próprio turno? Ele cresce e você compra. Uma vez em cada turno do oponente: um marcador +1/+1 e uma carta para você",
+     "tela": "Perdeu vida no próprio turno? Ele cresce e você compra. Uma vez por turno do oponente: marcador +1/+1 e uma carta. Para mirar nele, o oponente paga 2 de vida",
      "fala": "Valgavoth é um quatro por quatro voador. Na primeira vez que o oponente perde vida no turno dele, o demônio ganha um marcador e você compra uma carta."
     },
     {
-     "cena": "Cena 3, uns 12 s",
-     "tela": "As três cartas na tela: Kederekt Parasite US$ 7,73 (R$ 38,86), Fate Unraveler US$ 2,79 (R$ 14,03), Underworld Dreams US$ 1,94 (R$ 9,75)",
-     "fala": "O truque é punir a compra de carta. Essas três tiram vida do oponente quando ele compra no próprio turno, e juntas custam uns sessenta e três reais."
+     "cena": "Cena 3, uns 7 s",
+     "tela": "A carta Kederekt Parasite grande, com US$ 7,73 (R$ 38,86) embaixo. Um Horror de uma mana que pune cada compra",
+     "fala": "Kederekt Parasite: o oponente compra e leva um de dano. Uns trinta e nove reais."
     },
     {
-     "cena": "Cena 4, uns 11 s",
-     "tela": "Todo turno dele vira carta para você. O oponente compra, toma 1 de dano, e o Valgavoth cresce. Para mirar nele, o oponente ainda paga 2 de vida",
-     "fala": "Na mesa fica assim: ele compra, toma um de dano, e o seu demônio cresce. E quem quiser mirar no Valgavoth paga duas vidas antes."
+     "cena": "Cena 4, uns 7 s",
+     "tela": "A carta Fate Unraveler grande, com US$ 2,79 (R$ 14,03) embaixo. Uma bruxa (Hag) que faz o mesmo e ainda bloqueia",
+     "fala": "Fate Unraveler, uma bruxa que faz a mesma coisa e ainda bloqueia. Uns catorze reais."
     },
     {
-     "cena": "Cena 5, uns 7 s",
-     "tela": "A sua loja joga DC500? @fontedemana",
-     "fala": "A sua loja joga DC500? Mais ideias de deck no fontedemana ponto com ponto br."
+     "cena": "Cena 5, uns 10 s",
+     "tela": "A carta Underworld Dreams grande, com US$ 1,94 (R$ 9,75) embaixo. As três juntas: US$ 12,46 (R$ 62,64)",
+     "fala": "Underworld Dreams fecha o trio por uns dez reais. As três juntas, uns sessenta e três. A sua loja joga DC500?"
     }
    ],
    "passos": [
