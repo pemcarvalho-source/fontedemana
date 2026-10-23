@@ -8,6 +8,9 @@
        (com ganchoB no roteiro, o último áudio é o do gancho B e sai também tiktok-teste-narrado.mp4)
    A partir de plano.json > video.desde vale o molde novo: cenas curtas, partes reveladas uma de cada vez
    (cena-N-pK.jpg) e, com ganchoB, a versão de teste (cena-1b.jpg, tiktok-teste.mp4).
+   A partir de plano.json > rosto.desde vale a cena "rosto": no vídeo mudo ela sai como cena de texto; na narração, se o
+   arquivo dessa cena for um vídeo (o Paulo falando para a câmera), ele entra no lugar do quadro, com o título por cima
+   (cena-N-rosto.png). Na narração, cada arquivo pode ser áudio ou vídeo; das cenas sem rosto, só a voz é usada.
    Formato do roteiro.json em tools/pauta/LEIA.md. */
 'use strict';
 const fs = require('fs'), path = require('path'), os = require('os'), cp = require('child_process');
@@ -20,7 +23,7 @@ if (!/^\d{4}-\d{2}-\d{2}$/.test(DATA)) { console.error('Uso: node tools/pauta/ti
 const DIR = path.join(ROOT, 'pauta', DATA, 'tiktok');
 const FPS = 30, FADE = 0.4;
 const SEPS = [' · ', ' – ', ' — ', '—'];
-const TIPOS = ['gancho', 'lista', 'texto', 'cta', 'quiz', 'resposta', 'combo'];
+const TIPOS = ['gancho', 'lista', 'texto', 'cta', 'quiz', 'resposta', 'combo', 'rosto'];
 /* Zona segura no quadro de 1080x1920 (medida num iPhone em 17 out 2026 e conferida com o guia de zonas seguras do TikTok):
    o app amplia o vídeo para preencher a tela e corta as laterais, o zoom do movimento corta mais 26 px por lado,
    os botões ocupam a direita da metade de baixo e a legenda ocupa o rodapé. Texto entre x 120 e 880 e acima de y 1560. */
@@ -31,6 +34,8 @@ const LETRAS = 'ABCD';
    Antes dessa data, tudo segue como antes: um quadro por cena. */
 const PLANO = (() => { try { return JSON.parse(fs.readFileSync(path.join(ROOT, 'tools/conteudo/plano.json'), 'utf8')); } catch (e) { return {}; } })();
 const V = PLANO.video && PLANO.video.desde && DATA >= PLANO.video.desde ? PLANO.video : null;
+/* Paulo no vídeo (plano.json > rosto): cena do tipo rosto, gravada por ele em vídeo, nos pilares da lista */
+const RO = V && PLANO.rosto && PLANO.rosto.desde && DATA >= PLANO.rosto.desde ? PLANO.rosto : null;
 
 const exists = p => { try { return fs.statSync(p).size > 0; } catch (e) { return false; } };
 const esc = s => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -51,7 +56,7 @@ function validate(r) {
   len(r.tema, 80, 'tema');
   const [cmin, cmax] = V ? V.cenas : [3, 5];
   req(Array.isArray(r.cenas) && r.cenas.length >= cmin && r.cenas.length <= cmax, `cenas precisa de ${cmin} a ${cmax} itens`);
-  const falaMax = c => !V ? 260 : c.tipo === 'gancho' ? V.ganchoMax : c.tipo === 'cta' ? V.ctaMax : V.narracaoMax;
+  const falaMax = (c, i) => !V ? 260 : (c.tipo === 'gancho' || (c.tipo === 'rosto' && i === 0)) ? V.ganchoMax : c.tipo === 'cta' ? V.ctaMax : V.narracaoMax;
   (r.cenas || []).forEach((c, i) => {
     const n = 'cenas[' + i + ']';
     req(TIPOS.includes(c.tipo), n + '.tipo precisa ser ' + TIPOS.join(', '));
@@ -67,7 +72,8 @@ function validate(r) {
       if (resp) req(JSON.stringify(resp.opcoes) === JSON.stringify(c.opcoes), n + ': a cena resposta precisa repetir as mesmas opcoes do quiz, na mesma ordem');
     }
     req('WUBRGAM'.includes(c.cor || 'A') && String(c.cor || 'A').length === 1, n + '.cor inválida');
-    len(c.narracao, falaMax(c), n + '.narracao');
+    len(c.narracao, falaMax(c, i), n + '.narracao');
+    if (c.tipo === 'rosto') { req(RO, n + ': cena rosto só vale a partir de ' + ((PLANO.rosto || {}).desde || 'plano.json > rosto.desde')); len(c.gravar, 140, n + '.gravar (o que o Paulo mostra e faz na gravação)'); }
     len(c.chip, 18, n + '.chip', true);
     len(c.kicker, 40, n + '.kicker');
     if (c.tipo !== 'lista') len(c.titulo, 64, n + '.titulo');
@@ -89,6 +95,11 @@ function validate(r) {
   });
   if (V) {
     if (r.pilar != null) req((PLANO.pilares || {})[r.pilar], 'pilar desconhecido em plano.json: ' + r.pilar);
+    if (RO && Array.isArray(r.cenas)) {
+      const nr = r.cenas.filter(c => c.tipo === 'rosto').length;
+      if ((RO.pilares || []).includes(r.pilar)) req(r.cenas[0] && r.cenas[0].tipo === 'rosto', 'no pilar ' + r.pilar + ' o Paulo aparece no vídeo: a cena 1 precisa ser do tipo rosto (plano.json > rosto)');
+      req(nr <= (RO.maxCenas || 3), `no máximo ${RO.maxCenas || 3} cenas rosto por vídeo (tem ${nr})`);
+    }
     if (r.ganchoB != null) {
       const g = r.ganchoB;
       req(g && typeof g === 'object' && (g.tipo || 'gancho') === 'gancho', 'ganchoB precisa ser uma cena do tipo gancho');
@@ -104,7 +115,7 @@ function validate(r) {
       const soma = est.reduce((a, b) => a + b, 0);
       const teto = (V.longos || []).includes(r.pilar) ? V.segundosLongos : V.segundos[1];
       req(soma <= teto + 2, `a fala soma uns ${soma.toFixed(0)} s (máximo ${teto} s${r.pilar ? ' para o pilar ' + r.pilar : ''}, sem contar a contagem): encurte as falas ou tire uma cena`);
-      r.cenas.forEach((c, i) => { const b = nBlocos(c), cada = est[i] / b; req(cada <= V.parado, `cena ${i + 1} fica uns ${cada.toFixed(1)} s com a mesma tela (${b} ${b > 1 ? 'partes' : 'parte'} para ${est[i].toFixed(1)} s de fala): encurte a fala, acrescente sub ou rodapé, ou divida em duas cenas`); });
+      r.cenas.forEach((c, i) => { if (c.tipo === 'rosto') return; const b = nBlocos(c), cada = est[i] / b; req(cada <= V.parado, `cena ${i + 1} fica uns ${cada.toFixed(1)} s com a mesma tela (${b} ${b > 1 ? 'partes' : 'parte'} para ${est[i].toFixed(1)} s de fala): encurte a fala, acrescente sub ou rodapé, ou divida em duas cenas`); });
     }
   } else req(r.ganchoB == null, 'ganchoB só vale a partir de ' + ((PLANO.video || {}).desde || 'a data do molde novo'));
   // isca de engajamento (plano.json > isca, desde 26 out 2026): fala, tela, legenda e comentário sem "comenta X", "marca quem" ou "manda pro amigo"
@@ -252,12 +263,33 @@ h1{font-family:CZ;font-weight:700;font-size:80px;line-height:1.05;margin-top:22p
       <div class="body" style="top:1050px"><div class="kicker"${h(1)}>${pip(c.cor || 'M')} ${esc(c.kicker)}</div>
       <h1 style="font-size:76px">${rich(c.titulo)}</h1>${c.destaque ? '<div class="big"' + h(2) + '>' + esc(c.destaque) + '</div>' : ''}${fx}</div>`;
   } else {
-    const t = c.tipo === 'gancho' ? 1000 : 860;
-    ah = c.tipo === 'gancho' ? 1000 : 820;
+    const g = c.tipo === 'gancho' || (c.tipo === 'rosto' && i === 0);   /* cena rosto sem o vídeo do Paulo: sai como texto (ou gancho, se for a 1) */
+    const t = g ? 1000 : 860;
+    ah = g ? 1000 : 820;
     inner = `<div class="art"></div>${top}${cred}<div class="body" style="top:${t}px"><div class="kicker"${h(1)}>${pip(c.cor || 'A')} ${esc(c.kicker)}</div>
       <h1${h(1)}>${rich(c.titulo)}</h1>${c.sub ? '<div class="sub"' + h(2) + '>' + rich(c.sub) + '</div>' : ''}${c.rodape ? '<div class="foot"' + h(c.sub ? 3 : 2) + '>' + rich(c.rodape) + '</div>' : ''}${fonte}${fx}</div>`;
   }
   return `<!doctype html><html><head><meta charset="utf-8"><style>${css}${extra}</style></head><body><div class="canvas" style="--ah:${ah}px">${inner}</div></body></html>`;
+}
+
+/* Título por cima do vídeo do Paulo (cena rosto): fundo transparente, marca e chip no alto e o kicker com o título
+   numa caixa escura no terço de cima, para o rosto ficar livre no meio da tela. */
+function overlayHTML(r, c) {
+  const css = fs.readFileSync(path.join(ROOT, 'tools/kit/kit.css'), 'utf8')
+    .split('{{FONTS}}').join(furl(path.join(ROOT, 'tools/kit/fonts')))
+    .split('{{LANDS}}').join(furl(path.join(ROOT, 'lands')));
+  const cor = c.cor || 'A';
+  const pip = cor === 'M' ? '<span class="pip p-M" style="--s:40px"><i class="wd wW"></i><i class="wd wU"></i><i class="wd wB"></i><i class="wd wR"></i><i class="wd wG"></i></span>' : `<span class="pip p-${cor}" style="--s:40px"></span>`;
+  const extra = `html,body{background:transparent!important}
+.canvas{width:1080px;height:1920px;background:none!important}
+.shade{position:absolute;left:0;right:0;top:0;height:760px;background:linear-gradient(180deg,rgba(10,10,14,.62) 0%,rgba(10,10,14,.35) 55%,rgba(10,10,14,0) 100%)}
+.top{position:absolute;top:300px;left:120px;right:120px;display:flex;justify-content:space-between;align-items:center}
+.top .brand{font-size:52px}
+.ov{position:absolute;top:390px;left:120px;right:120px;background:rgba(15,15,19,.74);border-radius:28px;padding:26px 34px 30px;box-shadow:0 18px 40px -12px rgba(0,0,0,.7)}
+.kicker{font-size:28px}
+.ov h1{font-family:CZ;font-weight:700;font-size:60px;line-height:1.06;margin-top:14px;color:#F3EEE2}`;
+  const top = `<div class="top"><div class="brand">Fonte <span class="de">de</span> Mana</div>${c.chip ? '<span class="chip">' + esc(c.chip) + '</span>' : ''}</div>`;
+  return `<!doctype html><html><head><meta charset="utf-8"><style>${css}${extra}</style></head><body><div class="canvas"><div class="shade"></div>${top}<div class="ov"><div class="kicker">${pip} ${esc(c.kicker)}</div><h1>${rich(c.titulo)}</h1></div></div></body></html>`;
 }
 
 async function renderFrames(r) {
@@ -267,7 +299,7 @@ async function renderFrames(r) {
   const pg = await browser.newPage({ viewport: { width: 1080, height: 1920 } });
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'fdm-pauta-'));
   const out = [];
-  fs.readdirSync(DIR).filter(f => /^cena-\d+-c\d\.jpg$/.test(f) || /^cena-\d+-p\d+\.jpg$/.test(f) || /^cena-1b(-p\d+)?\.jpg$/.test(f)).forEach(f => fs.unlinkSync(path.join(DIR, f)));
+  fs.readdirSync(DIR).filter(f => /^cena-\d+-c\d\.jpg$/.test(f) || /^cena-\d+-p\d+\.jpg$/.test(f) || /^cena-1b(-p\d+)?\.jpg$/.test(f) || /^cena-\d+-rosto\.png$/.test(f)).forEach(f => fs.unlinkSync(path.join(DIR, f)));
   const shot = async (html, nome, rotulo, checa) => {
     const f = path.join(tmp, nome + '.html');
     fs.writeFileSync(f, html);
@@ -286,6 +318,14 @@ async function renderFrames(r) {
     await shot(pageHTML(r, c, i, null), 'cena-' + tag, rotulo, true);
     if (V) for (let k = 1; k < nBlocos(c); k++) await shot(pageHTML(r, c, i, null, k), 'cena-' + tag + '-p' + k, rotulo, false);
     for (const n of contagemDe(c)) await shot(pageHTML(r, c, i, n), 'cena-' + tag + '-c' + n, rotulo, true);
+    if (c.tipo === 'rosto' && tag !== '1b') {
+      const f = path.join(tmp, 'cena-' + tag + '-rosto.html');
+      fs.writeFileSync(f, overlayHTML(r, c));
+      await pg.goto(furl(f)); await pg.evaluate(() => document.fonts.ready); await pg.waitForTimeout(250);
+      const over = await pg.evaluate(() => { const b = document.querySelector('.ov'); return b ? b.getBoundingClientRect().bottom : 0; });
+      if (over > 960) throw new Error(`${rotulo}: o título por cima do vídeo desce até y ${Math.round(over)} e cobre o rosto; encurte o kicker ou o título`);
+      await pg.screenshot({ path: overlayDe(i), type: 'png', omitBackground: true });
+    }
     if (tag !== '1b') out.push(quadroDe(i));
   }
   await browser.close();
@@ -301,6 +341,39 @@ function passosDe(tag, c) {
 /* contagem regressiva da cena quiz: [5, 4, 3, 2, 1] e o caminho de cada quadro */
 function contagemDe(c) { const n = c.tipo === 'quiz' && c.contagem ? c.contagem : 0; return Array.from({ length: n }, (x, k) => n - k); }
 function quadroDe(i, n) { return path.join(DIR, 'cena-' + (i + 1) + (n ? '-c' + n : '') + '.jpg'); }
+function overlayDe(i) { return path.join(DIR, 'cena-' + (i + 1) + '-rosto.png'); }
+
+/* ---------- vídeo do Paulo (cena rosto) ---------- */
+function probe(f, args) { try { return cp.execFileSync('ffprobe', ['-v', 'error'].concat(args, [f]), { encoding: 'utf8' }).trim(); } catch (e) { return ''; } }
+/* o arquivo tem imagem de verdade (não só a capa de um áudio)? */
+function temVideo(f) {
+  try { const j = JSON.parse(probe(f, ['-select_streams', 'v', '-show_entries', 'stream=codec_type:stream_disposition=attached_pic', '-of', 'json'])); return (j.streams || []).some(s => !(s.disposition && s.disposition.attached_pic)); } catch (e) { return false; }
+}
+/* vídeo HDR do iPhone (HLG ou PQ) vira SDR, senão as cores saem lavadas */
+function sdr(f) {
+  const t = probe(f, ['-select_streams', 'v:0', '-show_entries', 'stream=color_transfer', '-of', 'csv=p=0']);
+  if (!/arib-std-b67|smpte2084/.test(t)) return '';
+  return `zscale=tin=${/b67/.test(t) ? 'arib-std-b67' : 'smpte2084'}:min=bt2020nc:pin=bt2020:t=linear:npl=100,format=gbrpf32le,zscale=p=bt709,tonemap=tonemap=hable:desat=0,zscale=t=bt709:m=bt709:r=tv,format=yuv420p,`;
+}
+/* começo e fim da fala no vídeo (o silêncio das pontas sai, sem tirar a imagem do lugar) */
+function pontas(f) {
+  const D = dur(f);
+  const p = cp.spawnSync('ffmpeg', ['-hide_banner', '-nostats', '-i', f, '-vn', '-af', 'silencedetect=noise=-42dB:d=0.25', '-f', 'null', '-'], { encoding: 'utf8', timeout: 120000 });
+  const L = p.stderr || '', ss = [...L.matchAll(/silence_start: (-?[\d.]+)/g)].map(m => +m[1]), se = [...L.matchAll(/silence_end: ([\d.]+)/g)].map(m => +m[1]);
+  let ini = 0, fim = D;
+  if (ss.length && ss[0] <= 0.05 && se.length) ini = Math.max(0, se[0] - 0.15);
+  const ult = ss[ss.length - 1];
+  if (ss.length && ult > ini + 0.5 && (se.length < ss.length || se[se.length - 1] >= D - 0.05)) fim = Math.min(D, ult + 0.3);
+  return fim - ini >= 1 ? [ini, fim] : [0, D];
+}
+/* a cena rosto pronta: o trecho falado, cortado para 1080x1920, com o título por cima; e a fala em wav */
+function cenaRosto(f, overlay, tmp, k) {
+  const [ini, fim] = pontas(f), t = (fim - ini).toFixed(3);
+  const mp4 = path.join(tmp, 'r' + k + '.mp4'), wav = path.join(tmp, 'c' + k + '.wav');
+  run(['-y', '-loglevel', 'error', '-ss', ini.toFixed(3), '-t', t, '-i', f, '-i', overlay, '-filter_complex', `[0:v]${sdr(f)}scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,setsar=1,fps=${FPS},format=yuv420p[f];[f][1:v]overlay=0:0:format=auto,format=yuv420p[v]`, '-map', '[v]', '-an', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '20', '-r', String(FPS), mp4]);
+  run(['-y', '-loglevel', 'error', '-ss', ini.toFixed(3), '-t', t, '-i', f, '-vn', '-af', 'aresample=48000', '-ac', '2', wav]);
+  return { video: mp4, audio: wav, segundos: dur(mp4) };
+}
 
 /* ---------- vídeo ---------- */
 function run(args, timeout) { const p = cp.spawnSync('ffmpeg', args, { encoding: 'utf8', timeout: timeout || 300000 }); if (p.status !== 0) throw new Error('ffmpeg falhou: ' + (p.stderr || '').slice(-600)); return p; }
@@ -310,7 +383,7 @@ function estimate(txt) { const w = plain(txt).split(/\s+/).filter(Boolean).lengt
 /* Molde novo: cada cena é a sequência dos seus quadros (partes reveladas e a cena inteira) em corte seco, com o mesmo
    movimento contínuo da cena; depois vem a contagem do quiz, se houver; entre cenas, o mesmo fade. Tudo em quadros
    inteiros, para os cortes e o fade caírem no lugar certo. steps[i]: arquivos da cena i; lens[i]: segundos de fala. */
-function buildVideoV(steps, lens, audios, out, conts) {
+function buildVideoV(steps, lens, audios, out, conts, leads) {
   conts = conts || steps.map(() => []);
   const args = ['-y', '-loglevel', 'error'];
   const fr = s => Math.max(1, Math.round(s * FPS));
@@ -319,6 +392,14 @@ function buildVideoV(steps, lens, audios, out, conts) {
   const crop = (j, y) => `[${j}:v]scale=1134:2016,crop=1080:1920:x='(iw-ow)/2':y='${y}',setsar=1,format=yuv420p`;
   const dursF = [], segF = [];
   steps.forEach((S, i) => {
+    if (S && S.video) {
+      /* cena rosto: o vídeo do Paulo inteiro, sem zoom (a fala casa com a boca); o último quadro segura o fade */
+      const LF = fr(lens[i]), extra = i < steps.length - 1 ? fadeF : fr(0.6);
+      dursF.push(LF); segF.push(LF + extra);
+      args.push('-i', S.video); const j = idx++;
+      fl.push(`[${j}:v]fps=${FPS},setsar=1,format=yuv420p,tpad=stop_mode=clone:stop_duration=${((extra + 2) / FPS).toFixed(4)},trim=end_frame=${LF + extra},setpts=PTS-STARTPTS,settb=1/${FPS}[v${i}]`);
+      return;
+    }
     const cont = conts[i] || [];
     const LF = Math.max(fr(lens[i]), S.length);
     const extra = i < steps.length - 1 ? fadeF : fr(0.6);
@@ -340,7 +421,7 @@ function buildVideoV(steps, lens, audios, out, conts) {
   const total = (segF.reduce((a, b) => a + b, 0) - fadeF * (steps.length - 1)) / FPS;
   if (audios) {
     let startF = 0;
-    audios.forEach((a, i) => { const d = Math.round((startF / FPS + 0.35) * 1000); fl.push(`[${idx + i}:a]adelay=${d}|${d}[a${i}]`); startF += dursF[i]; });
+    audios.forEach((a, i) => { const d = Math.round((startF / FPS + (leads ? leads[i] : 0.35)) * 1000); fl.push(`[${idx + i}:a]adelay=${d}|${d}[a${i}]`); startF += dursF[i]; });
     fl.push(`${audios.map((a, i) => '[a' + i + ']').join('')}amix=inputs=${audios.length}:normalize=0:duration=longest,apad,loudnorm=I=-14:TP=-1.5:LRA=11,aresample=48000[aout]`);
   }
   args.push('-filter_complex', fl.join(';'), '-map', '[' + prev + ']');
@@ -410,24 +491,33 @@ function buildVideo(frames, lens, audios, out, conts) {
       console.log('OK, ' + n + ' cenas em ' + nQuadros + ' quadros (cada parte entra em até ' + V.parado + ' s)' + (nConta ? ' com contagem de ' + nConta + ' s depois da pergunta' : '') + ', vídeo mudo de ' + total.toFixed(1) + ' s em pauta/' + DATA + '/tiktok/tiktok-mudo.mp4' + msgB);
     } else {
       if (AUDIOS.length !== n && !(B && AUDIOS.length === n + 1)) { console.log('ERROS:\n  mande um áudio por cena' + (B ? ' e, por último, o do gancho B' : '') + ': o roteiro tem ' + n + ' cenas' + (B ? ' mais o gancho B' : '') + ' e chegaram ' + AUDIOS.length + ' áudios'); process.exit(1); }
-      const todos = steps.concat(B ? [stepsB[0]] : []).every(s => s.every(exists)) && conts.every(l => l.every(exists));
+      const overlays = r.cenas.map((c, i) => c.tipo === 'rosto' ? overlayDe(i) : null).filter(Boolean);
+      const todos = steps.concat(B ? [stepsB[0]] : []).every(s => s.every(exists)) && conts.every(l => l.every(exists)) && overlays.every(exists);
       if (!todos) await renderFrames(r);
       const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'fdm-narr-'));
-      const clean = AUDIOS.map((a, i) => {
+      /* cada arquivo pode ser áudio ou vídeo: na cena rosto, o vídeo entra na tela; nas outras, só a voz */
+      const prep = AUDIOS.map((a, i) => {
+        if (i < n && r.cenas[i].tipo === 'rosto' && temVideo(a)) return cenaRosto(a, overlayDe(i), tmp, i + 1);
         const o = path.join(tmp, 'c' + (i + 1) + '.wav');
-        run(['-y', '-loglevel', 'error', '-i', a, '-af', 'silenceremove=start_periods=1:start_threshold=-42dB:start_silence=0.05,areverse,silenceremove=start_periods=1:start_threshold=-42dB:start_silence=0.15,areverse,aresample=48000', '-ac', '2', o]);
-        return o;
+        run(['-y', '-loglevel', 'error', '-i', a, '-vn', '-af', 'silenceremove=start_periods=1:start_threshold=-42dB:start_silence=0.05,areverse,silenceremove=start_periods=1:start_threshold=-42dB:start_silence=0.15,areverse,aresample=48000', '-ac', '2', o]);
+        return { audio: o };
       });
+      const clean = prep.map(x => x.audio);
       const principais = clean.slice(0, n);
-      const lens = principais.map(f => dur(f) + 0.8);
-      const total = buildVideoV(steps, lens, principais, path.join(DIR, 'tiktok-narrado.mp4'), conts);
+      const stepsN = steps.map((s, i) => prep[i].video ? { video: prep[i].video } : s);
+      const lens = prep.slice(0, n).map(x => x.video ? x.segundos : dur(x.audio) + 0.8);
+      const leads = prep.slice(0, n).map(x => x.video ? 0 : 0.35);
+      const total = buildVideoV(stepsN, lens, principais, path.join(DIR, 'tiktok-narrado.mp4'), conts, leads);
+      const comRosto = prep.slice(0, n).map((x, i) => x.video ? i + 1 : 0).filter(Boolean);
+      const faltaRosto = r.cenas.map((c, i) => c.tipo === 'rosto' && !prep[i].video ? i + 1 : 0).filter(Boolean);
+      if (RO) { r.rostoGravado = comRosto.length > 0; fs.writeFileSync(rp, JSON.stringify(r, null, 1) + '\n'); }
       let msgB = '';
       if (B) {
         const aB = clean[n] || clean[0];
-        const tB = buildVideoV(stepsB, [dur(aB) + 0.8].concat(lens.slice(1)), [aB].concat(principais.slice(1)), path.join(DIR, 'tiktok-teste-narrado.mp4'), contsB);
+        const tB = buildVideoV([stepsB[0]].concat(stepsN.slice(1)), [dur(aB) + 0.8].concat(lens.slice(1)), [aB].concat(principais.slice(1)), path.join(DIR, 'tiktok-teste-narrado.mp4'), contsB, [0.35].concat(leads.slice(1)));
         msgB = '; versão de teste narrada de ' + tB.toFixed(1) + ' s em pauta/' + DATA + '/tiktok/tiktok-teste-narrado.mp4' + (clean[n] ? '' : ' (sem o áudio do gancho B: usei a fala da cena 1)');
       }
-      console.log('OK, vídeo narrado de ' + total.toFixed(1) + ' s em pauta/' + DATA + '/tiktok/tiktok-narrado.mp4 (cenas de ' + lens.map(x => x.toFixed(1)).join(', ') + ' s)' + msgB);
+      console.log('OK, vídeo narrado de ' + total.toFixed(1) + ' s em pauta/' + DATA + '/tiktok/tiktok-narrado.mp4 (cenas de ' + lens.map(x => x.toFixed(1)).join(', ') + ' s)' + (comRosto.length ? '; com o Paulo na tela na' + (comRosto.length > 1 ? 's cenas ' : ' cena ') + comRosto.join(', ') : '') + (faltaRosto.length ? '; sem vídeo na' + (faltaRosto.length > 1 ? 's cenas rosto ' : ' cena rosto ') + faltaRosto.join(', ') + ' (saiu como texto)' : '') + msgB);
     }
   } else if (!AUDIOS) {
     const frames = await renderFrames(r);

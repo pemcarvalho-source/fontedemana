@@ -89,6 +89,7 @@ pecas.forEach(p => {
   else if (p.rede === 'tiktok' || (p.formato === 'reels' && plano.reels && plano.reels.desde && p.data >= plano.reels.desde)) {
     const r = roteiro(p.data), o = original(p.data);
     p.origem = 'original'; p.pilar = (r && r.pilar) || (o && o.pilar) || null; p.tema = (r && r.tema) || (o && o.tema) || '';
+    p.rosto = !!(r && r.rostoGravado);   // o Paulo apareceu no vídeo (plano.json > rosto; o tiktok.cjs marca na narração)
   } else if (p.formato === 'reels') { p.origem = 'jornal'; p.tema = 'Vídeo do jornal'; }
   else if (p.rede === 'instagram') {
     const pa = pauta(p.data), feed = pa && (pa.avisos || []).find(a => a.id === 'feed');
@@ -270,6 +271,18 @@ if (tabPilares.length) {
   M.push('');
 }
 M.push('### Threads', '', threads.length ? `${threads.length} posts de ${faixa(JP[0])}, mediana de ${fmt(mediana(threads.map(p => p.views)))} views; ${fmt(threads.filter(p => p.origem === 'pergunta').reduce((s, p) => s + (p.respostas || 0), 0))} respostas nas perguntas da manhã. Mais vistos: ${thTop.map(p => `${ddmm(p.data)} ${p.hora} (${p.origem}, ${fmt(p.views)} views)`).join('; ')}.` : 'Sem posts do Threads na janela.', '');
+// com e sem o Paulo no vídeo (plano.json > rosto): originais orgânicos da janela, TikTok e Reels
+if (plano.rosto && plano.rosto.desde && JP[0][1] >= plano.rosto.desde) {
+  const vids = pecas.filter(p => p.origem === 'original' && p.organica && dentro(p.data, JP[0]) && (p.rede === 'tiktok' || p.formato === 'reels'));
+  const linha = (rede, nome) => {
+    const com = vids.filter(p => (rede === 'tiktok' ? p.rede === 'tiktok' : p.formato === 'reels') && p.rosto), sem = vids.filter(p => (rede === 'tiktok' ? p.rede === 'tiktok' : p.formato === 'reels') && !p.rosto);
+    if (!com.length) return null;
+    const pulo = rede === 'reels' ? `; saem nos 3 primeiros segundos ${fmt(mediana(com.map(p => p.passou3s == null ? null : 100 - p.passou3s)))}% contra ${fmt(mediana(sem.map(p => p.passou3s == null ? null : 100 - p.passou3s)))}%` : '';
+    return `- ${nome}: ${com.length} com rosto, mediana de ${fmt(mediana(com.map(p => p.views)))} views; ${sem.length} sem rosto, ${fmt(mediana(sem.map(p => p.views)))}${pulo}.`;
+  };
+  const L = [linha('tiktok', 'TikTok'), linha('reels', 'Reels')].filter(Boolean);
+  if (L.length) M.push('### Com o Paulo no vídeo', '', ...L, 'Compare também o print do TikTok Studio (% que chega a 6 s) de um vídeo com rosto e de um sem.', '');
+}
 const plantoes = pecas.filter(p => p.origem === 'plantão' && dentro(p.data, JP[0]));
 if (plantoes.length) {
   M.push('### Plantões', '');

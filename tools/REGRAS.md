@@ -9,7 +9,7 @@ Valem para o jornal, o Kit de Redes, a pauta e os conteúdos originais. Cada rot
 - Proibido usar ponto, travessão, meia-risca ou ponto médio como separador: nada de " · ", " – ", " — " ou "—". Intervalos: "6 a 12 nov". Para encadear, vírgula, "e" ou frase nova.
 - Nos campos que viram imagem ou página, só as tags `<b>` e `<i>`; `&` vira `&amp;`. Legendas e posts de Threads são texto puro.
 - Explicação de mecânica "for dummies" sem ser infantil: o que acontece na mesa, com exemplo concreto, sem copiar o texto da carta.
-- Nunca escrever "Gerado pelo Claude" nem falar de IA no conteúdo. Conteúdo sem rosto: tela, cartas e a voz do Paulo.
+- Nunca escrever "Gerado pelo Claude" nem falar de IA no conteúdo. Conteúdo sem rosto (tela, cartas e a voz do Paulo), com uma exceção a partir de 26/10/2026: nos pilares de `tools/conteudo/plano.json` > `rosto`, o próprio Paulo aparece em até 3 cenas do vídeo, gravadas por ele. Nunca outra pessoa.
 - Avisos sobre o funcionamento das rotinas (créditos, site que não abriu, imagem que falhou, erro de envio) só na mensagem final da tarefa. Nunca na página, no kit, na pauta ou em post.
 
 ## Fatos e fontes

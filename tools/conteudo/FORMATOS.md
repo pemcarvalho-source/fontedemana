@@ -58,7 +58,20 @@ As outras abas (Engajamento, Alcance, Reels de teste, Canais, Monetização, An�
 - **Postar quando os seguidores estão ativos**: o horário vem dos Insights e do Metricool (teste do TikTok às 18h).
 - **Parceria com criadores e lojas**: post em Collab chega ao público dos dois. Na Rota das Lojas, a loja marcada pode transformar o post em anúncio de parceria, o primeiro contrato possível; para isso, a conta precisa estar ligada a uma Página do Facebook.
 - **Monetização**: três caminhos (fãs, marcas e o próprio Instagram); as ferramentas aparecem no painel profissional quando a conta fica elegível.
-- **Aparecer na câmera e Canais de transmissão**: o Instagram diz que rosto cria vínculo e que canal com mensagem 3 vezes por semana segura membros. A Fonte de Mana é sem rosto por decisão do Paulo; os dois ficam como proposta, não como regra.
+- **Aparecer na câmera**: o Instagram diz que rosto cria vínculo e mais interação. Desde 26 out, o Paulo aparece nos vídeos de alguns pilares (seção "Com o Paulo no vídeo", abaixo).
+- **Canais de transmissão**: canal com mensagem 3 vezes por semana segura membros. Fica como proposta, se o recurso aparecer na conta.
+
+## Com o Paulo no vídeo (desde 26 out 2026)
+
+Pedido do Paulo em 23 out, a partir das melhores práticas do Instagram (rosto na câmera cria vínculo). Vale nos pilares de `plano.json` > `rosto`: Dicionário (toda terça), Termômetro, Debate, Toda mesa tem um e Vitrine. Os outros, inclusive o Chama o Juiz, seguem sem rosto, para a revisão comparar.
+
+- **Híbrido**: a cena 1 é o Paulo falando o gancho para a câmera (tipo `rosto`), e há no máximo mais 2 cenas rosto onde a pessoa importa: a opinião, a reação, o acessório na mão, o fecho. Cartas, listas e números continuam em cenas geradas, com a voz dele por baixo.
+- **Na tela**: o vídeo dele em tela cheia, com o kicker e o título numa caixa no terço de cima. O rosto fica no meio, livre.
+- **Fala de conversa**: frases curtas, do jeito que ele diria na mesa, sem cara de leitura. Cena 1 até 90 caracteres, as outras até 110.
+- **`gravar`**: o que ele faz e mostra. A carta física na mão é o melhor recurso (é dele, é real); na Vitrine, o acessório em uso, que é o que o Instagram pede em anúncio de parceria.
+- **Por pilar**: no Dicionário, ele diz a frase de mesa com o termo ("segura que vou dar ramp") e pergunta se você sabe o que é; no Termômetro e no Debate, a opinião dele no fecho; no Toda mesa tem um, ele imita o tipo de jogador no gancho; na Vitrine, o acessório na mão.
+- **Gravação**: celular na vertical, câmera da frente, rosto no meio e o terço de cima livre, luz de frente, Vídeo HDR desligado, um vídeo por cena com meio segundo de silêncio nas pontas. O script corta o silêncio, ajusta a cor e põe o título.
+- **Sem o vídeo dele**, a cena rosto sai como cena de texto e o vídeo mudo continua postável.
 
 ## Formatos com ferramenta pronta
 

@@ -37,7 +37,7 @@ function validate(p) {
     len(a.oQue, 400, n + '.oQue');
     (a.arquivos || []).forEach((f, j) => { len(f.nome, 60, `${n}.arquivos[${j}].nome`); req(/^https:\/\//.test(f.url || ''), `${n}.arquivos[${j}].url precisa ser um link https`); });
     (a.textos || []).forEach((t, j) => { len(t.rotulo, 40, `${n}.textos[${j}].rotulo`); len(t.texto, 2200, `${n}.textos[${j}].texto`); });
-    (a.roteiro || []).forEach((r, j) => { len(r.cena, 40, `${n}.roteiro[${j}].cena`); len(r.tela, 160, `${n}.roteiro[${j}].tela`); len(r.fala, 300, `${n}.roteiro[${j}].fala`); });
+    (a.roteiro || []).forEach((r, j) => { len(r.cena, 40, `${n}.roteiro[${j}].cena`); len(r.tela, 160, `${n}.roteiro[${j}].tela`); len(r.fala, 300, `${n}.roteiro[${j}].fala`); if (r.como != null) len(r.como, 160, `${n}.roteiro[${j}].como`); });
     (a.passos || []).forEach((s, j) => len(s, 220, `${n}.passos[${j}]`));
   });
   const texto = JSON.stringify(p, (k, v) => ['url'].includes(k) ? undefined : v);
@@ -55,7 +55,7 @@ function descricao(p, a) {
   const L = [a.oQue];
   if (a.arquivos && a.arquivos.length) L.push('', 'Arquivos:', ...a.arquivos.map(f => '- ' + f.nome + ': ' + f.url));
   (a.textos || []).forEach(t => L.push('', t.rotulo + ':', t.texto));
-  if (a.roteiro && a.roteiro.length) { L.push('', 'Roteiro de gravação:'); a.roteiro.forEach(r => L.push(r.cena, 'Na tela: ' + r.tela, 'Fala: ' + r.fala, '')); }
+  if (a.roteiro && a.roteiro.length) { L.push('', 'Roteiro de gravação:'); a.roteiro.forEach(r => L.push(r.cena, 'Na tela: ' + r.tela, ...(r.como ? ['Como gravar: ' + r.como] : []), 'Fala: ' + r.fala, '')); }
   if (a.passos && a.passos.length) L.push('', 'Passo a passo:', ...a.passos.map((s, i) => (i + 1) + '. ' + s));
   const temFx = p.fx && /\(R\$/.test(JSON.stringify(a));
   if (temFx) L.push('', p.fx);
@@ -111,7 +111,7 @@ function pagina(p) {
     const dia = a.dia && a.dia !== p.data ? ' (' + a.dia.split('-').reverse().slice(0, 2).join('/') + ')' : '';
     const files = a.arquivos && a.arquivos.length ? '<ul class="files">' + a.arquivos.map(f => '<li><a href="' + esc(f.url) + '" download>' + esc(f.nome) + '</a></li>').join('') + '</ul>' : '';
     const tx = (a.textos || []).map(t => { k++; return '<div class="tx"><b>' + esc(t.rotulo) + '</b><pre id="t' + k + '">' + esc(t.texto) + '</pre><button data-c="t' + k + '">Copiar</button></div>'; }).join('');
-    const ro = a.roteiro && a.roteiro.length ? '<div class="ro"><b>Roteiro de gravação</b>' + a.roteiro.map(r => { k++; return '<div><b>' + esc(r.cena) + '</b><p>Na tela: ' + esc(r.tela) + '</p><pre id="t' + k + '">' + esc(r.fala) + '</pre><button data-c="t' + k + '">Copiar fala</button></div>'; }).join('') + '</div>' : '';
+    const ro = a.roteiro && a.roteiro.length ? '<div class="ro"><b>Roteiro de gravação</b>' + a.roteiro.map(r => { k++; return '<div><b>' + esc(r.cena) + '</b><p>Na tela: ' + esc(r.tela) + '</p>' + (r.como ? '<p>Como gravar: ' + esc(r.como) + '</p>' : '') + '<pre id="t' + k + '">' + esc(r.fala) + '</pre><button data-c="t' + k + '">Copiar fala</button></div>'; }).join('') + '</div>' : '';
     const ps = a.passos && a.passos.length ? '<ol>' + a.passos.map(s => '<li>' + esc(s) + '</li>').join('') + '</ol>' : '';
     const fx = p.fx && /\(R\$/.test(JSON.stringify(a)) ? '<p class="fx">' + esc(p.fx) + '</p>' : '';
     return '<section class="av" id="' + esc(a.id) + '"><div class="hd"><span class="hr">' + esc(a.hora) + dia + '</span><span class="rd">' + esc(a.rede) + '</span><h2>' + esc(a.titulo) + '</h2></div><p>' + esc(a.oQue) + '</p>' + files + tx + ro + ps + fx + '</section>';

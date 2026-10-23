@@ -147,6 +147,7 @@ if (!SO_PUB) {
       const longo = (plano.video.longos || []).includes(p.id);
       out.push(`Vídeo (molde desde ${plano.video.desde}; ponha "pilar": "${p.id}" no roteiro.json): ${plano.video.regras.join(' ')} Teto para este pilar: ${longo ? plano.video.segundosLongos : plano.video.segundos[1]} s de fala, ${plano.video.cenas[0]} a ${plano.video.cenas[1]} cenas. O tiktok.cjs confere os limites e acusa cena parada.`);
     }
+    if (vale(plano.rosto) && vale(plano.video) && (plano.rosto.pilares || []).includes(p.id)) out.push(`Paulo no vídeo (cena do tipo rosto, desde ${plano.rosto.desde}; formato no tools/pauta/LEIA.md): ${plano.rosto.regras.join(' ')} No aviso de gravação, cada linha do roteiro leva "como" (o que ele faz e mostra na cena, com "Rosto" ou "Só a voz"), e os passos levam estas dicas: ${plano.rosto.gravacao.join(' ')} Na mensagem final, diga logo na primeira linha que amanhã o Paulo aparece no vídeo e mande o roteiro cena a cena, com o que gravar em cada uma.`);
     if (vale(plano.legenda)) out.push('Legendas: ' + plano.legenda.regras.join(' '));
     const teste = (plano.testes || []).find(t => t.id === 'reel-teste' && (t.dias || []).includes(DATA));
     if (teste && vale(plano.video)) out.push('Reel de teste neste dia: escreva também "ganchoB" no roteiro.json (outro gancho para o mesmo vídeo, com título e fala diferentes da cena 1, mesmo tipo gancho) e acrescente ao aviso de gravação a linha "Cena 1B (gancho do Reel de teste)" com a fala do ganchoB, para ser gravada por último como cena_1b. Mede: ' + teste.mede);

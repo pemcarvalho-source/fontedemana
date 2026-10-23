@@ -1,6 +1,6 @@
 ---
 name: fdm-orquestrar
-description: Orquestrador das rotinas da Fonte de Mana, o jornal de Magic: The Gathering do Paulo (site fontedemana.com.br, Kit de Redes e pauta de postagem). Use quando uma tarefa agendada ou o Paulo pedir para rodar uma fase da Fonte de Mana (jornal, pauta, noite, revisão ou plantão) ou quando chegarem os áudios do TikTok para juntar a narração.
+description: Orquestrador das rotinas da Fonte de Mana, o jornal de Magic: The Gathering do Paulo (site fontedemana.com.br, Kit de Redes e pauta de postagem). Use quando uma tarefa agendada ou o Paulo pedir para rodar uma fase da Fonte de Mana (jornal, pauta, noite, revisão ou plantão) ou quando chegarem os áudios ou vídeos do TikTok para juntar a narração.
 ---
 
 # Orquestrador da Fonte de Mana
@@ -16,7 +16,7 @@ Ninguém responde durante uma execução agendada: decida sozinho. Escreva em po
 | `jornal` | 5h55 | `tools/jornal/LEIA.md`, seções 1 a 12 | `data/`, `img/`, `kit/` | `data/edN.js` e `kit/edN/index.html` |
 | `pauta` | 7h20 | seção "Fase pauta" abaixo | `pauta/` | `pauta/HOJE/pauta.json` |
 | `noite` | 18h21 | `tools/pauta/LEIA.md`, seção "Tarefa da noite: original de amanhã" | `pauta/` | `pauta/AMANHA/pauta.json` |
-| `narracao` | quando o Paulo manda os áudios | `tools/pauta/LEIA.md`, seção "Juntar a narração" | `pauta/` | o link do `tiktok-narrado.mp4` |
+| `narracao` | quando o Paulo manda os áudios ou os vídeos das cenas | `tools/pauta/LEIA.md`, seção "Juntar a narração" | `pauta/` | o link do `tiktok-narrado.mp4` |
 | `revisao` | segunda, 8h58 | `tools/conteudo/REVISAO.md` | nenhuma (dados em `/tmp/fdm/revisao/`, relatório no documento privado); `tools/conteudo/` só depois que o Paulo aprovar | o relatório na aba Revisões semanais do documento |
 | `plantao` | tarefa avulsa no dia de um anúncio grande (`plano.json` > `plantao.eventos`), ou quando o Paulo pedir | `tools/conteudo/PLANTAO.md` | `pauta/` | `pauta/HOJE/plantao/carrossel-01.jpg` |
 
@@ -50,4 +50,4 @@ Siga o guia da tabela, passo a passo, sem pular nenhum. Onde o guia mandar envia
 - Escreva só nas pastas da fase. Nunca altere `index.html`, `CNAME`, `og.jpg`, `favicon.png`, `apple-touch-icon.png`, `lands/`, `README.md`, `tools/` ou `.claude/` durante uma execução agendada.
 - Não mexa em tarefas agendadas nem no artifact do jornal. Única exceção: na fase `revisao`, depois que o Paulo aprovar um plantão na conversa, crie a tarefa avulsa dele como manda a seção 8 do `tools/conteudo/REVISAO.md`. Ferramenta paga do vidIQ só na fase `jornal`, uma busca por dia, como manda o guia.
 - WebFetch só em link que voltou numa WebSearch da mesma execução (ver "Páginas da web" em `tools/REGRAS.md`). Endereço digitado ou montado pede confirmação ao Paulo e expira sem resposta.
-- Se o Paulo responder na conversa de qualquer fase com os áudios do TikTok, rode a fase `narracao` nessa mesma conversa.
+- Se o Paulo responder na conversa de qualquer fase com os áudios ou os vídeos do TikTok, rode a fase `narracao` nessa mesma conversa.
