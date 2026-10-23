@@ -49,11 +49,11 @@
    "hora": "11:30",
    "rede": "TikTok",
    "titulo": "Chama o Juiz #2 no TikTok",
-   "oQue": "Quiz de regra: comandante que voltou para a mão paga imposto? Vídeo narrado se os áudios chegarem; senão, o mudo com música em alta.",
+   "oQue": "Quiz de regra: comandante que voltou para a mão paga imposto? Vídeo já narrado com a sua voz.",
    "arquivos": [
     {
-     "nome": "tiktok-mudo.mp4",
-     "url": "https://fontedemana.com.br/pauta/2026-10-23/tiktok/tiktok-mudo.mp4"
+     "nome": "tiktok-narrado.mp4",
+     "url": "https://fontedemana.com.br/pauta/2026-10-23/tiktok/tiktok-narrado.mp4"
     }
    ],
    "textos": [
@@ -69,8 +69,7 @@
    "passos": [
     "Poste o vídeo com um som em alta da biblioteca do TikTok, volume entre 15% e 20%.",
     "A voz é sua, não precisa do rótulo de IA.",
-    "Cole a legenda e fixe o comentário.",
-    "Se os áudios não chegaram, poste o vídeo mudo com uma música em alta."
+    "Cole a legenda e fixe o comentário."
    ]
   }
  ]
