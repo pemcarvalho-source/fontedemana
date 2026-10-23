@@ -106,7 +106,7 @@ const comTopico = passos => TOPICO ? passos.slice(0, -1).concat(['Toque em Adici
 /* ---------- avisos ---------- */
 const anterior = json('pauta/' + DATA + '/pauta.json');
 // mantém tudo o que não é montado aqui (gravação e TikTok da noite, e qualquer aviso avulso); o resto é refeito
-const MONTADOS = ['threads-manha', 'stories-manha', 'feed', 'stories-meio-dia', 'threads-tarde', 'stories-tarde', 'reels', 'reels-teste', 'threads-noite'];
+const MONTADOS = ['threads-manha', 'stories-manha', 'feed', 'stories-meio-dia', 'threads-tarde', 'stories-tarde', 'reels', 'reels-teste', 'threads-noite', 'comentarios'];
 const daNoite = (anterior && anterior.avisos || []).filter(a => !MONTADOS.includes(a.id));
 const gerados = [];
 const add = a => { if (a.hora) gerados.push(a); };
@@ -222,11 +222,11 @@ if (REELS_ORIG && tiktok && roteiro && tkVideo && legOrig) {
   // Reel de teste da semana (plano.testes > reel-teste): o mesmo vídeo com o gancho B, só para quem não segue
   const rt = testesHoje.find(t => t.id === 'reel-teste');
   const tVideo = ex(tkDir + 'tiktok-teste-narrado.mp4') ? tkDir + 'tiktok-teste-narrado.mp4' : (ex(tkDir + 'tiktok-teste.mp4') ? tkDir + 'tiktok-teste.mp4' : null);
-  if (rt && tVideo) add({ id: 'reels-teste', hora: typeof rt.hora === 'string' ? rt.hora : '21:00', rede: 'Reels', titulo: 'Reel de teste: o mesmo vídeo com o gancho B',
-    oQue: 'Teste da semana: o vídeo de hoje com outro gancho, mostrado só para quem não segue. Na revisão de segunda, o alcance dele em 72 horas é comparado com o do Reels das 19:00.',
+  if (rt && tVideo) add({ id: 'reels-teste', hora: typeof rt.hora === 'string' ? rt.hora : '21:00', rede: 'Reels', titulo: 'Reel de teste: o vídeo de hoje com o gancho B',
+    oQue: 'Teste da semana: o vídeo de hoje com outro gancho, mostrado só para quem não segue. Sai antes do Reels das 19:00 porque o Instagram corta o alcance de Reel de teste com conteúdo que a conta já postou. Na revisão, as views dele são comparadas com as de não seguidores do Reels das 19:00.',
     arquivos: [{ nome: 'Vídeo de teste, gancho B' + (/narrado/.test(tVideo) ? '' : ' (mudo)'), url: url(tVideo) }],
     textos: [{ rotulo: 'Legenda', texto: legOrig }],
-    passos: ['No Instagram, toque em + e escolha Reel, com o vídeo de teste.', 'Antes de compartilhar, ative a opção de Reel de teste (Trial reel), para ele aparecer só para quem não segue.', 'Deixe o compartilhamento automático desligado: se o gancho B ganhar, a revisão avisa para publicar para todos.', 'Use a mesma música e o mesmo volume do Reels das 19:00, para o teste comparar só o gancho.', 'Cole a Legenda e publique.'] });
+    passos: ['No Instagram, toque em + e escolha Reel, com o vídeo de teste baixado daqui.', 'Antes de compartilhar, ative a opção Reel de teste (Trial reel), para ele aparecer só para quem não segue.', 'Deixe o compartilhamento automático desligado e não publique para todos depois: o Reels das 19:00 leva o vídeo aos seguidores.', 'Use a música e o volume que vai usar no Reels das 19:00, para o teste comparar só o gancho.', 'Cole a Legenda e publique.', 'Daqui a 3 dias, tire um print do Insights deste Reel e do Reels das 19:00 (views de seguidores e de não seguidores) e mande na conversa da revisão.'] });
   else if (rt) avisosLog.push('hoje é dia de Reel de teste, mas a noite não gerou o vídeo com o gancho B');
 } else if (kVideo) {
   if (REELS_ORIG) avisosLog.push('sem o vídeo original de hoje, o Reels volta a ser o vídeo do jornal');
@@ -235,6 +235,13 @@ if (REELS_ORIG && tiktok && roteiro && tkVideo && legOrig) {
     arquivos: [{ nome: 'Vídeo da edição ' + n, url: url(kVideo) }],
     textos: [{ rotulo: 'Legenda', texto: legenda(kit.textos.legendaVideo) }],
     passos: ['No Instagram, toque em + e escolha Reel.', 'Escolha o vídeo e adicione uma música em alta pela biblioteca do app, com volume baixo.', 'Cole a Legenda e publique.'] });
+}
+
+// 21:30 responder comentários (v5.2, plano.conversa): o Instagram recomenda responder em até 2 dias
+if (vale(plano.conversa)) {
+  add({ id: 'comentarios', hora: plano.conversa.hora || '21:30', rede: 'Comentários', titulo: 'Responder os comentários de hoje e de ontem',
+    oQue: 'Uns 10 minutos nas três redes: curtir e responder os comentários das últimas 48 horas, começando pelo vídeo e pelo carrossel de hoje. Conversa nos comentários leva a peça a mais gente, e o Instagram recomenda responder em até 2 dias.',
+    passos: ['Instagram: nas notificações, curta os comentários e responda com uma frase quem perguntou ou discordou.', 'TikTok e Threads: o mesmo, começando pelo post com mais comentários.', 'Pergunta boa ou dúvida que se repete, nos comentários ou nas DMs? Mande na conversa do projeto: vira tema de um pilar.'] });
 }
 
 // 19:00 Threads com o vídeo (fora da grade desde 14 out; volta se ativar em plano.json)

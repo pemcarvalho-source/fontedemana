@@ -15,7 +15,7 @@ const DATA = process.argv[3] || '';
 if (!/^\d{4}-\d{2}-\d{2}$/.test(DATA)) { console.error('Uso: node tools/pauta/pauta.cjs <raiz> <AAAA-MM-DD>'); process.exit(2); }
 const PDIR = path.join(ROOT, 'pauta');
 const SEPS = [' · ', ' – ', ' — ', '—'];
-const REDES = ['Threads', 'Instagram feed', 'Instagram Stories', 'TikTok', 'Reels', 'Gravação'];
+const REDES = ['Threads', 'Instagram feed', 'Instagram Stories', 'TikTok', 'Reels', 'Gravação', 'Comentários'];
 const esc = s => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
 function read(d) { return JSON.parse(fs.readFileSync(path.join(PDIR, d, 'pauta.json'), 'utf8')); }

@@ -6,17 +6,17 @@ Versão 2, 16 out 2026. Nasceu das gravações de criadores que o Paulo mandou c
 
 ## O que as referências ensinam (vale para qualquer pilar)
 
-- **Pergunta com letras puxa comentário.** Quem vê responde A, B ou C antes da resposta aparecer. Comentário é o sinal que mais empurra o alcance.
+- **Pergunta com letras puxa comentário.** Quem vê responde A, B ou C antes da resposta aparecer. Comentário é o sinal que mais empurra o alcance. A tela mostra as opções e pergunta "qual é a certa?"; desde 26 out a fala não manda comentar (ver "Pergunta aberta" abaixo).
 - **Tensão tela a tela.** No carrossel, cada tela deixa uma dúvida que obriga a arrastar ("Então é só pôr mais?" e na tela seguinte "Calma."). Uma ideia por tela.
 - **Número que assusta na capa.** Uma porcentagem, um preço ou uma contagem no título.
 - **Série com nome e número**, e de vez em quando um "lembra do..." que liga a um post anterior da própria Fonte de Mana.
-- **Pedido de envio com destinatário.** Em vez de "compartilhe", dizer para quem: "manda pro seu parceiro de mesa que joga com 33 terrenos".
+- **O compartilhamento vem do conteúdo, não do pedido.** A peça é identificável ("é o meu amigo", "sou eu") ou útil para guardar. Desde 26 out 2026, nada de "manda pro amigo que...": o Instagram não recomenda peça que pede envio, marcação ou comentário combinado.
 - **A carta de verdade na tela.** A imagem da carta (Scryfall) ocupa o centro; o texto explica o que ela faz na mesa.
 - **Legenda em linhas curtas** com os dados duros primeiro (bracket, preço, arquétipo) e o resto depois.
 - **Humor de situação reconhecível.** A piada é sobre o que acontece na mesa, ligada a uma regra ou carta real. Nunca sobre pessoa real, loja, criador, aparência, gênero ou qualquer grupo.
 - **A tensão do tema numa frase, numa tela só.** Ex.: "o comandante quer uma coisa, o deck entrega outra". É a tela que a pessoa lembra e manda para os amigos.
 - **Um dado duro em destaque.** Custo médio de mana, porcentagem, número de decks no EDHREC: um número grande na tela, com a fonte embaixo.
-- **Comentário que custa uma palavra.** "Comenta X ou Y" com as duas palavras escritas na tela. Pergunta aberta rende menos comentário.
+- **Pergunta aberta, com as opções na tela.** "Qual entra no seu deck?" com as duas cartas escritas. Nunca "comenta X ou Y", "comenta a letra", "marca quem" ou "segue para a parte 2": o Instagram trata como isca de engajamento e deixa de recomendar a peça, e diz que pergunta aberta é bem-vinda.
 - **Arte de carta, não arte gerada.** O Instagram marca imagem gerada por IA com o rótulo "AI content". A Fonte de Mana usa a arte das cartas (Scryfall), que é o visual que o Paulo quer.
 - **Música que combina com o tema** quando o carrossel vai com música do Instagram (dica para o Paulo na hora de postar).
 
@@ -28,7 +28,7 @@ A primeira análise das redes (22 out) mostrou que a capa do vídeo prende, mas 
 - **A promessa no primeiro segundo**, na tela e na voz: o resultado, a resposta ou o número que o vídeo entrega ("10 de dano com 5 manas. A ordem importa."). Estatística e contexto depois.
 - **Uma ideia por cena**, fala de até 110 caracteres (gancho até 90). O vídeo revela as partes uma de cada vez (título, subtítulo, cada linha, cada opção, cada carta), então nada fica parado mais de 3,5 s.
 - **Sem abertura**: nada de vinheta, apresentação ou chamada do site no começo. Site na legenda e no comentário fixado.
-- **Final na revelação**. A cta é opcional e curta ("Comenta o goblin que não sai do seu deck.").
+- **Final na revelação**. A cta é opcional e curta, uma pergunta aberta ("Qual goblin não sai do seu deck?").
 - **Combo**: continua com as cartas, a ordem de jogar e a sequência dos gatilhos, em cenas mais curtas.
 - **Reel de teste** (dias em `plano.json` > `testes`): o mesmo vídeo com outro gancho (`ganchoB`), postado só para quem não segue. O gancho que ganhar vira referência para os próximos.
 
@@ -45,6 +45,21 @@ As melhores práticas de criação do Instagram (Ferramentas profissionais), e c
 - **Som em alta**: no Reels (por baixo da voz) e no carrossel.
 - **Qualidade**: luz boa, 720p ou mais e 30 quadros por segundo (os vídeos da Fonte de Mana saem em 1080x1920 a 30).
 
+As outras abas (Engajamento, Alcance, Reels de teste, Canais, Monetização, Anúncios de parceria e Diretrizes), gravadas pelo Paulo em 23 out:
+
+- **Isca de engajamento**: peça que pede curtida, comentário com palavra combinada, marcação ou envio para inflar o engajamento é mostrada para menos gente. Daí a regra da pergunta aberta (acima) e a frase nova no fim do carrossel do jornal ("Salva para lembrar das datas"). Desde 26 out, o `tiktok.cjs`, o `original.cjs`, o `gerar.cjs` e o `plantao.cjs` recusam esses pedidos (padrões em `plano.json` > `isca`).
+- **Identificável a ponto de compartilhar**: "é literalmente eu" é o que faz a pessoa mandar. Humor de mesa e Toda mesa tem um cumprem isso sem pedir.
+- **Responder em até 2 dias**: curtir e responder comentários puxa conversa e mais alcance. Aviso diário às 21:30 na pauta, desde 26 out. Comentário e DM viram ideia de tema.
+- **Reels de teste**: usar com frequência, com história completa e gancho forte, e com conteúdo novo (Reel de teste de algo que a conta já postou perde alcance). Por isso o Reel de teste sai às 18:40, antes do Reels das 19:00, e o sucesso se mede contra as views de não seguidores dos Reels normais.
+- **Marca d'água**: Reel com marca d'água de outro app não é recomendado. O Reels usa o arquivo do site, nunca o vídeo baixado do TikTok.
+- **Copiar não**: repostar Reel ou post de outra conta tira a peça da recomendação. Tudo aqui é feito do zero, com a arte da carta creditada.
+- **Até 3 minutos**: Reel mais longo não é recomendado (os da Fonte de Mana têm de 20 a 45 s).
+- **Alcance varia**: o seguidor cresce no longo prazo. A revisão compara janelas de semana, nunca um dia.
+- **Postar quando os seguidores estão ativos**: o horário vem dos Insights e do Metricool (teste do TikTok às 18h).
+- **Parceria com criadores e lojas**: post em Collab chega ao público dos dois. Na Rota das Lojas, a loja marcada pode transformar o post em anúncio de parceria, o primeiro contrato possível; para isso, a conta precisa estar ligada a uma Página do Facebook.
+- **Monetização**: três caminhos (fãs, marcas e o próprio Instagram); as ferramentas aparecem no painel profissional quando a conta fica elegível.
+- **Aparecer na câmera e Canais de transmissão**: o Instagram diz que rosto cria vínculo e que canal com mensagem 3 vezes por semana segura membros. A Fonte de Mana é sem rosto por decisão do Paulo; os dois ficam como proposta, não como regra.
+
 ## Formatos com ferramenta pronta
 
 ### Chama o Juiz (pilar `regra`)
@@ -57,15 +72,15 @@ Quiz de regra. A situação em uma frase, a pergunta, 3 respostas, 5 segundos de
       {"tipo": "gancho", "cor": "U", "chip": "Chama o Juiz #1", "kicker": (40), "titulo": a situação (64), "narracao": ...}
       {"tipo": "quiz", "cor": "U", "chip": "Valendo", "kicker": "Chama o Juiz", "titulo": a pergunta (64),
        "opcoes": ["texto A" (40), "texto B", "texto C"], "contagem": 5,
-       "narracao": a pergunta lida e "comenta A, B ou C, você tem cinco segundos"}
+       "narracao": a pergunta lida e "qual é a certa? Cinco segundos"}
       {"tipo": "resposta", "cor": "U", "chip": "Resposta", "kicker": "Chama o Juiz", "titulo": o veredito curto (64),
        "opcoes": as mesmas do quiz, na mesma ordem, "certa": "A", "sub": o porquê (140),
        "fonte": "Regras Abrangentes, <número>", "narracao": "Letra A. ..."}
       {"tipo": "cta", ...}
 
-  A cena quiz ganha sozinha a contagem de 5 a 1 com "Comenta: A, B ou C?" depois da fala. Na gravação, o Paulo lê a pergunta e para; o silêncio da contagem já está no vídeo.
-- **Carrossel**: capa com a situação; tela com a pergunta e as três opções nos itens (`<b>A)</b> ...`), com a nota pedindo a letra nos comentários antes de arrastar; tela com a resposta e a regra; tela com a carta envolvida e o erro comum. CTA final: "acertou de primeira? manda pra quem erraria".
-- **Threads**: a pergunta com as três opções, pedindo a letra nos comentários. Em `obs`, a resposta em uma frase para o Paulo responder no próprio post à tarde.
+  A cena quiz ganha sozinha a contagem de 5 a 1 com "A, B ou C?" depois da fala (até 25 out, "Comenta: A, B ou C?"). Na gravação, o Paulo lê a pergunta e para; o silêncio da contagem já está no vídeo.
+- **Carrossel**: capa com a situação; tela com a pergunta e as três opções nos itens (`<b>A)</b> ...`), com a nota "pensa na sua antes de arrastar"; tela com a resposta e a regra; tela com a carta envolvida e o erro comum. CTA final: "você teria acertado de primeira?".
+- **Threads**: a pergunta com as três opções e "qual é a certa?". Em `obs`, a resposta em uma frase para o Paulo responder no próprio post à tarde.
 
 ### Matemática da Mesa (pilar `matematica`)
 
@@ -110,7 +125,7 @@ Duas cartas, uma vaga. Mesmo papel e custo parecido. Os números lado a lado (de
 
 Humor de observação sobre tipos de jogador de Commander. Cada peça: as frases que esse tipo sempre diz, a carta que ele adora (real, do Scryfall) e uma dica de etiqueta no fim, para a piada virar conselho.
 
-- **TikTok**: gancho "toda mesa de Commander tem um..."; 2 cenas texto com as frases; cena com a carta e a dica; CTA "marca o amigo".
+- **TikTok**: gancho "toda mesa de Commander tem um..."; 2 cenas texto com as frases; cena com a carta e a dica; cta opcional "quem é esse na sua mesa?", sem pedir marcação.
 - **Carrossel**: um tipo só em passos, ou quatro tipos com uma carta cada.
 - **Threads**: "qual desses mais aparece na sua mesa?" com opções.
 

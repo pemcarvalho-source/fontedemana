@@ -107,6 +107,12 @@ function validate(r) {
       r.cenas.forEach((c, i) => { const b = nBlocos(c), cada = est[i] / b; req(cada <= V.parado, `cena ${i + 1} fica uns ${cada.toFixed(1)} s com a mesma tela (${b} ${b > 1 ? 'partes' : 'parte'} para ${est[i].toFixed(1)} s de fala): encurte a fala, acrescente sub ou rodapé, ou divida em duas cenas`); });
     }
   } else req(r.ganchoB == null, 'ganchoB só vale a partir de ' + ((PLANO.video || {}).desde || 'a data do molde novo'));
+  // isca de engajamento (plano.json > isca, desde 26 out 2026): fala, tela, legenda e comentário sem "comenta X", "marca quem" ou "manda pro amigo"
+  if (PLANO.isca && PLANO.isca.desde && DATA >= PLANO.isca.desde) {
+    const juntar = v => typeof v === 'string' ? v : Array.isArray(v) ? v.map(juntar).join('\n') : v && typeof v === 'object' ? Object.values(v).map(juntar).join('\n') : '';
+    const tx = juntar([r.cenas, r.ganchoB, r.legenda, r.comentario]);
+    (PLANO.isca.padroes || []).forEach(x => { const m = tx.match(new RegExp(x, 'im')); if (m) E.push(`isca de engajamento: "${tx.slice(m.index, m.index + m[0].length + 25).replace(/^[.!?:\s]+/, '').split('\n')[0]}". Troque por uma pergunta aberta ("Qual é a certa?", "Qual entra no seu deck?"), sem pedir comentário, marcação ou envio`); });
+  }
   if (r.arte) req(exists(path.join(ROOT, r.arte)), 'arte não encontrada: ' + r.arte);
   if (r.carta) req(exists(path.join(ROOT, r.carta)), 'carta não encontrada: ' + r.carta);
   const texto = JSON.stringify(r);
@@ -229,7 +235,7 @@ h1{font-family:CZ;font-weight:700;font-size:80px;line-height:1.05;margin-top:22p
     const kOp = j => resp ? 1 : 2 + j;
     const ops = c.opcoes.map((o, j) => `<div class="op${j === certa ? ' ok' : (resp ? ' no' : '')}"${h(kOp(j))}><span class="lt">${LETRAS[j]}</span><span class="ot">${rich(o)}</span>${j === certa ? '<span class="mk">✓</span>' : '<span></span>'}</div>`).join('');
     const letras = LETRAS.slice(0, c.opcoes.length).split('');
-    const cd = conta ? `<div class="cd"><div class="n">${conta}</div><div class="t">Comenta: ${letras.slice(0, -1).join(', ')} ou ${letras[letras.length - 1]}?</div></div>` : '';
+    const cd = conta ? `<div class="cd"><div class="n">${conta}</div><div class="t">${V ? '' : 'Comenta: '}${letras.slice(0, -1).join(', ')} ou ${letras[letras.length - 1]}?</div></div>` : '';
     inner = `<div class="art"></div>${top}${cred}${cd}<div class="body qz${resp ? ' rp' : ''}" style="top:${resp ? 640 : 760}px"><div class="kicker"${h(1)}>${pip(c.cor || 'U')} ${esc(c.kicker)}</div>
       <h1${h(1)}>${rich(c.titulo)}</h1><div class="tbox fr-${c.cor || 'U'}"${h(kOp(0))}>${ops}</div>${c.sub ? '<div class="sub"' + h(nb) + '>' + rich(c.sub) + '</div>' : ''}${fonte}${fx}</div>`;
   } else if (c.tipo === 'combo') {

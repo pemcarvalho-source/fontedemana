@@ -71,6 +71,6 @@ Fica no rodapé do site, no fim das legendas do Instagram e do TikTok, nos posts
 - Push recusado por commits novos ("fetch first", "non-fast-forward"): `git -c user.name="Paulo Eduardo" -c user.email="pemcarvalho@gmail.com" pull --rebase --depth 50 origin main` e push de novo. Recusado por permissão ou rede: mais uma tentativa depois de 10 s; depois disso, guarde o erro exato para a mensagem final.
 - Cada rotina escreve só nas suas pastas. Jornal: `data/`, `img/` e `kit/`. Pauta e originais: `pauta/`. Ninguém altera `index.html`, `CNAME`, `og.jpg`, `favicon.png`, `apple-touch-icon.png`, `lands/`, `README.md`, `tools/` ou `.claude/` durante uma execução agendada.
 - Orquestrador: as tarefas agendadas entram por `.claude/skills/fdm-orquestrar/SKILL.md`; o mapa da estrutura está em `tools/rotinas/README.md`.
-- Nenhuma rotina mexe em tarefas agendadas. Só o jornal usa ferramenta paga do vidIQ (uma busca por dia).
-- Estratégia e calendário: `tools/conteudo/ESTRATEGIA.md` e `tools/conteudo/plano.json`. Revisão semanal: `tools/conteudo/REVISAO.md`.
+- Nenhuma rotina mexe em tarefas agendadas, com uma exceção: a revisão de segunda cria a tarefa avulsa de um plantão depois que o Paulo aprova na conversa (`tools/conteudo/REVISAO.md`, seção 8). Só o jornal usa ferramenta paga do vidIQ (uma busca por dia).
+- Estratégia e calendário: `tools/conteudo/ESTRATEGIA.md` e `tools/conteudo/plano.json`. Revisão semanal: `tools/conteudo/REVISAO.md`. Plantão nos dias de anúncio grande: `tools/conteudo/PLANTAO.md`.
 - O repositório é público. Números de desempenho das redes, gastos com anúncio e relatórios da revisão nunca entram nele (nem em commit, nem na pauta): ficam no documento privado da estratégia.

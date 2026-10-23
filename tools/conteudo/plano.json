@@ -1,6 +1,6 @@
 {
-  "versao": "2026-10-22 v5",
-  "comentario": "Plano editorial da Fonte de Mana. Lido por tools/conteudo/contexto.cjs (tarefa da noite), tools/pauta/manha.cjs (tarefa da manhã) e tools/pauta/tiktok.cjs (molde do vídeo). A explicação completa está em tools/conteudo/ESTRATEGIA.md, os formatos (com as referências que inspiraram cada um) em tools/conteudo/FORMATOS.md e a revisão semanal em tools/conteudo/REVISAO.md. Ciclo de 3 semanas: a letra da semana é ciclo.semanas[(semana ISO + ciclo.deslocamento) % 3]. Datas comemorativas em datas: de e ate como MM-DD (todo ano) ou AAAA-MM-DD (só aquele ano); no dia, pilarNoDia troca o pilar do calendário. Os blocos video, reels, threads e legenda valem para datas a partir de desde (antes disso, tudo segue como na v4). testes: de e ate (ou dias) em AAAA-MM-DD; hora troca o horário da grade nesses dias.",
+  "versao": "2026-10-23 v5.2",
+  "comentario": "Plano editorial da Fonte de Mana. Lido por tools/conteudo/contexto.cjs (tarefa da noite), tools/pauta/manha.cjs (tarefa da manhã) e tools/pauta/tiktok.cjs (molde do vídeo). A explicação completa está em tools/conteudo/ESTRATEGIA.md, os formatos (com as referências que inspiraram cada um) em tools/conteudo/FORMATOS.md e a revisão semanal em tools/conteudo/REVISAO.md. Ciclo de 3 semanas: a letra da semana é ciclo.semanas[(semana ISO + ciclo.deslocamento) % 3]. Datas comemorativas em datas: de e ate como MM-DD (todo ano) ou AAAA-MM-DD (só aquele ano); no dia, pilarNoDia troca o pilar do calendário. Os blocos video, reels, threads, legenda, audio e conversa valem para datas a partir de desde (antes disso, tudo segue como na v4). plantao: eventos com dia marcado para a fase plantao do orquestrador; o tools/conteudo/plantao.cjs mostra o do dia com --qual. testes: de e ate (ou dias) em AAAA-MM-DD; hora troca o horário da grade nesses dias.",
 
   "ciclo": {"semanas": ["A", "B", "C"], "deslocamento": 2, "nota": "Semana ISO 42 (12 a 18 out 2026) = C a partir de sexta 16, 43 = A, 44 = B, 45 = C. Semana C traz os formatos novos de 15 out."},
 
@@ -28,7 +28,8 @@
       "O gancho é de um destes três tipos, que o próprio Instagram recomenda para os 3 primeiros segundos: engraçado (a situação de mesa que dá risada), identificável (\"toda mesa tem um...\", o erro que todo mundo já cometeu) ou inesperado (o número ou o fato que contraria o senso comum).",
       "Cenas curtas: uma ideia por cena, fala de até 110 caracteres (gancho até 90). O vídeo revela título, subtítulo, linhas e cartas um de cada vez, então nada fica parado mais de 3 s.",
       "Sem abertura: nada de vinheta, apresentação ou chamada do site no começo. O site vai na legenda e no comentário fixado.",
-      "Final: corta na revelação. A cena cta é opcional e curta (fala de até 60 caracteres, ex.: \"Segue a Fonte de Mana para o próximo.\").",
+      "Final: corta na revelação. A cena cta é opcional e curta (fala de até 60 caracteres, ex.: \"Toda semana tem uma regra nova aqui.\").",
+      "Chamada é pergunta aberta sobre o tema (\"Qual é a certa?\", \"Você teria jogado?\"), com as opções escritas na tela quando houver. Nunca pedir comentário com palavra, letra, número ou emoji combinado, nem curtida, marcação, envio ou \"segue para a parte 2\": o Instagram não recomenda peça que pede interação assim (isca de engajamento).",
       "Combo continua com as cartas na tela, a ordem de jogar e a sequência dos gatilhos, só que em cenas mais curtas."
     ]
   },
@@ -41,18 +42,40 @@
     "desde": "2026-10-26",
     "hashtags": 3,
     "regras": [
-      "Primeira linha da legenda: palavra de busca (Commander, deck, carta de Magic e o tema) e a pergunta de uma palavra.",
+      "Primeira linha da legenda: palavra de busca (Commander, deck, carta de Magic e o tema) e uma pergunta aberta sobre o tema.",
       "No máximo 3 hashtags por legenda, no fim: 1 do assunto ou do evento (#startrek, #krenko, #solring) e 2 gerais (#commander e #mtg). Se passar, a pauta corta e fica com a do assunto e as gerais.",
       "Notícia: o nome do evento ou do produto na primeira linha e na hashtag do assunto, para quem procura o assunto achar o post.",
-      "Comentário fixado com a mesma pergunta e as opções escritas."
+      "Comentário fixado com a mesma pergunta e as opções escritas, sem \"comenta\" nem \"marca\": as pessoas respondem a pergunta sozinhas.",
+      "Responder ou curtir os comentários em até 2 dias: conversa leva a peça a mais gente (aviso das 21:30 na pauta). Pergunta boa de comentário ou de DM vira tema: o Paulo manda na conversa e entra na fila do pilar."
     ]
   },
 
   "audio": {"desde": "2026-10-26", "nota": "Recomendação do Instagram (melhores práticas, out 2026): som em alta deixa a peça mais atual. Reels narrado leva música em alta da biblioteca do Instagram em volume baixo, sem cobrir a voz; carrossel leva uma música que combine com o tema."},
 
+  "conversa": {"desde": "2026-10-26", "hora": "21:30", "nota": "Recomendação do Instagram (melhores práticas, out 2026): curtir e responder comentários em até 2 dias puxa conversa e leva a peça a mais gente. A pauta põe um aviso diário às 21:30 para responder os comentários de hoje e de ontem nas três redes."},
+
+  "isca": {"desde": "2026-10-26", "nota": "Isca de engajamento: o Instagram não recomenda peça que pede comentário com palavra, letra, número ou emoji combinado, curtida, marcação ou envio, e diz que pergunta aberta é bem-vinda. O tiktok.cjs, o original.cjs e o plantao.cjs recusam texto com estes padrões (regex, sem diferenciar maiúscula) a partir de desde.", "padroes": ["(^|[.!?:\\n]\\s*)coment[ae]m?\\b", "\\bmarca (aqui|quem|o amigo|a amiga|um amigo|uma amiga|seu amigo|sua amiga|algu[eé]m|o parceiro|a parceira)", "\\bmanda (pro|pra|para) (o |a |os |as )?(seu|sua|teu|tua|quem|um |uma |amig|parceir|grupo|galera)", "\\bcompartilh[ae] (com|pro|pra)\\b", "(^|[.!?:\\n]\\s*)curt[ae] se\\b", "(segue|siga|me segue)[^.!?\\n]{0,40}parte 2"]},
+
+  "plantao": {
+    "nota": "Plantão: cobertura no mesmo dia de um anúncio grande com data marcada, feita por uma tarefa agendada avulsa (fase plantao do orquestrador, guia tools/conteudo/PLANTAO.md). O Instagram recomenda ser o primeiro a postar sobre acontecimentos. Cada evento: dia, hora da primeira busca, ate (última tentativa), tipo (lista, ban, produto ou evento), o que confirmar e onde buscar. A revisão de segunda propõe os próximos a partir da agenda do jornal; o Paulo aprova.",
+    "tipos": {
+      "lista": "Capa com o nome do deck e a arte do comandante; tela com o comandante e o plano do deck (2 a 3 itens); tela com as cartas novas que mais importam para Commander (1 ou 2 com a carta na tela, ou 3 a 4 em itens); tela opcional com as reimpressões que valem o deck, com preço só se houver fonte; cta com pergunta aberta (qual comandante você jogaria?).",
+      "ban": "Capa com o que mudou no Commander; uma tela por mudança (carta banida ou liberada, Game Changers), com o motivo oficial em uma frase e quem é afetado; cta com pergunta aberta. Sem mudança no Commander: não faça carrossel, só o texto do Threads na mensagem final.",
+      "produto": "Capa com o produto e o preço; telas com o que vem, as cartas que importam para Commander e onde e quando comprar no Brasil; cta com pergunta aberta.",
+      "evento": "Capa com o anúncio mais importante; uma tela por anúncio ligado a Commander; cta com pergunta aberta."
+    },
+    "eventos": [
+      {"id": "startrek-borg", "dia": "2026-10-26", "hora": "13:40", "ate": "17:30", "tipo": "lista", "evento": "Lista completa do precon We Are the Borg, de Star Trek Commander (revelada pelo Commander At Home)", "busca": "Star Trek Commander decklists We Are the Borg", "dominios": ["magic.wizards.com"], "confirma": "a página de listas dos precons de Star Trek da Wizards mostra a lista do We Are the Borg, carta por carta", "serie": "Precon Star Trek 1/4"},
+      {"id": "startrek-federation", "dia": "2026-10-27", "hora": "13:40", "ate": "17:30", "tipo": "lista", "evento": "Lista completa do precon Federation Fleet, de Star Trek Commander (revelada pelo LoadingReadyRun)", "busca": "Star Trek Commander decklists Federation Fleet", "dominios": ["magic.wizards.com"], "confirma": "a página de listas dos precons de Star Trek da Wizards mostra a lista do Federation Fleet, carta por carta", "serie": "Precon Star Trek 2/4"},
+      {"id": "startrek-klingon", "dia": "2026-10-28", "hora": "13:40", "ate": "17:30", "tipo": "lista", "evento": "Lista completa do precon Klingon Fury, de Star Trek Commander (revelada pela Anna Margaret)", "busca": "Star Trek Commander decklists Klingon Fury", "dominios": ["magic.wizards.com"], "confirma": "a página de listas dos precons de Star Trek da Wizards mostra a lista do Klingon Fury, carta por carta", "serie": "Precon Star Trek 3/4"},
+      {"id": "startrek-landing", "dia": "2026-10-29", "hora": "13:40", "ate": "17:30", "tipo": "lista", "evento": "Lista completa do precon Landing Party, de Star Trek Commander (revelada pelo GLHF)", "busca": "Star Trek Commander decklists Landing Party", "dominios": ["magic.wizards.com"], "confirma": "a página de listas dos precons de Star Trek da Wizards mostra a lista do Landing Party, carta por carta", "serie": "Precon Star Trek 4/4"},
+      {"id": "ban-novembro", "dia": "2026-11-30", "hora": "13:10", "ate": "18:00", "tipo": "ban", "evento": "Anúncio de banimentos de 30 de novembro de 2026 (Commander, Game Changers e Brawl)", "busca": "Banned and Restricted announcement November 30 2026", "dominios": ["magic.wizards.com"], "confirma": "o artigo de banimentos de 30 de novembro de 2026 está publicado na Wizards"}
+    ]
+  },
+
   "testes": [
     {"id": "tiktok-18h", "de": "2026-11-02", "ate": "2026-11-08", "hora": {"tiktok": "18:00"}, "mede": "Visualizações do TikTok nas primeiras 24 h, contra a mediana da semana anterior às 11:30."},
-    {"id": "reel-teste", "dias": ["2026-11-04", "2026-11-10"], "hora": "21:00", "mede": "Alcance em 72 h do Reel de teste (só não seguidores, gancho B) contra o Reels normal do mesmo dia. Gancho B que ganhar vira o molde de gancho."},
+    {"id": "reel-teste", "dias": ["2026-11-04", "2026-11-10"], "hora": "18:40", "mede": "Views em 72 h do Reel de teste (só não seguidores, gancho B) contra as views de não seguidores do Reels normal do mesmo dia (print do Insights do Reel). Sai antes do Reels das 19:00 porque o Instagram corta o alcance de Reel de teste com conteúdo já postado. Gancho B que ganhar vira o molde de gancho."},
     {"id": "sem-hashtag", "dias": ["2026-11-09", "2026-11-11", "2026-11-13", "2026-11-15"], "hashtags": 0, "mede": "Visualizações e alcance dos dias sem hashtag contra os dias com 3 hashtags da mesma semana (10, 12 e 14 nov)."}
   ],
 
@@ -79,7 +102,7 @@
     "dom": {"A": "bolsa", "B": "debate", "C": "todamesa"}
   },
 
-  "engajamento": ["Gancho na capa ou nos 2 primeiros segundos: um número, uma pergunta ou algo que contraria o senso comum.", "No carrossel, uma ideia por tela, e cada tela deixa uma dúvida que leva à próxima.", "Uma frase que resume a tensão do tema, numa tela só.", "Um dado duro em destaque (preço, porcentagem, decks no EDHREC, custo médio de mana), com a fonte.", "Comentário que custa uma palavra: \"comenta X ou Y\", com as opções escritas na tela.", "Pedido de envio com destinatário (\"manda pro amigo que...\"), não só \"compartilhe\"."],
+  "engajamento": ["Gancho na capa ou nos 2 primeiros segundos: um número, uma pergunta ou algo que contraria o senso comum.", "No carrossel, uma ideia por tela, e cada tela deixa uma dúvida que leva à próxima.", "Uma frase que resume a tensão do tema, numa tela só.", "Um dado duro em destaque (preço, porcentagem, decks no EDHREC, custo médio de mana), com a fonte.", "Pergunta aberta de verdade, com as opções escritas na tela quando houver (\"Qual entra no seu deck?\"). Nunca pedir comentário com palavra, letra, número ou emoji combinado, nem curtida, marcação ou envio (\"comenta X\", \"marca quem\", \"manda pro amigo que...\"): o Instagram não recomenda peça que pede interação assim.", "Para ser compartilhada, a peça precisa ser identificável (\"é o meu amigo\", \"sou eu\") ou útil para guardar. O compartilhamento vem do conteúdo, não do pedido."],
 
   "datas": [
     {"id": "halloween", "nome": "Halloween e Dia do Saci", "de": "10-24", "ate": "10-31", "dia": "10-31", "pilarNoDia": "regra", "tema": "Terror em Magic: vampiros, zumbis, lobisomens, bruxas (Warlock), criaturas Horror, Duskmourn (a coleção da casa mal-assombrada) e Innistrad. No Brasil, 31 de outubro também é o Dia do Saci (lei estadual de São Paulo de 2004), e dá para ligar o folclore ao terror.", "angulos": {"regra": "Chama o Juiz de terror: uma regra com carta de terror (ex.: o zumbi que volta do cemitério volta sem os marcadores, porque é um objeto novo).", "top5": "Top 5 vampiros, zumbis ou lobisomens (a fila do Top 5 já tem Vampiros e Zumbis).", "lore": "Lore de terror: Edgar Markov, Sorin e Olivia Voldaren, a linhagem dos vampiros de Innistrad.", "combo": "Combo de vampiro: Exquisite Blood com Sanguine Bond (confirmar no Commander Spellbook).", "qualentra": "Duelo de terror: duas cartas de vampiro, zumbi ou bruxa pela mesma vaga.", "todamesa": "Toda mesa tem um que só monta deck de terror.", "geral": "Uma carta ou um personagem de terror no assunto do pilar do dia."}, "buscas": ["t:vampire", "t:zombie", "t:werewolf", "t:horror", "t:warlock", "name:witch", "set:dsk"], "exemplos": ["Edgar Markov", "Olivia Voldaren", "Blood Artist", "Gray Merchant of Asphodel", "Tovolar, Dire Overlord", "Sedgemoor Witch", "Witch's Cottage", "Valgavoth, Terror Eater", "The Jolly Balloon Man", "The Gitrog Monster"]},
@@ -153,11 +176,11 @@
     },
     "regra": {
       "nome": "Chama o Juiz",
-      "oQue": "Quiz de regra: uma situação real da mesa de Commander, a pergunta com 3 respostas (A, B e C), 5 segundos para o público comentar e a resposta com o número da regra oficial, explicada sem juridiquês. As respostas erradas são o que a mesa costuma achar.",
+      "oQue": "Quiz de regra: uma situação real da mesa de Commander, a pergunta com 3 respostas (A, B e C), 5 segundos para o público pensar e responder e a resposta com o número da regra oficial, explicada sem juridiquês. As respostas erradas são o que a mesa costuma achar.",
       "fontes": "Regras Abrangentes e rulings do Gatherer ou Scryfall (obrigatório confirmar e citar o número da regra), coluna de regras do EDHREC, Draftsim e MTGRocks como ponto de partida.",
       "gancho": "A situação em uma frase de mesa (ex.: \"roubaram seu comandante e bateram em você com ele\").",
-      "pergunta": "Acertou? Comenta a sua letra antes de ver a resposta.",
-      "formato": "TikTok: gancho (a situação), quiz (pergunta, 3 opcoes, contagem 5), resposta (as mesmas opcoes, certa, sub com o porquê, fonte com o número da regra) e cta. Carrossel: capa com a situação; tela com a pergunta e as opções A, B e C nos itens; tela com a resposta e a regra; tela com a carta envolvida e o erro comum. Threads: a pergunta com as três opções pedindo a letra nos comentários; em obs, a resposta para o Paulo responder no próprio post às 15h.",
+      "pergunta": "E aí, qual é a certa?",
+      "formato": "TikTok: gancho (a situação), quiz (pergunta, 3 opcoes, contagem 5), resposta (as mesmas opcoes, certa, sub com o porquê, fonte com o número da regra) e cta. Carrossel: capa com a situação; tela com a pergunta e as opções A, B e C nos itens; tela com a resposta e a regra; tela com a carta envolvida e o erro comum. Threads: a pergunta com as três opções; em obs, a resposta para o Paulo responder no próprio post às 15h.",
       "fila": "regra"
     },
     "termometro": {
@@ -241,9 +264,9 @@
       "nome": "Toda mesa tem um",
       "oQue": "Humor de observação sobre os tipos de jogador que aparecem em toda mesa de Commander, sempre ligado a uma carta real que esse jogador adora e a uma dica de etiqueta de mesa no final.",
       "fontes": "Scryfall (cartas citadas), EDHREC (se a carta é popular), Regras Abrangentes quando citar regra, duas fontes para qualquer costume ou etiqueta citada.",
-      "gancho": "Toda mesa de Commander tem um <tipo>. Marca quem é.",
-      "pergunta": "Marca aqui o amigo que é assim.",
-      "formato": "TikTok: gancho com o tipo, cenas texto com as frases que ele sempre diz, cena com a carta que ele adora e a dica de mesa, cta \"marca o amigo\". Carrossel: um tipo por tela com a carta, ou um tipo só em passos. Threads: \"qual tipo de jogador mais aparece na sua mesa?\" com opções. Humor sobre hábitos de jogo, nunca sobre pessoa real, aparência, gênero ou grupo; ninguém é humilhado.",
+      "gancho": "Toda mesa de Commander tem um <tipo>. Quem é o da sua?",
+      "pergunta": "Quem é esse na sua mesa?",
+      "formato": "TikTok: gancho com o tipo, cenas texto com as frases que ele sempre diz, cena com a carta que ele adora e a dica de mesa, cta opcional com a pergunta \"quem é esse na sua mesa?\", sem pedir marcação. Carrossel: um tipo por tela com a carta, ou um tipo só em passos. Threads: \"qual tipo de jogador mais aparece na sua mesa?\" com opções. Humor sobre hábitos de jogo, nunca sobre pessoa real, aparência, gênero ou grupo; ninguém é humilhado.",
       "fila": "todamesa"
     },
     "loja": {
@@ -252,7 +275,7 @@
       "fontes": "A própria visita e as anotações do Paulo no arquivo da visita.",
       "gancho": "Fui conferir a <loja>. Vale a visita?",
       "pergunta": "Qual loja a gente visita na próxima?",
-      "formato": "Post e Reels em Collab com a loja e com a loja marcada como local (o Instagram mostra o post para quem procura o lugar). Vídeo gravado com luz boa, de frente para a janela ou com a luz da loja acesa, em 1080p e 30 quadros por segundo.",
+      "formato": "Post e Reels em Collab com a loja e com a loja marcada como local (o Instagram mostra o post para quem procura o lugar). Vídeo gravado com luz boa, de frente para a janela ou com a luz da loja acesa, em 1080p e 30 quadros por segundo. Mostre a loja em uso (mesas, estoque, evento) e marque a loja no post: assim ela pode transformar o post em anúncio de parceria, que é o primeiro passo para contrato com marca.",
       "fila": null
     }
   },

@@ -34,6 +34,9 @@ function pip(c, s) {
   return `<span class="pip p-${c}"${st}></span>`;
 }
 const BRAND = '<div class="brand">Fonte <span class="de">de</span> Mana</div>';
+// frase do rodapé da última tela: desde 26 out 2026 sem pedir envio (o Instagram não recomenda peça que pede compartilhamento, marcação ou comentário combinado)
+const ED_DATA = (() => { try { return (fs.readFileSync(path.join(ROOT, 'data', 'ed' + N + '.js'), 'utf8').match(/"date":\s*"(\d{4}-\d{2}-\d{2})"/) || [])[1] || ''; } catch (e) { return ''; } })();
+const SALVA = ED_DATA >= '2026-10-26' ? 'Salva para lembrar das datas' : 'Salva e manda pro seu grupo de Commander';
 
 function readSpec(n) {
   const f = path.join(KIT, 'ed' + n, 'kit.json');
@@ -124,6 +127,13 @@ function validate(sp) {
     else if (o && typeof o === 'object') Object.keys(o).forEach(k => walk(o[k], p ? p + '.' + k : k));
   };
   walk(sp, '');
+  // isca de engajamento (tools/conteudo/plano.json > isca): só nas edições a partir da data de vigência
+  let isca = null; try { isca = JSON.parse(fs.readFileSync(path.join(ROOT, 'tools/conteudo/plano.json'), 'utf8')).isca; } catch (e) {}
+  if (isca && isca.desde && ED_DATA >= isca.desde) {
+    const juntar = v => typeof v === 'string' ? v : Array.isArray(v) ? v.map(juntar).join('\n') : v && typeof v === 'object' ? Object.values(v).map(juntar).join('\n') : '';
+    const tx = juntar([sp.carrossel, sp.video, sp.textos, sp.pauta]);
+    (isca.padroes || []).forEach(x => { const m = tx.match(new RegExp(x, 'im')); if (m) E.push(`isca de engajamento: "${tx.slice(m.index, m.index + m[0].length + 25).replace(/^[.!?:\s]+/, '').split('\n')[0]}". Troque por uma pergunta aberta, sem pedir comentário com palavra combinada, marcação ou envio`); });
+  }
   return E;
 }
 
@@ -254,7 +264,7 @@ function slidesHTML(sp) {
   k++;
   const rumor = c.sussurro ? `<div class="rumor"><div class="kicker">${pip('Q', 40)}Sussurro do dia</div><p>${rich(c.sussurro)}</p></div>` : '';
   const pool = 'WUBRG'.split('').map(x => `<i style="background-image:var(--land-${x})"></i>`).join('');
-  out.push(`<section class="slide canvas cta" id="s${k}"><div class="pad"><div class="top"><span></span>${pg()}</div>${rumor}<div class="main">${BRAND}<p class="when">A edição completa sai todo dia às 6h</p><div class="pool">${pool}</div><span class="url">FONTEDEMANA.COM.BR</span><span class="bio">Link na bio</span></div><p class="save">Salva e manda pro seu grupo de Commander</p></div></section>`);
+  out.push(`<section class="slide canvas cta" id="s${k}"><div class="pad"><div class="top"><span></span>${pg()}</div>${rumor}<div class="main">${BRAND}<p class="when">A edição completa sai todo dia às 6h</p><div class="pool">${pool}</div><span class="url">FONTEDEMANA.COM.BR</span><span class="bio">Link na bio</span></div><p class="save">${esc(SALVA)}</p></div></section>`);
   return { total, html: `<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><style>${baseCSS()}${SLIDES_CSS}</style></head><body>${out.join('\n')}</body></html>` };
 }
 

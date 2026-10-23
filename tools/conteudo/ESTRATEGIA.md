@@ -1,6 +1,6 @@
 # Estratégia de conteúdo da Fonte de Mana
 
-Versão 5, 22 out 2026. Revisada toda segunda pela revisão semanal (`tools/conteudo/REVISAO.md`), com os dados do Metricool. As rotinas leem a parte operacional em `tools/conteudo/plano.json`; este arquivo explica o porquê. Os moldes de cada formato, e as referências de criadores que inspiraram cada um, estão em `tools/conteudo/FORMATOS.md`.
+Versão 5.2, 23 out 2026. Revisada toda segunda pela revisão semanal (`tools/conteudo/REVISAO.md`), com os dados do Metricool. As rotinas leem a parte operacional em `tools/conteudo/plano.json`; este arquivo explica o porquê. Os moldes de cada formato, e as referências de criadores que inspiraram cada um, estão em `tools/conteudo/FORMATOS.md`.
 
 **A partir de 22 out, números de desempenho, gastos com anúncio e relatórios ficam só no documento privado da estratégia**, porque este repositório é público. Aqui ficam as decisões e o porquê, em palavras.
 
@@ -52,7 +52,9 @@ O jornal marca cada edição como `forte` ou `calmo` no `kit.json`.
 | 15:00 | Threads | Notícia do jornal num post só (até 25 out, fio) | igual |
 | 15:00 | Stories | Topdeck do Dia com link | igual |
 | 19:00 | Reels | Vídeo original do dia, o mesmo do TikTok (até 25 out, vídeo do jornal com música) | igual |
-| 21:00 (dias de teste) | Reels | Reel de teste: o vídeo do dia com o gancho B, só para quem não segue | igual |
+| 18:40 (dias de teste) | Reels | Reel de teste: o vídeo do dia com o gancho B, só para quem não segue (antes do Reels normal) | igual |
+| 21:30 | Comentários | Responder e curtir os comentários de hoje e de ontem nas três redes (desde 26 out) | igual |
+| Na hora do anúncio (dias marcados) | Threads, feed, TikTok e Stories | Plantão: o anúncio grande no mesmo dia (`tools/conteudo/PLANTAO.md`) | igual |
 
 Saiu da grade: o post das 19:00 no Threads com o vídeo do jornal (repetia o Reels e o Threads é rede de texto). Volta se a revisão semanal mostrar o contrário: basta mudar `ativo` em `plano.json`.
 
@@ -88,20 +90,35 @@ Pedido do Paulo: aproveitar as datas que todo mundo já está comentando. A list
 
 - Gancho nos 2 primeiros segundos ou na capa: número, pergunta ou algo que contraria o senso comum.
 - Primeira linha da legenda com palavra de busca: Commander, deck, carta de Magic e o tema.
-- Termina com pergunta concreta, de preferência com opções, e com um motivo para salvar ou mandar para alguém.
+- Termina com pergunta aberta e concreta, com as opções escritas quando houver, e com um motivo para guardar.
 - Séries com nome fixo, para criar hábito.
 - No carrossel, uma ideia por tela e uma dúvida no fim de cada tela que obriga a arrastar.
-- Pedido de envio com destinatário ("manda pro seu parceiro de mesa que..."), não só "compartilhe".
+- Nada de isca de engajamento (desde 26 out): nunca pedir comentário com palavra, letra ou emoji combinado, curtida, marcação ou envio ("comenta X", "marca quem", "manda pro amigo que..."). O Instagram deixa de recomendar a peça que pede interação assim e diz que pergunta aberta é bem-vinda. O compartilhamento vem de peça identificável ou útil.
 
 ## Fora da automação (vale fazer à mão)
 
-- Responder comentários na primeira hora depois de postar.
+- Responder comentários na primeira hora depois de postar e, às 21:30, os do dia e da véspera (aviso na pauta desde 26 out). Pergunta boa de comentário ou DM vira tema: mande na conversa do projeto.
+- Postar os plantões na hora (a tarefa avisa quando o carrossel fica pronto).
+- Ligar o Instagram a uma Página do Facebook (Configurações > Central de Contas): é o que permite a uma loja ou marca transformar um post da Fonte de Mana em anúncio de parceria.
+- Olhar de vez em quando o Painel profissional > Monetização, para saber o que já está liberado.
 - Rota das Lojas sempre como post em Collab com a loja (aparece no perfil dos dois).
 - Nos dias de teste, postar o Reel de teste (a pauta mostra o passo a passo).
 - 15 minutos por dia respondendo posts de Magic de outras contas no Threads e comentando com conteúdo em criadores maiores de Commander.
 - Ligar o Meta Ads ao Metricool, para o gasto e o alcance pago do Instagram virem sozinhos. Instagram, TikTok e Threads já estão ligados.
 - Mandar, quando a revisão pedir, o print do TikTok Studio com a % de 2 s, 6 s e vídeo completo (o Metricool não traz).
 - Contar todo impulso no dia em que começar (rede, peça, objetivo, público, dias e gasto), em qualquer conversa do projeto.
+
+## Plantão (23 out)
+
+Anúncio grande com data marcada (lista de precon, ban, produto com preço, painel de evento) ganha cobertura no mesmo dia: carrossel curto no feed, as mesmas imagens no modo foto do TikTok, post do Threads com a capa e repost nos Stories com enquete. Uma tarefa agendada avulsa dispara na hora do anúncio, confere a fonte primária (tenta a cada 20 minutos até o limite do evento), monta tudo e põe os avisos na pauta do dia. Eventos em `plano.json` > `plantao.eventos`; passo a passo em `tools/conteudo/PLANTAO.md`. Os primeiros: as quatro listas dos precons de Star Trek (26 a 29 out) e o anúncio de banimentos de 30 nov. A revisão de segunda mede cada plantão contra a mediana do mesmo formato e propõe os próximos a partir da agenda do jornal; o Paulo aprova. No jornal do dia seguinte, o assunto do plantão conta como desdobramento na força do dia, para o feed não repetir a notícia.
+
+## Propostas que esperam o Paulo
+
+Do próprio Instagram (abas Engajamento, Alcance e Canais, 23 out), fora da regra por enquanto:
+
+- **Aparecer na câmera**: o Instagram diz que rosto cria vínculo e mais interação. A Fonte de Mana é sem rosto; dá para testar só na Rota das Lojas, com o Paulo falando na loja.
+- **Canal de transmissão do Instagram**: mensagens pelo menos 3 dias por semana, com conteúdo que só sai lá (o Sussurro do dia, a enquete da semana), divulgado nos Stories com sticker. Só se o recurso aparecer na conta.
+- **Collab com criador de Commander**: post ou Reel em Collab chega ao público dos dois (ex.: um Chama o Juiz a dois).
 
 ## Revisão semanal
 
@@ -143,6 +160,7 @@ Números de antes da estratégia nova, para comparar nas revisões.
 ## Histórico de ajustes
 
 - 23 out 2026, v5.1, a partir das melhores práticas do próprio Instagram (Ferramentas profissionais, aba Criação, que o Paulo gravou): gancho dos 3 primeiros segundos de um de três tipos (engraçado, identificável ou inesperado); das 3 hashtags, 1 é do assunto ou do evento e a pauta mantém essa ao cortar; notícia com o nome do evento na primeira linha; música em alta no carrossel e no Reels narrado (`plano.json` > `audio`); Rota das Lojas com a loja marcada como local, luz boa e vídeo em 1080p a 30 quadros. As outras práticas já estavam na estratégia: 10 ou mais Reels por mês (a partir de 26 out são uns 30), texto de contexto na capa do carrossel, legenda que chama a participar, qualidade mínima de 720p e 30 quadros (os vídeos saem em 1080x1920 a 30). Fica como proposta, esperando o Paulo: plantão nos dias de anúncio grande, para ser o primeiro a cobrir.
+- 23 out 2026, v5.2, a partir das outras abas das melhores práticas do Instagram (Reels de teste, Engajamento, Canais, Alcance, Monetização, Anúncios de parceria e Diretrizes) e da aprovação do plantão: (1) plantão nos dias de anúncio grande (`tools/conteudo/PLANTAO.md`), começando pelas listas dos precons de Star Trek de 26 a 29 out e pelo ban de 30 nov; (2) nada de isca de engajamento a partir de 26 out: a chamada vira pergunta aberta, sem "comenta X", "marca quem" ou "manda pro amigo" (a contagem do quiz passa a mostrar "A, B ou C?", a frase final do carrossel do jornal vira "Salva para lembrar das datas" e os scripts do TikTok, do original, do kit e do plantão recusam isca, com os padrões em `plano.json` > `isca`); (3) Reel de teste às 18:40, antes do Reels normal, nunca publicado para todos depois, comparado com as views de não seguidores do Reels normal, porque o Instagram corta o alcance de Reel de teste com conteúdo já postado; (4) aviso diário às 21:30 para responder os comentários de hoje e de ontem (`plano.json` > `conversa`); (5) Rota das Lojas com a loja marcada para virar anúncio de parceria, e a conta a ser ligada a uma Página do Facebook. Ficam como proposta: rosto na câmera, canal de transmissão e collab com criador.
 
 - 22 out 2026, v5 (aprovada pelo Paulo depois do diagnóstico das redes; vale para as peças a partir de 26 out): molde novo do vídeo com revelação progressiva e gancho B (`tiktok.cjs`), Reels das 19:00 com o vídeo original, Threads das 15:00 num post só (`threadsPost` no kit), até 3 hashtags e tópico MTG, testes datados, regra de anúncio, metas até 16 nov e a revisão semanal agendada (`REVISAO.md` e `revisao.cjs`). Números e gastos passam a ficar só no documento privado.
 

@@ -100,7 +100,7 @@ Depois atualize `data/index.js`: no início de editions `{"n": N+1, "date", "dat
 5. `git add kit`, commit "Kit de Redes da edição N+1" e push (mesmas regras). Nada fora de `kit/`.
 6. Confira pelo GitHub do mesmo jeito: `kit/ed(N+1)/index.html` no `origin/main` e a execução "pages build and deployment" do commit do kit com `success`.
 
-**Força do dia (`pauta.forca`).** "forte" quando a Notícia Lendária é fato novo de impacto direto na mesa ou no bolso de quem joga Commander, publicado na janela de hoje e ainda não noticiado: ban ou mudança de Game Changers, regra nova, revelação de precon ou coleção de Commander, produto com preço ou data anunciados, carta com variação grande de preço, polêmica coberta por vários veículos. "calmo" no resto, inclusive desdobramento de assunto que saiu nas últimas 3 edições. No dia calmo, o feed do Instagram fica com o conteúdo original preparado na noite anterior.
+**Força do dia (`pauta.forca`).** "forte" quando a Notícia Lendária é fato novo de impacto direto na mesa ou no bolso de quem joga Commander, publicado na janela de hoje e ainda não noticiado: ban ou mudança de Game Changers, regra nova, revelação de precon ou coleção de Commander, produto com preço ou data anunciados, carta com variação grande de preço, polêmica coberta por vários veículos. "calmo" no resto, inclusive desdobramento de assunto que saiu nas últimas 3 edições ou num plantão (a lista "Plantões" do contexto: o anúncio já foi para o feed no mesmo dia). No dia calmo, o feed do Instagram fica com o conteúdo original preparado na noite anterior.
 
 ## 12. Avisar
 

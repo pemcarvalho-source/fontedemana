@@ -11,6 +11,7 @@ Leia antes `tools/REGRAS.md`. A estratégia (notícia + original, força do dia,
 | 18:21 | Noite | Conteúdo original de amanhã: TikTok narrado, carrossel original e post de debate do Threads, mais os avisos de gravação e do TikTok |
 | 5:55 | Jornal | Edição, site e Kit de Redes, com a força do dia no kit (`tools/jornal/LEIA.md`) |
 | 7:20 | Manhã | `node tools/pauta/manha.cjs . HOJE` monta o resto da pauta sozinho |
+| Na hora do anúncio | Plantão | Só nos dias marcados em `plano.json` > `plantao.eventos`: carrossel curto, TikTok em modo foto, Threads e Stories do anúncio do dia, com avisos `plantao-*` na pauta (`tools/conteudo/PLANTAO.md`) |
 
 Escreva só na pasta `pauta/`. Nunca chame ferramenta paga do vidIQ e nunca mexa em tarefas agendadas.
 
@@ -67,6 +68,7 @@ Cenas do quiz (pilar Chama o Juiz; exemplo completo em `tools/conteudo/FORMATOS.
 - Soma das falas de até 30 s (Deck e Combo, até 45 s), sem contar a contagem do quiz.
 - O vídeo revela as partes de cada cena uma de cada vez: gancho e texto (título, depois `sub`, depois `rodape`), lista (uma linha por vez), quiz (pergunta, depois uma opção por vez), resposta (veredito, depois `sub`), combo (uma carta e um passo por vez), cta (título, depois `destaque`). Cada parte fica no ar no máximo 3,5 s; fala longa com poucas partes é recusada.
 - A primeira fala e o título da cena 1 dizem a promessa do vídeo (o resultado, a resposta, o número). Nada de "oi, pessoal", vinheta ou "segue a página" no começo.
+- Chamada (desde 26/10/2026): pergunta aberta sobre o tema, com as opções na tela. Nunca "comenta X", "comenta a letra", "marca quem" ou "manda pro amigo": o Instagram não recomenda peça que pede interação assim. A contagem do quiz mostra "A, B ou C?".
 - `ganchoB` (só em dia de Reel de teste): `{"kicker": (40), "titulo": (64), "sub": (140, opcional), "chip": (18, opcional), "narracao": (90)}`, outro gancho para o mesmo vídeo, com título diferente do da cena 1. Gera `tiktok-teste.mp4` (e, na narração, `tiktok-teste-narrado.mp4`).
 
 A cena final chama para o @fontedemana e o site, sem prometer "parte 2". Cores: W Brasil e eventos, U regras, B ban, R polêmica, G novidade, A bolso, M Topdeck e multicolor.
@@ -110,7 +112,7 @@ Só script, sem escrever texto novo:
 
 O script decide o feed pela força do dia (`pauta.forca` do kit): dia forte, carrossel do jornal; dia calmo, carrossel original (ou o mais recente do banco, de até 6 dias, que não foi para o feed). Também apaga `.jpg` e `.mp4` de pastas da pauta com mais de 7 dias.
 
-A partir de 26/10/2026 (`plano.json` > `reels`, `threads`, `legenda` e `testes`): o Reels das 19:00 é o vídeo original do dia (o arquivo do TikTok, narrado ou mudo, com a legenda e o comentário do roteiro); o Threads das 15:00 é a notícia num post só (`threadsPost` do kit) e os posts do Threads pedem o tópico MTG; as legendas ficam com no máximo 3 hashtags (o script corta o resto, ficando com a do assunto e as gerais #commander e #mtg); o carrossel e o Reels narrado pedem música em alta da biblioteca do Instagram (`plano.json` > `audio`). Nos dias de teste, o script troca a hora do TikTok, tira as hashtags ou acrescenta o Reel de teste das 21:00, e diz no resumo qual é o teste do dia.
+A partir de 26/10/2026 (`plano.json` > `reels`, `threads`, `legenda` e `testes`): o Reels das 19:00 é o vídeo original do dia (o arquivo do TikTok, narrado ou mudo, com a legenda e o comentário do roteiro); o Threads das 15:00 é a notícia num post só (`threadsPost` do kit) e os posts do Threads pedem o tópico MTG; as legendas ficam com no máximo 3 hashtags (o script corta o resto, ficando com a do assunto e as gerais #commander e #mtg); o carrossel e o Reels narrado pedem música em alta da biblioteca do Instagram (`plano.json` > `audio`). Nos dias de teste, o script troca a hora do TikTok, tira as hashtags ou acrescenta o Reel de teste das 21:00, e diz no resumo qual é o teste do dia. O Reel de teste sai às 18:40, antes do Reels das 19:00, e todo dia às 21:30 entra o aviso de responder os comentários de hoje e de ontem (`plano.json` > `conversa`). Os avisos `plantao-*` que o plantão põe na pauta continuam quando a manhã roda de novo.
 
 ## Formato do `pauta/AAAA-MM-DD/pauta.json`
 
@@ -124,7 +126,7 @@ A partir de 26/10/2026 (`plano.json` > `reels`, `threads`, `legenda` e `testes`)
           "id": "tiktok",                       (minúsculas, números e hífen)
           "dia": "2026-10-12",                  (opcional: só quando o aviso é em outro dia, como a gravação)
           "hora": "11:30",
-          "rede": "TikTok",                     (Threads, Instagram feed, Instagram Stories, TikTok, Reels ou Gravação)
+          "rede": "TikTok",                     (Threads, Instagram feed, Instagram Stories, TikTok, Reels, Gravação ou Comentários)
           "titulo": (70), "oQue": (400),
           "origem": "jornal:ed9" ou "original:2026-10-13" (só no feed, o script põe),
           "arquivos": [{"nome": (60), "url": "https://fontedemana.com.br/..."}],

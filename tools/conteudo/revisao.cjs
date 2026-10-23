@@ -71,9 +71,22 @@ ler('instagram-posts').forEach(r => pecas.push(Object.assign(sp(r.quando), { red
 ler('instagram-reels').forEach(r => pecas.push(Object.assign(sp(r.quando), { rede: 'instagram', formato: 'reels', views: num(r.views), alcance: num(r.alcance), curtidas: num(r.curtidas), comentarios: num(r.comentarios), salvos: num(r.salvos), compart: num(r.compart), passou3s: num(r.passou3s) })));
 ler('threads-posts').forEach(r => pecas.push(Object.assign(sp(r.quando), { rede: 'threads', formato: String(r.tipo || '').toLowerCase(), views: num(r.views), curtidas: num(r.curtidas), respostas: num(r.respostas), reposts: num(r.reposts), citacoes: num(r.citacoes), compart: num(r.compart) })));
 
+// plantão (tools/conteudo/PLANTAO.md): a peça é do plantão quando sai até 2h30 do aviso plantao-* da mesma rede e mais perto dele que dos outros avisos dessa rede no dia
+const minutos = h => +String(h).slice(0, 2) * 60 + +String(h).slice(3, 5);
+const doPlantao = p => {
+  const id = p.rede === 'tiktok' ? 'plantao-tiktok' : p.rede === 'threads' ? 'plantao-threads' : (p.rede === 'instagram' && p.formato !== 'reels') ? 'plantao-feed' : null;
+  const pa = id && pauta(p.data), pl = pa && (pa.avisos || []).find(a => a.id === id);
+  if (!pl) return null;
+  const perto = Math.abs(minutos(p.hora) - minutos(pl.hora));
+  const ok = (pa.avisos || []).filter(a => !/^plantao-/.test(a.id) && a.rede === pl.rede && (!a.dia || a.dia === p.data)).every(a => perto < Math.abs(minutos(p.hora) - minutos(a.hora)));
+  return ok && perto <= 150 ? (json(path.join(ROOT, 'pauta', p.data, 'plantao', 'plantao.json')) || { tema: pl.titulo }) : null;
+};
+
 // origem, pilar e tema pela pauta do dia
 pecas.forEach(p => {
-  if (p.rede === 'tiktok' || (p.formato === 'reels' && plano.reels && plano.reels.desde && p.data >= plano.reels.desde)) {
+  const pl = doPlantao(p);
+  if (pl) { p.origem = 'plantão'; p.tema = pl.tema; }
+  else if (p.rede === 'tiktok' || (p.formato === 'reels' && plano.reels && plano.reels.desde && p.data >= plano.reels.desde)) {
     const r = roteiro(p.data), o = original(p.data);
     p.origem = 'original'; p.pilar = (r && r.pilar) || (o && o.pilar) || null; p.tema = (r && r.tema) || (o && o.tema) || '';
   } else if (p.formato === 'reels') { p.origem = 'jornal'; p.tema = 'Vídeo do jornal'; }
@@ -214,7 +227,17 @@ const testes = (plano.testes || []).map(t => {
     const sem = org.filter(p => dias.includes(p.data)), com = org.filter(p => !dias.includes(p.data));
     return { id: t.id, texto: `Sem hashtag (${dias.map(ddmm).join(', ')}): mediana de ${fmt(mediana(sem.map(p => p.views)))} views por peça, contra ${fmt(mediana(com.map(p => p.views)))} nos outros dias da janela.` };
   }
-  if (t.id === 'reel-teste') return { id: t.id, texto: dias.map(d => { const rs = pecas.filter(p => p.formato === 'reels' && p.data === d).sort((a, b) => a.hora.localeCompare(b.hora)); return rs.length >= 2 ? `Reel de teste de ${ddmm(d)}: alcance de ${fmt(rs[rs.length - 1].alcance)} (gancho B, ${rs[rs.length - 1].hora}) contra ${fmt(rs[0].alcance)} do Reels normal (${rs[0].hora}). ${rs[rs.length - 1].alcance > rs[0].alcance ? 'O gancho B ganhou: publique para todos e use o molde dele.' : 'O gancho da cena 1 ganhou.'}` : `Reel de teste de ${ddmm(d)}: o Metricool não trouxe dois Reels nesse dia; peça ao Paulo o print do alcance do Reel de teste.`; }).join(' ') };
+  if (t.id === 'reel-teste') {
+    // desde a v5.2 o Reel de teste sai antes do Reels normal (18:40 e 19:00): cada um é o Reel do dia mais perto do seu horário
+    const hT = typeof t.hora === 'string' ? t.hora : '18:40', hR = ((plano.grade || []).find(g => g.id === 'reels') || {}).hora || '19:00';
+    return { id: t.id, texto: dias.map(d => {
+      const rs = pecas.filter(p => p.formato === 'reels' && p.data === d);
+      if (rs.length < 2) return `Reel de teste de ${ddmm(d)}: o Metricool não trouxe dois Reels nesse dia (o Reel de teste pode não aparecer nele); peça ao Paulo o print do Insights dos dois Reels, com as views de seguidores e de não seguidores.`;
+      const perto = h => (a, b) => Math.abs(minutos(a.hora) - minutos(h)) - Math.abs(minutos(b.hora) - minutos(h));
+      const teste = rs.slice().sort(perto(hT))[0], normal = rs.filter(p => p !== teste).sort(perto(hR))[0];
+      return `Reel de teste de ${ddmm(d)}: alcance de ${fmt(teste.alcance)} (gancho B, ${teste.hora}, só não seguidores) contra ${fmt(normal.alcance)} do Reels normal (${normal.hora}, seguidores e não seguidores). ${teste.alcance > normal.alcance ? 'O gancho B ganhou mesmo sem os seguidores: vira o molde de gancho (sem publicar o teste para todos, o vídeo já saiu no Reels normal).' : 'Antes de decidir, compare com as views de não seguidores do Reels normal no print do Insights.'}`;
+    }).join(' ') };
+  }
   return { id: t.id, texto: `${t.id}: dias ${dias.map(ddmm).join(', ')} na janela. ${t.mede || ''}` };
 }).filter(Boolean);
 const threads = pecas.filter(p => p.rede === 'threads' && dentro(p.data, JP[0]));
@@ -247,6 +270,15 @@ if (tabPilares.length) {
   M.push('');
 }
 M.push('### Threads', '', threads.length ? `${threads.length} posts de ${faixa(JP[0])}, mediana de ${fmt(mediana(threads.map(p => p.views)))} views; ${fmt(threads.filter(p => p.origem === 'pergunta').reduce((s, p) => s + (p.respostas || 0), 0))} respostas nas perguntas da manhã. Mais vistos: ${thTop.map(p => `${ddmm(p.data)} ${p.hora} (${p.origem}, ${fmt(p.views)} views)`).join('; ')}.` : 'Sem posts do Threads na janela.', '');
+const plantoes = pecas.filter(p => p.origem === 'plantão' && dentro(p.data, JP[0]));
+if (plantoes.length) {
+  M.push('### Plantões', '');
+  plantoes.sort((a, b) => (a.data + a.hora).localeCompare(b.data + b.hora)).forEach(p => {
+    const base = mediana(pecas.filter(q => q.origem !== 'plantão' && q.organica && q.rede === p.rede && q.formato === p.formato && dentro(q.data, JP[0])).map(q => q.views));
+    M.push(`- ${ddmm(p.data)} ${p.hora} ${nomeRede[p.rede]}: ${p.tema} (${fmt(p.views)} views${p.rede === 'instagram' && p.valor != null ? ', valor ' + fmt(p.valor, 1) : ''}; mediana das outras peças do mesmo formato na semana: ${fmt(base)}).`);
+  });
+  M.push('');
+}
 if (testes.length) { M.push('### Testes', ''); testes.forEach(t => M.push('- ' + t.texto)); M.push(''); }
 if (avisos.length) { M.push('### Alertas', ''); avisos.forEach(a => M.push('- ' + a.charAt(0).toUpperCase() + a.slice(1) + '.')); M.push(''); }
 

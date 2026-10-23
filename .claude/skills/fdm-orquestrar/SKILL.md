@@ -1,6 +1,6 @@
 ---
 name: fdm-orquestrar
-description: Orquestrador das rotinas da Fonte de Mana, o jornal de Magic: The Gathering do Paulo (site fontedemana.com.br, Kit de Redes e pauta de postagem). Use quando uma tarefa agendada ou o Paulo pedir para rodar uma fase da Fonte de Mana (jornal, pauta, noite) ou quando chegarem os áudios do TikTok para juntar a narração.
+description: Orquestrador das rotinas da Fonte de Mana, o jornal de Magic: The Gathering do Paulo (site fontedemana.com.br, Kit de Redes e pauta de postagem). Use quando uma tarefa agendada ou o Paulo pedir para rodar uma fase da Fonte de Mana (jornal, pauta, noite, revisão ou plantão) ou quando chegarem os áudios do TikTok para juntar a narração.
 ---
 
 # Orquestrador da Fonte de Mana
@@ -18,12 +18,13 @@ Ninguém responde durante uma execução agendada: decida sozinho. Escreva em po
 | `noite` | 18h21 | `tools/pauta/LEIA.md`, seção "Tarefa da noite: original de amanhã" | `pauta/` | `pauta/AMANHA/pauta.json` |
 | `narracao` | quando o Paulo manda os áudios | `tools/pauta/LEIA.md`, seção "Juntar a narração" | `pauta/` | o link do `tiktok-narrado.mp4` |
 | `revisao` | segunda, 8h58 | `tools/conteudo/REVISAO.md` | nenhuma (dados em `/tmp/fdm/revisao/`, relatório no documento privado); `tools/conteudo/` só depois que o Paulo aprovar | o relatório na aba Revisões semanais do documento |
+| `plantao` | tarefa avulsa no dia de um anúncio grande (`plano.json` > `plantao.eventos`), ou quando o Paulo pedir | `tools/conteudo/PLANTAO.md` | `pauta/` | `pauta/HOJE/plantao/carrossel-01.jpg` |
 
 ## 1. Preparar (todas as fases)
 
 1. Rode `node tools/fdm/preparar.cjs . <fase>`. Ele confere o repositório, atualiza com o main, calcula `HOJE` e `AMANHA` (fuso de São Paulo), cria `/tmp/fdm/` e confere ffmpeg e Chromium.
 2. Saiu `ERRO:`? Não tente contornar: pare e use a mensagem de erro na mensagem final. Saiu `AVISOS:`? Siga e repita os avisos na mensagem final.
-3. Nas fases `jornal`, `noite`, `narracao` e `revisao`, leia `tools/REGRAS.md` inteiro antes de começar. A fase `pauta` é só script e não precisa.
+3. Nas fases `jornal`, `noite`, `narracao`, `revisao` e `plantao`, leia `tools/REGRAS.md` inteiro antes de começar. A fase `pauta` é só script e não precisa.
 
 ## 2. Executar a fase
 
@@ -33,7 +34,7 @@ Ninguém responde durante uma execução agendada: decida sozinho. Escreva em po
 2. Apareceu `ERROS:` num texto que veio do kit ou do original? Corrija só esse texto em `pauta/HOJE/pauta.json`, sem mudar o sentido, e rode `node tools/pauta/pauta.cjs . HOJE`. Não rode o `manha.cjs` de novo depois de corrigir à mão (ele refaz o arquivo).
 3. Mensagem final: o resumo que o script imprimiu depois da linha `---`.
 
-### Fases jornal, noite, narracao e revisao
+### Fases jornal, noite, narracao, revisao e plantao
 
 Siga o guia da tabela, passo a passo, sem pular nenhum. Onde o guia mandar enviar (commit e push), siga as regras de envio abaixo. A fase `revisao` não envia nada ao repositório (ele é público): números e gastos ficam só no documento privado.
 
@@ -47,6 +48,6 @@ Siga o guia da tabela, passo a passo, sem pular nenhum. Onde o guia mandar envia
 ## Limites de toda execução
 
 - Escreva só nas pastas da fase. Nunca altere `index.html`, `CNAME`, `og.jpg`, `favicon.png`, `apple-touch-icon.png`, `lands/`, `README.md`, `tools/` ou `.claude/` durante uma execução agendada.
-- Não mexa em tarefas agendadas nem no artifact do jornal. Ferramenta paga do vidIQ só na fase `jornal`, uma busca por dia, como manda o guia.
+- Não mexa em tarefas agendadas nem no artifact do jornal. Única exceção: na fase `revisao`, depois que o Paulo aprovar um plantão na conversa, crie a tarefa avulsa dele como manda a seção 8 do `tools/conteudo/REVISAO.md`. Ferramenta paga do vidIQ só na fase `jornal`, uma busca por dia, como manda o guia.
 - WebFetch só em link que voltou numa WebSearch da mesma execução (ver "Páginas da web" em `tools/REGRAS.md`). Endereço digitado ou montado pede confirmação ao Paulo e expira sem resposta.
 - Se o Paulo responder na conversa de qualquer fase com os áudios do TikTok, rode a fase `narracao` nessa mesma conversa.

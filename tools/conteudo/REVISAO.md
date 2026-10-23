@@ -56,6 +56,7 @@ Leia o `relatorio.md` inteiro e proponha até três mudanças, cada uma mexendo 
 - **Anúncio**: só a peça indicada em "Para impulsionar", com as regras de `plano.json` > `anuncio`. Nenhuma passou? Recomende não impulsionar.
 - **Testes** da janela (`plano.json` > `testes`): diga quem ganhou e o que vira regra.
 - Gancho do TikTok: a % de 6 s não vem pelo Metricool. Peça ao Paulo o print do TikTok Studio (Análise de cada vídeo) dos dois vídeos com mais views.
+- **Plantões** (`tools/conteudo/PLANTAO.md`): a seção Plantões do relatório compara cada peça de plantão com a mediana do mesmo formato. Plantão abaixo da mediana duas semanas seguidas: proponha só plantões de ban e de lista de precon. Depois, olhe a agenda da edição mais recente (`data/edN.js`, campo `agenda`) e os eventos já marcados em `plano.json` > `plantao.eventos`: anúncio grande com data nas próximas 2 semanas e fonte primária (ban, lista de precon de Commander, painel com revelações, produto com preço) que ainda não tem plantão vira proposta, com dia, hora da primeira busca, `ate` e tipo. No máximo 2 plantões novos por semana. Essas propostas não contam no limite de três.
 
 ## 6. Escrever no documento privado
 
@@ -68,12 +69,15 @@ Curta, em português, sem os separadores " · ", " – " ou " — ":
 - custo por seguidor de cada rede com anúncio;
 - as decisões propostas, numeradas, e a peça para impulsionar (ou "não impulsionar");
 - o que o Paulo precisa mandar: anúncios não registrados (os alertas), prints do TikTok Studio;
+- os plantões propostos (dia e evento), se houver;
 - "Responda com o número das decisões que aprova."
 
 ## 8. Quando o Paulo responde nesta conversa
 
 - **Aprovou decisões**: aplique em `tools/conteudo/plano.json` (calendário, grade, testes ou regras) e acrescente uma linha no "Histórico de ajustes" de `tools/conteudo/ESTRATEGIA.md`, sem números de desempenho nem gasto. Rode `node tools/testes/regressao.cjs . 3`; com saída 0 ou 2 (diferença esperada da mudança), commit "Estratégia: <decisão em poucas palavras>" e push, como em `tools/REGRAS.md`. No documento, troque "Decisões propostas" por "Decisões aprovadas em DD/MM".
+- **Aprovou um plantão**: acrescente o evento em `plano.json` > `plantao.eventos` (id curto, dia, hora, ate, tipo, evento, busca, dominios, confirma e, se for série, serie com até 22 caracteres), rode `node tools/conteudo/plantao.cjs . <dia> --qual` para conferir, envie como acima ("Plantão: <evento>") e crie a tarefa avulsa com `create_trigger`: name "Fonte de Mana: plantão <id>", `run_once_at` no dia e hora do evento em São Paulo (UTC-3), `notifications` {"push": true}, `initiation` "human_request" e o prompt: "Você faz o plantão da Fonte de Mana, o jornal de Magic: The Gathering do Paulo (São Paulo, Brasil): a cobertura no mesmo dia do anúncio <evento>. Ninguém vai responder durante esta execução: decida sozinho. Escreva em português do Brasil. A sessão já abre dentro do repositório. Leia inteiros .claude/skills/fdm-orquestrar/SKILL.md, tools/REGRAS.md e tools/conteudo/PLANTAO.md e siga a fase plantao do começo ao fim. Só se a pasta de abertura não for o repositório: git clone --depth 1 https://github.com/pemcarvalho-source/fontedemana ./gh e cd gh. Não chame ferramentas pagas do vidIQ e não mexa em tarefas agendadas. Termine com a mensagem final do PLANTAO.md, sem os separadores \" · \", \" – \" ou \" — \"." Diga na conversa o dia e a hora da tarefa criada. Crie só a tarefa que o Paulo aprovou.
 - **Mandou anúncio**: acrescente a linha na tabela Registro de campanhas do documento (Data, Rede, Peça, Objetivo, Público, Dias, Gasto). Vale também fora da revisão, em qualquer conversa.
 - **Mandou print do TikTok Studio**: acrescente a % de 2 s, 6 s e vídeo completo na seção da semana, no documento.
+- **Mandou print do Insights do Reel de teste**: acrescente as views de não seguidores do Reel de teste e do Reels normal do mesmo dia na seção da semana, no documento, e diga qual gancho ganhou.
 
 Nunca grave os dados de `/tmp/fdm/revisao/` no repositório.

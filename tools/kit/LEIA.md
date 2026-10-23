@@ -95,6 +95,8 @@ Até 500 caracteres por post. O fio (`threadsFio`) conta a edição em 3 a 8 pos
 
 No máximo 3 hashtags por legenda, no fim: 1 do assunto ou do evento (#startrek, #krenko) e 2 gerais (#commander e #mtg). A partir de 26/10/2026 a pauta corta o que passar, ficando com a do assunto e as gerais. A primeira linha leva a palavra de busca (Commander, carta de Magic e o nome do evento ou produto) e o gancho.
 
+A partir das edições de 26/10/2026, a chamada é uma pergunta aberta ("Você colocaria Georgiou de comandante ou nas 99?"). Nada de pedir comentário com palavra, letra ou emoji combinado, curtida, marcação ou envio ("comenta X", "marca quem", "manda pro amigo"): o Instagram deixa de recomendar a peça. O `gerar.cjs` recusa esses padrões (`tools/conteudo/plano.json` > `isca`) e a última tela do carrossel passa a dizer "Salva para lembrar das datas".
+
 ## Quando a cena 2 não tem preço
 
 Use `itens` na cena 2 com a segunda manchete e troque o `rotulo` (por exemplo "Novidade", com cor G).

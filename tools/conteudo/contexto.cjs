@@ -99,8 +99,10 @@ function publicados() {
     });
   }
   if (idx && (idx.featuredCards || []).length) L.push('Todas as cartas que já foram Topdeck: ' + idx.featuredCards.join(', '));
-  const orig = [], tik = [];
+  const orig = [], tik = [], plan = [];
   for (const d of pastasPauta()) {
+    const pl = json('pauta/' + d + '/plantao/plantao.json');
+    if (pl) plan.push(`- ${d} Plantão: ${plain(pl.tema)}${(pl.cartas || []).length ? ' (cartas: ' + pl.cartas.join(', ') + ')' : ''}`);
     const o = json('pauta/' + d + '/original/original.json');
     if (o) orig.push(`- ${d} ${((plano.pilares || {})[o.pilar] || {}).nome || o.pilar}: ${plain(o.tema)}${o.item ? ' [fila: ' + o.item + ']' : ''}${(o.cartas || []).length ? ' (cartas: ' + o.cartas.join(', ') + ')' : ''}`);
     const r = json('pauta/' + d + '/tiktok/roteiro.json');
@@ -108,6 +110,7 @@ function publicados() {
   }
   if (tik.length) L.push('TikToks:', ...tik);
   if (orig.length) L.push('Originais (carrossel e Threads):', ...orig);
+  if (plan.length) L.push('Plantões (anúncio coberto no mesmo dia em que saiu; no jornal do dia seguinte, o mesmo assunto conta como desdobramento):', ...plan);
   try {
     const ex = fs.readdirSync(path.join(ROOT, 'extras')).filter(d => fs.statSync(path.join(ROOT, 'extras', d)).isDirectory() && d !== 'lojas');
     if (ex.length) L.push('Extras já feitos: ' + ex.join(', '));

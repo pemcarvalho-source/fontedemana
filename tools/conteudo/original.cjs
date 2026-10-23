@@ -81,6 +81,12 @@ const walk = (v, p, tags) => {
 };
 walk(c, 'carrossel', true);
 walk({ tema: o.tema, legenda: o.legenda, threads: o.threads, enquete: o.enquete }, '', false);
+// isca de engajamento (plano.json > isca, desde 26 out 2026): o Instagram não recomenda peça que pede comentário combinado, marcação ou envio
+if (plano.isca && plano.isca.desde && DATA >= plano.isca.desde) {
+  const juntar = v => typeof v === 'string' ? v : Array.isArray(v) ? v.map(juntar).join('\n') : v && typeof v === 'object' ? Object.values(v).map(juntar).join('\n') : '';
+  const tx = juntar([c, o.legenda, (o.threads || {}).texto]);
+  (plano.isca.padroes || []).forEach(x => { const m = tx.match(new RegExp(x, 'im')); if (m) E.push(`isca de engajamento: "${tx.slice(m.index, m.index + m[0].length + 25).replace(/^[.!?:\s]+/, '').split('\n')[0]}". Troque por uma pergunta aberta (tools/conteudo/FORMATOS.md, Pergunta aberta)`); });
+}
 
 const semFx = JSON.stringify(o, (k, v) => ['fx', 'arte', 'url', 'u'].includes(k) ? undefined : v);
 if (o.fx) {
