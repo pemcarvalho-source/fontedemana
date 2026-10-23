@@ -25,6 +25,7 @@
     "regras": [
       "Duração de 20 a 30 s (Deck e Combo até 45 s), sem contar a contagem do quiz.",
       "Primeiro segundo: a promessa na tela e na voz ao mesmo tempo, com a resposta ou o resultado que o vídeo entrega (ex.: \"10 de dano com 5 manas. A ordem importa.\"). Estatística e contexto vêm depois.",
+      "O gancho é de um destes três tipos, que o próprio Instagram recomenda para os 3 primeiros segundos: engraçado (a situação de mesa que dá risada), identificável (\"toda mesa tem um...\", o erro que todo mundo já cometeu) ou inesperado (o número ou o fato que contraria o senso comum).",
       "Cenas curtas: uma ideia por cena, fala de até 110 caracteres (gancho até 90). O vídeo revela título, subtítulo, linhas e cartas um de cada vez, então nada fica parado mais de 3 s.",
       "Sem abertura: nada de vinheta, apresentação ou chamada do site no começo. O site vai na legenda e no comentário fixado.",
       "Final: corta na revelação. A cena cta é opcional e curta (fala de até 60 caracteres, ex.: \"Segue a Fonte de Mana para o próximo.\").",
@@ -41,10 +42,13 @@
     "hashtags": 3,
     "regras": [
       "Primeira linha da legenda: palavra de busca (Commander, deck, carta de Magic e o tema) e a pergunta de uma palavra.",
-      "No máximo 3 hashtags por legenda, no fim (a pauta corta o que passar).",
+      "No máximo 3 hashtags por legenda, no fim: 1 do assunto ou do evento (#startrek, #krenko, #solring) e 2 gerais (#commander e #mtg). Se passar, a pauta corta e fica com a do assunto e as gerais.",
+      "Notícia: o nome do evento ou do produto na primeira linha e na hashtag do assunto, para quem procura o assunto achar o post.",
       "Comentário fixado com a mesma pergunta e as opções escritas."
     ]
   },
+
+  "audio": {"desde": "2026-10-26", "nota": "Recomendação do Instagram (melhores práticas, out 2026): som em alta deixa a peça mais atual. Reels narrado leva música em alta da biblioteca do Instagram em volume baixo, sem cobrir a voz; carrossel leva uma música que combine com o tema."},
 
   "testes": [
     {"id": "tiktok-18h", "de": "2026-11-02", "ate": "2026-11-08", "hora": {"tiktok": "18:00"}, "mede": "Visualizações do TikTok nas primeiras 24 h, contra a mediana da semana anterior às 11:30."},
@@ -248,6 +252,7 @@
       "fontes": "A própria visita e as anotações do Paulo no arquivo da visita.",
       "gancho": "Fui conferir a <loja>. Vale a visita?",
       "pergunta": "Qual loja a gente visita na próxima?",
+      "formato": "Post e Reels em Collab com a loja e com a loja marcada como local (o Instagram mostra o post para quem procura o lugar). Vídeo gravado com luz boa, de frente para a janela ou com a luz da loja acesa, em 1080p e 30 quadros por segundo.",
       "fila": null
     }
   },

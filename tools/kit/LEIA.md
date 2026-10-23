@@ -93,7 +93,7 @@ Até 500 caracteres por post. O fio (`threadsFio`) conta a edição em 3 a 8 pos
 
 ## Legendas
 
-No máximo 3 hashtags por legenda, no fim (a partir de 26/10/2026 a pauta corta o que passar). A primeira linha leva a palavra de busca (Commander, carta de Magic e o assunto) e o gancho.
+No máximo 3 hashtags por legenda, no fim: 1 do assunto ou do evento (#startrek, #krenko) e 2 gerais (#commander e #mtg). A partir de 26/10/2026 a pauta corta o que passar, ficando com a do assunto e as gerais. A primeira linha leva a palavra de busca (Commander, carta de Magic e o nome do evento ou produto) e o gancho.
 
 ## Quando a cena 2 não tem preço
 

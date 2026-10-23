@@ -32,6 +32,19 @@ A primeira análise das redes (22 out) mostrou que a capa do vídeo prende, mas 
 - **Combo**: continua com as cartas, a ordem de jogar e a sequência dos gatilhos, em cenas mais curtas.
 - **Reel de teste** (dias em `plano.json` > `testes`): o mesmo vídeo com outro gancho (`ganchoB`), postado só para quem não segue. O gancho que ganhar vira referência para os próximos.
 
+## O que o próprio Instagram recomenda (out 2026)
+
+As melhores práticas de criação do Instagram (Ferramentas profissionais), e como cada uma entra aqui:
+
+- **Reels para chegar a quem não segue**: as contas que mais crescem postam 10 ou mais por mês. A partir de 26 out, o vídeo original vai para o Reels todo dia.
+- **Carrossel com texto de contexto na primeira tela**: a capa sempre diz o assunto e o número ou a pergunta que faz arrastar.
+- **Os 3 primeiros segundos**: algo engraçado, identificável ou inesperado, e motivo para ficar até o fim. É o molde de 26 out.
+- **Ser o primeiro em acontecimentos**: postar no dia, com o nome do evento na primeira linha e na hashtag do assunto.
+- **Legenda ligada ao conteúdo, chamando para participar**: a pergunta de uma palavra e o comentário fixado.
+- **Local e hashtags relevantes**: a hashtag do assunto entre as 3; a loja marcada como local na Rota das Lojas.
+- **Som em alta**: no Reels (por baixo da voz) e no carrossel.
+- **Qualidade**: luz boa, 720p ou mais e 30 quadros por segundo (os vídeos da Fonte de Mana saem em 1080x1920 a 30).
+
 ## Formatos com ferramenta pronta
 
 ### Chama o Juiz (pilar `regra`)

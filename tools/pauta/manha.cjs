@@ -36,12 +36,22 @@ const REELS_ORIG = vale(plano.reels) && plano.reels.fonte === 'original';
 const THREADS_UM = vale(plano.threads) && plano.threads.fio === false;
 const TOPICO = THREADS_UM ? (plano.threads.topico || 'MTG') : null;
 const maxTags = (() => { const t = testesHoje.find(x => x.hashtags != null); return t ? t.hashtags : (vale(plano.legenda) ? plano.legenda.hashtags : null); })();
-// mantém só as primeiras maxTags hashtags da legenda (o resto sai); sem regra, devolve o texto como veio
+// no máximo maxTags hashtags: primeiro a do assunto (a que não é geral), depois as gerais na ordem de GERAIS; sem regra, devolve o texto como veio
+const GERAIS = ['commander', 'mtg', 'edh', 'magicthegathering', 'mtgcommander', 'mtgbrasil', 'magicbrasil', 'edhbrasil', 'cartasdemagic', 'cartademagic', 'deckdecommander', 'fontedemana'];
+const RE_TAG = /(^|[ \t\n])#([\p{L}\p{N}_]+)/gu;
 const tags = s => {
   if (maxTags == null) return s;
-  let k = 0;
-  return String(s).replace(/(^|[ \t\n])#[\p{L}\p{N}_]+/gu, (m, antes) => (++k <= maxTags ? m : (antes === '\n' ? '\n' : ''))).replace(/[ \t]+\n/g, '\n').replace(/\n[ \t]+/g, '\n').replace(/[ \t]{2,}/g, ' ').replace(/\n{3,}/g, '\n\n').trim();
+  const todas = [...String(s).matchAll(RE_TAG)].map(m => m[2].toLowerCase()).filter((t, i, a) => a.indexOf(t) === i);
+  const esp = todas.filter(t => !GERAIS.includes(t)), ger = todas.filter(t => GERAIS.includes(t)).sort((a, b) => GERAIS.indexOf(a) - GERAIS.indexOf(b));
+  const fica = esp.slice(0, maxTags ? Math.max(1, maxTags - 2) : 0);
+  ger.concat(esp).forEach(t => { if (fica.length < maxTags && !fica.includes(t)) fica.push(t); });
+  const vistas = new Set();
+  return String(s).replace(RE_TAG, (m, antes, t) => { const l = t.toLowerCase(); if (fica.includes(l) && !vistas.has(l)) { vistas.add(l); return m; } return antes === '\n' ? '\n' : ''; })
+    .replace(/[ \t]+\n/g, '\n').replace(/\n[ \t]+/g, '\n').replace(/[ \t]{2,}/g, ' ').replace(/\n{3,}/g, '\n\n').trim();
 };
+// música (plano.audio): Reels narrado e carrossel levam som em alta da biblioteca do Instagram
+const AUDIO = vale(plano.audio);
+const comMusica = passos => AUDIO ? passos.slice(0, -1).concat(['Toque em Adicionar música e escolha uma em alta que combine com o tema.'], passos.slice(-1)) : passos;
 
 let ed = null, n = null;
 {
@@ -147,7 +157,7 @@ if (feedOrig) {
     oQue: corta(`Carrossel original de ${orig.slides.length} imagens (${nomePilar}): ${plain(orig.o.tema)}. Feito para salvar e compartilhar.`, 400),
     arquivos: orig.slides.map((f, i) => ({ nome: 'Imagem ' + (i + 1) + ' de ' + orig.slides.length, url: url(orig.dir + f) })),
     textos: [{ rotulo: 'Legenda', texto: legenda(orig.o.legenda) }],
-    passos: ['No Instagram, toque em + e escolha Post.', `Selecione as ${orig.slides.length} imagens na ordem, da 1 à ${orig.slides.length}.`, 'Cole a Legenda e publique.'] });
+    passos: comMusica(['No Instagram, toque em + e escolha Post.', `Selecione as ${orig.slides.length} imagens na ordem, da 1 à ${orig.slides.length}.`, 'Cole a Legenda e publique.']) });
 } else if (kit && kSlides.length) {
   feedTitulo = 'Carrossel da edição ' + n;
   const temas = [plain(kit.carrossel.capa.titulo)].concat((kit.carrossel.cartoes || []).slice(1).map(c => plain(c.titulo)), kit.carrossel.topdeck ? ['Topdeck: ' + plain(kit.carrossel.topdeck.titulo)] : []);
@@ -155,7 +165,7 @@ if (feedOrig) {
     oQue: corta(`Carrossel de ${kSlides.length} imagens da edição ${n}: ${temas.join(', ')}.`, 400),
     arquivos: kSlides.map((f, i) => ({ nome: 'Imagem ' + (i + 1) + ' de ' + kSlides.length, url: url(kdir + f) })),
     textos: [{ rotulo: 'Legenda', texto: legenda(kit.textos.legendaCarrossel) }],
-    passos: ['No Instagram, toque em + e escolha Post.', `Selecione as ${kSlides.length} imagens na ordem, da 1 à ${kSlides.length}.`, 'Cole a Legenda e publique.'] });
+    passos: comMusica(['No Instagram, toque em + e escolha Post.', `Selecione as ${kSlides.length} imagens na ordem, da 1 à ${kSlides.length}.`, 'Cole a Legenda e publique.']) });
 }
 
 // 12:00 Stories: repost do feed com enquete
@@ -208,7 +218,7 @@ if (REELS_ORIG && tiktok && roteiro && tkVideo && legOrig) {
     oQue: corta(`O vídeo original de hoje no Instagram, o mesmo arquivo do TikTok${narr ? ', já narrado' : ', ainda mudo'}. É o formato que mais chega a quem não segue.`, 400),
     arquivos: [{ nome: narr ? 'Vídeo original narrado' : 'Vídeo original mudo', url: url(tkVideo) }],
     textos: [{ rotulo: 'Legenda', texto: legOrig }].concat(roteiro.comentario ? [{ rotulo: 'Comentário fixado', texto: roteiro.comentario }] : []),
-    passos: ['No Instagram, toque em + e escolha Reel.', 'Escolha o vídeo baixado daqui, nunca o salvo do TikTok (o Instagram derruba vídeo com marca d\'água).' + (narr ? '' : ' Ele está mudo: adicione uma música em alta com volume baixo.'), 'Na capa, use o primeiro quadro, o do gancho.', 'Cole a Legenda e publique.', 'Fixe o comentário e responda quem comentar na primeira hora.'] });
+    passos: ['No Instagram, toque em + e escolha Reel.', 'Escolha o vídeo baixado daqui, nunca o salvo do TikTok (o Instagram derruba vídeo com marca d\'água).' + (narr ? '' : ' Ele está mudo: adicione uma música em alta com volume baixo.')].concat(narr && AUDIO ? ['Em Áudio, ponha uma música em alta da biblioteca do Instagram com volume baixo (uns 10%), sem cobrir a voz.'] : [], ['Na capa, use o primeiro quadro, o do gancho.', 'Cole a Legenda e publique.', 'Fixe o comentário e responda quem comentar na primeira hora.']) });
   // Reel de teste da semana (plano.testes > reel-teste): o mesmo vídeo com o gancho B, só para quem não segue
   const rt = testesHoje.find(t => t.id === 'reel-teste');
   const tVideo = ex(tkDir + 'tiktok-teste-narrado.mp4') ? tkDir + 'tiktok-teste-narrado.mp4' : (ex(tkDir + 'tiktok-teste.mp4') ? tkDir + 'tiktok-teste.mp4' : null);
@@ -216,7 +226,7 @@ if (REELS_ORIG && tiktok && roteiro && tkVideo && legOrig) {
     oQue: 'Teste da semana: o vídeo de hoje com outro gancho, mostrado só para quem não segue. Na revisão de segunda, o alcance dele em 72 horas é comparado com o do Reels das 19:00.',
     arquivos: [{ nome: 'Vídeo de teste, gancho B' + (/narrado/.test(tVideo) ? '' : ' (mudo)'), url: url(tVideo) }],
     textos: [{ rotulo: 'Legenda', texto: legOrig }],
-    passos: ['No Instagram, toque em + e escolha Reel, com o vídeo de teste.', 'Antes de compartilhar, ative a opção de Reel de teste (Trial reel), para ele aparecer só para quem não segue.', 'Deixe o compartilhamento automático desligado: se o gancho B ganhar, a revisão avisa para publicar para todos.', 'Cole a Legenda e publique.'] });
+    passos: ['No Instagram, toque em + e escolha Reel, com o vídeo de teste.', 'Antes de compartilhar, ative a opção de Reel de teste (Trial reel), para ele aparecer só para quem não segue.', 'Deixe o compartilhamento automático desligado: se o gancho B ganhar, a revisão avisa para publicar para todos.', 'Use a mesma música e o mesmo volume do Reels das 19:00, para o teste comparar só o gancho.', 'Cole a Legenda e publique.'] });
   else if (rt) avisosLog.push('hoje é dia de Reel de teste, mas a noite não gerou o vídeo com o gancho B');
 } else if (kVideo) {
   if (REELS_ORIG) avisosLog.push('sem o vídeo original de hoje, o Reels volta a ser o vídeo do jornal');

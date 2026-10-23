@@ -12,7 +12,7 @@ A primeira análise com o Metricool (10 a 21 out) mostrou: seguidor orgânico ch
 2. **Reels das 19:00 = o vídeo original do dia**, o mesmo arquivo do TikTok. O vídeo do jornal com música saiu da grade.
 3. **Anúncio só na peça campeã da semana**, com 72 h ou mais no ar e o gancho na meta; objetivo seguidores no TikTok e visitas ao perfil no Instagram, nunca visualizações; toda campanha registrada no documento privado (`plano.json` > `anuncio`).
 4. **Threads das 15:00 num post só**, com a notícia inteira, e o tópico MTG em todo post. Responder conversas de Magic de outras contas fica à mão.
-5. **Legendas**: palavra de busca e pergunta na primeira linha, até 3 hashtags, comentário fixado com a pergunta.
+5. **Legendas**: palavra de busca e pergunta na primeira linha, até 3 hashtags (1 do assunto e 2 gerais), comentário fixado com a pergunta.
 6. **Um teste por variável por semana** (`plano.json` > `testes`): TikTok às 18h de 2 a 8 nov, Reel de teste com gancho B em 4 e 10 nov, legendas sem hashtag em dias alternados de 9 a 15 nov.
 7. **Revisão toda segunda** com regras fixas de cor e de decisão (`tools/conteudo/REVISAO.md`); metas até 16 nov em `plano.json` > `metas`.
 
@@ -141,6 +141,8 @@ Números de antes da estratégia nova, para comparar nas revisões.
 - No Threads, o primeiro post do fio carrega tudo. Testar fio de 3 posts, com a notícia inteira no primeiro.
 
 ## Histórico de ajustes
+
+- 23 out 2026, v5.1, a partir das melhores práticas do próprio Instagram (Ferramentas profissionais, aba Criação, que o Paulo gravou): gancho dos 3 primeiros segundos de um de três tipos (engraçado, identificável ou inesperado); das 3 hashtags, 1 é do assunto ou do evento e a pauta mantém essa ao cortar; notícia com o nome do evento na primeira linha; música em alta no carrossel e no Reels narrado (`plano.json` > `audio`); Rota das Lojas com a loja marcada como local, luz boa e vídeo em 1080p a 30 quadros. As outras práticas já estavam na estratégia: 10 ou mais Reels por mês (a partir de 26 out são uns 30), texto de contexto na capa do carrossel, legenda que chama a participar, qualidade mínima de 720p e 30 quadros (os vídeos saem em 1080x1920 a 30). Fica como proposta, esperando o Paulo: plantão nos dias de anúncio grande, para ser o primeiro a cobrir.
 
 - 22 out 2026, v5 (aprovada pelo Paulo depois do diagnóstico das redes; vale para as peças a partir de 26 out): molde novo do vídeo com revelação progressiva e gancho B (`tiktok.cjs`), Reels das 19:00 com o vídeo original, Threads das 15:00 num post só (`threadsPost` no kit), até 3 hashtags e tópico MTG, testes datados, regra de anúncio, metas até 16 nov e a revisão semanal agendada (`REVISAO.md` e `revisao.cjs`). Números e gastos passam a ficar só no documento privado.
 
