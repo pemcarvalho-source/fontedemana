@@ -1,0 +1,65 @@
+{
+ "data": "2026-10-25",
+ "pilar": "bolsa",
+ "tema": "Dark Matter Manipulator sobe 529% numa semana, e não é pelo Commander",
+ "item": null,
+ "arte": "pauta/2026-10-25/tiktok/arte.jpg",
+ "carta": "pauta/2026-10-25/tiktok/carta.jpg",
+ "credito": "Arte: Dark Matter Manipulator, Steven Belledin",
+ "fx": "Reais pela cotação de 22 out (Banco Central, PTAX)",
+ "legenda": "Esse bruxo de 1 mana saiu de uns US$ 1 (R$ 5,04) para US$ 7,99 (R$ 40,25) em uma semana. Dark Matter Manipulator, de Reality Fracture, subiu 529% puxado pelo Modern e pelo Legacy, não pelo Commander. Para o seu deck de moer, vale pagar agora? Você compra agora ou espera cair? Reais pela cotação de 22 out (Banco Central, PTAX). Preços do MTGStocks e do Scryfall. #darkmattermanipulator #commander #mtg",
+ "comentario": "Hoje no Scryfall a versão foil sai por US$ 7,03 (R$ 35,42), mais barata que a comum, de US$ 7,49 (R$ 37,73). Você compra agora ou espera a febre do Modern passar?",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "cor": "A",
+   "chip": "Bolsa de Mana",
+   "kicker": "Subiu 529% em uma semana",
+   "titulo": "Esse bruxo de 1 mana foi de 1 dólar para quase 8",
+   "sub": "Dark Matter Manipulator. E o Commander não tem culpa.",
+   "narracao": "Esse bruxo de uma mana saiu de um dólar para quase oito em uma semana. Subiu 529 por cento. E dessa vez a culpa não é do Commander.",
+   "segundos": 12.4
+  },
+  {
+   "tipo": "carta",
+   "cor": "A",
+   "kicker": "O que ela faz",
+   "carta": "pauta/2026-10-25/tiktok/carta-1.jpg",
+   "titulo": "Dark Matter Manipulator",
+   "valor": "US$ 7,99",
+   "real": "(R$ 40,25)",
+   "fonte": "MTGStocks, 23 out 2026",
+   "narracao": "Ela entra e moe três cartas. Depois ganha dois de ataque a cada sete cartas no seu cemitério. No Commander, com vinte e uma cartas lá, ela já bate como um sete por dois.",
+   "segundos": 14.8
+  },
+  {
+   "tipo": "texto",
+   "cor": "R",
+   "kicker": "Por que subiu",
+   "titulo": "Quem comprou foi o Modern e o Legacy",
+   "sub": "Segundo o MTGStocks, a alta veio das listas de Moonshadow e do Standard, não dos decks de moer do Commander.",
+   "narracao": "Segundo o MTGStocks, quem comprou foi o Modern e o Legacy, nas listas de Moonshadow. O Commander não puxou essa alta.",
+   "segundos": 9.6
+  },
+  {
+   "tipo": "carta",
+   "cor": "A",
+   "kicker": "E no Commander?",
+   "carta": "pauta/2026-10-25/tiktok/carta-2.jpg",
+   "titulo": "Lurrus of the Dream-Den",
+   "sub": "Ela está em 11% dos decks recentes de Lurrus",
+   "fonte": "EDHREC, out 2026",
+   "narracao": "No Commander ela é de nicho: está em onze por cento dos decks recentes de Lurrus, que joga ela de novo do cemitério.",
+   "segundos": 10.4
+  },
+  {
+   "tipo": "cta",
+   "cor": "M",
+   "kicker": "Todo dia no Instagram",
+   "titulo": "A foil sai mais barata. Compra agora ou espera cair?",
+   "destaque": "@fontedemana",
+   "narracao": "Hoje a foil sai mais barata que a comum. Você compra agora ou espera cair? Mais no fontedemana ponto com ponto br.",
+   "segundos": 10
+  }
+ ]
+}

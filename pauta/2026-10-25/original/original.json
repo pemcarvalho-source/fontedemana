@@ -1,0 +1,37 @@
+{
+  "data": "2026-10-25",
+  "pilar": "bolsa",
+  "item": null,
+  "tema": "Dark Matter Manipulator sobe 529% numa semana, e não é pelo Commander",
+  "cartas": ["Dark Matter Manipulator", "Lurrus of the Dream-Den"],
+  "fx": "Valores em reais pela cotação de 22 out (Banco Central, PTAX).",
+  "carrossel": {
+    "capa": {"cor": "A", "chip": "Bolsa de Mana", "kicker": "Subiu 529% em uma semana", "titulo": "O bruxo de 1 mana que <b>subiu 529%</b>", "sub": "Dark Matter Manipulator saiu de uns US$ 1 (R$ 5,04) para <b>US$ 7,99 (R$ 40,25)</b>. E o Commander não tem culpa.", "arte": "pauta/2026-10-25/tiktok/arte.jpg", "credito": "Arte: Dark Matter Manipulator, Steven Belledin"},
+    "cartoes": [
+      {"cor": "A", "titulo": "O que ela faz", "carta": "pauta/2026-10-25/original/carta-1.jpg",
+       "itens": [{"cor": "A", "html": "Custa 1 de mana. Quando entra, <b>moe 3 cartas</b> do seu grimório para o cemitério."},
+                 {"cor": "A", "html": "Ganha +2 de ataque a cada 7 cartas no seu cemitério. Com 21 lá, é um <b>7/2 por 1 de mana</b>."}],
+       "fonte": "Fonte: Scryfall, out 2026"},
+      {"cor": "R", "titulo": "Quem puxou a alta",
+       "itens": [{"cor": "R", "html": "Segundo o MTGStocks, a compra veio do <b>Modern e do Legacy</b>, nas listas de Moonshadow."},
+                 {"cor": "R", "html": "Ela também entrou em listas do <b>Standard</b>."},
+                 {"cor": "R", "html": "O próprio MTGStocks diz que os decks de moer do Commander <b>não</b> puxaram o preço."}],
+       "nota": {"rotulo": "A tensão", "texto": "quem paga o preço novo é o jogador de Commander, que nem pediu essa alta."},
+       "fonte": "Fonte: MTGStocks, 23 out 2026"},
+      {"cor": "A", "titulo": "E no Commander?", "carta": "pauta/2026-10-25/original/carta-2.jpg",
+       "itens": [{"cor": "A", "html": "Está em <b>11%</b> dos decks recentes de Lurrus (23 de 213)."},
+                 {"cor": "A", "html": "Lurrus deixa jogar de novo do cemitério uma permanente de até 2 de mana, uma vez em cada turno seu."}],
+       "fonte": "Fonte: EDHREC, out 2026"},
+      {"cor": "M", "titulo": "Comprar agora para jogar?",
+       "itens": [{"cor": "M", "html": "Hoje a <b>foil</b> sai por US$ 7,03 (R$ 35,42), abaixo da comum, de US$ 7,49 (R$ 37,73)."},
+                 {"cor": "M", "html": "Preço puxado por torneio de outro formato muda quando o formato muda."},
+                 {"cor": "M", "html": "Se ela não é peça-chave do seu deck de moer, dá para jogar sem e acompanhar o preço."}],
+       "fx": "Valores em reais pela cotação de 22 out (Banco Central, PTAX).",
+       "fonte": "Fonte: Scryfall, 24 out 2026"}
+    ],
+    "cta": {"pergunta": "Você <b>compra agora</b> ou espera cair?", "quando": "Antes de fechar a lista do seu deck de moer", "salvar": "Salva para conferir o preço dela daqui a duas semanas"}
+  },
+  "legenda": "Carta de Magic que subiu 529% em uma semana, e o Commander não tem culpa. Dark Matter Manipulator, o bruxo de 1 mana de Reality Fracture, saiu de uns US$ 1 (R$ 5,04) para US$ 7,99 (R$ 40,25).\n\nEla entra, moe 3 cartas e ganha +2 de ataque a cada 7 cartas no seu cemitério. Segundo o MTGStocks, quem puxou a alta foram o Modern e o Legacy, nas listas de Moonshadow, além do Standard. No Commander ela está em 11% dos decks recentes de Lurrus, segundo o EDHREC. Hoje no Scryfall a foil sai mais barata que a comum.\n\nValores em reais pela cotação de 22 out (Banco Central, PTAX). Fontes: MTGStocks, Scryfall e EDHREC. Todo dia no fontedemana.com.br\n\nPara o seu deck de Commander de moer: você compra agora ou espera cair?\n\n#darkmattermanipulator #commander #mtg",
+  "threads": {"texto": "Dark Matter Manipulator subiu 529% numa semana por causa do Modern e do Legacy, não do Commander. Saiu de uns US$ 1 (R$ 5,04) para US$ 7,99 (R$ 40,25).\n\nPergunta para quem joga deck de moer: você paga o preço novo agora ou espera a febre dos torneios passar? E quando outro formato encarece carta do seu deck, você troca por outra ou paga?", "obs": "Enquete com as opções: compro agora, espero cair, troco por outra"},
+  "enquete": {"pergunta": "Dark Matter Manipulator subiu 529%. Você:", "opcoes": ["Compro agora", "Espero cair", "Troco por outra"]}
+}
