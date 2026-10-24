@@ -1,6 +1,7 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "Gray Merchant of Asphodel",
   "Platinum Angel",
   "Kenrith, the Returned King",
   "Thought Reflection",
@@ -17,6 +18,13 @@ window.MANA_POOL_INDEX = {
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 19,
+   "date": "2026-10-24",
+   "dateLabel": "Sábado, 24 de outubro de 2026",
+   "head": "Weekly Winners: Radiant Solar sobe 30% com deck de cEDH da Dack Fayden",
+   "biome": "W"
+  },
   {
    "n": 18,
    "date": "2026-10-23",
