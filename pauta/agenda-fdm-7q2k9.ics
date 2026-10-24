@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-10-20-gravacao@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261019T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -44,7 +44,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-20-tiktok@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261020T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Dicionário do Commander #2\, staple
@@ -73,7 +73,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-20-threads-manha@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261020T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Você acha que regra para carta de 
@@ -95,7 +95,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-20-stories-manha@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261020T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -115,7 +115,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-20-feed@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261020T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 15
@@ -152,7 +152,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-20-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261020T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -171,7 +171,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-20-threads-tarde@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261020T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 15
@@ -203,7 +203,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-20-stories-tarde@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261020T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -223,7 +223,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-20-reels@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261020T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -250,7 +250,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-21-gravacao@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261020T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -293,7 +293,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-21-tiktok@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261021T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Deck em 40 segundos: Krenko\, Mob Boss
@@ -322,7 +322,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-21-threads-manha@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261021T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Se fosse comprar só um\, qual seri
@@ -344,7 +344,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-21-stories-manha@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261021T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -364,7 +364,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-21-feed@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261021T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 16
@@ -410,7 +410,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-21-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261021T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -429,7 +429,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-21-threads-tarde@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261021T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 16
@@ -470,7 +470,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-21-stories-tarde@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261021T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -490,7 +490,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-21-reels@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261021T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -519,7 +519,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-22-gravacao@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261021T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -560,7 +560,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-22-tiktok@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261022T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Top 5 #2: vampiros do Commander
@@ -589,7 +589,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-22-threads-manha@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261022T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Top 5 #2: os vampiros que mais aparecem nos 
@@ -614,7 +614,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-22-stories-manha@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261022T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -634,7 +634,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-22-feed@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261022T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Top 5 #2: os vampiros que mais aparecem nos d
@@ -679,7 +679,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-22-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261022T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -698,7 +698,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-22-threads-tarde@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261022T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 17
@@ -735,7 +735,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-22-stories-tarde@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261022T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -755,7 +755,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-22-reels@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261022T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -783,7 +783,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-23-gravacao@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261022T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -820,7 +820,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-23-tiktok@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261023T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Chama o Juiz #2 no TikTok
@@ -850,7 +850,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-23-threads-manha@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261023T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Chama o Juiz #2: comandante voltou para a m
@@ -875,7 +875,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-23-stories-manha@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261023T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -895,7 +895,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-23-feed@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261023T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Chama o Juiz #2: comandante voltou para a mã
@@ -935,7 +935,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-23-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261023T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -954,7 +954,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-23-threads-tarde@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261023T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 18
@@ -989,7 +989,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-23-stories-tarde@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261023T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1009,7 +1009,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-23-reels@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261023T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -1036,7 +1036,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-24-gravacao@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261023T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -1079,27 +1079,26 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-24-tiktok@fontedemana.com.br
-DTSTAMP:20261023T224810Z
+DTSTAMP:20261024T003954Z
 DTSTART:20261024T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Valgavoth no DC500\, o demônio no teto de R$ 500
 DESCRIPTION:Vídeo do Radar DC500 com tema de Halloween: Valgavoth e as car
  tas que punem a compra\, dentro do teto do formato.\n\nArquivos:\n- Vídeo
-  mudo (tiktok-mudo.mp4): https://fontedemana.com.br/pauta/2026-10-24/tikto
- k/tiktok-mudo.mp4\n\nLegenda:\nValgavoth\, o demônio da casa mal-assombra
- da de Duskmourn\, no DC500: o Commander 1 contra 1 com teto de R$ 500\, e 
- o comandante fica fora da conta.\n\nO truque é fazer o oponente perder vi
- da no próprio turno. Três peças que fazem isso somam US$ 12\,46 (R$ 62\
- ,64) no Scryfall.\n\nA sua loja joga DC500?\n\nReais pela cotação de 21 
- out (Banco Central\, PTAX). O preço que vale no torneio é o da fonte que
-  a loja escolher.\n\n#dc500 #commander #mtg\n\nComentário fixado:\nValgav
- oth no DC500: quais outras cartas de terror você poria nessa lista?\n\nPa
- sso a passo:\n1. Poste com um som em alta da biblioteca do TikTok\, com vo
- lume entre 15% e 20%.\n2. A voz é sua\, não precisa de rótulo de IA.\n3
- . Fixe o comentário logo depois de postar.\n4. Se os áudios não chegare
- m\, poste o vídeo mudo com uma música em alta.\n\nValores em reais pela 
- cotação de 21 out (Banco Central\, PTAX).\n\nPauta completa: https://fon
- tedemana.com.br/pauta/2026-10-24/#tiktok
+  narrado (tiktok-narrado.mp4): https://fontedemana.com.br/pauta/2026-10-24
+ /tiktok/tiktok-narrado.mp4\n\nLegenda:\nValgavoth\, o demônio da casa mal
+ -assombrada de Duskmourn\, no DC500: o Commander 1 contra 1 com teto de R$
+  500\, e o comandante fica fora da conta.\n\nO truque é fazer o oponente 
+ perder vida no próprio turno. Três peças que fazem isso somam US$ 12\,4
+ 6 (R$ 62\,64) no Scryfall.\n\nA sua loja joga DC500?\n\nReais pela cotaç
+ ão de 21 out (Banco Central\, PTAX). O preço que vale no torneio é o da
+  fonte que a loja escolher.\n\n#dc500 #commander #mtg\n\nComentário fixad
+ o:\nValgavoth no DC500: quais outras cartas de terror você poria nessa li
+ sta?\n\nPasso a passo:\n1. Poste com um som em alta da biblioteca do TikTo
+ k\, com volume entre 15% e 20%.\n2. A voz é sua\, não precisa de rótulo
+  de IA.\n3. Fixe o comentário logo depois de postar.\n\nValores em reais 
+ pela cotação de 21 out (Banco Central\, PTAX).\n\nPauta completa: https:
+ //fontedemana.com.br/pauta/2026-10-24/#tiktok
 URL:https://fontedemana.com.br/pauta/2026-10-24/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
