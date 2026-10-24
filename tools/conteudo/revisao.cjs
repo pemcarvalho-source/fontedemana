@@ -123,6 +123,11 @@ function serie(nome) {
   return [...m.entries()].sort((a, b) => a[0].localeCompare(b[0]));
 }
 const SERIES = { instagram: serie('instagram-evolucao'), tiktok: serie('tiktok-evolucao'), threads: serie('threads-evolucao') };
+// o Metricool às vezes para de trazer os seguidores de uma rede (o do TikTok parou em 22/10/2026): sem dado dos 2 últimos dias, o placar dessa rede fica velho
+Object.entries(SERIES).forEach(([rede, ser]) => {
+  const ult = ser.length ? ser[ser.length - 1][0] : null;
+  if (!ult || ult < soma(HOJE, -2)) avisos.push(`o Metricool não traz os seguidores do ${{ instagram: 'Instagram', tiktok: 'TikTok', threads: 'Threads' }[rede]} desde ${ult ? ddmm(ult) : 'o começo da janela'}: peça ao Paulo o número de seguidores que o perfil mostra hoje${rede === 'tiktok' ? ' (ou o print do TikTok Studio, aba Seguidores)' : ''} e corrija a linha dessa rede no documento`);
+});
 // alcance diário da conta do Instagram: pico sem anúncio registrado
 {
   const alc = new Map();
