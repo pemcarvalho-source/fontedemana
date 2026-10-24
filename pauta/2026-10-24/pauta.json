@@ -1,80 +1,259 @@
 {
- "data": "2026-10-24",
- "fx": "Valores em reais pela cotação de 21 out (Banco Central, PTAX).",
- "avisos": [
-  {
-   "id": "gravacao",
-   "dia": "2026-10-23",
-   "hora": "18:30",
-   "rede": "Gravação",
-   "titulo": "Gravar a narração do TikTok de amanhã",
-   "oQue": "Radar DC500 com tema de Halloween: Valgavoth, o demônio de Duskmourn, e as três cartas baratas que fazem o oponente sangrar quando compra. Grave um áudio por cena, lendo a fala de cada uma.",
-   "arquivos": [
+  "data": "2026-10-24",
+  "fx": "Valores em reais pela cotação de 22 out, US$ 1 = R$ 5,0377 (PTAX do Banco Central).",
+  "forca": "forte",
+  "feed": "jornal",
+  "avisos": [
     {
-     "nome": "Vídeo mudo (tiktok-mudo.mp4)",
-     "url": "https://fontedemana.com.br/pauta/2026-10-24/tiktok/tiktok-mudo.mp4"
+      "id": "gravacao",
+      "dia": "2026-10-23",
+      "hora": "18:30",
+      "rede": "Gravação",
+      "titulo": "Gravar a narração do TikTok de amanhã",
+      "oQue": "Radar DC500 com tema de Halloween: Valgavoth, o demônio de Duskmourn, e as três cartas baratas que fazem o oponente sangrar quando compra. Grave um áudio por cena, lendo a fala de cada uma.",
+      "arquivos": [
+        {
+          "nome": "Vídeo mudo (tiktok-mudo.mp4)",
+          "url": "https://fontedemana.com.br/pauta/2026-10-24/tiktok/tiktok-mudo.mp4"
+        }
+      ],
+      "roteiro": [
+        {
+          "cena": "Cena 1, uns 10 s",
+          "tela": "O demônio de Duskmourn no teto de R$ 500. No DC500, o comandante fica fora da conta",
+          "fala": "O demônio da casa mal-assombrada cabe num deck de Commander de quinhentos reais. No DC500, o comandante nem entra na conta."
+        },
+        {
+          "cena": "Cena 2, uns 12 s",
+          "tela": "Perdeu vida no próprio turno? Ele cresce e você compra. Uma vez por turno do oponente: marcador +1/+1 e uma carta. Para mirar nele, o oponente paga 2 de vida",
+          "fala": "Valgavoth é um quatro por quatro voador. Na primeira vez que o oponente perde vida no turno dele, o demônio ganha um marcador e você compra uma carta."
+        },
+        {
+          "cena": "Cena 3, uns 7 s",
+          "tela": "A carta Kederekt Parasite grande, com US$ 7,73 (R$ 38,86) embaixo. Um Horror de uma mana que pune cada compra",
+          "fala": "Kederekt Parasite: o oponente compra e leva um de dano. Uns trinta e nove reais."
+        },
+        {
+          "cena": "Cena 4, uns 7 s",
+          "tela": "A carta Fate Unraveler grande, com US$ 2,79 (R$ 14,03) embaixo. Uma bruxa (Hag) que faz o mesmo e ainda bloqueia",
+          "fala": "Fate Unraveler, uma bruxa que faz a mesma coisa e ainda bloqueia. Uns catorze reais."
+        },
+        {
+          "cena": "Cena 5, uns 10 s",
+          "tela": "A carta Underworld Dreams grande, com US$ 1,94 (R$ 9,75) embaixo. As três juntas: US$ 12,46 (R$ 62,64)",
+          "fala": "Underworld Dreams fecha o trio por uns dez reais. As três juntas, uns sessenta e três. A sua loja joga DC500?"
+        }
+      ],
+      "passos": [
+        "Grave um áudio por cena no Gravador do iPhone, num lugar silencioso, com o celular a um palmo da boca.",
+        "Nomeie os áudios cena_1, cena_2, cena_3, cena_4 e cena_5.",
+        "Mande os áudios ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"áudios do TikTok de 2026-10-24\"."
+      ]
+    },
+    {
+      "id": "tiktok",
+      "hora": "11:30",
+      "rede": "TikTok",
+      "titulo": "Valgavoth no DC500, o demônio no teto de R$ 500",
+      "oQue": "Vídeo do Radar DC500 com tema de Halloween: Valgavoth e as cartas que punem a compra, dentro do teto do formato.",
+      "arquivos": [
+        {
+          "nome": "Vídeo do TikTok narrado",
+          "url": "https://fontedemana.com.br/pauta/2026-10-24/tiktok/tiktok-narrado.mp4"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Valgavoth, o demônio da casa mal-assombrada de Duskmourn, no DC500: o Commander 1 contra 1 com teto de R$ 500, e o comandante fica fora da conta.\n\nO truque é fazer o oponente perder vida no próprio turno. Três peças que fazem isso somam US$ 12,46 (R$ 62,64) no Scryfall.\n\nA sua loja joga DC500?\n\nReais pela cotação de 21 out (Banco Central, PTAX). O preço que vale no torneio é o da fonte que a loja escolher.\n\n#dc500 #commander #mtg"
+        },
+        {
+          "rotulo": "Comentário fixado",
+          "texto": "Valgavoth no DC500: quais outras cartas de terror você poria nessa lista?"
+        }
+      ],
+      "passos": [
+        "Poste com um som em alta da biblioteca do TikTok, com volume entre 15% e 20%.",
+        "A voz é sua, não precisa de rótulo de IA.",
+        "Fixe o comentário logo depois de postar."
+      ]
+    },
+    {
+      "id": "threads-manha",
+      "hora": "10:30",
+      "rede": "Threads",
+      "titulo": "Pergunta do dia: Qual?",
+      "oQue": "Pergunta para puxar conversa sobre a notícia do dia.",
+      "textos": [
+        {
+          "rotulo": "Post",
+          "texto": "Radiant Solar subiu 30% por causa de um deck de cEDH da Dack Fayden. Você já viu alguma carta do seu fichário subir por causa de um comandante novo? Qual?"
+        }
+      ],
+      "passos": [
+        "Abra o Threads e cole o Post.",
+        "Dica: Enquete: Já vi subir, Nunca reparei",
+        "Publique e responda quem comentar na primeira hora."
+      ]
+    },
+    {
+      "id": "stories-manha",
+      "hora": "10:30",
+      "rede": "Instagram Stories",
+      "titulo": "Capa do jornal com sticker de pergunta",
+      "oQue": "Story com a capa da edição 19 (Radiant Solar sobe 30% com cEDH da Dack Fayden) e um sticker de pergunta para puxar a conversa.",
+      "arquivos": [
+        {
+          "nome": "Capa da edição 19",
+          "url": "https://fontedemana.com.br/kit/ed19/carrossel-01.jpg"
+        }
+      ],
+      "passos": [
+        "Baixe a capa e poste no Story.",
+        "Adicione o sticker de Pergunta no terço de baixo, sem cobrir o título: Qual carta do seu fichário subiu por causa de um comandante novo?",
+        "Publique."
+      ]
+    },
+    {
+      "id": "feed",
+      "hora": "12:00",
+      "rede": "Instagram feed",
+      "titulo": "Carrossel da edição 19",
+      "origem": "jornal:ed19",
+      "oQue": "Carrossel de 6 imagens da edição 19: Radiant Solar sobe 30% com cEDH da Dack Fayden, Scotty, Miracle Worker, Topdeck: Gray Merchant of Asphodel.",
+      "arquivos": [
+        {
+          "nome": "Imagem 1 de 6",
+          "url": "https://fontedemana.com.br/kit/ed19/carrossel-01.jpg"
+        },
+        {
+          "nome": "Imagem 2 de 6",
+          "url": "https://fontedemana.com.br/kit/ed19/carrossel-02.jpg"
+        },
+        {
+          "nome": "Imagem 3 de 6",
+          "url": "https://fontedemana.com.br/kit/ed19/carrossel-03.jpg"
+        },
+        {
+          "nome": "Imagem 4 de 6",
+          "url": "https://fontedemana.com.br/kit/ed19/carrossel-04.jpg"
+        },
+        {
+          "nome": "Imagem 5 de 6",
+          "url": "https://fontedemana.com.br/kit/ed19/carrossel-05.jpg"
+        },
+        {
+          "nome": "Imagem 6 de 6",
+          "url": "https://fontedemana.com.br/kit/ed19/carrossel-06.jpg"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Commander no bolso: Radiant Solar sobe 30% com um deck de cEDH da Dack Fayden.\n\nO Weekly Winners do MTGStocks de 23 de outubro mostrou o anjo de Forgotten Realms Commander a US$ 10,00 (R$ 50,38) no TCGplayer. O motivo é um deck de cEDH mono-branco com Dack Fayden, Helping Hand, onde as criaturas que entram fazem o anjo aventurar na masmorra várias vezes.\n\nUthros Research Craft subiu mais 58% e foi a US$ 4,98 (R$ 25,09), puxada pelos comandantes de artefato de Reality Fracture e pela expectativa das espaçonaves de Star Trek.\n\nNas prévias de Star Trek, Scotty, Miracle Worker deixa você conjurar mágicas do cemitério devolvendo uma criatura para a mão.\n\nNo Topdeck de Halloween, Gray Merchant of Asphodel, o zumbi que drena a mesa inteira.\n\nVocê tem algum Radiant Solar parado no fichário?\n\nTudo em fontedemana.com.br\n\nArtes: Radiant Solar, Alexander Mokhov. Gray Merchant of Asphodel, Robbie Trevino.\n\nValores em reais pela cotação de 22 out (Banco Central, PTAX).\n\n#weeklywinners #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        }
+      ],
+      "passos": [
+        "No Instagram, toque em + e escolha Post.",
+        "Selecione as 6 imagens na ordem, da 1 à 6.",
+        "Cole a Legenda e publique."
+      ]
+    },
+    {
+      "id": "stories-meio-dia",
+      "hora": "12:00",
+      "rede": "Instagram Stories",
+      "titulo": "Repost do carrossel com enquete",
+      "oQue": "Compartilhe o carrossel recém postado no Story com uma enquete.",
+      "passos": [
+        "No carrossel publicado, toque no avião de papel e em Adicionar post ao seu story.",
+        "Adicione o sticker de Enquete embaixo do post: Você tem Radiant Solar no fichário? com Tenho, Não tenho e Vou atrás.",
+        "Publique."
+      ]
+    },
+    {
+      "id": "threads-tarde",
+      "hora": "15:00",
+      "rede": "Threads",
+      "titulo": "Fio da edição 19",
+      "oQue": "Fio com 7 posts contando a edição 19. O último é o aviso de conteúdo de fã.",
+      "textos": [
+        {
+          "rotulo": "Post 1",
+          "texto": "Radiant Solar subiu 30% e foi a US$ 10,00 (R$ 50,38) no TCGplayer, segundo o Weekly Winners do MTGStocks de 23 de outubro."
+        },
+        {
+          "rotulo": "Post 2",
+          "texto": "O motivo é um deck de cEDH mono-branco com Dack Fayden, Helping Hand, de Reality Fracture. As criaturas que entram no campo fazem o anjo aventurar na masmorra várias vezes."
+        },
+        {
+          "rotulo": "Post 3",
+          "texto": "Uthros Research Craft subiu mais 58% e foi a US$ 4,98 (R$ 25,09). Pesam os comandantes de artefato de Reality Fracture e a expectativa pelas espaçonaves de Star Trek."
+        },
+        {
+          "rotulo": "Post 4",
+          "texto": "Nas prévias de Star Trek, Scotty, Miracle Worker: mítica azul de 3 manas. Na fase principal, você conjura instantâneas e feitiços do cemitério devolvendo outra criatura sua para a mão."
+        },
+        {
+          "rotulo": "Post 5",
+          "texto": "No Topdeck de Halloween, Gray Merchant of Asphodel. Ao entrar, cada oponente perde vida igual à sua devoção ao preto e você ganha a soma."
+        },
+        {
+          "rotulo": "Post 6",
+          "texto": "Tudo em fontedemana.com.br\n\nValores em reais pela cotação de 22 out (Banco Central, PTAX)."
+        },
+        {
+          "rotulo": "Post 7 (aviso de fã)",
+          "texto": "Fonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        }
+      ],
+      "passos": [
+        "No Threads, publique o Post 1.",
+        "Toque em Adicionar à sequência e cole os posts seguintes, um por vez, na ordem.",
+        "Publique o fio inteiro de uma vez."
+      ]
+    },
+    {
+      "id": "stories-tarde",
+      "hora": "15:00",
+      "rede": "Instagram Stories",
+      "titulo": "Topdeck do Dia com link",
+      "oQue": "Story com a imagem de Gray Merchant of Asphodel no Topdeck do Dia e o sticker de link para a edição completa.",
+      "arquivos": [
+        {
+          "nome": "Topdeck do Dia",
+          "url": "https://fontedemana.com.br/kit/ed19/carrossel-04.jpg"
+        }
+      ],
+      "passos": [
+        "Baixe a imagem e poste no Story.",
+        "Adicione o sticker de Link para fontedemana.com.br com o texto Edição completa, embaixo do texto do Topdeck.",
+        "Publique."
+      ]
+    },
+    {
+      "id": "reels",
+      "hora": "19:00",
+      "rede": "Reels",
+      "titulo": "Vídeo do jornal com música",
+      "oQue": "Vídeo de 48 s da edição 19 com música em alta e sem narração.",
+      "arquivos": [
+        {
+          "nome": "Vídeo da edição 19",
+          "url": "https://fontedemana.com.br/kit/ed19/video-vertical-ed19.mp4"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Commander no bolso: Radiant Solar sobe 30% e Uthros Research Craft sobe 58% no Weekly Winners do MTGStocks. Mais Scotty, Miracle Worker de Star Trek e o Gray Merchant no Topdeck de Halloween.\n\nVocê colocaria o Radiant Solar num deck de blink?\n\nTudo em fontedemana.com.br\n\nValores em reais pela cotação de 22 out (Banco Central, PTAX).\n\n#weeklywinners #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        }
+      ],
+      "passos": [
+        "No Instagram, toque em + e escolha Reel.",
+        "Escolha o vídeo e adicione uma música em alta pela biblioteca do app, com volume baixo.",
+        "Cole a Legenda e publique."
+      ]
     }
-   ],
-   "roteiro": [
-    {
-     "cena": "Cena 1, uns 10 s",
-     "tela": "O demônio de Duskmourn no teto de R$ 500. No DC500, o comandante fica fora da conta",
-     "fala": "O demônio da casa mal-assombrada cabe num deck de Commander de quinhentos reais. No DC500, o comandante nem entra na conta."
-    },
-    {
-     "cena": "Cena 2, uns 12 s",
-     "tela": "Perdeu vida no próprio turno? Ele cresce e você compra. Uma vez por turno do oponente: marcador +1/+1 e uma carta. Para mirar nele, o oponente paga 2 de vida",
-     "fala": "Valgavoth é um quatro por quatro voador. Na primeira vez que o oponente perde vida no turno dele, o demônio ganha um marcador e você compra uma carta."
-    },
-    {
-     "cena": "Cena 3, uns 7 s",
-     "tela": "A carta Kederekt Parasite grande, com US$ 7,73 (R$ 38,86) embaixo. Um Horror de uma mana que pune cada compra",
-     "fala": "Kederekt Parasite: o oponente compra e leva um de dano. Uns trinta e nove reais."
-    },
-    {
-     "cena": "Cena 4, uns 7 s",
-     "tela": "A carta Fate Unraveler grande, com US$ 2,79 (R$ 14,03) embaixo. Uma bruxa (Hag) que faz o mesmo e ainda bloqueia",
-     "fala": "Fate Unraveler, uma bruxa que faz a mesma coisa e ainda bloqueia. Uns catorze reais."
-    },
-    {
-     "cena": "Cena 5, uns 10 s",
-     "tela": "A carta Underworld Dreams grande, com US$ 1,94 (R$ 9,75) embaixo. As três juntas: US$ 12,46 (R$ 62,64)",
-     "fala": "Underworld Dreams fecha o trio por uns dez reais. As três juntas, uns sessenta e três. A sua loja joga DC500?"
-    }
-   ],
-   "passos": [
-    "Grave um áudio por cena no Gravador do iPhone, num lugar silencioso, com o celular a um palmo da boca.",
-    "Nomeie os áudios cena_1, cena_2, cena_3, cena_4 e cena_5.",
-    "Mande os áudios ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"áudios do TikTok de 2026-10-24\"."
-   ]
-  },
-  {
-   "id": "tiktok",
-   "hora": "11:30",
-   "rede": "TikTok",
-   "titulo": "Valgavoth no DC500, o demônio no teto de R$ 500",
-   "oQue": "Vídeo do Radar DC500 com tema de Halloween: Valgavoth e as cartas que punem a compra, dentro do teto do formato.",
-   "arquivos": [
-    {
-     "nome": "Vídeo narrado (tiktok-narrado.mp4)",
-     "url": "https://fontedemana.com.br/pauta/2026-10-24/tiktok/tiktok-narrado.mp4"
-    }
-   ],
-   "textos": [
-    {
-     "rotulo": "Legenda",
-     "texto": "Valgavoth, o demônio da casa mal-assombrada de Duskmourn, no DC500: o Commander 1 contra 1 com teto de R$ 500, e o comandante fica fora da conta.\n\nO truque é fazer o oponente perder vida no próprio turno. Três peças que fazem isso somam US$ 12,46 (R$ 62,64) no Scryfall.\n\nA sua loja joga DC500?\n\nReais pela cotação de 21 out (Banco Central, PTAX). O preço que vale no torneio é o da fonte que a loja escolher.\n\n#dc500 #commander #mtg"
-    },
-    {
-     "rotulo": "Comentário fixado",
-     "texto": "Valgavoth no DC500: quais outras cartas de terror você poria nessa lista?"
-    }
-   ],
-   "passos": [
-    "Poste com um som em alta da biblioteca do TikTok, com volume entre 15% e 20%.",
-    "A voz é sua, não precisa de rótulo de IA.",
-    "Fixe o comentário logo depois de postar."
-   ]
-  }
- ]
+  ]
 }
