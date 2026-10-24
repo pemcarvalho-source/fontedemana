@@ -1,0 +1,74 @@
+{
+ "n": 19,
+ "data": "24 out",
+ "carrossel": {
+  "capa": {"cor": "A", "titulo": "Radiant Solar sobe 30% com cEDH da Dack Fayden", "sub": "O Weekly Winners do MTGStocks trouxe o anjo de Forgotten Realms a <b>US$ 10,00</b> e mais 58% para <b>Uthros Research Craft</b>.", "credito": "Arte: Radiant Solar, Alexander Mokhov"},
+  "cartoes": [
+   {"cor": "A", "titulo": "Weekly Winners da semana",
+    "linhas": [
+     {"nome": "Radiant Solar", "valor": "+30%", "sub": "US$ 10,00 (R$ 50,38)", "porque": "deck de cEDH mono-branco com Dack Fayden, Helping Hand"},
+     {"nome": "Uthros Research Craft", "valor": "+58%", "sub": "US$ 4,98 (R$ 25,09)", "porque": "comandantes de artefato e espaçonaves de Star Trek"}
+    ],
+    "nota": {"rotulo": "No seu bolso", "texto": "o Radiant Solar parado no fichário vale mais hoje do que há uma semana."},
+    "fonte": "Fonte: MTGStocks. Reais: cotação PTAX de 22 out"},
+   {"cor": "G", "titulo": "Scotty, Miracle Worker",
+    "itens": [
+     {"cor": "G", "html": "Mítica lendária azul de 3 manas, 2/3, revelada nas prévias de Star Trek de 23 de outubro."},
+     {"cor": "U", "html": "Na fase principal, conjura instantâneas e feitiços do cemitério devolvendo outra criatura sua para a mão."},
+     {"cor": "G", "html": "Também saíram <b>Data, New Life</b>, <b>Rutherford, Upgraded Ensign</b> e <b>Jake Sisko</b>."}
+    ],
+    "nota": {"rotulo": "Na sua mesa", "texto": "com criaturas que fazem algo ao entrar, você reaproveita a mágica e a criatura."},
+    "fonte": "Fontes: MTG Salvation e Scryfall"}
+  ],
+  "topdeck": {"titulo": "Gray Merchant of Asphodel",
+   "habilidades": [
+    {"rotulo": "Dreno na entrada", "texto": "Cada oponente perde vida igual à sua devoção ao preto, e você ganha a soma."},
+    {"rotulo": "Ganho multiplicado", "texto": "Numa mesa de quatro, com devoção 10, você ganha 30 de vida."},
+    {"rotulo": "Perda, não dano", "texto": "Prevenção de dano não segura o dreno."}
+   ],
+   "extra": "Zumbi de Halloween em <b>437 mil decks</b> no EDHREC. US$ 1,47 (R$ 7,41) no Scryfall. Reais: cotação PTAX de 22 out",
+   "credito": "Ilustração de Robbie Trevino"},
+  "ban": {"numero": "37", "unidade": "DIAS", "texto": "Para a próxima janela de banimentos, em 30 de novembro."},
+  "turnos": [
+   {"cor": "G", "data": "26 a 29 out", "texto": "Listas dos precons de Star Trek"},
+   {"cor": "G", "data": "30 out", "texto": "Galeria completa de Star Trek"},
+   {"cor": "A", "data": "2 nov", "texto": "Venda do Countdown Kit da Marvel"},
+   {"cor": "G", "data": "6 a 12 nov", "texto": "Pré de Star Trek nas lojas"},
+   {"cor": "G", "data": "13 nov", "texto": "Star Trek chega às lojas"}
+  ],
+  "sussurro": null
+ },
+ "video": {
+  "cena1": {"titulo": "Radiant Solar sobe 30% com cEDH da Dack Fayden", "pilulas": ["Weekly Winners", "Commander", "Bolso"]},
+  "cena2": {"rotulo": "No bolso", "cor": "A", "titulo": "Quem subiu na semana",
+   "linhas": [
+    {"nome": "Radiant Solar", "numero": 30, "prefixo": "+", "sufixo": "%", "sub": "US$ 10,00 (R$ 50,38)"},
+    {"nome": "Uthros Research Craft", "numero": 58, "prefixo": "+", "sufixo": "%", "sub": "US$ 4,98 (R$ 25,09)"}
+   ],
+   "fonte": "Fonte: MTGStocks. Reais: cotação PTAX de 22 out"},
+  "cena3": {"linhas": ["<b>Gray Merchant of Asphodel</b>, o zumbi do Topdeck de Halloween.", "Ao entrar, cada oponente perde sua devoção ao preto em vida.", "Você ganha a soma de tudo o que a mesa perdeu."]},
+  "cena4": {"texto": "Faltam 37 dias para a próxima janela de banimentos. Antes disso, os precons de Star Trek de 26 a 29 out.", "sussurro": null}
+ },
+ "textos": {
+  "legendaCarrossel": "Commander no bolso: Radiant Solar sobe 30% com um deck de cEDH da Dack Fayden.\n\nO Weekly Winners do MTGStocks de 23 de outubro mostrou o anjo de Forgotten Realms Commander a US$ 10,00 (R$ 50,38) no TCGplayer. O motivo é um deck de cEDH mono-branco com Dack Fayden, Helping Hand, onde as criaturas que entram fazem o anjo aventurar na masmorra várias vezes.\n\nUthros Research Craft subiu mais 58% e foi a US$ 4,98 (R$ 25,09), puxada pelos comandantes de artefato de Reality Fracture e pela expectativa das espaçonaves de Star Trek.\n\nNas prévias de Star Trek, Scotty, Miracle Worker deixa você conjurar mágicas do cemitério devolvendo uma criatura para a mão.\n\nNo Topdeck de Halloween, Gray Merchant of Asphodel, o zumbi que drena a mesa inteira.\n\nVocê tem algum Radiant Solar parado no fichário?\n\nTudo em fontedemana.com.br\n\nArtes: Radiant Solar, Alexander Mokhov. Gray Merchant of Asphodel, Robbie Trevino.\n\nValores em reais pela cotação de 22 out (Banco Central, PTAX).\n\n#weeklywinners #commander #mtg",
+  "legendaVideo": "Commander no bolso: Radiant Solar sobe 30% e Uthros Research Craft sobe 58% no Weekly Winners do MTGStocks. Mais Scotty, Miracle Worker de Star Trek e o Gray Merchant no Topdeck de Halloween.\n\nVocê colocaria o Radiant Solar num deck de blink?\n\nTudo em fontedemana.com.br\n\nValores em reais pela cotação de 22 out (Banco Central, PTAX).\n\n#weeklywinners #commander #mtg",
+  "threadsPost": "Radiant Solar subiu 30% e foi a US$ 10,00 (R$ 50,38) no TCGplayer, segundo o Weekly Winners do MTGStocks. O anjo de Forgotten Realms Commander virou peça de um deck de cEDH mono-branco com Dack Fayden, Helping Hand. Uthros Research Craft subiu mais 58%, a US$ 4,98 (R$ 25,09). Você tem um parado no fichário?\n\nValores em reais pela cotação de 22 out (Banco Central, PTAX).\n\nfontedemana.com.br",
+  "threadsFio": [
+   "Radiant Solar subiu 30% e foi a US$ 10,00 (R$ 50,38) no TCGplayer, segundo o Weekly Winners do MTGStocks de 23 de outubro.",
+   "O motivo é um deck de cEDH mono-branco com Dack Fayden, Helping Hand, de Reality Fracture. As criaturas que entram no campo fazem o anjo aventurar na masmorra várias vezes.",
+   "Uthros Research Craft subiu mais 58% e foi a US$ 4,98 (R$ 25,09). Pesam os comandantes de artefato de Reality Fracture e a expectativa pelas espaçonaves de Star Trek.",
+   "Nas prévias de Star Trek, Scotty, Miracle Worker: mítica azul de 3 manas. Na fase principal, você conjura instantâneas e feitiços do cemitério devolvendo outra criatura sua para a mão.",
+   "No Topdeck de Halloween, Gray Merchant of Asphodel. Ao entrar, cada oponente perde vida igual à sua devoção ao preto e você ganha a soma.",
+   "Tudo em fontedemana.com.br\n\nValores em reais pela cotação de 22 out (Banco Central, PTAX)."
+  ],
+  "threadsAvulsos": [
+   {"titulo": "Pergunta do dia", "texto": "Radiant Solar subiu 30% por causa de um deck de cEDH da Dack Fayden. Você já viu alguma carta do seu fichário subir por causa de um comandante novo? Qual?", "obs": "Enquete: Já vi subir, Nunca reparei"}
+  ]
+ },
+ "pauta": {
+  "forca": "forte",
+  "porque": "Weekly Winners novo, publicado na janela, com duas cartas de Commander subindo 30% e 58%.",
+  "storyPergunta": "Qual carta do seu fichário subiu por causa de um comandante novo?",
+  "enquete": {"pergunta": "Você tem Radiant Solar no fichário?", "opcoes": ["Tenho", "Não tenho", "Vou atrás"]}
+ }
+}
