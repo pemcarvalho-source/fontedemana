@@ -1,6 +1,7 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "The Gitrog Monster",
   "Gray Merchant of Asphodel",
   "Platinum Angel",
   "Kenrith, the Returned King",
@@ -18,6 +19,13 @@ window.MANA_POOL_INDEX = {
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 20,
+   "date": "2026-10-25",
+   "dateLabel": "Domingo, 25 de outubro de 2026",
+   "head": "Jadzia Dax, mítica de 2 manas, gera mais mana a cada turno",
+   "biome": "G"
+  },
   {
    "n": 19,
    "date": "2026-10-24",
