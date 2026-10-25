@@ -10,6 +10,7 @@ const fs = require('fs'), path = require('path');
 
 const CALENDARIO = 'agenda-fdm-7q2k9.ics';
 const SITE = 'https://fontedemana.com.br';
+const WEBCAL = SITE.replace(/^https:/, 'webcal:') + '/pauta/' + CALENDARIO; // webcal:// assina; https:// só importa uma cópia fixa no iPhone
 const ROOT = path.resolve(process.argv[2] || '.');
 const DATA = process.argv[3] || '';
 if (!/^\d{4}-\d{2}-\d{2}$/.test(DATA)) { console.error('Uso: node tools/pauta/pauta.cjs <raiz> <AAAA-MM-DD>'); process.exit(2); }
@@ -120,7 +121,7 @@ function pagina(p) {
   return '<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Pauta ' + lbl + '</title><style>' + CSS + '</style></head><body><div class="wrap"><h1>Pauta de ' + lbl + '</h1><p class="sub">O que postar em cada rede, na ordem do dia. <a href="../">Outros dias</a></p>' + avs + '</div><script>' + COPY + '</script></body></html>\n';
 }
 function indice(dias) {
-  return '<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Pauta da Fonte de Mana</title><style>' + CSS + '</style></head><body><div class="wrap"><h1>Pauta da Fonte de Mana</h1><p class="sub">Calendário para assinar no celular: <a href="' + SITE + '/pauta/' + CALENDARIO + '">' + SITE + '/pauta/' + CALENDARIO + '</a></p>' +
+  return '<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Pauta da Fonte de Mana</title><style>' + CSS + '</style></head><body><div class="wrap"><h1>Pauta da Fonte de Mana</h1><p class="sub">Calendário com alarmes: <a href="' + WEBCAL + '">assinar no iPhone</a>. Se o link não abrir, vá em Ajustes, Calendário, Contas, Adicionar Conta, Outra, Adicionar Calendário Assinado e cole <b>' + SITE.replace(/^https:\/\//, '') + '/pauta/' + CALENDARIO + '</b>, com Remover Alarmes desligado e Obter Novos Dados a cada 15 minutos.</p>' +
     dias.slice().reverse().map(d => '<section class="av"><a href="' + d + '/">Pauta de ' + d.split('-').reverse().join('/') + '</a></section>').join('') + '</div></body></html>\n';
 }
 

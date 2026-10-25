@@ -43,7 +43,7 @@ O jornal marca cada edição como `forte` ou `calmo` no `kit.json`.
 
 | Hora | Rede | Dia forte | Dia calmo |
 | --- | --- | --- | --- |
-| 18:30 (véspera) | Gravação | Narração do TikTok de amanhã | igual |
+| 19:15 (véspera) | Gravação | Narração do TikTok de amanhã | igual |
 | 10:30 | Threads | Pergunta sobre a notícia | Debate do original |
 | 10:30 | Stories | Capa do jornal com pergunta | igual |
 | 11:30 | TikTok | Original narrado | igual |
@@ -114,7 +114,7 @@ Anúncio grande com data marcada (lista de precon, ban, produto com preço, pain
 
 ## Paulo no vídeo (23 out, vale a partir de 26 out)
 
-Nos pilares em que a pessoa importa (Dicionário, Termômetro, Debate, Toda mesa tem um e Vitrine; `plano.json` > `rosto`), o Paulo aparece no vídeo: a cena 1 é ele falando o gancho para a câmera e há até mais 2 cenas com ele; cartas, listas e números continuam em cenas geradas, com a voz dele. São uns 7 vídeos a cada 3 semanas, um terço do total. A noite manda o roteiro com o que gravar em cada cena (aviso de gravação das 18:30 e mensagem final), ele grava um vídeo por cena e manda; o `tiktok.cjs` corta, ajusta a cor, põe o título por cima e monta o vídeo, que vai para o TikTok e o Reels como sempre. Sem o vídeo dele, a cena sai como texto. A revisão compara os vídeos com e sem rosto, e o Chama o Juiz segue sem rosto para servir de comparação. No dia de Reel de teste com rosto (10 nov), o teste vira rosto contra sem rosto: o gancho B é gerado.
+Nos pilares em que a pessoa importa (Dicionário, Termômetro, Debate, Toda mesa tem um e Vitrine; `plano.json` > `rosto`), o Paulo aparece no vídeo: a cena 1 é ele falando o gancho para a câmera e há até mais 2 cenas com ele; cartas, listas e números continuam em cenas geradas, com a voz dele. São uns 7 vídeos a cada 3 semanas, um terço do total. A noite manda o roteiro com o que gravar em cada cena (aviso de gravação das 19:15 e mensagem final), ele grava um vídeo por cena e manda; o `tiktok.cjs` corta, ajusta a cor, põe o título por cima e monta o vídeo, que vai para o TikTok e o Reels como sempre. Sem o vídeo dele, a cena sai como texto. A revisão compara os vídeos com e sem rosto, e o Chama o Juiz segue sem rosto para servir de comparação. No dia de Reel de teste com rosto (10 nov), o teste vira rosto contra sem rosto: o gancho B é gerado.
 
 ## Propostas que esperam o Paulo
 
