@@ -1,0 +1,87 @@
+{
+  "data": "2026-10-26",
+  "fx": null,
+  "avisos": [
+    {
+      "id": "gravacao",
+      "dia": "2026-10-25",
+      "hora": "19:15",
+      "rede": "Gravação",
+      "titulo": "Gravar a narração do TikTok de amanhã",
+      "oQue": "Lore em 1 minuto #1: Edgar Markov, o avô do Sorin que criou os vampiros de Innistrad com sangue de anjo. Seis cenas curtas, uns 30 s de fala no total.",
+      "arquivos": [
+        {
+          "nome": "Vídeo mudo (para ver o ritmo)",
+          "url": "https://fontedemana.com.br/pauta/2026-10-26/tiktok/tiktok-mudo.mp4"
+        }
+      ],
+      "roteiro": [
+        {
+          "cena": "Cena 1, uns 5 s",
+          "tela": "O avô do Sorin criou os vampiros com sangue de anjo. Edgar Markov, o pai de todos os vampiros do plano",
+          "fala": "O avô do Sorin criou os vampiros de Innistrad. Com sangue de anjo."
+        },
+        {
+          "cena": "Cena 2, uns 6 s",
+          "tela": "Um alquimista com medo de envelhecer. Um demônio deu a ideia, e Edgar drenou um anjo para o ritual",
+          "fala": "Um demônio deu a ideia, e o Edgar drenou um anjo para viver para sempre."
+        },
+        {
+          "cena": "Cena 3, uns 5 s",
+          "tela": "Ele transformou o próprio neto. O trauma acendeu a centelha do Sorin, que virou planeswalker",
+          "fala": "Depois transformou o neto. O trauma fez do Sorin um planeswalker."
+        },
+        {
+          "cena": "Cena 4, uns 5 s",
+          "tela": "A noiva roubou o caixão. e acordou o Edgar para casar",
+          "fala": "Milênios depois, a Olivia Voldaren roubou o caixão dele para casar."
+        },
+        {
+          "cena": "Cena 5, uns 5 s",
+          "tela": "Sorin: eu me oponho. e a anja Sigarda destruiu a festa",
+          "fala": "No altar, o Sorin se opôs, e a anja Sigarda acabou com a festa."
+        },
+        {
+          "cena": "Cena 6, uns 5 s",
+          "tela": "Edgar Markov. 38 mil decks no EDHREC",
+          "fala": "No Commander, cada vampiro que você conjura traz outro de brinde."
+        }
+      ],
+      "passos": [
+        "Grave um áudio por cena no Gravador do iPhone, num lugar silencioso, com o celular a um palmo da boca.",
+        "Fale no ritmo de conversa de mesa, sem pressa: cada fala cabe em uns 5 s.",
+        "Nomeie os áudios cena_1, cena_2, até cena_6.",
+        "Mande os áudios ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"áudios do TikTok de 2026-10-26\"."
+      ]
+    },
+    {
+      "id": "tiktok",
+      "hora": "11:30",
+      "rede": "TikTok",
+      "titulo": "TikTok: Lore em 1 minuto #1, Edgar Markov",
+      "oQue": "Vídeo narrado da história do Edgar Markov, o avô do Sorin que criou os vampiros de Innistrad. A mesma legenda e o mesmo vídeo vão para o Reels das 19:00.",
+      "arquivos": [
+        {
+          "nome": "Vídeo do TikTok (mudo)",
+          "url": "https://fontedemana.com.br/pauta/2026-10-26/tiktok/tiktok-mudo.mp4"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Lore de Magic para o Halloween: quem criou os vampiros de Innistrad? Foi o avô do Sorin, e a receita levava sangue de anjo. Edgar Markov virou comandante de Commander em mais de 38 mil decks no EDHREC. Qual personagem você quer ver na próxima: Nicol Bolas, Urza ou Teferi?\n\nHistória completa e o jornal de hoje em fontedemana.com.br\n\n#edgarmarkov #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        },
+        {
+          "rotulo": "Comentário fixado",
+          "texto": "Próximo Lore em 1 minuto: Nicol Bolas, Urza ou Teferi? Quem você quer ver contado como fofoca de mesa? A história do Edgar com as fontes está em fontedemana.com.br"
+        }
+      ],
+      "passos": [
+        "Poste com um som em alta da biblioteca do TikTok, com o volume entre 15% e 20%, por baixo da voz.",
+        "Voz própria não precisa de rótulo de IA.",
+        "Fixe o comentário logo depois de postar.",
+        "Se os áudios não chegarem, poste o vídeo mudo com uma música em alta."
+      ]
+    }
+  ]
+}

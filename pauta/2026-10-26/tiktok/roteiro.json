@@ -1,0 +1,73 @@
+{
+ "data": "2026-10-26",
+ "pilar": "lore",
+ "tema": "Lore em 1 minuto #1: Edgar Markov, o avô do Sorin que criou os vampiros",
+ "item": "Edgar Markov e a linhagem de Sorin",
+ "arte": "pauta/2026-10-26/tiktok/arte.jpg",
+ "carta": "pauta/2026-10-26/tiktok/carta.jpg",
+ "credito": "Arte: Edgar Markov, Volkan Baga",
+ "fx": null,
+ "legenda": "Lore de Magic para o Halloween: quem criou os vampiros de Innistrad? Foi o avô do Sorin, e a receita levava sangue de anjo. Edgar Markov virou comandante de Commander em mais de 38 mil decks no EDHREC. Qual personagem você quer ver na próxima: Nicol Bolas, Urza ou Teferi?\n\nHistória completa e o jornal de hoje em fontedemana.com.br\n\n#edgarmarkov #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
+ "comentario": "Próximo Lore em 1 minuto: Nicol Bolas, Urza ou Teferi? Quem você quer ver contado como fofoca de mesa? A história do Edgar com as fontes está em fontedemana.com.br",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "cor": "M",
+   "chip": "Lore em 1 min #1",
+   "kicker": "Halloween em Innistrad",
+   "titulo": "O avô do Sorin criou os vampiros com sangue de anjo",
+   "sub": "Edgar Markov, o pai de todos os vampiros do plano",
+   "narracao": "O avô do Sorin criou os vampiros de Innistrad. Com sangue de anjo.",
+   "segundos": 5.4
+  },
+  {
+   "tipo": "texto",
+   "cor": "B",
+   "kicker": "Milhares de anos atrás",
+   "titulo": "Um alquimista com medo de envelhecer",
+   "sub": "Um demônio deu a ideia, e Edgar drenou um anjo para o ritual",
+   "narracao": "Um demônio deu a ideia, e o Edgar drenou um anjo para viver para sempre.",
+   "segundos": 6.2
+  },
+  {
+   "tipo": "texto",
+   "cor": "R",
+   "kicker": "O neto foi junto",
+   "titulo": "Ele transformou o próprio neto",
+   "sub": "O trauma acendeu a centelha do Sorin, que virou planeswalker",
+   "narracao": "Depois transformou o neto. O trauma fez do Sorin um planeswalker.",
+   "segundos": 4.7
+  },
+  {
+   "tipo": "carta",
+   "cor": "M",
+   "kicker": "Milênios depois",
+   "carta": "pauta/2026-10-26/tiktok/carta-3.jpg",
+   "titulo": "A noiva roubou o caixão",
+   "sub": "e acordou o Edgar para casar",
+   "narracao": "Milênios depois, a Olivia Voldaren roubou o caixão dele para casar.",
+   "segundos": 4.7
+  },
+  {
+   "tipo": "carta",
+   "cor": "R",
+   "kicker": "No altar",
+   "carta": "pauta/2026-10-26/tiktok/carta-2.jpg",
+   "titulo": "Sorin: eu me oponho",
+   "sub": "e a anja Sigarda destruiu a festa",
+   "narracao": "No altar, o Sorin se opôs, e a anja Sigarda acabou com a festa.",
+   "segundos": 5.8
+  },
+  {
+   "tipo": "carta",
+   "cor": "M",
+   "kicker": "Na sua mesa",
+   "carta": "pauta/2026-10-26/tiktok/carta-1.jpg",
+   "titulo": "Edgar Markov",
+   "sub": "38 mil decks no EDHREC",
+   "fonte": "EDHREC, out 2026",
+   "narracao": "No Commander, cada vampiro que você conjura traz outro de brinde.",
+   "segundos": 4.7
+  }
+ ]
+}

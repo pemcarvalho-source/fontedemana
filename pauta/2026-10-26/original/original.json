@@ -1,0 +1,51 @@
+{
+  "data": "2026-10-26",
+  "pilar": "lore",
+  "item": "Edgar Markov e a linhagem de Sorin",
+  "tema": "Lore em 1 minuto #1: Edgar Markov, o avô do Sorin que criou os vampiros",
+  "cartas": ["Edgar Markov", "Edgar, Charmed Groom", "Olivia, Crimson Bride"],
+  "fx": null,
+  "carrossel": {
+    "capa": {"cor": "M", "chip": "Lore em 1 minuto #1", "kicker": "Halloween em Innistrad", "titulo": "O avô do Sorin criou os <b>vampiros</b>", "sub": "E a receita levava <b>sangue de anjo</b>. A história de Edgar Markov, do ritual ao casamento que deu errado.", "arte": "pauta/2026-10-26/tiktok/arte.jpg", "credito": "Arte: Edgar Markov, Volkan Baga"},
+    "cartoes": [
+      {"cor": "B", "titulo": "O pacto do sangue",
+       "itens": [
+         {"cor": "B", "html": "Milhares de anos atrás, Edgar era um <b>alquimista com medo de envelhecer</b>."},
+         {"cor": "B", "html": "O demônio <b>Shilgengar</b> deu a ideia: Edgar prendeu um anjo e drenou o sangue dela."},
+         {"cor": "R", "html": "O ritual deu vida eterna e uma fome que só sangue mata. Nasciam os <b>vampiros de Innistrad</b>."}
+       ],
+       "nota": {"rotulo": "A ironia", "texto": "os vampiros que caçam os humanos nasceram do sangue de um anjo."},
+       "fonte": "Fonte: Magic Story e mtg.wiki"},
+      {"cor": "R", "titulo": "O neto foi junto",
+       "itens": [
+         {"cor": "R", "html": "Edgar passou o ritual para o próprio neto, <b>Sorin Markov</b>."},
+         {"cor": "R", "html": "O trauma acendeu a <b>centelha de planeswalker</b> do Sorin, que foi embora do plano."},
+         {"cor": "W", "html": "Mais tarde, o Sorin criou a anja <b>Avacyn</b> para proteger os humanos dos vampiros."}
+       ],
+       "nota": {"rotulo": "E o avô?", "texto": "dormia num caixão, no porão da Mansão Markov."},
+       "fonte": "Fonte: Magic Story e mtg.wiki"},
+      {"cor": "M", "titulo": "A noiva do caixão", "carta": "pauta/2026-10-26/original/carta-3.jpg",
+       "itens": [
+         {"cor": "B", "html": "<b>Olivia Voldaren</b> nunca perdoou o Sorin pela Avacyn. Roubou o caixão em que o Edgar dormia e acordou o vampiro."},
+         {"cor": "R", "html": "O plano: casar com o avô do Sorin, <b>unir as casas</b> de vampiros e mandar em Innistrad."}
+       ],
+       "fonte": "Fonte: Magic Story, Crimson Vow"},
+      {"cor": "R", "titulo": "Eu me oponho", "carta": "pauta/2026-10-26/original/carta-2.jpg",
+       "itens": [
+         {"cor": "R", "html": "No altar, o <b>Sorin se opôs</b> ao casamento do avô e atacou a noiva."},
+         {"cor": "W", "html": "A anja <b>Sigarda</b>, presa como presente de casamento, escapou e acabou com a festa."}
+       ],
+       "fonte": "Fonte: Magic Story, Crimson Vow"},
+      {"cor": "M", "titulo": "Na sua mesa", "carta": "pauta/2026-10-26/original/carta-1.jpg",
+       "itens": [
+         {"cor": "M", "html": "<b>38 mil decks</b> com o Edgar Markov de comandante."},
+         {"cor": "B", "html": "Cada vampiro que você conjura traz uma <b>ficha de vampiro 1/1</b>, mesmo com ele na zona de comando."}
+       ],
+       "fonte": "Fonte: EDHREC, out 2026"}
+    ],
+    "cta": {"pergunta": "Quem você quer na próxima: <b>Nicol Bolas, Urza ou Teferi</b>?", "quando": "Lore em 1 minuto: uma história de Magic por vez", "salvar": "Salva para contar na mesa quando alguém baixar o Edgar"}
+  },
+  "legenda": "Lore de Magic para o Halloween: o avô do Sorin criou os vampiros de Innistrad, e a receita levava sangue de anjo. Edgar Markov, comandante de Commander em 38 mil decks, tem a história mais absurda do plano.\n\nNo carrossel: o ritual, o neto que virou planeswalker, a noiva que roubou o caixão e o casamento que acabou com o Sorin dizendo que se opunha.\n\nFontes: Magic Story (Innistrad: Crimson Vow), mtg.wiki e EDHREC. Jornal de Magic todo dia em fontedemana.com.br\n\nQuem você quer na próxima: Nicol Bolas, Urza ou Teferi?\n\n#edgarmarkov #commander #mtg",
+  "threads": {"texto": "Lore de Halloween: o Edgar Markov criou os vampiros de Innistrad com sangue de anjo, transformou o próprio neto, dormiu num caixão e quase casou com a Olivia Voldaren, até o Sorin se opor no altar. Pergunta de mesa: quem é o maior vilão dessa história? O avô que começou tudo, a noiva que roubou o caixão ou o neto que fugiu do plano e deixou Innistrad se virar?", "obs": "Dá para virar enquete: Edgar, Olivia ou Sorin."},
+  "enquete": {"pergunta": "Quem é o maior vilão dessa história de Innistrad?", "opcoes": ["Edgar, o avô", "Olivia, a noiva", "Sorin, o neto"]}
+}
