@@ -1,0 +1,157 @@
+{
+ "n": 20,
+ "data": "25 out",
+ "carrossel": {
+  "capa": {
+   "cor": "G",
+   "titulo": "Jadzia Dax gera mais mana a cada turno",
+   "sub": "Sábado de prévias de Star Trek: uma mítica verde de <b>2 manas</b> que faz ramp sozinha e uma bomba de 9 manas que copia mágicas.",
+   "credito": "Arte: Jadzia Dax, Living Legacy, John Tyler Christopher"
+  },
+  "cartoes": [
+   {
+    "cor": "G",
+    "titulo": "As prévias de sábado",
+    "itens": [
+     {
+      "cor": "G",
+      "html": "<b>Jadzia Dax</b>: 2 manas, ganha um marcador por turno e gera uma mana verde por marcador."
+     },
+     {
+      "cor": "R",
+      "html": "<b>Infinite Diversity</b>: 9 manas, copia uma mágica do cemitério por tipo de criatura sua."
+     },
+     {
+      "cor": "U",
+      "html": "<b>Lwaxana Troi</b>: virada, faz os gatilhos de outra criatura sua dispararem em dobro."
+     }
+    ],
+    "nota": {
+     "rotulo": "Na sua mesa",
+     "texto": "a Lwaxana dobra gatilho de ataque ou de entrada pelo tempo que ela ficar virada."
+    },
+    "fonte": "Fontes: Wizards (YouTube) e Scryfall"
+   }
+  ],
+  "topdeck": {
+   "titulo": "The Gitrog Monster",
+   "habilidades": [
+    {
+     "rotulo": "Fome de terreno",
+     "texto": "Toda manutenção você sacrifica um terreno ou o próprio Gitrog."
+    },
+    {
+     "rotulo": "Terreno extra",
+     "texto": "Baixa dois terrenos por turno e compensa o que ele come."
+    },
+    {
+     "rotulo": "Compra pelo cemitério",
+     "texto": "Terreno caiu no seu cemitério? Compra uma carta."
+    }
+   ],
+   "extra": "Horror de Innistrad para o Halloween. <b>10,2 mil</b> decks no EDHREC com ele de comandante. US$ 1,22 (R$ 6,15) no Scryfall. Reais: cotação PTAX de 23 out",
+   "credito": "Ilustração de Jason Kang"
+  },
+  "ban": {
+   "numero": "36",
+   "unidade": "DIAS",
+   "texto": "para a próxima janela de banimentos, em 30 de novembro. A de 12 de outubro passou sem mexer no Commander."
+  },
+  "turnos": [
+   {
+    "cor": "G",
+    "data": "26 a 29 out",
+    "texto": "Listas dos precons de Star Trek"
+   },
+   {
+    "cor": "G",
+    "data": "30 out",
+    "texto": "Galeria completa de Star Trek"
+   },
+   {
+    "cor": "A",
+    "data": "2 nov",
+    "texto": "Venda do Countdown Kit da Marvel"
+   },
+   {
+    "cor": "G",
+    "data": "6 a 12 nov",
+    "texto": "Pré de Star Trek nas lojas"
+   },
+   {
+    "cor": "G",
+    "data": "13 nov",
+    "texto": "Star Trek chega às lojas"
+   }
+  ],
+  "sussurro": null
+ },
+ "video": {
+  "cena1": {
+   "titulo": "Jadzia Dax gera mais mana a cada turno",
+   "pilulas": [
+    "Mítica de 2 manas",
+    "Prévias de Star Trek",
+    "Ramp que cresce"
+   ]
+  },
+  "cena2": {
+   "rotulo": "Novidade",
+   "cor": "G",
+   "titulo": "Mais cartas de sábado",
+   "itens": [
+    "Infinite Diversity copia uma mágica do cemitério várias vezes",
+    "Lwaxana Troi faz os gatilhos de outra criatura dispararem em dobro"
+   ],
+   "fonte": "Fontes: Wizards (YouTube) e Scryfall"
+  },
+  "cena3": {
+   "linhas": [
+    "<b>The Gitrog Monster</b>, o sapo que come terrenos",
+    "Cada terreno no seu cemitério vira uma carta nova",
+    "10,2 mil decks com ele de comandante no EDHREC"
+   ]
+  },
+  "cena4": {
+   "texto": "Faltam 36 dias para a próxima janela de banimentos. Antes disso, saem as listas dos precons de Star Trek.",
+   "sussurro": null
+  }
+ },
+ "textos": {
+  "legendaCarrossel": "Commander e Star Trek: Jadzia Dax, carta de Magic de 2 manas que gera mais mana a cada turno.\n\nO sábado de prévias de Star Trek trouxe seis cartas novas. Jadzia Dax, Living Legacy é mítica verde, ganha um marcador +1/+1 no começo da sua fase principal e gera uma mana verde por marcador: 1, depois 2, depois 3.\n\nInfinite Diversity custa 9 manas e copia uma instantânea ou feitiço do seu cemitério uma vez para cada tipo de criatura diferente que você controla, fora os Borg. Lwaxana Troi faz as habilidades disparadas de outra criatura sua dispararem uma vez a mais enquanto ela ficar virada.\n\nNo Topdeck do Dia, clima de Halloween com The Gitrog Monster, o Horror de Innistrad que transforma terrenos em compra.\n\nDe 26 a 29 de outubro saem as listas completas dos quatro precons de Star Trek.\n\nQual dessas você colocaria no seu deck de Commander?\n\nEdição completa em fontedemana.com.br\n\nArtes: Jadzia Dax, Living Legacy, John Tyler Christopher. The Gitrog Monster, Jason Kang.\n\nValores em reais pela cotação de 23 out (Banco Central, PTAX).\n\n#startrek #commander #mtg",
+  "legendaVideo": "Commander e Star Trek: Jadzia Dax é ramp de 2 manas que cresce todo turno.\n\nE ainda Infinite Diversity, Lwaxana Troi e o Topdeck do Dia, The Gitrog Monster.\n\nJadzia Dax você jogaria de comandante ou nas 99?\n\nTudo em fontedemana.com.br\n\nValores em reais pela cotação de 23 out (Banco Central, PTAX).\n\n#startrek #commander #mtg",
+  "threadsPost": "Star Trek revelou Jadzia Dax, mítica verde de 2 manas. No começo da sua fase principal ela ganha um marcador +1/+1 e gera uma mana verde por marcador: 1 no primeiro turno, 2 no segundo, 3 no terceiro. E ainda pode ser descartada por 3 manas para dar dois marcadores a outra criatura. Ramp ou ameaça? Você jogaria nas 99? fontedemana.com.br",
+  "threadsFio": [
+   "Sábado de prévias de Star Trek: seis cartas novas, três mostradas pela própria Wizards. Duas chamam atenção no Commander.",
+   "Jadzia Dax, Living Legacy: mítica verde de 2 manas. Todo turno ganha um marcador +1/+1 e gera uma mana verde por marcador. Ramp que cresce sozinho.",
+   "Infinite Diversity: feitiço de 9 manas que exila uma mágica do seu cemitério e cria uma cópia por tipo de criatura diferente que você controla, fora os Borg. As cópias saem de graça.",
+   "Lwaxana Troi: por 2 e virar, escolha outra criatura sua. Enquanto ela ficar virada, os gatilhos dessa criatura disparam uma vez a mais.",
+   "Topdeck do Dia: The Gitrog Monster, Horror de Innistrad. Come um terreno por turno e compra uma carta cada vez que terreno cai no seu cemitério. US$ 1,22 (R$ 6,15) no Scryfall.",
+   "Edição completa em fontedemana.com.br\n\nValores em reais pela cotação de 23 out (Banco Central, PTAX)."
+  ],
+  "threadsAvulsos": [
+   {
+    "titulo": "Pergunta do dia",
+    "texto": "Jadzia Dax gera 1 mana no primeiro turno, 2 no segundo, 3 no terceiro. Por 2 manas, você coloca nas 99 do seu deck verde?",
+    "obs": "Opções: sim, toda lista verde; só em deck de marcadores; não, prefiro ramp clássico"
+   },
+   {
+    "titulo": "Lwaxana e os gatilhos",
+    "texto": "Lwaxana Troi faz os gatilhos de outra criatura sua dispararem uma vez a mais enquanto ela ficar virada. Qual criatura você grudaria nela primeiro?"
+   }
+  ]
+ },
+ "pauta": {
+  "forca": "calmo",
+  "porque": "Prévias de Star Trek seguem desde a edição 17; as cartas de sábado são desdobramento, sem ban, preço ou precon novo.",
+  "storyPergunta": "Jadzia Dax entra no seu deck verde?",
+  "enquete": {
+   "pergunta": "Qual carta de sábado é melhor no Commander?",
+   "opcoes": [
+    "Jadzia Dax",
+    "Lwaxana Troi",
+    "Infinite Diversity"
+   ]
+  }
+ }
+}
