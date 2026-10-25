@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-10-21-gravacao@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261020T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -52,7 +52,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-21-tiktok@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261021T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Deck em 40 segundos: Krenko\, Mob Boss
@@ -81,7 +81,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-21-threads-manha@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261021T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Se fosse comprar só um\, qual seri
@@ -103,7 +103,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-21-stories-manha@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261021T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -123,7 +123,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-21-feed@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261021T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 16
@@ -169,7 +169,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-21-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261021T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -188,7 +188,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-21-threads-tarde@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261021T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 16
@@ -229,7 +229,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-21-stories-tarde@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261021T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -249,7 +249,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-21-reels@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261021T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -278,7 +278,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-22-gravacao@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261021T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -319,7 +319,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-22-tiktok@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261022T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Top 5 #2: vampiros do Commander
@@ -348,7 +348,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-22-threads-manha@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261022T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Top 5 #2: os vampiros que mais aparecem nos 
@@ -373,7 +373,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-22-stories-manha@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261022T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -393,7 +393,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-22-feed@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261022T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Top 5 #2: os vampiros que mais aparecem nos d
@@ -438,7 +438,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-22-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261022T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -457,7 +457,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-22-threads-tarde@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261022T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 17
@@ -494,7 +494,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-22-stories-tarde@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261022T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -514,7 +514,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-22-reels@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261022T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -542,7 +542,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-23-gravacao@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261022T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -579,7 +579,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-23-tiktok@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261023T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Chama o Juiz #2 no TikTok
@@ -609,7 +609,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-23-threads-manha@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261023T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Chama o Juiz #2: comandante voltou para a m
@@ -634,7 +634,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-23-stories-manha@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261023T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -654,7 +654,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-23-feed@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261023T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Chama o Juiz #2: comandante voltou para a mã
@@ -694,7 +694,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-23-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261023T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -713,7 +713,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-23-threads-tarde@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261023T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 18
@@ -748,7 +748,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-23-stories-tarde@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261023T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -768,7 +768,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-23-reels@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261023T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -795,7 +795,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-24-gravacao@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261023T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -838,7 +838,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-24-tiktok@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261024T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Valgavoth no DC500\, o demônio no teto de R$ 500
@@ -867,7 +867,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-24-threads-manha@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261024T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Qual?
@@ -887,7 +887,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-24-stories-manha@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261024T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -908,7 +908,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-24-feed@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261024T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 19
@@ -951,7 +951,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-24-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261024T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -970,7 +970,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-24-threads-tarde@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261024T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 19
@@ -1006,7 +1006,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-24-stories-tarde@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261024T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1026,7 +1026,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-24-reels@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261024T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -1054,7 +1054,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-25-gravacao@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261024T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -1098,28 +1098,27 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-25-tiktok@fontedemana.com.br
-DTSTAMP:20261024T212711Z
+DTSTAMP:20261025T004010Z
 DTSTART:20261025T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: TikTok: Dark Matter Manipulator subiu 529%
 DESCRIPTION:Bolsa de Mana: o bruxo de 1 mana que subiu 529% numa semana pux
  ado pelo Modern e pelo Legacy\, e se vale pagar agora para o deck de moer 
- do Commander.\n\nArquivos:\n- Vídeo do TikTok: https://fontedemana.com.br
- /pauta/2026-10-25/tiktok/tiktok-mudo.mp4\n\nLegenda:\nEsse bruxo de 1 mana
-  saiu de uns US$ 1 (R$ 5\,04) para US$ 7\,99 (R$ 40\,25) em uma semana. Da
- rk Matter Manipulator\, de Reality Fracture\, subiu 529% puxado pelo Moder
- n e pelo Legacy\, não pelo Commander. Para o seu deck de moer\, vale paga
- r agora? Você compra agora ou espera cair? Reais pela cotação de 22 out
-  (Banco Central\, PTAX). Preços do MTGStocks e do Scryfall. #darkmatterma
- nipulator #commander #mtg\n\nComentário fixado:\nHoje no Scryfall a vers
- ão foil sai por US$ 7\,03 (R$ 35\,42)\, mais barata que a comum\, de US$ 
- 7\,49 (R$ 37\,73). Você compra agora ou espera a febre do Modern passar?\
- n\nPasso a passo:\n1. Poste com um som em alta da biblioteca do TikTok\, c
- om volume entre 15% e 20%.\n2. Voz própria não precisa de rótulo de IA.
- \n3. Fixe o comentário logo depois de postar.\n4. Se os áudios não cheg
- arem\, poste o vídeo mudo com uma música em alta.\n\nValores em reais pe
- la cotação de 22 out (Banco Central\, PTAX).\n\nPauta completa: https://
- fontedemana.com.br/pauta/2026-10-25/#tiktok
+ do Commander.\n\nArquivos:\n- Vídeo narrado do TikTok: https://fontedeman
+ a.com.br/pauta/2026-10-25/tiktok/tiktok-narrado.mp4\n\nLegenda:\nEsse brux
+ o de 1 mana saiu de uns US$ 1 (R$ 5\,04) para US$ 7\,99 (R$ 40\,25) em uma
+  semana. Dark Matter Manipulator\, de Reality Fracture\, subiu 529% puxado
+  pelo Modern e pelo Legacy\, não pelo Commander. Para o seu deck de moer\
+ , vale pagar agora? Você compra agora ou espera cair? Reais pela cotaçã
+ o de 22 out (Banco Central\, PTAX). Preços do MTGStocks e do Scryfall. #d
+ arkmattermanipulator #commander #mtg\n\nComentário fixado:\nHoje no Scryf
+ all a versão foil sai por US$ 7\,03 (R$ 35\,42)\, mais barata que a comum
+ \, de US$ 7\,49 (R$ 37\,73). Você compra agora ou espera a febre do Moder
+ n passar?\n\nPasso a passo:\n1. Poste com um som em alta da biblioteca do 
+ TikTok\, com volume entre 15% e 20%.\n2. Voz própria não precisa de rót
+ ulo de IA.\n3. Fixe o comentário logo depois de postar.\n\nValores em rea
+ is pela cotação de 22 out (Banco Central\, PTAX).\n\nPauta completa: htt
+ ps://fontedemana.com.br/pauta/2026-10-25/#tiktok
 URL:https://fontedemana.com.br/pauta/2026-10-25/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
