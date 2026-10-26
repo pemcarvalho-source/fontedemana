@@ -8,272 +8,8 @@ X-WR-TIMEZONE:America/Sao_Paulo
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:fdm-2026-10-22-gravacao@fontedemana.com.br
-DTSTAMP:20261025T232826Z
-DTSTART:20261021T213000Z
-DURATION:PT15M
-SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
-DESCRIPTION:Top 5 #2: os vampiros que mais aparecem nos decks de Vampiros d
- o Commander. Grave uma fala por cena\, no seu ritmo\, seguindo o roteiro.\
- n\nArquivos:\n- Vídeo mudo do TikTok: https://fontedemana.com.br/pauta/20
- 26-10-22/tiktok/tiktok-mudo.mp4\n\nRoteiro de gravação:\nCena 1\, uns 9 
- s\nNa tela: 5 vampiros que não podem faltar. Os mais jogados nos decks de
-  Vampiros do EDHREC. O número 1 está em 9\,47 mil decks.\nFala: Cinco va
- mpiros que não podem faltar no seu deck de Commander. O primeiro está em
-  mais de nove mil decks.\n\nCena 2\, uns 7 s\nNa tela: Do 1 ao 3\, cartas 
- na tela com o preço: Cordial Vampire: US$ 2\,16 (R$ 10\,92)\; Blood Artis
- t: US$ 2\,95 (R$ 14\,92)\; Sanctum Seeker: US$ 0\,32 (R$ 1\,62)\nFala: Cor
- dial Vampire\, Blood Artist e Sanctum Seeker\, que drena a mesa a cada ata
- que.\n\nCena 3\, uns 7 s\nNa tela: Do 4 ao 5\, cartas na tela com o preço
- : Vito: US$ 9\,68 (R$ 48\,95)\; Captivating Vampire: US$ 3\,33 (R$ 16\,84)
- . Os cinco: US$ 18\,44 (R$ 93\,24).\nFala: Fechando\, Vito e Captivating V
- ampire. Os cinco saem por uns noventa e três reais.\n\nCena 4\, uns 9 s\n
- Na tela: Vampiro não precisa bater forte. Cada criatura que morre\, até 
- a do oponente\, dá marcador com Cordial Vampire e tira 1 de vida com Bloo
- d Artist.\nFala: O segredo: vampiro não precisa bater forte. Cada criatur
- a que morre na mesa vira marcador e perda de vida.\n\nCena 5\, uns 6 s\nNa
-  tela: Faltou algum? Qual seria o seu número 1? @fontedemana\nFala: Qual 
- seria o seu número um? Manda pro amigo que joga de vampiro.\n\n\nPasso a 
- passo:\n1. Grave um áudio por cena no Gravador do iPhone\, num lugar sile
- ncioso\, com o celular a um palmo da boca.\n2. Nomeie os áudios cena_1\, 
- cena_2\, cena_3\, cena_4 e cena_5.\n3. Mande os áudios ao Claude no proje
- to MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo "
- áudios do TikTok de 2026-10-22".\n\nValores em reais pela cotação de 21
-  out\, US$ 1 = R$ 5\,0277 (PTAX do Banco Central).\n\nPauta completa: http
- s://fontedemana.com.br/pauta/2026-10-22/#gravacao
-URL:https://fontedemana.com.br/pauta/2026-10-22/#gravacao
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Gravação: Gravar a narração do TikTok de amanhã
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-22-tiktok@fontedemana.com.br
-DTSTAMP:20261025T232826Z
-DTSTART:20261022T143000Z
-DURATION:PT15M
-SUMMARY:11:30 TikTok: Top 5 #2: vampiros do Commander
-DESCRIPTION:TikTok narrado com os cinco vampiros mais jogados nos decks de 
- Vampiros do EDHREC\, o preço de cada um e o segredo do deck.\n\nArquivos:
- \n- Vídeo do TikTok narrado: https://fontedemana.com.br/pauta/2026-10-22/
- tiktok/tiktok-narrado.mp4\n\nLegenda:\nTop 5 vampiros do Commander: os mai
- s jogados nos decks de Vampiros do EDHREC.\nOs cinco juntos saem por US$ 1
- 8\,44 (R$ 93\,24).\nFaltou algum? Comenta o seu número 1.\nReais pela cot
- ação PTAX de 19 out (Banco Central).\n#mtg #magicthegathering #commander
-  #edh #vampiros #vampire #mtgbrasil\n\nComentário fixado:\nCordial Vampir
- e está em 9\,47 mil decks de Vampiros no EDHREC. Qual vampiro não sai do
-  seu deck? Comenta o nome da carta.\n\nPasso a passo:\n1. Poste com um som
-  em alta da biblioteca do TikTok\, com volume entre 15% e 20%.\n2. A voz 
- é sua\, então não precisa de rótulo de IA.\n3. Fixe o comentário logo
-  depois de postar.\n4. Se os áudios não chegaram\, poste o vídeo mudo c
- om música em alta.\n\nValores em reais pela cotação de 21 out\, US$ 1 =
-  R$ 5\,0277 (PTAX do Banco Central).\n\nPauta completa: https://fontedeman
- a.com.br/pauta/2026-10-22/#tiktok
-URL:https://fontedemana.com.br/pauta/2026-10-22/#tiktok
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:TikTok: Top 5 #2: vampiros do Commander
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-22-threads-manha@fontedemana.com.br
-DTSTAMP:20261025T232826Z
-DTSTART:20261022T133000Z
-DURATION:PT15M
-SUMMARY:10:30 Threads: Debate: Top 5 #2: os vampiros que mais aparecem nos 
- decks de…
-DESCRIPTION:Post de debate do conteúdo original de hoje (Top 5) para puxar
-  conversa.\n\nPost:\nOs cinco vampiros mais jogados nos decks de Vampiros 
- do EDHREC: Cordial Vampire\, Blood Artist\, Sanctum Seeker\, Vito e Captiv
- ating Vampire.\n\nDois deles ganham quando qualquer criatura morre. Os out
- ros três drenam a mesa no ataque\, viram vida em dano ou roubam criatura.
- \n\nNo seu deck de vampiro\, quem é o número 1? E qual vampiro ficou inj
- ustamente de fora?\n\nPasso a passo:\n1. Abra o Threads e cole o Post.\n2.
-  Dica: Enquete com as opções Cordial Vampire\, Blood Artist\, Sanctum Se
- eker e Vito\n3. Publique e responda quem comentar na primeira hora.\n\nPau
- ta completa: https://fontedemana.com.br/pauta/2026-10-22/#threads-manha
-URL:https://fontedemana.com.br/pauta/2026-10-22/#threads-manha
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Debate: Top 5 #2: os vampiros que mais aparecem nos de
- cks de…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-22-stories-manha@fontedemana.com.br
-DTSTAMP:20261025T232826Z
-DTSTART:20261022T133000Z
-DURATION:PT15M
-SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
-DESCRIPTION:Story com a capa da edição 17 (Stardates de Star Trek trazem 
- Minamo e Sheoldred) e um sticker de pergunta para puxar a conversa.\n\nArq
- uivos:\n- Capa da edição 17: https://fontedemana.com.br/kit/ed17/carross
- el-01.jpg\n\nPasso a passo:\n1. Baixe a capa e poste no Story.\n2. Adicion
- e o sticker de Pergunta no terço de baixo\, sem cobrir o título: Qual ca
- rta Stardates você quer abrir?\n3. Publique.\n\nPauta completa: https://f
- ontedemana.com.br/pauta/2026-10-22/#stories-manha
-URL:https://fontedemana.com.br/pauta/2026-10-22/#stories-manha
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Capa do jornal com sticker de pergunta
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-22-feed@fontedemana.com.br
-DTSTAMP:20261025T232826Z
-DTSTART:20261022T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram feed: Top 5 #2: os vampiros que mais aparecem nos d
- ecks de Vampiros do…
-DESCRIPTION:Carrossel original de 7 imagens (Top 5): Top 5 #2: os vampiros 
- que mais aparecem nos decks de Vampiros do Commander. Feito para salvar e 
- compartilhar.\n\nArquivos:\n- Imagem 1 de 7: https://fontedemana.com.br/pa
- uta/2026-10-22/original/carrossel-01.jpg\n- Imagem 2 de 7: https://fontede
- mana.com.br/pauta/2026-10-22/original/carrossel-02.jpg\n- Imagem 3 de 7: h
- ttps://fontedemana.com.br/pauta/2026-10-22/original/carrossel-03.jpg\n- Im
- agem 4 de 7: https://fontedemana.com.br/pauta/2026-10-22/original/carrosse
- l-04.jpg\n- Imagem 5 de 7: https://fontedemana.com.br/pauta/2026-10-22/ori
- ginal/carrossel-05.jpg\n- Imagem 6 de 7: https://fontedemana.com.br/pauta/
- 2026-10-22/original/carrossel-06.jpg\n- Imagem 7 de 7: https://fontedemana
- .com.br/pauta/2026-10-22/original/carrossel-07.jpg\n\nLegenda:\nTop 5 vamp
- iros para o seu deck de Commander: as cartas de Magic que mais aparecem no
- s decks de Vampiros do EDHREC\, e os cinco juntos custam US$ 18\,44 (R$ 93
- \,24).\n\n1. Cordial Vampire\, em 9\,47 mil decks\n2. Blood Artist\, 9\,40
-  mil\n3. Sanctum Seeker\, 7\,87 mil\n4. Vito\, Thorn of the Dusk Rose\, 7 
- mil\n5. Captivating Vampire\, 6\,92 mil\n\nO segredo do deck: vampiro não
-  precisa bater forte. Cada criatura que morre vira marcador e perda de vid
- a para a mesa\, e o Vito transforma toda vida que você ganha em dano.\n\n
- Fontes: EDHREC (página de Vampiros) e Scryfall (impressão mais barata de
-  cada carta). Valores em reais pela cotação PTAX de 19 out (Banco Centra
- l).\n\nMais no fontedemana.com.br\n\nFaltou algum? Qual seria o seu númer
- o 1?\n\n#magicthegathering #mtg #commander #edh #vampiros #edgarmarkov #mt
- gbrasil #deckdecommander\n\nFonte de Mana is unofficial Fan Content permit
- ted under the Fan Content Policy. Not approved/endorsed by Wizards. Portio
- ns of the materials used are property of Wizards of the Coast. ©Wizards o
- f the Coast LLC.\n\nPasso a passo:\n1. No Instagram\, toque em + e escolha
-  Post.\n2. Selecione as 7 imagens na ordem\, da 1 à 7.\n3. Cole a Legenda
-  e publique.\n\nValores em reais pela cotação de 21 out\, US$ 1 = R$ 5\,
- 0277 (PTAX do Banco Central).\n\nPauta completa: https://fontedemana.com.b
- r/pauta/2026-10-22/#feed
-URL:https://fontedemana.com.br/pauta/2026-10-22/#feed
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram feed: Top 5 #2: os vampiros que mais aparecem nos dec
- ks de Vampiros do…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-22-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261025T232826Z
-DTSTART:20261022T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
-DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
- .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
- e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
- o do post: Melhor vampiro do Commander? com Cordial Vampire\, Blood Artist
- \, Sanctum Seeker e Vito.\n3. Publique.\n\nPauta completa: https://fontede
- mana.com.br/pauta/2026-10-22/#stories-meio-dia
-URL:https://fontedemana.com.br/pauta/2026-10-22/#stories-meio-dia
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-22-threads-tarde@fontedemana.com.br
-DTSTAMP:20261025T232826Z
-DTSTART:20261022T180000Z
-DURATION:PT15M
-SUMMARY:15:00 Threads: Fio da edição 17
-DESCRIPTION:Fio com 6 posts contando a edição 17. O último é o aviso de
-  conteúdo de fã.\n\nPost 1:\nStar Trek tem uma folha bônus chamada Star
- dates: 30 míticas reimpressas com a cara da série. Uma delas aparece no 
- lugar de uma comum em 1 de cada 25 Play Boosters.\n\nPost 2:\nJá estão n
- o Scryfall: Sheoldred\, the Apocalypse\, Minamo\, School at Water's Edge\,
-  Bristly Bill\, Spine Sower\, Prosper\, Tome-Bound e Kenrith\, the Returne
- d King. Sheoldred sai hoje a partir de US$ 82\,16 (R$ 413\,08) e Minamo\, 
- a partir de US$ 57\,96 (R$ 291\,41).\n\nPost 3:\nSegundo dia de prévias: 
- Death Is Irrelevant\, mítica Borg de 8 manas\, deixa suas criaturas artef
- ato indestrutíveis e assimila uma criatura de qualquer cemitério a cada 
- fim de turno seu. Mirror Universe Intrusion copia criaturas do oponente.\n
- \nPost 4:\nTopdeck do Dia: Kenrith\, the Returned King. Cinco cores\, uma 
- habilidade por cor. Pega no pulo: a reanimação devolve a criatura ao don
- o. Mirou no cemitério do oponente\, ela volta para ele.\n\nPost 5:\nEdiç
- ão completa em fontedemana.com.br\n\nValores em reais pela cotação de 2
- 1 out (Banco Central\, PTAX).\n\nPost 6 (aviso de fã):\nFonte de Mana is 
- unofficial Fan Content permitted under the Fan Content Policy. Not approve
- d/endorsed by Wizards. Portions of the materials used are property of Wiza
- rds of the Coast. ©Wizards of the Coast LLC.\n\nPasso a passo:\n1. No Thr
- eads\, publique o Post 1.\n2. Toque em Adicionar à sequência e cole os p
- osts seguintes\, um por vez\, na ordem.\n3. Publique o fio inteiro de uma 
- vez.\n\nValores em reais pela cotação de 21 out\, US$ 1 = R$ 5\,0277 (PT
- AX do Banco Central).\n\nPauta completa: https://fontedemana.com.br/pauta/
- 2026-10-22/#threads-tarde
-URL:https://fontedemana.com.br/pauta/2026-10-22/#threads-tarde
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Fio da edição 17
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-22-stories-tarde@fontedemana.com.br
-DTSTAMP:20261025T232826Z
-DTSTART:20261022T180000Z
-DURATION:PT15M
-SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
-DESCRIPTION:Story com a imagem de Kenrith\, the Returned King no Topdeck do
-  Dia e o sticker de link para a edição completa.\n\nArquivos:\n- Topdeck
-  do Dia: https://fontedemana.com.br/kit/ed17/carrossel-04.jpg\n\nPasso a p
- asso:\n1. Baixe a imagem e poste no Story.\n2. Adicione o sticker de Link 
- para fontedemana.com.br com o texto Edição completa\, embaixo do texto d
- o Topdeck.\n3. Publique.\n\nPauta completa: https://fontedemana.com.br/pau
- ta/2026-10-22/#stories-tarde
-URL:https://fontedemana.com.br/pauta/2026-10-22/#stories-tarde
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Topdeck do Dia com link
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-22-reels@fontedemana.com.br
-DTSTAMP:20261025T232826Z
-DTSTART:20261022T220000Z
-DURATION:PT15M
-SUMMARY:19:00 Reels: Vídeo do jornal com música
-DESCRIPTION:Vídeo de 48 s da edição 17 com música em alta e sem narraç
- ão.\n\nArquivos:\n- Vídeo da edição 17: https://fontedemana.com.br/kit
- /ed17/video-vertical-ed17.mp4\n\nLegenda:\nOs Stardates de Star Trek coloc
- am Sheoldred e Minamo nos Play Boosters\, uma carta a cada 25 pacotes. E o
-  Topdeck do Dia é Kenrith\, the Returned King.\n\nVocê abriria Play Boos
- ter de Star Trek atrás de um Stardates? Conta nos comentários.\n\nEdiç
- ão completa em fontedemana.com.br\n\nValores em reais pela cotação de 2
- 1 out (Banco Central\, PTAX).\n\n#mtg #magicthegathering #commander #edh #
- mtgbrasil\n\nFonte de Mana is unofficial Fan Content permitted under the F
- an Content Policy. Not approved/endorsed by Wizards. Portions of the mater
- ials used are property of Wizards of the Coast. ©Wizards of the Coast LLC
- .\n\nPasso a passo:\n1. No Instagram\, toque em + e escolha Reel.\n2. Esco
- lha o vídeo e adicione uma música em alta pela biblioteca do app\, com v
- olume baixo.\n3. Cole a Legenda e publique.\n\nPauta completa: https://fon
- tedemana.com.br/pauta/2026-10-22/#reels
-URL:https://fontedemana.com.br/pauta/2026-10-22/#reels
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reels: Vídeo do jornal com música
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fdm-2026-10-23-gravacao@fontedemana.com.br
-DTSTAMP:20261025T232826Z
+DTSTAMP:20261026T102115Z
 DTSTART:20261022T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -310,7 +46,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-23-tiktok@fontedemana.com.br
-DTSTAMP:20261025T232826Z
+DTSTAMP:20261026T102115Z
 DTSTART:20261023T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Chama o Juiz #2 no TikTok
@@ -340,7 +76,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-23-threads-manha@fontedemana.com.br
-DTSTAMP:20261025T232826Z
+DTSTAMP:20261026T102115Z
 DTSTART:20261023T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Chama o Juiz #2: comandante voltou para a m
@@ -365,7 +101,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-23-stories-manha@fontedemana.com.br
-DTSTAMP:20261025T232826Z
+DTSTAMP:20261026T102115Z
 DTSTART:20261023T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -385,7 +121,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-23-feed@fontedemana.com.br
-DTSTAMP:20261025T232826Z
+DTSTAMP:20261026T102115Z
 DTSTART:20261023T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Chama o Juiz #2: comandante voltou para a mã
@@ -425,7 +161,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-23-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261025T232826Z
+DTSTAMP:20261026T102115Z
 DTSTART:20261023T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -444,7 +180,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-23-threads-tarde@fontedemana.com.br
-DTSTAMP:20261025T232826Z
+DTSTAMP:20261026T102115Z
 DTSTART:20261023T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 18
@@ -479,7 +215,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-23-stories-tarde@fontedemana.com.br
-DTSTAMP:20261025T232826Z
+DTSTAMP:20261026T102115Z
 DTSTART:20261023T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -499,7 +235,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-23-reels@fontedemana.com.br
-DTSTAMP:20261025T232826Z
+DTSTAMP:20261026T102115Z
 DTSTART:20261023T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -526,7 +262,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-24-gravacao@fontedemana.com.br
-DTSTAMP:20261025T232826Z
+DTSTAMP:20261026T102115Z
 DTSTART:20261023T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -569,7 +305,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-24-tiktok@fontedemana.com.br
-DTSTAMP:20261025T232826Z
+DTSTAMP:20261026T102115Z
 DTSTART:20261024T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Valgavoth no DC500\, o demônio no teto de R$ 500
@@ -598,7 +334,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-24-threads-manha@fontedemana.com.br
-DTSTAMP:20261025T232826Z
+DTSTAMP:20261026T102115Z
 DTSTART:20261024T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Qual?
@@ -618,7 +354,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-24-stories-manha@fontedemana.com.br
-DTSTAMP:20261025T232826Z
+DTSTAMP:20261026T102115Z
 DTSTART:20261024T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -639,7 +375,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-24-feed@fontedemana.com.br
-DTSTAMP:20261025T232826Z
+DTSTAMP:20261026T102115Z
 DTSTART:20261024T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 19
@@ -682,7 +418,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-24-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261025T232826Z
+DTSTAMP:20261026T102115Z
 DTSTART:20261024T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -701,7 +437,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-24-threads-tarde@fontedemana.com.br
-DTSTAMP:20261025T232826Z
+DTSTAMP:20261026T102115Z
 DTSTART:20261024T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 19
@@ -737,7 +473,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-24-stories-tarde@fontedemana.com.br
-DTSTAMP:20261025T232826Z
+DTSTAMP:20261026T102115Z
 DTSTART:20261024T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -757,7 +493,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-24-reels@fontedemana.com.br
-DTSTAMP:20261025T232826Z
+DTSTAMP:20261026T102115Z
 DTSTART:20261024T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -785,7 +521,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-25-gravacao@fontedemana.com.br
-DTSTAMP:20261025T232826Z
+DTSTAMP:20261026T102115Z
 DTSTART:20261024T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -829,7 +565,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-25-tiktok@fontedemana.com.br
-DTSTAMP:20261025T232826Z
+DTSTAMP:20261026T102115Z
 DTSTART:20261025T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Dark Matter Manipulator subiu 529%
@@ -859,7 +595,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-25-threads-manha@fontedemana.com.br
-DTSTAMP:20261025T232826Z
+DTSTAMP:20261026T102115Z
 DTSTART:20261025T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Dark Matter Manipulator sobe 529% numa seman
@@ -885,7 +621,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-25-stories-manha@fontedemana.com.br
-DTSTAMP:20261025T232826Z
+DTSTAMP:20261026T102115Z
 DTSTART:20261025T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -905,7 +641,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-25-feed@fontedemana.com.br
-DTSTAMP:20261025T232826Z
+DTSTAMP:20261026T102115Z
 DTSTART:20261025T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Bolsa de Mana: Dark Matter Manipulator sobe 5
@@ -948,7 +684,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-25-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261025T232826Z
+DTSTAMP:20261026T102115Z
 DTSTART:20261025T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -967,7 +703,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-25-threads-tarde@fontedemana.com.br
-DTSTAMP:20261025T232826Z
+DTSTAMP:20261026T102115Z
 DTSTART:20261025T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 20
@@ -1003,7 +739,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-25-stories-tarde@fontedemana.com.br
-DTSTAMP:20261025T232826Z
+DTSTAMP:20261026T102115Z
 DTSTART:20261025T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1023,7 +759,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-25-reels@fontedemana.com.br
-DTSTAMP:20261025T232826Z
+DTSTAMP:20261026T102115Z
 DTSTART:20261025T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -1050,7 +786,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-gravacao@fontedemana.com.br
-DTSTAMP:20261025T232826Z
+DTSTAMP:20261026T102115Z
 DTSTART:20261025T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -1089,33 +825,240 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-tiktok@fontedemana.com.br
-DTSTAMP:20261025T232826Z
+DTSTAMP:20261026T102115Z
 DTSTART:20261026T143000Z
 DURATION:PT15M
-SUMMARY:11:30 TikTok: TikTok: Lore em 1 minuto #1\, Edgar Markov
+SUMMARY:11:30 TikTok: Lore em 1 minuto #1\, Edgar Markov
 DESCRIPTION:Vídeo narrado da história do Edgar Markov\, o avô do Sorin q
  ue criou os vampiros de Innistrad. A mesma legenda e o mesmo vídeo vão p
- ara o Reels das 19:00.\n\nArquivos:\n- Vídeo do TikTok (narrado): https:/
- /fontedemana.com.br/pauta/2026-10-26/tiktok/tiktok-narrado.mp4\n\nLegenda:
- \nLore de Magic para o Halloween: quem criou os vampiros de Innistrad? Foi
-  o avô do Sorin\, e a receita levava sangue de anjo. Edgar Markov virou c
- omandante de Commander em mais de 38 mil decks no EDHREC. Qual personagem 
- você quer ver na próxima: Nicol Bolas\, Urza ou Teferi?\n\nHistória com
- pleta e o jornal de hoje em fontedemana.com.br\n\n#edgarmarkov #commander 
- #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Co
- ntent Policy. Not approved/endorsed by Wizards. Portions of the materials 
- used are property of Wizards of the Coast. ©Wizards of the Coast LLC.\n\n
- Comentário fixado:\nPróximo Lore em 1 minuto: Nicol Bolas\, Urza ou Tefe
- ri? Quem você quer ver contado como fofoca de mesa? A história do Edgar 
- com as fontes está em fontedemana.com.br\n\nPasso a passo:\n1. Poste com 
- um som em alta da biblioteca do TikTok\, com o volume entre 15% e 20%\, po
- r baixo da voz.\n2. Voz própria não precisa de rótulo de IA.\n3. Fixe o
-  comentário logo depois de postar.\n\nPauta completa: https://fontedemana
- .com.br/pauta/2026-10-26/#tiktok
+ ara o Reels das 19:00.\n\nArquivos:\n- Vídeo do TikTok narrado: https://f
+ ontedemana.com.br/pauta/2026-10-26/tiktok/tiktok-narrado.mp4\n\nLegenda:\n
+ Lore de Magic para o Halloween: quem criou os vampiros de Innistrad? Foi o
+  avô do Sorin\, e a receita levava sangue de anjo. Edgar Markov virou com
+ andante de Commander em mais de 38 mil decks no EDHREC. Qual personagem vo
+ cê quer ver na próxima: Nicol Bolas\, Urza ou Teferi?\n\nHistória compl
+ eta e o jornal de hoje em fontedemana.com.br\n\n#edgarmarkov #commander #m
+ tg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Cont
+ ent Policy. Not approved/endorsed by Wizards. Portions of the materials us
+ ed are property of Wizards of the Coast. ©Wizards of the Coast LLC.\n\nCo
+ mentário fixado:\nPróximo Lore em 1 minuto: Nicol Bolas\, Urza ou Teferi
+ ? Quem você quer ver contado como fofoca de mesa? A história do Edgar co
+ m as fontes está em fontedemana.com.br\n\nPasso a passo:\n1. Poste com um
+  som em alta da biblioteca do TikTok\, com o volume entre 15% e 20%\, por 
+ baixo da voz.\n2. Voz própria não precisa de rótulo de IA.\n3. Fixe o c
+ omentário logo depois de postar.\n\nPauta completa: https://fontedemana.c
+ om.br/pauta/2026-10-26/#tiktok
 URL:https://fontedemana.com.br/pauta/2026-10-26/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:TikTok: TikTok: Lore em 1 minuto #1\, Edgar Markov
+DESCRIPTION:TikTok: Lore em 1 minuto #1\, Edgar Markov
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-26-threads-manha@fontedemana.com.br
+DTSTAMP:20261026T102115Z
+DTSTART:20261026T133000Z
+DURATION:PT15M
+SUMMARY:10:30 Threads: Pergunta do dia: Você compra o drop inteiro pela ar
+ te ou só as…
+DESCRIPTION:Pergunta para puxar conversa sobre a notícia do dia.\n\nPost:\
+ nSecret Lair novo na Chaos Vault hoje. Você compra o drop inteiro pela ar
+ te ou só as cartas avulsas que vai jogar no Commander?\n\nPasso a passo:\
+ n1. Abra o Threads e cole o Post.\n2. Dica: Enquete: drop inteiro\, só av
+ ulsas\, nenhum\n3. Toque em Adicionar tópico e escolha MTG.\n4. Publique 
+ e responda quem comentar na primeira hora.\n\nPauta completa: https://font
+ edemana.com.br/pauta/2026-10-26/#threads-manha
+URL:https://fontedemana.com.br/pauta/2026-10-26/#threads-manha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Pergunta do dia: Você compra o drop inteiro pela arte
+  ou só as…
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-26-stories-manha@fontedemana.com.br
+DTSTAMP:20261026T102115Z
+DTSTART:20261026T133000Z
+DURATION:PT15M
+SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
+DESCRIPTION:Story com a capa da edição 21 (Secret Lairs de Reality Fractu
+ re à venda hoje) e um sticker de pergunta para puxar a conversa.\n\nArqui
+ vos:\n- Capa da edição 21: https://fontedemana.com.br/kit/ed21/carrossel
+ -01.jpg\n\nPasso a passo:\n1. Baixe a capa e poste no Story.\n2. Adicione 
+ o sticker de Pergunta no terço de baixo\, sem cobrir o título: Você com
+ praria Strange School ou Duality Distorted?\n3. Publique.\n\nPauta complet
+ a: https://fontedemana.com.br/pauta/2026-10-26/#stories-manha
+URL:https://fontedemana.com.br/pauta/2026-10-26/#stories-manha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Capa do jornal com sticker de pergunta
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-26-feed@fontedemana.com.br
+DTSTAMP:20261026T102115Z
+DTSTART:20261026T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram feed: Carrossel da edição 21
+DESCRIPTION:Carrossel de 6 imagens da edição 21: Secret Lairs de Reality 
+ Fracture à venda hoje\, Star Trek: Geordi e os Borg\, Topdeck: Attrition.
+ \n\nArquivos:\n- Imagem 1 de 6: https://fontedemana.com.br/kit/ed21/carros
+ sel-01.jpg\n- Imagem 2 de 6: https://fontedemana.com.br/kit/ed21/carrossel
+ -02.jpg\n- Imagem 3 de 6: https://fontedemana.com.br/kit/ed21/carrossel-03
+ .jpg\n- Imagem 4 de 6: https://fontedemana.com.br/kit/ed21/carrossel-04.jp
+ g\n- Imagem 5 de 6: https://fontedemana.com.br/kit/ed21/carrossel-05.jpg\n
+ - Imagem 6 de 6: https://fontedemana.com.br/kit/ed21/carrossel-06.jpg\n\nL
+ egenda:\nCommander e Secret Lair: Strange School e Duality Distorted\, os 
+ drops de Reality Fracture\, entram à venda hoje na Chaos Vault.\n\nCada d
+ rop custa US$ 29\,99 (R$ 151\,08) normal ou US$ 39\,99 (R$ 201\,46) foil. 
+ Strange School traz Attrition\, Bitter Ordeal\, Ophiomancer\, Sign in Bloo
+ d e Soul Spike com arte em preto e branco de artistas japoneses. Duality D
+ istorted traz Thoughtseize\, Desperate Ritual\, Pyroblast e Tribute to the
+  World Tree\, redesenhadas pelos artistas originais em moldura antiga.\n\n
+ Também tem Star Trek: Geordi La Forge\, Innovator e Sylvia Tilly\, e hoje
+  sai a lista completa do precon We Are the Borg.\n\nNo Topdeck do Dia\, At
+ trition\, o encantamento de 1999 que troca uma ficha sua por uma criatura 
+ do oponente.\n\nQual dos dois drops faria mais diferença no seu deck de C
+ ommander?\n\nEdição completa em fontedemana.com.br\n\nArtes: Thoughtseiz
+ e\, DiTerlizzi. Attrition\, Iinuma Yuuki.\n\nValores em reais pela cotaç
+ ão de 23 out (Banco Central\, PTAX).\n\n#secretlair #commander #mtg\n\nFo
+ nte de Mana is unofficial Fan Content permitted under the Fan Content Poli
+ cy. Not approved/endorsed by Wizards. Portions of the materials used are p
+ roperty of Wizards of the Coast. ©Wizards of the Coast LLC.\n\nPasso a pa
+ sso:\n1. No Instagram\, toque em + e escolha Post.\n2. Selecione as 6 imag
+ ens na ordem\, da 1 à 6.\n3. Toque em Adicionar música e escolha uma em 
+ alta que combine com o tema.\n4. Cole a Legenda e publique.\n\nValores em 
+ reais pela cotação de 23 out\, US$ 1 = R$ 5\,0377 (PTAX do Banco Central
+ ).\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-26/#feed
+URL:https://fontedemana.com.br/pauta/2026-10-26/#feed
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram feed: Carrossel da edição 21
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-26-stories-meio-dia@fontedemana.com.br
+DTSTAMP:20261026T102115Z
+DTSTART:20261026T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
+DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
+ .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
+ e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
+ o do post: Qual Secret Lair de hoje você levaria? com Strange School\, Du
+ ality Distorted e Nenhum.\n3. Publique.\n\nPauta completa: https://fontede
+ mana.com.br/pauta/2026-10-26/#stories-meio-dia
+URL:https://fontedemana.com.br/pauta/2026-10-26/#stories-meio-dia
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-26-threads-tarde@fontedemana.com.br
+DTSTAMP:20261026T102115Z
+DTSTART:20261026T180000Z
+DURATION:PT15M
+SUMMARY:15:00 Threads: Notícia do dia num post só
+DESCRIPTION:A edição 21 contada num post só\, sem fio: nos fios\, quase 
+ ninguém passava do primeiro post.\n\nPost:\nStrange School e Duality Dist
+ orted\, os Secret Lairs de Reality Fracture\, entram à venda hoje na Chao
+ s Vault. Cada drop custa US$ 29\,99 (R$ 151\,08) normal ou US$ 39\,99 (R$ 
+ 201\,46) foil. Strange School tem Attrition\, Bitter Ordeal e Soul Spike c
+ om arte de terror em mangá. Você leva o drop ou compra só as avulsas?\n
+ \nValores em reais pela cotação de 23 out (Banco Central\, PTAX).\n\nfon
+ tedemana.com.br\n\nPasso a passo:\n1. No Threads\, cole o Post\, sem sequ
+ ência.\n2. Toque em Adicionar tópico e escolha MTG.\n3. Publique e respo
+ nda quem comentar na primeira hora.\n\nValores em reais pela cotação de 
+ 23 out\, US$ 1 = R$ 5\,0377 (PTAX do Banco Central).\n\nPauta completa: ht
+ tps://fontedemana.com.br/pauta/2026-10-26/#threads-tarde
+URL:https://fontedemana.com.br/pauta/2026-10-26/#threads-tarde
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Notícia do dia num post só
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-26-stories-tarde@fontedemana.com.br
+DTSTAMP:20261026T102115Z
+DTSTART:20261026T180000Z
+DURATION:PT15M
+SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
+DESCRIPTION:Story com a imagem de Attrition no Topdeck do Dia e o sticker d
+ e link para a edição completa.\n\nArquivos:\n- Topdeck do Dia: https://f
+ ontedemana.com.br/kit/ed21/carrossel-04.jpg\n\nPasso a passo:\n1. Baixe a 
+ imagem e poste no Story.\n2. Adicione o sticker de Link para fontedemana.c
+ om.br com o texto Edição completa\, embaixo do texto do Topdeck.\n3. Pub
+ lique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-26/#sto
+ ries-tarde
+URL:https://fontedemana.com.br/pauta/2026-10-26/#stories-tarde
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Topdeck do Dia com link
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-26-reels@fontedemana.com.br
+DTSTAMP:20261026T102115Z
+DTSTART:20261026T220000Z
+DURATION:PT15M
+SUMMARY:19:00 Reels: Vídeo original: Lore em 1 minuto #1: Edgar Markov\, o
+  avô do Sorin…
+DESCRIPTION:O vídeo original de hoje no Instagram\, o mesmo arquivo do Tik
+ Tok\, já narrado. É o formato que mais chega a quem não segue.\n\nArqui
+ vos:\n- Vídeo original narrado: https://fontedemana.com.br/pauta/2026-10-
+ 26/tiktok/tiktok-narrado.mp4\n\nLegenda:\nLore de Magic para o Halloween: 
+ quem criou os vampiros de Innistrad? Foi o avô do Sorin\, e a receita lev
+ ava sangue de anjo. Edgar Markov virou comandante de Commander em mais de 
+ 38 mil decks no EDHREC. Qual personagem você quer ver na próxima: Nicol 
+ Bolas\, Urza ou Teferi?\n\nHistória completa e o jornal de hoje em fonted
+ emana.com.br\n\n#edgarmarkov #commander #mtg\n\nFonte de Mana is unofficia
+ l Fan Content permitted under the Fan Content Policy. Not approved/endorse
+ d by Wizards. Portions of the materials used are property of Wizards of th
+ e Coast. ©Wizards of the Coast LLC.\n\nComentário fixado:\nPróximo Lore
+  em 1 minuto: Nicol Bolas\, Urza ou Teferi? Quem você quer ver contado co
+ mo fofoca de mesa? A história do Edgar com as fontes está em fontedemana
+ .com.br\n\nPasso a passo:\n1. No Instagram\, toque em + e escolha Reel.\n2
+ . Escolha o vídeo baixado daqui\, nunca o salvo do TikTok (o Instagram de
+ rruba vídeo com marca d'água).\n3. Em Áudio\, ponha uma música em alta
+  da biblioteca do Instagram com volume baixo (uns 10%)\, sem cobrir a voz.
+ \n4. Na capa\, use o primeiro quadro\, o do gancho.\n5. Cole a Legenda e p
+ ublique.\n6. Fixe o comentário e responda quem comentar na primeira hora.
+ \n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-26/#reels
+URL:https://fontedemana.com.br/pauta/2026-10-26/#reels
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reels: Vídeo original: Lore em 1 minuto #1: Edgar Markov\, o a
+ vô do Sorin…
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-26-comentarios@fontedemana.com.br
+DTSTAMP:20261026T102115Z
+DTSTART:20261027T003000Z
+DURATION:PT15M
+SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
+DESCRIPTION:Uns 10 minutos nas três redes: curtir e responder os comentár
+ ios das últimas 48 horas\, começando pelo vídeo e pelo carrossel de hoj
+ e. Conversa nos comentários leva a peça a mais gente\, e o Instagram rec
+ omenda responder em até 2 dias.\n\nPasso a passo:\n1. Instagram: nas noti
+ ficações\, curta os comentários e responda com uma frase quem perguntou
+  ou discordou.\n2. TikTok e Threads: o mesmo\, começando pelo post com ma
+ is comentários.\n3. Pergunta boa ou dúvida que se repete\, nos comentár
+ ios ou nas DMs? Mande na conversa do projeto: vira tema de um pilar.\n\nPa
+ uta completa: https://fontedemana.com.br/pauta/2026-10-26/#comentarios
+URL:https://fontedemana.com.br/pauta/2026-10-26/#comentarios
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Comentários: Responder os comentários de hoje e de ontem
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
