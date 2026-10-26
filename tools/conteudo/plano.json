@@ -1,5 +1,5 @@
 {
-  "versao": "2026-10-23 v5.3",
+  "versao": "2026-10-26 v5.4",
   "comentario": "Plano editorial da Fonte de Mana. Lido por tools/conteudo/contexto.cjs (tarefa da noite), tools/pauta/manha.cjs (tarefa da manhã) e tools/pauta/tiktok.cjs (molde do vídeo). A explicação completa está em tools/conteudo/ESTRATEGIA.md, os formatos (com as referências que inspiraram cada um) em tools/conteudo/FORMATOS.md e a revisão semanal em tools/conteudo/REVISAO.md. Ciclo de 3 semanas: a letra da semana é ciclo.semanas[(semana ISO + ciclo.deslocamento) % 3]. Datas comemorativas em datas: de e ate como MM-DD (todo ano) ou AAAA-MM-DD (só aquele ano); no dia, pilarNoDia troca o pilar do calendário. Os blocos video, reels, threads, legenda, audio, conversa, rosto e isca valem para datas a partir de desde (antes disso, tudo segue como na v4). plantao: eventos com dia marcado para a fase plantao do orquestrador; o tools/conteudo/plantao.cjs mostra o do dia com --qual. testes: de e ate (ou dias) em AAAA-MM-DD; hora troca o horário da grade nesses dias.",
 
   "ciclo": {"semanas": ["A", "B", "C"], "deslocamento": 2, "nota": "Semana ISO 42 (12 a 18 out 2026) = C a partir de sexta 16, 43 = A, 44 = B, 45 = C. Semana C traz os formatos novos de 15 out."},
@@ -87,7 +87,7 @@
       "Só se o gancho estiver na meta: 6 s assistidos acima de 35% no TikTok ou pulo abaixo de 50% no Reels.",
       "Objetivo: seguidores no TikTok e visitas ao perfil no Instagram. Nunca visualizações.",
       "Prefira conteúdo original que não envelhece. Notícia perde validade em dias.",
-      "Toda campanha entra na tabela Registro de campanhas do documento privado da revisão (não no repositório, que é público): data, rede, peça, objetivo, público, dias e gasto."
+      "Rede: só Instagram, com objetivo visitas ao perfil. TikTok só volta a ser impulsionado quando o print do TikTok Studio mostrar 6 s assistidos acima de 35%.", "Toda campanha entra na tabela Registro de campanhas do documento privado da revisão (não no repositório, que é público): data, rede, peça, objetivo, público, dias e gasto."
     ]
   },
 
@@ -98,8 +98,8 @@
     "seg": {"A": "historia", "B": "lore", "C": "treta"},
     "ter": {"A": "dicionario", "B": "dicionario", "C": "dicionario"},
     "qua": {"A": "deck", "B": "combo", "C": "matematica"},
-    "qui": {"A": "top5", "B": "top5", "C": "ladob"},
-    "sex": {"A": "regra", "B": "termometro", "C": "regra"},
+    "qui": {"A": "top5", "B": "top5", "C": "top5"},
+    "sex": {"A": "regra", "B": "regra", "C": "regra"},
     "sab": {"A": "dc500", "B": "vitrine", "C": "qualentra"},
     "dom": {"A": "bolsa", "B": "debate", "C": "todamesa"}
   },
