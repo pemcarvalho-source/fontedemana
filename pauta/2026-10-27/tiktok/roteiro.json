@@ -66,5 +66,6 @@
    "gravar": "Faz o gesto de varrer a mesa com a mão e termina perguntando, olhando para a câmera",
    "segundos": 5.8
   }
- ]
+ ],
+ "rostoGravado": true
 }
