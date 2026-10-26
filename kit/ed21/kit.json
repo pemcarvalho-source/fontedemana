@@ -1,0 +1,74 @@
+{
+  "n": 21,
+  "data": "26 out",
+  "carrossel": {
+    "capa": {"cor": "A", "titulo": "Secret Lairs de Reality Fracture à venda hoje", "sub": "<b>Strange School</b> e <b>Duality Distorted</b> abrem hoje na Chaos Vault, a US$ 29,99 (R$ 151,08) cada, ou US$ 39,99 (R$ 201,46) em foil.", "credito": "Arte: Thoughtseize, DiTerlizzi"},
+    "cartoes": [
+      {"cor": "A", "titulo": "Os dois drops de hoje",
+       "linhas": [
+         {"nome": "Drop normal", "valor": "$29,99", "sub": "R$ 151,08, cada drop", "porque": "Strange School ou Duality Distorted"},
+         {"nome": "Drop foil", "valor": "$39,99", "sub": "R$ 201,46, cada drop"},
+         {"nome": "Bundle Bundle completo", "valor": "$234,99", "sub": "R$ 1.183,81", "porque": "Secret Lair Bundle mais os dois drops, normal e foil"}
+       ],
+       "nota": {"rotulo": "No seu bolso", "texto": "Attrition, Bitter Ordeal e Soul Spike são as mais caras do Strange School avulsas."},
+       "fonte": "Fontes: Wizards e Secret Lair. Reais: PTAX de 23 out"},
+      {"cor": "G", "titulo": "Star Trek: Geordi e os Borg",
+       "itens": [
+         {"cor": "U", "html": "<b>Geordi La Forge, Innovator</b>: 3 manas, não pode ser bloqueado com uma Espaçonave e compra ao causar dano."},
+         {"cor": "G", "html": "<b>Sylvia Tilly, Joy of Discovery</b>: vidência 2 ao entrar e marcador +1/+1 a cada combate."},
+         {"cor": "W", "html": "Hoje sai a lista completa do precon <b>We Are the Borg</b>. Amanhã, Federation Fleet."}
+       ],
+       "fonte": "Fontes: Wizards e Scryfall"}
+    ],
+    "topdeck": {"titulo": "Attrition",
+      "habilidades": [
+        {"rotulo": "Remoção repetida", "texto": "Um preto e uma criatura sacrificada destroem uma criatura não preta."},
+        {"rotulo": "Na hora certa", "texto": "É habilidade ativada: dá para usar no turno do oponente."},
+        {"rotulo": "Fichas viram balas", "texto": "Uma ficha 1/1 troca por um comandante inteiro."}
+      ],
+      "extra": "Em <b>33,2 mil</b> decks no EDHREC. US$ 18,50 (R$ 93,20) no Scryfall, versão de Commander 2011. Reais: PTAX de 23 out",
+      "credito": "Ilustração de Iinuma Yuuki"},
+    "ban": {"numero": "35", "unidade": "DIAS", "texto": "Para a próxima janela de banimentos, em 30 de novembro. A de 12 de outubro não mexeu no Commander."},
+    "turnos": [
+      {"cor": "A", "data": "26 out", "texto": "Secret Lairs de Reality Fracture"},
+      {"cor": "G", "data": "26 a 29 out", "texto": "Listas dos precons de Star Trek"},
+      {"cor": "G", "data": "30 out", "texto": "Galeria completa de Star Trek"},
+      {"cor": "A", "data": "2 nov", "texto": "Countdown Kit da Marvel"},
+      {"cor": "G", "data": "13 nov", "texto": "Star Trek chega às lojas"}
+    ],
+    "sussurro": null
+  },
+  "video": {
+    "cena1": {"titulo": "Secret Lairs de Reality Fracture à venda hoje", "pilulas": ["Strange School", "Duality Distorted", "Chaos Vault"]},
+    "cena2": {"rotulo": "No bolso", "cor": "A", "titulo": "Quanto custa cada drop",
+      "linhas": [
+        {"nome": "Drop normal", "numero": 29, "prefixo": "US$ ", "sufixo": ",99", "sub": "R$ 151,08"},
+        {"nome": "Drop foil", "numero": 39, "prefixo": "US$ ", "sufixo": ",99", "sub": "R$ 201,46"}
+      ],
+      "fonte": "Fonte: Wizards. Reais: PTAX de 23 out"},
+    "cena3": {"linhas": ["<b>Attrition</b>: sacrifique uma e destrua outra não preta.", "Ficha 1/1 vira remoção de comandante.", "Em 33,2 mil decks no EDHREC."]},
+    "cena4": {"texto": "Faltam 35 dias para a próxima janela de banimentos, em 30 de novembro.", "sussurro": null}
+  },
+  "textos": {
+    "legendaCarrossel": "Commander e Secret Lair: Strange School e Duality Distorted, os drops de Reality Fracture, entram à venda hoje na Chaos Vault.\n\nCada drop custa US$ 29,99 (R$ 151,08) normal ou US$ 39,99 (R$ 201,46) foil. Strange School traz Attrition, Bitter Ordeal, Ophiomancer, Sign in Blood e Soul Spike com arte em preto e branco de artistas japoneses. Duality Distorted traz Thoughtseize, Desperate Ritual, Pyroblast e Tribute to the World Tree, redesenhadas pelos artistas originais em moldura antiga.\n\nTambém tem Star Trek: Geordi La Forge, Innovator e Sylvia Tilly, e hoje sai a lista completa do precon We Are the Borg.\n\nNo Topdeck do Dia, Attrition, o encantamento de 1999 que troca uma ficha sua por uma criatura do oponente.\n\nQual dos dois drops faria mais diferença no seu deck de Commander?\n\nEdição completa em fontedemana.com.br\n\nArtes: Thoughtseize, DiTerlizzi. Attrition, Iinuma Yuuki.\n\nValores em reais pela cotação de 23 out (Banco Central, PTAX).\n\n#secretlair #commander #mtg",
+    "legendaVideo": "Commander e Secret Lair: os dois drops de Reality Fracture abrem hoje na Chaos Vault, a US$ 29,99 (R$ 151,08) cada, ou US$ 39,99 (R$ 201,46) em foil.\n\nVocê compraria o drop inteiro ou só as cartas avulsas que vai usar?\n\nEdição completa em fontedemana.com.br\n\nValores em reais pela cotação de 23 out (Banco Central, PTAX).\n\n#secretlair #commander #mtg",
+    "threadsPost": "Strange School e Duality Distorted, os Secret Lairs de Reality Fracture, entram à venda hoje na Chaos Vault. Cada drop custa US$ 29,99 (R$ 151,08) normal ou US$ 39,99 (R$ 201,46) foil. Strange School tem Attrition, Bitter Ordeal e Soul Spike com arte de terror em mangá. Você leva o drop ou compra só as avulsas?\n\nValores em reais pela cotação de 23 out (Banco Central, PTAX).\n\nfontedemana.com.br",
+    "threadsFio": [
+      "Hoje abrem na Chaos Vault os dois Secret Lairs de Reality Fracture: Strange School e Duality Distorted. US$ 29,99 (R$ 151,08) cada, ou US$ 39,99 (R$ 201,46) em foil.",
+      "Strange School: Attrition, Bitter Ordeal, Ophiomancer, Sign in Blood e Soul Spike, em preto e branco, por artistas japoneses. Duality Distorted: Thoughtseize, Desperate Ritual, Pyroblast e Tribute to the World Tree, redesenhadas pelos artistas originais.",
+      "Star Trek mostrou Geordi La Forge, Innovator, que não pode ser bloqueado se você tem uma Espaçonave e compra ao causar dano. Hoje sai a lista completa do precon We Are the Borg.",
+      "Topdeck do Dia: Attrition. Um preto e uma criatura sacrificada destroem uma criatura não preta. Está em 33,2 mil decks no EDHREC.",
+      "Edição completa em fontedemana.com.br\n\nValores em reais pela cotação de 23 out (Banco Central, PTAX)."
+    ],
+    "threadsAvulsos": [
+      {"titulo": "Pergunta do dia", "texto": "Secret Lair novo na Chaos Vault hoje. Você compra o drop inteiro pela arte ou só as cartas avulsas que vai jogar no Commander?", "obs": "Enquete: drop inteiro, só avulsas, nenhum"},
+      {"titulo": "Attrition na mesa", "texto": "Attrition é de 1999 e segue em 33,2 mil decks de Commander no EDHREC. Ficha 1/1 virando remoção de comandante. Qual ficha você mais sacrificaria nela?"}
+    ]
+  },
+  "pauta": {
+    "forca": "forte",
+    "porque": "Os Secret Lairs de Reality Fracture ganharam data e entram à venda hoje, com preço anunciado.",
+    "storyPergunta": "Você compraria Strange School ou Duality Distorted?",
+    "enquete": {"pergunta": "Qual Secret Lair de hoje você levaria?", "opcoes": ["Strange School", "Duality Distorted", "Nenhum"]}
+  }
+}
