@@ -1,6 +1,7 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "Attrition",
   "The Gitrog Monster",
   "Gray Merchant of Asphodel",
   "Platinum Angel",
@@ -19,6 +20,13 @@ window.MANA_POOL_INDEX = {
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 21,
+   "date": "2026-10-26",
+   "dateLabel": "Segunda, 26 de outubro de 2026",
+   "head": "Secret Lairs de Reality Fracture entram à venda hoje na Chaos Vault",
+   "biome": "A"
+  },
   {
    "n": 20,
    "date": "2026-10-25",
