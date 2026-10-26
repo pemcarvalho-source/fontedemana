@@ -1,0 +1,70 @@
+{
+ "data": "2026-10-27",
+ "pilar": "dicionario",
+ "tema": "Dicionário do Commander #3: o que é mana dork",
+ "item": "Mana dork",
+ "arte": "pauta/2026-10-27/tiktok/arte.jpg",
+ "carta": "pauta/2026-10-27/tiktok/carta.jpg",
+ "credito": "Arte: Birds of Paradise, Marcelo Vignali",
+ "fx": "Reais pela cotação de 23 out (Banco Central, PTAX)",
+ "legenda": "Commander: o que é mana dork, a carta de Magic que não ataca e só faz mana? Dicionário do Commander #3. A Birds of Paradise foi a criatura número 1 do EDHREC no último mês, em 31% dos decks que podem jogá-la. E o erro clássico: dork que acabou de entrar não vira para gerar mana. No seu deck, dork ou mana rock?\n\nValores em reais pela cotação de 23 out (Banco Central, PTAX).\n\nO jornal de Magic de todo dia está em fontedemana.com.br\n\n#manadork #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
+ "comentario": "No seu deck: dork (mais barato, mas morre no board wipe) ou mana rock (artefato, sobrevive ao wipe)? E qual foi o termo da mesa que te confundiu no começo? O dicionário completo está em fontedemana.com.br",
+ "cenas": [
+  {
+   "tipo": "rosto",
+   "cor": "G",
+   "chip": "Dicionário #3",
+   "kicker": "Dicionário do Commander",
+   "titulo": "Mana dork: a criatura que só faz mana",
+   "narracao": "Mana dork é a criatura que não ataca. Só faz mana. E é a mais jogada do Commander.",
+   "gravar": "Olhando para a câmera, com uma criatura que gera mana na mão (Llanowar Elves, Birds of Paradise ou outra do fichário)",
+   "segundos": 7.3
+  },
+  {
+   "tipo": "carta",
+   "cor": "G",
+   "kicker": "O exemplo clássico",
+   "carta": "pauta/2026-10-27/tiktok/carta-1.jpg",
+   "titulo": "Llanowar Elves",
+   "valor": "US$ 0,31",
+   "real": "(R$ 1,56)",
+   "sub": "Vira e gera uma mana verde",
+   "fonte": "Scryfall, out 2026",
+   "narracao": "O clássico: Llanowar Elves. Vira o elfo, ganha uma mana verde.",
+   "segundos": 4.7
+  },
+  {
+   "tipo": "carta",
+   "cor": "G",
+   "kicker": "Criatura nº 1 do mês",
+   "carta": "pauta/2026-10-27/tiktok/carta-2.jpg",
+   "titulo": "Birds of Paradise",
+   "valor": "US$ 7,93",
+   "real": "(R$ 39,95)",
+   "sub": "Em 31% dos decks que podem jogá-la",
+   "fonte": "EDHREC, último mês",
+   "narracao": "A Birds faz mana de qualquer cor. Foi a criatura número um do EDHREC no mês.",
+   "segundos": 6.5
+  },
+  {
+   "tipo": "texto",
+   "cor": "U",
+   "kicker": "O erro mais comum",
+   "titulo": "Baixou agora? Só vira no próximo turno",
+   "sub": "Dork tem enjoo de invocação, como qualquer criatura",
+   "rodape": "Regras Abrangentes, 302.6",
+   "narracao": "O erro clássico: baixar o dork e usar na hora. Não pode, tem enjoo de invocação.",
+   "segundos": 6.5
+  },
+  {
+   "tipo": "rosto",
+   "cor": "R",
+   "kicker": "E na sua mesa?",
+   "titulo": "Dork ou mana rock?",
+   "sub": "O dork é barato, mas morre no board wipe",
+   "narracao": "Só que dork morre no board wipe. No seu deck: dork ou mana rock?",
+   "gravar": "Faz o gesto de varrer a mesa com a mão e termina perguntando, olhando para a câmera",
+   "segundos": 5.8
+  }
+ ]
+}

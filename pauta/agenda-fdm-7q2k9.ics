@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-10-23-gravacao@fontedemana.com.br
-DTSTAMP:20261026T102115Z
+DTSTAMP:20261026T212616Z
 DTSTART:20261022T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -46,7 +46,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-23-tiktok@fontedemana.com.br
-DTSTAMP:20261026T102115Z
+DTSTAMP:20261026T212616Z
 DTSTART:20261023T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Chama o Juiz #2 no TikTok
@@ -76,7 +76,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-23-threads-manha@fontedemana.com.br
-DTSTAMP:20261026T102115Z
+DTSTAMP:20261026T212616Z
 DTSTART:20261023T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Chama o Juiz #2: comandante voltou para a m
@@ -101,7 +101,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-23-stories-manha@fontedemana.com.br
-DTSTAMP:20261026T102115Z
+DTSTAMP:20261026T212616Z
 DTSTART:20261023T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -121,7 +121,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-23-feed@fontedemana.com.br
-DTSTAMP:20261026T102115Z
+DTSTAMP:20261026T212616Z
 DTSTART:20261023T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Chama o Juiz #2: comandante voltou para a mã
@@ -161,7 +161,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-23-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261026T102115Z
+DTSTAMP:20261026T212616Z
 DTSTART:20261023T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -180,7 +180,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-23-threads-tarde@fontedemana.com.br
-DTSTAMP:20261026T102115Z
+DTSTAMP:20261026T212616Z
 DTSTART:20261023T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 18
@@ -215,7 +215,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-23-stories-tarde@fontedemana.com.br
-DTSTAMP:20261026T102115Z
+DTSTAMP:20261026T212616Z
 DTSTART:20261023T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -235,7 +235,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-23-reels@fontedemana.com.br
-DTSTAMP:20261026T102115Z
+DTSTAMP:20261026T212616Z
 DTSTART:20261023T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -262,7 +262,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-24-gravacao@fontedemana.com.br
-DTSTAMP:20261026T102115Z
+DTSTAMP:20261026T212616Z
 DTSTART:20261023T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -305,7 +305,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-24-tiktok@fontedemana.com.br
-DTSTAMP:20261026T102115Z
+DTSTAMP:20261026T212616Z
 DTSTART:20261024T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Valgavoth no DC500\, o demônio no teto de R$ 500
@@ -334,7 +334,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-24-threads-manha@fontedemana.com.br
-DTSTAMP:20261026T102115Z
+DTSTAMP:20261026T212616Z
 DTSTART:20261024T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Qual?
@@ -354,7 +354,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-24-stories-manha@fontedemana.com.br
-DTSTAMP:20261026T102115Z
+DTSTAMP:20261026T212616Z
 DTSTART:20261024T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -375,7 +375,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-24-feed@fontedemana.com.br
-DTSTAMP:20261026T102115Z
+DTSTAMP:20261026T212616Z
 DTSTART:20261024T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 19
@@ -418,7 +418,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-24-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261026T102115Z
+DTSTAMP:20261026T212616Z
 DTSTART:20261024T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -437,7 +437,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-24-threads-tarde@fontedemana.com.br
-DTSTAMP:20261026T102115Z
+DTSTAMP:20261026T212616Z
 DTSTART:20261024T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 19
@@ -473,7 +473,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-24-stories-tarde@fontedemana.com.br
-DTSTAMP:20261026T102115Z
+DTSTAMP:20261026T212616Z
 DTSTART:20261024T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -493,7 +493,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-24-reels@fontedemana.com.br
-DTSTAMP:20261026T102115Z
+DTSTAMP:20261026T212616Z
 DTSTART:20261024T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -521,7 +521,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-25-gravacao@fontedemana.com.br
-DTSTAMP:20261026T102115Z
+DTSTAMP:20261026T212616Z
 DTSTART:20261024T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -565,7 +565,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-25-tiktok@fontedemana.com.br
-DTSTAMP:20261026T102115Z
+DTSTAMP:20261026T212616Z
 DTSTART:20261025T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Dark Matter Manipulator subiu 529%
@@ -595,7 +595,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-25-threads-manha@fontedemana.com.br
-DTSTAMP:20261026T102115Z
+DTSTAMP:20261026T212616Z
 DTSTART:20261025T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Dark Matter Manipulator sobe 529% numa seman
@@ -621,7 +621,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-25-stories-manha@fontedemana.com.br
-DTSTAMP:20261026T102115Z
+DTSTAMP:20261026T212616Z
 DTSTART:20261025T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -641,7 +641,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-25-feed@fontedemana.com.br
-DTSTAMP:20261026T102115Z
+DTSTAMP:20261026T212616Z
 DTSTART:20261025T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Bolsa de Mana: Dark Matter Manipulator sobe 5
@@ -684,7 +684,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-25-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261026T102115Z
+DTSTAMP:20261026T212616Z
 DTSTART:20261025T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -703,7 +703,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-25-threads-tarde@fontedemana.com.br
-DTSTAMP:20261026T102115Z
+DTSTAMP:20261026T212616Z
 DTSTART:20261025T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 20
@@ -739,7 +739,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-25-stories-tarde@fontedemana.com.br
-DTSTAMP:20261026T102115Z
+DTSTAMP:20261026T212616Z
 DTSTART:20261025T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -759,7 +759,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-25-reels@fontedemana.com.br
-DTSTAMP:20261026T102115Z
+DTSTAMP:20261026T212616Z
 DTSTART:20261025T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -786,7 +786,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-gravacao@fontedemana.com.br
-DTSTAMP:20261026T102115Z
+DTSTAMP:20261026T212616Z
 DTSTART:20261025T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -825,7 +825,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-tiktok@fontedemana.com.br
-DTSTAMP:20261026T102115Z
+DTSTAMP:20261026T212616Z
 DTSTART:20261026T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Lore em 1 minuto #1\, Edgar Markov
@@ -857,7 +857,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-threads-manha@fontedemana.com.br
-DTSTAMP:20261026T102115Z
+DTSTAMP:20261026T212616Z
 DTSTART:20261026T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Você compra o drop inteiro pela ar
@@ -879,7 +879,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-stories-manha@fontedemana.com.br
-DTSTAMP:20261026T102115Z
+DTSTAMP:20261026T212616Z
 DTSTART:20261026T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -899,7 +899,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-feed@fontedemana.com.br
-DTSTAMP:20261026T102115Z
+DTSTAMP:20261026T212616Z
 DTSTART:20261026T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 21
@@ -942,7 +942,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261026T102115Z
+DTSTAMP:20261026T212616Z
 DTSTART:20261026T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -961,7 +961,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-threads-tarde@fontedemana.com.br
-DTSTAMP:20261026T102115Z
+DTSTAMP:20261026T212616Z
 DTSTART:20261026T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -986,7 +986,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-stories-tarde@fontedemana.com.br
-DTSTAMP:20261026T102115Z
+DTSTAMP:20261026T212616Z
 DTSTART:20261026T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1006,7 +1006,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-reels@fontedemana.com.br
-DTSTAMP:20261026T102115Z
+DTSTAMP:20261026T212616Z
 DTSTART:20261026T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Lore em 1 minuto #1: Edgar Markov\, o
@@ -1042,7 +1042,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-comentarios@fontedemana.com.br
-DTSTAMP:20261026T102115Z
+DTSTAMP:20261026T212616Z
 DTSTART:20261027T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1059,6 +1059,87 @@ URL:https://fontedemana.com.br/pauta/2026-10-26/#comentarios
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Comentários: Responder os comentários de hoje e de ontem
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-27-gravacao@fontedemana.com.br
+DTSTAMP:20261026T212616Z
+DTSTART:20261026T221500Z
+DURATION:PT15M
+SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
+DESCRIPTION:Dicionário do Commander #3: o que é mana dork. Cinco cenas cu
+ rtas\, uns 31 s de fala. Nas cenas 1 e 5 você aparece falando para a câm
+ era\; nas outras\, só a voz.\n\nArquivos:\n- Vídeo mudo (para ver o ritm
+ o): https://fontedemana.com.br/pauta/2026-10-27/tiktok/tiktok-mudo.mp4\n\n
+ Roteiro de gravação:\nCena 1\, rosto\, uns 7 s\nNa tela: Mana dork: a cr
+ iatura que só faz mana\nComo gravar: Rosto: Olhando para a câmera\, com 
+ uma criatura que gera mana na mão (Llanowar Elves\, Birds of Paradise ou 
+ outra do fichário)\nFala: Mana dork é a criatura que não ataca. Só faz
+  mana. E é a mais jogada do Commander.\n\nCena 2\, só a voz\, uns 5 s\nN
+ a tela: Llanowar Elves. US$ 0\,31 (R$ 1\,56). Vira e gera uma mana verde\n
+ Como gravar: Só a voz: pode gravar em vídeo ou áudio\nFala: O clássico
+ : Llanowar Elves. Vira o elfo\, ganha uma mana verde.\n\nCena 3\, só a vo
+ z\, uns 6 s\nNa tela: Birds of Paradise. US$ 7\,93 (R$ 39\,95). Em 31% dos
+  decks que podem jogá-la\nComo gravar: Só a voz: pode gravar em vídeo o
+ u áudio\nFala: A Birds faz mana de qualquer cor. Foi a criatura número u
+ m do EDHREC no mês.\n\nCena 4\, só a voz\, uns 6 s\nNa tela: Baixou agor
+ a? Só vira no próximo turno. Dork tem enjoo de invocação\, como qualqu
+ er criatura\nComo gravar: Só a voz: pode gravar em vídeo ou áudio\nFala
+ : O erro clássico: baixar o dork e usar na hora. Não pode\, tem enjoo de
+  invocação.\n\nCena 5\, rosto\, uns 6 s\nNa tela: Dork ou mana rock?\nCo
+ mo gravar: Rosto: Faz o gesto de varrer a mesa com a mão e termina pergun
+ tando\, olhando para a câmera\nFala: Só que dork morre no board wipe. No
+  seu deck: dork ou mana rock?\n\n\nPasso a passo:\n1. Celular na vertical\
+ , câmera da frente\, na altura dos olhos\, a um braço de distância.\n2.
+  Rosto no meio da tela e o terço de cima livre: é onde entra o título.\
+ n3. Luz de frente (de frente para a janela) e fundo arrumado\; a estante d
+ e cartas é ótima.\n4. Desligue o Vídeo HDR (Ajustes\, Câmera\, Gravar 
+ Vídeo) para as cores não lavarem.\n5. Um vídeo por cena\, falando para 
+ a câmera\, com meio segundo de silêncio antes e depois\; nomeie cena_1\,
+  cena_2... e mande todos juntos.\n6. Nas cenas sem rosto\, só a voz conta
+ : pode gravar em vídeo ou só o áudio.\n7. Mande os vídeos ao Claude no
+  projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dize
+ ndo "vídeos do TikTok de 2026-10-27".\n\nPauta completa: https://fontedem
+ ana.com.br/pauta/2026-10-27/#gravacao
+URL:https://fontedemana.com.br/pauta/2026-10-27/#gravacao
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Gravação: Gravar o vídeo de amanhã (você aparece)
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-27-tiktok@fontedemana.com.br
+DTSTAMP:20261026T212616Z
+DTSTART:20261027T143000Z
+DURATION:PT15M
+SUMMARY:11:30 TikTok: TikTok: Dicionário do Commander #3\, mana dork
+DESCRIPTION:Vídeo do Dicionário do Commander #3: o que é mana dork\, com
+  Llanowar Elves\, Birds of Paradise e o erro do enjoo de invocação.\n\nA
+ rquivos:\n- Vídeo do TikTok: https://fontedemana.com.br/pauta/2026-10-27/
+ tiktok/tiktok-mudo.mp4\n\nLegenda:\nCommander: o que é mana dork\, a cart
+ a de Magic que não ataca e só faz mana? Dicionário do Commander #3. A B
+ irds of Paradise foi a criatura número 1 do EDHREC no último mês\, em 3
+ 1% dos decks que podem jogá-la. E o erro clássico: dork que acabou de en
+ trar não vira para gerar mana. No seu deck\, dork ou mana rock?\n\nValore
+ s em reais pela cotação de 23 out (Banco Central\, PTAX).\n\nO jornal de
+  Magic de todo dia está em fontedemana.com.br\n\n#manadork #commander #mt
+ g\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Conte
+ nt Policy. Not approved/endorsed by Wizards. Portions of the materials use
+ d are property of Wizards of the Coast. ©Wizards of the Coast LLC.\n\nCom
+ entário fixado:\nNo seu deck: dork (mais barato\, mas morre no board wipe
+ ) ou mana rock (artefato\, sobrevive ao wipe)? E qual foi o termo da mesa 
+ que te confundiu no começo? O dicionário completo está em fontedemana.c
+ om.br\n\nPasso a passo:\n1. Poste com um som em alta da biblioteca do TikT
+ ok\, volume entre 15% e 20%.\n2. Voz própria não precisa de rótulo de I
+ A.\n3. Fixe o comentário logo depois de postar.\n4. Se os vídeos da grav
+ ação não chegarem\, poste o vídeo mudo com música em alta.\n\nPauta c
+ ompleta: https://fontedemana.com.br/pauta/2026-10-27/#tiktok
+URL:https://fontedemana.com.br/pauta/2026-10-27/#tiktok
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TikTok: TikTok: Dicionário do Commander #3\, mana dork
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
