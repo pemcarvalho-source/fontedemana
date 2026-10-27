@@ -1,6 +1,7 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "Skullclamp",
   "Attrition",
   "The Gitrog Monster",
   "Gray Merchant of Asphodel",
@@ -20,6 +21,13 @@ window.MANA_POOL_INDEX = {
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 22,
+   "date": "2026-10-27",
+   "dateLabel": "Terça, 27 de outubro de 2026",
+   "head": "We Are the Borg tem lista completa, com Toxic Deluge e Skullclamp",
+   "biome": "M"
+  },
   {
    "n": 21,
    "date": "2026-10-26",
