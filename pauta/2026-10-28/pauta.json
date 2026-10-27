@@ -1,0 +1,86 @@
+{
+ "data": "2026-10-28",
+ "avisos": [
+  {
+   "id": "gravacao",
+   "dia": "2026-10-27",
+   "hora": "19:15",
+   "rede": "Gravação",
+   "titulo": "Gravar a narração do TikTok de amanhã",
+   "oQue": "Combo da semana #1: Exquisite Blood e Sanguine Bond, o laço de sangue dos vampiros, para o Halloween. Seis cenas curtas, uns 36 s de fala no total.",
+   "arquivos": [
+    {
+     "nome": "Vídeo mudo (para ver o ritmo)",
+     "url": "https://fontedemana.com.br/pauta/2026-10-28/tiktok/tiktok-mudo.mp4"
+    }
+   ],
+   "roteiro": [
+    {
+     "cena": "Cena 1, uns 5 s",
+     "tela": "Dois vampiros zeram a mesa inteira. Sem atacar, com dois encantamentos de 5 manas",
+     "fala": "Dois encantamentos de vampiro zeram a vida da mesa inteira. Sem atacar."
+    },
+    {
+     "cena": "Cena 2, uns 5 s",
+     "tela": "Exquisite Blood. US$ 40,76 (R$ 205,34). Oponente perdeu vida? Você ganha igual",
+     "fala": "Exquisite Blood: toda vida que um oponente perde, você ganha a mesma quantidade."
+    },
+    {
+     "cena": "Cena 3, uns 6 s",
+     "tela": "Sanguine Bond. US$ 5,59 (R$ 28,16). Ganhou vida? Um oponente perde igual",
+     "fala": "Sanguine Bond faz o caminho de volta: toda vida que você ganha, um oponente perde."
+    },
+    {
+     "cena": "Cena 4, uns 8 s",
+     "tela": "O laço de sangue. Você ganha 1, um oponente perde 1, você ganha 1. Repete, trocando o alvo, até zerar todo mundo",
+     "fala": "Ganhou 1 de vida? Um oponente perde 1, você ganha 1, e o laço gira. Cada volta, você escolhe quem sangra."
+    },
+    {
+     "cena": "Cena 5, uns 5 s",
+     "tela": "Tira um dos encantamentos no meio do laço. Remoção instantânea com o gatilho na pilha. Juntas em mais de 150 mil decks (Commander Spellbook)",
+     "fala": "Pra parar: remoção instantânea num dos encantamentos, com o gatilho ainda na pilha."
+    },
+    {
+     "cena": "Cena 6, uns 5 s",
+     "tela": "Combo na mesa casual: pode ou é falta de educação? Pode, pode se avisar antes, ou não pode",
+     "fala": "Combo na mesa casual: pode, pode se avisar, ou é falta de educação?"
+    }
+   ],
+   "passos": [
+    "Grave um áudio por cena no Gravador do iPhone, num lugar silencioso, com o celular a um palmo da boca.",
+    "Fale no ritmo de conversa de mesa, sem pressa. Na cena 4, conte o laço devagar, como se mostrasse na mesa.",
+    "Nomeie os áudios cena_1, cena_2, até cena_6.",
+    "Mande os áudios ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"áudios do TikTok de 2026-10-28\"."
+   ]
+  },
+  {
+   "id": "tiktok",
+   "hora": "11:30",
+   "rede": "TikTok",
+   "titulo": "Combo da semana #1, Exquisite Blood e Sanguine Bond",
+   "oQue": "Vídeo do combo de vampiro para o Halloween: as duas cartas, a ordem dos gatilhos e como parar. A mesma legenda e o mesmo vídeo vão para o Reels das 19:00.",
+   "arquivos": [
+    {
+     "nome": "Vídeo do TikTok (mudo)",
+     "url": "https://fontedemana.com.br/pauta/2026-10-28/tiktok/tiktok-mudo.mp4"
+    }
+   ],
+   "textos": [
+    {
+     "rotulo": "Legenda",
+     "texto": "Combo de Commander de Halloween: dois encantamentos de vampiro, Exquisite Blood e Sanguine Bond, zeram a vida da mesa inteira sem atacar. Combo na mesa casual: pode ou é falta de educação? Segundo o Commander Spellbook, a dupla está junta em mais de 150 mil decks no EDHREC. Exquisite Blood US$ 40,76 (R$ 205,34) e Sanguine Bond US$ 5,59 (R$ 28,16) no Scryfall.\n\nValores em reais pela cotação de 23 out (Banco Central, PTAX).\n\nO jornal de Magic de todo dia está em fontedemana.com.br\n\n#vampiros #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+    },
+    {
+     "rotulo": "Comentário fixado",
+     "texto": "Combo na mesa casual: pode, pode só se avisar antes, ou não pode? E se a mesa fosse sua, você deixava esse laço de sangue resolver? O passo a passo está em fontedemana.com.br"
+    }
+   ],
+   "passos": [
+    "Poste com um som em alta da biblioteca do TikTok, com o volume entre 15% e 20%, por baixo da voz.",
+    "Voz própria não precisa de rótulo de IA.",
+    "Fixe o comentário logo depois de postar.",
+    "Se os áudios não chegarem a tempo, poste o vídeo mudo com uma música em alta da biblioteca."
+   ]
+  }
+ ]
+}

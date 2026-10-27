@@ -1,0 +1,95 @@
+{
+ "data": "2026-10-28",
+ "pilar": "combo",
+ "tema": "Combo da semana #1: Exquisite Blood e Sanguine Bond, o laço de sangue",
+ "item": null,
+ "arte": "pauta/2026-10-28/tiktok/arte.jpg",
+ "carta": "pauta/2026-10-28/tiktok/carta.jpg",
+ "credito": "Arte: Exquisite Blood, Cynthia Sheppard",
+ "fx": "Reais pela cotação de 23 out (Banco Central, PTAX)",
+ "legenda": "Combo de Commander de Halloween: dois encantamentos de vampiro, Exquisite Blood e Sanguine Bond, zeram a vida da mesa inteira sem atacar. Combo na mesa casual: pode ou é falta de educação? Segundo o Commander Spellbook, a dupla está junta em mais de 150 mil decks no EDHREC. Exquisite Blood US$ 40,76 (R$ 205,34) e Sanguine Bond US$ 5,59 (R$ 28,16) no Scryfall.\n\nValores em reais pela cotação de 23 out (Banco Central, PTAX).\n\nO jornal de Magic de todo dia está em fontedemana.com.br\n\n#vampiros #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
+ "comentario": "Combo na mesa casual: pode, pode só se avisar antes, ou não pode? E se a mesa fosse sua, você deixava esse laço de sangue resolver? O passo a passo está em fontedemana.com.br",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "cor": "B",
+   "chip": "Combo #1",
+   "kicker": "Combo de Halloween",
+   "titulo": "Dois vampiros zeram a mesa inteira",
+   "sub": "Sem atacar, com dois encantamentos de 5 manas",
+   "narracao": "Dois encantamentos de vampiro zeram a vida da mesa inteira. Sem atacar.",
+   "segundos": 5
+  },
+  {
+   "tipo": "carta",
+   "cor": "B",
+   "kicker": "Peça 1",
+   "carta": "pauta/2026-10-28/tiktok/carta-1.jpg",
+   "titulo": "Exquisite Blood",
+   "valor": "US$ 40,76",
+   "real": "(R$ 205,34)",
+   "sub": "Oponente perdeu vida? Você ganha igual",
+   "fonte": "Scryfall, out 2026",
+   "narracao": "Exquisite Blood: toda vida que um oponente perde, você ganha a mesma quantidade.",
+   "segundos": 5.4
+  },
+  {
+   "tipo": "carta",
+   "cor": "B",
+   "kicker": "Peça 2",
+   "carta": "pauta/2026-10-28/tiktok/carta-2.jpg",
+   "titulo": "Sanguine Bond",
+   "valor": "US$ 5,59",
+   "real": "(R$ 28,16)",
+   "sub": "Ganhou vida? Um oponente perde igual",
+   "fonte": "Scryfall, out 2026",
+   "narracao": "Sanguine Bond faz o caminho de volta: toda vida que você ganha, um oponente perde.",
+   "segundos": 6.2
+  },
+  {
+   "tipo": "combo",
+   "cor": "B",
+   "kicker": "A ordem dos gatilhos",
+   "titulo": "O laço de sangue",
+   "cartas": [
+    "pauta/2026-10-28/tiktok/carta-1.jpg",
+    "pauta/2026-10-28/tiktok/carta-2.jpg"
+   ],
+   "passos": [
+    {
+     "txt": "Você ganha 1 de vida (um lifelink já basta)"
+    },
+    {
+     "txt": "Sanguine Bond: o oponente que você escolher perde 1"
+    },
+    {
+     "txt": "Exquisite Blood: você ganha 1"
+    },
+    {
+     "txt": "Repete, trocando o alvo, até zerar todo mundo"
+    }
+   ],
+   "narracao": "Ganhou 1 de vida? Um oponente perde 1, você ganha 1, e o laço gira. Cada volta, você escolhe quem sangra.",
+   "segundos": 8.4
+  },
+  {
+   "tipo": "texto",
+   "cor": "U",
+   "kicker": "Como parar",
+   "titulo": "Tira um dos encantamentos no meio do laço",
+   "sub": "Remoção instantânea com o gatilho na pilha",
+   "rodape": "Juntas em mais de 150 mil decks (Commander Spellbook)",
+   "narracao": "Pra parar: remoção instantânea num dos encantamentos, com o gatilho ainda na pilha.",
+   "segundos": 5.4
+  },
+  {
+   "tipo": "texto",
+   "cor": "R",
+   "kicker": "E na sua mesa?",
+   "titulo": "Combo na mesa casual: pode ou é falta de educação?",
+   "sub": "Pode, pode se avisar antes, ou não pode",
+   "narracao": "Combo na mesa casual: pode, pode se avisar, ou é falta de educação?",
+   "segundos": 5.4
+  }
+ ]
+}
