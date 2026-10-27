@@ -11,7 +11,7 @@ Toda segunda às 8h58 (tarefa agendada "Fonte de Mana: revisão semanal") ou qua
 
 ## 2. Puxar os dados do Metricool
 
-Marca `fontedemana8`, brandId 7379615 (se não bater, `getBrandSettings` e use a marca com label `fontedemana8`). Sete chamadas de `getAnalyticsDataByMetrics`, todas com `from` = `DET00:00:00-03:00` e `to` = `ATET23:59:59-03:00`, com as métricas **exatamente nesta ordem** (o script lê as colunas pela posição). Grave cada resposta como veio, `{"rows": [...]}`, com Write, no arquivo indicado:
+Marca `fontedemana8`, brandId 7379615 (se não bater, `getBrandSettings` e use a marca com label `fontedemana8`). Oito chamadas de `getAnalyticsDataByMetrics`, todas com `from` = `DET00:00:00-03:00` e `to` = `ATET23:59:59-03:00`, com as métricas **exatamente nesta ordem** (o script lê as colunas pela posição). Grave cada resposta como veio, `{"rows": [...]}`, com Write, no arquivo indicado:
 
 | Arquivo em /tmp/fdm/revisao/ | metrics |
 | --- | --- |
@@ -22,6 +22,7 @@ Marca `fontedemana8`, brandId 7379615 (se não bater, `getBrandSettings` e use a
 | `instagram-evolucao.json` | `["IGEV01","IGEV05","IGEV06"]` |
 | `threads-posts.json` | `["THPO02","THPO07","THPO08","THPO09","THPO10","THPO11","THPO12","THPO13"]` |
 | `threads-evolucao.json` | `["THEV01","THEV06"]` |
+| `instagram-publico.json` | `["IGAG01","IGAG02","IGAG03"]` (gênero e idade dos seguidores; `from` = HOJE-7) |
 
 Copie as linhas sem mudar nada (nem `null`, nem aspas, nem a ordem). Nas tabelas de evolução, o Metricool acrescenta a data como última coluna; isso é esperado. Uma chamada falhou duas vezes? Siga sem ela: o script avisa o que ficou sem dado.
 
@@ -56,6 +57,7 @@ Leia o `relatorio.md` inteiro e proponha até três mudanças, cada uma mexendo 
 - **Anúncio**: só a peça indicada em "Para impulsionar", com as regras de `plano.json` > `anuncio`. Nenhuma passou? Recomende não impulsionar.
 - **Testes** da janela (`plano.json` > `testes`): diga quem ganhou e o que vira regra.
 - Gancho do TikTok: a % de 6 s não vem pelo Metricool. Peça ao Paulo o print do TikTok Studio (Análise de cada vídeo) dos dois vídeos com mais views.
+- **Público**: a seção Público do Instagram mostra a parte de mulheres entre os seguidores, contra os cerca de 30% de quem joga Magic. Se não subir em 4 revisões depois de 27/10, proponha uma ação a mais (collab com uma criadora de Commander ou uma peça por semana pensada para quem está começando), uma de cada vez.
 - **Plantões** (`tools/conteudo/PLANTAO.md`): a seção Plantões do relatório compara cada peça de plantão com a mediana do mesmo formato. Plantão abaixo da mediana duas semanas seguidas: proponha só plantões de ban e de lista de precon. Depois, olhe a agenda da edição mais recente (`data/edN.js`, campo `agenda`) e os eventos já marcados em `plano.json` > `plantao.eventos`: anúncio grande com data nas próximas 2 semanas e fonte primária (ban, lista de precon de Commander, painel com revelações, produto com preço) que ainda não tem plantão vira proposta, com dia, hora da primeira busca, `ate` e tipo. No máximo 2 plantões novos por semana. Essas propostas não contam no limite de três.
 
 ## 6. Escrever no documento privado

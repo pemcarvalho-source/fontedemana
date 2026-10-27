@@ -35,7 +35,8 @@ const COLS = {
   'instagram-reels': ['quando', 'views', 'alcance', 'curtidas', 'comentarios', 'salvos', 'compart', 'mediaAssistida', 'passou3s'],
   'instagram-evolucao': ['seguidores', 'views', 'alcance', 'data'],
   'threads-posts': ['quando', 'tipo', 'views', 'curtidas', 'respostas', 'reposts', 'citacoes', 'compart'],
-  'threads-evolucao': ['seguidores', 'views', 'data']
+  'threads-evolucao': ['seguidores', 'views', 'data'],
+  'instagram-publico': ['idade', 'genero', 'valor']
 };
 function ler(nome) {
   const j = json(path.join(DIR, nome + '.json'));
@@ -274,6 +275,16 @@ if (tabPilares.length) {
   M.push(`### Pilares (originais orgânicos de ${faixa([JP[2][0], JP[0][1]])})`, '', '| Pilar | Peças | TikTok: views (mediana) | Instagram: valor (mediana) |', '| --- | --- | --- | --- |');
   tabPilares.forEach(x => M.push(`| ${x.nome} | ${x.pecas} | ${fmt(x.tt)} | ${fmt(x.ig, 1)} |`));
   M.push('');
+}
+// público do Instagram (gênero e idade dos seguidores, IGAG01 a IGAG03): F, M e U (sem gênero informado)
+{
+  const pub = ler('instagram-publico').map(r => ({ idade: String(r.idade || ''), genero: String(r.genero || ''), n: num(r.valor) || 0 }));
+  const tot = pub.reduce((a, r) => a + r.n, 0), F = pub.filter(r => r.genero === 'F').reduce((a, r) => a + r.n, 0), Mh = pub.filter(r => r.genero === 'M').reduce((a, r) => a + r.n, 0);
+  if (tot) {
+    const idades = {}; pub.forEach(r => { idades[r.idade] = (idades[r.idade] || 0) + r.n; });
+    const top = Object.entries(idades).sort((a, b) => b[1] - a[1]).slice(0, 2).map(([k, v]) => `${k} anos ${fmt(v / tot * 100)}%`).join(', ');
+    M.push('### Público do Instagram', '', `Mulheres: ${fmt(F + Mh ? F / (F + Mh) * 100 : null, 1)}% dos seguidores com gênero informado (${fmt(F)} de ${fmt(F + Mh)}; ${fmt(tot - F - Mh)} sem gênero informado). Referência: cerca de 30% de quem joga Magic são mulheres, pela estimativa da Wizards. Idades: ${top}.`, '');
+  }
 }
 M.push('### Threads', '', threads.length ? `${threads.length} posts de ${faixa(JP[0])}, mediana de ${fmt(mediana(threads.map(p => p.views)))} views; ${fmt(threads.filter(p => p.origem === 'pergunta').reduce((s, p) => s + (p.respostas || 0), 0))} respostas nas perguntas da manhã. Mais vistos: ${thTop.map(p => `${ddmm(p.data)} ${p.hora} (${p.origem}, ${fmt(p.views)} views)`).join('; ')}.` : 'Sem posts do Threads na janela.', '');
 // com e sem o Paulo no vídeo (plano.json > rosto): originais orgânicos da janela, TikTok e Reels
