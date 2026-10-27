@@ -1,0 +1,74 @@
+{
+  "n": 22,
+  "data": "27 out",
+  "carrossel": {
+    "capa": {"cor": "M", "titulo": "We Are the Borg: lista completa do precon", "sub": "O deck da <b>Borg Queen</b> rouba criaturas do grimório do oponente e traz <b>Toxic Deluge</b>, <b>Skullclamp</b> e <b>Morphic Pool</b>. Custa US$ 74,99 (R$ 377,78).", "credito": "Arte: Locutus of Borg, Anton Solovianchyk"},
+    "cartoes": [
+      {"cor": "A", "titulo": "Reimpressões que pesam",
+       "linhas": [
+         {"nome": "Morphic Pool", "valor": "$27,23", "sub": "R$ 137,18, a mais barata", "porque": "terreno de duas cores, azul e preto"},
+         {"nome": "The Immortal Sun", "valor": "$11,68", "sub": "R$ 58,84, a mais barata"},
+         {"nome": "Toxic Deluge", "valor": "$5,08", "sub": "R$ 25,59, a mais barata"}
+       ],
+       "nota": {"rotulo": "No seu bolso", "texto": "o precon custa US$ 74,99 (R$ 377,78) e chega às lojas em 13 de novembro."},
+       "fonte": "Fontes: Wizards e Scryfall. Reais: PTAX de 23 out"},
+      {"cor": "G", "titulo": "Star Trek: Riker e Lwaxana",
+       "itens": [
+         {"cor": "G", "html": "<b>Will Riker, First in the Field</b>: 4 manas, põe dois terrenos no campo a cada combate seu."},
+         {"cor": "R", "html": "<b>Lwaxana Troi, Charming Guest</b>: 2 manas, faz os gatilhos de outra criatura sua dispararem uma vez a mais."},
+         {"cor": "R", "html": "<b>Khan, Despot by Design</b>: 5 manas, atropelar e 1 de dano em cada oponente e criatura deles ao entrar."}
+       ],
+       "fonte": "Fontes: Scryfall e MTG Salvation"}
+    ],
+    "topdeck": {"titulo": "Skullclamp",
+      "habilidades": [
+        {"rotulo": "Ficha vira compra", "texto": "Equipe numa ficha 1/1: ela morre na hora e você compra duas cartas."},
+        {"rotulo": "Reaproveita", "texto": "O equipamento fica no campo e dá para equipar de novo no mesmo turno."},
+        {"rotulo": "Seguro contra remoção", "texto": "Numa criatura maior, se ela for destruída, você compra duas."}
+      ],
+      "extra": "Em <b>1,18 milhão</b> de decks no EDHREC. US$ 4,87 (R$ 24,53) no Scryfall, versão de Final Fantasy Commander. Reais: PTAX de 23 out",
+      "credito": "Ilustração de Luca Zontini"},
+    "ban": {"numero": "34", "unidade": "DIAS", "texto": "Para a próxima janela de banimentos, em 30 de novembro. A de 12 de outubro não mexeu no Commander."},
+    "turnos": [
+      {"cor": "G", "data": "27 a 29 out", "texto": "Listas dos outros precons de Star Trek"},
+      {"cor": "G", "data": "30 out", "texto": "Galeria completa de Star Trek"},
+      {"cor": "A", "data": "2 nov", "texto": "Countdown Kit da Marvel"},
+      {"cor": "G", "data": "6 a 12 nov", "texto": "Pré de Star Trek nas lojas"},
+      {"cor": "G", "data": "13 nov", "texto": "Star Trek chega às lojas"}
+    ],
+    "sussurro": null
+  },
+  "video": {
+    "cena1": {"titulo": "We Are the Borg: lista completa do precon", "pilulas": ["Borg Queen", "Toxic Deluge", "Skullclamp"]},
+    "cena2": {"rotulo": "No bolso", "cor": "A", "titulo": "Quanto vale o que vem no deck",
+      "linhas": [
+        {"nome": "Precon dos Borg", "numero": 74, "prefixo": "US$ ", "sufixo": ",99", "sub": "R$ 377,78"},
+        {"nome": "Morphic Pool avulsa", "numero": 27, "prefixo": "US$ ", "sufixo": ",23", "sub": "R$ 137,18, a mais barata"}
+      ],
+      "fonte": "Fontes: Wizards e Scryfall. Reais: PTAX de 23 out"},
+    "cena3": {"linhas": ["<b>Skullclamp</b>: ficha 1/1 morre e vira duas cartas.", "Reimpressa no precon dos Borg.", "Em 1,18 milhão de decks no EDHREC."]},
+    "cena4": {"texto": "Faltam 34 dias para a próxima janela de banimentos, em 30 de novembro.", "sussurro": null}
+  },
+  "textos": {
+    "legendaCarrossel": "Commander e Star Trek: saiu a lista completa de We Are the Borg, o precon da Borg Queen em branco, azul e preto.\n\nA Rainha dá +2/+2 às suas criaturas artefato e, quando entra ou ataca, rouba a primeira criatura do grimório do oponente. Locutus of Borg cria fichas Borg a cada dano de combate. Nas reimpressões, Morphic Pool (a partir de US$ 27,23, R$ 137,18), The Immortal Sun (US$ 11,68, R$ 58,84), Toxic Deluge (US$ 5,08, R$ 25,59) e Skullclamp (US$ 4,87, R$ 24,53). O precon custa US$ 74,99 (R$ 377,78) e chega às lojas em 13 de novembro.\n\nNas prévias, Will Riker põe dois terrenos por combate e Lwaxana Troi dobra gatilhos.\n\nNo Topdeck do Dia, Skullclamp, o equipamento de 1 mana que transforma ficha morta em duas cartas.\n\nVocê compraria o precon dos Borg pelo deck ou pelas reimpressões?\n\nEdição completa em fontedemana.com.br\n\nArtes: Locutus of Borg, Anton Solovianchyk. Skullclamp, Luca Zontini.\n\nValores em reais pela cotação de 23 out (Banco Central, PTAX).\n\n#startrek #commander #mtg",
+    "legendaVideo": "Commander e Star Trek: o precon We Are the Borg tem lista completa, com Toxic Deluge, Skullclamp e Morphic Pool. Custa US$ 74,99 (R$ 377,78).\n\nVocê jogaria com a Borg Queen ou contra ela?\n\nEdição completa em fontedemana.com.br\n\nValores em reais pela cotação de 23 out (Banco Central, PTAX).\n\n#startrek #commander #mtg",
+    "threadsPost": "Saiu a lista completa de We Are the Borg, o precon de Star Trek da Borg Queen. Custa US$ 74,99 (R$ 377,78) e traz Morphic Pool, que avulsa sai a partir de US$ 27,23 (R$ 137,18), além de Toxic Deluge, Skullclamp e The Immortal Sun. A Rainha rouba a primeira criatura do grimório do oponente. Você compraria pelo deck ou pelas reimpressões?\n\nValores em reais pela cotação de 23 out (Banco Central, PTAX).\n\nfontedemana.com.br",
+    "threadsFio": [
+      "Saiu a lista completa de We Are the Borg, o precon de Star Trek da Borg Queen, em branco, azul e preto. Chega às lojas em 13 de novembro.",
+      "A Borg Queen custa 7 manas, dá +2/+2 às suas criaturas artefato e, quando entra ou ataca, o oponente revela cartas até achar uma criatura. Essa criatura entra no seu lado como Borg.",
+      "Reimpressões de peso: Morphic Pool a partir de US$ 27,23 (R$ 137,18), The Immortal Sun a partir de US$ 11,68 (R$ 58,84), Toxic Deluge a partir de US$ 5,08 (R$ 25,59) e Skullclamp a partir de US$ 4,87 (R$ 24,53). O deck custa US$ 74,99 (R$ 377,78).",
+      "Nas prévias, Will Riker, First in the Field põe dois terrenos no campo a cada combate seu, e Lwaxana Troi, Charming Guest faz os gatilhos de outra criatura sua dispararem de novo.",
+      "No Topdeck do Dia, Skullclamp: equipe numa ficha 1/1, ela morre e você compra duas cartas. Está em 1,18 milhão de decks no EDHREC.\n\nValores em reais pela cotação de 23 out (Banco Central, PTAX).\n\nEdição completa em fontedemana.com.br"
+    ],
+    "threadsAvulsos": [
+      {"titulo": "Pergunta do dia", "texto": "Saiu a lista do precon dos Borg. Você compraria pelo deck da Borg Queen, pelas reimpressões ou deixa passar?", "obs": "Enquete: pelo deck, pelas reimpressões, deixo passar"},
+      {"titulo": "Skullclamp na mesa", "texto": "Skullclamp é de 2004 e segue em 1,18 milhão de decks de Commander no EDHREC. Qual comandante seu mais aproveita uma ficha que vira duas cartas?"}
+    ]
+  },
+  "pauta": {
+    "forca": "forte",
+    "porque": "Revelação da lista completa de um precon de Commander, publicada depois da última edição, com preço e reimpressões.",
+    "storyPergunta": "Você compraria o precon dos Borg?",
+    "enquete": {"pergunta": "Por que você levaria o precon dos Borg?", "opcoes": ["Pelo deck", "Pelas reimpressões", "Não levaria"]}
+  }
+}
