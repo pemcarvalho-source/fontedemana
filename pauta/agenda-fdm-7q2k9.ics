@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-10-24-gravacao@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261023T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -52,7 +52,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-24-tiktok@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261024T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Valgavoth no DC500\, o demônio no teto de R$ 500
@@ -81,7 +81,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-24-threads-manha@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261024T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Qual?
@@ -101,7 +101,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-24-stories-manha@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261024T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -122,7 +122,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-24-feed@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261024T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 19
@@ -165,7 +165,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-24-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261024T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -184,7 +184,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-24-threads-tarde@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261024T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 19
@@ -220,7 +220,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-24-stories-tarde@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261024T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -240,7 +240,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-24-reels@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261024T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -268,7 +268,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-25-gravacao@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261024T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -312,7 +312,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-25-tiktok@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261025T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Dark Matter Manipulator subiu 529%
@@ -342,7 +342,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-25-threads-manha@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261025T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Dark Matter Manipulator sobe 529% numa seman
@@ -368,7 +368,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-25-stories-manha@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261025T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -388,7 +388,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-25-feed@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261025T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Bolsa de Mana: Dark Matter Manipulator sobe 5
@@ -431,7 +431,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-25-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261025T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -450,7 +450,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-25-threads-tarde@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261025T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 20
@@ -486,7 +486,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-25-stories-tarde@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261025T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -506,7 +506,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-25-reels@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261025T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -533,7 +533,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-gravacao@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261025T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -572,7 +572,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-tiktok@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261026T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Lore em 1 minuto #1\, Edgar Markov
@@ -604,7 +604,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-threads-manha@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261026T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Você compra o drop inteiro pela ar
@@ -626,7 +626,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-stories-manha@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261026T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -646,7 +646,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-feed@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261026T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 21
@@ -689,7 +689,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261026T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -708,7 +708,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-threads-tarde@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261026T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -733,7 +733,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-stories-tarde@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261026T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -753,7 +753,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-reels@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261026T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Lore em 1 minuto #1: Edgar Markov\, o
@@ -789,7 +789,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-comentarios@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261027T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -811,7 +811,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-gravacao@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261026T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -859,7 +859,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-tiktok@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261027T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Dicionário do Commander #3\, mana dork
@@ -892,7 +892,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-threads-manha@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261027T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Você compraria pelo deck da Borg Q
@@ -914,7 +914,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-stories-manha@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261027T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -934,7 +934,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-feed@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261027T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 22
@@ -978,7 +978,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261027T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -997,7 +997,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-threads-tarde@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261027T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -1023,7 +1023,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-stories-tarde@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261027T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1043,7 +1043,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-reels@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261027T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Dicionário do Commander #3: o que é
@@ -1081,7 +1081,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-comentarios@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261028T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1103,7 +1103,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-gravacao@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261027T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -1146,33 +1146,31 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-tiktok@fontedemana.com.br
-DTSTAMP:20261027T212616Z
+DTSTAMP:20261028T004752Z
 DTSTART:20261028T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Combo da semana #1\, Exquisite Blood e Sanguine Bond
 DESCRIPTION:Vídeo do combo de vampiro para o Halloween: as duas cartas\, a
   ordem dos gatilhos e como parar. A mesma legenda e o mesmo vídeo vão pa
- ra o Reels das 19:00.\n\nArquivos:\n- Vídeo do TikTok (mudo): https://fon
- tedemana.com.br/pauta/2026-10-28/tiktok/tiktok-mudo.mp4\n\nLegenda:\nCombo
-  de Commander de Halloween: dois encantamentos de vampiro\, Exquisite Bloo
- d e Sanguine Bond\, zeram a vida da mesa inteira sem atacar. Combo na mesa
-  casual: pode ou é falta de educação? Segundo o Commander Spellbook\, a
-  dupla está junta em mais de 150 mil decks no EDHREC. Exquisite Blood US$
-  40\,76 (R$ 205\,34) e Sanguine Bond US$ 5\,59 (R$ 28\,16) no Scryfall.\n\
- nValores em reais pela cotação de 23 out (Banco Central\, PTAX).\n\nO jo
- rnal de Magic de todo dia está em fontedemana.com.br\n\n#vampiros #comman
- der #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fa
- n Content Policy. Not approved/endorsed by Wizards. Portions of the materi
- als used are property of Wizards of the Coast. ©Wizards of the Coast LLC.
- \n\nComentário fixado:\nCombo na mesa casual: pode\, pode só se avisar a
- ntes\, ou não pode? E se a mesa fosse sua\, você deixava esse laço de s
- angue resolver? O passo a passo está em fontedemana.com.br\n\nPasso a pas
- so:\n1. Poste com um som em alta da biblioteca do TikTok\, com o volume en
- tre 15% e 20%\, por baixo da voz.\n2. Voz própria não precisa de rótulo
-  de IA.\n3. Fixe o comentário logo depois de postar.\n4. Se os áudios n
- ão chegarem a tempo\, poste o vídeo mudo com uma música em alta da bibl
- ioteca.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-28/#ti
- ktok
+ ra o Reels das 19:00.\n\nArquivos:\n- Vídeo do TikTok narrado: https://fo
+ ntedemana.com.br/pauta/2026-10-28/tiktok/tiktok-narrado.mp4\n\nLegenda:\nC
+ ombo de Commander de Halloween: dois encantamentos de vampiro\, Exquisite 
+ Blood e Sanguine Bond\, zeram a vida da mesa inteira sem atacar. Combo na 
+ mesa casual: pode ou é falta de educação? Segundo o Commander Spellbook
+ \, a dupla está junta em mais de 150 mil decks no EDHREC. Exquisite Blood
+  US$ 40\,76 (R$ 205\,34) e Sanguine Bond US$ 5\,59 (R$ 28\,16) no Scryfall
+ .\n\nValores em reais pela cotação de 23 out (Banco Central\, PTAX).\n\n
+ O jornal de Magic de todo dia está em fontedemana.com.br\n\n#vampiros #co
+ mmander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under th
+ e Fan Content Policy. Not approved/endorsed by Wizards. Portions of the ma
+ terials used are property of Wizards of the Coast. ©Wizards of the Coast 
+ LLC.\n\nComentário fixado:\nCombo na mesa casual: pode\, pode só se avis
+ ar antes\, ou não pode? E se a mesa fosse sua\, você deixava esse laço 
+ de sangue resolver? O passo a passo está em fontedemana.com.br\n\nPasso a
+  passo:\n1. Poste com um som em alta da biblioteca do TikTok\, com o volum
+ e entre 15% e 20%\, por baixo da voz.\n2. Voz própria não precisa de ró
+ tulo de IA.\n3. Fixe o comentário logo depois de postar.\n\nPauta complet
+ a: https://fontedemana.com.br/pauta/2026-10-28/#tiktok
 URL:https://fontedemana.com.br/pauta/2026-10-28/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
