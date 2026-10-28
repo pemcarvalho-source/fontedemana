@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-10-25-gravacao@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261024T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Gravação: Gravar a narração do TikTok de amanhã
@@ -53,7 +53,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-25-tiktok@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261025T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Dark Matter Manipulator subiu 529%
@@ -83,7 +83,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-25-threads-manha@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261025T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Dark Matter Manipulator sobe 529% numa seman
@@ -109,7 +109,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-25-stories-manha@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261025T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -129,7 +129,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-25-feed@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261025T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Bolsa de Mana: Dark Matter Manipulator sobe 5
@@ -172,7 +172,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-25-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261025T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -191,7 +191,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-25-threads-tarde@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261025T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Fio da edição 20
@@ -227,7 +227,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-25-stories-tarde@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261025T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -247,7 +247,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-25-reels@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261025T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo do jornal com música
@@ -274,7 +274,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-gravacao@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261025T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -313,7 +313,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-tiktok@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261026T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Lore em 1 minuto #1\, Edgar Markov
@@ -345,7 +345,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-threads-manha@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261026T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Você compra o drop inteiro pela ar
@@ -367,7 +367,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-stories-manha@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261026T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -387,7 +387,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-feed@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261026T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 21
@@ -430,7 +430,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261026T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -449,7 +449,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-threads-tarde@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261026T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -474,7 +474,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-stories-tarde@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261026T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -494,7 +494,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-reels@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261026T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Lore em 1 minuto #1: Edgar Markov\, o
@@ -530,7 +530,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-comentarios@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261027T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -552,7 +552,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-gravacao@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261026T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -600,7 +600,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-tiktok@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261027T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Dicionário do Commander #3\, mana dork
@@ -633,7 +633,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-threads-manha@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261027T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Você compraria pelo deck da Borg Q
@@ -655,7 +655,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-stories-manha@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261027T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -675,7 +675,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-feed@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261027T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 22
@@ -719,7 +719,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261027T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -738,7 +738,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-threads-tarde@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261027T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -764,7 +764,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-stories-tarde@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261027T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -784,7 +784,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-reels@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261027T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Dicionário do Commander #3: o que é
@@ -822,7 +822,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-comentarios@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261028T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -844,7 +844,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-gravacao@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261027T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -888,7 +888,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-tiktok@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261028T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Combo da semana #1\, Exquisite Blood e Sanguine Bond
@@ -923,7 +923,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-threads-manha@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261028T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Qual você pegaria primeiro: Lower 
@@ -946,7 +946,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-stories-manha@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261028T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -966,7 +966,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-feed@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261028T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 23
@@ -1008,7 +1008,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261028T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -1027,7 +1027,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-threads-tarde@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261028T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -1050,7 +1050,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-stories-tarde@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261028T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1070,7 +1070,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-reels@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261028T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Combo da semana #1: Exquisite Blood e
@@ -1110,7 +1110,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-comentarios@fontedemana.com.br
-DTSTAMP:20261028T102132Z
+DTSTAMP:20261028T212515Z
 DTSTART:20261029T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1127,6 +1127,80 @@ URL:https://fontedemana.com.br/pauta/2026-10-28/#comentarios
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Comentários: Responder os comentários de hoje e de ontem
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-29-gravacao@fontedemana.com.br
+DTSTAMP:20261028T212515Z
+DTSTART:20261028T221500Z
+DURATION:PT15M
+SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
+DESCRIPTION:Top 5 #3: os zumbis que mais aparecem nos decks de Zumbis do Co
+ mmander. Seis falas curtas\, uns 30 s no total.\n\nArquivos:\n- Vídeo mud
+ o (para ver o ritmo): https://fontedemana.com.br/pauta/2026-10-29/tiktok/t
+ iktok-mudo.mp4\n\nRoteiro de gravação:\nCena 1\, uns 5 s\nNa tela: Os 5 
+ zumbis mais jogados saem quase de graça\nFala: Top 5 zumbis do Commander:
+  juntos\, dois dólares e pouco\, uns treze reais.\n\nCena 2\, uns 5 s\nNa
+  tela: #5 Lord of the Accursed\, 8\,36 mil decks no EDHREC\, US$ 0\,17 (R$
+  0\,91)\nFala: Quinto\, Lord of the Accursed. Deixa a horda inteira mais f
+ orte.\n\nCena 3\, uns 4 s\nNa tela: #4 Diregraf Colossus\, 8\,53 mil decks
+  no EDHREC\, US$ 0\,59 (R$ 3\,15)\nFala: Quarto\, Diregraf Colossus. Cada 
+ zumbi conjurado traz outro de brinde.\n\nCena 4\, uns 4 s\nNa tela: #3 Und
+ ead Augur\, 8\,55 mil decks no EDHREC\, US$ 0\,23 (R$ 1\,23)\nFala: Tercei
+ ro\, Undead Augur. Zumbi seu morreu? Você compra uma carta.\n\nCena 5\, u
+ ns 4 s\nNa tela: #2 Death Baron\, 9\,22 mil decks no EDHREC\, US$ 0\,87 (R
+ $ 4\,64)\nFala: Segundo\, Death Baron. Seus zumbis crescem e matam no toqu
+ e.\n\nCena 6\, uns 6 s\nNa tela: #1 Gravecrawler\, 9\,57 mil decks no EDHR
+ EC\, US$ 0\,56 (R$ 2\,99)\nFala: O número um custa um mana: Gravecrawler.
+  Volta do cemitério se você tem um zumbi.\n\n\nPasso a passo:\n1. Grave 
+ um áudio por cena no Gravador do iPhone\, num lugar silencioso\, com o ce
+ lular a um palmo da boca.\n2. Fale no ritmo de conversa\, sem pressa\, com
+  meio segundo de silêncio no começo e no fim.\n3. Nomeie os áudios cena
+ _1\, cena_2\, até cena_6.\n4. Mande os áudios ao Claude no projeto MGT s
+ trategy (pode ser respondendo à mensagem desta tarefa) dizendo "áudios d
+ o TikTok de 2026-10-29".\n\nValores em reais pela cotação de 27 out (Ban
+ co Central\, PTAX).\n\nPauta completa: https://fontedemana.com.br/pauta/20
+ 26-10-29/#gravacao
+URL:https://fontedemana.com.br/pauta/2026-10-29/#gravacao
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Gravação: Gravar a narração do TikTok de amanhã
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-29-tiktok@fontedemana.com.br
+DTSTAMP:20261028T212515Z
+DTSTART:20261029T143000Z
+DURATION:PT15M
+SUMMARY:11:30 TikTok: Top 5 #3: os zumbis do Commander
+DESCRIPTION:Vídeo do Top 5 de zumbis\, o mesmo que vai para o Reels das 19
+ :00.\n\nArquivos:\n- Vídeo mudo: https://fontedemana.com.br/pauta/2026-10
+ -29/tiktok/tiktok-mudo.mp4\n\nLegenda:\nCommander de zumbis: qual carta de
+  Magic é a sua número 1 no deck de Halloween?\n\nOs 5 zumbis que mais ap
+ arecem nos decks de Zumbis do EDHREC:\n5. Lord of the Accursed\, 8\,36 mil
+  decks\n4. Diregraf Colossus\, 8\,53 mil\n3. Undead Augur\, 8\,55 mil\n2. 
+ Death Baron\, 9\,22 mil\n1. Gravecrawler\, 9\,57 mil\n\nAs cinco juntas sa
+ em por US$ 2\,42 (R$ 12\,91) na impressão de Foundations Commander (Scryf
+ all).\nValores em reais pela cotação de 27 out (Banco Central\, PTAX).\n
+ \nFaltou alguma? Lista completa e fontes em fontedemana.com.br\n\n#zumbis 
+ #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under
+  the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the
+  materials used are property of Wizards of the Coast. ©Wizards of the Coa
+ st LLC.\n\nComentário fixado:\nQual é a sua número 1 no deck de zumbis:
+  Gravecrawler\, Death Baron\, Undead Augur\, Diregraf Colossus ou Lord of 
+ the Accursed? Ou faltou alguma? Fontes em fontedemana.com.br\n\nPasso a pa
+ sso:\n1. Poste com um som em alta da biblioteca do TikTok\, com volume ent
+ re 15% e 20%.\n2. Voz própria não precisa de rótulo de conteúdo de IA.
+ \n3. Fixe o comentário logo depois de postar.\n4. Se os áudios não cheg
+ aram\, poste o vídeo mudo com música em alta.\n\nValores em reais pela c
+ otação de 27 out (Banco Central\, PTAX).\n\nPauta completa: https://font
+ edemana.com.br/pauta/2026-10-29/#tiktok
+URL:https://fontedemana.com.br/pauta/2026-10-29/#tiktok
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TikTok: Top 5 #3: os zumbis do Commander
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT

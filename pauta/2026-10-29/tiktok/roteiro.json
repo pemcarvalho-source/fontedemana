@@ -1,0 +1,89 @@
+{
+ "data": "2026-10-29",
+ "pilar": "top5",
+ "tema": "Top 5 #3: os zumbis que mais aparecem nos decks de Zumbis do Commander",
+ "item": "Zumbis",
+ "arte": "pauta/2026-10-29/tiktok/arte.jpg",
+ "carta": "pauta/2026-10-29/tiktok/carta.jpg",
+ "credito": "Arte: Gravecrawler, Steven Belledin",
+ "fx": "Reais pela cotação de 27 out (Banco Central, PTAX)",
+ "legenda": "Commander de zumbis: qual carta de Magic é a sua número 1 no deck de Halloween?\n\nOs 5 zumbis que mais aparecem nos decks de Zumbis do EDHREC:\n5. Lord of the Accursed, 8,36 mil decks\n4. Diregraf Colossus, 8,53 mil\n3. Undead Augur, 8,55 mil\n2. Death Baron, 9,22 mil\n1. Gravecrawler, 9,57 mil\n\nAs cinco juntas saem por US$ 2,42 (R$ 12,91) na impressão de Foundations Commander (Scryfall).\nValores em reais pela cotação de 27 out (Banco Central, PTAX).\n\nFaltou alguma? Lista completa e fontes em fontedemana.com.br\n\n#zumbis #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
+ "comentario": "Qual é a sua número 1 no deck de zumbis: Gravecrawler, Death Baron, Undead Augur, Diregraf Colossus ou Lord of the Accursed? Ou faltou alguma? Fontes em fontedemana.com.br",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "cor": "A",
+   "chip": "Top 5 #3",
+   "kicker": "Halloween no Commander",
+   "titulo": "Os 5 zumbis mais jogados saem quase de graça",
+   "sub": "Somando as cinco: US$ 2,42 (R$ 12,91)",
+   "narracao": "Top 5 zumbis do Commander: juntos, dois dólares e pouco, uns treze reais.",
+   "segundos": 5.4
+  },
+  {
+   "tipo": "carta",
+   "cor": "A",
+   "chip": "#5",
+   "kicker": "8,36 mil decks no EDHREC",
+   "carta": "pauta/2026-10-29/tiktok/carta-5.jpg",
+   "valor": "US$ 0,17",
+   "real": "(R$ 0,91)",
+   "sub": "Seus outros zumbis ganham +1/+1",
+   "fonte": "EDHREC e Scryfall, out 2026",
+   "narracao": "Quinto, Lord of the Accursed. Deixa a horda inteira mais forte.",
+   "segundos": 4.7
+  },
+  {
+   "tipo": "carta",
+   "cor": "A",
+   "chip": "#4",
+   "kicker": "8,53 mil decks no EDHREC",
+   "carta": "pauta/2026-10-29/tiktok/carta-4.jpg",
+   "valor": "US$ 0,59",
+   "real": "(R$ 3,15)",
+   "sub": "Cada zumbi conjurado traz um zumbi 2/2",
+   "fonte": "EDHREC e Scryfall, out 2026",
+   "narracao": "Quarto, Diregraf Colossus. Cada zumbi conjurado traz outro de brinde.",
+   "segundos": 4.3
+  },
+  {
+   "tipo": "carta",
+   "cor": "A",
+   "chip": "#3",
+   "kicker": "8,55 mil decks no EDHREC",
+   "carta": "pauta/2026-10-29/tiktok/carta-3.jpg",
+   "valor": "US$ 0,23",
+   "real": "(R$ 1,23)",
+   "sub": "Zumbi seu morreu: compra 1 carta",
+   "fonte": "EDHREC e Scryfall, out 2026",
+   "narracao": "Terceiro, Undead Augur. Zumbi seu morreu? Você compra uma carta.",
+   "segundos": 4.3
+  },
+  {
+   "tipo": "carta",
+   "cor": "A",
+   "chip": "#2",
+   "kicker": "9,22 mil decks no EDHREC",
+   "carta": "pauta/2026-10-29/tiktok/carta-2.jpg",
+   "valor": "US$ 0,87",
+   "real": "(R$ 4,64)",
+   "sub": "Zumbis com +1/+1 e toque mortífero",
+   "fonte": "EDHREC e Scryfall, out 2026",
+   "narracao": "Segundo, Death Baron. Seus zumbis crescem e matam no toque.",
+   "segundos": 4.3
+  },
+  {
+   "tipo": "carta",
+   "cor": "A",
+   "chip": "#1",
+   "kicker": "9,57 mil decks no EDHREC",
+   "carta": "pauta/2026-10-29/tiktok/carta-1.jpg",
+   "valor": "US$ 0,56",
+   "real": "(R$ 2,99)",
+   "sub": "Volta do cemitério se você tem um zumbi",
+   "fonte": "EDHREC e Scryfall, out 2026",
+   "narracao": "O número um custa um mana: Gravecrawler. Volta do cemitério se você tem um zumbi.",
+   "segundos": 6.2
+  }
+ ]
+}

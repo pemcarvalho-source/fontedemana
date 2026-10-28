@@ -1,0 +1,87 @@
+{
+  "data": "2026-10-29",
+  "fx": "Valores em reais pela cotação de 27 out (Banco Central, PTAX).",
+  "avisos": [
+    {
+      "id": "gravacao",
+      "dia": "2026-10-28",
+      "hora": "19:15",
+      "rede": "Gravação",
+      "titulo": "Gravar a narração do TikTok de amanhã",
+      "oQue": "Top 5 #3: os zumbis que mais aparecem nos decks de Zumbis do Commander. Seis falas curtas, uns 30 s no total.",
+      "arquivos": [
+        {
+          "nome": "Vídeo mudo (para ver o ritmo)",
+          "url": "https://fontedemana.com.br/pauta/2026-10-29/tiktok/tiktok-mudo.mp4"
+        }
+      ],
+      "roteiro": [
+        {
+          "cena": "Cena 1, uns 5 s",
+          "tela": "Os 5 zumbis mais jogados saem quase de graça",
+          "fala": "Top 5 zumbis do Commander: juntos, dois dólares e pouco, uns treze reais."
+        },
+        {
+          "cena": "Cena 2, uns 5 s",
+          "tela": "#5 Lord of the Accursed, 8,36 mil decks no EDHREC, US$ 0,17 (R$ 0,91)",
+          "fala": "Quinto, Lord of the Accursed. Deixa a horda inteira mais forte."
+        },
+        {
+          "cena": "Cena 3, uns 4 s",
+          "tela": "#4 Diregraf Colossus, 8,53 mil decks no EDHREC, US$ 0,59 (R$ 3,15)",
+          "fala": "Quarto, Diregraf Colossus. Cada zumbi conjurado traz outro de brinde."
+        },
+        {
+          "cena": "Cena 4, uns 4 s",
+          "tela": "#3 Undead Augur, 8,55 mil decks no EDHREC, US$ 0,23 (R$ 1,23)",
+          "fala": "Terceiro, Undead Augur. Zumbi seu morreu? Você compra uma carta."
+        },
+        {
+          "cena": "Cena 5, uns 4 s",
+          "tela": "#2 Death Baron, 9,22 mil decks no EDHREC, US$ 0,87 (R$ 4,64)",
+          "fala": "Segundo, Death Baron. Seus zumbis crescem e matam no toque."
+        },
+        {
+          "cena": "Cena 6, uns 6 s",
+          "tela": "#1 Gravecrawler, 9,57 mil decks no EDHREC, US$ 0,56 (R$ 2,99)",
+          "fala": "O número um custa um mana: Gravecrawler. Volta do cemitério se você tem um zumbi."
+        }
+      ],
+      "passos": [
+        "Grave um áudio por cena no Gravador do iPhone, num lugar silencioso, com o celular a um palmo da boca.",
+        "Fale no ritmo de conversa, sem pressa, com meio segundo de silêncio no começo e no fim.",
+        "Nomeie os áudios cena_1, cena_2, até cena_6.",
+        "Mande os áudios ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"áudios do TikTok de 2026-10-29\"."
+      ]
+    },
+    {
+      "id": "tiktok",
+      "hora": "11:30",
+      "rede": "TikTok",
+      "titulo": "Top 5 #3: os zumbis do Commander",
+      "oQue": "Vídeo do Top 5 de zumbis, o mesmo que vai para o Reels das 19:00.",
+      "arquivos": [
+        {
+          "nome": "Vídeo mudo",
+          "url": "https://fontedemana.com.br/pauta/2026-10-29/tiktok/tiktok-mudo.mp4"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Commander de zumbis: qual carta de Magic é a sua número 1 no deck de Halloween?\n\nOs 5 zumbis que mais aparecem nos decks de Zumbis do EDHREC:\n5. Lord of the Accursed, 8,36 mil decks\n4. Diregraf Colossus, 8,53 mil\n3. Undead Augur, 8,55 mil\n2. Death Baron, 9,22 mil\n1. Gravecrawler, 9,57 mil\n\nAs cinco juntas saem por US$ 2,42 (R$ 12,91) na impressão de Foundations Commander (Scryfall).\nValores em reais pela cotação de 27 out (Banco Central, PTAX).\n\nFaltou alguma? Lista completa e fontes em fontedemana.com.br\n\n#zumbis #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        },
+        {
+          "rotulo": "Comentário fixado",
+          "texto": "Qual é a sua número 1 no deck de zumbis: Gravecrawler, Death Baron, Undead Augur, Diregraf Colossus ou Lord of the Accursed? Ou faltou alguma? Fontes em fontedemana.com.br"
+        }
+      ],
+      "passos": [
+        "Poste com um som em alta da biblioteca do TikTok, com volume entre 15% e 20%.",
+        "Voz própria não precisa de rótulo de conteúdo de IA.",
+        "Fixe o comentário logo depois de postar.",
+        "Se os áudios não chegaram, poste o vídeo mudo com música em alta."
+      ]
+    }
+  ]
+}
