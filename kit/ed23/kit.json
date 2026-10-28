@@ -1,0 +1,191 @@
+{
+  "n": 23,
+  "data": "28 out",
+  "carrossel": {
+    "capa": {
+      "cor": "A",
+      "titulo": "Star Trek ganha cinco Secret Lairs",
+      "sub": "Venda em <b>9 de novembro</b>, a US$ 29,99 cada. O de <b>Lower Decks</b> traz Thrasios e Kambal com arte nova.",
+      "credito": "Arte: Conjurer's Closet, Jason Felix"
+    },
+    "cartoes": [
+      {
+        "cor": "A",
+        "titulo": "O que pesa nos Secret Lairs",
+        "linhas": [
+          {
+            "nome": "Thrasios, Triton Hero",
+            "valor": "$18,14",
+            "sub": "a mais barata hoje",
+            "porque": "vira a Tendi em Lower Decks"
+          },
+          {
+            "nome": "War's Toll",
+            "valor": "$11,15",
+            "sub": "a mais barata hoje"
+          },
+          {
+            "nome": "Eerie Interlude",
+            "valor": "$6,96",
+            "sub": "a mais barata hoje"
+          }
+        ],
+        "nota": {
+          "rotulo": "No seu bolso",
+          "texto": "cada drop custa US$ 29,99 sem foil e US$ 39,99 em foil."
+        },
+        "fonte": "Fontes: Wizards e Scryfall"
+      },
+      {
+        "cor": "U",
+        "titulo": "Federation Fleet: lista completa",
+        "itens": [
+          {
+            "cor": "U",
+            "html": "<b>Jean-Luc Picard</b> compra uma carta a cada permanente histórica de 3 ou mais manas que entra."
+          },
+          {
+            "cor": "G",
+            "html": "<b>Data, Exploring Humanity</b> lança de graça uma carta de até 4 manas na segunda compra do turno."
+          },
+          {
+            "cor": "A",
+            "html": "Reimpressões: <b>Alhammarret's Archive</b>, a partir de US$ 10,22, Loran of the Third Path e Cryptic Command."
+          }
+        ],
+        "fonte": "Fontes: Wizards e Scryfall"
+      }
+    ],
+    "topdeck": {
+      "titulo": "Thrasios, Triton Hero",
+      "habilidades": [
+        {
+          "rotulo": "Ralo de mana",
+          "texto": "Sobrou 4 de mana no turno do oponente? Ative e ganhe uma carta ou um terreno."
+        },
+        {
+          "rotulo": "Terreno de graça",
+          "texto": "Se o topo for terreno, ele entra virado sem gastar sua descida do turno."
+        },
+        {
+          "rotulo": "Parceiro",
+          "texto": "Divide o comando com Tymna ou Vial Smasher e é pilar do cEDH."
+        }
+      ],
+      "extra": "Em <b>27,5 mil</b> decks no EDHREC e em 72% dos decks de Kinnan. US$ 18,14 no Scryfall, versão de Final Fantasy: Through the Ages.",
+      "credito": "Ilustração de Josu Hernaiz"
+    },
+    "ban": {
+      "numero": "33",
+      "unidade": "DIAS",
+      "texto": "Para a próxima janela de banimentos, em 30 de novembro. A de 12 de outubro não mexeu no Commander."
+    },
+    "turnos": [
+      {
+        "cor": "G",
+        "data": "28 e 29 out",
+        "texto": "Listas de Klingon Fury e Landing Party"
+      },
+      {
+        "cor": "G",
+        "data": "30 out",
+        "texto": "Galeria completa de Star Trek"
+      },
+      {
+        "cor": "A",
+        "data": "2 nov",
+        "texto": "Countdown Kit da Marvel"
+      },
+      {
+        "cor": "A",
+        "data": "9 nov",
+        "texto": "Secret Lairs de Star Trek à venda"
+      },
+      {
+        "cor": "G",
+        "data": "13 nov",
+        "texto": "Star Trek chega às lojas"
+      }
+    ],
+    "sussurro": null
+  },
+  "video": {
+    "cena1": {
+      "titulo": "Star Trek ganha cinco Secret Lairs",
+      "pilulas": [
+        "9 de novembro",
+        "Thrasios",
+        "Kambal"
+      ]
+    },
+    "cena2": {
+      "rotulo": "No bolso",
+      "cor": "A",
+      "titulo": "Quanto custa e quanto vale",
+      "linhas": [
+        {
+          "nome": "Cada drop",
+          "numero": 29,
+          "prefixo": "US$ ",
+          "sufixo": ",99",
+          "sub": "sem foil, US$ 39,99 em foil"
+        },
+        {
+          "nome": "Thrasios avulso",
+          "numero": 18,
+          "prefixo": "US$ ",
+          "sufixo": ",14",
+          "sub": "a impressão mais barata"
+        }
+      ],
+      "fonte": "Fontes: Wizards e Scryfall"
+    },
+    "cena3": {
+      "linhas": [
+        "<b>Thrasios</b>: 4 de mana viram uma carta ou um terreno.",
+        "Vira a Tendi no Secret Lair de Lower Decks.",
+        "Em 72% dos decks de Kinnan no EDHREC."
+      ]
+    },
+    "cena4": {
+      "texto": "Faltam 33 dias para a próxima janela de banimentos, em 30 de novembro.",
+      "sussurro": null
+    }
+  },
+  "textos": {
+    "legendaCarrossel": "Commander e Star Trek: a Wizards anunciou cinco Secret Lairs da série, e a venda abre em 9 de novembro.\n\nCada drop custa US$ 29,99 sem foil e US$ 39,99 em foil, com fila às 13h e venda às 14h de Brasília. O de Lower Decks traz Thrasios, Kambal, Inti, Silas Renn e Weatherlight com nomes da série. Só o Thrasios avulso sai hoje por pelo menos US$ 18,14. Tem ainda um pacote de blink com Eerie Interlude e Conjurer's Closet, um drop klingon com War's Toll e outro com Buried Alive e Commandeer.\n\nTambém saiu a lista de Federation Fleet, o precon de Jean-Luc Picard, com Alhammarret's Archive, Loran of the Third Path e Cryptic Command.\n\nNo Topdeck do Dia, Thrasios, Triton Hero, o parceiro que transforma mana sobrando em cartas.\n\nQual dos Secret Lairs de Star Trek você compraria primeiro?\n\nEdição completa em fontedemana.com.br\n\nArtes: Conjurer's Closet, Jason Felix. Thrasios, Triton Hero, Josu Hernaiz.\n\n#startrek #commander #mtg",
+    "legendaVideo": "Commander e Star Trek: cinco Secret Lairs da série abrem venda em 9 de novembro, a US$ 29,99 cada. O de Lower Decks traz Thrasios e Kambal com arte nova.\n\nVale mais pelo Thrasios ou pela arte?\n\nEdição completa em fontedemana.com.br\n\n#startrek #commander #mtg",
+    "threadsPost": "Star Trek ganha cinco Secret Lairs, com venda em 9 de novembro às 14h de Brasília. Cada drop custa US$ 29,99 sem foil e US$ 39,99 em foil. O de Lower Decks traz Thrasios, Kambal, Inti, Silas Renn e Weatherlight com nomes da série, e só o Thrasios avulso sai hoje por pelo menos US$ 18,14. Qual drop você pegaria? fontedemana.com.br",
+    "threadsFio": [
+      "Star Trek ganha cinco Secret Lairs, e a venda abre em 9 de novembro, com fila às 13h e venda às 14h de Brasília. Cada drop custa US$ 29,99 sem foil e US$ 39,99 em foil. Um sexto ainda vai ser revelado.",
+      "O de Lower Decks é o que mais rende para Commander: Thrasios vira a Tendi e Kambal vira o Boimler. O Thrasios mais barato sai hoje por US$ 18,14. Tem ainda drops de blink, klingon e o do Khan, com Buried Alive e Commandeer.",
+      "Também saiu a lista de Federation Fleet. Jean-Luc Picard compra carta a cada permanente histórica de 3 ou mais manas que entra, e o deck traz Alhammarret's Archive, Loran of the Third Path e Cryptic Command.",
+      "No Topdeck do Dia, Thrasios, Triton Hero. Por 4 de mana, vira uma carta ou um terreno no campo, e está em 72% dos decks de Kinnan no EDHREC.",
+      "Edição completa, com agenda e contagem para a próxima janela de banimentos, em fontedemana.com.br"
+    ],
+    "threadsAvulsos": [
+      {
+        "titulo": "Secret Lair de Star Trek",
+        "texto": "Cinco Secret Lairs de Star Trek abrem venda em 9 de novembro, a US$ 29,99 cada. Qual você pegaria primeiro: Lower Decks, com Thrasios e Kambal, ou o de blink, com Eerie Interlude e Conjurer's Closet?",
+        "obs": "Enquete: Lower Decks, Blink, Klingon, Nenhum"
+      },
+      {
+        "titulo": "Picard ou Janeway",
+        "texto": "Federation Fleet vem com Jean-Luc Picard e Captain Janeway. Picard compra carta com permanente histórica e Janeway cresce com fichas de Oficial. Qual você deixaria no comando?"
+      }
+    ]
+  },
+  "pauta": {
+    "forca": "forte",
+    "porque": "Anúncio novo de Secret Lairs de Star Trek com preço e data, com reimpressões de Commander como Thrasios.",
+    "storyPergunta": "Qual Secret Lair de Star Trek você compraria?",
+    "enquete": {
+      "pergunta": "Você compraria o Secret Lair de Lower Decks?",
+      "opcoes": [
+        "Sim, pelo Thrasios",
+        "Sim, pela arte",
+        "Não"
+      ]
+    }
+  }
+}
