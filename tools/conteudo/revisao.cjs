@@ -101,7 +101,8 @@ pecas.forEach(p => {
 });
 // anúncio registrado: mesma rede, mesmo dia de postagem e mesmo formato
 anuncios.forEach(a => {
-  const alvo = pecas.filter(p => p.rede === a.rede && p.data === a.inicio && (!a.formato || p.formato === a.formato) && !p.pago).sort((x, y) => x.hora.localeCompare(y.hora))[0];
+  // postado: data do post quando o impulso começa dias depois (regra da campeã com 72 h no ar); senão, o post é do dia em que o anúncio começou
+  const alvo = pecas.filter(p => p.rede === a.rede && p.data === (a.postado || a.inicio) && (!a.formato || p.formato === a.formato) && !p.pago).sort((x, y) => x.hora.localeCompare(y.hora))[0];
   if (alvo) { alvo.pago = true; alvo.anuncio = a; } else if (a.fim >= JP[2][0]) avisos.push(`o anúncio de ${ddmm(a.inicio)} no ${a.rede} (${a.peca || a.formato || 'peça'}) não casou com nenhuma peça do Metricool`);
 });
 // pico sem anúncio registrado no TikTok: mais de 5 vezes a mediana e mais de mil views
