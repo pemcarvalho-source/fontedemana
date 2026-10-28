@@ -44,9 +44,14 @@ function validate(p) {
   const texto = JSON.stringify(p, (k, v) => ['url'].includes(k) ? undefined : v);
   SEPS.forEach(s => req(!texto.includes(s), 'separador proibido no texto: "' + s + '"'));
   if (p.fx) {
-    const semFala = JSON.stringify(p, (k, v) => ['url', 'fala', 'fx'].includes(k) ? undefined : v);
-    const re = /US\$ ?\d+(?:[.,]\d+)*/g; let m;
-    while ((m = re.exec(semFala))) if (!/^ ?\(R\$ ?\d/.test(semFala.slice(re.lastIndex, re.lastIndex + 8))) E.push('valor em dólar sem o real entre parênteses: ' + m[0]);
+    /* aviso a aviso: só cobra o real nos avisos que já convertem algum valor. O fx da pauta pode vir do original da noite
+       enquanto a edição do dia saiu sem cotação (só dólar, como manda tools/REGRAS.md); aí os avisos do kit ficam em dólar */
+    (p.avisos || []).forEach(a => {
+      const semFala = JSON.stringify(a, (k, v) => ['url', 'fala', 'fx'].includes(k) ? undefined : v);
+      if (!/\(R\$ ?\d/.test(semFala)) return;
+      const re = /US\$ ?\d+(?:[.,]\d+)*/g; let m;
+      while ((m = re.exec(semFala))) if (!/^ ?\(R\$ ?\d/.test(semFala.slice(re.lastIndex, re.lastIndex + 8))) E.push(`${a.id}: valor em dólar sem o real entre parênteses: ${m[0]}`);
+    });
   }
   return E;
 }

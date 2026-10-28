@@ -57,7 +57,9 @@ function validate(r) {
   len(r.tema, 80, 'tema');
   const [cmin, cmax] = V ? V.cenas : [3, 5];
   req(Array.isArray(r.cenas) && r.cenas.length >= cmin && r.cenas.length <= cmax, `cenas precisa de ${cmin} a ${cmax} itens`);
-  const falaMax = (c, i) => !V ? 260 : (c.tipo === 'gancho' || (c.tipo === 'rosto' && i === 0)) ? V.ganchoMax : c.tipo === 'cta' ? V.ctaMax : V.narracaoMax;
+  /* cena rosto curta (plano.json > rosto.fala, desde 29/10/2026): a tela não pode ficar no rosto muito tempo antes de trocar */
+  const RF = RO && RO.fala && DATA >= RO.fala.desde ? RO.fala : null;
+  const falaMax = (c, i) => !V ? 260 : (RF && c.tipo === 'rosto') ? (i === 0 ? RF.cena1 : RF.outras) : (c.tipo === 'gancho' || (c.tipo === 'rosto' && i === 0)) ? V.ganchoMax : c.tipo === 'cta' ? V.ctaMax : V.narracaoMax;
   (r.cenas || []).forEach((c, i) => {
     const n = 'cenas[' + i + ']';
     req(TIPOS.includes(c.tipo), n + '.tipo precisa ser ' + TIPOS.join(', '));

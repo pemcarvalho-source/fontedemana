@@ -63,7 +63,7 @@ Sábado com visita marcada (`extras/lojas/AMANHA.json`, pilar Rota das Lojas): o
 Cena com o Paulo no vídeo (a partir de 26/10/2026, nos pilares de `plano.json` > `rosto`; a cena 1 é obrigatória e há no máximo 3):
 
         {"tipo": "rosto", "cor": "G", "chip": (18), "kicker": (40), "titulo": (64), "sub": (140, opcional, só aparece se ele não gravar),
-         "narracao": (90 na cena 1, 110 nas outras), "gravar": o que ele faz e mostra na cena (140)}
+         "narracao": (60 na cena 1 e 80 nas outras desde 29/10/2026; antes, 90 e 110), "gravar": o que ele faz e mostra na cena (140)}
 
 Com o vídeo dele, a cena mostra o rosto em tela cheia com o kicker e o título numa caixa no terço de cima (`cena-N-rosto.png`) e dura o tempo da fala. Sem o vídeo, sai como cena de texto (ou de gancho, na cena 1). Kicker e título curtos: a caixa não pode descer até o meio da tela, senão o script recusa.
 
