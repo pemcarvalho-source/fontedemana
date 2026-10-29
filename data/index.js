@@ -1,6 +1,7 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "Shared Animosity",
   "Thrasios, Triton Hero",
   "Skullclamp",
   "Attrition",
@@ -22,6 +23,13 @@ window.MANA_POOL_INDEX = {
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 24,
+   "date": "2026-10-29",
+   "dateLabel": "Quinta, 29 de outubro de 2026",
+   "head": "Klingon Fury tem lista completa, com Worf atacando para comprar",
+   "biome": "M"
+  },
   {
    "n": 23,
    "date": "2026-10-28",
