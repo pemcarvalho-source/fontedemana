@@ -243,6 +243,10 @@ p{margin:0}
 .heat .bar{position:relative;height:14px;border-radius:99px;background:var(--panel2);overflow:hidden;box-shadow:inset 0 1px 2px rgba(0,0,0,.25)}
 .heat .bar i{position:absolute;inset:0 auto 0 0;border-radius:99px;background-color:var(--r);background-image:var(--tex-frame),linear-gradient(90deg,#E39A3B,var(--r))}
 .heat .hm{display:flex;flex-wrap:wrap;justify-content:space-between;gap:2px 10px;font-family:var(--f-mono);font-size:11px;color:var(--muted)}
+.heat.mesa .bar i{background-color:var(--u);background-image:var(--tex-frame),linear-gradient(90deg,#6FB7E3,var(--u))}
+.heat.mesa .hl{display:flex;align-items:baseline;gap:8px}
+.heat.mesa .pos{font-family:var(--f-mono);font-size:12px;color:var(--muted);min-width:1.6em}
+.heat.mesa .novo{margin-left:auto;font-family:var(--f-mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--u);border:1px solid currentColor;border-radius:99px;padding:1px 7px;white-space:nowrap}
 .turns{display:flex;flex-direction:column}
 .turn{display:grid;grid-template-columns:24px 70px 1fr;gap:10px;padding:9px 0;border-top:1px solid var(--line);font-size:16px;line-height:1.35}
 .turn:first-child{border-top:0}
@@ -385,7 +389,7 @@ footer .legal{font-size:13px;font-style:italic}
   }
 
   /* ---------- Componentes ---------- */
-  function idsFor(ed){ var p="e"+ed.n+"-"; return {story:function(i){return p+"s"+(i+1);}, card:p+"topdeck", pulse:p+"termometro", agenda:p+"agenda", rumors:p+"sussurros"}; }
+  function idsFor(ed){ var p="e"+ed.n+"-"; return {story:function(i){return p+"s"+(i+1);}, card:p+"topdeck", pulse:p+"termometro", mesa:p+"mesa", agenda:p+"agenda", rumors:p+"sussurros"}; }
 
   function summaryCard(ed){
     var cols=[]; ed.summary.forEach(function(s){ if("WUBRGA".indexOf(s.c)>=0 && cols.indexOf(s.c)<0) cols.push(s.c); });
@@ -404,6 +408,7 @@ footer .legal{font-size:13px;font-style:italic}
     var t=[], ids=idsFor(ed);
     (ed.stories||[]).forEach(function(st,i){ var c=i===0?"M":storyColors(st)[0]; t.push({c:c, sec:i===0?"Notícia Lendária":SECT[c], txt:st.title, chips:st.tags, href:"#"+ids.story(i)}); });
     if(ed.card) t.push({c:cardFrame(ed.card.ci), sec:"Topdeck do Dia", txt:ed.card.name, chips:["Carta do dia"], href:"#"+ids.card});
+    if(ed.mesa && ed.mesa.items.length) t.push({c:"U", sec:"Termômetro da Mesa", txt:ed.mesa.items[0].name, chips:[fmtViews(ed.mesa.items[0].decks)+" decks na semana"], href:"#"+ids.mesa});
     if(ed.pulse && ed.pulse.items.length) t.push({c:"R", sec:"Termômetro", txt:ed.pulse.items[0].title, chips:[fmtViews(ed.pulse.items[0].views)+" views"], href:"#"+ids.pulse});
     if(ed.agenda && ed.agenda.length) t.push({c:"W", sec:"Próximos Turnos", txt:ed.agenda[0].label+", "+ed.agenda[0].html.replace(/<[^>]+>/g,"").split(".")[0].replace(/^./,function(x){return x.toLowerCase();}), chips:[ed.agenda.length+" datas"], href:"#"+ids.agenda});
     if(ed.rumors && ed.rumors.length) t.push({c:"Q", sec:"Sussurros", txt:ed.rumors[0].title, chips:[ed.rumors.length+(ed.rumors.length>1?" rumores":" rumor")], href:"#"+ids.rumors, dashed:true});
@@ -437,6 +442,15 @@ footer .legal{font-size:13px;font-style:italic}
     return '<section class="panel fr-R" id="'+ids.pulse+'" aria-label="Termômetro das redes"><div class="ph">'+pip("R")+'<h2>Termômetro das Redes</h2></div><p class="pn">'+esc(ed.pulse.note)+'</p><div class="heat">'+
       ed.pulse.items.map(function(x){ return '<div class="hi"><a class="hl" href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.title)+'</a><div class="bar" role="img" aria-label="'+fmtViews(x.views)+' visualizações"><i style="width:'+Math.max(3,x.views/mx*100).toFixed(1)+'%"></i></div><div class="hm"><span>'+esc(x.channel)+'</span><span>'+fmtViews(x.views)+' views</span><span>'+esc(x.age)+'</span></div></div>'; }).join("")+
     '</div></section>';
+  }
+
+  function edhrecSlug(n){ return "https://edhrec.com/commanders/"+n.split(" // ")[0].normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9 -]/g,"").trim().replace(/[ -]+/g,"-"); }
+  function mesaPanel(ed,ids){
+    if(!ed.mesa || !ed.mesa.items.length) return "";
+    var mx=Math.max.apply(null,ed.mesa.items.map(function(x){return x.decks;}));
+    return '<section class="panel fr-U" id="'+ids.mesa+'" aria-label="Termômetro da Mesa"><div class="ph">'+pip("U")+'<h2>Termômetro da Mesa</h2></div><p class="pn">'+esc(ed.mesa.note)+'</p><div class="heat mesa">'+
+      ed.mesa.items.map(function(x,i){ return '<div class="hi"><a class="hl" href="'+esc(x.url||edhrecSlug(x.name))+'" target="_blank" rel="noopener"><span class="pos">'+(i+1)+'º</span><span>'+esc(x.name)+'</span>'+(x.novo?'<span class="novo">entrou</span>':'')+'</a><div class="bar" role="img" aria-label="'+fmtViews(x.decks)+' decks"><i style="width:'+Math.max(3,x.decks/mx*100).toFixed(1)+'%"></i></div><div class="hm"><span>'+fmtViews(x.decks)+' decks na semana</span>'+(x.note?'<span>'+esc(x.note)+'</span>':'')+'</div></div>'; }).join("")+
+    '</div><div class="links">'+links([ed.mesa.source])+'</div></section>';
   }
 
   function agendaPanel(ed,ids){
@@ -495,7 +509,7 @@ footer .legal{font-size:13px;font-style:italic}
       html+='<section class="hero solo" aria-label="Resumo">'+summaryCard(ed)+banBar(ed)+'</section>';
     }
     var stories=(ed.stories||[]).length ? ed.stories.map(function(s,i){return story(s,i,ids);}).join("") : '<p class="empty">Dia calmo no Multiverso, sem notícia confirmada desde a edição anterior. '+(ed.quietNote||'')+'</p>';
-    html+='<div class="main-grid"><section aria-label="Manchetes"><div class="sec-h"><h2>Manchetes</h2><span class="hint">da mais quente para a mais morna</span></div><div class="stories">'+stories+'</div></section><aside class="aside">'+pulsePanel(ed,ids)+agendaPanel(ed,ids)+'</aside></div>';
+    html+='<div class="main-grid"><section aria-label="Manchetes"><div class="sec-h"><h2>Manchetes</h2><span class="hint">da mais quente para a mais morna</span></div><div class="stories">'+stories+'</div></section><aside class="aside">'+mesaPanel(ed,ids)+pulsePanel(ed,ids)+agendaPanel(ed,ids)+'</aside></div>';
     html+=cardSection(ed,ids)+rumorsSection(ed,ids);
     if(ed.fx && ed.fx.html) html+='<p class="fxnote">'+ed.fx.html+(ed.fx.url?' <a href="'+esc(ed.fx.url)+'" target="_blank" rel="noopener">Ver a cotação</a>':'')+'</p>';
     return html;
@@ -506,6 +520,7 @@ footer .legal{font-size:13px;font-style:italic}
     if(ed.art && ed.art.uri) urls.push(ed.art.uri);
     (ed.stories||[]).forEach(function(s){ (s.sources||[]).forEach(function(x){ urls.push(x.u); }); });
     if(ed.card){ (ed.card.links||[]).forEach(function(x){ urls.push(x.u); }); if(ed.card.combos) urls.push(ed.card.combos.source.u); if(ed.card.image) urls.push(ed.card.scryfall); }
+    if(ed.mesa && ed.mesa.source) urls.push(ed.mesa.source.u);
     if(ed.pulse) ed.pulse.items.forEach(function(x){ urls.push(x.url); });
     (ed.agendaSources||[]).forEach(function(x){ urls.push(x.u); });
     (ed.rumors||[]).forEach(function(r){ (r.sources||[]).forEach(function(x){ urls.push(x.u); }); });

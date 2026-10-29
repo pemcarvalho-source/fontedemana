@@ -186,6 +186,35 @@ MANA_POOL_ED(
    }
   ]
  },
+ "mesa": {
+  "note": "Os comandantes mais montados no EDHREC nos últimos 7 dias. Mostram o que a galera está jogando agora.",
+  "items": [
+   {
+    "name": "Jace, Multiverse Architect",
+    "decks": 3170
+   },
+   {
+    "name": "Y'shtola, Night's Blessed",
+    "decks": 2020
+   },
+   {
+    "name": "Giada, Font of Hope",
+    "decks": 1710
+   },
+   {
+    "name": "Vraska, Soul of Stone",
+    "decks": 1660
+   },
+   {
+    "name": "Tam, the Possibility",
+    "decks": 1410
+   }
+  ],
+  "source": {
+   "t": "EDHREC (comandantes da semana, 29 out)",
+   "u": "https://edhrec.com/commanders/week"
+  }
+ },
  "pulse": {
   "note": "Os vídeos de Magic mais vistos nas últimas 24 horas. Mostram o que está bombando, mas não confirmam nada.",
   "items": [

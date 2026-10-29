@@ -51,6 +51,12 @@ if (ed.pulse) (ed.pulse.items || []).forEach(x => req(x.title && x.channel && Nu
 if (ed.ban) req(/^\d{4}-\d{2}-\d{2}$/.test(ed.ban.iso) && ed.ban.iso >= ed.date && ed.ban.html, 'ban inválido ou no passado');
 (ed.rumors || []).forEach(r => req(r.title && r.html && (r.sources || []).length, 'sussurro incompleto'));
 req(Array.isArray(ed.notes) && ed.notes.length === 0, 'notes precisa ficar vazio: avisos da rotina vão só na mensagem final');
+if (ed.mesa) {
+  req(ed.mesa.note && ed.mesa.source && ed.mesa.source.t && ed.mesa.source.u, 'mesa precisa de note e source {t, u}');
+  req(Array.isArray(ed.mesa.items) && ed.mesa.items.length >= 3 && ed.mesa.items.length <= 5, 'mesa precisa de 3 a 5 comandantes (ou mesa = null)');
+  (ed.mesa.items || []).forEach(x => req(x.name && Number.isInteger(x.decks) && x.decks > 0 && (x.novo === undefined || typeof x.novo === 'boolean'), 'mesa item incompleto: ' + JSON.stringify(x)));
+  (ed.mesa.items || []).forEach((x, i, a) => req(i === 0 || a[i - 1].decks >= x.decks, 'mesa fora de ordem: ' + x.name));
+}
 if (ed.pulse) req(Array.isArray(ed.pulse.items) && ed.pulse.items.length >= 1 && ed.pulse.items.length <= 3, 'pulse precisa de 1 a 3 itens (ou pulse = null)');
 const semFx = JSON.stringify(ed, (key, v) => ['fx','image','u','url','uri','scryfall'].includes(key) ? undefined : v);
 if (/\(R\$ ?\d/.test(semFx)) req(ed.fx && ed.fx.html, 'tem valor em reais entre parênteses: preencha fx com a nota da cotação (regra de moeda)');

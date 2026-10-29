@@ -25,7 +25,8 @@ Escopo: só Commander (ban e regra de outros formatos não entram), Brasil e EUA
 4. MTG Salvation: WebSearch com `allowed_domains` ["mtgsalvation.com"] e "MTG Salvation news <mês> <ano>"; WebFetch nos links de notícia (`/news/...`) ou de spoilers (`/spoilers/...`) da janela sobre Commander, precons, ban, regras ou produtos. É fonte secundária: a notícia vira manchete com a fonte primária (Wizards) ou com uma segunda fonte independente (verif "Oficial + 2ª fonte" ou "2 fontes"), nunca sozinha. Carta da página de spoilers só entra se aparecer também no Scryfall ou num anúncio da Wizards. Tópico do fórum (The Rumor Mill e os outros) só vai para os Sussurros, dito como rumor de fórum. O fórum de Commander (EDH) serve para medir polêmica, nunca como fato.
 5. Duas WebSearch amplas de notícias de Commander da semana (por exemplo "MTG Commander news" e "Magic Commander precon reveal" com o mês).
 6. Lojas e criadores que o Paulo segue (epicsaopaulo, pink.mtg, freitastcg, supplyhouseoficial, mesaderpg, commanderlvl17, armageddoncardshop, mtgversus, moxvault.tcg, tapforme_mtg, kirin.tcg, mtgbrasilofc, ligamagic, gamegenicsupplies): Instagram não é lido. Faça 2 buscas na web pelo nome, alternando os nomes a cada dia. MTG Brasil (Praça Baronesa da Bocaina, 123, Alto de Pinheiros, perto do metrô Vila Madalena) e Epic São Paulo são lojas de São Paulo; evento de Commander delas com data confirmada na página da loja ou na LigaMagic entra com etiqueta Brasil ou na agenda. Lançamento da Gamegenic entra com etiqueta Acessórios. Afirmação de criador sem confirmação vai para os Sussurros.
-7. Termômetro (vidIQ, seção 2b).
+7. Termômetro das Redes (vidIQ, seção 2b).
+8. Termômetro da Mesa (EDHREC, seção 2c).
 
 **Aprofundar:** cada pista do radar que pode virar manchete ganha até 2 buscas para confirmar (fonte primária ou segunda fonte independente). Total da pesquisa de notícias: de 12 a 26 chamadas (cada página custa uma busca e uma abertura), fora o Topdeck. Dia sem pista nova termina no radar; não procure assunto antigo para encher a edição.
 
@@ -39,6 +40,14 @@ Cota de 150 créditos por mês; cada busca custa 5.
 5. pulse = os 3 primeiros que sobrarem (ou menos). Só é null se não sobrar nenhum.
 6. Sinal de engajamento apenas: assunto em alta que já é manchete verificada sobe no ranking; fato novo de vídeo precisa de confirmação (fonte primária ou duas fontes) para virar manchete, senão vai para os Sussurros com o link.
 7. `vidiq_balance` de novo e anote o totalCredits para a seção 12.
+
+## 2c. Termômetro da Mesa (EDHREC, todo dia)
+
+Os comandantes mais montados no EDHREC na última semana. Não gasta crédito e sai todo dia, com ou sem o Termômetro das Redes.
+1. WebSearch "EDHREC top commanders past week" com `allowed_domains` ["edhrec.com", "edhrecstatic.com"] e WebFetch no link de `/commanders/week` que voltar, pedindo os 5 primeiros em ordem com o número de decks.
+2. mesa.items = os 5 primeiros (no mínimo 3), na ordem da página, {"name": nome exato em inglês, "decks": inteiro a partir do número mostrado (3.17K vira 3170)}. Acrescente "novo": true só em quem não estava em `mesa.items` da edição anterior (se a anterior não tiver mesa, não marque ninguém).
+3. Comandante que subiu e tem ligação com as notícias pode virar gancho do Topdeck ou de uma manchete, mas o ranking sozinho não é notícia.
+4. A página não abriu: mesa = null (a seção some) e conte na mensagem final.
 
 ## 3 e 4. Verificar e priorizar
 
@@ -73,6 +82,7 @@ Pelo Scryfall, como em `tools/REGRAS.md`. Carta do Topdeck: `image_uris.large` e
 - quietNote: só com stories vazio.
 - card: name, cost (ex. ["2","W","U"]), ci ([] para incolor), type (em português, ex. "Criatura Lendária"), subtype, loyalty (número ou null), pt ("3/4" ou null), rarity (common, uncommon, rare, mythic), collector ([SET, número, raridade em português]), image, artist, scryfall, oraclePt (linhas), oracleEn (linhas, custo de lealdade em `<b>`), flavor (curto ou omitido), why, roles {"commander": {"ok","text"}, "ninetyNine": {"ok","text"}}, rarityText, alone [{"label","text"}], inDeck, watch, combos {"note", "items": [{"cards","result"}], "source": {"t","u"}} ou null, stats [{"v","k"}] (4), topCmd [{"name","pct"}], links [{"t","u"}].
 - pulse: {"note": "Os vídeos de Magic mais vistos nas últimas 24 horas. Mostram o que está bombando, mas não confirmam nada.", "items": [{"title" em português, "channel", "views" inteiro, "age" curto como "em cerca de 8 horas", "url"}]} ou null.
+- mesa: {"note": "Os comandantes mais montados no EDHREC nos últimos 7 dias. Mostram o que a galera está jogando agora.", "items": [{"name", "decks" inteiro, "novo" opcional}], "source": {"t": "EDHREC (comandantes da semana, <dia> <mês abreviado>)", "u": link aberto}} ou null.
 - ban: {"iso": próxima janela de ban ou anúncio do Commander, "html"} só se futura e confirmada; senão null.
 - agenda: só datas de hoje em diante, em ordem, {"label": "12 out" ou "23 a 29 out", "iso": início, "c": B ban, W loja e evento, G lançamento, A produto e venda, R polêmica, U regras, "html"}. agendaSources: [{"t","u"}].
 - rumors: [{"title", "html", "sources": [{"t","u"}]}] (vazia se não houver).
@@ -104,7 +114,7 @@ Depois atualize `data/index.js`: no início de editions `{"n": N+1, "date", "dat
 
 ## 12. Avisar
 
-Mensagem final curta em português: a Notícia Lendária em uma frase, quantas manchetes e sussurros, a força do dia (forte ou calmo) e por quê, a carta do Topdeck, se as imagens do Scryfall carregaram (se não: conferir no editor da rotina se o ambiente libera api.scryfall.com e cards.scryfall.io), se a LigaMagic abriu, a cotação usada (data e fonte) ou que saiu sem conversão, se o site foi atualizado (se não, o erro exato, porque a edição não foi ao ar), se o Kit de Redes saiu em fontedemana.com.br/kit (com ou sem vídeo) e quantos créditos do vidIQ restam. Se algo impediu a publicação, diga o quê.
+Mensagem final curta em português: a Notícia Lendária em uma frase, quantas manchetes e sussurros, a força do dia (forte ou calmo) e por quê, a carta do Topdeck, se as imagens do Scryfall carregaram (se não: conferir no editor da rotina se o ambiente libera api.scryfall.com e cards.scryfall.io), se a LigaMagic abriu, a cotação usada (data e fonte) ou que saiu sem conversão, se o site foi atualizado (se não, o erro exato, porque a edição não foi ao ar), se o Kit de Redes saiu em fontedemana.com.br/kit (com ou sem vídeo) quantos créditos do vidIQ restam e se o Termômetro da Mesa saiu (se não, por quê). Se algo impediu a publicação, diga o quê.
 
 Créditos do vidIQ, com o totalCredits depois da busca e renewableResetsAt no horário de Brasília:
 - Entre 5 e 9: comece com "Atenção: os créditos do vidIQ acabam amanhã. A edição de amanhã é a última com o Termômetro das Redes até a renovação em <data>."
