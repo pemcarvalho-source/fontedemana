@@ -1,0 +1,30 @@
+{
+  "data": "2026-10-30",
+  "pilar": "regra",
+  "item": "Comandante exilado volta para a zona de comando?",
+  "tema": "Chama o Juiz #3: Fiend Hunter exilou seu comandante. Vai para a zona de comando?",
+  "cartas": ["Fiend Hunter"],
+  "fx": null,
+  "carrossel": {
+    "capa": {"cor": "U", "chip": "Chama o Juiz #3", "kicker": "Especial de Halloween", "titulo": "O caçador de monstros exilou seu <b>comandante</b>", "sub": "Fiend Hunter entrou e mandou seu comandante para o exílio. Ele vai para a zona de comando ou fica preso?", "arte": "pauta/2026-10-30/tiktok/arte.jpg", "credito": "Arte: Fiend Hunter, Wayne Reynolds"},
+    "cartoes": [
+      {"cor": "U", "titulo": "Qual é a certa?", "itens": [
+        {"cor": "U", "html": "<b>A)</b> Não pode: fica preso até o Fiend Hunter sair da mesa"},
+        {"cor": "U", "html": "<b>B)</b> Pode, mas você decide na hora em que ele chega ao exílio"},
+        {"cor": "U", "html": "<b>C)</b> Pode, e você manda para a zona de comando quando quiser depois"}
+      ], "nota": {"rotulo": "Antes de arrastar", "texto": "pensa na sua resposta."}, "fonte": "Fonte: Regras Abrangentes, 903.9a"},
+      {"cor": "G", "titulo": "Resposta: letra B", "itens": [
+        {"cor": "G", "html": "Comandante que vai para o exílio ou para o cemitério pode ir para a <b>zona de comando</b>. A escolha é sua."},
+        {"cor": "G", "html": "Mas é <b>na hora</b>: a regra só olha para o comandante que acabou de chegar ao exílio. Deixou passar, não dá mais."}
+      ], "nota": {"rotulo": "Em uma frase", "texto": "zona de comando agora, ou esperar o caçador sair."}, "fonte": "Fonte: Regras Abrangentes, 903.9a"},
+      {"cor": "W", "titulo": "O erro comum na mesa", "carta": "pauta/2026-10-30/original/carta-1.jpg", "itens": [
+        {"cor": "W", "html": "Deixar no exílio esperando o Fiend Hunter morrer. Se ninguém tirar o caçador da mesa, o comandante fica preso."},
+        {"cor": "W", "html": "Mandou para a zona de comando? Ele não volta mais pelo Fiend Hunter, e jogar de novo paga o imposto de comandante."}
+      ], "fonte": "Fonte: Scryfall e Regras Abrangentes, 903.9a"}
+    ],
+    "cta": {"pergunta": "Você teria acertado <b>de primeira</b>?", "quando": "Toda semana tem um Chama o Juiz novo", "salvar": "Salva para a próxima vez que tirarem seu comandante da mesa"}
+  },
+  "legenda": "Commander: o Fiend Hunter exilou seu comandante. Ele pode ir para a zona de comando? Qual é a certa?\n\nA) Não pode, fica preso até o Fiend Hunter sair\nB) Pode, mas você decide na hora\nC) Pode, e você manda quando quiser depois\n\nChama o Juiz #3, especial de Halloween com o caçador de monstros de Innistrad. Arrasta para ver a resposta com a regra oficial e o erro que a mesa mais comete.\n\nFonte: Regras Abrangentes, 903.9a. Carta: Scryfall.\nMais em fontedemana.com.br\n\n#innistrad #commander #mtg",
+  "threads": {"texto": "Chama o Juiz de Halloween. O Fiend Hunter entrou e exilou seu comandante.\n\nA) Não pode ir para a zona de comando, fica preso até o Fiend Hunter sair\nB) Pode ir, mas você decide na hora\nC) Pode ir quando você quiser depois\n\nQual é a certa?", "obs": "Resposta B (regra 903.9a): a escolha é na hora em que ele chega ao exílio; se deixar, só volta quando o caçador sair."},
+  "enquete": {"pergunta": "Fiend Hunter exilou seu comandante. Pode ir para a zona de comando?", "opcoes": ["Não, fica preso", "Sim, decide na hora", "Sim, quando quiser"]}
+}

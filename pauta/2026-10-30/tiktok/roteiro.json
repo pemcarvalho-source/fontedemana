@@ -1,0 +1,65 @@
+{
+ "data": "2026-10-30",
+ "pilar": "regra",
+ "tema": "Chama o Juiz #3: Fiend Hunter exilou seu comandante. Vai para a zona de comando?",
+ "item": "Comandante exilado volta para a zona de comando?",
+ "arte": "pauta/2026-10-30/tiktok/arte.jpg",
+ "carta": "pauta/2026-10-30/tiktok/carta.jpg",
+ "credito": "Arte: Fiend Hunter, Wayne Reynolds",
+ "fx": null,
+ "legenda": "Commander: o Fiend Hunter exilou seu comandante. Ele pode ir para a zona de comando? Qual é a certa?\n\nA) Não, fica preso até o Fiend Hunter sair\nB) Sim, mas você decide na hora\nC) Sim, quando você quiser depois\n\nEspecial de Halloween do Chama o Juiz, com o caçador de monstros de Innistrad. A resposta está no vídeo, com a regra oficial.\n\nFonte: Regras Abrangentes, 903.9a\nMais em fontedemana.com.br\n\n#innistrad #commander #mtg",
+ "comentario": "Fiend Hunter exilou seu comandante. A) fica preso até o Fiend Hunter sair, B) vai para a zona de comando se você decidir na hora, C) vai quando você quiser depois. Qual é a certa?",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "cor": "U",
+   "chip": "Chama o Juiz #3",
+   "kicker": "Especial de Halloween",
+   "titulo": "O caçador de monstros exilou seu comandante",
+   "sub": "Fiend Hunter, direto de Innistrad",
+   "narracao": "O caçador de monstros de Innistrad exilou seu comandante. E agora?",
+   "segundos": 4.7
+  },
+  {
+   "tipo": "quiz",
+   "cor": "U",
+   "chip": "Valendo",
+   "kicker": "Chama o Juiz",
+   "titulo": "Ele pode ir para a zona de comando?",
+   "opcoes": [
+    "Não, fica preso até o Fiend Hunter sair",
+    "Sim, mas você decide na hora",
+    "Sim, quando você quiser depois"
+   ],
+   "contagem": 5,
+   "narracao": "Seu comandante pode ir para a zona de comando? Qual é a certa? Cinco segundos.",
+   "segundos": 6.2
+  },
+  {
+   "tipo": "resposta",
+   "cor": "U",
+   "chip": "Resposta",
+   "kicker": "Chama o Juiz",
+   "titulo": "Pode, mas a escolha é na hora",
+   "opcoes": [
+    "Não, fica preso até o Fiend Hunter sair",
+    "Sim, mas você decide na hora",
+    "Sim, quando você quiser depois"
+   ],
+   "certa": "B",
+   "sub": "Você escolhe assim que ele chega ao exílio. Se deixar lá, ele só volta quando o Fiend Hunter sair da mesa.",
+   "fonte": "Regras Abrangentes, 903.9a",
+   "narracao": "Letra B. Você decide na hora. Se deixar, só volta quando o caçador sair.",
+   "segundos": 5.8
+  },
+  {
+   "tipo": "cta",
+   "cor": "M",
+   "kicker": "Toda semana no Instagram",
+   "titulo": "Uma regra nova por semana",
+   "destaque": "@fontedemana",
+   "narracao": "Você teria acertado de primeira?",
+   "segundos": 2.5
+  }
+ ]
+}
