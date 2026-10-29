@@ -34,9 +34,12 @@ function pilarDo(d) {
   const ab = ciclo ? ciclo.semanas[(sem + (ciclo.deslocamento || 0)) % ciclo.semanas.length] : (sem % 2 ? 'A' : 'B');
   const visita = ler('extras/lojas/' + d + '.json') != null;
   const doCalendario = ((plano.calendario || {})[dia] || {})[ab];
-  const troca = datasDe(d).find(x => x.ehHoje && x.pilarNoDia && (plano.pilares || {})[x.pilarNoDia]);
-  const id = visita ? 'loja' : (troca ? troca.pilarNoDia : doCalendario);
-  return { dia, sem, ab, id, visita, troca: !visita && troca ? { data: troca.nome, antes: doCalendario } : null, def: (plano.pilares || {})[id] || null };
+  // troca combinada com o Paulo para um dia (plano.json > trocas): vale acima da data comemorativa
+  const ajuste = visita ? null : (plano.trocas || []).find(t => t.dia === d && (plano.pilares || {})[t.pilar]);
+  const troca = ajuste ? null : datasDe(d).find(x => x.ehHoje && x.pilarNoDia && (plano.pilares || {})[x.pilarNoDia]);
+  const id = visita ? 'loja' : (ajuste ? ajuste.pilar : (troca ? troca.pilarNoDia : doCalendario));
+  return { dia, sem, ab, id, visita, troca: !visita && troca ? { data: troca.nome, antes: doCalendario } : null,
+    ajuste: ajuste ? Object.assign({ antes: doCalendario }, ajuste) : null, def: (plano.pilares || {})[id] || null };
 }
 
 /* ---------- datas comemorativas ---------- */
@@ -137,8 +140,17 @@ if (!SO_PUB) {
   out.push(`Data: ${DATA} (${EXTENSO[p.dia]}), semana ISO ${p.sem}, semana ${p.ab}. Plano ${plano.versao || '?'}.`);
   if (!p.def) out.push('Pilar: não encontrado em tools/conteudo/plano.json. Use "historia".');
   else {
-    out.push(`Pilar: ${p.def.nome} (${p.id})${p.visita ? ', visita marcada em extras/lojas/' + DATA + '.json' : ''}${p.troca ? ', no lugar de ' + (((plano.pilares || {})[p.troca.antes] || {}).nome || p.troca.antes) + ' por causa de ' + p.troca.data : ''}`);
+    const nomeDe = id => ((plano.pilares || {})[id] || {}).nome || id;
+    out.push(`Pilar: ${p.def.nome} (${p.id})${p.visita ? ', visita marcada em extras/lojas/' + DATA + '.json' : ''}${p.troca ? ', no lugar de ' + nomeDe(p.troca.antes) + ' por causa de ' + p.troca.data : ''}${p.ajuste ? ', no lugar de ' + nomeDe(p.ajuste.antes) + ' (troca combinada com o Paulo em plano.json > trocas)' : ''}`);
     out.push('O que é: ' + p.def.oQue, 'Fontes: ' + p.def.fontes, 'Gancho: ' + p.def.gancho, 'Pergunta para os comentários: ' + p.def.pergunta);
+    if (p.ajuste) {
+      const a = p.ajuste;
+      out.push('TROCA DO DIA: ' + a.motivo + (a.tema ? ' O tema já está decidido: ' + a.tema + '. Ele vale acima da fila e da regra de não repetir carta.' : ''));
+      (a.material || []).forEach(l => out.push('  ' + l));
+      if ((a.fotos || []).length) out.push('  Fotos do Paulo (podem entrar no lugar da arte do Scryfall na capa e no fundo das cenas): ' + a.fotos.join(', '));
+      if (a.sugestao) out.push('  Sugestão de peça: ' + a.sugestao);
+      if (a.cuidado) out.push('  Cuidado: ' + a.cuidado);
+    }
     if (p.def.formato) out.push('Formato: ' + p.def.formato + ' (detalhes e exemplos em tools/conteudo/FORMATOS.md)');
     if ((plano.engajamento || []).length) out.push('Em toda peça: ' + plano.engajamento.join(' '));
     // molde v5 do vídeo e das legendas (só a partir de desde)
@@ -147,7 +159,7 @@ if (!SO_PUB) {
       const longo = (plano.video.longos || []).includes(p.id);
       out.push(`Vídeo (molde desde ${plano.video.desde}; ponha "pilar": "${p.id}" no roteiro.json): ${plano.video.regras.join(' ')} Teto para este pilar: ${longo ? plano.video.segundosLongos : plano.video.segundos[1]} s de fala, ${plano.video.cenas[0]} a ${plano.video.cenas[1]} cenas. O tiktok.cjs confere os limites e acusa cena parada.`);
     }
-    if (vale(plano.rosto) && vale(plano.video) && (plano.rosto.pilares || []).includes(p.id)) out.push(`Paulo no vídeo (cena do tipo rosto, desde ${plano.rosto.desde}; formato no tools/pauta/LEIA.md): ${plano.rosto.regras.join(' ')} No aviso de gravação, cada linha do roteiro leva "como" (o que ele faz e mostra na cena, com "Rosto" ou "Só a voz"), e os passos levam estas dicas: ${plano.rosto.gravacao.join(' ')} Na mensagem final, diga logo na primeira linha que amanhã o Paulo aparece no vídeo e mande o roteiro cena a cena, com o que gravar em cada uma.`);
+    if (vale(plano.rosto) && vale(plano.video) && ((plano.rosto.pilares || []).includes(p.id) || (p.ajuste && p.ajuste.rosto))) out.push(`Paulo no vídeo (cena do tipo rosto, desde ${plano.rosto.desde}; formato no tools/pauta/LEIA.md): ${plano.rosto.regras.join(' ')} No aviso de gravação, cada linha do roteiro leva "como" (o que ele faz e mostra na cena, com "Rosto" ou "Só a voz"), e os passos levam estas dicas: ${plano.rosto.gravacao.join(' ')} Na mensagem final, diga logo na primeira linha que amanhã o Paulo aparece no vídeo e mande o roteiro cena a cena, com o que gravar em cada uma.`);
     if (vale(plano.legenda)) out.push('Legendas: ' + plano.legenda.regras.join(' '));
     const teste = (plano.testes || []).find(t => t.id === 'reel-teste' && (t.dias || []).includes(DATA));
     if (teste && vale(plano.video)) out.push('Reel de teste neste dia: escreva também "ganchoB" no roteiro.json (outro gancho para o mesmo vídeo, com título e fala diferentes da cena 1, mesmo tipo gancho) e acrescente ao aviso de gravação a linha "Cena 1B (gancho do Reel de teste)" com a fala do ganchoB, para ser gravada por último como cena_1b. Mede: ' + teste.mede);
@@ -166,7 +178,10 @@ if (!SO_PUB) {
       out.push('Vídeos do Termômetro das últimas 7 edições (mais vistos primeiro):', ...its.slice(0, 8).map(x => `- ${x.views} visualizações, ${x.channel}: ${plain(x.title)} ${x.url}`));
     }
   }
-  out.push(...linhasDatas(DATA, p.id, false));
+  if (p.ajuste) {
+    // a troca combinada com o Paulo manda no assunto; a data comemorativa vira, no máximo, um toque
+    datasDe(DATA).forEach(x => out.push(`Data comemorativa: ${x.nome}. Neste dia vale a TROCA DO DIA: o assunto é o da troca; a data entra só se couber sem forçar (uma linha na legenda ou no Threads).`));
+  } else out.push(...linhasDatas(DATA, p.id, false));
   out.push('');
 } else {
   const L = linhasDatas(DATA, null, true);

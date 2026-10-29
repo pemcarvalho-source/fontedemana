@@ -106,7 +106,8 @@ function validate(r) {
     if (r.pilar != null) req((PLANO.pilares || {})[r.pilar], 'pilar desconhecido em plano.json: ' + r.pilar);
     if (RO && Array.isArray(r.cenas)) {
       const nr = r.cenas.filter(c => c.tipo === 'rosto').length;
-      if ((RO.pilares || []).includes(r.pilar)) req(r.cenas[0] && r.cenas[0].tipo === 'rosto', 'no pilar ' + r.pilar + ' o Paulo aparece no vídeo: a cena 1 precisa ser do tipo rosto (plano.json > rosto)');
+      const ajuste = (PLANO.trocas || []).find(t => t.dia === DATA && t.pilar === r.pilar);
+      if ((RO.pilares || []).includes(r.pilar) || (ajuste && ajuste.rosto)) req(r.cenas[0] && r.cenas[0].tipo === 'rosto', 'no pilar ' + r.pilar + ' o Paulo aparece no vídeo: a cena 1 precisa ser do tipo rosto (plano.json > rosto)');
       req(nr <= (RO.maxCenas || 3), `no máximo ${RO.maxCenas || 3} cenas rosto por vídeo (tem ${nr})`);
     }
     if (r.ganchoB != null) {

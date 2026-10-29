@@ -85,6 +85,36 @@
       ]
     },
     {
+      "id": "stories-dc500",
+      "hora": "18:00",
+      "rede": "Instagram Stories",
+      "titulo": "Ashling no DC500 da MTG Brasil (2 Stories)",
+      "oQue": "Dois Stories sobre o torneio de quarta: o Ashling com o placar das rodadas e a chamada para o vídeo de sábado, e o quadro da semana da loja com a enquete. Com a loja marcada, ela recebe o Story e pode repostar para o público dela.",
+      "arquivos": [
+        {
+          "nome": "Story 1: Ashling no DC500",
+          "url": "https://fontedemana.com.br/pauta/2026-10-29/dc500/story-1.jpg"
+        },
+        {
+          "nome": "Story 2: quadro da semana da loja",
+          "url": "https://fontedemana.com.br/pauta/2026-10-29/dc500/story-2.jpg"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Enquete do Story 2",
+          "texto": "Você já jogou DC500?\nJá joguei\nQuero começar"
+        }
+      ],
+      "passos": [
+        "Baixe as duas imagens e poste nesta ordem.",
+        "No Story 1, ponha o sticker de Menção com o perfil da loja MTG Brasil e o sticker de Local da loja, embaixo da foto da carta.",
+        "No Story 2, ponha o sticker de Enquete com o texto acima, no espaço livre embaixo do texto.",
+        "Não poste os prints das rodadas nem o vídeo da sala: aparecem os nomes e os rostos de outros jogadores.",
+        "Se a loja repostar, agradeça respondendo o Story dela."
+      ]
+    },
+    {
       "id": "threads-manha",
       "hora": "10:30",
       "rede": "Threads",
