@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-10-26-gravacao@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261025T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -48,7 +48,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-tiktok@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261026T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Lore em 1 minuto #1\, Edgar Markov
@@ -80,7 +80,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-threads-manha@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261026T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Você compra o drop inteiro pela ar
@@ -102,7 +102,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-stories-manha@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261026T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -122,7 +122,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-feed@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261026T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 21
@@ -165,7 +165,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261026T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -184,7 +184,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-threads-tarde@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261026T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -209,7 +209,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-stories-tarde@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261026T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -229,7 +229,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-reels@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261026T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Lore em 1 minuto #1: Edgar Markov\, o
@@ -265,7 +265,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-26-comentarios@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261027T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -287,7 +287,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-gravacao@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261026T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -335,7 +335,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-tiktok@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261027T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Dicionário do Commander #3\, mana dork
@@ -368,7 +368,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-threads-manha@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261027T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Você compraria pelo deck da Borg Q
@@ -390,7 +390,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-stories-manha@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261027T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -410,7 +410,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-feed@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261027T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 22
@@ -454,7 +454,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261027T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -473,7 +473,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-threads-tarde@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261027T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -499,7 +499,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-stories-tarde@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261027T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -519,7 +519,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-reels@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261027T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Dicionário do Commander #3: o que é
@@ -557,7 +557,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-comentarios@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261028T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -579,7 +579,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-gravacao@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261027T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -623,7 +623,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-tiktok@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261028T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Combo da semana #1\, Exquisite Blood e Sanguine Bond
@@ -658,7 +658,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-threads-manha@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261028T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Qual você pegaria primeiro: Lower 
@@ -681,7 +681,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-stories-manha@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261028T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -701,7 +701,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-feed@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261028T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 23
@@ -743,7 +743,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261028T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -762,7 +762,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-threads-tarde@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261028T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -785,7 +785,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-stories-tarde@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261028T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -805,7 +805,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-reels@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261028T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Combo da semana #1: Exquisite Blood e
@@ -845,7 +845,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-comentarios@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261029T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -867,7 +867,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-gravacao@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261028T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -906,7 +906,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-tiktok@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261029T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Top 5 #3: os zumbis do Commander
@@ -941,7 +941,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-stories-dc500@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261029T210000Z
 DURATION:PT15M
 SUMMARY:18:00 Instagram Stories: Ashling no DC500 da MTG Brasil (2 Stories)
@@ -969,7 +969,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-threads-manha@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261029T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Qual você deixaria no comando?
@@ -989,7 +989,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-stories-manha@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261029T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -1009,7 +1009,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-feed@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261029T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 24
@@ -1053,7 +1053,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261029T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -1072,7 +1072,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-threads-tarde@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261029T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -1097,7 +1097,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-stories-tarde@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261029T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1117,7 +1117,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-reels@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261029T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Top 5 #3: os zumbis que mais aparecem
@@ -1157,7 +1157,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-comentarios@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261030T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1179,7 +1179,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-gravacao@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261029T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -1213,28 +1213,28 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-tiktok@fontedemana.com.br
-DTSTAMP:20261029T212450Z
+DTSTAMP:20261030T004504Z
 DTSTART:20261030T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: TikTok: Chama o Juiz #3\, Fiend Hunter e o comandante
   exilado
 DESCRIPTION:Quiz de regra de Halloween: o Fiend Hunter exilou seu comandant
  e. Ele vai para a zona de comando? A resposta vem com a regra 903.9a.\n\nA
- rquivos:\n- Vídeo mudo: https://fontedemana.com.br/pauta/2026-10-30/tikto
- k/tiktok-mudo.mp4\n\nLegenda:\nCommander: o Fiend Hunter exilou seu comand
- ante. Ele pode ir para a zona de comando? Qual é a certa?\n\nA) Não\, fi
- ca preso até o Fiend Hunter sair\nB) Sim\, mas você decide na hora\nC) S
- im\, quando você quiser depois\n\nEspecial de Halloween do Chama o Juiz\,
-  com o caçador de monstros de Innistrad. A resposta está no vídeo\, com
-  a regra oficial.\n\nFonte: Regras Abrangentes\, 903.9a\nMais em fontedema
- na.com.br\n\n#innistrad #commander #mtg\n\nComentário fixado:\nFiend Hunt
- er exilou seu comandante. A) fica preso até o Fiend Hunter sair\, B) vai 
- para a zona de comando se você decidir na hora\, C) vai quando você quis
- er depois. Qual é a certa?\n\nPasso a passo:\n1. Poste com um som em alta
-  da biblioteca do TikTok\, com volume entre 15% e 20%.\n2. Voz própria n
- ão precisa de rótulo de IA.\n3. Fixe o comentário logo depois de postar
- .\n4. Se os áudios não chegarem\, poste o vídeo mudo com música em alt
- a.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-30/#tiktok
+ rquivos:\n- Vídeo narrado: https://fontedemana.com.br/pauta/2026-10-30/ti
+ ktok/tiktok-narrado.mp4\n\nLegenda:\nCommander: o Fiend Hunter exilou seu 
+ comandante. Ele pode ir para a zona de comando? Qual é a certa?\n\nA) Nã
+ o\, fica preso até o Fiend Hunter sair\nB) Sim\, mas você decide na hora
+ \nC) Sim\, quando você quiser depois\n\nEspecial de Halloween do Chama o 
+ Juiz\, com o caçador de monstros de Innistrad. A resposta está no vídeo
+ \, com a regra oficial.\n\nFonte: Regras Abrangentes\, 903.9a\nMais em fon
+ tedemana.com.br\n\n#innistrad #commander #mtg\n\nComentário fixado:\nFien
+ d Hunter exilou seu comandante. A) fica preso até o Fiend Hunter sair\, B
+ ) vai para a zona de comando se você decidir na hora\, C) vai quando voc
+ ê quiser depois. Qual é a certa?\n\nPasso a passo:\n1. Poste com um som 
+ em alta da biblioteca do TikTok\, com volume entre 15% e 20%.\n2. Voz pró
+ pria não precisa de rótulo de IA.\n3. Fixe o comentário logo depois de 
+ postar.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-30/#ti
+ ktok
 URL:https://fontedemana.com.br/pauta/2026-10-30/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
