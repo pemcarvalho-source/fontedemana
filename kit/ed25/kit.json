@@ -1,0 +1,160 @@
+{
+ "n": 25,
+ "data": "30 out",
+ "carrossel": {
+  "capa": {
+   "cor": "M",
+   "titulo": "Landing Party tem lista completa, com Spock",
+   "sub": "O precon do <b>Comandante Spock</b> em verde, branco e azul traz <b>Exploration</b>, Guardian Project e Ancient Greenwarden.",
+   "credito": "Arte: Commander Spock, Sam Kennedy"
+  },
+  "cartoes": [
+   {
+    "cor": "A",
+    "titulo": "As reimpressões mais caras",
+    "linhas": [
+     {
+      "nome": "Exploration",
+      "valor": "US$ 29",
+      "sub": "a partir de US$ 29,53 (R$ 157,75)"
+     },
+     {
+      "nome": "Guardian Project",
+      "valor": "US$ 12",
+      "sub": "a partir de US$ 12,27 (R$ 65,55)"
+     },
+     {
+      "nome": "Ancient Greenwarden",
+      "valor": "US$ 12",
+      "sub": "a partir de US$ 12,20 (R$ 65,17)"
+     }
+    ],
+    "nota": {
+     "rotulo": "Na sua mesa",
+     "texto": "cada terreno de nome diferente conta para o Spock conjurar de graça"
+    },
+    "fonte": "Fontes: Wizards e Scryfall. Reais: PTAX de 28 out"
+   }
+  ],
+  "topdeck": {
+   "titulo": "Exploration",
+   "habilidades": [
+    {
+     "rotulo": "Dois terrenos por turno",
+     "texto": "Baixa o terreno normal do turno e mais um."
+    },
+    {
+     "rotulo": "Só 1 mana",
+     "texto": "Joga no turno 1 e já usa o terreno extra no mesmo turno."
+    },
+    {
+     "rotulo": "Landfall em dobro",
+     "texto": "Cada terreno a mais dispara Lotus Cobra e Tireless Tracker de novo."
+    }
+   ],
+   "extra": "Volta no <b>Landing Party</b> com arte de Star Trek. Está em 17% dos decks mono-verde do EDHREC e sai a partir de US$ 29,53 (R$ 157,75). PTAX de 28 out.",
+   "credito": "Ilustração de Jonas De Ro"
+  },
+  "ban": {
+   "numero": "31",
+   "unidade": "DIAS",
+   "texto": "Próxima janela de banimentos em 30 de novembro. A de 12 de outubro passou sem mexer no Commander."
+  },
+  "turnos": [
+   {
+    "cor": "G",
+    "data": "30 out",
+    "texto": "Galeria completa de Star Trek"
+   },
+   {
+    "cor": "A",
+    "data": "2 nov",
+    "texto": "Venda do Countdown Kit da Marvel"
+   },
+   {
+    "cor": "G",
+    "data": "6 a 12 nov",
+    "texto": "Pré de Star Trek nas lojas"
+   },
+   {
+    "cor": "A",
+    "data": "9 nov",
+    "texto": "Venda dos Secret Lairs de Star Trek"
+   },
+   {
+    "cor": "G",
+    "data": "13 nov",
+    "texto": "Star Trek chega às lojas"
+   }
+  ],
+  "sussurro": null
+ },
+ "video": {
+  "cena1": {
+   "titulo": "Landing Party tem lista completa, com Spock",
+   "pilulas": [
+    "Verde, branco e azul",
+    "Deck de terrenos",
+    "Chega em 13 nov"
+   ]
+  },
+  "cena2": {
+   "rotulo": "No bolso",
+   "cor": "A",
+   "titulo": "A reimpressão mais cara do deck",
+   "linhas": [
+    {
+     "nome": "Exploration",
+     "numero": 29,
+     "prefixo": "US$ ",
+     "sufixo": "",
+     "sub": "R$ 157,75 a mais barata"
+    }
+   ],
+   "fonte": "Fonte: Scryfall, 30 out. Reais: PTAX de 28 out"
+  },
+  "cena3": {
+   "linhas": [
+    "<b>Exploration</b> deixa baixar dois terrenos por turno.",
+    "Custa 1 mana verde e dobra o landfall.",
+    "No deck do Spock, junta terrenos de nomes diferentes."
+   ]
+  },
+  "cena4": {
+   "texto": "Faltam 31 dias para a próxima janela de banimentos. Antes, o pré de Star Trek nas lojas de 6 a 12 de novembro.",
+   "sussurro": null
+  }
+ },
+ "textos": {
+  "legendaCarrossel": "Commander de Star Trek: saiu a lista completa do Landing Party, o precon do Comandante Spock.\n\nO deck é verde, branco e azul e vive de terrenos. Quando o Spock entra ou ataca, revela o topo do grimório e conjura de graça se o valor de mana couber no número de terrenos com nomes diferentes que você controla. A alternativa de comando é o Captain Kirk, que busca a Starship Enterprise.\n\nAs reimpressões mais caras: Exploration, a partir de US$ 29,53 (R$ 157,75), Guardian Project, US$ 12,27 (R$ 65,55), e Ancient Greenwarden, US$ 12,20 (R$ 65,17). Os precons chegam às lojas em 13 de novembro.\n\nNo Topdeck do Dia, Exploration, o encantamento de 1 mana que deixa baixar dois terrenos por turno.\n\nVocê levaria o Landing Party pelo Spock ou pelas reimpressões?\n\nEdição completa em fontedemana.com.br\n\nArtes: Commander Spock, de Sam Kennedy. Exploration, de Jonas De Ro.\nValores em reais pela cotação de 28 out (Banco Central, PTAX).\n\n#startrek #commander #mtg",
+  "legendaVideo": "Commander de Star Trek: o Landing Party do Spock tem lista completa, e a reimpressão mais cara é Exploration, a partir de US$ 29,53 (R$ 157,75).\n\nVocê colocaria o Spock ou o Kirk no comando?\n\nEdição completa em fontedemana.com.br\nValores em reais pela cotação de 28 out (Banco Central, PTAX).\n\n#startrek #commander #mtg",
+  "threadsPost": "Saiu a lista do Landing Party, o precon de Commander do Spock em Star Trek. Verde, branco e azul, deck de terrenos: o Spock conjura de graça o topo do grimório se o custo couber no número de terrenos com nomes diferentes. A reimpressão mais cara é Exploration, a partir de US$ 29,53 (R$ 157,75). Chega às lojas em 13 de novembro. Spock ou Kirk no comando? fontedemana.com.br\nValores em reais pela cotação de 28 out (Banco Central, PTAX).",
+  "threadsFio": [
+   "Saiu a lista do Landing Party, o último dos quatro precons de Commander de Star Trek. É o deck do Comandante Spock, em verde, branco e azul.",
+   "O Spock custa 5 manas. Quando entra ou ataca, revela o topo do grimório. Se for mágica com valor de mana até o número de terrenos com nomes diferentes que você controla, conjura de graça. Se for terreno, entra virado.",
+   "A alternativa é o Captain Kirk, de 4 manas, que dá +3/+3 às espaçonaves e busca um básico ou a Starship Enterprise. A Enterprise ganha marcadores a cada terreno que entra.",
+   "Reimpressões mais caras: Exploration, US$ 29,53 (R$ 157,75), Guardian Project, US$ 12,27 (R$ 65,55), Ancient Greenwarden, US$ 12,20 (R$ 65,17), Echo of Eons, US$ 9,75 (R$ 52,08). Tem ainda Lotus Cobra e Mutavault.",
+   "No Topdeck do Dia, Exploration: 1 mana, dois terrenos por turno. Edição completa em fontedemana.com.br\nValores em reais pela cotação de 28 out (Banco Central, PTAX)."
+  ],
+  "threadsAvulsos": [
+   {
+    "titulo": "Pergunta do dia",
+    "texto": "O Landing Party fecha os precons de Star Trek. Você levaria pelo Spock, pelas reimpressões como Exploration ou passaria?",
+    "obs": "Opções: pelo Spock, pelas reimpressões, não levaria"
+   }
+  ]
+ },
+ "pauta": {
+  "forca": "forte",
+  "porque": "Revelação da lista completa de um precon de Commander, publicada depois da última edição, com reimpressões e preços.",
+  "storyPergunta": "Você compraria o precon do Spock?",
+  "enquete": {
+   "pergunta": "Quem você deixaria no comando do Landing Party?",
+   "opcoes": [
+    "Spock",
+    "Kirk",
+    "Nenhum"
+   ]
+  }
+ }
+}
