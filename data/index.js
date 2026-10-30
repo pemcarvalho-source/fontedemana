@@ -1,6 +1,7 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "Exploration",
   "Shared Animosity",
   "Thrasios, Triton Hero",
   "Skullclamp",
@@ -23,6 +24,13 @@ window.MANA_POOL_INDEX = {
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 25,
+   "date": "2026-10-30",
+   "dateLabel": "Sexta, 30 de outubro de 2026",
+   "head": "Landing Party tem lista completa, com Spock e Exploration",
+   "biome": "M"
+  },
   {
    "n": 24,
    "date": "2026-10-29",
