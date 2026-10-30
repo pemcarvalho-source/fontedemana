@@ -7,18 +7,18 @@
  "carta": "pauta/2026-10-31/tiktok/carta.jpg",
  "credito": "Arte: Ashling, the Limitless, Kai Carpenter",
  "fx": "Reais pela cotação de 28 out (Banco Central, PTAX)",
- "legenda": "Commander com teto de R$ 500: levei o deck de Ashling, the Limitless ao Duel Commander 500 da MTG Brasil, em São Paulo. Nos testes, 2 vitórias em 7. No torneio, venci 2 de 3 rodadas. A vitória mais bonita: Jubilation evocada por 4 manas, a ficha volta e tudo fica +4/+4 com atropelar. Dá para jogar Commander com teto de R$ 500? A sua loja joga DC500?\n\nValores em reais pela cotação de 28 out (Banco Central, PTAX).\n\nAs quatro vitórias passo a passo e o jornal de Magic de todo dia em fontedemana.com.br\n\n#ashling #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
- "comentario": "Commander com teto de R$ 500 pela LigaMagic: a sua loja já joga DC500? E você jogaria: com deck novo dentro do teto ou adaptando um que já tem? As quatro vitórias da Ashling estão em fontedemana.com.br",
+ "legenda": "Commander com teto de R$ 500: levei o precon da Ashling, the Limitless com upgrade ao Duel Commander 500 da MTG Brasil, em São Paulo, e venci 2 de 3 rodadas. Uma das partidas foi da Jubilation, carta de US$ 0,25 (R$ 1,34): evocada por 4 manas, a ficha volta e tudo fica +4/+4 com atropelar. Regra 603.3b: você escolhe a ordem dos seus gatilhos. Qual loja da sua cidade organiza DC500?\n\nValores em reais pela cotação de 28 out (Banco Central, PTAX).\n\nAs quatro vitórias passo a passo e o jornal de Magic de todo dia em fontedemana.com.br\n\n#ashling #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
+ "comentario": "Qual loja da sua cidade organiza DC500? Commander 1x1 com a lista inteira valendo até R$ 500 pela LigaMagic. As quatro vitórias da Ashling estão em fontedemana.com.br",
  "cenas": [
   {
    "tipo": "rosto",
    "cor": "G",
    "chip": "DC500",
-   "kicker": "Torneio na MTG Brasil",
-   "titulo": "Perdi 5 de 7 no teste. Venci 2 de 3 no torneio",
-   "narracao": "No teste, perdi 5 de 7. No torneio, venci 2 de 3 rodadas.",
-   "gravar": "Olhando para a câmera, com a carta da Ashling na mão. Mostra a carta no começo e abre um sorriso no venci",
-   "segundos": 5.4
+   "kicker": "Ashling, precon com upgrade",
+   "titulo": "Uma carta de 1 real venceu uma partida no torneio",
+   "narracao": "Uma carta de 1 real venceu uma partida no torneio.",
+   "gravar": "Olhando para a câmera, com a carta da Ashling na mão. Mostra a carta no 1 real e sorri no venceu",
+   "segundos": 4.3
   },
   {
    "tipo": "carta",
@@ -50,9 +50,9 @@
    "kicker": "A ordem dos gatilhos",
    "titulo": "Sacrifício primeiro, bônus por último",
    "sub": "A ficha entra e dá +2/+2, depois a original dá mais +2/+2",
-   "rodape": "Todas as criaturas com +4/+4 e atropelar",
-   "narracao": "Sacrifício primeiro. A ficha entra e dá +2/+2, depois a original dá mais +2/+2.",
-   "segundos": 5.8
+   "rodape": "Regra 603.3b: você escolhe a ordem dos seus gatilhos",
+   "narracao": "Sacrifício primeiro, a regra deixa escolher. A ficha dá +2/+2, e a original dá mais +2/+2.",
+   "segundos": 6.5
   },
   {
    "tipo": "texto",
@@ -66,10 +66,10 @@
   {
    "tipo": "rosto",
    "cor": "W",
-   "kicker": "E na sua loja?",
-   "titulo": "Commander com teto de R$ 500?",
+   "kicker": "E na sua cidade?",
+   "titulo": "Qual loja organiza DC500?",
    "sub": "Duel Commander 500: lista com teto pela LigaMagic",
-   "narracao": "Commander com teto de 500 reais. Sua loja joga?",
+   "narracao": "E aí, qual loja da sua cidade organiza DC500?",
    "gravar": "Segurando o deck box com a Ashling por cima, pergunta olhando para a câmera",
    "segundos": 3.9
   }
