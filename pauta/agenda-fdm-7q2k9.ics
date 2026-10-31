@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-10-27-gravacao@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261026T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -57,7 +57,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-tiktok@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261027T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Dicionário do Commander #3\, mana dork
@@ -90,7 +90,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-threads-manha@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261027T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Você compraria pelo deck da Borg Q
@@ -112,7 +112,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-stories-manha@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261027T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -132,7 +132,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-feed@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261027T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 22
@@ -176,7 +176,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261027T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -195,7 +195,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-threads-tarde@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261027T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -221,7 +221,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-stories-tarde@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261027T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -241,7 +241,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-reels@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261027T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Dicionário do Commander #3: o que é
@@ -279,7 +279,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-27-comentarios@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261028T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -301,7 +301,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-gravacao@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261027T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -345,7 +345,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-tiktok@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261028T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Combo da semana #1\, Exquisite Blood e Sanguine Bond
@@ -380,7 +380,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-threads-manha@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261028T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Qual você pegaria primeiro: Lower 
@@ -403,7 +403,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-stories-manha@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261028T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -423,7 +423,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-feed@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261028T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 23
@@ -465,7 +465,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261028T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -484,7 +484,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-threads-tarde@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261028T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -507,7 +507,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-stories-tarde@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261028T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -527,7 +527,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-reels@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261028T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Combo da semana #1: Exquisite Blood e
@@ -567,7 +567,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-comentarios@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261029T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -589,7 +589,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-gravacao@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261028T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -628,7 +628,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-tiktok@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261029T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Top 5 #3: os zumbis do Commander
@@ -663,7 +663,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-stories-dc500@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261029T210000Z
 DURATION:PT15M
 SUMMARY:18:00 Instagram Stories: Ashling no DC500 da MTG Brasil (2 Stories)
@@ -691,7 +691,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-threads-manha@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261029T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Qual você deixaria no comando?
@@ -711,7 +711,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-stories-manha@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261029T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -731,7 +731,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-feed@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261029T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 24
@@ -775,7 +775,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261029T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -794,7 +794,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-threads-tarde@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261029T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -819,7 +819,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-stories-tarde@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261029T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -839,7 +839,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-reels@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261029T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Top 5 #3: os zumbis que mais aparecem
@@ -879,7 +879,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-comentarios@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261030T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -901,7 +901,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-gravacao@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261029T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -935,7 +935,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-tiktok@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261030T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Chama o Juiz #3\, Fiend Hunter e o comandante exilado
@@ -965,7 +965,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-threads-manha@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261030T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Você levaria pelo Spock\, pelas re
@@ -987,7 +987,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-stories-manha@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261030T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -1007,7 +1007,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-feed@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261030T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 25
@@ -1049,7 +1049,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261030T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -1068,7 +1068,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-threads-tarde@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261030T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -1094,7 +1094,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-stories-tarde@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261030T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1114,7 +1114,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-reels@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261030T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Chama o Juiz #3: Fiend Hunter exilou 
@@ -1152,7 +1152,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-comentarios@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261031T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1174,7 +1174,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-gravacao@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261030T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -1227,35 +1227,34 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-tiktok@fontedemana.com.br
-DTSTAMP:20261030T231908Z
+DTSTAMP:20261031T011158Z
 DTSTART:20261031T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Radar DC500\, a Ashling no torneio
 DESCRIPTION:Vídeo do Radar DC500: o precon da Ashling\, the Limitless com 
  upgrade\, que venceu 2 de 3 rodadas no DC500 da MTG Brasil\, com a Jubilat
- ion de 1 real e a ordem dos gatilhos.\n\nArquivos:\n- Vídeo do TikTok (mu
- do): https://fontedemana.com.br/pauta/2026-10-31/tiktok/tiktok-mudo.mp4\n\
- nLegenda:\nCommander com teto de R$ 500: levei o precon da Ashling\, the L
- imitless com upgrade ao Duel Commander 500 da MTG Brasil\, em São Paulo\,
-  e venci 2 de 3 rodadas. Uma das partidas foi da Jubilation\, carta de US$
-  0\,25 (R$ 1\,34): evocada por 4 manas\, a ficha volta e tudo fica +4/+4 c
- om atropelar. Regra 603.3b: você escolhe a ordem dos seus gatilhos. Qual 
- loja da sua cidade organiza DC500?\n\nValores em reais pela cotação de 2
- 8 out (Banco Central\, PTAX).\n\nAs quatro vitórias passo a passo e o jor
- nal de Magic de todo dia em fontedemana.com.br\n\n#ashling #commander #mtg
- \n\nFonte de Mana is unofficial Fan Content permitted under the Fan Conten
- t Policy. Not approved/endorsed by Wizards. Portions of the materials used
-  are property of Wizards of the Coast. ©Wizards of the Coast LLC.\n\nCome
- ntário fixado:\nQual loja da sua cidade organiza DC500? Commander 1x1 com
-  a lista inteira valendo até R$ 500 pela LigaMagic. As quatro vitórias d
- a Ashling estão em fontedemana.com.br\n\nPasso a passo:\n1. Poste com um 
- som em alta da biblioteca do TikTok\, volume entre 15% e 20%.\n2. Voz pró
- pria não precisa de rótulo de IA.\n3. Marque a loja MTG Brasil (São Pau
- lo) como local.\n4. Fixe o comentário logo depois de postar.\n5. Se os v
- ídeos da gravação não chegarem\, poste o vídeo mudo com uma música e
- m alta.\n\nValores em reais pela cotação de 28 out\, US$ 1 = R$ 5\,342 (
- Banco Central\, PTAX).\n\nPauta completa: https://fontedemana.com.br/pauta
- /2026-10-31/#tiktok
+ ion de 1 real e a ordem dos gatilhos.\n\nArquivos:\n- Vídeo do TikTok nar
+ rado: https://fontedemana.com.br/pauta/2026-10-31/tiktok/tiktok-narrado.mp
+ 4\n\nLegenda:\nCommander com teto de R$ 500: levei o precon da Ashling\, t
+ he Limitless com upgrade ao Duel Commander 500 da MTG Brasil\, em São Pau
+ lo\, e venci 2 de 3 rodadas. Uma das partidas foi da Jubilation\, carta de
+  US$ 0\,25 (R$ 1\,34): evocada por 4 manas\, a ficha volta e tudo fica +4/
+ +4 com atropelar. Regra 603.3b: você escolhe a ordem dos seus gatilhos. Q
+ ual loja da sua cidade organiza DC500?\n\nValores em reais pela cotação 
+ de 28 out (Banco Central\, PTAX).\n\nAs quatro vitórias passo a passo e o
+  jornal de Magic de todo dia em fontedemana.com.br\n\n#ashling #commander 
+ #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Co
+ ntent Policy. Not approved/endorsed by Wizards. Portions of the materials 
+ used are property of Wizards of the Coast. ©Wizards of the Coast LLC.\n\n
+ Comentário fixado:\nQual loja da sua cidade organiza DC500? Commander 1x1
+  com a lista inteira valendo até R$ 500 pela LigaMagic. As quatro vitóri
+ as da Ashling estão em fontedemana.com.br\n\nPasso a passo:\n1. Poste com
+  um som em alta da biblioteca do TikTok\, volume entre 15% e 20%.\n2. Voz 
+ própria não precisa de rótulo de IA.\n3. Marque a loja MTG Brasil (São
+  Paulo) como local.\n4. Fixe o comentário logo depois de postar.\n\nValor
+ es em reais pela cotação de 28 out\, US$ 1 = R$ 5\,342 (Banco Central\, 
+ PTAX).\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-31/#tik
+ tok
 URL:https://fontedemana.com.br/pauta/2026-10-31/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
