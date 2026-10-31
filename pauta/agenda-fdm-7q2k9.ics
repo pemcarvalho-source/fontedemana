@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-10-28-gravacao@fontedemana.com.br
-DTSTAMP:20261031T092419Z
+DTSTAMP:20261031T102143Z
 DTSTART:20261027T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -53,7 +53,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-tiktok@fontedemana.com.br
-DTSTAMP:20261031T092419Z
+DTSTAMP:20261031T102143Z
 DTSTART:20261028T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Combo da semana #1\, Exquisite Blood e Sanguine Bond
@@ -88,7 +88,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-threads-manha@fontedemana.com.br
-DTSTAMP:20261031T092419Z
+DTSTAMP:20261031T102143Z
 DTSTART:20261028T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Qual você pegaria primeiro: Lower 
@@ -111,7 +111,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-stories-manha@fontedemana.com.br
-DTSTAMP:20261031T092419Z
+DTSTAMP:20261031T102143Z
 DTSTART:20261028T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -131,7 +131,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-feed@fontedemana.com.br
-DTSTAMP:20261031T092419Z
+DTSTAMP:20261031T102143Z
 DTSTART:20261028T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 23
@@ -173,7 +173,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261031T092419Z
+DTSTAMP:20261031T102143Z
 DTSTART:20261028T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -192,7 +192,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-threads-tarde@fontedemana.com.br
-DTSTAMP:20261031T092419Z
+DTSTAMP:20261031T102143Z
 DTSTART:20261028T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -215,7 +215,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-stories-tarde@fontedemana.com.br
-DTSTAMP:20261031T092419Z
+DTSTAMP:20261031T102143Z
 DTSTART:20261028T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -235,7 +235,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-reels@fontedemana.com.br
-DTSTAMP:20261031T092419Z
+DTSTAMP:20261031T102143Z
 DTSTART:20261028T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Combo da semana #1: Exquisite Blood e
@@ -275,7 +275,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-comentarios@fontedemana.com.br
-DTSTAMP:20261031T092419Z
+DTSTAMP:20261031T102143Z
 DTSTART:20261029T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -297,7 +297,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-gravacao@fontedemana.com.br
-DTSTAMP:20261031T092419Z
+DTSTAMP:20261031T102143Z
 DTSTART:20261028T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -336,7 +336,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-tiktok@fontedemana.com.br
-DTSTAMP:20261031T092419Z
+DTSTAMP:20261031T102143Z
 DTSTART:20261029T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Top 5 #3: os zumbis do Commander
@@ -371,7 +371,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-stories-dc500@fontedemana.com.br
-DTSTAMP:20261031T092419Z
+DTSTAMP:20261031T102143Z
 DTSTART:20261029T210000Z
 DURATION:PT15M
 SUMMARY:18:00 Instagram Stories: Ashling no DC500 da MTG Brasil (2 Stories)
@@ -399,7 +399,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-threads-manha@fontedemana.com.br
-DTSTAMP:20261031T092419Z
+DTSTAMP:20261031T102143Z
 DTSTART:20261029T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Qual você deixaria no comando?
@@ -419,7 +419,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-stories-manha@fontedemana.com.br
-DTSTAMP:20261031T092419Z
+DTSTAMP:20261031T102143Z
 DTSTART:20261029T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -439,7 +439,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-feed@fontedemana.com.br
-DTSTAMP:20261031T092419Z
+DTSTAMP:20261031T102143Z
 DTSTART:20261029T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 24
@@ -483,7 +483,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261031T092419Z
+DTSTAMP:20261031T102143Z
 DTSTART:20261029T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -502,7 +502,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-threads-tarde@fontedemana.com.br
-DTSTAMP:20261031T092419Z
+DTSTAMP:20261031T102143Z
 DTSTART:20261029T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -527,7 +527,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-stories-tarde@fontedemana.com.br
-DTSTAMP:20261031T092419Z
+DTSTAMP:20261031T102143Z
 DTSTART:20261029T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -547,7 +547,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-reels@fontedemana.com.br
-DTSTAMP:20261031T092419Z
+DTSTAMP:20261031T102143Z
 DTSTART:20261029T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Top 5 #3: os zumbis que mais aparecem
@@ -587,7 +587,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-comentarios@fontedemana.com.br
-DTSTAMP:20261031T092419Z
+DTSTAMP:20261031T102143Z
 DTSTART:20261030T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -609,7 +609,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-gravacao@fontedemana.com.br
-DTSTAMP:20261031T092419Z
+DTSTAMP:20261031T102143Z
 DTSTART:20261029T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -643,7 +643,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-tiktok@fontedemana.com.br
-DTSTAMP:20261031T092419Z
+DTSTAMP:20261031T102143Z
 DTSTART:20261030T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Chama o Juiz #3\, Fiend Hunter e o comandante exilado
@@ -673,7 +673,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-threads-manha@fontedemana.com.br
-DTSTAMP:20261031T092419Z
+DTSTAMP:20261031T102143Z
 DTSTART:20261030T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Você levaria pelo Spock\, pelas re
@@ -695,7 +695,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-stories-manha@fontedemana.com.br
-DTSTAMP:20261031T092419Z
+DTSTAMP:20261031T102143Z
 DTSTART:20261030T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -715,7 +715,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-feed@fontedemana.com.br
-DTSTAMP:20261031T092419Z
+DTSTAMP:20261031T102143Z
 DTSTART:20261030T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 25
@@ -757,7 +757,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261031T092419Z
+DTSTAMP:20261031T102143Z
 DTSTART:20261030T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -776,7 +776,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-threads-tarde@fontedemana.com.br
-DTSTAMP:20261031T092419Z
+DTSTAMP:20261031T102143Z
 DTSTART:20261030T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -802,7 +802,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-stories-tarde@fontedemana.com.br
-DTSTAMP:20261031T092419Z
+DTSTAMP:20261031T102143Z
 DTSTART:20261030T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -822,7 +822,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-reels@fontedemana.com.br
-DTSTAMP:20261031T092419Z
+DTSTAMP:20261031T102143Z
 DTSTART:20261030T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Chama o Juiz #3: Fiend Hunter exilou 
@@ -860,7 +860,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-comentarios@fontedemana.com.br
-DTSTAMP:20261031T092419Z
+DTSTAMP:20261031T102143Z
 DTSTART:20261031T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -882,7 +882,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-gravacao@fontedemana.com.br
-DTSTAMP:20261031T092419Z
+DTSTAMP:20261031T102143Z
 DTSTART:20261030T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -923,9 +923,9 @@ DESCRIPTION:Radar DC500: o precon da Ashling com upgrade no Duel Commander
  as cenas sem rosto\, só a voz conta: pode gravar em vídeo ou só o áudi
  o.\n7. Mande os vídeos ao Claude no projeto MGT strategy (pode ser respon
  dendo à mensagem desta tarefa) dizendo "vídeos do TikTok de 2026-10-31".
- \n\nValores em reais pela cotação de 28 out\, US$ 1 = R$ 5\,342 (Banco C
- entral\, PTAX).\n\nPauta completa: https://fontedemana.com.br/pauta/2026-1
- 0-31/#gravacao
+ \n\nValores em reais pela cotação de 29 out\, US$ 1 = R$ 5\,3744 (Banco 
+ Central\, PTAX).\n\nPauta completa: https://fontedemana.com.br/pauta/2026-
+ 10-31/#gravacao
 URL:https://fontedemana.com.br/pauta/2026-10-31/#gravacao
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -935,7 +935,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-tiktok@fontedemana.com.br
-DTSTAMP:20261031T092419Z
+DTSTAMP:20261031T102143Z
 DTSTART:20261031T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Radar DC500\, a Ashling no torneio
@@ -960,13 +960,221 @@ DESCRIPTION:Vídeo do Radar DC500: o precon da Ashling\, the Limitless com
   um som em alta da biblioteca do TikTok\, volume entre 15% e 20%.\n2. Voz 
  própria não precisa de rótulo de IA.\n3. Marque a loja MTG Brasil (São
   Paulo) como local.\n4. Fixe o comentário logo depois de postar.\n\nValor
- es em reais pela cotação de 28 out\, US$ 1 = R$ 5\,342 (Banco Central\, 
- PTAX).\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-31/#tik
- tok
+ es em reais pela cotação de 29 out\, US$ 1 = R$ 5\,3744 (Banco Central\,
+  PTAX).\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-31/#ti
+ ktok
 URL:https://fontedemana.com.br/pauta/2026-10-31/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:TikTok: Radar DC500\, a Ashling no torneio
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-31-threads-manha@fontedemana.com.br
+DTSTAMP:20261031T102143Z
+DTSTART:20261031T133000Z
+DURATION:PT15M
+SUMMARY:10:30 Threads: Pergunta do dia: Você vende a sua agora\, guarda pa
+ ra o deck ou nem…
+DESCRIPTION:Pergunta para puxar conversa sobre a notícia do dia.\n\nPost:\
+ nSphinx Sovereign subiu 223% por causa da The Ur-Sphinx. Você vende a sua
+  agora\, guarda para o deck ou nem tem?\n\nPasso a passo:\n1. Abra o Threa
+ ds e cole o Post.\n2. Dica: Opções: vendo agora\, guardo para o deck\, n
+ ão tenho\n3. Toque em Adicionar tópico e escolha MTG.\n4. Publique e res
+ ponda quem comentar na primeira hora.\n\nPauta completa: https://fontedema
+ na.com.br/pauta/2026-10-31/#threads-manha
+URL:https://fontedemana.com.br/pauta/2026-10-31/#threads-manha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Pergunta do dia: Você vende a sua agora\, guarda para
+  o deck ou nem…
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-31-stories-manha@fontedemana.com.br
+DTSTAMP:20261031T102143Z
+DTSTART:20261031T133000Z
+DURATION:PT15M
+SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
+DESCRIPTION:Story com a capa da edição 26 (Sphinx Sovereign sobe 223% com
+  a Ur-Sphinx) e um sticker de pergunta para puxar a conversa.\n\nArquivos:
+ \n- Capa da edição 26: https://fontedemana.com.br/kit/ed26/carrossel-01.
+ jpg\n\nPasso a passo:\n1. Baixe a capa e poste no Story.\n2. Adicione o st
+ icker de Pergunta no terço de baixo\, sem cobrir o título: Você tem alg
+ uma esfinge parada no fichário?\n3. Publique.\n\nPauta completa: https://
+ fontedemana.com.br/pauta/2026-10-31/#stories-manha
+URL:https://fontedemana.com.br/pauta/2026-10-31/#stories-manha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Capa do jornal com sticker de pergunta
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-31-feed@fontedemana.com.br
+DTSTAMP:20261031T102143Z
+DTSTART:20261031T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram feed: Carrossel da edição 26
+DESCRIPTION:Carrossel de 5 imagens da edição 26: Sphinx Sovereign sobe 22
+ 3% com a Ur-Sphinx\, Topdeck: Olivia Voldaren.\n\nArquivos:\n- Imagem 1 de
+  5: https://fontedemana.com.br/kit/ed26/carrossel-01.jpg\n- Imagem 2 de 5:
+  https://fontedemana.com.br/kit/ed26/carrossel-02.jpg\n- Imagem 3 de 5: ht
+ tps://fontedemana.com.br/kit/ed26/carrossel-03.jpg\n- Imagem 4 de 5: https
+ ://fontedemana.com.br/kit/ed26/carrossel-04.jpg\n- Imagem 5 de 5: https://
+ fontedemana.com.br/kit/ed26/carrossel-05.jpg\n\nLegenda:\nCarta de Magic e
+ m alta no Commander: Sphinx Sovereign subiu 223% na semana e foi a US$ 10\
+ ,35 (R$ 55\,63)\, segundo o Weekly Winners do MTGStocks.\n\nO motivo é a 
+ The Ur-Sphinx\, comandante de Reality Fracture que deixa as outras mágica
+ s de Esfinge 1 mana mais baratas. Polymorph subiu 190%\, a US$ 9\,99 (R$ 5
+ 3\,69)\, porque combina com as fichas do Jace\, Multiverse Architect. E Br
+ onzebeak Foragers subiu 122%\, a US$ 3\,25 (R$ 17\,47)\, puxada pela Dack 
+ Fayden.\n\nNo Topdeck de Halloween\, Olivia Voldaren\, a vampira que morde
+  a mesa inteira e depois rouba quem virou Vampiro.\n\nVocê tem alguma des
+ sas esfinges parada no fichário?\n\nEdição completa em fontedemana.com.
+ br\n\nArtes: Sphinx Sovereign\, de Chippy. Olivia Voldaren\, de Eric Desch
+ amps.\nValores em reais pela cotação de 29 out (Banco Central\, PTAX).\n
+ \n#halloween #commander #mtg\n\nFonte de Mana is unofficial Fan Content pe
+ rmitted under the Fan Content Policy. Not approved/endorsed by Wizards. Po
+ rtions of the materials used are property of Wizards of the Coast. ©Wizar
+ ds of the Coast LLC.\n\nPasso a passo:\n1. No Instagram\, toque em + e esc
+ olha Post.\n2. Selecione as 5 imagens na ordem\, da 1 à 5.\n3. Toque em A
+ dicionar música e escolha uma em alta que combine com o tema.\n4. Cole a 
+ Legenda e publique.\n\nValores em reais pela cotação de 29 out\, US$ 1 =
+  R$ 5\,3744 (Banco Central\, PTAX).\n\nPauta completa: https://fontedemana
+ .com.br/pauta/2026-10-31/#feed
+URL:https://fontedemana.com.br/pauta/2026-10-31/#feed
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram feed: Carrossel da edição 26
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-31-stories-meio-dia@fontedemana.com.br
+DTSTAMP:20261031T102143Z
+DTSTART:20261031T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
+DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
+ .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
+ e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
+ o do post: Sphinx Sovereign subiu 223%. O que você faz? com Vendo agora\,
+  Guardo para o deck e Não tenho.\n3. Publique.\n\nPauta completa: https:/
+ /fontedemana.com.br/pauta/2026-10-31/#stories-meio-dia
+URL:https://fontedemana.com.br/pauta/2026-10-31/#stories-meio-dia
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-31-threads-tarde@fontedemana.com.br
+DTSTAMP:20261031T102143Z
+DTSTART:20261031T180000Z
+DURATION:PT15M
+SUMMARY:15:00 Threads: Notícia do dia num post só
+DESCRIPTION:A edição 26 contada num post só\, sem fio: nos fios\, quase 
+ ninguém passava do primeiro post.\n\nPost:\nSphinx Sovereign subiu 223% n
+ a semana e foi a US$ 10\,35 (R$ 55\,63)\, segundo o MTGStocks. A culpa é 
+ da The Ur-Sphinx\, comandante de Reality Fracture que barateia as outras e
+ sfinges. Polymorph subiu 190%\, a US$ 9\,99 (R$ 53\,69)\, com o Jace. Voc
+ ê montaria a Ur-Sphinx com as esfinges mais caras? fontedemana.com.br\nVa
+ lores em reais pela cotação de 29 out (Banco Central\, PTAX).\n\nPasso a
+  passo:\n1. No Threads\, cole o Post\, sem sequência.\n2. Toque em Adicio
+ nar tópico e escolha MTG.\n3. Publique e responda quem comentar na primei
+ ra hora.\n\nValores em reais pela cotação de 29 out\, US$ 1 = R$ 5\,3744
+  (Banco Central\, PTAX).\n\nPauta completa: https://fontedemana.com.br/pau
+ ta/2026-10-31/#threads-tarde
+URL:https://fontedemana.com.br/pauta/2026-10-31/#threads-tarde
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Notícia do dia num post só
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-31-stories-tarde@fontedemana.com.br
+DTSTAMP:20261031T102143Z
+DTSTART:20261031T180000Z
+DURATION:PT15M
+SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
+DESCRIPTION:Story com a imagem de Olivia Voldaren no Topdeck do Dia e o sti
+ cker de link para a edição completa.\n\nArquivos:\n- Topdeck do Dia: htt
+ ps://fontedemana.com.br/kit/ed26/carrossel-03.jpg\n\nPasso a passo:\n1. Ba
+ ixe a imagem e poste no Story.\n2. Adicione o sticker de Link para fontede
+ mana.com.br com o texto Edição completa\, embaixo do texto do Topdeck.\n
+ 3. Publique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-3
+ 1/#stories-tarde
+URL:https://fontedemana.com.br/pauta/2026-10-31/#stories-tarde
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Topdeck do Dia com link
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-31-reels@fontedemana.com.br
+DTSTAMP:20261031T102143Z
+DTSTART:20261031T220000Z
+DURATION:PT15M
+SUMMARY:19:00 Reels: Vídeo original: Ashling no DC500: perdeu 5 de 7 nos t
+ estes e venceu…
+DESCRIPTION:O vídeo original de hoje no Instagram\, o mesmo arquivo do Tik
+ Tok\, já narrado. É o formato que mais chega a quem não segue.\n\nArqui
+ vos:\n- Vídeo original narrado: https://fontedemana.com.br/pauta/2026-10-
+ 31/tiktok/tiktok-narrado.mp4\n\nLegenda:\nCommander com teto de R$ 500: le
+ vei o precon da Ashling\, the Limitless com upgrade ao Duel Commander 500 
+ da MTG Brasil\, em São Paulo\, e venci 2 de 3 rodadas. Uma das partidas f
+ oi da Jubilation\, carta de US$ 0\,25 (R$ 1\,34): evocada por 4 manas\, o 
+ token volta e tudo fica +4/+4 com atropelar. Regra 603.3b: você escolhe a
+  ordem dos seus gatilhos. Qual loja da sua cidade organiza DC500?\n\nValor
+ es em reais pela cotação de 28 out (Banco Central\, PTAX).\n\nAs quatro 
+ vitórias passo a passo e o jornal de Magic de todo dia em fontedemana.com
+ .br\n\n#ashling #commander #mtg\n\nFonte de Mana is unofficial Fan Content
+  permitted under the Fan Content Policy. Not approved/endorsed by Wizards.
+  Portions of the materials used are property of Wizards of the Coast. ©Wi
+ zards of the Coast LLC.\n\nComentário fixado:\nQual loja da sua cidade or
+ ganiza DC500? Commander 1x1 com a lista inteira valendo até R$ 500 pela L
+ igaMagic. As quatro vitórias da Ashling estão em fontedemana.com.br\n\nP
+ asso a passo:\n1. No Instagram\, toque em + e escolha Reel.\n2. Escolha o 
+ vídeo baixado daqui\, nunca o salvo do TikTok (o Instagram derruba vídeo
+  com marca d'água).\n3. Em Áudio\, ponha uma música em alta da bibliote
+ ca do Instagram com volume baixo (uns 10%)\, sem cobrir a voz.\n4. Na capa
+ \, use o primeiro quadro\, o do gancho.\n5. Cole a Legenda e publique.\n6.
+  Fixe o comentário e responda quem comentar na primeira hora.\n\nValores 
+ em reais pela cotação de 29 out\, US$ 1 = R$ 5\,3744 (Banco Central\, PT
+ AX).\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-31/#reels
+URL:https://fontedemana.com.br/pauta/2026-10-31/#reels
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reels: Vídeo original: Ashling no DC500: perdeu 5 de 7 nos tes
+ tes e venceu…
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-10-31-comentarios@fontedemana.com.br
+DTSTAMP:20261031T102143Z
+DTSTART:20261101T003000Z
+DURATION:PT15M
+SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
+DESCRIPTION:Uns 10 minutos nas três redes: curtir e responder os comentár
+ ios das últimas 48 horas\, começando pelo vídeo e pelo carrossel de hoj
+ e. Conversa nos comentários leva a peça a mais gente\, e o Instagram rec
+ omenda responder em até 2 dias.\n\nPasso a passo:\n1. Instagram: nas noti
+ ficações\, curta os comentários e responda com uma frase quem perguntou
+  ou discordou.\n2. TikTok e Threads: o mesmo\, começando pelo post com ma
+ is comentários.\n3. Pergunta boa ou dúvida que se repete\, nos comentár
+ ios ou nas DMs? Mande na conversa do projeto: vira tema de um pilar.\n\nPa
+ uta completa: https://fontedemana.com.br/pauta/2026-10-31/#comentarios
+URL:https://fontedemana.com.br/pauta/2026-10-31/#comentarios
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Comentários: Responder os comentários de hoje e de ontem
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
