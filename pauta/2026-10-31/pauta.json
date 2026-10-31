@@ -24,8 +24,8 @@
     },
     {
      "cena": "Cena 2, só a voz, uns 6 s",
-     "tela": "Ashling, the Limitless. Elemental por 4 manas, e ele volta como ficha",
-     "fala": "O motor é a Ashling. Elemental sai por 4 manas e, sacrificado, volta como ficha.",
+     "tela": "Ashling, the Limitless. Elemental por 4 manas, e ele volta como token",
+     "fala": "O motor é a Ashling. Elemental sai por 4 manas e, sacrificado, volta como token.",
      "como": "Só a voz: pode gravar em vídeo ou áudio"
     },
     {
@@ -36,14 +36,14 @@
     },
     {
      "cena": "Cena 4, só a voz, uns 6 s",
-     "tela": "Sacrifício primeiro, bônus por último. A ficha entra e dá +2/+2, depois a original dá mais +2/+2. Regra 603.3b: você escolhe a ordem dos seus gatilhos",
-     "fala": "Sacrifício primeiro, a regra deixa escolher. A ficha dá +2/+2, e a original dá mais +2/+2.",
+     "tela": "Sacrifício primeiro, bônus por último. O token entra e dá +2/+2, depois a original dá mais +2/+2. Regra 603.3b: você escolhe a ordem dos seus gatilhos",
+     "fala": "Sacrifício primeiro, a regra deixa escolher. O token dá +2/+2, e a original dá mais +2/+2.",
      "como": "Só a voz: pode gravar em vídeo ou áudio"
     },
     {
      "cena": "Cena 5, só a voz, uns 3 s",
-     "tela": "Ficha 9/9 com ímpeto e atropelar. Atacando no mesmo turno, num jogo a 20 de vida",
-     "fala": "Ficha 9/9 com atropelar, atacando na hora.",
+     "tela": "Token 9/9 com ímpeto e atropelar. Atacando no mesmo turno, num jogo a 20 de vida",
+     "fala": "Token 9/9 com atropelar, atacando na hora.",
      "como": "Só a voz: pode gravar em vídeo ou áudio"
     },
     {
@@ -78,7 +78,7 @@
    "textos": [
     {
      "rotulo": "Legenda",
-     "texto": "Commander com teto de R$ 500: levei o precon da Ashling, the Limitless com upgrade ao Duel Commander 500 da MTG Brasil, em São Paulo, e venci 2 de 3 rodadas. Uma das partidas foi da Jubilation, carta de US$ 0,25 (R$ 1,34): evocada por 4 manas, a ficha volta e tudo fica +4/+4 com atropelar. Regra 603.3b: você escolhe a ordem dos seus gatilhos. Qual loja da sua cidade organiza DC500?\n\nValores em reais pela cotação de 28 out (Banco Central, PTAX).\n\nAs quatro vitórias passo a passo e o jornal de Magic de todo dia em fontedemana.com.br\n\n#ashling #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+     "texto": "Commander com teto de R$ 500: levei o precon da Ashling, the Limitless com upgrade ao Duel Commander 500 da MTG Brasil, em São Paulo, e venci 2 de 3 rodadas. Uma das partidas foi da Jubilation, carta de US$ 0,25 (R$ 1,34): evocada por 4 manas, o token volta e tudo fica +4/+4 com atropelar. Regra 603.3b: você escolhe a ordem dos seus gatilhos. Qual loja da sua cidade organiza DC500?\n\nValores em reais pela cotação de 28 out (Banco Central, PTAX).\n\nAs quatro vitórias passo a passo e o jornal de Magic de todo dia em fontedemana.com.br\n\n#ashling #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
     },
     {
      "rotulo": "Comentário fixado",

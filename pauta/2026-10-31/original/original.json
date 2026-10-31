@@ -11,7 +11,7 @@
    "chip": "Radar DC500",
    "kicker": "Duel Commander 500 na MTG Brasil",
    "titulo": "Perdi 5 de 7 no teste. Venci <b>2 de 3</b> no torneio",
-   "sub": "O deck de <b>Ashling, the Limitless</b> com teto de R$ 500: cada Elemental sai por 4 manas e volta como ficha. As 4 vitórias, passo a passo.",
+   "sub": "O deck de <b>Ashling, the Limitless</b> com teto de R$ 500: cada Elemental sai por 4 manas e volta como token. As 4 vitórias, passo a passo.",
    "arte": "pauta/2026-10-31/tiktok/arte.jpg",
    "credito": "Arte: Ashling, the Limitless, Kai Carpenter"
   },
@@ -22,7 +22,7 @@
     "carta": "pauta/2026-10-31/original/carta-1.jpg",
     "itens": [
      {"cor": "G", "html": "Com Ashling, Muldrotha e Faeburrow Elder em campo, a Jubilation sai por <b>4</b>. O Faeburrow paga."},
-     {"cor": "G", "html": "<b>Sacrifício primeiro</b>: a ficha entra e dá +2/+2, depois a original dá mais +2/+2. Ficha 9/9 com ímpeto e atropelar."}
+     {"cor": "G", "html": "<b>Sacrifício primeiro</b>: o token entra e dá +2/+2, depois a original dá mais +2/+2. Token 9/9 com ímpeto e atropelar."}
     ],
     "fx": "Jubilation: US$ 0,25 (R$ 1,34), cotação de 28 out (Banco Central, PTAX)",
     "fonte": "Fonte: Scryfall, out 2026"
@@ -33,7 +33,7 @@
     "carta": "pauta/2026-10-31/original/carta-2.jpg",
     "itens": [
      {"cor": "R", "html": "O Elemental evocado entra e o Champion causa <b>dano igual ao poder dele</b> ao oponente."},
-     {"cor": "R", "html": "Sacrificado, volta como ficha e o Champion causa <b>o mesmo dano de novo</b>. A 20 de vida, poder 10 já mata."}
+     {"cor": "R", "html": "Sacrificado, volta como token e o Champion causa <b>o mesmo dano de novo</b>. A 20 de vida, poder 10 já mata."}
     ],
     "fonte": "Fonte: Scryfall, out 2026"
    },
@@ -43,7 +43,7 @@
     "carta": "pauta/2026-10-31/original/carta-3.jpg",
     "itens": [
      {"cor": "M", "html": "Com Ashling e Yarok em campo, o Maelstrom Wanderer sai por <b>4</b>, e a carta custa 8."},
-     {"cor": "M", "html": "A cascata dupla dispara mesmo evocado: <b>duas mágicas de graça</b>. A ficha dá ímpeto e o Yarok dobra as entradas."}
+     {"cor": "M", "html": "A cascata dupla dispara mesmo evocado: <b>duas mágicas de graça</b>. O token dá ímpeto e o Yarok dobra as entradas."}
     ],
     "fonte": "Fonte: Scryfall, out 2026"
    },
@@ -53,7 +53,7 @@
     "carta": "pauta/2026-10-31/original/carta-4.jpg",
     "itens": [
      {"cor": "R", "html": "Elemental sacrificado no Goblin Bombardment: <b>1 de dano</b>, e o Omnath, Locus of Rage dá <b>mais 3</b>."},
-     {"cor": "R", "html": "A ficha volta e o Champion causa dano igual ao poder dela. Depois a ficha vai pro Bombardment: <b>mais 1 e mais 3</b>."}
+     {"cor": "R", "html": "O token volta e o Champion causa dano igual ao poder dele. Depois o token vai pro Bombardment: <b>mais 1 e mais 3</b>."}
     ],
     "fonte": "Fonte: Scryfall, out 2026"
    },
@@ -74,7 +74,7 @@
    "salvar": "Salve para lembrar a ordem dos gatilhos na hora de jogar"
   }
  },
- "legenda": "Commander com teto de R$ 500: o deck de Ashling, the Limitless no Duel Commander 500. Dá para jogar Commander assim?\n\nNa quarta, 28/10, levei a Ashling ao DC500 da MTG Brasil, em São Paulo: 1x1, 20 de vida e lista com teto de R$ 500 pela LigaMagic. Nos testes, tinha perdido 5 de 7. No torneio, venci 2 x 1 e 2 x 0 e perdi a terceira rodada por 0 x 2.\n\nO motor: a Ashling deixa jogar qualquer Elemental da mão por 4 manas e, quando ele é sacrificado, devolve uma ficha cópia com ímpeto. Cada Elemental entra duas vezes.\n\nNo carrossel, as 4 vitórias passo a passo: Jubilation, Champion of the Path, Maelstrom Wanderer no turno 4 e Goblin Bombardment com Omnath. E o que derrubou o deck na última rodada.\n\nDados das cartas: Scryfall. Valores em reais pela cotação de 28 out (Banco Central, PTAX).\n\nO jornal de Magic de todo dia está em fontedemana.com.br\n\nA sua loja joga DC500? Você montaria um deck novo dentro do teto ou adaptaria um que já tem?\n\n#ashling #commander #mtg",
+ "legenda": "Commander com teto de R$ 500: o deck de Ashling, the Limitless no Duel Commander 500. Dá para jogar Commander assim?\n\nNa quarta, 28/10, levei a Ashling ao DC500 da MTG Brasil, em São Paulo: 1x1, 20 de vida e lista com teto de R$ 500 pela LigaMagic. Nos testes, tinha perdido 5 de 7. No torneio, venci 2 x 1 e 2 x 0 e perdi a terceira rodada por 0 x 2.\n\nO motor: a Ashling deixa jogar qualquer Elemental da mão por 4 manas e, quando ele é sacrificado, devolve um token cópia com ímpeto. Cada Elemental entra duas vezes.\n\nNo carrossel, as 4 vitórias passo a passo: Jubilation, Champion of the Path, Maelstrom Wanderer no turno 4 e Goblin Bombardment com Omnath. E o que derrubou o deck na última rodada.\n\nDados das cartas: Scryfall. Valores em reais pela cotação de 28 out (Banco Central, PTAX).\n\nO jornal de Magic de todo dia está em fontedemana.com.br\n\nA sua loja joga DC500? Você montaria um deck novo dentro do teto ou adaptaria um que já tem?\n\n#ashling #commander #mtg",
  "threads": {
   "texto": "Dá para começar no Commander com teto de R$ 500?\n\nNa quarta joguei o Duel Commander 500 da MTG Brasil, em São Paulo: 1x1, 20 de vida e a lista inteira valendo até R$ 500 pela LigaMagic. Fui de Ashling, the Limitless e venci 2 de 3 rodadas, com Elementais que custam centavos de dólar.\n\nPra quem está começando ou voltando ao Magic, teto de preço é a porta de entrada certa? Ou trava demais o deck?",
   "obs": "Enquete: Porta de entrada / Trava demais / Só pra 1x1"

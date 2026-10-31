@@ -8,300 +8,8 @@ X-WR-TIMEZONE:America/Sao_Paulo
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:fdm-2026-10-27-gravacao@fontedemana.com.br
-DTSTAMP:20261031T011158Z
-DTSTART:20261026T221500Z
-DURATION:PT15M
-SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
-DESCRIPTION:Dicionário do Commander #3: o que é mana dork. Cinco cenas cu
- rtas\, uns 31 s de fala. Nas cenas 1 e 5 você aparece falando para a câm
- era\; nas outras\, só a voz.\n\nArquivos:\n- Vídeo mudo (para ver o ritm
- o): https://fontedemana.com.br/pauta/2026-10-27/tiktok/tiktok-mudo.mp4\n\n
- Roteiro de gravação:\nCena 1\, rosto\, uns 7 s\nNa tela: Mana dork: a cr
- iatura que só faz mana\nComo gravar: Rosto: Olhando para a câmera\, com 
- uma criatura que gera mana na mão (Llanowar Elves\, Birds of Paradise ou 
- outra do fichário)\nFala: Mana dork é a criatura que não ataca. Só faz
-  mana. E é a mais jogada do Commander.\n\nCena 2\, só a voz\, uns 5 s\nN
- a tela: Llanowar Elves. US$ 0\,31 (R$ 1\,56). Vira e gera uma mana verde\n
- Como gravar: Só a voz: pode gravar em vídeo ou áudio\nFala: O clássico
- : Llanowar Elves. Vira o elfo\, ganha uma mana verde.\n\nCena 3\, só a vo
- z\, uns 6 s\nNa tela: Birds of Paradise. US$ 7\,93 (R$ 39\,95). Em 31% dos
-  decks que podem jogá-la\nComo gravar: Só a voz: pode gravar em vídeo o
- u áudio\nFala: A Birds faz mana de qualquer cor. Foi a criatura número u
- m do EDHREC no mês.\n\nCena 4\, só a voz\, uns 6 s\nNa tela: Baixou agor
- a? Só vira no próximo turno. Dork tem enjoo de invocação\, como qualqu
- er criatura\nComo gravar: Só a voz: pode gravar em vídeo ou áudio\nFala
- : O erro clássico: baixar o dork e usar na hora. Não pode\, tem enjoo de
-  invocação.\n\nCena 5\, rosto\, uns 6 s\nNa tela: Dork ou mana rock?\nCo
- mo gravar: Rosto: Faz o gesto de varrer a mesa com a mão e termina pergun
- tando\, olhando para a câmera\nFala: Só que dork morre no board wipe. No
-  seu deck: dork ou mana rock?\n\n\nPasso a passo:\n1. Celular na vertical\
- , câmera da frente\, na altura dos olhos\, a um braço de distância.\n2.
-  Rosto no meio da tela e o terço de cima livre: é onde entra o título.\
- n3. Luz de frente (de frente para a janela) e fundo arrumado\; a estante d
- e cartas é ótima.\n4. Desligue o Vídeo HDR (Ajustes\, Câmera\, Gravar 
- Vídeo) para as cores não lavarem.\n5. Um vídeo por cena\, falando para 
- a câmera\, com meio segundo de silêncio antes e depois\; nomeie cena_1\,
-  cena_2... e mande todos juntos.\n6. Nas cenas sem rosto\, só a voz conta
- : pode gravar em vídeo ou só o áudio.\n7. Mande os vídeos ao Claude no
-  projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dize
- ndo "vídeos do TikTok de 2026-10-27".\n\nValores em reais pela cotação 
- de 23 out\, US$ 1 = R$ 5\,0377 (PTAX do Banco Central).\n\nPauta completa:
-  https://fontedemana.com.br/pauta/2026-10-27/#gravacao
-URL:https://fontedemana.com.br/pauta/2026-10-27/#gravacao
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Gravação: Gravar o vídeo de amanhã (você aparece)
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-27-tiktok@fontedemana.com.br
-DTSTAMP:20261031T011158Z
-DTSTART:20261027T143000Z
-DURATION:PT15M
-SUMMARY:11:30 TikTok: Dicionário do Commander #3\, mana dork
-DESCRIPTION:Vídeo do Dicionário do Commander #3: o que é mana dork\, com
-  Llanowar Elves\, Birds of Paradise e o erro do enjoo de invocação.\n\nA
- rquivos:\n- Vídeo do TikTok narrado: https://fontedemana.com.br/pauta/202
- 6-10-27/tiktok/tiktok-narrado.mp4\n\nLegenda:\nCommander: o que é mana do
- rk\, a carta de Magic que não ataca e só faz mana? Dicionário do Comman
- der #3. A Birds of Paradise foi a criatura número 1 do EDHREC no último 
- mês\, em 31% dos decks que podem jogá-la. E o erro clássico: dork que a
- cabou de entrar não vira para gerar mana. No seu deck\, dork ou mana rock
- ?\n\nValores em reais pela cotação de 23 out (Banco Central\, PTAX).\n\n
- O jornal de Magic de todo dia está em fontedemana.com.br\n\n#commander #m
- tg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Cont
- ent Policy. Not approved/endorsed by Wizards. Portions of the materials us
- ed are property of Wizards of the Coast. ©Wizards of the Coast LLC.\n\nCo
- mentário fixado:\nNo seu deck: dork (mais barato\, mas morre no board wip
- e) ou mana rock (artefato\, sobrevive ao wipe)? E qual foi o termo da mesa
-  que te confundiu no começo? O dicionário completo está em fontedemana.
- com.br\n\nPasso a passo:\n1. Poste com um som em alta da biblioteca do Tik
- Tok\, volume entre 15% e 20%.\n2. Voz própria não precisa de rótulo de 
- IA.\n3. Fixe o comentário logo depois de postar.\n\nPauta completa: https
- ://fontedemana.com.br/pauta/2026-10-27/#tiktok
-URL:https://fontedemana.com.br/pauta/2026-10-27/#tiktok
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:TikTok: Dicionário do Commander #3\, mana dork
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-27-threads-manha@fontedemana.com.br
-DTSTAMP:20261031T011158Z
-DTSTART:20261027T133000Z
-DURATION:PT15M
-SUMMARY:10:30 Threads: Pergunta do dia: Você compraria pelo deck da Borg Q
- ueen\, pelas…
-DESCRIPTION:Pergunta para puxar conversa sobre a notícia do dia.\n\nPost:\
- nSaiu a lista do precon dos Borg. Você compraria pelo deck da Borg Queen\
- , pelas reimpressões ou deixa passar?\n\nPasso a passo:\n1. Abra o Thread
- s e cole o Post.\n2. Dica: Enquete: pelo deck\, pelas reimpressões\, deix
- o passar\n3. Toque em Adicionar tópico e escolha MTG.\n4. Publique e resp
- onda quem comentar na primeira hora.\n\nPauta completa: https://fontedeman
- a.com.br/pauta/2026-10-27/#threads-manha
-URL:https://fontedemana.com.br/pauta/2026-10-27/#threads-manha
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Pergunta do dia: Você compraria pelo deck da Borg Que
- en\, pelas…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-27-stories-manha@fontedemana.com.br
-DTSTAMP:20261031T011158Z
-DTSTART:20261027T133000Z
-DURATION:PT15M
-SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
-DESCRIPTION:Story com a capa da edição 22 (We Are the Borg: lista complet
- a do precon) e um sticker de pergunta para puxar a conversa.\n\nArquivos:\
- n- Capa da edição 22: https://fontedemana.com.br/kit/ed22/carrossel-01.j
- pg\n\nPasso a passo:\n1. Baixe a capa e poste no Story.\n2. Adicione o sti
- cker de Pergunta no terço de baixo\, sem cobrir o título: Você comprari
- a o precon dos Borg?\n3. Publique.\n\nPauta completa: https://fontedemana.
- com.br/pauta/2026-10-27/#stories-manha
-URL:https://fontedemana.com.br/pauta/2026-10-27/#stories-manha
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Capa do jornal com sticker de pergunta
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-27-feed@fontedemana.com.br
-DTSTAMP:20261031T011158Z
-DTSTART:20261027T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram feed: Carrossel da edição 22
-DESCRIPTION:Carrossel de 6 imagens da edição 22: We Are the Borg: lista c
- ompleta do precon\, Star Trek: Riker e Lwaxana\, Topdeck: Skullclamp.\n\nA
- rquivos:\n- Imagem 1 de 6: https://fontedemana.com.br/kit/ed22/carrossel-0
- 1.jpg\n- Imagem 2 de 6: https://fontedemana.com.br/kit/ed22/carrossel-02.j
- pg\n- Imagem 3 de 6: https://fontedemana.com.br/kit/ed22/carrossel-03.jpg\
- n- Imagem 4 de 6: https://fontedemana.com.br/kit/ed22/carrossel-04.jpg\n- 
- Imagem 5 de 6: https://fontedemana.com.br/kit/ed22/carrossel-05.jpg\n- Ima
- gem 6 de 6: https://fontedemana.com.br/kit/ed22/carrossel-06.jpg\n\nLegend
- a:\nCommander e Star Trek: saiu a lista completa de We Are the Borg\, o pr
- econ da Borg Queen em branco\, azul e preto.\n\nA Rainha dá +2/+2 às sua
- s criaturas artefato e\, quando entra ou ataca\, rouba a primeira criatura
-  do grimório do oponente. Locutus of Borg cria fichas Borg a cada dano de
-  combate. Nas reimpressões\, Morphic Pool\, a partir de US$ 27\,23 (R$ 13
- 7\,18)\, The Immortal Sun\, US$ 11\,68 (R$ 58\,84)\, Toxic Deluge\, US$ 5\
- ,08 (R$ 25\,59)\, e Skullclamp\, US$ 4\,87 (R$ 24\,53). O precon custa US$
-  74\,99 (R$ 377\,78) e chega às lojas em 13 de novembro.\n\nNas prévias\
- , Will Riker põe dois terrenos por combate e Lwaxana Troi dobra gatilhos.
- \n\nNo Topdeck do Dia\, Skullclamp\, o equipamento de 1 mana que transform
- a ficha morta em duas cartas.\n\nVocê compraria o precon dos Borg pelo de
- ck ou pelas reimpressões?\n\nEdição completa em fontedemana.com.br\n\nA
- rtes: Locutus of Borg\, Anton Solovianchyk. Skullclamp\, Luca Zontini.\n\n
- Valores em reais pela cotação de 23 out (Banco Central\, PTAX).\n\n#star
- trek #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted 
- under the Fan Content Policy. Not approved/endorsed by Wizards. Portions o
- f the materials used are property of Wizards of the Coast. ©Wizards of th
- e Coast LLC.\n\nPasso a passo:\n1. No Instagram\, toque em + e escolha Pos
- t.\n2. Selecione as 6 imagens na ordem\, da 1 à 6.\n3. Toque em Adicionar
-  música e escolha uma em alta que combine com o tema.\n4. Cole a Legenda 
- e publique.\n\nValores em reais pela cotação de 23 out\, US$ 1 = R$ 5\,0
- 377 (PTAX do Banco Central).\n\nPauta completa: https://fontedemana.com.br
- /pauta/2026-10-27/#feed
-URL:https://fontedemana.com.br/pauta/2026-10-27/#feed
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram feed: Carrossel da edição 22
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-27-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261031T011158Z
-DTSTART:20261027T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
-DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
- .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
- e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
- o do post: Por que você levaria o precon dos Borg? com Pelo deck\, Pelas 
- reimpressões e Não levaria.\n3. Publique.\n\nPauta completa: https://fon
- tedemana.com.br/pauta/2026-10-27/#stories-meio-dia
-URL:https://fontedemana.com.br/pauta/2026-10-27/#stories-meio-dia
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-27-threads-tarde@fontedemana.com.br
-DTSTAMP:20261031T011158Z
-DTSTART:20261027T180000Z
-DURATION:PT15M
-SUMMARY:15:00 Threads: Notícia do dia num post só
-DESCRIPTION:A edição 22 contada num post só\, sem fio: nos fios\, quase 
- ninguém passava do primeiro post.\n\nPost:\nSaiu a lista completa de We A
- re the Borg\, o precon de Star Trek da Borg Queen. Custa US$ 74\,99 (R$ 37
- 7\,78) e traz Morphic Pool\, que avulsa sai a partir de US$ 27\,23 (R$ 137
- \,18)\, além de Toxic Deluge\, Skullclamp e The Immortal Sun. A Rainha ro
- uba a primeira criatura do grimório do oponente. Você compraria pelo dec
- k ou pelas reimpressões?\n\nValores em reais pela cotação de 23 out (Ba
- nco Central\, PTAX).\n\nfontedemana.com.br\n\nPasso a passo:\n1. No Thread
- s\, cole o Post\, sem sequência.\n2. Toque em Adicionar tópico e escolha
-  MTG.\n3. Publique e responda quem comentar na primeira hora.\n\nValores e
- m reais pela cotação de 23 out\, US$ 1 = R$ 5\,0377 (PTAX do Banco Centr
- al).\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-27/#threa
- ds-tarde
-URL:https://fontedemana.com.br/pauta/2026-10-27/#threads-tarde
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Notícia do dia num post só
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-27-stories-tarde@fontedemana.com.br
-DTSTAMP:20261031T011158Z
-DTSTART:20261027T180000Z
-DURATION:PT15M
-SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
-DESCRIPTION:Story com a imagem de Skullclamp no Topdeck do Dia e o sticker 
- de link para a edição completa.\n\nArquivos:\n- Topdeck do Dia: https://
- fontedemana.com.br/kit/ed22/carrossel-04.jpg\n\nPasso a passo:\n1. Baixe a
-  imagem e poste no Story.\n2. Adicione o sticker de Link para fontedemana.
- com.br com o texto Edição completa\, embaixo do texto do Topdeck.\n3. Pu
- blique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-27/#st
- ories-tarde
-URL:https://fontedemana.com.br/pauta/2026-10-27/#stories-tarde
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Topdeck do Dia com link
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-27-reels@fontedemana.com.br
-DTSTAMP:20261031T011158Z
-DTSTART:20261027T220000Z
-DURATION:PT15M
-SUMMARY:19:00 Reels: Vídeo original: Dicionário do Commander #3: o que é
-  mana dork
-DESCRIPTION:O vídeo original de hoje no Instagram\, o mesmo arquivo do Tik
- Tok\, já narrado. É o formato que mais chega a quem não segue.\n\nArqui
- vos:\n- Vídeo original narrado: https://fontedemana.com.br/pauta/2026-10-
- 27/tiktok/tiktok-narrado.mp4\n\nLegenda:\nCommander: o que é mana dork\, 
- a carta de Magic que não ataca e só faz mana? Dicionário do Commander #
- 3. A Birds of Paradise foi a criatura número 1 do EDHREC no último mês\
- , em 31% dos decks que podem jogá-la. E o erro clássico: dork que acabou
-  de entrar não vira para gerar mana. No seu deck\, dork ou mana rock?\n\n
- Valores em reais pela cotação de 23 out (Banco Central\, PTAX).\n\nO jor
- nal de Magic de todo dia está em fontedemana.com.br\n\n#commander #mtg\n\
- nFonte de Mana is unofficial Fan Content permitted under the Fan Content P
- olicy. Not approved/endorsed by Wizards. Portions of the materials used ar
- e property of Wizards of the Coast. ©Wizards of the Coast LLC.\n\nComent
- ário fixado:\nNo seu deck: dork (mais barato\, mas morre no board wipe) o
- u mana rock (artefato\, sobrevive ao wipe)? E qual foi o termo da mesa que
-  te confundiu no começo? O dicionário completo está em fontedemana.com.
- br\n\nPasso a passo:\n1. No Instagram\, toque em + e escolha Reel.\n2. Esc
- olha o vídeo baixado daqui\, nunca o salvo do TikTok (o Instagram derruba
-  vídeo com marca d'água).\n3. Em Áudio\, ponha uma música em alta da b
- iblioteca do Instagram com volume baixo (uns 10%)\, sem cobrir a voz.\n4. 
- Na capa\, use o primeiro quadro\, o do gancho.\n5. Cole a Legenda e publiq
- ue.\n6. Fixe o comentário e responda quem comentar na primeira hora.\n\nP
- auta completa: https://fontedemana.com.br/pauta/2026-10-27/#reels
-URL:https://fontedemana.com.br/pauta/2026-10-27/#reels
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reels: Vídeo original: Dicionário do Commander #3: o que é m
- ana dork
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-27-comentarios@fontedemana.com.br
-DTSTAMP:20261031T011158Z
-DTSTART:20261028T003000Z
-DURATION:PT15M
-SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
-DESCRIPTION:Uns 10 minutos nas três redes: curtir e responder os comentár
- ios das últimas 48 horas\, começando pelo vídeo e pelo carrossel de hoj
- e. Conversa nos comentários leva a peça a mais gente\, e o Instagram rec
- omenda responder em até 2 dias.\n\nPasso a passo:\n1. Instagram: nas noti
- ficações\, curta os comentários e responda com uma frase quem perguntou
-  ou discordou.\n2. TikTok e Threads: o mesmo\, começando pelo post com ma
- is comentários.\n3. Pergunta boa ou dúvida que se repete\, nos comentár
- ios ou nas DMs? Mande na conversa do projeto: vira tema de um pilar.\n\nPa
- uta completa: https://fontedemana.com.br/pauta/2026-10-27/#comentarios
-URL:https://fontedemana.com.br/pauta/2026-10-27/#comentarios
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Comentários: Responder os comentários de hoje e de ontem
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fdm-2026-10-28-gravacao@fontedemana.com.br
-DTSTAMP:20261031T011158Z
+DTSTAMP:20261031T092419Z
 DTSTART:20261027T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -345,7 +53,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-tiktok@fontedemana.com.br
-DTSTAMP:20261031T011158Z
+DTSTAMP:20261031T092419Z
 DTSTART:20261028T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Combo da semana #1\, Exquisite Blood e Sanguine Bond
@@ -380,7 +88,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-threads-manha@fontedemana.com.br
-DTSTAMP:20261031T011158Z
+DTSTAMP:20261031T092419Z
 DTSTART:20261028T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Qual você pegaria primeiro: Lower 
@@ -403,7 +111,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-stories-manha@fontedemana.com.br
-DTSTAMP:20261031T011158Z
+DTSTAMP:20261031T092419Z
 DTSTART:20261028T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -423,7 +131,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-feed@fontedemana.com.br
-DTSTAMP:20261031T011158Z
+DTSTAMP:20261031T092419Z
 DTSTART:20261028T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 23
@@ -465,7 +173,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261031T011158Z
+DTSTAMP:20261031T092419Z
 DTSTART:20261028T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -484,7 +192,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-threads-tarde@fontedemana.com.br
-DTSTAMP:20261031T011158Z
+DTSTAMP:20261031T092419Z
 DTSTART:20261028T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -507,7 +215,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-stories-tarde@fontedemana.com.br
-DTSTAMP:20261031T011158Z
+DTSTAMP:20261031T092419Z
 DTSTART:20261028T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -527,7 +235,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-reels@fontedemana.com.br
-DTSTAMP:20261031T011158Z
+DTSTAMP:20261031T092419Z
 DTSTART:20261028T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Combo da semana #1: Exquisite Blood e
@@ -567,7 +275,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-comentarios@fontedemana.com.br
-DTSTAMP:20261031T011158Z
+DTSTAMP:20261031T092419Z
 DTSTART:20261029T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -589,7 +297,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-gravacao@fontedemana.com.br
-DTSTAMP:20261031T011158Z
+DTSTAMP:20261031T092419Z
 DTSTART:20261028T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -628,7 +336,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-tiktok@fontedemana.com.br
-DTSTAMP:20261031T011158Z
+DTSTAMP:20261031T092419Z
 DTSTART:20261029T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Top 5 #3: os zumbis do Commander
@@ -663,7 +371,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-stories-dc500@fontedemana.com.br
-DTSTAMP:20261031T011158Z
+DTSTAMP:20261031T092419Z
 DTSTART:20261029T210000Z
 DURATION:PT15M
 SUMMARY:18:00 Instagram Stories: Ashling no DC500 da MTG Brasil (2 Stories)
@@ -691,7 +399,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-threads-manha@fontedemana.com.br
-DTSTAMP:20261031T011158Z
+DTSTAMP:20261031T092419Z
 DTSTART:20261029T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Qual você deixaria no comando?
@@ -711,7 +419,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-stories-manha@fontedemana.com.br
-DTSTAMP:20261031T011158Z
+DTSTAMP:20261031T092419Z
 DTSTART:20261029T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -731,7 +439,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-feed@fontedemana.com.br
-DTSTAMP:20261031T011158Z
+DTSTAMP:20261031T092419Z
 DTSTART:20261029T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 24
@@ -775,7 +483,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261031T011158Z
+DTSTAMP:20261031T092419Z
 DTSTART:20261029T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -794,7 +502,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-threads-tarde@fontedemana.com.br
-DTSTAMP:20261031T011158Z
+DTSTAMP:20261031T092419Z
 DTSTART:20261029T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -819,7 +527,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-stories-tarde@fontedemana.com.br
-DTSTAMP:20261031T011158Z
+DTSTAMP:20261031T092419Z
 DTSTART:20261029T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -839,7 +547,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-reels@fontedemana.com.br
-DTSTAMP:20261031T011158Z
+DTSTAMP:20261031T092419Z
 DTSTART:20261029T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Top 5 #3: os zumbis que mais aparecem
@@ -879,7 +587,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-comentarios@fontedemana.com.br
-DTSTAMP:20261031T011158Z
+DTSTAMP:20261031T092419Z
 DTSTART:20261030T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -901,7 +609,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-gravacao@fontedemana.com.br
-DTSTAMP:20261031T011158Z
+DTSTAMP:20261031T092419Z
 DTSTART:20261029T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -935,7 +643,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-tiktok@fontedemana.com.br
-DTSTAMP:20261031T011158Z
+DTSTAMP:20261031T092419Z
 DTSTART:20261030T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Chama o Juiz #3\, Fiend Hunter e o comandante exilado
@@ -965,7 +673,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-threads-manha@fontedemana.com.br
-DTSTAMP:20261031T011158Z
+DTSTAMP:20261031T092419Z
 DTSTART:20261030T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Você levaria pelo Spock\, pelas re
@@ -987,7 +695,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-stories-manha@fontedemana.com.br
-DTSTAMP:20261031T011158Z
+DTSTAMP:20261031T092419Z
 DTSTART:20261030T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -1007,7 +715,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-feed@fontedemana.com.br
-DTSTAMP:20261031T011158Z
+DTSTAMP:20261031T092419Z
 DTSTART:20261030T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 25
@@ -1049,7 +757,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261031T011158Z
+DTSTAMP:20261031T092419Z
 DTSTART:20261030T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -1068,7 +776,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-threads-tarde@fontedemana.com.br
-DTSTAMP:20261031T011158Z
+DTSTAMP:20261031T092419Z
 DTSTART:20261030T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -1094,7 +802,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-stories-tarde@fontedemana.com.br
-DTSTAMP:20261031T011158Z
+DTSTAMP:20261031T092419Z
 DTSTART:20261030T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1114,7 +822,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-reels@fontedemana.com.br
-DTSTAMP:20261031T011158Z
+DTSTAMP:20261031T092419Z
 DTSTART:20261030T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Chama o Juiz #3: Fiend Hunter exilou 
@@ -1152,7 +860,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-comentarios@fontedemana.com.br
-DTSTAMP:20261031T011158Z
+DTSTAMP:20261031T092419Z
 DTSTART:20261031T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1174,7 +882,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-gravacao@fontedemana.com.br
-DTSTAMP:20261031T011158Z
+DTSTAMP:20261031T092419Z
 DTSTART:20261030T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -1188,20 +896,20 @@ DESCRIPTION:Radar DC500: o precon da Ashling com upgrade no Duel Commander
  o para a câmera\, com a carta da Ashling na mão. Mostra a carta no 1 rea
  l e sorri no venceu\nFala: Uma carta de 1 real venceu uma partida no torne
  io.\n\nCena 2\, só a voz\, uns 6 s\nNa tela: Ashling\, the Limitless. Ele
- mental por 4 manas\, e ele volta como ficha\nComo gravar: Só a voz: pode 
+ mental por 4 manas\, e ele volta como token\nComo gravar: Só a voz: pode 
  gravar em vídeo ou áudio\nFala: O motor é a Ashling. Elemental sai por 
- 4 manas e\, sacrificado\, volta como ficha.\n\nCena 3\, só a voz\, uns 5 
+ 4 manas e\, sacrificado\, volta como token.\n\nCena 3\, só a voz\, uns 5 
  s\nNa tela: Jubilation. US$ 0\,25 (R$ 1\,34). Custa 6\, saiu por 4 com a A
  shling\nComo gravar: Só a voz: pode gravar em vídeo ou áudio\nFala: Jub
  ilation por 4. Entram dois gatilhos: bônus de +2/+2 e sacrifício.\n\nCen
  a 4\, só a voz\, uns 6 s\nNa tela: Sacrifício primeiro\, bônus por últ
- imo. A ficha entra e dá +2/+2\, depois a original dá mais +2/+2. Regra 6
+ imo. O token entra e dá +2/+2\, depois a original dá mais +2/+2. Regra 6
  03.3b: você escolhe a ordem dos seus gatilhos\nComo gravar: Só a voz: po
  de gravar em vídeo ou áudio\nFala: Sacrifício primeiro\, a regra deixa 
- escolher. A ficha dá +2/+2\, e a original dá mais +2/+2.\n\nCena 5\, só
-  a voz\, uns 3 s\nNa tela: Ficha 9/9 com ímpeto e atropelar. Atacando no 
+ escolher. O token dá +2/+2\, e a original dá mais +2/+2.\n\nCena 5\, só
+  a voz\, uns 3 s\nNa tela: Token 9/9 com ímpeto e atropelar. Atacando no 
  mesmo turno\, num jogo a 20 de vida\nComo gravar: Só a voz: pode gravar e
- m vídeo ou áudio\nFala: Ficha 9/9 com atropelar\, atacando na hora.\n\nC
+ m vídeo ou áudio\nFala: Token 9/9 com atropelar\, atacando na hora.\n\nC
  ena 6\, rosto\, uns 4 s\nNa tela: Qual loja organiza DC500?\nComo gravar: 
  Rosto: Segurando o deck box com a Ashling por cima\, pergunta olhando para
   a câmera\nFala: E aí\, qual loja da sua cidade organiza DC500?\n\n\nPas
@@ -1227,7 +935,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-tiktok@fontedemana.com.br
-DTSTAMP:20261031T011158Z
+DTSTAMP:20261031T092419Z
 DTSTART:20261031T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Radar DC500\, a Ashling no torneio
@@ -1238,7 +946,7 @@ DESCRIPTION:Vídeo do Radar DC500: o precon da Ashling\, the Limitless com
  4\n\nLegenda:\nCommander com teto de R$ 500: levei o precon da Ashling\, t
  he Limitless com upgrade ao Duel Commander 500 da MTG Brasil\, em São Pau
  lo\, e venci 2 de 3 rodadas. Uma das partidas foi da Jubilation\, carta de
-  US$ 0\,25 (R$ 1\,34): evocada por 4 manas\, a ficha volta e tudo fica +4/
+  US$ 0\,25 (R$ 1\,34): evocada por 4 manas\, o token volta e tudo fica +4/
  +4 com atropelar. Regra 603.3b: você escolhe a ordem dos seus gatilhos. Q
  ual loja da sua cidade organiza DC500?\n\nValores em reais pela cotação 
  de 28 out (Banco Central\, PTAX).\n\nAs quatro vitórias passo a passo e o
