@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-10-28-gravacao@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261027T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -53,7 +53,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-tiktok@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261028T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Combo da semana #1\, Exquisite Blood e Sanguine Bond
@@ -88,7 +88,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-threads-manha@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261028T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Qual você pegaria primeiro: Lower 
@@ -111,7 +111,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-stories-manha@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261028T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -131,7 +131,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-feed@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261028T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 23
@@ -173,7 +173,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261028T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -192,7 +192,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-threads-tarde@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261028T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -215,7 +215,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-stories-tarde@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261028T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -235,7 +235,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-reels@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261028T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Combo da semana #1: Exquisite Blood e
@@ -275,7 +275,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-28-comentarios@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261029T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -297,7 +297,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-gravacao@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261028T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -336,7 +336,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-tiktok@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261029T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Top 5 #3: os zumbis do Commander
@@ -371,7 +371,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-stories-dc500@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261029T210000Z
 DURATION:PT15M
 SUMMARY:18:00 Instagram Stories: Ashling no DC500 da MTG Brasil (2 Stories)
@@ -399,7 +399,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-threads-manha@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261029T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Qual você deixaria no comando?
@@ -419,7 +419,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-stories-manha@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261029T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -439,7 +439,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-feed@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261029T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 24
@@ -483,7 +483,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261029T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -502,7 +502,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-threads-tarde@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261029T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -527,7 +527,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-stories-tarde@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261029T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -547,7 +547,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-reels@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261029T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Top 5 #3: os zumbis que mais aparecem
@@ -587,7 +587,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-comentarios@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261030T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -609,7 +609,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-gravacao@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261029T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -643,7 +643,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-tiktok@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261030T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Chama o Juiz #3\, Fiend Hunter e o comandante exilado
@@ -673,7 +673,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-threads-manha@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261030T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Você levaria pelo Spock\, pelas re
@@ -695,7 +695,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-stories-manha@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261030T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -715,7 +715,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-feed@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261030T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 25
@@ -757,7 +757,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261030T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -776,7 +776,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-threads-tarde@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261030T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -802,7 +802,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-stories-tarde@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261030T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -822,7 +822,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-reels@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261030T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Chama o Juiz #3: Fiend Hunter exilou 
@@ -860,7 +860,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-comentarios@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261031T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -882,7 +882,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-gravacao@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261030T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -935,7 +935,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-tiktok@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261031T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Radar DC500\, a Ashling no torneio
@@ -972,7 +972,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-threads-manha@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261031T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Você vende a sua agora\, guarda pa
@@ -994,7 +994,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-stories-manha@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261031T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -1014,7 +1014,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-feed@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261031T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 26
@@ -1054,7 +1054,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261031T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -1073,7 +1073,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-threads-tarde@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261031T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -1098,7 +1098,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-stories-tarde@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261031T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1118,7 +1118,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-reels@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261031T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Ashling no DC500: perdeu 5 de 7 nos t
@@ -1158,7 +1158,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-comentarios@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261101T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1180,47 +1180,51 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-gravacao@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261031T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
 DESCRIPTION:Debate da semana #1\, na semana de Finados: todo deck de Comman
  der precisa de cemitério hate? Você aparece na cena 1 (a pergunta) e na 
- cena 6 (o fecho). Nas outras\, só a voz.\n\nArquivos:\n- Vídeo mudo (par
- a ver o ritmo): https://fontedemana.com.br/pauta/2026-11-01/tiktok/tiktok-
- mudo.mp4\n\nRoteiro de gravação:\nCena 1\, rosto\, uns 4 s\nNa tela: Tod
- o deck precisa de cemitério hate?\nComo gravar: Rosto: Olhando para a câ
- mera\, levanta uma carta física (um Bojuka Bog\, se tiver) na altura do p
- eito enquanto faz a pergunta.\nFala: Todo deck de Commander precisa de cem
- itério hate?\n\nCena 2\, só a voz\, uns 5 s\nNa tela: Reanimar é barato
- : carta Animate Dead\, 2 manas\, a criatura de qualquer cemitério\nComo g
- ravar: Só a voz: pode gravar em vídeo ou áudio\nFala: Lado sim: Animate
-  Dead reanima qualquer criatura por duas manas.\n\nCena 3\, só a voz\, un
- s 6 s\nNa tela: A resposta é só um terreno: carta Bojuka Bog\, Em 30% do
- s decks que podem jogar\nComo gravar: Só a voz: pode gravar em vídeo ou 
- áudio\nFala: E a resposta é um terreno: o Bojuka Bog está em 1\,58 milh
- ão de decks.\n\nCena 4\, só a voz\, uns 5 s\nNa tela: Hate pesado pega a
-  mesa toda: carta Rest in Peace\, Só 1\,5% dos decks que podem jogar\nCom
- o gravar: Só a voz: pode gravar em vídeo ou áudio\nFala: Lado não: Res
- t in Peace fecha o cemitério da mesa toda\, até o seu.\n\nCena 5\, só a
-  voz\, uns 6 s\nNa tela: O Bog limpa um cemitério\, uma vez só\nComo gra
- var: Só a voz: pode gravar em vídeo ou áudio\nFala: E o Bog limpa um ce
- mitério uma vez. Na mesa de quatro\, outro cuida disso.\n\nCena 6\, rosto
- \, uns 5 s\nNa tela: Sempre leva ou deixa a mesa resolver?\nComo gravar: R
- osto: Para a câmera\, com a carta na mão de novo\; no fim abaixa a carta
-  e abre a mão\, como quem passa a pergunta para quem assiste.\nFala: Já 
- vi cemitério ganhar partida sozinho. De que lado você fica?\n\n\nPasso a
-  passo:\n1. Celular na vertical\, câmera da frente\, na altura dos olhos\
- , a um braço de distância.\n2. Rosto no meio da tela e o terço de cima 
- livre: é onde entra o título.\n3. Luz de frente (de frente para a janela
- ) e fundo arrumado\; a estante de cartas é ótima.\n4. Desligue o Vídeo 
- HDR (Ajustes\, Câmera\, Gravar Vídeo) para as cores não lavarem.\n5. Um
-  vídeo por cena\, falando para a câmera\, com meio segundo de silêncio 
- antes e depois\; nomeie cena_1\, cena_2... e mande todos juntos.\n6. Nas c
- enas sem rosto\, só a voz conta: pode gravar em vídeo ou só o áudio.\n
- 7. Mande os vídeos ao Claude no projeto MGT strategy (pode ser respondend
- o à mensagem desta tarefa) dizendo "vídeos do TikTok de 2026-11-01".\n\n
- Pauta completa: https://fontedemana.com.br/pauta/2026-11-01/#gravacao
+ cena 6 (o fecho)\, apontando para um ponto onde a carta vai entrar. Nas ou
+ tras\, só a voz.\n\nArquivos:\n- Vídeo mudo (para ver o ritmo): https://
+ fontedemana.com.br/pauta/2026-11-01/tiktok/tiktok-mudo.mp4\n\nRoteiro de g
+ ravação:\nCena 1\, rosto\, uns 4 s\nNa tela: Todo deck precisa de cemit
+ ério hate?\nComo gravar: Rosto: Olhando para a câmera\, aponta com o ded
+ o um ponto parado à direita do rosto\, na altura do ombro. Ali entra o Bo
+ juka Bog.\nFala: Todo deck de Commander precisa de cemitério hate?\n\nCen
+ a 2\, só a voz\, uns 5 s\nNa tela: Reanimar é barato: carta Animate Dead
+ \, 2 manas\, a criatura de qualquer cemitério\nComo gravar: Só a voz: po
+ de gravar em vídeo ou áudio\nFala: Lado sim: Animate Dead reanima qualqu
+ er criatura por duas manas.\n\nCena 3\, só a voz\, uns 6 s\nNa tela: A re
+ sposta é só um terreno: carta Bojuka Bog\, Em 30% dos decks que podem jo
+ gar\nComo gravar: Só a voz: pode gravar em vídeo ou áudio\nFala: E a re
+ sposta é um terreno: o Bojuka Bog está em 1\,58 milhão de decks.\n\nCen
+ a 4\, só a voz\, uns 5 s\nNa tela: Hate pesado pega a mesa toda: carta Re
+ st in Peace\, Só 1\,5% dos decks que podem jogar\nComo gravar: Só a voz:
+  pode gravar em vídeo ou áudio\nFala: Lado não: Rest in Peace fecha o c
+ emitério da mesa toda\, até o seu.\n\nCena 5\, só a voz\, uns 6 s\nNa t
+ ela: O Bog limpa um cemitério\, uma vez só\nComo gravar: Só a voz: pode
+  gravar em vídeo ou áudio\nFala: E o Bog limpa um cemitério uma vez. Na
+  mesa de quatro\, outro cuida disso.\n\nCena 6\, rosto\, uns 5 s\nNa tela:
+  Sempre leva ou deixa a mesa resolver?\nComo gravar: Rosto: Para a câmera
+ \, aponta de novo o mesmo ponto (ali entra a Muldrotha)\; no fim abaixa a 
+ mão e abre a palma para quem assiste.\nFala: Já vi cemitério ganhar par
+ tida sozinho. De que lado você fica?\n\n\nPasso a passo:\n1. Celular na v
+ ertical\, câmera da frente\, na altura dos olhos\, a um braço de distân
+ cia.\n2. Rosto no meio da tela e o terço de cima livre: é onde entra o t
+ ítulo.\n3. Nas cenas 1 e 6\, aponte sempre o mesmo ponto: à direita do r
+ osto na tela\, na altura do ombro. Dedo parado do começo ao fim da fala\,
+  sem passar na frente do rosto. A carta entra ali na edição.\n4. Luz de 
+ frente (de frente para a janela) e fundo arrumado\; a estante de cartas é
+  ótima.\n5. Desligue o Vídeo HDR (Ajustes\, Câmera\, Gravar Vídeo) par
+ a as cores não lavarem.\n6. Um vídeo por cena\, falando para a câmera\,
+  com meio segundo de silêncio antes e depois\; nomeie cena_1\, cena_2... 
+ e mande todos juntos.\n7. Nas cenas sem rosto\, só a voz conta: pode grav
+ ar em vídeo ou só o áudio.\n8. Mande os vídeos ao Claude no projeto MG
+ T strategy (pode ser respondendo à mensagem desta tarefa) dizendo "vídeo
+ s do TikTok de 2026-11-01".\n\nPauta completa: https://fontedemana.com.br/
+ pauta/2026-11-01/#gravacao
 URL:https://fontedemana.com.br/pauta/2026-11-01/#gravacao
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1230,7 +1234,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-tiktok@fontedemana.com.br
-DTSTAMP:20261031T212612Z
+DTSTAMP:20261031T222334Z
 DTSTART:20261101T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o Debate da semana #1: cemitério hate

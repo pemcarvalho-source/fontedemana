@@ -8,7 +8,7 @@
       "hora": "19:15",
       "rede": "Gravação",
       "titulo": "Gravar o vídeo de amanhã (você aparece)",
-      "oQue": "Debate da semana #1, na semana de Finados: todo deck de Commander precisa de cemitério hate? Você aparece na cena 1 (a pergunta) e na cena 6 (o fecho). Nas outras, só a voz.",
+      "oQue": "Debate da semana #1, na semana de Finados: todo deck de Commander precisa de cemitério hate? Você aparece na cena 1 (a pergunta) e na cena 6 (o fecho), apontando para um ponto onde a carta vai entrar. Nas outras, só a voz.",
       "arquivos": [
         {
           "nome": "Vídeo mudo (para ver o ritmo)",
@@ -20,7 +20,7 @@
           "cena": "Cena 1, rosto, uns 4 s",
           "tela": "Todo deck precisa de cemitério hate?",
           "fala": "Todo deck de Commander precisa de cemitério hate?",
-          "como": "Rosto: Olhando para a câmera, levanta uma carta física (um Bojuka Bog, se tiver) na altura do peito enquanto faz a pergunta."
+          "como": "Rosto: Olhando para a câmera, aponta com o dedo um ponto parado à direita do rosto, na altura do ombro. Ali entra o Bojuka Bog."
         },
         {
           "cena": "Cena 2, só a voz, uns 5 s",
@@ -50,12 +50,13 @@
           "cena": "Cena 6, rosto, uns 5 s",
           "tela": "Sempre leva ou deixa a mesa resolver?",
           "fala": "Já vi cemitério ganhar partida sozinho. De que lado você fica?",
-          "como": "Rosto: Para a câmera, com a carta na mão de novo; no fim abaixa a carta e abre a mão, como quem passa a pergunta para quem assiste."
+          "como": "Rosto: Para a câmera, aponta de novo o mesmo ponto (ali entra a Muldrotha); no fim abaixa a mão e abre a palma para quem assiste."
         }
       ],
       "passos": [
         "Celular na vertical, câmera da frente, na altura dos olhos, a um braço de distância.",
         "Rosto no meio da tela e o terço de cima livre: é onde entra o título.",
+        "Nas cenas 1 e 6, aponte sempre o mesmo ponto: à direita do rosto na tela, na altura do ombro. Dedo parado do começo ao fim da fala, sem passar na frente do rosto. A carta entra ali na edição.",
         "Luz de frente (de frente para a janela) e fundo arrumado; a estante de cartas é ótima.",
         "Desligue o Vídeo HDR (Ajustes, Câmera, Gravar Vídeo) para as cores não lavarem.",
         "Um vídeo por cena, falando para a câmera, com meio segundo de silêncio antes e depois; nomeie cena_1, cena_2... e mande todos juntos.",
