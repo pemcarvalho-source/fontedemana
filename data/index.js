@@ -1,6 +1,7 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "Olivia Voldaren",
   "Exploration",
   "Shared Animosity",
   "Thrasios, Triton Hero",
@@ -24,6 +25,13 @@ window.MANA_POOL_INDEX = {
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 26,
+   "date": "2026-10-31",
+   "dateLabel": "Sábado, 31 de outubro de 2026",
+   "head": "Weekly Winners: Sphinx Sovereign sobe 223% com a The Ur-Sphinx",
+   "biome": "M"
+  },
   {
    "n": 25,
    "date": "2026-10-30",
