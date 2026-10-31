@@ -1,0 +1,166 @@
+{
+ "n": 26,
+ "data": "31 out",
+ "carrossel": {
+  "capa": {
+   "cor": "A",
+   "titulo": "Sphinx Sovereign sobe 223% com a Ur-Sphinx",
+   "sub": "No Weekly Winners do MTGStocks, a esfinge de Alara foi a <b>US$ 10,35</b>, e <b>Polymorph</b> quase triplicou com o Jace.",
+   "credito": "Arte: Sphinx Sovereign, Chippy"
+  },
+  "cartoes": [
+   {
+    "cor": "A",
+    "titulo": "Quem mais subiu na semana",
+    "linhas": [
+     {
+      "nome": "Sphinx Sovereign",
+      "valor": "+223%",
+      "sub": "foi a US$ 10,35 (R$ 55,63)"
+     },
+     {
+      "nome": "Polymorph",
+      "valor": "+190%",
+      "sub": "foi a US$ 9,99 (R$ 53,69)"
+     },
+     {
+      "nome": "Bronzebeak Foragers",
+      "valor": "+122%",
+      "sub": "foi a US$ 3,25 (R$ 17,47)"
+     }
+    ],
+    "nota": {
+     "rotulo": "No seu bolso",
+     "texto": "tem Sphinx Sovereign no fichário? bom momento para trocar"
+    },
+    "fonte": "Fonte: MTGStocks, 30 out. Reais: PTAX de 29 out"
+   }
+  ],
+  "topdeck": {
+   "titulo": "Olivia Voldaren",
+   "habilidades": [
+    {
+     "rotulo": "Mordida de 2 manas",
+     "texto": "Causa 1 de dano em outra criatura e ganha um marcador +1/+1."
+    },
+    {
+     "rotulo": "Vira Vampiro",
+     "texto": "Quem leva a mordida vira Vampiro, mesmo que sobreviva."
+    },
+    {
+     "rotulo": "Leva para casa",
+     "texto": "Por 5 manas, rouba um Vampiro enquanto ela ficar com você."
+    }
+   ],
+   "extra": "A rainha dos vampiros no <b>Halloween</b>. Está em 20,8 mil decks no EDHREC e sai a partir de US$ 3,31 (R$ 17,79). PTAX de 29 out.",
+   "credito": "Ilustração de Eric Deschamps"
+  },
+  "ban": {
+   "numero": "30",
+   "unidade": "DIAS",
+   "texto": "Próxima janela de banimentos em 30 de novembro. A de 12 de outubro passou sem mexer no Commander."
+  },
+  "turnos": [
+   {
+    "cor": "A",
+    "data": "2 nov",
+    "texto": "Venda do Countdown Kit da Marvel"
+   },
+   {
+    "cor": "W",
+    "data": "até 5 nov",
+    "texto": "Commander Night em dupla nas lojas"
+   },
+   {
+    "cor": "G",
+    "data": "6 a 12 nov",
+    "texto": "Pré de Star Trek nas lojas"
+   },
+   {
+    "cor": "A",
+    "data": "9 nov",
+    "texto": "Venda dos Secret Lairs de Star Trek"
+   },
+   {
+    "cor": "G",
+    "data": "13 nov",
+    "texto": "Star Trek chega às lojas"
+   }
+  ],
+  "sussurro": null
+ },
+ "video": {
+  "cena1": {
+   "titulo": "Sphinx Sovereign sobe 223% com a Ur-Sphinx",
+   "pilulas": [
+    "Weekly Winners",
+    "Esfinges em alta",
+    "Polymorph +190%"
+   ]
+  },
+  "cena2": {
+   "rotulo": "No bolso",
+   "cor": "A",
+   "titulo": "As que mais subiram na semana",
+   "linhas": [
+    {
+     "nome": "Sphinx Sovereign",
+     "numero": 223,
+     "prefixo": "+",
+     "sufixo": "%",
+     "sub": "US$ 10,35 (R$ 55,63)"
+    },
+    {
+     "nome": "Polymorph",
+     "numero": 190,
+     "prefixo": "+",
+     "sufixo": "%",
+     "sub": "US$ 9,99 (R$ 53,69)"
+    }
+   ],
+   "fonte": "Fonte: MTGStocks, 30 out. Reais: PTAX de 29 out"
+  },
+  "cena3": {
+   "linhas": [
+    "<b>Olivia Voldaren</b> morde por 2 manas e cresce.",
+    "Quem leva a mordida vira Vampiro.",
+    "Depois, ela rouba os Vampiros da mesa."
+   ]
+  },
+  "cena4": {
+   "texto": "Faltam 30 dias para a próxima janela de banimentos. Antes, o pré de Star Trek nas lojas de 6 a 12 de novembro.",
+   "sussurro": null
+  }
+ },
+ "textos": {
+  "legendaCarrossel": "Carta de Magic em alta no Commander: Sphinx Sovereign subiu 223% na semana e foi a US$ 10,35 (R$ 55,63), segundo o Weekly Winners do MTGStocks.\n\nO motivo é a The Ur-Sphinx, comandante de Reality Fracture que deixa as outras mágicas de Esfinge 1 mana mais baratas. Polymorph subiu 190%, a US$ 9,99 (R$ 53,69), porque combina com as fichas do Jace, Multiverse Architect. E Bronzebeak Foragers subiu 122%, a US$ 3,25 (R$ 17,47), puxada pela Dack Fayden.\n\nNo Topdeck de Halloween, Olivia Voldaren, a vampira que morde a mesa inteira e depois rouba quem virou Vampiro.\n\nVocê tem alguma dessas esfinges parada no fichário?\n\nEdição completa em fontedemana.com.br\n\nArtes: Sphinx Sovereign, de Chippy. Olivia Voldaren, de Eric Deschamps.\nValores em reais pela cotação de 29 out (Banco Central, PTAX).\n\n#halloween #commander #mtg",
+  "legendaVideo": "Carta de Magic em alta no Commander: Sphinx Sovereign subiu 223% na semana, puxada pela The Ur-Sphinx, e Polymorph subiu 190% com o Jace.\n\nVocê montaria a The Ur-Sphinx mesmo com as esfinges mais caras?\n\nEdição completa em fontedemana.com.br\nValores em reais pela cotação de 29 out (Banco Central, PTAX).\n\n#commander #mtg #magicthegathering",
+  "threadsPost": "Sphinx Sovereign subiu 223% na semana e foi a US$ 10,35 (R$ 55,63), segundo o MTGStocks. A culpa é da The Ur-Sphinx, comandante de Reality Fracture que barateia as outras esfinges. Polymorph subiu 190%, a US$ 9,99 (R$ 53,69), com o Jace. Você montaria a Ur-Sphinx com as esfinges mais caras? fontedemana.com.br\nValores em reais pela cotação de 29 out (Banco Central, PTAX).",
+  "threadsFio": [
+   "O Weekly Winners do MTGStocks desta semana é quase todo de Commander. As esfinges seguem em alta por causa da The Ur-Sphinx.",
+   "Sphinx Sovereign subiu 223% e foi a US$ 10,35 (R$ 55,63). A Ur-Sphinx deixa as outras mágicas de Esfinge 1 mana mais baratas.",
+   "Polymorph subiu 190%, a US$ 9,99 (R$ 53,69). No precon Multiverse Reforged, combina com as fichas do Jace, Multiverse Architect. Bronzebeak Foragers subiu 122%, a US$ 3,25 (R$ 17,47), puxada pela Dack Fayden.",
+   "No Topdeck de Halloween, Olivia Voldaren: morde por 2 manas, transforma a vítima em Vampiro e depois rouba. Edição completa em fontedemana.com.br\nValores em reais pela cotação de 29 out (Banco Central, PTAX)."
+  ],
+  "threadsAvulsos": [
+   {
+    "titulo": "Pergunta do dia",
+    "texto": "Sphinx Sovereign subiu 223% por causa da The Ur-Sphinx. Você vende a sua agora, guarda para o deck ou nem tem?",
+    "obs": "Opções: vendo agora, guardo para o deck, não tenho"
+   }
+  ]
+ },
+ "pauta": {
+  "forca": "forte",
+  "porque": "Carta de Commander com alta de 223% no MTGStocks, publicada depois da última edição e ainda não noticiada.",
+  "storyPergunta": "Você tem alguma esfinge parada no fichário?",
+  "enquete": {
+   "pergunta": "Sphinx Sovereign subiu 223%. O que você faz?",
+   "opcoes": [
+    "Vendo agora",
+    "Guardo para o deck",
+    "Não tenho"
+   ]
+  }
+ }
+}
