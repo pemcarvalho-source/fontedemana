@@ -1,0 +1,36 @@
+{
+  "data": "2026-11-01",
+  "pilar": "debate",
+  "item": null,
+  "tema": "Debate da semana #1: todo deck de Commander precisa de cemitério hate?",
+  "cartas": ["Bojuka Bog", "Rest in Peace", "Animate Dead"],
+  "fx": null,
+  "carrossel": {
+    "capa": {"cor": "R", "chip": "Debate da semana #1", "kicker": "Cemitério no Commander", "titulo": "Todo deck precisa de <b>cemitério hate</b>?",
+             "sub": "Reanimar custa 2 manas. Fechar o cemitério tem seu preço. Os dois lados, com os números do <b>EDHREC</b>.",
+             "arte": "pauta/2026-11-01/tiktok/arte.jpg", "credito": "Arte: Bojuka Bog, Howard Lyon"},
+    "cartoes": [
+      {"cor": "B", "titulo": "Lado sim: reanimar é barato", "carta": "pauta/2026-11-01/original/carta-1.jpg",
+       "itens": [{"cor": "B", "html": "<b>Animate Dead</b> traz a criatura de <b>qualquer cemitério</b> por 2 manas, até a do oponente."},
+                 {"cor": "B", "html": "Está em <b>466 mil decks</b>. Sem resposta, o melhor bicho da mesa volta sempre."}],
+       "fonte": "Fonte: EDHREC, out 2026"},
+      {"cor": "B", "titulo": "Lado sim: custa um terreno", "carta": "pauta/2026-11-01/original/carta-2.jpg",
+       "itens": [{"cor": "B", "html": "<b>Bojuka Bog</b> entra virado e exila o cemitério de um jogador. Não toma espaço de mágica."},
+                 {"cor": "B", "html": "Em <b>1,58 milhão</b> de decks, <b>30%</b> dos que podem jogar com ele."}],
+       "fonte": "Fonte: EDHREC, out 2026"},
+      {"cor": "W", "titulo": "Lado não: pega a mesa toda", "carta": "pauta/2026-11-01/original/carta-3.jpg",
+       "itens": [{"cor": "W", "html": "<b>Rest in Peace</b> exila todos os cemitérios, <b>até o seu</b>, e nada mais fica lá."},
+                 {"cor": "W", "html": "Só <b>1,5%</b> dos decks que podem jogar levam, uns <b>71,7 mil</b>."}],
+       "fonte": "Fonte: EDHREC, out 2026"},
+      {"cor": "W", "titulo": "Lado não: um slot, um jogador",
+       "itens": [{"cor": "W", "html": "O Bog limpa <b>um cemitério, uma vez</b>. Quem reanima enche de novo."},
+                 {"cor": "W", "html": "Na mesa de <b>quatro</b>, outro oponente pode ter a resposta. Seu espaço vai para o seu plano."}],
+       "nota": {"rotulo": "A tensão", "texto": "o cemitério é a segunda mão de alguém, e alguém precisa pagar para fechar."},
+       "fonte": "Fonte: Scryfall, texto das cartas"}
+    ],
+    "cta": {"pergunta": "Seu deck <b>sempre leva</b> hate ou <b>deixa a mesa</b> resolver?", "quando": "Um debate novo toda semana", "salvar": "Salva para levar a discussão para a próxima mesa"}
+  },
+  "legenda": "Commander: todo deck precisa de cemitério hate? Debate da semana #1, na semana de Finados, sobre a carta de Magic que limpa o cemitério.\n\nLado sim: Animate Dead traz a criatura de qualquer cemitério por 2 manas (466 mil decks), e o Bojuka Bog resolve sendo só um terreno (1,58 milhão de decks, 30% dos que podem jogar).\nLado não: Rest in Peace fecha o cemitério da mesa toda, até o seu (só 1,5% dos decks), e o Bog limpa um cemitério uma vez só. Na mesa de quatro, outro oponente pode cuidar disso.\n\nFontes: EDHREC (out 2026) e Scryfall.\nMais em fontedemana.com.br\n\nDe que lado você fica: sempre leva, só o Bojuka Bog ou deixa a mesa resolver?\n\n#bojukabog #commander #mtg",
+  "threads": {"texto": "Debate da semana: todo deck de Commander precisa de cemitério hate?\n\nLado sim: Animate Dead reanima qualquer criatura por 2 manas, e o Bojuka Bog é só um terreno. Está em 1,58 milhão de decks no EDHREC.\n\nLado não: é jogo de quatro. Rest in Peace fecha o cemitério de todo mundo, até o seu, e o Bog limpa um cemitério uma vez só.\n\nVocê sempre leva um, só o Bog ou deixa a mesa resolver?", "obs": "Enquete com três opções: Sempre levo, Só o Bojuka Bog, Deixo a mesa resolver."},
+  "enquete": {"pergunta": "Todo deck precisa de cemitério hate?", "opcoes": ["Sim, sempre levo", "Não, a mesa resolve"]}
+}
