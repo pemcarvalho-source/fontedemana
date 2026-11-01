@@ -1,0 +1,100 @@
+{
+ "n": 27,
+ "data": "1 nov",
+ "carrossel": {
+  "capa": {
+   "cor": "W",
+   "titulo": "Domingo calmo, semana cheia no Commander",
+   "sub": "Nenhum fato novo neste domingo. Amanhã abre a venda do <b>Countdown Kit da Marvel</b>, e o pré de <b>Star Trek</b> começa na sexta.",
+   "credito": "Arte: Reveillark, Jim Murray"
+  },
+  "cartoes": [
+   {
+    "cor": "W",
+    "titulo": "O que vem nesta semana",
+    "itens": [
+     {"cor": "A", "html": "<b>2 nov</b>: abre às 14h em Brasília a venda do Countdown Kit: Marvel's History of Heroes, só no site do Secret Lair."},
+     {"cor": "W", "html": "<b>Até 5 nov</b>: Commander Night em dupla de Reality Fracture nas lojas, com promo para quem joga."},
+     {"cor": "G", "html": "<b>6 a 12 nov</b>: pré de Star Trek nas lojas."},
+     {"cor": "A", "html": "<b>9 nov</b>: venda dos Secret Lairs de Star Trek, com fila às 13h e venda às 14h em Brasília."}
+    ],
+    "fonte": "Fontes: Wizards e WPN"
+   }
+  ],
+  "topdeck": {
+   "titulo": "Karmic Guide",
+   "habilidades": [
+    {"rotulo": "Traz de volta", "texto": "Quando entra, uma criatura do seu cemitério volta direto para o campo."},
+    {"rotulo": "Eco", "texto": "No próximo turno, paga 5 manas de novo ou sacrifica. Quem voltou fica."},
+    {"rotulo": "Anjo protegido", "texto": "Voa e tem proteção contra o preto."}
+   ],
+   "extra": "O anjo do cemitério no <b>Dia de Finados</b>. Está em 159 mil decks no EDHREC e sai a partir de US$ 0,33 (R$ 1,79). PTAX de 30 out.",
+   "credito": "Ilustração de Heather Hudson"
+  },
+  "ban": {
+   "numero": "29",
+   "unidade": "DIAS",
+   "texto": "Próxima janela de banimentos em 30 de novembro. A de 12 de outubro passou sem mexer no Commander."
+  },
+  "turnos": [
+   {"cor": "A", "data": "2 nov", "texto": "Venda do Countdown Kit da Marvel"},
+   {"cor": "W", "data": "até 5 nov", "texto": "Commander Night em dupla nas lojas"},
+   {"cor": "G", "data": "6 a 12 nov", "texto": "Pré de Star Trek nas lojas"},
+   {"cor": "A", "data": "9 nov", "texto": "Venda dos Secret Lairs de Star Trek"},
+   {"cor": "G", "data": "13 nov", "texto": "Star Trek chega às lojas"}
+  ],
+  "sussurro": null
+ },
+ "video": {
+  "cena1": {
+   "titulo": "Domingo calmo, semana cheia no Commander",
+   "pilulas": ["Countdown Kit amanhã", "Pré de Star Trek", "Topdeck de Finados"]
+  },
+  "cena2": {
+   "rotulo": "Agenda",
+   "cor": "W",
+   "titulo": "O que vem nesta semana",
+   "itens": [
+    "Segunda, 2 nov: abre a venda do Countdown Kit da Marvel, às 14h.",
+    "De 6 a 12 nov: pré de Star Trek nas lojas.",
+    "Segunda, 9 nov: venda dos Secret Lairs de Star Trek."
+   ],
+   "fonte": "Fontes: Wizards e WPN"
+  },
+  "cena3": {
+   "linhas": [
+    "<b>Karmic Guide</b> entra e traz uma criatura do cemitério.",
+    "Com Reveillark, um traz o outro de volta.",
+    "Está em 159 mil decks no EDHREC."
+   ]
+  },
+  "cena4": {
+   "texto": "Faltam 29 dias para a próxima janela de banimentos. Antes, o pré de Star Trek nas lojas de 6 a 12 de novembro.",
+   "sussurro": null
+  }
+ },
+ "textos": {
+  "legendaCarrossel": "Commander de Magic nesta semana: domingo sem fato novo, mas a agenda está cheia.\n\nAmanhã, segunda, 2 de novembro, abre às 14h em Brasília a venda do Secret Lair Countdown Kit: Marvel's History of Heroes. Até 5 de novembro tem Commander Night em dupla de Reality Fracture nas lojas. De 6 a 12 de novembro rola o pré de Star Trek, e no dia 9 abre a venda dos Secret Lairs de Star Trek.\n\nNo Topdeck de Finados, Karmic Guide, o anjo que desce ao cemitério e traz uma criatura de volta. Está em 159 mil decks no EDHREC e sai a partir de US$ 0,33 (R$ 1,79).\n\nQual criatura você traria de volta primeiro com o Karmic Guide?\n\nEdição completa em fontedemana.com.br\n\nArtes: Reveillark, de Jim Murray. Karmic Guide, de Heather Hudson.\nValores em reais pela cotação de 30 out (Banco Central, PTAX).\n\n#startrek #commander #mtg",
+  "legendaVideo": "Commander de Magic nesta semana: Countdown Kit da Marvel amanhã, pré de Star Trek de 6 a 12 de novembro e o Karmic Guide no Topdeck de Finados.\n\nQual criatura você traria de volta primeiro com o Karmic Guide?\n\nEdição completa em fontedemana.com.br\n\n#startrek #commander #mtg",
+  "threadsPost": "Domingo calmo no Commander, semana cheia pela frente. Amanhã, 2 de novembro, abre às 14h a venda do Countdown Kit da Marvel no site do Secret Lair. De 6 a 12 tem pré de Star Trek nas lojas, e no dia 9 abre a venda dos Secret Lairs de Star Trek. Vai encarar algum desses? fontedemana.com.br",
+  "threadsFio": [
+   "Domingo sem fato novo confirmado sobre Commander. Mas a semana que vem é cheia.",
+   "Amanhã, 2 de novembro, abre às 14h em Brasília a venda do Countdown Kit: Marvel's History of Heroes, só no site do Secret Lair. Até 5 de novembro tem Commander Night em dupla de Reality Fracture nas lojas.",
+   "De 6 a 12 de novembro rola o pré de Star Trek nas lojas. No dia 9 abre a venda dos Secret Lairs de Star Trek, com fila às 13h e venda às 14h.",
+   "No Topdeck de Finados, Karmic Guide: entra e traz uma criatura do cemitério direto para o campo. Sai a partir de US$ 0,33 (R$ 1,79). Edição completa em fontedemana.com.br\nValores em reais pela cotação de 30 out (Banco Central, PTAX)."
+  ],
+  "threadsAvulsos": [
+   {
+    "titulo": "Pergunta do dia",
+    "texto": "No Dia de Finados, o cemitério do jogo: qual criatura você mais gosta de trazer de volta no Commander?",
+    "obs": "Pergunta aberta, sem enquete"
+   }
+  ]
+ },
+ "pauta": {
+  "forca": "calmo",
+  "porque": "Domingo sem fato novo sobre Commander na janela; a edição traz só agenda e o Topdeck de Finados.",
+  "storyPergunta": "Qual criatura você traria de volta do cemitério?",
+  "enquete": {"pergunta": "Vai no pré de Star Trek?", "opcoes": ["Vou sim", "Só compro os precons", "Passo essa"]}
+ }
+}
