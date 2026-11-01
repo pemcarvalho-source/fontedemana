@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-10-29-gravacao@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261028T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -48,7 +48,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-tiktok@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261029T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Top 5 #3: os zumbis do Commander
@@ -83,7 +83,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-stories-dc500@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261029T210000Z
 DURATION:PT15M
 SUMMARY:18:00 Instagram Stories: Ashling no DC500 da MTG Brasil (2 Stories)
@@ -111,7 +111,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-threads-manha@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261029T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Qual você deixaria no comando?
@@ -131,7 +131,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-stories-manha@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261029T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -151,7 +151,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-feed@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261029T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 24
@@ -195,7 +195,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261029T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -214,7 +214,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-threads-tarde@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261029T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -239,7 +239,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-stories-tarde@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261029T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -259,7 +259,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-reels@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261029T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Top 5 #3: os zumbis que mais aparecem
@@ -299,7 +299,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-comentarios@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261030T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -321,7 +321,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-gravacao@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261029T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -355,7 +355,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-tiktok@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261030T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Chama o Juiz #3\, Fiend Hunter e o comandante exilado
@@ -385,7 +385,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-threads-manha@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261030T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Você levaria pelo Spock\, pelas re
@@ -407,7 +407,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-stories-manha@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261030T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -427,7 +427,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-feed@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261030T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 25
@@ -469,7 +469,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261030T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -488,7 +488,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-threads-tarde@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261030T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -514,7 +514,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-stories-tarde@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261030T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -534,7 +534,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-reels@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261030T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Chama o Juiz #3: Fiend Hunter exilou 
@@ -572,7 +572,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-comentarios@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261031T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -594,7 +594,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-gravacao@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261030T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -647,7 +647,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-tiktok@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261031T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Radar DC500\, a Ashling no torneio
@@ -684,7 +684,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-threads-manha@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261031T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Você vende a sua agora\, guarda pa
@@ -706,7 +706,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-stories-manha@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261031T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -726,7 +726,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-feed@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261031T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 26
@@ -766,7 +766,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261031T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -785,7 +785,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-threads-tarde@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261031T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -810,7 +810,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-stories-tarde@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261031T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -830,7 +830,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-reels@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261031T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Ashling no DC500: perdeu 5 de 7 nos t
@@ -870,7 +870,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-comentarios@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261101T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -892,7 +892,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-gravacao@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261031T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -946,7 +946,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-tiktok@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261101T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o Debate da semana #1: cemitério hate
@@ -978,7 +978,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-threads-manha@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261101T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Debate da semana #1: todo deck de Commander 
@@ -1005,7 +1005,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-stories-manha@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261101T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -1025,7 +1025,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-feed@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261101T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Debate da semana #1: todo deck de Commander p
@@ -1066,7 +1066,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261101T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -1085,7 +1085,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-threads-tarde@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261101T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -1107,7 +1107,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-stories-tarde@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261101T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1127,7 +1127,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-reels@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261101T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Debate da semana #1: todo deck de Com
@@ -1165,7 +1165,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-comentarios@fontedemana.com.br
-DTSTAMP:20261101T102134Z
+DTSTAMP:20261101T212644Z
 DTSTART:20261102T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1182,6 +1182,81 @@ URL:https://fontedemana.com.br/pauta/2026-11-01/#comentarios
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Comentários: Responder os comentários de hoje e de ontem
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-02-gravacao@fontedemana.com.br
+DTSTAMP:20261101T212644Z
+DTSTART:20261101T221500Z
+DURATION:PT15M
+SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
+DESCRIPTION:Treta das Cores #1: comandante morreu\, cemitério ou zona de c
+ omando? Seis falas curtas. Você faz duas vozes: o Preto (grave e debochad
+ o) e o Branco (certinho\, de quem cita a regra). As cenas 1\, 5 e 6 são n
+ a sua voz normal.\n\nArquivos:\n- Vídeo mudo (para conferir o tempo): htt
+ ps://fontedemana.com.br/pauta/2026-11-02/tiktok/tiktok-mudo.mp4\n\nRoteiro
+  de gravação:\nCena 1\, uns 3 s\nNa tela: Comandante morreu. E agora?\nF
+ ala: Narrador (sua voz normal): Comandante morreu. Cemitério ou zona de c
+ omando?\n\nCena 2\, uns 4 s\nNa tela: Deixa aí. Ele volta com Dread Retur
+ n.\nFala: Preto (voz grave\, debochada): Deixa no cemitério. Eu trago com
+  Dread Return\, sem imposto.\n\nCena 3\, uns 4 s\nNa tela: Comandante não
+  fica no cemitério.\nFala: Branco (voz certinha\, de quem cita a regra): 
+ Não pode. Comandante volta direto pra zona de comando.\n\nCena 4\, uns 3 
+ s\nNa tela: Então por que meu gatilho de morrer disparou?\nFala: Preto (v
+ oz grave\, impaciente): Então por que o meu gatilho de morrer disparou?\n
+ \nCena 5\, uns 6 s\nNa tela: O Preto tinha razão.\nFala: Narrador (sua vo
+ z normal): O Preto tinha razão. Ele cai no cemitério\, o gatilho dispara
+ \, e o dono escolhe uma vez só.\n\nCena 6\, uns 4 s\nNa tela: Carta Dread
+  Return\, US$ 1\,38 (R$ 7\,48). Reanimar não é conjurar: sem imposto\nFa
+ la: Narrador (sua voz normal): Ficou lá? Dread Return traz de volta\, e r
+ eanimar não conta imposto.\n\n\nPasso a passo:\n1. Grave um áudio por ce
+ na no Gravador do iPhone\, num lugar silencioso\, com o celular a um palmo
+  da boca.\n2. Mude o tom nas falas dos personagens: Preto nas cenas 2 e 4\
+ , Branco na cena 3. Exagere um pouco\, é esquete.\n3. Nomeie os áudios c
+ ena_1\, cena_2\, cena_3\, cena_4\, cena_5 e cena_6.\n4. Mande os áudios a
+ o Claude no projeto MGT strategy (pode ser respondendo à mensagem desta t
+ arefa) dizendo "áudios do TikTok de 2026-11-02".\n\nValores em reais pela
+  cotação de 30 out (Banco Central\, PTAX).\n\nPauta completa: https://fo
+ ntedemana.com.br/pauta/2026-11-02/#gravacao
+URL:https://fontedemana.com.br/pauta/2026-11-02/#gravacao
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Gravação: Gravar a narração do TikTok de amanhã
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-02-tiktok@fontedemana.com.br
+DTSTAMP:20261101T212644Z
+DTSTART:20261102T143000Z
+DURATION:PT15M
+SUMMARY:11:30 TikTok: TikTok: Treta das Cores #1\, comandante morreu
+DESCRIPTION:Esquete do Preto contra o Branco sobre comandante que morre: ce
+ mitério ou zona de comando. A regra fecha a treta e a Dread Return mostra
+  a reanimação sem imposto.\n\nArquivos:\n- tiktok-mudo.mp4: https://font
+ edemana.com.br/pauta/2026-11-02/tiktok/tiktok-mudo.mp4\n\nLegenda:\nComman
+ der: seu comandante morreu. Fica no cemitério ou volta para a zona de com
+ ando?\n\nTreta das Cores #1. O Preto quer reanimar com Dread Return\, o Br
+ anco diz que comandante não fica no cemitério. A regra resolve no fim do
+  vídeo.\n\nNessa treta\, quem tinha razão\, o Preto ou o Branco?\n\nRegr
+ a: Regras Abrangentes\, 903.9a. Preço: Scryfall. Reais pela cotação de 
+ 30 out (Banco Central\, PTAX).\nMais em fontedemana.com.br\n\n#finados #co
+ mmander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under th
+ e Fan Content Policy. Not approved/endorsed by Wizards. Portions of the ma
+ terials used are property of Wizards of the Coast. ©Wizards of the Coast 
+ LLC.\n\nComentário fixado:\nNessa treta\, quem tinha razão: o Preto\, qu
+ e deixa o comandante no cemitério para reanimar\, ou o Branco\, que manda
+  direto para a zona de comando?\n\nPasso a passo:\n1. Poste com um som em 
+ alta da biblioteca do TikTok\, com volume entre 15% e 20%.\n2. Voz própri
+ a não precisa de rótulo de IA.\n3. Fixe o comentário logo depois de pos
+ tar.\n4. Se os áudios não chegarem\, poste o vídeo mudo com música em 
+ alta.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-02/#tikt
+ ok
+URL:https://fontedemana.com.br/pauta/2026-11-02/#tiktok
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TikTok: TikTok: Treta das Cores #1\, comandante morreu
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT

@@ -1,0 +1,35 @@
+{
+  "data": "2026-11-02",
+  "pilar": "treta",
+  "item": "Comandante morre: cemitério ou zona de comando?",
+  "tema": "Treta das Cores #1: comandante morreu. Cemitério ou zona de comando?",
+  "cartas": ["Dread Return"],
+  "fx": "Valores em reais pela cotação de 30 out (Banco Central, PTAX).",
+  "carrossel": {
+    "capa": {"cor": "B", "chip": "Treta das Cores #1", "kicker": "O cemitério do jogo", "titulo": "Comandante morreu. <b>Cemitério ou zona de comando?</b>", "sub": "O Preto quer reanimar. O Branco diz que é contra a regra. <b>Só um dos dois tinha razão.</b>", "arte": "pauta/2026-11-02/tiktok/arte.jpg", "credito": "Arte: Dread Return, Kev Walker"},
+    "cartoes": [
+      {"cor": "B", "titulo": "A treta na mesa", "itens": [
+        {"cor": "B", "html": "<b>Preto:</b> deixa no cemitério. Depois eu trago com Dread Return, e sem pagar imposto."},
+        {"cor": "W", "html": "<b>Branco:</b> não pode. Comandante volta direto pra zona de comando. Regra é regra."},
+        {"cor": "B", "html": "<b>Preto:</b> então por que o meu gatilho de morrer disparou?"}
+      ], "fonte": "Quem tinha razão? Arrasta."},
+      {"cor": "U", "titulo": "A regra: o Preto tinha razão", "itens": [
+        {"cor": "U", "html": "O comandante <b>vai pro cemitério primeiro</b>. Para o jogo, ele morreu."},
+        {"cor": "U", "html": "Os gatilhos de morrer disparam, inclusive os do próprio comandante."},
+        {"cor": "U", "html": "Só depois o dono escolhe: <b>zona de comando ou fica no cemitério</b>."}
+      ], "nota": {"rotulo": "Atenção", "texto": "a escolha é uma vez só. Deixou no cemitério, não dá para mudar de ideia no turno seguinte."}, "fonte": "Fonte: Regras Abrangentes, 903.9a"},
+      {"cor": "B", "titulo": "Ficou? Reanima sem imposto", "carta": "pauta/2026-11-02/original/carta-1.jpg", "itens": [
+        {"cor": "B", "html": "Dread Return traz o comandante de volta por <b>US$ 1,38 (R$ 7,48)</b>."},
+        {"cor": "B", "html": "O imposto só sobe quando você conjura da zona de comando. Reanimar não conta."}
+      ], "fx": "Reais pela cotação de 30 out (Banco Central, PTAX).", "fonte": "Fonte: Scryfall, 1 nov 2026"},
+      {"cor": "W", "titulo": "Quando o Branco acerta", "itens": [
+        {"cor": "W", "html": "Sem reanimação no deck? Manda pra zona de comando e joga de novo pagando o imposto."},
+        {"cor": "W", "html": "Tem oponente que reanima do cemitério dos outros? Deixar lá é dar o comandante de presente."}
+      ], "nota": {"rotulo": "Resumo", "texto": "cemitério é aposta, zona de comando é garantia."}, "fonte": "Fonte: Regras Abrangentes, 903.9a"}
+    ],
+    "cta": {"pergunta": "Nessa treta, <b>quem tinha razão</b>?", "quando": "Você deixava no cemitério ou mandava pra zona de comando?", "salvar": "Salva para a próxima vez que seu comandante morrer na mesa"}
+  },
+  "legenda": "Commander: seu comandante morreu. Fica no cemitério ou volta para a zona de comando?\n\nTreta das Cores #1, no Dia de Finados, sobre o cemitério do jogo.\n\nO Preto quer deixar o comandante no cemitério e trazer de volta com Dread Return. O Branco diz que comandante volta direto para a zona de comando. A regra (903.9a das Regras Abrangentes): o comandante vai primeiro para o cemitério, os gatilhos de morrer disparam e só depois o dono escolhe, uma vez só.\n\nReanimar não é conjurar da zona de comando, então não sobe o imposto.\n\nFontes: Regras Abrangentes e Scryfall. Valores em reais pela cotação de 30 out (Banco Central, PTAX).\nMais em fontedemana.com.br\n\nNa sua mesa, quem ganhava essa treta, o Preto ou o Branco?\n\n#finados #commander #mtg",
+  "threads": {"texto": "Comandante morreu na mesa e a treta começou.\n\nPreto: deixa no cemitério que depois eu trago com Dread Return, e sem imposto.\nBranco: não pode, comandante volta direto pra zona de comando.\n\nSpoiler da regra: ele passa pelo cemitério antes, então o Preto pode deixar lá. Você já ouviu essa discussão na mesa? Quem você acha que tinha razão antes de saber a regra?", "obs": "Enquete com duas opções: Preto (deixa no cemitério) e Branco (zona de comando)."},
+  "enquete": {"pergunta": "Comandante morreu. Onde você deixa?", "opcoes": ["No cemitério", "Zona de comando"]}
+}
