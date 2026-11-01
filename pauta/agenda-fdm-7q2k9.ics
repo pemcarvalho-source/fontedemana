@@ -8,296 +8,8 @@ X-WR-TIMEZONE:America/Sao_Paulo
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:fdm-2026-10-28-gravacao@fontedemana.com.br
-DTSTAMP:20261031T225010Z
-DTSTART:20261027T221500Z
-DURATION:PT15M
-SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
-DESCRIPTION:Combo da semana #1: Exquisite Blood e Sanguine Bond\, o laço d
- e sangue dos vampiros\, para o Halloween. Seis cenas curtas\, uns 36 s de 
- fala no total.\n\nArquivos:\n- Vídeo mudo (para ver o ritmo): https://fon
- tedemana.com.br/pauta/2026-10-28/tiktok/tiktok-mudo.mp4\n\nRoteiro de grav
- ação:\nCena 1\, uns 5 s\nNa tela: Dois vampiros zeram a mesa inteira. Se
- m atacar\, com dois encantamentos de 5 manas\nFala: Dois encantamentos de 
- vampiro zeram a vida da mesa inteira. Sem atacar.\n\nCena 2\, uns 5 s\nNa 
- tela: Exquisite Blood. US$ 40\,76 (R$ 205\,34). Oponente perdeu vida? Voc
- ê ganha igual\nFala: Exquisite Blood: toda vida que um oponente perde\, v
- ocê ganha a mesma quantidade.\n\nCena 3\, uns 6 s\nNa tela: Sanguine Bond
- . US$ 5\,59 (R$ 28\,16). Ganhou vida? Um oponente perde igual\nFala: Sangu
- ine Bond faz o caminho de volta: toda vida que você ganha\, um oponente p
- erde.\n\nCena 4\, uns 8 s\nNa tela: O laço de sangue. Você ganha 1\, um 
- oponente perde 1\, você ganha 1. Repete\, trocando o alvo\, até zerar to
- do mundo\nFala: Ganhou 1 de vida? Um oponente perde 1\, você ganha 1\, e 
- o laço gira. Cada volta\, você escolhe quem sangra.\n\nCena 5\, uns 5 s\
- nNa tela: Tira um dos encantamentos no meio do laço. Remoção instantân
- ea com o gatilho na pilha. Juntas em mais de 150 mil decks (Commander Spel
- lbook)\nFala: Pra parar: remoção instantânea num dos encantamentos\, co
- m o gatilho ainda na pilha.\n\nCena 6\, uns 5 s\nNa tela: Combo na mesa ca
- sual: pode ou é falta de educação? Pode\, pode se avisar antes\, ou nã
- o pode\nFala: Combo na mesa casual: pode\, pode se avisar\, ou é falta de
-  educação?\n\n\nPasso a passo:\n1. Grave um áudio por cena no Gravador 
- do iPhone\, num lugar silencioso\, com o celular a um palmo da boca.\n2. F
- ale no ritmo de conversa de mesa\, sem pressa. Na cena 4\, conte o laço d
- evagar\, como se mostrasse na mesa.\n3. Nomeie os áudios cena_1\, cena_2\
- , até cena_6.\n4. Mande os áudios ao Claude no projeto MGT strategy (pod
- e ser respondendo à mensagem desta tarefa) dizendo "áudios do TikTok de 
- 2026-10-28".\n\nValores em reais pela cotação de 23 out (Banco Central\,
-  PTAX).\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-28/#gr
- avacao
-URL:https://fontedemana.com.br/pauta/2026-10-28/#gravacao
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Gravação: Gravar a narração do TikTok de amanhã
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-28-tiktok@fontedemana.com.br
-DTSTAMP:20261031T225010Z
-DTSTART:20261028T143000Z
-DURATION:PT15M
-SUMMARY:11:30 TikTok: Combo da semana #1\, Exquisite Blood e Sanguine Bond
-DESCRIPTION:Vídeo do combo de vampiro para o Halloween: as duas cartas\, a
-  ordem dos gatilhos e como parar. A mesma legenda e o mesmo vídeo vão pa
- ra o Reels das 19:00.\n\nArquivos:\n- Vídeo do TikTok narrado: https://fo
- ntedemana.com.br/pauta/2026-10-28/tiktok/tiktok-narrado.mp4\n\nLegenda:\nC
- ombo de Commander de Halloween: dois encantamentos de vampiro\, Exquisite 
- Blood e Sanguine Bond\, zeram a vida da mesa inteira sem atacar. Combo na 
- mesa casual: pode ou é falta de educação? Segundo o Commander Spellbook
- \, a dupla está junta em mais de 150 mil decks no EDHREC. Exquisite Blood
-  US$ 40\,76 (R$ 205\,34) e Sanguine Bond US$ 5\,59 (R$ 28\,16) no Scryfall
- .\n\nValores em reais pela cotação de 23 out (Banco Central\, PTAX).\n\n
- O jornal de Magic de todo dia está em fontedemana.com.br\n\n#vampiros #co
- mmander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under th
- e Fan Content Policy. Not approved/endorsed by Wizards. Portions of the ma
- terials used are property of Wizards of the Coast. ©Wizards of the Coast 
- LLC.\n\nComentário fixado:\nCombo na mesa casual: pode\, pode só se avis
- ar antes\, ou não pode? E se a mesa fosse sua\, você deixava esse laço 
- de sangue resolver? O passo a passo está em fontedemana.com.br\n\nPasso a
-  passo:\n1. Poste com um som em alta da biblioteca do TikTok\, com o volum
- e entre 15% e 20%\, por baixo da voz.\n2. Voz própria não precisa de ró
- tulo de IA.\n3. Fixe o comentário logo depois de postar.\n\nValores em re
- ais pela cotação de 23 out (Banco Central\, PTAX).\n\nPauta completa: ht
- tps://fontedemana.com.br/pauta/2026-10-28/#tiktok
-URL:https://fontedemana.com.br/pauta/2026-10-28/#tiktok
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:TikTok: Combo da semana #1\, Exquisite Blood e Sanguine Bond
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-28-threads-manha@fontedemana.com.br
-DTSTAMP:20261031T225010Z
-DTSTART:20261028T133000Z
-DURATION:PT15M
-SUMMARY:10:30 Threads: Pergunta do dia: Qual você pegaria primeiro: Lower 
- Decks\, com…
-DESCRIPTION:Pergunta para puxar conversa sobre a notícia do dia.\n\nPost:\
- nCinco Secret Lairs de Star Trek abrem venda em 9 de novembro\, a US$ 29\,
- 99 cada. Qual você pegaria primeiro: Lower Decks\, com Thrasios e Kambal\
- , ou o de blink\, com Eerie Interlude e Conjurer's Closet?\n\nPasso a pass
- o:\n1. Abra o Threads e cole o Post.\n2. Dica: Enquete: Lower Decks\, Blin
- k\, Klingon\, Nenhum\n3. Toque em Adicionar tópico e escolha MTG.\n4. Pub
- lique e responda quem comentar na primeira hora.\n\nPauta completa: https:
- //fontedemana.com.br/pauta/2026-10-28/#threads-manha
-URL:https://fontedemana.com.br/pauta/2026-10-28/#threads-manha
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Pergunta do dia: Qual você pegaria primeiro: Lower De
- cks\, com…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-28-stories-manha@fontedemana.com.br
-DTSTAMP:20261031T225010Z
-DTSTART:20261028T133000Z
-DURATION:PT15M
-SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
-DESCRIPTION:Story com a capa da edição 23 (Star Trek ganha cinco Secret L
- airs) e um sticker de pergunta para puxar a conversa.\n\nArquivos:\n- Capa
-  da edição 23: https://fontedemana.com.br/kit/ed23/carrossel-01.jpg\n\nP
- asso a passo:\n1. Baixe a capa e poste no Story.\n2. Adicione o sticker de
-  Pergunta no terço de baixo\, sem cobrir o título: Qual Secret Lair de S
- tar Trek você compraria?\n3. Publique.\n\nPauta completa: https://fontede
- mana.com.br/pauta/2026-10-28/#stories-manha
-URL:https://fontedemana.com.br/pauta/2026-10-28/#stories-manha
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Capa do jornal com sticker de pergunta
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-28-feed@fontedemana.com.br
-DTSTAMP:20261031T225010Z
-DTSTART:20261028T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram feed: Carrossel da edição 23
-DESCRIPTION:Carrossel de 6 imagens da edição 23: Star Trek ganha cinco Se
- cret Lairs\, Federation Fleet: lista completa\, Topdeck: Thrasios\, Triton
-  Hero.\n\nArquivos:\n- Imagem 1 de 6: https://fontedemana.com.br/kit/ed23/
- carrossel-01.jpg\n- Imagem 2 de 6: https://fontedemana.com.br/kit/ed23/car
- rossel-02.jpg\n- Imagem 3 de 6: https://fontedemana.com.br/kit/ed23/carros
- sel-03.jpg\n- Imagem 4 de 6: https://fontedemana.com.br/kit/ed23/carrossel
- -04.jpg\n- Imagem 5 de 6: https://fontedemana.com.br/kit/ed23/carrossel-05
- .jpg\n- Imagem 6 de 6: https://fontedemana.com.br/kit/ed23/carrossel-06.jp
- g\n\nLegenda:\nCommander e Star Trek: a Wizards anunciou cinco Secret Lair
- s da série\, e a venda abre em 9 de novembro.\n\nCada drop custa US$ 29\,
- 99 sem foil e US$ 39\,99 em foil\, com fila às 13h e venda às 14h de Bra
- sília. O de Lower Decks traz Thrasios\, Kambal\, Inti\, Silas Renn e Weat
- herlight com nomes da série. Só o Thrasios avulso sai hoje por pelo meno
- s US$ 18\,14. Tem ainda um pacote de blink com Eerie Interlude e Conjurer'
- s Closet\, um drop klingon com War's Toll e outro com Buried Alive e Comma
- ndeer.\n\nTambém saiu a lista de Federation Fleet\, o precon de Jean-Luc 
- Picard\, com Alhammarret's Archive\, Loran of the Third Path e Cryptic Com
- mand.\n\nNo Topdeck do Dia\, Thrasios\, Triton Hero\, o parceiro que trans
- forma mana sobrando em cartas.\n\nQual dos Secret Lairs de Star Trek você
-  compraria primeiro?\n\nEdição completa em fontedemana.com.br\n\nArtes: 
- Conjurer's Closet\, Jason Felix. Thrasios\, Triton Hero\, Josu Hernaiz.\n\
- n#startrek #commander #mtg\n\nFonte de Mana is unofficial Fan Content perm
- itted under the Fan Content Policy. Not approved/endorsed by Wizards. Port
- ions of the materials used are property of Wizards of the Coast. ©Wizards
-  of the Coast LLC.\n\nPasso a passo:\n1. No Instagram\, toque em + e escol
- ha Post.\n2. Selecione as 6 imagens na ordem\, da 1 à 6.\n3. Toque em Adi
- cionar música e escolha uma em alta que combine com o tema.\n4. Cole a Le
- genda e publique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026
- -10-28/#feed
-URL:https://fontedemana.com.br/pauta/2026-10-28/#feed
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram feed: Carrossel da edição 23
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-28-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261031T225010Z
-DTSTART:20261028T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
-DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
- .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
- e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
- o do post: Você compraria o Secret Lair de Lower Decks? com Sim\, pelo Th
- rasios\, Sim\, pela arte e Não.\n3. Publique.\n\nPauta completa: https://
- fontedemana.com.br/pauta/2026-10-28/#stories-meio-dia
-URL:https://fontedemana.com.br/pauta/2026-10-28/#stories-meio-dia
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-28-threads-tarde@fontedemana.com.br
-DTSTAMP:20261031T225010Z
-DTSTART:20261028T180000Z
-DURATION:PT15M
-SUMMARY:15:00 Threads: Notícia do dia num post só
-DESCRIPTION:A edição 23 contada num post só\, sem fio: nos fios\, quase 
- ninguém passava do primeiro post.\n\nPost:\nStar Trek ganha cinco Secret 
- Lairs\, com venda em 9 de novembro às 14h de Brasília. Cada drop custa U
- S$ 29\,99 sem foil e US$ 39\,99 em foil. O de Lower Decks traz Thrasios\, 
- Kambal\, Inti\, Silas Renn e Weatherlight com nomes da série\, e só o Th
- rasios avulso sai hoje por pelo menos US$ 18\,14. Qual drop você pegaria?
-  fontedemana.com.br\n\nPasso a passo:\n1. No Threads\, cole o Post\, sem s
- equência.\n2. Toque em Adicionar tópico e escolha MTG.\n3. Publique e re
- sponda quem comentar na primeira hora.\n\nPauta completa: https://fontedem
- ana.com.br/pauta/2026-10-28/#threads-tarde
-URL:https://fontedemana.com.br/pauta/2026-10-28/#threads-tarde
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Notícia do dia num post só
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-28-stories-tarde@fontedemana.com.br
-DTSTAMP:20261031T225010Z
-DTSTART:20261028T180000Z
-DURATION:PT15M
-SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
-DESCRIPTION:Story com a imagem de Thrasios\, Triton Hero no Topdeck do Dia 
- e o sticker de link para a edição completa.\n\nArquivos:\n- Topdeck do D
- ia: https://fontedemana.com.br/kit/ed23/carrossel-04.jpg\n\nPasso a passo:
- \n1. Baixe a imagem e poste no Story.\n2. Adicione o sticker de Link para 
- fontedemana.com.br com o texto Edição completa\, embaixo do texto do Top
- deck.\n3. Publique.\n\nPauta completa: https://fontedemana.com.br/pauta/20
- 26-10-28/#stories-tarde
-URL:https://fontedemana.com.br/pauta/2026-10-28/#stories-tarde
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Topdeck do Dia com link
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-28-reels@fontedemana.com.br
-DTSTAMP:20261031T225010Z
-DTSTART:20261028T220000Z
-DURATION:PT15M
-SUMMARY:19:00 Reels: Vídeo original: Combo da semana #1: Exquisite Blood e
-  Sanguine Bond…
-DESCRIPTION:O vídeo original de hoje no Instagram\, o mesmo arquivo do Tik
- Tok\, já narrado. É o formato que mais chega a quem não segue.\n\nArqui
- vos:\n- Vídeo original narrado: https://fontedemana.com.br/pauta/2026-10-
- 28/tiktok/tiktok-narrado.mp4\n\nLegenda:\nCombo de Commander de Halloween:
-  dois encantamentos de vampiro\, Exquisite Blood e Sanguine Bond\, zeram a
-  vida da mesa inteira sem atacar. Combo na mesa casual: pode ou é falta d
- e educação? Segundo o Commander Spellbook\, a dupla está junta em mais 
- de 150 mil decks no EDHREC. Exquisite Blood US$ 40\,76 (R$ 205\,34) e Sang
- uine Bond US$ 5\,59 (R$ 28\,16) no Scryfall.\n\nValores em reais pela cota
- ção de 23 out (Banco Central\, PTAX).\n\nO jornal de Magic de todo dia e
- stá em fontedemana.com.br\n\n#vampiros #commander #mtg\n\nFonte de Mana i
- s unofficial Fan Content permitted under the Fan Content Policy. Not appro
- ved/endorsed by Wizards. Portions of the materials used are property of Wi
- zards of the Coast. ©Wizards of the Coast LLC.\n\nComentário fixado:\nCo
- mbo na mesa casual: pode\, pode só se avisar antes\, ou não pode? E se a
-  mesa fosse sua\, você deixava esse laço de sangue resolver? O passo a p
- asso está em fontedemana.com.br\n\nPasso a passo:\n1. No Instagram\, toqu
- e em + e escolha Reel.\n2. Escolha o vídeo baixado daqui\, nunca o salvo 
- do TikTok (o Instagram derruba vídeo com marca d'água).\n3. Em Áudio\, 
- ponha uma música em alta da biblioteca do Instagram com volume baixo (uns
-  10%)\, sem cobrir a voz.\n4. Na capa\, use o primeiro quadro\, o do ganch
- o.\n5. Cole a Legenda e publique.\n6. Fixe o comentário e responda quem c
- omentar na primeira hora.\n\nValores em reais pela cotação de 23 out (Ba
- nco Central\, PTAX).\n\nPauta completa: https://fontedemana.com.br/pauta/2
- 026-10-28/#reels
-URL:https://fontedemana.com.br/pauta/2026-10-28/#reels
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reels: Vídeo original: Combo da semana #1: Exquisite Blood e S
- anguine Bond…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-28-comentarios@fontedemana.com.br
-DTSTAMP:20261031T225010Z
-DTSTART:20261029T003000Z
-DURATION:PT15M
-SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
-DESCRIPTION:Uns 10 minutos nas três redes: curtir e responder os comentár
- ios das últimas 48 horas\, começando pelo vídeo e pelo carrossel de hoj
- e. Conversa nos comentários leva a peça a mais gente\, e o Instagram rec
- omenda responder em até 2 dias.\n\nPasso a passo:\n1. Instagram: nas noti
- ficações\, curta os comentários e responda com uma frase quem perguntou
-  ou discordou.\n2. TikTok e Threads: o mesmo\, começando pelo post com ma
- is comentários.\n3. Pergunta boa ou dúvida que se repete\, nos comentár
- ios ou nas DMs? Mande na conversa do projeto: vira tema de um pilar.\n\nPa
- uta completa: https://fontedemana.com.br/pauta/2026-10-28/#comentarios
-URL:https://fontedemana.com.br/pauta/2026-10-28/#comentarios
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Comentários: Responder os comentários de hoje e de ontem
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fdm-2026-10-29-gravacao@fontedemana.com.br
-DTSTAMP:20261031T225010Z
+DTSTAMP:20261101T102134Z
 DTSTART:20261028T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -336,7 +48,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-tiktok@fontedemana.com.br
-DTSTAMP:20261031T225010Z
+DTSTAMP:20261101T102134Z
 DTSTART:20261029T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Top 5 #3: os zumbis do Commander
@@ -371,7 +83,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-stories-dc500@fontedemana.com.br
-DTSTAMP:20261031T225010Z
+DTSTAMP:20261101T102134Z
 DTSTART:20261029T210000Z
 DURATION:PT15M
 SUMMARY:18:00 Instagram Stories: Ashling no DC500 da MTG Brasil (2 Stories)
@@ -399,7 +111,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-threads-manha@fontedemana.com.br
-DTSTAMP:20261031T225010Z
+DTSTAMP:20261101T102134Z
 DTSTART:20261029T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Qual você deixaria no comando?
@@ -419,7 +131,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-stories-manha@fontedemana.com.br
-DTSTAMP:20261031T225010Z
+DTSTAMP:20261101T102134Z
 DTSTART:20261029T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -439,7 +151,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-feed@fontedemana.com.br
-DTSTAMP:20261031T225010Z
+DTSTAMP:20261101T102134Z
 DTSTART:20261029T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 24
@@ -483,7 +195,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261031T225010Z
+DTSTAMP:20261101T102134Z
 DTSTART:20261029T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -502,7 +214,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-threads-tarde@fontedemana.com.br
-DTSTAMP:20261031T225010Z
+DTSTAMP:20261101T102134Z
 DTSTART:20261029T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -527,7 +239,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-stories-tarde@fontedemana.com.br
-DTSTAMP:20261031T225010Z
+DTSTAMP:20261101T102134Z
 DTSTART:20261029T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -547,7 +259,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-reels@fontedemana.com.br
-DTSTAMP:20261031T225010Z
+DTSTAMP:20261101T102134Z
 DTSTART:20261029T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Top 5 #3: os zumbis que mais aparecem
@@ -587,7 +299,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-29-comentarios@fontedemana.com.br
-DTSTAMP:20261031T225010Z
+DTSTAMP:20261101T102134Z
 DTSTART:20261030T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -609,7 +321,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-gravacao@fontedemana.com.br
-DTSTAMP:20261031T225010Z
+DTSTAMP:20261101T102134Z
 DTSTART:20261029T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -643,7 +355,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-tiktok@fontedemana.com.br
-DTSTAMP:20261031T225010Z
+DTSTAMP:20261101T102134Z
 DTSTART:20261030T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Chama o Juiz #3\, Fiend Hunter e o comandante exilado
@@ -673,7 +385,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-threads-manha@fontedemana.com.br
-DTSTAMP:20261031T225010Z
+DTSTAMP:20261101T102134Z
 DTSTART:20261030T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Você levaria pelo Spock\, pelas re
@@ -695,7 +407,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-stories-manha@fontedemana.com.br
-DTSTAMP:20261031T225010Z
+DTSTAMP:20261101T102134Z
 DTSTART:20261030T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -715,7 +427,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-feed@fontedemana.com.br
-DTSTAMP:20261031T225010Z
+DTSTAMP:20261101T102134Z
 DTSTART:20261030T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 25
@@ -757,7 +469,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261031T225010Z
+DTSTAMP:20261101T102134Z
 DTSTART:20261030T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -776,7 +488,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-threads-tarde@fontedemana.com.br
-DTSTAMP:20261031T225010Z
+DTSTAMP:20261101T102134Z
 DTSTART:20261030T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -802,7 +514,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-stories-tarde@fontedemana.com.br
-DTSTAMP:20261031T225010Z
+DTSTAMP:20261101T102134Z
 DTSTART:20261030T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -822,7 +534,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-reels@fontedemana.com.br
-DTSTAMP:20261031T225010Z
+DTSTAMP:20261101T102134Z
 DTSTART:20261030T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Chama o Juiz #3: Fiend Hunter exilou 
@@ -860,7 +572,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-comentarios@fontedemana.com.br
-DTSTAMP:20261031T225010Z
+DTSTAMP:20261101T102134Z
 DTSTART:20261031T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -882,7 +594,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-gravacao@fontedemana.com.br
-DTSTAMP:20261031T225010Z
+DTSTAMP:20261101T102134Z
 DTSTART:20261030T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -935,7 +647,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-tiktok@fontedemana.com.br
-DTSTAMP:20261031T225010Z
+DTSTAMP:20261101T102134Z
 DTSTART:20261031T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Radar DC500\, a Ashling no torneio
@@ -972,7 +684,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-threads-manha@fontedemana.com.br
-DTSTAMP:20261031T225010Z
+DTSTAMP:20261101T102134Z
 DTSTART:20261031T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Você vende a sua agora\, guarda pa
@@ -994,7 +706,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-stories-manha@fontedemana.com.br
-DTSTAMP:20261031T225010Z
+DTSTAMP:20261101T102134Z
 DTSTART:20261031T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -1014,7 +726,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-feed@fontedemana.com.br
-DTSTAMP:20261031T225010Z
+DTSTAMP:20261101T102134Z
 DTSTART:20261031T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 26
@@ -1054,7 +766,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261031T225010Z
+DTSTAMP:20261101T102134Z
 DTSTART:20261031T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -1073,7 +785,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-threads-tarde@fontedemana.com.br
-DTSTAMP:20261031T225010Z
+DTSTAMP:20261101T102134Z
 DTSTART:20261031T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -1098,7 +810,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-stories-tarde@fontedemana.com.br
-DTSTAMP:20261031T225010Z
+DTSTAMP:20261101T102134Z
 DTSTART:20261031T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1118,7 +830,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-reels@fontedemana.com.br
-DTSTAMP:20261031T225010Z
+DTSTAMP:20261101T102134Z
 DTSTART:20261031T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Ashling no DC500: perdeu 5 de 7 nos t
@@ -1158,7 +870,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-comentarios@fontedemana.com.br
-DTSTAMP:20261031T225010Z
+DTSTAMP:20261101T102134Z
 DTSTART:20261101T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1180,7 +892,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-gravacao@fontedemana.com.br
-DTSTAMP:20261031T225010Z
+DTSTAMP:20261101T102134Z
 DTSTART:20261031T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -1234,33 +946,242 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-tiktok@fontedemana.com.br
-DTSTAMP:20261031T225010Z
+DTSTAMP:20261101T102134Z
 DTSTART:20261101T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o Debate da semana #1: cemitério hate
 DESCRIPTION:Vídeo do debate: todo deck de Commander precisa de cemitério 
- hate? Os dois lados com os números do EDHREC.\n\nArquivos:\n- Vídeo narr
- ado: https://fontedemana.com.br/pauta/2026-11-01/tiktok/tiktok-narrado.mp4
- \n\nLegenda:\nCommander: todo deck precisa de cemitério hate? Debate da s
- emana #1\, na semana de Finados.\n\nLado sim: Animate Dead traz a melhor c
- riatura de qualquer cemitério por 2 manas\, e o Bojuka Bog é só um terr
- eno (está em 1\,58 milhão de decks no EDHREC).\nLado não: é jogo de qu
- atro\, e o hate pesado como Rest in Peace fecha o cemitério da mesa toda 
- (só 1\,5% dos decks que podem jogar).\n\nDe que lado você fica: sempre l
- eva ou deixa a mesa resolver?\n\nMais em fontedemana.com.br\n\n#bojukabog 
- #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under
-  the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the
-  materials used are property of Wizards of the Coast. ©Wizards of the Coa
- st LLC.\n\nComentário fixado:\nCemitério hate no seu deck: sempre leva u
- m\, só o Bojuka Bog ou deixa a mesa resolver? Os números do EDHREC estã
- o em fontedemana.com.br\n\nPasso a passo:\n1. Poste o vídeo com um som em
-  alta da biblioteca do TikTok\, volume entre 15% e 20%.\n2. Voz própria n
+ hate? Os dois lados com os números do EDHREC.\n\nArquivos:\n- Vídeo do T
+ ikTok narrado: https://fontedemana.com.br/pauta/2026-11-01/tiktok/tiktok-n
+ arrado.mp4\n\nLegenda:\nCommander: todo deck precisa de cemitério hate? D
+ ebate da semana #1\, na semana de Finados.\n\nLado sim: Animate Dead traz 
+ a melhor criatura de qualquer cemitério por 2 manas\, e o Bojuka Bog é s
+ ó um terreno (está em 1\,58 milhão de decks no EDHREC).\nLado não: é 
+ jogo de quatro\, e o hate pesado como Rest in Peace fecha o cemitério da 
+ mesa toda (só 1\,5% dos decks que podem jogar).\n\nDe que lado você fica
+ : sempre leva ou deixa a mesa resolver?\n\nMais em fontedemana.com.br\n\n#
+ commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under 
+ the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the 
+ materials used are property of Wizards of the Coast. ©Wizards of the Coas
+ t LLC.\n\nComentário fixado:\nCemitério hate no seu deck: sempre leva um
+ \, só o Bojuka Bog ou deixa a mesa resolver? Os números do EDHREC estão
+  em fontedemana.com.br\n\nPasso a passo:\n1. Poste o vídeo com um som em 
+ alta da biblioteca do TikTok\, volume entre 15% e 20%.\n2. Voz própria n
  ão precisa de rótulo de IA.\n3. Fixe o comentário logo depois de postar
  .\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-01/#tiktok
 URL:https://fontedemana.com.br/pauta/2026-11-01/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:TikTok: Postar o Debate da semana #1: cemitério hate
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-01-threads-manha@fontedemana.com.br
+DTSTAMP:20261101T102134Z
+DTSTART:20261101T133000Z
+DURATION:PT15M
+SUMMARY:10:30 Threads: Debate: Debate da semana #1: todo deck de Commander 
+ precisa de…
+DESCRIPTION:Post de debate do conteúdo original de hoje (Debate da semana)
+  para puxar conversa.\n\nPost:\nDebate da semana: todo deck de Commander p
+ recisa de cemitério hate?\n\nLado sim: Animate Dead reanima qualquer cria
+ tura por 2 manas\, e o Bojuka Bog é só um terreno. Está em 1\,58 milhã
+ o de decks no EDHREC.\n\nLado não: é jogo de quatro. Rest in Peace fecha
+  o cemitério de todo mundo\, até o seu\, e o Bog limpa um cemitério uma
+  vez só.\n\nVocê sempre leva um\, só o Bog ou deixa a mesa resolver?\n\
+ nPasso a passo:\n1. Abra o Threads e cole o Post.\n2. Dica: Enquete com tr
+ ês opções: Sempre levo\, Só o Bojuka Bog\, Deixo a mesa resolver.\n3. 
+ Toque em Adicionar tópico e escolha MTG.\n4. Publique e responda quem com
+ entar na primeira hora.\n\nPauta completa: https://fontedemana.com.br/paut
+ a/2026-11-01/#threads-manha
+URL:https://fontedemana.com.br/pauta/2026-11-01/#threads-manha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Debate: Debate da semana #1: todo deck de Commander pr
+ ecisa de…
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-01-stories-manha@fontedemana.com.br
+DTSTAMP:20261101T102134Z
+DTSTART:20261101T133000Z
+DURATION:PT15M
+SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
+DESCRIPTION:Story com a capa da edição 27 (Domingo calmo\, semana cheia n
+ o Commander) e um sticker de pergunta para puxar a conversa.\n\nArquivos:\
+ n- Capa da edição 27: https://fontedemana.com.br/kit/ed27/carrossel-01.j
+ pg\n\nPasso a passo:\n1. Baixe a capa e poste no Story.\n2. Adicione o sti
+ cker de Pergunta no terço de baixo\, sem cobrir o título: Qual criatura 
+ você traria de volta do cemitério?\n3. Publique.\n\nPauta completa: http
+ s://fontedemana.com.br/pauta/2026-11-01/#stories-manha
+URL:https://fontedemana.com.br/pauta/2026-11-01/#stories-manha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Capa do jornal com sticker de pergunta
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-01-feed@fontedemana.com.br
+DTSTAMP:20261101T102134Z
+DTSTART:20261101T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram feed: Debate da semana #1: todo deck de Commander p
+ recisa de cemitério hate?
+DESCRIPTION:Carrossel original de 6 imagens (Debate da semana): Debate da s
+ emana #1: todo deck de Commander precisa de cemitério hate?. Feito para s
+ alvar e compartilhar.\n\nArquivos:\n- Imagem 1 de 6: https://fontedemana.c
+ om.br/pauta/2026-11-01/original/carrossel-01.jpg\n- Imagem 2 de 6: https:/
+ /fontedemana.com.br/pauta/2026-11-01/original/carrossel-02.jpg\n- Imagem 3
+  de 6: https://fontedemana.com.br/pauta/2026-11-01/original/carrossel-03.j
+ pg\n- Imagem 4 de 6: https://fontedemana.com.br/pauta/2026-11-01/original/
+ carrossel-04.jpg\n- Imagem 5 de 6: https://fontedemana.com.br/pauta/2026-1
+ 1-01/original/carrossel-05.jpg\n- Imagem 6 de 6: https://fontedemana.com.b
+ r/pauta/2026-11-01/original/carrossel-06.jpg\n\nLegenda:\nCommander: todo 
+ deck precisa de cemitério hate? Debate da semana #1\, na semana de Finado
+ s\, sobre a carta de Magic que limpa o cemitério.\n\nLado sim: Animate De
+ ad traz a criatura de qualquer cemitério por 2 manas (466 mil decks)\, e 
+ o Bojuka Bog resolve sendo só um terreno (1\,58 milhão de decks\, 30% do
+ s que podem jogar).\nLado não: Rest in Peace fecha o cemitério da mesa t
+ oda\, até o seu (só 1\,5% dos decks)\, e o Bog limpa um cemitério uma v
+ ez só. Na mesa de quatro\, outro oponente pode cuidar disso.\n\nFontes: E
+ DHREC (out 2026) e Scryfall.\nMais em fontedemana.com.br\n\nDe que lado vo
+ cê fica: sempre leva\, só o Bojuka Bog ou deixa a mesa resolver?\n\n#com
+ mander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the
+  Fan Content Policy. Not approved/endorsed by Wizards. Portions of the mat
+ erials used are property of Wizards of the Coast. ©Wizards of the Coast L
+ LC.\n\nPasso a passo:\n1. No Instagram\, toque em + e escolha Post.\n2. Se
+ lecione as 6 imagens na ordem\, da 1 à 6.\n3. Toque em Adicionar música 
+ e escolha uma em alta que combine com o tema.\n4. Cole a Legenda e publiqu
+ e.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-01/#feed
+URL:https://fontedemana.com.br/pauta/2026-11-01/#feed
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram feed: Debate da semana #1: todo deck de Commander pre
+ cisa de cemitério hate?
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-01-stories-meio-dia@fontedemana.com.br
+DTSTAMP:20261101T102134Z
+DTSTART:20261101T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
+DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
+ .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
+ e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
+ o do post: Todo deck precisa de cemitério hate? com Sim\, sempre levo e N
+ ão\, a mesa resolve.\n3. Publique.\n\nPauta completa: https://fontedemana
+ .com.br/pauta/2026-11-01/#stories-meio-dia
+URL:https://fontedemana.com.br/pauta/2026-11-01/#stories-meio-dia
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-01-threads-tarde@fontedemana.com.br
+DTSTAMP:20261101T102134Z
+DTSTART:20261101T180000Z
+DURATION:PT15M
+SUMMARY:15:00 Threads: Notícia do dia num post só
+DESCRIPTION:A edição 27 contada num post só\, sem fio: nos fios\, quase 
+ ninguém passava do primeiro post.\n\nPost:\nDomingo calmo no Commander\, 
+ semana cheia pela frente. Amanhã\, 2 de novembro\, abre às 14h a venda d
+ o Countdown Kit da Marvel no site do Secret Lair. De 6 a 12 tem pré de St
+ ar Trek nas lojas\, e no dia 9 abre a venda dos Secret Lairs de Star Trek.
+  Vai encarar algum desses? fontedemana.com.br\n\nPasso a passo:\n1. No Thr
+ eads\, cole o Post\, sem sequência.\n2. Toque em Adicionar tópico e esco
+ lha MTG.\n3. Publique e responda quem comentar na primeira hora.\n\nPauta 
+ completa: https://fontedemana.com.br/pauta/2026-11-01/#threads-tarde
+URL:https://fontedemana.com.br/pauta/2026-11-01/#threads-tarde
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Notícia do dia num post só
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-01-stories-tarde@fontedemana.com.br
+DTSTAMP:20261101T102134Z
+DTSTART:20261101T180000Z
+DURATION:PT15M
+SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
+DESCRIPTION:Story com a imagem de Karmic Guide no Topdeck do Dia e o sticke
+ r de link para a edição completa.\n\nArquivos:\n- Topdeck do Dia: https:
+ //fontedemana.com.br/kit/ed27/carrossel-03.jpg\n\nPasso a passo:\n1. Baixe
+  a imagem e poste no Story.\n2. Adicione o sticker de Link para fontedeman
+ a.com.br com o texto Edição completa\, embaixo do texto do Topdeck.\n3. 
+ Publique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-01/#
+ stories-tarde
+URL:https://fontedemana.com.br/pauta/2026-11-01/#stories-tarde
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Topdeck do Dia com link
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-01-reels@fontedemana.com.br
+DTSTAMP:20261101T102134Z
+DTSTART:20261101T220000Z
+DURATION:PT15M
+SUMMARY:19:00 Reels: Vídeo original: Debate da semana #1: todo deck de Com
+ mander precisa…
+DESCRIPTION:O vídeo original de hoje no Instagram\, o mesmo arquivo do Tik
+ Tok\, já narrado. É o formato que mais chega a quem não segue.\n\nArqui
+ vos:\n- Vídeo original narrado: https://fontedemana.com.br/pauta/2026-11-
+ 01/tiktok/tiktok-narrado.mp4\n\nLegenda:\nCommander: todo deck precisa de 
+ cemitério hate? Debate da semana #1\, na semana de Finados.\n\nLado sim: 
+ Animate Dead traz a melhor criatura de qualquer cemitério por 2 manas\, e
+  o Bojuka Bog é só um terreno (está em 1\,58 milhão de decks no EDHREC
+ ).\nLado não: é jogo de quatro\, e o hate pesado como Rest in Peace fech
+ a o cemitério da mesa toda (só 1\,5% dos decks que podem jogar).\n\nDe q
+ ue lado você fica: sempre leva ou deixa a mesa resolver?\n\nMais em fonte
+ demana.com.br\n\n#commander #mtg\n\nFonte de Mana is unofficial Fan Conten
+ t permitted under the Fan Content Policy. Not approved/endorsed by Wizards
+ . Portions of the materials used are property of Wizards of the Coast. ©W
+ izards of the Coast LLC.\n\nComentário fixado:\nCemitério hate no seu de
+ ck: sempre leva um\, só o Bojuka Bog ou deixa a mesa resolver? Os número
+ s do EDHREC estão em fontedemana.com.br\n\nPasso a passo:\n1. No Instagra
+ m\, toque em + e escolha Reel.\n2. Escolha o vídeo baixado daqui\, nunca 
+ o salvo do TikTok (o Instagram derruba vídeo com marca d'água).\n3. Em 
+ Áudio\, ponha uma música em alta da biblioteca do Instagram com volume b
+ aixo (uns 10%)\, sem cobrir a voz.\n4. Na capa\, use o primeiro quadro\, o
+  do gancho.\n5. Cole a Legenda e publique.\n6. Fixe o comentário e respon
+ da quem comentar na primeira hora.\n\nPauta completa: https://fontedemana.
+ com.br/pauta/2026-11-01/#reels
+URL:https://fontedemana.com.br/pauta/2026-11-01/#reels
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reels: Vídeo original: Debate da semana #1: todo deck de Comma
+ nder precisa…
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-01-comentarios@fontedemana.com.br
+DTSTAMP:20261101T102134Z
+DTSTART:20261102T003000Z
+DURATION:PT15M
+SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
+DESCRIPTION:Uns 10 minutos nas três redes: curtir e responder os comentár
+ ios das últimas 48 horas\, começando pelo vídeo e pelo carrossel de hoj
+ e. Conversa nos comentários leva a peça a mais gente\, e o Instagram rec
+ omenda responder em até 2 dias.\n\nPasso a passo:\n1. Instagram: nas noti
+ ficações\, curta os comentários e responda com uma frase quem perguntou
+  ou discordou.\n2. TikTok e Threads: o mesmo\, começando pelo post com ma
+ is comentários.\n3. Pergunta boa ou dúvida que se repete\, nos comentár
+ ios ou nas DMs? Mande na conversa do projeto: vira tema de um pilar.\n\nPa
+ uta completa: https://fontedemana.com.br/pauta/2026-11-01/#comentarios
+URL:https://fontedemana.com.br/pauta/2026-11-01/#comentarios
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Comentários: Responder os comentários de hoje e de ontem
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
