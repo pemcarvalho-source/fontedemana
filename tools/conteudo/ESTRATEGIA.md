@@ -35,8 +35,8 @@ A primeira análise com o Metricool (10 a 21 out) mostrou: seguidor orgânico ch
 
 O jornal marca cada edição como `forte` ou `calmo` no `kit.json`.
 
-- **Forte**: a Notícia Lendária é fato novo de impacto direto na mesa ou no bolso de quem joga Commander, publicado na janela de hoje e ainda não noticiado. Exemplos: banimento ou mudança de Game Changers, regra nova, revelação de precon ou coleção de Commander, produto com preço ou data anunciados, carta com variação grande de preço, polêmica coberta por vários veículos.
-- **Calmo**: o resto, inclusive desdobramento de assunto que já saiu nas últimas 3 edições.
+- **Forte** (desde 3/11/2026): só anúncio oficial novo que muda a mesa de quem joga Commander, publicado na janela de hoje e ainda não noticiado: banimento ou mudança de Game Changers, regra nova, ou revelação de precon ou coleção de Commander (lista, data ou preço). Até 2/11 também contavam produto com preço ou data, variação grande de preço e polêmica coberta por vários veículos; com isso, todos os dias viravam fortes e o carrossel original saía do feed.
+- **Calmo**: o resto, inclusive produto que não é de Commander, variação de preço, polêmica e desdobramento de assunto que já saiu nas últimas 3 edições.
 - Dia forte: feed = carrossel do jornal. Dia calmo: feed = carrossel original. Sem carrossel original pronto, o feed fica com o jornal.
 
 ## Grade diária
