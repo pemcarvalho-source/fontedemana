@@ -7,11 +7,11 @@
       "dia": "2026-11-01",
       "hora": "19:15",
       "rede": "Gravação",
-      "titulo": "Gravar a narração do TikTok de amanhã",
-      "oQue": "Treta das Cores #1: comandante morreu, cemitério ou zona de comando? Seis falas curtas. Você faz duas vozes: o Preto (grave e debochado) e o Branco (certinho, de quem cita a regra). As cenas 1, 5 e 6 são na sua voz normal.",
+      "titulo": "Gravar a narração do TikTok de amanhã (com dublagem)",
+      "oQue": "Treta das Cores #1: comandante morreu, cemitério ou zona de comando? Nas cenas 2, 3 e 4 aparecem os personagens animados, o Preto (necromante) e o Branco (clériga): você dubla, só com a voz. As cenas 1, 5 e 6 são na sua voz normal.",
       "arquivos": [
         {
-          "nome": "Vídeo mudo (para conferir o tempo)",
+          "nome": "Vídeo mudo com os personagens",
           "url": "https://fontedemana.com.br/pauta/2026-11-02/tiktok/tiktok-mudo.mp4"
         }
       ],
@@ -19,37 +19,44 @@
         {
           "cena": "Cena 1, uns 3 s",
           "tela": "Comandante morreu. E agora?",
-          "fala": "Narrador (sua voz normal): Comandante morreu. Cemitério ou zona de comando?"
+          "fala": "Comandante morreu. Cemitério ou zona de comando?",
+          "como": "Voz normal: grave só o áudio"
         },
         {
-          "cena": "Cena 2, uns 4 s",
+          "cena": "Cena 2, personagem, uns 4 s",
           "tela": "Deixa aí. Ele volta com Dread Return.",
-          "fala": "Preto (voz grave, debochada): Deixa no cemitério. Eu trago com Dread Return, sem imposto."
+          "fala": "Deixa no cemitério. Eu trago com Dread Return, sem imposto.",
+          "como": "Dublagem do Preto: voz grave e debochada, só o áudio"
         },
         {
-          "cena": "Cena 3, uns 4 s",
+          "cena": "Cena 3, personagem, uns 4 s",
           "tela": "Comandante não fica no cemitério.",
-          "fala": "Branco (voz certinha, de quem cita a regra): Não pode. Comandante volta direto pra zona de comando."
+          "fala": "Não pode. Comandante volta direto pra zona de comando.",
+          "como": "Dublagem do Branco: voz certinha, de quem cita a regra, só o áudio"
         },
         {
-          "cena": "Cena 4, uns 3 s",
+          "cena": "Cena 4, personagem, uns 3 s",
           "tela": "Então por que meu gatilho de morrer disparou?",
-          "fala": "Preto (voz grave, impaciente): Então por que o meu gatilho de morrer disparou?"
+          "fala": "Então por que o meu gatilho de morrer disparou?",
+          "como": "Dublagem do Preto: voz grave e impaciente, só o áudio"
         },
         {
           "cena": "Cena 5, uns 6 s",
           "tela": "O Preto tinha razão.",
-          "fala": "Narrador (sua voz normal): O Preto tinha razão. Ele cai no cemitério, o gatilho dispara, e o dono escolhe uma vez só."
+          "fala": "O Preto tinha razão. Ele cai no cemitério, o gatilho dispara, e o dono escolhe uma vez só.",
+          "como": "Voz normal: grave só o áudio"
         },
         {
           "cena": "Cena 6, uns 4 s",
           "tela": "Carta Dread Return, US$ 1,38 (R$ 7,48). Reanimar não é conjurar: sem imposto",
-          "fala": "Narrador (sua voz normal): Ficou lá? Dread Return traz de volta, e reanimar não conta imposto."
+          "fala": "Ficou lá? Dread Return traz de volta, e reanimar não conta imposto.",
+          "como": "Voz normal: grave só o áudio"
         }
       ],
       "passos": [
+        "Assista ao vídeo mudo antes: nas cenas 2, 3 e 4 o personagem fala na tela e você dá a voz.",
         "Grave um áudio por cena no Gravador do iPhone, num lugar silencioso, com o celular a um palmo da boca.",
-        "Mude o tom nas falas dos personagens: Preto nas cenas 2 e 4, Branco na cena 3. Exagere um pouco, é esquete.",
+        "Nas dublagens, mude o tom: Preto nas cenas 2 e 4, Branco na cena 3. Não precisa acertar o tempo da boca: ela acompanha a sua voz na montagem.",
         "Nomeie os áudios cena_1, cena_2, cena_3, cena_4, cena_5 e cena_6.",
         "Mande os áudios ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"áudios do TikTok de 2026-11-02\"."
       ]

@@ -1,77 +1,83 @@
 {
-  "data": "2026-11-02",
-  "pilar": "treta",
-  "tema": "Treta das Cores #1: comandante morreu. Cemitério ou zona de comando?",
-  "item": "Comandante morre: cemitério ou zona de comando?",
-  "arte": "pauta/2026-11-02/tiktok/arte.jpg",
-  "carta": "pauta/2026-11-02/tiktok/carta.jpg",
-  "credito": "Arte: Dread Return, Kev Walker",
-  "fx": "Reais pela cotação de 30 out (Banco Central, PTAX)",
-  "legenda": "Commander: seu comandante morreu. Fica no cemitério ou volta para a zona de comando?\n\nTreta das Cores #1. O Preto quer reanimar com Dread Return, o Branco diz que comandante não fica no cemitério. A regra resolve no fim do vídeo.\n\nNessa treta, quem tinha razão, o Preto ou o Branco?\n\nRegra: Regras Abrangentes, 903.9a. Preço: Scryfall. Reais pela cotação de 30 out (Banco Central, PTAX).\nMais em fontedemana.com.br\n\n#finados #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
-  "comentario": "Nessa treta, quem tinha razão: o Preto, que deixa o comandante no cemitério para reanimar, ou o Branco, que manda direto para a zona de comando?",
-  "cenas": [
-    {
-      "tipo": "gancho",
-      "cor": "B",
-      "chip": "Treta das Cores #1",
-      "kicker": "O cemitério do jogo",
-      "titulo": "Comandante morreu. E agora?",
-      "sub": "Cemitério ou zona de comando? Preto e Branco brigam.",
-      "narracao": "Comandante morreu. Cemitério ou zona de comando?",
-      "segundos": 3.2
-    },
-    {
-      "tipo": "texto",
-      "cor": "B",
-      "chip": "Preto",
-      "kicker": "O Preto, de olho no cemitério",
-      "titulo": "Deixa aí. Ele volta com Dread Return.",
-      "sub": "E sem pagar imposto de comandante.",
-      "narracao": "Deixa no cemitério. Eu trago com Dread Return, sem imposto.",
-      "segundos": 4.3
-    },
-    {
-      "tipo": "texto",
-      "cor": "W",
-      "chip": "Branco",
-      "kicker": "O Branco, com o livro de regras",
-      "titulo": "Comandante não fica no cemitério.",
-      "sub": "Morreu, volta direto pra zona de comando. Regra é regra.",
-      "narracao": "Não pode. Comandante volta direto pra zona de comando.",
-      "segundos": 3.9
-    },
-    {
-      "tipo": "texto",
-      "cor": "B",
-      "chip": "Preto",
-      "kicker": "O Preto, sem paciência",
-      "titulo": "Então por que meu gatilho de morrer disparou?",
-      "narracao": "Então por que o meu gatilho de morrer disparou?",
-      "sub": "Se não chegou no cemitério, não morreu.",
-      "segundos": 3.9
-    },
-    {
-      "tipo": "texto",
-      "cor": "U",
-      "chip": "A regra",
-      "kicker": "Regras Abrangentes, 903.9a",
-      "titulo": "O Preto tinha razão.",
-      "sub": "O comandante cai no cemitério, o gatilho de morrer dispara e só depois o dono escolhe.",
-      "rodape": "A escolha é uma vez só. Deixou, ficou.",
-      "narracao": "O Preto tinha razão. Ele cai no cemitério, o gatilho dispara, e o dono escolhe uma vez só.",
-      "segundos": 7.3
-    },
-    {
-      "tipo": "carta",
-      "cor": "B",
-      "kicker": "Ficou no cemitério?",
-      "carta": "pauta/2026-11-02/tiktok/carta-1.jpg",
-      "valor": "US$ 1,38",
-      "real": "(R$ 7,48)",
-      "sub": "Reanimar não é conjurar: sem imposto",
-      "fonte": "Scryfall, 1 nov 2026",
-      "narracao": "Ficou lá? Dread Return traz de volta, e reanimar não conta imposto.",
-      "segundos": 5
-    }
-  ]
+ "data": "2026-11-02",
+ "pilar": "treta",
+ "tema": "Treta das Cores #1: comandante morreu. Cemitério ou zona de comando?",
+ "item": "Comandante morre: cemitério ou zona de comando?",
+ "arte": "pauta/2026-11-02/tiktok/arte.jpg",
+ "carta": "pauta/2026-11-02/tiktok/carta.jpg",
+ "credito": "Arte: Dread Return, Kev Walker",
+ "fx": "Reais pela cotação de 30 out (Banco Central, PTAX)",
+ "legenda": "Commander: seu comandante morreu. Fica no cemitério ou volta para a zona de comando?\n\nTreta das Cores #1. O Preto quer reanimar com Dread Return, o Branco diz que comandante não fica no cemitério. A regra resolve no fim do vídeo.\n\nNessa treta, quem tinha razão, o Preto ou o Branco?\n\nRegra: Regras Abrangentes, 903.9a. Preço: Scryfall. Reais pela cotação de 30 out (Banco Central, PTAX).\nMais em fontedemana.com.br\n\n#finados #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
+ "comentario": "Nessa treta, quem tinha razão: o Preto, que deixa o comandante no cemitério para reanimar, ou o Branco, que manda direto para a zona de comando?",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "cor": "B",
+   "chip": "Treta das Cores #1",
+   "kicker": "O cemitério do jogo",
+   "titulo": "Comandante morreu. E agora?",
+   "sub": "Cemitério ou zona de comando? Preto e Branco brigam.",
+   "narracao": "Comandante morreu. Cemitério ou zona de comando?",
+   "segundos": 3.2
+  },
+  {
+   "tipo": "texto",
+   "cor": "B",
+   "chip": "Preto",
+   "kicker": "O Preto, de olho no cemitério",
+   "titulo": "Deixa aí. Ele volta com Dread Return.",
+   "sub": "E sem pagar imposto de comandante.",
+   "narracao": "Deixa no cemitério. Eu trago com Dread Return, sem imposto.",
+   "segundos": 4.3,
+   "personagem": "preto",
+   "humor": "debochado"
+  },
+  {
+   "tipo": "texto",
+   "cor": "W",
+   "chip": "Branco",
+   "kicker": "O Branco, com o livro de regras",
+   "titulo": "Comandante não fica no cemitério.",
+   "sub": "Morreu, volta direto pra zona de comando. Regra é regra.",
+   "narracao": "Não pode. Comandante volta direto pra zona de comando.",
+   "segundos": 3.9,
+   "personagem": "branco",
+   "humor": "severa"
+  },
+  {
+   "tipo": "texto",
+   "cor": "B",
+   "chip": "Preto",
+   "kicker": "O Preto, sem paciência",
+   "titulo": "Então por que meu gatilho de morrer disparou?",
+   "narracao": "Então por que o meu gatilho de morrer disparou?",
+   "sub": "Se não chegou no cemitério, não morreu.",
+   "segundos": 3.9,
+   "personagem": "preto",
+   "humor": "impaciente"
+  },
+  {
+   "tipo": "texto",
+   "cor": "U",
+   "chip": "A regra",
+   "kicker": "Regras Abrangentes, 903.9a",
+   "titulo": "O Preto tinha razão.",
+   "sub": "O comandante cai no cemitério, o gatilho de morrer dispara e só depois o dono escolhe.",
+   "rodape": "A escolha é uma vez só. Deixou, ficou.",
+   "narracao": "O Preto tinha razão. Ele cai no cemitério, o gatilho dispara, e o dono escolhe uma vez só.",
+   "segundos": 7.3
+  },
+  {
+   "tipo": "carta",
+   "cor": "B",
+   "kicker": "Ficou no cemitério?",
+   "carta": "pauta/2026-11-02/tiktok/carta-1.jpg",
+   "valor": "US$ 1,38",
+   "real": "(R$ 7,48)",
+   "sub": "Reanimar não é conjurar: sem imposto",
+   "fonte": "Scryfall, 1 nov 2026",
+   "narracao": "Ficou lá? Dread Return traz de volta, e reanimar não conta imposto.",
+   "segundos": 5
+  }
+ ]
 }
