@@ -6,11 +6,11 @@
 
   "grade": [
     {"id": "threads-manha", "hora": "10:30", "ativo": true},
-    {"id": "stories-manha", "hora": "10:30", "ativo": true},
+    {"id": "stories-manha", "hora": "10:30", "ativo": false},
     {"id": "tiktok", "hora": "11:30", "ativo": true},
     {"id": "feed", "hora": "12:00", "ativo": true},
     {"id": "stories-meio-dia", "hora": "12:00", "ativo": true},
-    {"id": "threads-tarde", "hora": "15:00", "ativo": true},
+    {"id": "threads-tarde", "hora": "15:00", "ativo": false},
     {"id": "stories-tarde", "hora": "15:00", "ativo": true},
     {"id": "reels", "hora": "19:00", "ativo": true},
     {"id": "threads-noite", "hora": "19:00", "ativo": false}
