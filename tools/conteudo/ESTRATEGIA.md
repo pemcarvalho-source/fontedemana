@@ -45,18 +45,18 @@ O jornal marca cada edição como `forte` ou `calmo` no `kit.json`.
 | --- | --- | --- | --- |
 | 19:15 (véspera) | Gravação | Narração do TikTok de amanhã | igual |
 | 10:30 | Threads | Pergunta sobre a notícia | Debate do original |
-| 10:30 | Stories | Capa do jornal com pergunta | igual |
+| 10:30 | Stories | Saiu da grade em 3/11/2026 (era a capa do jornal com pergunta) | igual |
 | 11:30 | TikTok | Original narrado | igual |
 | 12:00 | Instagram feed | Carrossel do jornal | Carrossel original |
 | 12:00 | Stories | Repost do feed com enquete | igual |
-| 15:00 | Threads | Notícia do jornal num post só (até 25 out, fio) | igual |
+| 15:00 | Threads | Saiu da grade em 3/11/2026 (era a notícia do jornal num post só; até 25 out, fio) | igual |
 | 15:00 | Stories | Topdeck do Dia com link | igual |
 | 19:00 | Reels | Vídeo original do dia, o mesmo do TikTok (até 25 out, vídeo do jornal com música) | igual |
 | 18:40 (dias de teste) | Reels | Reel de teste: o vídeo do dia com o gancho B, só para quem não segue (antes do Reels normal) | igual |
 | 21:30 | Comentários | Responder e curtir os comentários de hoje e de ontem nas três redes (desde 26 out) | igual |
 | Na hora do anúncio (dias marcados) | Threads, feed, TikTok e Stories | Plantão: o anúncio grande no mesmo dia (`tools/conteudo/PLANTAO.md`) | igual |
 
-Saiu da grade: o post das 19:00 no Threads com o vídeo do jornal (repetia o Reels e o Threads é rede de texto). Volta se a revisão semanal mostrar o contrário: basta mudar `ativo` em `plano.json`.
+Saiu da grade: o post das 19:00 no Threads com o vídeo do jornal (repetia o Reels e o Threads é rede de texto). Em 3/11/2026 saíram também o Threads das 15:00 e o Stories das 10:30, que traziam pouca gente: o tempo vai para gravar os Reels extras e responder comentários. O Threads fica com um post por dia (10:30) e o Stories com dois (12:00 e 15:00). Volta se a revisão semanal mostrar o contrário: basta mudar `ativo` em `plano.json`.
 
 ## Calendário de originais (ciclo de 3 semanas)
 
