@@ -77,7 +77,7 @@
 
   "testes": [
     {"id": "tiktok-18h", "de": "2026-11-02", "ate": "2026-11-08", "hora": {"tiktok": "18:00"}, "mede": "Visualizações do TikTok nas primeiras 24 h, contra a mediana da semana anterior às 11:30."},
-    {"id": "reel-teste", "dias": ["2026-11-04", "2026-11-10"], "hora": "18:40", "mede": "Views em 72 h do Reel de teste (só não seguidores, gancho B) contra as views de não seguidores do Reels normal do mesmo dia (print do Insights do Reel). Sai antes do Reels das 19:00 porque o Instagram corta o alcance de Reel de teste com conteúdo já postado. Gancho B que ganhar vira o molde de gancho."},
+    {"id": "reel-teste", "dias": ["2026-11-03", "2026-11-04", "2026-11-05", "2026-11-06", "2026-11-10"], "hora": "18:40", "nota": "De 3 a 6/11 o Reel de teste também é o Reel extra da meta de seguidores de novembro (11 Reels na semana C): mais uma chance por dia de chegar a quem não segue, ao custo de um áudio a mais (cena_1b). Em 3/11 (Dicionário com o Paulo), o gancho B é de texto, então o teste compara com rosto e sem rosto.", "mede": "Views em 72 h do Reel de teste (só não seguidores, gancho B) contra as views de não seguidores do Reels normal do mesmo dia (print do Insights do Reel). Sai antes do Reels das 19:00 porque o Instagram corta o alcance de Reel de teste com conteúdo já postado. Gancho B que ganhar vira o molde de gancho."},
     {"id": "sem-hashtag", "dias": ["2026-11-09", "2026-11-11", "2026-11-13", "2026-11-15"], "hashtags": 0, "mede": "Visualizações e alcance dos dias sem hashtag contra os dias com 3 hashtags da mesma semana (10, 12 e 14 nov)."}
   ],
 
