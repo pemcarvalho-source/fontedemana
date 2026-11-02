@@ -1,0 +1,100 @@
+{
+ "n": 28,
+ "data": "2 nov",
+ "carrossel": {
+  "capa": {
+   "cor": "B",
+   "titulo": "Finados calmo, Countdown Kit à venda hoje",
+   "sub": "Nenhum fato novo nesta segunda. Às 14h abre a venda do <b>Countdown Kit da Marvel</b>, e o pré de <b>Star Trek</b> começa na sexta.",
+   "credito": "Arte: Whip of Erebos, Yeong-Hao Han"
+  },
+  "cartoes": [
+   {
+    "cor": "W",
+    "titulo": "O que vem nesta semana",
+    "itens": [
+     {"cor": "A", "html": "<b>Hoje, 2 nov</b>: às 14h em Brasília abre a venda do Countdown Kit da Marvel, a US$ 199,99 (R$ 1.084,19)."},
+     {"cor": "W", "html": "<b>Até 5 nov</b>: Commander Night em dupla de Reality Fracture nas lojas, com promo para quem joga."},
+     {"cor": "G", "html": "<b>6 a 12 nov</b>: pré de Star Trek nas lojas."},
+     {"cor": "A", "html": "<b>9 nov</b>: venda dos Secret Lairs de Star Trek, com fila às 13h e venda às 14h em Brasília."}
+    ],
+    "fonte": "Fontes: Wizards e WPN. Reais: PTAX de 30 out"
+   }
+  ],
+  "topdeck": {
+   "titulo": "Sheoldred, Whispering One",
+   "habilidades": [
+    {"rotulo": "Volta todo turno", "texto": "No começo do seu turno, uma criatura do seu cemitério volta para o campo."},
+    {"rotulo": "Cobrança", "texto": "No começo do turno de cada oponente, ele sacrifica uma criatura."},
+    {"rotulo": "Travessia de pântano", "texto": "Oponente com Pântano não consegue bloquear a Sheoldred."}
+   ],
+   "extra": "A pretor do cemitério no <b>Dia de Finados</b>. Comanda 1.240 decks no EDHREC e a original sai a US$ 21,38 (R$ 115,91). PTAX de 30 out.",
+   "credito": "Ilustração de Jana Schirmer & Johannes Voss"
+  },
+  "ban": {
+   "numero": "28",
+   "unidade": "DIAS",
+   "texto": "Próxima janela de banimentos em 30 de novembro. A de 12 de outubro passou sem mexer no Commander."
+  },
+  "turnos": [
+   {"cor": "A", "data": "2 nov", "texto": "Venda do Countdown Kit da Marvel"},
+   {"cor": "W", "data": "até 5 nov", "texto": "Commander Night em dupla nas lojas"},
+   {"cor": "G", "data": "6 a 12 nov", "texto": "Pré de Star Trek nas lojas"},
+   {"cor": "A", "data": "9 nov", "texto": "Venda dos Secret Lairs de Star Trek"},
+   {"cor": "G", "data": "13 nov", "texto": "Star Trek chega às lojas"}
+  ],
+  "sussurro": null
+ },
+ "video": {
+  "cena1": {
+   "titulo": "Finados calmo, Countdown Kit à venda hoje",
+   "pilulas": ["Countdown Kit às 14h", "Pré de Star Trek", "Topdeck de Finados"]
+  },
+  "cena2": {
+   "rotulo": "Agenda",
+   "cor": "W",
+   "titulo": "O que vem nesta semana",
+   "itens": [
+    "Hoje, 2 nov: abre a venda do Countdown Kit da Marvel, às 14h.",
+    "De 6 a 12 nov: pré de Star Trek nas lojas.",
+    "Segunda, 9 nov: venda dos Secret Lairs de Star Trek."
+   ],
+   "fonte": "Fontes: Wizards e WPN"
+  },
+  "cena3": {
+   "linhas": [
+    "<b>Sheoldred</b> traz uma criatura do cemitério todo turno.",
+    "E cada oponente sacrifica uma criatura no turno dele.",
+    "Comanda 1.240 decks no EDHREC."
+   ]
+  },
+  "cena4": {
+   "texto": "Faltam 28 dias para a próxima janela de banimentos. Antes, o pré de Star Trek nas lojas de 6 a 12 de novembro.",
+   "sussurro": null
+  }
+ },
+ "textos": {
+  "legendaCarrossel": "Commander de Magic nesta segunda de Finados: nenhum fato novo, mas hoje tem venda.\n\nÀs 14h em Brasília abre a venda do Secret Lair Countdown Kit: Marvel's History of Heroes, a US$ 199,99 (R$ 1.084,19), só no site do Secret Lair. Até 5 de novembro tem Commander Night em dupla de Reality Fracture nas lojas. De 6 a 12 de novembro rola o pré de Star Trek, e no dia 9 abre a venda dos Secret Lairs de Star Trek.\n\nNo Topdeck de Finados, Sheoldred, Whispering One, a pretor que traz uma criatura do cemitério todo turno e faz cada oponente sacrificar uma no turno dele. Comanda 1.240 decks no EDHREC e a original sai a US$ 21,38 (R$ 115,91).\n\nVocê joga a Sheoldred de comandante ou prefere reanimar ela nas 99?\n\nEdição completa em fontedemana.com.br\n\nArtes: Whip of Erebos, de Yeong-Hao Han. Sheoldred, Whispering One, de Jana Schirmer e Johannes Voss.\nValores em reais pela cotação de 30 out (Banco Central, PTAX).\n\n#startrek #commander #mtg",
+  "legendaVideo": "Commander de Magic nesta segunda de Finados: Countdown Kit da Marvel à venda hoje às 14h, pré de Star Trek de 6 a 12 de novembro e a Sheoldred, Whispering One no Topdeck.\n\nVocê joga a Sheoldred de comandante ou prefere reanimar ela nas 99?\n\nEdição completa em fontedemana.com.br\n\n#startrek #commander #mtg",
+  "threadsPost": "Segunda de Finados calma no Commander, mas hoje tem venda. Às 14h em Brasília abre o Countdown Kit da Marvel no site do Secret Lair, a US$ 199,99 (R$ 1.084,19). De 6 a 12 tem pré de Star Trek nas lojas, e no dia 9 abre a venda dos Secret Lairs de Star Trek. Vai encarar algum desses? fontedemana.com.br\nValores em reais pela cotação de 30 out (Banco Central, PTAX).",
+  "threadsFio": [
+   "Segunda de Finados sem fato novo confirmado sobre Commander. Mas hoje tem venda.",
+   "Às 14h em Brasília abre a venda do Countdown Kit: Marvel's History of Heroes, a US$ 199,99 (R$ 1.084,19), só no site do Secret Lair. Até 5 de novembro tem Commander Night em dupla de Reality Fracture nas lojas.",
+   "De 6 a 12 de novembro rola o pré de Star Trek nas lojas. No dia 9 abre a venda dos Secret Lairs de Star Trek, com fila às 13h e venda às 14h.",
+   "No Topdeck de Finados, Sheoldred, Whispering One: traz uma criatura do cemitério todo turno e cobra uma criatura de cada oponente. A original sai a US$ 21,38 (R$ 115,91). Edição completa em fontedemana.com.br\nValores em reais pela cotação de 30 out (Banco Central, PTAX)."
+  ],
+  "threadsAvulsos": [
+   {
+    "titulo": "Pergunta do dia",
+    "texto": "No Dia de Finados, o cemitério do jogo: qual a melhor criatura para reanimar no Commander?",
+    "obs": "Pergunta aberta, sem enquete"
+   }
+  ]
+ },
+ "pauta": {
+  "forca": "calmo",
+  "porque": "Segunda sem fato novo sobre Commander; o Countdown Kit já estava na agenda. A edição traz o Topdeck de Finados.",
+  "storyPergunta": "Qual criatura você reanimaria com a Sheoldred?",
+  "enquete": {"pergunta": "Vai no pré de Star Trek?", "opcoes": ["Vou sim", "Só compro os precons", "Passo essa"]}
+ }
+}
