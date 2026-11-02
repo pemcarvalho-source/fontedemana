@@ -64,7 +64,7 @@
    "kicker": "O erro mais comum",
    "titulo": "Terreno e mana fora da pilha",
    "narracao": "Terreno e mana não usam a pilha. Ninguém responde isso.",
-   "gravar": "Baixa um terreno na mesa com a mão, vira um mana e olha para a câmera balançando a cabeça.",
+   "gravar": "Mesmo enquadramento da cena 1: segura um terreno ao lado do rosto, vira a carta de lado no ar (virar para gerar mana) e balança a cabeça.",
    "segundos": 4.3,
    "sub": "Ninguém pode responder isso"
   }

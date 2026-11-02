@@ -50,7 +50,7 @@
      "cena": "Cena 6, rosto, uns 4 s",
      "tela": "Terreno e mana fora da pilha. Ninguém pode responder isso",
      "fala": "Terreno e mana não usam a pilha. Ninguém responde isso.",
-     "como": "Rosto: Baixa um terreno na mesa com a mão, vira um mana e olha para a câmera balançando a cabeça."
+     "como": "Rosto: Mesmo enquadramento da cena 1: segura um terreno ao lado do rosto, vira a carta de lado no ar (virar para gerar mana) e balança a cabeça."
     }
    ],
    "passos": [
