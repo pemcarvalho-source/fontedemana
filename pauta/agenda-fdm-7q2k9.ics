@@ -8,320 +8,8 @@ X-WR-TIMEZONE:America/Sao_Paulo
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:fdm-2026-10-29-gravacao@fontedemana.com.br
-DTSTAMP:20261101T224215Z
-DTSTART:20261028T221500Z
-DURATION:PT15M
-SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
-DESCRIPTION:Top 5 #3: os zumbis que mais aparecem nos decks de Zumbis do Co
- mmander. Seis falas curtas\, uns 30 s no total.\n\nArquivos:\n- Vídeo mud
- o (para ver o ritmo): https://fontedemana.com.br/pauta/2026-10-29/tiktok/t
- iktok-mudo.mp4\n\nRoteiro de gravação:\nCena 1\, uns 5 s\nNa tela: Os 5 
- zumbis mais jogados saem quase de graça\nFala: Top 5 zumbis do Commander:
-  juntos\, dois dólares e pouco\, uns treze reais.\n\nCena 2\, uns 5 s\nNa
-  tela: #5 Lord of the Accursed\, 8\,36 mil decks no EDHREC\, US$ 0\,17 (R$
-  0\,91)\nFala: Quinto\, Lord of the Accursed. Deixa a horda inteira mais f
- orte.\n\nCena 3\, uns 4 s\nNa tela: #4 Diregraf Colossus\, 8\,53 mil decks
-  no EDHREC\, US$ 0\,59 (R$ 3\,15)\nFala: Quarto\, Diregraf Colossus. Cada 
- zumbi conjurado traz outro de brinde.\n\nCena 4\, uns 4 s\nNa tela: #3 Und
- ead Augur\, 8\,55 mil decks no EDHREC\, US$ 0\,23 (R$ 1\,23)\nFala: Tercei
- ro\, Undead Augur. Zumbi seu morreu? Você compra uma carta.\n\nCena 5\, u
- ns 4 s\nNa tela: #2 Death Baron\, 9\,22 mil decks no EDHREC\, US$ 0\,87 (R
- $ 4\,64)\nFala: Segundo\, Death Baron. Seus zumbis crescem e matam no toqu
- e.\n\nCena 6\, uns 6 s\nNa tela: #1 Gravecrawler\, 9\,57 mil decks no EDHR
- EC\, US$ 0\,56 (R$ 2\,99)\nFala: O número um custa um mana: Gravecrawler.
-  Volta do cemitério se você tem um zumbi.\n\n\nPasso a passo:\n1. Grave 
- um áudio por cena no Gravador do iPhone\, num lugar silencioso\, com o ce
- lular a um palmo da boca.\n2. Fale no ritmo de conversa\, sem pressa\, com
-  meio segundo de silêncio no começo e no fim.\n3. Nomeie os áudios cena
- _1\, cena_2\, até cena_6.\n4. Mande os áudios ao Claude no projeto MGT s
- trategy (pode ser respondendo à mensagem desta tarefa) dizendo "áudios d
- o TikTok de 2026-10-29".\n\nValores em reais pela cotação de 27 out\, US
- $ 1 = R$ 5\,3346 (Banco Central\, PTAX).\n\nPauta completa: https://fonted
- emana.com.br/pauta/2026-10-29/#gravacao
-URL:https://fontedemana.com.br/pauta/2026-10-29/#gravacao
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Gravação: Gravar a narração do TikTok de amanhã
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-29-tiktok@fontedemana.com.br
-DTSTAMP:20261101T224215Z
-DTSTART:20261029T143000Z
-DURATION:PT15M
-SUMMARY:11:30 TikTok: Top 5 #3: os zumbis do Commander
-DESCRIPTION:Vídeo do Top 5 de zumbis\, o mesmo que vai para o Reels das 19
- :00.\n\nArquivos:\n- Vídeo do TikTok narrado: https://fontedemana.com.br/
- pauta/2026-10-29/tiktok/tiktok-narrado.mp4\n\nLegenda:\nCommander de zumbi
- s: qual carta de Magic é a sua número 1 no deck de Halloween?\n\nOs 5 zu
- mbis que mais aparecem nos decks de Zumbis do EDHREC:\n5. Lord of the Accu
- rsed\, 8\,36 mil decks\n4. Diregraf Colossus\, 8\,53 mil\n3. Undead Augur\
- , 8\,55 mil\n2. Death Baron\, 9\,22 mil\n1. Gravecrawler\, 9\,57 mil\n\nAs
-  cinco juntas saem por US$ 2\,42 (R$ 12\,91) na impressão de Foundations 
- Commander (Scryfall).\nValores em reais pela cotação de 27 out (Banco Ce
- ntral\, PTAX).\n\nFaltou alguma? Lista completa e fontes em fontedemana.co
- m.br\n\n#zumbis #commander #mtg\n\nFonte de Mana is unofficial Fan Content
-  permitted under the Fan Content Policy. Not approved/endorsed by Wizards.
-  Portions of the materials used are property of Wizards of the Coast. ©Wi
- zards of the Coast LLC.\n\nComentário fixado:\nQual é a sua número 1 no
-  deck de zumbis: Gravecrawler\, Death Baron\, Undead Augur\, Diregraf Colo
- ssus ou Lord of the Accursed? Ou faltou alguma? Fontes em fontedemana.com.
- br\n\nPasso a passo:\n1. Poste com um som em alta da biblioteca do TikTok\
- , com volume entre 15% e 20%.\n2. Voz própria não precisa de rótulo de 
- conteúdo de IA.\n3. Fixe o comentário logo depois de postar.\n\nValores 
- em reais pela cotação de 27 out\, US$ 1 = R$ 5\,3346 (Banco Central\, PT
- AX).\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-29/#tikto
- k
-URL:https://fontedemana.com.br/pauta/2026-10-29/#tiktok
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:TikTok: Top 5 #3: os zumbis do Commander
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-29-stories-dc500@fontedemana.com.br
-DTSTAMP:20261101T224215Z
-DTSTART:20261029T210000Z
-DURATION:PT15M
-SUMMARY:18:00 Instagram Stories: Ashling no DC500 da MTG Brasil (2 Stories)
-DESCRIPTION:Dois Stories sobre o torneio de quarta: o Ashling com o placar 
- das rodadas e a chamada para o vídeo de sábado\, e o quadro da semana da
-  loja com a enquete. Com a loja marcada\, ela recebe o Story e pode repost
- ar para o público dela.\n\nArquivos:\n- Story 1: Ashling no DC500: https:
- //fontedemana.com.br/pauta/2026-10-29/dc500/story-1.jpg\n- Story 2: quadro
-  da semana da loja: https://fontedemana.com.br/pauta/2026-10-29/dc500/stor
- y-2.jpg\n\nEnquete do Story 2:\nVocê já jogou DC500?\nJá joguei\nQuero 
- começar\n\nPasso a passo:\n1. Baixe as duas imagens e poste nesta ordem.\
- n2. No Story 1\, ponha o sticker de Menção com o perfil da loja MTG Bras
- il e o sticker de Local da loja\, embaixo da foto da carta.\n3. No Story 2
- \, ponha o sticker de Enquete com o texto acima\, no espaço livre embaixo
-  do texto.\n4. Não poste os prints das rodadas nem o vídeo da sala: apar
- ecem os nomes e os rostos de outros jogadores.\n5. Se a loja repostar\, ag
- radeça respondendo o Story dela.\n\nPauta completa: https://fontedemana.c
- om.br/pauta/2026-10-29/#stories-dc500
-URL:https://fontedemana.com.br/pauta/2026-10-29/#stories-dc500
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Ashling no DC500 da MTG Brasil (2 Stories)
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-29-threads-manha@fontedemana.com.br
-DTSTAMP:20261101T224215Z
-DTSTART:20261029T133000Z
-DURATION:PT15M
-SUMMARY:10:30 Threads: Pergunta do dia: Qual você deixaria no comando?
-DESCRIPTION:Pergunta para puxar conversa sobre a notícia do dia.\n\nPost:\
- nKlingon Fury vem com dois comandantes. Worf ganha uma carta por oponente 
- atacado e Kor sacrifica criaturas para fortalecer os Guerreiros. Qual voc
- ê deixaria no comando?\n\nPasso a passo:\n1. Abra o Threads e cole o Post
- .\n2. Dica: Enquete: Worf\, Kor\, Nenhum\n3. Toque em Adicionar tópico e 
- escolha MTG.\n4. Publique e responda quem comentar na primeira hora.\n\nPa
- uta completa: https://fontedemana.com.br/pauta/2026-10-29/#threads-manha
-URL:https://fontedemana.com.br/pauta/2026-10-29/#threads-manha
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Pergunta do dia: Qual você deixaria no comando?
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-29-stories-manha@fontedemana.com.br
-DTSTAMP:20261101T224215Z
-DTSTART:20261029T133000Z
-DURATION:PT15M
-SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
-DESCRIPTION:Story com a capa da edição 24 (Klingon Fury tem lista complet
- a) e um sticker de pergunta para puxar a conversa.\n\nArquivos:\n- Capa da
-  edição 24: https://fontedemana.com.br/kit/ed24/carrossel-01.jpg\n\nPass
- o a passo:\n1. Baixe a capa e poste no Story.\n2. Adicione o sticker de Pe
- rgunta no terço de baixo\, sem cobrir o título: Você compraria o precon
-  do Worf?\n3. Publique.\n\nPauta completa: https://fontedemana.com.br/paut
- a/2026-10-29/#stories-manha
-URL:https://fontedemana.com.br/pauta/2026-10-29/#stories-manha
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Capa do jornal com sticker de pergunta
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-29-feed@fontedemana.com.br
-DTSTAMP:20261101T224215Z
-DTSTART:20261029T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram feed: Carrossel da edição 24
-DESCRIPTION:Carrossel de 6 imagens da edição 24: Klingon Fury tem lista c
- ompleta\, O que pesa no precon\, Topdeck: Shared Animosity.\n\nArquivos:\n
- - Imagem 1 de 6: https://fontedemana.com.br/kit/ed24/carrossel-01.jpg\n- I
- magem 2 de 6: https://fontedemana.com.br/kit/ed24/carrossel-02.jpg\n- Imag
- em 3 de 6: https://fontedemana.com.br/kit/ed24/carrossel-03.jpg\n- Imagem 
- 4 de 6: https://fontedemana.com.br/kit/ed24/carrossel-04.jpg\n- Imagem 5 d
- e 6: https://fontedemana.com.br/kit/ed24/carrossel-05.jpg\n- Imagem 6 de 6
- : https://fontedemana.com.br/kit/ed24/carrossel-06.jpg\n\nLegenda:\nComman
- der e Star Trek: saiu a lista completa de Klingon Fury\, o precon do Worf 
- em vermelho\, branco e preto.\n\nWorf\, Defiant Commander custa 5 manas. T
- oda vez que você ataca\, ele exila do topo uma carta por oponente atacado
- \, e você pode jogar essas cartas até o fim do seu próximo turno. A alt
- ernativa é Kor\, Cause of Vengeance\, que sacrifica uma criatura no ataqu
- e para comprar e dar +2/+2 aos Klingons e Guerreiros.\n\nNas reimpressões
- \, Vault of Champions sai hoje por pelo menos US$ 16\,59 (R$ 88\,50)\, Swo
- rd of Light and Shadow por US$ 9\,88 (R$ 52\,71)\, e ainda tem Shared Anim
- osity\, Vindicate e Herald's Horn. O precon custa US$ 74\,99 (R$ 400\,04) 
- e chega às lojas em 13 de novembro.\n\nNo Topdeck do Dia\, Shared Animosi
- ty\, o encantamento que faz o ataque em bando bater muito mais forte.\n\nV
- ocê jogaria com Worf ou com Kor no comando?\n\nEdição completa em fonte
- demana.com.br\n\nArtes: Worf\, Defiant Commander\, Flavio Greco Paglia. Sh
- ared Animosity\, Chuck Lukacs.\n\nValores em reais pela cotação de 27 ou
- t (Banco Central\, PTAX).\n\n#startrek #commander #mtg\n\nFonte de Mana is
-  unofficial Fan Content permitted under the Fan Content Policy. Not approv
- ed/endorsed by Wizards. Portions of the materials used are property of Wiz
- ards of the Coast. ©Wizards of the Coast LLC.\n\nPasso a passo:\n1. No In
- stagram\, toque em + e escolha Post.\n2. Selecione as 6 imagens na ordem\,
-  da 1 à 6.\n3. Toque em Adicionar música e escolha uma em alta que combi
- ne com o tema.\n4. Cole a Legenda e publique.\n\nValores em reais pela cot
- ação de 27 out\, US$ 1 = R$ 5\,3346 (Banco Central\, PTAX).\n\nPauta com
- pleta: https://fontedemana.com.br/pauta/2026-10-29/#feed
-URL:https://fontedemana.com.br/pauta/2026-10-29/#feed
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram feed: Carrossel da edição 24
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-29-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261101T224215Z
-DTSTART:20261029T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
-DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
- .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
- e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
- o do post: Quem você deixaria no comando do Klingon Fury? com Worf\, Kor 
- e Nenhum.\n3. Publique.\n\nPauta completa: https://fontedemana.com.br/paut
- a/2026-10-29/#stories-meio-dia
-URL:https://fontedemana.com.br/pauta/2026-10-29/#stories-meio-dia
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-29-threads-tarde@fontedemana.com.br
-DTSTAMP:20261101T224215Z
-DTSTART:20261029T180000Z
-DURATION:PT15M
-SUMMARY:15:00 Threads: Notícia do dia num post só
-DESCRIPTION:A edição 24 contada num post só\, sem fio: nos fios\, quase 
- ninguém passava do primeiro post.\n\nPost:\nKlingon Fury\, o precon do Wo
- rf\, tem lista completa. Toda vez que você ataca\, Worf exila uma carta d
- o topo por oponente atacado\, e você pode jogá-las até o seu próximo t
- urno. O deck traz Vault of Champions\, a partir de US$ 16\,59 (R$ 88\,50)\
- , e custa US$ 74\,99 (R$ 400\,04). Worf ou Kor no comando? fontedemana.com
- .br\n\nValores em reais pela cotação de 27 out (Banco Central\, PTAX).\n
- \nPasso a passo:\n1. No Threads\, cole o Post\, sem sequência.\n2. Toque 
- em Adicionar tópico e escolha MTG.\n3. Publique e responda quem comentar 
- na primeira hora.\n\nValores em reais pela cotação de 27 out\, US$ 1 = R
- $ 5\,3346 (Banco Central\, PTAX).\n\nPauta completa: https://fontedemana.c
- om.br/pauta/2026-10-29/#threads-tarde
-URL:https://fontedemana.com.br/pauta/2026-10-29/#threads-tarde
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Notícia do dia num post só
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-29-stories-tarde@fontedemana.com.br
-DTSTAMP:20261101T224215Z
-DTSTART:20261029T180000Z
-DURATION:PT15M
-SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
-DESCRIPTION:Story com a imagem de Shared Animosity no Topdeck do Dia e o st
- icker de link para a edição completa.\n\nArquivos:\n- Topdeck do Dia: ht
- tps://fontedemana.com.br/kit/ed24/carrossel-04.jpg\n\nPasso a passo:\n1. B
- aixe a imagem e poste no Story.\n2. Adicione o sticker de Link para fonted
- emana.com.br com o texto Edição completa\, embaixo do texto do Topdeck.\
- n3. Publique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-
- 29/#stories-tarde
-URL:https://fontedemana.com.br/pauta/2026-10-29/#stories-tarde
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Topdeck do Dia com link
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-29-reels@fontedemana.com.br
-DTSTAMP:20261101T224215Z
-DTSTART:20261029T220000Z
-DURATION:PT15M
-SUMMARY:19:00 Reels: Vídeo original: Top 5 #3: os zumbis que mais aparecem
-  nos decks de…
-DESCRIPTION:O vídeo original de hoje no Instagram\, o mesmo arquivo do Tik
- Tok\, já narrado. É o formato que mais chega a quem não segue.\n\nArqui
- vos:\n- Vídeo original narrado: https://fontedemana.com.br/pauta/2026-10-
- 29/tiktok/tiktok-narrado.mp4\n\nLegenda:\nCommander de zumbis: qual carta 
- de Magic é a sua número 1 no deck de Halloween?\n\nOs 5 zumbis que mais 
- aparecem nos decks de Zumbis do EDHREC:\n5. Lord of the Accursed\, 8\,36 m
- il decks\n4. Diregraf Colossus\, 8\,53 mil\n3. Undead Augur\, 8\,55 mil\n2
- . Death Baron\, 9\,22 mil\n1. Gravecrawler\, 9\,57 mil\n\nAs cinco juntas 
- saem por US$ 2\,42 (R$ 12\,91) na impressão de Foundations Commander (Scr
- yfall).\nValores em reais pela cotação de 27 out (Banco Central\, PTAX).
- \n\nFaltou alguma? Lista completa e fontes em fontedemana.com.br\n\n#zumbi
- s #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted und
- er the Fan Content Policy. Not approved/endorsed by Wizards. Portions of t
- he materials used are property of Wizards of the Coast. ©Wizards of the C
- oast LLC.\n\nComentário fixado:\nQual é a sua número 1 no deck de zumbi
- s: Gravecrawler\, Death Baron\, Undead Augur\, Diregraf Colossus ou Lord o
- f the Accursed? Ou faltou alguma? Fontes em fontedemana.com.br\n\nPasso a 
- passo:\n1. No Instagram\, toque em + e escolha Reel.\n2. Escolha o vídeo 
- baixado daqui\, nunca o salvo do TikTok (o Instagram derruba vídeo com ma
- rca d'água).\n3. Em Áudio\, ponha uma música em alta da biblioteca do I
- nstagram com volume baixo (uns 10%)\, sem cobrir a voz.\n4. Na capa\, use 
- o primeiro quadro\, o do gancho.\n5. Cole a Legenda e publique.\n6. Fixe o
-  comentário e responda quem comentar na primeira hora.\n\nValores em reai
- s pela cotação de 27 out\, US$ 1 = R$ 5\,3346 (Banco Central\, PTAX).\n\
- nPauta completa: https://fontedemana.com.br/pauta/2026-10-29/#reels
-URL:https://fontedemana.com.br/pauta/2026-10-29/#reels
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reels: Vídeo original: Top 5 #3: os zumbis que mais aparecem n
- os decks de…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-29-comentarios@fontedemana.com.br
-DTSTAMP:20261101T224215Z
-DTSTART:20261030T003000Z
-DURATION:PT15M
-SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
-DESCRIPTION:Uns 10 minutos nas três redes: curtir e responder os comentár
- ios das últimas 48 horas\, começando pelo vídeo e pelo carrossel de hoj
- e. Conversa nos comentários leva a peça a mais gente\, e o Instagram rec
- omenda responder em até 2 dias.\n\nPasso a passo:\n1. Instagram: nas noti
- ficações\, curta os comentários e responda com uma frase quem perguntou
-  ou discordou.\n2. TikTok e Threads: o mesmo\, começando pelo post com ma
- is comentários.\n3. Pergunta boa ou dúvida que se repete\, nos comentár
- ios ou nas DMs? Mande na conversa do projeto: vira tema de um pilar.\n\nPa
- uta completa: https://fontedemana.com.br/pauta/2026-10-29/#comentarios
-URL:https://fontedemana.com.br/pauta/2026-10-29/#comentarios
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Comentários: Responder os comentários de hoje e de ontem
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fdm-2026-10-30-gravacao@fontedemana.com.br
-DTSTAMP:20261101T224215Z
+DTSTAMP:20261102T102120Z
 DTSTART:20261029T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -355,7 +43,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-tiktok@fontedemana.com.br
-DTSTAMP:20261101T224215Z
+DTSTAMP:20261102T102120Z
 DTSTART:20261030T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Chama o Juiz #3\, Fiend Hunter e o comandante exilado
@@ -385,7 +73,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-threads-manha@fontedemana.com.br
-DTSTAMP:20261101T224215Z
+DTSTAMP:20261102T102120Z
 DTSTART:20261030T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Você levaria pelo Spock\, pelas re
@@ -407,7 +95,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-stories-manha@fontedemana.com.br
-DTSTAMP:20261101T224215Z
+DTSTAMP:20261102T102120Z
 DTSTART:20261030T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -427,7 +115,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-feed@fontedemana.com.br
-DTSTAMP:20261101T224215Z
+DTSTAMP:20261102T102120Z
 DTSTART:20261030T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 25
@@ -469,7 +157,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261101T224215Z
+DTSTAMP:20261102T102120Z
 DTSTART:20261030T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -488,7 +176,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-threads-tarde@fontedemana.com.br
-DTSTAMP:20261101T224215Z
+DTSTAMP:20261102T102120Z
 DTSTART:20261030T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -514,7 +202,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-stories-tarde@fontedemana.com.br
-DTSTAMP:20261101T224215Z
+DTSTAMP:20261102T102120Z
 DTSTART:20261030T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -534,7 +222,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-reels@fontedemana.com.br
-DTSTAMP:20261101T224215Z
+DTSTAMP:20261102T102120Z
 DTSTART:20261030T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Chama o Juiz #3: Fiend Hunter exilou 
@@ -572,7 +260,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-30-comentarios@fontedemana.com.br
-DTSTAMP:20261101T224215Z
+DTSTAMP:20261102T102120Z
 DTSTART:20261031T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -594,7 +282,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-gravacao@fontedemana.com.br
-DTSTAMP:20261101T224215Z
+DTSTAMP:20261102T102120Z
 DTSTART:20261030T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -647,7 +335,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-tiktok@fontedemana.com.br
-DTSTAMP:20261101T224215Z
+DTSTAMP:20261102T102120Z
 DTSTART:20261031T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Radar DC500\, a Ashling no torneio
@@ -684,7 +372,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-threads-manha@fontedemana.com.br
-DTSTAMP:20261101T224215Z
+DTSTAMP:20261102T102120Z
 DTSTART:20261031T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Você vende a sua agora\, guarda pa
@@ -706,7 +394,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-stories-manha@fontedemana.com.br
-DTSTAMP:20261101T224215Z
+DTSTAMP:20261102T102120Z
 DTSTART:20261031T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -726,7 +414,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-feed@fontedemana.com.br
-DTSTAMP:20261101T224215Z
+DTSTAMP:20261102T102120Z
 DTSTART:20261031T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 26
@@ -766,7 +454,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261101T224215Z
+DTSTAMP:20261102T102120Z
 DTSTART:20261031T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -785,7 +473,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-threads-tarde@fontedemana.com.br
-DTSTAMP:20261101T224215Z
+DTSTAMP:20261102T102120Z
 DTSTART:20261031T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -810,7 +498,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-stories-tarde@fontedemana.com.br
-DTSTAMP:20261101T224215Z
+DTSTAMP:20261102T102120Z
 DTSTART:20261031T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -830,7 +518,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-reels@fontedemana.com.br
-DTSTAMP:20261101T224215Z
+DTSTAMP:20261102T102120Z
 DTSTART:20261031T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Ashling no DC500: perdeu 5 de 7 nos t
@@ -870,7 +558,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-comentarios@fontedemana.com.br
-DTSTAMP:20261101T224215Z
+DTSTAMP:20261102T102120Z
 DTSTART:20261101T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -892,7 +580,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-gravacao@fontedemana.com.br
-DTSTAMP:20261101T224215Z
+DTSTAMP:20261102T102120Z
 DTSTART:20261031T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -946,7 +634,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-tiktok@fontedemana.com.br
-DTSTAMP:20261101T224215Z
+DTSTAMP:20261102T102120Z
 DTSTART:20261101T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o Debate da semana #1: cemitério hate
@@ -978,7 +666,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-threads-manha@fontedemana.com.br
-DTSTAMP:20261101T224215Z
+DTSTAMP:20261102T102120Z
 DTSTART:20261101T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Debate da semana #1: todo deck de Commander 
@@ -1005,7 +693,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-stories-manha@fontedemana.com.br
-DTSTAMP:20261101T224215Z
+DTSTAMP:20261102T102120Z
 DTSTART:20261101T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -1025,7 +713,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-feed@fontedemana.com.br
-DTSTAMP:20261101T224215Z
+DTSTAMP:20261102T102120Z
 DTSTART:20261101T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Debate da semana #1: todo deck de Commander p
@@ -1066,7 +754,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261101T224215Z
+DTSTAMP:20261102T102120Z
 DTSTART:20261101T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -1085,7 +773,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-threads-tarde@fontedemana.com.br
-DTSTAMP:20261101T224215Z
+DTSTAMP:20261102T102120Z
 DTSTART:20261101T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -1107,7 +795,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-stories-tarde@fontedemana.com.br
-DTSTAMP:20261101T224215Z
+DTSTAMP:20261102T102120Z
 DTSTART:20261101T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1127,7 +815,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-reels@fontedemana.com.br
-DTSTAMP:20261101T224215Z
+DTSTAMP:20261102T102120Z
 DTSTART:20261101T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Debate da semana #1: todo deck de Com
@@ -1165,7 +853,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-comentarios@fontedemana.com.br
-DTSTAMP:20261101T224215Z
+DTSTAMP:20261102T102120Z
 DTSTART:20261102T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1187,7 +875,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-gravacao@fontedemana.com.br
-DTSTAMP:20261101T224215Z
+DTSTAMP:20261102T102120Z
 DTSTART:20261101T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã (com dub
@@ -1223,8 +911,8 @@ DESCRIPTION:Treta das Cores #1: comandante morreu\, cemitério ou zona de c
  na_3\, cena_4\, cena_5 e cena_6.\n5. Mande os áudios ao Claude no projeto
   MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo "áu
  dios do TikTok de 2026-11-02".\n\nValores em reais pela cotação de 30 ou
- t (Banco Central\, PTAX).\n\nPauta completa: https://fontedemana.com.br/pa
- uta/2026-11-02/#gravacao
+ t\, US$ 1 = R$ 5\,4212 (Banco Central\, PTAX).\n\nPauta completa: https://
+ fontedemana.com.br/pauta/2026-11-02/#gravacao
 URL:https://fontedemana.com.br/pauta/2026-11-02/#gravacao
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1235,34 +923,245 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-tiktok@fontedemana.com.br
-DTSTAMP:20261101T224215Z
-DTSTART:20261102T143000Z
+DTSTAMP:20261102T102120Z
+DTSTART:20261102T210000Z
 DURATION:PT15M
-SUMMARY:11:30 TikTok: TikTok: Treta das Cores #1\, comandante morreu
+SUMMARY:18:00 TikTok: Treta das Cores #1\, comandante morreu
 DESCRIPTION:Esquete do Preto contra o Branco sobre comandante que morre: ce
  mitério ou zona de comando. A regra fecha a treta e a Dread Return mostra
-  a reanimação sem imposto.\n\nArquivos:\n- tiktok-narrado.mp4: https://f
- ontedemana.com.br/pauta/2026-11-02/tiktok/tiktok-narrado.mp4\n\nLegenda:\n
- Commander: seu comandante morreu. Fica no cemitério ou volta para a zona 
- de comando?\n\nTreta das Cores #1. O Preto quer reanimar com Dread Return\
- , o Branco diz que comandante não fica no cemitério. A regra resolve no 
- fim do vídeo.\n\nNessa treta\, quem tinha razão\, o Preto ou o Branco?\n
- \nRegra: Regras Abrangentes\, 903.9a. Preço: Scryfall. Reais pela cotaç
- ão de 30 out (Banco Central\, PTAX).\nMais em fontedemana.com.br\n\n#fina
- dos #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted u
- nder the Fan Content Policy. Not approved/endorsed by Wizards. Portions of
-  the materials used are property of Wizards of the Coast. ©Wizards of the
-  Coast LLC.\n\nComentário fixado:\nNessa treta\, quem tinha razão: o Pre
- to\, que deixa o comandante no cemitério para reanimar\, ou o Branco\, qu
- e manda direto para a zona de comando?\n\nPasso a passo:\n1. Poste com um 
- som em alta da biblioteca do TikTok\, com volume entre 15% e 20%.\n2. Voz 
- própria não precisa de rótulo de IA.\n3. Fixe o comentário logo depois
-  de postar.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-02
- /#tiktok
+  a reanimação sem imposto.\n\nArquivos:\n- Vídeo do TikTok narrado: htt
+ ps://fontedemana.com.br/pauta/2026-11-02/tiktok/tiktok-narrado.mp4\n\nLege
+ nda:\nCommander: seu comandante morreu. Fica no cemitério ou volta para a
+  zona de comando?\n\nTreta das Cores #1. O Preto quer reanimar com Dread R
+ eturn\, o Branco diz que comandante não fica no cemitério. A regra resol
+ ve no fim do vídeo.\n\nNessa treta\, quem tinha razão\, o Preto ou o Bra
+ nco?\n\nRegra: Regras Abrangentes\, 903.9a. Preço: Scryfall. Reais pela c
+ otação de 30 out (Banco Central\, PTAX).\nMais em fontedemana.com.br\n\n
+ #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under
+  the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the
+  materials used are property of Wizards of the Coast. ©Wizards of the Coa
+ st LLC.\n\nComentário fixado:\nNessa treta\, quem tinha razão: o Preto\,
+  que deixa o comandante no cemitério para reanimar\, ou o Branco\, que ma
+ nda direto para a zona de comando?\n\nPasso a passo:\n1. Poste com um som 
+ em alta da biblioteca do TikTok\, com volume entre 15% e 20%.\n2. Voz pró
+ pria não precisa de rótulo de IA.\n3. Fixe o comentário logo depois de 
+ postar.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-02/#ti
+ ktok
 URL:https://fontedemana.com.br/pauta/2026-11-02/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:TikTok: TikTok: Treta das Cores #1\, comandante morreu
+DESCRIPTION:TikTok: Treta das Cores #1\, comandante morreu
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-02-threads-manha@fontedemana.com.br
+DTSTAMP:20261102T102120Z
+DTSTART:20261102T133000Z
+DURATION:PT15M
+SUMMARY:10:30 Threads: Debate: Treta das Cores #1: comandante morreu. Cemit
+ ério ou zona de…
+DESCRIPTION:Post de debate do conteúdo original de hoje (Treta das Cores) 
+ para puxar conversa.\n\nPost:\nComandante morreu na mesa e a treta começo
+ u.\n\nPreto: deixa no cemitério que depois eu trago com Dread Return\, e 
+ sem imposto.\nBranco: não pode\, comandante volta direto pra zona de coma
+ ndo.\n\nSpoiler da regra: ele passa pelo cemitério antes\, então o Preto
+  pode deixar lá. Você já ouviu essa discussão na mesa? Quem você acha
+  que tinha razão antes de saber a regra?\n\nPasso a passo:\n1. Abra o Thr
+ eads e cole o Post.\n2. Dica: Enquete com duas opções: Preto (deixa no c
+ emitério) e Branco (zona de comando).\n3. Toque em Adicionar tópico e es
+ colha MTG.\n4. Publique e responda quem comentar na primeira hora.\n\nPaut
+ a completa: https://fontedemana.com.br/pauta/2026-11-02/#threads-manha
+URL:https://fontedemana.com.br/pauta/2026-11-02/#threads-manha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Debate: Treta das Cores #1: comandante morreu. Cemité
+ rio ou zona de…
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-02-stories-manha@fontedemana.com.br
+DTSTAMP:20261102T102120Z
+DTSTART:20261102T133000Z
+DURATION:PT15M
+SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
+DESCRIPTION:Story com a capa da edição 28 (Finados calmo\, Countdown Kit 
+ à venda hoje) e um sticker de pergunta para puxar a conversa.\n\nArquivos
+ :\n- Capa da edição 28: https://fontedemana.com.br/kit/ed28/carrossel-01
+ .jpg\n\nPasso a passo:\n1. Baixe a capa e poste no Story.\n2. Adicione o s
+ ticker de Pergunta no terço de baixo\, sem cobrir o título: Qual criatur
+ a você reanimaria com a Sheoldred?\n3. Publique.\n\nPauta completa: https
+ ://fontedemana.com.br/pauta/2026-11-02/#stories-manha
+URL:https://fontedemana.com.br/pauta/2026-11-02/#stories-manha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Capa do jornal com sticker de pergunta
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-02-feed@fontedemana.com.br
+DTSTAMP:20261102T102120Z
+DTSTART:20261102T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram feed: Treta das Cores #1: comandante morreu. Cemit
+ ério ou zona de comando?
+DESCRIPTION:Carrossel original de 6 imagens (Treta das Cores): Treta das Co
+ res #1: comandante morreu. Cemitério ou zona de comando?. Feito para salv
+ ar e compartilhar.\n\nArquivos:\n- Imagem 1 de 6: https://fontedemana.com.
+ br/pauta/2026-11-02/original/carrossel-01.jpg\n- Imagem 2 de 6: https://fo
+ ntedemana.com.br/pauta/2026-11-02/original/carrossel-02.jpg\n- Imagem 3 de
+  6: https://fontedemana.com.br/pauta/2026-11-02/original/carrossel-03.jpg\
+ n- Imagem 4 de 6: https://fontedemana.com.br/pauta/2026-11-02/original/car
+ rossel-04.jpg\n- Imagem 5 de 6: https://fontedemana.com.br/pauta/2026-11-0
+ 2/original/carrossel-05.jpg\n- Imagem 6 de 6: https://fontedemana.com.br/p
+ auta/2026-11-02/original/carrossel-06.jpg\n\nLegenda:\nCommander: seu coma
+ ndante morreu. Fica no cemitério ou volta para a zona de comando?\n\nTret
+ a das Cores #1\, no Dia de Finados\, sobre o cemitério do jogo.\n\nO Pret
+ o quer deixar o comandante no cemitério e trazer de volta com Dread Retur
+ n. O Branco diz que comandante volta direto para a zona de comando. A regr
+ a (903.9a das Regras Abrangentes): o comandante vai primeiro para o cemit
+ ério\, os gatilhos de morrer disparam e só depois o dono escolhe\, uma v
+ ez só.\n\nReanimar não é conjurar da zona de comando\, então não sobe
+  o imposto.\n\nFontes: Regras Abrangentes e Scryfall. Valores em reais pel
+ a cotação de 30 out (Banco Central\, PTAX).\nMais em fontedemana.com.br\
+ n\nNa sua mesa\, quem ganhava essa treta\, o Preto ou o Branco?\n\n#comman
+ der #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fa
+ n Content Policy. Not approved/endorsed by Wizards. Portions of the materi
+ als used are property of Wizards of the Coast. ©Wizards of the Coast LLC.
+ \n\nPasso a passo:\n1. No Instagram\, toque em + e escolha Post.\n2. Selec
+ ione as 6 imagens na ordem\, da 1 à 6.\n3. Toque em Adicionar música e e
+ scolha uma em alta que combine com o tema.\n4. Cole a Legenda e publique.\
+ n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-02/#feed
+URL:https://fontedemana.com.br/pauta/2026-11-02/#feed
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram feed: Treta das Cores #1: comandante morreu. Cemitér
+ io ou zona de comando?
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-02-stories-meio-dia@fontedemana.com.br
+DTSTAMP:20261102T102120Z
+DTSTART:20261102T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
+DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
+ .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
+ e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
+ o do post: Comandante morreu. Onde você deixa? com No cemitério e Zona d
+ e comando.\n3. Publique.\n\nPauta completa: https://fontedemana.com.br/pau
+ ta/2026-11-02/#stories-meio-dia
+URL:https://fontedemana.com.br/pauta/2026-11-02/#stories-meio-dia
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-02-threads-tarde@fontedemana.com.br
+DTSTAMP:20261102T102120Z
+DTSTART:20261102T180000Z
+DURATION:PT15M
+SUMMARY:15:00 Threads: Notícia do dia num post só
+DESCRIPTION:A edição 28 contada num post só\, sem fio: nos fios\, quase 
+ ninguém passava do primeiro post.\n\nPost:\nSegunda de Finados calma no C
+ ommander\, mas hoje tem venda. Às 14h em Brasília abre o Countdown Kit d
+ a Marvel no site do Secret Lair\, a US$ 199\,99 (R$ 1.084\,19). De 6 a 12 
+ tem pré de Star Trek nas lojas\, e no dia 9 abre a venda dos Secret Lairs
+  de Star Trek. Vai encarar algum desses? fontedemana.com.br\nValores em re
+ ais pela cotação de 30 out (Banco Central\, PTAX).\n\nPasso a passo:\n1.
+  No Threads\, cole o Post\, sem sequência.\n2. Toque em Adicionar tópico
+  e escolha MTG.\n3. Publique e responda quem comentar na primeira hora.\n\
+ nValores em reais pela cotação de 30 out\, US$ 1 = R$ 5\,4212 (Banco Cen
+ tral\, PTAX).\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-
+ 02/#threads-tarde
+URL:https://fontedemana.com.br/pauta/2026-11-02/#threads-tarde
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Notícia do dia num post só
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-02-stories-tarde@fontedemana.com.br
+DTSTAMP:20261102T102120Z
+DTSTART:20261102T180000Z
+DURATION:PT15M
+SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
+DESCRIPTION:Story com a imagem de Sheoldred\, Whispering One no Topdeck do 
+ Dia e o sticker de link para a edição completa.\n\nArquivos:\n- Topdeck 
+ do Dia: https://fontedemana.com.br/kit/ed28/carrossel-03.jpg\n\nPasso a pa
+ sso:\n1. Baixe a imagem e poste no Story.\n2. Adicione o sticker de Link p
+ ara fontedemana.com.br com o texto Edição completa\, embaixo do texto do
+  Topdeck.\n3. Publique.\n\nPauta completa: https://fontedemana.com.br/paut
+ a/2026-11-02/#stories-tarde
+URL:https://fontedemana.com.br/pauta/2026-11-02/#stories-tarde
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Topdeck do Dia com link
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-02-reels@fontedemana.com.br
+DTSTAMP:20261102T102120Z
+DTSTART:20261102T220000Z
+DURATION:PT15M
+SUMMARY:19:00 Reels: Vídeo original: Treta das Cores #1: comandante morreu
+ . Cemitério ou…
+DESCRIPTION:O vídeo original de hoje no Instagram\, o mesmo arquivo do Tik
+ Tok\, já narrado. É o formato que mais chega a quem não segue.\n\nArqui
+ vos:\n- Vídeo original narrado: https://fontedemana.com.br/pauta/2026-11-
+ 02/tiktok/tiktok-narrado.mp4\n\nLegenda:\nCommander: seu comandante morreu
+ . Fica no cemitério ou volta para a zona de comando?\n\nTreta das Cores #
+ 1. O Preto quer reanimar com Dread Return\, o Branco diz que comandante n
+ ão fica no cemitério. A regra resolve no fim do vídeo.\n\nNessa treta\,
+  quem tinha razão\, o Preto ou o Branco?\n\nRegra: Regras Abrangentes\, 9
+ 03.9a. Preço: Scryfall. Reais pela cotação de 30 out (Banco Central\, P
+ TAX).\nMais em fontedemana.com.br\n\n#commander #mtg\n\nFonte de Mana is u
+ nofficial Fan Content permitted under the Fan Content Policy. Not approved
+ /endorsed by Wizards. Portions of the materials used are property of Wizar
+ ds of the Coast. ©Wizards of the Coast LLC.\n\nComentário fixado:\nNessa
+  treta\, quem tinha razão: o Preto\, que deixa o comandante no cemitério
+  para reanimar\, ou o Branco\, que manda direto para a zona de comando?\n\
+ nPasso a passo:\n1. No Instagram\, toque em + e escolha Reel.\n2. Escolha 
+ o vídeo baixado daqui\, nunca o salvo do TikTok (o Instagram derruba víd
+ eo com marca d'água).\n3. Em Áudio\, ponha uma música em alta da biblio
+ teca do Instagram com volume baixo (uns 10%)\, sem cobrir a voz.\n4. Na ca
+ pa\, use o primeiro quadro\, o do gancho.\n5. Cole a Legenda e publique.\n
+ 6. Fixe o comentário e responda quem comentar na primeira hora.\n\nPauta 
+ completa: https://fontedemana.com.br/pauta/2026-11-02/#reels
+URL:https://fontedemana.com.br/pauta/2026-11-02/#reels
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reels: Vídeo original: Treta das Cores #1: comandante morreu. 
+ Cemitério ou…
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-02-comentarios@fontedemana.com.br
+DTSTAMP:20261102T102120Z
+DTSTART:20261103T003000Z
+DURATION:PT15M
+SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
+DESCRIPTION:Uns 10 minutos nas três redes: curtir e responder os comentár
+ ios das últimas 48 horas\, começando pelo vídeo e pelo carrossel de hoj
+ e. Conversa nos comentários leva a peça a mais gente\, e o Instagram rec
+ omenda responder em até 2 dias.\n\nPasso a passo:\n1. Instagram: nas noti
+ ficações\, curta os comentários e responda com uma frase quem perguntou
+  ou discordou.\n2. TikTok e Threads: o mesmo\, começando pelo post com ma
+ is comentários.\n3. Pergunta boa ou dúvida que se repete\, nos comentár
+ ios ou nas DMs? Mande na conversa do projeto: vira tema de um pilar.\n\nPa
+ uta completa: https://fontedemana.com.br/pauta/2026-11-02/#comentarios
+URL:https://fontedemana.com.br/pauta/2026-11-02/#comentarios
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Comentários: Responder os comentários de hoje e de ontem
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
