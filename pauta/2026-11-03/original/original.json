@@ -1,0 +1,117 @@
+{
+ "data": "2026-11-03",
+ "pilar": "dicionario",
+ "item": "Stack (pilha)",
+ "tema": "Dicionário do Commander #4: o que é a pilha (stack)",
+ "cartas": [
+  "Beast Within",
+  "Ephemerate"
+ ],
+ "fx": null,
+ "carrossel": {
+  "capa": {
+   "cor": "U",
+   "chip": "Dicionário #4",
+   "kicker": "Na mesa alguém grita",
+   "titulo": "\"Em resposta, <b>na pilha!</b>\"",
+   "sub": "Você sabe o que é a pilha? Ela decide quem salva o comandante.",
+   "arte": "pauta/2026-11-03/tiktok/arte.jpg",
+   "credito": "Arte: Ephemerate, Bastien L. Deharme"
+  },
+  "cartoes": [
+   {
+    "cor": "U",
+    "titulo": "Pilha é a fila das mágicas",
+    "itens": [
+     {
+      "cor": "U",
+      "html": "Mágica jogada e habilidade que dispara não acontecem na hora: vão para a <b>pilha</b> (stack) e esperam."
+     },
+     {
+      "cor": "U",
+      "html": "Cada coisa nova entra <b>por cima</b>. Quem está no topo resolve primeiro."
+     },
+     {
+      "cor": "U",
+      "html": "Todo mundo pode responder enquanto algo espera na pilha."
+     }
+    ],
+    "nota": {
+     "rotulo": "Em uma frase",
+     "texto": "a última que entra é a primeira que resolve."
+    },
+    "fonte": "Fonte: Regras Abrangentes, 405"
+   },
+   {
+    "cor": "G",
+    "titulo": "O oponente joga",
+    "carta": "pauta/2026-11-03/original/carta-1.jpg",
+    "itens": [
+     {
+      "cor": "G",
+      "html": "<b>Beast Within</b> mira o seu comandante. Ela vai para a pilha e ainda não fez nada."
+     },
+     {
+      "cor": "G",
+      "html": "É a sua janela: dá para responder com uma mágica instantânea."
+     }
+    ],
+    "fonte": "Fonte: Scryfall"
+   },
+   {
+    "cor": "W",
+    "titulo": "Você responde",
+    "carta": "pauta/2026-11-03/original/carta-2.jpg",
+    "itens": [
+     {
+      "cor": "W",
+      "html": "<b>Ephemerate</b> entra por cima e resolve antes: o comandante sai e volta como se fosse novo."
+     },
+     {
+      "cor": "W",
+      "html": "Está em <b>297 mil decks</b> no EDHREC."
+     }
+    ],
+    "fonte": "Fonte: EDHREC, nov 2026"
+   },
+   {
+    "cor": "U",
+    "titulo": "Aí a Beast Within resolve",
+    "itens": [
+     {
+      "cor": "U",
+      "html": "O alvo dela sumiu: o comandante que voltou é outro objeto para o jogo."
+     },
+     {
+      "cor": "U",
+      "html": "Sem alvo, ela <b>não faz nada</b>. Nem a Fera 3/3 aparece."
+     }
+    ],
+    "nota": {
+     "rotulo": "Erro comum",
+     "texto": "baixar terreno e gerar mana não usam a pilha. Ninguém pode responder isso."
+    },
+    "fonte": "Fonte: Regras Abrangentes, 405 e 608"
+   }
+  ],
+  "cta": {
+   "pergunta": "Que termo da mesa <b>te confundiu</b> no começo?",
+   "quando": "Toda terça tem um termo novo aqui",
+   "salvar": "Salve para mostrar para quem está começando no Commander"
+  }
+ },
+ "legenda": "Dicionário do Commander #4: o que é a pilha (stack) no Magic? Na mesa de Commander todo mundo fala \"em resposta\", mas pouca gente explica.\n\nA pilha é a fila das mágicas e habilidades: a última que entra é a primeira que resolve. Por isso uma Ephemerate em resposta faz a Beast Within do oponente não fazer nada. E o erro mais comum: baixar terreno e gerar mana não usam a pilha.\n\nFontes: Regras Abrangentes (405 e 608), Scryfall e EDHREC. Mais em fontedemana.com.br\n\nQue termo da mesa te confundiu no começo?\n\n#stack #commander #mtg",
+ "threads": {
+  "texto": "Pergunta para quem joga Commander: a pilha te confundiu no começo? No fundo ela é só uma fila: a última mágica que entra é a primeira que resolve. Ephemerate em resposta a um removal no seu comandante é o exemplo clássico. Pilha, prioridade ou \"em resposta\": qual desses termos te pegou quando você começou?",
+  "obs": "Enquete com: Pilha, Prioridade, Em resposta, Outro"
+ },
+ "enquete": {
+  "pergunta": "Qual termo te confundiu no começo?",
+  "opcoes": [
+   "Pilha",
+   "Prioridade",
+   "Em resposta",
+   "Outro"
+  ]
+ }
+}

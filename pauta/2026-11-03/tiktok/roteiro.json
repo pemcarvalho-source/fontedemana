@@ -1,0 +1,72 @@
+{
+ "data": "2026-11-03",
+ "pilar": "dicionario",
+ "tema": "Dicionário do Commander #4: o que é a pilha (stack)",
+ "item": "Stack (pilha)",
+ "arte": "pauta/2026-11-03/tiktok/arte.jpg",
+ "carta": "pauta/2026-11-03/tiktok/carta.jpg",
+ "credito": "Arte: Ephemerate, Bastien L. Deharme",
+ "fx": null,
+ "legenda": "Commander: o que é a pilha (stack) no Magic? Você sabe o que acontece quando alguém fala \"em resposta\"?\n\nDicionário do Commander #4. A pilha é a fila das mágicas e habilidades: a última que entra é a primeira que resolve. Por isso uma Ephemerate em resposta salva o seu comandante de uma Beast Within.\n\nQue termo da mesa te confundiu no começo?\n\nRegra: Regras Abrangentes, 405. Decks: EDHREC.\nMais em fontedemana.com.br\n\n#stack #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
+ "comentario": "Que termo da mesa te confundiu no começo? Pilha, prioridade, em resposta ou outro?",
+ "cenas": [
+  {
+   "tipo": "rosto",
+   "cor": "U",
+   "chip": "Dicionário #4",
+   "kicker": "Na mesa alguém grita",
+   "titulo": "\"Em resposta, na pilha!\"",
+   "sub": "Você sabe o que é a pilha?",
+   "narracao": "Em resposta, na pilha! Você sabe o que é isso?",
+   "gravar": "Olhando para a câmera, levanta a mão como quem pede para esperar, segurando uma carta virada para você.",
+   "segundos": 4.3
+  },
+  {
+   "tipo": "texto",
+   "cor": "U",
+   "kicker": "Dicionário do Commander #4",
+   "titulo": "Pilha é a fila das mágicas",
+   "sub": "A última que entra resolve primeiro",
+   "narracao": "Pilha, ou stack, é a fila das mágicas. A última que entra resolve primeiro.",
+   "segundos": 5.8
+  },
+  {
+   "tipo": "carta",
+   "cor": "U",
+   "kicker": "O oponente joga",
+   "carta": "pauta/2026-11-03/tiktok/carta-1.jpg",
+   "sub": "Mira no seu comandante e vai para a pilha",
+   "narracao": "O oponente joga Beast Within no seu comandante. Ela vai para a pilha.",
+   "segundos": 5.4
+  },
+  {
+   "tipo": "carta",
+   "cor": "U",
+   "kicker": "Você responde",
+   "carta": "pauta/2026-11-03/tiktok/carta-2.jpg",
+   "sub": "Em 297 mil decks no EDHREC",
+   "fonte": "EDHREC, nov 2026",
+   "narracao": "Você responde com Ephemerate. Ela resolve antes: o comandante sai e volta.",
+   "segundos": 5
+  },
+  {
+   "tipo": "texto",
+   "cor": "U",
+   "kicker": "Aí a Beast Within resolve",
+   "titulo": "E não faz nada",
+   "sub": "O alvo virou outro objeto. Nem a Fera 3/3 vem.",
+   "narracao": "Aí a Beast Within resolve. O alvo sumiu, ela não faz nada.",
+   "segundos": 5
+  },
+  {
+   "tipo": "rosto",
+   "cor": "U",
+   "kicker": "O erro mais comum",
+   "titulo": "Terreno e mana fora da pilha",
+   "narracao": "Terreno e mana não usam a pilha. Ninguém responde isso.",
+   "gravar": "Baixa um terreno na mesa com a mão, vira um mana e olha para a câmera balançando a cabeça.",
+   "segundos": 4.3,
+   "sub": "Ninguém pode responder isso"
+  }
+ ]
+}
