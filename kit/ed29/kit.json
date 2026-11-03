@@ -1,0 +1,167 @@
+{
+ "n": 29,
+ "data": "3 nov",
+ "carrossel": {
+  "capa": {
+   "cor": "A",
+   "titulo": "Countdown Kit da Marvel segue à venda",
+   "sub": "Não esgotou na primeira noite. Limite de <b>2 por pessoa</b>, US$ 199,99 (R$ 1.084,19) e envio a partir de <b>4 de novembro</b>.",
+   "credito": "Arte: Champion's Helm, Jordan Speer"
+  },
+  "cartoes": [
+   {
+    "cor": "A",
+    "titulo": "Countdown Kit: o que mudou",
+    "itens": [
+     {
+      "cor": "A",
+      "html": "Segue em pré-venda no site do Secret Lair, a <b>US$ 199,99</b> (R$ 1.084,19)."
+     },
+     {
+      "cor": "A",
+      "html": "Limite de <b>2 kits por pessoa</b>, enquanto durar o estoque."
+     },
+     {
+      "cor": "G",
+      "html": "Envios começam em <b>4 de novembro</b>."
+     },
+     {
+      "cor": "M",
+      "html": "30 cartas com arte da Marvel, como Fierce Guardianship e Opposition Agent."
+     }
+    ],
+    "nota": {
+     "rotulo": "No seu bolso",
+     "texto": "não esgotou na primeira noite, mas a Wizards não diz quantos kits foram feitos."
+    },
+    "fonte": "Fonte: Secret Lair. Reais: PTAX de 30 out"
+   }
+  ],
+  "topdeck": {
+   "titulo": "Mystic Remora",
+   "habilidades": [
+    {
+     "rotulo": "Imposto de 4",
+     "texto": "Mágica do oponente que não é criatura: ele paga 4 ou você compra."
+    },
+    {
+     "rotulo": "Conta que cresce",
+     "texto": "Pede 1 de mana a mais a cada turno seu. Não pagou, morre."
+    },
+    {
+     "rotulo": "Só 1 de mana",
+     "texto": "Jogada no turno 1, pega a mesa toda montando o jogo."
+    }
+   ],
+   "extra": "Comum de 1995 em <b>794 mil decks</b> no EDHREC e em 20% dos de Vraska, Soul of Stone. A original sai a US$ 11,91 (R$ 64,57). PTAX de 30 out.",
+   "credito": "Ilustração de Ken Meyer, Jr."
+  },
+  "ban": {
+   "numero": "27",
+   "unidade": "DIAS",
+   "texto": "Próxima janela de banimentos em 30 de novembro. A de 12 de outubro passou sem mexer no Commander."
+  },
+  "turnos": [
+   {
+    "cor": "W",
+    "data": "até 5 nov",
+    "texto": "Commander Night em dupla nas lojas"
+   },
+   {
+    "cor": "G",
+    "data": "6 a 12 nov",
+    "texto": "Pré de Star Trek nas lojas"
+   },
+   {
+    "cor": "A",
+    "data": "9 nov",
+    "texto": "Venda dos Secret Lairs de Star Trek"
+   },
+   {
+    "cor": "G",
+    "data": "13 nov",
+    "texto": "Star Trek chega às lojas"
+   },
+   {
+    "cor": "W",
+    "data": "20 a 26 nov",
+    "texto": "Festa de Commander de Star Trek"
+   }
+  ],
+  "sussurro": null
+ },
+ "video": {
+  "cena1": {
+   "titulo": "Countdown Kit da Marvel segue à venda",
+   "pilulas": [
+    "Limite de 2 por pessoa",
+    "Envio a partir de 4 nov",
+    "Topdeck: Mystic Remora"
+   ]
+  },
+  "cena2": {
+   "rotulo": "No bolso",
+   "cor": "A",
+   "titulo": "Countdown Kit da Marvel",
+   "linhas": [
+    {
+     "nome": "Preço do kit",
+     "numero": 199,
+     "prefixo": "US$ ",
+     "sufixo": ",99",
+     "sub": "R$ 1.084,19, PTAX de 30 out"
+    },
+    {
+     "nome": "Limite por pessoa",
+     "numero": 2,
+     "prefixo": "",
+     "sufixo": " kits",
+     "sub": "envio a partir de 4 nov"
+    }
+   ],
+   "fonte": "Fonte: Secret Lair. Reais: PTAX de 30 out"
+  },
+  "cena3": {
+   "linhas": [
+    "<b>Mystic Remora</b> cobra 4 de mana por mágica do oponente.",
+    "Não pagou? Você compra uma carta.",
+    "Está em 794 mil decks no EDHREC."
+   ]
+  },
+  "cena4": {
+   "texto": "Faltam 27 dias para a próxima janela de banimentos. Antes, o pré de Star Trek nas lojas de 6 a 12 de novembro.",
+   "sussurro": null
+  }
+ },
+ "textos": {
+  "legendaCarrossel": "Commander de Magic: o Countdown Kit da Marvel não esgotou na primeira noite.\n\nA venda do Secret Lair Countdown Kit: Marvel's History of Heroes abriu ontem às 14h e, na madrugada desta terça, a página oficial ainda mostrava o kit em pré-venda, a US$ 199,99 (R$ 1.084,19). O limite é de 2 kits por pessoa, enquanto durar o estoque, e os envios começam em 4 de novembro. São 30 cartas com arte da Marvel, como Fierce Guardianship, Heroic Intervention e Opposition Agent.\n\nNo Topdeck, Mystic Remora, a comum de 1995 que cobra 4 de mana por mágica do oponente ou te dá uma carta. Está em 794 mil decks no EDHREC e a original sai a US$ 11,91 (R$ 64,57).\n\nVocê pegou o Countdown Kit ou prefere comprar as cartas avulsas?\n\nEdição completa em fontedemana.com.br\n\nArtes: Champion's Helm, de Jordan Speer. Mystic Remora, de Ken Meyer, Jr.\nValores em reais pela cotação de 30 out (Banco Central, PTAX).\n\n#secretlair #commander #mtg",
+  "legendaVideo": "Commander de Magic: o Countdown Kit da Marvel segue à venda, com limite de 2 por pessoa e envio a partir de 4 de novembro. No Topdeck, a Mystic Remora.\n\nVocê pegou o Countdown Kit ou prefere comprar as cartas avulsas?\n\nEdição completa em fontedemana.com.br\n\n#secretlair #commander #mtg",
+  "threadsPost": "O Countdown Kit da Marvel não esgotou na primeira noite. Na madrugada desta terça, a página do Secret Lair ainda mostrava o kit em pré-venda, a US$ 199,99 (R$ 1.084,19), com limite de 2 por pessoa e envio a partir de 4 de novembro. A Wizards não diz quantos foram feitos. Você pegou o seu? fontedemana.com.br\nValores em reais pela cotação de 30 out (Banco Central, PTAX).",
+  "threadsFio": [
+   "O Countdown Kit da Marvel abriu venda ontem às 14h e não esgotou na primeira noite.",
+   "Na madrugada desta terça, a página do Secret Lair ainda mostrava o kit em pré-venda, a US$ 199,99 (R$ 1.084,19). O limite é de 2 kits por pessoa e os envios começam em 4 de novembro.",
+   "São 30 cartas com arte da Marvel, como Fierce Guardianship, Heroic Intervention, Champion's Helm e Opposition Agent. A Wizards não diz quantos kits foram feitos.",
+   "No Topdeck, Mystic Remora: a comum de 1995 que cobra 4 de mana por mágica do oponente ou te dá uma carta. Está em 794 mil decks no EDHREC e a original sai a US$ 11,91 (R$ 64,57). Edição completa em fontedemana.com.br\nValores em reais pela cotação de 30 out (Banco Central, PTAX)."
+  ],
+  "threadsAvulsos": [
+   {
+    "titulo": "Pergunta do dia",
+    "texto": "Mystic Remora na mesa do oponente: você paga os 4 de mana ou deixa ele comprar?",
+    "obs": "Opções de enquete: pago os 4, deixo comprar, espero ela morrer"
+   }
+  ]
+ },
+ "pauta": {
+  "forca": "calmo",
+  "porque": "Desdobramento do Countdown Kit, que já estava nas últimas edições. Sem fato novo de impacto direto no Commander.",
+  "storyPergunta": "Você paga os 4 da Mystic Remora ou deixa comprar?",
+  "enquete": {
+   "pergunta": "Countdown Kit da Marvel: vai comprar?",
+   "opcoes": [
+    "Já comprei",
+    "Prefiro avulsas",
+    "Passo essa"
+   ]
+  }
+ }
+}
