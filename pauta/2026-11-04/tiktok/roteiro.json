@@ -1,0 +1,103 @@
+{
+ "data": "2026-11-04",
+ "pilar": "matematica",
+ "tema": "Matemática da Mesa #1: 36, 37 ou 38 terrenos e a chance de abrir com 3",
+ "item": "36, 37 ou 38 terrenos: chance de 3 terrenos na mão",
+ "arte": "pauta/2026-11-04/tiktok/arte.jpg",
+ "carta": "pauta/2026-11-04/tiktok/carta.jpg",
+ "credito": "Arte: Command Tower, Ryan Yee",
+ "fx": null,
+ "legenda": "Commander: quantos terrenos pôr no deck? 36, 37 ou 38 muda a sua mão inicial?\n\nMatemática da Mesa #1. Num deck de 99 cartas, a chance de a mão de 7 vir com exatamente 3 terrenos é 28,6% com 36, 29,1% com 37 e 29,6% com 38. A diferença aparece nas pontas: mão com 2 ou mais terrenos vai de 79,9% para 82,9%, e mão com 5 ou mais vai de 5,8% para 7,4%. Conta sem mulligan.\n\nQuantos terrenos tem o seu deck: 36, 37, 38 ou outro?\n\nConta: distribuição hipergeométrica, deck de 99.\nMais em fontedemana.com.br\n\n#terrenos #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
+ "comentario": "Quantos terrenos tem o seu deck de Commander? 36, 37, 38 ou outro número?",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "cor": "U",
+   "chip": "Matemática #1",
+   "kicker": "36, 37 ou 38 terrenos?",
+   "titulo": "A chance de abrir com 3 muda só 1 ponto",
+   "sub": "Mão de 7, deck de 99, sem mulligan",
+   "narracao": "36, 37 ou 38 terrenos? A chance de abrir com 3 muda só um ponto.",
+   "segundos": 6.2
+  },
+  {
+   "tipo": "lista",
+   "cor": "U",
+   "chip": "Exatamente 3",
+   "kicker": "Mão de 7 com 3 terrenos",
+   "linhas": [
+    {
+     "nome": "Com 36 terrenos",
+     "valor": "28,6%"
+    },
+    {
+     "nome": "Com 37 terrenos",
+     "valor": "29,1%"
+    },
+    {
+     "nome": "Com 38 terrenos",
+     "valor": "29,6%"
+    }
+   ],
+   "rodape": "Conta sem mulligan, deck de 99",
+   "fonte": "Conta hipergeométrica",
+   "narracao": "28,6, 29,1 e 29,6 por cento. Quase igual.",
+   "segundos": 3.6
+  },
+  {
+   "tipo": "texto",
+   "cor": "U",
+   "kicker": "Então tanto faz?",
+   "titulo": "Não. Muda nas pontas",
+   "sub": "Na mão travada e na mão afogada de terreno",
+   "narracao": "Tanto faz? Não. Muda a mão travada e a afogada.",
+   "segundos": 4.3
+  },
+  {
+   "tipo": "lista",
+   "cor": "U",
+   "chip": "As pontas",
+   "kicker": "Mão de 7, de 36 para 38",
+   "linhas": [
+    {
+     "nome": "2 ou mais, com 36",
+     "valor": "79,9%"
+    },
+    {
+     "nome": "2 ou mais, com 38",
+     "valor": "82,9%"
+    }
+   ],
+   "rodape": "5 ou mais terrenos: 5,8% com 36 e 7,4% com 38",
+   "fonte": "Conta hipergeométrica",
+   "narracao": "Com 38, a mão com 2 terrenos ou mais sobe 3 pontos. A afogada também.",
+   "segundos": 6.2
+  },
+  {
+   "tipo": "texto",
+   "cor": "U",
+   "kicker": "A conta prática",
+   "titulo": "Curva baixa, 36. Comandante caro, 38",
+   "sub": "Na dúvida, 37 e ajuste depois de jogar",
+   "narracao": "Curva baixa aguenta 36. Comandante caro pede 38.",
+   "segundos": 3.6
+  },
+  {
+   "tipo": "cta",
+   "cor": "M",
+   "kicker": "36, 37, 38 ou outro?",
+   "titulo": "Quantos terrenos tem o seu deck?",
+   "destaque": "@fontedemana",
+   "narracao": "E o seu deck, joga com quantos?",
+   "segundos": 3.2
+  }
+ ],
+ "ganchoB": {
+  "chip": "Matemática #1",
+  "kicker": "Mão de 7, deck com 37 terrenos",
+  "titulo": "Abrir com 3 terrenos? Só 29% das vezes",
+  "sub": "Sem mulligan, deck de 99",
+  "narracao": "Abrir com exatamente 3 terrenos? Com 37 no deck, só 29% das vezes.",
+  "segundos": 5.4
+ }
+}

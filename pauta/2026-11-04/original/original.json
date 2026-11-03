@@ -1,0 +1,80 @@
+{
+ "data": "2026-11-04",
+ "pilar": "matematica",
+ "item": "36, 37 ou 38 terrenos: chance de 3 terrenos na mão",
+ "tema": "Matemática da Mesa #1: 36, 37 ou 38 terrenos e a chance de abrir com 3",
+ "cartas": ["Command Tower"],
+ "fx": null,
+ "carrossel": {
+  "capa": {
+   "cor": "U",
+   "chip": "Matemática da Mesa #1",
+   "kicker": "36, 37 ou 38 terrenos?",
+   "titulo": "Abrir com 3 terrenos: <b>29%</b>",
+   "sub": "Com 36 ou com 38, a chance muda só <b>1 ponto</b>. Então por que o número importa?",
+   "arte": "pauta/2026-11-04/tiktok/arte.jpg",
+   "credito": "Arte: Command Tower, Ryan Yee"
+  },
+  "cartoes": [
+   {
+    "cor": "U",
+    "titulo": "Então é só pôr mais terreno?",
+    "itens": [
+     {"cor": "U", "html": "Com 36 terrenos, a mão de 7 vem com exatamente 3 em <b>28,6%</b> das vezes."},
+     {"cor": "U", "html": "Com 38, em <b>29,6%</b>. Dois terrenos a mais, um ponto de diferença."}
+    ],
+    "nota": {"rotulo": "Calma", "texto": "o 3 exato não é a pergunta certa. Olha as pontas."},
+    "fonte": "Fonte: conta hipergeométrica, deck de 99"
+   },
+   {
+    "cor": "U",
+    "titulo": "Mão com 2 ou mais terrenos",
+    "barras": [
+     {"rotulo": "33 terrenos", "valor": 74.6, "texto": "74,6%"},
+     {"rotulo": "36 terrenos", "valor": 79.9, "texto": "79,9%"},
+     {"rotulo": "37 terrenos", "valor": 81.4, "texto": "81,4%"},
+     {"rotulo": "38 terrenos", "valor": 82.9, "texto": "82,9%"}
+    ],
+    "destaque": 2,
+    "itens": [
+     {"cor": "U", "html": "Mão de 7 com menos de 2 terrenos quase sempre vira mulligan. Cada terreno a mais tira uns <b>1,5 ponto</b> dessa mão travada."}
+    ],
+    "fonte": "Fonte: conta hipergeométrica, deck de 99, sem mulligan"
+   },
+   {
+    "cor": "R",
+    "titulo": "O custo de cada terreno",
+    "itens": [
+     {"cor": "R", "html": "Cada terreno a mais ocupa a vaga de um ramp, uma compra ou uma remoção."},
+     {"cor": "R", "html": "E a mão afogada, com 5 ou mais terrenos, sobe de <b>5,8%</b> com 36 para <b>7,4%</b> com 38."}
+    ],
+    "nota": {"rotulo": "A tensão", "texto": "terreno salva a mão travada e afoga a mão boa."},
+    "fonte": "Fonte: conta hipergeométrica, deck de 99"
+   },
+   {
+    "cor": "G",
+    "titulo": "A conta prática",
+    "itens": [
+     {"cor": "G", "html": "Curva baixa, muito ramp e compra barata: <b>36</b> segura."},
+     {"cor": "G", "html": "Comandante de 5 manas ou mais: vá de <b>38</b>."},
+     {"cor": "G", "html": "Na dúvida, <b>37</b>, e ajuste depois de algumas partidas."}
+    ],
+    "fonte": "Contas sem mulligan, mesa de 3 ou mais jogadores"
+   }
+  ],
+  "cta": {
+   "pergunta": "Quantos terrenos tem <b>o seu deck</b>? 36, 37, 38 ou outro?",
+   "quando": "Matemática da Mesa: a conta antes do palpite",
+   "salvar": "Salve para conferir quando for montar o próximo deck"
+  }
+ },
+ "legenda": "Commander: quantos terrenos pôr no deck? 36, 37 ou 38 muda mesmo a sua mão inicial?\n\nMatemática da Mesa #1. Num deck de 99 cartas, a mão de 7 vem com exatamente 3 terrenos em 28,6% das vezes com 36 terrenos, 29,1% com 37 e 29,6% com 38. Quase igual.\n\nO que muda está nas pontas. Mão com 2 ou mais terrenos: 79,9% com 36 e 82,9% com 38. Mão afogada, com 5 ou mais: 5,8% com 36 e 7,4% com 38. E cada terreno a mais é uma mágica a menos.\n\nTodas as contas sem mulligan. Fonte: distribuição hipergeométrica, deck de 99. Mais em fontedemana.com.br\n\nQuantos terrenos tem o seu deck: 36, 37, 38 ou outro?\n\n#terrenos #commander #mtg",
+ "threads": {
+  "texto": "Chuta antes de fazer a conta: num deck de Commander com 37 terrenos, qual a chance de a mão de 7 vir com exatamente 3 terrenos? E se o deck tiver 36 ou 38, quanto você acha que isso muda? Resposta nos comentários, sem mulligan.",
+  "obs": "Resposta: 29,1% com 37 (28,6% com 36 e 29,6% com 38). Enquete: menos de 20%, 20 a 40%, 40 a 60%, mais de 60%"
+ },
+ "enquete": {
+  "pergunta": "Quantos terrenos tem o seu deck de Commander?",
+  "opcoes": ["35 ou menos", "36", "37", "38 ou mais"]
+ }
+}
