@@ -8,281 +8,8 @@ X-WR-TIMEZONE:America/Sao_Paulo
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:fdm-2026-10-30-gravacao@fontedemana.com.br
-DTSTAMP:20261102T235545Z
-DTSTART:20261029T221500Z
-DURATION:PT15M
-SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
-DESCRIPTION:Chama o Juiz #3\, especial de Halloween: Fiend Hunter exilou se
- u comandante\, ele vai para a zona de comando? Quatro falas curtas\, uma p
- or cena.\n\nArquivos:\n- Vídeo mudo: https://fontedemana.com.br/pauta/202
- 6-10-30/tiktok/tiktok-mudo.mp4\n\nRoteiro de gravação:\nCena 1\, uns 5 s
- \nNa tela: O caçador de monstros exilou seu comandante (Fiend Hunter\, di
- reto de Innistrad)\nFala: O caçador de monstros de Innistrad exilou seu c
- omandante. E agora?\n\nCena 2\, uns 5 s\, mais 5 s de contagem\nNa tela: E
- le pode ir para a zona de comando? A) Não\, fica preso até o Fiend Hunte
- r sair B) Sim\, mas você decide na hora C) Sim\, quando você quiser depo
- is\nFala: Seu comandante pode ir para a zona de comando? Qual é a certa? 
- Cinco segundos.\n\nCena 3\, uns 5 s\nNa tela: Pode\, mas a escolha é na h
- ora (letra B\, Regras Abrangentes 903.9a)\nFala: Letra B. Você decide na 
- hora. Se deixar\, só volta quando o caçador sair.\n\nCena 4\, uns 3 s\nN
- a tela: Uma regra nova por semana\, @fontedemana\nFala: Você teria acerta
- do de primeira?\n\n\nPasso a passo:\n1. Grave um áudio por cena no Gravad
- or do iPhone\, num lugar silencioso\, com o celular a um palmo da boca.\n2
- . Na cena 2\, leia a pergunta e pare: a contagem de 5 segundos já está n
- o vídeo.\n3. Nomeie os áudios cena_1\, cena_2\, cena_3 e cena_4.\n4. Man
- de os áudios ao Claude no projeto MGT strategy (pode ser respondendo à m
- ensagem desta tarefa) dizendo "áudios do TikTok de 2026-10-30".\n\nPauta 
- completa: https://fontedemana.com.br/pauta/2026-10-30/#gravacao
-URL:https://fontedemana.com.br/pauta/2026-10-30/#gravacao
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Gravação: Gravar a narração do TikTok de amanhã
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-30-tiktok@fontedemana.com.br
-DTSTAMP:20261102T235545Z
-DTSTART:20261030T143000Z
-DURATION:PT15M
-SUMMARY:11:30 TikTok: Chama o Juiz #3\, Fiend Hunter e o comandante exilado
-DESCRIPTION:Quiz de regra de Halloween: o Fiend Hunter exilou seu comandant
- e. Ele vai para a zona de comando? A resposta vem com a regra 903.9a.\n\nA
- rquivos:\n- Vídeo do TikTok narrado: https://fontedemana.com.br/pauta/202
- 6-10-30/tiktok/tiktok-narrado.mp4\n\nLegenda:\nCommander: o Fiend Hunter e
- xilou seu comandante. Ele pode ir para a zona de comando? Qual é a certa?
- \n\nA) Não\, fica preso até o Fiend Hunter sair\nB) Sim\, mas você deci
- de na hora\nC) Sim\, quando você quiser depois\n\nEspecial de Halloween d
- o Chama o Juiz\, com o caçador de monstros de Innistrad. A resposta está
-  no vídeo\, com a regra oficial.\n\nFonte: Regras Abrangentes\, 903.9a\nM
- ais em fontedemana.com.br\n\n#innistrad #commander #mtg\n\nComentário fix
- ado:\nFiend Hunter exilou seu comandante. A) fica preso até o Fiend Hunte
- r sair\, B) vai para a zona de comando se você decidir na hora\, C) vai q
- uando você quiser depois. Qual é a certa?\n\nPasso a passo:\n1. Poste co
- m um som em alta da biblioteca do TikTok\, com volume entre 15% e 20%.\n2.
-  Voz própria não precisa de rótulo de IA.\n3. Fixe o comentário logo d
- epois de postar.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-
- 10-30/#tiktok
-URL:https://fontedemana.com.br/pauta/2026-10-30/#tiktok
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:TikTok: Chama o Juiz #3\, Fiend Hunter e o comandante exilado
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-30-threads-manha@fontedemana.com.br
-DTSTAMP:20261102T235545Z
-DTSTART:20261030T133000Z
-DURATION:PT15M
-SUMMARY:10:30 Threads: Pergunta do dia: Você levaria pelo Spock\, pelas re
- impressões como…
-DESCRIPTION:Pergunta para puxar conversa sobre a notícia do dia.\n\nPost:\
- nO Landing Party fecha os precons de Star Trek. Você levaria pelo Spock\,
-  pelas reimpressões como Exploration ou passaria?\n\nPasso a passo:\n1. A
- bra o Threads e cole o Post.\n2. Dica: Opções: pelo Spock\, pelas reimpr
- essões\, não levaria\n3. Toque em Adicionar tópico e escolha MTG.\n4. P
- ublique e responda quem comentar na primeira hora.\n\nPauta completa: http
- s://fontedemana.com.br/pauta/2026-10-30/#threads-manha
-URL:https://fontedemana.com.br/pauta/2026-10-30/#threads-manha
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Pergunta do dia: Você levaria pelo Spock\, pelas reim
- pressões como…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-30-stories-manha@fontedemana.com.br
-DTSTAMP:20261102T235545Z
-DTSTART:20261030T133000Z
-DURATION:PT15M
-SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
-DESCRIPTION:Story com a capa da edição 25 (Landing Party tem lista comple
- ta\, com Spock) e um sticker de pergunta para puxar a conversa.\n\nArquivo
- s:\n- Capa da edição 25: https://fontedemana.com.br/kit/ed25/carrossel-0
- 1.jpg\n\nPasso a passo:\n1. Baixe a capa e poste no Story.\n2. Adicione o 
- sticker de Pergunta no terço de baixo\, sem cobrir o título: Você compr
- aria o precon do Spock?\n3. Publique.\n\nPauta completa: https://fontedema
- na.com.br/pauta/2026-10-30/#stories-manha
-URL:https://fontedemana.com.br/pauta/2026-10-30/#stories-manha
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Capa do jornal com sticker de pergunta
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-30-feed@fontedemana.com.br
-DTSTAMP:20261102T235545Z
-DTSTART:20261030T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram feed: Carrossel da edição 25
-DESCRIPTION:Carrossel de 5 imagens da edição 25: Landing Party tem lista 
- completa\, com Spock\, Topdeck: Exploration.\n\nArquivos:\n- Imagem 1 de 5
- : https://fontedemana.com.br/kit/ed25/carrossel-01.jpg\n- Imagem 2 de 5: h
- ttps://fontedemana.com.br/kit/ed25/carrossel-02.jpg\n- Imagem 3 de 5: http
- s://fontedemana.com.br/kit/ed25/carrossel-03.jpg\n- Imagem 4 de 5: https:/
- /fontedemana.com.br/kit/ed25/carrossel-04.jpg\n- Imagem 5 de 5: https://fo
- ntedemana.com.br/kit/ed25/carrossel-05.jpg\n\nLegenda:\nCommander de Star 
- Trek: saiu a lista completa do Landing Party\, o precon do Comandante Spoc
- k.\n\nO deck é verde\, branco e azul e vive de terrenos. Quando o Spock e
- ntra ou ataca\, revela o topo do grimório e conjura de graça se o valor 
- de mana couber no número de terrenos com nomes diferentes que você contr
- ola. A alternativa de comando é o Captain Kirk\, que busca a Starship Ent
- erprise.\n\nAs reimpressões mais caras: Exploration\, a partir de US$ 29\
- ,53 (R$ 157\,75)\, Guardian Project\, US$ 12\,27 (R$ 65\,55)\, e Ancient G
- reenwarden\, US$ 12\,20 (R$ 65\,17). Os precons chegam às lojas em 13 de 
- novembro.\n\nNo Topdeck do Dia\, Exploration\, o encantamento de 1 mana qu
- e deixa baixar dois terrenos por turno.\n\nVocê levaria o Landing Party p
- elo Spock ou pelas reimpressões?\n\nEdição completa em fontedemana.com.
- br\n\nArtes: Commander Spock\, de Sam Kennedy. Exploration\, de Jonas De R
- o.\nValores em reais pela cotação de 28 out (Banco Central\, PTAX).\n\n#
- startrek #commander #mtg\n\nFonte de Mana is unofficial Fan Content permit
- ted under the Fan Content Policy. Not approved/endorsed by Wizards. Portio
- ns of the materials used are property of Wizards of the Coast. ©Wizards o
- f the Coast LLC.\n\nPasso a passo:\n1. No Instagram\, toque em + e escolha
-  Post.\n2. Selecione as 5 imagens na ordem\, da 1 à 5.\n3. Toque em Adici
- onar música e escolha uma em alta que combine com o tema.\n4. Cole a Lege
- nda e publique.\n\nValores em reais pela cotação de 28 out\, US$ 1 = R$ 
- 5\,342 (Banco Central\, PTAX).\n\nPauta completa: https://fontedemana.com.
- br/pauta/2026-10-30/#feed
-URL:https://fontedemana.com.br/pauta/2026-10-30/#feed
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram feed: Carrossel da edição 25
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-30-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261102T235545Z
-DTSTART:20261030T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
-DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
- .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
- e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
- o do post: Quem você deixaria no comando do Landing Party? com Spock\, Ki
- rk e Nenhum.\n3. Publique.\n\nPauta completa: https://fontedemana.com.br/p
- auta/2026-10-30/#stories-meio-dia
-URL:https://fontedemana.com.br/pauta/2026-10-30/#stories-meio-dia
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-30-threads-tarde@fontedemana.com.br
-DTSTAMP:20261102T235545Z
-DTSTART:20261030T180000Z
-DURATION:PT15M
-SUMMARY:15:00 Threads: Notícia do dia num post só
-DESCRIPTION:A edição 25 contada num post só\, sem fio: nos fios\, quase 
- ninguém passava do primeiro post.\n\nPost:\nSaiu a lista do Landing Party
- \, o precon de Commander do Spock em Star Trek. Verde\, branco e azul\, de
- ck de terrenos: o Spock conjura de graça o topo do grimório se o custo c
- ouber no número de terrenos com nomes diferentes. A reimpressão mais car
- a é Exploration\, a partir de US$ 29\,53 (R$ 157\,75). Chega às lojas em
-  13 de novembro. Spock ou Kirk no comando? fontedemana.com.br\nValores em 
- reais pela cotação de 28 out (Banco Central\, PTAX).\n\nPasso a passo:\n
- 1. No Threads\, cole o Post\, sem sequência.\n2. Toque em Adicionar tópi
- co e escolha MTG.\n3. Publique e responda quem comentar na primeira hora.\
- n\nValores em reais pela cotação de 28 out\, US$ 1 = R$ 5\,342 (Banco Ce
- ntral\, PTAX).\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10
- -30/#threads-tarde
-URL:https://fontedemana.com.br/pauta/2026-10-30/#threads-tarde
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Notícia do dia num post só
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-30-stories-tarde@fontedemana.com.br
-DTSTAMP:20261102T235545Z
-DTSTART:20261030T180000Z
-DURATION:PT15M
-SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
-DESCRIPTION:Story com a imagem de Exploration no Topdeck do Dia e o sticker
-  de link para a edição completa.\n\nArquivos:\n- Topdeck do Dia: https:/
- /fontedemana.com.br/kit/ed25/carrossel-03.jpg\n\nPasso a passo:\n1. Baixe 
- a imagem e poste no Story.\n2. Adicione o sticker de Link para fontedemana
- .com.br com o texto Edição completa\, embaixo do texto do Topdeck.\n3. P
- ublique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-30/#s
- tories-tarde
-URL:https://fontedemana.com.br/pauta/2026-10-30/#stories-tarde
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Topdeck do Dia com link
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-30-reels@fontedemana.com.br
-DTSTAMP:20261102T235545Z
-DTSTART:20261030T220000Z
-DURATION:PT15M
-SUMMARY:19:00 Reels: Vídeo original: Chama o Juiz #3: Fiend Hunter exilou 
- seu comandante.…
-DESCRIPTION:O vídeo original de hoje no Instagram\, o mesmo arquivo do Tik
- Tok\, já narrado. É o formato que mais chega a quem não segue.\n\nArqui
- vos:\n- Vídeo original narrado: https://fontedemana.com.br/pauta/2026-10-
- 30/tiktok/tiktok-narrado.mp4\n\nLegenda:\nCommander: o Fiend Hunter exilou
-  seu comandante. Ele pode ir para a zona de comando? Qual é a certa?\n\nA
- ) Não\, fica preso até o Fiend Hunter sair\nB) Sim\, mas você decide na
-  hora\nC) Sim\, quando você quiser depois\n\nEspecial de Halloween do Cha
- ma o Juiz\, com o caçador de monstros de Innistrad. A resposta está no v
- ídeo\, com a regra oficial.\n\nFonte: Regras Abrangentes\, 903.9a\nMais e
- m fontedemana.com.br\n\n#innistrad #commander #mtg\n\nFonte de Mana is uno
- fficial Fan Content permitted under the Fan Content Policy. Not approved/e
- ndorsed by Wizards. Portions of the materials used are property of Wizards
-  of the Coast. ©Wizards of the Coast LLC.\n\nComentário fixado:\nFiend H
- unter exilou seu comandante. A) fica preso até o Fiend Hunter sair\, B) v
- ai para a zona de comando se você decidir na hora\, C) vai quando você q
- uiser depois. Qual é a certa?\n\nPasso a passo:\n1. No Instagram\, toque 
- em + e escolha Reel.\n2. Escolha o vídeo baixado daqui\, nunca o salvo do
-  TikTok (o Instagram derruba vídeo com marca d'água).\n3. Em Áudio\, po
- nha uma música em alta da biblioteca do Instagram com volume baixo (uns 1
- 0%)\, sem cobrir a voz.\n4. Na capa\, use o primeiro quadro\, o do gancho.
- \n5. Cole a Legenda e publique.\n6. Fixe o comentário e responda quem com
- entar na primeira hora.\n\nPauta completa: https://fontedemana.com.br/paut
- a/2026-10-30/#reels
-URL:https://fontedemana.com.br/pauta/2026-10-30/#reels
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reels: Vídeo original: Chama o Juiz #3: Fiend Hunter exilou se
- u comandante.…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-30-comentarios@fontedemana.com.br
-DTSTAMP:20261102T235545Z
-DTSTART:20261031T003000Z
-DURATION:PT15M
-SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
-DESCRIPTION:Uns 10 minutos nas três redes: curtir e responder os comentár
- ios das últimas 48 horas\, começando pelo vídeo e pelo carrossel de hoj
- e. Conversa nos comentários leva a peça a mais gente\, e o Instagram rec
- omenda responder em até 2 dias.\n\nPasso a passo:\n1. Instagram: nas noti
- ficações\, curta os comentários e responda com uma frase quem perguntou
-  ou discordou.\n2. TikTok e Threads: o mesmo\, começando pelo post com ma
- is comentários.\n3. Pergunta boa ou dúvida que se repete\, nos comentár
- ios ou nas DMs? Mande na conversa do projeto: vira tema de um pilar.\n\nPa
- uta completa: https://fontedemana.com.br/pauta/2026-10-30/#comentarios
-URL:https://fontedemana.com.br/pauta/2026-10-30/#comentarios
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Comentários: Responder os comentários de hoje e de ontem
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fdm-2026-10-31-gravacao@fontedemana.com.br
-DTSTAMP:20261102T235545Z
+DTSTAMP:20261103T102204Z
 DTSTART:20261030T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -335,7 +62,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-tiktok@fontedemana.com.br
-DTSTAMP:20261102T235545Z
+DTSTAMP:20261103T102204Z
 DTSTART:20261031T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Radar DC500\, a Ashling no torneio
@@ -372,7 +99,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-threads-manha@fontedemana.com.br
-DTSTAMP:20261102T235545Z
+DTSTAMP:20261103T102204Z
 DTSTART:20261031T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Você vende a sua agora\, guarda pa
@@ -394,7 +121,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-stories-manha@fontedemana.com.br
-DTSTAMP:20261102T235545Z
+DTSTAMP:20261103T102204Z
 DTSTART:20261031T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -414,7 +141,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-feed@fontedemana.com.br
-DTSTAMP:20261102T235545Z
+DTSTAMP:20261103T102204Z
 DTSTART:20261031T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 26
@@ -454,7 +181,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261102T235545Z
+DTSTAMP:20261103T102204Z
 DTSTART:20261031T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -473,7 +200,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-threads-tarde@fontedemana.com.br
-DTSTAMP:20261102T235545Z
+DTSTAMP:20261103T102204Z
 DTSTART:20261031T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -498,7 +225,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-stories-tarde@fontedemana.com.br
-DTSTAMP:20261102T235545Z
+DTSTAMP:20261103T102204Z
 DTSTART:20261031T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -518,7 +245,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-reels@fontedemana.com.br
-DTSTAMP:20261102T235545Z
+DTSTAMP:20261103T102204Z
 DTSTART:20261031T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Ashling no DC500: perdeu 5 de 7 nos t
@@ -558,7 +285,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-comentarios@fontedemana.com.br
-DTSTAMP:20261102T235545Z
+DTSTAMP:20261103T102204Z
 DTSTART:20261101T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -580,7 +307,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-gravacao@fontedemana.com.br
-DTSTAMP:20261102T235545Z
+DTSTAMP:20261103T102204Z
 DTSTART:20261031T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -634,7 +361,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-tiktok@fontedemana.com.br
-DTSTAMP:20261102T235545Z
+DTSTAMP:20261103T102204Z
 DTSTART:20261101T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o Debate da semana #1: cemitério hate
@@ -666,7 +393,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-threads-manha@fontedemana.com.br
-DTSTAMP:20261102T235545Z
+DTSTAMP:20261103T102204Z
 DTSTART:20261101T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Debate da semana #1: todo deck de Commander 
@@ -693,7 +420,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-stories-manha@fontedemana.com.br
-DTSTAMP:20261102T235545Z
+DTSTAMP:20261103T102204Z
 DTSTART:20261101T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -713,7 +440,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-feed@fontedemana.com.br
-DTSTAMP:20261102T235545Z
+DTSTAMP:20261103T102204Z
 DTSTART:20261101T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Debate da semana #1: todo deck de Commander p
@@ -754,7 +481,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261102T235545Z
+DTSTAMP:20261103T102204Z
 DTSTART:20261101T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -773,7 +500,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-threads-tarde@fontedemana.com.br
-DTSTAMP:20261102T235545Z
+DTSTAMP:20261103T102204Z
 DTSTART:20261101T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -795,7 +522,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-stories-tarde@fontedemana.com.br
-DTSTAMP:20261102T235545Z
+DTSTAMP:20261103T102204Z
 DTSTART:20261101T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -815,7 +542,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-reels@fontedemana.com.br
-DTSTAMP:20261102T235545Z
+DTSTAMP:20261103T102204Z
 DTSTART:20261101T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Debate da semana #1: todo deck de Com
@@ -853,7 +580,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-comentarios@fontedemana.com.br
-DTSTAMP:20261102T235545Z
+DTSTAMP:20261103T102204Z
 DTSTART:20261102T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -875,7 +602,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-gravacao@fontedemana.com.br
-DTSTAMP:20261102T235545Z
+DTSTAMP:20261103T102204Z
 DTSTART:20261101T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã (com dub
@@ -923,7 +650,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-tiktok@fontedemana.com.br
-DTSTAMP:20261102T235545Z
+DTSTAMP:20261103T102204Z
 DTSTART:20261102T210000Z
 DURATION:PT15M
 SUMMARY:18:00 TikTok: Treta das Cores #1\, comandante morreu
@@ -956,7 +683,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-threads-manha@fontedemana.com.br
-DTSTAMP:20261102T235545Z
+DTSTAMP:20261103T102204Z
 DTSTART:20261102T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Treta das Cores #1: comandante morreu. Cemit
@@ -982,7 +709,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-stories-manha@fontedemana.com.br
-DTSTAMP:20261102T235545Z
+DTSTAMP:20261103T102204Z
 DTSTART:20261102T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -1002,7 +729,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-feed@fontedemana.com.br
-DTSTAMP:20261102T235545Z
+DTSTAMP:20261103T102204Z
 DTSTART:20261102T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Treta das Cores #1: comandante morreu. Cemit
@@ -1044,7 +771,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261102T235545Z
+DTSTAMP:20261103T102204Z
 DTSTART:20261102T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -1063,7 +790,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-threads-tarde@fontedemana.com.br
-DTSTAMP:20261102T235545Z
+DTSTAMP:20261103T102204Z
 DTSTART:20261102T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -1088,7 +815,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-stories-tarde@fontedemana.com.br
-DTSTAMP:20261102T235545Z
+DTSTAMP:20261103T102204Z
 DTSTART:20261102T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1108,7 +835,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-reels@fontedemana.com.br
-DTSTAMP:20261102T235545Z
+DTSTAMP:20261103T102204Z
 DTSTART:20261102T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Treta das Cores #1: comandante morreu
@@ -1145,7 +872,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-comentarios@fontedemana.com.br
-DTSTAMP:20261102T235545Z
+DTSTAMP:20261103T102204Z
 DTSTART:20261103T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1167,7 +894,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-gravacao@fontedemana.com.br
-DTSTAMP:20261102T235545Z
+DTSTAMP:20261103T102204Z
 DTSTART:20261102T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -1217,10 +944,10 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-tiktok@fontedemana.com.br
-DTSTAMP:20261102T235545Z
-DTSTART:20261103T143000Z
+DTSTAMP:20261103T102204Z
+DTSTART:20261103T210000Z
 DURATION:PT15M
-SUMMARY:11:30 TikTok: Dicionário do Commander #4\, a pilha
+SUMMARY:18:00 TikTok: Dicionário do Commander #4\, a pilha
 DESCRIPTION:O termo pilha (stack) explicado com um exemplo de mesa: Beast W
  ithin no seu comandante e Ephemerate em resposta. Fecha com o erro mais co
  mum\, terreno e mana fora da pilha.\n\nArquivos:\n- Vídeo do TikTok narra
@@ -1231,19 +958,225 @@ DESCRIPTION:O termo pilha (stack) explicado com um exemplo de mesa: Beast W
   primeira que resolve. Por isso uma Ephemerate em resposta salva o seu com
  andante de uma Beast Within.\n\nQue termo da mesa te confundiu no começo?
  \n\nRegra: Regras Abrangentes\, 405. Decks: EDHREC.\nMais em fontedemana.c
- om.br\n\n#stack #commander #mtg\n\nFonte de Mana is unofficial Fan Content
-  permitted under the Fan Content Policy. Not approved/endorsed by Wizards.
-  Portions of the materials used are property of Wizards of the Coast. ©Wi
- zards of the Coast LLC.\n\nComentário fixado:\nQue termo da mesa te confu
- ndiu no começo? Pilha\, prioridade\, em resposta ou outro?\n\nPasso a pas
- so:\n1. Poste com um som em alta da biblioteca do TikTok\, com volume entr
- e 15% e 20%.\n2. Voz própria não precisa de rótulo de IA.\n3. Fixe o co
- mentário logo depois de postar.\n\nPauta completa: https://fontedemana.co
- m.br/pauta/2026-11-03/#tiktok
+ om.br\n\n#commander #mtg\n\nFonte de Mana is unofficial Fan Content permit
+ ted under the Fan Content Policy. Not approved/endorsed by Wizards. Portio
+ ns of the materials used are property of Wizards of the Coast. ©Wizards o
+ f the Coast LLC.\n\nComentário fixado:\nQue termo da mesa te confundiu no
+  começo? Pilha\, prioridade\, em resposta ou outro?\n\nPasso a passo:\n1.
+  Poste com um som em alta da biblioteca do TikTok\, com volume entre 15% e
+  20%.\n2. Voz própria não precisa de rótulo de IA.\n3. Fixe o comentár
+ io logo depois de postar.\n\nPauta completa: https://fontedemana.com.br/pa
+ uta/2026-11-03/#tiktok
 URL:https://fontedemana.com.br/pauta/2026-11-03/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:TikTok: Dicionário do Commander #4\, a pilha
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-03-threads-manha@fontedemana.com.br
+DTSTAMP:20261103T102204Z
+DTSTART:20261103T133000Z
+DURATION:PT15M
+SUMMARY:10:30 Threads: Debate: Dicionário do Commander #4: o que é a pilh
+ a (stack)
+DESCRIPTION:Post de debate do conteúdo original de hoje (Dicionário do Co
+ mmander) para puxar conversa.\n\nPost:\nPergunta para quem joga Commander:
+  a pilha te confundiu no começo? No fundo ela é só uma fila: a última 
+ mágica que entra é a primeira que resolve. Ephemerate em resposta a um r
+ emoval no seu comandante é o exemplo clássico. Pilha\, prioridade ou "em
+  resposta": qual desses termos te pegou quando você começou?\n\nPasso a 
+ passo:\n1. Abra o Threads e cole o Post.\n2. Dica: Enquete com: Pilha\, Pr
+ ioridade\, Em resposta\, Outro\n3. Toque em Adicionar tópico e escolha MT
+ G.\n4. Publique e responda quem comentar na primeira hora.\n\nPauta comple
+ ta: https://fontedemana.com.br/pauta/2026-11-03/#threads-manha
+URL:https://fontedemana.com.br/pauta/2026-11-03/#threads-manha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Debate: Dicionário do Commander #4: o que é a pilha 
+ (stack)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-03-stories-manha@fontedemana.com.br
+DTSTAMP:20261103T102204Z
+DTSTART:20261103T133000Z
+DURATION:PT15M
+SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
+DESCRIPTION:Story com a capa da edição 29 (Countdown Kit da Marvel segue 
+ à venda) e um sticker de pergunta para puxar a conversa.\n\nArquivos:\n- 
+ Capa da edição 29: https://fontedemana.com.br/kit/ed29/carrossel-01.jpg\
+ n\nPasso a passo:\n1. Baixe a capa e poste no Story.\n2. Adicione o sticke
+ r de Pergunta no terço de baixo\, sem cobrir o título: Você paga os 4 d
+ a Mystic Remora ou deixa comprar?\n3. Publique.\n\nPauta completa: https:/
+ /fontedemana.com.br/pauta/2026-11-03/#stories-manha
+URL:https://fontedemana.com.br/pauta/2026-11-03/#stories-manha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Capa do jornal com sticker de pergunta
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-03-feed@fontedemana.com.br
+DTSTAMP:20261103T102204Z
+DTSTART:20261103T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram feed: Dicionário do Commander #4: o que é a pilha
+  (stack)
+DESCRIPTION:Carrossel original de 6 imagens (Dicionário do Commander): Dic
+ ionário do Commander #4: o que é a pilha (stack). Feito para salvar e co
+ mpartilhar.\n\nArquivos:\n- Imagem 1 de 6: https://fontedemana.com.br/paut
+ a/2026-11-03/original/carrossel-01.jpg\n- Imagem 2 de 6: https://fontedema
+ na.com.br/pauta/2026-11-03/original/carrossel-02.jpg\n- Imagem 3 de 6: htt
+ ps://fontedemana.com.br/pauta/2026-11-03/original/carrossel-03.jpg\n- Imag
+ em 4 de 6: https://fontedemana.com.br/pauta/2026-11-03/original/carrossel-
+ 04.jpg\n- Imagem 5 de 6: https://fontedemana.com.br/pauta/2026-11-03/origi
+ nal/carrossel-05.jpg\n- Imagem 6 de 6: https://fontedemana.com.br/pauta/20
+ 26-11-03/original/carrossel-06.jpg\n\nLegenda:\nDicionário do Commander #
+ 4: o que é a pilha (stack) no Magic? Na mesa de Commander todo mundo fala
+  "em resposta"\, mas pouca gente explica.\n\nA pilha é a fila das mágica
+ s e habilidades: a última que entra é a primeira que resolve. Por isso u
+ ma Ephemerate em resposta faz a Beast Within do oponente não fazer nada. 
+ E o erro mais comum: baixar terreno e gerar mana não usam a pilha.\n\nFon
+ tes: Regras Abrangentes (405 e 608)\, Scryfall e EDHREC. Mais em fontedema
+ na.com.br\n\nQue termo da mesa te confundiu no começo?\n\n#commander #mtg
+ \n\nFonte de Mana is unofficial Fan Content permitted under the Fan Conten
+ t Policy. Not approved/endorsed by Wizards. Portions of the materials used
+  are property of Wizards of the Coast. ©Wizards of the Coast LLC.\n\nPass
+ o a passo:\n1. No Instagram\, toque em + e escolha Post.\n2. Selecione as 
+ 6 imagens na ordem\, da 1 à 6.\n3. Toque em Adicionar música e escolha u
+ ma em alta que combine com o tema.\n4. Cole a Legenda e publique.\n\nPauta
+  completa: https://fontedemana.com.br/pauta/2026-11-03/#feed
+URL:https://fontedemana.com.br/pauta/2026-11-03/#feed
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram feed: Dicionário do Commander #4: o que é a pilha (
+ stack)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-03-stories-meio-dia@fontedemana.com.br
+DTSTAMP:20261103T102204Z
+DTSTART:20261103T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
+DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
+ .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
+ e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
+ o do post: Qual termo te confundiu no começo? com Pilha\, Prioridade\, Em
+  resposta e Outro.\n3. Publique.\n\nPauta completa: https://fontedemana.co
+ m.br/pauta/2026-11-03/#stories-meio-dia
+URL:https://fontedemana.com.br/pauta/2026-11-03/#stories-meio-dia
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-03-threads-tarde@fontedemana.com.br
+DTSTAMP:20261103T102204Z
+DTSTART:20261103T180000Z
+DURATION:PT15M
+SUMMARY:15:00 Threads: Notícia do dia num post só
+DESCRIPTION:A edição 29 contada num post só\, sem fio: nos fios\, quase 
+ ninguém passava do primeiro post.\n\nPost:\nO Countdown Kit da Marvel nã
+ o esgotou na primeira noite. Na madrugada desta terça\, a página do Secr
+ et Lair ainda mostrava o kit em pré-venda\, a US$ 199\,99 (R$ 1.084\,19)\
+ , com limite de 2 por pessoa e envio a partir de 4 de novembro. A Wizards 
+ não diz quantos foram feitos. Você pegou o seu? fontedemana.com.br\nValo
+ res em reais pela cotação de 30 out (Banco Central\, PTAX).\n\nPasso a p
+ asso:\n1. No Threads\, cole o Post\, sem sequência.\n2. Toque em Adiciona
+ r tópico e escolha MTG.\n3. Publique e responda quem comentar na primeira
+  hora.\n\nValores em reais pela cotação de 30 out\, US$ 1 = R$ 5\,4212 (
+ Banco Central\, PTAX).\n\nPauta completa: https://fontedemana.com.br/pauta
+ /2026-11-03/#threads-tarde
+URL:https://fontedemana.com.br/pauta/2026-11-03/#threads-tarde
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Notícia do dia num post só
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-03-stories-tarde@fontedemana.com.br
+DTSTAMP:20261103T102204Z
+DTSTART:20261103T180000Z
+DURATION:PT15M
+SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
+DESCRIPTION:Story com a imagem de Mystic Remora no Topdeck do Dia e o stick
+ er de link para a edição completa.\n\nArquivos:\n- Topdeck do Dia: https
+ ://fontedemana.com.br/kit/ed29/carrossel-03.jpg\n\nPasso a passo:\n1. Baix
+ e a imagem e poste no Story.\n2. Adicione o sticker de Link para fontedema
+ na.com.br com o texto Edição completa\, embaixo do texto do Topdeck.\n3.
+  Publique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-03/
+ #stories-tarde
+URL:https://fontedemana.com.br/pauta/2026-11-03/#stories-tarde
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Topdeck do Dia com link
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-03-reels@fontedemana.com.br
+DTSTAMP:20261103T102204Z
+DTSTART:20261103T220000Z
+DURATION:PT15M
+SUMMARY:19:00 Reels: Vídeo original: Dicionário do Commander #4: o que é
+  a pilha (stack)
+DESCRIPTION:O vídeo original de hoje no Instagram\, o mesmo arquivo do Tik
+ Tok\, já narrado. É o formato que mais chega a quem não segue.\n\nArqui
+ vos:\n- Vídeo original narrado: https://fontedemana.com.br/pauta/2026-11-
+ 03/tiktok/tiktok-narrado.mp4\n\nLegenda:\nCommander: o que é a pilha (sta
+ ck) no Magic? Você sabe o que acontece quando alguém fala "em resposta"?
+ \n\nDicionário do Commander #4. A pilha é a fila das mágicas e habilida
+ des: a última que entra é a primeira que resolve. Por isso uma Ephemerat
+ e em resposta salva o seu comandante de uma Beast Within.\n\nQue termo da 
+ mesa te confundiu no começo?\n\nRegra: Regras Abrangentes\, 405. Decks: E
+ DHREC.\nMais em fontedemana.com.br\n\n#commander #mtg\n\nFonte de Mana is 
+ unofficial Fan Content permitted under the Fan Content Policy. Not approve
+ d/endorsed by Wizards. Portions of the materials used are property of Wiza
+ rds of the Coast. ©Wizards of the Coast LLC.\n\nComentário fixado:\nQue 
+ termo da mesa te confundiu no começo? Pilha\, prioridade\, em resposta ou
+  outro?\n\nPasso a passo:\n1. No Instagram\, toque em + e escolha Reel.\n2
+ . Escolha o vídeo baixado daqui\, nunca o salvo do TikTok (o Instagram de
+ rruba vídeo com marca d'água).\n3. Em Áudio\, ponha uma música em alta
+  da biblioteca do Instagram com volume baixo (uns 10%)\, sem cobrir a voz.
+ \n4. Na capa\, use o primeiro quadro\, o do gancho.\n5. Cole a Legenda e p
+ ublique.\n6. Fixe o comentário e responda quem comentar na primeira hora.
+ \n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-03/#reels
+URL:https://fontedemana.com.br/pauta/2026-11-03/#reels
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reels: Vídeo original: Dicionário do Commander #4: o que é a
+  pilha (stack)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-03-comentarios@fontedemana.com.br
+DTSTAMP:20261103T102204Z
+DTSTART:20261104T003000Z
+DURATION:PT15M
+SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
+DESCRIPTION:Uns 10 minutos nas três redes: curtir e responder os comentár
+ ios das últimas 48 horas\, começando pelo vídeo e pelo carrossel de hoj
+ e. Conversa nos comentários leva a peça a mais gente\, e o Instagram rec
+ omenda responder em até 2 dias.\n\nPasso a passo:\n1. Instagram: nas noti
+ ficações\, curta os comentários e responda com uma frase quem perguntou
+  ou discordou.\n2. TikTok e Threads: o mesmo\, começando pelo post com ma
+ is comentários.\n3. Pergunta boa ou dúvida que se repete\, nos comentár
+ ios ou nas DMs? Mande na conversa do projeto: vira tema de um pilar.\n\nPa
+ uta completa: https://fontedemana.com.br/pauta/2026-11-03/#comentarios
+URL:https://fontedemana.com.br/pauta/2026-11-03/#comentarios
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Comentários: Responder os comentários de hoje e de ontem
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT

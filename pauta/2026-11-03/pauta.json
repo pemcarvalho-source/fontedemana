@@ -1,95 +1,271 @@
 {
- "data": "2026-11-03",
- "fx": null,
- "avisos": [
-  {
-   "id": "gravacao",
-   "dia": "2026-11-02",
-   "hora": "19:15",
-   "rede": "Gravação",
-   "titulo": "Gravar o vídeo de amanhã (você aparece)",
-   "oQue": "Dicionário do Commander #4: o que é a pilha (stack). Você aparece nas cenas 1 e 6, falando para a câmera. Nas cenas 2 a 5 entra só a sua voz por baixo das cartas Beast Within e Ephemerate.",
-   "arquivos": [
+  "data": "2026-11-03",
+  "fx": "Valores em reais pela cotação de 30 out, US$ 1 = R$ 5,4212 (Banco Central, PTAX).",
+  "forca": "calmo",
+  "feed": "original",
+  "avisos": [
     {
-     "nome": "Vídeo mudo do TikTok",
-     "url": "https://fontedemana.com.br/pauta/2026-11-03/tiktok/tiktok-mudo.mp4"
+      "id": "gravacao",
+      "dia": "2026-11-02",
+      "hora": "19:15",
+      "rede": "Gravação",
+      "titulo": "Gravar o vídeo de amanhã (você aparece)",
+      "oQue": "Dicionário do Commander #4: o que é a pilha (stack). Você aparece nas cenas 1 e 6, falando para a câmera. Nas cenas 2 a 5 entra só a sua voz por baixo das cartas Beast Within e Ephemerate.",
+      "arquivos": [
+        {
+          "nome": "Vídeo mudo do TikTok",
+          "url": "https://fontedemana.com.br/pauta/2026-11-03/tiktok/tiktok-mudo.mp4"
+        }
+      ],
+      "roteiro": [
+        {
+          "cena": "Cena 1, rosto, uns 3 s",
+          "tela": "Em resposta, na pilha! Você sabe o que é a pilha?",
+          "fala": "Em resposta, na pilha! Você sabe o que é isso?",
+          "como": "Rosto: Olhando para a câmera, levanta a mão como quem pede para esperar, segurando uma carta virada para você."
+        },
+        {
+          "cena": "Cena 2, só a voz, uns 5 s",
+          "tela": "Pilha é a fila das mágicas. A última que entra resolve primeiro",
+          "fala": "Pilha, ou stack, é a fila das mágicas. A última que entra resolve primeiro.",
+          "como": "Só a voz: pode gravar em vídeo ou áudio"
+        },
+        {
+          "cena": "Cena 3, só a voz, uns 5 s",
+          "tela": "O oponente joga: Beast Within, Mira no seu comandante e vai para a pilha",
+          "fala": "O oponente joga Beast Within no seu comandante. Ela vai para a pilha.",
+          "como": "Só a voz: pode gravar em vídeo ou áudio"
+        },
+        {
+          "cena": "Cena 4, só a voz, uns 5 s",
+          "tela": "Você responde: Ephemerate, Em 297 mil decks no EDHREC",
+          "fala": "Você responde com Ephemerate. Ela resolve antes: o comandante sai e volta.",
+          "como": "Só a voz: pode gravar em vídeo ou áudio"
+        },
+        {
+          "cena": "Cena 5, só a voz, uns 4 s",
+          "tela": "E não faz nada. O alvo virou outro objeto. Nem a Fera 3/3 vem.",
+          "fala": "Aí a Beast Within resolve. O alvo sumiu, ela não faz nada.",
+          "como": "Só a voz: pode gravar em vídeo ou áudio"
+        },
+        {
+          "cena": "Cena 6, rosto, uns 4 s",
+          "tela": "Terreno e mana fora da pilha. Ninguém pode responder isso",
+          "fala": "Terreno e mana não usam a pilha. Ninguém responde isso.",
+          "como": "Rosto: Mesmo enquadramento da cena 1: segura um terreno ao lado do rosto, vira a carta de lado no ar (virar para gerar mana) e balança a cabeça."
+        }
+      ],
+      "passos": [
+        "Celular na vertical, câmera da frente, na altura dos olhos, a um braço de distância.",
+        "Rosto no meio da tela e o terço de cima livre: é onde entra o título.",
+        "Luz de frente (de frente para a janela) e fundo arrumado; a estante de cartas é ótima.",
+        "Desligue o Vídeo HDR (Ajustes, Câmera, Gravar Vídeo) para as cores não lavarem.",
+        "Um vídeo por cena, falando para a câmera, com meio segundo de silêncio antes e depois; nomeie cena_1, cena_2... e mande todos juntos.",
+        "Nas cenas sem rosto, só a voz conta: pode gravar em vídeo ou só o áudio.",
+        "Mande os vídeos ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"vídeos do TikTok de 2026-11-03\"."
+      ]
+    },
+    {
+      "id": "tiktok",
+      "hora": "18:00",
+      "rede": "TikTok",
+      "titulo": "Dicionário do Commander #4, a pilha",
+      "oQue": "O termo pilha (stack) explicado com um exemplo de mesa: Beast Within no seu comandante e Ephemerate em resposta. Fecha com o erro mais comum, terreno e mana fora da pilha.",
+      "arquivos": [
+        {
+          "nome": "Vídeo do TikTok narrado",
+          "url": "https://fontedemana.com.br/pauta/2026-11-03/tiktok/tiktok-narrado.mp4"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Commander: o que é a pilha (stack) no Magic? Você sabe o que acontece quando alguém fala \"em resposta\"?\n\nDicionário do Commander #4. A pilha é a fila das mágicas e habilidades: a última que entra é a primeira que resolve. Por isso uma Ephemerate em resposta salva o seu comandante de uma Beast Within.\n\nQue termo da mesa te confundiu no começo?\n\nRegra: Regras Abrangentes, 405. Decks: EDHREC.\nMais em fontedemana.com.br\n\n#commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        },
+        {
+          "rotulo": "Comentário fixado",
+          "texto": "Que termo da mesa te confundiu no começo? Pilha, prioridade, em resposta ou outro?"
+        }
+      ],
+      "passos": [
+        "Poste com um som em alta da biblioteca do TikTok, com volume entre 15% e 20%.",
+        "Voz própria não precisa de rótulo de IA.",
+        "Fixe o comentário logo depois de postar."
+      ]
+    },
+    {
+      "id": "threads-manha",
+      "hora": "10:30",
+      "rede": "Threads",
+      "titulo": "Debate: Dicionário do Commander #4: o que é a pilha (stack)",
+      "oQue": "Post de debate do conteúdo original de hoje (Dicionário do Commander) para puxar conversa.",
+      "textos": [
+        {
+          "rotulo": "Post",
+          "texto": "Pergunta para quem joga Commander: a pilha te confundiu no começo? No fundo ela é só uma fila: a última mágica que entra é a primeira que resolve. Ephemerate em resposta a um removal no seu comandante é o exemplo clássico. Pilha, prioridade ou \"em resposta\": qual desses termos te pegou quando você começou?"
+        }
+      ],
+      "passos": [
+        "Abra o Threads e cole o Post.",
+        "Dica: Enquete com: Pilha, Prioridade, Em resposta, Outro",
+        "Toque em Adicionar tópico e escolha MTG.",
+        "Publique e responda quem comentar na primeira hora."
+      ]
+    },
+    {
+      "id": "stories-manha",
+      "hora": "10:30",
+      "rede": "Instagram Stories",
+      "titulo": "Capa do jornal com sticker de pergunta",
+      "oQue": "Story com a capa da edição 29 (Countdown Kit da Marvel segue à venda) e um sticker de pergunta para puxar a conversa.",
+      "arquivos": [
+        {
+          "nome": "Capa da edição 29",
+          "url": "https://fontedemana.com.br/kit/ed29/carrossel-01.jpg"
+        }
+      ],
+      "passos": [
+        "Baixe a capa e poste no Story.",
+        "Adicione o sticker de Pergunta no terço de baixo, sem cobrir o título: Você paga os 4 da Mystic Remora ou deixa comprar?",
+        "Publique."
+      ]
+    },
+    {
+      "id": "feed",
+      "hora": "12:00",
+      "rede": "Instagram feed",
+      "titulo": "Dicionário do Commander #4: o que é a pilha (stack)",
+      "origem": "original:2026-11-03",
+      "oQue": "Carrossel original de 6 imagens (Dicionário do Commander): Dicionário do Commander #4: o que é a pilha (stack). Feito para salvar e compartilhar.",
+      "arquivos": [
+        {
+          "nome": "Imagem 1 de 6",
+          "url": "https://fontedemana.com.br/pauta/2026-11-03/original/carrossel-01.jpg"
+        },
+        {
+          "nome": "Imagem 2 de 6",
+          "url": "https://fontedemana.com.br/pauta/2026-11-03/original/carrossel-02.jpg"
+        },
+        {
+          "nome": "Imagem 3 de 6",
+          "url": "https://fontedemana.com.br/pauta/2026-11-03/original/carrossel-03.jpg"
+        },
+        {
+          "nome": "Imagem 4 de 6",
+          "url": "https://fontedemana.com.br/pauta/2026-11-03/original/carrossel-04.jpg"
+        },
+        {
+          "nome": "Imagem 5 de 6",
+          "url": "https://fontedemana.com.br/pauta/2026-11-03/original/carrossel-05.jpg"
+        },
+        {
+          "nome": "Imagem 6 de 6",
+          "url": "https://fontedemana.com.br/pauta/2026-11-03/original/carrossel-06.jpg"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Dicionário do Commander #4: o que é a pilha (stack) no Magic? Na mesa de Commander todo mundo fala \"em resposta\", mas pouca gente explica.\n\nA pilha é a fila das mágicas e habilidades: a última que entra é a primeira que resolve. Por isso uma Ephemerate em resposta faz a Beast Within do oponente não fazer nada. E o erro mais comum: baixar terreno e gerar mana não usam a pilha.\n\nFontes: Regras Abrangentes (405 e 608), Scryfall e EDHREC. Mais em fontedemana.com.br\n\nQue termo da mesa te confundiu no começo?\n\n#commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        }
+      ],
+      "passos": [
+        "No Instagram, toque em + e escolha Post.",
+        "Selecione as 6 imagens na ordem, da 1 à 6.",
+        "Toque em Adicionar música e escolha uma em alta que combine com o tema.",
+        "Cole a Legenda e publique."
+      ]
+    },
+    {
+      "id": "stories-meio-dia",
+      "hora": "12:00",
+      "rede": "Instagram Stories",
+      "titulo": "Repost do carrossel com enquete",
+      "oQue": "Compartilhe o carrossel recém postado no Story com uma enquete.",
+      "passos": [
+        "No carrossel publicado, toque no avião de papel e em Adicionar post ao seu story.",
+        "Adicione o sticker de Enquete embaixo do post: Qual termo te confundiu no começo? com Pilha, Prioridade, Em resposta e Outro.",
+        "Publique."
+      ]
+    },
+    {
+      "id": "threads-tarde",
+      "hora": "15:00",
+      "rede": "Threads",
+      "titulo": "Notícia do dia num post só",
+      "oQue": "A edição 29 contada num post só, sem fio: nos fios, quase ninguém passava do primeiro post.",
+      "textos": [
+        {
+          "rotulo": "Post",
+          "texto": "O Countdown Kit da Marvel não esgotou na primeira noite. Na madrugada desta terça, a página do Secret Lair ainda mostrava o kit em pré-venda, a US$ 199,99 (R$ 1.084,19), com limite de 2 por pessoa e envio a partir de 4 de novembro. A Wizards não diz quantos foram feitos. Você pegou o seu? fontedemana.com.br\nValores em reais pela cotação de 30 out (Banco Central, PTAX)."
+        }
+      ],
+      "passos": [
+        "No Threads, cole o Post, sem sequência.",
+        "Toque em Adicionar tópico e escolha MTG.",
+        "Publique e responda quem comentar na primeira hora."
+      ]
+    },
+    {
+      "id": "stories-tarde",
+      "hora": "15:00",
+      "rede": "Instagram Stories",
+      "titulo": "Topdeck do Dia com link",
+      "oQue": "Story com a imagem de Mystic Remora no Topdeck do Dia e o sticker de link para a edição completa.",
+      "arquivos": [
+        {
+          "nome": "Topdeck do Dia",
+          "url": "https://fontedemana.com.br/kit/ed29/carrossel-03.jpg"
+        }
+      ],
+      "passos": [
+        "Baixe a imagem e poste no Story.",
+        "Adicione o sticker de Link para fontedemana.com.br com o texto Edição completa, embaixo do texto do Topdeck.",
+        "Publique."
+      ]
+    },
+    {
+      "id": "reels",
+      "hora": "19:00",
+      "rede": "Reels",
+      "titulo": "Vídeo original: Dicionário do Commander #4: o que é a pilha (stack)",
+      "oQue": "O vídeo original de hoje no Instagram, o mesmo arquivo do TikTok, já narrado. É o formato que mais chega a quem não segue.",
+      "arquivos": [
+        {
+          "nome": "Vídeo original narrado",
+          "url": "https://fontedemana.com.br/pauta/2026-11-03/tiktok/tiktok-narrado.mp4"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Commander: o que é a pilha (stack) no Magic? Você sabe o que acontece quando alguém fala \"em resposta\"?\n\nDicionário do Commander #4. A pilha é a fila das mágicas e habilidades: a última que entra é a primeira que resolve. Por isso uma Ephemerate em resposta salva o seu comandante de uma Beast Within.\n\nQue termo da mesa te confundiu no começo?\n\nRegra: Regras Abrangentes, 405. Decks: EDHREC.\nMais em fontedemana.com.br\n\n#commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        },
+        {
+          "rotulo": "Comentário fixado",
+          "texto": "Que termo da mesa te confundiu no começo? Pilha, prioridade, em resposta ou outro?"
+        }
+      ],
+      "passos": [
+        "No Instagram, toque em + e escolha Reel.",
+        "Escolha o vídeo baixado daqui, nunca o salvo do TikTok (o Instagram derruba vídeo com marca d'água).",
+        "Em Áudio, ponha uma música em alta da biblioteca do Instagram com volume baixo (uns 10%), sem cobrir a voz.",
+        "Na capa, use o primeiro quadro, o do gancho.",
+        "Cole a Legenda e publique.",
+        "Fixe o comentário e responda quem comentar na primeira hora."
+      ]
+    },
+    {
+      "id": "comentarios",
+      "hora": "21:30",
+      "rede": "Comentários",
+      "titulo": "Responder os comentários de hoje e de ontem",
+      "oQue": "Uns 10 minutos nas três redes: curtir e responder os comentários das últimas 48 horas, começando pelo vídeo e pelo carrossel de hoje. Conversa nos comentários leva a peça a mais gente, e o Instagram recomenda responder em até 2 dias.",
+      "passos": [
+        "Instagram: nas notificações, curta os comentários e responda com uma frase quem perguntou ou discordou.",
+        "TikTok e Threads: o mesmo, começando pelo post com mais comentários.",
+        "Pergunta boa ou dúvida que se repete, nos comentários ou nas DMs? Mande na conversa do projeto: vira tema de um pilar."
+      ]
     }
-   ],
-   "roteiro": [
-    {
-     "cena": "Cena 1, rosto, uns 3 s",
-     "tela": "Em resposta, na pilha! Você sabe o que é a pilha?",
-     "fala": "Em resposta, na pilha! Você sabe o que é isso?",
-     "como": "Rosto: Olhando para a câmera, levanta a mão como quem pede para esperar, segurando uma carta virada para você."
-    },
-    {
-     "cena": "Cena 2, só a voz, uns 5 s",
-     "tela": "Pilha é a fila das mágicas. A última que entra resolve primeiro",
-     "fala": "Pilha, ou stack, é a fila das mágicas. A última que entra resolve primeiro.",
-     "como": "Só a voz: pode gravar em vídeo ou áudio"
-    },
-    {
-     "cena": "Cena 3, só a voz, uns 5 s",
-     "tela": "O oponente joga: Beast Within, Mira no seu comandante e vai para a pilha",
-     "fala": "O oponente joga Beast Within no seu comandante. Ela vai para a pilha.",
-     "como": "Só a voz: pode gravar em vídeo ou áudio"
-    },
-    {
-     "cena": "Cena 4, só a voz, uns 5 s",
-     "tela": "Você responde: Ephemerate, Em 297 mil decks no EDHREC",
-     "fala": "Você responde com Ephemerate. Ela resolve antes: o comandante sai e volta.",
-     "como": "Só a voz: pode gravar em vídeo ou áudio"
-    },
-    {
-     "cena": "Cena 5, só a voz, uns 4 s",
-     "tela": "E não faz nada. O alvo virou outro objeto. Nem a Fera 3/3 vem.",
-     "fala": "Aí a Beast Within resolve. O alvo sumiu, ela não faz nada.",
-     "como": "Só a voz: pode gravar em vídeo ou áudio"
-    },
-    {
-     "cena": "Cena 6, rosto, uns 4 s",
-     "tela": "Terreno e mana fora da pilha. Ninguém pode responder isso",
-     "fala": "Terreno e mana não usam a pilha. Ninguém responde isso.",
-     "como": "Rosto: Mesmo enquadramento da cena 1: segura um terreno ao lado do rosto, vira a carta de lado no ar (virar para gerar mana) e balança a cabeça."
-    }
-   ],
-   "passos": [
-    "Celular na vertical, câmera da frente, na altura dos olhos, a um braço de distância.",
-    "Rosto no meio da tela e o terço de cima livre: é onde entra o título.",
-    "Luz de frente (de frente para a janela) e fundo arrumado; a estante de cartas é ótima.",
-    "Desligue o Vídeo HDR (Ajustes, Câmera, Gravar Vídeo) para as cores não lavarem.",
-    "Um vídeo por cena, falando para a câmera, com meio segundo de silêncio antes e depois; nomeie cena_1, cena_2... e mande todos juntos.",
-    "Nas cenas sem rosto, só a voz conta: pode gravar em vídeo ou só o áudio.",
-    "Mande os vídeos ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"vídeos do TikTok de 2026-11-03\"."
-   ]
-  },
-  {
-   "id": "tiktok",
-   "hora": "11:30",
-   "rede": "TikTok",
-   "titulo": "Dicionário do Commander #4, a pilha",
-   "oQue": "O termo pilha (stack) explicado com um exemplo de mesa: Beast Within no seu comandante e Ephemerate em resposta. Fecha com o erro mais comum, terreno e mana fora da pilha.",
-   "arquivos": [
-    {
-     "nome": "Vídeo do TikTok narrado",
-     "url": "https://fontedemana.com.br/pauta/2026-11-03/tiktok/tiktok-narrado.mp4"
-    }
-   ],
-   "textos": [
-    {
-     "rotulo": "Legenda",
-     "texto": "Commander: o que é a pilha (stack) no Magic? Você sabe o que acontece quando alguém fala \"em resposta\"?\n\nDicionário do Commander #4. A pilha é a fila das mágicas e habilidades: a última que entra é a primeira que resolve. Por isso uma Ephemerate em resposta salva o seu comandante de uma Beast Within.\n\nQue termo da mesa te confundiu no começo?\n\nRegra: Regras Abrangentes, 405. Decks: EDHREC.\nMais em fontedemana.com.br\n\n#stack #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
-    },
-    {
-     "rotulo": "Comentário fixado",
-     "texto": "Que termo da mesa te confundiu no começo? Pilha, prioridade, em resposta ou outro?"
-    }
-   ],
-   "passos": [
-    "Poste com um som em alta da biblioteca do TikTok, com volume entre 15% e 20%.",
-    "Voz própria não precisa de rótulo de IA.",
-    "Fixe o comentário logo depois de postar."
-   ]
-  }
- ]
+  ]
 }
