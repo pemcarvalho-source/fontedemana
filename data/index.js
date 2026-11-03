@@ -1,6 +1,7 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "Mystic Remora",
   "Sheoldred, Whispering One",
   "Karmic Guide",
   "Olivia Voldaren",
@@ -27,6 +28,13 @@ window.MANA_POOL_INDEX = {
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 29,
+   "date": "2026-11-03",
+   "dateLabel": "Terça, 3 de novembro de 2026",
+   "head": "Countdown Kit da Marvel segue à venda, com limite de 2 por pessoa",
+   "biome": "A"
+  },
   {
    "n": 28,
    "date": "2026-11-02",
