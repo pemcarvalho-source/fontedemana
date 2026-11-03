@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-10-31-gravacao@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261030T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -62,7 +62,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-tiktok@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261031T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Radar DC500\, a Ashling no torneio
@@ -99,7 +99,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-threads-manha@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261031T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Você vende a sua agora\, guarda pa
@@ -121,7 +121,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-stories-manha@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261031T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -141,7 +141,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-feed@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261031T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 26
@@ -181,7 +181,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261031T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -200,7 +200,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-threads-tarde@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261031T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -225,7 +225,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-stories-tarde@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261031T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -245,7 +245,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-reels@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261031T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Ashling no DC500: perdeu 5 de 7 nos t
@@ -285,7 +285,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-10-31-comentarios@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261101T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -307,7 +307,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-gravacao@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261031T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -361,7 +361,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-tiktok@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261101T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o Debate da semana #1: cemitério hate
@@ -393,7 +393,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-threads-manha@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261101T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Debate da semana #1: todo deck de Commander 
@@ -420,7 +420,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-stories-manha@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261101T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -440,7 +440,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-feed@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261101T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Debate da semana #1: todo deck de Commander p
@@ -481,7 +481,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261101T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -500,7 +500,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-threads-tarde@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261101T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -522,7 +522,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-stories-tarde@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261101T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -542,7 +542,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-reels@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261101T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Debate da semana #1: todo deck de Com
@@ -580,7 +580,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-comentarios@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261102T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -602,7 +602,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-gravacao@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261101T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã (com dub
@@ -650,7 +650,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-tiktok@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261102T210000Z
 DURATION:PT15M
 SUMMARY:18:00 TikTok: Treta das Cores #1\, comandante morreu
@@ -683,7 +683,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-threads-manha@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261102T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Treta das Cores #1: comandante morreu. Cemit
@@ -709,7 +709,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-stories-manha@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261102T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -729,7 +729,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-feed@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261102T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Treta das Cores #1: comandante morreu. Cemit
@@ -771,7 +771,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261102T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -790,7 +790,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-threads-tarde@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261102T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -815,7 +815,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-stories-tarde@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261102T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -835,7 +835,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-reels@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261102T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Treta das Cores #1: comandante morreu
@@ -872,7 +872,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-comentarios@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261103T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -894,7 +894,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-gravacao@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261102T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -944,7 +944,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-tiktok@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261103T210000Z
 DURATION:PT15M
 SUMMARY:18:00 TikTok: Dicionário do Commander #4\, a pilha
@@ -976,7 +976,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-threads-manha@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261103T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Dicionário do Commander #4: o que é a pilh
@@ -1001,7 +1001,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-stories-manha@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261103T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -1021,7 +1021,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-feed@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261103T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Dicionário do Commander #4: o que é a pilha
@@ -1060,7 +1060,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261103T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -1079,7 +1079,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-threads-tarde@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261103T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -1104,7 +1104,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-stories-tarde@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261103T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1124,7 +1124,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-reels@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261103T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Dicionário do Commander #4: o que é
@@ -1160,7 +1160,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-comentarios@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261104T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1182,7 +1182,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-gravacao@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261103T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -1228,32 +1228,30 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-tiktok@fontedemana.com.br
-DTSTAMP:20261103T231747Z
+DTSTAMP:20261103T234736Z
 DTSTART:20261104T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Matemática da Mesa #1\, quantos terrenos
 DESCRIPTION:A chance de abrir com 3 terrenos com 36\, 37 ou 38 no deck: qua
  se igual. O que muda é o desastre: a mão travada cai e a afogada sobe. F
- echa com a conta prática pela curva do deck.\n\nArquivos:\n- Vídeo mudo 
- do TikTok: https://fontedemana.com.br/pauta/2026-11-04/tiktok/tiktok-mudo.
- mp4\n\nLegenda:\nCommander: quantos terrenos pôr no deck? 36\, 37 ou 38 m
- uda a sua mão inicial?\n\nMatemática da Mesa #1. Num deck de 99 cartas\,
-  a chance de a mão de 7 vir com exatamente 3 terrenos é 28\,6% com 36\, 
- 29\,1% com 37 e 29\,6% com 38. O que muda é o desastre: de cada 100 mãos
- \, 20 travam com 0 ou 1 terreno com 36\, e 17 com 38. A mão afogada\, com
-  5 ou mais\, vai de 5\,8% para 7\,4%. Conta sem mulligan.\n\nQuantos terre
- nos tem o seu deck: 36\, 37\, 38 ou outro?\n\nConta: distribuição hiperg
- eométrica\, deck de 99.\nMais em fontedemana.com.br\n\n#terrenos #command
- er #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan
-  Content Policy. Not approved/endorsed by Wizards. Portions of the materia
- ls used are property of Wizards of the Coast. ©Wizards of the Coast LLC.\
- n\nComentário fixado:\nQuantos terrenos tem o seu deck de Commander? 36\,
-  37\, 38 ou outro número?\n\nPasso a passo:\n1. Poste com um som em alta 
- da biblioteca do TikTok\, com volume entre 15% e 20%.\n2. Voz própria nã
- o precisa de rótulo de IA.\n3. Fixe o comentário logo depois de postar.\
- n4. Se os áudios não chegaram\, poste o vídeo mudo com uma música em a
- lta.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-04/#tikto
- k
+ echa com a conta prática pela curva do deck.\n\nArquivos:\n- Vídeo narra
+ do: https://fontedemana.com.br/pauta/2026-11-04/tiktok/tiktok-narrado.mp4\
+ n\nLegenda:\nCommander: quantos terrenos pôr no deck? 36\, 37 ou 38 muda 
+ a sua mão inicial?\n\nMatemática da Mesa #1. Num deck de 99 cartas\, a c
+ hance de a mão de 7 vir com exatamente 3 terrenos é 28\,6% com 36\, 29\,
+ 1% com 37 e 29\,6% com 38. O que muda é o desastre: de cada 100 mãos\, 2
+ 0 travam com 0 ou 1 terreno com 36\, e 17 com 38. A mão afogada\, com 5 o
+ u mais\, vai de 5\,8% para 7\,4%. Conta sem mulligan.\n\nQuantos terrenos 
+ tem o seu deck: 36\, 37\, 38 ou outro?\n\nConta: distribuição hipergeom
+ étrica\, deck de 99.\nMais em fontedemana.com.br\n\n#terrenos #commander 
+ #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Co
+ ntent Policy. Not approved/endorsed by Wizards. Portions of the materials 
+ used are property of Wizards of the Coast. ©Wizards of the Coast LLC.\n\n
+ Comentário fixado:\nQuantos terrenos tem o seu deck de Commander? 36\, 37
+ \, 38 ou outro número?\n\nPasso a passo:\n1. Poste com um som em alta da 
+ biblioteca do TikTok\, com volume entre 15% e 20%.\n2. Voz própria não p
+ recisa de rótulo de IA.\n3. Fixe o comentário logo depois de postar.\n\n
+ Pauta completa: https://fontedemana.com.br/pauta/2026-11-04/#tiktok
 URL:https://fontedemana.com.br/pauta/2026-11-04/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
