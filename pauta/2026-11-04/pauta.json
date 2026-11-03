@@ -8,7 +8,7 @@
    "hora": "19:15",
    "rede": "Gravação",
    "titulo": "Gravar a narração do TikTok de amanhã",
-   "oQue": "Matemática da Mesa #1: 36, 37 ou 38 terrenos e a chance de abrir com 3. Seis cenas só com a sua voz, mais o gancho do Reel de teste no fim.",
+   "oQue": "Matemática da Mesa #1: 36, 37 ou 38 terrenos e a chance de abrir com 3. Sete cenas só com a sua voz, mais o gancho do Reel de teste no fim.",
    "arquivos": [
     {
      "nome": "Vídeo mudo do TikTok",
@@ -22,31 +22,36 @@
    "roteiro": [
     {
      "cena": "Cena 1, uns 6 s",
-     "tela": "36, 37 ou 38 terrenos? A chance de abrir com 3 muda só 1 ponto. Mão de 7, deck de 99, sem mulligan",
+     "tela": "36, 37 ou 38 terrenos? A chance de abrir com 3 muda só 1 ponto. O que muda é o desastre",
      "fala": "36, 37 ou 38 terrenos? A chance de abrir com 3 muda só um ponto."
     },
     {
      "cena": "Cena 2, uns 4 s",
-     "tela": "Mão de 7 com 3 terrenos. Com 36 terrenos 28,6%. Com 37 terrenos 29,1%. Com 38 terrenos 29,6%. Conta sem mulligan, deck de 99",
-     "fala": "28,6, 29,1 e 29,6 por cento. Quase igual."
+     "tela": "Mão de 7 com 3 terrenos. 29%. Com 36, 37 ou 38 terrenos: quase igual",
+     "fala": "Com 36, 37 ou 38, dá uns 29%. Quase igual."
     },
     {
-     "cena": "Cena 3, uns 4 s",
-     "tela": "Então tanto faz? Não. Muda nas pontas. Na mão travada e na mão afogada de terreno",
-     "fala": "Tanto faz? Não. Muda a mão travada e a afogada."
+     "cena": "Cena 3, uns 3 s",
+     "tela": "Então tanto faz? Não. Muda o desastre. A mão travada e a mão afogada",
+     "fala": "Tanto faz? Não. Muda o desastre."
     },
     {
-     "cena": "Cena 4, uns 6 s",
-     "tela": "Mão de 7, de 36 para 38. 2 ou mais, com 36 79,9%. 2 ou mais, com 38 82,9%. 5 ou mais terrenos: 5,8% com 36 e 7,4% com 38",
-     "fala": "Com 38, a mão com 2 terrenos ou mais sobe 3 pontos. A afogada também."
+     "cena": "Cena 4, uns 5 s",
+     "tela": "0 ou 1 terreno na mão de 7. Com 36 terrenos 20,1%. Com 38 terrenos 17,1%. 38 terrenos salvam 3 mãos em cada 100",
+     "fala": "De cada 100 mãos, 20 travam com 36. Com 38, só 17."
     },
     {
-     "cena": "Cena 5, uns 4 s",
+     "cena": "Cena 5, uns 6 s",
+     "tela": "5 ou mais terrenos na mão de 7. Com 36 terrenos 5,8%. Com 38 terrenos 7,4%. E cada terreno a mais é uma mágica a menos",
+     "fala": "Mas a afogada sobe um pouco. E cada terreno é uma mágica a menos."
+    },
+    {
+     "cena": "Cena 6, uns 4 s",
      "tela": "A conta prática. Curva baixa, 36. Comandante caro, 38. Na dúvida, 37 e ajuste depois de jogar",
      "fala": "Curva baixa aguenta 36. Comandante caro pede 38."
     },
     {
-     "cena": "Cena 6, uns 3 s",
+     "cena": "Cena 7, uns 3 s",
      "tela": "36, 37, 38 ou outro? Quantos terrenos tem o seu deck?",
      "fala": "E o seu deck, joga com quantos?"
     },
@@ -58,8 +63,8 @@
    ],
    "passos": [
     "Grave um áudio por cena no Gravador do iPhone, num lugar silencioso, com o celular a um palmo da boca.",
-    "Leia os números devagar: vinte e oito vírgula seis, vinte e nove vírgula um, vinte e nove vírgula seis.",
-    "Nomeie cena_1, cena_2... até cena_6.",
+    "Leia os números devagar: vinte e nove por cento, vinte, dezessete.",
+    "Nomeie cena_1, cena_2... até cena_7.",
     "Grave por último o gancho do Reel de teste e nomeie cena_1b; mande junto com os outros.",
     "Mande os áudios ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"áudios do TikTok de 2026-11-04\"."
    ]
@@ -69,7 +74,7 @@
    "hora": "11:30",
    "rede": "TikTok",
    "titulo": "Matemática da Mesa #1, quantos terrenos",
-   "oQue": "A chance de abrir com 3 terrenos com 36, 37 ou 38 no deck: quase igual. O que muda é a mão travada e a mão afogada. Fecha com a conta prática pela curva do deck.",
+   "oQue": "A chance de abrir com 3 terrenos com 36, 37 ou 38 no deck: quase igual. O que muda é o desastre: a mão travada cai e a afogada sobe. Fecha com a conta prática pela curva do deck.",
    "arquivos": [
     {
      "nome": "Vídeo mudo do TikTok",
@@ -79,7 +84,7 @@
    "textos": [
     {
      "rotulo": "Legenda",
-     "texto": "Commander: quantos terrenos pôr no deck? 36, 37 ou 38 muda a sua mão inicial?\n\nMatemática da Mesa #1. Num deck de 99 cartas, a chance de a mão de 7 vir com exatamente 3 terrenos é 28,6% com 36, 29,1% com 37 e 29,6% com 38. A diferença aparece nas pontas: mão com 2 ou mais terrenos vai de 79,9% para 82,9%, e mão com 5 ou mais vai de 5,8% para 7,4%. Conta sem mulligan.\n\nQuantos terrenos tem o seu deck: 36, 37, 38 ou outro?\n\nConta: distribuição hipergeométrica, deck de 99.\nMais em fontedemana.com.br\n\n#terrenos #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+     "texto": "Commander: quantos terrenos pôr no deck? 36, 37 ou 38 muda a sua mão inicial?\n\nMatemática da Mesa #1. Num deck de 99 cartas, a chance de a mão de 7 vir com exatamente 3 terrenos é 28,6% com 36, 29,1% com 37 e 29,6% com 38. O que muda é o desastre: de cada 100 mãos, 20 travam com 0 ou 1 terreno com 36, e 17 com 38. A mão afogada, com 5 ou mais, vai de 5,8% para 7,4%. Conta sem mulligan.\n\nQuantos terrenos tem o seu deck: 36, 37, 38 ou outro?\n\nConta: distribuição hipergeométrica, deck de 99.\nMais em fontedemana.com.br\n\n#terrenos #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
     },
     {
      "rotulo": "Comentário fixado",

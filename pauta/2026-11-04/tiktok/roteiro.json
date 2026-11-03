@@ -7,7 +7,7 @@
  "carta": "pauta/2026-11-04/tiktok/carta.jpg",
  "credito": "Arte: Command Tower, Ryan Yee",
  "fx": null,
- "legenda": "Commander: quantos terrenos pôr no deck? 36, 37 ou 38 muda a sua mão inicial?\n\nMatemática da Mesa #1. Num deck de 99 cartas, a chance de a mão de 7 vir com exatamente 3 terrenos é 28,6% com 36, 29,1% com 37 e 29,6% com 38. A diferença aparece nas pontas: mão com 2 ou mais terrenos vai de 79,9% para 82,9%, e mão com 5 ou mais vai de 5,8% para 7,4%. Conta sem mulligan.\n\nQuantos terrenos tem o seu deck: 36, 37, 38 ou outro?\n\nConta: distribuição hipergeométrica, deck de 99.\nMais em fontedemana.com.br\n\n#terrenos #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
+ "legenda": "Commander: quantos terrenos pôr no deck? 36, 37 ou 38 muda a sua mão inicial?\n\nMatemática da Mesa #1. Num deck de 99 cartas, a chance de a mão de 7 vir com exatamente 3 terrenos é 28,6% com 36, 29,1% com 37 e 29,6% com 38. O que muda é o desastre: de cada 100 mãos, 20 travam com 0 ou 1 terreno com 36, e 17 com 38. A mão afogada, com 5 ou mais, vai de 5,8% para 7,4%. Conta sem mulligan.\n\nQuantos terrenos tem o seu deck: 36, 37, 38 ou outro?\n\nConta: distribuição hipergeométrica, deck de 99.\nMais em fontedemana.com.br\n\n#terrenos #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
  "comentario": "Quantos terrenos tem o seu deck de Commander? 36, 37, 38 ou outro número?",
  "cenas": [
   {
@@ -16,62 +16,67 @@
    "chip": "Matemática #1",
    "kicker": "36, 37 ou 38 terrenos?",
    "titulo": "A chance de abrir com 3 muda só 1 ponto",
-   "sub": "Mão de 7, deck de 99, sem mulligan",
+   "sub": "O que muda é o desastre",
    "narracao": "36, 37 ou 38 terrenos? A chance de abrir com 3 muda só um ponto.",
    "segundos": 6.2
   },
   {
-   "tipo": "lista",
+   "tipo": "texto",
    "cor": "U",
-   "chip": "Exatamente 3",
    "kicker": "Mão de 7 com 3 terrenos",
-   "linhas": [
-    {
-     "nome": "Com 36 terrenos",
-     "valor": "28,6%"
-    },
-    {
-     "nome": "Com 37 terrenos",
-     "valor": "29,1%"
-    },
-    {
-     "nome": "Com 38 terrenos",
-     "valor": "29,6%"
-    }
-   ],
-   "rodape": "Conta sem mulligan, deck de 99",
-   "fonte": "Conta hipergeométrica",
-   "narracao": "28,6, 29,1 e 29,6 por cento. Quase igual.",
-   "segundos": 3.6
+   "titulo": "29%",
+   "sub": "Com 36, 37 ou 38 terrenos: quase igual",
+   "narracao": "Com 36, 37 ou 38, dá uns 29%. Quase igual.",
+   "segundos": 4.3
   },
   {
    "tipo": "texto",
    "cor": "U",
    "kicker": "Então tanto faz?",
-   "titulo": "Não. Muda nas pontas",
-   "sub": "Na mão travada e na mão afogada de terreno",
-   "narracao": "Tanto faz? Não. Muda a mão travada e a afogada.",
-   "segundos": 4.3
+   "titulo": "Não. Muda o desastre",
+   "sub": "A mão travada e a mão afogada",
+   "narracao": "Tanto faz? Não. Muda o desastre.",
+   "segundos": 2.8
   },
   {
    "tipo": "lista",
    "cor": "U",
-   "chip": "As pontas",
-   "kicker": "Mão de 7, de 36 para 38",
+   "chip": "Mão travada",
+   "kicker": "0 ou 1 terreno na mão de 7",
    "linhas": [
     {
-     "nome": "2 ou mais, com 36",
-     "valor": "79,9%"
+     "nome": "Com 36 terrenos",
+     "valor": "20,1%"
     },
     {
-     "nome": "2 ou mais, com 38",
-     "valor": "82,9%"
+     "nome": "Com 38 terrenos",
+     "valor": "17,1%"
     }
    ],
-   "rodape": "5 ou mais terrenos: 5,8% com 36 e 7,4% com 38",
-   "fonte": "Conta hipergeométrica",
-   "narracao": "Com 38, a mão com 2 terrenos ou mais sobe 3 pontos. A afogada também.",
-   "segundos": 6.2
+   "rodape": "38 terrenos salvam 3 mãos em cada 100",
+   "fonte": "Conta hipergeométrica, sem mulligan",
+   "narracao": "De cada 100 mãos, 20 travam com 36. Com 38, só 17.",
+   "segundos": 5
+  },
+  {
+   "tipo": "lista",
+   "cor": "R",
+   "chip": "Mão afogada",
+   "kicker": "5 ou mais terrenos na mão de 7",
+   "linhas": [
+    {
+     "nome": "Com 36 terrenos",
+     "valor": "5,8%"
+    },
+    {
+     "nome": "Com 38 terrenos",
+     "valor": "7,4%"
+    }
+   ],
+   "rodape": "E cada terreno a mais é uma mágica a menos",
+   "fonte": "Conta hipergeométrica, sem mulligan",
+   "narracao": "Mas a afogada sobe um pouco. E cada terreno é uma mágica a menos.",
+   "segundos": 5.8
   },
   {
    "tipo": "texto",

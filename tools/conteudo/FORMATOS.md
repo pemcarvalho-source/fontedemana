@@ -114,6 +114,17 @@ Deck de Commander: 99 cartas no grimório (o comandante fica na zona de comando)
 - **TikTok**: gancho com o número; cena `lista` com as situações e as porcentagens (nome = situação, valor = "31,2%"); cena texto com a conclusão; CTA.
 - **Threads**: "chuta antes de abrir: qual a chance de ...?" e a resposta em `obs`.
 
+**Como mostrar os números** (desde 3 nov 2026, a partir de *Storytelling com Dados*, de Cole Knaflic, aprovado pelo Paulo). A referência muda a mensagem e o foco, nunca a identidade: cores de mana, fontes, moldura e arte de carta seguem iguais.
+
+- **A grande ideia primeiro.** Antes de escrever, uma frase-tese de até 15 palavras (ex.: "O número de terrenos não muda a mão média, muda o desastre."). Capa, gancho e conclusão saem dela.
+- **Título de ação.** O título de cada tela é a conclusão que a pessoa deve tirar ("38 terrenos salvam 3 mãos em cada 100"), nunca o nome do gráfico ("Mão com 2 ou mais terrenos").
+- **A forma pelo número de dados.** Um ou dois números: texto grande, sem gráfico (capa, gancho, cena `texto` do TikTok). Comparar duas situações: duas barras, uma cinza e a da resposta em destaque. Três ou quatro: barras, com o destaque na que responde à pergunta. Nada de número que não tem papel na história (ex.: um 33 que ninguém pediu).
+- **A métrica da decisão.** Mostre o lado que o jogador sente: o risco (mão travada, mão afogada, não achar a peça) em vez do complemento abstrato ("82,9% de ter 2 ou mais"). Todo valor continua saindo do `chance.cjs`.
+- **Frequência quando o número fecha redondo.** "De cada 100 mãos, 20 travam" na fala e no título; a porcentagem exata fica na barra ou na fonte.
+- **Diferença pequena também é história.** Se a conclusão é "quase igual", as barras iguais mostram isso de propósito e o título diz. Se a conclusão é "muda", a tela mostra a métrica onde a mudança aparece.
+- **Destaque na resposta.** A barra em `destaque` é a que a tela defende no título, não a do meio por padrão.
+- **Arco do carrossel:** capa (pergunta e número), o problema, o dado que vira a história, o custo, a conclusão como ação. Uma ideia por tela.
+
 ### Treta das Cores (pilar `treta`)
 
 Esquete sem rosto. Dois personagens, cada um uma cor, discutem uma jogada; a regra de verdade resolve.
