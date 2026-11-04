@@ -1,0 +1,167 @@
+{
+ "n": 30,
+ "data": "4 nov",
+ "carrossel": {
+  "capa": {
+   "cor": "A",
+   "titulo": "Secret Lair do Extra Life em estilo PS1",
+   "sub": "Balefire Dragon, Young Pyromancer, Big Score e Sword of Truth and Justice por <b>US$ 39,99</b> (R$ 219,66), de <b>16 a 30 de novembro</b>.",
+   "credito": "Arte: Balefire Dragon, Brendan Sullivan"
+  },
+  "cartoes": [
+   {
+    "cor": "A",
+    "titulo": "Rise of the Polygons",
+    "itens": [
+     {
+      "cor": "M",
+      "html": "Balefire Dragon, Big Score, Young Pyromancer e Sword of Truth and Justice."
+     },
+     {
+      "cor": "A",
+      "html": "<b>US$ 39,99</b> (R$ 219,66) sem foil e <b>US$ 49,99</b> (R$ 274,59) em foil."
+     },
+     {
+      "cor": "W",
+      "html": "À venda de <b>16 a 30 de novembro</b> no site do Secret Lair."
+     },
+     {
+      "cor": "G",
+      "html": "<b>50% do preço</b> vai para o Seattle Children's Hospital."
+     }
+    ],
+    "nota": {
+     "rotulo": "Na sua mesa",
+     "texto": "as quatro cartas jogam em Commander, da espada incolor ao dragão vermelho."
+    },
+    "fonte": "Fontes: Wizards e MTG Salvation. Reais: PTAX de 3 nov"
+   }
+  ],
+  "topdeck": {
+   "titulo": "Sword of Truth and Justice",
+   "habilidades": [
+    {
+     "rotulo": "Bônus e proteção",
+     "texto": "+2/+2 e proteção contra branco e azul."
+    },
+    {
+     "rotulo": "Marcador a cada golpe",
+     "texto": "Bateu num jogador, põe um +1/+1 em qualquer criatura sua."
+    },
+    {
+     "rotulo": "Proliferar",
+     "texto": "Depois, mais um marcador de cada tipo: +1/+1, veneno, lealdade."
+    }
+   ],
+   "extra": "Mítica incolor em <b>98 mil decks</b> no EDHREC e em 19% dos de Ekthi, Contaminator Priest. A original sai a US$ 27,86 (R$ 153,03). PTAX de 3 nov.",
+   "credito": "Ilustração de Chris Rahn"
+  },
+  "ban": {
+   "numero": "26",
+   "unidade": "DIAS",
+   "texto": "Próxima janela de banimentos em 30 de novembro. A de 12 de outubro passou sem mexer no Commander."
+  },
+  "turnos": [
+   {
+    "cor": "W",
+    "data": "até 5 nov",
+    "texto": "Commander Night em dupla nas lojas"
+   },
+   {
+    "cor": "G",
+    "data": "6 a 12 nov",
+    "texto": "Pré de Star Trek nas lojas"
+   },
+   {
+    "cor": "A",
+    "data": "9 nov",
+    "texto": "Venda dos Secret Lairs de Star Trek"
+   },
+   {
+    "cor": "G",
+    "data": "13 nov",
+    "texto": "Star Trek chega às lojas"
+   },
+   {
+    "cor": "A",
+    "data": "16 a 30 nov",
+    "texto": "Secret Lair do Extra Life à venda"
+   }
+  ],
+  "sussurro": null
+ },
+ "video": {
+  "cena1": {
+   "titulo": "Secret Lair do Extra Life em estilo PS1",
+   "pilulas": [
+    "Balefire Dragon e espada",
+    "Venda de 16 a 30 nov",
+    "Topdeck: a espada"
+   ]
+  },
+  "cena2": {
+   "rotulo": "No bolso",
+   "cor": "A",
+   "titulo": "Rise of the Polygons",
+   "linhas": [
+    {
+     "nome": "Preço sem foil",
+     "numero": 39,
+     "prefixo": "US$ ",
+     "sufixo": ",99",
+     "sub": "R$ 219,66, PTAX de 3 nov"
+    },
+    {
+     "nome": "Para o hospital",
+     "numero": 50,
+     "prefixo": "",
+     "sufixo": "%",
+     "sub": "do preço, menos taxas"
+    }
+   ],
+   "fonte": "Fontes: Wizards e MTG Salvation. Reais: PTAX de 3 nov"
+  },
+  "cena3": {
+   "linhas": [
+    "<b>Sword of Truth and Justice</b> dá +2/+2 e proteção.",
+    "Cada golpe põe um marcador e prolifera.",
+    "Está em 98 mil decks no EDHREC."
+   ]
+  },
+  "cena4": {
+   "texto": "Faltam 26 dias para a próxima janela de banimentos. Antes, o pré de Star Trek nas lojas de 6 a 12 de novembro.",
+   "sussurro": null
+  }
+ },
+ "textos": {
+  "legendaCarrossel": "Commander de Magic: o Secret Lair do Extra Life chega com cara de jogo de PS1.\n\nA Wizards anunciou ontem o Rise of the Polygons, da parceria anual com o Extra Life. São cinco reimpressões com arte de polígonos: Balefire Dragon, Big Score, Young Pyromancer, Sword of Truth and Justice e uma ficha de Elemental. Custa US$ 39,99 (R$ 219,66), ou US$ 49,99 (R$ 274,59) em foil, e fica à venda no site do Secret Lair de 16 a 30 de novembro. Metade do preço, menos taxas, vai para o Seattle Children's Hospital.\n\nNo Topdeck, Sword of Truth and Justice, a espada incolor que põe marcador e prolifera a cada golpe. Está em 98 mil decks no EDHREC e a original sai a US$ 27,86 (R$ 153,03).\n\nQual carta desse drop entraria no seu deck de Commander?\n\nEdição completa em fontedemana.com.br\n\nArtes: Balefire Dragon, de Brendan Sullivan. Sword of Truth and Justice, de Chris Rahn.\nValores em reais pela cotação de 3 nov (Banco Central, PTAX).\n\n#secretlair #commander #mtg",
+  "legendaVideo": "Commander de Magic: o Secret Lair do Extra Life traz Balefire Dragon e Sword of Truth and Justice em estilo PS1, de 16 a 30 de novembro. No Topdeck, a própria espada.\n\nQual carta desse drop entraria no seu deck de Commander?\n\nEdição completa em fontedemana.com.br\n\n#secretlair #commander #mtg",
+  "threadsPost": "Secret Lair novo com arte de jogo de PS1: o Rise of the Polygons, do Extra Life, traz Balefire Dragon, Young Pyromancer, Big Score e Sword of Truth and Justice por US$ 39,99 (R$ 219,66), ou US$ 49,99 (R$ 274,59) em foil. Venda de 16 a 30 de novembro, e metade do preço vai para um hospital infantil. Qual entra no seu deck? fontedemana.com.br\nValores em reais pela cotação de 3 nov (Banco Central, PTAX).",
+  "threadsFio": [
+   "A Wizards anunciou ontem o Secret Lair do Extra Life deste ano: Rise of the Polygons, com arte de jogo de videogame do começo dos anos 2000.",
+   "São Balefire Dragon, Big Score, Young Pyromancer, Sword of Truth and Justice e uma ficha de Elemental. Custa US$ 39,99 (R$ 219,66), ou US$ 49,99 (R$ 274,59) em foil.",
+   "A venda vai de 16 a 30 de novembro no site do Secret Lair, e antes disso sai em quantidade limitada na MagicCon: Atlanta. Metade do preço, menos taxas, vai para o Seattle Children's Hospital.",
+   "No Topdeck, Sword of Truth and Justice: +2/+2, proteção contra branco e azul e um marcador com proliferar a cada golpe. Está em 98 mil decks no EDHREC e a original sai a US$ 27,86 (R$ 153,03). Edição completa em fontedemana.com.br\nValores em reais pela cotação de 3 nov (Banco Central, PTAX)."
+  ],
+  "threadsAvulsos": [
+   {
+    "titulo": "Pergunta do dia",
+    "texto": "Secret Lair do Extra Life com Balefire Dragon, Young Pyromancer, Big Score e Sword of Truth and Justice em arte de PS1. Qual dessas entra no seu deck de Commander?",
+    "obs": "Opções: Balefire Dragon, Young Pyromancer, Big Score, Sword of Truth and Justice"
+   }
+  ]
+ },
+ "pauta": {
+  "forca": "forte",
+  "porque": "Secret Lair novo anunciado ontem, com preço e data, e quatro cartas que jogam em Commander.",
+  "storyPergunta": "Qual carta do Secret Lair do Extra Life entra no seu deck?",
+  "enquete": {
+   "pergunta": "Você compraria o Secret Lair do Extra Life?",
+   "opcoes": [
+    "Sim, pela causa",
+    "Só as cartas avulsas",
+    "Passo esse"
+   ]
+  }
+ }
+}
