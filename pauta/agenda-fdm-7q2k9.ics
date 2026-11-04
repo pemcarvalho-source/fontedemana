@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-11-01-gravacao@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261031T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -63,7 +63,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-tiktok@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261101T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o Debate da semana #1: cemitério hate
@@ -95,7 +95,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-threads-manha@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261101T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Debate da semana #1: todo deck de Commander 
@@ -122,7 +122,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-stories-manha@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261101T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -142,7 +142,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-feed@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261101T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Debate da semana #1: todo deck de Commander p
@@ -183,7 +183,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261101T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -202,7 +202,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-threads-tarde@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261101T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -224,7 +224,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-stories-tarde@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261101T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -244,7 +244,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-reels@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261101T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Debate da semana #1: todo deck de Com
@@ -282,7 +282,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-comentarios@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261102T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -304,7 +304,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-gravacao@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261101T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã (com dub
@@ -352,7 +352,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-tiktok@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261102T210000Z
 DURATION:PT15M
 SUMMARY:18:00 TikTok: Treta das Cores #1\, comandante morreu
@@ -385,7 +385,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-threads-manha@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261102T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Treta das Cores #1: comandante morreu. Cemit
@@ -411,7 +411,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-stories-manha@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261102T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -431,7 +431,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-feed@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261102T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Treta das Cores #1: comandante morreu. Cemit
@@ -473,7 +473,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261102T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -492,7 +492,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-threads-tarde@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261102T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -517,7 +517,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-stories-tarde@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261102T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -537,7 +537,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-reels@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261102T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Treta das Cores #1: comandante morreu
@@ -574,7 +574,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-comentarios@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261103T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -596,7 +596,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-gravacao@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261102T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -646,7 +646,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-tiktok@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261103T210000Z
 DURATION:PT15M
 SUMMARY:18:00 TikTok: Dicionário do Commander #4\, a pilha
@@ -678,7 +678,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-threads-manha@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261103T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Dicionário do Commander #4: o que é a pilh
@@ -703,7 +703,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-stories-manha@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261103T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -723,7 +723,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-feed@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261103T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Dicionário do Commander #4: o que é a pilha
@@ -762,7 +762,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261103T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -781,7 +781,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-threads-tarde@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261103T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -806,7 +806,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-stories-tarde@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261103T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -826,7 +826,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-reels@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261103T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Dicionário do Commander #4: o que é
@@ -862,7 +862,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-comentarios@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261104T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -884,7 +884,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-gravacao@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261103T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -930,7 +930,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-tiktok@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261104T210000Z
 DURATION:PT15M
 SUMMARY:18:00 TikTok: Matemática da Mesa #1\, quantos terrenos
@@ -963,7 +963,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-threads-manha@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261104T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Qual dessas entra no seu deck de Co
@@ -986,7 +986,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-stories-manha@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261104T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -1006,7 +1006,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-feed@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261104T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 30
@@ -1048,7 +1048,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261104T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -1067,7 +1067,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-threads-tarde@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261104T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -1092,7 +1092,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-stories-tarde@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261104T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1112,7 +1112,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-reels@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261104T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Matemática da Mesa #1: 36\, 37 ou 38
@@ -1150,7 +1150,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-reels-teste@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261104T214000Z
 DURATION:PT15M
 SUMMARY:18:40 Reels: Reel de teste: o vídeo de hoje com o gancho B
@@ -1190,7 +1190,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-comentarios@fontedemana.com.br
-DTSTAMP:20261104T102118Z
+DTSTAMP:20261104T212710Z
 DTSTART:20261105T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1207,6 +1207,81 @@ URL:https://fontedemana.com.br/pauta/2026-11-04/#comentarios
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Comentários: Responder os comentários de hoje e de ontem
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-05-gravacao@fontedemana.com.br
+DTSTAMP:20261104T212710Z
+DTSTART:20261104T221500Z
+DURATION:PT15M
+SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
+DESCRIPTION:Top 5 #4: os 5 dragões que não podem faltar em um deck de dra
+ gões no Commander. Seis cenas curtas\, uns 27 s de fala. Um áudio por ce
+ na\, lendo a fala de cada uma.\n\nArquivos:\n- Vídeo mudo: https://fonted
+ emana.com.br/pauta/2026-11-05/tiktok/tiktok-mudo.mp4\n\nRoteiro de gravaç
+ ão:\nCena 1\, uns 5 s\nNa tela: Top 5 #4\, Commander\, deck de dragões\,
+  5 dragões que não podem faltar\, O número 1 está em 328 mil decks no 
+ EDHREC\nFala: Cinco dragões que não podem faltar no seu deck. O primeiro
+  está em 328 mil.\n\nCena 2\, uns 4 s\nNa tela: #5\, 98 mil decks no EDHR
+ EC\, US$ 0\,50 (R$ 2\,75)\, Atacou\, ganhou seis manas\nFala: Cinco: Savag
+ e Ventmaw. Atacou\, ganha seis manas.\n\nCena 3\, uns 4 s\nNa tela: #4\, 1
+ 08 mil decks no EDHREC\, US$ 5\,03 (R$ 27\,63)\, Dragão atacou\, nasce ou
+ tro 6/6\nFala: Quatro: Utvara Hellkite. Dragão atacou\, nasce outro 6/6.\
+ n\nCena 4\, uns 4 s\nNa tela: #3\, 112 mil decks no EDHREC\, US$ 43\,82 (R
+ $ 240\,70)\, Bateu\, rola um d20 e compra\nFala: Três: Ancient Silver Dra
+ gon. Bateu\, rola um d20 e compra.\n\nCena 5\, uns 4 s\nNa tela: #2\, 264 
+ mil decks no EDHREC\, US$ 30\,35 (R$ 166\,71)\, Criatura entrou\, vira dan
+ o\nFala: Dois: Terror of the Peaks. Criatura entrou\, vira dano.\n\nCena 6
+ \, uns 4 s\nNa tela: #1\, 328 mil decks no EDHREC\, US$ 11\,94 (R$ 65\,59)
+ \, Cada tesouro vale duas manas\nFala: E o um: Goldspan Dragon. Cada tesou
+ ro dele dá duas manas.\n\n\nPasso a passo:\n1. Abra o Gravador do iPhone 
+ num lugar silencioso\, com o celular a um palmo da boca.\n2. Grave um áud
+ io por cena\, lendo a fala do roteiro\, sem pressa e com energia.\n3. Nome
+ ie os áudios cena_1\, cena_2\, cena_3\, cena_4\, cena_5 e cena_6.\n4. Man
+ de os áudios ao Claude no projeto MGT strategy (pode ser respondendo à m
+ ensagem desta tarefa) dizendo "áudios do TikTok de 2026-11-05".\n\nValore
+ s em reais pela cotação de 3 nov (Banco Central\, PTAX).\n\nPauta comple
+ ta: https://fontedemana.com.br/pauta/2026-11-05/#gravacao
+URL:https://fontedemana.com.br/pauta/2026-11-05/#gravacao
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Gravação: Gravar a narração do TikTok de amanhã
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-05-tiktok@fontedemana.com.br
+DTSTAMP:20261104T212710Z
+DTSTART:20261105T143000Z
+DURATION:PT15M
+SUMMARY:11:30 TikTok: Postar o Top 5 dos dragões no TikTok
+DESCRIPTION:Top 5 #4: os 5 dragões que não podem faltar em um deck de dra
+ gões\, com decks no EDHREC e preço de cada um. O mesmo vídeo e a mesma 
+ legenda vão para o Reels das 19:00.\n\nArquivos:\n- Vídeo do TikTok (mud
+ o): https://fontedemana.com.br/pauta/2026-11-05/tiktok/tiktok-mudo.mp4\n\n
+ Legenda:\nCommander\, deck de dragões: qual dragão não sai do seu?\nTop
+  5 #4 da Fonte de Mana\, fora os lendários:\n5. Savage Ventmaw\, 98 mil d
+ ecks\n4. Utvara Hellkite\, 108 mil decks\n3. Ancient Silver Dragon\, 112 m
+ il decks\n2. Terror of the Peaks\, 264 mil decks\n1. Goldspan Dragon\, 328
+  mil decks\nDragões da página de Dragões do EDHREC\, em ordem de decks 
+ no site. Preços do Scryfall. Reais pela cotação de 3 nov (Banco Central
+ \, PTAX).\nFaltou algum? Qual seria o seu número 1?\nfontedemana.com.br\n
+ #dragoes #commander #mtg\n\nFonte de Mana is unofficial Fan Content permit
+ ted under the Fan Content Policy. Not approved/endorsed by Wizards. Portio
+ ns of the materials used are property of Wizards of the Coast. ©Wizards o
+ f the Coast LLC.\n\nComentário fixado:\nQual é o seu número 1: Goldspan
+  Dragon\, Terror of the Peaks\, Ancient Silver Dragon\, Utvara Hellkite ou
+  Savage Ventmaw? Ou faltou algum? Lista com preços em fontedemana.com.br\
+ n\nPasso a passo:\n1. Poste o vídeo com um som em alta da biblioteca do T
+ ikTok\, com volume entre 15% e 20%.\n2. Voz própria não precisa de rótu
+ lo de IA.\n3. Fixe o comentário logo depois de postar.\n4. Se os áudios 
+ não chegarem\, poste o vídeo mudo com música em alta.\n\nPauta completa
+ : https://fontedemana.com.br/pauta/2026-11-05/#tiktok
+URL:https://fontedemana.com.br/pauta/2026-11-05/#tiktok
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TikTok: Postar o Top 5 dos dragões no TikTok
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT

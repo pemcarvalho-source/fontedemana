@@ -1,0 +1,89 @@
+{
+ "data": "2026-11-05",
+ "pilar": "top5",
+ "tema": "Top 5 #4: os dragões que não podem faltar em um deck de dragões no Commander",
+ "item": "Dragões obrigatórios em um deck de dragões",
+ "arte": "pauta/2026-11-05/tiktok/arte.jpg",
+ "carta": "pauta/2026-11-05/tiktok/carta.jpg",
+ "credito": "Arte: Goldspan Dragon, Andrew Mar",
+ "fx": "Reais pela cotação de 3 nov (Banco Central, PTAX)",
+ "legenda": "Commander, deck de dragões: qual dragão não sai do seu?\nTop 5 #4 da Fonte de Mana, fora os lendários:\n5. Savage Ventmaw, 98 mil decks\n4. Utvara Hellkite, 108 mil decks\n3. Ancient Silver Dragon, 112 mil decks\n2. Terror of the Peaks, 264 mil decks\n1. Goldspan Dragon, 328 mil decks\nDragões da página de Dragões do EDHREC, em ordem de decks no site. Preços do Scryfall. Reais pela cotação de 3 nov (Banco Central, PTAX).\nFaltou algum? Qual seria o seu número 1?\nfontedemana.com.br\n#dragoes #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
+ "comentario": "Qual é o seu número 1: Goldspan Dragon, Terror of the Peaks, Ancient Silver Dragon, Utvara Hellkite ou Savage Ventmaw? Ou faltou algum? Lista com preços em fontedemana.com.br",
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "cor": "R",
+   "chip": "Top 5 #4",
+   "kicker": "Commander, deck de dragões",
+   "titulo": "5 dragões que não podem faltar",
+   "sub": "O número 1 está em 328 mil decks no EDHREC",
+   "narracao": "Cinco dragões que não podem faltar no seu deck. O primeiro está em 328 mil.",
+   "segundos": 6.2
+  },
+  {
+   "tipo": "carta",
+   "cor": "R",
+   "chip": "#5",
+   "kicker": "98 mil decks no EDHREC",
+   "carta": "pauta/2026-11-05/tiktok/carta-5.jpg",
+   "valor": "US$ 0,50",
+   "real": "(R$ 2,75)",
+   "sub": "Atacou, ganhou seis manas",
+   "fonte": "EDHREC e Scryfall, nov 2026",
+   "narracao": "Cinco: Savage Ventmaw. Atacou, ganha seis manas.",
+   "segundos": 3.2
+  },
+  {
+   "tipo": "carta",
+   "cor": "R",
+   "chip": "#4",
+   "kicker": "108 mil decks no EDHREC",
+   "carta": "pauta/2026-11-05/tiktok/carta-4.jpg",
+   "valor": "US$ 5,03",
+   "real": "(R$ 27,63)",
+   "sub": "Dragão atacou, nasce outro 6/6",
+   "fonte": "EDHREC e Scryfall, nov 2026",
+   "narracao": "Quatro: Utvara Hellkite. Dragão atacou, nasce outro 6/6.",
+   "segundos": 3.6
+  },
+  {
+   "tipo": "carta",
+   "cor": "U",
+   "chip": "#3",
+   "kicker": "112 mil decks no EDHREC",
+   "carta": "pauta/2026-11-05/tiktok/carta-3.jpg",
+   "valor": "US$ 43,82",
+   "real": "(R$ 240,70)",
+   "sub": "Bateu, rola um d20 e compra",
+   "fonte": "EDHREC e Scryfall, nov 2026",
+   "narracao": "Três: Ancient Silver Dragon. Bateu, rola um d20 e compra.",
+   "segundos": 4.3
+  },
+  {
+   "tipo": "carta",
+   "cor": "R",
+   "chip": "#2",
+   "kicker": "264 mil decks no EDHREC",
+   "carta": "pauta/2026-11-05/tiktok/carta-2.jpg",
+   "valor": "US$ 30,35",
+   "real": "(R$ 166,71)",
+   "sub": "Criatura entrou, vira dano",
+   "fonte": "EDHREC e Scryfall, nov 2026",
+   "narracao": "Dois: Terror of the Peaks. Criatura entrou, vira dano.",
+   "segundos": 3.9
+  },
+  {
+   "tipo": "carta",
+   "cor": "R",
+   "chip": "#1",
+   "kicker": "328 mil decks no EDHREC",
+   "carta": "pauta/2026-11-05/tiktok/carta-1.jpg",
+   "valor": "US$ 11,94",
+   "real": "(R$ 65,59)",
+   "sub": "Cada tesouro vale duas manas",
+   "fonte": "EDHREC e Scryfall, nov 2026",
+   "narracao": "E o um: Goldspan Dragon. Cada tesouro dele dá duas manas.",
+   "segundos": 4.7
+  }
+ ]
+}

@@ -1,0 +1,124 @@
+{
+  "data": "2026-11-05",
+  "pilar": "top5",
+  "item": "Dragões obrigatórios em um deck de dragões",
+  "tema": "Top 5 #4: os dragões que não podem faltar em um deck de dragões no Commander",
+  "cartas": [
+    "Goldspan Dragon",
+    "Terror of the Peaks",
+    "Ancient Silver Dragon",
+    "Utvara Hellkite",
+    "Savage Ventmaw"
+  ],
+  "fx": "Valores em reais pela cotação de 3 nov (Banco Central, PTAX).",
+  "carrossel": {
+    "capa": {
+      "cor": "R",
+      "chip": "Top 5 #4",
+      "kicker": "Commander, deck de dragões",
+      "titulo": "5 dragões que <b>não podem faltar</b>",
+      "sub": "Fora os lendários. O número 1 está em <b>328 mil decks</b> no EDHREC e custa menos de 12 dólares.",
+      "arte": "pauta/2026-11-05/tiktok/arte.jpg",
+      "credito": "Arte: Goldspan Dragon, Andrew Mar"
+    },
+    "cartoes": [
+      {
+        "cor": "R",
+        "titulo": "#5 Savage Ventmaw",
+        "carta": "pauta/2026-11-05/original/carta-5.jpg",
+        "itens": [
+          {
+            "cor": "R",
+            "html": "<b>98 mil decks.</b> Atacou, ganha seis manas que duram até o fim do turno: dá para baixar outro dragão no segundo main."
+          },
+          {
+            "cor": "R",
+            "html": "<b>US$ 0,50 (R$ 2,75).</b> O mais barato da lista. Mas ataque sozinho não faz exército..."
+          }
+        ],
+        "fonte": "Fonte: EDHREC e Scryfall, nov 2026"
+      },
+      {
+        "cor": "R",
+        "titulo": "#4 Utvara Hellkite",
+        "carta": "pauta/2026-11-05/original/carta-4.jpg",
+        "itens": [
+          {
+            "cor": "R",
+            "html": "<b>108 mil decks.</b> Cada dragão seu que ataca cria um dragão 6/6 voando. Inclusive as fichas que ele mesmo criou."
+          },
+          {
+            "cor": "R",
+            "html": "<b>US$ 5,03 (R$ 27,63).</b> Oito manas é caro. E se o dragão também comprasse cartas?"
+          }
+        ],
+        "fonte": "Fonte: EDHREC e Scryfall, nov 2026"
+      },
+      {
+        "cor": "U",
+        "titulo": "#3 Ancient Silver Dragon",
+        "carta": "pauta/2026-11-05/original/carta-3.jpg",
+        "itens": [
+          {
+            "cor": "U",
+            "html": "<b>112 mil decks.</b> Bateu num jogador, rola um d20 e compra essa quantidade de cartas, sem limite de mão."
+          },
+          {
+            "cor": "U",
+            "html": "<b>US$ 43,82 (R$ 240,70).</b> O mais caro do Top 5. Mas o 2º faz dano sem nem atacar."
+          }
+        ],
+        "fonte": "Fonte: EDHREC e Scryfall, nov 2026"
+      },
+      {
+        "cor": "R",
+        "titulo": "#2 Terror of the Peaks",
+        "carta": "pauta/2026-11-05/original/carta-2.jpg",
+        "itens": [
+          {
+            "cor": "R",
+            "html": "<b>264 mil decks.</b> Toda criatura que entra do seu lado causa dano igual à força dela. Um 6/6 entrou? 6 na cara."
+          },
+          {
+            "cor": "R",
+            "html": "<b>US$ 30,35 (R$ 166,71).</b> E mirar nele custa 3 de vida a mais para o oponente."
+          }
+        ],
+        "fonte": "Fonte: EDHREC e Scryfall, nov 2026"
+      },
+      {
+        "cor": "R",
+        "titulo": "#1 Goldspan Dragon",
+        "carta": "pauta/2026-11-05/original/carta-1.jpg",
+        "itens": [
+          {
+            "cor": "R",
+            "html": "<b>328 mil decks.</b> Tem ímpeto, ataca no turno em que entra e cria um tesouro. Cada tesouro seu vira duas manas."
+          },
+          {
+            "cor": "R",
+            "html": "<b>US$ 11,94 (R$ 65,59).</b> Atacou ao entrar? No turno seguinte, o tesouro soma duas manas às suas terras."
+          }
+        ],
+        "fonte": "Fonte: EDHREC e Scryfall, nov 2026"
+      }
+    ],
+    "cta": {
+      "pergunta": "Faltou algum? Qual seria o <b>seu número 1</b>?",
+      "quando": "Top 5 novo toda quinta",
+      "salvar": "Salva para montar ou revisar o seu deck de dragões"
+    }
+  },
+  "legenda": "Commander, deck de dragões: quais dragões não podem faltar nas suas 99?\n\nTop 5 #4, fora os lendários:\n5. Savage Ventmaw, 98 mil decks, US$ 0,50 (R$ 2,75)\n4. Utvara Hellkite, 108 mil decks, US$ 5,03 (R$ 27,63)\n3. Ancient Silver Dragon, 112 mil decks, US$ 43,82 (R$ 240,70)\n2. Terror of the Peaks, 264 mil decks, US$ 30,35 (R$ 166,71)\n1. Goldspan Dragon, 328 mil decks, US$ 11,94 (R$ 65,59)\n\nDragões da página de Dragões do EDHREC, em ordem de decks no site. Preços do Scryfall, impressão mais comum. Valores em reais pela cotação de 3 nov (Banco Central, PTAX).\n\nMais carta de Magic e Commander todo dia em fontedemana.com.br\n\nFaltou algum? Qual seria o seu número 1?\n\n#dragoes #commander #mtg",
+  "threads": {
+    "texto": "Deck de dragões no Commander: Goldspan Dragon está em 328 mil decks no EDHREC, Terror of the Peaks em 264 mil. Fora os lendários, são os dois dragões mais jogados.\n\nSe só cabe um no seu deck, qual fica? O que faz mana e ataca no turno que entra ou o que transforma cada criatura nova em dano?",
+    "obs": "Enquete com as duas opções: Goldspan Dragon e Terror of the Peaks"
+  },
+  "enquete": {
+    "pergunta": "Só cabe um dragão no deck. Qual fica?",
+    "opcoes": [
+      "Goldspan Dragon",
+      "Terror of the Peaks"
+    ]
+  }
+}
