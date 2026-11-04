@@ -8,306 +8,8 @@ X-WR-TIMEZONE:America/Sao_Paulo
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:fdm-2026-10-31-gravacao@fontedemana.com.br
-DTSTAMP:20261103T234736Z
-DTSTART:20261030T221500Z
-DURATION:PT15M
-SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
-DESCRIPTION:Radar DC500: o precon da Ashling com upgrade no Duel Commander 
- 500 da MTG Brasil\, com a vitória da Jubilation e a ordem dos gatilhos. S
- eis cenas curtas\, uns 29 s de fala. Nas cenas 1 e 6 você aparece falando
-  para a câmera\; nas outras\, só a voz.\n\nArquivos:\n- Vídeo mudo (par
- a ver o ritmo): https://fontedemana.com.br/pauta/2026-10-31/tiktok/tiktok-
- mudo.mp4\n\nRoteiro de gravação:\nCena 1\, rosto\, uns 4 s\nNa tela: Uma
-  carta de 1 real venceu uma partida no torneio\nComo gravar: Rosto: Olhand
- o para a câmera\, com a carta da Ashling na mão. Mostra a carta no 1 rea
- l e sorri no venceu\nFala: Uma carta de 1 real venceu uma partida no torne
- io.\n\nCena 2\, só a voz\, uns 6 s\nNa tela: Ashling\, the Limitless. Ele
- mental por 4 manas\, e ele volta como token\nComo gravar: Só a voz: pode 
- gravar em vídeo ou áudio\nFala: O motor é a Ashling. Elemental sai por 
- 4 manas e\, sacrificado\, volta como token.\n\nCena 3\, só a voz\, uns 5 
- s\nNa tela: Jubilation. US$ 0\,25 (R$ 1\,34). Custa 6\, saiu por 4 com a A
- shling\nComo gravar: Só a voz: pode gravar em vídeo ou áudio\nFala: Jub
- ilation por 4. Entram dois gatilhos: bônus de +2/+2 e sacrifício.\n\nCen
- a 4\, só a voz\, uns 6 s\nNa tela: Sacrifício primeiro\, bônus por últ
- imo. O token entra e dá +2/+2\, depois a original dá mais +2/+2. Regra 6
- 03.3b: você escolhe a ordem dos seus gatilhos\nComo gravar: Só a voz: po
- de gravar em vídeo ou áudio\nFala: Sacrifício primeiro\, a regra deixa 
- escolher. O token dá +2/+2\, e a original dá mais +2/+2.\n\nCena 5\, só
-  a voz\, uns 3 s\nNa tela: Token 9/9 com ímpeto e atropelar. Atacando no 
- mesmo turno\, num jogo a 20 de vida\nComo gravar: Só a voz: pode gravar e
- m vídeo ou áudio\nFala: Token 9/9 com atropelar\, atacando na hora.\n\nC
- ena 6\, rosto\, uns 4 s\nNa tela: Qual loja organiza DC500?\nComo gravar: 
- Rosto: Segurando o deck box com a Ashling por cima\, pergunta olhando para
-  a câmera\nFala: E aí\, qual loja da sua cidade organiza DC500?\n\n\nPas
- so a passo:\n1. Celular na vertical\, câmera da frente\, na altura dos ol
- hos\, a um braço de distância.\n2. Rosto no meio da tela e o terço de c
- ima livre: é onde entra o título.\n3. Luz de frente (de frente para a ja
- nela) e fundo arrumado\; a estante de cartas é ótima.\n4. Desligue o Ví
- deo HDR (Ajustes\, Câmera\, Gravar Vídeo) para as cores não lavarem.\n5
- . Um vídeo por cena\, falando para a câmera\, com meio segundo de silên
- cio antes e depois\; nomeie cena_1\, cena_2... e mande todos juntos.\n6. N
- as cenas sem rosto\, só a voz conta: pode gravar em vídeo ou só o áudi
- o.\n7. Mande os vídeos ao Claude no projeto MGT strategy (pode ser respon
- dendo à mensagem desta tarefa) dizendo "vídeos do TikTok de 2026-10-31".
- \n\nValores em reais pela cotação de 29 out\, US$ 1 = R$ 5\,3744 (Banco 
- Central\, PTAX).\n\nPauta completa: https://fontedemana.com.br/pauta/2026-
- 10-31/#gravacao
-URL:https://fontedemana.com.br/pauta/2026-10-31/#gravacao
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Gravação: Gravar o vídeo de amanhã (você aparece)
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-31-tiktok@fontedemana.com.br
-DTSTAMP:20261103T234736Z
-DTSTART:20261031T143000Z
-DURATION:PT15M
-SUMMARY:11:30 TikTok: Radar DC500\, a Ashling no torneio
-DESCRIPTION:Vídeo do Radar DC500: o precon da Ashling\, the Limitless com 
- upgrade\, que venceu 2 de 3 rodadas no DC500 da MTG Brasil\, com a Jubilat
- ion de 1 real e a ordem dos gatilhos.\n\nArquivos:\n- Vídeo do TikTok nar
- rado: https://fontedemana.com.br/pauta/2026-10-31/tiktok/tiktok-narrado.mp
- 4\n\nLegenda:\nCommander com teto de R$ 500: levei o precon da Ashling\, t
- he Limitless com upgrade ao Duel Commander 500 da MTG Brasil\, em São Pau
- lo\, e venci 2 de 3 rodadas. Uma das partidas foi da Jubilation\, carta de
-  US$ 0\,25 (R$ 1\,34): evocada por 4 manas\, o token volta e tudo fica +4/
- +4 com atropelar. Regra 603.3b: você escolhe a ordem dos seus gatilhos. Q
- ual loja da sua cidade organiza DC500?\n\nValores em reais pela cotação 
- de 28 out (Banco Central\, PTAX).\n\nAs quatro vitórias passo a passo e o
-  jornal de Magic de todo dia em fontedemana.com.br\n\n#ashling #commander 
- #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Co
- ntent Policy. Not approved/endorsed by Wizards. Portions of the materials 
- used are property of Wizards of the Coast. ©Wizards of the Coast LLC.\n\n
- Comentário fixado:\nQual loja da sua cidade organiza DC500? Commander 1x1
-  com a lista inteira valendo até R$ 500 pela LigaMagic. As quatro vitóri
- as da Ashling estão em fontedemana.com.br\n\nPasso a passo:\n1. Poste com
-  um som em alta da biblioteca do TikTok\, volume entre 15% e 20%.\n2. Voz 
- própria não precisa de rótulo de IA.\n3. Marque a loja MTG Brasil (São
-  Paulo) como local.\n4. Fixe o comentário logo depois de postar.\n\nValor
- es em reais pela cotação de 29 out\, US$ 1 = R$ 5\,3744 (Banco Central\,
-  PTAX).\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-31/#ti
- ktok
-URL:https://fontedemana.com.br/pauta/2026-10-31/#tiktok
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:TikTok: Radar DC500\, a Ashling no torneio
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-31-threads-manha@fontedemana.com.br
-DTSTAMP:20261103T234736Z
-DTSTART:20261031T133000Z
-DURATION:PT15M
-SUMMARY:10:30 Threads: Pergunta do dia: Você vende a sua agora\, guarda pa
- ra o deck ou nem…
-DESCRIPTION:Pergunta para puxar conversa sobre a notícia do dia.\n\nPost:\
- nSphinx Sovereign subiu 223% por causa da The Ur-Sphinx. Você vende a sua
-  agora\, guarda para o deck ou nem tem?\n\nPasso a passo:\n1. Abra o Threa
- ds e cole o Post.\n2. Dica: Opções: vendo agora\, guardo para o deck\, n
- ão tenho\n3. Toque em Adicionar tópico e escolha MTG.\n4. Publique e res
- ponda quem comentar na primeira hora.\n\nPauta completa: https://fontedema
- na.com.br/pauta/2026-10-31/#threads-manha
-URL:https://fontedemana.com.br/pauta/2026-10-31/#threads-manha
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Pergunta do dia: Você vende a sua agora\, guarda para
-  o deck ou nem…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-31-stories-manha@fontedemana.com.br
-DTSTAMP:20261103T234736Z
-DTSTART:20261031T133000Z
-DURATION:PT15M
-SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
-DESCRIPTION:Story com a capa da edição 26 (Sphinx Sovereign sobe 223% com
-  a Ur-Sphinx) e um sticker de pergunta para puxar a conversa.\n\nArquivos:
- \n- Capa da edição 26: https://fontedemana.com.br/kit/ed26/carrossel-01.
- jpg\n\nPasso a passo:\n1. Baixe a capa e poste no Story.\n2. Adicione o st
- icker de Pergunta no terço de baixo\, sem cobrir o título: Você tem alg
- uma esfinge parada no fichário?\n3. Publique.\n\nPauta completa: https://
- fontedemana.com.br/pauta/2026-10-31/#stories-manha
-URL:https://fontedemana.com.br/pauta/2026-10-31/#stories-manha
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Capa do jornal com sticker de pergunta
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-31-feed@fontedemana.com.br
-DTSTAMP:20261103T234736Z
-DTSTART:20261031T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram feed: Carrossel da edição 26
-DESCRIPTION:Carrossel de 5 imagens da edição 26: Sphinx Sovereign sobe 22
- 3% com a Ur-Sphinx\, Topdeck: Olivia Voldaren.\n\nArquivos:\n- Imagem 1 de
-  5: https://fontedemana.com.br/kit/ed26/carrossel-01.jpg\n- Imagem 2 de 5:
-  https://fontedemana.com.br/kit/ed26/carrossel-02.jpg\n- Imagem 3 de 5: ht
- tps://fontedemana.com.br/kit/ed26/carrossel-03.jpg\n- Imagem 4 de 5: https
- ://fontedemana.com.br/kit/ed26/carrossel-04.jpg\n- Imagem 5 de 5: https://
- fontedemana.com.br/kit/ed26/carrossel-05.jpg\n\nLegenda:\nCarta de Magic e
- m alta no Commander: Sphinx Sovereign subiu 223% na semana e foi a US$ 10\
- ,35 (R$ 55\,63)\, segundo o Weekly Winners do MTGStocks.\n\nO motivo é a 
- The Ur-Sphinx\, comandante de Reality Fracture que deixa as outras mágica
- s de Esfinge 1 mana mais baratas. Polymorph subiu 190%\, a US$ 9\,99 (R$ 5
- 3\,69)\, porque combina com as fichas do Jace\, Multiverse Architect. E Br
- onzebeak Foragers subiu 122%\, a US$ 3\,25 (R$ 17\,47)\, puxada pela Dack 
- Fayden.\n\nNo Topdeck de Halloween\, Olivia Voldaren\, a vampira que morde
-  a mesa inteira e depois rouba quem virou Vampiro.\n\nVocê tem alguma des
- sas esfinges parada no fichário?\n\nEdição completa em fontedemana.com.
- br\n\nArtes: Sphinx Sovereign\, de Chippy. Olivia Voldaren\, de Eric Desch
- amps.\nValores em reais pela cotação de 29 out (Banco Central\, PTAX).\n
- \n#halloween #commander #mtg\n\nFonte de Mana is unofficial Fan Content pe
- rmitted under the Fan Content Policy. Not approved/endorsed by Wizards. Po
- rtions of the materials used are property of Wizards of the Coast. ©Wizar
- ds of the Coast LLC.\n\nPasso a passo:\n1. No Instagram\, toque em + e esc
- olha Post.\n2. Selecione as 5 imagens na ordem\, da 1 à 5.\n3. Toque em A
- dicionar música e escolha uma em alta que combine com o tema.\n4. Cole a 
- Legenda e publique.\n\nValores em reais pela cotação de 29 out\, US$ 1 =
-  R$ 5\,3744 (Banco Central\, PTAX).\n\nPauta completa: https://fontedemana
- .com.br/pauta/2026-10-31/#feed
-URL:https://fontedemana.com.br/pauta/2026-10-31/#feed
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram feed: Carrossel da edição 26
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-31-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261103T234736Z
-DTSTART:20261031T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
-DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
- .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
- e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
- o do post: Sphinx Sovereign subiu 223%. O que você faz? com Vendo agora\,
-  Guardo para o deck e Não tenho.\n3. Publique.\n\nPauta completa: https:/
- /fontedemana.com.br/pauta/2026-10-31/#stories-meio-dia
-URL:https://fontedemana.com.br/pauta/2026-10-31/#stories-meio-dia
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-31-threads-tarde@fontedemana.com.br
-DTSTAMP:20261103T234736Z
-DTSTART:20261031T180000Z
-DURATION:PT15M
-SUMMARY:15:00 Threads: Notícia do dia num post só
-DESCRIPTION:A edição 26 contada num post só\, sem fio: nos fios\, quase 
- ninguém passava do primeiro post.\n\nPost:\nSphinx Sovereign subiu 223% n
- a semana e foi a US$ 10\,35 (R$ 55\,63)\, segundo o MTGStocks. A culpa é 
- da The Ur-Sphinx\, comandante de Reality Fracture que barateia as outras e
- sfinges. Polymorph subiu 190%\, a US$ 9\,99 (R$ 53\,69)\, com o Jace. Voc
- ê montaria a Ur-Sphinx com as esfinges mais caras? fontedemana.com.br\nVa
- lores em reais pela cotação de 29 out (Banco Central\, PTAX).\n\nPasso a
-  passo:\n1. No Threads\, cole o Post\, sem sequência.\n2. Toque em Adicio
- nar tópico e escolha MTG.\n3. Publique e responda quem comentar na primei
- ra hora.\n\nValores em reais pela cotação de 29 out\, US$ 1 = R$ 5\,3744
-  (Banco Central\, PTAX).\n\nPauta completa: https://fontedemana.com.br/pau
- ta/2026-10-31/#threads-tarde
-URL:https://fontedemana.com.br/pauta/2026-10-31/#threads-tarde
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Notícia do dia num post só
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-31-stories-tarde@fontedemana.com.br
-DTSTAMP:20261103T234736Z
-DTSTART:20261031T180000Z
-DURATION:PT15M
-SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
-DESCRIPTION:Story com a imagem de Olivia Voldaren no Topdeck do Dia e o sti
- cker de link para a edição completa.\n\nArquivos:\n- Topdeck do Dia: htt
- ps://fontedemana.com.br/kit/ed26/carrossel-03.jpg\n\nPasso a passo:\n1. Ba
- ixe a imagem e poste no Story.\n2. Adicione o sticker de Link para fontede
- mana.com.br com o texto Edição completa\, embaixo do texto do Topdeck.\n
- 3. Publique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-3
- 1/#stories-tarde
-URL:https://fontedemana.com.br/pauta/2026-10-31/#stories-tarde
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Topdeck do Dia com link
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-31-reels@fontedemana.com.br
-DTSTAMP:20261103T234736Z
-DTSTART:20261031T220000Z
-DURATION:PT15M
-SUMMARY:19:00 Reels: Vídeo original: Ashling no DC500: perdeu 5 de 7 nos t
- estes e venceu…
-DESCRIPTION:O vídeo original de hoje no Instagram\, o mesmo arquivo do Tik
- Tok\, já narrado. É o formato que mais chega a quem não segue.\n\nArqui
- vos:\n- Vídeo original narrado: https://fontedemana.com.br/pauta/2026-10-
- 31/tiktok/tiktok-narrado.mp4\n\nLegenda:\nCommander com teto de R$ 500: le
- vei o precon da Ashling\, the Limitless com upgrade ao Duel Commander 500 
- da MTG Brasil\, em São Paulo\, e venci 2 de 3 rodadas. Uma das partidas f
- oi da Jubilation\, carta de US$ 0\,25 (R$ 1\,34): evocada por 4 manas\, o 
- token volta e tudo fica +4/+4 com atropelar. Regra 603.3b: você escolhe a
-  ordem dos seus gatilhos. Qual loja da sua cidade organiza DC500?\n\nValor
- es em reais pela cotação de 28 out (Banco Central\, PTAX).\n\nAs quatro 
- vitórias passo a passo e o jornal de Magic de todo dia em fontedemana.com
- .br\n\n#ashling #commander #mtg\n\nFonte de Mana is unofficial Fan Content
-  permitted under the Fan Content Policy. Not approved/endorsed by Wizards.
-  Portions of the materials used are property of Wizards of the Coast. ©Wi
- zards of the Coast LLC.\n\nComentário fixado:\nQual loja da sua cidade or
- ganiza DC500? Commander 1x1 com a lista inteira valendo até R$ 500 pela L
- igaMagic. As quatro vitórias da Ashling estão em fontedemana.com.br\n\nP
- asso a passo:\n1. No Instagram\, toque em + e escolha Reel.\n2. Escolha o 
- vídeo baixado daqui\, nunca o salvo do TikTok (o Instagram derruba vídeo
-  com marca d'água).\n3. Em Áudio\, ponha uma música em alta da bibliote
- ca do Instagram com volume baixo (uns 10%)\, sem cobrir a voz.\n4. Na capa
- \, use o primeiro quadro\, o do gancho.\n5. Cole a Legenda e publique.\n6.
-  Fixe o comentário e responda quem comentar na primeira hora.\n\nValores 
- em reais pela cotação de 29 out\, US$ 1 = R$ 5\,3744 (Banco Central\, PT
- AX).\n\nPauta completa: https://fontedemana.com.br/pauta/2026-10-31/#reels
-URL:https://fontedemana.com.br/pauta/2026-10-31/#reels
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reels: Vídeo original: Ashling no DC500: perdeu 5 de 7 nos tes
- tes e venceu…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-10-31-comentarios@fontedemana.com.br
-DTSTAMP:20261103T234736Z
-DTSTART:20261101T003000Z
-DURATION:PT15M
-SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
-DESCRIPTION:Uns 10 minutos nas três redes: curtir e responder os comentár
- ios das últimas 48 horas\, começando pelo vídeo e pelo carrossel de hoj
- e. Conversa nos comentários leva a peça a mais gente\, e o Instagram rec
- omenda responder em até 2 dias.\n\nPasso a passo:\n1. Instagram: nas noti
- ficações\, curta os comentários e responda com uma frase quem perguntou
-  ou discordou.\n2. TikTok e Threads: o mesmo\, começando pelo post com ma
- is comentários.\n3. Pergunta boa ou dúvida que se repete\, nos comentár
- ios ou nas DMs? Mande na conversa do projeto: vira tema de um pilar.\n\nPa
- uta completa: https://fontedemana.com.br/pauta/2026-10-31/#comentarios
-URL:https://fontedemana.com.br/pauta/2026-10-31/#comentarios
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Comentários: Responder os comentários de hoje e de ontem
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fdm-2026-11-01-gravacao@fontedemana.com.br
-DTSTAMP:20261103T234736Z
+DTSTAMP:20261104T102118Z
 DTSTART:20261031T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -361,7 +63,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-tiktok@fontedemana.com.br
-DTSTAMP:20261103T234736Z
+DTSTAMP:20261104T102118Z
 DTSTART:20261101T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o Debate da semana #1: cemitério hate
@@ -393,7 +95,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-threads-manha@fontedemana.com.br
-DTSTAMP:20261103T234736Z
+DTSTAMP:20261104T102118Z
 DTSTART:20261101T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Debate da semana #1: todo deck de Commander 
@@ -420,7 +122,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-stories-manha@fontedemana.com.br
-DTSTAMP:20261103T234736Z
+DTSTAMP:20261104T102118Z
 DTSTART:20261101T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -440,7 +142,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-feed@fontedemana.com.br
-DTSTAMP:20261103T234736Z
+DTSTAMP:20261104T102118Z
 DTSTART:20261101T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Debate da semana #1: todo deck de Commander p
@@ -481,7 +183,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261103T234736Z
+DTSTAMP:20261104T102118Z
 DTSTART:20261101T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -500,7 +202,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-threads-tarde@fontedemana.com.br
-DTSTAMP:20261103T234736Z
+DTSTAMP:20261104T102118Z
 DTSTART:20261101T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -522,7 +224,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-stories-tarde@fontedemana.com.br
-DTSTAMP:20261103T234736Z
+DTSTAMP:20261104T102118Z
 DTSTART:20261101T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -542,7 +244,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-reels@fontedemana.com.br
-DTSTAMP:20261103T234736Z
+DTSTAMP:20261104T102118Z
 DTSTART:20261101T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Debate da semana #1: todo deck de Com
@@ -580,7 +282,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-01-comentarios@fontedemana.com.br
-DTSTAMP:20261103T234736Z
+DTSTAMP:20261104T102118Z
 DTSTART:20261102T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -602,7 +304,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-gravacao@fontedemana.com.br
-DTSTAMP:20261103T234736Z
+DTSTAMP:20261104T102118Z
 DTSTART:20261101T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã (com dub
@@ -650,7 +352,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-tiktok@fontedemana.com.br
-DTSTAMP:20261103T234736Z
+DTSTAMP:20261104T102118Z
 DTSTART:20261102T210000Z
 DURATION:PT15M
 SUMMARY:18:00 TikTok: Treta das Cores #1\, comandante morreu
@@ -683,7 +385,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-threads-manha@fontedemana.com.br
-DTSTAMP:20261103T234736Z
+DTSTAMP:20261104T102118Z
 DTSTART:20261102T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Treta das Cores #1: comandante morreu. Cemit
@@ -709,7 +411,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-stories-manha@fontedemana.com.br
-DTSTAMP:20261103T234736Z
+DTSTAMP:20261104T102118Z
 DTSTART:20261102T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -729,7 +431,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-feed@fontedemana.com.br
-DTSTAMP:20261103T234736Z
+DTSTAMP:20261104T102118Z
 DTSTART:20261102T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Treta das Cores #1: comandante morreu. Cemit
@@ -771,7 +473,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261103T234736Z
+DTSTAMP:20261104T102118Z
 DTSTART:20261102T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -790,7 +492,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-threads-tarde@fontedemana.com.br
-DTSTAMP:20261103T234736Z
+DTSTAMP:20261104T102118Z
 DTSTART:20261102T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -815,7 +517,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-stories-tarde@fontedemana.com.br
-DTSTAMP:20261103T234736Z
+DTSTAMP:20261104T102118Z
 DTSTART:20261102T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -835,7 +537,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-reels@fontedemana.com.br
-DTSTAMP:20261103T234736Z
+DTSTAMP:20261104T102118Z
 DTSTART:20261102T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Treta das Cores #1: comandante morreu
@@ -872,7 +574,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-02-comentarios@fontedemana.com.br
-DTSTAMP:20261103T234736Z
+DTSTAMP:20261104T102118Z
 DTSTART:20261103T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -894,7 +596,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-gravacao@fontedemana.com.br
-DTSTAMP:20261103T234736Z
+DTSTAMP:20261104T102118Z
 DTSTART:20261102T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -944,7 +646,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-tiktok@fontedemana.com.br
-DTSTAMP:20261103T234736Z
+DTSTAMP:20261104T102118Z
 DTSTART:20261103T210000Z
 DURATION:PT15M
 SUMMARY:18:00 TikTok: Dicionário do Commander #4\, a pilha
@@ -976,7 +678,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-threads-manha@fontedemana.com.br
-DTSTAMP:20261103T234736Z
+DTSTAMP:20261104T102118Z
 DTSTART:20261103T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Dicionário do Commander #4: o que é a pilh
@@ -1001,7 +703,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-stories-manha@fontedemana.com.br
-DTSTAMP:20261103T234736Z
+DTSTAMP:20261104T102118Z
 DTSTART:20261103T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -1021,7 +723,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-feed@fontedemana.com.br
-DTSTAMP:20261103T234736Z
+DTSTAMP:20261104T102118Z
 DTSTART:20261103T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Dicionário do Commander #4: o que é a pilha
@@ -1060,7 +762,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261103T234736Z
+DTSTAMP:20261104T102118Z
 DTSTART:20261103T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -1079,7 +781,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-threads-tarde@fontedemana.com.br
-DTSTAMP:20261103T234736Z
+DTSTAMP:20261104T102118Z
 DTSTART:20261103T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -1104,7 +806,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-stories-tarde@fontedemana.com.br
-DTSTAMP:20261103T234736Z
+DTSTAMP:20261104T102118Z
 DTSTART:20261103T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1124,7 +826,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-reels@fontedemana.com.br
-DTSTAMP:20261103T234736Z
+DTSTAMP:20261104T102118Z
 DTSTART:20261103T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Dicionário do Commander #4: o que é
@@ -1160,7 +862,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-comentarios@fontedemana.com.br
-DTSTAMP:20261103T234736Z
+DTSTAMP:20261104T102118Z
 DTSTART:20261104T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1182,7 +884,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-gravacao@fontedemana.com.br
-DTSTAMP:20261103T234736Z
+DTSTAMP:20261104T102118Z
 DTSTART:20261103T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -1228,34 +930,283 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-tiktok@fontedemana.com.br
-DTSTAMP:20261103T234736Z
-DTSTART:20261104T143000Z
+DTSTAMP:20261104T102118Z
+DTSTART:20261104T210000Z
 DURATION:PT15M
-SUMMARY:11:30 TikTok: Matemática da Mesa #1\, quantos terrenos
+SUMMARY:18:00 TikTok: Matemática da Mesa #1\, quantos terrenos
 DESCRIPTION:A chance de abrir com 3 terrenos com 36\, 37 ou 38 no deck: qua
  se igual. O que muda é o desastre: a mão travada cai e a afogada sobe. F
- echa com a conta prática pela curva do deck.\n\nArquivos:\n- Vídeo narra
- do: https://fontedemana.com.br/pauta/2026-11-04/tiktok/tiktok-narrado.mp4\
- n\nLegenda:\nCommander: quantos terrenos pôr no deck? 36\, 37 ou 38 muda 
- a sua mão inicial?\n\nMatemática da Mesa #1. Num deck de 99 cartas\, a c
- hance de a mão de 7 vir com exatamente 3 terrenos é 28\,6% com 36\, 29\,
- 1% com 37 e 29\,6% com 38. O que muda é o desastre: de cada 100 mãos\, 2
- 0 travam com 0 ou 1 terreno com 36\, e 17 com 38. A mão afogada\, com 5 o
- u mais\, vai de 5\,8% para 7\,4%. Conta sem mulligan.\n\nQuantos terrenos 
- tem o seu deck: 36\, 37\, 38 ou outro?\n\nConta: distribuição hipergeom
- étrica\, deck de 99.\nMais em fontedemana.com.br\n\n#terrenos #commander 
- #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Co
- ntent Policy. Not approved/endorsed by Wizards. Portions of the materials 
- used are property of Wizards of the Coast. ©Wizards of the Coast LLC.\n\n
- Comentário fixado:\nQuantos terrenos tem o seu deck de Commander? 36\, 37
- \, 38 ou outro número?\n\nPasso a passo:\n1. Poste com um som em alta da 
- biblioteca do TikTok\, com volume entre 15% e 20%.\n2. Voz própria não p
- recisa de rótulo de IA.\n3. Fixe o comentário logo depois de postar.\n\n
- Pauta completa: https://fontedemana.com.br/pauta/2026-11-04/#tiktok
+ echa com a conta prática pela curva do deck.\n\nArquivos:\n- Vídeo do Ti
+ kTok narrado: https://fontedemana.com.br/pauta/2026-11-04/tiktok/tiktok-na
+ rrado.mp4\n\nLegenda:\nCommander: quantos terrenos pôr no deck? 36\, 37 o
+ u 38 muda a sua mão inicial?\n\nMatemática da Mesa #1. Num deck de 99 ca
+ rtas\, a chance de a mão de 7 vir com exatamente 3 terrenos é 28\,6% com
+  36\, 29\,1% com 37 e 29\,6% com 38. O que muda é o desastre: de cada 100
+  mãos\, 20 travam com 0 ou 1 terreno com 36\, e 17 com 38. A mão afogada
+ \, com 5 ou mais\, vai de 5\,8% para 7\,4%. Conta sem mulligan.\n\nQuantos
+  terrenos tem o seu deck: 36\, 37\, 38 ou outro?\n\nConta: distribuição 
+ hipergeométrica\, deck de 99.\nMais em fontedemana.com.br\n\n#commander #
+ mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Con
+ tent Policy. Not approved/endorsed by Wizards. Portions of the materials u
+ sed are property of Wizards of the Coast. ©Wizards of the Coast LLC.\n\nC
+ omentário fixado:\nQuantos terrenos tem o seu deck de Commander? 36\, 37\
+ , 38 ou outro número?\n\nPasso a passo:\n1. Poste com um som em alta da b
+ iblioteca do TikTok\, com volume entre 15% e 20%.\n2. Voz própria não pr
+ ecisa de rótulo de IA.\n3. Fixe o comentário logo depois de postar.\n\nP
+ auta completa: https://fontedemana.com.br/pauta/2026-11-04/#tiktok
 URL:https://fontedemana.com.br/pauta/2026-11-04/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:TikTok: Matemática da Mesa #1\, quantos terrenos
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-04-threads-manha@fontedemana.com.br
+DTSTAMP:20261104T102118Z
+DTSTART:20261104T133000Z
+DURATION:PT15M
+SUMMARY:10:30 Threads: Pergunta do dia: Qual dessas entra no seu deck de Co
+ mmander?
+DESCRIPTION:Pergunta para puxar conversa sobre a notícia do dia.\n\nPost:\
+ nSecret Lair do Extra Life com Balefire Dragon\, Young Pyromancer\, Big Sc
+ ore e Sword of Truth and Justice em arte de PS1. Qual dessas entra no seu 
+ deck de Commander?\n\nPasso a passo:\n1. Abra o Threads e cole o Post.\n2.
+  Dica: Opções: Balefire Dragon\, Young Pyromancer\, Big Score\, Sword of
+  Truth and Justice\n3. Toque em Adicionar tópico e escolha MTG.\n4. Publi
+ que e responda quem comentar na primeira hora.\n\nPauta completa: https://
+ fontedemana.com.br/pauta/2026-11-04/#threads-manha
+URL:https://fontedemana.com.br/pauta/2026-11-04/#threads-manha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Pergunta do dia: Qual dessas entra no seu deck de Comm
+ ander?
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-04-stories-manha@fontedemana.com.br
+DTSTAMP:20261104T102118Z
+DTSTART:20261104T133000Z
+DURATION:PT15M
+SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
+DESCRIPTION:Story com a capa da edição 30 (Secret Lair do Extra Life em e
+ stilo PS1) e um sticker de pergunta para puxar a conversa.\n\nArquivos:\n-
+  Capa da edição 30: https://fontedemana.com.br/kit/ed30/carrossel-01.jpg
+ \n\nPasso a passo:\n1. Baixe a capa e poste no Story.\n2. Adicione o stick
+ er de Pergunta no terço de baixo\, sem cobrir o título: Qual carta do Se
+ cret Lair do Extra Life entra no seu deck?\n3. Publique.\n\nPauta completa
+ : https://fontedemana.com.br/pauta/2026-11-04/#stories-manha
+URL:https://fontedemana.com.br/pauta/2026-11-04/#stories-manha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Capa do jornal com sticker de pergunta
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-04-feed@fontedemana.com.br
+DTSTAMP:20261104T102118Z
+DTSTART:20261104T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram feed: Carrossel da edição 30
+DESCRIPTION:Carrossel de 5 imagens da edição 30: Secret Lair do Extra Lif
+ e em estilo PS1\, Topdeck: Sword of Truth and Justice.\n\nArquivos:\n- Ima
+ gem 1 de 5: https://fontedemana.com.br/kit/ed30/carrossel-01.jpg\n- Imagem
+  2 de 5: https://fontedemana.com.br/kit/ed30/carrossel-02.jpg\n- Imagem 3 
+ de 5: https://fontedemana.com.br/kit/ed30/carrossel-03.jpg\n- Imagem 4 de 
+ 5: https://fontedemana.com.br/kit/ed30/carrossel-04.jpg\n- Imagem 5 de 5: 
+ https://fontedemana.com.br/kit/ed30/carrossel-05.jpg\n\nLegenda:\nCommande
+ r de Magic: o Secret Lair do Extra Life chega com cara de jogo de PS1.\n\n
+ A Wizards anunciou ontem o Rise of the Polygons\, da parceria anual com o 
+ Extra Life. São cinco reimpressões com arte de polígonos: Balefire Drag
+ on\, Big Score\, Young Pyromancer\, Sword of Truth and Justice e uma ficha
+  de Elemental. Custa US$ 39\,99 (R$ 219\,66)\, ou US$ 49\,99 (R$ 274\,59) 
+ em foil\, e fica à venda no site do Secret Lair de 16 a 30 de novembro. M
+ etade do preço\, menos taxas\, vai para o Seattle Children's Hospital.\n\
+ nNo Topdeck\, Sword of Truth and Justice\, a espada incolor que põe marca
+ dor e prolifera a cada golpe. Está em 98 mil decks no EDHREC e a original
+  sai a US$ 27\,86 (R$ 153\,03).\n\nQual carta desse drop entraria no seu d
+ eck de Commander?\n\nEdição completa em fontedemana.com.br\n\nArtes: Bal
+ efire Dragon\, de Brendan Sullivan. Sword of Truth and Justice\, de Chris 
+ Rahn.\nValores em reais pela cotação de 3 nov (Banco Central\, PTAX).\n\
+ n#secretlair #commander #mtg\n\nFonte de Mana is unofficial Fan Content pe
+ rmitted under the Fan Content Policy. Not approved/endorsed by Wizards. Po
+ rtions of the materials used are property of Wizards of the Coast. ©Wizar
+ ds of the Coast LLC.\n\nPasso a passo:\n1. No Instagram\, toque em + e esc
+ olha Post.\n2. Selecione as 5 imagens na ordem\, da 1 à 5.\n3. Toque em A
+ dicionar música e escolha uma em alta que combine com o tema.\n4. Cole a 
+ Legenda e publique.\n\nValores em reais pela cotação de 3 nov\, US$ 1 = 
+ R$ 5\,4929 (Banco Central\, PTAX).\n\nPauta completa: https://fontedemana.
+ com.br/pauta/2026-11-04/#feed
+URL:https://fontedemana.com.br/pauta/2026-11-04/#feed
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram feed: Carrossel da edição 30
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-04-stories-meio-dia@fontedemana.com.br
+DTSTAMP:20261104T102118Z
+DTSTART:20261104T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
+DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
+ .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
+ e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
+ o do post: Você compraria o Secret Lair do Extra Life? com Sim\, pela cau
+ sa\, Só as cartas avulsas e Passo esse.\n3. Publique.\n\nPauta completa: 
+ https://fontedemana.com.br/pauta/2026-11-04/#stories-meio-dia
+URL:https://fontedemana.com.br/pauta/2026-11-04/#stories-meio-dia
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-04-threads-tarde@fontedemana.com.br
+DTSTAMP:20261104T102118Z
+DTSTART:20261104T180000Z
+DURATION:PT15M
+SUMMARY:15:00 Threads: Notícia do dia num post só
+DESCRIPTION:A edição 30 contada num post só\, sem fio: nos fios\, quase 
+ ninguém passava do primeiro post.\n\nPost:\nSecret Lair novo com arte de 
+ jogo de PS1: o Rise of the Polygons\, do Extra Life\, traz Balefire Dragon
+ \, Young Pyromancer\, Big Score e Sword of Truth and Justice por US$ 39\,9
+ 9 (R$ 219\,66)\, ou US$ 49\,99 (R$ 274\,59) em foil. Venda de 16 a 30 de n
+ ovembro\, e metade do preço vai para um hospital infantil. Qual entra no 
+ seu deck? fontedemana.com.br\nValores em reais pela cotação de 3 nov (Ba
+ nco Central\, PTAX).\n\nPasso a passo:\n1. No Threads\, cole o Post\, sem 
+ sequência.\n2. Toque em Adicionar tópico e escolha MTG.\n3. Publique e r
+ esponda quem comentar na primeira hora.\n\nValores em reais pela cotação
+  de 3 nov\, US$ 1 = R$ 5\,4929 (Banco Central\, PTAX).\n\nPauta completa: 
+ https://fontedemana.com.br/pauta/2026-11-04/#threads-tarde
+URL:https://fontedemana.com.br/pauta/2026-11-04/#threads-tarde
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Notícia do dia num post só
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-04-stories-tarde@fontedemana.com.br
+DTSTAMP:20261104T102118Z
+DTSTART:20261104T180000Z
+DURATION:PT15M
+SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
+DESCRIPTION:Story com a imagem de Sword of Truth and Justice no Topdeck do 
+ Dia e o sticker de link para a edição completa.\n\nArquivos:\n- Topdeck 
+ do Dia: https://fontedemana.com.br/kit/ed30/carrossel-03.jpg\n\nPasso a pa
+ sso:\n1. Baixe a imagem e poste no Story.\n2. Adicione o sticker de Link p
+ ara fontedemana.com.br com o texto Edição completa\, embaixo do texto do
+  Topdeck.\n3. Publique.\n\nPauta completa: https://fontedemana.com.br/paut
+ a/2026-11-04/#stories-tarde
+URL:https://fontedemana.com.br/pauta/2026-11-04/#stories-tarde
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Topdeck do Dia com link
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-04-reels@fontedemana.com.br
+DTSTAMP:20261104T102118Z
+DTSTART:20261104T220000Z
+DURATION:PT15M
+SUMMARY:19:00 Reels: Vídeo original: Matemática da Mesa #1: 36\, 37 ou 38
+  terrenos e a…
+DESCRIPTION:O vídeo original de hoje no Instagram\, o mesmo arquivo do Tik
+ Tok\, já narrado. É o formato que mais chega a quem não segue.\n\nArqui
+ vos:\n- Vídeo original narrado: https://fontedemana.com.br/pauta/2026-11-
+ 04/tiktok/tiktok-narrado.mp4\n\nLegenda:\nCommander: quantos terrenos pôr
+  no deck? 36\, 37 ou 38 muda a sua mão inicial?\n\nMatemática da Mesa #1
+ . Num deck de 99 cartas\, a chance de a mão de 7 vir com exatamente 3 ter
+ renos é 28\,6% com 36\, 29\,1% com 37 e 29\,6% com 38. O que muda é o de
+ sastre: de cada 100 mãos\, 20 travam com 0 ou 1 terreno com 36\, e 17 com
+  38. A mão afogada\, com 5 ou mais\, vai de 5\,8% para 7\,4%. Conta sem m
+ ulligan.\n\nQuantos terrenos tem o seu deck: 36\, 37\, 38 ou outro?\n\nCon
+ ta: distribuição hipergeométrica\, deck de 99.\nMais em fontedemana.com
+ .br\n\n#commander #mtg\n\nFonte de Mana is unofficial Fan Content permitte
+ d under the Fan Content Policy. Not approved/endorsed by Wizards. Portions
+  of the materials used are property of Wizards of the Coast. ©Wizards of 
+ the Coast LLC.\n\nComentário fixado:\nQuantos terrenos tem o seu deck de 
+ Commander? 36\, 37\, 38 ou outro número?\n\nPasso a passo:\n1. No Instagr
+ am\, toque em + e escolha Reel.\n2. Escolha o vídeo baixado daqui\, nunca
+  o salvo do TikTok (o Instagram derruba vídeo com marca d'água).\n3. Em 
+ Áudio\, ponha uma música em alta da biblioteca do Instagram com volume b
+ aixo (uns 10%)\, sem cobrir a voz.\n4. Na capa\, use o primeiro quadro\, o
+  do gancho.\n5. Cole a Legenda e publique.\n6. Fixe o comentário e respon
+ da quem comentar na primeira hora.\n\nPauta completa: https://fontedemana.
+ com.br/pauta/2026-11-04/#reels
+URL:https://fontedemana.com.br/pauta/2026-11-04/#reels
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reels: Vídeo original: Matemática da Mesa #1: 36\, 37 ou 38 t
+ errenos e a…
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-04-reels-teste@fontedemana.com.br
+DTSTAMP:20261104T102118Z
+DTSTART:20261104T214000Z
+DURATION:PT15M
+SUMMARY:18:40 Reels: Reel de teste: o vídeo de hoje com o gancho B
+DESCRIPTION:Teste da semana: o vídeo de hoje com outro gancho\, mostrado s
+ ó para quem não segue. Sai antes do Reels das 19:00 porque o Instagram c
+ orta o alcance de Reel de teste com conteúdo que a conta já postou. Na r
+ evisão\, as views dele são comparadas com as de não seguidores do Reels
+  das 19:00.\n\nArquivos:\n- Vídeo de teste\, gancho B: https://fontedeman
+ a.com.br/pauta/2026-11-04/tiktok/tiktok-teste-narrado.mp4\n\nLegenda:\nCom
+ mander: quantos terrenos pôr no deck? 36\, 37 ou 38 muda a sua mão inici
+ al?\n\nMatemática da Mesa #1. Num deck de 99 cartas\, a chance de a mão 
+ de 7 vir com exatamente 3 terrenos é 28\,6% com 36\, 29\,1% com 37 e 29\,
+ 6% com 38. O que muda é o desastre: de cada 100 mãos\, 20 travam com 0 o
+ u 1 terreno com 36\, e 17 com 38. A mão afogada\, com 5 ou mais\, vai de 
+ 5\,8% para 7\,4%. Conta sem mulligan.\n\nQuantos terrenos tem o seu deck: 
+ 36\, 37\, 38 ou outro?\n\nConta: distribuição hipergeométrica\, deck de
+  99.\nMais em fontedemana.com.br\n\n#commander #mtg\n\nFonte de Mana is un
+ official Fan Content permitted under the Fan Content Policy. Not approved/
+ endorsed by Wizards. Portions of the materials used are property of Wizard
+ s of the Coast. ©Wizards of the Coast LLC.\n\nPasso a passo:\n1. No Insta
+ gram\, toque em + e escolha Reel\, com o vídeo de teste baixado daqui.\n2
+ . Antes de compartilhar\, ative a opção Reel de teste (Trial reel)\, par
+ a ele aparecer só para quem não segue.\n3. Deixe o compartilhamento auto
+ mático desligado e não publique para todos depois: o Reels das 19:00 lev
+ a o vídeo aos seguidores.\n4. Use a música e o volume que vai usar no Re
+ els das 19:00\, para o teste comparar só o gancho.\n5. Cole a Legenda e p
+ ublique.\n6. Daqui a 3 dias\, tire um print do Insights deste Reel e do Re
+ els das 19:00 (views de seguidores e de não seguidores) e mande na conver
+ sa da revisão.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-1
+ 1-04/#reels-teste
+URL:https://fontedemana.com.br/pauta/2026-11-04/#reels-teste
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reels: Reel de teste: o vídeo de hoje com o gancho B
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-04-comentarios@fontedemana.com.br
+DTSTAMP:20261104T102118Z
+DTSTART:20261105T003000Z
+DURATION:PT15M
+SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
+DESCRIPTION:Uns 10 minutos nas três redes: curtir e responder os comentár
+ ios das últimas 48 horas\, começando pelo vídeo e pelo carrossel de hoj
+ e. Conversa nos comentários leva a peça a mais gente\, e o Instagram rec
+ omenda responder em até 2 dias.\n\nPasso a passo:\n1. Instagram: nas noti
+ ficações\, curta os comentários e responda com uma frase quem perguntou
+  ou discordou.\n2. TikTok e Threads: o mesmo\, começando pelo post com ma
+ is comentários.\n3. Pergunta boa ou dúvida que se repete\, nos comentár
+ ios ou nas DMs? Mande na conversa do projeto: vira tema de um pilar.\n\nPa
+ uta completa: https://fontedemana.com.br/pauta/2026-11-04/#comentarios
+URL:https://fontedemana.com.br/pauta/2026-11-04/#comentarios
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Comentários: Responder os comentários de hoje e de ontem
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
