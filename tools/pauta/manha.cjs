@@ -273,7 +273,7 @@ const L = [`Pauta de hoje (${DATA})`, `Dia ${forca}${forcaKit ? '' : (kit ? ' (o
 ord.forEach(a => L.push(`${a.hora} ${a.rede}: ${a.titulo}`));
 L.push(`Página: ${SITE}/pauta/${DATA}/`);
 if (tiktok) L.push(ex('pauta/' + DATA + '/tiktok/tiktok-narrado.mp4') ? 'TikTok já narrado.' : 'TikTok ainda sem narração: mande os áudios até 11h ou poste o vídeo mudo com música.');
-if (testesHoje.length) L.push('Teste do dia: ' + testesHoje.map(t => t.id === 'tiktok-18h' ? 'TikTok às ' + t.hora.tiktok : t.id === 'sem-hashtag' ? 'legendas sem hashtag' : t.id === 'reel-teste' ? 'Reel de teste com o gancho B' : t.id).join(', ') + '.');
+if (testesHoje.length) L.push('Teste do dia: ' + testesHoje.map(t => t.id === 'sem-hashtag' ? 'legendas sem hashtag' : t.id === 'reel-teste' ? 'Reel de teste com o gancho B' : (t.hora && typeof t.hora === 'object') ? Object.entries(t.hora).map(([k, v]) => ({ tiktok: 'TikTok', reels: 'Reels', feed: 'feed' }[k] || k) + ' às ' + v).join(' e ') : t.id).join(', ') + '.');
 L.push('Os alarmes do calendário tocam 5 minutos antes de cada horário.');
 if (avisosLog.length) L.push('Atenção: ' + avisosLog.join('; ') + '.');
 if (apagados) L.push(`(limpeza: ${apagados} arquivos de mídia com mais de 7 dias apagados)`);

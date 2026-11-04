@@ -8,17 +8,18 @@
  "credito": "Arte: Goldspan Dragon, Andrew Mar",
  "fx": "Reais pela cotação de 3 nov (Banco Central, PTAX)",
  "legenda": "Commander, deck de dragões: qual dragão não sai do seu?\nTop 5 #4 da Fonte de Mana, fora os lendários:\n5. Savage Ventmaw, 98 mil decks\n4. Utvara Hellkite, 108 mil decks\n3. Ancient Silver Dragon, 112 mil decks\n2. Terror of the Peaks, 264 mil decks\n1. Goldspan Dragon, 328 mil decks\nDragões da página de Dragões do EDHREC, em ordem de decks no site. Preços do Scryfall. Reais pela cotação de 3 nov (Banco Central, PTAX).\nFaltou algum? Qual seria o seu número 1?\nfontedemana.com.br\n#dragoes #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
- "comentario": "Qual é o seu número 1: Goldspan Dragon, Terror of the Peaks, Ancient Silver Dragon, Utvara Hellkite ou Savage Ventmaw? Ou faltou algum? Lista com preços em fontedemana.com.br",
+ "comentario": "Goldspan Dragon ou Terror of the Peaks: qual é o número 1 no seu deck? Toda quinta tem um Top 5 novo da Fonte de Mana. Lista com preços em fontedemana.com.br",
  "cenas": [
   {
-   "tipo": "gancho",
+   "tipo": "rosto",
    "cor": "R",
    "chip": "Top 5 #4",
    "kicker": "Commander, deck de dragões",
    "titulo": "5 dragões que não podem faltar",
    "sub": "O número 1 está em 328 mil decks no EDHREC",
-   "narracao": "Cinco dragões que não podem faltar no seu deck. O primeiro está em 328 mil.",
-   "segundos": 6.2
+   "narracao": "Cinco dragões que não podem faltar no seu deck.",
+   "gravar": "Olhando para a câmera, com uma carta de dragão na mão se tiver (o Goldspan, se for o seu); diga a frase e pare.",
+   "segundos": 3.9
   },
   {
    "tipo": "carta",
@@ -85,5 +86,13 @@
    "narracao": "E o um: Goldspan Dragon. Cada tesouro dele dá duas manas.",
    "segundos": 4.7
   }
- ]
+ ],
+ "ganchoB": {
+  "chip": "Top 5 #4",
+  "kicker": "Deck de dragões no Commander",
+  "titulo": "O dragão que está em 328 mil decks",
+  "sub": "E os outros 4 que não podem faltar",
+  "narracao": "O dragão mais jogado do Commander está em 328 mil decks. E tem mais quatro.",
+  "segundos": 6.2
+ }
 }

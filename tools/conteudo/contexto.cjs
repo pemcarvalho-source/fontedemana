@@ -152,15 +152,25 @@ if (!SO_PUB) {
       if (a.cuidado) out.push('  Cuidado: ' + a.cuidado);
     }
     if (p.def.formato) out.push('Formato: ' + p.def.formato + ' (detalhes e exemplos em tools/conteudo/FORMATOS.md)');
-    if ((plano.engajamento || []).length) out.push('Em toda peça: ' + plano.engajamento.join(' '));
+    // regra de engajamento pode ser texto ou {texto, desde, ate} (vale só na janela)
+    const engaj = (plano.engajamento || []).map(e => typeof e === 'string' ? e : (e && e.texto && (!e.desde || DATA >= e.desde) && (!e.ate || DATA <= e.ate) ? e.texto : null)).filter(Boolean);
+    if (engaj.length) out.push('Em toda peça: ' + engaj.join(' '));
     // molde v5 do vídeo e das legendas (só a partir de desde)
     const vale = b => !!(b && b.desde && DATA >= b.desde);
     if (vale(plano.video)) {
       const longo = (plano.video.longos || []).includes(p.id);
       out.push(`Vídeo (molde desde ${plano.video.desde}; ponha "pilar": "${p.id}" no roteiro.json): ${plano.video.regras.join(' ')} Teto para este pilar: ${longo ? plano.video.segundosLongos : plano.video.segundos[1]} s de fala, ${plano.video.cenas[0]} a ${plano.video.cenas[1]} cenas. O tiktok.cjs confere os limites e acusa cena parada.`);
     }
-    if (vale(plano.rosto) && vale(plano.video) && ((plano.rosto.pilares || []).includes(p.id) || (p.ajuste && p.ajuste.rosto))) out.push(`Paulo no vídeo (cena do tipo rosto, desde ${plano.rosto.desde}; formato no tools/pauta/LEIA.md): ${plano.rosto.regras.join(' ')} No aviso de gravação, cada linha do roteiro leva "como" (o que ele faz e mostra na cena, com "Rosto" ou "Só a voz"), e os passos levam estas dicas: ${plano.rosto.gravacao.join(' ')} Na mensagem final, diga logo na primeira linha que amanhã o Paulo aparece no vídeo e mande o roteiro cena a cena, com o que gravar em cada uma.`);
+    const R = plano.rosto || {}, rostoPilar = (R.pilares || []).includes(p.id) && (!(R.pilaresDesde || {})[p.id] || DATA >= R.pilaresDesde[p.id]);
+    const soCena1 = (R.soCena1 || []).includes(p.id) && !(p.ajuste && p.ajuste.rosto);
+    if (vale(plano.rosto) && vale(plano.video) && (rostoPilar || (p.ajuste && p.ajuste.rosto))) out.push(`Paulo no vídeo (cena do tipo rosto, desde ${plano.rosto.desde}; formato no tools/pauta/LEIA.md): ${soCena1 ? 'NESTE PILAR, SÓ A CENA 1 TEM O PAULO (ele fala o gancho para a câmera); todas as outras cenas seguem geradas, com a voz dele. ' : ''}${plano.rosto.regras.join(' ')} No aviso de gravação, cada linha do roteiro leva "como" (o que ele faz e mostra na cena, com "Rosto" ou "Só a voz"), e os passos levam estas dicas: ${plano.rosto.gravacao.join(' ')} Na mensagem final, diga logo na primeira linha que amanhã o Paulo aparece no vídeo e mande o roteiro cena a cena, com o que gravar em cada uma.`);
     if (vale(plano.legenda)) out.push('Legendas: ' + plano.legenda.regras.join(' '));
+    const cx = plano.carrosselExtra;
+    if (cx && cx.desde && DATA >= cx.desde && cx.dia === p.dia && cx.pilar !== p.id && (plano.pilares || {})[cx.pilar] && !p.visita) {
+      const def = plano.pilares[cx.pilar], usadosCx = usadosDaFila(), filaCx = (plano.filas || {})[def.fila || cx.pilar] || [];
+      const livresCx = filaCx.filter(x => ![...usadosCx].some(u => u.includes(x.toLowerCase())));
+      out.push(`CARROSSEL DO DIA: o carrossel original de hoje (original.json) é um caso do ${def.nome} (pilar "${cx.pilar}"), não o tema do vídeo. ${cx.motivo} ${cx.nota || ''} O vídeo (roteiro.json, TikTok e Reels) segue o pilar do dia acima; o Threads segue o carrossel. No original.json, "pilar": "${cx.pilar}". O que é: ${def.oQue} Fontes: ${def.fontes}${def.formato ? ' Formato: ' + def.formato : ''} Próximos itens livres da fila: ${livresCx.slice(0, 3).join(' | ') || 'fila vazia, escolha um caso novo'}. Não repita o caso da sexta anterior.`);
+    }
     const teste = (plano.testes || []).find(t => t.id === 'reel-teste' && (t.dias || []).includes(DATA));
     if (teste && vale(plano.video)) out.push('Reel de teste neste dia: escreva também "ganchoB" no roteiro.json (outro gancho para o mesmo vídeo, com título e fala diferentes da cena 1, mesmo tipo gancho) e acrescente ao aviso de gravação a linha "Cena 1B (gancho do Reel de teste)" com a fala do ganchoB, para ser gravada por último como cena_1b. Mede: ' + teste.mede);
     if (p.def.fila) {

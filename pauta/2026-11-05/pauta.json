@@ -7,8 +7,8 @@
       "dia": "2026-11-04",
       "hora": "19:15",
       "rede": "Gravação",
-      "titulo": "Gravar a narração do TikTok de amanhã",
-      "oQue": "Top 5 #4: os 5 dragões que não podem faltar em um deck de dragões no Commander. Seis cenas curtas, uns 27 s de fala. Um áudio por cena, lendo a fala de cada uma.",
+      "titulo": "Gravar o vídeo de amanhã (você aparece)",
+      "oQue": "Top 5 #4: os 5 dragões que não podem faltar em um deck de dragões no Commander. Você aparece só na cena 1, falando o gancho para a câmera (novo no Top 5, aprovado hoje). Nas cenas 2 a 6 entra só a sua voz por baixo das cartas. Por último, o gancho do Reel de teste das 18:40 (cena_1b), só a voz.",
       "arquivos": [
         {
           "nome": "Vídeo mudo",
@@ -17,41 +17,57 @@
       ],
       "roteiro": [
         {
-          "cena": "Cena 1, uns 5 s",
-          "tela": "Top 5 #4, Commander, deck de dragões, 5 dragões que não podem faltar, O número 1 está em 328 mil decks no EDHREC",
-          "fala": "Cinco dragões que não podem faltar no seu deck. O primeiro está em 328 mil."
+          "cena": "Cena 1, rosto, uns 3 s",
+          "tela": "Top 5 #4, Commander, deck de dragões, 5 dragões que não podem faltar",
+          "fala": "Cinco dragões que não podem faltar no seu deck.",
+          "como": "Rosto: Olhando para a câmera, com uma carta de dragão na mão se tiver (o Goldspan, se for o seu); diga a frase e pare."
         },
         {
-          "cena": "Cena 2, uns 4 s",
+          "cena": "Cena 2, só a voz, uns 4 s",
           "tela": "#5, 98 mil decks no EDHREC, US$ 0,50 (R$ 2,75), Atacou, ganhou seis manas",
-          "fala": "Cinco: Savage Ventmaw. Atacou, ganha seis manas."
+          "fala": "Cinco: Savage Ventmaw. Atacou, ganha seis manas.",
+          "como": "Só a voz: pode gravar em vídeo ou áudio"
         },
         {
-          "cena": "Cena 3, uns 4 s",
+          "cena": "Cena 3, só a voz, uns 4 s",
           "tela": "#4, 108 mil decks no EDHREC, US$ 5,03 (R$ 27,63), Dragão atacou, nasce outro 6/6",
-          "fala": "Quatro: Utvara Hellkite. Dragão atacou, nasce outro 6/6."
+          "fala": "Quatro: Utvara Hellkite. Dragão atacou, nasce outro 6/6.",
+          "como": "Só a voz: pode gravar em vídeo ou áudio"
         },
         {
-          "cena": "Cena 4, uns 4 s",
+          "cena": "Cena 4, só a voz, uns 4 s",
           "tela": "#3, 112 mil decks no EDHREC, US$ 43,82 (R$ 240,70), Bateu, rola um d20 e compra",
-          "fala": "Três: Ancient Silver Dragon. Bateu, rola um d20 e compra."
+          "fala": "Três: Ancient Silver Dragon. Bateu, rola um d20 e compra.",
+          "como": "Só a voz: pode gravar em vídeo ou áudio"
         },
         {
-          "cena": "Cena 5, uns 4 s",
+          "cena": "Cena 5, só a voz, uns 4 s",
           "tela": "#2, 264 mil decks no EDHREC, US$ 30,35 (R$ 166,71), Criatura entrou, vira dano",
-          "fala": "Dois: Terror of the Peaks. Criatura entrou, vira dano."
+          "fala": "Dois: Terror of the Peaks. Criatura entrou, vira dano.",
+          "como": "Só a voz: pode gravar em vídeo ou áudio"
         },
         {
-          "cena": "Cena 6, uns 4 s",
+          "cena": "Cena 6, só a voz, uns 4 s",
           "tela": "#1, 328 mil decks no EDHREC, US$ 11,94 (R$ 65,59), Cada tesouro vale duas manas",
-          "fala": "E o um: Goldspan Dragon. Cada tesouro dele dá duas manas."
+          "fala": "E o um: Goldspan Dragon. Cada tesouro dele dá duas manas.",
+          "como": "Só a voz: pode gravar em vídeo ou áudio"
+        },
+        {
+          "cena": "Cena 1B (gancho do Reel de teste)",
+          "tela": "Deck de dragões no Commander, O dragão que está em 328 mil decks, E os outros 4 que não podem faltar",
+          "fala": "O dragão mais jogado do Commander está em 328 mil decks. E tem mais quatro.",
+          "como": "Só a voz: pode gravar em vídeo ou áudio"
         }
       ],
       "passos": [
-        "Abra o Gravador do iPhone num lugar silencioso, com o celular a um palmo da boca.",
-        "Grave um áudio por cena, lendo a fala do roteiro, sem pressa e com energia.",
-        "Nomeie os áudios cena_1, cena_2, cena_3, cena_4, cena_5 e cena_6.",
-        "Mande os áudios ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"áudios do TikTok de 2026-11-05\"."
+        "Celular na vertical, câmera da frente, na altura dos olhos, a um braço de distância.",
+        "Rosto no meio da tela e o terço de cima livre: é onde entra o título.",
+        "Luz de frente (de frente para a janela) e fundo arrumado; a estante de cartas é ótima.",
+        "Desligue o Vídeo HDR (Ajustes, Câmera, Gravar Vídeo) para as cores não lavarem.",
+        "Um vídeo por cena, falando para a câmera, com meio segundo de silêncio antes e depois; nomeie cena_1, cena_2... e mande todos juntos.",
+        "Nas cenas sem rosto, só a voz conta: pode gravar em vídeo ou só o áudio.",
+        "Grave por último o gancho do Reel de teste (cena 1B, só a voz) e nomeie cena_1b; mande junto com os outros.",
+        "Mande os vídeos e áudios ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"vídeos do TikTok de 2026-11-05\"."
       ]
     },
     {
@@ -73,7 +89,7 @@
         },
         {
           "rotulo": "Comentário fixado",
-          "texto": "Qual é o seu número 1: Goldspan Dragon, Terror of the Peaks, Ancient Silver Dragon, Utvara Hellkite ou Savage Ventmaw? Ou faltou algum? Lista com preços em fontedemana.com.br"
+          "texto": "Goldspan Dragon ou Terror of the Peaks: qual é o número 1 no seu deck? Toda quinta tem um Top 5 novo da Fonte de Mana. Lista com preços em fontedemana.com.br"
         }
       ],
       "passos": [
