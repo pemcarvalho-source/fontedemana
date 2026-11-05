@@ -1,0 +1,100 @@
+{
+ "n": 31,
+ "data": "5 nov",
+ "carrossel": {
+  "capa": {
+   "cor": "U",
+   "titulo": "Quinta calma, pré de Star Trek amanhã",
+   "sub": "Nenhum fato novo nesta quinta. Amanhã começa o <b>pré de Star Trek</b> nas lojas e na segunda abre a venda dos <b>Secret Lairs de Star Trek</b>.",
+   "credito": "Arte: Anticipate, Tyler Jacobson"
+  },
+  "cartoes": [
+   {
+    "cor": "W",
+    "titulo": "O que vem nos próximos dias",
+    "itens": [
+     {"cor": "W", "html": "<b>Hoje, 5 nov</b>: último dia da Commander Night em dupla de Reality Fracture nas lojas."},
+     {"cor": "G", "html": "<b>6 a 12 nov</b>: pré de Star Trek nas lojas."},
+     {"cor": "A", "html": "<b>9 nov</b>: venda dos Secret Lairs de Star Trek, com fila às 13h e venda às 14h em Brasília."},
+     {"cor": "G", "html": "<b>13 nov</b>: Star Trek chega às lojas e começa a MagicCon: Atlanta."}
+    ],
+    "fonte": "Fontes: Wizards e WPN"
+   }
+  ],
+  "topdeck": {
+   "titulo": "Eternal Witness",
+   "habilidades": [
+    {"rotulo": "Volta da mão", "texto": "Entrou no campo, uma carta qualquer do seu cemitério volta para a sua mão."},
+    {"rotulo": "Qualquer carta", "texto": "Remoção, terreno, ritual ou board wipe: não precisa ser criatura."},
+    {"rotulo": "Corpo 2/1", "texto": "Depois do gatilho, fica um bloqueador barato ou um sacrifício."}
+   ],
+   "extra": "Staple verde desde 2004. Está em <b>529 mil decks</b> no EDHREC e a de Ultimate Masters sai a US$ 1,94 (R$ 10,66). PTAX de 3 nov.",
+   "credito": "Ilustração de Chris Rahn"
+  },
+  "ban": {
+   "numero": "25",
+   "unidade": "DIAS",
+   "texto": "Próxima janela de banimentos em 30 de novembro. A de 12 de outubro passou sem mexer no Commander."
+  },
+  "turnos": [
+   {"cor": "W", "data": "5 nov", "texto": "Último dia da Commander Night em dupla"},
+   {"cor": "G", "data": "6 a 12 nov", "texto": "Pré de Star Trek nas lojas"},
+   {"cor": "A", "data": "9 nov", "texto": "Venda dos Secret Lairs de Star Trek"},
+   {"cor": "G", "data": "13 nov", "texto": "Star Trek chega às lojas"},
+   {"cor": "A", "data": "16 a 30 nov", "texto": "Secret Lair do Extra Life à venda"}
+  ],
+  "sussurro": null
+ },
+ "video": {
+  "cena1": {
+   "titulo": "Quinta calma, pré de Star Trek amanhã",
+   "pilulas": ["Pré de Star Trek", "Secret Lairs no dia 9", "Topdeck verde"]
+  },
+  "cena2": {
+   "rotulo": "Agenda",
+   "cor": "W",
+   "titulo": "O que vem nos próximos dias",
+   "itens": [
+    "Hoje, 5 nov: último dia da Commander Night em dupla.",
+    "De 6 a 12 nov: pré de Star Trek nas lojas.",
+    "Segunda, 9 nov: venda dos Secret Lairs de Star Trek."
+   ],
+   "fonte": "Fontes: Wizards e WPN"
+  },
+  "cena3": {
+   "linhas": [
+    "<b>Eternal Witness</b> devolve uma carta do cemitério para a mão.",
+    "Está em 529 mil decks no EDHREC.",
+    "E custa menos de 2 dólares."
+   ]
+  },
+  "cena4": {
+   "texto": "Faltam 25 dias para a próxima janela de banimentos. Antes, o pré de Star Trek nas lojas de 6 a 12 de novembro.",
+   "sussurro": null
+  }
+ },
+ "textos": {
+  "legendaCarrossel": "Commander de Magic nesta quinta: nenhum fato novo, e amanhã começa o pré de Star Trek.\n\nHoje é o último dia da Commander Night em dupla de Reality Fracture nas lojas. De 6 a 12 de novembro rola o pré de Star Trek, e no dia 9 abre a venda dos Secret Lairs de Star Trek, com fila às 13h e venda às 14h em Brasília. No dia 13, Star Trek chega às lojas.\n\nNo Topdeck, Eternal Witness, a staple verde de 2004 que devolve qualquer carta do cemitério para a mão. Está em 529 mil decks no EDHREC e a de Ultimate Masters sai a US$ 1,94 (R$ 10,66).\n\nQual carta você mais gosta de recomprar com a Eternal Witness?\n\nEdição completa em fontedemana.com.br\n\nArtes: Anticipate, de Tyler Jacobson. Eternal Witness, de Chris Rahn.\nValores em reais pela cotação de 3 nov (Banco Central, PTAX).\n\n#startrek #commander #mtg",
+  "legendaVideo": "Commander de Magic nesta quinta: pré de Star Trek a partir de amanhã, Secret Lairs de Star Trek no dia 9 e a Eternal Witness no Topdeck.\n\nQual carta você mais gosta de recomprar com a Eternal Witness?\n\nEdição completa em fontedemana.com.br\n\n#startrek #commander #mtg",
+  "threadsPost": "Quinta calma no Commander. Hoje é o último dia da Commander Night em dupla de Reality Fracture, amanhã começa o pré de Star Trek nas lojas e na segunda, dia 9, abre a venda dos Secret Lairs de Star Trek às 14h em Brasília. No Topdeck, Eternal Witness, em 529 mil decks no EDHREC, a US$ 1,94 (R$ 10,66). Vai no pré? fontedemana.com.br\nValores em reais pela cotação de 3 nov (Banco Central, PTAX).",
+  "threadsFio": [
+   "Quinta sem fato novo confirmado sobre Commander. A agenda é que está cheia.",
+   "Hoje é o último dia da Commander Night em dupla de Reality Fracture nas lojas. De 6 a 12 de novembro rola o pré de Star Trek.",
+   "Na segunda, 9 de novembro, abre a venda dos Secret Lairs de Star Trek, com fila às 13h e venda às 14h em Brasília. No dia 13, Star Trek chega às lojas.",
+   "No Topdeck, Eternal Witness: entra e devolve qualquer carta do cemitério para a mão. Está em 529 mil decks no EDHREC e sai a US$ 1,94 (R$ 10,66). Edição completa em fontedemana.com.br\nValores em reais pela cotação de 3 nov (Banco Central, PTAX)."
+  ],
+  "threadsAvulsos": [
+   {
+    "titulo": "Pergunta do dia",
+    "texto": "Eternal Witness na mesa: qual carta você recompra primeiro do cemitério?",
+    "obs": "Pergunta aberta, sem enquete"
+   }
+  ]
+ },
+ "pauta": {
+  "forca": "calmo",
+  "porque": "Quinta sem fato novo sobre Commander; o pré de Star Trek e os Secret Lairs já estavam na agenda.",
+  "storyPergunta": "Qual carta você recompra com a Eternal Witness?",
+  "enquete": {"pergunta": "Vai no pré de Star Trek?", "opcoes": ["Vou sim", "Só compro os precons", "Passo essa"]}
+ }
+}
