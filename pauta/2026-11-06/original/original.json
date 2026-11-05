@@ -1,0 +1,49 @@
+{
+  "data": "2026-11-06",
+  "pilar": "regra",
+  "item": "Dois comandantes (Partner): um imposto para cada",
+  "tema": "Chama o Juiz #4: dois comandantes (partner) pagam um imposto só ou um cada?",
+  "cartas": ["Krark, the Thumbless", "Sakashima of a Thousand Faces"],
+  "fx": null,
+  "carrossel": {
+    "capa": {"cor": "U", "chip": "Chama o Juiz #4", "kicker": "Dois comandantes no deck",
+             "titulo": "O Krark já custa <b>4 a mais</b>. E o Sakashima?",
+             "sub": "Deck com <b>partner</b>: o imposto de comandante é um só para os dois ou um para cada?",
+             "arte": "pauta/2026-11-06/tiktok/arte.jpg", "credito": "Arte: Sakashima of a Thousand Faces, Jason A. Engle"},
+    "cartoes": [
+      {"cor": "U", "titulo": "A situação",
+       "itens": [
+         {"cor": "U", "html": "Você lançou o <b>Krark</b> da zona de comando duas vezes. Agora vai lançar o <b>Sakashima</b> pela primeira vez. Quanto paga a mais?"},
+         {"cor": "U", "html": "<b>A)</b> Dois a mais, o imposto é dividido"},
+         {"cor": "U", "html": "<b>B)</b> Quatro a mais, igual ao Krark"},
+         {"cor": "U", "html": "<b>C)</b> Nada, cada um tem o seu"}
+       ],
+       "nota": {"rotulo": "Antes de arrastar", "texto": "pensa na sua resposta."},
+       "fonte": "Fonte: Regras Abrangentes, 903.8"},
+      {"cor": "G", "titulo": "Resposta: letra C",
+       "itens": [
+         {"cor": "G", "html": "O imposto é de <b>cada comandante</b>: 2 a mais por vez que <i>aquele</i> comandante já saiu da zona de comando."},
+         {"cor": "G", "html": "O Krark segue com 4 a mais. O Sakashima sai pelo custo normal na primeira vez."}
+       ],
+       "nota": {"rotulo": "Na mesa", "texto": "um dado ou um marcador para cada comandante evita briga."},
+       "fonte": "Fonte: Regras Abrangentes 903.8 e ruling oficial"},
+      {"cor": "R", "titulo": "O erro comum", "carta": "pauta/2026-11-06/original/carta-1.jpg",
+       "itens": [
+         {"cor": "R", "html": "Somar as vezes dos dois e cobrar o total do próximo que sair."},
+         {"cor": "R", "html": "Cada um conta o seu, desde o começo da partida."}
+       ],
+       "fonte": "Fonte: ruling oficial das cartas com partner"},
+      {"cor": "U", "titulo": "E o dano de comandante?", "carta": "pauta/2026-11-06/original/carta-2.jpg",
+       "itens": [
+         {"cor": "U", "html": "Também é separado: perde quem toma <b>21 de um deles</b>."},
+         {"cor": "U", "html": "15 do Krark e 10 do Sakashima não matam ninguém."}
+       ],
+       "fonte": "Fonte: ruling oficial das cartas com partner"}
+    ],
+    "cta": {"pergunta": "Você teria acertado <b>de primeira</b>?", "quando": "Toda sexta tem um Chama o Juiz novo", "salvar": "Salva para mostrar na próxima mesa com partner"}
+  },
+  "legenda": "Commander com dois comandantes (partner): o imposto é um só ou um para cada?\n\nKrark já saiu duas vezes da zona de comando. Agora o Sakashima sai pela primeira vez. Paga quanto a mais? Arrasta para ver a resposta, a regra e o erro que quase toda mesa comete.\n\nFonte: Regras Abrangentes 903.8 e ruling oficial das cartas com partner.\nMais regra e notícia de Magic no fontedemana.com.br\n\nE aí, qual é a certa?\n\n#partner #commander #mtg",
+  "threads": {"texto": "Chama o Juiz: seu deck tem dois comandantes com partner, Krark e Sakashima. O Krark já saiu duas vezes da zona de comando. Agora você lança o Sakashima pela primeira vez. Quanto paga a mais?\n\nA) Dois, o imposto é dividido\nB) Quatro, igual ao Krark\nC) Nada, cada um tem o seu\n\nQual é a certa?",
+              "obs": "Resposta às 15h: C. Cada comandante tem o seu imposto (Regras Abrangentes 903.8 e ruling oficial)."},
+  "enquete": {"pergunta": "Partner: o imposto de comandante é...", "opcoes": ["Um para cada", "Somado", "Dividido"]}
+}
