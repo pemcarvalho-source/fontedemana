@@ -1,6 +1,7 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "Eternal Witness",
   "Sword of Truth and Justice",
   "Mystic Remora",
   "Sheoldred, Whispering One",
@@ -29,6 +30,13 @@ window.MANA_POOL_INDEX = {
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 31,
+   "date": "2026-11-05",
+   "dateLabel": "Quinta, 5 de novembro de 2026",
+   "head": "Dia calmo no Multiverso",
+   "biome": "U"
+  },
   {
    "n": 30,
    "date": "2026-11-04",
