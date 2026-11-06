@@ -1,5 +1,5 @@
 {
-  "versao": "2026-11-06 v5.8",
+  "versao": "2026-11-06 v5.8.1",
   "comentario": "Plano editorial da Fonte de Mana. Lido por tools/conteudo/contexto.cjs (tarefa da noite), tools/pauta/manha.cjs (tarefa da manhã) e tools/pauta/tiktok.cjs (molde do vídeo). A explicação completa está em tools/conteudo/ESTRATEGIA.md, os formatos (com as referências que inspiraram cada um) em tools/conteudo/FORMATOS.md e a revisão semanal em tools/conteudo/REVISAO.md. Ciclo de 3 semanas: a letra da semana é ciclo.semanas[(semana ISO + ciclo.deslocamento) % 3]. Datas comemorativas em datas: de e ate como MM-DD (todo ano) ou AAAA-MM-DD (só aquele ano); no dia, pilarNoDia troca o pilar do calendário. Os blocos video, reels, threads, legenda, audio, conversa, rosto e isca valem para datas a partir de desde (antes disso, tudo segue como na v4). plantao: eventos com dia marcado para a fase plantao do orquestrador; o tools/conteudo/plantao.cjs mostra o do dia com --qual. testes: de e ate (ou dias) em AAAA-MM-DD; hora troca o horário da grade nesses dias.",
 
   "ciclo": {"semanas": ["A", "B", "C"], "deslocamento": 2, "nota": "Semana ISO 42 (12 a 18 out 2026) = C a partir de sexta 16, 43 = A, 44 = B, 45 = C. Semana C traz os formatos novos de 15 out."},
@@ -140,7 +140,7 @@
         "Raridades: 200 comuns, 100 incomuns, 10 raras e 12 fichas; 13 foils. Coleções que mais aparecem: The Hobbit (63), Edge of Eternities (38), Secrets of Strixhaven (31) e Double Masters (23).",
         "Curiosidades: as duas cartas mais valiosas do lote estão em chinês (Sea Gate Loremaster e Turntimber Ranger, raras de Zendikar); 14 cartas são da The List.",
         "O que virou deck: 29 cartas do lote estão no Vito 500, o deck de Duel Commander 500 do Paulo (teto de R$ 500 pela LigaMagic). Somam R$ 14,72 na LigaMagic, e 11 delas estão em chinês.",
-        "A série continua: no sábado 14/11, a Vitrine das sleeves que vieram no pacote (double sleeve); no domingo 15/11, quanto vale o plástico bolha."
+        "A série continua: no sábado 14/11, o Vito 500 depois da estreia no DC500 de 11/11; no domingo 15/11, quanto vale o plástico bolha; no sábado 21/11, o double sleeve com as sleeves do pacote."
       ],
       "clipes": [
         "extras/lote/lote-01-bolha.mp4 (5,5 s: o maço de cartas na mão, com o plástico bolha embaixo; Edge of Eternities)",
@@ -157,17 +157,26 @@
     },
     {
       "dia": "2026-11-14",
-      "pilar": "vitrine",
-      "motivo": "A Vitrine de 31/10 deu o sábado ao Ashling no DC500 (troca pedida pelo Paulo em 29/10) e passou para este dia; o DC500 deste sábado já saiu em 31/10.",
+      "pilar": "dc500",
       "rosto": true,
-      "tema": "Do zero à mesa: double sleeve com as sleeves que vieram no pacote da gringa",
+      "motivo": "Série Do zero à mesa, combinada com o Paulo em 6/11: ele estreia o Vito 500 no Duel Commander 500 da loja MTG Brasil na quarta 11/11, e o sábado seguinte conta o deck e o resultado, como foi com o Ashling em 31/10. A Vitrine do double sleeve foi para 21/11, o sábado de Vitrine do calendário.",
+      "tema": "Do zero à mesa #3: o Vito 500, deck de campeonato com 29 cartas que vieram de graça",
       "material": [
-        "No mesmo pacote das cartas da gringa vieram 2 pacotes de sleeves Perfect Fit (ICO, 64 x 89 mm) e 1 caixa de Dragon Shield Ember com 60 sleeves. O Paulo conferiu: as Dragon Shield servem em carta de Magic.",
-        "Double sleeve: a sleeve justa (Perfect Fit) vai por dentro, colocada de cabeça para baixo, e a de fora (Dragon Shield) entra por cima. Protege carta cara como a Teferi's Protection e o Edgar Markov que vieram no mesmo pacote.",
-        "Faz parte da série Do zero à mesa (o #1 saiu em 9/11 com a abertura do lote)."
+        "RESULTADO DO TORNEIO de 11/11: o Paulo conta na conversa do projeto, e esta linha é atualizada antes da noite de 13/11. Se a linha ainda estiver assim, a peça é o deck, dizendo só que ele estreou no DC500 da MTG Brasil em 11/11, sem placar e sem dizer que ganhou.",
+        "O formato: Duel Commander 500, 1x1, 20 de vida, lista com teto de R$ 500 pela LigaMagic. O Edgar Markov, comandante do Corte Carmesim, é banido como comandante no Duel Commander; por isso o Paulo montou um deck novo, mono-preto, com o Vito, Thorn of the Dusk Rose, só com cartas que ele já tinha.",
+        "O preço: R$ 473,07 na LigaMagic pelo menor preço (a LigaMagic mostra o comandante a R$ 0,00), folga de R$ 26,93. De onde vêm as 65 cartas que não são terreno básico: 29 do lote do plástico bolha, 23 do Corte Carmesim e 13 do fichário antigo. As 29 do lote somam R$ 14,72 na LigaMagic, e 11 delas estão em chinês. Sem a Lembas (R$ 9,79) e o Ichor Wellspring (R$ 2,00), as outras 27 somam R$ 2,93: quase um terço do deck de campeonato custou centavos.",
+        "O motor: o Vito diz \"sempre que você ganha vida, o oponente alvo perde essa mesma quantidade\". Os drenos do deck (Blood Artist, Vengeful Bloodwitch e Susurian Voidborn, que veio no lote) disparam quando uma criatura morre: o oponente perde 1 e você ganha 1, e o Vito transforma esse 1 de ganho em mais 1 de perda. Cada sacrifício vira 2 de dano. Os sacrifícios vêm de Viscera Seer, Yahenni, Culling Dais (do lote), Skull Catapult, Swarm Culler (do lote) e Ashnod's Altar.",
+        "Para fechar: com a Exquisite Blood em campo, o Vito forma um laço que só para quando o oponente chega a zero. O mesmo laço com o Sanguine Bond foi o Combo da semana #1 (28/10): cite em uma cena, com o Vito no lugar do Sanguine Bond, sem repetir a explicação.",
+        "Cartas do lote que viraram peça do deck: Susurian Voidborn, Culling Dais, Swarm Culler, Gravpack Monoist, Gollum the Abandoned, Gothmog, Walk the Plank, Gravkill e Virus Beetle, entre outras.",
+        "Pedido do Paulo para conteúdo de combo: mostrar as cartas na tela, a ordem de jogar e a sequência dos gatilhos."
       ],
-      "sugestao": "Vídeo com o Paulo nas cenas de mão: ele coloca a Perfect Fit e depois a Dragon Shield numa carta, em até 3 cenas rosto, e o resto em cenas geradas com o preço das sleeves (com fonte de loja brasileira ou do site da marca, como pede o pilar). Sem citar o preço pago na gringa.",
-      "cuidado": "Nunca diga de que país vieram as cartas: só \"comprei na gringa\" ou \"no exterior\"; se alguém perguntar, \"um amigo trouxe de viagem\". Nunca mostre nem descreva prints de carrinho, pedido ou loja."
+      "clipes": [
+        "extras/lote/lote-07-gravkill.mp4 (4 s: Gravpack Monoist e Gravkill, duas das 29 cartas do lote que estão no Vito 500)",
+        "extras/lote/lote-02-mesa-foil.mp4 (5 s: cartas na mesa; o Walk the Plank, do deck, aparece no começo)",
+        "extras/lote/lote-01-bolha.mp4 (5,5 s: o maço de cartas na mão, com o plástico bolha embaixo)"
+      ],
+      "sugestao": "Vídeo (TikTok e Reels; neste sábado o Reels sai às 21h): cena 1 rosto com o Paulo segurando o Vito, com o resultado do torneio ou, sem placar, \"Um terço do meu deck de campeonato veio de graça.\"; depois o motor em cenas carta (Vito, um dreno, um sacrifício) com a ordem dos gatilhos, um clipe das cartas do lote e o preço contra o teto; fecho com a pergunta aberta. Carrossel: o deck por função (motor, sacrifício, dreno, fechamento), com o preço e a origem das cartas. Threads: \"Dá para montar deck de campeonato com R$ 500?\". Na legenda e no aviso do feed, a loja MTG Brasil marcada como local. Chip \"Do zero à mesa #3\".",
+      "cuidado": "Nunca diga de que país vieram as cartas: só \"comprei na gringa\" ou \"no exterior\"; se alguém perguntar, \"um amigo trouxe de viagem\". Nunca mostre nem descreva prints de carrinho, pedido ou loja. Nunca cite nem mostre os adversários do torneio (nomes, rostos, prints do app). Não diga que ganhou o torneio nem a posição sem o Paulo ter dito. O Vito já apareceu no Top 5 de vampiros (22/10): o assunto aqui é o deck dele, não a carta."
     },
     {
       "dia": "2026-11-15",
@@ -195,6 +204,20 @@
       ],
       "sugestao": "Vídeo: cena 1 rosto com o Paulo (a pergunta: \"Quanto vale um plástico bolha de 323 cartas?\"), depois cenas clipe e carta com as mais valiosas (o Sea Gate Loremaster em chinês primeiro, pela surpresa) e o fecho com a lição de mercado contra venda. Carrossel para salvar: capa com a pergunta, uma tela com o total, as 5 mais valiosas, a curiosidade do Echo e a tela da lição. Threads: \"Carta em chinês no seu deck: joga ou troca?\". Chip \"Do zero à mesa #2\".",
       "cuidado": "Nunca diga de que país vieram as cartas: só \"comprei na gringa\" ou \"no exterior\"; se alguém perguntar, \"um amigo trouxe de viagem\". Nunca mostre nem descreva prints de carrinho, pedido ou loja. Valor de mercado não é valor de venda: carta de granel vende por bem menos, então nada de \"ganhei R$ X\". Carta em chinês não tem cotação própria: o valor citado é o da mesma impressão em inglês, e a peça diz isso. As cartas são autênticas (o Paulo conferiu) e isso pode ser dito. O combo Exquisite Blood e Sanguine Bond já saiu em 28/10: não explique de novo."
+    },
+    {
+      "dia": "2026-11-21",
+      "pilar": "vitrine",
+      "rosto": true,
+      "motivo": "Série Do zero à mesa: a Vitrine do double sleeve, que estava em 14/11, veio para o sábado de Vitrine do calendário quando o Vito 500 ficou com o dia 14/11 (combinado com o Paulo em 6/11).",
+      "tema": "Do zero à mesa: double sleeve com as sleeves que vieram no pacote da gringa",
+      "material": [
+        "No mesmo pacote das cartas da gringa vieram 2 pacotes de sleeves Perfect Fit (ICO, 64 x 89 mm) e 1 caixa de Dragon Shield Ember com 60 sleeves. O Paulo conferiu: as Dragon Shield servem em carta de Magic.",
+        "Double sleeve: a sleeve justa (Perfect Fit) vai por dentro, colocada de cabeça para baixo, e a de fora (Dragon Shield) entra por cima. Protege carta cara como a Teferi's Protection e o Edgar Markov que vieram no mesmo pacote.",
+        "Faz parte da série Do zero à mesa (o #1 saiu em 9/11 com a abertura do lote e o #3 em 14/11 com o Vito 500)."
+      ],
+      "sugestao": "Vídeo com o Paulo nas cenas de mão: ele coloca a Perfect Fit e depois a Dragon Shield numa carta, em até 3 cenas rosto, e o resto em cenas geradas com o preço das sleeves (com fonte de loja brasileira ou do site da marca, como pede o pilar). Sem citar o preço pago na gringa.",
+      "cuidado": "Nunca diga de que país vieram as cartas: só \"comprei na gringa\" ou \"no exterior\"; se alguém perguntar, \"um amigo trouxe de viagem\". Nunca mostre nem descreva prints de carrinho, pedido ou loja."
     }
   ],
   "carrosselExtra": {"desde": "2026-11-09", "dia": "seg", "pilar": "regra", "motivo": "Revisão de 2/11, aprovada pelo Paulo em 4/11: o Chama o Juiz tem o maior valor do Instagram (compartilhamentos e salvamentos por alcance) em duas revisões seguidas. Na segunda, o carrossel original é um segundo caso do Chama o Juiz; o vídeo e o Threads seguem o pilar da segunda. Segunda das 12h às 15h é um dos picos do recap de outubro.", "nota": "O carrossel extra só vai para o feed em dia calmo (força do dia); em dia forte fica no banco, como todo original."},
