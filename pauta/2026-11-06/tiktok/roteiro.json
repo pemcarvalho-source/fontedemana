@@ -1,83 +1,84 @@
 {
-  "data": "2026-11-06",
-  "pilar": "regra",
-  "tema": "Chama o Juiz #4: dois comandantes (partner) pagam um imposto só ou um cada?",
-  "item": "Dois comandantes (Partner): um imposto para cada",
-  "arte": "pauta/2026-11-06/tiktok/arte.jpg",
-  "carta": "pauta/2026-11-06/tiktok/carta.jpg",
-  "credito": "Arte: Sakashima of a Thousand Faces, Jason A. Engle",
-  "fx": null,
-  "legenda": "Commander com dois comandantes (partner): o imposto é um só ou um para cada?\n\nKrark já saiu duas vezes da zona de comando. Agora vem o Sakashima pela primeira vez. Paga quanto a mais? A resposta e a regra estão no vídeo.\n\nFonte: Regras Abrangentes 903.8 e ruling oficial das cartas com partner.\nTodo dia tem mais no fontedemana.com.br\n\nE aí, qual é a certa?\n\n#partner #commander #mtg",
-  "comentario": "Você achava que o imposto era somado ou separado? Toda sexta tem um Chama o Juiz novo.",
-  "cenas": [
-    {
-      "tipo": "rosto",
-      "cor": "G",
-      "chip": "Chama o Juiz #4",
-      "kicker": "Dois comandantes",
-      "titulo": "O Krark já custa 4 a mais. E o Sakashima?",
-      "narracao": "Lancei o Krark duas vezes. E o Sakashima, paga imposto?",
-      "gravar": "Sem carta na mão: aponte para baixo à esquerda ao dizer Krark e para baixo à direita ao dizer Sakashima. A carta entra onde você apontar.",
-      "segundos": 4.3
-    },
-    {
-      "tipo": "quiz",
-      "cor": "U",
-      "chip": "Valendo",
-      "kicker": "Chama o Juiz",
-      "titulo": "1ª vez do Sakashima na partida. Quanto a mais?",
-      "opcoes": [
-        "Dois a mais, imposto dividido",
-        "Quatro a mais, igual ao Krark",
-        "Nada, cada um tem o seu"
-      ],
-      "contagem": 5,
-      "narracao": "O Krark já saiu duas vezes da zona de comando. Primeira vez do Sakashima: quanto a mais? Qual é a certa?",
-      "segundos": 8.4
-    },
-    {
-      "tipo": "resposta",
-      "cor": "U",
-      "chip": "Resposta",
-      "kicker": "Chama o Juiz",
-      "titulo": "Nada a mais: cada comandante tem o seu imposto",
-      "opcoes": [
-        "Dois a mais, imposto dividido",
-        "Quatro a mais, igual ao Krark",
-        "Nada, cada um tem o seu"
-      ],
-      "certa": "C",
-      "sub": "O imposto conta as vezes que aquele comandante saiu da zona de comando. O do Krark não passa para o Sakashima.",
-      "fonte": "Regras Abrangentes, 903.8, e ruling oficial",
-      "narracao": "Letra C. Cada comandante tem o seu imposto. O do Krark fica nele.",
-      "segundos": 5.4
-    },
-    {
-      "tipo": "carta",
-      "cor": "U",
-      "chip": "Bônus",
-      "kicker": "E o dano de comandante?",
-      "carta": "pauta/2026-11-06/tiktok/carta-1.jpg",
-      "titulo": "Também é separado",
-      "sub": "São 21 de um deles, não dos dois somados",
-      "narracao": "Dano de comandante também: são 21 de um deles, não dos dois somados.",
-      "segundos": 5.4
-    },
-    {
-      "tipo": "cta",
-      "cor": "M",
-      "kicker": "Toda sexta no Chama o Juiz",
-      "titulo": "Você teria acertado de primeira?",
-      "destaque": "@fontedemana",
-      "narracao": "Toda sexta tem uma regra nova aqui.",
-      "segundos": 3.2
-    }
-  ],
-  "ganchoB": {
-    "chip": "Chama o Juiz #4",
-    "kicker": "Partner no Commander",
-    "titulo": "Dois comandantes, um imposto só?",
-    "narracao": "Dois comandantes no deck. O imposto é um só ou um para cada?",
-    "segundos": 5.4
+ "data": "2026-11-06",
+ "pilar": "regra",
+ "tema": "Chama o Juiz #4: dois comandantes (partner) pagam um imposto só ou um cada?",
+ "item": "Dois comandantes (Partner): um imposto para cada",
+ "arte": "pauta/2026-11-06/tiktok/arte.jpg",
+ "carta": "pauta/2026-11-06/tiktok/carta.jpg",
+ "credito": "Arte: Sakashima of a Thousand Faces, Jason A. Engle",
+ "fx": null,
+ "legenda": "Commander com dois comandantes (partner): o imposto é um só ou um para cada?\n\nKrark já saiu duas vezes da zona de comando. Agora vem o Sakashima pela primeira vez. Paga quanto a mais? A resposta e a regra estão no vídeo.\n\nFonte: Regras Abrangentes 903.8 e ruling oficial das cartas com partner.\nTodo dia tem mais no fontedemana.com.br\n\nE aí, qual é a certa?\n\n#partner #commander #mtg",
+ "comentario": "Você achava que o imposto era somado ou separado? Toda sexta tem um Chama o Juiz novo.",
+ "cenas": [
+  {
+   "tipo": "rosto",
+   "cor": "G",
+   "chip": "Chama o Juiz #4",
+   "kicker": "Dois comandantes",
+   "titulo": "O Krark já custa 4 a mais. E o Sakashima?",
+   "narracao": "Lancei o Krark duas vezes. E o Sakashima, paga imposto?",
+   "gravar": "Sem carta na mão: aponte para baixo à esquerda ao dizer Krark e para baixo à direita ao dizer Sakashima. A carta entra onde você apontar.",
+   "segundos": 4.3
+  },
+  {
+   "tipo": "quiz",
+   "cor": "U",
+   "chip": "Valendo",
+   "kicker": "Chama o Juiz",
+   "titulo": "1ª vez do Sakashima na partida. Quanto a mais?",
+   "opcoes": [
+    "Dois a mais, imposto dividido",
+    "Quatro a mais, igual ao Krark",
+    "Nada, cada um tem o seu"
+   ],
+   "contagem": 5,
+   "narracao": "O Krark já saiu duas vezes da zona de comando. Primeira vez do Sakashima: quanto a mais? Qual é a certa?",
+   "segundos": 8.4
+  },
+  {
+   "tipo": "resposta",
+   "cor": "U",
+   "chip": "Resposta",
+   "kicker": "Chama o Juiz",
+   "titulo": "Nada a mais: cada comandante tem o seu imposto",
+   "opcoes": [
+    "Dois a mais, imposto dividido",
+    "Quatro a mais, igual ao Krark",
+    "Nada, cada um tem o seu"
+   ],
+   "certa": "C",
+   "sub": "O imposto conta as vezes que aquele comandante saiu da zona de comando. O do Krark não passa para o Sakashima.",
+   "fonte": "Regras Abrangentes, 903.8, e ruling oficial",
+   "narracao": "Letra C. Cada comandante tem o seu imposto. O do Krark fica nele.",
+   "segundos": 5.4
+  },
+  {
+   "tipo": "carta",
+   "cor": "U",
+   "chip": "Bônus",
+   "kicker": "E o dano de comandante?",
+   "carta": "pauta/2026-11-06/tiktok/carta-1.jpg",
+   "titulo": "Também é separado",
+   "sub": "São 21 de um deles, não dos dois somados",
+   "narracao": "Dano de comandante também: são 21 de um deles, não dos dois somados.",
+   "segundos": 5.4
+  },
+  {
+   "tipo": "cta",
+   "cor": "M",
+   "kicker": "Toda sexta no Chama o Juiz",
+   "titulo": "Você teria acertado de primeira?",
+   "destaque": "@fontedemana",
+   "narracao": "Toda sexta tem uma regra nova aqui.",
+   "segundos": 3.2
   }
+ ],
+ "ganchoB": {
+  "chip": "Chama o Juiz #4",
+  "kicker": "Partner no Commander",
+  "titulo": "Dois comandantes, um imposto só?",
+  "narracao": "Dois comandantes no deck. O imposto é um só ou um para cada?",
+  "segundos": 5.4
+ },
+ "rostoGravado": true
 }
