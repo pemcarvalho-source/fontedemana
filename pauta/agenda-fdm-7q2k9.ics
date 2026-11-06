@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-11-03-gravacao@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261102T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -59,7 +59,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-tiktok@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261103T210000Z
 DURATION:PT15M
 SUMMARY:18:00 TikTok: Dicionário do Commander #4\, a pilha
@@ -91,7 +91,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-threads-manha@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261103T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Dicionário do Commander #4: o que é a pilh
@@ -116,7 +116,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-stories-manha@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261103T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -136,7 +136,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-feed@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261103T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Dicionário do Commander #4: o que é a pilha
@@ -175,7 +175,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261103T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -194,7 +194,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-threads-tarde@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261103T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -219,7 +219,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-stories-tarde@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261103T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -239,7 +239,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-reels@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261103T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Dicionário do Commander #4: o que é
@@ -275,7 +275,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-03-comentarios@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261104T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -297,7 +297,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-gravacao@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261103T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -343,7 +343,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-tiktok@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261104T210000Z
 DURATION:PT15M
 SUMMARY:18:00 TikTok: Matemática da Mesa #1\, quantos terrenos
@@ -376,7 +376,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-threads-manha@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261104T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Qual dessas entra no seu deck de Co
@@ -399,7 +399,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-stories-manha@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261104T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -419,7 +419,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-feed@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261104T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 30
@@ -461,7 +461,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261104T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -480,7 +480,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-threads-tarde@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261104T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -505,7 +505,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-stories-tarde@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261104T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -525,7 +525,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-reels@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261104T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Matemática da Mesa #1: 36\, 37 ou 38
@@ -563,7 +563,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-reels-teste@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261104T214000Z
 DURATION:PT15M
 SUMMARY:18:40 Reels: Reel de teste: o vídeo de hoje com o gancho B
@@ -603,7 +603,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-comentarios@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261105T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -625,7 +625,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-gravacao@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261104T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -683,7 +683,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-tiktok@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261105T210000Z
 DURATION:PT15M
 SUMMARY:18:00 TikTok: Postar o Top 5 dos dragões no TikTok
@@ -717,7 +717,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-threads-manha@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261105T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Top 5 #4: os dragões que não podem faltar 
@@ -742,7 +742,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-feed@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261105T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Top 5 #4: os dragões que não podem faltar e
@@ -786,7 +786,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261105T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -805,7 +805,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-stories-tarde@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261105T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -825,7 +825,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-reels@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261105T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Top 5 #4: os dragões que não podem 
@@ -863,7 +863,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-reels-teste@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261105T214000Z
 DURATION:PT15M
 SUMMARY:18:40 Reels: Reel de teste: o vídeo de hoje com o gancho B
@@ -902,7 +902,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-comentarios@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261106T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -924,7 +924,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-gravacao@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261105T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -981,7 +981,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-tiktok@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261106T210000Z
 DURATION:PT15M
 SUMMARY:18:00 TikTok: Postar o Chama o Juiz #4 no TikTok
@@ -1009,7 +1009,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-threads-manha@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261106T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Chama o Juiz #4: dois comandantes (partner) 
@@ -1035,7 +1035,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-feed@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261106T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Chama o Juiz #4: dois comandantes (partner) p
@@ -1073,7 +1073,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261106T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -1092,7 +1092,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-stories-tarde@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261106T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1112,7 +1112,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-reels@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261106T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Chama o Juiz #4: dois comandantes (pa
@@ -1148,7 +1148,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-reels-teste@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261106T214000Z
 DURATION:PT15M
 SUMMARY:18:40 Reels: Reel de teste: o vídeo de hoje com o gancho B
@@ -1185,7 +1185,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-comentarios@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261107T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1207,7 +1207,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-gravacao@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261106T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -1263,34 +1263,33 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-tiktok@fontedemana.com.br
-DTSTAMP:20261106T212706Z
+DTSTAMP:20261106T222640Z
 DTSTART:20261107T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: TikTok: Top 5 cartas antigas que voltaram a valer
 DESCRIPTION:Vídeo original do dia (Top 5 #5). A mesma legenda e o mesmo v
- ídeo vão para o Reels das 19:00.\n\nArquivos:\n- Vídeo do TikTok (mudo)
- : https://fontedemana.com.br/pauta/2026-11-07/tiktok/tiktok-mudo.mp4\n\nLe
- genda:\nCartas antigas de Magic que voltaram a valer no Commander: qual de
- las ainda está no seu fichário?\n\nTop 5 por número de decks no EDHREC\
- , com o preço da impressão original:\n5. Phyrexian Altar (Invasion\, 200
- 0): US$ 61\,18 (R$ 335\,13)\n4. Enlightened Tutor (Mirage\, 1996): US$ 38\
- ,36 (R$ 210\,13)\n3. Doubling Season (Ravnica\, 2005): US$ 41\,51 (R$ 227\
- ,38)\n2. Phyrexian Arena (Apocalypse\, 2001): US$ 19\,43 (R$ 106\,43)\n1. 
- Rhystic Study (Prophecy\, 2000): US$ 65\,76 (R$ 360\,22)\, e era comum\n\n
- Decks: EDHREC\, nov 2026. Preços: Scryfall\, impressão original sem foil
- . Reimpressões saem mais baratas.\nReais pela cotação de 4 nov (Banco C
- entral\, PTAX).\nMais em fontedemana.com.br\n\n#rhysticstudy #commander #m
- tg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Cont
- ent Policy. Not approved/endorsed by Wizards. Portions of the materials us
- ed are property of Wizards of the Coast. ©Wizards of the Coast LLC.\n\nCo
- mentário fixado:\nRhystic Study ou Doubling Season: qual das duas você d
- eixou no fichário?\nToda quinta tem um Top 5 novo aqui.\n\nPasso a passo:
- \n1. Poste com um som em alta da biblioteca do TikTok\, com volume entre 1
- 5% e 20%.\n2. Voz própria não precisa de rótulo de IA.\n3. Fixe o comen
- tário logo depois de postar.\n4. Se os vídeos da narração não chegare
- m\, poste o vídeo mudo com música em alta.\n\nValores em reais pela cota
- ção de 4 nov (Banco Central\, PTAX).\n\nPauta completa: https://fontedem
- ana.com.br/pauta/2026-11-07/#tiktok
+ ídeo vão para o Reels das 19:00.\n\nArquivos:\n- Vídeo do TikTok narrad
+ o: https://fontedemana.com.br/pauta/2026-11-07/tiktok/tiktok-narrado.mp4\n
+ \nLegenda:\nCartas antigas de Magic que voltaram a valer no Commander: qua
+ l delas ainda está no seu fichário?\n\nTop 5 por número de decks no EDH
+ REC\, com o preço da impressão original:\n5. Phyrexian Altar (Invasion\,
+  2000): US$ 61\,18 (R$ 335\,13)\n4. Enlightened Tutor (Mirage\, 1996): US$
+  38\,36 (R$ 210\,13)\n3. Doubling Season (Ravnica\, 2005): US$ 41\,51 (R$ 
+ 227\,38)\n2. Phyrexian Arena (Apocalypse\, 2001): US$ 19\,43 (R$ 106\,43)\
+ n1. Rhystic Study (Prophecy\, 2000): US$ 65\,76 (R$ 360\,22)\, e era comum
+ \n\nDecks: EDHREC\, nov 2026. Preços: Scryfall\, impressão original sem 
+ foil. Reimpressões saem mais baratas.\nReais pela cotação de 4 nov (Ban
+ co Central\, PTAX).\nMais em fontedemana.com.br\n\n#rhysticstudy #commande
+ r #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan 
+ Content Policy. Not approved/endorsed by Wizards. Portions of the material
+ s used are property of Wizards of the Coast. ©Wizards of the Coast LLC.\n
+ \nComentário fixado:\nRhystic Study ou Doubling Season: qual das duas voc
+ ê deixou no fichário?\nToda quinta tem um Top 5 novo aqui.\n\nPasso a pa
+ sso:\n1. Poste com um som em alta da biblioteca do TikTok\, com volume ent
+ re 15% e 20%.\n2. Voz própria não precisa de rótulo de IA.\n3. Fixe o c
+ omentário logo depois de postar.\n\nValores em reais pela cotação de 4 
+ nov (Banco Central\, PTAX).\n\nPauta completa: https://fontedemana.com.br/
+ pauta/2026-11-07/#tiktok
 URL:https://fontedemana.com.br/pauta/2026-11-07/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
