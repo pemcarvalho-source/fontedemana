@@ -7,15 +7,15 @@ MANA_POOL_ED(
  "coverage": "Notícias de 6 de novembro",
  "lead": {
   "title": "Resumo do Dia",
-  "flavor": "Hoje as caixas de pré se abrem. Cada pacote é uma pergunta, e a mesa quer as respostas."
+  "flavor": "Hoje começa o pré. Terra nova à vista, e cada pacote é um caminho para explorar."
  },
  "art": {
-  "biome": "B",
+  "biome": "G",
   "seed": 32,
-  "label": "Booster Tutor",
-  "card": "Booster Tutor",
-  "artist": "Christopher Rush",
-  "uri": "https://scryfall.com/card/unh/51/booster-tutor",
+  "label": "Explore",
+  "card": "Explore",
+  "artist": "John Avon",
+  "uri": "https://scryfall.com/card/wwk/99/explore",
   "image": "img/ed32-art.jpg"
  },
  "summary": [

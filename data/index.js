@@ -36,7 +36,7 @@ window.MANA_POOL_INDEX = {
    "date": "2026-11-06",
    "dateLabel": "Sexta, 6 de novembro de 2026",
    "head": "Dia calmo no Multiverso",
-   "biome": "B"
+   "biome": "G"
   },
   {
    "n": 31,
