@@ -1,0 +1,43 @@
+{
+  "data": "2026-11-07",
+  "pilar": "top5",
+  "item": "Cartas antigas que voltaram a valer no Commander (para quem parou de jogar)",
+  "tema": "Top 5 #5: cartas antigas que voltaram a valer no Commander",
+  "cartas": ["Phyrexian Altar", "Enlightened Tutor", "Doubling Season", "Phyrexian Arena", "Rhystic Study"],
+  "fx": "Valores em reais pela cotação de 4 nov (Banco Central, PTAX).",
+  "carrossel": {
+    "capa": {"cor": "M", "chip": "Top 5 #5", "kicker": "Para quem parou de jogar",
+             "titulo": "5 cartas antigas que hoje valem <b>até R$ 360</b>",
+             "sub": "Saíram entre 1996 e 2005 e hoje estão em <b>centenas de milhares</b> de decks de Commander. Confere o fichário.",
+             "arte": "pauta/2026-11-07/tiktok/arte.jpg", "credito": "Arte: Rhystic Study, Terese Nielsen"},
+    "cartoes": [
+      {"cor": "A", "titulo": "Nº 5: Phyrexian Altar", "carta": "pauta/2026-11-07/original/carta-1.jpg",
+       "itens": [{"cor": "A", "html": "Invasion, 2000. <b>374 mil decks</b>. Sacrifica uma criatura e ganha um mana de qualquer cor."},
+                 {"cor": "A", "html": "Original: <b>US$ 61,18 (R$ 335,13)</b>. Peça de combo em deck de fichas e aristocratas."}],
+       "fonte": "Fonte: EDHREC e Scryfall, nov 2026"},
+      {"cor": "W", "titulo": "Nº 4: Enlightened Tutor", "carta": "pauta/2026-11-07/original/carta-2.jpg",
+       "itens": [{"cor": "W", "html": "Mirage, 1996. <b>485 mil decks</b>. Por um mana, busca um artefato ou encantamento e põe no topo."},
+                 {"cor": "W", "html": "Original: <b>US$ 38,36 (R$ 210,13)</b>. Está na lista de Game Changers."}],
+       "fonte": "Fonte: EDHREC e Scryfall, nov 2026"},
+      {"cor": "G", "titulo": "Nº 3: Doubling Season", "carta": "pauta/2026-11-07/original/carta-3.jpg",
+       "itens": [{"cor": "G", "html": "Ravnica, 2005. <b>511 mil decks</b>. Dobra as fichas e os marcadores que você cria."},
+                 {"cor": "G", "html": "Original: <b>US$ 41,51 (R$ 227,38)</b>. Planeswalker entra com o dobro de lealdade."}],
+       "fonte": "Fonte: EDHREC e Scryfall, nov 2026"},
+      {"cor": "B", "titulo": "Nº 2: Phyrexian Arena", "carta": "pauta/2026-11-07/original/carta-4.jpg",
+       "itens": [{"cor": "B", "html": "Apocalypse, 2001. <b>599 mil decks</b>. Uma carta a mais todo turno, pagando 1 de vida."},
+                 {"cor": "B", "html": "Original: <b>US$ 19,43 (R$ 106,43)</b>. Com 40 de vida, o preço quase não pesa."}],
+       "fonte": "Fonte: EDHREC e Scryfall, nov 2026"},
+      {"cor": "U", "titulo": "Nº 1: Rhystic Study", "carta": "pauta/2026-11-07/original/carta-5.jpg",
+       "itens": [{"cor": "U", "html": "Prophecy, 2000, e <b>era comum</b>. <b>713 mil decks</b>. Oponente joga mágica e não paga 1? Você compra."},
+                 {"cor": "U", "html": "Original: <b>US$ 65,76 (R$ 360,22)</b>. Game Changer."}],
+       "fx": "Reimpressões saem mais baratas. Reais pela cotação de 4 nov (Banco Central, PTAX).",
+       "fonte": "Fonte: EDHREC e Scryfall, nov 2026"}
+    ],
+    "cta": {"pergunta": "Qual dessas ainda está <b>no seu fichário</b>?",
+            "quando": "Top 5 novo toda quinta",
+            "salvar": "Salva para conferir a pasta antiga antes de vender ou trocar"}
+  },
+  "legenda": "Cartas antigas de Magic que voltaram a valer no Commander: qual delas ainda está no seu fichário?\n\nSe você jogou nos anos 2000 e voltou pelo Commander, vale abrir a pasta. Top 5 por número de decks no EDHREC, com o preço da impressão original:\n\n5. Phyrexian Altar (Invasion, 2000): 374 mil decks, US$ 61,18 (R$ 335,13)\n4. Enlightened Tutor (Mirage, 1996): 485 mil decks, US$ 38,36 (R$ 210,13)\n3. Doubling Season (Ravnica, 2005): 511 mil decks, US$ 41,51 (R$ 227,38)\n2. Phyrexian Arena (Apocalypse, 2001): 599 mil decks, US$ 19,43 (R$ 106,43)\n1. Rhystic Study (Prophecy, 2000): 713 mil decks, US$ 65,76 (R$ 360,22). Era comum!\n\nFontes: EDHREC (decks, nov 2026) e Scryfall (preço sem foil da primeira impressão). Reimpressões saem mais baratas. Valores em reais pela cotação de 4 nov (Banco Central, PTAX).\n\nMais no fontedemana.com.br\n\nFaltou alguma? Qual seria a sua número 1?\n\n#rhysticstudy #commander #mtg",
+  "threads": {"texto": "Quem jogou Magic nos anos 2000 e voltou pelo Commander: qual carta você achou no fichário velho que hoje vale mais do que você imaginava?\n\nA Rhystic Study saiu como comum em 2000 e hoje a impressão original passa de 360 reais. Phyrexian Altar, Doubling Season e Enlightened Tutor vão pelo mesmo caminho.\n\nE qual você vendeu barato e se arrepende até hoje?", "obs": "Enquete: Achei carta valiosa no fichário / Vendi tudo antes / Nunca parei de jogar"},
+  "enquete": {"pergunta": "Você ainda tem cartas dos anos 2000?", "opcoes": ["Tenho o fichário", "Vendi tudo", "Comecei depois"]}
+}
