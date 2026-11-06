@@ -24,7 +24,7 @@
           "cena": "Cena 1, rosto, uns 4 s",
           "tela": "O Krark já custa 4 a mais. E o Sakashima?",
           "fala": "Lancei o Krark duas vezes. E o Sakashima, paga imposto?",
-          "como": "Rosto: Olhando para a câmera, uma carta de comandante em cada mão (se tiver, Krark e Sakashima), levanta uma e depois a outra, com cara de dúvida."
+          "como": "Rosto: Sem carta na mão: aponte para baixo à esquerda ao dizer Krark e para baixo à direita ao dizer Sakashima. A carta entra onde você apontar."
         },
         {
           "cena": "Cena 2, só a voz, uns 7 s e contagem",
@@ -54,10 +54,11 @@
           "cena": "Cena 1B (gancho do Reel de teste)",
           "tela": "Dois comandantes, um imposto só?",
           "fala": "Dois comandantes no deck. O imposto é um só ou um para cada?",
-          "como": "Rosto: mesmo jeito da cena 1, olhando para a câmera com as duas cartas na mão, e outra fala"
+          "como": "Rosto: olhando para a câmera, aponte para baixo à esquerda e depois para baixo à direita enquanto fala"
         }
       ],
       "passos": [
+        "Cena 1 sem cartas na mão: ao dizer Krark, aponte com o dedo para o canto de baixo à esquerda e segure 1 s; ao dizer Sakashima, aponte para o canto de baixo à direita. Na montagem, cada carta aparece onde você apontou.",
         "Celular na vertical, câmera da frente, na altura dos olhos, a um braço de distância.",
         "Rosto no meio da tela e o terço de cima livre: é onde entra o título.",
         "Luz de frente (de frente para a janela) e fundo arrumado; a estante de cartas é ótima.",
