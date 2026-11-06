@@ -1,6 +1,7 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "Jeska's Will",
   "Eternal Witness",
   "Sword of Truth and Justice",
   "Mystic Remora",
@@ -30,6 +31,13 @@ window.MANA_POOL_INDEX = {
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 32,
+   "date": "2026-11-06",
+   "dateLabel": "Sexta, 6 de novembro de 2026",
+   "head": "Dia calmo no Multiverso",
+   "biome": "B"
+  },
   {
    "n": 31,
    "date": "2026-11-05",
@@ -239,13 +247,6 @@ window.MANA_POOL_INDEX = {
    "dateLabel": "Quarta, 7 de outubro de 2026",
    "head": "Reality Fracture faz Nicol Bolas, Dragon-God sextuplicar de preço",
    "biome": "M"
-  },
-  {
-   "n": 1,
-   "date": "2026-10-06",
-   "dateLabel": "Terça, 6 de outubro de 2026",
-   "head": "God packs voltam a partir de 2027 e os boosters perdem os foils comuns",
-   "biome": "A"
   }
  ]
 };
