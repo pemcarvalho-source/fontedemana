@@ -1,0 +1,100 @@
+{
+ "n": 32,
+ "data": "6 nov",
+ "carrossel": {
+  "capa": {
+   "cor": "G",
+   "titulo": "Sexta calma, pré de Star Trek hoje",
+   "sub": "Nenhum fato novo nesta sexta. Hoje começa o <b>pré de Star Trek</b> nas lojas e na segunda abre a venda dos <b>Secret Lairs de Star Trek</b>.",
+   "credito": "Arte: Explore, John Avon"
+  },
+  "cartoes": [
+   {
+    "cor": "W",
+    "titulo": "O que vem nos próximos dias",
+    "itens": [
+     {"cor": "G", "html": "<b>6 a 12 nov</b>: pré de Star Trek nas lojas, a partir de hoje."},
+     {"cor": "A", "html": "<b>9 nov</b>: venda dos Secret Lairs de Star Trek, com fila às 13h e venda às 14h em Brasília."},
+     {"cor": "G", "html": "<b>13 nov</b>: Star Trek chega às lojas e começa a MagicCon: Atlanta."},
+     {"cor": "A", "html": "<b>16 a 30 nov</b>: venda do Secret Lair do Extra Life."}
+    ],
+    "fonte": "Fontes: Wizards e WPN"
+   }
+  ],
+  "topdeck": {
+   "titulo": "Jeska's Will",
+   "habilidades": [
+    {"rotulo": "Mana do oponente", "texto": "Uma mana vermelha para cada carta na mão do oponente que você escolher."},
+    {"rotulo": "Três do topo", "texto": "Exila as três do topo do grimório e você pode jogar todas neste turno."},
+    {"rotulo": "Os dois juntos", "texto": "Com o seu comandante no campo, você faz as duas coisas."}
+   ],
+   "extra": "Game Changer vermelho de 3 manas. Está em <b>590 mil decks</b> no EDHREC e a de Commander Legends sai a US$ 39,13 (R$ 214,35). PTAX de 4 nov.",
+   "credito": "Ilustração de Izzy"
+  },
+  "ban": {
+   "numero": "24",
+   "unidade": "DIAS",
+   "texto": "Próxima janela de banimentos em 30 de novembro. A de 12 de outubro passou sem mexer no Commander."
+  },
+  "turnos": [
+   {"cor": "G", "data": "6 a 12 nov", "texto": "Pré de Star Trek nas lojas"},
+   {"cor": "A", "data": "9 nov", "texto": "Venda dos Secret Lairs de Star Trek"},
+   {"cor": "G", "data": "13 nov", "texto": "Star Trek chega às lojas"},
+   {"cor": "A", "data": "16 a 30 nov", "texto": "Secret Lair do Extra Life à venda"},
+   {"cor": "W", "data": "20 a 26 nov", "texto": "Festa de Commander de Star Trek"}
+  ],
+  "sussurro": null
+ },
+ "video": {
+  "cena1": {
+   "titulo": "Sexta calma, pré de Star Trek hoje",
+   "pilulas": ["Pré de Star Trek", "Secret Lairs no dia 9", "Topdeck vermelho"]
+  },
+  "cena2": {
+   "rotulo": "Agenda",
+   "cor": "W",
+   "titulo": "O que vem nos próximos dias",
+   "itens": [
+    "De hoje a 12 nov: pré de Star Trek nas lojas.",
+    "Segunda, 9 nov: venda dos Secret Lairs de Star Trek.",
+    "Sexta, 13 nov: Star Trek chega às lojas."
+   ],
+   "fonte": "Fontes: Wizards e WPN"
+  },
+  "cena3": {
+   "linhas": [
+    "<b>Jeska's Will</b> vira mana e três cartas com o comandante.",
+    "Está em 590 mil decks no EDHREC.",
+    "E é um dos Game Changers."
+   ]
+  },
+  "cena4": {
+   "texto": "Faltam 24 dias para a próxima janela de banimentos. Antes, o pré de Star Trek nas lojas até 12 de novembro.",
+   "sussurro": null
+  }
+ },
+ "textos": {
+  "legendaCarrossel": "Commander de Magic nesta sexta: nenhum fato novo, e hoje começa o pré de Star Trek.\n\nDe 6 a 12 de novembro rola o pré de Star Trek nas lojas. Na segunda, dia 9, abre a venda dos Secret Lairs de Star Trek, com fila às 13h e venda às 14h em Brasília. No dia 13, Star Trek chega às lojas, e de 16 a 30 de novembro sai o Secret Lair do Extra Life.\n\nNo Topdeck, Jeska's Will, o feitiço vermelho que dá uma mana para cada carta na mão do oponente e ainda exila três do topo para jogar no turno, as duas coisas juntas se o seu comandante estiver no campo. Está em 590 mil decks no EDHREC e a de Commander Legends sai a US$ 39,13 (R$ 214,35).\n\nEm qual deck vermelho seu a Jeska's Will entra?\n\nEdição completa em fontedemana.com.br\n\nArtes: Explore, de John Avon. Jeska's Will, de Izzy.\nValores em reais pela cotação de 4 nov (Banco Central, PTAX).\n\n#startrek #commander #mtg",
+  "legendaVideo": "Commander de Magic nesta sexta: pré de Star Trek a partir de hoje, Secret Lairs de Star Trek no dia 9 e a Jeska's Will no Topdeck.\n\nEm qual deck vermelho seu a Jeska's Will entra?\n\nEdição completa em fontedemana.com.br\n\n#startrek #commander #mtg",
+  "threadsPost": "Sexta calma no Commander. Hoje começa o pré de Star Trek nas lojas, que vai até o dia 12, e na segunda, dia 9, abre a venda dos Secret Lairs de Star Trek às 14h em Brasília. No Topdeck, Jeska's Will, Game Changer vermelho em 590 mil decks no EDHREC, a US$ 39,13 (R$ 214,35). Vai no pré? fontedemana.com.br\nValores em reais pela cotação de 4 nov (Banco Central, PTAX).",
+  "threadsFio": [
+   "Sexta sem fato novo confirmado sobre Commander. A agenda é que está cheia.",
+   "Hoje começa o pré de Star Trek nas lojas, que vai até 12 de novembro. No dia 13, Star Trek chega às lojas.",
+   "Na segunda, 9 de novembro, abre a venda dos Secret Lairs de Star Trek, com fila às 13h e venda às 14h em Brasília.",
+   "No Topdeck, Jeska's Will: uma mana para cada carta na mão do oponente e três cartas do topo para jogar no turno, as duas com o comandante no campo. Está em 590 mil decks no EDHREC e sai a US$ 39,13 (R$ 214,35). Edição completa em fontedemana.com.br\nValores em reais pela cotação de 4 nov (Banco Central, PTAX)."
+  ],
+  "threadsAvulsos": [
+   {
+    "titulo": "Pergunta do dia",
+    "texto": "Jeska's Will na mão: você mira no oponente de mão cheia ou guarda para o turno do combo?",
+    "obs": "Pergunta aberta, sem enquete"
+   }
+  ]
+ },
+ "pauta": {
+  "forca": "calmo",
+  "porque": "Sexta sem fato novo sobre Commander; o pré de Star Trek e os Secret Lairs já estavam na agenda.",
+  "storyPergunta": "Em qual deck seu a Jeska's Will entra?",
+  "enquete": {"pergunta": "Vai no pré de Star Trek?", "opcoes": ["Vou sim", "Só compro os precons", "Passo essa"]}
+ }
+}
