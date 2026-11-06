@@ -68,6 +68,13 @@ Cena com o Paulo no vídeo (a partir de 26/10/2026, nos pilares de `plano.json` 
 
 Com o vídeo dele, a cena mostra o rosto em tela cheia com o kicker e o título numa caixa no terço de cima (`cena-N-rosto.png`) e dura o tempo da fala. Sem o vídeo, sai como cena de texto (ou de gancho, na cena 1). Kicker e título curtos: a caixa não pode descer até o meio da tela, senão o script recusa.
 
+Cena de clipe (desde 6/11/2026: um trecho de vídeo que o Paulo já gravou, como os do lote do plástico bolha em `extras/lote/`, quando a TROCA DO DIA lista os trechos):
+
+        {"tipo": "clipe", "cor": "G", "chip": (18, opcional), "kicker": (40), "titulo": (64), "video": "extras/lote/lote-01-bolha.mp4",
+         "inicio": segundo do trecho onde a cena começa (opcional, 0 se faltar), "narracao": (110)}
+
+O trecho entra no fundo, em 1080x1920, com o kicker e o título na caixa do terço de cima (como na cena rosto), e dura o tempo da fala; se a fala for mais longa que o trecho, ele recomeça. A voz é a da narração: no aviso de gravação, a linha da cena é "Só a voz". Kicker e título curtos, porque a caixa não pode descer até o meio da tela. Não conta no limite de cenas rosto.
+
 Cena de carta (uma carta grande na tela, com o preço logo abaixo):
 
         {"tipo": "carta", "cor": "A", "chip": (18, opcional), "kicker": (40), "carta": "pauta/AMANHA/tiktok/carta-1.jpg",

@@ -148,6 +148,7 @@ if (!SO_PUB) {
       out.push('TROCA DO DIA: ' + a.motivo + (a.tema ? ' O tema já está decidido: ' + a.tema + '. Ele vale acima da fila e da regra de não repetir carta.' : ''));
       (a.material || []).forEach(l => out.push('  ' + l));
       if ((a.fotos || []).length) out.push('  Fotos do Paulo (podem entrar no lugar da arte do Scryfall na capa e no fundo das cenas): ' + a.fotos.join(', '));
+      if ((a.clipes || []).length) out.push('  Trechos de vídeo do Paulo, para cenas do tipo clipe no roteiro (formato em tools/pauta/LEIA.md; o trecho entra no fundo com o título por cima e a voz é a da narração): ' + a.clipes.join(' | '));
       if (a.sugestao) out.push('  Sugestão de peça: ' + a.sugestao);
       if (a.cuidado) out.push('  Cuidado: ' + a.cuidado);
     }
@@ -169,7 +170,7 @@ if (!SO_PUB) {
     if (cx && cx.desde && DATA >= cx.desde && cx.dia === p.dia && cx.pilar !== p.id && (plano.pilares || {})[cx.pilar] && !p.visita) {
       const def = plano.pilares[cx.pilar], usadosCx = usadosDaFila(), filaCx = (plano.filas || {})[def.fila || cx.pilar] || [];
       const livresCx = filaCx.filter(x => ![...usadosCx].some(u => u.includes(x.toLowerCase())));
-      out.push(`CARROSSEL DO DIA: o carrossel original de hoje (original.json) é um caso do ${def.nome} (pilar "${cx.pilar}"), não o tema do vídeo. ${cx.motivo} ${cx.nota || ''} O vídeo (roteiro.json, TikTok e Reels) segue o pilar do dia acima; o Threads segue o carrossel. No original.json, "pilar": "${cx.pilar}". O que é: ${def.oQue} Fontes: ${def.fontes}${def.formato ? ' Formato: ' + def.formato : ''} Próximos itens livres da fila: ${livresCx.slice(0, 3).join(' | ') || 'fila vazia, escolha um caso novo'}. Não repita o caso da sexta anterior.`);
+      out.push(`CARROSSEL DO DIA: o carrossel original de hoje (original.json) é um caso do ${def.nome} (pilar "${cx.pilar}"), não o tema do vídeo. ${cx.motivo} ${cx.nota || ''} O vídeo (roteiro.json, TikTok e Reels) segue o pilar do dia acima; o Threads segue o carrossel, a não ser que a TROCA DO DIA diga outra coisa. No original.json, "pilar": "${cx.pilar}". O que é: ${def.oQue} Fontes: ${def.fontes}${def.formato ? ' Formato: ' + def.formato : ''} Próximos itens livres da fila: ${livresCx.slice(0, 3).join(' | ') || 'fila vazia, escolha um caso novo'}. Não repita o caso da sexta anterior.`);
     }
     const teste = (plano.testes || []).find(t => t.id === 'reel-teste' && (t.dias || []).includes(DATA));
     if (teste && vale(plano.video)) out.push('Reel de teste neste dia: escreva também "ganchoB" no roteiro.json (outro gancho para o mesmo vídeo, com título e fala diferentes da cena 1, mesmo tipo gancho) e acrescente ao aviso de gravação a linha "Cena 1B (gancho do Reel de teste)" com a fala do ganchoB, para ser gravada por último como cena_1b. Mede: ' + teste.mede);

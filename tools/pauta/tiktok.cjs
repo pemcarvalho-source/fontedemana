@@ -12,6 +12,8 @@
    arquivo dessa cena for um vídeo (o Paulo falando para a câmera), ele entra no lugar do quadro, com o título por cima
    (cena-N-rosto.png). Na narração, cada arquivo pode ser áudio ou vídeo; das cenas sem rosto, só a voz é usada.
    Cena "carta": uma carta grande na tela, com o preço logo abaixo (Top 5, Deck, listas de cartas: uma carta por cena).
+   Cena "clipe": um trecho de vídeo já gravado pelo Paulo (ex.: extras/lote/lote-01-bolha.mp4) no fundo, com o título por cima
+   como na cena rosto; a voz vem do áudio da narração, como nas cenas geradas. No vídeo mudo, o trecho entra sem som.
    Formato do roteiro.json em tools/pauta/LEIA.md. */
 'use strict';
 const fs = require('fs'), path = require('path'), os = require('os'), cp = require('child_process');
@@ -24,7 +26,7 @@ if (!/^\d{4}-\d{2}-\d{2}$/.test(DATA)) { console.error('Uso: node tools/pauta/ti
 const DIR = path.join(ROOT, 'pauta', DATA, 'tiktok');
 const FPS = 30, FADE = 0.4;
 const SEPS = [' · ', ' – ', ' — ', '—'];
-const TIPOS = ['gancho', 'lista', 'texto', 'cta', 'quiz', 'resposta', 'combo', 'rosto', 'carta'];
+const TIPOS = ['gancho', 'lista', 'texto', 'cta', 'quiz', 'resposta', 'combo', 'rosto', 'carta', 'clipe'];
 /* Zona segura no quadro de 1080x1920 (medida num iPhone em 17 out 2026 e conferida com o guia de zonas seguras do TikTok):
    o app amplia o vídeo para preencher a tela e corta as laterais, o zoom do movimento corta mais 26 px por lado,
    os botões ocupam a direita da metade de baixo e a legenda ocupa o rodapé. Texto entre x 120 e 880 e acima de y 1560. */
@@ -77,6 +79,11 @@ function validate(r) {
     req('WUBRGAM'.includes(c.cor || 'A') && String(c.cor || 'A').length === 1, n + '.cor inválida');
     len(c.narracao, falaMax(c, i), n + '.narracao');
     if (c.tipo === 'rosto') { req(RO, n + ': cena rosto só vale a partir de ' + ((PLANO.rosto || {}).desde || 'plano.json > rosto.desde')); len(c.gravar, 140, n + '.gravar (o que o Paulo mostra e faz na gravação)'); }
+    if (c.tipo === 'clipe') {
+      req(V, n + ': cena clipe só vale no molde novo (plano.json > video)');
+      req(typeof c.video === 'string' && exists(path.join(ROOT, c.video)) && temVideo(path.join(ROOT, c.video)), `${n}.video não encontrado ou sem imagem: ${c.video}`);
+      if (c.inicio != null) req(typeof c.inicio === 'number' && c.inicio >= 0, n + '.inicio precisa ser o segundo do trecho onde a cena começa (0 ou mais)');
+    }
     len(c.chip, 18, n + '.chip', true);
     len(c.kicker, 40, n + '.kicker');
     if (c.tipo !== 'lista') len(c.titulo, c.tipo === 'carta' ? 40 : 64, n + '.titulo', c.tipo === 'carta');
@@ -127,7 +134,7 @@ function validate(r) {
       const soma = est.reduce((a, b) => a + b, 0);
       const teto = (V.longos || []).includes(r.pilar) ? V.segundosLongos : V.segundos[1];
       req(soma <= teto + 2, `a fala soma uns ${soma.toFixed(0)} s (máximo ${teto} s${r.pilar ? ' para o pilar ' + r.pilar : ''}, sem contar a contagem): encurte as falas ou tire uma cena`);
-      r.cenas.forEach((c, i) => { if (c.tipo === 'rosto') return; const b = nBlocos(c), cada = est[i] / b; req(cada <= V.parado, `cena ${i + 1} fica uns ${cada.toFixed(1)} s com a mesma tela (${b} ${b > 1 ? 'partes' : 'parte'} para ${est[i].toFixed(1)} s de fala): encurte a fala, acrescente sub ou rodapé, ou divida em duas cenas`); });
+      r.cenas.forEach((c, i) => { if (c.tipo === 'rosto' || c.tipo === 'clipe') return; const b = nBlocos(c), cada = est[i] / b; req(cada <= V.parado, `cena ${i + 1} fica uns ${cada.toFixed(1)} s com a mesma tela (${b} ${b > 1 ? 'partes' : 'parte'} para ${est[i].toFixed(1)} s de fala): encurte a fala, acrescente sub ou rodapé, ou divida em duas cenas`); });
     }
   } else req(r.ganchoB == null, 'ganchoB só vale a partir de ' + ((PLANO.video || {}).desde || 'a data do molde novo'));
   // isca de engajamento (plano.json > isca, desde 26 out 2026): fala, tela, legenda e comentário sem "comenta X", "marca quem" ou "manda pro amigo"
@@ -344,12 +351,12 @@ async function renderFrames(r) {
     await shot(pageHTML(r, c, i, null), 'cena-' + tag, rotulo, true);
     if (V) for (let k = 1; k < nBlocos(c); k++) await shot(pageHTML(r, c, i, null, k), 'cena-' + tag + '-p' + k, rotulo, false);
     for (const n of contagemDe(c)) await shot(pageHTML(r, c, i, n), 'cena-' + tag + '-c' + n, rotulo, true);
-    if (c.tipo === 'rosto' && tag !== '1b') {
+    if ((c.tipo === 'rosto' || c.tipo === 'clipe') && tag !== '1b') {
       const f = path.join(tmp, 'cena-' + tag + '-rosto.html');
       fs.writeFileSync(f, overlayHTML(r, c));
       await pg.goto(furl(f)); await pg.evaluate(() => document.fonts.ready); await pg.waitForTimeout(250);
       const over = await pg.evaluate(() => { const b = document.querySelector('.ov'); return b ? b.getBoundingClientRect().bottom : 0; });
-      if (over > 960) throw new Error(`${rotulo}: o título por cima do vídeo desce até y ${Math.round(over)} e cobre o rosto; encurte o kicker ou o título`);
+      if (over > 960) throw new Error(`${rotulo}: o título por cima do vídeo desce até y ${Math.round(over)} e cobre o meio da tela; encurte o kicker ou o título`);
       await pg.screenshot({ path: overlayDe(i), type: 'png', omitBackground: true });
     }
     if (tag !== '1b') out.push(quadroDe(i));
@@ -399,6 +406,14 @@ function cenaRosto(f, overlay, tmp, k) {
   run(['-y', '-loglevel', 'error', '-ss', ini.toFixed(3), '-t', t, '-i', f, '-i', overlay, '-filter_complex', `[0:v]${sdr(f)}scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,setsar=1,fps=${FPS},format=yuv420p[f];[f][1:v]overlay=0:0:format=auto,format=yuv420p[v]`, '-map', '[v]', '-an', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '20', '-r', String(FPS), mp4]);
   run(['-y', '-loglevel', 'error', '-ss', ini.toFixed(3), '-t', t, '-i', f, '-vn', '-af', 'aresample=48000', '-ac', '2', wav]);
   return { video: mp4, audio: wav, segundos: dur(mp4) };
+}
+
+/* a cena clipe pronta: o trecho do vídeo, a partir de c.inicio, em 1080x1920, com o título por cima; repete se a fala for mais longa */
+function cenaClipe(c, overlay, tmp, k, segundos) {
+  const src = path.join(ROOT, c.video), D = dur(src), ini = Math.min(Math.max(0, c.inicio || 0), Math.max(0, D - 1));
+  const mp4 = path.join(tmp, 'k' + k + '.mp4');
+  run(['-y', '-loglevel', 'error', '-stream_loop', '-1', '-ss', ini.toFixed(3), '-i', src, '-i', overlay, '-filter_complex', `[0:v]${sdr(src)}scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,setsar=1,fps=${FPS},format=yuv420p[f];[f][1:v]overlay=0:0:format=auto,format=yuv420p[v]`, '-map', '[v]', '-an', '-t', (segundos + 1).toFixed(3), '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '20', '-r', String(FPS), mp4]);
+  return mp4;
 }
 
 /* ---------- vídeo ---------- */
@@ -508,6 +523,8 @@ function buildVideo(frames, lens, audios, out, conts) {
     if (!AUDIOS) {
       await renderFrames(r);
       const lens = r.cenas.map(c => estimate(c.narracao));
+      const tmpK = fs.mkdtempSync(path.join(os.tmpdir(), 'fdm-clipe-'));
+      r.cenas.forEach((c, i) => { if (c.tipo === 'clipe') { steps[i] = { video: cenaClipe(c, overlayDe(i), tmpK, i + 1, lens[i]) }; if (stepsB && i > 0) stepsB[i] = steps[i]; } });
       const total = buildVideoV(steps, lens, null, path.join(DIR, 'tiktok-mudo.mp4'), conts);
       let msgB = '';
       if (B) { const tB = buildVideoV(stepsB, [estimate(B.narracao)].concat(lens.slice(1)), null, path.join(DIR, 'tiktok-teste.mp4'), contsB); msgB = '; versão de teste com o gancho B, de ' + tB.toFixed(1) + ' s, em pauta/' + DATA + '/tiktok/tiktok-teste.mp4 (grave também a fala do gancho B como cena_1b)'; }
@@ -517,7 +534,7 @@ function buildVideo(frames, lens, audios, out, conts) {
       console.log('OK, ' + n + ' cenas em ' + nQuadros + ' quadros (cada parte entra em até ' + V.parado + ' s)' + (nConta ? ' com contagem de ' + nConta + ' s depois da pergunta' : '') + ', vídeo mudo de ' + total.toFixed(1) + ' s em pauta/' + DATA + '/tiktok/tiktok-mudo.mp4' + msgB);
     } else {
       if (AUDIOS.length !== n && !(B && AUDIOS.length === n + 1)) { console.log('ERROS:\n  mande um áudio por cena' + (B ? ' e, por último, o do gancho B' : '') + ': o roteiro tem ' + n + ' cenas' + (B ? ' mais o gancho B' : '') + ' e chegaram ' + AUDIOS.length + ' áudios'); process.exit(1); }
-      const overlays = r.cenas.map((c, i) => c.tipo === 'rosto' ? overlayDe(i) : null).filter(Boolean);
+      const overlays = r.cenas.map((c, i) => c.tipo === 'rosto' || c.tipo === 'clipe' ? overlayDe(i) : null).filter(Boolean);
       const todos = steps.concat(B ? [stepsB[0]] : []).every(s => s.every(exists)) && conts.every(l => l.every(exists)) && overlays.every(exists);
       if (!todos) await renderFrames(r);
       const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'fdm-narr-'));
@@ -533,6 +550,8 @@ function buildVideo(frames, lens, audios, out, conts) {
       const stepsN = steps.map((s, i) => prep[i].video ? { video: prep[i].video } : s);
       const lens = prep.slice(0, n).map(x => x.video ? x.segundos : dur(x.audio) + 0.8);
       const leads = prep.slice(0, n).map(x => x.video ? 0 : 0.35);
+      /* cena clipe: o trecho gravado entra no lugar do quadro, com a voz da narração por cima */
+      r.cenas.forEach((c, i) => { if (c.tipo === 'clipe' && !prep[i].video) stepsN[i] = { video: cenaClipe(c, overlayDe(i), tmp, i + 1, lens[i]) }; });
       const total = buildVideoV(stepsN, lens, principais, path.join(DIR, 'tiktok-narrado.mp4'), conts, leads);
       const comRosto = prep.slice(0, n).map((x, i) => x.video ? i + 1 : 0).filter(Boolean);
       const faltaRosto = r.cenas.map((c, i) => c.tipo === 'rosto' && !prep[i].video ? i + 1 : 0).filter(Boolean);
