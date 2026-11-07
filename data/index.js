@@ -1,6 +1,7 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "Werewolf Pack Leader",
   "Jeska's Will",
   "Eternal Witness",
   "Sword of Truth and Justice",
@@ -31,6 +32,13 @@ window.MANA_POOL_INDEX = {
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 33,
+   "date": "2026-11-07",
+   "dateLabel": "Sábado, 7 de novembro de 2026",
+   "head": "Weekly Winners: Gandalf, White Rider sobe 38% com a Denzilore Fatehold",
+   "biome": "A"
+  },
   {
    "n": 32,
    "date": "2026-11-06",
@@ -239,13 +247,6 @@ window.MANA_POOL_INDEX = {
    "date": "2026-10-08",
    "dateLabel": "Quinta, 8 de outubro de 2026",
    "head": "Dia calmo no Multiverso",
-   "biome": "M"
-  },
-  {
-   "n": 2,
-   "date": "2026-10-07",
-   "dateLabel": "Quarta, 7 de outubro de 2026",
-   "head": "Reality Fracture faz Nicol Bolas, Dragon-God sextuplicar de preço",
    "biome": "M"
   }
  ]
