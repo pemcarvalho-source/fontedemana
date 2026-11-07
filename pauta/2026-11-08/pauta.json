@@ -1,6 +1,6 @@
 {
  "data": "2026-11-08",
- "fx": "Valores em reais pela cotação de 5 nov (Banco Central, PTAX).",
+ "fx": null,
  "avisos": [
   {
    "id": "gravacao",
@@ -35,15 +35,15 @@
      "como": "Só a voz: pode gravar em vídeo ou áudio"
     },
     {
-     "cena": "Cena 4, só a voz, uns 5 s",
-     "tela": "Demonic Tutor, US$ 63,89 (R$ 348,97), 977 mil decks no EDHREC",
-     "fala": "A carta dele: Demonic Tutor. Dois manas, busca qualquer carta. Uns 350 reais.",
+     "cena": "Cena 4, só a voz, uns 7 s",
+     "tela": "Emeritus of Woe: Um Demonic Tutor dentro, e não é Game Changer",
+     "fala": "A carta dele: Emeritus of Woe. Já entra com um Demonic Tutor. E não é Game Changer.",
      "como": "Só a voz: pode gravar em vídeo ou áudio"
     },
     {
-     "cena": "Cena 5, só a voz, uns 6 s",
+     "cena": "Cena 5, só a voz, uns 4 s",
      "tela": "Bracket 2: zero Game Changer. Bracket 3: até três. Do 4 em diante, sem limite",
-     "fala": "Bracket é a escala oficial. No 2, nenhum Game Changer. No 3, até três.",
+     "fala": "No Bracket 2, nenhum Game Changer. No 3, até três.",
      "como": "Só a voz: pode gravar em vídeo ou áudio"
     },
     {
@@ -69,7 +69,7 @@
    "hora": "11:30",
    "rede": "TikTok",
    "titulo": "Postar o TikTok: Toda mesa tem um #2",
-   "oQue": "Vídeo do jogador que jura que o deck é casual, com o Demonic Tutor e a dica de dizer o bracket. O mesmo vídeo e a mesma legenda vão para o Reels das 19:00.",
+   "oQue": "Vídeo do jogador que jura que o deck é casual, com a Emeritus of Woe e a dica de dizer o bracket. O mesmo vídeo e a mesma legenda vão para o Reels das 19:00.",
    "arquivos": [
     {
      "nome": "Vídeo mudo (tiktok-mudo.mp4)",
@@ -79,11 +79,11 @@
    "textos": [
     {
      "rotulo": "Legenda",
-     "texto": "Commander: toda mesa tem um jogador que jura que o deck é casual. Quem é esse na sua mesa?\n\nEle diz que não tem combo, que o tutor é só pra achar terreno, e no turno 4 a mesa inteira cai.\nA carta que ele adora: Demonic Tutor, 2 manas para buscar qualquer carta. Está em 977 mil decks no EDHREC e é Game Changer.\nPreço: US$ 63,89 (R$ 348,97), Scryfall, Ultimate Masters.\n\nDica de mesa: no lugar de \"casual\", diga o bracket do deck. No Bracket 2 não entra Game Changer; no 3, até três (Wizards, Commander Brackets).\n\nReais pela cotação de 5 nov (Banco Central, PTAX).\nMais em fontedemana.com.br\n\n#demonictutor #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+     "texto": "Commander: toda mesa tem um jogador que jura que o deck é casual. Quem é esse na sua mesa?\n\nEle diz que não tem combo, que o tutor é só pra achar terreno, e no turno 4 a mesa inteira cai.\nA carta que ele adora: Emeritus of Woe, uma vampira de Secrets of Strixhaven que já entra com um Demonic Tutor pronto para usar. O Demonic Tutor está na lista de Game Changers. A Emeritus, não.\n\nDica de mesa: no lugar de \"casual\", diga o bracket do deck. No Bracket 2 não entra Game Changer; no 3, até três (Wizards, Commander Brackets).\n\nMais em fontedemana.com.br\n\n#demonictutor #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
     },
     {
      "rotulo": "Comentário fixado",
-     "texto": "Deck com Demonic Tutor ainda é casual: sim ou não?\nToda mesa tem um, a série dos jogadores que você conhece."
+     "texto": "Emeritus of Woe no deck casual: pode ou não pode?\nToda mesa tem um, a série dos jogadores que você conhece."
     }
    ],
    "passos": [

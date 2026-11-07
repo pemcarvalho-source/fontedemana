@@ -5,10 +5,10 @@
  "item": "O que jura que o deck é casual",
  "arte": "pauta/2026-11-08/tiktok/arte.jpg",
  "carta": "pauta/2026-11-08/tiktok/carta.jpg",
- "credito": "Arte: Demonic Tutor, Zack Stella",
- "fx": "Reais pela cotação de 5 nov (Banco Central, PTAX)",
- "legenda": "Commander: toda mesa tem um jogador que jura que o deck é casual. Quem é esse na sua mesa?\n\nEle diz que não tem combo, que o tutor é só pra achar terreno, e no turno 4 a mesa inteira cai.\nA carta que ele adora: Demonic Tutor, 2 manas para buscar qualquer carta. Está em 977 mil decks no EDHREC e é Game Changer.\nPreço: US$ 63,89 (R$ 348,97), Scryfall, Ultimate Masters.\n\nDica de mesa: no lugar de \"casual\", diga o bracket do deck. No Bracket 2 não entra Game Changer; no 3, até três (Wizards, Commander Brackets).\n\nReais pela cotação de 5 nov (Banco Central, PTAX).\nMais em fontedemana.com.br\n\n#demonictutor #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
- "comentario": "Deck com Demonic Tutor ainda é casual: sim ou não?\nToda mesa tem um, a série dos jogadores que você conhece.",
+ "credito": "Arte: Emeritus of Woe, Jodie Muir",
+ "fx": null,
+ "legenda": "Commander: toda mesa tem um jogador que jura que o deck é casual. Quem é esse na sua mesa?\n\nEle diz que não tem combo, que o tutor é só pra achar terreno, e no turno 4 a mesa inteira cai.\nA carta que ele adora: Emeritus of Woe, uma vampira de Secrets of Strixhaven que já entra com um Demonic Tutor pronto para usar. O Demonic Tutor está na lista de Game Changers. A Emeritus, não.\n\nDica de mesa: no lugar de \"casual\", diga o bracket do deck. No Bracket 2 não entra Game Changer; no 3, até três (Wizards, Commander Brackets).\n\nMais em fontedemana.com.br\n\n#demonictutor #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
+ "comentario": "Emeritus of Woe no deck casual: pode ou não pode?\nToda mesa tem um, a série dos jogadores que você conhece.",
  "cenas": [
   {
    "tipo": "rosto",
@@ -43,15 +43,13 @@
    "tipo": "carta",
    "cor": "B",
    "chip": "A carta dele",
-   "kicker": "Game Changer oficial",
+   "kicker": "Secrets of Strixhaven, 2026",
    "carta": "pauta/2026-11-08/tiktok/carta-1.jpg",
-   "titulo": "Demonic Tutor",
-   "valor": "US$ 63,89",
-   "real": "(R$ 348,97)",
-   "sub": "977 mil decks no EDHREC",
-   "fonte": "Scryfall e EDHREC, nov 2026",
-   "narracao": "A carta dele: Demonic Tutor. Dois manas, busca qualquer carta. Uns 350 reais.",
-   "segundos": 5.4
+   "titulo": "Emeritus of Woe",
+   "sub": "Um Demonic Tutor dentro, e não é Game Changer",
+   "fonte": "Scryfall e Wizards, nov 2026",
+   "narracao": "A carta dele: Emeritus of Woe. Já entra com um Demonic Tutor. E não é Game Changer.",
+   "segundos": 6.9
   },
   {
    "tipo": "texto",
@@ -60,8 +58,8 @@
    "titulo": "Bracket 2: zero Game Changer",
    "sub": "Bracket 3: até três. Do 4 em diante, sem limite",
    "rodape": "Fonte: Wizards, Commander Brackets",
-   "narracao": "Bracket é a escala oficial. No 2, nenhum Game Changer. No 3, até três.",
-   "segundos": 5.8
+   "narracao": "No Bracket 2, nenhum Game Changer. No 3, até três.",
+   "segundos": 4.3
   },
   {
    "tipo": "rosto",
