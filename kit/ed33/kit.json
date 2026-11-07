@@ -1,0 +1,191 @@
+{
+ "n": 33,
+ "data": "7 nov",
+ "carrossel": {
+  "capa": {
+   "cor": "A",
+   "titulo": "Gandalf, White Rider sobe 38% com a Denzilore",
+   "sub": "No Weekly Winners do MTGStocks, o Gandalf foi a <b>US$ 8,48</b>, e <b>Teferi's Imp</b>, da Reserved List, subiu 118% com um buyout.",
+   "credito": "Arte: Gandalf, White Rider, Ekaterina Burmak"
+  },
+  "cartoes": [
+   {
+    "cor": "A",
+    "titulo": "Quem mais subiu na semana",
+    "linhas": [
+     {
+      "nome": "Teferi's Imp",
+      "valor": "+118%",
+      "sub": "foi a US$ 2,40 (R$ 13,11)",
+      "porque": "buyout de umas 150 cópias, carta da Reserved List"
+     },
+     {
+      "nome": "Gandalf, White Rider",
+      "valor": "+38%",
+      "sub": "foi a US$ 8,48 (R$ 46,32)",
+      "porque": "vidência a cada mágica, combina com a Denzilore Fatehold"
+     }
+    ],
+    "nota": {
+     "rotulo": "No seu bolso",
+     "texto": "alta por buyout é frágil: tem Teferi's Imp parado? troque enquanto está em cima"
+    },
+    "fonte": "Fonte: MTGStocks, 6 nov. Reais: PTAX de 5 nov"
+   },
+   {
+    "cor": "U",
+    "titulo": "Boletim de regras de Star Trek",
+    "itens": [
+     {
+      "cor": "U",
+      "html": "Regras novas para <b>assimilate</b>, <b>beam me up</b> e <b>face a dilemma</b>."
+     },
+     {
+      "cor": "G",
+      "html": "43 tipos de criatura novos, como Klingon, Vulcan, Borg e Tribble."
+     },
+     {
+      "cor": "U",
+      "html": "<b>Werewolf Pack Leader</b> agora vira só Lobisomem, em vez de deixar de ser Humano."
+     },
+     {
+      "cor": "W",
+      "html": "As mudanças entram com o lançamento, em 13 de novembro."
+     }
+    ],
+    "nota": {
+     "rotulo": "Na sua mesa",
+     "texto": "o Pack Leader segue virando 5/3 com atropelar, só perde os outros tipos no turno"
+    },
+    "fonte": "Fontes: Wizards e MTG Salvation"
+   }
+  ],
+  "topdeck": {
+   "titulo": "Werewolf Pack Leader",
+   "habilidades": [
+    {
+     "rotulo": "Ataque em grupo",
+     "texto": "Atacantes somando 6 de poder: você compra uma carta."
+    },
+    {
+     "rotulo": "Vira 5/3",
+     "texto": "Por 4 manas, fica 5/3 com atropelar até o fim do turno."
+    },
+    {
+     "rotulo": "Texto novo",
+     "texto": "Ao usar a habilidade, vira só Lobisomem até o fim do turno."
+    }
+   ],
+   "extra": "Ganhou texto novo no <b>boletim de Star Trek</b>. Está em 16,4 mil decks no EDHREC e sai a US$ 0,52 (R$ 2,84). PTAX de 5 nov.",
+   "credito": "Ilustração de Miranda Meeks"
+  },
+  "ban": {
+   "numero": "23",
+   "unidade": "DIAS",
+   "texto": "Próxima janela de banimentos em 30 de novembro. A de 12 de outubro passou sem mexer no Commander."
+  },
+  "turnos": [
+   {
+    "cor": "G",
+    "data": "até 12 nov",
+    "texto": "Pré de Star Trek nas lojas"
+   },
+   {
+    "cor": "A",
+    "data": "9 nov",
+    "texto": "Venda dos Secret Lairs de Star Trek"
+   },
+   {
+    "cor": "G",
+    "data": "13 nov",
+    "texto": "Star Trek chega às lojas"
+   },
+   {
+    "cor": "A",
+    "data": "16 a 30 nov",
+    "texto": "Secret Lair do Extra Life à venda"
+   },
+   {
+    "cor": "W",
+    "data": "20 a 26 nov",
+    "texto": "Festa de Commander de Star Trek"
+   }
+  ],
+  "sussurro": null
+ },
+ "video": {
+  "cena1": {
+   "titulo": "Gandalf, White Rider sobe 38% com a Denzilore",
+   "pilulas": [
+    "Weekly Winners",
+    "Teferi's Imp +118%",
+    "Regras de Star Trek"
+   ]
+  },
+  "cena2": {
+   "rotulo": "No bolso",
+   "cor": "A",
+   "titulo": "As que mais subiram na semana",
+   "linhas": [
+    {
+     "nome": "Teferi's Imp",
+     "numero": 118,
+     "prefixo": "+",
+     "sufixo": "%",
+     "sub": "US$ 2,40 (R$ 13,11)"
+    },
+    {
+     "nome": "Gandalf, White Rider",
+     "numero": 38,
+     "prefixo": "+",
+     "sufixo": "%",
+     "sub": "US$ 8,48 (R$ 46,32)"
+    }
+   ],
+   "fonte": "Fonte: MTGStocks, 6 nov. Reais: PTAX de 5 nov"
+  },
+  "cena3": {
+   "linhas": [
+    "<b>Werewolf Pack Leader</b> compra carta no ataque em grupo.",
+    "Por 4 manas, vira 5/3 com atropelar.",
+    "Ganhou texto novo no boletim de Star Trek."
+   ]
+  },
+  "cena4": {
+   "texto": "Faltam 23 dias para a próxima janela de banimentos. Antes, Star Trek chega às lojas em 13 de novembro.",
+   "sussurro": null
+  }
+ },
+ "textos": {
+  "legendaCarrossel": "Carta de Magic em alta no Commander: Gandalf, White Rider subiu 38% na semana e foi a US$ 8,48 (R$ 46,32), segundo o Weekly Winners do MTGStocks.\n\nO motivo é a Denzilore Fatehold, comandante de Reality Fracture que coloca marcador +1/+1 nas suas criaturas toda vez que você faz vidência. E o Gandalf dá vidência a cada mágica. Teferi's Imp, da Reserved List, subiu 118% e foi a US$ 2,40 (R$ 13,11) depois de um buyout de umas 150 cópias.\n\nE saiu o boletim de regras de Star Trek: 43 tipos de criatura novos, regras para assimilate e beam me up e texto novo para o Werewolf Pack Leader, que é o Topdeck do dia.\n\nVocê colocaria o Gandalf num deck da Denzilore?\n\nEdição completa em fontedemana.com.br\n\nArtes: Gandalf, White Rider, de Ekaterina Burmak. Werewolf Pack Leader, de Miranda Meeks.\nValores em reais pela cotação de 5 nov (Banco Central, PTAX).\n\n#startrek #commander #mtg",
+  "legendaVideo": "Carta de Magic em alta no Commander: Gandalf, White Rider subiu 38% com a Denzilore Fatehold, e Teferi's Imp subiu 118% com um buyout.\n\nAlta de buyout dura ou cai logo? O que você acha?\n\nEdição completa em fontedemana.com.br\nValores em reais pela cotação de 5 nov (Banco Central, PTAX).\n\n#commander #mtg #magicthegathering",
+  "threadsPost": "Gandalf, White Rider subiu 38% na semana e foi a US$ 8,48 (R$ 46,32), segundo o MTGStocks. A culpa é da Denzilore Fatehold, comandante de Reality Fracture que dá marcador +1/+1 às suas criaturas a cada vidência. Teferi's Imp, da Reserved List, subiu 118% com um buyout. Você montaria a Denzilore com o Gandalf? fontedemana.com.br\nValores em reais pela cotação de 5 nov (Banco Central, PTAX).",
+  "threadsFio": [
+   "O Weekly Winners do MTGStocks desta semana tem um comandante novo puxando carta antiga e um buyout na Reserved List.",
+   "Gandalf, White Rider subiu 38% e foi a US$ 8,48 (R$ 46,32). Ele dá vidência a cada mágica, e a Denzilore Fatehold põe marcador +1/+1 nas suas criaturas a cada vidência.",
+   "Teferi's Imp subiu 118%, a US$ 2,40 (R$ 13,11). Alguém comprou umas 150 cópias no TCGplayer no fim de outubro, quase tudo num dia.",
+   "Saiu o boletim de regras de Star Trek: 43 tipos de criatura novos, regras para assimilate e beam me up, e o Werewolf Pack Leader agora vira só Lobisomem. Vale a partir de 13 de novembro.",
+   "No Topdeck, Werewolf Pack Leader: 2 manas, compra carta no ataque em grupo e vira 5/3 com atropelar. Edição completa em fontedemana.com.br\nValores em reais pela cotação de 5 nov (Banco Central, PTAX)."
+  ],
+  "threadsAvulsos": [
+   {
+    "titulo": "Pergunta do dia",
+    "texto": "Teferi's Imp mais que dobrou de preço com um buyout. Alta assim dura ou cai em poucas semanas?",
+    "obs": "Opções: dura, cai logo, nem ligo"
+   }
+  ]
+ },
+ "pauta": {
+  "forca": "calmo",
+  "porque": "Notícia Lendária é variação de preço de carta; o boletim de regras de Star Trek é técnico e não muda a mesa.",
+  "storyPergunta": "Você coloca o Werewolf Pack Leader em qual deck?",
+  "enquete": {
+   "pergunta": "Teferi's Imp subiu 118% com buyout. E agora?",
+   "opcoes": [
+    "Vai continuar alto",
+    "Vai cair logo",
+    "Nem conhecia a carta"
+   ]
+  }
+ }
+}
