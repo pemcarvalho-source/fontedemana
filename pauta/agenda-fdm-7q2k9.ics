@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-11-04-gravacao@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261103T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -55,7 +55,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-tiktok@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261104T210000Z
 DURATION:PT15M
 SUMMARY:18:00 TikTok: Matemática da Mesa #1\, quantos terrenos
@@ -88,7 +88,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-threads-manha@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261104T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Qual dessas entra no seu deck de Co
@@ -111,7 +111,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-stories-manha@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261104T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -131,7 +131,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-feed@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261104T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 30
@@ -173,7 +173,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261104T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -192,7 +192,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-threads-tarde@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261104T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -217,7 +217,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-stories-tarde@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261104T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -237,7 +237,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-reels@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261104T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Matemática da Mesa #1: 36\, 37 ou 38
@@ -275,7 +275,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-reels-teste@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261104T214000Z
 DURATION:PT15M
 SUMMARY:18:40 Reels: Reel de teste: o vídeo de hoje com o gancho B
@@ -315,7 +315,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-comentarios@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261105T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -337,7 +337,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-gravacao@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261104T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -395,7 +395,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-tiktok@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261105T210000Z
 DURATION:PT15M
 SUMMARY:18:00 TikTok: Postar o Top 5 dos dragões no TikTok
@@ -429,7 +429,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-threads-manha@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261105T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Top 5 #4: os dragões que não podem faltar 
@@ -454,7 +454,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-feed@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261105T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Top 5 #4: os dragões que não podem faltar e
@@ -498,7 +498,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261105T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -517,7 +517,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-stories-tarde@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261105T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -537,7 +537,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-reels@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261105T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Top 5 #4: os dragões que não podem 
@@ -575,7 +575,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-reels-teste@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261105T214000Z
 DURATION:PT15M
 SUMMARY:18:40 Reels: Reel de teste: o vídeo de hoje com o gancho B
@@ -614,7 +614,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-comentarios@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261106T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -636,7 +636,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-gravacao@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261105T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -693,7 +693,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-tiktok@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261106T210000Z
 DURATION:PT15M
 SUMMARY:18:00 TikTok: Postar o Chama o Juiz #4 no TikTok
@@ -721,7 +721,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-threads-manha@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261106T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Chama o Juiz #4: dois comandantes (partner) 
@@ -747,7 +747,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-feed@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261106T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Chama o Juiz #4: dois comandantes (partner) p
@@ -785,7 +785,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261106T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -804,7 +804,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-stories-tarde@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261106T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -824,7 +824,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-reels@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261106T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Chama o Juiz #4: dois comandantes (pa
@@ -860,7 +860,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-reels-teste@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261106T214000Z
 DURATION:PT15M
 SUMMARY:18:40 Reels: Reel de teste: o vídeo de hoje com o gancho B
@@ -897,7 +897,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-comentarios@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261107T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -919,7 +919,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-gravacao@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261106T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -975,7 +975,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-tiktok@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261107T210000Z
 DURATION:PT15M
 SUMMARY:18:00 TikTok: Top 5 cartas antigas que voltaram a valer
@@ -1011,7 +1011,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-threads-manha@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261107T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Top 5 #5: cartas antigas que voltaram a vale
@@ -1037,7 +1037,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-feed@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261107T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Top 5 #5: cartas antigas que voltaram a valer
@@ -1084,7 +1084,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261107T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -1103,7 +1103,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-stories-tarde@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261107T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1123,7 +1123,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-reels@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261108T000000Z
 DURATION:PT15M
 SUMMARY:21:00 Reels: Vídeo original: Top 5 #5: cartas antigas que voltaram
@@ -1165,7 +1165,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-comentarios@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261108T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1187,7 +1187,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-08-gravacao@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261107T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -1238,32 +1238,31 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-08-tiktok@fontedemana.com.br
-DTSTAMP:20261107T214101Z
+DTSTAMP:20261107T220709Z
 DTSTART:20261108T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o TikTok: Toda mesa tem um #2
 DESCRIPTION:Vídeo do jogador que jura que o deck é casual\, com a Emeritu
  s of Woe e a dica de dizer o bracket. O mesmo vídeo e a mesma legenda vã
- o para o Reels das 19:00.\n\nArquivos:\n- Vídeo mudo (tiktok-mudo.mp4): h
- ttps://fontedemana.com.br/pauta/2026-11-08/tiktok/tiktok-mudo.mp4\n\nLegen
- da:\nCommander: toda mesa tem um jogador que jura que o deck é casual. Qu
- em é esse na sua mesa?\n\nEle diz que não tem combo\, que o tutor é só
-  pra achar terreno\, e no turno 4 a mesa inteira cai.\nA carta que ele ado
- ra: Emeritus of Woe\, uma vampira de Secrets of Strixhaven que já entra c
- om um Demonic Tutor pronto para usar. O Demonic Tutor está na lista de Ga
- me Changers. A Emeritus\, não.\n\nDica de mesa: no lugar de "casual"\, di
- ga o bracket do deck. No Bracket 2 não entra Game Changer\; no 3\, até t
- rês (Wizards\, Commander Brackets).\n\nMais em fontedemana.com.br\n\n#dem
- onictutor #commander #mtg\n\nFonte de Mana is unofficial Fan Content permi
- tted under the Fan Content Policy. Not approved/endorsed by Wizards. Porti
- ons of the materials used are property of Wizards of the Coast. ©Wizards 
- of the Coast LLC.\n\nComentário fixado:\nEmeritus of Woe no deck casual: 
- pode ou não pode?\nToda mesa tem um\, a série dos jogadores que você co
- nhece.\n\nPasso a passo:\n1. Poste com um som em alta da biblioteca do Tik
- Tok\, com o volume entre 15% e 20%.\n2. É a sua voz: não precisa de rót
- ulo de IA.\n3. Fixe o comentário logo depois de postar.\n4. Se os vídeos
-  da gravação não chegarem\, poste o vídeo mudo com uma música em alta
- .\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-08/#tiktok
+ o para o Reels das 19:00.\n\nArquivos:\n- Vídeo narrado (tiktok-narrado.m
+ p4): https://fontedemana.com.br/pauta/2026-11-08/tiktok/tiktok-narrado.mp4
+ \n\nLegenda:\nCommander: toda mesa tem um jogador que jura que o deck é c
+ asual. Quem é esse na sua mesa?\n\nEle diz que não tem combo\, que o tut
+ or é só pra achar terreno\, e no turno 4 a mesa inteira cai.\nA carta qu
+ e ele adora: Emeritus of Woe\, uma vampira de Secrets of Strixhaven que j
+ á entra com um Demonic Tutor pronto para usar. O Demonic Tutor está na l
+ ista de Game Changers. A Emeritus\, não.\n\nDica de mesa: no lugar de "ca
+ sual"\, diga o bracket do deck. No Bracket 2 não entra Game Changer\; no 
+ 3\, até três (Wizards\, Commander Brackets).\n\nMais em fontedemana.com.
+ br\n\n#demonictutor #commander #mtg\n\nFonte de Mana is unofficial Fan Con
+ tent permitted under the Fan Content Policy. Not approved/endorsed by Wiza
+ rds. Portions of the materials used are property of Wizards of the Coast. 
+ ©Wizards of the Coast LLC.\n\nComentário fixado:\nEmeritus of Woe no dec
+ k casual: pode ou não pode?\nToda mesa tem um\, a série dos jogadores qu
+ e você conhece.\n\nPasso a passo:\n1. Poste com um som em alta da bibliot
+ eca do TikTok\, com o volume entre 15% e 20%.\n2. É a sua voz: não preci
+ sa de rótulo de IA.\n3. Fixe o comentário logo depois de postar.\n\nPaut
+ a completa: https://fontedemana.com.br/pauta/2026-11-08/#tiktok
 URL:https://fontedemana.com.br/pauta/2026-11-08/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
