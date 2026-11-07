@@ -1,0 +1,39 @@
+{
+ "data": "2026-11-08",
+ "pilar": "todamesa",
+ "item": "O que jura que o deck é casual",
+ "tema": "Toda mesa tem um #2: o que jura que o deck é casual",
+ "cartas": ["Demonic Tutor"],
+ "fx": "Valores em reais pela cotação de 5 nov (Banco Central, PTAX).",
+ "carrossel": {
+  "capa": {"cor": "R", "chip": "Toda mesa tem um #2", "kicker": "Commander na vida real", "titulo": "O que jura que o deck é <b>casual</b>",
+           "sub": "As frases dele, a carta de <b>US$ 63,89 (R$ 348,97)</b> que ele adora e a dica de mesa",
+           "arte": "pauta/2026-11-08/tiktok/arte.jpg", "credito": "Arte: Demonic Tutor, Zack Stella"},
+  "cartoes": [
+   {"cor": "R", "titulo": "O que ele sempre diz",
+    "itens": [{"cor": "R", "html": "<b>\"Relaxa, meu deck é casual.\"</b> Dito embaralhando, com cara de inocente."},
+              {"cor": "R", "html": "<b>\"Não tem combo, é só sinergia.\"</b> E o tutor? \"É só pra achar terreno.\""}],
+    "nota": {"rotulo": "No turno 4", "texto": "\"nossa, deu combo sem querer.\" E a mesa inteira cai de uma vez."},
+    "fonte": "Toda mesa tem um, Fonte de Mana"},
+   {"cor": "B", "titulo": "A carta que ele adora", "carta": "pauta/2026-11-08/original/carta-1.jpg",
+    "itens": [{"cor": "B", "html": "<b>Demonic Tutor</b>: 2 manas e você busca qualquer carta do deck. O combo sempre aparece."},
+              {"cor": "B", "html": "Em <b>977 mil decks</b> no EDHREC, por <b>US$ 63,89 (R$ 348,97)</b>."}],
+    "fx": "Reais pela cotação de 5 nov (Banco Central, PTAX).",
+    "fonte": "Fonte: EDHREC e Scryfall, nov 2026"},
+   {"cor": "U", "titulo": "Casual não diz nada",
+    "itens": [{"cor": "U", "html": "<b>Bracket</b> é a escala oficial de força dos decks de Commander, de 1 a 5."},
+              {"cor": "U", "html": "<b>Game Changer</b> é a lista oficial das cartas que mais mudam o jogo. O Demonic Tutor está nela."},
+              {"cor": "U", "html": "<b>Brackets 1 e 2</b>: nenhum Game Changer. <b>Bracket 3</b>: até três. <b>4 e 5</b>: sem limite."}],
+    "fonte": "Fonte: Wizards, Commander Brackets"},
+   {"cor": "G", "titulo": "A dica de mesa",
+    "itens": [{"cor": "G", "html": "Antes de embaralhar, diga o <b>bracket</b> do deck e quantos Game Changers ele tem."},
+              {"cor": "G", "html": "Tem combo ou tutor? Fala também. Assim ninguém se sente enganado no turno 4."}],
+    "nota": {"rotulo": "Resumo", "texto": "casual não diz nada. Bracket diz."},
+    "fonte": "Fonte: Wizards e Draftsim, 2026"}
+  ],
+  "cta": {"pergunta": "Quem é esse na sua mesa?", "quando": "Antes da próxima partida de Commander", "salvar": "Guarde para a conversa antes do jogo"}
+ },
+ "legenda": "Commander: toda mesa tem um jogador que jura que o deck é casual. Quem é esse na sua mesa?\n\nEle diz que não tem combo, que o tutor é só pra achar terreno, e no turno 4 a mesa inteira cai.\n\nA carta que ele adora: Demonic Tutor, 2 manas para buscar qualquer carta do deck. Está em 977 mil decks no EDHREC e custa US$ 63,89 (R$ 348,97) no Scryfall.\n\nPara quem está voltando ao Magic: Bracket é a escala oficial de força dos decks de Commander, de 1 a 5. Game Changer é a lista oficial das cartas mais fortes. Nos Brackets 1 e 2 não entra nenhuma; no 3, até três.\n\nDica de mesa: no lugar de \"casual\", diga o bracket e quantos Game Changers o deck tem.\n\nFontes: Wizards (Commander Brackets), EDHREC, Scryfall e Draftsim.\nMais em fontedemana.com.br\n\n#demonictutor #commander #mtg",
+ "threads": {"texto": "Toda mesa de Commander tem um. Qual mais aparece na sua?\n\n1. O que jura que o deck é casual e tem Demonic Tutor\n2. O que demora 10 minutos no turno\n3. O que esquece os próprios gatilhos\n4. O que faz board wipe e pede desculpa\n\nE você, é qual deles?", "obs": "Enquete com as quatro opções"},
+ "enquete": {"pergunta": "Deck com Demonic Tutor ainda é casual?", "opcoes": ["Sim, é só um tutor", "Não, é Bracket 3"]}
+}

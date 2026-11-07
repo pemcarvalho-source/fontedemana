@@ -1,0 +1,76 @@
+{
+ "data": "2026-11-08",
+ "pilar": "todamesa",
+ "tema": "Toda mesa tem um #2: o que jura que o deck é casual",
+ "item": "O que jura que o deck é casual",
+ "arte": "pauta/2026-11-08/tiktok/arte.jpg",
+ "carta": "pauta/2026-11-08/tiktok/carta.jpg",
+ "credito": "Arte: Demonic Tutor, Zack Stella",
+ "fx": "Reais pela cotação de 5 nov (Banco Central, PTAX)",
+ "legenda": "Commander: toda mesa tem um jogador que jura que o deck é casual. Quem é esse na sua mesa?\n\nEle diz que não tem combo, que o tutor é só pra achar terreno, e no turno 4 a mesa inteira cai.\nA carta que ele adora: Demonic Tutor, 2 manas para buscar qualquer carta. Está em 977 mil decks no EDHREC e é Game Changer.\nPreço: US$ 63,89 (R$ 348,97), Scryfall, Ultimate Masters.\n\nDica de mesa: no lugar de \"casual\", diga o bracket do deck. No Bracket 2 não entra Game Changer; no 3, até três (Wizards, Commander Brackets).\n\nReais pela cotação de 5 nov (Banco Central, PTAX).\nMais em fontedemana.com.br\n\n#demonictutor #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
+ "comentario": "Deck com Demonic Tutor ainda é casual: sim ou não?\nToda mesa tem um, a série dos jogadores que você conhece.",
+ "cenas": [
+  {
+   "tipo": "rosto",
+   "cor": "R",
+   "chip": "Toda mesa #2",
+   "kicker": "Toda mesa de Commander",
+   "titulo": "O que jura que o deck é casual",
+   "sub": "Você conhece esse jogador. Talvez seja você.",
+   "narracao": "Toda mesa tem um. Relaxa, meu deck é casual.",
+   "gravar": "Olhando para a câmera, embaralha o deck com cara de inocente e diz a segunda frase com a mão no peito, como quem jura.",
+   "segundos": 3.9
+  },
+  {
+   "tipo": "texto",
+   "cor": "R",
+   "kicker": "O que ele sempre diz",
+   "titulo": "\"Não tem combo, é só sinergia\"",
+   "sub": "\"Esse tutor? É só pra achar terreno.\"",
+   "narracao": "Não tem combo, é só sinergia. O tutor é só pra achar terreno.",
+   "segundos": 5.4
+  },
+  {
+   "tipo": "texto",
+   "cor": "R",
+   "kicker": "No turno 4",
+   "titulo": "\"Nossa, deu combo sem querer\"",
+   "sub": "E a mesa inteira cai de uma vez",
+   "narracao": "Aí no turno quatro: nossa, deu combo sem querer.",
+   "segundos": 3.9
+  },
+  {
+   "tipo": "carta",
+   "cor": "B",
+   "chip": "A carta dele",
+   "kicker": "Game Changer oficial",
+   "carta": "pauta/2026-11-08/tiktok/carta-1.jpg",
+   "titulo": "Demonic Tutor",
+   "valor": "US$ 63,89",
+   "real": "(R$ 348,97)",
+   "sub": "977 mil decks no EDHREC",
+   "fonte": "Scryfall e EDHREC, nov 2026",
+   "narracao": "A carta dele: Demonic Tutor. Dois manas, busca qualquer carta. Uns 350 reais.",
+   "segundos": 5.4
+  },
+  {
+   "tipo": "texto",
+   "cor": "U",
+   "kicker": "Para quem está voltando",
+   "titulo": "Bracket 2: zero Game Changer",
+   "sub": "Bracket 3: até três. Do 4 em diante, sem limite",
+   "rodape": "Fonte: Wizards, Commander Brackets",
+   "narracao": "Bracket é a escala oficial. No 2, nenhum Game Changer. No 3, até três.",
+   "segundos": 5.8
+  },
+  {
+   "tipo": "rosto",
+   "cor": "G",
+   "kicker": "Dica de mesa",
+   "titulo": "Diga o bracket, não \"casual\"",
+   "narracao": "Dica: em vez de casual, fala o bracket do deck.",
+   "gravar": "Olhando para a câmera, segura o deck e conta nos dedos: o bracket e os Game Changers, em tom de conselho de amigo.",
+   "segundos": 4.3
+  }
+ ]
+}
