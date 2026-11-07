@@ -8,296 +8,8 @@ X-WR-TIMEZONE:America/Sao_Paulo
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:fdm-2026-11-03-gravacao@fontedemana.com.br
-DTSTAMP:20261106T222640Z
-DTSTART:20261102T221500Z
-DURATION:PT15M
-SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
-DESCRIPTION:Dicionário do Commander #4: o que é a pilha (stack). Você ap
- arece nas cenas 1 e 6\, falando para a câmera. Nas cenas 2 a 5 entra só 
- a sua voz por baixo das cartas Beast Within e Ephemerate.\n\nArquivos:\n- 
- Vídeo mudo do TikTok: https://fontedemana.com.br/pauta/2026-11-03/tiktok/
- tiktok-mudo.mp4\n\nRoteiro de gravação:\nCena 1\, rosto\, uns 3 s\nNa te
- la: Em resposta\, na pilha! Você sabe o que é a pilha?\nComo gravar: Ros
- to: Olhando para a câmera\, levanta a mão como quem pede para esperar\, 
- segurando uma carta virada para você.\nFala: Em resposta\, na pilha! Voc
- ê sabe o que é isso?\n\nCena 2\, só a voz\, uns 5 s\nNa tela: Pilha é 
- a fila das mágicas. A última que entra resolve primeiro\nComo gravar: S
- ó a voz: pode gravar em vídeo ou áudio\nFala: Pilha\, ou stack\, é a f
- ila das mágicas. A última que entra resolve primeiro.\n\nCena 3\, só a 
- voz\, uns 5 s\nNa tela: O oponente joga: Beast Within\, Mira no seu comand
- ante e vai para a pilha\nComo gravar: Só a voz: pode gravar em vídeo ou 
- áudio\nFala: O oponente joga Beast Within no seu comandante. Ela vai para
-  a pilha.\n\nCena 4\, só a voz\, uns 5 s\nNa tela: Você responde: Epheme
- rate\, Em 297 mil decks no EDHREC\nComo gravar: Só a voz: pode gravar em 
- vídeo ou áudio\nFala: Você responde com Ephemerate. Ela resolve antes: 
- o comandante sai e volta.\n\nCena 5\, só a voz\, uns 4 s\nNa tela: E não
-  faz nada. O alvo virou outro objeto. Nem a Fera 3/3 vem.\nComo gravar: S
- ó a voz: pode gravar em vídeo ou áudio\nFala: Aí a Beast Within resolv
- e. O alvo sumiu\, ela não faz nada.\n\nCena 6\, rosto\, uns 4 s\nNa tela:
-  Terreno e mana fora da pilha. Ninguém pode responder isso\nComo gravar: 
- Rosto: Mesmo enquadramento da cena 1: segura um terreno ao lado do rosto\,
-  vira a carta de lado no ar (virar para gerar mana) e balança a cabeça.\
- nFala: Terreno e mana não usam a pilha. Ninguém responde isso.\n\n\nPass
- o a passo:\n1. Celular na vertical\, câmera da frente\, na altura dos olh
- os\, a um braço de distância.\n2. Rosto no meio da tela e o terço de ci
- ma livre: é onde entra o título.\n3. Luz de frente (de frente para a jan
- ela) e fundo arrumado\; a estante de cartas é ótima.\n4. Desligue o Víd
- eo HDR (Ajustes\, Câmera\, Gravar Vídeo) para as cores não lavarem.\n5.
-  Um vídeo por cena\, falando para a câmera\, com meio segundo de silênc
- io antes e depois\; nomeie cena_1\, cena_2... e mande todos juntos.\n6. Na
- s cenas sem rosto\, só a voz conta: pode gravar em vídeo ou só o áudio
- .\n7. Mande os vídeos ao Claude no projeto MGT strategy (pode ser respond
- endo à mensagem desta tarefa) dizendo "vídeos do TikTok de 2026-11-03".\
- n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-03/#gravacao
-URL:https://fontedemana.com.br/pauta/2026-11-03/#gravacao
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Gravação: Gravar o vídeo de amanhã (você aparece)
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-03-tiktok@fontedemana.com.br
-DTSTAMP:20261106T222640Z
-DTSTART:20261103T210000Z
-DURATION:PT15M
-SUMMARY:18:00 TikTok: Dicionário do Commander #4\, a pilha
-DESCRIPTION:O termo pilha (stack) explicado com um exemplo de mesa: Beast W
- ithin no seu comandante e Ephemerate em resposta. Fecha com o erro mais co
- mum\, terreno e mana fora da pilha.\n\nArquivos:\n- Vídeo do TikTok narra
- do: https://fontedemana.com.br/pauta/2026-11-03/tiktok/tiktok-narrado.mp4\
- n\nLegenda:\nCommander: o que é a pilha (stack) no Magic? Você sabe o qu
- e acontece quando alguém fala "em resposta"?\n\nDicionário do Commander 
- #4. A pilha é a fila das mágicas e habilidades: a última que entra é a
-  primeira que resolve. Por isso uma Ephemerate em resposta salva o seu com
- andante de uma Beast Within.\n\nQue termo da mesa te confundiu no começo?
- \n\nRegra: Regras Abrangentes\, 405. Decks: EDHREC.\nMais em fontedemana.c
- om.br\n\n#commander #mtg\n\nFonte de Mana is unofficial Fan Content permit
- ted under the Fan Content Policy. Not approved/endorsed by Wizards. Portio
- ns of the materials used are property of Wizards of the Coast. ©Wizards o
- f the Coast LLC.\n\nComentário fixado:\nQue termo da mesa te confundiu no
-  começo? Pilha\, prioridade\, em resposta ou outro?\n\nPasso a passo:\n1.
-  Poste com um som em alta da biblioteca do TikTok\, com volume entre 15% e
-  20%.\n2. Voz própria não precisa de rótulo de IA.\n3. Fixe o comentár
- io logo depois de postar.\n\nPauta completa: https://fontedemana.com.br/pa
- uta/2026-11-03/#tiktok
-URL:https://fontedemana.com.br/pauta/2026-11-03/#tiktok
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:TikTok: Dicionário do Commander #4\, a pilha
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-03-threads-manha@fontedemana.com.br
-DTSTAMP:20261106T222640Z
-DTSTART:20261103T133000Z
-DURATION:PT15M
-SUMMARY:10:30 Threads: Debate: Dicionário do Commander #4: o que é a pilh
- a (stack)
-DESCRIPTION:Post de debate do conteúdo original de hoje (Dicionário do Co
- mmander) para puxar conversa.\n\nPost:\nPergunta para quem joga Commander:
-  a pilha te confundiu no começo? No fundo ela é só uma fila: a última 
- mágica que entra é a primeira que resolve. Ephemerate em resposta a um r
- emoval no seu comandante é o exemplo clássico. Pilha\, prioridade ou "em
-  resposta": qual desses termos te pegou quando você começou?\n\nPasso a 
- passo:\n1. Abra o Threads e cole o Post.\n2. Dica: Enquete com: Pilha\, Pr
- ioridade\, Em resposta\, Outro\n3. Toque em Adicionar tópico e escolha MT
- G.\n4. Publique e responda quem comentar na primeira hora.\n\nPauta comple
- ta: https://fontedemana.com.br/pauta/2026-11-03/#threads-manha
-URL:https://fontedemana.com.br/pauta/2026-11-03/#threads-manha
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Debate: Dicionário do Commander #4: o que é a pilha 
- (stack)
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-03-stories-manha@fontedemana.com.br
-DTSTAMP:20261106T222640Z
-DTSTART:20261103T133000Z
-DURATION:PT15M
-SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
-DESCRIPTION:Story com a capa da edição 29 (Countdown Kit da Marvel segue 
- à venda) e um sticker de pergunta para puxar a conversa.\n\nArquivos:\n- 
- Capa da edição 29: https://fontedemana.com.br/kit/ed29/carrossel-01.jpg\
- n\nPasso a passo:\n1. Baixe a capa e poste no Story.\n2. Adicione o sticke
- r de Pergunta no terço de baixo\, sem cobrir o título: Você paga os 4 d
- a Mystic Remora ou deixa comprar?\n3. Publique.\n\nPauta completa: https:/
- /fontedemana.com.br/pauta/2026-11-03/#stories-manha
-URL:https://fontedemana.com.br/pauta/2026-11-03/#stories-manha
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Capa do jornal com sticker de pergunta
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-03-feed@fontedemana.com.br
-DTSTAMP:20261106T222640Z
-DTSTART:20261103T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram feed: Dicionário do Commander #4: o que é a pilha
-  (stack)
-DESCRIPTION:Carrossel original de 6 imagens (Dicionário do Commander): Dic
- ionário do Commander #4: o que é a pilha (stack). Feito para salvar e co
- mpartilhar.\n\nArquivos:\n- Imagem 1 de 6: https://fontedemana.com.br/paut
- a/2026-11-03/original/carrossel-01.jpg\n- Imagem 2 de 6: https://fontedema
- na.com.br/pauta/2026-11-03/original/carrossel-02.jpg\n- Imagem 3 de 6: htt
- ps://fontedemana.com.br/pauta/2026-11-03/original/carrossel-03.jpg\n- Imag
- em 4 de 6: https://fontedemana.com.br/pauta/2026-11-03/original/carrossel-
- 04.jpg\n- Imagem 5 de 6: https://fontedemana.com.br/pauta/2026-11-03/origi
- nal/carrossel-05.jpg\n- Imagem 6 de 6: https://fontedemana.com.br/pauta/20
- 26-11-03/original/carrossel-06.jpg\n\nLegenda:\nDicionário do Commander #
- 4: o que é a pilha (stack) no Magic? Na mesa de Commander todo mundo fala
-  "em resposta"\, mas pouca gente explica.\n\nA pilha é a fila das mágica
- s e habilidades: a última que entra é a primeira que resolve. Por isso u
- ma Ephemerate em resposta faz a Beast Within do oponente não fazer nada. 
- E o erro mais comum: baixar terreno e gerar mana não usam a pilha.\n\nFon
- tes: Regras Abrangentes (405 e 608)\, Scryfall e EDHREC. Mais em fontedema
- na.com.br\n\nQue termo da mesa te confundiu no começo?\n\n#commander #mtg
- \n\nFonte de Mana is unofficial Fan Content permitted under the Fan Conten
- t Policy. Not approved/endorsed by Wizards. Portions of the materials used
-  are property of Wizards of the Coast. ©Wizards of the Coast LLC.\n\nPass
- o a passo:\n1. No Instagram\, toque em + e escolha Post.\n2. Selecione as 
- 6 imagens na ordem\, da 1 à 6.\n3. Toque em Adicionar música e escolha u
- ma em alta que combine com o tema.\n4. Cole a Legenda e publique.\n\nPauta
-  completa: https://fontedemana.com.br/pauta/2026-11-03/#feed
-URL:https://fontedemana.com.br/pauta/2026-11-03/#feed
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram feed: Dicionário do Commander #4: o que é a pilha (
- stack)
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-03-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261106T222640Z
-DTSTART:20261103T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
-DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
- .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
- e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
- o do post: Qual termo te confundiu no começo? com Pilha\, Prioridade\, Em
-  resposta e Outro.\n3. Publique.\n\nPauta completa: https://fontedemana.co
- m.br/pauta/2026-11-03/#stories-meio-dia
-URL:https://fontedemana.com.br/pauta/2026-11-03/#stories-meio-dia
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-03-threads-tarde@fontedemana.com.br
-DTSTAMP:20261106T222640Z
-DTSTART:20261103T180000Z
-DURATION:PT15M
-SUMMARY:15:00 Threads: Notícia do dia num post só
-DESCRIPTION:A edição 29 contada num post só\, sem fio: nos fios\, quase 
- ninguém passava do primeiro post.\n\nPost:\nO Countdown Kit da Marvel nã
- o esgotou na primeira noite. Na madrugada desta terça\, a página do Secr
- et Lair ainda mostrava o kit em pré-venda\, a US$ 199\,99 (R$ 1.084\,19)\
- , com limite de 2 por pessoa e envio a partir de 4 de novembro. A Wizards 
- não diz quantos foram feitos. Você pegou o seu? fontedemana.com.br\nValo
- res em reais pela cotação de 30 out (Banco Central\, PTAX).\n\nPasso a p
- asso:\n1. No Threads\, cole o Post\, sem sequência.\n2. Toque em Adiciona
- r tópico e escolha MTG.\n3. Publique e responda quem comentar na primeira
-  hora.\n\nValores em reais pela cotação de 30 out\, US$ 1 = R$ 5\,4212 (
- Banco Central\, PTAX).\n\nPauta completa: https://fontedemana.com.br/pauta
- /2026-11-03/#threads-tarde
-URL:https://fontedemana.com.br/pauta/2026-11-03/#threads-tarde
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Notícia do dia num post só
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-03-stories-tarde@fontedemana.com.br
-DTSTAMP:20261106T222640Z
-DTSTART:20261103T180000Z
-DURATION:PT15M
-SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
-DESCRIPTION:Story com a imagem de Mystic Remora no Topdeck do Dia e o stick
- er de link para a edição completa.\n\nArquivos:\n- Topdeck do Dia: https
- ://fontedemana.com.br/kit/ed29/carrossel-03.jpg\n\nPasso a passo:\n1. Baix
- e a imagem e poste no Story.\n2. Adicione o sticker de Link para fontedema
- na.com.br com o texto Edição completa\, embaixo do texto do Topdeck.\n3.
-  Publique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-03/
- #stories-tarde
-URL:https://fontedemana.com.br/pauta/2026-11-03/#stories-tarde
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Topdeck do Dia com link
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-03-reels@fontedemana.com.br
-DTSTAMP:20261106T222640Z
-DTSTART:20261103T220000Z
-DURATION:PT15M
-SUMMARY:19:00 Reels: Vídeo original: Dicionário do Commander #4: o que é
-  a pilha (stack)
-DESCRIPTION:O vídeo original de hoje no Instagram\, o mesmo arquivo do Tik
- Tok\, já narrado. É o formato que mais chega a quem não segue.\n\nArqui
- vos:\n- Vídeo original narrado: https://fontedemana.com.br/pauta/2026-11-
- 03/tiktok/tiktok-narrado.mp4\n\nLegenda:\nCommander: o que é a pilha (sta
- ck) no Magic? Você sabe o que acontece quando alguém fala "em resposta"?
- \n\nDicionário do Commander #4. A pilha é a fila das mágicas e habilida
- des: a última que entra é a primeira que resolve. Por isso uma Ephemerat
- e em resposta salva o seu comandante de uma Beast Within.\n\nQue termo da 
- mesa te confundiu no começo?\n\nRegra: Regras Abrangentes\, 405. Decks: E
- DHREC.\nMais em fontedemana.com.br\n\n#commander #mtg\n\nFonte de Mana is 
- unofficial Fan Content permitted under the Fan Content Policy. Not approve
- d/endorsed by Wizards. Portions of the materials used are property of Wiza
- rds of the Coast. ©Wizards of the Coast LLC.\n\nComentário fixado:\nQue 
- termo da mesa te confundiu no começo? Pilha\, prioridade\, em resposta ou
-  outro?\n\nPasso a passo:\n1. No Instagram\, toque em + e escolha Reel.\n2
- . Escolha o vídeo baixado daqui\, nunca o salvo do TikTok (o Instagram de
- rruba vídeo com marca d'água).\n3. Em Áudio\, ponha uma música em alta
-  da biblioteca do Instagram com volume baixo (uns 10%)\, sem cobrir a voz.
- \n4. Na capa\, use o primeiro quadro\, o do gancho.\n5. Cole a Legenda e p
- ublique.\n6. Fixe o comentário e responda quem comentar na primeira hora.
- \n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-03/#reels
-URL:https://fontedemana.com.br/pauta/2026-11-03/#reels
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reels: Vídeo original: Dicionário do Commander #4: o que é a
-  pilha (stack)
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-03-comentarios@fontedemana.com.br
-DTSTAMP:20261106T222640Z
-DTSTART:20261104T003000Z
-DURATION:PT15M
-SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
-DESCRIPTION:Uns 10 minutos nas três redes: curtir e responder os comentár
- ios das últimas 48 horas\, começando pelo vídeo e pelo carrossel de hoj
- e. Conversa nos comentários leva a peça a mais gente\, e o Instagram rec
- omenda responder em até 2 dias.\n\nPasso a passo:\n1. Instagram: nas noti
- ficações\, curta os comentários e responda com uma frase quem perguntou
-  ou discordou.\n2. TikTok e Threads: o mesmo\, começando pelo post com ma
- is comentários.\n3. Pergunta boa ou dúvida que se repete\, nos comentár
- ios ou nas DMs? Mande na conversa do projeto: vira tema de um pilar.\n\nPa
- uta completa: https://fontedemana.com.br/pauta/2026-11-03/#comentarios
-URL:https://fontedemana.com.br/pauta/2026-11-03/#comentarios
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Comentários: Responder os comentários de hoje e de ontem
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fdm-2026-11-04-gravacao@fontedemana.com.br
-DTSTAMP:20261106T222640Z
+DTSTAMP:20261107T102128Z
 DTSTART:20261103T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -343,7 +55,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-tiktok@fontedemana.com.br
-DTSTAMP:20261106T222640Z
+DTSTAMP:20261107T102128Z
 DTSTART:20261104T210000Z
 DURATION:PT15M
 SUMMARY:18:00 TikTok: Matemática da Mesa #1\, quantos terrenos
@@ -376,7 +88,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-threads-manha@fontedemana.com.br
-DTSTAMP:20261106T222640Z
+DTSTAMP:20261107T102128Z
 DTSTART:20261104T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Pergunta do dia: Qual dessas entra no seu deck de Co
@@ -399,7 +111,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-stories-manha@fontedemana.com.br
-DTSTAMP:20261106T222640Z
+DTSTAMP:20261107T102128Z
 DTSTART:20261104T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
@@ -419,7 +131,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-feed@fontedemana.com.br
-DTSTAMP:20261106T222640Z
+DTSTAMP:20261107T102128Z
 DTSTART:20261104T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Carrossel da edição 30
@@ -461,7 +173,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261106T222640Z
+DTSTAMP:20261107T102128Z
 DTSTART:20261104T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -480,7 +192,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-threads-tarde@fontedemana.com.br
-DTSTAMP:20261106T222640Z
+DTSTAMP:20261107T102128Z
 DTSTART:20261104T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Threads: Notícia do dia num post só
@@ -505,7 +217,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-stories-tarde@fontedemana.com.br
-DTSTAMP:20261106T222640Z
+DTSTAMP:20261107T102128Z
 DTSTART:20261104T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -525,7 +237,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-reels@fontedemana.com.br
-DTSTAMP:20261106T222640Z
+DTSTAMP:20261107T102128Z
 DTSTART:20261104T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Matemática da Mesa #1: 36\, 37 ou 38
@@ -563,7 +275,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-reels-teste@fontedemana.com.br
-DTSTAMP:20261106T222640Z
+DTSTAMP:20261107T102128Z
 DTSTART:20261104T214000Z
 DURATION:PT15M
 SUMMARY:18:40 Reels: Reel de teste: o vídeo de hoje com o gancho B
@@ -603,7 +315,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-04-comentarios@fontedemana.com.br
-DTSTAMP:20261106T222640Z
+DTSTAMP:20261107T102128Z
 DTSTART:20261105T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -625,7 +337,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-gravacao@fontedemana.com.br
-DTSTAMP:20261106T222640Z
+DTSTAMP:20261107T102128Z
 DTSTART:20261104T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -683,7 +395,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-tiktok@fontedemana.com.br
-DTSTAMP:20261106T222640Z
+DTSTAMP:20261107T102128Z
 DTSTART:20261105T210000Z
 DURATION:PT15M
 SUMMARY:18:00 TikTok: Postar o Top 5 dos dragões no TikTok
@@ -717,7 +429,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-threads-manha@fontedemana.com.br
-DTSTAMP:20261106T222640Z
+DTSTAMP:20261107T102128Z
 DTSTART:20261105T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Top 5 #4: os dragões que não podem faltar 
@@ -742,7 +454,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-feed@fontedemana.com.br
-DTSTAMP:20261106T222640Z
+DTSTAMP:20261107T102128Z
 DTSTART:20261105T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Top 5 #4: os dragões que não podem faltar e
@@ -786,7 +498,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261106T222640Z
+DTSTAMP:20261107T102128Z
 DTSTART:20261105T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -805,7 +517,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-stories-tarde@fontedemana.com.br
-DTSTAMP:20261106T222640Z
+DTSTAMP:20261107T102128Z
 DTSTART:20261105T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -825,7 +537,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-reels@fontedemana.com.br
-DTSTAMP:20261106T222640Z
+DTSTAMP:20261107T102128Z
 DTSTART:20261105T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Top 5 #4: os dragões que não podem 
@@ -863,7 +575,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-reels-teste@fontedemana.com.br
-DTSTAMP:20261106T222640Z
+DTSTAMP:20261107T102128Z
 DTSTART:20261105T214000Z
 DURATION:PT15M
 SUMMARY:18:40 Reels: Reel de teste: o vídeo de hoje com o gancho B
@@ -902,7 +614,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-comentarios@fontedemana.com.br
-DTSTAMP:20261106T222640Z
+DTSTAMP:20261107T102128Z
 DTSTART:20261106T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -924,7 +636,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-gravacao@fontedemana.com.br
-DTSTAMP:20261106T222640Z
+DTSTAMP:20261107T102128Z
 DTSTART:20261105T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -981,7 +693,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-tiktok@fontedemana.com.br
-DTSTAMP:20261106T222640Z
+DTSTAMP:20261107T102128Z
 DTSTART:20261106T210000Z
 DURATION:PT15M
 SUMMARY:18:00 TikTok: Postar o Chama o Juiz #4 no TikTok
@@ -1009,7 +721,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-threads-manha@fontedemana.com.br
-DTSTAMP:20261106T222640Z
+DTSTAMP:20261107T102128Z
 DTSTART:20261106T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Chama o Juiz #4: dois comandantes (partner) 
@@ -1035,7 +747,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-feed@fontedemana.com.br
-DTSTAMP:20261106T222640Z
+DTSTAMP:20261107T102128Z
 DTSTART:20261106T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Chama o Juiz #4: dois comandantes (partner) p
@@ -1073,7 +785,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261106T222640Z
+DTSTAMP:20261107T102128Z
 DTSTART:20261106T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -1092,7 +804,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-stories-tarde@fontedemana.com.br
-DTSTAMP:20261106T222640Z
+DTSTAMP:20261107T102128Z
 DTSTART:20261106T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1112,7 +824,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-reels@fontedemana.com.br
-DTSTAMP:20261106T222640Z
+DTSTAMP:20261107T102128Z
 DTSTART:20261106T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Chama o Juiz #4: dois comandantes (pa
@@ -1148,7 +860,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-reels-teste@fontedemana.com.br
-DTSTAMP:20261106T222640Z
+DTSTAMP:20261107T102128Z
 DTSTART:20261106T214000Z
 DURATION:PT15M
 SUMMARY:18:40 Reels: Reel de teste: o vídeo de hoje com o gancho B
@@ -1185,7 +897,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-comentarios@fontedemana.com.br
-DTSTAMP:20261106T222640Z
+DTSTAMP:20261107T102128Z
 DTSTART:20261107T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1207,7 +919,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-gravacao@fontedemana.com.br
-DTSTAMP:20261106T222640Z
+DTSTAMP:20261107T102128Z
 DTSTART:20261106T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -1251,9 +963,9 @@ DESCRIPTION:Top 5 #5: cartas antigas que voltaram a valer no Commander. Só
  8. Nas cenas de voz\, grave num lugar silencioso\, com o celular a um palm
  o da boca.\n9. Mande os vídeos ao Claude no projeto MGT strategy (pode se
  r respondendo à mensagem desta tarefa) dizendo "vídeos do TikTok de 2026
- -11-07".\n\nValores em reais pela cotação de 4 nov (Banco Central\, PTAX
- ).\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-07/#gravaca
- o
+ -11-07".\n\nValores em reais pela cotação de 5 nov\, US$ 1 = R$ 5\,4621 
+ (Banco Central\, PTAX).\n\nPauta completa: https://fontedemana.com.br/paut
+ a/2026-11-07/#gravacao
 URL:https://fontedemana.com.br/pauta/2026-11-07/#gravacao
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1263,10 +975,10 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-tiktok@fontedemana.com.br
-DTSTAMP:20261106T222640Z
-DTSTART:20261107T143000Z
+DTSTAMP:20261107T102128Z
+DTSTART:20261107T210000Z
 DURATION:PT15M
-SUMMARY:11:30 TikTok: TikTok: Top 5 cartas antigas que voltaram a valer
+SUMMARY:18:00 TikTok: Top 5 cartas antigas que voltaram a valer
 DESCRIPTION:Vídeo original do dia (Top 5 #5). A mesma legenda e o mesmo v
  ídeo vão para o Reels das 19:00.\n\nArquivos:\n- Vídeo do TikTok narrad
  o: https://fontedemana.com.br/pauta/2026-11-07/tiktok/tiktok-narrado.mp4\n
@@ -1287,13 +999,189 @@ DESCRIPTION:Vídeo original do dia (Top 5 #5). A mesma legenda e o mesmo v
  ê deixou no fichário?\nToda quinta tem um Top 5 novo aqui.\n\nPasso a pa
  sso:\n1. Poste com um som em alta da biblioteca do TikTok\, com volume ent
  re 15% e 20%.\n2. Voz própria não precisa de rótulo de IA.\n3. Fixe o c
- omentário logo depois de postar.\n\nValores em reais pela cotação de 4 
- nov (Banco Central\, PTAX).\n\nPauta completa: https://fontedemana.com.br/
- pauta/2026-11-07/#tiktok
+ omentário logo depois de postar.\n\nValores em reais pela cotação de 5 
+ nov\, US$ 1 = R$ 5\,4621 (Banco Central\, PTAX).\n\nPauta completa: https:
+ //fontedemana.com.br/pauta/2026-11-07/#tiktok
 URL:https://fontedemana.com.br/pauta/2026-11-07/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:TikTok: TikTok: Top 5 cartas antigas que voltaram a valer
+DESCRIPTION:TikTok: Top 5 cartas antigas que voltaram a valer
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-07-threads-manha@fontedemana.com.br
+DTSTAMP:20261107T102128Z
+DTSTART:20261107T133000Z
+DURATION:PT15M
+SUMMARY:10:30 Threads: Debate: Top 5 #5: cartas antigas que voltaram a vale
+ r no Commander
+DESCRIPTION:Post de debate do conteúdo original de hoje (Top 5) para puxar
+  conversa.\n\nPost:\nQuem jogou Magic nos anos 2000 e voltou pelo Commande
+ r: qual carta você achou no fichário velho que hoje vale mais do que voc
+ ê imaginava?\n\nA Rhystic Study saiu como comum em 2000 e hoje a impress
+ ão original passa de 360 reais. Phyrexian Altar\, Doubling Season e Enlig
+ htened Tutor vão pelo mesmo caminho.\n\nE qual você vendeu barato e se a
+ rrepende até hoje?\n\nPasso a passo:\n1. Abra o Threads e cole o Post.\n2
+ . Dica: Enquete: Achei carta valiosa no fichário / Vendi tudo antes / Nun
+ ca parei de jogar\n3. Toque em Adicionar tópico e escolha MTG.\n4. Publiq
+ ue e responda quem comentar na primeira hora.\n\nPauta completa: https://f
+ ontedemana.com.br/pauta/2026-11-07/#threads-manha
+URL:https://fontedemana.com.br/pauta/2026-11-07/#threads-manha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Debate: Top 5 #5: cartas antigas que voltaram a valer 
+ no Commander
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-07-feed@fontedemana.com.br
+DTSTAMP:20261107T102128Z
+DTSTART:20261107T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram feed: Top 5 #5: cartas antigas que voltaram a valer
+  no Commander
+DESCRIPTION:Carrossel original de 7 imagens (Top 5): Top 5 #5: cartas antig
+ as que voltaram a valer no Commander. Feito para salvar e compartilhar.\n\
+ nArquivos:\n- Imagem 1 de 7: https://fontedemana.com.br/pauta/2026-11-07/o
+ riginal/carrossel-01.jpg\n- Imagem 2 de 7: https://fontedemana.com.br/paut
+ a/2026-11-07/original/carrossel-02.jpg\n- Imagem 3 de 7: https://fontedema
+ na.com.br/pauta/2026-11-07/original/carrossel-03.jpg\n- Imagem 4 de 7: htt
+ ps://fontedemana.com.br/pauta/2026-11-07/original/carrossel-04.jpg\n- Imag
+ em 5 de 7: https://fontedemana.com.br/pauta/2026-11-07/original/carrossel-
+ 05.jpg\n- Imagem 6 de 7: https://fontedemana.com.br/pauta/2026-11-07/origi
+ nal/carrossel-06.jpg\n- Imagem 7 de 7: https://fontedemana.com.br/pauta/20
+ 26-11-07/original/carrossel-07.jpg\n\nLegenda:\nCartas antigas de Magic qu
+ e voltaram a valer no Commander: qual delas ainda está no seu fichário?\
+ n\nSe você jogou nos anos 2000 e voltou pelo Commander\, vale abrir a pas
+ ta. Top 5 por número de decks no EDHREC\, com o preço da impressão orig
+ inal:\n\n5. Phyrexian Altar (Invasion\, 2000): 374 mil decks\, US$ 61\,18 
+ (R$ 335\,13)\n4. Enlightened Tutor (Mirage\, 1996): 485 mil decks\, US$ 38
+ \,36 (R$ 210\,13)\n3. Doubling Season (Ravnica\, 2005): 511 mil decks\, US
+ $ 41\,51 (R$ 227\,38)\n2. Phyrexian Arena (Apocalypse\, 2001): 599 mil dec
+ ks\, US$ 19\,43 (R$ 106\,43)\n1. Rhystic Study (Prophecy\, 2000): 713 mil 
+ decks\, US$ 65\,76 (R$ 360\,22). Era comum!\n\nFontes: EDHREC (decks\, nov
+  2026) e Scryfall (preço sem foil da primeira impressão). Reimpressões 
+ saem mais baratas. Valores em reais pela cotação de 4 nov (Banco Central
+ \, PTAX).\n\nMais no fontedemana.com.br\n\nFaltou alguma? Qual seria a sua
+  número 1?\n\n#rhysticstudy #commander #mtg\n\nFonte de Mana is unofficia
+ l Fan Content permitted under the Fan Content Policy. Not approved/endorse
+ d by Wizards. Portions of the materials used are property of Wizards of th
+ e Coast. ©Wizards of the Coast LLC.\n\nPasso a passo:\n1. No Instagram\, 
+ toque em + e escolha Post.\n2. Selecione as 7 imagens na ordem\, da 1 à 7
+ .\n3. Toque em Adicionar música e escolha uma em alta que combine com o t
+ ema.\n4. Cole a Legenda e publique.\n\nValores em reais pela cotação de 
+ 5 nov\, US$ 1 = R$ 5\,4621 (Banco Central\, PTAX).\n\nPauta completa: http
+ s://fontedemana.com.br/pauta/2026-11-07/#feed
+URL:https://fontedemana.com.br/pauta/2026-11-07/#feed
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram feed: Top 5 #5: cartas antigas que voltaram a valer n
+ o Commander
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-07-stories-meio-dia@fontedemana.com.br
+DTSTAMP:20261107T102128Z
+DTSTART:20261107T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
+DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
+ .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
+ e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
+ o do post: Você ainda tem cartas dos anos 2000? com Tenho o fichário\, V
+ endi tudo e Comecei depois.\n3. Publique.\n\nPauta completa: https://fonte
+ demana.com.br/pauta/2026-11-07/#stories-meio-dia
+URL:https://fontedemana.com.br/pauta/2026-11-07/#stories-meio-dia
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-07-stories-tarde@fontedemana.com.br
+DTSTAMP:20261107T102128Z
+DTSTART:20261107T180000Z
+DURATION:PT15M
+SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
+DESCRIPTION:Story com a imagem de Werewolf Pack Leader no Topdeck do Dia e 
+ o sticker de link para a edição completa.\n\nArquivos:\n- Topdeck do Dia
+ : https://fontedemana.com.br/kit/ed33/carrossel-04.jpg\n\nPasso a passo:\n
+ 1. Baixe a imagem e poste no Story.\n2. Adicione o sticker de Link para fo
+ ntedemana.com.br com o texto Edição completa\, embaixo do texto do Topde
+ ck.\n3. Publique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026
+ -11-07/#stories-tarde
+URL:https://fontedemana.com.br/pauta/2026-11-07/#stories-tarde
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Topdeck do Dia com link
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-07-reels@fontedemana.com.br
+DTSTAMP:20261107T102128Z
+DTSTART:20261108T000000Z
+DURATION:PT15M
+SUMMARY:21:00 Reels: Vídeo original: Top 5 #5: cartas antigas que voltaram
+  a valer no…
+DESCRIPTION:O vídeo original de hoje no Instagram\, o mesmo arquivo do Tik
+ Tok\, já narrado. É o formato que mais chega a quem não segue.\n\nArqui
+ vos:\n- Vídeo original narrado: https://fontedemana.com.br/pauta/2026-11-
+ 07/tiktok/tiktok-narrado.mp4\n\nLegenda:\nCartas antigas de Magic que volt
+ aram a valer no Commander: qual delas ainda está no seu fichário?\n\nTop
+  5 por número de decks no EDHREC\, com o preço da impressão original:\n
+ 5. Phyrexian Altar (Invasion\, 2000): US$ 61\,18 (R$ 335\,13)\n4. Enlighte
+ ned Tutor (Mirage\, 1996): US$ 38\,36 (R$ 210\,13)\n3. Doubling Season (Ra
+ vnica\, 2005): US$ 41\,51 (R$ 227\,38)\n2. Phyrexian Arena (Apocalypse\, 2
+ 001): US$ 19\,43 (R$ 106\,43)\n1. Rhystic Study (Prophecy\, 2000): US$ 65\
+ ,76 (R$ 360\,22)\, e era comum\n\nDecks: EDHREC\, nov 2026. Preços: Scryf
+ all\, impressão original sem foil. Reimpressões saem mais baratas.\nReai
+ s pela cotação de 4 nov (Banco Central\, PTAX).\nMais em fontedemana.com
+ .br\n\n#rhysticstudy #commander #mtg\n\nFonte de Mana is unofficial Fan Co
+ ntent permitted under the Fan Content Policy. Not approved/endorsed by Wiz
+ ards. Portions of the materials used are property of Wizards of the Coast.
+  ©Wizards of the Coast LLC.\n\nComentário fixado:\nRhystic Study ou Doub
+ ling Season: qual das duas você deixou no fichário?\nToda quinta tem um 
+ Top 5 novo aqui.\n\nPasso a passo:\n1. No Instagram\, toque em + e escolha
+  Reel.\n2. Escolha o vídeo baixado daqui\, nunca o salvo do TikTok (o Ins
+ tagram derruba vídeo com marca d'água).\n3. Em Áudio\, ponha uma músic
+ a em alta da biblioteca do Instagram com volume baixo (uns 10%)\, sem cobr
+ ir a voz.\n4. Na capa\, use o primeiro quadro\, o do gancho.\n5. Cole a Le
+ genda e publique.\n6. Fixe o comentário e responda quem comentar na prime
+ ira hora.\n\nValores em reais pela cotação de 5 nov\, US$ 1 = R$ 5\,4621
+  (Banco Central\, PTAX).\n\nPauta completa: https://fontedemana.com.br/pau
+ ta/2026-11-07/#reels
+URL:https://fontedemana.com.br/pauta/2026-11-07/#reels
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reels: Vídeo original: Top 5 #5: cartas antigas que voltaram a
+  valer no…
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-07-comentarios@fontedemana.com.br
+DTSTAMP:20261107T102128Z
+DTSTART:20261108T003000Z
+DURATION:PT15M
+SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
+DESCRIPTION:Uns 10 minutos nas três redes: curtir e responder os comentár
+ ios das últimas 48 horas\, começando pelo vídeo e pelo carrossel de hoj
+ e. Conversa nos comentários leva a peça a mais gente\, e o Instagram rec
+ omenda responder em até 2 dias.\n\nPasso a passo:\n1. Instagram: nas noti
+ ficações\, curta os comentários e responda com uma frase quem perguntou
+  ou discordou.\n2. TikTok e Threads: o mesmo\, começando pelo post com ma
+ is comentários.\n3. Pergunta boa ou dúvida que se repete\, nos comentár
+ ios ou nas DMs? Mande na conversa do projeto: vira tema de um pilar.\n\nPa
+ uta completa: https://fontedemana.com.br/pauta/2026-11-07/#comentarios
+URL:https://fontedemana.com.br/pauta/2026-11-07/#comentarios
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Comentários: Responder os comentários de hoje e de ontem
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
