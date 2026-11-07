@@ -66,14 +66,14 @@ Cena com o Paulo no vídeo (a partir de 26/10/2026, nos pilares de `plano.json` 
         {"tipo": "rosto", "cor": "G", "chip": (18), "kicker": (40), "titulo": (64), "sub": (140, opcional, só aparece se ele não gravar),
          "narracao": (60 na cena 1 e 80 nas outras desde 29/10/2026; antes, 90 e 110), "gravar": o que ele faz e mostra na cena (140)}
 
-Com o vídeo dele, a cena mostra o rosto em tela cheia com o kicker e o título numa caixa no terço de cima (`cena-N-rosto.png`) e dura o tempo da fala. Sem o vídeo, sai como cena de texto (ou de gancho, na cena 1). Kicker e título curtos: a caixa não pode descer até o meio da tela, senão o script recusa.
+Com o vídeo dele, a cena mostra o rosto em tela cheia com o kicker e o título numa caixa abaixo do rosto, na altura do peito, a partir de y 1040 (`cena-N-rosto.png`; até 6/11/2026 a caixa ficava no terço de cima e cobria o rosto) e dura o tempo da fala. Sem o vídeo, sai como cena de texto (ou de gancho, na cena 1). Kicker e título curtos: a caixa não pode entrar na área da legenda das redes (abaixo de y 1560), senão o script recusa.
 
 Cena de clipe (desde 6/11/2026: um trecho de vídeo que o Paulo já gravou, como os do lote do plástico bolha em `extras/lote/`, quando a TROCA DO DIA lista os trechos):
 
         {"tipo": "clipe", "cor": "G", "chip": (18, opcional), "kicker": (40), "titulo": (64), "video": "extras/lote/lote-01-bolha.mp4",
          "inicio": segundo do trecho onde a cena começa (opcional, 0 se faltar), "narracao": (110)}
 
-O trecho entra no fundo, em 1080x1920, com o kicker e o título na caixa do terço de cima (como na cena rosto), e dura o tempo da fala; se a fala for mais longa que o trecho, ele recomeça. A voz é a da narração: no aviso de gravação, a linha da cena é "Só a voz". Kicker e título curtos, porque a caixa não pode descer até o meio da tela. Não conta no limite de cenas rosto.
+O trecho entra no fundo, em 1080x1920, com o kicker e o título numa caixa no terço de cima (na cena rosto, a caixa fica embaixo), e dura o tempo da fala; se a fala for mais longa que o trecho, ele recomeça. A voz é a da narração: no aviso de gravação, a linha da cena é "Só a voz". Kicker e título curtos, porque a caixa não pode descer até o meio da tela. Não conta no limite de cenas rosto.
 
 Cena de carta (uma carta grande na tela, com o preço logo abaixo):
 

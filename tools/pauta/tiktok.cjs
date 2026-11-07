@@ -305,24 +305,28 @@ h1{font-family:CZ;font-weight:700;font-size:80px;line-height:1.05;margin-top:22p
   return `<!doctype html><html><head><meta charset="utf-8"><style>${css}${extra}</style></head><body><div class="canvas" style="--ah:${ah}px">${inner}</div></body></html>`;
 }
 
-/* Título por cima do vídeo do Paulo (cena rosto): fundo transparente, marca e chip no alto e o kicker com o título
-   numa caixa escura no terço de cima, para o rosto ficar livre no meio da tela. */
+/* Título por cima do vídeo (cenas rosto e clipe): fundo transparente, marca e chip no alto e o kicker com o título
+   numa caixa escura. No clipe, a caixa fica no terço de cima; na cena rosto (desde 7/11/2026, pedido do Paulo: a caixa
+   no alto cobria o rosto dele), ela desce para baixo do queixo, na altura do peito, acima da área da legenda das redes. */
+const ROSTO_CAIXA_TOPO = 1040, ROSTO_CAIXA_FUNDO = LIMITE_BAIXO;
 function overlayHTML(r, c) {
   const css = fs.readFileSync(path.join(ROOT, 'tools/kit/kit.css'), 'utf8')
     .split('{{FONTS}}').join(furl(path.join(ROOT, 'tools/kit/fonts')))
     .split('{{LANDS}}').join(furl(path.join(ROOT, 'lands')));
+  const baixo = c.tipo === 'rosto';
   const cor = c.cor || 'A';
   const pip = cor === 'M' ? '<span class="pip p-M" style="--s:40px"><i class="wd wW"></i><i class="wd wU"></i><i class="wd wB"></i><i class="wd wR"></i><i class="wd wG"></i></span>' : `<span class="pip p-${cor}" style="--s:40px"></span>`;
   const extra = `html,body{background:transparent!important}
 .canvas{width:1080px;height:1920px;background:none!important}
-.shade{position:absolute;left:0;right:0;top:0;height:760px;background:linear-gradient(180deg,rgba(10,10,14,.62) 0%,rgba(10,10,14,.35) 55%,rgba(10,10,14,0) 100%)}
+${baixo ? `.shade{position:absolute;left:0;right:0;top:0;height:520px;background:linear-gradient(180deg,rgba(10,10,14,.5) 0%,rgba(10,10,14,0) 100%)}
+.shade2{position:absolute;left:0;right:0;top:${ROSTO_CAIXA_TOPO - 220}px;height:${1920 - ROSTO_CAIXA_TOPO + 220}px;background:linear-gradient(180deg,rgba(10,10,14,0) 0%,rgba(10,10,14,.35) 35%,rgba(10,10,14,.5) 100%)}` : `.shade{position:absolute;left:0;right:0;top:0;height:760px;background:linear-gradient(180deg,rgba(10,10,14,.62) 0%,rgba(10,10,14,.35) 55%,rgba(10,10,14,0) 100%)}`}
 .top{position:absolute;top:300px;left:120px;right:120px;display:flex;justify-content:space-between;align-items:center}
 .top .brand{font-size:52px}
-.ov{position:absolute;top:390px;left:120px;right:120px;background:rgba(15,15,19,.74);border-radius:28px;padding:26px 34px 30px;box-shadow:0 18px 40px -12px rgba(0,0,0,.7)}
+.ov{position:absolute;top:${baixo ? ROSTO_CAIXA_TOPO : 390}px;left:120px;right:120px;background:rgba(15,15,19,.74);border-radius:28px;padding:26px 34px 30px;box-shadow:0 18px 40px -12px rgba(0,0,0,.7)}
 .kicker{font-size:28px}
 .ov h1{font-family:CZ;font-weight:700;font-size:60px;line-height:1.06;margin-top:14px;color:#F3EEE2}`;
   const top = `<div class="top"><div class="brand">Fonte <span class="de">de</span> Mana</div>${c.chip ? '<span class="chip">' + esc(c.chip) + '</span>' : ''}</div>`;
-  return `<!doctype html><html><head><meta charset="utf-8"><style>${css}${extra}</style></head><body><div class="canvas"><div class="shade"></div>${top}<div class="ov"><div class="kicker">${pip} ${esc(c.kicker)}</div><h1>${rich(c.titulo)}</h1></div></div></body></html>`;
+  return `<!doctype html><html><head><meta charset="utf-8"><style>${css}${extra}</style></head><body><div class="canvas"><div class="shade"></div>${baixo ? '<div class="shade2"></div>' : ''}${top}<div class="ov"><div class="kicker">${pip} ${esc(c.kicker)}</div><h1>${rich(c.titulo)}</h1></div></div></body></html>`;
 }
 
 async function renderFrames(r) {
@@ -356,7 +360,8 @@ async function renderFrames(r) {
       fs.writeFileSync(f, overlayHTML(r, c));
       await pg.goto(furl(f)); await pg.evaluate(() => document.fonts.ready); await pg.waitForTimeout(250);
       const over = await pg.evaluate(() => { const b = document.querySelector('.ov'); return b ? b.getBoundingClientRect().bottom : 0; });
-      if (over > 960) throw new Error(`${rotulo}: o título por cima do vídeo desce até y ${Math.round(over)} e cobre o meio da tela; encurte o kicker ou o título`);
+      if (c.tipo === 'rosto' && over > ROSTO_CAIXA_FUNDO) throw new Error(`${rotulo}: o título por cima do vídeo desce até y ${Math.round(over)} e entra na área da legenda das redes; encurte o kicker ou o título`);
+      if (c.tipo !== 'rosto' && over > 960) throw new Error(`${rotulo}: o título por cima do vídeo desce até y ${Math.round(over)} e cobre o meio da tela; encurte o kicker ou o título`);
       await pg.screenshot({ path: overlayDe(i), type: 'png', omitBackground: true });
     }
     if (tag !== '1b') out.push(quadroDe(i));

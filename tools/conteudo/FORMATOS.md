@@ -66,11 +66,11 @@ As outras abas (Engajamento, Alcance, Reels de teste, Canais, Monetização, An�
 Pedido do Paulo em 23 out, a partir das melhores práticas do Instagram (rosto na câmera cria vínculo). Vale nos pilares de `plano.json` > `rosto`: Dicionário (toda terça), Termômetro, Debate, Toda mesa tem um e Vitrine. Os outros, inclusive o Chama o Juiz, seguem sem rosto, para a revisão comparar.
 
 - **Híbrido**: a cena 1 é o Paulo falando o gancho para a câmera (tipo `rosto`), e há no máximo mais 2 cenas rosto onde a pessoa importa: a opinião, a reação, o acessório na mão, o fecho. Cartas, listas e números continuam em cenas geradas, com a voz dele por baixo.
-- **Na tela**: o vídeo dele em tela cheia, com o kicker e o título numa caixa no terço de cima. O rosto fica no meio, livre.
+- **Na tela**: o vídeo dele em tela cheia, com o kicker e o título numa caixa abaixo do rosto, na altura do peito. O rosto fica livre.
 - **Fala de conversa**: frases curtas, do jeito que ele diria na mesa, sem cara de leitura. Desde 29 out, cena 1 com o rosto até 60 caracteres (uns 3 a 4 s) e as outras até 80, porque no mana dork (27 out) a cena 1 com o rosto durou 7 s e foi onde quase todo mundo saiu; quem chegou à carta ficou até o fim. A tela troca para a carta ou a lista logo depois.
 - **`gravar`**: o que ele faz e mostra. A carta física na mão é o melhor recurso (é dele, é real); na Vitrine, o acessório em uso, que é o que o Instagram pede em anúncio de parceria.
 - **Por pilar**: no Dicionário, ele diz a frase de mesa com o termo ("segura que vou dar ramp") e pergunta se você sabe o que é, sem dar a definição (ela vem na cena seguinte, com a carta); no Termômetro e no Debate, a opinião dele no fecho; no Toda mesa tem um, ele imita o tipo de jogador no gancho; na Vitrine, o acessório na mão.
-- **Gravação**: celular na vertical, câmera da frente, rosto no meio e o terço de cima livre, luz de frente, Vídeo HDR desligado, um vídeo por cena com meio segundo de silêncio nas pontas. O script corta o silêncio, ajusta a cor e põe o título.
+- **Gravação**: celular na vertical, câmera da frente, rosto na metade de cima da tela (o título entra embaixo, na altura do peito), luz de frente, Vídeo HDR desligado, um vídeo por cena com meio segundo de silêncio nas pontas. O script corta o silêncio, ajusta a cor e põe o título.
 - **Sem o vídeo dele**, a cena rosto sai como cena de texto e o vídeo mudo continua postável.
 
 ## Formatos com ferramenta pronta
