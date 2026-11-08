@@ -1,72 +1,73 @@
 {
  "data": "2026-11-09",
  "pilar": "zero",
- "tema": "Do zero à mesa #1: comprei na gringa e vieram 323 cartas de plástico bolha",
+ "tema": "Do zero à mesa #1: comprei pro Corte Carmesim e vieram 323 cartas de brinde",
  "item": null,
  "arte": "pauta/2026-11-09/tiktok/arte.jpg",
  "carta": "pauta/2026-11-09/tiktok/carta.jpg",
  "credito": "Arte: Sea Gate Loremaster, Dave Kendall",
  "fx": null,
- "legenda": "Commander: comprei 41 cartas de Magic na gringa e o vendedor mandou 323 de plástico bolha. Qual a carta mais cara que já veio de brinde pra você?\n\n323 cartas de graça, de 40 coleções.\n79 em chinês, 12 fichas e até uma de Riftbound.\n13 foils e 14 cartas da The List.\nA mais valiosa veio em chinês: Sea Gate Loremaster, rara de Zendikar (carta em chinês não tem cotação própria, vale a mesma impressão em inglês).\n29 já estão no Vito 500, meu deck de Duel Commander.\n\nDo zero à mesa #1. Domingo tem quanto vale tudo isso.\nfontedemana.com.br\n\n#plasticobolha #commander #mtg",
- "comentario": "Carta em chinês no deck: você jogaria ou só em inglês? Do zero à mesa continua no domingo, com quanto vale o plástico bolha.",
+ "legenda": "Commander: comprei cartas de Magic na gringa pro meu deck de vampiros e o vendedor mandou 323 de plástico bolha. Qual a melhor carta que já veio de brinde pra você?\n\nEram 41 cartas pro Corte Carmesim, meu deck do Edgar Markov.\nA proteção: 323 cartas de 40 coleções, 79 em chinês e até uma de Riftbound.\nNo meio, aliados raros de Zendikar, de 2009.\n15 já tapam buraco no Corte Carmesim de teste.\nE com alguns ajustes deu pra montar um deck novo de Duel Commander 500, o Rosa Sangrenta.\n\nDo zero à mesa #1. Quarta tem o Corte Carmesim montado.\nfontedemana.com.br\n\n#plasticobolha #commander #mtg",
+ "comentario": "Carta em chinês no deck: você jogaria ou só em inglês? A série Do zero à mesa continua na quarta, com o Corte Carmesim.",
  "cenas": [
   {
    "tipo": "rosto",
-   "cor": "G",
+   "cor": "B",
    "chip": "Do zero à mesa #1",
    "kicker": "Comprei na gringa",
    "titulo": "Veio plástico bolha de carta",
    "sub": "41 cartas compradas, 323 de brinde",
-   "narracao": "Comprei na gringa e veio plástico bolha de carta.",
+   "narracao": "Comprei carta pro meu deck de vampiros e veio isso.",
    "gravar": "Olhando para a câmera, segurando o maço do lote na mão com o plástico bolha aparecendo.",
-   "segundos": 3.9
+   "segundos": 4.3
+  },
+  {
+   "tipo": "carta",
+   "cor": "B",
+   "kicker": "O pedido",
+   "carta": "pauta/2026-11-09/tiktok/carta-1.jpg",
+   "titulo": "41 cartas pro Corte Carmesim",
+   "sub": "Meu deck do Edgar Markov",
+   "narracao": "Eram 41 cartas pra completar o Corte Carmesim, meu deck do Edgar Markov.",
+   "segundos": 5.4
   },
   {
    "tipo": "clipe",
    "cor": "G",
-   "kicker": "Pra proteger 41 cartas",
-   "titulo": "323 cartas de graça",
+   "kicker": "A proteção",
+   "titulo": "323 cartas de brinde",
    "video": "extras/lote/lote-01-bolha.mp4",
-   "narracao": "Pra proteger 41 cartas, o vendedor mandou 323 de brinde, de 40 coleções.",
-   "segundos": 5.4
+   "narracao": "Pra proteger, o vendedor mandou 323 cartas de brinde, de 40 coleções.",
+   "segundos": 5
   },
   {
    "tipo": "clipe",
    "cor": "U",
    "kicker": "79 em chinês",
-   "titulo": "A mais valiosa veio em chinês",
+   "titulo": "Aliados de Zendikar, de 2009",
    "video": "extras/lote/lote-03-chines.mp4",
    "inicio": 1,
-   "narracao": "79 vieram em chinês. E a mais valiosa do lote é uma delas, Sea Gate Loremaster.",
-   "segundos": 6.5
-  },
-  {
-   "tipo": "clipe",
-   "cor": "R",
-   "kicker": "13 foils",
-   "titulo": "A melhor em inglês",
-   "video": "extras/lote/lote-05-magmakin-foil.mp4",
-   "narracao": "Vieram 13 foils. Esse Magmakin Artillerist é a mais valiosa em inglês.",
+   "narracao": "79 vieram em chinês. Tem até aliado raro de Zendikar, de 2009.",
    "segundos": 5
   },
   {
    "tipo": "clipe",
-   "cor": "B",
-   "kicker": "29 no deck",
-   "titulo": "Virou deck de campeonato",
+   "cor": "M",
+   "kicker": "Virou deck",
+   "titulo": "15 no Corte e um deck novo",
    "video": "extras/lote/lote-07-gravkill.mp4",
-   "narracao": "E 29 dessas cartas já estão no Vito 500, meu deck de Duel Commander.",
-   "segundos": 5.8
+   "narracao": "15 já tapam buraco no Corte. E com uns ajustes deu um deck novo pro DC500, o Rosa Sangrenta.",
+   "segundos": 7.6
   },
   {
    "tipo": "rosto",
-   "cor": "M",
-   "chip": "Domingo, 15/11",
+   "cor": "B",
+   "chip": "Quarta, 11/11",
    "kicker": "Do zero à mesa",
-   "titulo": "Quanto vale o plástico bolha?",
-   "narracao": "Quanto vale esse plástico bolha todo? Domingo eu conto.",
-   "gravar": "Abrindo o maço em leque na frente da câmera, com cara de quem ainda não fez a conta.",
-   "segundos": 3.9
+   "titulo": "O Corte Carmesim montado",
+   "narracao": "Quarta eu mostro o Corte Carmesim montado.",
+   "gravar": "Mostrando o Edgar Markov na mão para a câmera, com o maço do lote do lado.",
+   "segundos": 3.2
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
-  "versao": "2026-11-06 v5.8.1",
+  "versao": "2026-11-08 v5.9",
   "comentario": "Plano editorial da Fonte de Mana. Lido por tools/conteudo/contexto.cjs (tarefa da noite), tools/pauta/manha.cjs (tarefa da manhã) e tools/pauta/tiktok.cjs (molde do vídeo). A explicação completa está em tools/conteudo/ESTRATEGIA.md, os formatos (com as referências que inspiraram cada um) em tools/conteudo/FORMATOS.md e a revisão semanal em tools/conteudo/REVISAO.md. Ciclo de 3 semanas: a letra da semana é ciclo.semanas[(semana ISO + ciclo.deslocamento) % 3]. Datas comemorativas em datas: de e ate como MM-DD (todo ano) ou AAAA-MM-DD (só aquele ano); no dia, pilarNoDia troca o pilar do calendário. Os blocos video, reels, threads, legenda, audio, conversa, rosto e isca valem para datas a partir de desde (antes disso, tudo segue como na v4). plantao: eventos com dia marcado para a fase plantao do orquestrador; o tools/conteudo/plantao.cjs mostra o do dia com --qual. testes: de e ate (ou dias) em AAAA-MM-DD; hora troca o horário da grade nesses dias.",
 
   "ciclo": {"semanas": ["A", "B", "C"], "deslocamento": 2, "nota": "Semana ISO 42 (12 a 18 out 2026) = C a partir de sexta 16, 43 = A, 44 = B, 45 = C. Semana C traz os formatos novos de 15 out."},
@@ -132,15 +132,16 @@
       "dia": "2026-11-09",
       "pilar": "zero",
       "rosto": true,
-      "motivo": "Série Do zero à mesa, aprovada pelo Paulo em 6/11 (ele mandou os 7 vídeos das cartas): a abertura do lote do plástico bolha no lugar da História de uma carta desta segunda.",
-      "tema": "Do zero à mesa #1: comprei na gringa e o vendedor mandou 323 cartas de plástico bolha",
+      "motivo": "Série Do zero à mesa, aprovada pelo Paulo em 6/11 (ele mandou os 7 vídeos das cartas): a abertura do lote do plástico bolha no lugar da História de uma carta desta segunda. Roteiro refeito em 8/11 com o foco novo da série (Corte Carmesim no centro, sem preço de carta).",
+      "tema": "Do zero à mesa #1: comprei pro Corte Carmesim e vieram 323 cartas de brinde",
       "material": [
         "A história: um amigo do Paulo voltou de viagem e trouxe 41 cartas que ele comprou na gringa para o deck Corte Carmesim (Edgar Markov, vampiros), entre elas o próprio Edgar Markov, a Exquisite Blood e a Teferi's Protection, mais sleeves Perfect Fit e Dragon Shield.",
-        "O plástico bolha: o vendedor protegeu as cartas com outras de menor valor. Vieram 323 cartas de graça, de 40 coleções: 231 de Magic em inglês, 79 em chinês simplificado, 12 fichas e 1 carta de Riftbound (o card game de League of Legends).",
+        "O plástico bolha: o vendedor protegeu as cartas com outras. Vieram 323 cartas de graça, de 40 coleções: 231 de Magic em inglês, 79 em chinês simplificado, 12 fichas e 1 carta de Riftbound (o card game de League of Legends).",
         "Raridades: 200 comuns, 100 incomuns, 10 raras e 12 fichas; 13 foils. Coleções que mais aparecem: The Hobbit (63), Edge of Eternities (38), Secrets of Strixhaven (31) e Double Masters (23).",
-        "Curiosidades: as duas cartas mais valiosas do lote estão em chinês (Sea Gate Loremaster e Turntimber Ranger, raras de Zendikar); 14 cartas são da The List.",
-        "O que virou deck: 29 cartas do lote estão no Vito 500, o deck de Duel Commander 500 do Paulo (teto de R$ 500 pela LigaMagic). Somam R$ 14,72 na LigaMagic, e 11 delas estão em chinês.",
-        "A série continua: no sábado 14/11, o Vito 500 depois da estreia no DC500 de 11/11; no domingo 15/11, quanto vale o plástico bolha; no sábado 21/11, o double sleeve com as sleeves do pacote."
+        "Curiosidades: Sea Gate Loremaster e Turntimber Ranger, aliados raros de Zendikar (2009), vieram em chinês; 14 cartas são da The List.",
+        "O que virou deck: 15 cartas do lote tapam buraco no Corte Carmesim de teste e, com alguns ajustes, deram um deck novo de Duel Commander 500, o Rosa Sangrenta (29 cartas do lote, 11 delas em chinês).",
+        "Foco da série (pedido do Paulo em 8/11): a compra foi para montar o Corte Carmesim; o Rosa Sangrenta veio depois, quando ele viu as cartas do lote e decidiu aproveitar para um deck de Duel Commander 500. Nada de conteúdo de valor de carta: nenhuma carta do lote passa de R$ 100, então as cartas aparecem pela história ou pelo papel num deck, nunca pelo preço. O valor total do lote só entra como gancho, no #4 (15/11).",
+        "A série: #1 em 9/11, a abertura do lote; #2 em 11/11, o Corte Carmesim; #3 em 14/11, o Rosa Sangrenta depois da estreia no DC500; #4 em 15/11, o que tem de bom no lote; #5 em 21/11, o double sleeve com as sleeves do pacote."
       ],
       "clipes": [
         "extras/lote/lote-01-bolha.mp4 (5,5 s: o maço de cartas na mão, com o plástico bolha embaixo; Edge of Eternities)",
@@ -149,75 +150,100 @@
         "extras/lote/lote-04-lembas.mp4 (4 s: Lembas em chinês, a 4ª mais valiosa)",
         "extras/lote/lote-05-magmakin-foil.mp4 (3,5 s: Magmakin Artillerist foil, a mais valiosa das cartas em inglês)",
         "extras/lote/lote-06-echo-foil.mp4 (3,6 s: Echo, Perceptive Prodigy foil, da coleção Marvel)",
-        "extras/lote/lote-07-gravkill.mp4 (4 s: Gravpack Monoist e Gravkill, duas das 29 cartas do lote que estão no Vito 500)",
+        "extras/lote/lote-07-gravkill.mp4 (4 s: Gravpack Monoist e Gravkill, duas das 29 cartas do lote que estão no Rosa Sangrenta)",
         "extras/lote/lote-08-fichas.mp4 (5 s: fichas de Tesouro; o lote tem 12 fichas)"
       ],
-      "sugestao": "Vídeo (TikTok e Reels, 20 a 30 s): cena 1 rosto com o Paulo segurando o maço (fala curta: \"Comprei na gringa e veio plástico bolha de carta.\"); depois 3 ou 4 cenas clipe (o plástico bolha, as cartas em chinês, um foil, as fichas ou as cartas que viraram deck), cada uma com um número na tela (323 cartas, 40 coleções, 79 em chinês, 13 foils, 29 no deck de campeonato); fecho com a promessa de domingo: quanto vale tudo isso. Carrossel: o segundo Chama o Juiz (CARROSSEL DO DIA). Threads deste dia: a pergunta \"Qual a carta mais cara que já veio de brinde ou de proteção pra você?\", não o do carrossel. Stories: acrescente na pauta um aviso stories-lote às 18:00, com um quadro do vídeo e a enquete \"Você jogaria com carta em chinês?\" (Jogaria, Só em inglês). Legenda: primeira linha com Commander e o gancho, e a hashtag do assunto #plasticobolha.",
-      "cuidado": "Nunca diga de que país vieram as cartas: só \"comprei na gringa\" ou \"no exterior\"; se alguém perguntar, \"um amigo trouxe de viagem\". Nunca mostre nem descreva prints de carrinho, pedido ou loja. Valor de mercado não é valor de venda: carta de granel vende por bem menos, então nada de \"ganhei R$ X\". Carta em chinês não tem cotação própria: o valor citado é o da mesma impressão em inglês, e a peça diz isso. As cartas são autênticas (o Paulo conferiu) e isso pode ser dito. O combo Exquisite Blood e Sanguine Bond já saiu em 28/10: não explique de novo."
+      "sugestao": "Feito em 8/11: cena 1 rosto (o gancho), cena carta do Edgar Markov (o pedido para o Corte Carmesim), clipes do plástico bolha, das cartas em chinês e das cartas que viraram deck, e fecho rosto com a promessa da quarta (o Corte Carmesim). Carrossel: o segundo Chama o Juiz (CARROSSEL DO DIA). Threads: \"Qual a melhor carta que já veio de brinde ou de proteção pra você?\". Stories: aviso stories-lote às 18:00, com um quadro do vídeo e a enquete \"Você jogaria com carta em chinês?\" (Jogaria, Só em inglês). Legenda: primeira linha com Commander e o gancho, e a hashtag do assunto #plasticobolha.",
+      "cuidado": "Nunca diga de que país vieram as cartas: só \"comprei na gringa\" ou \"no exterior\"; se alguém perguntar, \"um amigo trouxe de viagem\". Nunca mostre nem descreva prints de carrinho, pedido ou loja. As cartas são autênticas (o Paulo conferiu) e isso pode ser dito. O deck de Duel Commander se chama Rosa Sangrenta desde 8/11 (antes, Vito 500; o comandante continua o Vito, Thorn of the Dusk Rose). Sem preço de carta. O combo Exquisite Blood e Sanguine Bond já saiu em 28/10: não explique de novo."
+    },
+    {
+      "dia": "2026-11-11",
+      "pilar": "zero",
+      "rosto": true,
+      "motivo": "Série Do zero à mesa, pedido do Paulo em 8/11: um episódio próprio do Corte Carmesim, o deck que motivou a compra, no lugar do Deck em 40 segundos desta quarta (o molde de deck continua: o plano em três passos).",
+      "tema": "Do zero à mesa #2: Corte Carmesim, o deck de vampiros que começou tudo",
+      "material": [
+        "O deck: Corte Carmesim, Commander multijogador com Edgar Markov (vampiros em branco, preto e vermelho). Foi para completar ele que o Paulo comprou 41 cartas na gringa e mais 26 numa loja do Brasil.",
+        "O comandante: o Edgar Markov tem Eminência, que funciona até com ele na zona de comando: cada outro vampiro que você conjura cria uma ficha de vampiro 1/1. Tem golpe inicial e ímpeto e, quando ataca, põe um marcador +1/+1 em cada vampiro seu. Confira o texto no Scryfall.",
+        "O plano em três passos: 1) baixar vampiros baratos, que já viram ficha extra pelo Edgar; 2) atacar com o Edgar, que cresce o time todo; 3) fechar com os drenos (Blood Artist, Cruel Celebrant) e o laço da Exquisite Blood, só citado: o combo saiu em 28/10.",
+        "Cartas do pedido que chamam atenção pelo papel no deck: Edgar Markov, Exquisite Blood, Teferi's Protection (salva o time de um board wipe), Skullclamp, Sorin, Imperious Bloodlord, Bloodline Keeper e Elenda, the Dusk Rose.",
+        "O deck de teste: 81 das 100 cartas estão compradas; as 19 que faltam foram trocadas por cartas do acervo só para testar, e 15 delas vieram do plástico bolha (ex.: Susurian Voidborn, Gollum the Abandoned, Gothmog, Morgul Lieutenant, Cast Out, Culling Dais e Swarm Culler).",
+        "Por que nasceu o Rosa Sangrenta: o Edgar Markov é banido como comandante no Duel Commander, então o Corte Carmesim não joga o DC500. Com as cartas do lote e alguns ajustes, o Paulo montou um deck novo, mono-preto, com o Vito: o Rosa Sangrenta, que estreia no DC500 da MTG Brasil nesta mesma quarta (o sábado 14/11 conta como foi).",
+        "Foco da série (pedido do Paulo em 8/11): a compra foi para montar o Corte Carmesim; o Rosa Sangrenta veio depois, quando ele viu as cartas do lote e decidiu aproveitar para um deck de Duel Commander 500. Nada de conteúdo de valor de carta: nenhuma carta do lote passa de R$ 100, então as cartas aparecem pela história ou pelo papel num deck, nunca pelo preço. O valor total do lote só entra como gancho, no #4 (15/11).",
+        "A série: #1 em 9/11, a abertura do lote; #2 em 11/11, o Corte Carmesim; #3 em 14/11, o Rosa Sangrenta depois da estreia no DC500; #4 em 15/11, o que tem de bom no lote; #5 em 21/11, o double sleeve com as sleeves do pacote."
+      ],
+      "clipes": [
+        "extras/lote/lote-01-bolha.mp4 (5,5 s: o maço de cartas na mão, com o plástico bolha embaixo)",
+        "extras/lote/lote-02-mesa-foil.mp4 (5 s: cartas do lote na mesa)"
+      ],
+      "sugestao": "Vídeo (TikTok e Reels, 20 a 30 s): cena 1 rosto com o Paulo segurando o Edgar Markov (fala curta, ex.: \"Esse é o deck que me fez comprar na gringa.\"); depois o plano em três passos em cenas carta (Edgar Markov, um vampiro barato, um dreno), uma cena clipe do lote com \"15 cartas do plástico bolha no deck de teste\" e o fecho rosto com o Rosa Sangrenta: \"e o deck que nasceu do lote estreia hoje no DC500\". Carrossel para salvar: o deck por função (comandante, vampiros, drenos, proteção), uma carta por tela, e a tela do deck de teste (o que falta e o que tapa o buraco). Threads: \"Edgar Markov: o comandante de vampiros mais forte ou só o mais famoso?\". Sem preço de carta e sem bracket (o Paulo não definiu). Chip \"Do zero à mesa #2\". Hashtag do assunto #edgarmarkov.",
+      "cuidado": "Nunca diga de que país vieram as cartas: só \"comprei na gringa\" ou \"no exterior\"; se alguém perguntar, \"um amigo trouxe de viagem\". Nunca mostre nem descreva prints de carrinho, pedido ou loja. As cartas são autênticas (o Paulo conferiu) e isso pode ser dito. O deck de Duel Commander se chama Rosa Sangrenta desde 8/11 (antes, Vito 500; o comandante continua o Vito, Thorn of the Dusk Rose). Sem preço de carta. O Edgar Markov já apareceu no Lore em 1 minuto (26/10): aqui o assunto é o deck, não a história dele. O combo Exquisite Blood e Sanguine Bond já saiu em 28/10: não explique de novo."
     },
     {
       "dia": "2026-11-14",
       "pilar": "dc500",
       "rosto": true,
-      "motivo": "Série Do zero à mesa, combinada com o Paulo em 6/11: ele estreia o Vito 500 no Duel Commander 500 da loja MTG Brasil na quarta 11/11, e o sábado seguinte conta o deck e o resultado, como foi com o Ashling em 31/10. A Vitrine do double sleeve foi para 21/11, o sábado de Vitrine do calendário.",
-      "tema": "Do zero à mesa #3: o Vito 500, deck de campeonato com 29 cartas que vieram de graça",
+      "motivo": "Série Do zero à mesa, combinada com o Paulo em 6/11: ele estreia o Rosa Sangrenta (antes chamado Vito 500) no Duel Commander 500 da loja MTG Brasil na quarta 11/11, e o sábado seguinte conta o deck e o resultado, como foi com o Ashling em 31/10. A Vitrine do double sleeve foi para 21/11, o sábado de Vitrine do calendário.",
+      "tema": "Do zero à mesa #3: o Rosa Sangrenta, deck de DC500 que nasceu do plástico bolha",
       "material": [
         "RESULTADO DO TORNEIO de 11/11: o Paulo conta na conversa do projeto, e esta linha é atualizada antes da noite de 13/11. Se a linha ainda estiver assim, a peça é o deck, dizendo só que ele estreou no DC500 da MTG Brasil em 11/11, sem placar e sem dizer que ganhou.",
-        "O formato: Duel Commander 500, 1x1, 20 de vida, lista com teto de R$ 500 pela LigaMagic. O Edgar Markov, comandante do Corte Carmesim, é banido como comandante no Duel Commander; por isso o Paulo montou um deck novo, mono-preto, com o Vito, Thorn of the Dusk Rose, só com cartas que ele já tinha.",
-        "O preço: R$ 473,07 na LigaMagic pelo menor preço (a LigaMagic mostra o comandante a R$ 0,00), folga de R$ 26,93. De onde vêm as 65 cartas que não são terreno básico: 29 do lote do plástico bolha, 23 do Corte Carmesim e 13 do fichário antigo. As 29 do lote somam R$ 14,72 na LigaMagic, e 11 delas estão em chinês. Sem a Lembas (R$ 9,79) e o Ichor Wellspring (R$ 2,00), as outras 27 somam R$ 2,93: quase um terço do deck de campeonato custou centavos.",
+        "O formato: Duel Commander 500, 1x1, 20 de vida, lista com teto de R$ 500 pela LigaMagic. O Edgar Markov, comandante do Corte Carmesim, é banido como comandante no Duel Commander; por isso, quando viu as cartas do lote, o Paulo decidiu aproveitar e montou um deck novo, mono-preto, com o Vito, Thorn of the Dusk Rose: o Rosa Sangrenta, só com cartas que ele já tinha.",
+        "O teto: R$ 473,07 na LigaMagic pelo menor preço na versão 2, dentro do limite de R$ 500 (a LigaMagic mostra o comandante a R$ 0,00; na versão 2.1 o Anowon, the Ruin Sage entrou no lugar da Pestilence). De onde vêm as 65 cartas que não são terreno básico: 29 do lote do plástico bolha, 24 do Corte Carmesim e 12 do fichário antigo; 11 das 29 estão em chinês. As cartas do lote entram pelo papel no deck, não pelo preço.",
         "O motor: o Vito diz \"sempre que você ganha vida, o oponente alvo perde essa mesma quantidade\". Os drenos do deck (Blood Artist, Vengeful Bloodwitch e Susurian Voidborn, que veio no lote) disparam quando uma criatura morre: o oponente perde 1 e você ganha 1, e o Vito transforma esse 1 de ganho em mais 1 de perda. Cada sacrifício vira 2 de dano. Os sacrifícios vêm de Viscera Seer, Yahenni, Culling Dais (do lote), Skull Catapult, Swarm Culler (do lote) e Ashnod's Altar.",
         "Para fechar: com a Exquisite Blood em campo, o Vito forma um laço que só para quando o oponente chega a zero. O mesmo laço com o Sanguine Bond foi o Combo da semana #1 (28/10): cite em uma cena, com o Vito no lugar do Sanguine Bond, sem repetir a explicação.",
         "Cartas do lote que viraram peça do deck: Susurian Voidborn, Culling Dais, Swarm Culler, Gravpack Monoist, Gollum the Abandoned, Gothmog, Walk the Plank, Gravkill e Virus Beetle, entre outras.",
-        "Pedido do Paulo para conteúdo de combo: mostrar as cartas na tela, a ordem de jogar e a sequência dos gatilhos."
+        "Pedido do Paulo para conteúdo de combo: mostrar as cartas na tela, a ordem de jogar e a sequência dos gatilhos.",
+        "Foco da série (pedido do Paulo em 8/11): a compra foi para montar o Corte Carmesim; o Rosa Sangrenta veio depois, quando ele viu as cartas do lote e decidiu aproveitar para um deck de Duel Commander 500. Nada de conteúdo de valor de carta: nenhuma carta do lote passa de R$ 100, então as cartas aparecem pela história ou pelo papel num deck, nunca pelo preço. O valor total do lote só entra como gancho, no #4 (15/11).",
+        "A série: #1 em 9/11, a abertura do lote; #2 em 11/11, o Corte Carmesim; #3 em 14/11, o Rosa Sangrenta depois da estreia no DC500; #4 em 15/11, o que tem de bom no lote; #5 em 21/11, o double sleeve com as sleeves do pacote."
       ],
       "clipes": [
-        "extras/lote/lote-07-gravkill.mp4 (4 s: Gravpack Monoist e Gravkill, duas das 29 cartas do lote que estão no Vito 500)",
+        "extras/lote/lote-07-gravkill.mp4 (4 s: Gravpack Monoist e Gravkill, duas das 29 cartas do lote que estão no Rosa Sangrenta)",
         "extras/lote/lote-02-mesa-foil.mp4 (5 s: cartas na mesa; o Walk the Plank, do deck, aparece no começo)",
         "extras/lote/lote-01-bolha.mp4 (5,5 s: o maço de cartas na mão, com o plástico bolha embaixo)"
       ],
-      "sugestao": "Vídeo (TikTok e Reels; neste sábado o Reels sai às 21h): cena 1 rosto com o Paulo segurando o Vito, com o resultado do torneio ou, sem placar, \"Um terço do meu deck de campeonato veio de graça.\"; depois o motor em cenas carta (Vito, um dreno, um sacrifício) com a ordem dos gatilhos, um clipe das cartas do lote e o preço contra o teto; fecho com a pergunta aberta. Carrossel: o deck por função (motor, sacrifício, dreno, fechamento), com o preço e a origem das cartas. Threads: \"Dá para montar deck de campeonato com R$ 500?\". Na legenda e no aviso do feed, a loja MTG Brasil marcada como local. Chip \"Do zero à mesa #3\".",
-      "cuidado": "Nunca diga de que país vieram as cartas: só \"comprei na gringa\" ou \"no exterior\"; se alguém perguntar, \"um amigo trouxe de viagem\". Nunca mostre nem descreva prints de carrinho, pedido ou loja. Nunca cite nem mostre os adversários do torneio (nomes, rostos, prints do app). Não diga que ganhou o torneio nem a posição sem o Paulo ter dito. O Vito já apareceu no Top 5 de vampiros (22/10): o assunto aqui é o deck dele, não a carta."
+      "sugestao": "Vídeo (TikTok e Reels; neste sábado o Reels sai às 21h): cena 1 rosto com o Paulo segurando o Vito, com o resultado do torneio ou, sem placar, \"29 cartas do meu deck de campeonato vieram no plástico bolha.\"; depois o motor em cenas carta (Vito, um dreno, um sacrifício) com a ordem dos gatilhos, um clipe das cartas do lote e o teto de R$ 500 numa cena só; fecho com a pergunta aberta. Carrossel: o deck por função (motor, sacrifício, dreno, fechamento), com a origem das cartas (lote, Corte Carmesim, fichário). Threads: \"Dá para montar deck de campeonato com R$ 500?\". Na legenda e no aviso do feed, a loja MTG Brasil marcada como local. Chip \"Do zero à mesa #3\". Hashtag do assunto #rosasangrenta.",
+      "cuidado": "Nunca diga de que país vieram as cartas: só \"comprei na gringa\" ou \"no exterior\"; se alguém perguntar, \"um amigo trouxe de viagem\". Nunca mostre nem descreva prints de carrinho, pedido ou loja. Nunca cite nem mostre os adversários do torneio (nomes, rostos, prints do app). Não diga que ganhou o torneio nem a posição sem o Paulo ter dito. O Vito já apareceu no Top 5 de vampiros (22/10): o assunto aqui é o deck dele, não a carta. O nome do deck é Rosa Sangrenta (nunca Vito 500). Sem preço de carta avulsa."
     },
     {
       "dia": "2026-11-15",
-      "pilar": "bolsa",
+      "pilar": "zero",
       "rosto": true,
-      "motivo": "Série Do zero à mesa, aprovada pelo Paulo em 6/11: a Bolsa de Mana deste domingo conta quanto vale o lote do plástico bolha.",
-      "tema": "Do zero à mesa #2: quanto vale o plástico bolha de 323 cartas",
+      "motivo": "Série Do zero à mesa, aprovada pelo Paulo em 6/11 e refeita em 8/11: no lugar da Bolsa de Mana deste domingo, o que tem de bom no lote do plástico bolha, pela história e pelo papel das cartas, com o valor total só no gancho.",
+      "tema": "Do zero à mesa #4: o que tem de bom num plástico bolha de 323 cartas",
       "material": [
-        "Valor das 231 cartas em inglês, somando o preço de mercado: US$ 43,47 (R$ 235,66). As 79 em chinês, se valessem como a mesma impressão em inglês: US$ 24,50 (R$ 132,82).",
-        "Só 3 cartas valem US$ 1 ou mais; 250 valem menos de US$ 0,25.",
-        "As 5 mais valiosas: Sea Gate Loremaster (em chinês, Zendikar, rara), comparação US$ 5,20 (R$ 28,19); Turntimber Ranger (em chinês, Zendikar, rara), US$ 1,51 (R$ 8,19); Magmakin Artillerist foil (inglês, Aetherdrift, comum), US$ 1,28 (R$ 6,94); Lembas (em chinês, Senhor dos Anéis, comum), comparação US$ 0,98 (R$ 5,31); Goring Ceratops (inglês, Ixalan, rara), US$ 0,66 (R$ 3,58).",
-        "Curiosidade: o Echo, Perceptive Prodigy foil do lote, da coleção Marvel, vale US$ 0,31 (R$ 1,68); a versão promocional da mesma carta, com outra arte, vale US$ 10,95 (R$ 59,36). A do lote é a comum, com a Echo chutando o Kingpin na neve.",
-        "A lição: somar o preço de mercado não dá o preço de venda. Loja paga bem menos por carta de granel (bulk), então o lote vale muito mais no deck do que no balcão: 29 delas viraram parte do Vito 500.",
-        "Valores do lote: TCGplayer Market (via Scryfall) de 3/11/2026, em reais pela PTAX de 30/10/2026 (R$ 5,4212). Use esta cotação e esta nota de fonte nas peças do lote, não o fx da edição."
+        "O gancho é o valor total, uma vez só: somando o preço de mercado, as 231 cartas em inglês dão US$ 43,47 (R$ 235,66), menos de 20 centavos de dólar por carta, e 250 delas valem menos de US$ 0,25. Valores do TCGplayer Market (via Scryfall) de 3/11/2026, em reais pela PTAX de 30/10/2026 (R$ 5,4212); use esta nota e esta cotação, não o fx da edição. Depois do gancho, nenhuma carta aparece pelo preço: nenhuma passa de R$ 100.",
+        "Cartas com história: Sea Gate Loremaster e Turntimber Ranger, aliados raros de Zendikar (2009), em chinês; as 14 cartas da The List, reimpressões com o símbolo de planeswalker no canto (Shardless Agent, Cast Out, Etched Oracle); cartas de Unstable, a coleção de brincadeira; e um card de Riftbound, o card game de League of Legends, que nem é de Magic.",
+        "Cartas com papel em deck (confira o texto no Scryfall e o número de decks no EDHREC antes de usar): Cast Out e Banishing Light (remoção que cabe em muito deck), Shardless Agent (cascata), Goring Ceratops (dá golpe duplo ao time quando ataca), Gothmog, Morgul Lieutenant (fichas), Susurian Voidborn (dreno, peça do Rosa Sangrenta) e Culling Dais (sacrifício).",
+        "A lição: o lote vale mais na mesa do que no balcão. 15 cartas tapam buraco no Corte Carmesim de teste e 29 estão no Rosa Sangrenta.",
+        "Foco da série (pedido do Paulo em 8/11): a compra foi para montar o Corte Carmesim; o Rosa Sangrenta veio depois, quando ele viu as cartas do lote e decidiu aproveitar para um deck de Duel Commander 500. Nada de conteúdo de valor de carta: nenhuma carta do lote passa de R$ 100, então as cartas aparecem pela história ou pelo papel num deck, nunca pelo preço. O valor total do lote só entra como gancho, no #4 (15/11).",
+        "A série: #1 em 9/11, a abertura do lote; #2 em 11/11, o Corte Carmesim; #3 em 14/11, o Rosa Sangrenta depois da estreia no DC500; #4 em 15/11, o que tem de bom no lote; #5 em 21/11, o double sleeve com as sleeves do pacote."
       ],
       "clipes": [
         "extras/lote/lote-01-bolha.mp4 (5,5 s: o maço de cartas na mão, com o plástico bolha embaixo; Edge of Eternities)",
         "extras/lote/lote-02-mesa-foil.mp4 (5 s: cartas na mesa, Walk the Plank e um New Horizons foil)",
-        "extras/lote/lote-03-chines.mp4 (4,6 s: cartas em chinês; o Sea Gate Loremaster, a mais valiosa do lote, aparece a partir de uns 2 s)",
-        "extras/lote/lote-04-lembas.mp4 (4 s: Lembas em chinês, a 4ª mais valiosa)",
-        "extras/lote/lote-05-magmakin-foil.mp4 (3,5 s: Magmakin Artillerist foil, a mais valiosa das cartas em inglês)",
+        "extras/lote/lote-03-chines.mp4 (4,6 s: cartas em chinês; o Sea Gate Loremaster, aliado raro de Zendikar, aparece a partir de uns 2 s)",
+        "extras/lote/lote-04-lembas.mp4 (4 s: Lembas em chinês, do Senhor dos Anéis)",
+        "extras/lote/lote-05-magmakin-foil.mp4 (3,5 s: Magmakin Artillerist foil)",
         "extras/lote/lote-06-echo-foil.mp4 (3,6 s: Echo, Perceptive Prodigy foil, da coleção Marvel)",
-        "extras/lote/lote-07-gravkill.mp4 (4 s: Gravpack Monoist e Gravkill, duas das 29 cartas do lote que estão no Vito 500)",
+        "extras/lote/lote-07-gravkill.mp4 (4 s: Gravpack Monoist e Gravkill, duas das 29 cartas do lote que estão no Rosa Sangrenta)",
         "extras/lote/lote-08-fichas.mp4 (5 s: fichas de Tesouro; o lote tem 12 fichas)"
       ],
-      "sugestao": "Vídeo: cena 1 rosto com o Paulo (a pergunta: \"Quanto vale um plástico bolha de 323 cartas?\"), depois cenas clipe e carta com as mais valiosas (o Sea Gate Loremaster em chinês primeiro, pela surpresa) e o fecho com a lição de mercado contra venda. Carrossel para salvar: capa com a pergunta, uma tela com o total, as 5 mais valiosas, a curiosidade do Echo e a tela da lição. Threads: \"Carta em chinês no seu deck: joga ou troca?\". Chip \"Do zero à mesa #2\".",
-      "cuidado": "Nunca diga de que país vieram as cartas: só \"comprei na gringa\" ou \"no exterior\"; se alguém perguntar, \"um amigo trouxe de viagem\". Nunca mostre nem descreva prints de carrinho, pedido ou loja. Valor de mercado não é valor de venda: carta de granel vende por bem menos, então nada de \"ganhei R$ X\". Carta em chinês não tem cotação própria: o valor citado é o da mesma impressão em inglês, e a peça diz isso. As cartas são autênticas (o Paulo conferiu) e isso pode ser dito. O combo Exquisite Blood e Sanguine Bond já saiu em 28/10: não explique de novo."
+      "sugestao": "Vídeo: cena 1 rosto com o Paulo e o gancho do total (ex.: \"323 cartas, uns 236 reais. Mas tem coisa boa aqui.\"), depois cenas carta e clipe com 3 ou 4 cartas pela história ou pelo papel no deck, e o fecho com a lição. Carrossel para salvar: capa com o total, uma carta por tela (o que ela faz na mesa e em que deck entra), a tela da The List e a tela da lição. Threads: \"Qual carta que veio de brinde já virou peça do seu deck?\". Chip \"Do zero à mesa #4\". Hashtag do assunto #plasticobolha.",
+      "cuidado": "Nunca diga de que país vieram as cartas: só \"comprei na gringa\" ou \"no exterior\"; se alguém perguntar, \"um amigo trouxe de viagem\". Nunca mostre nem descreva prints de carrinho, pedido ou loja. As cartas são autênticas (o Paulo conferiu) e isso pode ser dito. O deck de Duel Commander se chama Rosa Sangrenta desde 8/11 (antes, Vito 500; o comandante continua o Vito, Thorn of the Dusk Rose). Valor de mercado não é valor de venda: nada de \"ganhei R$ X\". Carta em chinês não tem cotação própria. O combo Exquisite Blood e Sanguine Bond já saiu em 28/10: não explique de novo."
     },
     {
       "dia": "2026-11-21",
       "pilar": "vitrine",
       "rosto": true,
-      "motivo": "Série Do zero à mesa: a Vitrine do double sleeve, que estava em 14/11, veio para o sábado de Vitrine do calendário quando o Vito 500 ficou com o dia 14/11 (combinado com o Paulo em 6/11).",
-      "tema": "Do zero à mesa: double sleeve com as sleeves que vieram no pacote da gringa",
+      "motivo": "Série Do zero à mesa: a Vitrine do double sleeve, que estava em 14/11, veio para o sábado de Vitrine do calendário quando o Rosa Sangrenta ficou com o dia 14/11 (combinado com o Paulo em 6/11).",
+      "tema": "Do zero à mesa #5: double sleeve com as sleeves que vieram no pacote da gringa",
       "material": [
         "No mesmo pacote das cartas da gringa vieram 2 pacotes de sleeves Perfect Fit (ICO, 64 x 89 mm) e 1 caixa de Dragon Shield Ember com 60 sleeves. O Paulo conferiu: as Dragon Shield servem em carta de Magic.",
-        "Double sleeve: a sleeve justa (Perfect Fit) vai por dentro, colocada de cabeça para baixo, e a de fora (Dragon Shield) entra por cima. Protege carta cara como a Teferi's Protection e o Edgar Markov que vieram no mesmo pacote.",
-        "Faz parte da série Do zero à mesa (o #1 saiu em 9/11 com a abertura do lote e o #3 em 14/11 com o Vito 500)."
+        "Double sleeve: a sleeve justa (Perfect Fit) vai por dentro, colocada de cabeça para baixo, e a de fora (Dragon Shield) entra por cima. Protege as cartas do Corte Carmesim que vieram no mesmo pacote, como a Teferi's Protection e o Edgar Markov.",
+        "A série: #1 em 9/11, a abertura do lote; #2 em 11/11, o Corte Carmesim; #3 em 14/11, o Rosa Sangrenta depois da estreia no DC500; #4 em 15/11, o que tem de bom no lote; #5 em 21/11, o double sleeve com as sleeves do pacote."
       ],
-      "sugestao": "Vídeo com o Paulo nas cenas de mão: ele coloca a Perfect Fit e depois a Dragon Shield numa carta, em até 3 cenas rosto, e o resto em cenas geradas com o preço das sleeves (com fonte de loja brasileira ou do site da marca, como pede o pilar). Sem citar o preço pago na gringa.",
-      "cuidado": "Nunca diga de que país vieram as cartas: só \"comprei na gringa\" ou \"no exterior\"; se alguém perguntar, \"um amigo trouxe de viagem\". Nunca mostre nem descreva prints de carrinho, pedido ou loja."
+      "sugestao": "Vídeo com o Paulo nas cenas de mão: ele coloca a Perfect Fit e depois a Dragon Shield numa carta, em até 3 cenas rosto, e o resto em cenas geradas com o preço das sleeves (com fonte de loja brasileira ou do site da marca, como pede o pilar). Sem citar o preço pago na gringa. Chip \"Do zero à mesa #5\".",
+      "cuidado": "Nunca diga de que país vieram as cartas: só \"comprei na gringa\" ou \"no exterior\"; se alguém perguntar, \"um amigo trouxe de viagem\". Nunca mostre nem descreva prints de carrinho, pedido ou loja. As cartas são autênticas (o Paulo conferiu) e isso pode ser dito. O deck de Duel Commander se chama Rosa Sangrenta desde 8/11 (antes, Vito 500; o comandante continua o Vito, Thorn of the Dusk Rose)."
     }
   ],
   "carrosselExtra": {"desde": "2026-11-09", "dia": "seg", "pilar": "regra", "motivo": "Revisão de 2/11, aprovada pelo Paulo em 4/11: o Chama o Juiz tem o maior valor do Instagram (compartilhamentos e salvamentos por alcance) em duas revisões seguidas. Na segunda, o carrossel original é um segundo caso do Chama o Juiz; o vídeo e o Threads seguem o pilar da segunda. Segunda das 12h às 15h é um dos picos do recap de outubro.", "nota": "O carrossel extra só vai para o feed em dia calmo (força do dia); em dia forte fica no banco, como todo original."},
@@ -398,7 +424,7 @@
       "formato": "TikTok: gancho com o tipo, cenas texto com as frases que ele sempre diz, cena com a carta que ele adora e a dica de mesa, cta opcional com a pergunta \"quem é esse na sua mesa?\", sem pedir marcação. Carrossel: um tipo por tela com a carta, ou um tipo só em passos. Threads: \"qual tipo de jogador mais aparece na sua mesa?\" com opções. Humor sobre hábitos de jogo, nunca sobre pessoa real, aparência, gênero ou grupo; ninguém é humilhado.",
       "fila": "todamesa"
     },
-    "zero": {"nome": "Do zero à mesa", "oQue": "Série do Paulo: as cartas que ele comprou, o que veio junto e como tudo virou deck (Corte Carmesim e Vito 500). Só entra por troca (plano.json > trocas), com os fatos e os números da troca do dia.", "fontes": "Os fatos da troca do dia (vindos do briefing do Paulo no projeto MGT strategy), Scryfall para dados e preço das cartas, LigaMagic para o preço do deck.", "gancho": "Comprei 41 cartas na gringa e o vendedor mandou 323 de plástico bolha.", "pergunta": "Qual a carta mais cara que já veio de brinde pra você?", "formato": "Vídeo com o Paulo na cena 1 e os trechos que ele gravou (cenas do tipo clipe), números na tela, e a próxima peça da série prometida no fim. Série com nome e número no chip (\"Do zero à mesa #1\").", "fila": null},
+    "zero": {"nome": "Do zero à mesa", "oQue": "Série do Paulo: as cartas que ele comprou para o Corte Carmesim (Edgar Markov), as 323 que vieram de proteção, como plástico bolha, e como elas viraram deck, no Corte Carmesim de teste e no Rosa Sangrenta (Duel Commander 500). As cartas entram pela história ou pelo papel no deck, não pelo preço. Só entra por troca (plano.json > trocas), com os fatos da troca do dia.", "fontes": "Os fatos da troca do dia (vindos do briefing do Paulo no projeto MGT strategy), Scryfall para o texto das cartas, EDHREC para o papel delas nos decks, LigaMagic só para o teto do DC500.", "gancho": "Comprei 41 cartas na gringa e o vendedor mandou 323 de plástico bolha.", "pergunta": "Qual a melhor carta que já veio de brinde pra você?", "formato": "Vídeo com o Paulo na cena 1 e os trechos que ele gravou (cenas do tipo clipe), números na tela, e a próxima peça da série prometida no fim. Série com nome e número no chip (\"Do zero à mesa #1\").", "fila": null},
     "loja": {
       "nome": "Rota das Lojas",
       "oQue": "Visita do Paulo a uma loja de São Paulo: estrutura, estoque, preços, eventos de Commander, e se a loja acolhe quem está começando e as jogadoras (evento para iniciante, código de conduta, gente variada na mesa). Só entra quando existe extras/lojas/AAAA-MM-DD.json com a visita marcada.",

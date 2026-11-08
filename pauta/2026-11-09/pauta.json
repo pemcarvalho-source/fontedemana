@@ -8,7 +8,7 @@
       "hora": "19:15",
       "rede": "Gravação",
       "titulo": "Gravar o vídeo de amanhã (você aparece)",
-      "oQue": "Do zero à mesa #1, o lote do plástico bolha. Você aparece em duas cenas (a 1 e a 6); nas outras, só a voz por cima dos trechos que você já gravou.",
+      "oQue": "Do zero à mesa #1, o lote do plástico bolha. Você aparece em duas cenas (a 1 e a 6); nas outras, só a voz por cima da carta e dos trechos que você já gravou.",
       "arquivos": [
         {
           "nome": "Vídeo mudo",
@@ -19,38 +19,38 @@
         {
           "cena": "Cena 1, rosto, uns 3 s",
           "tela": "Comprei na gringa: Veio plástico bolha de carta",
-          "fala": "Comprei na gringa e veio plástico bolha de carta.",
+          "fala": "Comprei carta pro meu deck de vampiros e veio isso.",
           "como": "Rosto: Olhando para a câmera, segurando o maço do lote na mão com o plástico bolha aparecendo."
         },
         {
           "cena": "Cena 2, só a voz, uns 5 s",
-          "tela": "Pra proteger 41 cartas: 323 cartas de graça",
-          "fala": "Pra proteger 41 cartas, o vendedor mandou 323 de brinde, de 40 coleções.",
-          "como": "Só a voz: pode gravar em vídeo ou áudio (o trecho do lote entra sozinho no fundo)"
+          "tela": "O pedido: 41 cartas pro Corte Carmesim",
+          "fala": "Eram 41 cartas pra completar o Corte Carmesim, meu deck do Edgar Markov.",
+          "como": "Só a voz: pode gravar em vídeo ou áudio (o Edgar Markov entra na tela)"
         },
         {
           "cena": "Cena 3, só a voz, uns 5 s",
-          "tela": "79 em chinês: A mais valiosa veio em chinês",
-          "fala": "79 vieram em chinês. E a mais valiosa do lote é uma delas, Sea Gate Loremaster.",
+          "tela": "A proteção: 323 cartas de brinde",
+          "fala": "Pra proteger, o vendedor mandou 323 cartas de brinde, de 40 coleções.",
           "como": "Só a voz: pode gravar em vídeo ou áudio (o trecho do lote entra sozinho no fundo)"
         },
         {
-          "cena": "Cena 4, só a voz, uns 5 s",
-          "tela": "13 foils: A melhor em inglês",
-          "fala": "Vieram 13 foils. Esse Magmakin Artillerist é a mais valiosa em inglês.",
+          "cena": "Cena 4, só a voz, uns 4 s",
+          "tela": "79 em chinês: Aliados de Zendikar, de 2009",
+          "fala": "79 vieram em chinês. Tem até aliado raro de Zendikar, de 2009.",
           "como": "Só a voz: pode gravar em vídeo ou áudio (o trecho do lote entra sozinho no fundo)"
         },
         {
-          "cena": "Cena 5, só a voz, uns 5 s",
-          "tela": "29 no deck: Virou deck de campeonato",
-          "fala": "E 29 dessas cartas já estão no Vito 500, meu deck de Duel Commander.",
+          "cena": "Cena 5, só a voz, uns 6 s",
+          "tela": "Virou deck: 15 no Corte e um deck novo",
+          "fala": "15 já tapam buraco no Corte. E com uns ajustes deu um deck novo pro DC500, o Rosa Sangrenta.",
           "como": "Só a voz: pode gravar em vídeo ou áudio (o trecho do lote entra sozinho no fundo)"
         },
         {
-          "cena": "Cena 6, rosto, uns 4 s",
-          "tela": "Do zero à mesa: Quanto vale o plástico bolha?",
-          "fala": "Quanto vale esse plástico bolha todo? Domingo eu conto.",
-          "como": "Rosto: Abrindo o maço em leque na frente da câmera, com cara de quem ainda não fez a conta."
+          "cena": "Cena 6, rosto, uns 3 s",
+          "tela": "Do zero à mesa: O Corte Carmesim montado",
+          "fala": "Quarta eu mostro o Corte Carmesim montado.",
+          "como": "Rosto: Mostrando o Edgar Markov na mão para a câmera, com o maço do lote do lado."
         }
       ],
       "passos": [
@@ -90,8 +90,8 @@
       "id": "tiktok",
       "hora": "11:30",
       "rede": "TikTok",
-      "titulo": "Do zero à mesa #1: o lote do plástico bolha",
-      "oQue": "Vídeo com você na abertura e os trechos do lote: 323 cartas de brinde, 79 em chinês, 13 foils e 29 no Vito 500.",
+      "titulo": "Do zero à mesa #1: o plástico bolha do Corte Carmesim",
+      "oQue": "Vídeo com você na abertura e no fecho: o pedido pro Corte Carmesim, as 323 cartas de brinde, os aliados de Zendikar em chinês e o deck novo, o Rosa Sangrenta.",
       "arquivos": [
         {
           "nome": "Vídeo mudo",
@@ -101,11 +101,11 @@
       "textos": [
         {
           "rotulo": "Legenda",
-          "texto": "Commander: comprei 41 cartas de Magic na gringa e o vendedor mandou 323 de plástico bolha. Qual a carta mais cara que já veio de brinde pra você?\n\n323 cartas de graça, de 40 coleções.\n79 em chinês, 12 fichas e até uma de Riftbound.\n13 foils e 14 cartas da The List.\nA mais valiosa veio em chinês: Sea Gate Loremaster, rara de Zendikar (carta em chinês não tem cotação própria, vale a mesma impressão em inglês).\n29 já estão no Vito 500, meu deck de Duel Commander.\n\nDo zero à mesa #1. Domingo tem quanto vale tudo isso.\nfontedemana.com.br\n\n#plasticobolha #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+          "texto": "Commander: comprei cartas de Magic na gringa pro meu deck de vampiros e o vendedor mandou 323 de plástico bolha. Qual a melhor carta que já veio de brinde pra você?\n\nEram 41 cartas pro Corte Carmesim, meu deck do Edgar Markov.\nA proteção: 323 cartas de 40 coleções, 79 em chinês e até uma de Riftbound.\nNo meio, aliados raros de Zendikar, de 2009.\n15 já tapam buraco no Corte Carmesim de teste.\nE com alguns ajustes deu pra montar um deck novo de Duel Commander 500, o Rosa Sangrenta.\n\nDo zero à mesa #1. Quarta tem o Corte Carmesim montado.\nfontedemana.com.br\n\n#plasticobolha #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
         },
         {
           "rotulo": "Comentário fixado",
-          "texto": "Carta em chinês no deck: você jogaria ou só em inglês? Do zero à mesa continua no domingo, com quanto vale o plástico bolha."
+          "texto": "Carta em chinês no deck: você jogaria ou só em inglês? A série Do zero à mesa continua na quarta, com o Corte Carmesim."
         }
       ],
       "passos": [

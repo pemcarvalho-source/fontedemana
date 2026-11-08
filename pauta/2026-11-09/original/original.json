@@ -3,29 +3,100 @@
   "pilar": "regra",
   "item": "Identidade de cor conta o símbolo de mana no texto",
   "tema": "Chama o Juiz #5: Kessig Wolf Run entra num deck de comandante mono verde?",
-  "cartas": ["Kessig Wolf Run"],
+  "cartas": [
+    "Kessig Wolf Run"
+  ],
   "fx": null,
   "carrossel": {
-    "capa": {"cor": "U", "chip": "Chama o Juiz #5", "kicker": "Seu comandante é mono verde", "titulo": "Terreno <b>incolor</b> entra em qualquer deck?", "sub": "A Kessig Wolf Run só gera mana incolor. Ela pode ir nas 99 de um comandante <b>verde</b>?", "arte": "pauta/2026-11-09/original/arte.jpg", "credito": "Arte: Kessig Wolf Run, Eytan Zana"},
+    "capa": {
+      "cor": "U",
+      "chip": "Chama o Juiz #5",
+      "kicker": "Seu comandante é mono verde",
+      "titulo": "Terreno <b>incolor</b> entra em qualquer deck?",
+      "sub": "A Kessig Wolf Run só gera mana incolor. Ela pode ir nas 99 de um comandante <b>verde</b>?",
+      "arte": "pauta/2026-11-09/original/arte.jpg",
+      "credito": "Arte: Kessig Wolf Run, Eytan Zana"
+    },
     "cartoes": [
-      {"cor": "U", "titulo": "Pode ou não pode?", "itens": [
-        {"cor": "U", "html": "<b>A)</b> Pode. Terreno não tem cor."},
-        {"cor": "U", "html": "<b>B)</b> Não pode. O símbolo vermelho do texto conta."},
-        {"cor": "U", "html": "<b>C)</b> Pode, se o deck tiver Montanha."}
-      ], "nota": {"rotulo": "Antes de arrastar", "texto": "pensa na sua resposta e só depois vê a próxima tela."}, "fonte": "Fonte: Regras Abrangentes, 903.4"},
-      {"cor": "U", "titulo": "Resposta: letra B", "itens": [
-        {"cor": "U", "html": "A <b>identidade de cor</b> soma os símbolos de mana do custo <b>e do texto</b> da carta."},
-        {"cor": "U", "html": "A habilidade da Kessig custa vermelho e verde. Então ela é <b>vermelha e verde</b> para o Commander."},
-        {"cor": "U", "html": "Comandante mono verde só aceita cartas verdes ou incolores nas 99."}
-      ], "nota": {"rotulo": "A regra", "texto": "903.4 define a identidade e 903.5c diz quem entra no deck."}, "fonte": "Fonte: Regras Abrangentes, 903.4 e 903.5c"},
-      {"cor": "G", "titulo": "O erro comum", "carta": "pauta/2026-11-09/original/carta-1.jpg", "itens": [
-        {"cor": "G", "html": "Achar que só o custo da carta conta. O texto conta também, até num <b>terreno</b>."},
-        {"cor": "G", "html": "O texto de lembrete, aquele em itálico entre parênteses, não entra na conta."}
-      ], "fonte": "Fonte: Scryfall e Regras Abrangentes, 903.4c"}
+      {
+        "cor": "U",
+        "titulo": "Pode ou não pode?",
+        "itens": [
+          {
+            "cor": "U",
+            "html": "<b>A)</b> Pode. Terreno não tem cor."
+          },
+          {
+            "cor": "U",
+            "html": "<b>B)</b> Não pode. O símbolo vermelho do texto conta."
+          },
+          {
+            "cor": "U",
+            "html": "<b>C)</b> Pode, se o deck tiver Montanha."
+          }
+        ],
+        "nota": {
+          "rotulo": "Antes de arrastar",
+          "texto": "pensa na sua resposta e só depois vê a próxima tela."
+        },
+        "fonte": "Fonte: Regras Abrangentes, 903.4"
+      },
+      {
+        "cor": "U",
+        "titulo": "Resposta: letra B",
+        "itens": [
+          {
+            "cor": "U",
+            "html": "A <b>identidade de cor</b> soma os símbolos de mana do custo <b>e do texto</b> da carta."
+          },
+          {
+            "cor": "U",
+            "html": "A habilidade da Kessig custa vermelho e verde. Então ela é <b>vermelha e verde</b> para o Commander."
+          },
+          {
+            "cor": "U",
+            "html": "Comandante mono verde só aceita cartas verdes ou incolores nas 99."
+          }
+        ],
+        "nota": {
+          "rotulo": "A regra",
+          "texto": "903.4 define a identidade e 903.5c diz quem entra no deck."
+        },
+        "fonte": "Fonte: Regras Abrangentes, 903.4 e 903.5c"
+      },
+      {
+        "cor": "G",
+        "titulo": "O erro comum",
+        "carta": "pauta/2026-11-09/original/carta-1.jpg",
+        "itens": [
+          {
+            "cor": "G",
+            "html": "Achar que só o custo da carta conta. O texto conta também, até num <b>terreno</b>."
+          },
+          {
+            "cor": "G",
+            "html": "O texto de lembrete, aquele em itálico entre parênteses, não entra na conta."
+          }
+        ],
+        "fonte": "Fonte: Scryfall e Regras Abrangentes, 903.4c"
+      }
     ],
-    "cta": {"pergunta": "Você teria acertado <b>de primeira</b>?", "quando": "Toda sexta tem caso novo do Chama o Juiz", "salvar": "Salva para conferir antes de montar as 99 do próximo deck"}
+    "cta": {
+      "pergunta": "Você teria acertado <b>de primeira</b>?",
+      "quando": "Toda sexta tem caso novo do Chama o Juiz",
+      "salvar": "Salva para conferir antes de montar as 99 do próximo deck"
+    }
   },
   "legenda": "Commander: carta de Magic incolor com símbolo de mana no texto entra em qualquer deck? Você teria acertado de primeira?\n\nChama o Juiz #5. Seu comandante é mono verde e você quer a Kessig Wolf Run nas 99. Ela só gera mana incolor, mas a habilidade de dar atropelar custa vermelho e verde.\n\nA) Pode, terreno não tem cor\nB) Não pode, o símbolo vermelho do texto conta\nC) Pode, se o deck tiver Montanha\n\nResposta no carrossel, com a regra 903.4 das Regras Abrangentes.\nfontedemana.com.br\n\n#chamaojuiz #commander #mtg",
-  "threads": {"texto": "Comprei 41 cartas na gringa e o vendedor protegeu tudo com 323 cartas de brinde, de 40 coleções. A mais valiosa do lote veio em chinês.\n\nQual a carta mais cara que já veio de brinde ou de proteção pra você?", "obs": "Responda os primeiros comentários contando que a mais valiosa foi um Sea Gate Loremaster em chinês."},
-  "enquete": {"pergunta": "Kessig Wolf Run entra no deck mono verde?", "opcoes": ["Entra", "Não entra"]}
+  "threads": {
+    "texto": "Comprei 41 cartas na gringa pro meu deck de vampiros e o vendedor protegeu tudo com 323 cartas de brinde, de 40 coleções. Com elas, deu até pra montar um deck novo.\n\nQual a melhor carta que já veio de brinde ou de proteção pra você?",
+    "obs": "Responda os primeiros comentários contando que 15 cartas do lote já estão no Corte Carmesim de teste."
+  },
+  "enquete": {
+    "pergunta": "Kessig Wolf Run entra no deck mono verde?",
+    "opcoes": [
+      "Entra",
+      "Não entra"
+    ]
+  }
 }

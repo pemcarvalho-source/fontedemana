@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-11-05-gravacao@fontedemana.com.br
-DTSTAMP:20261108T212716Z
+DTSTAMP:20261108T221901Z
 DTSTART:20261104T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -67,7 +67,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-tiktok@fontedemana.com.br
-DTSTAMP:20261108T212716Z
+DTSTAMP:20261108T221901Z
 DTSTART:20261105T210000Z
 DURATION:PT15M
 SUMMARY:18:00 TikTok: Postar o Top 5 dos dragões no TikTok
@@ -101,7 +101,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-threads-manha@fontedemana.com.br
-DTSTAMP:20261108T212716Z
+DTSTAMP:20261108T221901Z
 DTSTART:20261105T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Top 5 #4: os dragões que não podem faltar 
@@ -126,7 +126,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-feed@fontedemana.com.br
-DTSTAMP:20261108T212716Z
+DTSTAMP:20261108T221901Z
 DTSTART:20261105T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Top 5 #4: os dragões que não podem faltar e
@@ -170,7 +170,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261108T212716Z
+DTSTAMP:20261108T221901Z
 DTSTART:20261105T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -189,7 +189,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-stories-tarde@fontedemana.com.br
-DTSTAMP:20261108T212716Z
+DTSTAMP:20261108T221901Z
 DTSTART:20261105T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -209,7 +209,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-reels@fontedemana.com.br
-DTSTAMP:20261108T212716Z
+DTSTAMP:20261108T221901Z
 DTSTART:20261105T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Top 5 #4: os dragões que não podem 
@@ -247,7 +247,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-reels-teste@fontedemana.com.br
-DTSTAMP:20261108T212716Z
+DTSTAMP:20261108T221901Z
 DTSTART:20261105T214000Z
 DURATION:PT15M
 SUMMARY:18:40 Reels: Reel de teste: o vídeo de hoje com o gancho B
@@ -286,7 +286,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-comentarios@fontedemana.com.br
-DTSTAMP:20261108T212716Z
+DTSTAMP:20261108T221901Z
 DTSTART:20261106T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -308,7 +308,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-gravacao@fontedemana.com.br
-DTSTAMP:20261108T212716Z
+DTSTAMP:20261108T221901Z
 DTSTART:20261105T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -365,7 +365,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-tiktok@fontedemana.com.br
-DTSTAMP:20261108T212716Z
+DTSTAMP:20261108T221901Z
 DTSTART:20261106T210000Z
 DURATION:PT15M
 SUMMARY:18:00 TikTok: Postar o Chama o Juiz #4 no TikTok
@@ -393,7 +393,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-threads-manha@fontedemana.com.br
-DTSTAMP:20261108T212716Z
+DTSTAMP:20261108T221901Z
 DTSTART:20261106T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Chama o Juiz #4: dois comandantes (partner) 
@@ -419,7 +419,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-feed@fontedemana.com.br
-DTSTAMP:20261108T212716Z
+DTSTAMP:20261108T221901Z
 DTSTART:20261106T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Chama o Juiz #4: dois comandantes (partner) p
@@ -457,7 +457,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261108T212716Z
+DTSTAMP:20261108T221901Z
 DTSTART:20261106T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -476,7 +476,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-stories-tarde@fontedemana.com.br
-DTSTAMP:20261108T212716Z
+DTSTAMP:20261108T221901Z
 DTSTART:20261106T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -496,7 +496,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-reels@fontedemana.com.br
-DTSTAMP:20261108T212716Z
+DTSTAMP:20261108T221901Z
 DTSTART:20261106T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Chama o Juiz #4: dois comandantes (pa
@@ -532,7 +532,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-reels-teste@fontedemana.com.br
-DTSTAMP:20261108T212716Z
+DTSTAMP:20261108T221901Z
 DTSTART:20261106T214000Z
 DURATION:PT15M
 SUMMARY:18:40 Reels: Reel de teste: o vídeo de hoje com o gancho B
@@ -569,7 +569,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-comentarios@fontedemana.com.br
-DTSTAMP:20261108T212716Z
+DTSTAMP:20261108T221901Z
 DTSTART:20261107T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -591,7 +591,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-gravacao@fontedemana.com.br
-DTSTAMP:20261108T212716Z
+DTSTAMP:20261108T221901Z
 DTSTART:20261106T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -647,7 +647,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-tiktok@fontedemana.com.br
-DTSTAMP:20261108T212716Z
+DTSTAMP:20261108T221901Z
 DTSTART:20261107T210000Z
 DURATION:PT15M
 SUMMARY:18:00 TikTok: Top 5 cartas antigas que voltaram a valer
@@ -683,7 +683,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-threads-manha@fontedemana.com.br
-DTSTAMP:20261108T212716Z
+DTSTAMP:20261108T221901Z
 DTSTART:20261107T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Top 5 #5: cartas antigas que voltaram a vale
@@ -709,7 +709,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-feed@fontedemana.com.br
-DTSTAMP:20261108T212716Z
+DTSTAMP:20261108T221901Z
 DTSTART:20261107T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Top 5 #5: cartas antigas que voltaram a valer
@@ -756,7 +756,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261108T212716Z
+DTSTAMP:20261108T221901Z
 DTSTART:20261107T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -775,7 +775,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-stories-tarde@fontedemana.com.br
-DTSTAMP:20261108T212716Z
+DTSTAMP:20261108T221901Z
 DTSTART:20261107T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -795,7 +795,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-reels@fontedemana.com.br
-DTSTAMP:20261108T212716Z
+DTSTAMP:20261108T221901Z
 DTSTART:20261108T000000Z
 DURATION:PT15M
 SUMMARY:21:00 Reels: Vídeo original: Top 5 #5: cartas antigas que voltaram
@@ -837,7 +837,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-comentarios@fontedemana.com.br
-DTSTAMP:20261108T212716Z
+DTSTAMP:20261108T221901Z
 DTSTART:20261108T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -859,7 +859,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-08-gravacao@fontedemana.com.br
-DTSTAMP:20261108T212716Z
+DTSTAMP:20261108T221901Z
 DTSTART:20261107T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -910,7 +910,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-08-tiktok@fontedemana.com.br
-DTSTAMP:20261108T212716Z
+DTSTAMP:20261108T221901Z
 DTSTART:20261108T210000Z
 DURATION:PT15M
 SUMMARY:18:00 TikTok: Postar o TikTok: Toda mesa tem um #2
@@ -944,7 +944,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-08-threads-manha@fontedemana.com.br
-DTSTAMP:20261108T212716Z
+DTSTAMP:20261108T221901Z
 DTSTART:20261108T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Toda mesa tem um #2: o que jura que o deck 
@@ -968,7 +968,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-08-feed@fontedemana.com.br
-DTSTAMP:20261108T212716Z
+DTSTAMP:20261108T221901Z
 DTSTART:20261108T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Toda mesa tem um #2: o que jura que o deck é
@@ -1011,7 +1011,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-08-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261108T212716Z
+DTSTAMP:20261108T221901Z
 DTSTART:20261108T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -1030,7 +1030,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-08-stories-tarde@fontedemana.com.br
-DTSTAMP:20261108T212716Z
+DTSTAMP:20261108T221901Z
 DTSTART:20261108T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1050,7 +1050,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-08-reels@fontedemana.com.br
-DTSTAMP:20261108T212716Z
+DTSTAMP:20261108T221901Z
 DTSTART:20261108T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Toda mesa tem um #2: o que jura que o
@@ -1089,7 +1089,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-08-comentarios@fontedemana.com.br
-DTSTAMP:20261108T212716Z
+DTSTAMP:20261108T221901Z
 DTSTART:20261109T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1111,47 +1111,47 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-09-gravacao@fontedemana.com.br
-DTSTAMP:20261108T212716Z
+DTSTAMP:20261108T221901Z
 DTSTART:20261108T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
 DESCRIPTION:Do zero à mesa #1\, o lote do plástico bolha. Você aparece e
- m duas cenas (a 1 e a 6)\; nas outras\, só a voz por cima dos trechos que
-  você já gravou.\n\nArquivos:\n- Vídeo mudo: https://fontedemana.com.br
- /pauta/2026-11-09/tiktok/tiktok-mudo.mp4\n\nRoteiro de gravação:\nCena 1
- \, rosto\, uns 3 s\nNa tela: Comprei na gringa: Veio plástico bolha de ca
- rta\nComo gravar: Rosto: Olhando para a câmera\, segurando o maço do lot
- e na mão com o plástico bolha aparecendo.\nFala: Comprei na gringa e vei
- o plástico bolha de carta.\n\nCena 2\, só a voz\, uns 5 s\nNa tela: Pra 
- proteger 41 cartas: 323 cartas de graça\nComo gravar: Só a voz: pode gra
- var em vídeo ou áudio (o trecho do lote entra sozinho no fundo)\nFala: P
- ra proteger 41 cartas\, o vendedor mandou 323 de brinde\, de 40 coleções
- .\n\nCena 3\, só a voz\, uns 5 s\nNa tela: 79 em chinês: A mais valiosa 
- veio em chinês\nComo gravar: Só a voz: pode gravar em vídeo ou áudio (
- o trecho do lote entra sozinho no fundo)\nFala: 79 vieram em chinês. E a 
- mais valiosa do lote é uma delas\, Sea Gate Loremaster.\n\nCena 4\, só a
-  voz\, uns 5 s\nNa tela: 13 foils: A melhor em inglês\nComo gravar: Só a
-  voz: pode gravar em vídeo ou áudio (o trecho do lote entra sozinho no f
- undo)\nFala: Vieram 13 foils. Esse Magmakin Artillerist é a mais valiosa 
- em inglês.\n\nCena 5\, só a voz\, uns 5 s\nNa tela: 29 no deck: Virou de
- ck de campeonato\nComo gravar: Só a voz: pode gravar em vídeo ou áudio 
- (o trecho do lote entra sozinho no fundo)\nFala: E 29 dessas cartas já es
- tão no Vito 500\, meu deck de Duel Commander.\n\nCena 6\, rosto\, uns 4 s
- \nNa tela: Do zero à mesa: Quanto vale o plástico bolha?\nComo gravar: R
- osto: Abrindo o maço em leque na frente da câmera\, com cara de quem ain
- da não fez a conta.\nFala: Quanto vale esse plástico bolha todo? Domingo
-  eu conto.\n\n\nPasso a passo:\n1. Celular na vertical\, câmera da frente
- \, na altura dos olhos\, a um braço de distância.\n2. Rosto na metade de
-  cima da tela: o título entra embaixo dele\, na altura do peito.\n3. Luz 
- de frente (de frente para a janela) e fundo arrumado\; a estante de cartas
-  é ótima.\n4. Desligue o Vídeo HDR (Ajustes\, Câmera\, Gravar Vídeo) 
- para as cores não lavarem.\n5. Um vídeo por cena\, falando para a câmer
- a\, com meio segundo de silêncio antes e depois\; nomeie cena_1\, cena_2.
- .. e mande todos juntos.\n6. Nas cenas sem rosto\, só a voz conta: pode g
- ravar em vídeo ou só o áudio.\n7. Mande os vídeos ao Claude no projeto
-  MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo "ví
- deos do TikTok de 2026-11-09".\n\nPauta completa: https://fontedemana.com.
- br/pauta/2026-11-09/#gravacao
+ m duas cenas (a 1 e a 6)\; nas outras\, só a voz por cima da carta e dos 
+ trechos que você já gravou.\n\nArquivos:\n- Vídeo mudo: https://fontede
+ mana.com.br/pauta/2026-11-09/tiktok/tiktok-mudo.mp4\n\nRoteiro de gravaç
+ ão:\nCena 1\, rosto\, uns 3 s\nNa tela: Comprei na gringa: Veio plástico
+  bolha de carta\nComo gravar: Rosto: Olhando para a câmera\, segurando o 
+ maço do lote na mão com o plástico bolha aparecendo.\nFala: Comprei car
+ ta pro meu deck de vampiros e veio isso.\n\nCena 2\, só a voz\, uns 5 s\n
+ Na tela: O pedido: 41 cartas pro Corte Carmesim\nComo gravar: Só a voz: p
+ ode gravar em vídeo ou áudio (o Edgar Markov entra na tela)\nFala: Eram 
+ 41 cartas pra completar o Corte Carmesim\, meu deck do Edgar Markov.\n\nCe
+ na 3\, só a voz\, uns 5 s\nNa tela: A proteção: 323 cartas de brinde\nC
+ omo gravar: Só a voz: pode gravar em vídeo ou áudio (o trecho do lote e
+ ntra sozinho no fundo)\nFala: Pra proteger\, o vendedor mandou 323 cartas 
+ de brinde\, de 40 coleções.\n\nCena 4\, só a voz\, uns 4 s\nNa tela: 79
+  em chinês: Aliados de Zendikar\, de 2009\nComo gravar: Só a voz: pode g
+ ravar em vídeo ou áudio (o trecho do lote entra sozinho no fundo)\nFala:
+  79 vieram em chinês. Tem até aliado raro de Zendikar\, de 2009.\n\nCena
+  5\, só a voz\, uns 6 s\nNa tela: Virou deck: 15 no Corte e um deck novo\
+ nComo gravar: Só a voz: pode gravar em vídeo ou áudio (o trecho do lote
+  entra sozinho no fundo)\nFala: 15 já tapam buraco no Corte. E com uns aj
+ ustes deu um deck novo pro DC500\, o Rosa Sangrenta.\n\nCena 6\, rosto\, u
+ ns 3 s\nNa tela: Do zero à mesa: O Corte Carmesim montado\nComo gravar: R
+ osto: Mostrando o Edgar Markov na mão para a câmera\, com o maço do lot
+ e do lado.\nFala: Quarta eu mostro o Corte Carmesim montado.\n\n\nPasso a 
+ passo:\n1. Celular na vertical\, câmera da frente\, na altura dos olhos\,
+  a um braço de distância.\n2. Rosto na metade de cima da tela: o título
+  entra embaixo dele\, na altura do peito.\n3. Luz de frente (de frente par
+ a a janela) e fundo arrumado\; a estante de cartas é ótima.\n4. Desligue
+  o Vídeo HDR (Ajustes\, Câmera\, Gravar Vídeo) para as cores não lavar
+ em.\n5. Um vídeo por cena\, falando para a câmera\, com meio segundo de 
+ silêncio antes e depois\; nomeie cena_1\, cena_2... e mande todos juntos.
+ \n6. Nas cenas sem rosto\, só a voz conta: pode gravar em vídeo ou só o
+  áudio.\n7. Mande os vídeos ao Claude no projeto MGT strategy (pode ser 
+ respondendo à mensagem desta tarefa) dizendo "vídeos do TikTok de 2026-1
+ 1-09".\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-09/#gra
+ vacao
 URL:https://fontedemana.com.br/pauta/2026-11-09/#gravacao
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1161,7 +1161,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-09-stories-lote@fontedemana.com.br
-DTSTAMP:20261108T212716Z
+DTSTAMP:20261108T221901Z
 DTSTART:20261109T210000Z
 DURATION:PT15M
 SUMMARY:18:00 Instagram Stories: Quadro do lote com enquete
@@ -1182,35 +1182,37 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-09-tiktok@fontedemana.com.br
-DTSTAMP:20261108T212716Z
+DTSTAMP:20261108T221901Z
 DTSTART:20261109T143000Z
 DURATION:PT15M
-SUMMARY:11:30 TikTok: Do zero à mesa #1: o lote do plástico bolha
-DESCRIPTION:Vídeo com você na abertura e os trechos do lote: 323 cartas d
- e brinde\, 79 em chinês\, 13 foils e 29 no Vito 500.\n\nArquivos:\n- Víd
- eo mudo: https://fontedemana.com.br/pauta/2026-11-09/tiktok/tiktok-mudo.mp
- 4\n\nLegenda:\nCommander: comprei 41 cartas de Magic na gringa e o vendedo
- r mandou 323 de plástico bolha. Qual a carta mais cara que já veio de br
- inde pra você?\n\n323 cartas de graça\, de 40 coleções.\n79 em chinês
- \, 12 fichas e até uma de Riftbound.\n13 foils e 14 cartas da The List.\n
- A mais valiosa veio em chinês: Sea Gate Loremaster\, rara de Zendikar (ca
- rta em chinês não tem cotação própria\, vale a mesma impressão em in
- glês).\n29 já estão no Vito 500\, meu deck de Duel Commander.\n\nDo zer
- o à mesa #1. Domingo tem quanto vale tudo isso.\nfontedemana.com.br\n\n#p
- lasticobolha #commander #mtg\n\nFonte de Mana is unofficial Fan Content pe
- rmitted under the Fan Content Policy. Not approved/endorsed by Wizards. Po
- rtions of the materials used are property of Wizards of the Coast. ©Wizar
- ds of the Coast LLC.\n\nComentário fixado:\nCarta em chinês no deck: voc
- ê jogaria ou só em inglês? Do zero à mesa continua no domingo\, com qu
- anto vale o plástico bolha.\n\nPasso a passo:\n1. Poste com um som em alt
- a da biblioteca do TikTok\, volume entre 15% e 20%.\n2. Voz própria não 
- precisa de rótulo de IA.\n3. Fixe o comentário logo depois de postar.\n4
- . Se os vídeos não chegarem\, poste o vídeo mudo com música em alta.\n
- \nPauta completa: https://fontedemana.com.br/pauta/2026-11-09/#tiktok
+SUMMARY:11:30 TikTok: Do zero à mesa #1: o plástico bolha do Corte Carmes
+ im
+DESCRIPTION:Vídeo com você na abertura e no fecho: o pedido pro Corte Car
+ mesim\, as 323 cartas de brinde\, os aliados de Zendikar em chinês e o de
+ ck novo\, o Rosa Sangrenta.\n\nArquivos:\n- Vídeo mudo: https://fontedema
+ na.com.br/pauta/2026-11-09/tiktok/tiktok-mudo.mp4\n\nLegenda:\nCommander: 
+ comprei cartas de Magic na gringa pro meu deck de vampiros e o vendedor ma
+ ndou 323 de plástico bolha. Qual a melhor carta que já veio de brinde pr
+ a você?\n\nEram 41 cartas pro Corte Carmesim\, meu deck do Edgar Markov.\
+ nA proteção: 323 cartas de 40 coleções\, 79 em chinês e até uma de R
+ iftbound.\nNo meio\, aliados raros de Zendikar\, de 2009.\n15 já tapam bu
+ raco no Corte Carmesim de teste.\nE com alguns ajustes deu pra montar um d
+ eck novo de Duel Commander 500\, o Rosa Sangrenta.\n\nDo zero à mesa #1. 
+ Quarta tem o Corte Carmesim montado.\nfontedemana.com.br\n\n#plasticobolha
+  #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted unde
+ r the Fan Content Policy. Not approved/endorsed by Wizards. Portions of th
+ e materials used are property of Wizards of the Coast. ©Wizards of the Co
+ ast LLC.\n\nComentário fixado:\nCarta em chinês no deck: você jogaria o
+ u só em inglês? A série Do zero à mesa continua na quarta\, com o Cort
+ e Carmesim.\n\nPasso a passo:\n1. Poste com um som em alta da biblioteca d
+ o TikTok\, volume entre 15% e 20%.\n2. Voz própria não precisa de rótul
+ o de IA.\n3. Fixe o comentário logo depois de postar.\n4. Se os vídeos n
+ ão chegarem\, poste o vídeo mudo com música em alta.\n\nPauta completa:
+  https://fontedemana.com.br/pauta/2026-11-09/#tiktok
 URL:https://fontedemana.com.br/pauta/2026-11-09/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:TikTok: Do zero à mesa #1: o lote do plástico bolha
+DESCRIPTION:TikTok: Do zero à mesa #1: o plástico bolha do Corte Carmesim
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
