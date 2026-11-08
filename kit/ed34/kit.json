@@ -1,0 +1,100 @@
+{
+ "n": 34,
+ "data": "8 nov",
+ "carrossel": {
+  "capa": {
+   "cor": "U",
+   "titulo": "Domingo calmo, Secret Lairs amanhã",
+   "sub": "Nenhum fato novo neste domingo. Amanhã abre a venda dos <b>Secret Lairs de Star Trek</b> e na sexta a coleção chega às lojas.",
+   "credito": "Arte: Quiet Contemplation, Magali Villeneuve"
+  },
+  "cartoes": [
+   {
+    "cor": "W",
+    "titulo": "O que vem nos próximos dias",
+    "itens": [
+     {"cor": "A", "html": "<b>9 nov</b>: venda dos Secret Lairs de Star Trek, com fila às 13h e venda às 14h em Brasília."},
+     {"cor": "G", "html": "<b>até 12 nov</b>: pré de Star Trek nas lojas."},
+     {"cor": "G", "html": "<b>13 nov</b>: Star Trek chega às lojas e começa a MagicCon: Atlanta."},
+     {"cor": "A", "html": "<b>16 a 30 nov</b>: venda do Secret Lair do Extra Life."}
+    ],
+    "fonte": "Fontes: Wizards e WPN"
+   }
+  ],
+  "topdeck": {
+   "titulo": "Giada, Font of Hope",
+   "habilidades": [
+    {"rotulo": "Voa e vigia", "texto": "Uma 2/2 que ataca pelo alto e continua de pé para bloquear."},
+    {"rotulo": "Anjos maiores", "texto": "Cada Anjo seguinte entra com um marcador +1/+1 por Anjo que você já tem."},
+    {"rotulo": "Mana de Anjo", "texto": "Vira uma mana branca, mas só para conjurar Anjo."}
+   ],
+   "extra": "Terceira comandante mais montada da semana, com <b>1,44 mil decks</b> no EDHREC. A de New Capenna sai a US$ 0,72 (R$ 3,96). PTAX de 6 nov.",
+   "credito": "Ilustração de Eric Deschamps"
+  },
+  "ban": {
+   "numero": "22",
+   "unidade": "DIAS",
+   "texto": "Próxima janela de banimentos em 30 de novembro. A de 12 de outubro passou sem mexer no Commander."
+  },
+  "turnos": [
+   {"cor": "A", "data": "9 nov", "texto": "Venda dos Secret Lairs de Star Trek"},
+   {"cor": "G", "data": "até 12 nov", "texto": "Pré de Star Trek nas lojas"},
+   {"cor": "G", "data": "13 nov", "texto": "Star Trek chega às lojas"},
+   {"cor": "A", "data": "16 a 30 nov", "texto": "Secret Lair do Extra Life à venda"},
+   {"cor": "W", "data": "20 a 26 nov", "texto": "Festa de Commander de Star Trek"}
+  ],
+  "sussurro": null
+ },
+ "video": {
+  "cena1": {
+   "titulo": "Domingo calmo, Secret Lairs amanhã",
+   "pilulas": ["Secret Lairs no dia 9", "Star Trek no dia 13", "Topdeck branco"]
+  },
+  "cena2": {
+   "rotulo": "Agenda",
+   "cor": "W",
+   "titulo": "O que vem nos próximos dias",
+   "itens": [
+    "Segunda, 9 nov: venda dos Secret Lairs de Star Trek.",
+    "Até 12 nov: pré de Star Trek nas lojas.",
+    "Sexta, 13 nov: Star Trek chega às lojas."
+   ],
+   "fonte": "Fontes: Wizards e WPN"
+  },
+  "cena3": {
+   "linhas": [
+    "<b>Giada, Font of Hope</b> faz cada Anjo seguinte entrar maior.",
+    "É a 3ª comandante mais montada da semana no EDHREC.",
+    "E custa menos de 1 dólar."
+   ]
+  },
+  "cena4": {
+   "texto": "Faltam 22 dias para a próxima janela de banimentos. Antes, Star Trek chega às lojas em 13 de novembro.",
+   "sussurro": null
+  }
+ },
+ "textos": {
+  "legendaCarrossel": "Commander de Magic neste domingo: nenhum fato novo, e amanhã abre a venda dos Secret Lairs de Star Trek.\n\nNa segunda, dia 9, a venda dos Secret Lairs de Star Trek começa com fila às 13h e venda às 14h em Brasília. O pré de Star Trek segue nas lojas até o dia 12, e no dia 13 a coleção chega às lojas. De 16 a 30 de novembro sai o Secret Lair do Extra Life.\n\nNo Topdeck, Giada, Font of Hope, a anja branca de 2 manas que faz cada Anjo seguinte entrar com mais marcadores +1/+1 e ainda dá mana para conjurar Anjos. É a terceira comandante mais montada da semana no EDHREC, com 1,44 mil decks, e a de New Capenna sai a US$ 0,72 (R$ 3,96).\n\nQual Anjo você baixaria depois da Giada?\n\nEdição completa em fontedemana.com.br\n\nArtes: Quiet Contemplation, de Magali Villeneuve. Giada, Font of Hope, de Eric Deschamps.\nValores em reais pela cotação de 6 nov (Banco Central, PTAX).\n\n#startrek #commander #mtg",
+  "legendaVideo": "Commander de Magic neste domingo: Secret Lairs de Star Trek amanhã, Star Trek nas lojas no dia 13 e a Giada, Font of Hope no Topdeck.\n\nQual Anjo você baixaria depois da Giada?\n\nEdição completa em fontedemana.com.br\n\n#startrek #commander #mtg",
+  "threadsPost": "Domingo calmo no Commander. Amanhã, dia 9, abre a venda dos Secret Lairs de Star Trek às 14h em Brasília, e no dia 13 a coleção chega às lojas. No Topdeck, Giada, Font of Hope, 3ª comandante mais montada da semana no EDHREC, com 1,44 mil decks, a US$ 0,72 (R$ 3,96). Você monta Anjos? fontedemana.com.br\nValores em reais pela cotação de 6 nov (Banco Central, PTAX).",
+  "threadsFio": [
+   "Domingo sem fato novo confirmado sobre Commander. A semana que vem é que está cheia.",
+   "Amanhã, 9 de novembro, abre a venda dos Secret Lairs de Star Trek, com fila às 13h e venda às 14h em Brasília.",
+   "O pré de Star Trek segue nas lojas até o dia 12. Na sexta, 13 de novembro, a coleção chega às lojas.",
+   "No Topdeck, Giada, Font of Hope: cada Anjo que entra depois ganha um marcador +1/+1 para cada Anjo que você já tem, e ela ainda dá mana para conjurar Anjos. É a 3ª comandante mais montada da semana no EDHREC e sai a US$ 0,72 (R$ 3,96). Edição completa em fontedemana.com.br\nValores em reais pela cotação de 6 nov (Banco Central, PTAX)."
+  ],
+  "threadsAvulsos": [
+   {
+    "titulo": "Pergunta do dia",
+    "texto": "Giada no comando: você baixa os Anjos baratos primeiro ou guarda espaço para o grandão entrar cheio de marcadores?",
+    "obs": "Pergunta aberta, sem enquete"
+   }
+  ]
+ },
+ "pauta": {
+  "forca": "calmo",
+  "porque": "Domingo sem fato novo sobre Commander; os Secret Lairs e o lançamento de Star Trek já estavam na agenda.",
+  "storyPergunta": "Qual Anjo você baixaria depois da Giada?",
+  "enquete": {"pergunta": "Vai comprar Secret Lair de Star Trek?", "opcoes": ["Vou sim", "Só olhando", "Passo essa"]}
+ }
+}
