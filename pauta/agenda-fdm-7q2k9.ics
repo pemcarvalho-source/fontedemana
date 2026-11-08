@@ -8,336 +8,8 @@ X-WR-TIMEZONE:America/Sao_Paulo
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:fdm-2026-11-04-gravacao@fontedemana.com.br
-DTSTAMP:20261107T220709Z
-DTSTART:20261103T221500Z
-DURATION:PT15M
-SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
-DESCRIPTION:Matemática da Mesa #1: 36\, 37 ou 38 terrenos e a chance de ab
- rir com 3. Sete cenas só com a sua voz\, mais o gancho do Reel de teste n
- o fim.\n\nArquivos:\n- Vídeo mudo do TikTok: https://fontedemana.com.br/p
- auta/2026-11-04/tiktok/tiktok-mudo.mp4\n- Vídeo mudo do Reel de teste: ht
- tps://fontedemana.com.br/pauta/2026-11-04/tiktok/tiktok-teste.mp4\n\nRotei
- ro de gravação:\nCena 1\, uns 6 s\nNa tela: 36\, 37 ou 38 terrenos? A ch
- ance de abrir com 3 muda só 1 ponto. O que muda é o desastre\nFala: 36\,
-  37 ou 38 terrenos? A chance de abrir com 3 muda só um ponto.\n\nCena 2\,
-  uns 4 s\nNa tela: Mão de 7 com 3 terrenos. 29%. Com 36\, 37 ou 38 terren
- os: quase igual\nFala: Com 36\, 37 ou 38\, dá uns 29%. Quase igual.\n\nCe
- na 3\, uns 3 s\nNa tela: Então tanto faz? Não. Muda o desastre. A mão t
- ravada e a mão afogada\nFala: Tanto faz? Não. Muda o desastre.\n\nCena 4
- \, uns 5 s\nNa tela: 0 ou 1 terreno na mão de 7. Com 36 terrenos 20\,1%. 
- Com 38 terrenos 17\,1%. 38 terrenos salvam 3 mãos em cada 100\nFala: De c
- ada 100 mãos\, 20 travam com 36. Com 38\, só 17.\n\nCena 5\, uns 6 s\nNa
-  tela: 5 ou mais terrenos na mão de 7. Com 36 terrenos 5\,8%. Com 38 terr
- enos 7\,4%. E cada terreno a mais é uma mágica a menos\nFala: Mas a afog
- ada sobe um pouco. E cada terreno é uma mágica a menos.\n\nCena 6\, uns 
- 4 s\nNa tela: A conta prática. Curva baixa\, 36. Comandante caro\, 38. Na
-  dúvida\, 37 e ajuste depois de jogar\nFala: Curva baixa aguenta 36. Coma
- ndante caro pede 38.\n\nCena 7\, uns 3 s\nNa tela: 36\, 37\, 38 ou outro? 
- Quantos terrenos tem o seu deck?\nFala: E o seu deck\, joga com quantos?\n
- \nCena 1B (gancho do Reel de teste)\nNa tela: Mão de 7\, deck com 37 terr
- enos. Abrir com 3 terrenos? Só 29% das vezes. Sem mulligan\, deck de 99\n
- Fala: Abrir com exatamente 3 terrenos? Com 37 no deck\, só 29% das vezes.
- \n\n\nPasso a passo:\n1. Grave um áudio por cena no Gravador do iPhone\, 
- num lugar silencioso\, com o celular a um palmo da boca.\n2. Leia os núme
- ros devagar: vinte e nove por cento\, vinte\, dezessete.\n3. Nomeie cena_1
- \, cena_2... até cena_7.\n4. Grave por último o gancho do Reel de teste 
- e nomeie cena_1b\; mande junto com os outros.\n5. Mande os áudios ao Clau
- de no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa)
-  dizendo "áudios do TikTok de 2026-11-04".\n\nPauta completa: https://fon
- tedemana.com.br/pauta/2026-11-04/#gravacao
-URL:https://fontedemana.com.br/pauta/2026-11-04/#gravacao
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Gravação: Gravar a narração do TikTok de amanhã
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-04-tiktok@fontedemana.com.br
-DTSTAMP:20261107T220709Z
-DTSTART:20261104T210000Z
-DURATION:PT15M
-SUMMARY:18:00 TikTok: Matemática da Mesa #1\, quantos terrenos
-DESCRIPTION:A chance de abrir com 3 terrenos com 36\, 37 ou 38 no deck: qua
- se igual. O que muda é o desastre: a mão travada cai e a afogada sobe. F
- echa com a conta prática pela curva do deck.\n\nArquivos:\n- Vídeo do Ti
- kTok narrado: https://fontedemana.com.br/pauta/2026-11-04/tiktok/tiktok-na
- rrado.mp4\n\nLegenda:\nCommander: quantos terrenos pôr no deck? 36\, 37 o
- u 38 muda a sua mão inicial?\n\nMatemática da Mesa #1. Num deck de 99 ca
- rtas\, a chance de a mão de 7 vir com exatamente 3 terrenos é 28\,6% com
-  36\, 29\,1% com 37 e 29\,6% com 38. O que muda é o desastre: de cada 100
-  mãos\, 20 travam com 0 ou 1 terreno com 36\, e 17 com 38. A mão afogada
- \, com 5 ou mais\, vai de 5\,8% para 7\,4%. Conta sem mulligan.\n\nQuantos
-  terrenos tem o seu deck: 36\, 37\, 38 ou outro?\n\nConta: distribuição 
- hipergeométrica\, deck de 99.\nMais em fontedemana.com.br\n\n#commander #
- mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Con
- tent Policy. Not approved/endorsed by Wizards. Portions of the materials u
- sed are property of Wizards of the Coast. ©Wizards of the Coast LLC.\n\nC
- omentário fixado:\nQuantos terrenos tem o seu deck de Commander? 36\, 37\
- , 38 ou outro número?\n\nPasso a passo:\n1. Poste com um som em alta da b
- iblioteca do TikTok\, com volume entre 15% e 20%.\n2. Voz própria não pr
- ecisa de rótulo de IA.\n3. Fixe o comentário logo depois de postar.\n\nP
- auta completa: https://fontedemana.com.br/pauta/2026-11-04/#tiktok
-URL:https://fontedemana.com.br/pauta/2026-11-04/#tiktok
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:TikTok: Matemática da Mesa #1\, quantos terrenos
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-04-threads-manha@fontedemana.com.br
-DTSTAMP:20261107T220709Z
-DTSTART:20261104T133000Z
-DURATION:PT15M
-SUMMARY:10:30 Threads: Pergunta do dia: Qual dessas entra no seu deck de Co
- mmander?
-DESCRIPTION:Pergunta para puxar conversa sobre a notícia do dia.\n\nPost:\
- nSecret Lair do Extra Life com Balefire Dragon\, Young Pyromancer\, Big Sc
- ore e Sword of Truth and Justice em arte de PS1. Qual dessas entra no seu 
- deck de Commander?\n\nPasso a passo:\n1. Abra o Threads e cole o Post.\n2.
-  Dica: Opções: Balefire Dragon\, Young Pyromancer\, Big Score\, Sword of
-  Truth and Justice\n3. Toque em Adicionar tópico e escolha MTG.\n4. Publi
- que e responda quem comentar na primeira hora.\n\nPauta completa: https://
- fontedemana.com.br/pauta/2026-11-04/#threads-manha
-URL:https://fontedemana.com.br/pauta/2026-11-04/#threads-manha
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Pergunta do dia: Qual dessas entra no seu deck de Comm
- ander?
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-04-stories-manha@fontedemana.com.br
-DTSTAMP:20261107T220709Z
-DTSTART:20261104T133000Z
-DURATION:PT15M
-SUMMARY:10:30 Instagram Stories: Capa do jornal com sticker de pergunta
-DESCRIPTION:Story com a capa da edição 30 (Secret Lair do Extra Life em e
- stilo PS1) e um sticker de pergunta para puxar a conversa.\n\nArquivos:\n-
-  Capa da edição 30: https://fontedemana.com.br/kit/ed30/carrossel-01.jpg
- \n\nPasso a passo:\n1. Baixe a capa e poste no Story.\n2. Adicione o stick
- er de Pergunta no terço de baixo\, sem cobrir o título: Qual carta do Se
- cret Lair do Extra Life entra no seu deck?\n3. Publique.\n\nPauta completa
- : https://fontedemana.com.br/pauta/2026-11-04/#stories-manha
-URL:https://fontedemana.com.br/pauta/2026-11-04/#stories-manha
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Capa do jornal com sticker de pergunta
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-04-feed@fontedemana.com.br
-DTSTAMP:20261107T220709Z
-DTSTART:20261104T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram feed: Carrossel da edição 30
-DESCRIPTION:Carrossel de 5 imagens da edição 30: Secret Lair do Extra Lif
- e em estilo PS1\, Topdeck: Sword of Truth and Justice.\n\nArquivos:\n- Ima
- gem 1 de 5: https://fontedemana.com.br/kit/ed30/carrossel-01.jpg\n- Imagem
-  2 de 5: https://fontedemana.com.br/kit/ed30/carrossel-02.jpg\n- Imagem 3 
- de 5: https://fontedemana.com.br/kit/ed30/carrossel-03.jpg\n- Imagem 4 de 
- 5: https://fontedemana.com.br/kit/ed30/carrossel-04.jpg\n- Imagem 5 de 5: 
- https://fontedemana.com.br/kit/ed30/carrossel-05.jpg\n\nLegenda:\nCommande
- r de Magic: o Secret Lair do Extra Life chega com cara de jogo de PS1.\n\n
- A Wizards anunciou ontem o Rise of the Polygons\, da parceria anual com o 
- Extra Life. São cinco reimpressões com arte de polígonos: Balefire Drag
- on\, Big Score\, Young Pyromancer\, Sword of Truth and Justice e uma ficha
-  de Elemental. Custa US$ 39\,99 (R$ 219\,66)\, ou US$ 49\,99 (R$ 274\,59) 
- em foil\, e fica à venda no site do Secret Lair de 16 a 30 de novembro. M
- etade do preço\, menos taxas\, vai para o Seattle Children's Hospital.\n\
- nNo Topdeck\, Sword of Truth and Justice\, a espada incolor que põe marca
- dor e prolifera a cada golpe. Está em 98 mil decks no EDHREC e a original
-  sai a US$ 27\,86 (R$ 153\,03).\n\nQual carta desse drop entraria no seu d
- eck de Commander?\n\nEdição completa em fontedemana.com.br\n\nArtes: Bal
- efire Dragon\, de Brendan Sullivan. Sword of Truth and Justice\, de Chris 
- Rahn.\nValores em reais pela cotação de 3 nov (Banco Central\, PTAX).\n\
- n#secretlair #commander #mtg\n\nFonte de Mana is unofficial Fan Content pe
- rmitted under the Fan Content Policy. Not approved/endorsed by Wizards. Po
- rtions of the materials used are property of Wizards of the Coast. ©Wizar
- ds of the Coast LLC.\n\nPasso a passo:\n1. No Instagram\, toque em + e esc
- olha Post.\n2. Selecione as 5 imagens na ordem\, da 1 à 5.\n3. Toque em A
- dicionar música e escolha uma em alta que combine com o tema.\n4. Cole a 
- Legenda e publique.\n\nValores em reais pela cotação de 3 nov\, US$ 1 = 
- R$ 5\,4929 (Banco Central\, PTAX).\n\nPauta completa: https://fontedemana.
- com.br/pauta/2026-11-04/#feed
-URL:https://fontedemana.com.br/pauta/2026-11-04/#feed
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram feed: Carrossel da edição 30
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-04-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261107T220709Z
-DTSTART:20261104T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
-DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
- .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
- e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
- o do post: Você compraria o Secret Lair do Extra Life? com Sim\, pela cau
- sa\, Só as cartas avulsas e Passo esse.\n3. Publique.\n\nPauta completa: 
- https://fontedemana.com.br/pauta/2026-11-04/#stories-meio-dia
-URL:https://fontedemana.com.br/pauta/2026-11-04/#stories-meio-dia
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-04-threads-tarde@fontedemana.com.br
-DTSTAMP:20261107T220709Z
-DTSTART:20261104T180000Z
-DURATION:PT15M
-SUMMARY:15:00 Threads: Notícia do dia num post só
-DESCRIPTION:A edição 30 contada num post só\, sem fio: nos fios\, quase 
- ninguém passava do primeiro post.\n\nPost:\nSecret Lair novo com arte de 
- jogo de PS1: o Rise of the Polygons\, do Extra Life\, traz Balefire Dragon
- \, Young Pyromancer\, Big Score e Sword of Truth and Justice por US$ 39\,9
- 9 (R$ 219\,66)\, ou US$ 49\,99 (R$ 274\,59) em foil. Venda de 16 a 30 de n
- ovembro\, e metade do preço vai para um hospital infantil. Qual entra no 
- seu deck? fontedemana.com.br\nValores em reais pela cotação de 3 nov (Ba
- nco Central\, PTAX).\n\nPasso a passo:\n1. No Threads\, cole o Post\, sem 
- sequência.\n2. Toque em Adicionar tópico e escolha MTG.\n3. Publique e r
- esponda quem comentar na primeira hora.\n\nValores em reais pela cotação
-  de 3 nov\, US$ 1 = R$ 5\,4929 (Banco Central\, PTAX).\n\nPauta completa: 
- https://fontedemana.com.br/pauta/2026-11-04/#threads-tarde
-URL:https://fontedemana.com.br/pauta/2026-11-04/#threads-tarde
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Notícia do dia num post só
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-04-stories-tarde@fontedemana.com.br
-DTSTAMP:20261107T220709Z
-DTSTART:20261104T180000Z
-DURATION:PT15M
-SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
-DESCRIPTION:Story com a imagem de Sword of Truth and Justice no Topdeck do 
- Dia e o sticker de link para a edição completa.\n\nArquivos:\n- Topdeck 
- do Dia: https://fontedemana.com.br/kit/ed30/carrossel-03.jpg\n\nPasso a pa
- sso:\n1. Baixe a imagem e poste no Story.\n2. Adicione o sticker de Link p
- ara fontedemana.com.br com o texto Edição completa\, embaixo do texto do
-  Topdeck.\n3. Publique.\n\nPauta completa: https://fontedemana.com.br/paut
- a/2026-11-04/#stories-tarde
-URL:https://fontedemana.com.br/pauta/2026-11-04/#stories-tarde
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Topdeck do Dia com link
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-04-reels@fontedemana.com.br
-DTSTAMP:20261107T220709Z
-DTSTART:20261104T220000Z
-DURATION:PT15M
-SUMMARY:19:00 Reels: Vídeo original: Matemática da Mesa #1: 36\, 37 ou 38
-  terrenos e a…
-DESCRIPTION:O vídeo original de hoje no Instagram\, o mesmo arquivo do Tik
- Tok\, já narrado. É o formato que mais chega a quem não segue.\n\nArqui
- vos:\n- Vídeo original narrado: https://fontedemana.com.br/pauta/2026-11-
- 04/tiktok/tiktok-narrado.mp4\n\nLegenda:\nCommander: quantos terrenos pôr
-  no deck? 36\, 37 ou 38 muda a sua mão inicial?\n\nMatemática da Mesa #1
- . Num deck de 99 cartas\, a chance de a mão de 7 vir com exatamente 3 ter
- renos é 28\,6% com 36\, 29\,1% com 37 e 29\,6% com 38. O que muda é o de
- sastre: de cada 100 mãos\, 20 travam com 0 ou 1 terreno com 36\, e 17 com
-  38. A mão afogada\, com 5 ou mais\, vai de 5\,8% para 7\,4%. Conta sem m
- ulligan.\n\nQuantos terrenos tem o seu deck: 36\, 37\, 38 ou outro?\n\nCon
- ta: distribuição hipergeométrica\, deck de 99.\nMais em fontedemana.com
- .br\n\n#commander #mtg\n\nFonte de Mana is unofficial Fan Content permitte
- d under the Fan Content Policy. Not approved/endorsed by Wizards. Portions
-  of the materials used are property of Wizards of the Coast. ©Wizards of 
- the Coast LLC.\n\nComentário fixado:\nQuantos terrenos tem o seu deck de 
- Commander? 36\, 37\, 38 ou outro número?\n\nPasso a passo:\n1. No Instagr
- am\, toque em + e escolha Reel.\n2. Escolha o vídeo baixado daqui\, nunca
-  o salvo do TikTok (o Instagram derruba vídeo com marca d'água).\n3. Em 
- Áudio\, ponha uma música em alta da biblioteca do Instagram com volume b
- aixo (uns 10%)\, sem cobrir a voz.\n4. Na capa\, use o primeiro quadro\, o
-  do gancho.\n5. Cole a Legenda e publique.\n6. Fixe o comentário e respon
- da quem comentar na primeira hora.\n\nPauta completa: https://fontedemana.
- com.br/pauta/2026-11-04/#reels
-URL:https://fontedemana.com.br/pauta/2026-11-04/#reels
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reels: Vídeo original: Matemática da Mesa #1: 36\, 37 ou 38 t
- errenos e a…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-04-reels-teste@fontedemana.com.br
-DTSTAMP:20261107T220709Z
-DTSTART:20261104T214000Z
-DURATION:PT15M
-SUMMARY:18:40 Reels: Reel de teste: o vídeo de hoje com o gancho B
-DESCRIPTION:Teste da semana: o vídeo de hoje com outro gancho\, mostrado s
- ó para quem não segue. Sai antes do Reels das 19:00 porque o Instagram c
- orta o alcance de Reel de teste com conteúdo que a conta já postou. Na r
- evisão\, as views dele são comparadas com as de não seguidores do Reels
-  das 19:00.\n\nArquivos:\n- Vídeo de teste\, gancho B: https://fontedeman
- a.com.br/pauta/2026-11-04/tiktok/tiktok-teste-narrado.mp4\n\nLegenda:\nCom
- mander: quantos terrenos pôr no deck? 36\, 37 ou 38 muda a sua mão inici
- al?\n\nMatemática da Mesa #1. Num deck de 99 cartas\, a chance de a mão 
- de 7 vir com exatamente 3 terrenos é 28\,6% com 36\, 29\,1% com 37 e 29\,
- 6% com 38. O que muda é o desastre: de cada 100 mãos\, 20 travam com 0 o
- u 1 terreno com 36\, e 17 com 38. A mão afogada\, com 5 ou mais\, vai de 
- 5\,8% para 7\,4%. Conta sem mulligan.\n\nQuantos terrenos tem o seu deck: 
- 36\, 37\, 38 ou outro?\n\nConta: distribuição hipergeométrica\, deck de
-  99.\nMais em fontedemana.com.br\n\n#commander #mtg\n\nFonte de Mana is un
- official Fan Content permitted under the Fan Content Policy. Not approved/
- endorsed by Wizards. Portions of the materials used are property of Wizard
- s of the Coast. ©Wizards of the Coast LLC.\n\nPasso a passo:\n1. No Insta
- gram\, toque em + e escolha Reel\, com o vídeo de teste baixado daqui.\n2
- . Antes de compartilhar\, ative a opção Reel de teste (Trial reel)\, par
- a ele aparecer só para quem não segue.\n3. Deixe o compartilhamento auto
- mático desligado e não publique para todos depois: o Reels das 19:00 lev
- a o vídeo aos seguidores.\n4. Use a música e o volume que vai usar no Re
- els das 19:00\, para o teste comparar só o gancho.\n5. Cole a Legenda e p
- ublique.\n6. Daqui a 3 dias\, tire um print do Insights deste Reel e do Re
- els das 19:00 (views de seguidores e de não seguidores) e mande na conver
- sa da revisão.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-1
- 1-04/#reels-teste
-URL:https://fontedemana.com.br/pauta/2026-11-04/#reels-teste
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reels: Reel de teste: o vídeo de hoje com o gancho B
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-04-comentarios@fontedemana.com.br
-DTSTAMP:20261107T220709Z
-DTSTART:20261105T003000Z
-DURATION:PT15M
-SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
-DESCRIPTION:Uns 10 minutos nas três redes: curtir e responder os comentár
- ios das últimas 48 horas\, começando pelo vídeo e pelo carrossel de hoj
- e. Conversa nos comentários leva a peça a mais gente\, e o Instagram rec
- omenda responder em até 2 dias.\n\nPasso a passo:\n1. Instagram: nas noti
- ficações\, curta os comentários e responda com uma frase quem perguntou
-  ou discordou.\n2. TikTok e Threads: o mesmo\, começando pelo post com ma
- is comentários.\n3. Pergunta boa ou dúvida que se repete\, nos comentár
- ios ou nas DMs? Mande na conversa do projeto: vira tema de um pilar.\n\nPa
- uta completa: https://fontedemana.com.br/pauta/2026-11-04/#comentarios
-URL:https://fontedemana.com.br/pauta/2026-11-04/#comentarios
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Comentários: Responder os comentários de hoje e de ontem
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fdm-2026-11-05-gravacao@fontedemana.com.br
-DTSTAMP:20261107T220709Z
+DTSTAMP:20261108T102118Z
 DTSTART:20261104T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -395,7 +67,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-tiktok@fontedemana.com.br
-DTSTAMP:20261107T220709Z
+DTSTAMP:20261108T102118Z
 DTSTART:20261105T210000Z
 DURATION:PT15M
 SUMMARY:18:00 TikTok: Postar o Top 5 dos dragões no TikTok
@@ -429,7 +101,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-threads-manha@fontedemana.com.br
-DTSTAMP:20261107T220709Z
+DTSTAMP:20261108T102118Z
 DTSTART:20261105T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Top 5 #4: os dragões que não podem faltar 
@@ -454,7 +126,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-feed@fontedemana.com.br
-DTSTAMP:20261107T220709Z
+DTSTAMP:20261108T102118Z
 DTSTART:20261105T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Top 5 #4: os dragões que não podem faltar e
@@ -498,7 +170,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261107T220709Z
+DTSTAMP:20261108T102118Z
 DTSTART:20261105T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -517,7 +189,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-stories-tarde@fontedemana.com.br
-DTSTAMP:20261107T220709Z
+DTSTAMP:20261108T102118Z
 DTSTART:20261105T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -537,7 +209,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-reels@fontedemana.com.br
-DTSTAMP:20261107T220709Z
+DTSTAMP:20261108T102118Z
 DTSTART:20261105T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Top 5 #4: os dragões que não podem 
@@ -575,7 +247,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-reels-teste@fontedemana.com.br
-DTSTAMP:20261107T220709Z
+DTSTAMP:20261108T102118Z
 DTSTART:20261105T214000Z
 DURATION:PT15M
 SUMMARY:18:40 Reels: Reel de teste: o vídeo de hoje com o gancho B
@@ -614,7 +286,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-05-comentarios@fontedemana.com.br
-DTSTAMP:20261107T220709Z
+DTSTAMP:20261108T102118Z
 DTSTART:20261106T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -636,7 +308,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-gravacao@fontedemana.com.br
-DTSTAMP:20261107T220709Z
+DTSTAMP:20261108T102118Z
 DTSTART:20261105T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -693,7 +365,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-tiktok@fontedemana.com.br
-DTSTAMP:20261107T220709Z
+DTSTAMP:20261108T102118Z
 DTSTART:20261106T210000Z
 DURATION:PT15M
 SUMMARY:18:00 TikTok: Postar o Chama o Juiz #4 no TikTok
@@ -721,7 +393,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-threads-manha@fontedemana.com.br
-DTSTAMP:20261107T220709Z
+DTSTAMP:20261108T102118Z
 DTSTART:20261106T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Chama o Juiz #4: dois comandantes (partner) 
@@ -747,7 +419,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-feed@fontedemana.com.br
-DTSTAMP:20261107T220709Z
+DTSTAMP:20261108T102118Z
 DTSTART:20261106T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Chama o Juiz #4: dois comandantes (partner) p
@@ -785,7 +457,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261107T220709Z
+DTSTAMP:20261108T102118Z
 DTSTART:20261106T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -804,7 +476,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-stories-tarde@fontedemana.com.br
-DTSTAMP:20261107T220709Z
+DTSTAMP:20261108T102118Z
 DTSTART:20261106T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -824,7 +496,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-reels@fontedemana.com.br
-DTSTAMP:20261107T220709Z
+DTSTAMP:20261108T102118Z
 DTSTART:20261106T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Chama o Juiz #4: dois comandantes (pa
@@ -860,7 +532,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-reels-teste@fontedemana.com.br
-DTSTAMP:20261107T220709Z
+DTSTAMP:20261108T102118Z
 DTSTART:20261106T214000Z
 DURATION:PT15M
 SUMMARY:18:40 Reels: Reel de teste: o vídeo de hoje com o gancho B
@@ -897,7 +569,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-comentarios@fontedemana.com.br
-DTSTAMP:20261107T220709Z
+DTSTAMP:20261108T102118Z
 DTSTART:20261107T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -919,7 +591,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-gravacao@fontedemana.com.br
-DTSTAMP:20261107T220709Z
+DTSTAMP:20261108T102118Z
 DTSTART:20261106T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -975,7 +647,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-tiktok@fontedemana.com.br
-DTSTAMP:20261107T220709Z
+DTSTAMP:20261108T102118Z
 DTSTART:20261107T210000Z
 DURATION:PT15M
 SUMMARY:18:00 TikTok: Top 5 cartas antigas que voltaram a valer
@@ -1011,7 +683,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-threads-manha@fontedemana.com.br
-DTSTAMP:20261107T220709Z
+DTSTAMP:20261108T102118Z
 DTSTART:20261107T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Top 5 #5: cartas antigas que voltaram a vale
@@ -1037,7 +709,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-feed@fontedemana.com.br
-DTSTAMP:20261107T220709Z
+DTSTAMP:20261108T102118Z
 DTSTART:20261107T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Top 5 #5: cartas antigas que voltaram a valer
@@ -1084,7 +756,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261107T220709Z
+DTSTAMP:20261108T102118Z
 DTSTART:20261107T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -1103,7 +775,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-stories-tarde@fontedemana.com.br
-DTSTAMP:20261107T220709Z
+DTSTAMP:20261108T102118Z
 DTSTART:20261107T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1123,7 +795,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-reels@fontedemana.com.br
-DTSTAMP:20261107T220709Z
+DTSTAMP:20261108T102118Z
 DTSTART:20261108T000000Z
 DURATION:PT15M
 SUMMARY:21:00 Reels: Vídeo original: Top 5 #5: cartas antigas que voltaram
@@ -1165,7 +837,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-comentarios@fontedemana.com.br
-DTSTAMP:20261107T220709Z
+DTSTAMP:20261108T102118Z
 DTSTART:20261108T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1187,7 +859,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-08-gravacao@fontedemana.com.br
-DTSTAMP:20261107T220709Z
+DTSTAMP:20261108T102118Z
 DTSTART:20261107T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -1238,35 +910,202 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-08-tiktok@fontedemana.com.br
-DTSTAMP:20261107T220709Z
-DTSTART:20261108T143000Z
+DTSTAMP:20261108T102118Z
+DTSTART:20261108T210000Z
 DURATION:PT15M
-SUMMARY:11:30 TikTok: Postar o TikTok: Toda mesa tem um #2
+SUMMARY:18:00 TikTok: Postar o TikTok: Toda mesa tem um #2
 DESCRIPTION:Vídeo do jogador que jura que o deck é casual\, com a Emeritu
  s of Woe e a dica de dizer o bracket. O mesmo vídeo e a mesma legenda vã
- o para o Reels das 19:00.\n\nArquivos:\n- Vídeo narrado (tiktok-narrado.m
- p4): https://fontedemana.com.br/pauta/2026-11-08/tiktok/tiktok-narrado.mp4
- \n\nLegenda:\nCommander: toda mesa tem um jogador que jura que o deck é c
- asual. Quem é esse na sua mesa?\n\nEle diz que não tem combo\, que o tut
- or é só pra achar terreno\, e no turno 4 a mesa inteira cai.\nA carta qu
- e ele adora: Emeritus of Woe\, uma vampira de Secrets of Strixhaven que j
- á entra com um Demonic Tutor pronto para usar. O Demonic Tutor está na l
- ista de Game Changers. A Emeritus\, não.\n\nDica de mesa: no lugar de "ca
- sual"\, diga o bracket do deck. No Bracket 2 não entra Game Changer\; no 
- 3\, até três (Wizards\, Commander Brackets).\n\nMais em fontedemana.com.
- br\n\n#demonictutor #commander #mtg\n\nFonte de Mana is unofficial Fan Con
- tent permitted under the Fan Content Policy. Not approved/endorsed by Wiza
- rds. Portions of the materials used are property of Wizards of the Coast. 
- ©Wizards of the Coast LLC.\n\nComentário fixado:\nEmeritus of Woe no dec
- k casual: pode ou não pode?\nToda mesa tem um\, a série dos jogadores qu
- e você conhece.\n\nPasso a passo:\n1. Poste com um som em alta da bibliot
- eca do TikTok\, com o volume entre 15% e 20%.\n2. É a sua voz: não preci
- sa de rótulo de IA.\n3. Fixe o comentário logo depois de postar.\n\nPaut
- a completa: https://fontedemana.com.br/pauta/2026-11-08/#tiktok
+ o para o Reels das 19:00.\n\nArquivos:\n- Vídeo do TikTok narrado: https:
+ //fontedemana.com.br/pauta/2026-11-08/tiktok/tiktok-narrado.mp4\n\nLegenda
+ :\nCommander: toda mesa tem um jogador que jura que o deck é casual. Quem
+  é esse na sua mesa?\n\nEle diz que não tem combo\, que o tutor é só p
+ ra achar terreno\, e no turno 4 a mesa inteira cai.\nA carta que ele adora
+ : Emeritus of Woe\, uma vampira de Secrets of Strixhaven que já entra com
+  um Demonic Tutor pronto para usar. O Demonic Tutor está na lista de Game
+  Changers. A Emeritus\, não.\n\nDica de mesa: no lugar de "casual"\, diga
+  o bracket do deck. No Bracket 2 não entra Game Changer\; no 3\, até tr
+ ês (Wizards\, Commander Brackets).\n\nMais em fontedemana.com.br\n\n#demo
+ nictutor #commander #mtg\n\nFonte de Mana is unofficial Fan Content permit
+ ted under the Fan Content Policy. Not approved/endorsed by Wizards. Portio
+ ns of the materials used are property of Wizards of the Coast. ©Wizards o
+ f the Coast LLC.\n\nComentário fixado:\nEmeritus of Woe no deck casual: p
+ ode ou não pode?\nToda mesa tem um\, a série dos jogadores que você con
+ hece.\n\nPasso a passo:\n1. Poste com um som em alta da biblioteca do TikT
+ ok\, com o volume entre 15% e 20%.\n2. É a sua voz: não precisa de rótu
+ lo de IA.\n3. Fixe o comentário logo depois de postar.\n\nPauta completa:
+  https://fontedemana.com.br/pauta/2026-11-08/#tiktok
 URL:https://fontedemana.com.br/pauta/2026-11-08/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:TikTok: Postar o TikTok: Toda mesa tem um #2
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-08-threads-manha@fontedemana.com.br
+DTSTAMP:20261108T102118Z
+DTSTART:20261108T133000Z
+DURATION:PT15M
+SUMMARY:10:30 Threads: Debate: Toda mesa tem um #2: o que jura que o deck 
+ é casual
+DESCRIPTION:Post de debate do conteúdo original de hoje (Toda mesa tem um)
+  para puxar conversa.\n\nPost:\nToda mesa de Commander tem um. Qual mais a
+ parece na sua?\n\n1. O que jura que o deck é casual e tem tutor no deck\n
+ 2. O que demora 10 minutos no turno\n3. O que esquece os próprios gatilho
+ s\n4. O que faz board wipe e pede desculpa\n\nE você\, é qual deles?\n\n
+ Passo a passo:\n1. Abra o Threads e cole o Post.\n2. Dica: Enquete com as 
+ quatro opções\n3. Toque em Adicionar tópico e escolha MTG.\n4. Publique
+  e responda quem comentar na primeira hora.\n\nPauta completa: https://fon
+ tedemana.com.br/pauta/2026-11-08/#threads-manha
+URL:https://fontedemana.com.br/pauta/2026-11-08/#threads-manha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Debate: Toda mesa tem um #2: o que jura que o deck é 
+ casual
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-08-feed@fontedemana.com.br
+DTSTAMP:20261108T102118Z
+DTSTART:20261108T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram feed: Toda mesa tem um #2: o que jura que o deck é
+  casual
+DESCRIPTION:Carrossel original de 6 imagens (Toda mesa tem um): Toda mesa t
+ em um #2: o que jura que o deck é casual. Feito para salvar e compartilha
+ r.\n\nArquivos:\n- Imagem 1 de 6: https://fontedemana.com.br/pauta/2026-11
+ -08/original/carrossel-01.jpg\n- Imagem 2 de 6: https://fontedemana.com.br
+ /pauta/2026-11-08/original/carrossel-02.jpg\n- Imagem 3 de 6: https://font
+ edemana.com.br/pauta/2026-11-08/original/carrossel-03.jpg\n- Imagem 4 de 6
+ : https://fontedemana.com.br/pauta/2026-11-08/original/carrossel-04.jpg\n-
+  Imagem 5 de 6: https://fontedemana.com.br/pauta/2026-11-08/original/carro
+ ssel-05.jpg\n- Imagem 6 de 6: https://fontedemana.com.br/pauta/2026-11-08/
+ original/carrossel-06.jpg\n\nLegenda:\nCommander: toda mesa tem um jogador
+  que jura que o deck é casual. Quem é esse na sua mesa?\n\nEle diz que n
+ ão tem combo\, que o tutor é só pra achar terreno\, e no turno 4 a mesa
+  inteira cai.\n\nA carta que ele adora: Emeritus of Woe\, vampira de Secre
+ ts of Strixhaven que entra com um Demonic Tutor pronto para usar. O Demoni
+ c Tutor é Game Changer\; a Emeritus\, não.\n\nPara quem está voltando a
+ o Magic: Bracket é a escala oficial de força dos decks de Commander\, de
+  1 a 5. Game Changer é a lista oficial das cartas mais fortes. Nos Bracke
+ ts 1 e 2 não entra nenhuma\; no 3\, até três.\n\nDica de mesa: no lugar
+  de "casual"\, diga o bracket e quantos Game Changers o deck tem.\n\nFonte
+ s: Wizards (Commander Brackets)\, Scryfall e Draftsim.\nMais em fontedeman
+ a.com.br\n\n#demonictutor #commander #mtg\n\nFonte de Mana is unofficial F
+ an Content permitted under the Fan Content Policy. Not approved/endorsed b
+ y Wizards. Portions of the materials used are property of Wizards of the C
+ oast. ©Wizards of the Coast LLC.\n\nPasso a passo:\n1. No Instagram\, toq
+ ue em + e escolha Post.\n2. Selecione as 6 imagens na ordem\, da 1 à 6.\n
+ 3. Toque em Adicionar música e escolha uma em alta que combine com o tema
+ .\n4. Cole a Legenda e publique.\n\nPauta completa: https://fontedemana.co
+ m.br/pauta/2026-11-08/#feed
+URL:https://fontedemana.com.br/pauta/2026-11-08/#feed
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram feed: Toda mesa tem um #2: o que jura que o deck é c
+ asual
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-08-stories-meio-dia@fontedemana.com.br
+DTSTAMP:20261108T102118Z
+DTSTART:20261108T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
+DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
+ .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
+ e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
+ o do post: Tutor no deck casual: pode? com Pode\, é só um tutor e Não\,
+  isso é Bracket 3.\n3. Publique.\n\nPauta completa: https://fontedemana.c
+ om.br/pauta/2026-11-08/#stories-meio-dia
+URL:https://fontedemana.com.br/pauta/2026-11-08/#stories-meio-dia
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-08-stories-tarde@fontedemana.com.br
+DTSTAMP:20261108T102118Z
+DTSTART:20261108T180000Z
+DURATION:PT15M
+SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
+DESCRIPTION:Story com a imagem de Giada\, Font of Hope no Topdeck do Dia e 
+ o sticker de link para a edição completa.\n\nArquivos:\n- Topdeck do Dia
+ : https://fontedemana.com.br/kit/ed34/carrossel-03.jpg\n\nPasso a passo:\n
+ 1. Baixe a imagem e poste no Story.\n2. Adicione o sticker de Link para fo
+ ntedemana.com.br com o texto Edição completa\, embaixo do texto do Topde
+ ck.\n3. Publique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026
+ -11-08/#stories-tarde
+URL:https://fontedemana.com.br/pauta/2026-11-08/#stories-tarde
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Topdeck do Dia com link
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-08-reels@fontedemana.com.br
+DTSTAMP:20261108T102118Z
+DTSTART:20261108T220000Z
+DURATION:PT15M
+SUMMARY:19:00 Reels: Vídeo original: Toda mesa tem um #2: o que jura que o
+  deck é casual
+DESCRIPTION:O vídeo original de hoje no Instagram\, o mesmo arquivo do Tik
+ Tok\, já narrado. É o formato que mais chega a quem não segue.\n\nArqui
+ vos:\n- Vídeo original narrado: https://fontedemana.com.br/pauta/2026-11-
+ 08/tiktok/tiktok-narrado.mp4\n\nLegenda:\nCommander: toda mesa tem um joga
+ dor que jura que o deck é casual. Quem é esse na sua mesa?\n\nEle diz qu
+ e não tem combo\, que o tutor é só pra achar terreno\, e no turno 4 a m
+ esa inteira cai.\nA carta que ele adora: Emeritus of Woe\, uma vampira de 
+ Secrets of Strixhaven que já entra com um Demonic Tutor pronto para usar.
+  O Demonic Tutor está na lista de Game Changers. A Emeritus\, não.\n\nDi
+ ca de mesa: no lugar de "casual"\, diga o bracket do deck. No Bracket 2 n
+ ão entra Game Changer\; no 3\, até três (Wizards\, Commander Brackets).
+ \n\nMais em fontedemana.com.br\n\n#demonictutor #commander #mtg\n\nFonte d
+ e Mana is unofficial Fan Content permitted under the Fan Content Policy. N
+ ot approved/endorsed by Wizards. Portions of the materials used are proper
+ ty of Wizards of the Coast. ©Wizards of the Coast LLC.\n\nComentário fix
+ ado:\nEmeritus of Woe no deck casual: pode ou não pode?\nToda mesa tem um
+ \, a série dos jogadores que você conhece.\n\nPasso a passo:\n1. No Inst
+ agram\, toque em + e escolha Reel.\n2. Escolha o vídeo baixado daqui\, nu
+ nca o salvo do TikTok (o Instagram derruba vídeo com marca d'água).\n3. 
+ Em Áudio\, ponha uma música em alta da biblioteca do Instagram com volum
+ e baixo (uns 10%)\, sem cobrir a voz.\n4. Na capa\, use o primeiro quadro\
+ , o do gancho.\n5. Cole a Legenda e publique.\n6. Fixe o comentário e res
+ ponda quem comentar na primeira hora.\n\nPauta completa: https://fontedema
+ na.com.br/pauta/2026-11-08/#reels
+URL:https://fontedemana.com.br/pauta/2026-11-08/#reels
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reels: Vídeo original: Toda mesa tem um #2: o que jura que o d
+ eck é casual
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-08-comentarios@fontedemana.com.br
+DTSTAMP:20261108T102118Z
+DTSTART:20261109T003000Z
+DURATION:PT15M
+SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
+DESCRIPTION:Uns 10 minutos nas três redes: curtir e responder os comentár
+ ios das últimas 48 horas\, começando pelo vídeo e pelo carrossel de hoj
+ e. Conversa nos comentários leva a peça a mais gente\, e o Instagram rec
+ omenda responder em até 2 dias.\n\nPasso a passo:\n1. Instagram: nas noti
+ ficações\, curta os comentários e responda com uma frase quem perguntou
+  ou discordou.\n2. TikTok e Threads: o mesmo\, começando pelo post com ma
+ is comentários.\n3. Pergunta boa ou dúvida que se repete\, nos comentár
+ ios ou nas DMs? Mande na conversa do projeto: vira tema de um pilar.\n\nPa
+ uta completa: https://fontedemana.com.br/pauta/2026-11-08/#comentarios
+URL:https://fontedemana.com.br/pauta/2026-11-08/#comentarios
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Comentários: Responder os comentários de hoje e de ontem
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT

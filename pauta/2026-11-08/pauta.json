@@ -1,96 +1,236 @@
 {
- "data": "2026-11-08",
- "fx": null,
- "avisos": [
-  {
-   "id": "gravacao",
-   "dia": "2026-11-07",
-   "hora": "19:15",
-   "rede": "Gravação",
-   "titulo": "Gravar o vídeo de amanhã (você aparece)",
-   "oQue": "Toda mesa tem um #2: o que jura que o deck é casual. Você aparece nas cenas 1 e 6, imitando o jogador e dando a dica de mesa. As outras são só a voz.",
-   "arquivos": [
+  "data": "2026-11-08",
+  "fx": "Valores em reais pela cotação de 6 nov, US$ 1 = R$ 5,5013 (Banco Central, PTAX).",
+  "forca": "calmo",
+  "feed": "original",
+  "avisos": [
     {
-     "nome": "Vídeo mudo (tiktok-mudo.mp4)",
-     "url": "https://fontedemana.com.br/pauta/2026-11-08/tiktok/tiktok-mudo.mp4"
+      "id": "gravacao",
+      "dia": "2026-11-07",
+      "hora": "19:15",
+      "rede": "Gravação",
+      "titulo": "Gravar o vídeo de amanhã (você aparece)",
+      "oQue": "Toda mesa tem um #2: o que jura que o deck é casual. Você aparece nas cenas 1 e 6, imitando o jogador e dando a dica de mesa. As outras são só a voz.",
+      "arquivos": [
+        {
+          "nome": "Vídeo mudo (tiktok-mudo.mp4)",
+          "url": "https://fontedemana.com.br/pauta/2026-11-08/tiktok/tiktok-mudo.mp4"
+        }
+      ],
+      "roteiro": [
+        {
+          "cena": "Cena 1, rosto, uns 4 s",
+          "tela": "O que jura que o deck é casual",
+          "fala": "Toda mesa tem um. Relaxa, meu deck é casual.",
+          "como": "Rosto: Olhando para a câmera, embaralha o deck com cara de inocente e diz a segunda frase com a mão no peito, como quem jura."
+        },
+        {
+          "cena": "Cena 2, só a voz, uns 5 s",
+          "tela": "Não tem combo, é só sinergia. Esse tutor? É só pra achar terreno.",
+          "fala": "Não tem combo, é só sinergia. O tutor é só pra achar terreno.",
+          "como": "Só a voz: pode gravar em vídeo ou áudio"
+        },
+        {
+          "cena": "Cena 3, só a voz, uns 4 s",
+          "tela": "Nossa, deu combo sem querer. E a mesa inteira cai de uma vez",
+          "fala": "Aí no turno quatro: nossa, deu combo sem querer.",
+          "como": "Só a voz: pode gravar em vídeo ou áudio"
+        },
+        {
+          "cena": "Cena 4, só a voz, uns 7 s",
+          "tela": "Emeritus of Woe: Um Demonic Tutor dentro, e não é Game Changer",
+          "fala": "A carta dele: Emeritus of Woe. Já entra com um Demonic Tutor. E não é Game Changer.",
+          "como": "Só a voz: pode gravar em vídeo ou áudio"
+        },
+        {
+          "cena": "Cena 5, só a voz, uns 4 s",
+          "tela": "Bracket 2: zero Game Changer. Bracket 3: até três. Do 4 em diante, sem limite",
+          "fala": "No Bracket 2, nenhum Game Changer. No 3, até três.",
+          "como": "Só a voz: pode gravar em vídeo ou áudio"
+        },
+        {
+          "cena": "Cena 6, rosto, uns 4 s",
+          "tela": "Diga o bracket, não casual",
+          "fala": "Dica: em vez de casual, fala o bracket do deck.",
+          "como": "Rosto: Olhando para a câmera, segura o deck e conta nos dedos: o bracket e os Game Changers, em tom de conselho de amigo."
+        }
+      ],
+      "passos": [
+        "Celular na vertical, câmera da frente, na altura dos olhos, a um braço de distância.",
+        "Rosto na metade de cima da tela: o título entra embaixo dele, na altura do peito.",
+        "Luz de frente (de frente para a janela) e fundo arrumado; a estante de cartas é ótima.",
+        "Desligue o Vídeo HDR (Ajustes, Câmera, Gravar Vídeo) para as cores não lavarem.",
+        "Um vídeo por cena, falando para a câmera, com meio segundo de silêncio antes e depois; nomeie cena_1, cena_2... e mande todos juntos.",
+        "Nas cenas sem rosto, só a voz conta: pode gravar em vídeo ou só o áudio, num lugar silencioso, com o celular a um palmo da boca.",
+        "Cenas 1 e 6 são com o rosto: tenha um deck na mão para embaralhar e mostrar.",
+        "Mande os vídeos ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"vídeos do TikTok de 2026-11-08\"."
+      ]
+    },
+    {
+      "id": "tiktok",
+      "hora": "18:00",
+      "rede": "TikTok",
+      "titulo": "Postar o TikTok: Toda mesa tem um #2",
+      "oQue": "Vídeo do jogador que jura que o deck é casual, com a Emeritus of Woe e a dica de dizer o bracket. O mesmo vídeo e a mesma legenda vão para o Reels das 19:00.",
+      "arquivos": [
+        {
+          "nome": "Vídeo do TikTok narrado",
+          "url": "https://fontedemana.com.br/pauta/2026-11-08/tiktok/tiktok-narrado.mp4"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Commander: toda mesa tem um jogador que jura que o deck é casual. Quem é esse na sua mesa?\n\nEle diz que não tem combo, que o tutor é só pra achar terreno, e no turno 4 a mesa inteira cai.\nA carta que ele adora: Emeritus of Woe, uma vampira de Secrets of Strixhaven que já entra com um Demonic Tutor pronto para usar. O Demonic Tutor está na lista de Game Changers. A Emeritus, não.\n\nDica de mesa: no lugar de \"casual\", diga o bracket do deck. No Bracket 2 não entra Game Changer; no 3, até três (Wizards, Commander Brackets).\n\nMais em fontedemana.com.br\n\n#demonictutor #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        },
+        {
+          "rotulo": "Comentário fixado",
+          "texto": "Emeritus of Woe no deck casual: pode ou não pode?\nToda mesa tem um, a série dos jogadores que você conhece."
+        }
+      ],
+      "passos": [
+        "Poste com um som em alta da biblioteca do TikTok, com o volume entre 15% e 20%.",
+        "É a sua voz: não precisa de rótulo de IA.",
+        "Fixe o comentário logo depois de postar."
+      ]
+    },
+    {
+      "id": "threads-manha",
+      "hora": "10:30",
+      "rede": "Threads",
+      "titulo": "Debate: Toda mesa tem um #2: o que jura que o deck é casual",
+      "oQue": "Post de debate do conteúdo original de hoje (Toda mesa tem um) para puxar conversa.",
+      "textos": [
+        {
+          "rotulo": "Post",
+          "texto": "Toda mesa de Commander tem um. Qual mais aparece na sua?\n\n1. O que jura que o deck é casual e tem tutor no deck\n2. O que demora 10 minutos no turno\n3. O que esquece os próprios gatilhos\n4. O que faz board wipe e pede desculpa\n\nE você, é qual deles?"
+        }
+      ],
+      "passos": [
+        "Abra o Threads e cole o Post.",
+        "Dica: Enquete com as quatro opções",
+        "Toque em Adicionar tópico e escolha MTG.",
+        "Publique e responda quem comentar na primeira hora."
+      ]
+    },
+    {
+      "id": "feed",
+      "hora": "12:00",
+      "rede": "Instagram feed",
+      "titulo": "Toda mesa tem um #2: o que jura que o deck é casual",
+      "origem": "original:2026-11-08",
+      "oQue": "Carrossel original de 6 imagens (Toda mesa tem um): Toda mesa tem um #2: o que jura que o deck é casual. Feito para salvar e compartilhar.",
+      "arquivos": [
+        {
+          "nome": "Imagem 1 de 6",
+          "url": "https://fontedemana.com.br/pauta/2026-11-08/original/carrossel-01.jpg"
+        },
+        {
+          "nome": "Imagem 2 de 6",
+          "url": "https://fontedemana.com.br/pauta/2026-11-08/original/carrossel-02.jpg"
+        },
+        {
+          "nome": "Imagem 3 de 6",
+          "url": "https://fontedemana.com.br/pauta/2026-11-08/original/carrossel-03.jpg"
+        },
+        {
+          "nome": "Imagem 4 de 6",
+          "url": "https://fontedemana.com.br/pauta/2026-11-08/original/carrossel-04.jpg"
+        },
+        {
+          "nome": "Imagem 5 de 6",
+          "url": "https://fontedemana.com.br/pauta/2026-11-08/original/carrossel-05.jpg"
+        },
+        {
+          "nome": "Imagem 6 de 6",
+          "url": "https://fontedemana.com.br/pauta/2026-11-08/original/carrossel-06.jpg"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Commander: toda mesa tem um jogador que jura que o deck é casual. Quem é esse na sua mesa?\n\nEle diz que não tem combo, que o tutor é só pra achar terreno, e no turno 4 a mesa inteira cai.\n\nA carta que ele adora: Emeritus of Woe, vampira de Secrets of Strixhaven que entra com um Demonic Tutor pronto para usar. O Demonic Tutor é Game Changer; a Emeritus, não.\n\nPara quem está voltando ao Magic: Bracket é a escala oficial de força dos decks de Commander, de 1 a 5. Game Changer é a lista oficial das cartas mais fortes. Nos Brackets 1 e 2 não entra nenhuma; no 3, até três.\n\nDica de mesa: no lugar de \"casual\", diga o bracket e quantos Game Changers o deck tem.\n\nFontes: Wizards (Commander Brackets), Scryfall e Draftsim.\nMais em fontedemana.com.br\n\n#demonictutor #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        }
+      ],
+      "passos": [
+        "No Instagram, toque em + e escolha Post.",
+        "Selecione as 6 imagens na ordem, da 1 à 6.",
+        "Toque em Adicionar música e escolha uma em alta que combine com o tema.",
+        "Cole a Legenda e publique."
+      ]
+    },
+    {
+      "id": "stories-meio-dia",
+      "hora": "12:00",
+      "rede": "Instagram Stories",
+      "titulo": "Repost do carrossel com enquete",
+      "oQue": "Compartilhe o carrossel recém postado no Story com uma enquete.",
+      "passos": [
+        "No carrossel publicado, toque no avião de papel e em Adicionar post ao seu story.",
+        "Adicione o sticker de Enquete embaixo do post: Tutor no deck casual: pode? com Pode, é só um tutor e Não, isso é Bracket 3.",
+        "Publique."
+      ]
+    },
+    {
+      "id": "stories-tarde",
+      "hora": "15:00",
+      "rede": "Instagram Stories",
+      "titulo": "Topdeck do Dia com link",
+      "oQue": "Story com a imagem de Giada, Font of Hope no Topdeck do Dia e o sticker de link para a edição completa.",
+      "arquivos": [
+        {
+          "nome": "Topdeck do Dia",
+          "url": "https://fontedemana.com.br/kit/ed34/carrossel-03.jpg"
+        }
+      ],
+      "passos": [
+        "Baixe a imagem e poste no Story.",
+        "Adicione o sticker de Link para fontedemana.com.br com o texto Edição completa, embaixo do texto do Topdeck.",
+        "Publique."
+      ]
+    },
+    {
+      "id": "reels",
+      "hora": "19:00",
+      "rede": "Reels",
+      "titulo": "Vídeo original: Toda mesa tem um #2: o que jura que o deck é casual",
+      "oQue": "O vídeo original de hoje no Instagram, o mesmo arquivo do TikTok, já narrado. É o formato que mais chega a quem não segue.",
+      "arquivos": [
+        {
+          "nome": "Vídeo original narrado",
+          "url": "https://fontedemana.com.br/pauta/2026-11-08/tiktok/tiktok-narrado.mp4"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Commander: toda mesa tem um jogador que jura que o deck é casual. Quem é esse na sua mesa?\n\nEle diz que não tem combo, que o tutor é só pra achar terreno, e no turno 4 a mesa inteira cai.\nA carta que ele adora: Emeritus of Woe, uma vampira de Secrets of Strixhaven que já entra com um Demonic Tutor pronto para usar. O Demonic Tutor está na lista de Game Changers. A Emeritus, não.\n\nDica de mesa: no lugar de \"casual\", diga o bracket do deck. No Bracket 2 não entra Game Changer; no 3, até três (Wizards, Commander Brackets).\n\nMais em fontedemana.com.br\n\n#demonictutor #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        },
+        {
+          "rotulo": "Comentário fixado",
+          "texto": "Emeritus of Woe no deck casual: pode ou não pode?\nToda mesa tem um, a série dos jogadores que você conhece."
+        }
+      ],
+      "passos": [
+        "No Instagram, toque em + e escolha Reel.",
+        "Escolha o vídeo baixado daqui, nunca o salvo do TikTok (o Instagram derruba vídeo com marca d'água).",
+        "Em Áudio, ponha uma música em alta da biblioteca do Instagram com volume baixo (uns 10%), sem cobrir a voz.",
+        "Na capa, use o primeiro quadro, o do gancho.",
+        "Cole a Legenda e publique.",
+        "Fixe o comentário e responda quem comentar na primeira hora."
+      ]
+    },
+    {
+      "id": "comentarios",
+      "hora": "21:30",
+      "rede": "Comentários",
+      "titulo": "Responder os comentários de hoje e de ontem",
+      "oQue": "Uns 10 minutos nas três redes: curtir e responder os comentários das últimas 48 horas, começando pelo vídeo e pelo carrossel de hoje. Conversa nos comentários leva a peça a mais gente, e o Instagram recomenda responder em até 2 dias.",
+      "passos": [
+        "Instagram: nas notificações, curta os comentários e responda com uma frase quem perguntou ou discordou.",
+        "TikTok e Threads: o mesmo, começando pelo post com mais comentários.",
+        "Pergunta boa ou dúvida que se repete, nos comentários ou nas DMs? Mande na conversa do projeto: vira tema de um pilar."
+      ]
     }
-   ],
-   "roteiro": [
-    {
-     "cena": "Cena 1, rosto, uns 4 s",
-     "tela": "O que jura que o deck é casual",
-     "fala": "Toda mesa tem um. Relaxa, meu deck é casual.",
-     "como": "Rosto: Olhando para a câmera, embaralha o deck com cara de inocente e diz a segunda frase com a mão no peito, como quem jura."
-    },
-    {
-     "cena": "Cena 2, só a voz, uns 5 s",
-     "tela": "Não tem combo, é só sinergia. Esse tutor? É só pra achar terreno.",
-     "fala": "Não tem combo, é só sinergia. O tutor é só pra achar terreno.",
-     "como": "Só a voz: pode gravar em vídeo ou áudio"
-    },
-    {
-     "cena": "Cena 3, só a voz, uns 4 s",
-     "tela": "Nossa, deu combo sem querer. E a mesa inteira cai de uma vez",
-     "fala": "Aí no turno quatro: nossa, deu combo sem querer.",
-     "como": "Só a voz: pode gravar em vídeo ou áudio"
-    },
-    {
-     "cena": "Cena 4, só a voz, uns 7 s",
-     "tela": "Emeritus of Woe: Um Demonic Tutor dentro, e não é Game Changer",
-     "fala": "A carta dele: Emeritus of Woe. Já entra com um Demonic Tutor. E não é Game Changer.",
-     "como": "Só a voz: pode gravar em vídeo ou áudio"
-    },
-    {
-     "cena": "Cena 5, só a voz, uns 4 s",
-     "tela": "Bracket 2: zero Game Changer. Bracket 3: até três. Do 4 em diante, sem limite",
-     "fala": "No Bracket 2, nenhum Game Changer. No 3, até três.",
-     "como": "Só a voz: pode gravar em vídeo ou áudio"
-    },
-    {
-     "cena": "Cena 6, rosto, uns 4 s",
-     "tela": "Diga o bracket, não casual",
-     "fala": "Dica: em vez de casual, fala o bracket do deck.",
-     "como": "Rosto: Olhando para a câmera, segura o deck e conta nos dedos: o bracket e os Game Changers, em tom de conselho de amigo."
-    }
-   ],
-   "passos": [
-    "Celular na vertical, câmera da frente, na altura dos olhos, a um braço de distância.",
-    "Rosto na metade de cima da tela: o título entra embaixo dele, na altura do peito.",
-    "Luz de frente (de frente para a janela) e fundo arrumado; a estante de cartas é ótima.",
-    "Desligue o Vídeo HDR (Ajustes, Câmera, Gravar Vídeo) para as cores não lavarem.",
-    "Um vídeo por cena, falando para a câmera, com meio segundo de silêncio antes e depois; nomeie cena_1, cena_2... e mande todos juntos.",
-    "Nas cenas sem rosto, só a voz conta: pode gravar em vídeo ou só o áudio, num lugar silencioso, com o celular a um palmo da boca.",
-    "Cenas 1 e 6 são com o rosto: tenha um deck na mão para embaralhar e mostrar.",
-    "Mande os vídeos ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"vídeos do TikTok de 2026-11-08\"."
-   ]
-  },
-  {
-   "id": "tiktok",
-   "hora": "11:30",
-   "rede": "TikTok",
-   "titulo": "Postar o TikTok: Toda mesa tem um #2",
-   "oQue": "Vídeo do jogador que jura que o deck é casual, com a Emeritus of Woe e a dica de dizer o bracket. O mesmo vídeo e a mesma legenda vão para o Reels das 19:00.",
-   "arquivos": [
-    {
-     "nome": "Vídeo narrado (tiktok-narrado.mp4)",
-     "url": "https://fontedemana.com.br/pauta/2026-11-08/tiktok/tiktok-narrado.mp4"
-    }
-   ],
-   "textos": [
-    {
-     "rotulo": "Legenda",
-     "texto": "Commander: toda mesa tem um jogador que jura que o deck é casual. Quem é esse na sua mesa?\n\nEle diz que não tem combo, que o tutor é só pra achar terreno, e no turno 4 a mesa inteira cai.\nA carta que ele adora: Emeritus of Woe, uma vampira de Secrets of Strixhaven que já entra com um Demonic Tutor pronto para usar. O Demonic Tutor está na lista de Game Changers. A Emeritus, não.\n\nDica de mesa: no lugar de \"casual\", diga o bracket do deck. No Bracket 2 não entra Game Changer; no 3, até três (Wizards, Commander Brackets).\n\nMais em fontedemana.com.br\n\n#demonictutor #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
-    },
-    {
-     "rotulo": "Comentário fixado",
-     "texto": "Emeritus of Woe no deck casual: pode ou não pode?\nToda mesa tem um, a série dos jogadores que você conhece."
-    }
-   ],
-   "passos": [
-    "Poste com um som em alta da biblioteca do TikTok, com o volume entre 15% e 20%.",
-    "É a sua voz: não precisa de rótulo de IA.",
-    "Fixe o comentário logo depois de postar."
-   ]
-  }
- ]
+  ]
 }
