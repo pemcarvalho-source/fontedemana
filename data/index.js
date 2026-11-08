@@ -1,6 +1,7 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "Giada, Font of Hope",
   "Werewolf Pack Leader",
   "Jeska's Will",
   "Eternal Witness",
@@ -32,6 +33,13 @@ window.MANA_POOL_INDEX = {
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 34,
+   "date": "2026-11-08",
+   "dateLabel": "Domingo, 8 de novembro de 2026",
+   "head": "Dia calmo no Multiverso",
+   "biome": "U"
+  },
   {
    "n": 33,
    "date": "2026-11-07",
@@ -241,13 +249,6 @@ window.MANA_POOL_INDEX = {
    "dateLabel": "Sexta, 9 de outubro de 2026",
    "head": "Precons de Warhammer 40.000 vão ganhar reimpressão",
    "biome": "A"
-  },
-  {
-   "n": 3,
-   "date": "2026-10-08",
-   "dateLabel": "Quinta, 8 de outubro de 2026",
-   "head": "Dia calmo no Multiverso",
-   "biome": "M"
   }
  ]
 };
