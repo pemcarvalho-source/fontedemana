@@ -1,0 +1,119 @@
+{
+  "data": "2026-11-09",
+  "fx": null,
+  "avisos": [
+    {
+      "id": "gravacao",
+      "dia": "2026-11-08",
+      "hora": "19:15",
+      "rede": "Gravação",
+      "titulo": "Gravar o vídeo de amanhã (você aparece)",
+      "oQue": "Do zero à mesa #1, o lote do plástico bolha. Você aparece em duas cenas (a 1 e a 6); nas outras, só a voz por cima dos trechos que você já gravou.",
+      "arquivos": [
+        {
+          "nome": "Vídeo mudo",
+          "url": "https://fontedemana.com.br/pauta/2026-11-09/tiktok/tiktok-mudo.mp4"
+        }
+      ],
+      "roteiro": [
+        {
+          "cena": "Cena 1, rosto, uns 3 s",
+          "tela": "Comprei na gringa: Veio plástico bolha de carta",
+          "fala": "Comprei na gringa e veio plástico bolha de carta.",
+          "como": "Rosto: Olhando para a câmera, segurando o maço do lote na mão com o plástico bolha aparecendo."
+        },
+        {
+          "cena": "Cena 2, só a voz, uns 5 s",
+          "tela": "Pra proteger 41 cartas: 323 cartas de graça",
+          "fala": "Pra proteger 41 cartas, o vendedor mandou 323 de brinde, de 40 coleções.",
+          "como": "Só a voz: pode gravar em vídeo ou áudio (o trecho do lote entra sozinho no fundo)"
+        },
+        {
+          "cena": "Cena 3, só a voz, uns 5 s",
+          "tela": "79 em chinês: A mais valiosa veio em chinês",
+          "fala": "79 vieram em chinês. E a mais valiosa do lote é uma delas, Sea Gate Loremaster.",
+          "como": "Só a voz: pode gravar em vídeo ou áudio (o trecho do lote entra sozinho no fundo)"
+        },
+        {
+          "cena": "Cena 4, só a voz, uns 5 s",
+          "tela": "13 foils: A melhor em inglês",
+          "fala": "Vieram 13 foils. Esse Magmakin Artillerist é a mais valiosa em inglês.",
+          "como": "Só a voz: pode gravar em vídeo ou áudio (o trecho do lote entra sozinho no fundo)"
+        },
+        {
+          "cena": "Cena 5, só a voz, uns 5 s",
+          "tela": "29 no deck: Virou deck de campeonato",
+          "fala": "E 29 dessas cartas já estão no Vito 500, meu deck de Duel Commander.",
+          "como": "Só a voz: pode gravar em vídeo ou áudio (o trecho do lote entra sozinho no fundo)"
+        },
+        {
+          "cena": "Cena 6, rosto, uns 4 s",
+          "tela": "Do zero à mesa: Quanto vale o plástico bolha?",
+          "fala": "Quanto vale esse plástico bolha todo? Domingo eu conto.",
+          "como": "Rosto: Abrindo o maço em leque na frente da câmera, com cara de quem ainda não fez a conta."
+        }
+      ],
+      "passos": [
+        "Celular na vertical, câmera da frente, na altura dos olhos, a um braço de distância.",
+        "Rosto na metade de cima da tela: o título entra embaixo dele, na altura do peito.",
+        "Luz de frente (de frente para a janela) e fundo arrumado; a estante de cartas é ótima.",
+        "Desligue o Vídeo HDR (Ajustes, Câmera, Gravar Vídeo) para as cores não lavarem.",
+        "Um vídeo por cena, falando para a câmera, com meio segundo de silêncio antes e depois; nomeie cena_1, cena_2... e mande todos juntos.",
+        "Nas cenas sem rosto, só a voz conta: pode gravar em vídeo ou só o áudio.",
+        "Mande os vídeos ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"vídeos do TikTok de 2026-11-09\"."
+      ]
+    },
+    {
+      "id": "stories-lote",
+      "hora": "18:00",
+      "rede": "Instagram Stories",
+      "titulo": "Quadro do lote com enquete",
+      "oQue": "Um quadro do vídeo do lote (o Sea Gate Loremaster em chinês) com o sticker de enquete.",
+      "arquivos": [
+        {
+          "nome": "Quadro do vídeo",
+          "url": "https://fontedemana.com.br/pauta/2026-11-09/tiktok/quadro-lote.jpg"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Enquete",
+          "texto": "Você jogaria com carta em chinês? Opções: Jogaria, Só em inglês"
+        }
+      ],
+      "passos": [
+        "Poste o quadro nos Stories.",
+        "Ponha o sticker de enquete com a pergunta \"Você jogaria com carta em chinês?\" e as opções Jogaria e Só em inglês."
+      ]
+    },
+    {
+      "id": "tiktok",
+      "hora": "11:30",
+      "rede": "TikTok",
+      "titulo": "Do zero à mesa #1: o lote do plástico bolha",
+      "oQue": "Vídeo com você na abertura e os trechos do lote: 323 cartas de brinde, 79 em chinês, 13 foils e 29 no Vito 500.",
+      "arquivos": [
+        {
+          "nome": "Vídeo mudo",
+          "url": "https://fontedemana.com.br/pauta/2026-11-09/tiktok/tiktok-mudo.mp4"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Commander: comprei 41 cartas de Magic na gringa e o vendedor mandou 323 de plástico bolha. Qual a carta mais cara que já veio de brinde pra você?\n\n323 cartas de graça, de 40 coleções.\n79 em chinês, 12 fichas e até uma de Riftbound.\n13 foils e 14 cartas da The List.\nA mais valiosa veio em chinês: Sea Gate Loremaster, rara de Zendikar (carta em chinês não tem cotação própria, vale a mesma impressão em inglês).\n29 já estão no Vito 500, meu deck de Duel Commander.\n\nDo zero à mesa #1. Domingo tem quanto vale tudo isso.\nfontedemana.com.br\n\n#plasticobolha #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        },
+        {
+          "rotulo": "Comentário fixado",
+          "texto": "Carta em chinês no deck: você jogaria ou só em inglês? Do zero à mesa continua no domingo, com quanto vale o plástico bolha."
+        }
+      ],
+      "passos": [
+        "Poste com um som em alta da biblioteca do TikTok, volume entre 15% e 20%.",
+        "Voz própria não precisa de rótulo de IA.",
+        "Fixe o comentário logo depois de postar.",
+        "Se os vídeos não chegarem, poste o vídeo mudo com música em alta."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+ "data": "2026-11-09",
+ "pilar": "zero",
+ "tema": "Do zero à mesa #1: comprei na gringa e vieram 323 cartas de plástico bolha",
+ "item": null,
+ "arte": "pauta/2026-11-09/tiktok/arte.jpg",
+ "carta": "pauta/2026-11-09/tiktok/carta.jpg",
+ "credito": "Arte: Sea Gate Loremaster, Dave Kendall",
+ "fx": null,
+ "legenda": "Commander: comprei 41 cartas de Magic na gringa e o vendedor mandou 323 de plástico bolha. Qual a carta mais cara que já veio de brinde pra você?\n\n323 cartas de graça, de 40 coleções.\n79 em chinês, 12 fichas e até uma de Riftbound.\n13 foils e 14 cartas da The List.\nA mais valiosa veio em chinês: Sea Gate Loremaster, rara de Zendikar (carta em chinês não tem cotação própria, vale a mesma impressão em inglês).\n29 já estão no Vito 500, meu deck de Duel Commander.\n\nDo zero à mesa #1. Domingo tem quanto vale tudo isso.\nfontedemana.com.br\n\n#plasticobolha #commander #mtg",
+ "comentario": "Carta em chinês no deck: você jogaria ou só em inglês? Do zero à mesa continua no domingo, com quanto vale o plástico bolha.",
+ "cenas": [
+  {
+   "tipo": "rosto",
+   "cor": "G",
+   "chip": "Do zero à mesa #1",
+   "kicker": "Comprei na gringa",
+   "titulo": "Veio plástico bolha de carta",
+   "sub": "41 cartas compradas, 323 de brinde",
+   "narracao": "Comprei na gringa e veio plástico bolha de carta.",
+   "gravar": "Olhando para a câmera, segurando o maço do lote na mão com o plástico bolha aparecendo.",
+   "segundos": 3.9
+  },
+  {
+   "tipo": "clipe",
+   "cor": "G",
+   "kicker": "Pra proteger 41 cartas",
+   "titulo": "323 cartas de graça",
+   "video": "extras/lote/lote-01-bolha.mp4",
+   "narracao": "Pra proteger 41 cartas, o vendedor mandou 323 de brinde, de 40 coleções.",
+   "segundos": 5.4
+  },
+  {
+   "tipo": "clipe",
+   "cor": "U",
+   "kicker": "79 em chinês",
+   "titulo": "A mais valiosa veio em chinês",
+   "video": "extras/lote/lote-03-chines.mp4",
+   "inicio": 1,
+   "narracao": "79 vieram em chinês. E a mais valiosa do lote é uma delas, Sea Gate Loremaster.",
+   "segundos": 6.5
+  },
+  {
+   "tipo": "clipe",
+   "cor": "R",
+   "kicker": "13 foils",
+   "titulo": "A melhor em inglês",
+   "video": "extras/lote/lote-05-magmakin-foil.mp4",
+   "narracao": "Vieram 13 foils. Esse Magmakin Artillerist é a mais valiosa em inglês.",
+   "segundos": 5
+  },
+  {
+   "tipo": "clipe",
+   "cor": "B",
+   "kicker": "29 no deck",
+   "titulo": "Virou deck de campeonato",
+   "video": "extras/lote/lote-07-gravkill.mp4",
+   "narracao": "E 29 dessas cartas já estão no Vito 500, meu deck de Duel Commander.",
+   "segundos": 5.8
+  },
+  {
+   "tipo": "rosto",
+   "cor": "M",
+   "chip": "Domingo, 15/11",
+   "kicker": "Do zero à mesa",
+   "titulo": "Quanto vale o plástico bolha?",
+   "narracao": "Quanto vale esse plástico bolha todo? Domingo eu conto.",
+   "gravar": "Abrindo o maço em leque na frente da câmera, com cara de quem ainda não fez a conta.",
+   "segundos": 3.9
+  }
+ ]
+}
