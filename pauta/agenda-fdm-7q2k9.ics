@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-11-06-gravacao@fontedemana.com.br
-DTSTAMP:20261109T111505Z
+DTSTAMP:20261109T212551Z
 DTSTART:20261105T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -66,7 +66,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-tiktok@fontedemana.com.br
-DTSTAMP:20261109T111505Z
+DTSTAMP:20261109T212551Z
 DTSTART:20261106T210000Z
 DURATION:PT15M
 SUMMARY:18:00 TikTok: Postar o Chama o Juiz #4 no TikTok
@@ -94,7 +94,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-threads-manha@fontedemana.com.br
-DTSTAMP:20261109T111505Z
+DTSTAMP:20261109T212551Z
 DTSTART:20261106T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Chama o Juiz #4: dois comandantes (partner) 
@@ -120,7 +120,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-feed@fontedemana.com.br
-DTSTAMP:20261109T111505Z
+DTSTAMP:20261109T212551Z
 DTSTART:20261106T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Chama o Juiz #4: dois comandantes (partner) p
@@ -158,7 +158,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261109T111505Z
+DTSTAMP:20261109T212551Z
 DTSTART:20261106T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -177,7 +177,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-stories-tarde@fontedemana.com.br
-DTSTAMP:20261109T111505Z
+DTSTAMP:20261109T212551Z
 DTSTART:20261106T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -197,7 +197,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-reels@fontedemana.com.br
-DTSTAMP:20261109T111505Z
+DTSTAMP:20261109T212551Z
 DTSTART:20261106T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Chama o Juiz #4: dois comandantes (pa
@@ -233,7 +233,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-reels-teste@fontedemana.com.br
-DTSTAMP:20261109T111505Z
+DTSTAMP:20261109T212551Z
 DTSTART:20261106T214000Z
 DURATION:PT15M
 SUMMARY:18:40 Reels: Reel de teste: o vídeo de hoje com o gancho B
@@ -270,7 +270,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-comentarios@fontedemana.com.br
-DTSTAMP:20261109T111505Z
+DTSTAMP:20261109T212551Z
 DTSTART:20261107T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -292,7 +292,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-gravacao@fontedemana.com.br
-DTSTAMP:20261109T111505Z
+DTSTAMP:20261109T212551Z
 DTSTART:20261106T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -348,7 +348,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-tiktok@fontedemana.com.br
-DTSTAMP:20261109T111505Z
+DTSTAMP:20261109T212551Z
 DTSTART:20261107T210000Z
 DURATION:PT15M
 SUMMARY:18:00 TikTok: Top 5 cartas antigas que voltaram a valer
@@ -384,7 +384,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-threads-manha@fontedemana.com.br
-DTSTAMP:20261109T111505Z
+DTSTAMP:20261109T212551Z
 DTSTART:20261107T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Top 5 #5: cartas antigas que voltaram a vale
@@ -410,7 +410,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-feed@fontedemana.com.br
-DTSTAMP:20261109T111505Z
+DTSTAMP:20261109T212551Z
 DTSTART:20261107T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Top 5 #5: cartas antigas que voltaram a valer
@@ -457,7 +457,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261109T111505Z
+DTSTAMP:20261109T212551Z
 DTSTART:20261107T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -476,7 +476,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-stories-tarde@fontedemana.com.br
-DTSTAMP:20261109T111505Z
+DTSTAMP:20261109T212551Z
 DTSTART:20261107T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -496,7 +496,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-reels@fontedemana.com.br
-DTSTAMP:20261109T111505Z
+DTSTAMP:20261109T212551Z
 DTSTART:20261108T000000Z
 DURATION:PT15M
 SUMMARY:21:00 Reels: Vídeo original: Top 5 #5: cartas antigas que voltaram
@@ -538,7 +538,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-comentarios@fontedemana.com.br
-DTSTAMP:20261109T111505Z
+DTSTAMP:20261109T212551Z
 DTSTART:20261108T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -560,7 +560,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-08-gravacao@fontedemana.com.br
-DTSTAMP:20261109T111505Z
+DTSTAMP:20261109T212551Z
 DTSTART:20261107T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -611,7 +611,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-08-tiktok@fontedemana.com.br
-DTSTAMP:20261109T111505Z
+DTSTAMP:20261109T212551Z
 DTSTART:20261108T210000Z
 DURATION:PT15M
 SUMMARY:18:00 TikTok: Postar o TikTok: Toda mesa tem um #2
@@ -645,7 +645,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-08-threads-manha@fontedemana.com.br
-DTSTAMP:20261109T111505Z
+DTSTAMP:20261109T212551Z
 DTSTART:20261108T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Toda mesa tem um #2: o que jura que o deck 
@@ -669,7 +669,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-08-feed@fontedemana.com.br
-DTSTAMP:20261109T111505Z
+DTSTAMP:20261109T212551Z
 DTSTART:20261108T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Toda mesa tem um #2: o que jura que o deck é
@@ -712,7 +712,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-08-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261109T111505Z
+DTSTAMP:20261109T212551Z
 DTSTART:20261108T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -731,7 +731,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-08-stories-tarde@fontedemana.com.br
-DTSTAMP:20261109T111505Z
+DTSTAMP:20261109T212551Z
 DTSTART:20261108T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -751,7 +751,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-08-reels@fontedemana.com.br
-DTSTAMP:20261109T111505Z
+DTSTAMP:20261109T212551Z
 DTSTART:20261108T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Toda mesa tem um #2: o que jura que o
@@ -790,7 +790,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-08-comentarios@fontedemana.com.br
-DTSTAMP:20261109T111505Z
+DTSTAMP:20261109T212551Z
 DTSTART:20261109T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -812,7 +812,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-09-gravacao@fontedemana.com.br
-DTSTAMP:20261109T111505Z
+DTSTAMP:20261109T212551Z
 DTSTART:20261108T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -862,7 +862,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-09-stories-lote@fontedemana.com.br
-DTSTAMP:20261109T111505Z
+DTSTAMP:20261109T212551Z
 DTSTART:20261109T210000Z
 DURATION:PT15M
 SUMMARY:18:00 Instagram Stories: Quadro do lote com enquete
@@ -883,7 +883,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-09-tiktok@fontedemana.com.br
-DTSTAMP:20261109T111505Z
+DTSTAMP:20261109T212551Z
 DTSTART:20261109T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Do zero à mesa #1: o plástico bolha do Corte Carmes
@@ -918,7 +918,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-09-threads-manha@fontedemana.com.br
-DTSTAMP:20261109T111505Z
+DTSTAMP:20261109T212551Z
 DTSTART:20261109T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Chama o Juiz #5: Kessig Wolf Run entra num d
@@ -943,7 +943,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-09-feed@fontedemana.com.br
-DTSTAMP:20261109T111505Z
+DTSTAMP:20261109T212551Z
 DTSTART:20261109T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Chama o Juiz #5: Kessig Wolf Run entra num de
@@ -981,7 +981,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-09-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261109T111505Z
+DTSTAMP:20261109T212551Z
 DTSTART:20261109T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -1000,7 +1000,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-09-stories-tarde@fontedemana.com.br
-DTSTAMP:20261109T111505Z
+DTSTAMP:20261109T212551Z
 DTSTART:20261109T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1020,7 +1020,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-09-reels@fontedemana.com.br
-DTSTAMP:20261109T111505Z
+DTSTAMP:20261109T212551Z
 DTSTART:20261109T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Do zero à mesa #1: comprei pro Corte
@@ -1059,7 +1059,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-09-comentarios@fontedemana.com.br
-DTSTAMP:20261109T111505Z
+DTSTAMP:20261109T212551Z
 DTSTART:20261110T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1076,6 +1076,87 @@ URL:https://fontedemana.com.br/pauta/2026-11-09/#comentarios
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Comentários: Responder os comentários de hoje e de ontem
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-10-gravacao@fontedemana.com.br
+DTSTAMP:20261109T212551Z
+DTSTART:20261109T221500Z
+DURATION:PT15M
+SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
+DESCRIPTION:Dicionário do Commander #7: o que é ramp. Você aparece nas c
+ enas 1 e 5 (e na 1B do Reel de teste)\; nas outras\, só a voz.\n\nArquivo
+ s:\n- Vídeo mudo (para ver o ritmo): https://fontedemana.com.br/pauta/202
+ 6-11-10/tiktok/tiktok-mudo.mp4\n\nRoteiro de gravação:\nCena 1\, rosto\,
+  uns 5 s\nNa tela: Frase de mesa: "Segura que vou dar ramp"\nComo gravar: 
+ Rosto: Olha para a câmera com um terreno básico na mão\, como quem vai 
+ baixar na mesa\, e levanta a sobrancelha na pergunta.\nFala: Segura que vo
+ u dar ramp. Você sabe o que isso quer dizer?\n\nCena 2\, só a voz\, uns 
+ 6 s\nNa tela: Ramp é: Mana a mais\, antes da hora\nComo gravar: Só a voz
+ : pode gravar em vídeo ou áudio\nFala: Ramp é mana a mais\, antes da ho
+ ra. A carta grande chega turnos antes.\n\nCena 3\, só a voz\, uns 5 s\nNa
+  tela: O nome vem daqui: Rampant Growth\nComo gravar: Só a voz: pode grav
+ ar em vídeo ou áudio\nFala: O nome vem da Rampant Growth: um terreno a m
+ ais por dois manas.\n\nCena 4\, só a voz\, uns 6 s\nNa tela: O erro mais 
+ comum: Ramp não é só do verde\nComo gravar: Só a voz: pode gravar em v
+ ídeo ou áudio\nFala: Erro comum: achar que ramp é só verde. Esse artef
+ ato entra em qualquer deck.\n\nCena 5\, rosto\, uns 6 s\nNa tela: Quanto c
+ olocar: Uns 10 no deck. E no seu?\nComo gravar: Rosto: Abre as duas mãos 
+ mostrando os dez dedos no 'dez' e aponta para a câmera na pergunta.\nFala
+ : A conta é uns dez ramps no deck. O seu tem mais ou menos?\n\nCena 1B (g
+ ancho do Reel de teste)\nNa tela: Dicionário do Commander #7: Toda mesa f
+ ala em ramp. De onde vem?\nComo gravar: Rosto: olha para a câmera\, do me
+ smo jeito da cena 1\, com o terreno básico na mão.\nFala: Toda mesa de C
+ ommander fala em ramp. Mas de onde vem essa palavra?\n\n\nPasso a passo:\n
+ 1. Celular na vertical\, câmera da frente\, na altura dos olhos\, a um br
+ aço de distância.\n2. Rosto na metade de cima da tela: o título entra e
+ mbaixo dele\, na altura do peito.\n3. Luz de frente (de frente para a jane
+ la) e fundo arrumado\; a estante de cartas é ótima.\n4. Desligue o Víde
+ o HDR (Ajustes\, Câmera\, Gravar Vídeo) para as cores não lavarem.\n5. 
+ Um vídeo por cena\, falando para a câmera\, com meio segundo de silênci
+ o antes e depois\; nomeie cena_1\, cena_2... e mande todos juntos.\n6. Nas
+  cenas sem rosto\, só a voz conta: pode gravar em vídeo ou só o áudio.
+ \n7. Grave a cena 1B por último\, também olhando para a câmera\, e nome
+ ie esse vídeo cena_1b.\n8. Mande os vídeos ao Claude no projeto MGT stra
+ tegy (pode ser respondendo à mensagem desta tarefa) dizendo "vídeos do T
+ ikTok de 2026-11-10".\n\nPauta completa: https://fontedemana.com.br/pauta/
+ 2026-11-10/#gravacao
+URL:https://fontedemana.com.br/pauta/2026-11-10/#gravacao
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Gravação: Gravar o vídeo de amanhã (você aparece)
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-10-tiktok@fontedemana.com.br
+DTSTAMP:20261109T212551Z
+DTSTART:20261110T143000Z
+DURATION:PT15M
+SUMMARY:11:30 TikTok: Postar o TikTok: o que é ramp
+DESCRIPTION:Dicionário do Commander #7: o que é ramp\, a carta que deu o 
+ nome e o erro de achar que é só do verde.\n\nArquivos:\n- tiktok-mudo.mp
+ 4: https://fontedemana.com.br/pauta/2026-11-10/tiktok/tiktok-mudo.mp4\n\nL
+ egenda:\nCommander: o que é ramp nas cartas de Magic? Você sabe de onde 
+ vem esse nome?\n\nRamp é ganhar mana a mais\, antes da hora: terreno extr
+ a\, artefato de mana ou criatura que gera mana. O nome vem da Rampant Grow
+ th\, que está em 31\,7% dos decks de Commander que podem jogar com ela (E
+ DHREC). E não é só do verde: Wayfarer's Bauble é incolor e entra em qu
+ alquer deck.\n\nFontes: mtg.wiki\, EDHREC e Scryfall. Mais no fontedemana.
+ com.br\n\nQue termo da mesa te confundiu no começo?\n\n#ramp #commander #
+ mtg\n\nComentário fixado:\nNa hora de rampar\, você vai de terreno (Ramp
+ ant Growth) ou de artefato (Wayfarer's Bauble)?\n\nToda terça tem um term
+ o novo do Dicionário do Commander.\n\nPasso a passo:\n1. Poste com um som
+  em alta da biblioteca do TikTok\, com o volume entre 15% e 20%.\n2. Voz p
+ rópria não precisa de rótulo de IA.\n3. Fixe o comentário logo depois 
+ de postar.\n4. Se os vídeos não chegarem a tempo\, poste o vídeo mudo c
+ om música em alta.\n\nPauta completa: https://fontedemana.com.br/pauta/20
+ 26-11-10/#tiktok
+URL:https://fontedemana.com.br/pauta/2026-11-10/#tiktok
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TikTok: Postar o TikTok: o que é ramp
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT

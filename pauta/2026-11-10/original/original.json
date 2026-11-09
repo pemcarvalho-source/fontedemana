@@ -1,0 +1,49 @@
+{
+  "data": "2026-11-10",
+  "pilar": "dicionario",
+  "item": "Ramp",
+  "tema": "Dicionário do Commander #7: o que é ramp",
+  "cartas": ["Rampant Growth", "Wayfarer's Bauble"],
+  "fx": null,
+  "carrossel": {
+    "capa": {"cor": "G", "chip": "Dicionário #7", "kicker": "Dicionário do Commander",
+             "titulo": "O que é <b>ramp</b>?",
+             "sub": "\"Segura que vou dar ramp.\" O que quer dizer, a carta que deu o nome e o erro que muita gente comete.",
+             "arte": "pauta/2026-11-10/tiktok/arte.jpg", "credito": "Arte: Rampant Growth, Steven Belledin"},
+    "cartoes": [
+      {"cor": "G", "titulo": "Ramp é mana antes da hora",
+       "itens": [
+         {"cor": "G", "html": "Ganhar <b>mais mana</b> do que um terreno por turno daria."},
+         {"cor": "G", "html": "Vale <b>terreno extra</b>, <b>artefato de mana</b> ou <b>criatura que gera mana</b>."},
+         {"cor": "G", "html": "No turno 3 você joga o que só caberia no turno 4 ou 5."}
+       ],
+       "nota": {"rotulo": "Por que importa", "texto": "o comandante caro chega antes, e ainda sobra mana para outra carta."},
+       "fonte": "Fonte: mtg.wiki"},
+      {"cor": "G", "titulo": "O nome vem desta carta", "carta": "pauta/2026-11-10/original/carta-1.jpg",
+       "itens": [
+         {"cor": "G", "html": "<b>Rampant Growth</b>: por 2 manas, um terreno básico do deck vai direto para o campo."},
+         {"cor": "G", "html": "Está em <b>31,7%</b> dos decks que podem jogar com ela, quase 1,5 milhão."}
+       ],
+       "fonte": "Fonte: EDHREC e mtg.wiki, nov 2026"},
+      {"cor": "R", "titulo": "Erro comum: achar que é só verde", "carta": "pauta/2026-11-10/original/carta-2.jpg",
+       "itens": [
+         {"cor": "R", "html": "<b>Wayfarer's Bauble</b> é um artefato incolor: custa 1 e, depois, 2 para buscar um terreno."},
+         {"cor": "R", "html": "Por ser incolor, entra em <b>qualquer deck</b>, de qualquer cor."}
+       ],
+       "fonte": "Fonte: Scryfall"},
+      {"cor": "W", "titulo": "Quanto ramp no deck?",
+       "itens": [
+         {"cor": "W", "html": "A conta mais usada: <b>uns 10</b> ramps nas 99."},
+         {"cor": "W", "html": "Curva baixa pede menos. Deck cheio de carta cara pede <b>10 a 12</b> ou mais."}
+       ],
+       "nota": {"rotulo": "Na dúvida", "texto": "o guia do EDHREC não desce de 7, nem em deck que não foca em mana."},
+       "fonte": "Fonte: EDHREC e Draftsim"}
+    ],
+    "cta": {"pergunta": "Seu deck tem <b>menos ou mais</b> de 10 ramps?",
+            "quando": "Conta antes da próxima partida",
+            "salvar": "Salva para conferir o deck quando for montar as 99"}
+  },
+  "legenda": "Commander: o que é ramp nas cartas de Magic? Você sabe de onde vem esse nome?\n\n\"Segura que vou dar ramp\" é frase de toda mesa. Ramp é ganhar mana a mais, antes da hora: terreno extra, artefato de mana ou criatura que gera mana. O nome vem da Rampant Growth, que está em 31,7% dos decks de Commander que podem jogar com ela. E não é só do verde: Wayfarer's Bauble é incolor e entra em qualquer deck. A conta mais usada é uns 10 ramps no deck.\n\nFontes: mtg.wiki, EDHREC, Draftsim e Scryfall. Mais no fontedemana.com.br\n\nQue termo da mesa te confundiu no começo?\n\n#ramp #commander #mtg",
+  "threads": {"texto": "Toda mesa tem alguém que diz \"segura que vou dar ramp\". Ramp é ganhar mana antes da hora, e o nome vem da Rampant Growth.\n\nA conta mais usada é uns 10 ramps no deck. Mas qual tipo? Terreno, como a Rampant Growth, que fica no campo mesmo depois de um wipe de criaturas. Ou artefato, como o Wayfarer's Bauble, que entra em qualquer cor.\n\nNo seu deck, qual ramp nunca sai?", "obs": "Enquete com as opções Terreno, Artefato e Criatura"},
+  "enquete": {"pergunta": "Seu ramp favorito é de qual tipo?", "opcoes": ["Terreno", "Artefato", "Criatura"]}
+}

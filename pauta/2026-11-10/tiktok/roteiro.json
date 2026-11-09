@@ -1,0 +1,73 @@
+{
+ "data": "2026-11-10",
+ "pilar": "dicionario",
+ "tema": "Dicionário do Commander #7: o que é ramp",
+ "item": "Ramp",
+ "arte": "pauta/2026-11-10/tiktok/arte.jpg",
+ "carta": "pauta/2026-11-10/tiktok/carta.jpg",
+ "credito": "Arte: Rampant Growth, Steven Belledin",
+ "fx": null,
+ "legenda": "Commander: o que é ramp nas cartas de Magic? Você sabe de onde vem esse nome?\n\nRamp é ganhar mana a mais, antes da hora: terreno extra, artefato de mana ou criatura que gera mana. O nome vem da Rampant Growth, que está em 31,7% dos decks de Commander que podem jogar com ela (EDHREC). E não é só do verde: Wayfarer's Bauble é incolor e entra em qualquer deck.\n\nFontes: mtg.wiki, EDHREC e Scryfall. Mais no fontedemana.com.br\n\nQue termo da mesa te confundiu no começo?\n\n#ramp #commander #mtg",
+ "comentario": "Na hora de rampar, você vai de terreno (Rampant Growth) ou de artefato (Wayfarer's Bauble)?\n\nToda terça tem um termo novo do Dicionário do Commander.",
+ "cenas": [
+  {
+   "tipo": "rosto",
+   "cor": "G",
+   "chip": "Dicionário #7",
+   "kicker": "Frase de mesa",
+   "titulo": "\"Segura que vou dar ramp\"",
+   "sub": "Você sabe o que isso quer dizer?",
+   "narracao": "Segura que vou dar ramp. Você sabe o que isso quer dizer?",
+   "gravar": "Olha para a câmera com um terreno básico na mão, como quem vai baixar na mesa, e levanta a sobrancelha na pergunta.",
+   "segundos": 5
+  },
+  {
+   "tipo": "texto",
+   "cor": "G",
+   "kicker": "Ramp é",
+   "titulo": "Mana a mais, antes da hora",
+   "sub": "Terreno extra, artefato de mana ou criatura que gera mana.",
+   "narracao": "Ramp é mana a mais, antes da hora. A carta grande chega turnos antes.",
+   "segundos": 5.8
+  },
+  {
+   "tipo": "carta",
+   "cor": "G",
+   "kicker": "O nome vem daqui",
+   "carta": "pauta/2026-11-10/tiktok/carta-1.jpg",
+   "titulo": "Rampant Growth",
+   "sub": "Em 31,7% dos decks que podem jogar",
+   "fonte": "EDHREC, nov 2026",
+   "narracao": "O nome vem da Rampant Growth: um terreno a mais por dois manas.",
+   "segundos": 5.4
+  },
+  {
+   "tipo": "carta",
+   "cor": "R",
+   "kicker": "O erro mais comum",
+   "carta": "pauta/2026-11-10/tiktok/carta-2.jpg",
+   "titulo": "Ramp não é só do verde",
+   "sub": "Artefato incolor, entra em qualquer deck",
+   "fonte": "Scryfall",
+   "narracao": "Erro comum: achar que ramp é só verde. Esse artefato entra em qualquer deck.",
+   "segundos": 5.8
+  },
+  {
+   "tipo": "rosto",
+   "cor": "G",
+   "kicker": "Quanto colocar",
+   "titulo": "Uns 10 no deck. E no seu?",
+   "sub": "Menos de 10 ou 10 ou mais?",
+   "narracao": "A conta é uns dez ramps no deck. O seu tem mais ou menos?",
+   "gravar": "Abre as duas mãos mostrando os dez dedos no 'dez' e aponta para a câmera na pergunta.",
+   "segundos": 5.8
+  }
+ ],
+ "ganchoB": {
+  "kicker": "Dicionário do Commander #7",
+  "titulo": "Toda mesa fala em ramp. De onde vem?",
+  "chip": "Dicionário #7",
+  "narracao": "Toda mesa de Commander fala em ramp. Mas de onde vem essa palavra?",
+  "segundos": 5.4
+ }
+}
