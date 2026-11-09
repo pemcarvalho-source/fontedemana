@@ -1,6 +1,7 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "Kambal, Profiteering Mayor",
   "Giada, Font of Hope",
   "Werewolf Pack Leader",
   "Jeska's Will",
@@ -33,6 +34,13 @@ window.MANA_POOL_INDEX = {
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 35,
+   "date": "2026-11-09",
+   "dateLabel": "Segunda, 9 de novembro de 2026",
+   "head": "Secret Lairs de Star Trek abrem venda hoje, com Thrasios e Kambal em Lower Decks",
+   "biome": "A"
+  },
   {
    "n": 34,
    "date": "2026-11-08",
@@ -242,13 +250,6 @@ window.MANA_POOL_INDEX = {
    "dateLabel": "Sábado, 10 de outubro de 2026",
    "head": "Marvel: Darkhold Destiny chega em abril de 2027 com quatro precons de Commander",
    "biome": "B"
-  },
-  {
-   "n": 4,
-   "date": "2026-10-09",
-   "dateLabel": "Sexta, 9 de outubro de 2026",
-   "head": "Precons de Warhammer 40.000 vão ganhar reimpressão",
-   "biome": "A"
   }
  ]
 };
