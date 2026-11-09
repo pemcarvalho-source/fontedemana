@@ -8,307 +8,8 @@ X-WR-TIMEZONE:America/Sao_Paulo
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:fdm-2026-11-05-gravacao@fontedemana.com.br
-DTSTAMP:20261109T013622Z
-DTSTART:20261104T221500Z
-DURATION:PT15M
-SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
-DESCRIPTION:Top 5 #4: os 5 dragões que não podem faltar em um deck de dra
- gões no Commander. Você aparece só na cena 1\, falando o gancho para a 
- câmera (novo no Top 5\, aprovado hoje). Nas cenas 2 a 6 entra só a sua v
- oz por baixo das cartas. Por último\, o gancho do Reel de teste das 18:40
-  (cena_1b)\, só a voz.\n\nArquivos:\n- Vídeo mudo: https://fontedemana.c
- om.br/pauta/2026-11-05/tiktok/tiktok-mudo.mp4\n\nRoteiro de gravação:\nC
- ena 1\, rosto\, uns 3 s\nNa tela: Top 5 #4\, Commander\, deck de dragões\
- , 5 dragões que não podem faltar\nComo gravar: Rosto: Olhando para a câ
- mera\, com uma carta de dragão na mão se tiver (o Goldspan\, se for o se
- u)\; diga a frase e pare.\nFala: Cinco dragões que não podem faltar no s
- eu deck.\n\nCena 2\, só a voz\, uns 4 s\nNa tela: #5\, 98 mil decks no ED
- HREC\, US$ 0\,50 (R$ 2\,75)\, Atacou\, ganhou seis manas\nComo gravar: Só
-  a voz: pode gravar em vídeo ou áudio\nFala: Cinco: Savage Ventmaw. Atac
- ou\, ganha seis manas.\n\nCena 3\, só a voz\, uns 4 s\nNa tela: #4\, 108 
- mil decks no EDHREC\, US$ 5\,03 (R$ 27\,63)\, Dragão atacou\, nasce outro
-  6/6\nComo gravar: Só a voz: pode gravar em vídeo ou áudio\nFala: Quatr
- o: Utvara Hellkite. Dragão atacou\, nasce outro 6/6.\n\nCena 4\, só a vo
- z\, uns 4 s\nNa tela: #3\, 112 mil decks no EDHREC\, US$ 43\,82 (R$ 240\,7
- 0)\, Bateu\, rola um d20 e compra\nComo gravar: Só a voz: pode gravar em 
- vídeo ou áudio\nFala: Três: Ancient Silver Dragon. Bateu\, rola um d20 
- e compra.\n\nCena 5\, só a voz\, uns 4 s\nNa tela: #2\, 264 mil decks no 
- EDHREC\, US$ 30\,35 (R$ 166\,71)\, Criatura entrou\, vira dano\nComo grava
- r: Só a voz: pode gravar em vídeo ou áudio\nFala: Dois: Terror of the P
- eaks. Criatura entrou\, vira dano.\n\nCena 6\, só a voz\, uns 4 s\nNa tel
- a: #1\, 328 mil decks no EDHREC\, US$ 11\,94 (R$ 65\,59)\, Cada tesouro va
- le duas manas\nComo gravar: Só a voz: pode gravar em vídeo ou áudio\nFa
- la: E o um: Goldspan Dragon. Cada tesouro dele dá duas manas.\n\nCena 1B 
- (gancho do Reel de teste)\nNa tela: Deck de dragões no Commander\, O drag
- ão que está em 328 mil decks\, E os outros 4 que não podem faltar\nComo
-  gravar: Só a voz: pode gravar em vídeo ou áudio\nFala: O dragão mais 
- jogado do Commander está em 328 mil decks. E tem mais quatro.\n\n\nPasso 
- a passo:\n1. Celular na vertical\, câmera da frente\, na altura dos olhos
- \, a um braço de distância.\n2. Rosto no meio da tela e o terço de cima
-  livre: é onde entra o título.\n3. Luz de frente (de frente para a janel
- a) e fundo arrumado\; a estante de cartas é ótima.\n4. Desligue o Vídeo
-  HDR (Ajustes\, Câmera\, Gravar Vídeo) para as cores não lavarem.\n5. U
- m vídeo por cena\, falando para a câmera\, com meio segundo de silêncio
-  antes e depois\; nomeie cena_1\, cena_2... e mande todos juntos.\n6. Nas 
- cenas sem rosto\, só a voz conta: pode gravar em vídeo ou só o áudio.\
- n7. Grave por último o gancho do Reel de teste (cena 1B\, só a voz) e no
- meie cena_1b\; mande junto com os outros.\n8. Mande os vídeos e áudios a
- o Claude no projeto MGT strategy (pode ser respondendo à mensagem desta t
- arefa) dizendo "vídeos do TikTok de 2026-11-05".\n\nValores em reais pela
-  cotação de 3 nov\, US$ 1 = R$ 5\,4935 (Banco Central\, PTAX).\n\nPauta 
- completa: https://fontedemana.com.br/pauta/2026-11-05/#gravacao
-URL:https://fontedemana.com.br/pauta/2026-11-05/#gravacao
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Gravação: Gravar o vídeo de amanhã (você aparece)
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-05-tiktok@fontedemana.com.br
-DTSTAMP:20261109T013622Z
-DTSTART:20261105T210000Z
-DURATION:PT15M
-SUMMARY:18:00 TikTok: Postar o Top 5 dos dragões no TikTok
-DESCRIPTION:Top 5 #4: os 5 dragões que não podem faltar em um deck de dra
- gões\, com decks no EDHREC e preço de cada um. O mesmo vídeo e a mesma 
- legenda vão para o Reels das 19:00.\n\nArquivos:\n- Vídeo do TikTok narr
- ado: https://fontedemana.com.br/pauta/2026-11-05/tiktok/tiktok-narrado.mp4
- \n\nLegenda:\nCommander\, deck de dragões: qual dragão não sai do seu?\
- nTop 5 #4 da Fonte de Mana\, fora os lendários:\n5. Savage Ventmaw\, 98 m
- il decks\n4. Utvara Hellkite\, 108 mil decks\n3. Ancient Silver Dragon\, 1
- 12 mil decks\n2. Terror of the Peaks\, 264 mil decks\n1. Goldspan Dragon\,
-  328 mil decks\nDragões da página de Dragões do EDHREC\, em ordem de de
- cks no site. Preços do Scryfall. Reais pela cotação de 3 nov (Banco Cen
- tral\, PTAX).\nFaltou algum? Qual seria o seu número 1?\nfontedemana.com.
- br\n#commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted u
- nder the Fan Content Policy. Not approved/endorsed by Wizards. Portions of
-  the materials used are property of Wizards of the Coast. ©Wizards of the
-  Coast LLC.\n\nComentário fixado:\nGoldspan Dragon ou Terror of the Peaks
- : qual é o número 1 no seu deck? Toda quinta tem um Top 5 novo da Fonte 
- de Mana. Lista com preços em fontedemana.com.br\n\nPasso a passo:\n1. Pos
- te o vídeo com um som em alta da biblioteca do TikTok\, com volume entre 
- 15% e 20%.\n2. Voz própria não precisa de rótulo de IA.\n3. Fixe o come
- ntário logo depois de postar.\n\nPauta completa: https://fontedemana.com.
- br/pauta/2026-11-05/#tiktok
-URL:https://fontedemana.com.br/pauta/2026-11-05/#tiktok
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:TikTok: Postar o Top 5 dos dragões no TikTok
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-05-threads-manha@fontedemana.com.br
-DTSTAMP:20261109T013622Z
-DTSTART:20261105T133000Z
-DURATION:PT15M
-SUMMARY:10:30 Threads: Debate: Top 5 #4: os dragões que não podem faltar 
- em um deck de…
-DESCRIPTION:Post de debate do conteúdo original de hoje (Top 5) para puxar
-  conversa.\n\nPost:\nDeck de dragões no Commander: Goldspan Dragon está 
- em 328 mil decks no EDHREC\, Terror of the Peaks em 264 mil. Fora os lend
- ários\, são os dois dragões mais jogados.\n\nSe só cabe um no seu deck
- \, qual fica? O que faz mana e ataca no turno que entra ou o que transform
- a cada criatura nova em dano?\n\nPasso a passo:\n1. Abra o Threads e cole 
- o Post.\n2. Dica: Enquete com as duas opções: Goldspan Dragon e Terror o
- f the Peaks\n3. Toque em Adicionar tópico e escolha MTG.\n4. Publique e r
- esponda quem comentar na primeira hora.\n\nPauta completa: https://fontede
- mana.com.br/pauta/2026-11-05/#threads-manha
-URL:https://fontedemana.com.br/pauta/2026-11-05/#threads-manha
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Debate: Top 5 #4: os dragões que não podem faltar em
-  um deck de…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-05-feed@fontedemana.com.br
-DTSTAMP:20261109T013622Z
-DTSTART:20261105T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram feed: Top 5 #4: os dragões que não podem faltar e
- m um deck de dragões no…
-DESCRIPTION:Carrossel original de 7 imagens (Top 5): Top 5 #4: os dragões 
- que não podem faltar em um deck de dragões no Commander. Feito para salv
- ar e compartilhar.\n\nArquivos:\n- Imagem 1 de 7: https://fontedemana.com.
- br/pauta/2026-11-05/original/carrossel-01.jpg\n- Imagem 2 de 7: https://fo
- ntedemana.com.br/pauta/2026-11-05/original/carrossel-02.jpg\n- Imagem 3 de
-  7: https://fontedemana.com.br/pauta/2026-11-05/original/carrossel-03.jpg\
- n- Imagem 4 de 7: https://fontedemana.com.br/pauta/2026-11-05/original/car
- rossel-04.jpg\n- Imagem 5 de 7: https://fontedemana.com.br/pauta/2026-11-0
- 5/original/carrossel-05.jpg\n- Imagem 6 de 7: https://fontedemana.com.br/p
- auta/2026-11-05/original/carrossel-06.jpg\n- Imagem 7 de 7: https://fonted
- emana.com.br/pauta/2026-11-05/original/carrossel-07.jpg\n\nLegenda:\nComma
- nder\, deck de dragões: quais dragões não podem faltar nas suas 99?\n\n
- Top 5 #4\, fora os lendários:\n5. Savage Ventmaw\, 98 mil decks\, US$ 0\,
- 50 (R$ 2\,75)\n4. Utvara Hellkite\, 108 mil decks\, US$ 5\,03 (R$ 27\,63)\
- n3. Ancient Silver Dragon\, 112 mil decks\, US$ 43\,82 (R$ 240\,70)\n2. Te
- rror of the Peaks\, 264 mil decks\, US$ 30\,35 (R$ 166\,71)\n1. Goldspan D
- ragon\, 328 mil decks\, US$ 11\,94 (R$ 65\,59)\n\nDragões da página de D
- ragões do EDHREC\, em ordem de decks no site. Preços do Scryfall\, impre
- ssão mais comum. Valores em reais pela cotação de 3 nov (Banco Central\
- , PTAX).\n\nMais carta de Magic e Commander todo dia em fontedemana.com.br
- \n\nFaltou algum? Qual seria o seu número 1?\n\n#commander #mtg\n\nFonte 
- de Mana is unofficial Fan Content permitted under the Fan Content Policy. 
- Not approved/endorsed by Wizards. Portions of the materials used are prope
- rty of Wizards of the Coast. ©Wizards of the Coast LLC.\n\nPasso a passo:
- \n1. No Instagram\, toque em + e escolha Post.\n2. Selecione as 7 imagens 
- na ordem\, da 1 à 7.\n3. Toque em Adicionar música e escolha uma em alta
-  que combine com o tema.\n4. Cole a Legenda e publique.\n\nValores em reai
- s pela cotação de 3 nov\, US$ 1 = R$ 5\,4935 (Banco Central\, PTAX).\n\n
- Pauta completa: https://fontedemana.com.br/pauta/2026-11-05/#feed
-URL:https://fontedemana.com.br/pauta/2026-11-05/#feed
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram feed: Top 5 #4: os dragões que não podem faltar em 
- um deck de dragões no…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-05-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261109T013622Z
-DTSTART:20261105T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
-DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
- .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
- e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
- o do post: Só cabe um dragão no deck. Qual fica? com Goldspan Dragon e T
- error of the Peaks.\n3. Publique.\n\nPauta completa: https://fontedemana.c
- om.br/pauta/2026-11-05/#stories-meio-dia
-URL:https://fontedemana.com.br/pauta/2026-11-05/#stories-meio-dia
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-05-stories-tarde@fontedemana.com.br
-DTSTAMP:20261109T013622Z
-DTSTART:20261105T180000Z
-DURATION:PT15M
-SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
-DESCRIPTION:Story com a imagem de Eternal Witness no Topdeck do Dia e o sti
- cker de link para a edição completa.\n\nArquivos:\n- Topdeck do Dia: htt
- ps://fontedemana.com.br/kit/ed31/carrossel-03.jpg\n\nPasso a passo:\n1. Ba
- ixe a imagem e poste no Story.\n2. Adicione o sticker de Link para fontede
- mana.com.br com o texto Edição completa\, embaixo do texto do Topdeck.\n
- 3. Publique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-0
- 5/#stories-tarde
-URL:https://fontedemana.com.br/pauta/2026-11-05/#stories-tarde
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Topdeck do Dia com link
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-05-reels@fontedemana.com.br
-DTSTAMP:20261109T013622Z
-DTSTART:20261105T220000Z
-DURATION:PT15M
-SUMMARY:19:00 Reels: Vídeo original: Top 5 #4: os dragões que não podem 
- faltar em um deck…
-DESCRIPTION:O vídeo original de hoje no Instagram\, o mesmo arquivo do Tik
- Tok\, já narrado. É o formato que mais chega a quem não segue.\n\nArqui
- vos:\n- Vídeo original narrado: https://fontedemana.com.br/pauta/2026-11-
- 05/tiktok/tiktok-narrado.mp4\n\nLegenda:\nCommander\, deck de dragões: qu
- al dragão não sai do seu?\nTop 5 #4 da Fonte de Mana\, fora os lendário
- s:\n5. Savage Ventmaw\, 98 mil decks\n4. Utvara Hellkite\, 108 mil decks\n
- 3. Ancient Silver Dragon\, 112 mil decks\n2. Terror of the Peaks\, 264 mil
-  decks\n1. Goldspan Dragon\, 328 mil decks\nDragões da página de Dragõe
- s do EDHREC\, em ordem de decks no site. Preços do Scryfall. Reais pela c
- otação de 3 nov (Banco Central\, PTAX).\nFaltou algum? Qual seria o seu 
- número 1?\nfontedemana.com.br\n#commander #mtg\n\nFonte de Mana is unoffi
- cial Fan Content permitted under the Fan Content Policy. Not approved/endo
- rsed by Wizards. Portions of the materials used are property of Wizards of
-  the Coast. ©Wizards of the Coast LLC.\n\nComentário fixado:\nGoldspan D
- ragon ou Terror of the Peaks: qual é o número 1 no seu deck? Toda quinta
-  tem um Top 5 novo da Fonte de Mana. Lista com preços em fontedemana.com.
- br\n\nPasso a passo:\n1. No Instagram\, toque em + e escolha Reel.\n2. Esc
- olha o vídeo baixado daqui\, nunca o salvo do TikTok (o Instagram derruba
-  vídeo com marca d'água).\n3. Em Áudio\, ponha uma música em alta da b
- iblioteca do Instagram com volume baixo (uns 10%)\, sem cobrir a voz.\n4. 
- Na capa\, use o primeiro quadro\, o do gancho.\n5. Cole a Legenda e publiq
- ue.\n6. Fixe o comentário e responda quem comentar na primeira hora.\n\nP
- auta completa: https://fontedemana.com.br/pauta/2026-11-05/#reels
-URL:https://fontedemana.com.br/pauta/2026-11-05/#reels
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reels: Vídeo original: Top 5 #4: os dragões que não podem fa
- ltar em um deck…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-05-reels-teste@fontedemana.com.br
-DTSTAMP:20261109T013622Z
-DTSTART:20261105T214000Z
-DURATION:PT15M
-SUMMARY:18:40 Reels: Reel de teste: o vídeo de hoje com o gancho B
-DESCRIPTION:Teste da semana: o vídeo de hoje com outro gancho\, mostrado s
- ó para quem não segue. Sai antes do Reels das 19:00 porque o Instagram c
- orta o alcance de Reel de teste com conteúdo que a conta já postou. Na r
- evisão\, as views dele são comparadas com as de não seguidores do Reels
-  das 19:00.\n\nArquivos:\n- Vídeo de teste\, gancho B: https://fontedeman
- a.com.br/pauta/2026-11-05/tiktok/tiktok-teste-narrado.mp4\n\nLegenda:\nCom
- mander\, deck de dragões: qual dragão não sai do seu?\nTop 5 #4 da Font
- e de Mana\, fora os lendários:\n5. Savage Ventmaw\, 98 mil decks\n4. Utva
- ra Hellkite\, 108 mil decks\n3. Ancient Silver Dragon\, 112 mil decks\n2. 
- Terror of the Peaks\, 264 mil decks\n1. Goldspan Dragon\, 328 mil decks\nD
- ragões da página de Dragões do EDHREC\, em ordem de decks no site. Pre
- ços do Scryfall. Reais pela cotação de 3 nov (Banco Central\, PTAX).\nF
- altou algum? Qual seria o seu número 1?\nfontedemana.com.br\n#commander #
- mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Con
- tent Policy. Not approved/endorsed by Wizards. Portions of the materials u
- sed are property of Wizards of the Coast. ©Wizards of the Coast LLC.\n\nP
- asso a passo:\n1. No Instagram\, toque em + e escolha Reel\, com o vídeo 
- de teste baixado daqui.\n2. Antes de compartilhar\, ative a opção Reel d
- e teste (Trial reel)\, para ele aparecer só para quem não segue.\n3. Dei
- xe o compartilhamento automático desligado e não publique para todos dep
- ois: o Reels das 19:00 leva o vídeo aos seguidores.\n4. Use a música e o
-  volume que vai usar no Reels das 19:00\, para o teste comparar só o ganc
- ho.\n5. Cole a Legenda e publique.\n6. Daqui a 3 dias\, tire um print do I
- nsights deste Reel e do Reels das 19:00 (views de seguidores e de não seg
- uidores) e mande na conversa da revisão.\n\nPauta completa: https://fonte
- demana.com.br/pauta/2026-11-05/#reels-teste
-URL:https://fontedemana.com.br/pauta/2026-11-05/#reels-teste
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reels: Reel de teste: o vídeo de hoje com o gancho B
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-05-comentarios@fontedemana.com.br
-DTSTAMP:20261109T013622Z
-DTSTART:20261106T003000Z
-DURATION:PT15M
-SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
-DESCRIPTION:Uns 10 minutos nas três redes: curtir e responder os comentár
- ios das últimas 48 horas\, começando pelo vídeo e pelo carrossel de hoj
- e. Conversa nos comentários leva a peça a mais gente\, e o Instagram rec
- omenda responder em até 2 dias.\n\nPasso a passo:\n1. Instagram: nas noti
- ficações\, curta os comentários e responda com uma frase quem perguntou
-  ou discordou.\n2. TikTok e Threads: o mesmo\, começando pelo post com ma
- is comentários.\n3. Pergunta boa ou dúvida que se repete\, nos comentár
- ios ou nas DMs? Mande na conversa do projeto: vira tema de um pilar.\n\nPa
- uta completa: https://fontedemana.com.br/pauta/2026-11-05/#comentarios
-URL:https://fontedemana.com.br/pauta/2026-11-05/#comentarios
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Comentários: Responder os comentários de hoje e de ontem
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fdm-2026-11-06-gravacao@fontedemana.com.br
-DTSTAMP:20261109T013622Z
+DTSTAMP:20261109T095110Z
 DTSTART:20261105T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -365,7 +66,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-tiktok@fontedemana.com.br
-DTSTAMP:20261109T013622Z
+DTSTAMP:20261109T095110Z
 DTSTART:20261106T210000Z
 DURATION:PT15M
 SUMMARY:18:00 TikTok: Postar o Chama o Juiz #4 no TikTok
@@ -393,7 +94,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-threads-manha@fontedemana.com.br
-DTSTAMP:20261109T013622Z
+DTSTAMP:20261109T095110Z
 DTSTART:20261106T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Chama o Juiz #4: dois comandantes (partner) 
@@ -419,7 +120,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-feed@fontedemana.com.br
-DTSTAMP:20261109T013622Z
+DTSTAMP:20261109T095110Z
 DTSTART:20261106T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Chama o Juiz #4: dois comandantes (partner) p
@@ -457,7 +158,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261109T013622Z
+DTSTAMP:20261109T095110Z
 DTSTART:20261106T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -476,7 +177,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-stories-tarde@fontedemana.com.br
-DTSTAMP:20261109T013622Z
+DTSTAMP:20261109T095110Z
 DTSTART:20261106T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -496,7 +197,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-reels@fontedemana.com.br
-DTSTAMP:20261109T013622Z
+DTSTAMP:20261109T095110Z
 DTSTART:20261106T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Chama o Juiz #4: dois comandantes (pa
@@ -532,7 +233,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-reels-teste@fontedemana.com.br
-DTSTAMP:20261109T013622Z
+DTSTAMP:20261109T095110Z
 DTSTART:20261106T214000Z
 DURATION:PT15M
 SUMMARY:18:40 Reels: Reel de teste: o vídeo de hoje com o gancho B
@@ -569,7 +270,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-06-comentarios@fontedemana.com.br
-DTSTAMP:20261109T013622Z
+DTSTAMP:20261109T095110Z
 DTSTART:20261107T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -591,7 +292,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-gravacao@fontedemana.com.br
-DTSTAMP:20261109T013622Z
+DTSTAMP:20261109T095110Z
 DTSTART:20261106T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -647,7 +348,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-tiktok@fontedemana.com.br
-DTSTAMP:20261109T013622Z
+DTSTAMP:20261109T095110Z
 DTSTART:20261107T210000Z
 DURATION:PT15M
 SUMMARY:18:00 TikTok: Top 5 cartas antigas que voltaram a valer
@@ -683,7 +384,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-threads-manha@fontedemana.com.br
-DTSTAMP:20261109T013622Z
+DTSTAMP:20261109T095110Z
 DTSTART:20261107T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Top 5 #5: cartas antigas que voltaram a vale
@@ -709,7 +410,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-feed@fontedemana.com.br
-DTSTAMP:20261109T013622Z
+DTSTAMP:20261109T095110Z
 DTSTART:20261107T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Top 5 #5: cartas antigas que voltaram a valer
@@ -756,7 +457,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261109T013622Z
+DTSTAMP:20261109T095110Z
 DTSTART:20261107T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -775,7 +476,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-stories-tarde@fontedemana.com.br
-DTSTAMP:20261109T013622Z
+DTSTAMP:20261109T095110Z
 DTSTART:20261107T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -795,7 +496,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-reels@fontedemana.com.br
-DTSTAMP:20261109T013622Z
+DTSTAMP:20261109T095110Z
 DTSTART:20261108T000000Z
 DURATION:PT15M
 SUMMARY:21:00 Reels: Vídeo original: Top 5 #5: cartas antigas que voltaram
@@ -837,7 +538,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-07-comentarios@fontedemana.com.br
-DTSTAMP:20261109T013622Z
+DTSTAMP:20261109T095110Z
 DTSTART:20261108T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -859,7 +560,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-08-gravacao@fontedemana.com.br
-DTSTAMP:20261109T013622Z
+DTSTAMP:20261109T095110Z
 DTSTART:20261107T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -910,7 +611,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-08-tiktok@fontedemana.com.br
-DTSTAMP:20261109T013622Z
+DTSTAMP:20261109T095110Z
 DTSTART:20261108T210000Z
 DURATION:PT15M
 SUMMARY:18:00 TikTok: Postar o TikTok: Toda mesa tem um #2
@@ -944,7 +645,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-08-threads-manha@fontedemana.com.br
-DTSTAMP:20261109T013622Z
+DTSTAMP:20261109T095110Z
 DTSTART:20261108T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Toda mesa tem um #2: o que jura que o deck 
@@ -968,7 +669,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-08-feed@fontedemana.com.br
-DTSTAMP:20261109T013622Z
+DTSTAMP:20261109T095110Z
 DTSTART:20261108T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Toda mesa tem um #2: o que jura que o deck é
@@ -1011,7 +712,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-08-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261109T013622Z
+DTSTAMP:20261109T095110Z
 DTSTART:20261108T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -1030,7 +731,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-08-stories-tarde@fontedemana.com.br
-DTSTAMP:20261109T013622Z
+DTSTAMP:20261109T095110Z
 DTSTART:20261108T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1050,7 +751,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-08-reels@fontedemana.com.br
-DTSTAMP:20261109T013622Z
+DTSTAMP:20261109T095110Z
 DTSTART:20261108T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Toda mesa tem um #2: o que jura que o
@@ -1089,7 +790,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-08-comentarios@fontedemana.com.br
-DTSTAMP:20261109T013622Z
+DTSTAMP:20261109T095110Z
 DTSTART:20261109T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1111,7 +812,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-09-gravacao@fontedemana.com.br
-DTSTAMP:20261109T013622Z
+DTSTAMP:20261109T095110Z
 DTSTART:20261108T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -1136,22 +837,22 @@ DESCRIPTION:Do zero à mesa #1\, o lote do plástico bolha. Você aparece e
   5\, só a voz\, uns 6 s\nNa tela: Virou deck: 15 no Corte e um deck novo\
  nComo gravar: Só a voz: pode gravar em vídeo ou áudio (o trecho do lote
   entra sozinho no fundo)\nFala: 15 já tapam buraco no Corte. E com uns aj
- ustes deu um deck novo pro DC500\, o Rosa Sangrenta.\n\nCena 6\, rosto\, u
- ns 3 s\nNa tela: Do zero à mesa: O Corte Carmesim montado\nComo gravar: R
- osto: Mostrando o Edgar Markov na mão para a câmera\, com o maço do lot
- e do lado.\nFala: Quarta eu mostro o Corte Carmesim montado.\n\n\nPasso a 
- passo:\n1. Celular na vertical\, câmera da frente\, na altura dos olhos\,
-  a um braço de distância.\n2. Rosto na metade de cima da tela: o título
-  entra embaixo dele\, na altura do peito.\n3. Luz de frente (de frente par
- a a janela) e fundo arrumado\; a estante de cartas é ótima.\n4. Desligue
-  o Vídeo HDR (Ajustes\, Câmera\, Gravar Vídeo) para as cores não lavar
- em.\n5. Um vídeo por cena\, falando para a câmera\, com meio segundo de 
- silêncio antes e depois\; nomeie cena_1\, cena_2... e mande todos juntos.
- \n6. Nas cenas sem rosto\, só a voz conta: pode gravar em vídeo ou só o
-  áudio.\n7. Mande os vídeos ao Claude no projeto MGT strategy (pode ser 
- respondendo à mensagem desta tarefa) dizendo "vídeos do TikTok de 2026-1
- 1-09".\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-09/#gra
- vacao
+ ustes deu um deck novo pro DC500\, o Rosa Sedenta.\n\nCena 6\, rosto\, uns
+  3 s\nNa tela: Do zero à mesa: O Corte Carmesim montado\nComo gravar: Ros
+ to: Mostrando o Edgar Markov na mão para a câmera\, com o maço do lote 
+ do lado.\nFala: Quarta eu mostro o Corte Carmesim montado.\n\n\nPasso a pa
+ sso:\n1. Celular na vertical\, câmera da frente\, na altura dos olhos\, a
+  um braço de distância.\n2. Rosto na metade de cima da tela: o título e
+ ntra embaixo dele\, na altura do peito.\n3. Luz de frente (de frente para 
+ a janela) e fundo arrumado\; a estante de cartas é ótima.\n4. Desligue o
+  Vídeo HDR (Ajustes\, Câmera\, Gravar Vídeo) para as cores não lavarem
+ .\n5. Um vídeo por cena\, falando para a câmera\, com meio segundo de si
+ lêncio antes e depois\; nomeie cena_1\, cena_2... e mande todos juntos.\n
+ 6. Nas cenas sem rosto\, só a voz conta: pode gravar em vídeo ou só o 
+ áudio.\n7. Mande os vídeos ao Claude no projeto MGT strategy (pode ser r
+ espondendo à mensagem desta tarefa) dizendo "vídeos do TikTok de 2026-11
+ -09".\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-09/#grav
+ acao
 URL:https://fontedemana.com.br/pauta/2026-11-09/#gravacao
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1161,7 +862,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-09-stories-lote@fontedemana.com.br
-DTSTAMP:20261109T013622Z
+DTSTAMP:20261109T095110Z
 DTSTART:20261109T210000Z
 DURATION:PT15M
 SUMMARY:18:00 Instagram Stories: Quadro do lote com enquete
@@ -1182,32 +883,32 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-09-tiktok@fontedemana.com.br
-DTSTAMP:20261109T013622Z
+DTSTAMP:20261109T095110Z
 DTSTART:20261109T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Do zero à mesa #1: o plástico bolha do Corte Carmes
  im
 DESCRIPTION:Vídeo com você na abertura e no fecho: o pedido pro Corte Car
  mesim\, as 323 cartas de brinde\, os aliados de Zendikar em chinês e o de
- ck novo\, o Rosa Sangrenta.\n\nArquivos:\n- Vídeo narrado: https://fonted
- emana.com.br/pauta/2026-11-09/tiktok/tiktok-narrado.mp4\n\nLegenda:\nComma
- nder: comprei cartas de Magic na gringa pro meu deck de vampiros e o vende
- dor mandou 323 de plástico bolha. Qual a melhor carta que já veio de bri
- nde pra você?\n\nEram 41 cartas pro Corte Carmesim\, meu deck do Edgar Ma
- rkov.\nA proteção: 323 cartas de 40 coleções\, 79 em chinês e até um
- a de Riftbound.\nNo meio\, aliados raros de Zendikar\, de 2009.\n15 já ta
- pam buraco no Corte Carmesim de teste.\nE com alguns ajustes deu pra monta
- r um deck novo de Duel Commander 500\, o Rosa Sangrenta.\n\nDo zero à mes
- a #1. Quarta tem o Corte Carmesim montado.\nfontedemana.com.br\n\n#plastic
- obolha #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitte
- d under the Fan Content Policy. Not approved/endorsed by Wizards. Portions
-  of the materials used are property of Wizards of the Coast. ©Wizards of 
- the Coast LLC.\n\nComentário fixado:\nCarta em chinês no deck: você jog
- aria ou só em inglês? A série Do zero à mesa continua na quarta\, com 
- o Corte Carmesim.\n\nPasso a passo:\n1. Poste com um som em alta da biblio
- teca do TikTok\, volume entre 15% e 20%.\n2. Voz própria não precisa de 
- rótulo de IA.\n3. Fixe o comentário logo depois de postar.\n\nPauta comp
- leta: https://fontedemana.com.br/pauta/2026-11-09/#tiktok
+ ck novo\, o Rosa Sedenta.\n\nArquivos:\n- Vídeo narrado: https://fontedem
+ ana.com.br/pauta/2026-11-09/tiktok/tiktok-narrado.mp4\n\nLegenda:\nCommand
+ er: comprei cartas de Magic na gringa pro meu deck de vampiros e o vendedo
+ r mandou 323 de plástico bolha. Qual a melhor carta que já veio de brind
+ e pra você?\n\nEram 41 cartas pro Corte Carmesim\, meu deck do Edgar Mark
+ ov.\nA proteção: 323 cartas de 40 coleções\, 79 em chinês e até uma 
+ de Riftbound.\nNo meio\, aliados raros de Zendikar\, de 2009.\n15 já tapa
+ m buraco no Corte Carmesim de teste.\nE com alguns ajustes deu pra montar 
+ um deck novo de Duel Commander 500\, o Rosa Sedenta.\n\nDo zero à mesa #1
+ . Quarta tem o Corte Carmesim montado.\nfontedemana.com.br\n\n#plasticobol
+ ha #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted un
+ der the Fan Content Policy. Not approved/endorsed by Wizards. Portions of 
+ the materials used are property of Wizards of the Coast. ©Wizards of the 
+ Coast LLC.\n\nComentário fixado:\nCarta em chinês no deck: você jogaria
+  ou só em inglês? A série Do zero à mesa continua na quarta\, com o Co
+ rte Carmesim.\n\nPasso a passo:\n1. Poste com um som em alta da biblioteca
+  do TikTok\, volume entre 15% e 20%.\n2. Voz própria não precisa de rót
+ ulo de IA.\n3. Fixe o comentário logo depois de postar.\n\nPauta completa
+ : https://fontedemana.com.br/pauta/2026-11-09/#tiktok
 URL:https://fontedemana.com.br/pauta/2026-11-09/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
