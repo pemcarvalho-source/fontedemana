@@ -313,7 +313,8 @@ function overlayHTML(r, c) {
   const css = fs.readFileSync(path.join(ROOT, 'tools/kit/kit.css'), 'utf8')
     .split('{{FONTS}}').join(furl(path.join(ROOT, 'tools/kit/fonts')))
     .split('{{LANDS}}').join(furl(path.join(ROOT, 'lands')));
-  const baixo = c.tipo === 'rosto';
+  /* "caixa": "cima" numa cena rosto (desde 9/11/2026): para quando o rosto ficou na metade de baixo do vídeo gravado */
+  const baixo = c.tipo === 'rosto' && c.caixa !== 'cima';
   const cor = c.cor || 'A';
   const pip = cor === 'M' ? '<span class="pip p-M" style="--s:40px"><i class="wd wW"></i><i class="wd wU"></i><i class="wd wB"></i><i class="wd wR"></i><i class="wd wG"></i></span>' : `<span class="pip p-${cor}" style="--s:40px"></span>`;
   const extra = `html,body{background:transparent!important}

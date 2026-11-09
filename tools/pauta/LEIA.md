@@ -66,7 +66,7 @@ Cena com o Paulo no vídeo (a partir de 26/10/2026, nos pilares de `plano.json` 
         {"tipo": "rosto", "cor": "G", "chip": (18), "kicker": (40), "titulo": (64), "sub": (140, opcional, só aparece se ele não gravar),
          "narracao": (60 na cena 1 e 80 nas outras desde 29/10/2026; antes, 90 e 110), "gravar": o que ele faz e mostra na cena (140)}
 
-Com o vídeo dele, a cena mostra o rosto em tela cheia com o kicker e o título numa caixa abaixo do rosto, na altura do peito, a partir de y 1040 (`cena-N-rosto.png`; até 6/11/2026 a caixa ficava no terço de cima e cobria o rosto) e dura o tempo da fala. Sem o vídeo, sai como cena de texto (ou de gancho, na cena 1). Kicker e título curtos: a caixa não pode entrar na área da legenda das redes (abaixo de y 1560), senão o script recusa.
+Com o vídeo dele, a cena mostra o rosto em tela cheia com o kicker e o título numa caixa abaixo do rosto, na altura do peito, a partir de y 1040 (`cena-N-rosto.png`; até 6/11/2026 a caixa ficava no terço de cima e cobria o rosto) e dura o tempo da fala. Sem o vídeo, sai como cena de texto (ou de gancho, na cena 1). Kicker e título curtos: a caixa não pode entrar na área da legenda das redes (abaixo de y 1560), senão o script recusa. Se no vídeo gravado o rosto ficou na metade de baixo da tela (a caixa cobriria os olhos), acrescente `"caixa": "cima"` na cena e rode a narração de novo: a caixa sobe para o terço de cima, como no clipe.
 
 Cena de clipe (desde 6/11/2026: um trecho de vídeo que o Paulo já gravou, como os do lote do plástico bolha em `extras/lote/`, quando a TROCA DO DIA lista os trechos):
 

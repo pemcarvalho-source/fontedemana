@@ -67,7 +67,9 @@
    "titulo": "O Corte Carmesim montado",
    "narracao": "Quarta eu mostro o Corte Carmesim montado.",
    "gravar": "Mostrando o Edgar Markov na mão para a câmera, com o maço do lote do lado.",
-   "segundos": 3.2
+   "segundos": 3.2,
+   "caixa": "cima"
   }
- ]
+ ],
+ "rostoGravado": true
 }
