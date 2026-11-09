@@ -8,7 +8,7 @@
       "hora": "19:15",
       "rede": "Gravação",
       "titulo": "Gravar o vídeo de amanhã (você aparece)",
-      "oQue": "Dicionário do Commander #7: o que é ramp. Você aparece nas cenas 1 e 5 (e na 1B do Reel de teste); nas outras, só a voz.",
+      "oQue": "Dicionário do Commander #7: o que é ramp. Você aparece nas cenas 1 e 6 (e na 1B do Reel de teste); nas outras, só a voz.",
       "arquivos": [
         {
           "nome": "Vídeo mudo (para ver o ritmo)",
@@ -24,27 +24,33 @@
         },
         {
           "cena": "Cena 2, só a voz, uns 6 s",
-          "tela": "Ramp é: Mana a mais, antes da hora",
-          "fala": "Ramp é mana a mais, antes da hora. A carta grande chega turnos antes.",
+          "tela": "Ramp é: Acelerar a mana",
+          "fala": "Ramp é acelerar a mana: mais mana por turno do que só os terrenos dão.",
           "como": "Só a voz: pode gravar em vídeo ou áudio"
         },
         {
           "cena": "Cena 3, só a voz, uns 5 s",
           "tela": "O nome vem daqui: Rampant Growth",
-          "fala": "O nome vem da Rampant Growth: um terreno a mais por dois manas.",
+          "fala": "O nome vem da Rampant Growth: terreno a mais por dois manas.",
           "como": "Só a voz: pode gravar em vídeo ou áudio"
         },
         {
-          "cena": "Cena 4, só a voz, uns 6 s",
+          "cena": "Cena 4, só a voz, uns 5 s",
           "tela": "O erro mais comum: Ramp não é só do verde",
-          "fala": "Erro comum: achar que ramp é só verde. Esse artefato entra em qualquer deck.",
+          "fala": "Não é só verde: feitiço, artefato ou criatura barata já dá mana cedo.",
           "como": "Só a voz: pode gravar em vídeo ou áudio"
         },
         {
-          "cena": "Cena 5, rosto, uns 6 s",
-          "tela": "Quanto colocar: Uns 10 no deck. E no seu?",
-          "fala": "A conta é uns dez ramps no deck. O seu tem mais ou menos?",
-          "como": "Rosto: Abre as duas mãos mostrando os dez dedos no 'dez' e aponta para a câmera na pergunta."
+          "cena": "Cena 5, só a voz, uns 5 s",
+          "tela": "Com 10 ramps no deck: 53,7% de abrir com um na mão",
+          "fala": "Com dez ramps, pouco mais da metade das mãos abre com um.",
+          "como": "Só a voz: pode gravar em vídeo ou áudio"
+        },
+        {
+          "cena": "Cena 6, rosto, uns 4 s",
+          "tela": "E no seu deck?: 10 ou 12 ramps?",
+          "fala": "Seu deck vai de dez ou de doze?",
+          "como": "Rosto: Olha para a câmera segurando o seu deck e aponta para ele na pergunta."
         },
         {
           "cena": "Cena 1B (gancho do Reel de teste)",
@@ -58,7 +64,7 @@
         "Rosto na metade de cima da tela: o título entra embaixo dele, na altura do peito.",
         "Luz de frente (de frente para a janela) e fundo arrumado; a estante de cartas é ótima.",
         "Desligue o Vídeo HDR (Ajustes, Câmera, Gravar Vídeo) para as cores não lavarem.",
-        "Um vídeo por cena, falando para a câmera, com meio segundo de silêncio antes e depois; nomeie cena_1, cena_2... e mande todos juntos.",
+        "Um vídeo por cena, falando para a câmera, com meio segundo de silêncio antes e depois; nomeie cena_1 a cena_6 e mande todos juntos.",
         "Nas cenas sem rosto, só a voz conta: pode gravar em vídeo ou só o áudio.",
         "Grave a cena 1B por último, também olhando para a câmera, e nomeie esse vídeo cena_1b.",
         "Mande os vídeos ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"vídeos do TikTok de 2026-11-10\"."
@@ -79,11 +85,11 @@
       "textos": [
         {
           "rotulo": "Legenda",
-          "texto": "Commander: o que é ramp nas cartas de Magic? Você sabe de onde vem esse nome?\n\nRamp é ganhar mana a mais, antes da hora: terreno extra, artefato de mana ou criatura que gera mana. O nome vem da Rampant Growth, que está em 31,7% dos decks de Commander que podem jogar com ela (EDHREC). E não é só do verde: Wayfarer's Bauble é incolor e entra em qualquer deck.\n\nFontes: mtg.wiki, EDHREC e Scryfall. Mais no fontedemana.com.br\n\nQue termo da mesa te confundiu no começo?\n\n#ramp #commander #mtg"
+          "texto": "Commander: o que é ramp nas cartas de Magic? Você sabe de onde vem esse nome?\n\nRamp é ganhar mana a mais, antes da hora: terreno extra, artefato de mana ou criatura que gera mana. O nome vem da Rampant Growth, que está em 31,7% dos decks de Commander que podem jogar com ela (EDHREC). E não é só do verde: feitiço, artefato ou criatura barata também dá mana extra cedo. Com 10 ramps no deck, a chance de abrir com pelo menos um na mão é de 53,7%.\n\nFontes: mtg.wiki, EDHREC e Scryfall. Mais no fontedemana.com.br\n\nQue termo da mesa te confundiu no começo?\n\n#ramp #commander #mtg"
         },
         {
           "rotulo": "Comentário fixado",
-          "texto": "Na hora de rampar, você vai de terreno (Rampant Growth) ou de artefato (Wayfarer's Bauble)?\n\nToda terça tem um termo novo do Dicionário do Commander."
+          "texto": "No seu deck: 10 ramps ou 12 ramps?\n\nToda terça tem um termo novo do Dicionário do Commander."
         }
       ],
       "passos": [

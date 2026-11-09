@@ -7,8 +7,8 @@
  "carta": "pauta/2026-11-10/tiktok/carta.jpg",
  "credito": "Arte: Rampant Growth, Steven Belledin",
  "fx": null,
- "legenda": "Commander: o que é ramp nas cartas de Magic? Você sabe de onde vem esse nome?\n\nRamp é ganhar mana a mais, antes da hora: terreno extra, artefato de mana ou criatura que gera mana. O nome vem da Rampant Growth, que está em 31,7% dos decks de Commander que podem jogar com ela (EDHREC). E não é só do verde: Wayfarer's Bauble é incolor e entra em qualquer deck.\n\nFontes: mtg.wiki, EDHREC e Scryfall. Mais no fontedemana.com.br\n\nQue termo da mesa te confundiu no começo?\n\n#ramp #commander #mtg",
- "comentario": "Na hora de rampar, você vai de terreno (Rampant Growth) ou de artefato (Wayfarer's Bauble)?\n\nToda terça tem um termo novo do Dicionário do Commander.",
+ "legenda": "Commander: o que é ramp nas cartas de Magic? Você sabe de onde vem esse nome?\n\nRamp é ganhar mana a mais, antes da hora: terreno extra, artefato de mana ou criatura que gera mana. O nome vem da Rampant Growth, que está em 31,7% dos decks de Commander que podem jogar com ela (EDHREC). E não é só do verde: feitiço, artefato ou criatura barata também dá mana extra cedo. Com 10 ramps no deck, a chance de abrir com pelo menos um na mão é de 53,7%.\n\nFontes: mtg.wiki, EDHREC e Scryfall. Mais no fontedemana.com.br\n\nQue termo da mesa te confundiu no começo?\n\n#ramp #commander #mtg",
+ "comentario": "No seu deck: 10 ramps ou 12 ramps?\n\nToda terça tem um termo novo do Dicionário do Commander.",
  "cenas": [
   {
    "tipo": "rosto",
@@ -25,10 +25,10 @@
    "tipo": "texto",
    "cor": "G",
    "kicker": "Ramp é",
-   "titulo": "Mana a mais, antes da hora",
-   "sub": "Terreno extra, artefato de mana ou criatura que gera mana.",
-   "narracao": "Ramp é mana a mais, antes da hora. A carta grande chega turnos antes.",
-   "segundos": 5.8
+   "titulo": "Acelerar a mana",
+   "sub": "Mais mana por turno do que só os terrenos dariam.",
+   "narracao": "Ramp é acelerar a mana: mais mana por turno do que só os terrenos dão.",
+   "segundos": 6.2
   },
   {
    "tipo": "carta",
@@ -38,8 +38,8 @@
    "titulo": "Rampant Growth",
    "sub": "Em 31,7% dos decks que podem jogar",
    "fonte": "EDHREC, nov 2026",
-   "narracao": "O nome vem da Rampant Growth: um terreno a mais por dois manas.",
-   "segundos": 5.4
+   "narracao": "O nome vem da Rampant Growth: terreno a mais por dois manas.",
+   "segundos": 5
   },
   {
    "tipo": "carta",
@@ -47,20 +47,30 @@
    "kicker": "O erro mais comum",
    "carta": "pauta/2026-11-10/tiktok/carta-2.jpg",
    "titulo": "Ramp não é só do verde",
-   "sub": "Artefato incolor, entra em qualquer deck",
+   "sub": "Feitiço, artefato ou criatura de custo baixo",
    "fonte": "Scryfall",
-   "narracao": "Erro comum: achar que ramp é só verde. Esse artefato entra em qualquer deck.",
-   "segundos": 5.8
+   "narracao": "Não é só verde: feitiço, artefato ou criatura barata já dá mana cedo.",
+   "segundos": 5.4
+  },
+  {
+   "tipo": "texto",
+   "cor": "W",
+   "kicker": "Com 10 ramps no deck",
+   "titulo": "53,7% de abrir com um na mão",
+   "sub": "Pelo menos 1 ramp nas 7 cartas iniciais, sem mulligan.",
+   "rodape": "Com 12 ramps no deck, sobe para 60,7%.",
+   "narracao": "Com dez ramps, pouco mais da metade das mãos abre com um.",
+   "segundos": 5
   },
   {
    "tipo": "rosto",
    "cor": "G",
-   "kicker": "Quanto colocar",
-   "titulo": "Uns 10 no deck. E no seu?",
-   "sub": "Menos de 10 ou 10 ou mais?",
-   "narracao": "A conta é uns dez ramps no deck. O seu tem mais ou menos?",
-   "gravar": "Abre as duas mãos mostrando os dez dedos no 'dez' e aponta para a câmera na pergunta.",
-   "segundos": 5.8
+   "kicker": "E no seu deck?",
+   "titulo": "10 ou 12 ramps?",
+   "sub": "Quantos ramps tem nas suas 99?",
+   "narracao": "Seu deck vai de dez ou de doze?",
+   "gravar": "Olha para a câmera segurando o seu deck e aponta para ele na pergunta.",
+   "segundos": 3.6
   }
  ],
  "ganchoB": {
