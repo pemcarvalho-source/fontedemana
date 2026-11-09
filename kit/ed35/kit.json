@@ -1,0 +1,164 @@
+{
+ "n": 35,
+ "data": "9 nov",
+ "carrossel": {
+  "capa": {
+   "cor": "A",
+   "titulo": "Secret Lairs de Star Trek abrem venda hoje",
+   "sub": "Fila às 13h e venda às 14h em Brasília. Cinco drops a <b>US$ 29,99 (R$ 163,81)</b>, com Thrasios e Kambal na versão Lower Decks.",
+   "credito": "Arte: Weatherlight, Derek Charm"
+  },
+  "cartoes": [
+   {
+    "cor": "A",
+    "titulo": "Os cinco drops de hoje",
+    "itens": [
+     {
+      "cor": "A",
+      "html": "<b>Lower Decks</b>: Thrasios, Kambal, Inti, Silas Renn e Weatherlight com nomes da série."
+     },
+     {
+      "cor": "U",
+      "html": "<b>Beam Me Up</b>: Momentary Blink, Essence Flux, Eerie Interlude e Conjurer's Closet."
+     },
+     {
+      "cor": "R",
+      "html": "<b>KHAAAAAAAAN</b>: Genesis Wave, Buried Alive e Commandeer. <b>tlhIngan maH</b>: cinco mágicas vermelhas."
+     },
+     {
+      "cor": "A",
+      "html": "US$ 29,99 (R$ 163,81) sem foil e US$ 39,99 (R$ 218,43) foil. A cada US$ 199,99, um brinde foil."
+     }
+    ],
+    "nota": {
+     "rotulo": "No seu bolso",
+     "texto": "carrinho não segura carta: só o pagamento concluído garante o drop."
+    },
+    "fonte": "Fonte: Wizards. Reais: PTAX de 5 nov"
+   }
+  ],
+  "topdeck": {
+   "titulo": "Kambal, Profiteering Mayor",
+   "habilidades": [
+    {
+     "rotulo": "Copia fichas",
+     "texto": "Oponente criou fichas? Você ganha cópias viradas, uma vez por turno."
+    },
+    {
+     "rotulo": "Drena a cada leva",
+     "texto": "Entrou ficha do seu lado: cada oponente perde 1 e você ganha 1."
+    }
+   ],
+   "extra": "Hoje ganha versão Lower Decks no Secret Lair. Está em <b>40,3 mil decks</b> no EDHREC e a de Thunder Junction sai a US$ 6,05 (R$ 33,05). PTAX de 5 nov.",
+   "credito": "Ilustração de Andreas Zafiratos"
+  },
+  "ban": {
+   "numero": "21",
+   "unidade": "DIAS",
+   "texto": "Próxima janela de banimentos em 30 de novembro. A de 12 de outubro passou sem mexer no Commander."
+  },
+  "turnos": [
+   {
+    "cor": "A",
+    "data": "9 nov",
+    "texto": "Venda dos Secret Lairs de Star Trek"
+   },
+   {
+    "cor": "G",
+    "data": "até 12 nov",
+    "texto": "Pré de Star Trek nas lojas"
+   },
+   {
+    "cor": "G",
+    "data": "13 nov",
+    "texto": "Star Trek chega às lojas"
+   },
+   {
+    "cor": "A",
+    "data": "16 a 30 nov",
+    "texto": "Secret Lair do Extra Life à venda"
+   },
+   {
+    "cor": "W",
+    "data": "20 a 26 nov",
+    "texto": "Festa de Commander de Star Trek"
+   }
+  ],
+  "sussurro": "Um anúncio vazado sugere que o sexto drop, ainda secreto, é dos Borg. Não confirmado."
+ },
+ "video": {
+  "cena1": {
+   "titulo": "Secret Lairs de Star Trek abrem venda hoje",
+   "pilulas": [
+    "Venda às 14h",
+    "Thrasios e Kambal",
+    "Cinco drops"
+   ]
+  },
+  "cena2": {
+   "rotulo": "No bolso",
+   "cor": "A",
+   "titulo": "Quanto custa cada drop",
+   "linhas": [
+    {
+     "nome": "Sem foil",
+     "numero": 29,
+     "prefixo": "US$ ",
+     "sufixo": ",99",
+     "sub": "R$ 163,81"
+    },
+    {
+     "nome": "Foil",
+     "numero": 39,
+     "prefixo": "US$ ",
+     "sufixo": ",99",
+     "sub": "R$ 218,43"
+    }
+   ],
+   "fonte": "Fonte: Wizards. Reais: PTAX de 5 nov"
+  },
+  "cena3": {
+   "linhas": [
+    "<b>Kambal</b> drena a mesa a cada leva de fichas.",
+    "E ainda copia as fichas dos oponentes.",
+    "Hoje ganha versão Lower Decks no Secret Lair."
+   ]
+  },
+  "cena4": {
+   "texto": "Faltam 21 dias para a próxima janela de banimentos. Antes, Star Trek chega às lojas em 13 de novembro.",
+   "sussurro": "O sexto drop seria dos Borg? Vazamento não confirmado."
+  }
+ },
+ "textos": {
+  "legendaCarrossel": "Commander de Magic: os Secret Lairs de Star Trek abrem venda hoje, segunda, 9 de novembro.\n\nA fila abre às 13h e a venda às 14h em Brasília, no site do Secret Lair. São cinco drops a US$ 29,99 (R$ 163,81) sem foil e US$ 39,99 (R$ 218,43) foil. Lower Decks traz Thrasios, Kambal, Inti, Silas Renn e Weatherlight com nomes da série. Beam Me Up junta Momentary Blink, Essence Flux, Eerie Interlude e Conjurer's Closet. KHAAAAAAAAN tem Genesis Wave, Buried Alive e Commandeer. A cada US$ 199,99 (R$ 1.092,37) gastos vem um Return of the Wildspeaker foil de brinde, enquanto durar o estoque. Um sexto drop ainda vai ser revelado.\n\nNo Topdeck, Kambal, Profiteering Mayor: cada leva de fichas do seu lado drena 1 de vida de cada oponente, e ele ainda copia as fichas dos outros. A de Thunder Junction sai a US$ 6,05 (R$ 33,05).\n\nQual desses drops você colocaria na mesa?\n\nEdição completa em fontedemana.com.br\n\nArtes: Weatherlight, de Derek Charm. Kambal, Profiteering Mayor, de Andreas Zafiratos.\nValores em reais pela cotação de 5 nov (Banco Central, PTAX).\n\n#startrek #commander #mtg",
+  "legendaVideo": "Commander de Magic: Secret Lairs de Star Trek abrem venda hoje às 14h em Brasília, com Thrasios e Kambal na versão Lower Decks. No Topdeck, Kambal, Profiteering Mayor.\n\nQual desses drops você colocaria na mesa?\n\nEdição completa em fontedemana.com.br\n\nValores em reais pela cotação de 5 nov (Banco Central, PTAX).\n\n#startrek #commander #mtg",
+  "threadsPost": "Os Secret Lairs de Star Trek abrem venda hoje: fila às 13h e venda às 14h em Brasília. Cinco drops a US$ 29,99 (R$ 163,81) sem foil, com Thrasios e Kambal em Lower Decks, Momentary Blink e Conjurer's Closet em Beam Me Up e Genesis Wave em KHAAAAAAAAN. Qual você pegaria? fontedemana.com.br\nValores em reais pela cotação de 5 nov (Banco Central, PTAX).",
+  "threadsFio": [
+   "Os Secret Lairs de Star Trek abrem venda hoje, 9 de novembro. Fila às 13h e venda às 14h em Brasília.",
+   "Cinco drops a US$ 29,99 (R$ 163,81) sem foil e US$ 39,99 (R$ 218,43) foil. Um sexto ainda vai ser revelado.",
+   "Lower Decks traz Thrasios, Kambal, Inti, Silas Renn e Weatherlight com nomes da série. Beam Me Up tem Momentary Blink, Essence Flux, Eerie Interlude e Conjurer's Closet. KHAAAAAAAAN tem Genesis Wave, Buried Alive e Commandeer.",
+   "Carrinho não segura carta: só o pagamento concluído garante. A cada US$ 199,99 (R$ 1.092,37) gastos vem um Return of the Wildspeaker foil de brinde.",
+   "No Topdeck, Kambal, Profiteering Mayor: cada leva de fichas do seu lado drena 1 de cada oponente, e ele copia as fichas dos outros. Edição completa em fontedemana.com.br\nValores em reais pela cotação de 5 nov (Banco Central, PTAX)."
+  ],
+  "threadsAvulsos": [
+   {
+    "titulo": "Pergunta do dia",
+    "texto": "Secret Lair de Star Trek: qual drop você pegaria, Lower Decks, Beam Me Up ou KHAAAAAAAAN?",
+    "obs": "Opções de enquete: Lower Decks, Beam Me Up, KHAAAAAAAAN, nenhum"
+   }
+  ]
+ },
+ "pauta": {
+  "forca": "calmo",
+  "porque": "Venda de Secret Lair já anunciada, produto que não é de Commander; nada novo de ban, regra ou precon.",
+  "storyPergunta": "Qual Secret Lair de Star Trek você pegaria?",
+  "enquete": {
+   "pergunta": "Vai comprar Secret Lair de Star Trek?",
+   "opcoes": [
+    "Vou sim",
+    "Só olhando",
+    "Passo essa"
+   ]
+  }
+ }
+}
