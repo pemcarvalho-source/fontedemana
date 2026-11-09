@@ -314,16 +314,18 @@ function overlayHTML(r, c) {
     .split('{{FONTS}}').join(furl(path.join(ROOT, 'tools/kit/fonts')))
     .split('{{LANDS}}').join(furl(path.join(ROOT, 'lands')));
   /* "caixa": "cima" numa cena rosto (desde 9/11/2026): para quando o rosto ficou na metade de baixo do vídeo gravado */
-  const baixo = c.tipo === 'rosto' && c.caixa !== 'cima';
+  const baixo = c.tipo === 'rosto' && c.caixa !== 'cima' && c.caixa !== 'topo';
+  /* "caixa": "topo" (desde 9/11/2026): marca e caixa mais para cima, para o título ficar acima da cabeça quando o rosto está alto */
+  const alto = c.caixa === 'topo';
   const cor = c.cor || 'A';
   const pip = cor === 'M' ? '<span class="pip p-M" style="--s:40px"><i class="wd wW"></i><i class="wd wU"></i><i class="wd wB"></i><i class="wd wR"></i><i class="wd wG"></i></span>' : `<span class="pip p-${cor}" style="--s:40px"></span>`;
   const extra = `html,body{background:transparent!important}
 .canvas{width:1080px;height:1920px;background:none!important}
 ${baixo ? `.shade{position:absolute;left:0;right:0;top:0;height:520px;background:linear-gradient(180deg,rgba(10,10,14,.5) 0%,rgba(10,10,14,0) 100%)}
 .shade2{position:absolute;left:0;right:0;top:${ROSTO_CAIXA_TOPO - 220}px;height:${1920 - ROSTO_CAIXA_TOPO + 220}px;background:linear-gradient(180deg,rgba(10,10,14,0) 0%,rgba(10,10,14,.35) 35%,rgba(10,10,14,.5) 100%)}` : `.shade{position:absolute;left:0;right:0;top:0;height:760px;background:linear-gradient(180deg,rgba(10,10,14,.62) 0%,rgba(10,10,14,.35) 55%,rgba(10,10,14,0) 100%)}`}
-.top{position:absolute;top:300px;left:120px;right:120px;display:flex;justify-content:space-between;align-items:center}
+.top{position:absolute;top:${alto ? 140 : 300}px;left:120px;right:120px;display:flex;justify-content:space-between;align-items:center}
 .top .brand{font-size:52px}
-.ov{position:absolute;top:${baixo ? ROSTO_CAIXA_TOPO : 390}px;left:120px;right:120px;background:rgba(15,15,19,.74);border-radius:28px;padding:26px 34px 30px;box-shadow:0 18px 40px -12px rgba(0,0,0,.7)}
+.ov{position:absolute;top:${baixo ? ROSTO_CAIXA_TOPO : (alto ? 225 : 390)}px;left:120px;right:120px;background:rgba(15,15,19,.74);border-radius:28px;padding:26px 34px 30px;box-shadow:0 18px 40px -12px rgba(0,0,0,.7)}
 .kicker{font-size:28px}
 .ov h1{font-family:CZ;font-weight:700;font-size:60px;line-height:1.06;margin-top:14px;color:#F3EEE2}`;
   const top = `<div class="top"><div class="brand">Fonte <span class="de">de</span> Mana</div>${c.chip ? '<span class="chip">' + esc(c.chip) + '</span>' : ''}</div>`;
