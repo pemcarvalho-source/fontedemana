@@ -42,17 +42,6 @@
    "segundos": 5
   },
   {
-   "tipo": "carta",
-   "cor": "R",
-   "kicker": "O erro mais comum",
-   "carta": "pauta/2026-11-10/tiktok/carta-2.jpg",
-   "titulo": "Ramp não é só do verde",
-   "sub": "Feitiço, artefato ou criatura de custo baixo",
-   "fonte": "Scryfall",
-   "narracao": "Não é só verde: feitiço, artefato ou criatura barata já dá mana cedo.",
-   "segundos": 5.4
-  },
-  {
    "tipo": "texto",
    "cor": "W",
    "kicker": "Com 10 ramps no deck",
@@ -79,5 +68,6 @@
   "chip": "Dicionário #7",
   "narracao": "Toda mesa de Commander fala em ramp. Mas de onde vem essa palavra?",
   "segundos": 5.4
- }
+ },
+ "rostoGravado": true
 }
