@@ -1,0 +1,82 @@
+{
+ "n": 36,
+ "data": "10 nov",
+ "carrossel": {
+  "capa": {
+   "cor": "A",
+   "titulo": "Sexto Secret Lair de Star Trek é dos Borg",
+   "sub": "<b>Assimilation</b> traz K'rrik, Gix e Hive Mind com nomes dos Borg, a <b>US$ 29,99 (R$ 164,98)</b>. O vazamento se confirmou.",
+   "credito": "Arte: Hive Mind, Alexander Heir"
+  },
+  "cartoes": [
+   {
+    "cor": "A",
+    "titulo": "O que vem em Assimilation",
+    "itens": [
+     {"cor": "B", "html": "<b>K'rrik</b> vira Number One of One e <b>Gix</b> vira The Negatronic Man."},
+     {"cor": "B", "html": "Suture Priest vem como PsychoMatrix e Elas il-Kor como D'k Tahg."},
+     {"cor": "U", "html": "<b>Hive Mind</b> fecha o drop, a carta da capa."},
+     {"cor": "A", "html": "US$ 29,99 (R$ 164,98) sem foil e US$ 39,99 (R$ 220,00) foil, como os outros."}
+    ],
+    "nota": {"rotulo": "No seu bolso", "texto": "os seis drops sem foil somam US$ 179,94 (R$ 989,90)."},
+    "fonte": "Fonte: Wizards. Reais: PTAX de 6 nov"
+   }
+  ],
+  "topdeck": {
+   "titulo": "K'rrik, Son of Yawgmoth",
+   "habilidades": [
+    {"rotulo": "Vida vira mana", "texto": "Cada símbolo preto de um custo pode sair por 2 de vida."},
+    {"rotulo": "Vínculo com a vida", "texto": "Bate e devolve a vida que você gastou."},
+    {"rotulo": "Cresce", "texto": "Cada mágica preta que você conjura dá um marcador +1/+1 nele."}
+   ],
+   "extra": "Vira Number One of One no drop dos Borg. Comanda <b>20,6 mil decks</b> no EDHREC e a de Commander 2019 sai a US$ 1,35 (R$ 7,43). PTAX de 6 nov.",
+   "credito": "Ilustração de Chase Stone"
+  },
+  "ban": {
+   "numero": "20",
+   "unidade": "DIAS",
+   "texto": "Próxima janela de banimentos em 30 de novembro. A de 12 de outubro passou sem mexer no Commander."
+  },
+  "turnos": [
+   {"cor": "G", "data": "até 12 nov", "texto": "Pré de Star Trek nas lojas"},
+   {"cor": "G", "data": "13 nov", "texto": "Star Trek chega às lojas"},
+   {"cor": "A", "data": "16 a 30 nov", "texto": "Secret Lair do Extra Life à venda"},
+   {"cor": "W", "data": "20 a 26 nov", "texto": "Festa de Commander de Star Trek"},
+   {"cor": "B", "data": "30 nov", "texto": "Próxima janela de banimentos"}
+  ],
+  "sussurro": "Uma Command Tower com o Picard pode ser o brinde do Superdrop. Não confirmado."
+ },
+ "video": {
+  "cena1": {"titulo": "Sexto Secret Lair de Star Trek é dos Borg", "pilulas": ["Assimilation", "K'rrik e Gix", "Vazamento confirmado"]},
+  "cena2": {
+   "rotulo": "No bolso", "cor": "A", "titulo": "Quanto custa Assimilation",
+   "linhas": [
+    {"nome": "Sem foil", "numero": 29, "prefixo": "US$ ", "sufixo": ",99", "sub": "R$ 164,98"},
+    {"nome": "Foil", "numero": 39, "prefixo": "US$ ", "sufixo": ",99", "sub": "R$ 220,00"}
+   ],
+   "fonte": "Fonte: Wizards. Reais: PTAX de 6 nov"
+  },
+  "cena3": {"linhas": ["<b>K'rrik</b> troca mana preta por 2 de vida.", "Com vínculo, ele devolve a vida batendo.", "Hoje vira Number One of One no drop dos Borg."]},
+  "cena4": {"texto": "Faltam 20 dias para a próxima janela de banimentos. Antes, Star Trek chega às lojas em 13 de novembro.", "sussurro": "Command Tower do Picard de brinde? Não confirmado."}
+ },
+ "textos": {
+  "legendaCarrossel": "Commander de Magic: o sexto Secret Lair de Star Trek é dos Borg.\n\nA Wizards revelou Assimilation, o drop que faltava na Set Phasers to Superdrop. K'rrik, Son of Yawgmoth vira Number One of One, Gix, Yawgmoth Praetor vira The Negatronic Man, Suture Priest vem como PsychoMatrix, Elas il-Kor como D'k Tahg, e Hive Mind fecha o drop. Custa US$ 29,99 (R$ 164,98) sem foil e US$ 39,99 (R$ 220,00) foil, como os outros cinco. Os seis drops sem foil somam US$ 179,94 (R$ 989,90). O vazamento que saiu nos Sussurros ontem se confirmou.\n\nNo Topdeck, K'rrik, Son of Yawgmoth: cada símbolo preto de um custo pode sair por 2 de vida, e o vínculo devolve a vida batendo. A de Commander 2019 sai a US$ 1,35 (R$ 7,43).\n\nVocê já jogou com o K'rrik de comandante?\n\nEdição completa em fontedemana.com.br\n\nArtes: Hive Mind, de Alexander Heir. K'rrik, Son of Yawgmoth, de Chase Stone.\nValores em reais pela cotação de 6 nov (Banco Central, PTAX).\n\n#startrek #commander #mtg",
+  "legendaVideo": "Commander de Magic: o sexto Secret Lair de Star Trek é dos Borg, com K'rrik e Gix em Assimilation. No Topdeck, K'rrik, Son of Yawgmoth.\n\nVocê já jogou com o K'rrik de comandante?\n\nEdição completa em fontedemana.com.br\n\nValores em reais pela cotação de 6 nov (Banco Central, PTAX).\n\n#startrek #commander #mtg",
+  "threadsPost": "O sexto Secret Lair de Star Trek é dos Borg: Assimilation traz K'rrik como Number One of One, Gix como The Negatronic Man, Suture Priest, Elas il-Kor e Hive Mind, a US$ 29,99 (R$ 164,98) sem foil. O vazamento se confirmou. Vale a assimilação? fontedemana.com.br\nValores em reais pela cotação de 6 nov (Banco Central, PTAX).",
+  "threadsFio": [
+   "O sexto Secret Lair de Star Trek saiu do segredo: Assimilation, dos Borg.",
+   "K'rrik, Son of Yawgmoth vira Number One of One e Gix, Yawgmoth Praetor vira The Negatronic Man. Suture Priest, Elas il-Kor e Hive Mind completam o drop.",
+   "Mesmo preço dos outros: US$ 29,99 (R$ 164,98) sem foil e US$ 39,99 (R$ 220,00) foil. Os seis drops sem foil somam US$ 179,94 (R$ 989,90).",
+   "No Topdeck, K'rrik, Son of Yawgmoth: cada símbolo preto de um custo pode sair por 2 de vida, e o vínculo devolve a vida batendo. Edição completa em fontedemana.com.br\nValores em reais pela cotação de 6 nov (Banco Central, PTAX)."
+  ],
+  "threadsAvulsos": [
+   {"titulo": "Pergunta do dia", "texto": "Drop dos Borg no Secret Lair: K'rrik ou Gix, qual comandante você montaria?", "obs": "Opções de enquete: K'rrik, Gix, nenhum dos dois"}
+  ]
+ },
+ "pauta": {
+  "forca": "calmo",
+  "porque": "Secret Lair é produto que não é de Commander e desdobra a venda de ontem; nada novo de ban, regra ou precon.",
+  "storyPergunta": "Você montaria um deck de K'rrik ou de Gix?",
+  "enquete": {"pergunta": "Vai pegar o Secret Lair dos Borg?", "opcoes": ["Vou sim", "Só olhando", "Passo essa"]}
+ }
+}
