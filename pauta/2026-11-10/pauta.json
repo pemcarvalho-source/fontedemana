@@ -98,6 +98,20 @@
         "Fixe o comentário logo depois de postar.",
         "Se os vídeos não chegarem a tempo, poste o vídeo mudo com música em alta."
       ]
+    },
+    {
+      "id": "anuncio-dragoes",
+      "hora": "19:30",
+      "rede": "Reels",
+      "titulo": "Impulsionar o Reels do Top 5 dos dragões (5/11)",
+      "oQue": "Começar hoje o impulso do Reels de 5/11, Top 5 #4: os dragões que não podem faltar, depois de postar o Reels das 19:00. Ele roda até sábado, 14/11, à noite.",
+      "passos": [
+        "Abra o Reels dos dragões de 5/11 (o das 18:57, com você na cena 1), não o Reel de teste.",
+        "Toque em Impulsionar e escolha o objetivo visitas ao perfil.",
+        "Público: parecido com os seguidores, como nos dois últimos impulsos.",
+        "Duração: 4 dias, até sábado 14/11 à noite, com o mesmo valor por dia. Orçamento e alcance que vale mirar estão no documento privado da revisão de 9/11.",
+        "Quando terminar, mande o print do Insights do anúncio ao Claude no projeto MGT strategy para entrar no Registro de campanhas."
+      ]
     }
   ]
 }
