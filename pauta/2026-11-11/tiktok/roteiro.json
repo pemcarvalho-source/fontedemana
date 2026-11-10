@@ -61,13 +61,28 @@
    "segundos": 3.9
   },
   {
-   "tipo": "clipe",
+   "tipo": "combo",
    "cor": "G",
-   "kicker": "Deck de teste",
-   "titulo": "15 cartas do plástico bolha",
-   "video": "extras/lote/lote-01-bolha.mp4",
-   "narracao": "No teste, 15 cartas vieram do plástico bolha.",
-   "segundos": 3.6
+   "kicker": "Do plástico bolha",
+   "titulo": "15 das 19 cartas que faltam",
+   "cartas": [
+    "pauta/2026-11-11/tiktok/carta-4.jpg",
+    "pauta/2026-11-11/tiktok/carta-5.jpg",
+    "pauta/2026-11-11/tiktok/carta-6.jpg"
+   ],
+   "passos": [
+    {
+     "txt": "Susurian Voidborn: drena quando algo seu morre"
+    },
+    {
+     "txt": "Gollum: entra e cada oponente perde 2"
+    },
+    {
+     "txt": "Cast Out: exila uma ameaça do oponente"
+    }
+   ],
+   "narracao": "No teste, 15 vieram do plástico bolha. Olha três.",
+   "segundos": 3.9
   },
   {
    "tipo": "rosto",
