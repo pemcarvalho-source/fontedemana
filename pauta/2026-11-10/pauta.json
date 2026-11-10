@@ -1,6 +1,8 @@
 {
   "data": "2026-11-10",
-  "fx": null,
+  "fx": "Valores em reais pela cotação de 6 nov, US$ 1 = R$ 5,5013 (Banco Central, PTAX).",
+  "forca": "calmo",
+  "feed": "original",
   "avisos": [
     {
       "id": "gravacao",
@@ -78,7 +80,7 @@
       "oQue": "Dicionário do Commander #7: o que é ramp, a carta que deu o nome e o erro de achar que é só do verde.",
       "arquivos": [
         {
-          "nome": "tiktok-narrado.mp4",
+          "nome": "Vídeo do TikTok narrado",
           "url": "https://fontedemana.com.br/pauta/2026-11-10/tiktok/tiktok-narrado.mp4"
         }
       ],
@@ -110,6 +112,171 @@
         "Público: parecido com os seguidores, como nos dois últimos impulsos.",
         "Duração: 4 dias, até sábado 14/11 à noite, com o mesmo valor por dia. Orçamento e alcance que vale mirar estão no documento privado da revisão de 9/11.",
         "Quando terminar, mande o print do Insights do anúncio ao Claude no projeto MGT strategy para entrar no Registro de campanhas."
+      ]
+    },
+    {
+      "id": "threads-manha",
+      "hora": "10:30",
+      "rede": "Threads",
+      "titulo": "Debate: Dicionário do Commander #7: o que é ramp",
+      "oQue": "Post de debate do conteúdo original de hoje (Dicionário do Commander) para puxar conversa.",
+      "textos": [
+        {
+          "rotulo": "Post",
+          "texto": "Toda mesa tem alguém que diz \"segura que vou dar ramp\". Ramp é ganhar mana antes da hora, e o nome vem da Rampant Growth.\n\nA conta mais usada é uns 10 ramps no deck. Mas qual tipo? Terreno, como a Rampant Growth, que fica no campo mesmo depois de um wipe de criaturas. Ou artefato, como o Wayfarer's Bauble, que entra em qualquer cor.\n\nNo seu deck, qual ramp nunca sai?"
+        }
+      ],
+      "passos": [
+        "Abra o Threads e cole o Post.",
+        "Dica: Enquete com as opções Terreno, Artefato e Criatura",
+        "Toque em Adicionar tópico e escolha MTG.",
+        "Publique e responda quem comentar na primeira hora."
+      ]
+    },
+    {
+      "id": "feed",
+      "hora": "12:00",
+      "rede": "Instagram feed",
+      "titulo": "Dicionário do Commander #7: o que é ramp",
+      "origem": "original:2026-11-10",
+      "oQue": "Carrossel original de 6 imagens (Dicionário do Commander): Dicionário do Commander #7: o que é ramp. Feito para salvar e compartilhar.",
+      "arquivos": [
+        {
+          "nome": "Imagem 1 de 6",
+          "url": "https://fontedemana.com.br/pauta/2026-11-10/original/carrossel-01.jpg"
+        },
+        {
+          "nome": "Imagem 2 de 6",
+          "url": "https://fontedemana.com.br/pauta/2026-11-10/original/carrossel-02.jpg"
+        },
+        {
+          "nome": "Imagem 3 de 6",
+          "url": "https://fontedemana.com.br/pauta/2026-11-10/original/carrossel-03.jpg"
+        },
+        {
+          "nome": "Imagem 4 de 6",
+          "url": "https://fontedemana.com.br/pauta/2026-11-10/original/carrossel-04.jpg"
+        },
+        {
+          "nome": "Imagem 5 de 6",
+          "url": "https://fontedemana.com.br/pauta/2026-11-10/original/carrossel-05.jpg"
+        },
+        {
+          "nome": "Imagem 6 de 6",
+          "url": "https://fontedemana.com.br/pauta/2026-11-10/original/carrossel-06.jpg"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Commander: o que é ramp nas cartas de Magic? Você sabe de onde vem esse nome?\n\n\"Segura que vou dar ramp\" é frase de toda mesa. Ramp é ganhar mana a mais, antes da hora: terreno extra, artefato de mana ou criatura que gera mana. O nome vem da Rampant Growth, que está em 31,7% dos decks de Commander que podem jogar com ela. E não é só do verde: Wayfarer's Bauble é incolor e entra em qualquer deck. A conta mais usada é uns 10 ramps no deck: com 10, a chance de abrir com pelo menos um na mão é de 53,7%, e com 12, de 60,7%.\n\nFontes: mtg.wiki, EDHREC, Draftsim e Scryfall. Mais no fontedemana.com.br\n\nQue termo da mesa te confundiu no começo?\n\n#ramp #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        }
+      ],
+      "passos": [
+        "No Instagram, toque em + e escolha Post.",
+        "Selecione as 6 imagens na ordem, da 1 à 6.",
+        "Toque em Adicionar música e escolha uma em alta que combine com o tema.",
+        "Cole a Legenda e publique."
+      ]
+    },
+    {
+      "id": "stories-meio-dia",
+      "hora": "12:00",
+      "rede": "Instagram Stories",
+      "titulo": "Repost do carrossel com enquete",
+      "oQue": "Compartilhe o carrossel recém postado no Story com uma enquete.",
+      "passos": [
+        "No carrossel publicado, toque no avião de papel e em Adicionar post ao seu story.",
+        "Adicione o sticker de Enquete embaixo do post: Seu ramp favorito é de qual tipo? com Terreno, Artefato e Criatura.",
+        "Publique."
+      ]
+    },
+    {
+      "id": "stories-tarde",
+      "hora": "15:00",
+      "rede": "Instagram Stories",
+      "titulo": "Topdeck do Dia com link",
+      "oQue": "Story com a imagem de K'rrik, Son of Yawgmoth no Topdeck do Dia e o sticker de link para a edição completa.",
+      "arquivos": [
+        {
+          "nome": "Topdeck do Dia",
+          "url": "https://fontedemana.com.br/kit/ed36/carrossel-03.jpg"
+        }
+      ],
+      "passos": [
+        "Baixe a imagem e poste no Story.",
+        "Adicione o sticker de Link para fontedemana.com.br com o texto Edição completa, embaixo do texto do Topdeck.",
+        "Publique."
+      ]
+    },
+    {
+      "id": "reels",
+      "hora": "19:00",
+      "rede": "Reels",
+      "titulo": "Vídeo original: Dicionário do Commander #7: o que é ramp",
+      "oQue": "O vídeo original de hoje no Instagram, o mesmo arquivo do TikTok, já narrado. É o formato que mais chega a quem não segue.",
+      "arquivos": [
+        {
+          "nome": "Vídeo original narrado",
+          "url": "https://fontedemana.com.br/pauta/2026-11-10/tiktok/tiktok-narrado.mp4"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Commander: o que é ramp nas cartas de Magic? Você sabe de onde vem esse nome?\n\nRamp é ganhar mana a mais, antes da hora: terreno extra, artefato de mana ou criatura que gera mana. O nome vem da Rampant Growth, que está em 31,7% dos decks de Commander que podem jogar com ela (EDHREC). E não é só do verde: feitiço, artefato ou criatura barata também dá mana extra cedo. Com 10 ramps no deck, a chance de abrir com pelo menos um na mão é de 53,7%.\n\nFontes: mtg.wiki, EDHREC e Scryfall. Mais no fontedemana.com.br\n\nQue termo da mesa te confundiu no começo?\n\n#ramp #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        },
+        {
+          "rotulo": "Comentário fixado",
+          "texto": "No seu deck: 10 ramps ou 12 ramps?\n\nToda terça tem um termo novo do Dicionário do Commander."
+        }
+      ],
+      "passos": [
+        "No Instagram, toque em + e escolha Reel.",
+        "Escolha o vídeo baixado daqui, nunca o salvo do TikTok (o Instagram derruba vídeo com marca d'água).",
+        "Em Áudio, ponha uma música em alta da biblioteca do Instagram com volume baixo (uns 10%), sem cobrir a voz.",
+        "Na capa, use o primeiro quadro, o do gancho.",
+        "Cole a Legenda e publique.",
+        "Fixe o comentário e responda quem comentar na primeira hora."
+      ]
+    },
+    {
+      "id": "reels-teste",
+      "hora": "18:40",
+      "rede": "Reels",
+      "titulo": "Reel de teste: o vídeo de hoje com o gancho B",
+      "oQue": "Teste da semana: o vídeo de hoje com outro gancho, mostrado só para quem não segue. Sai antes do Reels das 19:00 porque o Instagram corta o alcance de Reel de teste com conteúdo que a conta já postou. Na revisão, as views dele são comparadas com as de não seguidores do Reels das 19:00.",
+      "arquivos": [
+        {
+          "nome": "Vídeo de teste, gancho B",
+          "url": "https://fontedemana.com.br/pauta/2026-11-10/tiktok/tiktok-teste-narrado.mp4"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Commander: o que é ramp nas cartas de Magic? Você sabe de onde vem esse nome?\n\nRamp é ganhar mana a mais, antes da hora: terreno extra, artefato de mana ou criatura que gera mana. O nome vem da Rampant Growth, que está em 31,7% dos decks de Commander que podem jogar com ela (EDHREC). E não é só do verde: feitiço, artefato ou criatura barata também dá mana extra cedo. Com 10 ramps no deck, a chance de abrir com pelo menos um na mão é de 53,7%.\n\nFontes: mtg.wiki, EDHREC e Scryfall. Mais no fontedemana.com.br\n\nQue termo da mesa te confundiu no começo?\n\n#ramp #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        }
+      ],
+      "passos": [
+        "No Instagram, toque em + e escolha Reel, com o vídeo de teste baixado daqui.",
+        "Antes de compartilhar, ative a opção Reel de teste (Trial reel), para ele aparecer só para quem não segue.",
+        "Deixe o compartilhamento automático desligado e não publique para todos depois: o Reels das 19:00 leva o vídeo aos seguidores.",
+        "Use a música e o volume que vai usar no Reels das 19:00, para o teste comparar só o gancho.",
+        "Cole a Legenda e publique.",
+        "Daqui a 3 dias, tire um print do Insights deste Reel e do Reels das 19:00 (views de seguidores e de não seguidores) e mande na conversa da revisão."
+      ]
+    },
+    {
+      "id": "comentarios",
+      "hora": "21:30",
+      "rede": "Comentários",
+      "titulo": "Responder os comentários de hoje e de ontem",
+      "oQue": "Uns 10 minutos nas três redes: curtir e responder os comentários das últimas 48 horas, começando pelo vídeo e pelo carrossel de hoje. Conversa nos comentários leva a peça a mais gente, e o Instagram recomenda responder em até 2 dias.",
+      "passos": [
+        "Instagram: nas notificações, curta os comentários e responda com uma frase quem perguntou ou discordou.",
+        "TikTok e Threads: o mesmo, começando pelo post com mais comentários.",
+        "Pergunta boa ou dúvida que se repete, nos comentários ou nas DMs? Mande na conversa do projeto: vira tema de um pilar."
       ]
     }
   ]
