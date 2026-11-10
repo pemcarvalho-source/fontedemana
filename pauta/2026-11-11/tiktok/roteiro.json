@@ -1,0 +1,83 @@
+{
+ "data": "2026-11-11",
+ "pilar": "zero",
+ "tema": "Do zero à mesa #2: Corte Carmesim, o deck de vampiros que começou tudo",
+ "item": null,
+ "arte": "pauta/2026-11-11/tiktok/arte.jpg",
+ "carta": "pauta/2026-11-11/tiktok/carta.jpg",
+ "credito": "Arte: Edgar Markov, Volkan Baǵa",
+ "fx": null,
+ "legenda": "Deck de Commander de vampiros: o Corte Carmesim, com Edgar Markov, em três passos. Qual comandante de vampiros você levaria pra mesa?\n\nFoi pra completar esse deck que eu comprei cartas na gringa. 81 das 100 já estão comigo, e no deck de teste 15 cartas vieram do plástico bolha.\n\nSábado tem o Do zero à mesa #3, com o Rosa Sedenta depois da estreia no DC500.\n\nNotícia de Magic todo dia em fontedemana.com.br\n\n#edgarmarkov #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
+ "comentario": "Edgar Markov: o comandante de vampiros mais forte ou só o mais famoso?\n\nDo zero à mesa: a série do lote do plástico bolha. O #3 sai no sábado.",
+ "cenas": [
+  {
+   "tipo": "rosto",
+   "cor": "G",
+   "chip": "Do zero à mesa #2",
+   "kicker": "Corte Carmesim",
+   "titulo": "O deck que me fez comprar na gringa",
+   "narracao": "Esse deck me fez comprar carta na gringa.",
+   "gravar": "Segura a carta do Edgar Markov ao lado do rosto, olhando para a câmera, com a estante de cartas no fundo.",
+   "segundos": 3.6
+  },
+  {
+   "tipo": "carta",
+   "cor": "M",
+   "kicker": "O comandante",
+   "carta": "pauta/2026-11-11/tiktok/carta-1.jpg",
+   "titulo": "Edgar Markov",
+   "sub": "52.710 decks no EDHREC",
+   "fonte": "EDHREC, nov 2026",
+   "narracao": "Edgar Markov: todo vampiro que você conjura traz uma ficha.",
+   "segundos": 4.3
+  },
+  {
+   "tipo": "carta",
+   "cor": "B",
+   "chip": "Passo 1",
+   "kicker": "Vampiro barato",
+   "carta": "pauta/2026-11-11/tiktok/carta-2.jpg",
+   "sub": "1 mana e já chega com uma ficha",
+   "narracao": "Passo um: vampiro de uma mana, que já chega com ficha.",
+   "segundos": 4.7
+  },
+  {
+   "tipo": "texto",
+   "cor": "R",
+   "kicker": "Passo 2",
+   "titulo": "O Edgar ataca e o time todo cresce",
+   "sub": "Golpe inicial, ímpeto e +1/+1 em cada vampiro seu a cada ataque",
+   "narracao": "Passo dois: o Edgar ataca e o time todo cresce.",
+   "segundos": 4.3
+  },
+  {
+   "tipo": "carta",
+   "cor": "B",
+   "chip": "Passo 3",
+   "kicker": "Fechar no dreno",
+   "carta": "pauta/2026-11-11/tiktok/carta-3.jpg",
+   "sub": "Cada criatura sua que morre drena a mesa",
+   "narracao": "Passo três: cada um que morre drena a mesa.",
+   "segundos": 3.9
+  },
+  {
+   "tipo": "clipe",
+   "cor": "G",
+   "kicker": "Deck de teste",
+   "titulo": "15 cartas do plástico bolha",
+   "video": "extras/lote/lote-01-bolha.mp4",
+   "narracao": "No teste, 15 cartas vieram do plástico bolha.",
+   "segundos": 3.6
+  },
+  {
+   "tipo": "rosto",
+   "cor": "G",
+   "chip": "Do zero à mesa #3",
+   "kicker": "Sábado",
+   "titulo": "O Rosa Sedenta no DC500",
+   "narracao": "E o deck que nasceu do lote estreia hoje no DC500.",
+   "gravar": "Mostra o deck Rosa Sedenta na mão, com o Vito, Thorn of the Dusk Rose na frente, e fala sorrindo para a câmera.",
+   "segundos": 4.7
+  }
+ ]
+}

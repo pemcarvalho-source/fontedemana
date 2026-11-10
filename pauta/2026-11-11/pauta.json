@@ -1,0 +1,104 @@
+{
+ "data": "2026-11-11",
+ "fx": null,
+ "avisos": [
+  {
+   "id": "gravacao",
+   "dia": "2026-11-10",
+   "hora": "19:15",
+   "rede": "Gravação",
+   "titulo": "Gravar o vídeo de amanhã (você aparece)",
+   "oQue": "Do zero à mesa #2: o Corte Carmesim em três passos. Você aparece nas cenas 1 e 7 (com o Edgar Markov e com o Rosa Sedenta na mão); nas outras, só a voz.",
+   "arquivos": [
+    {
+     "nome": "Vídeo mudo (para ver o ritmo)",
+     "url": "https://fontedemana.com.br/pauta/2026-11-11/tiktok/tiktok-mudo.mp4"
+    }
+   ],
+   "roteiro": [
+    {
+     "cena": "Cena 1, rosto, uns 4 s",
+     "tela": "Corte Carmesim: O deck que me fez comprar na gringa",
+     "fala": "Esse deck me fez comprar carta na gringa.",
+     "como": "Rosto: Segura a carta do Edgar Markov ao lado do rosto, olhando para a câmera, com a estante de cartas no fundo."
+    },
+    {
+     "cena": "Cena 2, só a voz, uns 4 s",
+     "tela": "O comandante: Edgar Markov: 52.710 decks no EDHREC",
+     "fala": "Edgar Markov: todo vampiro que você conjura traz uma ficha.",
+     "como": "Só a voz: pode gravar em vídeo ou áudio"
+    },
+    {
+     "cena": "Cena 3, só a voz, uns 5 s",
+     "tela": "Vampiro barato: Knight of the Ebon Legion: 1 mana e já chega com uma ficha",
+     "fala": "Passo um: vampiro de uma mana, que já chega com ficha.",
+     "como": "Só a voz: pode gravar em vídeo ou áudio"
+    },
+    {
+     "cena": "Cena 4, só a voz, uns 4 s",
+     "tela": "Passo 2: O Edgar ataca e o time todo cresce: Golpe inicial, ímpeto e +1/+1 em cada vampiro seu a cada ataque",
+     "fala": "Passo dois: o Edgar ataca e o time todo cresce.",
+     "como": "Só a voz: pode gravar em vídeo ou áudio"
+    },
+    {
+     "cena": "Cena 5, só a voz, uns 4 s",
+     "tela": "Fechar no dreno: Cruel Celebrant: Cada criatura sua que morre drena a mesa",
+     "fala": "Passo três: cada um que morre drena a mesa.",
+     "como": "Só a voz: pode gravar em vídeo ou áudio"
+    },
+    {
+     "cena": "Cena 6, só a voz, uns 4 s",
+     "tela": "Deck de teste: 15 cartas do plástico bolha",
+     "fala": "No teste, 15 cartas vieram do plástico bolha.",
+     "como": "Só a voz: pode gravar em vídeo ou áudio"
+    },
+    {
+     "cena": "Cena 7, rosto, uns 5 s",
+     "tela": "Sábado: O Rosa Sedenta no DC500",
+     "fala": "E o deck que nasceu do lote estreia hoje no DC500.",
+     "como": "Rosto: Mostra o deck Rosa Sedenta na mão, com o Vito, Thorn of the Dusk Rose na frente, e fala sorrindo para a câmera."
+    }
+   ],
+   "passos": [
+    "Separe a carta do Edgar Markov e o deck Rosa Sedenta com o Vito na frente.",
+    "Celular na vertical, câmera da frente, na altura dos olhos, a um braço de distância.",
+    "Rosto na metade de cima da tela: o título entra embaixo dele, na altura do peito.",
+    "Luz de frente (de frente para a janela) e fundo arrumado; a estante de cartas é ótima.",
+    "Desligue o Vídeo HDR (Ajustes, Câmera, Gravar Vídeo) para as cores não lavarem.",
+    "Um vídeo por cena, falando para a câmera, com meio segundo de silêncio antes e depois; nomeie cena_1, cena_2... e mande todos juntos.",
+    "Nas cenas sem rosto, só a voz conta: pode gravar em vídeo ou só o áudio.",
+    "Grave num lugar silencioso; nas cenas só de voz, celular a um palmo da boca.",
+    "Mande os vídeos ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"vídeos do TikTok de 2026-11-11\"."
+   ]
+  },
+  {
+   "id": "tiktok",
+   "hora": "11:30",
+   "rede": "TikTok",
+   "titulo": "Do zero à mesa #2: o Corte Carmesim em três passos",
+   "oQue": "Vídeo do Corte Carmesim, o deck do Edgar Markov que motivou a compra na gringa, com o plano em três passos e as 15 cartas do plástico bolha no deck de teste.",
+   "arquivos": [
+    {
+     "nome": "Vídeo mudo",
+     "url": "https://fontedemana.com.br/pauta/2026-11-11/tiktok/tiktok-mudo.mp4"
+    }
+   ],
+   "textos": [
+    {
+     "rotulo": "Legenda",
+     "texto": "Deck de Commander de vampiros: o Corte Carmesim, com Edgar Markov, em três passos. Qual comandante de vampiros você levaria pra mesa?\n\nFoi pra completar esse deck que eu comprei cartas na gringa. 81 das 100 já estão comigo, e no deck de teste 15 cartas vieram do plástico bolha.\n\nSábado tem o Do zero à mesa #3, com o Rosa Sedenta depois da estreia no DC500.\n\nNotícia de Magic todo dia em fontedemana.com.br\n\n#edgarmarkov #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+    },
+    {
+     "rotulo": "Comentário fixado",
+     "texto": "Edgar Markov: o comandante de vampiros mais forte ou só o mais famoso?\n\nDo zero à mesa: a série do lote do plástico bolha. O #3 sai no sábado."
+    }
+   ],
+   "passos": [
+    "Poste com um som em alta da biblioteca do TikTok, com volume entre 15% e 20%.",
+    "Voz própria não precisa de rótulo de IA.",
+    "Fixe o comentário logo depois de postar.",
+    "Se os vídeos das cenas não chegarem, poste o vídeo mudo com música em alta."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+  "data": "2026-11-11",
+  "pilar": "zero",
+  "item": null,
+  "tema": "Do zero à mesa #2: Corte Carmesim, o deck de vampiros que começou tudo",
+  "cartas": ["Edgar Markov", "Knight of the Ebon Legion", "Cruel Celebrant", "Blood Artist", "Exquisite Blood", "Teferi's Protection", "Susurian Voidborn", "Gollum the Abandoned", "Cast Out", "Swarm Culler", "Vito, Thorn of the Dusk Rose"],
+  "fx": null,
+  "carrossel": {
+    "capa": {"cor": "M", "chip": "Do zero à mesa #2", "kicker": "Corte Carmesim, Commander", "titulo": "O deck de vampiros que me fez <b>comprar na gringa</b>",
+             "sub": "O deck do Edgar Markov por função, e as <b>15 cartas do plástico bolha</b> que tapam o buraco no teste",
+             "arte": "pauta/2026-11-11/tiktok/arte.jpg", "credito": "Arte: Edgar Markov, Volkan Baǵa"},
+    "cartoes": [
+      {"cor": "M", "titulo": "O comandante", "carta": "pauta/2026-11-11/original/carta-1.jpg",
+       "itens": [{"cor": "M", "html": "Todo outro vampiro que você conjura cria uma ficha 1/1, <b>até com o Edgar na zona de comando</b>."},
+                 {"cor": "R", "html": "Golpe inicial e ímpeto. Quando ataca, põe <b>+1/+1 em cada vampiro seu</b>."}],
+       "fonte": "Fonte: Scryfall e EDHREC (52.710 decks), nov 2026"},
+      {"cor": "B", "titulo": "Os vampiros baratos", "carta": "pauta/2026-11-11/original/carta-2.jpg",
+       "itens": [{"cor": "B", "html": "Custa <b>1 mana</b> e, com o Edgar, já chega com uma ficha: dois corpos no turno 1."},
+                 {"cor": "B", "html": "Depois vira ameaça: pague 3 e ele ganha +3/+3 e toque mortífero."}],
+       "fonte": "Fonte: Scryfall, nov 2026"},
+      {"cor": "B", "titulo": "Para fechar: o dreno", "carta": "pauta/2026-11-11/original/carta-3.jpg",
+       "itens": [{"cor": "W", "html": "Cada criatura sua que morre faz <b>cada oponente perder 1</b> e você ganhar 1."},
+                 {"cor": "B", "html": "Com o Blood Artist e a <b>Exquisite Blood</b>, o dreno vira laço. O combo saiu no Combo da semana #1."}],
+       "fonte": "Fonte: Scryfall, nov 2026"},
+      {"cor": "W", "titulo": "A proteção do time", "carta": "pauta/2026-11-11/original/carta-4.jpg",
+       "itens": [{"cor": "W", "html": "Veio board wipe? Seus permanentes <b>somem até o seu próximo turno</b> e voltam inteiros."},
+                 {"cor": "W", "html": "Sua vida também não muda nesse tempo: dá para segurar a mesa um turno."}],
+       "fonte": "Fonte: Scryfall, nov 2026"},
+      {"cor": "G", "titulo": "O deck de teste", "carta": "pauta/2026-11-11/original/carta-5.jpg",
+       "itens": [{"cor": "G", "html": "<b>81 das 100</b> estão compradas. As 19 que faltam viraram cartas do acervo, só para testar."},
+                 {"cor": "B", "html": "<b>15 vieram do plástico bolha</b>, como o Susurian Voidborn, um vampiro que drena quando algo seu morre."}],
+       "fonte": "Fonte: acervo do Paulo, nov 2026"}
+    ],
+    "cta": {"pergunta": "Qual comandante de vampiros <b>você levaria pra mesa</b>?", "quando": "Sábado: o Rosa Sedenta, deck que nasceu do lote", "salvar": "Salva para montar o seu deck de vampiros pelo mesmo plano"}
+  },
+  "legenda": "Deck de Commander de vampiros com Edgar Markov: o Corte Carmesim, carta por carta. Qual comandante de vampiros você levaria pra mesa?\n\nFoi pra completar esse deck que eu comprei cartas na gringa, e o vendedor mandou 323 de proteção.\n\nO plano: baixar vampiro barato, atacar com o Edgar e fechar no dreno. A Teferi's Protection segura o time contra board wipe.\n\nNo deck de teste, 81 das 100 estão compradas e 15 das 19 que faltam foram tapadas com cartas do plástico bolha.\n\nComo o Edgar é banido como comandante no Duel Commander, do lote nasceu outro deck, o Rosa Sedenta. Sábado tem o Do zero à mesa #3.\n\nTexto das cartas: Scryfall. Decks: EDHREC.\nNotícia de Magic todo dia em fontedemana.com.br\n\n#edgarmarkov #commander #mtg",
+  "threads": {"texto": "Edgar Markov: o comandante de vampiros mais forte do Commander ou só o mais famoso?\n\nDe um lado, ele gera ficha até da zona de comando e cresce o time todo no ataque. Do outro, custa 6 e quase todo deck de vampiro já roda as mesmas cartas.\n\nTô montando o meu, o Corte Carmesim. Quem joga vampiros aí: qual comandante você prefere?", "obs": "Enquete com as duas opções: o mais forte ou só o mais famoso"},
+  "enquete": {"pergunta": "Edgar Markov é o mais forte dos vampiros ou só o mais famoso?", "opcoes": ["O mais forte", "Só o mais famoso"]}
+}
