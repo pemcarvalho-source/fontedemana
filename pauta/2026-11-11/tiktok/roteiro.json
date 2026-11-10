@@ -15,21 +15,21 @@
    "cor": "G",
    "chip": "Do zero à mesa #2",
    "kicker": "Corte Carmesim",
-   "titulo": "O deck que me fez comprar na gringa",
-   "narracao": "Esse deck me fez comprar carta na gringa.",
-   "gravar": "Segura a carta do Edgar Markov ao lado do rosto, olhando para a câmera, com a estante de cartas no fundo.",
-   "segundos": 3.6
+   "titulo": "40 cartas da gringa para um deck só",
+   "narracao": "Comprei 40 cartas na gringa só pra esse deck.",
+   "gravar": "Segura o Edgar Markov e, na outra mão, um leque de cartas do pedido (Exquisite Blood, Teferi's Protection, Skullclamp) para a câmera.",
+   "segundos": 3.9
   },
   {
    "tipo": "carta",
    "cor": "M",
-   "kicker": "O comandante",
+   "kicker": "O segredo do comandante",
    "carta": "pauta/2026-11-11/tiktok/carta-1.jpg",
    "titulo": "Edgar Markov",
-   "sub": "52.710 decks no EDHREC",
-   "fonte": "EDHREC, nov 2026",
-   "narracao": "Edgar Markov: todo vampiro que você conjura traz uma ficha.",
-   "segundos": 4.3
+   "sub": "Da zona de comando, cada vampiro já vem com ficha",
+   "fonte": "Scryfall, nov 2026",
+   "narracao": "O segredo: o Edgar nem precisa entrar. Da zona de comando, cada vampiro já vem com ficha.",
+   "segundos": 6.9
   },
   {
    "tipo": "carta",
@@ -37,9 +37,9 @@
    "chip": "Passo 1",
    "kicker": "Vampiro barato",
    "carta": "pauta/2026-11-11/tiktok/carta-2.jpg",
-   "sub": "1 mana e já chega com uma ficha",
-   "narracao": "Passo um: vampiro de uma mana, que já chega com ficha.",
-   "segundos": 4.7
+   "sub": "1 mana, dois corpos, e o Edgar fica guardado",
+   "narracao": "Passo um: vampiro barato. O Edgar fica guardado.",
+   "segundos": 3.6
   },
   {
    "tipo": "texto",
@@ -47,7 +47,7 @@
    "kicker": "Passo 2",
    "titulo": "O Edgar ataca e o time todo cresce",
    "sub": "Golpe inicial, ímpeto e +1/+1 em cada vampiro seu a cada ataque",
-   "narracao": "Passo dois: o Edgar ataca e o time todo cresce.",
+   "narracao": "Passo dois: o Edgar entra atacando e cresce o time.",
    "segundos": 4.3
   },
   {

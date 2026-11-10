@@ -8,7 +8,7 @@
    "hora": "19:15",
    "rede": "Gravação",
    "titulo": "Gravar o vídeo de amanhã (você aparece)",
-   "oQue": "Do zero à mesa #2: o Corte Carmesim em três passos. Você aparece nas cenas 1 e 7 (com o Edgar Markov e com o Rosa Sedenta na mão); nas outras, só a voz.",
+   "oQue": "Do zero à mesa #2: o Corte Carmesim em três passos. Você aparece nas cenas 1 e 7 (com o Edgar e cartas do pedido na mão, depois com o Rosa Sedenta); nas outras, só a voz.",
    "arquivos": [
     {
      "nome": "Vídeo mudo (para ver o ritmo)",
@@ -18,26 +18,26 @@
    "roteiro": [
     {
      "cena": "Cena 1, rosto, uns 4 s",
-     "tela": "Corte Carmesim: O deck que me fez comprar na gringa",
-     "fala": "Esse deck me fez comprar carta na gringa.",
-     "como": "Rosto: Segura a carta do Edgar Markov ao lado do rosto, olhando para a câmera, com a estante de cartas no fundo."
+     "tela": "Corte Carmesim: 40 cartas da gringa para um deck só",
+     "fala": "Comprei 40 cartas na gringa só pra esse deck.",
+     "como": "Rosto: Segura o Edgar Markov e, na outra mão, um leque de cartas do pedido (Exquisite Blood, Teferi's Protection, Skullclamp) para a câmera."
     },
     {
-     "cena": "Cena 2, só a voz, uns 4 s",
-     "tela": "O comandante: Edgar Markov: 52.710 decks no EDHREC",
-     "fala": "Edgar Markov: todo vampiro que você conjura traz uma ficha.",
+     "cena": "Cena 2, só a voz, uns 7 s",
+     "tela": "O segredo do comandante: Edgar Markov: Da zona de comando, cada vampiro já vem com ficha",
+     "fala": "O segredo: o Edgar nem precisa entrar. Da zona de comando, cada vampiro já vem com ficha.",
      "como": "Só a voz: pode gravar em vídeo ou áudio"
     },
     {
-     "cena": "Cena 3, só a voz, uns 5 s",
-     "tela": "Vampiro barato: Knight of the Ebon Legion: 1 mana e já chega com uma ficha",
-     "fala": "Passo um: vampiro de uma mana, que já chega com ficha.",
+     "cena": "Cena 3, só a voz, uns 4 s",
+     "tela": "Vampiro barato: Knight of the Ebon Legion: 1 mana, dois corpos, e o Edgar fica guardado",
+     "fala": "Passo um: vampiro barato. O Edgar fica guardado.",
      "como": "Só a voz: pode gravar em vídeo ou áudio"
     },
     {
      "cena": "Cena 4, só a voz, uns 4 s",
      "tela": "Passo 2: O Edgar ataca e o time todo cresce: Golpe inicial, ímpeto e +1/+1 em cada vampiro seu a cada ataque",
-     "fala": "Passo dois: o Edgar ataca e o time todo cresce.",
+     "fala": "Passo dois: o Edgar entra atacando e cresce o time.",
      "como": "Só a voz: pode gravar em vídeo ou áudio"
     },
     {
@@ -60,7 +60,7 @@
     }
    ],
    "passos": [
-    "Separe a carta do Edgar Markov e o deck Rosa Sedenta com o Vito na frente.",
+    "Separe o Edgar Markov, algumas cartas do pedido da gringa (Exquisite Blood, Teferi's Protection, Skullclamp) e o deck Rosa Sedenta com o Vito na frente.",
     "Celular na vertical, câmera da frente, na altura dos olhos, a um braço de distância.",
     "Rosto na metade de cima da tela: o título entra embaixo dele, na altura do peito.",
     "Luz de frente (de frente para a janela) e fundo arrumado; a estante de cartas é ótima.",
