@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-11-08-gravacao@fontedemana.com.br
-DTSTAMP:20261111T094712Z
+DTSTAMP:20261111T102113Z
 DTSTART:20261107T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -60,7 +60,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-08-tiktok@fontedemana.com.br
-DTSTAMP:20261111T094712Z
+DTSTAMP:20261111T102113Z
 DTSTART:20261108T210000Z
 DURATION:PT15M
 SUMMARY:18:00 TikTok: Postar o TikTok: Toda mesa tem um #2
@@ -94,7 +94,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-08-threads-manha@fontedemana.com.br
-DTSTAMP:20261111T094712Z
+DTSTAMP:20261111T102113Z
 DTSTART:20261108T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Toda mesa tem um #2: o que jura que o deck 
@@ -118,7 +118,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-08-feed@fontedemana.com.br
-DTSTAMP:20261111T094712Z
+DTSTAMP:20261111T102113Z
 DTSTART:20261108T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Toda mesa tem um #2: o que jura que o deck é
@@ -161,7 +161,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-08-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261111T094712Z
+DTSTAMP:20261111T102113Z
 DTSTART:20261108T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -180,7 +180,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-08-stories-tarde@fontedemana.com.br
-DTSTAMP:20261111T094712Z
+DTSTAMP:20261111T102113Z
 DTSTART:20261108T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -200,7 +200,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-08-reels@fontedemana.com.br
-DTSTAMP:20261111T094712Z
+DTSTAMP:20261111T102113Z
 DTSTART:20261108T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Toda mesa tem um #2: o que jura que o
@@ -239,7 +239,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-08-comentarios@fontedemana.com.br
-DTSTAMP:20261111T094712Z
+DTSTAMP:20261111T102113Z
 DTSTART:20261109T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -261,7 +261,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-09-gravacao@fontedemana.com.br
-DTSTAMP:20261111T094712Z
+DTSTAMP:20261111T102113Z
 DTSTART:20261108T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -311,7 +311,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-09-stories-lote@fontedemana.com.br
-DTSTAMP:20261111T094712Z
+DTSTAMP:20261111T102113Z
 DTSTART:20261109T210000Z
 DURATION:PT15M
 SUMMARY:18:00 Instagram Stories: Quadro do lote com enquete
@@ -332,7 +332,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-09-tiktok@fontedemana.com.br
-DTSTAMP:20261111T094712Z
+DTSTAMP:20261111T102113Z
 DTSTART:20261109T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Do zero à mesa #1: o plástico bolha do Corte Carmes
@@ -367,7 +367,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-09-threads-manha@fontedemana.com.br
-DTSTAMP:20261111T094712Z
+DTSTAMP:20261111T102113Z
 DTSTART:20261109T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Chama o Juiz #5: Kessig Wolf Run entra num d
@@ -392,7 +392,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-09-feed@fontedemana.com.br
-DTSTAMP:20261111T094712Z
+DTSTAMP:20261111T102113Z
 DTSTART:20261109T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Chama o Juiz #5: Kessig Wolf Run entra num de
@@ -430,7 +430,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-09-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261111T094712Z
+DTSTAMP:20261111T102113Z
 DTSTART:20261109T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -449,7 +449,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-09-stories-tarde@fontedemana.com.br
-DTSTAMP:20261111T094712Z
+DTSTAMP:20261111T102113Z
 DTSTART:20261109T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -469,7 +469,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-09-reels@fontedemana.com.br
-DTSTAMP:20261111T094712Z
+DTSTAMP:20261111T102113Z
 DTSTART:20261109T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Do zero à mesa #1: comprei pro Corte
@@ -508,7 +508,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-09-comentarios@fontedemana.com.br
-DTSTAMP:20261111T094712Z
+DTSTAMP:20261111T102113Z
 DTSTART:20261110T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -530,7 +530,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-10-gravacao@fontedemana.com.br
-DTSTAMP:20261111T094712Z
+DTSTAMP:20261111T102113Z
 DTSTART:20261109T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -582,7 +582,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-10-tiktok@fontedemana.com.br
-DTSTAMP:20261111T094712Z
+DTSTAMP:20261111T102113Z
 DTSTART:20261110T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o TikTok: o que é ramp
@@ -612,7 +612,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-10-anuncio-dragoes@fontedemana.com.br
-DTSTAMP:20261111T094712Z
+DTSTAMP:20261111T102113Z
 DTSTART:20261110T223000Z
 DURATION:PT15M
 SUMMARY:19:30 Reels: Impulsionar o Reels do Top 5 dos dragões (5/11)
@@ -636,7 +636,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-10-threads-manha@fontedemana.com.br
-DTSTAMP:20261111T094712Z
+DTSTAMP:20261111T102113Z
 DTSTART:20261110T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Dicionário do Commander #7: o que é ramp
@@ -660,7 +660,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-10-feed@fontedemana.com.br
-DTSTAMP:20261111T094712Z
+DTSTAMP:20261111T102113Z
 DTSTART:20261110T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Dicionário do Commander #7: o que é ramp
@@ -699,7 +699,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-10-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261111T094712Z
+DTSTAMP:20261111T102113Z
 DTSTART:20261110T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -718,7 +718,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-10-stories-tarde@fontedemana.com.br
-DTSTAMP:20261111T094712Z
+DTSTAMP:20261111T102113Z
 DTSTART:20261110T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -738,7 +738,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-10-reels@fontedemana.com.br
-DTSTAMP:20261111T094712Z
+DTSTAMP:20261111T102113Z
 DTSTART:20261110T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Dicionário do Commander #7: o que é
@@ -777,7 +777,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-10-reels-teste@fontedemana.com.br
-DTSTAMP:20261111T094712Z
+DTSTAMP:20261111T102113Z
 DTSTART:20261110T214000Z
 DURATION:PT15M
 SUMMARY:18:40 Reels: Reel de teste: o vídeo de hoje com o gancho B
@@ -817,7 +817,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-10-comentarios@fontedemana.com.br
-DTSTAMP:20261111T094712Z
+DTSTAMP:20261111T102113Z
 DTSTART:20261111T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -839,7 +839,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-11-gravacao@fontedemana.com.br
-DTSTAMP:20261111T094712Z
+DTSTAMP:20261111T102113Z
 DTSTART:20261110T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -897,33 +897,200 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-11-tiktok@fontedemana.com.br
-DTSTAMP:20261111T094712Z
+DTSTAMP:20261111T102113Z
 DTSTART:20261111T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Do zero à mesa #2: o Corte Carmesim em três passos
 DESCRIPTION:Vídeo do Corte Carmesim\, o deck do Edgar Markov que motivou a
   compra na gringa\, com o plano em três passos e as 15 cartas do plástic
- o bolha no deck de teste.\n\nArquivos:\n- Vídeo narrado: https://fontedem
- ana.com.br/pauta/2026-11-11/tiktok/tiktok-narrado.mp4\n\nLegenda:\nDeck de
-  Commander de vampiros: o Corte Carmesim\, com Edgar Markov\, em três pas
- sos. Qual comandante de vampiros você levaria pra mesa?\n\nFoi pra comple
- tar esse deck que eu comprei cartas na gringa. 81 das 100 já estão comig
- o\, e no deck de teste 15 cartas vieram do plástico bolha.\n\nSábado tem
-  o Do zero à mesa #3\, com o Rosa Sedenta depois da estreia no DC500.\n\n
- Notícia de Magic todo dia em fontedemana.com.br\n\n#edgarmarkov #commande
- r #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan 
- Content Policy. Not approved/endorsed by Wizards. Portions of the material
- s used are property of Wizards of the Coast. ©Wizards of the Coast LLC.\n
- \nComentário fixado:\nEdgar Markov: o comandante de vampiros mais forte o
- u só o mais famoso?\n\nDo zero à mesa: a série do lote do plástico bol
- ha. O #3 sai no sábado.\n\nPasso a passo:\n1. Poste com um som em alta da
-  biblioteca do TikTok\, com volume entre 15% e 20%.\n2. Voz própria não 
- precisa de rótulo de IA.\n3. Fixe o comentário logo depois de postar.\n\
- nPauta completa: https://fontedemana.com.br/pauta/2026-11-11/#tiktok
+ o bolha no deck de teste.\n\nArquivos:\n- Vídeo do TikTok narrado: https:
+ //fontedemana.com.br/pauta/2026-11-11/tiktok/tiktok-narrado.mp4\n\nLegenda
+ :\nDeck de Commander de vampiros: o Corte Carmesim\, com Edgar Markov\, em
+  três passos. Qual comandante de vampiros você levaria pra mesa?\n\nFoi 
+ pra completar esse deck que eu comprei cartas na gringa. 81 das 100 já es
+ tão comigo\, e no deck de teste 15 cartas vieram do plástico bolha.\n\nS
+ ábado tem o Do zero à mesa\, com o Rosa Sedenta depois da estreia no DC5
+ 00.\n\nNotícia de Magic todo dia em fontedemana.com.br\n\nFonte de Mana i
+ s unofficial Fan Content permitted under the Fan Content Policy. Not appro
+ ved/endorsed by Wizards. Portions of the materials used are property of Wi
+ zards of the Coast. ©Wizards of the Coast LLC.\n\nComentário fixado:\nEd
+ gar Markov: o comandante de vampiros mais forte ou só o mais famoso?\n\nD
+ o zero à mesa: a série do lote do plástico bolha. O #3 sai no sábado.\
+ n\nPasso a passo:\n1. Poste com um som em alta da biblioteca do TikTok\, c
+ om volume entre 15% e 20%.\n2. Voz própria não precisa de rótulo de IA.
+ \n3. Fixe o comentário logo depois de postar.\n\nPauta completa: https://
+ fontedemana.com.br/pauta/2026-11-11/#tiktok
 URL:https://fontedemana.com.br/pauta/2026-11-11/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:TikTok: Do zero à mesa #2: o Corte Carmesim em três passos
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-11-threads-manha@fontedemana.com.br
+DTSTAMP:20261111T102113Z
+DTSTART:20261111T133000Z
+DURATION:PT15M
+SUMMARY:10:30 Threads: Debate: Do zero à mesa #2: Corte Carmesim\, o deck 
+ de vampiros que…
+DESCRIPTION:Post de debate do conteúdo original de hoje (Do zero à mesa) 
+ para puxar conversa.\n\nPost:\nEdgar Markov: o comandante de vampiros mais
+  forte do Commander ou só o mais famoso?\n\nDe um lado\, ele gera ficha a
+ té da zona de comando e cresce o time todo no ataque. Do outro\, custa 6 
+ e quase todo deck de vampiro já roda as mesmas cartas.\n\nTô montando o 
+ meu\, o Corte Carmesim. Quem joga vampiros aí: qual comandante você pref
+ ere?\n\nPasso a passo:\n1. Abra o Threads e cole o Post.\n2. Dica: Enquete
+  com as duas opções: o mais forte ou só o mais famoso\n3. Toque em Adic
+ ionar tópico e escolha MTG.\n4. Publique e responda quem comentar na prim
+ eira hora.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-11/
+ #threads-manha
+URL:https://fontedemana.com.br/pauta/2026-11-11/#threads-manha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Debate: Do zero à mesa #2: Corte Carmesim\, o deck de
+  vampiros que…
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-11-feed@fontedemana.com.br
+DTSTAMP:20261111T102113Z
+DTSTART:20261111T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram feed: Do zero à mesa #2: Corte Carmesim\, o deck d
+ e vampiros que começou tudo
+DESCRIPTION:Carrossel original de 7 imagens (Do zero à mesa): Do zero à m
+ esa #2: Corte Carmesim\, o deck de vampiros que começou tudo. Feito para 
+ salvar e compartilhar.\n\nArquivos:\n- Imagem 1 de 7: https://fontedemana.
+ com.br/pauta/2026-11-11/original/carrossel-01.jpg\n- Imagem 2 de 7: https:
+ //fontedemana.com.br/pauta/2026-11-11/original/carrossel-02.jpg\n- Imagem 
+ 3 de 7: https://fontedemana.com.br/pauta/2026-11-11/original/carrossel-03.
+ jpg\n- Imagem 4 de 7: https://fontedemana.com.br/pauta/2026-11-11/original
+ /carrossel-04.jpg\n- Imagem 5 de 7: https://fontedemana.com.br/pauta/2026-
+ 11-11/original/carrossel-05.jpg\n- Imagem 6 de 7: https://fontedemana.com.
+ br/pauta/2026-11-11/original/carrossel-06.jpg\n- Imagem 7 de 7: https://fo
+ ntedemana.com.br/pauta/2026-11-11/original/carrossel-07.jpg\n\nLegenda:\nD
+ eck de Commander de vampiros com Edgar Markov: o Corte Carmesim\, carta po
+ r carta. Qual comandante de vampiros você levaria pra mesa?\n\nFoi pra co
+ mpletar esse deck que eu comprei cartas na gringa\, e o vendedor mandou 32
+ 3 de proteção.\n\nO plano: baixar vampiro barato\, atacar com o Edgar e 
+ fechar no dreno. A Teferi's Protection segura o time contra board wipe.\n\
+ nNo deck de teste\, 81 das 100 estão compradas e 15 das 19 que faltam for
+ am tapadas com cartas do plástico bolha.\n\nComo o Edgar é banido como c
+ omandante no Duel Commander\, do lote nasceu outro deck\, o Rosa Sedenta. 
+ Sábado tem o Do zero à mesa.\n\nTexto das cartas: Scryfall. Decks: EDHRE
+ C.\nNotícia de Magic todo dia em fontedemana.com.br\n\nFonte de Mana is u
+ nofficial Fan Content permitted under the Fan Content Policy. Not approved
+ /endorsed by Wizards. Portions of the materials used are property of Wizar
+ ds of the Coast. ©Wizards of the Coast LLC.\n\nPasso a passo:\n1. No Inst
+ agram\, toque em + e escolha Post.\n2. Selecione as 7 imagens na ordem\, d
+ a 1 à 7.\n3. Toque em Adicionar música e escolha uma em alta que combine
+  com o tema.\n4. Cole a Legenda e publique.\n\nPauta completa: https://fon
+ tedemana.com.br/pauta/2026-11-11/#feed
+URL:https://fontedemana.com.br/pauta/2026-11-11/#feed
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram feed: Do zero à mesa #2: Corte Carmesim\, o deck de 
+ vampiros que começou tudo
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-11-stories-meio-dia@fontedemana.com.br
+DTSTAMP:20261111T102113Z
+DTSTART:20261111T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
+DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
+ .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
+ e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
+ o do post: Edgar Markov é o mais forte dos vampiros ou só o mais famoso?
+  com O mais forte e Só o mais famoso.\n3. Publique.\n\nPauta completa: ht
+ tps://fontedemana.com.br/pauta/2026-11-11/#stories-meio-dia
+URL:https://fontedemana.com.br/pauta/2026-11-11/#stories-meio-dia
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-11-stories-tarde@fontedemana.com.br
+DTSTAMP:20261111T102113Z
+DTSTART:20261111T180000Z
+DURATION:PT15M
+SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
+DESCRIPTION:Story com a imagem de Jace\, Multiverse Architect no Topdeck do
+  Dia e o sticker de link para a edição completa.\n\nArquivos:\n- Topdeck
+  do Dia: https://fontedemana.com.br/kit/ed37/carrossel-03.jpg\n\nPasso a p
+ asso:\n1. Baixe a imagem e poste no Story.\n2. Adicione o sticker de Link 
+ para fontedemana.com.br com o texto Edição completa\, embaixo do texto d
+ o Topdeck.\n3. Publique.\n\nPauta completa: https://fontedemana.com.br/pau
+ ta/2026-11-11/#stories-tarde
+URL:https://fontedemana.com.br/pauta/2026-11-11/#stories-tarde
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Topdeck do Dia com link
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-11-reels@fontedemana.com.br
+DTSTAMP:20261111T102113Z
+DTSTART:20261111T220000Z
+DURATION:PT15M
+SUMMARY:19:00 Reels: Vídeo original: Do zero à mesa #2: Corte Carmesim\, 
+ o deck de…
+DESCRIPTION:O vídeo original de hoje no Instagram\, o mesmo arquivo do Tik
+ Tok\, já narrado. É o formato que mais chega a quem não segue.\n\nArqui
+ vos:\n- Vídeo original narrado: https://fontedemana.com.br/pauta/2026-11-
+ 11/tiktok/tiktok-narrado.mp4\n\nLegenda:\nDeck de Commander de vampiros: o
+  Corte Carmesim\, com Edgar Markov\, em três passos. Qual comandante de v
+ ampiros você levaria pra mesa?\n\nFoi pra completar esse deck que eu comp
+ rei cartas na gringa. 81 das 100 já estão comigo\, e no deck de teste 15
+  cartas vieram do plástico bolha.\n\nSábado tem o Do zero à mesa\, com 
+ o Rosa Sedenta depois da estreia no DC500.\n\nNotícia de Magic todo dia e
+ m fontedemana.com.br\n\nFonte de Mana is unofficial Fan Content permitted 
+ under the Fan Content Policy. Not approved/endorsed by Wizards. Portions o
+ f the materials used are property of Wizards of the Coast. ©Wizards of th
+ e Coast LLC.\n\nComentário fixado:\nEdgar Markov: o comandante de vampiro
+ s mais forte ou só o mais famoso?\n\nDo zero à mesa: a série do lote do
+  plástico bolha. O #3 sai no sábado.\n\nPasso a passo:\n1. No Instagram\
+ , toque em + e escolha Reel.\n2. Escolha o vídeo baixado daqui\, nunca o 
+ salvo do TikTok (o Instagram derruba vídeo com marca d'água).\n3. Em Áu
+ dio\, ponha uma música em alta da biblioteca do Instagram com volume baix
+ o (uns 10%)\, sem cobrir a voz.\n4. Na capa\, use o primeiro quadro\, o do
+  gancho.\n5. Cole a Legenda e publique.\n6. Fixe o comentário e responda 
+ quem comentar na primeira hora.\n\nPauta completa: https://fontedemana.com
+ .br/pauta/2026-11-11/#reels
+URL:https://fontedemana.com.br/pauta/2026-11-11/#reels
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reels: Vídeo original: Do zero à mesa #2: Corte Carmesim\, o 
+ deck de…
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-11-comentarios@fontedemana.com.br
+DTSTAMP:20261111T102113Z
+DTSTART:20261112T003000Z
+DURATION:PT15M
+SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
+DESCRIPTION:Uns 10 minutos nas três redes: curtir e responder os comentár
+ ios das últimas 48 horas\, começando pelo vídeo e pelo carrossel de hoj
+ e. Conversa nos comentários leva a peça a mais gente\, e o Instagram rec
+ omenda responder em até 2 dias.\n\nPasso a passo:\n1. Instagram: nas noti
+ ficações\, curta os comentários e responda com uma frase quem perguntou
+  ou discordou.\n2. TikTok e Threads: o mesmo\, começando pelo post com ma
+ is comentários.\n3. Pergunta boa ou dúvida que se repete\, nos comentár
+ ios ou nas DMs? Mande na conversa do projeto: vira tema de um pilar.\n\nPa
+ uta completa: https://fontedemana.com.br/pauta/2026-11-11/#comentarios
+URL:https://fontedemana.com.br/pauta/2026-11-11/#comentarios
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Comentários: Responder os comentários de hoje e de ontem
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
