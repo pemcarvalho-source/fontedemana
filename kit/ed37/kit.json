@@ -1,0 +1,99 @@
+{
+ "n": 37,
+ "data": "11 nov",
+ "carrossel": {
+  "capa": {
+   "cor": "U",
+   "titulo": "Quarta calma, Star Trek na sexta",
+   "sub": "Nenhum fato novo nesta quarta. Na sexta, <b>Star Trek chega às lojas</b> e o Mystery Booster Commander passa a valer no Commander.",
+   "credito": "Arte: Meditate, Susan Van Camp"
+  },
+  "cartoes": [
+   {
+    "cor": "W",
+    "titulo": "O que vem nos próximos dias",
+    "itens": [
+     {"cor": "G", "html": "<b>13 nov</b>: Star Trek chega às lojas e começa a MagicCon: Atlanta."},
+     {"cor": "U", "html": "<b>13 nov</b>: cartas do Mystery Booster Commander passam a valer no Commander."},
+     {"cor": "A", "html": "<b>16 a 30 nov</b>: venda do Secret Lair do Extra Life."},
+     {"cor": "W", "html": "<b>20 a 26 nov</b>: primeira rodada da Festa de Commander de Star Trek."}
+    ],
+    "fonte": "Fontes: Wizards e WPN"
+   }
+  ],
+  "topdeck": {
+   "titulo": "Jace, Multiverse Architect",
+   "habilidades": [
+    {"rotulo": "Pedágio de 2", "texto": "Oponente paga 2 manas ou não pode atacar seus Jaces naquele turno."},
+    {"rotulo": "Compra filtrada", "texto": "O +1 compra dois cards e devolve um da mão para o fundo."},
+    {"rotulo": "Troca às cegas", "texto": "O −3 troca uma criatura sua pela primeira criatura do topo."}
+   ],
+   "extra": "Comandante mais montado da semana, com <b>2,14 mil decks</b> no EDHREC. Sai a US$ 0,95 (R$ 5,24). PTAX de 9 nov.",
+   "credito": "Ilustração de Volkan Baǵa"
+  },
+  "ban": {
+   "numero": "19",
+   "unidade": "DIAS",
+   "texto": "Próxima janela de banimentos em 30 de novembro. A de 12 de outubro passou sem mexer no Commander."
+  },
+  "turnos": [
+   {"cor": "G", "data": "13 nov", "texto": "Star Trek chega às lojas"},
+   {"cor": "A", "data": "16 a 30 nov", "texto": "Secret Lair do Extra Life à venda"},
+   {"cor": "W", "data": "20 a 26 nov", "texto": "Festa de Commander de Star Trek"},
+   {"cor": "B", "data": "30 nov", "texto": "Próxima janela de banimentos"}
+  ],
+  "sussurro": null
+ },
+ "video": {
+  "cena1": {
+   "titulo": "Quarta calma, Star Trek na sexta",
+   "pilulas": ["Star Trek no dia 13", "MagicCon: Atlanta", "Topdeck de 4 cores"]
+  },
+  "cena2": {
+   "rotulo": "Agenda",
+   "cor": "W",
+   "titulo": "O que vem nos próximos dias",
+   "itens": [
+    "Sexta, 13 nov: Star Trek chega às lojas.",
+    "Sexta, 13 nov: Mystery Booster Commander vale no Commander.",
+    "De 16 a 30 nov: Secret Lair do Extra Life à venda."
+   ],
+   "fonte": "Fontes: Wizards e WPN"
+  },
+  "cena3": {
+   "linhas": [
+    "<b>Jace, Multiverse Architect</b> troca ficha por carta grande.",
+    "É o comandante mais montado da semana no EDHREC.",
+    "E custa menos de 1 dólar."
+   ]
+  },
+  "cena4": {
+   "texto": "Faltam 19 dias para a próxima janela de banimentos. Antes, Star Trek chega às lojas em 13 de novembro.",
+   "sussurro": null
+  }
+ },
+ "textos": {
+  "legendaCarrossel": "Commander de Magic nesta quarta: nenhum fato novo, e na sexta Star Trek chega às lojas.\n\nNo dia 13 começa a MagicCon: Atlanta e as cartas do Mystery Booster Commander passam a valer no Commander. De 16 a 30 de novembro sai o Secret Lair do Extra Life, e de 20 a 26 rola a primeira rodada da Festa de Commander de Star Trek.\n\nNo Topdeck, Jace, Multiverse Architect, o planeswalker de quatro cores que cobra pedágio de quem quer atacar ele, compra filtrando e troca uma criatura sua pela primeira criatura ou planeswalker do topo do grimório. É o comandante mais montado da semana no EDHREC, com 2,14 mil decks, e sai a US$ 0,95 (R$ 5,24).\n\nQual criatura você mais queria achar no −3 do Jace?\n\nEdição completa em fontedemana.com.br\n\nArtes: Meditate, de Susan Van Camp. Jace, Multiverse Architect, de Volkan Baǵa.\nValores em reais pela cotação de 9 nov (Banco Central, PTAX).\n\n#startrek #commander #mtg",
+  "legendaVideo": "Commander de Magic nesta quarta: Star Trek nas lojas na sexta, Mystery Booster Commander valendo no dia 13 e o Jace, Multiverse Architect no Topdeck.\n\nQual criatura você mais queria achar no −3 do Jace?\n\nEdição completa em fontedemana.com.br\n\n#startrek #commander #mtg",
+  "threadsPost": "Quarta calma no Commander. Na sexta, dia 13, Star Trek chega às lojas e as cartas do Mystery Booster Commander passam a valer. No Topdeck, Jace, Multiverse Architect, o comandante mais montado da semana no EDHREC, com 2,14 mil decks, a US$ 0,95 (R$ 5,24). Você jogaria de Jace em quatro cores? fontedemana.com.br\nValores em reais pela cotação de 9 nov (Banco Central, PTAX).",
+  "threadsFio": [
+   "Quarta sem fato novo confirmado sobre Commander. A semana esquenta na sexta.",
+   "Sexta, 13 de novembro, Star Trek chega às lojas e começa a MagicCon: Atlanta. No mesmo dia, as cartas do Mystery Booster Commander passam a valer no Commander.",
+   "De 16 a 30 de novembro sai o Secret Lair do Extra Life. De 20 a 26 rola a primeira rodada da Festa de Commander de Star Trek. E a próxima janela de banimentos é em 30 de novembro.",
+   "No Topdeck, Jace, Multiverse Architect: cobra 2 manas de quem quer atacar ele, compra dois e devolve um, e o −3 troca uma criatura sua pela primeira criatura ou planeswalker do topo. É o comandante mais montado da semana no EDHREC e sai a US$ 0,95 (R$ 5,24). Edição completa em fontedemana.com.br\nValores em reais pela cotação de 9 nov (Banco Central, PTAX)."
+  ],
+  "threadsAvulsos": [
+   {
+    "titulo": "Pergunta do dia",
+    "texto": "Jace, Multiverse Architect no comando: você enche o deck de fichas para trocar no −3 ou vai de criaturas grandes para acertar sempre?",
+    "obs": "Pergunta aberta, sem enquete"
+   }
+  ]
+ },
+ "pauta": {
+  "forca": "calmo",
+  "porque": "Quarta sem fato novo sobre Commander; Star Trek e o Mystery Booster Commander no dia 13 já estavam na agenda.",
+  "storyPergunta": "Qual criatura você queria achar no −3 do Jace?",
+  "enquete": {"pergunta": "Vai abrir Star Trek no lançamento?", "opcoes": ["Vou sim", "Só olhando", "Passo essa"]}
+ }
+}
