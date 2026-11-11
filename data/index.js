@@ -1,6 +1,7 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "Jace, Multiverse Architect",
   "K'rrik, Son of Yawgmoth",
   "Kambal, Profiteering Mayor",
   "Giada, Font of Hope",
@@ -35,6 +36,13 @@ window.MANA_POOL_INDEX = {
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 37,
+   "date": "2026-11-11",
+   "dateLabel": "Quarta, 11 de novembro de 2026",
+   "head": "Dia calmo no Multiverso",
+   "biome": "U"
+  },
   {
    "n": 36,
    "date": "2026-11-10",
@@ -243,13 +251,6 @@ window.MANA_POOL_INDEX = {
    "date": "2026-10-12",
    "dateLabel": "Segunda, 12 de outubro de 2026",
    "head": "Corn Maze Superdrop abre hoje às 13h com Wort, Trinisphere e Swan Song",
-   "biome": "A"
-  },
-  {
-   "n": 6,
-   "date": "2026-10-11",
-   "dateLabel": "Domingo, 11 de outubro de 2026",
-   "head": "Secret Lair Countdown Kit da Marvel custa US$ 199,99 e abre venda em 2 de novembro",
    "biome": "A"
   }
  ]
