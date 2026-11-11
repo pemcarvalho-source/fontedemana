@@ -1,0 +1,90 @@
+{
+ "data": "2026-11-12",
+ "pilar": "top5",
+ "tema": "Top 5 #6: os terrenos que entram em qualquer deck de Commander",
+ "item": "Terrenos que todo deck de Commander deveria ter",
+ "arte": "pauta/2026-11-12/tiktok/arte.jpg",
+ "carta": "pauta/2026-11-12/tiktok/carta.jpg",
+ "credito": "Arte: Reliquary Tower, Jesper Ejsing",
+ "fx": "Reais pela cotação de 9 nov (Banco Central, PTAX)",
+ "legenda": "Terrenos de Commander: 5 que entram em qualquer deck, e os cinco juntos custam US$ 5,72 (R$ 31,54). Qual seria a sua número 1?\n\nExotic Orchard, Reliquary Tower, Path of Ancestry, Rogue's Passage e Myriad Landscape. Nenhum pede cor, então servem do mono verde ao cinco cores.\n\nDecks pelo EDHREC, preços pelo Scryfall, nov 2026. Valores em reais pela cotação de 9 nov (Banco Central, PTAX).\n\nMais em fontedemana.com.br\n\n#terrenos #commander #mtg",
+ "comentario": "Faltou algum? Qual seria a sua número 1: Exotic Orchard, Reliquary Tower, Path of Ancestry, Rogue's Passage ou Myriad Landscape? Toda quinta tem um Top 5 novo.",
+ "cenas": [
+  {
+   "tipo": "rosto",
+   "cor": "A",
+   "chip": "Top 5 #6",
+   "kicker": "Todos juntos, uns 32 reais",
+   "titulo": "5 terrenos para qualquer deck",
+   "sub": "Os cinco: US$ 5,72 (R$ 31,54)",
+   "narracao": "Cinco terrenos para qualquer deck, por menos de 32 reais.",
+   "gravar": "Segura cinco terrenos em leque na mão, de frente para a câmera, e mostra o leque na palavra cinco",
+   "segundos": 4.3
+  },
+  {
+   "tipo": "carta",
+   "cor": "A",
+   "chip": "#5",
+   "kicker": "Em 1,39 milhão de decks",
+   "carta": "pauta/2026-11-12/tiktok/carta-5.jpg",
+   "valor": "US$ 0,37",
+   "real": "(R$ 2,04)",
+   "sub": "Vira dois terrenos básicos",
+   "fonte": "EDHREC e Scryfall, nov 2026",
+   "narracao": "Cinco, Myriad Landscape. Você sacrifica e busca dois terrenos básicos.",
+   "segundos": 4.3
+  },
+  {
+   "tipo": "carta",
+   "cor": "A",
+   "chip": "#4",
+   "kicker": "Em 2,08 milhões de decks",
+   "carta": "pauta/2026-11-12/tiktok/carta-4.jpg",
+   "valor": "US$ 0,43",
+   "real": "(R$ 2,37)",
+   "sub": "Seu comandante passa sem bloqueio",
+   "fonte": "EDHREC e Scryfall, nov 2026",
+   "narracao": "Quatro, Rogue's Passage. Paga quatro e o comandante passa sem ser bloqueado.",
+   "segundos": 5
+  },
+  {
+   "tipo": "carta",
+   "cor": "A",
+   "chip": "#3",
+   "kicker": "Em 2,33 milhões de decks",
+   "carta": "pauta/2026-11-12/tiktok/carta-3.jpg",
+   "valor": "US$ 0,18",
+   "real": "(R$ 0,99)",
+   "sub": "Qualquer cor do seu comandante",
+   "fonte": "EDHREC e Scryfall, nov 2026",
+   "narracao": "Três, Path of Ancestry. Dá qualquer cor do comandante e ainda olha o topo.",
+   "segundos": 5.8
+  },
+  {
+   "tipo": "carta",
+   "cor": "A",
+   "chip": "#2",
+   "kicker": "Em 3,07 milhões de decks",
+   "carta": "pauta/2026-11-12/tiktok/carta-2.jpg",
+   "valor": "US$ 4,49",
+   "real": "(R$ 24,76)",
+   "sub": "Mão sem limite, nada de descartar",
+   "fonte": "EDHREC e Scryfall, nov 2026",
+   "narracao": "Dois, Reliquary Tower. Compra o quanto quiser e não descarta no fim do turno.",
+   "segundos": 5.8
+  },
+  {
+   "tipo": "carta",
+   "cor": "A",
+   "chip": "#1",
+   "kicker": "Em 3,89 milhões de decks",
+   "carta": "pauta/2026-11-12/tiktok/carta-1.jpg",
+   "valor": "US$ 0,25",
+   "real": "(R$ 1,38)",
+   "sub": "As cores dos terrenos da mesa",
+   "fonte": "EDHREC e Scryfall, nov 2026",
+   "narracao": "E o número um, Exotic Orchard. Gera as cores que os oponentes têm. Faltou algum?",
+   "segundos": 6.2
+  }
+ ]
+}

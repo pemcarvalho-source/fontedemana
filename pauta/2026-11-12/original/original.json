@@ -1,0 +1,42 @@
+{
+  "data": "2026-11-12",
+  "pilar": "top5",
+  "item": "Terrenos que todo deck de Commander deveria ter",
+  "tema": "Top 5 #6: os terrenos que entram em qualquer deck de Commander",
+  "cartas": ["Exotic Orchard", "Reliquary Tower", "Path of Ancestry", "Rogue's Passage", "Myriad Landscape"],
+  "fx": "Valores em reais pela cotação de 9 nov (Banco Central, PTAX).",
+  "carrossel": {
+    "capa": {"cor": "A", "chip": "Top 5 #6", "kicker": "Terrenos de Commander",
+             "titulo": "<b>5 terrenos</b> que entram em qualquer deck",
+             "sub": "Nenhum pede cor, e os cinco juntos saem por <b>US$ 5,72 (R$ 31,54)</b>. Qual é o primeiro da sua lista?",
+             "arte": "pauta/2026-11-12/tiktok/arte.jpg", "credito": "Arte: Reliquary Tower, Jesper Ejsing"},
+    "cartoes": [
+      {"cor": "A", "titulo": "#5 Myriad Landscape", "carta": "pauta/2026-11-12/original/carta-5.jpg",
+       "itens": [{"cor": "A", "html": "<b>1,39 milhão</b> de decks. Entra virado; com 2 manas, você sacrifica e põe dois básicos do mesmo tipo."},
+                 {"cor": "A", "html": "<b>US$ 0,37 (R$ 2,04)</b>. Ramp de terreno até para quem não joga verde."}],
+       "fx": "Reais pela cotação de 9 nov (Banco Central, PTAX).",
+       "fonte": "Fonte: EDHREC e Scryfall, nov 2026"},
+      {"cor": "A", "titulo": "#4 Rogue's Passage", "carta": "pauta/2026-11-12/original/carta-4.jpg",
+       "itens": [{"cor": "A", "html": "<b>2,08 milhões</b> de decks. Pague 4 e vire o terreno: uma criatura não pode ser bloqueada no turno."},
+                 {"cor": "A", "html": "<b>US$ 0,43 (R$ 2,37)</b>. É o jeito de fechar o dano de comandante."}],
+       "fonte": "Fonte: EDHREC e Scryfall, nov 2026"},
+      {"cor": "A", "titulo": "#3 Path of Ancestry", "carta": "pauta/2026-11-12/original/carta-3.jpg",
+       "itens": [{"cor": "A", "html": "<b>2,33 milhões</b> de decks. Entra virado e gera qualquer cor do seu comandante."},
+                 {"cor": "A", "html": "<b>US$ 0,18 (R$ 0,99)</b>. Criatura com o tipo do comandante? Você olha o topo (scry 1)."}],
+       "fonte": "Fonte: EDHREC e Scryfall, nov 2026"},
+      {"cor": "A", "titulo": "#2 Reliquary Tower", "carta": "pauta/2026-11-12/original/carta-2.jpg",
+       "itens": [{"cor": "A", "html": "<b>3,07 milhões</b> de decks. Sua mão não tem limite: no fim do turno, você não descarta nada."},
+                 {"cor": "A", "html": "<b>US$ 4,49 (R$ 24,76)</b>. A mais cara da lista, e a que deck de compra mais pede."}],
+       "fonte": "Fonte: EDHREC e Scryfall, nov 2026"},
+      {"cor": "A", "titulo": "#1 Exotic Orchard", "carta": "pauta/2026-11-12/original/carta-1.jpg",
+       "itens": [{"cor": "A", "html": "<b>3,89 milhões</b> de decks. Gera qualquer cor que um terreno de oponente poderia gerar."},
+                 {"cor": "A", "html": "<b>US$ 0,25 (R$ 1,38)</b>. Numa mesa de quatro, costuma ter a cor que você precisa."}],
+       "fonte": "Fonte: EDHREC e Scryfall, nov 2026"}
+    ],
+    "cta": {"pergunta": "Qual é o <b>número 1</b> da sua lista?", "quando": "Toda quinta tem um Top 5 novo",
+            "salvar": "Salva para conferir na próxima vez que montar as 99"}
+  },
+  "legenda": "Terrenos de Commander: 5 cartas de Magic que entram em qualquer deck. Qual seria o seu número 1?\n\nNenhum desses terrenos pede cor, então servem do mono verde ao cinco cores. Os cinco juntos saem por US$ 5,72 (R$ 31,54).\n\n5. Myriad Landscape: vira dois terrenos básicos\n4. Rogue's Passage: seu comandante passa sem bloqueio\n3. Path of Ancestry: qualquer cor do comandante\n2. Reliquary Tower: mão sem limite\n1. Exotic Orchard: as cores dos terrenos dos oponentes\n\nNúmero de decks pelo EDHREC e preços pelo Scryfall, nov 2026. Valores em reais pela cotação de 9 nov (Banco Central, PTAX).\n\nMais em fontedemana.com.br\n\nFaltou algum? Qual entra primeiro no seu deck?\n\n#terrenos #commander #mtg",
+  "threads": {"texto": "Reliquary Tower está em mais de 3 milhões de decks de Commander no EDHREC e custa US$ 4,49 (R$ 24,76). Só tira o limite da mão.\n\nEm deck que compra muito, ninguém discute. Mas e no deck que quase não compra? Vale mais que um terreno básico a mais, ou é só costume?", "obs": "Enquete com duas opções: Sempre entra e Só em deck de compra"},
+  "enquete": {"pergunta": "Qual terreno não sai do seu deck?", "opcoes": ["Exotic Orchard", "Reliquary Tower", "Rogue's Passage", "Path of Ancestry"]}
+}
