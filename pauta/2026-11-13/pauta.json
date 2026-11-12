@@ -1,0 +1,91 @@
+{
+  "data": "2026-11-13",
+  "fx": "Valores em reais pela cotação de 10 nov (Banco Central, PTAX).",
+  "avisos": [
+    {
+      "id": "gravacao",
+      "dia": "2026-11-12",
+      "hora": "19:15",
+      "rede": "Gravação",
+      "titulo": "Gravar o vídeo de amanhã (você aparece)",
+      "oQue": "Chama o Juiz #6 da Sexta-feira 13: Krark's Thumb, duas moedas, cara e coroa. Na cena 1 você aparece e fala o gancho para a câmera; nas outras, só a voz. Na cena 2, leia a pergunta e pare: a contagem já está no vídeo.",
+      "arquivos": [
+        {
+          "nome": "Vídeo mudo (referência)",
+          "url": "https://fontedemana.com.br/pauta/2026-11-13/tiktok/tiktok-mudo.mp4"
+        }
+      ],
+      "roteiro": [
+        {
+          "cena": "Cena 1, rosto, uns 4 s",
+          "tela": "Duas moedas: deu cara e coroa",
+          "fala": "Sexta 13. Joguei duas moedas: deu cara e coroa. E agora?",
+          "como": "Rosto: Segure a Krark's Thumb (ou duas moedas) na mão perto do rosto, mostre para a câmera e termine com cara de dúvida."
+        },
+        {
+          "cena": "Cena 2, só a voz, uns 12 s com contagem",
+          "tela": "Pediu cara. Ganhou o turno extra? A) Joga as duas moedas de novo, B) Ganhou: você escolhe qual ignorar, C) Perdeu: tinha que ganhar as duas",
+          "fala": "Com a Thumb, você pediu cara no Stitch in Time. Ganhou o turno extra? Qual é a certa? Cinco segundos.",
+          "como": "Só a voz: pode gravar em vídeo ou áudio"
+        },
+        {
+          "cena": "Cena 3, só a voz, uns 5 s",
+          "tela": "Ganhou. Você escolhe qual ignorar A) Joga as duas moedas de novo, B) Ganhou: você escolhe qual ignorar, C) Perdeu: tinha que ganhar as duas. Certa: B",
+          "fala": "Letra B. Você vê as duas moedas e ignora a que perdeu. Turno extra garantido.",
+          "como": "Só a voz: pode gravar em vídeo ou áudio"
+        },
+        {
+          "cena": "Cena 4, só a voz, uns 5 s",
+          "tela": "Krark's Thumb, US$ 17,50 (R$ 97,72), Em 32 mil decks no EDHREC",
+          "fala": "A Thumb custa uns 98 reais e está em 32 mil decks. Na sexta 13, azar é não ter.",
+          "como": "Só a voz: pode gravar em vídeo ou áudio"
+        },
+        {
+          "cena": "Cena 5, só a voz, uns 2 s",
+          "tela": "Uma regra nova no Chama o Juiz, @fontedemana",
+          "fala": "Toda sexta tem regra nova aqui.",
+          "como": "Só a voz: pode gravar em vídeo ou áudio"
+        }
+      ],
+      "passos": [
+        "Celular na vertical, câmera da frente, na altura dos olhos, a um braço de distância.",
+        "Rosto na metade de cima da tela: o título entra embaixo dele, na altura do peito.",
+        "Luz de frente (de frente para a janela) e fundo arrumado; a estante de cartas é ótima.",
+        "Desligue o Vídeo HDR (Ajustes, Câmera, Gravar Vídeo) para as cores não lavarem.",
+        "Um vídeo por cena, falando para a câmera, com meio segundo de silêncio antes e depois; nomeie cena_1, cena_2... e mande todos juntos.",
+        "Nas cenas sem rosto, só a voz conta: pode gravar em vídeo ou só o áudio.",
+        "Na cena 1, segure a Krark's Thumb (ou duas moedas) perto do rosto e termine com cara de dúvida.",
+        "Mande os vídeos ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"vídeos do TikTok de 2026-11-13\"."
+      ]
+    },
+    {
+      "id": "tiktok",
+      "hora": "11:30",
+      "rede": "TikTok",
+      "titulo": "TikTok: Chama o Juiz #6, Krark's Thumb na Sexta 13",
+      "oQue": "Quiz de regra da Sexta-feira 13: com Krark's Thumb, deu cara e coroa. Ganhou a moeda? Vídeo com contagem de 5 s e a resposta com a regra 705.1.",
+      "arquivos": [
+        {
+          "nome": "tiktok-mudo.mp4",
+          "url": "https://fontedemana.com.br/pauta/2026-11-13/tiktok/tiktok-mudo.mp4"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Commander na Sexta-feira 13: com Krark's Thumb você joga duas moedas. Deu cara e coroa. Ganhou a moeda?\n\nVocê joga Stitch in Time, pede cara e quer o turno extra. A Thumb manda jogar duas moedas e ignorar uma. Uma deu cara, a outra deu coroa.\n\nA) Joga as duas de novo\nB) Ganhou: você escolhe qual ignorar\nC) Perdeu: tinha que ganhar as duas\n\nA resposta está no vídeo, com a regra 705.1 das Regras Abrangentes e o ruling oficial da carta.\n\nKrark's Thumb: US$ 17,50 (R$ 97,72) no Scryfall e 32 mil decks no EDHREC. Reais pela cotação de 10 nov (Banco Central, PTAX).\n\nMais regras em fontedemana.com.br\n\n#krarksthumb #commander #mtg"
+        },
+        {
+          "rotulo": "Comentário fixado",
+          "texto": "Qual é a certa? A) joga as duas de novo, B) ganhou, você escolhe qual ignorar, C) perdeu, tinha que ganhar as duas. Toda sexta tem uma regra nova no Chama o Juiz."
+        }
+      ],
+      "passos": [
+        "Poste com um som em alta da biblioteca do TikTok, volume entre 15% e 20%.",
+        "Voz própria não precisa de rótulo de IA.",
+        "Fixe o comentário logo depois de postar.",
+        "Se os vídeos não chegarem, poste o vídeo mudo com música em alta."
+      ]
+    }
+  ]
+}

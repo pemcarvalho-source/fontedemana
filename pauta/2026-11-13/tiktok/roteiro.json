@@ -1,0 +1,80 @@
+{
+ "data": "2026-11-13",
+ "pilar": "regra",
+ "tema": "Chama o Juiz #6: Krark's Thumb, duas moedas, cara e coroa. Ganhou a moeda?",
+ "item": null,
+ "arte": "pauta/2026-11-13/tiktok/arte.jpg",
+ "carta": "pauta/2026-11-13/tiktok/carta.jpg",
+ "credito": "Arte: Krark's Thumb, Ron Spencer",
+ "fx": "Reais pela cotação de 10 nov (Banco Central, PTAX)",
+ "legenda": "Commander na Sexta-feira 13: com Krark's Thumb você joga duas moedas. Deu cara e coroa. Ganhou a moeda?\n\nVocê joga Stitch in Time, pede cara e quer o turno extra. A Thumb manda jogar duas moedas e ignorar uma. Uma deu cara, a outra deu coroa.\n\nA) Joga as duas de novo\nB) Ganhou: você escolhe qual ignorar\nC) Perdeu: tinha que ganhar as duas\n\nA resposta está no vídeo, com a regra 705.1 das Regras Abrangentes e o ruling oficial da carta.\n\nKrark's Thumb: US$ 17,50 (R$ 97,72) no Scryfall e 32 mil decks no EDHREC. Reais pela cotação de 10 nov (Banco Central, PTAX).\n\nMais regras em fontedemana.com.br\n\n#krarksthumb #commander #mtg",
+ "comentario": "Qual é a certa? A) joga as duas de novo, B) ganhou, você escolhe qual ignorar, C) perdeu, tinha que ganhar as duas. Toda sexta tem uma regra nova no Chama o Juiz.",
+ "cenas": [
+  {
+   "tipo": "rosto",
+   "cor": "G",
+   "chip": "Chama o Juiz #6",
+   "kicker": "Sexta-feira 13",
+   "titulo": "Duas moedas: deu cara e coroa",
+   "sub": "Com Krark's Thumb, você joga duas moedas e ignora uma.",
+   "narracao": "Sexta 13. Joguei duas moedas: deu cara e coroa. E agora?",
+   "gravar": "Segure a Krark's Thumb (ou duas moedas) na mão perto do rosto, mostre para a câmera e termine com cara de dúvida.",
+   "segundos": 4.7
+  },
+  {
+   "tipo": "quiz",
+   "cor": "U",
+   "chip": "Valendo",
+   "kicker": "Chama o Juiz",
+   "titulo": "Pediu cara. Ganhou o turno extra?",
+   "opcoes": [
+    "Joga as duas moedas de novo",
+    "Ganhou: você escolhe qual ignorar",
+    "Perdeu: tinha que ganhar as duas"
+   ],
+   "contagem": 5,
+   "narracao": "Com a Thumb, você pediu cara no Stitch in Time. Ganhou o turno extra? Qual é a certa? Cinco segundos.",
+   "segundos": 8
+  },
+  {
+   "tipo": "resposta",
+   "cor": "U",
+   "chip": "Resposta",
+   "kicker": "Chama o Juiz",
+   "titulo": "Ganhou. Você escolhe qual ignorar",
+   "opcoes": [
+    "Joga as duas moedas de novo",
+    "Ganhou: você escolhe qual ignorar",
+    "Perdeu: tinha que ganhar as duas"
+   ],
+   "certa": "B",
+   "sub": "Você vê as duas moedas, ignora a coroa e fica com a cara.",
+   "fonte": "Regras Abrangentes, 705.1 e ruling da carta",
+   "narracao": "Letra B. Você vê as duas moedas e ignora a que perdeu. Turno extra garantido.",
+   "segundos": 6.2
+  },
+  {
+   "tipo": "carta",
+   "cor": "A",
+   "chip": "Sorte no bolso",
+   "kicker": "O dedo da sorte",
+   "carta": "pauta/2026-11-13/tiktok/carta-1.jpg",
+   "titulo": "Krark's Thumb",
+   "valor": "US$ 17,50",
+   "real": "(R$ 97,72)",
+   "sub": "Em 32 mil decks no EDHREC",
+   "fonte": "Scryfall e EDHREC, nov 2026",
+   "narracao": "A Thumb custa uns 98 reais e está em 32 mil decks. Na sexta 13, azar é não ter.",
+   "segundos": 7.6
+  },
+  {
+   "tipo": "cta",
+   "cor": "M",
+   "kicker": "Toda sexta no Instagram",
+   "titulo": "Uma regra nova no Chama o Juiz",
+   "destaque": "@fontedemana",
+   "narracao": "Toda sexta tem regra nova aqui.",
+   "segundos": 2.8
+  }
+ ]
+}

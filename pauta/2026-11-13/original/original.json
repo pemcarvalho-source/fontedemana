@@ -1,0 +1,41 @@
+{
+  "data": "2026-11-13",
+  "pilar": "regra",
+  "item": null,
+  "tema": "Chama o Juiz #6: Krark's Thumb, duas moedas, cara e coroa. Ganhou a moeda?",
+  "cartas": ["Krark's Thumb", "Stitch in Time"],
+  "fx": "Valores em reais pela cotação de 10 nov (Banco Central, PTAX).",
+  "carrossel": {
+    "capa": {"cor": "U", "chip": "Chama o Juiz #6", "kicker": "Sexta-feira 13 na mesa", "titulo": "Duas moedas: deu <b>cara e coroa</b>. Ganhou?",
+             "sub": "Você joga Stitch in Time com a <b>Krark's Thumb</b> na mesa. Uma moeda ganha, a outra perde.",
+             "arte": "pauta/2026-11-13/tiktok/arte.jpg", "credito": "Arte: Krark's Thumb, Ron Spencer"},
+    "cartoes": [
+      {"cor": "U", "titulo": "Você pediu cara. E aí?",
+       "itens": [{"cor": "U", "html": "<b>A)</b> Joga as duas moedas de novo"},
+                 {"cor": "U", "html": "<b>B)</b> Ganhou: você escolhe qual moeda ignorar"},
+                 {"cor": "U", "html": "<b>C)</b> Perdeu: tinha que ganhar nas duas"}],
+       "nota": {"rotulo": "Antes de arrastar", "texto": "pensa na sua. Na mesa, cada um jura uma."},
+       "fonte": "Fonte: Regras Abrangentes, 705.1"},
+      {"cor": "U", "titulo": "Letra B: você escolhe",
+       "itens": [{"cor": "U", "html": "A Thumb troca uma moeda por <b>duas</b>. Você vê as duas e só depois escolhe qual ignorar."},
+                 {"cor": "U", "html": "Ignora a coroa, fica com a cara e <b>ganha o turno extra</b>. Basta uma moeda ganhar."},
+                 {"cor": "U", "html": "Só quem joga a moeda ganha ou perde. Os outros na mesa não entram na conta."}],
+       "nota": {"rotulo": "A regra", "texto": "a 705.1 diz que só quem joga ganha ou perde. O ruling da carta confirma a escolha."},
+       "fonte": "Fonte: Regras Abrangentes, 705.1 e ruling da Wizards"},
+      {"cor": "A", "titulo": "O dedo da sorte", "carta": "pauta/2026-11-13/original/carta-1.jpg",
+       "itens": [{"cor": "A", "html": "<b>US$ 17,50 (R$ 97,72)</b> e em <b>32 mil decks</b> no EDHREC."},
+                 {"cor": "R", "html": "Erro comum: achar que precisa ganhar nas duas moedas. É o contrário, ganha se <b>uma</b> ganhar."}],
+       "fx": "Valores em reais pela cotação de 10 nov (Banco Central, PTAX).",
+       "fonte": "Fonte: Scryfall e EDHREC, nov 2026"},
+      {"cor": "M", "titulo": "Onde a sorte vira turno", "carta": "pauta/2026-11-13/original/carta-2.jpg",
+       "itens": [{"cor": "M", "html": "Stitch in Time: ganhou a moeda, <b>turno extra</b>. Com a Thumb, a chance sobe de 50% para 75%."},
+                 {"cor": "R", "html": "Duas moedas ao mesmo tempo? Cada uma vira um par, e você escolhe em cada par."}],
+       "fonte": "Fonte: Scryfall, ruling da Krark's Thumb"}
+    ],
+    "cta": {"pergunta": "Você teria acertado de <b>primeira</b>?", "quando": "Toda sexta tem uma regra nova no Chama o Juiz", "salvar": "Salva para a próxima vez que a moeda decidir a partida"}
+  },
+  "legenda": "Commander na Sexta-feira 13: com Krark's Thumb, deu cara e coroa. Ganhou a moeda?\n\nVocê joga Stitch in Time e pede cara. A Thumb manda jogar duas moedas e ignorar uma. Uma ganhou, a outra perdeu.\n\nA) Joga as duas de novo\nB) Ganhou: você escolhe qual ignorar\nC) Perdeu: tinha que ganhar nas duas\n\nArrasta para a resposta, com a regra 705.1 das Regras Abrangentes e o ruling oficial da carta.\n\nKrark's Thumb: US$ 17,50 (R$ 97,72) no Scryfall e 32 mil decks no EDHREC. Valores em reais pela cotação de 10 nov (Banco Central, PTAX).\n\nFontes: Regras Abrangentes, Scryfall e EDHREC. Mais em fontedemana.com.br\n\nVocê teria acertado de primeira?\n\n#krarksthumb #commander #mtg",
+  "threads": {"texto": "Sexta-feira 13 na mesa de Commander. Você joga Stitch in Time com a Krark's Thumb: duas moedas, ignora uma. Você pede cara. Uma deu cara, a outra deu coroa.\n\nA) Joga as duas de novo\nB) Ganhou: você escolhe qual ignorar\nC) Perdeu: tinha que ganhar nas duas\n\nQual é a certa?",
+              "obs": "Resposta às 15h: B. Você vê as duas moedas e escolhe qual ignorar (Regras Abrangentes 705.1 e ruling)."},
+  "enquete": {"pergunta": "Krark's Thumb, deu cara e coroa. Ganhou?", "opcoes": ["Joga de novo", "Ganhou", "Perdeu"]}
+}
