@@ -1,0 +1,100 @@
+{
+ "n": 38,
+ "data": "12 nov",
+ "carrossel": {
+  "capa": {
+   "cor": "U",
+   "titulo": "Quinta calma, Star Trek amanhã",
+   "sub": "Nenhum fato novo nesta quinta. Amanhã <b>Star Trek chega às lojas</b> e começa a MagicCon: Atlanta.",
+   "credito": "Arte: Preordain, Svetlin Velinov"
+  },
+  "cartoes": [
+   {
+    "cor": "W",
+    "titulo": "O que vem nos próximos dias",
+    "itens": [
+     {"cor": "G", "html": "<b>13 nov</b>: Star Trek chega às lojas e começa a MagicCon: Atlanta."},
+     {"cor": "U", "html": "<b>13 nov</b>: cartas do Mystery Booster Commander passam a valer no Commander."},
+     {"cor": "A", "html": "<b>16 a 30 nov</b>: venda do Secret Lair do Extra Life."},
+     {"cor": "W", "html": "<b>20 a 26 nov</b>: primeira rodada da Festa de Commander de Star Trek."}
+    ],
+    "fonte": "Fontes: Wizards e WPN"
+   }
+  ],
+  "topdeck": {
+   "titulo": "Y'shtola, Night's Blessed",
+   "habilidades": [
+    {"rotulo": "Dreno a cada mágica", "texto": "Mágica não criatura de 3 ou mais: 2 de dano em cada oponente e 2 de vida."},
+    {"rotulo": "Compra no fim do turno", "texto": "Alguém perdeu 4 ou mais de vida no turno? Você compra um card."},
+    {"rotulo": "Corpo para segurar", "texto": "Uma 2/4 com vigilância, que ataca e ainda bloqueia."}
+   ],
+   "extra": "2ª comandante mais montada da semana, com <b>1,44 mil decks</b> no EDHREC. Sai a US$ 5,23 (R$ 29,20). PTAX de 10 nov.",
+   "credito": "Ilustração de Magali Villeneuve"
+  },
+  "ban": {
+   "numero": "18",
+   "unidade": "DIAS",
+   "texto": "Próxima janela de banimentos em 30 de novembro. A de 12 de outubro passou sem mexer no Commander."
+  },
+  "turnos": [
+   {"cor": "G", "data": "13 nov", "texto": "Star Trek chega às lojas"},
+   {"cor": "A", "data": "16 a 30 nov", "texto": "Secret Lair do Extra Life à venda"},
+   {"cor": "W", "data": "20 a 26 nov", "texto": "Festa de Commander de Star Trek"},
+   {"cor": "B", "data": "30 nov", "texto": "Próxima janela de banimentos"}
+  ],
+  "sussurro": "Burger King da Itália tem combo com deck box e sleeve de Magic. Chega a outros países? Nada confirmado pela Wizards."
+ },
+ "video": {
+  "cena1": {
+   "titulo": "Quinta calma, Star Trek amanhã",
+   "pilulas": ["Star Trek no dia 13", "MagicCon: Atlanta", "Topdeck Esper"]
+  },
+  "cena2": {
+   "rotulo": "Agenda",
+   "cor": "W",
+   "titulo": "O que vem nos próximos dias",
+   "itens": [
+    "Sexta, 13 nov: Star Trek chega às lojas.",
+    "Sexta, 13 nov: Mystery Booster Commander vale no Commander.",
+    "De 16 a 30 nov: Secret Lair do Extra Life à venda."
+   ],
+   "fonte": "Fontes: Wizards e WPN"
+  },
+  "cena3": {
+   "linhas": [
+    "<b>Y'shtola, Night's Blessed</b> drena a mesa a cada mágica grande.",
+    "É a 2ª comandante mais montada da semana no EDHREC.",
+    "E custa uns 29 reais."
+   ]
+  },
+  "cena4": {
+   "texto": "Faltam 18 dias para a próxima janela de banimentos. Antes, Star Trek chega às lojas amanhã, 13 de novembro.",
+   "sussurro": "Combo de Magic no Burger King fora da Itália? Não confirmado."
+  }
+ },
+ "textos": {
+  "legendaCarrossel": "Commander de Magic nesta quinta: nenhum fato novo, e amanhã Star Trek chega às lojas.\n\nNo dia 13 começa a MagicCon: Atlanta e as cartas do Mystery Booster Commander passam a valer no Commander. De 16 a 30 de novembro sai o Secret Lair do Extra Life, e de 20 a 26 rola a primeira rodada da Festa de Commander de Star Trek.\n\nNo Topdeck, Y'shtola, Night's Blessed, a comandante Esper que bate 2 em cada oponente e te dá 2 de vida toda vez que você conjura uma mágica que não é criatura de 3 ou mais manas, e ainda compra no fim do turno se alguém perdeu 4 de vida. É a 2ª mais montada da semana no EDHREC, com 1,44 mil decks, e sai a US$ 5,23 (R$ 29,20).\n\nNos Sussurros: o Burger King da Itália tem um combo com deck box e sleeve de Magic. Vem para outros países? Ainda não há nada confirmado.\n\nQual mágica de 3 ou mais você mais gosta de jogar com a Y'shtola no comando?\n\nEdição completa em fontedemana.com.br\n\nArtes: Preordain, de Svetlin Velinov. Y'shtola, Night's Blessed, de Magali Villeneuve.\nValores em reais pela cotação de 10 nov (Banco Central, PTAX).\n\n#startrek #commander #mtg",
+  "legendaVideo": "Commander de Magic nesta quinta: Star Trek nas lojas amanhã, Mystery Booster Commander valendo no dia 13 e a Y'shtola, Night's Blessed no Topdeck.\n\nQual mágica de 3 ou mais você mais gosta de jogar com a Y'shtola?\n\nEdição completa em fontedemana.com.br\n\n#startrek #commander #mtg",
+  "threadsPost": "Quinta calma no Commander. Amanhã, dia 13, Star Trek chega às lojas e as cartas do Mystery Booster Commander passam a valer. No Topdeck, Y'shtola, Night's Blessed, a 2ª comandante mais montada da semana no EDHREC, com 1,44 mil decks, a US$ 5,23 (R$ 29,20). Cada mágica grande drena 2 de cada oponente. Você jogaria de Y'shtola? fontedemana.com.br\nValores em reais pela cotação de 10 nov (Banco Central, PTAX).",
+  "threadsFio": [
+   "Quinta sem fato novo confirmado sobre Commander. A semana esquenta amanhã.",
+   "Sexta, 13 de novembro, Star Trek chega às lojas e começa a MagicCon: Atlanta. No mesmo dia, as cartas do Mystery Booster Commander passam a valer no Commander.",
+   "De 16 a 30 de novembro sai o Secret Lair do Extra Life. De 20 a 26 rola a primeira rodada da Festa de Commander de Star Trek. E a próxima janela de banimentos é em 30 de novembro.",
+   "Sussurro: o Burger King da Itália tem um combo por tempo limitado com deck box e sleeve de Magic, segundo o MTG Salvation. Para outros países, nada anunciado nem confirmado pela Wizards.",
+   "No Topdeck, Y'shtola, Night's Blessed: toda mágica que não é criatura de 3 ou mais manas bate 2 em cada oponente e te dá 2 de vida, e se alguém perdeu 4 de vida no turno você compra no fim dele. É a 2ª comandante mais montada da semana no EDHREC e sai a US$ 5,23 (R$ 29,20). Edição completa em fontedemana.com.br\nValores em reais pela cotação de 10 nov (Banco Central, PTAX)."
+  ],
+  "threadsAvulsos": [
+   {
+    "titulo": "Pergunta do dia",
+    "texto": "Y'shtola, Night's Blessed no comando: você vai de contramágicas e remoções ou enche o deck de encantamentos para drenar a mesa?",
+    "obs": "Pergunta aberta, sem enquete"
+   }
+  ]
+ },
+ "pauta": {
+  "forca": "calmo",
+  "porque": "Quinta sem fato novo sobre Commander; Star Trek e o Mystery Booster Commander no dia 13 já estavam na agenda.",
+  "storyPergunta": "Qual mágica grande você joga com a Y'shtola?",
+  "enquete": {"pergunta": "Vai abrir Star Trek amanhã?", "opcoes": ["Vou sim", "Só olhando", "Passo essa"]}
+ }
+}
