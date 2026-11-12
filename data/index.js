@@ -1,6 +1,7 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "Y'shtola, Night's Blessed",
   "Jace, Multiverse Architect",
   "K'rrik, Son of Yawgmoth",
   "Kambal, Profiteering Mayor",
@@ -36,6 +37,13 @@ window.MANA_POOL_INDEX = {
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 38,
+   "date": "2026-11-12",
+   "dateLabel": "Quinta, 12 de novembro de 2026",
+   "head": "Dia calmo no Multiverso",
+   "biome": "U"
+  },
   {
    "n": 37,
    "date": "2026-11-11",
@@ -245,13 +253,6 @@ window.MANA_POOL_INDEX = {
    "dateLabel": "Terça, 13 de outubro de 2026",
    "head": "Janela de banimentos passa e o Commander fica como está",
    "biome": "B"
-  },
-  {
-   "n": 7,
-   "date": "2026-10-12",
-   "dateLabel": "Segunda, 12 de outubro de 2026",
-   "head": "Corn Maze Superdrop abre hoje às 13h com Wort, Trinisphere e Swan Song",
-   "biome": "A"
   }
  ]
 };
