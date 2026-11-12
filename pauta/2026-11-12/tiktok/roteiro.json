@@ -19,7 +19,8 @@
    "sub": "Os cinco: US$ 5,72 (R$ 31,54)",
    "narracao": "Cinco terrenos para qualquer deck, por menos de 32 reais.",
    "gravar": "Segura cinco terrenos em leque na mão, de frente para a câmera, e mostra o leque na palavra cinco",
-   "segundos": 4.3
+   "segundos": 4.3,
+   "caixa": "topo"
   },
   {
    "tipo": "carta",
@@ -86,5 +87,6 @@
    "narracao": "E o número um, Exotic Orchard. Gera as cores que os oponentes têm. Faltou algum?",
    "segundos": 6.2
   }
- ]
+ ],
+ "rostoGravado": true
 }
