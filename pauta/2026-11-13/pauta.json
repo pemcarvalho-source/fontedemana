@@ -343,6 +343,124 @@
         "TikTok e Threads: o mesmo, começando pelo post com mais comentários.",
         "Pergunta boa ou dúvida que se repete, nos comentários ou nas DMs? Mande na conversa do projeto: vira tema de um pilar."
       ]
+    },
+    {
+      "id": "plantao-threads",
+      "hora": "16:20",
+      "rede": "Threads",
+      "titulo": "Plantão: Nauctis na MagicCon: Atlanta: os 4 precons confirmados,…",
+      "oQue": "Saiu agora: Nauctis na MagicCon: Atlanta: os 4 precons confirmados, preço e Abyssal Lotus. O anúncio num post só, com a capa do carrossel, para ser o primeiro a contar.",
+      "arquivos": [
+        {
+          "nome": "Imagem 1 de 5",
+          "url": "https://fontedemana.com.br/pauta/2026-11-13/plantao/carrossel-01.jpg"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Post",
+          "texto": "Saiu: a Wizards confirmou na MagicCon: Atlanta os 4 precons de Nauctis que vazaram ontem. Merfolk Regiment, Terrors of the Abyss, Blood in the Water e Seal the Deal custam US$ 49,99 (R$ 279,14), e todos têm versão Premium com as 98 em foil por US$ 79,99 (R$ 446,66). Comandantes e cores, ainda não. Normal ou Premium? Amanhã às 6h, a edição completa em fontedemana.com.br\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        }
+      ],
+      "passos": [
+        "No Threads, cole o Post e anexe a capa.",
+        "Marque o tópico MTG e publique.",
+        "Responda quem comentar na primeira hora."
+      ]
+    },
+    {
+      "id": "plantao-feed",
+      "hora": "16:25",
+      "rede": "Instagram feed",
+      "titulo": "Plantão no feed: Nauctis na MagicCon: Atlanta: os 4 precons…",
+      "oQue": "Carrossel curto do plantão, com 5 imagens, sobre o anúncio de agora. Fonte: Wizards of the Coast (Collecting Nauctis, 13 nov).",
+      "arquivos": [
+        {
+          "nome": "Imagem 1 de 5",
+          "url": "https://fontedemana.com.br/pauta/2026-11-13/plantao/carrossel-01.jpg"
+        },
+        {
+          "nome": "Imagem 2 de 5",
+          "url": "https://fontedemana.com.br/pauta/2026-11-13/plantao/carrossel-02.jpg"
+        },
+        {
+          "nome": "Imagem 3 de 5",
+          "url": "https://fontedemana.com.br/pauta/2026-11-13/plantao/carrossel-03.jpg"
+        },
+        {
+          "nome": "Imagem 4 de 5",
+          "url": "https://fontedemana.com.br/pauta/2026-11-13/plantao/carrossel-04.jpg"
+        },
+        {
+          "nome": "Imagem 5 de 5",
+          "url": "https://fontedemana.com.br/pauta/2026-11-13/plantao/carrossel-05.jpg"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Nauctis Commander: a Wizards confirmou hoje, na MagicCon: Atlanta, os 4 precons que vazaram ontem.\nMerfolk Regiment, Terrors of the Abyss, Blood in the Water e Seal the Deal, cada um com 2 comandantes novos e 10 cartas inéditas.\nCaixa normal por US$ 49,99 (R$ 279,14) e Premium, com as 98 em foil, por US$ 79,99 (R$ 446,66).\nComandantes e cores ainda não foram mostrados.\nNormal ou Premium: qual versão você compraria?\nAmanhã às 6h, a edição completa em fontedemana.com.br\n#nauctis #commander #mtg\nValores em reais pela cotação de 10 nov (Banco Central, PTAX).\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        }
+      ],
+      "passos": [
+        "No Instagram, toque em + e escolha Post.",
+        "Selecione as 5 imagens na ordem, da 1 à 5.",
+        "Toque em Adicionar música e escolha uma em alta que combine com o tema.",
+        "Cole a Legenda e publique."
+      ]
+    },
+    {
+      "id": "plantao-tiktok",
+      "hora": "16:30",
+      "rede": "TikTok",
+      "titulo": "Plantão no TikTok: as mesmas imagens no modo foto",
+      "oQue": "As imagens do carrossel no modo foto do TikTok, com som em alta. Chega a quem não segue sem precisar de vídeo.",
+      "arquivos": [
+        {
+          "nome": "Imagem 1 de 5",
+          "url": "https://fontedemana.com.br/pauta/2026-11-13/plantao/carrossel-01.jpg"
+        },
+        {
+          "nome": "Imagem 2 de 5",
+          "url": "https://fontedemana.com.br/pauta/2026-11-13/plantao/carrossel-02.jpg"
+        },
+        {
+          "nome": "Imagem 3 de 5",
+          "url": "https://fontedemana.com.br/pauta/2026-11-13/plantao/carrossel-03.jpg"
+        },
+        {
+          "nome": "Imagem 4 de 5",
+          "url": "https://fontedemana.com.br/pauta/2026-11-13/plantao/carrossel-04.jpg"
+        },
+        {
+          "nome": "Imagem 5 de 5",
+          "url": "https://fontedemana.com.br/pauta/2026-11-13/plantao/carrossel-05.jpg"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Nauctis Commander: a Wizards confirmou hoje, na MagicCon: Atlanta, os 4 precons que vazaram ontem.\nMerfolk Regiment, Terrors of the Abyss, Blood in the Water e Seal the Deal, cada um com 2 comandantes novos e 10 cartas inéditas.\nCaixa normal por US$ 49,99 (R$ 279,14) e Premium, com as 98 em foil, por US$ 79,99 (R$ 446,66).\nComandantes e cores ainda não foram mostrados.\nNormal ou Premium: qual versão você compraria?\nAmanhã às 6h, a edição completa em fontedemana.com.br\n#nauctis #commander #mtg\nValores em reais pela cotação de 10 nov (Banco Central, PTAX).\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        }
+      ],
+      "passos": [
+        "No TikTok, toque em + e escolha Foto (ou Carregar e marque as imagens).",
+        "Selecione as 5 imagens na ordem.",
+        "Escolha um som em alta da biblioteca do TikTok, com volume baixo.",
+        "Cole a Legenda e publique."
+      ]
+    },
+    {
+      "id": "plantao-stories",
+      "hora": "16:50",
+      "rede": "Instagram Stories",
+      "titulo": "Plantão nos Stories: o post com enquete",
+      "oQue": "O carrossel do plantão nos Stories, com enquete, para os seguidores verem o anúncio.",
+      "passos": [
+        "Abra o post do plantão no feed, toque no avião de papel e escolha Adicionar post ao story.",
+        "Adicione o sticker de Enquete: Qual versão do precon de Nauctis você compraria? com \"A normal\", \"A Premium, toda foil\" e \"Nenhuma das duas\".",
+        "Publique."
+      ]
     }
   ]
 }

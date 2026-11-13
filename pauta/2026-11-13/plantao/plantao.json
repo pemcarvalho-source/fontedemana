@@ -1,0 +1,44 @@
+{
+  "data": "2026-11-13",
+  "evento": "magiccon-atlanta",
+  "tipo": "evento",
+  "tema": "Nauctis na MagicCon: Atlanta: os 4 precons confirmados, preço e Abyssal Lotus",
+  "fonte": {"nome": "Wizards of the Coast (Collecting Nauctis, 13 nov)", "url": "https://magic.wizards.com/zh-Hant/news/feature/collecting-nauctis-the-sunken-realm"},
+  "cartas": ["Abyssal Lotus", "Crucible of Worlds"],
+  "fx": "Valores em reais pela cotação de 10 nov (Banco Central, PTAX).",
+  "carrossel": {
+    "capa": {"cor": "G", "chip": "Saiu agora", "kicker": "MagicCon: Atlanta, painel de hoje",
+             "titulo": "Os 4 precons de <b>Nauctis</b> são oficiais",
+             "sub": "A Wizards confirmou os nomes do vazamento e trouxe o preço. Cada deck tem <b>versão Premium</b> toda em foil.",
+             "arte": null, "credito": ""},
+    "cartoes": [
+      {"cor": "G", "titulo": "O vazamento bateu",
+       "itens": [
+         {"cor": "U", "html": "<b>Merfolk Regiment</b>, <b>Terrors of the Abyss</b>, <b>Blood in the Water</b> e <b>Seal the Deal</b>: os quatro nomes estão confirmados."},
+         {"cor": "G", "html": "Cada caixa traz <b>2 comandantes novos</b> em foil (o da capa e um extra) e mais <b>10 cartas inéditas</b>."},
+         {"cor": "W", "html": "Também vêm 10 fichas dupla face, cartão de referência e deck box."}
+       ],
+       "nota": {"rotulo": "Ainda falta", "texto": "a Wizards ainda não mostrou comandantes e cores. As cores vazadas seguem sem confirmação."},
+       "fonte": "Fonte: Wizards, 13 nov"},
+      {"cor": "A", "titulo": "Quanto custa cada caixa",
+       "itens": [
+         {"cor": "A", "html": "<b>Normal</b>: US$ 49,99 (R$ 279,14). Comandantes em foil, as outras 98 sem foil."},
+         {"cor": "A", "html": "<b>Premium</b>: US$ 79,99 (R$ 446,66). Comandantes sem borda e <b>as 98 em foil</b>."},
+         {"cor": "U", "html": "O \"Premium Edition\" da caixa vazada não era só de Seal the Deal: os quatro têm essa versão."}
+       ],
+       "fx": "Reais pela cotação de 10 nov (Banco Central, PTAX).",
+       "fonte": "Fonte: Wizards, 13 nov"},
+      {"cor": "M", "titulo": "O resto do painel",
+       "itens": [
+         {"cor": "B", "html": "<b>Abyssal Lotus</b>: versão sem texto em foil com relevo, só no Collector Booster. Cerca de <b>500 cópias</b> no mundo."},
+         {"cor": "G", "html": "Toda caixa de booster traz um <b>Sunken Treasures</b>: 20 cartas, 15 reimpressões (como Crucible of Worlds) e 5 novas."},
+         {"cor": "W", "html": "<b>5 de fevereiro de 2027</b>: Nauctis chega às lojas."}
+       ],
+       "fonte": "Fonte: Wizards, 13 nov"}
+    ],
+    "cta": {"pergunta": "Normal ou Premium: qual versão você compraria?", "quando": "Amanhã às 6h, a edição completa", "salvar": "Salve para ter o preço na mão na pré-venda"}
+  },
+  "legenda": "Nauctis Commander: a Wizards confirmou hoje, na MagicCon: Atlanta, os 4 precons que vazaram ontem.\nMerfolk Regiment, Terrors of the Abyss, Blood in the Water e Seal the Deal, cada um com 2 comandantes novos e 10 cartas inéditas.\nCaixa normal por US$ 49,99 (R$ 279,14) e Premium, com as 98 em foil, por US$ 79,99 (R$ 446,66).\nComandantes e cores ainda não foram mostrados.\nNormal ou Premium: qual versão você compraria?\nAmanhã às 6h, a edição completa em fontedemana.com.br\n#nauctis #commander #mtg\nValores em reais pela cotação de 10 nov (Banco Central, PTAX).",
+  "threads": {"texto": "Saiu: a Wizards confirmou na MagicCon: Atlanta os 4 precons de Nauctis que vazaram ontem. Merfolk Regiment, Terrors of the Abyss, Blood in the Water e Seal the Deal custam US$ 49,99 (R$ 279,14), e todos têm versão Premium com as 98 em foil por US$ 79,99 (R$ 446,66). Comandantes e cores, ainda não. Normal ou Premium? Amanhã às 6h, a edição completa em fontedemana.com.br"},
+  "enquete": {"pergunta": "Qual versão do precon de Nauctis você compraria?", "opcoes": ["A normal", "A Premium, toda foil", "Nenhuma das duas"]}
+}
