@@ -1,0 +1,52 @@
+{
+  "data": "2026-11-14",
+  "pilar": "dc500",
+  "item": null,
+  "tema": "Do zero à mesa #3: o Rosa Sedenta, deck de DC500 que nasceu do plástico bolha",
+  "cartas": ["Vito, Thorn of the Dusk Rose", "Viscera Seer", "Yahenni, Undying Partisan", "Skull Catapult", "Ashnod's Altar", "Culling Dais", "Swarm Culler", "Susurian Voidborn", "Blood Artist", "Vengeful Bloodwitch", "Exquisite Blood", "Sanguine Bond"],
+  "fx": null,
+  "carrossel": {
+    "capa": {"cor": "B", "chip": "Do zero à mesa #3", "kicker": "Rosa Sedenta, Duel Commander 500",
+             "titulo": "O deck de DC500 que nasceu do <b>plástico bolha</b>",
+             "sub": "Mono-preto com o Vito, só com carta que eu já tinha: <b>29 vieram no lote</b>. Estreou no DC500 da MTG Brasil na quarta.",
+             "arte": "pauta/2026-11-14/tiktok/arte.jpg", "credito": "Arte: Vito, Thorn of the Dusk Rose, Lie Setiawan"},
+    "cartoes": [
+      {"cor": "B", "titulo": "O motor: o comandante", "carta": "pauta/2026-11-14/original/carta-1.jpg",
+       "itens": [
+         {"cor": "B", "html": "<b>Vito, Thorn of the Dusk Rose</b>: toda vez que você ganha vida, o oponente perde a mesma quantidade."},
+         {"cor": "B", "html": "Sozinho não faz nada. O deck inteiro existe para te fazer ganhar vida muitas vezes."}
+       ],
+       "fonte": "Fonte: Scryfall"},
+      {"cor": "B", "titulo": "Passo 1: o sacrifício", "carta": "pauta/2026-11-14/original/carta-2.jpg",
+       "itens": [
+         {"cor": "B", "html": "<b>Viscera Seer</b> sacrifica uma criatura sua a qualquer hora, sem pagar mana."},
+         {"cor": "B", "html": "Outras portas: Yahenni, Skull Catapult, Ashnod's Altar e, do lote, <b>Culling Dais</b> e <b>Swarm Culler</b>."}
+       ],
+       "fonte": "Fonte: Scryfall"},
+      {"cor": "B", "titulo": "Passo 2: o dreno", "carta": "pauta/2026-11-14/original/carta-3.jpg",
+       "itens": [
+         {"cor": "B", "html": "Criatura sua morreu: o <b>Susurian Voidborn</b>, que veio no lote, tira 1 do oponente e te dá 1."},
+         {"cor": "B", "html": "Blood Artist e Vengeful Bloodwitch fazem o mesmo. Com o Vito, <b>cada morte tira 2</b>."}
+       ],
+       "fonte": "Fonte: Scryfall"},
+      {"cor": "B", "titulo": "Passo 3: fechar o jogo", "carta": "pauta/2026-11-14/original/carta-4.jpg",
+       "itens": [
+         {"cor": "B", "html": "<b>Exquisite Blood</b>: o oponente perde vida, você ganha. O Vito devolve como perda, e o laço gira de novo."},
+         {"cor": "B", "html": "Só para quando o oponente chega a zero. É o laço do Combo da semana #1, com o Vito no lugar do Sanguine Bond."}
+       ],
+       "fonte": "Fonte: Scryfall"},
+      {"cor": "G", "titulo": "De onde vieram as cartas",
+       "itens": [
+         {"cor": "G", "html": "<b>29</b> do lote do plástico bolha, 11 delas em chinês."},
+         {"cor": "B", "html": "<b>24</b> do Corte Carmesim, o deck de vampiros que começou a série."},
+         {"cor": "A", "html": "<b>12</b> do fichário antigo. Tudo carta que eu já tinha."}
+       ],
+       "nota": {"rotulo": "Teto do DC500", "texto": "R$ 473,07 na LigaMagic pelo menor preço, abaixo do limite de R$ 500."},
+       "fonte": "Fonte: LigaMagic, nov 2026"}
+    ],
+    "cta": {"pergunta": "A sua loja joga <b>DC500</b>?", "quando": "Do zero à mesa #4 sai amanhã", "salvar": "Salve para montar o seu DC500 com as cartas que você já tem"}
+  },
+  "legenda": "Deck de Commander com teto de R$ 500: dá para montar só com carta que você já tem? Do zero à mesa #3 é o Rosa Sedenta, meu mono-preto de Duel Commander 500 com o Vito, Thorn of the Dusk Rose.\n\n29 cartas vieram no plástico bolha do lote, 24 do Corte Carmesim e 12 do fichário antigo. O plano: sacrificar criaturas, drenar 1 a cada morte e deixar o Vito transformar a vida ganha em mais perda para o oponente. Com a Exquisite Blood, o laço fecha o jogo.\n\nDeu R$ 473,07 na LigaMagic, abaixo do teto. Estreou no DC500 da MTG Brasil na quarta.\n\nFontes: Scryfall e LigaMagic. A série completa está em fontedemana.com.br\n\nA sua loja joga DC500?\n\n#rosasedenta #commander #mtg",
+  "threads": {"texto": "Montei um deck de Duel Commander 500 só com carta que eu já tinha. 29 vieram no plástico bolha de um lote, 24 do meu deck de vampiros e 12 do fichário. Deu R$ 473,07 na LigaMagic, abaixo do teto, e estreou na loja na quarta. Pergunta sincera: dá para montar deck de campeonato com R$ 500, ou o teto só serve para deck de brincadeira?", "obs": "Enquete com as opções: Dá para competir, Só para brincar"},
+  "enquete": {"pergunta": "Deck de R$ 500 compete em torneio?", "opcoes": ["Compete, sim", "Só para brincar"]}
+}

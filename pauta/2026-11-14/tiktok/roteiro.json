@@ -1,0 +1,73 @@
+{
+ "data": "2026-11-14",
+ "pilar": "dc500",
+ "tema": "Do zero à mesa #3: o Rosa Sedenta, deck de DC500 que nasceu do plástico bolha",
+ "item": null,
+ "arte": "pauta/2026-11-14/tiktok/arte.jpg",
+ "carta": "pauta/2026-11-14/tiktok/carta.jpg",
+ "credito": "Arte: Vito, Thorn of the Dusk Rose, Lie Setiawan",
+ "fx": null,
+ "legenda": "Deck de Commander com teto de R$ 500 montado com cartas que vieram de brinde: dá para levar ao torneio? Do zero à mesa #3: o Rosa Sedenta, meu mono-preto de Duel Commander 500 com o Vito, Thorn of the Dusk Rose. Ele estreou no DC500 da MTG Brasil na quarta. 29 das cartas vieram no plástico bolha do lote, 24 do Corte Carmesim e 12 do meu fichário antigo. O motor: cada criatura sacrificada drena 1, e o Vito transforma a vida ganha em mais 1 de perda. Total de R$ 473,07 na LigaMagic, abaixo do teto. A sua loja joga DC500? Lista e série completa em fontedemana.com.br\n\n#rosasedenta #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
+ "comentario": "A sua loja joga DC500? Se joga, qual comandante mais aparece por lá? Do zero à mesa é a série do lote do plástico bolha: amanhã tem o #4.",
+ "cenas": [
+  {
+   "tipo": "rosto",
+   "cor": "G",
+   "chip": "Do zero à mesa #3",
+   "kicker": "Rosa Sedenta, DC500",
+   "titulo": "29 cartas vieram no plástico bolha",
+   "narracao": "29 cartas do meu deck de DC500 vieram no plástico bolha.",
+   "gravar": "Segura a carta física do Vito, Thorn of the Dusk Rose na altura do peito, olha para a câmera e fala o gancho.",
+   "segundos": 4.7
+  },
+  {
+   "tipo": "carta",
+   "cor": "B",
+   "kicker": "O comandante",
+   "carta": "pauta/2026-11-14/tiktok/carta-1.jpg",
+   "titulo": "Vito, Thorn of the Dusk Rose",
+   "sub": "Ganhou vida? O oponente perde igual.",
+   "narracao": "O Vito: toda vez que eu ganho vida, o oponente perde igual.",
+   "segundos": 5
+  },
+  {
+   "tipo": "carta",
+   "cor": "B",
+   "kicker": "Passo 1: sacrifica",
+   "carta": "pauta/2026-11-14/tiktok/carta-2.jpg",
+   "titulo": "Viscera Seer",
+   "sub": "Sacrifício a qualquer hora, sem mana.",
+   "narracao": "Primeiro sacrifico uma criatura no Viscera Seer.",
+   "segundos": 3.2
+  },
+  {
+   "tipo": "carta",
+   "cor": "B",
+   "kicker": "Passo 2: o dreno",
+   "carta": "pauta/2026-11-14/tiktok/carta-3.jpg",
+   "titulo": "Susurian Voidborn",
+   "sub": "Do lote. Com o Vito, cada morte tira 2.",
+   "narracao": "O Susurian Voidborn, que veio no lote, drena 1. O Vito vira isso em 2 de dano.",
+   "segundos": 6.9
+  },
+  {
+   "tipo": "carta",
+   "cor": "B",
+   "kicker": "Passo 3: fechar",
+   "carta": "pauta/2026-11-14/tiktok/carta-4.jpg",
+   "titulo": "Exquisite Blood",
+   "sub": "O laço do Combo da semana #1, com o Vito.",
+   "narracao": "Com a Exquisite Blood, o laço só para no zero.",
+   "segundos": 4.3
+  },
+  {
+   "tipo": "clipe",
+   "cor": "G",
+   "kicker": "Teto do DC500: R$ 500",
+   "titulo": "R$ 473,07 na LigaMagic",
+   "video": "extras/lote/lote-07-gravkill.mp4",
+   "narracao": "Tudo com carta que eu já tinha: 473 reais. Sua loja joga DC500?",
+   "segundos": 5.4
+  }
+ ]
+}

@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-11-10-gravacao@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261109T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -61,7 +61,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-10-tiktok@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261110T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o TikTok: o que é ramp
@@ -91,7 +91,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-10-anuncio-dragoes@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261110T223000Z
 DURATION:PT15M
 SUMMARY:19:30 Reels: Impulsionar o Reels do Top 5 dos dragões (5/11)
@@ -115,7 +115,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-10-threads-manha@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261110T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Dicionário do Commander #7: o que é ramp
@@ -139,7 +139,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-10-feed@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261110T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Dicionário do Commander #7: o que é ramp
@@ -178,7 +178,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-10-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261110T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -197,7 +197,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-10-stories-tarde@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261110T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -217,7 +217,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-10-reels@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261110T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Dicionário do Commander #7: o que é
@@ -256,7 +256,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-10-reels-teste@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261110T214000Z
 DURATION:PT15M
 SUMMARY:18:40 Reels: Reel de teste: o vídeo de hoje com o gancho B
@@ -296,7 +296,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-10-comentarios@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261111T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -318,7 +318,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-11-gravacao@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261110T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -376,7 +376,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-11-tiktok@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261111T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Do zero à mesa #2: o Corte Carmesim em três passos
@@ -408,7 +408,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-11-threads-manha@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261111T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Do zero à mesa #2: Corte Carmesim\, o deck 
@@ -434,7 +434,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-11-feed@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261111T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Do zero à mesa #2: Corte Carmesim\, o deck d
@@ -477,7 +477,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-11-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261111T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -496,7 +496,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-11-stories-tarde@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261111T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -516,7 +516,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-11-reels@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261111T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Do zero à mesa #2: Corte Carmesim\, 
@@ -553,7 +553,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-11-comentarios@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261112T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -575,7 +575,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-12-gravacao@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261111T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -627,7 +627,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-12-tiktok@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261112T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o Top 5 #6 de terrenos no TikTok
@@ -658,7 +658,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-12-threads-manha@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261112T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Top 5 #6: os terrenos que entram em qualquer
@@ -684,7 +684,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-12-feed@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261112T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Top 5 #6: os terrenos que entram em qualquer 
@@ -728,7 +728,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-12-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261112T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -747,7 +747,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-12-stories-tarde@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261112T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -767,7 +767,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-12-reels@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261112T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Top 5 #6: os terrenos que entram em q
@@ -806,7 +806,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-12-comentarios@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261113T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -828,7 +828,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-gravacao@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261113T010000Z
 DURATION:PT15M
 SUMMARY:22:00 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -880,7 +880,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-tiktok@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261113T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Chama o Juiz #6\, o dilema de Star Trek
@@ -915,7 +915,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-sussurro-threads@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261113T113000Z
 DURATION:PT15M
 SUMMARY:08:30 Threads: Sussurro: vazaram os 4 precons de Nauctis
@@ -941,7 +941,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-sussurro-feed@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261113T130000Z
 DURATION:PT15M
 SUMMARY:10:00 Instagram feed: Sussurro no feed: os 4 precons de Nauctis
@@ -983,7 +983,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-sussurro-tiktok@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261113T130500Z
 DURATION:PT15M
 SUMMARY:10:05 TikTok: Sussurro no TikTok: as mesmas imagens no modo foto
@@ -1022,7 +1022,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-sussurro-stories@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261113T131500Z
 DURATION:PT15M
 SUMMARY:10:15 Instagram Stories: Sussurro nos Stories: enquete e contagem p
@@ -1047,7 +1047,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-threads-manha@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261113T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Chama o Juiz #6: anularam a mágica. O dilem
@@ -1073,7 +1073,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-feed@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261113T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Chama o Juiz #6: anularam a mágica. O dilema
@@ -1118,7 +1118,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261113T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -1137,7 +1137,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-stories-tarde@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261113T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1157,7 +1157,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-reels@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261113T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Chama o Juiz #6: anularam a mágica. 
@@ -1200,7 +1200,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-comentarios@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261114T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1222,7 +1222,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-plantao-threads@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261113T192000Z
 DURATION:PT15M
 SUMMARY:16:20 Threads: Plantão: Nauctis na MagicCon: Atlanta: os 4 precons
@@ -1254,7 +1254,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-plantao-feed@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261113T192500Z
 DURATION:PT15M
 SUMMARY:16:25 Instagram feed: Plantão no feed: Nauctis na MagicCon: Atlant
@@ -1293,7 +1293,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-plantao-tiktok@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261113T193000Z
 DURATION:PT15M
 SUMMARY:16:30 TikTok: Plantão no TikTok: as mesmas imagens no modo foto
@@ -1330,7 +1330,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-plantao-stories@fontedemana.com.br
-DTSTAMP:20261113T191407Z
+DTSTAMP:20261113T212605Z
 DTSTART:20261113T195000Z
 DURATION:PT15M
 SUMMARY:16:50 Instagram Stories: Plantão nos Stories: o post com enquete
@@ -1345,6 +1345,94 @@ URL:https://fontedemana.com.br/pauta/2026-11-13/#plantao-stories
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Instagram Stories: Plantão nos Stories: o post com enquete
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-14-gravacao@fontedemana.com.br
+DTSTAMP:20261113T212605Z
+DTSTART:20261113T221500Z
+DURATION:PT15M
+SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
+DESCRIPTION:Do zero à mesa #3: o Rosa Sedenta. Na cena 1 você aparece seg
+ urando o Vito\; as outras cenas são só a sua voz por cima das cartas e d
+ o clipe do Gravkill. Sem placar e sem falar dos adversários.\n\nArquivos:
+ \n- Vídeo mudo do TikTok: https://fontedemana.com.br/pauta/2026-11-14/tik
+ tok/tiktok-mudo.mp4\n\nRoteiro de gravação:\nCena 1\, rosto\, uns 5 s\nN
+ a tela: Rosa Sedenta\, DC500\, 29 cartas vieram no plástico bolha\nComo g
+ ravar: Rosto: Segura a carta física do Vito\, Thorn of the Dusk Rose na a
+ ltura do peito\, olha para a câmera e fala o gancho.\nFala: 29 cartas do 
+ meu deck de DC500 vieram no plástico bolha.\n\nCena 2\, só a voz\, uns 5
+  s\nNa tela: O comandante\, Vito\, Thorn of the Dusk Rose\, Ganhou vida? O
+  oponente perde igual.\nComo gravar: Só a voz: pode gravar em vídeo ou 
+ áudio\nFala: O Vito: toda vez que eu ganho vida\, o oponente perde igual.
+ \n\nCena 3\, só a voz\, uns 3 s\nNa tela: Passo 1: sacrifica\, Viscera Se
+ er\, Sacrifício a qualquer hora\, sem mana.\nComo gravar: Só a voz: pode
+  gravar em vídeo ou áudio\nFala: Primeiro sacrifico uma criatura no Visc
+ era Seer.\n\nCena 4\, só a voz\, uns 7 s\nNa tela: Passo 2: o dreno\, Sus
+ urian Voidborn\, Do lote. Com o Vito\, cada morte tira 2.\nComo gravar: S
+ ó a voz: pode gravar em vídeo ou áudio\nFala: O Susurian Voidborn\, que
+  veio no lote\, drena 1. O Vito vira isso em 2 de dano.\n\nCena 5\, só a 
+ voz\, uns 4 s\nNa tela: Passo 3: fechar\, Exquisite Blood\, O laço do Com
+ bo da semana #1\, com o Vito.\nComo gravar: Só a voz: pode gravar em víd
+ eo ou áudio\nFala: Com a Exquisite Blood\, o laço só para no zero.\n\nC
+ ena 6\, só a voz\, uns 5 s\nNa tela: Teto do DC500: R$ 500\, R$ 473\,07 n
+ a LigaMagic\nComo gravar: Só a voz: pode gravar em vídeo ou áudio. Na t
+ ela entra o seu vídeo do Gravkill do lote.\nFala: Tudo com carta que eu j
+ á tinha: 473 reais. Sua loja joga DC500?\n\n\nPasso a passo:\n1. Celular 
+ na vertical\, câmera da frente\, na altura dos olhos\, a um braço de dis
+ tância.\n2. Rosto na metade de cima da tela: o título entra embaixo dele
+ \, na altura do peito.\n3. Luz de frente (de frente para a janela) e fundo
+  arrumado\; a estante de cartas é ótima.\n4. Desligue o Vídeo HDR (Ajus
+ tes\, Câmera\, Gravar Vídeo) para as cores não lavarem.\n5. Um vídeo p
+ or cena\, falando para a câmera\, com meio segundo de silêncio antes e d
+ epois\; nomeie cena_1\, cena_2... e mande todos juntos.\n6. Nas cenas sem 
+ rosto\, só a voz conta: pode gravar em vídeo ou só o áudio.\n7. Tenha 
+ a carta física do Vito\, Thorn of the Dusk Rose na mão para a cena 1.\n8
+ . Mande os vídeos ao Claude no projeto MGT strategy (pode ser respondendo
+  à mensagem desta tarefa) dizendo "vídeos do TikTok de 2026-11-14".\n\nP
+ auta completa: https://fontedemana.com.br/pauta/2026-11-14/#gravacao
+URL:https://fontedemana.com.br/pauta/2026-11-14/#gravacao
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Gravação: Gravar o vídeo de amanhã (você aparece)
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-14-tiktok@fontedemana.com.br
+DTSTAMP:20261113T212605Z
+DTSTART:20261114T143000Z
+DURATION:PT15M
+SUMMARY:11:30 TikTok: Do zero à mesa #3: o Rosa Sedenta
+DESCRIPTION:O deck de DC500 que nasceu do plástico bolha: o motor do Vito\
+ , a ordem dos gatilhos e o teto de R$ 500\, em 30 s.\n\nArquivos:\n- Víde
+ o do TikTok (mudo): https://fontedemana.com.br/pauta/2026-11-14/tiktok/tik
+ tok-mudo.mp4\n\nLegenda:\nDeck de Commander com teto de R$ 500 montado com
+  cartas que vieram de brinde: dá para levar ao torneio? Do zero à mesa #
+ 3: o Rosa Sedenta\, meu mono-preto de Duel Commander 500 com o Vito\, Thor
+ n of the Dusk Rose. Ele estreou no DC500 da MTG Brasil na quarta. 29 das c
+ artas vieram no plástico bolha do lote\, 24 do Corte Carmesim e 12 do meu
+  fichário antigo. O motor: cada criatura sacrificada drena 1\, e o Vito t
+ ransforma a vida ganha em mais 1 de perda. Total de R$ 473\,07 na LigaMagi
+ c\, abaixo do teto. A sua loja joga DC500? Lista e série completa em font
+ edemana.com.br\n\n#rosasedenta #commander #mtg\n\nFonte de Mana is unoffic
+ ial Fan Content permitted under the Fan Content Policy. Not approved/endor
+ sed by Wizards. Portions of the materials used are property of Wizards of 
+ the Coast. ©Wizards of the Coast LLC.\n\nComentário fixado:\nA sua loja 
+ joga DC500? Se joga\, qual comandante mais aparece por lá? Do zero à mes
+ a é a série do lote do plástico bolha: amanhã tem o #4.\n\nPasso a pas
+ so:\n1. No TikTok\, toque em + e escolha o vídeo baixado daqui.\n2. Adici
+ one um som em alta da biblioteca do TikTok com volume entre 15% e 20%\, se
+ m cobrir a voz.\n3. Voz própria não precisa de rótulo de IA.\n4. Se der
+ \, marque a loja MTG Brasil como local.\n5. Cole a Legenda e publique.\n6.
+  Fixe o comentário.\n7. Se os vídeos da gravação não chegarem\, poste
+  o vídeo mudo com uma música em alta.\n\nPauta completa: https://fontede
+ mana.com.br/pauta/2026-11-14/#tiktok
+URL:https://fontedemana.com.br/pauta/2026-11-14/#tiktok
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TikTok: Do zero à mesa #3: o Rosa Sedenta
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
