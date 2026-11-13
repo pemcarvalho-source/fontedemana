@@ -1,0 +1,103 @@
+{
+ "n": 39,
+ "data": "13 nov",
+ "carrossel": {
+  "capa": {
+   "cor": "G",
+   "titulo": "Sexta 13 calma, Star Trek nas lojas",
+   "sub": "Nenhum fato novo sobre Commander. Hoje <b>Star Trek chega às lojas</b> e começa a MagicCon: Atlanta.",
+   "credito": "Arte: Chance Encounter, Mark Brill"
+  },
+  "cartoes": [
+   {
+    "cor": "W",
+    "titulo": "O que vem nos próximos dias",
+    "itens": [
+     {"cor": "G", "html": "<b>13 nov</b>: Star Trek nas lojas e painel de prévias de Nauctis na MagicCon: Atlanta."},
+     {"cor": "U", "html": "<b>13 nov</b>: cartas do Mystery Booster Commander passam a valer no Commander."},
+     {"cor": "A", "html": "<b>16 a 30 nov</b>: venda do Secret Lair do Extra Life."},
+     {"cor": "W", "html": "<b>20 a 26 nov</b>: primeira rodada da Festa de Commander de Star Trek."}
+    ],
+    "fonte": "Fontes: Wizards, WPN e StarCityGames"
+   }
+  ],
+  "topdeck": {
+   "titulo": "Krark's Thumb",
+   "habilidades": [
+    {"rotulo": "Duas moedas, uma escolha", "texto": "Toda moeda sua vira duas, e você fica com a melhor."},
+    {"rotulo": "75% de acerto", "texto": "A chance de ganhar o cara ou coroa sobe de 50% para 75%."},
+    {"rotulo": "Incolor e barato", "texto": "Custa 2 e entra em qualquer deck de moedas, de qualquer cor."}
+   ],
+   "extra": "O Topdeck da sexta-feira 13. Está em <b>32.036 decks</b> no EDHREC e sai a US$ 17,50 na impressão de Mirrodin.",
+   "credito": "Ilustração de Ron Spencer"
+  },
+  "ban": {
+   "numero": "17",
+   "unidade": "DIAS",
+   "texto": "Próxima janela de banimentos em 30 de novembro. A de 12 de outubro passou sem mexer no Commander."
+  },
+  "turnos": [
+   {"cor": "G", "data": "13 nov", "texto": "Star Trek chega às lojas"},
+   {"cor": "A", "data": "16 a 30 nov", "texto": "Secret Lair do Extra Life à venda"},
+   {"cor": "W", "data": "20 a 26 nov", "texto": "Festa de Commander de Star Trek"},
+   {"cor": "B", "data": "30 nov", "texto": "Próxima janela de banimentos"}
+  ],
+  "sussurro": null
+ },
+ "video": {
+  "cena1": {
+   "titulo": "Sexta 13 calma, Star Trek nas lojas",
+   "pilulas": ["Star Trek hoje", "MagicCon: Atlanta", "Topdeck da sorte"]
+  },
+  "cena2": {
+   "rotulo": "Agenda",
+   "cor": "W",
+   "titulo": "O que vem nos próximos dias",
+   "itens": [
+    "Hoje, 13 nov: Star Trek chega às lojas.",
+    "Hoje, 13 nov: prévias de Nauctis na MagicCon: Atlanta.",
+    "De 16 a 30 nov: Secret Lair do Extra Life à venda."
+   ],
+   "fonte": "Fontes: Wizards, WPN e StarCityGames"
+  },
+  "cena3": {
+   "linhas": [
+    "<b>Krark's Thumb</b> transforma cada moeda em duas.",
+    "Você escolhe qual vale: 75% de chance de ganhar.",
+    "E custa uns 17 dólares."
+   ]
+  },
+  "cena4": {
+   "texto": "Faltam 17 dias para a próxima janela de banimentos. Antes, Star Trek chega às lojas hoje, 13 de novembro.",
+   "sussurro": null
+  }
+ },
+ "textos": {
+  "legendaCarrossel": "Commander de Magic nesta sexta-feira 13: nenhum fato novo, e hoje Star Trek chega às lojas.\n\nTambém hoje começa a MagicCon: Atlanta, com o painel de prévias de Nauctis à tarde, e as cartas do Mystery Booster Commander passam a valer no Commander. De 16 a 30 de novembro sai o Secret Lair do Extra Life, e de 20 a 26 rola a primeira rodada da Festa de Commander de Star Trek.\n\nNo Topdeck da sexta-feira 13, Krark's Thumb, o artefato lendário de 2 manas que transforma cada cara ou coroa seu em dois lançamentos, e você escolhe qual vale. A chance de ganhar sobe de 50% para 75%. É a peça central dos decks de Okaun, Yusri e Krark, está em 32.036 decks no EDHREC e sai a US$ 17,50 na impressão de Mirrodin.\n\nVocê confia na sorte ou só joga moeda com o Dedão de Krark na mesa?\n\nEdição completa em fontedemana.com.br\n\nArtes: Chance Encounter, de Mark Brill. Krark's Thumb, de Ron Spencer.\n\n#startrek #commander #mtg",
+  "legendaVideo": "Commander de Magic nesta sexta-feira 13: Star Trek nas lojas hoje, prévias de Nauctis na MagicCon: Atlanta e o Krark's Thumb no Topdeck.\n\nVocê confia na sorte ou só joga moeda com o Dedão de Krark na mesa?\n\nEdição completa em fontedemana.com.br\n\n#startrek #commander #mtg",
+  "threadsPost": "Sexta-feira 13 calma no Commander. Hoje Star Trek chega às lojas, as cartas do Mystery Booster Commander passam a valer e a MagicCon: Atlanta tem prévias de Nauctis. No Topdeck, Krark's Thumb: cada cara ou coroa seu vira dois e você escolhe qual vale, 75% de chance de ganhar. Está em 32.036 decks no EDHREC e sai a US$ 17,50. Você confia na sorte? fontedemana.com.br",
+  "threadsFio": [
+   "Sexta-feira 13 sem fato novo confirmado sobre Commander. Mas o dia é cheio.",
+   "Hoje Star Trek chega às lojas e começa a MagicCon: Atlanta, com o painel de prévias de Nauctis à tarde. No mesmo dia, as cartas do Mystery Booster Commander passam a valer no Commander.",
+   "De 16 a 30 de novembro sai o Secret Lair do Extra Life. De 20 a 26 rola a primeira rodada da Festa de Commander de Star Trek. E a próxima janela de banimentos é em 30 de novembro.",
+   "No Topdeck da sexta-feira 13, Krark's Thumb: toda vez que você lançaria uma moeda, lança duas e fica com uma. A chance de ganhar o cara ou coroa vai de 50% para 75%. É lendário, então dois na mesa não somam.",
+   "Ele está em 32.036 decks no EDHREC, é peça dos decks de Okaun, Yusri e Krark, e sai a US$ 17,50 na impressão de Mirrodin. Edição completa em fontedemana.com.br"
+  ],
+  "threadsAvulsos": [
+   {
+    "titulo": "Pergunta do dia",
+    "texto": "Sexta-feira 13: qual carta de jogar moeda já salvou ou acabou com uma partida sua de Commander?",
+    "obs": "Pergunta aberta, sem enquete"
+   }
+  ]
+ },
+ "pauta": {
+  "forca": "calmo",
+  "porque": "Sexta sem fato novo sobre Commander; Star Trek e o Mystery Booster Commander no dia 13 já estavam na agenda.",
+  "storyPergunta": "Qual carta de moeda já decidiu uma partida sua?",
+  "enquete": {
+   "pergunta": "No cara ou coroa você tem...",
+   "opcoes": ["Sorte de sobra", "Azar crônico", "O Dedão de Krark"]
+  }
+ }
+}
