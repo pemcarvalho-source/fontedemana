@@ -5,10 +5,10 @@
     {
       "id": "gravacao",
       "dia": "2026-11-12",
-      "hora": "19:15",
+      "hora": "22:00",
       "rede": "Gravação",
       "titulo": "Gravar o vídeo de amanhã (você aparece)",
-      "oQue": "Chama o Juiz #6 da Sexta-feira 13: Krark's Thumb, duas moedas, cara e coroa. Na cena 1 você aparece e fala o gancho para a câmera; nas outras, só a voz. Na cena 2, leia a pergunta e pare: a contagem já está no vídeo.",
+      "oQue": "Roteiro novo: Chama o Juiz #6 com o dilema de Star Trek (Elim Garak e Command Decision anulada). Na cena 1 você aparece e fala o gancho; nas outras, só a voz. Na cena 3, leia a pergunta e pare: a contagem já está no vídeo. Dá para gravar até umas 10h de sexta.",
       "arquivos": [
         {
           "nome": "Vídeo mudo (referência)",
@@ -18,32 +18,32 @@
       "roteiro": [
         {
           "cena": "Cena 1, rosto, uns 4 s",
-          "tela": "Duas moedas: deu cara e coroa",
-          "fala": "Sexta 13. Joguei duas moedas: deu cara e coroa. E agora?",
-          "como": "Rosto: Segure a Krark's Thumb (ou duas moedas) na mão perto do rosto, mostre para a câmera e termine com cara de dúvida."
+          "tela": "Anularam a mágica. O Garak drena?",
+          "fala": "Anularam minha mágica. O Elim Garak drena ou não?",
+          "como": "Rosto: Segure uma carta de mágica na mão como se fosse jogar, mostre para a câmera e termine com cara de quem foi anulado."
         },
         {
-          "cena": "Cena 2, só a voz, uns 12 s com contagem",
-          "tela": "Pediu cara. Ganhou o turno extra? A) Joga as duas moedas de novo, B) Ganhou: você escolhe qual ignorar, C) Perdeu: tinha que ganhar as duas",
-          "fala": "Com a Thumb, você pediu cara no Stitch in Time. Ganhou o turno extra? Qual é a certa? Cinco segundos.",
+          "cena": "Cena 2, só a voz, uns 5 s",
+          "tela": "Command Decision, Escolha um: o modo é o dilema",
+          "fala": "Dilema é escolher o modo, como o escolha um da Command Decision.",
           "como": "Só a voz: pode gravar em vídeo ou áudio"
         },
         {
-          "cena": "Cena 3, só a voz, uns 5 s",
-          "tela": "Ganhou. Você escolhe qual ignorar A) Joga as duas moedas de novo, B) Ganhou: você escolhe qual ignorar, C) Perdeu: tinha que ganhar as duas. Certa: B",
-          "fala": "Letra B. Você vê as duas moedas e ignora a que perdeu. Turno extra garantido.",
+          "cena": "Cena 3, só a voz, uns 7 s e contagem",
+          "tela": "Escolheu o modo e anularam. Drena? A) Não: a mágica foi anulada, B) Só se a mágica resolver, C) Sim: o dilema é na escolha do modo",
+          "fala": "Escolheu o modo e anularam a Command Decision. O Garak drena? Qual é a certa? Cinco segundos.",
           "como": "Só a voz: pode gravar em vídeo ou áudio"
         },
         {
-          "cena": "Cena 4, só a voz, uns 5 s",
-          "tela": "Krark's Thumb, US$ 17,50 (R$ 97,72), Em 32 mil decks no EDHREC",
-          "fala": "A Thumb custa uns 98 reais e está em 32 mil decks. Na sexta 13, azar é não ter.",
+          "cena": "Cena 4, só a voz, uns 6 s",
+          "tela": "Drena. O dilema é na escolha A) Não: a mágica foi anulada, B) Só se a mágica resolver, C) Sim: o dilema é na escolha do modo. Certa: C",
+          "fala": "Letra C. O dilema é na escolha do modo. Anular depois não muda nada.",
           "como": "Só a voz: pode gravar em vídeo ou áudio"
         },
         {
-          "cena": "Cena 5, só a voz, uns 2 s",
-          "tela": "Uma regra nova no Chama o Juiz, @fontedemana",
-          "fala": "Toda sexta tem regra nova aqui.",
+          "cena": "Cena 5, só a voz, uns 5 s",
+          "tela": "Elim Garak, US$ 0,32 (R$ 1,79), Dois modos de uma vez: um dilema só",
+          "fala": "Dois modos de uma vez? Um dilema só. Drena 2, não 4.",
           "como": "Só a voz: pode gravar em vídeo ou áudio"
         }
       ],
@@ -54,7 +54,7 @@
         "Desligue o Vídeo HDR (Ajustes, Câmera, Gravar Vídeo) para as cores não lavarem.",
         "Um vídeo por cena, falando para a câmera, com meio segundo de silêncio antes e depois; nomeie cena_1, cena_2... e mande todos juntos.",
         "Nas cenas sem rosto, só a voz conta: pode gravar em vídeo ou só o áudio.",
-        "Na cena 1, segure a Krark's Thumb (ou duas moedas) perto do rosto e termine com cara de dúvida.",
+        "Na cena 1, segure uma carta de mágica como se fosse jogar e termine com cara de quem foi anulado.",
         "Mande os vídeos ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"vídeos do TikTok de 2026-11-13\"."
       ]
     },
@@ -62,8 +62,8 @@
       "id": "tiktok",
       "hora": "11:30",
       "rede": "TikTok",
-      "titulo": "TikTok: Chama o Juiz #6, Krark's Thumb na Sexta 13",
-      "oQue": "Quiz de regra da Sexta-feira 13: com Krark's Thumb, deu cara e coroa. Ganhou a moeda? Vídeo com contagem de 5 s e a resposta com a regra 705.1.",
+      "titulo": "TikTok: Chama o Juiz #6, o dilema de Star Trek",
+      "oQue": "Quiz de regra no dia do lançamento de Star Trek: anularam a mágica, o Elim Garak ainda drena? Vídeo com contagem de 5 s e a resposta com a regra 700.17.",
       "arquivos": [
         {
           "nome": "tiktok-mudo.mp4",
@@ -73,11 +73,11 @@
       "textos": [
         {
           "rotulo": "Legenda",
-          "texto": "Commander na Sexta-feira 13: com Krark's Thumb você joga duas moedas. Deu cara e coroa. Ganhou a moeda?\n\nVocê joga Stitch in Time, pede cara e quer o turno extra. A Thumb manda jogar duas moedas e ignorar uma. Uma deu cara, a outra deu coroa.\n\nA) Joga as duas de novo\nB) Ganhou: você escolhe qual ignorar\nC) Perdeu: tinha que ganhar as duas\n\nA resposta está no vídeo, com a regra 705.1 das Regras Abrangentes e o ruling oficial da carta.\n\nKrark's Thumb: US$ 17,50 (R$ 97,72) no Scryfall e 32 mil decks no EDHREC. Reais pela cotação de 10 nov (Banco Central, PTAX).\n\nMais regras em fontedemana.com.br\n\n#krarksthumb #commander #mtg"
+          "texto": "Commander e Star Trek: anularam sua mágica. O dilema ainda conta?\n\nStar Trek chega hoje com uma mecânica nova: enfrentar um dilema. Você enfrenta um dilema quando escolhe o modo de uma mágica ou habilidade, como o \"escolha um\" da Command Decision.\n\nVocê controla Elim Garak, que drena 2 de cada oponente sempre que você enfrenta um dilema. Você joga Command Decision, escolhe o modo e o oponente anula.\n\nA) Não drena: a mágica foi anulada\nB) Só drena se a mágica resolver\nC) Drena: o dilema é na escolha do modo\n\nA resposta está no vídeo, com a regra 700.17 das Regras Abrangentes.\n\nElim Garak: US$ 0,32 (R$ 1,79) no Scryfall. Reais pela cotação de 10 nov (Banco Central, PTAX).\n\nMais regras em fontedemana.com.br\n\n#startrek #commander #mtg"
         },
         {
           "rotulo": "Comentário fixado",
-          "texto": "Qual é a certa? A) joga as duas de novo, B) ganhou, você escolhe qual ignorar, C) perdeu, tinha que ganhar as duas. Toda sexta tem uma regra nova no Chama o Juiz."
+          "texto": "Qual é a certa? A) não drena, a mágica foi anulada, B) só drena se a mágica resolver, C) drena, o dilema é na escolha do modo. Toda sexta tem uma regra nova no Chama o Juiz."
         }
       ],
       "passos": [
