@@ -1,6 +1,8 @@
 {
   "data": "2026-11-13",
   "fx": "Valores em reais pela cotação de 10 nov (Banco Central, PTAX).",
+  "forca": "calmo",
+  "feed": "original",
   "avisos": [
     {
       "id": "gravacao",
@@ -62,18 +64,18 @@
       "id": "tiktok",
       "hora": "11:30",
       "rede": "TikTok",
-      "titulo": "TikTok: Chama o Juiz #6, o dilema de Star Trek",
+      "titulo": "Chama o Juiz #6, o dilema de Star Trek",
       "oQue": "Quiz de regra no dia do lançamento de Star Trek: anularam a mágica, o Elim Garak ainda drena? Vídeo com contagem de 5 s e a resposta com a regra 700.17.",
       "arquivos": [
         {
-          "nome": "tiktok-narrado.mp4",
+          "nome": "Vídeo do TikTok narrado",
           "url": "https://fontedemana.com.br/pauta/2026-11-13/tiktok/tiktok-narrado.mp4"
         }
       ],
       "textos": [
         {
           "rotulo": "Legenda",
-          "texto": "Commander e Star Trek: anularam sua mágica. O dilema ainda conta?\n\nStar Trek chega hoje com uma mecânica nova: enfrentar um dilema. Você enfrenta um dilema quando escolhe o modo de uma mágica ou habilidade, como o \"escolha um\" da Command Decision.\n\nVocê controla Elim Garak, que drena 2 de cada oponente sempre que você enfrenta um dilema. Você joga Command Decision, escolhe o modo e o oponente anula.\n\nA) Não drena: a mágica foi anulada\nB) Só drena se a mágica resolver\nC) Drena: o dilema é na escolha do modo\n\nA resposta está no vídeo, com a regra 700.17 das Regras Abrangentes.\n\nElim Garak: US$ 0,32 (R$ 1,79) no Scryfall. Reais pela cotação de 10 nov (Banco Central, PTAX).\n\nMais regras em fontedemana.com.br\n\n#startrek #commander #mtg"
+          "texto": "Commander e Star Trek: anularam sua mágica. O dilema ainda conta?\n\nStar Trek chega hoje com uma mecânica nova: enfrentar um dilema. Você enfrenta um dilema quando escolhe o modo de uma mágica ou habilidade, como o \"escolha um\" da Command Decision.\n\nVocê controla Elim Garak, que drena 2 de cada oponente sempre que você enfrenta um dilema. Você joga Command Decision, escolhe o modo e o oponente anula.\n\nA) Não drena: a mágica foi anulada\nB) Só drena se a mágica resolver\nC) Drena: o dilema é na escolha do modo\n\nA resposta está no vídeo, com a regra 700.17 das Regras Abrangentes.\n\nElim Garak: US$ 0,32 (R$ 1,79) no Scryfall. Reais pela cotação de 10 nov (Banco Central, PTAX).\n\nMais regras em fontedemana.com.br"
         },
         {
           "rotulo": "Comentário fixado",
@@ -202,6 +204,144 @@
         "Adicione o sticker de Enquete: Qual precon de Nauctis você levaria? com Terrors of the Abyss, Blood in the Water, Merfolk Regiment e Seal the Deal.",
         "Publique.",
         "Novo story com fundo azul: sticker de Contagem regressiva com o nome Painel de Nauctis, terminando hoje às 15h. Publique."
+      ]
+    },
+    {
+      "id": "threads-manha",
+      "hora": "10:30",
+      "rede": "Threads",
+      "titulo": "Debate: Chama o Juiz #6: anularam a mágica. O dilema de Star Trek…",
+      "oQue": "Post de debate do conteúdo original de hoje (Chama o Juiz) para puxar conversa.",
+      "textos": [
+        {
+          "rotulo": "Post",
+          "texto": "Star Trek chega hoje e traz o dilema: você enfrenta um dilema quando escolhe o modo de uma mágica.\n\nVocê controla Elim Garak (drena 2 a cada dilema), joga Command Decision, escolhe o modo e o oponente anula.\n\nA) Não drena: a mágica foi anulada\nB) Só drena se a mágica resolver\nC) Drena: o dilema é na escolha do modo\n\nQual é a certa?"
+        }
+      ],
+      "passos": [
+        "Abra o Threads e cole o Post.",
+        "Dica: Resposta às 15h: C. O dilema é na escolha do modo e anular depois não desfaz (Regras Abrangentes 700.17).",
+        "Toque em Adicionar tópico e escolha MTG.",
+        "Publique e responda quem comentar na primeira hora."
+      ]
+    },
+    {
+      "id": "feed",
+      "hora": "12:00",
+      "rede": "Instagram feed",
+      "titulo": "Chama o Juiz #6: anularam a mágica. O dilema de Star Trek ainda conta?",
+      "origem": "original:2026-11-13",
+      "oQue": "Carrossel original de 6 imagens (Chama o Juiz): Chama o Juiz #6: anularam a mágica. O dilema de Star Trek ainda conta?. Feito para salvar e compartilhar.",
+      "arquivos": [
+        {
+          "nome": "Imagem 1 de 6",
+          "url": "https://fontedemana.com.br/pauta/2026-11-13/original/carrossel-01.jpg"
+        },
+        {
+          "nome": "Imagem 2 de 6",
+          "url": "https://fontedemana.com.br/pauta/2026-11-13/original/carrossel-02.jpg"
+        },
+        {
+          "nome": "Imagem 3 de 6",
+          "url": "https://fontedemana.com.br/pauta/2026-11-13/original/carrossel-03.jpg"
+        },
+        {
+          "nome": "Imagem 4 de 6",
+          "url": "https://fontedemana.com.br/pauta/2026-11-13/original/carrossel-04.jpg"
+        },
+        {
+          "nome": "Imagem 5 de 6",
+          "url": "https://fontedemana.com.br/pauta/2026-11-13/original/carrossel-05.jpg"
+        },
+        {
+          "nome": "Imagem 6 de 6",
+          "url": "https://fontedemana.com.br/pauta/2026-11-13/original/carrossel-06.jpg"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Commander e Star Trek: anularam sua mágica. O dilema ainda conta?\n\nStar Trek chega hoje com uma mecânica nova: enfrentar um dilema. Você enfrenta um dilema quando escolhe o modo de uma mágica ou habilidade.\n\nVocê controla Elim Garak, que drena 2 de cada oponente sempre que enfrenta um dilema. Você joga Command Decision, escolhe o modo e o oponente anula.\n\nA) Não drena: a mágica foi anulada\nB) Só drena se a mágica resolver\nC) Drena: o dilema é na escolha do modo\n\nArrasta para a resposta, com a regra 700.17 das Regras Abrangentes, e para o erro que quase todo mundo vai cometer com dois modos.\n\nElim Garak: US$ 0,32 (R$ 1,79) no Scryfall. Valores em reais pela cotação de 10 nov (Banco Central, PTAX).\n\nFontes: Regras Abrangentes e notas oficiais de Star Trek (Wizards), Scryfall. Mais em fontedemana.com.br\n\nVocê teria acertado de primeira?\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        }
+      ],
+      "passos": [
+        "No Instagram, toque em + e escolha Post.",
+        "Selecione as 6 imagens na ordem, da 1 à 6.",
+        "Toque em Adicionar música e escolha uma em alta que combine com o tema.",
+        "Cole a Legenda e publique."
+      ]
+    },
+    {
+      "id": "stories-meio-dia",
+      "hora": "12:00",
+      "rede": "Instagram Stories",
+      "titulo": "Repost do carrossel com enquete",
+      "oQue": "Compartilhe o carrossel recém postado no Story com uma enquete.",
+      "passos": [
+        "No carrossel publicado, toque no avião de papel e em Adicionar post ao seu story.",
+        "Adicione o sticker de Enquete embaixo do post: Anularam a mágica. O Elim Garak drena? com Não drena, Só se resolver e Drena.",
+        "Publique."
+      ]
+    },
+    {
+      "id": "stories-tarde",
+      "hora": "15:00",
+      "rede": "Instagram Stories",
+      "titulo": "Topdeck do Dia com link",
+      "oQue": "Story com a imagem de Krark's Thumb no Topdeck do Dia e o sticker de link para a edição completa.",
+      "arquivos": [
+        {
+          "nome": "Topdeck do Dia",
+          "url": "https://fontedemana.com.br/kit/ed39/carrossel-03.jpg"
+        }
+      ],
+      "passos": [
+        "Baixe a imagem e poste no Story.",
+        "Adicione o sticker de Link para fontedemana.com.br com o texto Edição completa, embaixo do texto do Topdeck.",
+        "Publique."
+      ]
+    },
+    {
+      "id": "reels",
+      "hora": "19:00",
+      "rede": "Reels",
+      "titulo": "Vídeo original: Chama o Juiz #6: anularam a mágica. O dilema de Star…",
+      "oQue": "O vídeo original de hoje no Instagram, o mesmo arquivo do TikTok, já narrado. É o formato que mais chega a quem não segue.",
+      "arquivos": [
+        {
+          "nome": "Vídeo original narrado",
+          "url": "https://fontedemana.com.br/pauta/2026-11-13/tiktok/tiktok-narrado.mp4"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Commander e Star Trek: anularam sua mágica. O dilema ainda conta?\n\nStar Trek chega hoje com uma mecânica nova: enfrentar um dilema. Você enfrenta um dilema quando escolhe o modo de uma mágica ou habilidade, como o \"escolha um\" da Command Decision.\n\nVocê controla Elim Garak, que drena 2 de cada oponente sempre que você enfrenta um dilema. Você joga Command Decision, escolhe o modo e o oponente anula.\n\nA) Não drena: a mágica foi anulada\nB) Só drena se a mágica resolver\nC) Drena: o dilema é na escolha do modo\n\nA resposta está no vídeo, com a regra 700.17 das Regras Abrangentes.\n\nElim Garak: US$ 0,32 (R$ 1,79) no Scryfall. Reais pela cotação de 10 nov (Banco Central, PTAX).\n\nMais regras em fontedemana.com.br\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        },
+        {
+          "rotulo": "Comentário fixado",
+          "texto": "Qual é a certa? A) não drena, a mágica foi anulada, B) só drena se a mágica resolver, C) drena, o dilema é na escolha do modo. Toda sexta tem uma regra nova no Chama o Juiz."
+        }
+      ],
+      "passos": [
+        "No Instagram, toque em + e escolha Reel.",
+        "Escolha o vídeo baixado daqui, nunca o salvo do TikTok (o Instagram derruba vídeo com marca d'água).",
+        "Em Áudio, ponha uma música em alta da biblioteca do Instagram com volume baixo (uns 10%), sem cobrir a voz.",
+        "Na capa, use o primeiro quadro, o do gancho.",
+        "Cole a Legenda e publique.",
+        "Fixe o comentário e responda quem comentar na primeira hora."
+      ]
+    },
+    {
+      "id": "comentarios",
+      "hora": "21:30",
+      "rede": "Comentários",
+      "titulo": "Responder os comentários de hoje e de ontem",
+      "oQue": "Uns 10 minutos nas três redes: curtir e responder os comentários das últimas 48 horas, começando pelo vídeo e pelo carrossel de hoje. Conversa nos comentários leva a peça a mais gente, e o Instagram recomenda responder em até 2 dias.",
+      "passos": [
+        "Instagram: nas notificações, curta os comentários e responda com uma frase quem perguntou ou discordou.",
+        "TikTok e Threads: o mesmo, começando pelo post com mais comentários.",
+        "Pergunta boa ou dúvida que se repete, nos comentários ou nas DMs? Mande na conversa do projeto: vira tema de um pilar."
       ]
     }
   ]
