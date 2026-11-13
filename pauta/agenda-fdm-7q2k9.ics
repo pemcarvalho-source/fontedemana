@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-11-10-gravacao@fontedemana.com.br
-DTSTAMP:20261113T100657Z
+DTSTAMP:20261113T101548Z
 DTSTART:20261109T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -61,7 +61,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-10-tiktok@fontedemana.com.br
-DTSTAMP:20261113T100657Z
+DTSTAMP:20261113T101548Z
 DTSTART:20261110T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o TikTok: o que é ramp
@@ -91,7 +91,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-10-anuncio-dragoes@fontedemana.com.br
-DTSTAMP:20261113T100657Z
+DTSTAMP:20261113T101548Z
 DTSTART:20261110T223000Z
 DURATION:PT15M
 SUMMARY:19:30 Reels: Impulsionar o Reels do Top 5 dos dragões (5/11)
@@ -115,7 +115,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-10-threads-manha@fontedemana.com.br
-DTSTAMP:20261113T100657Z
+DTSTAMP:20261113T101548Z
 DTSTART:20261110T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Dicionário do Commander #7: o que é ramp
@@ -139,7 +139,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-10-feed@fontedemana.com.br
-DTSTAMP:20261113T100657Z
+DTSTAMP:20261113T101548Z
 DTSTART:20261110T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Dicionário do Commander #7: o que é ramp
@@ -178,7 +178,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-10-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261113T100657Z
+DTSTAMP:20261113T101548Z
 DTSTART:20261110T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -197,7 +197,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-10-stories-tarde@fontedemana.com.br
-DTSTAMP:20261113T100657Z
+DTSTAMP:20261113T101548Z
 DTSTART:20261110T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -217,7 +217,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-10-reels@fontedemana.com.br
-DTSTAMP:20261113T100657Z
+DTSTAMP:20261113T101548Z
 DTSTART:20261110T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Dicionário do Commander #7: o que é
@@ -256,7 +256,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-10-reels-teste@fontedemana.com.br
-DTSTAMP:20261113T100657Z
+DTSTAMP:20261113T101548Z
 DTSTART:20261110T214000Z
 DURATION:PT15M
 SUMMARY:18:40 Reels: Reel de teste: o vídeo de hoje com o gancho B
@@ -296,7 +296,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-10-comentarios@fontedemana.com.br
-DTSTAMP:20261113T100657Z
+DTSTAMP:20261113T101548Z
 DTSTART:20261111T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -318,7 +318,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-11-gravacao@fontedemana.com.br
-DTSTAMP:20261113T100657Z
+DTSTAMP:20261113T101548Z
 DTSTART:20261110T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -376,7 +376,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-11-tiktok@fontedemana.com.br
-DTSTAMP:20261113T100657Z
+DTSTAMP:20261113T101548Z
 DTSTART:20261111T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Do zero à mesa #2: o Corte Carmesim em três passos
@@ -408,7 +408,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-11-threads-manha@fontedemana.com.br
-DTSTAMP:20261113T100657Z
+DTSTAMP:20261113T101548Z
 DTSTART:20261111T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Do zero à mesa #2: Corte Carmesim\, o deck 
@@ -434,7 +434,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-11-feed@fontedemana.com.br
-DTSTAMP:20261113T100657Z
+DTSTAMP:20261113T101548Z
 DTSTART:20261111T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Do zero à mesa #2: Corte Carmesim\, o deck d
@@ -477,7 +477,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-11-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261113T100657Z
+DTSTAMP:20261113T101548Z
 DTSTART:20261111T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -496,7 +496,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-11-stories-tarde@fontedemana.com.br
-DTSTAMP:20261113T100657Z
+DTSTAMP:20261113T101548Z
 DTSTART:20261111T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -516,7 +516,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-11-reels@fontedemana.com.br
-DTSTAMP:20261113T100657Z
+DTSTAMP:20261113T101548Z
 DTSTART:20261111T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Do zero à mesa #2: Corte Carmesim\, 
@@ -553,7 +553,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-11-comentarios@fontedemana.com.br
-DTSTAMP:20261113T100657Z
+DTSTAMP:20261113T101548Z
 DTSTART:20261112T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -575,7 +575,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-12-gravacao@fontedemana.com.br
-DTSTAMP:20261113T100657Z
+DTSTAMP:20261113T101548Z
 DTSTART:20261111T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -627,7 +627,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-12-tiktok@fontedemana.com.br
-DTSTAMP:20261113T100657Z
+DTSTAMP:20261113T101548Z
 DTSTART:20261112T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o Top 5 #6 de terrenos no TikTok
@@ -658,7 +658,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-12-threads-manha@fontedemana.com.br
-DTSTAMP:20261113T100657Z
+DTSTAMP:20261113T101548Z
 DTSTART:20261112T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Top 5 #6: os terrenos que entram em qualquer
@@ -684,7 +684,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-12-feed@fontedemana.com.br
-DTSTAMP:20261113T100657Z
+DTSTAMP:20261113T101548Z
 DTSTART:20261112T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Top 5 #6: os terrenos que entram em qualquer 
@@ -728,7 +728,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-12-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261113T100657Z
+DTSTAMP:20261113T101548Z
 DTSTART:20261112T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -747,7 +747,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-12-stories-tarde@fontedemana.com.br
-DTSTAMP:20261113T100657Z
+DTSTAMP:20261113T101548Z
 DTSTART:20261112T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -767,7 +767,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-12-reels@fontedemana.com.br
-DTSTAMP:20261113T100657Z
+DTSTAMP:20261113T101548Z
 DTSTART:20261112T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Top 5 #6: os terrenos que entram em q
@@ -806,7 +806,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-12-comentarios@fontedemana.com.br
-DTSTAMP:20261113T100657Z
+DTSTAMP:20261113T101548Z
 DTSTART:20261113T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -828,7 +828,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-gravacao@fontedemana.com.br
-DTSTAMP:20261113T100657Z
+DTSTAMP:20261113T101548Z
 DTSTART:20261113T010000Z
 DURATION:PT15M
 SUMMARY:22:00 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -880,7 +880,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-tiktok@fontedemana.com.br
-DTSTAMP:20261113T100657Z
+DTSTAMP:20261113T101548Z
 DTSTART:20261113T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: TikTok: Chama o Juiz #6\, o dilema de Star Trek
@@ -915,7 +915,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-sussurro-threads@fontedemana.com.br
-DTSTAMP:20261113T100657Z
+DTSTAMP:20261113T101548Z
 DTSTART:20261113T113000Z
 DURATION:PT15M
 SUMMARY:08:30 Threads: Sussurro: vazaram os 4 precons de Nauctis
@@ -941,39 +941,39 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-sussurro-feed@fontedemana.com.br
-DTSTAMP:20261113T100657Z
+DTSTAMP:20261113T101548Z
 DTSTART:20261113T130000Z
 DURATION:PT15M
 SUMMARY:10:00 Instagram feed: Sussurro no feed: os 4 precons de Nauctis
-DESCRIPTION:Carrossel de 5 imagens com o vazamento: o que dizem as caixas\,
-  o que já é oficial e o que falta saber. Sai antes do Chama o Juiz das 1
- 2h e do painel das 15h. Fonte: TheGamer e Wizards. Sem hashtag\, como o re
- sto do dia (teste sem-hashtag).\n\nArquivos:\n- Imagem 1 de 5: https://fon
- tedemana.com.br/pauta/2026-11-13/sussurro/carrossel-01.jpg\n- Imagem 2 de 
- 5: https://fontedemana.com.br/pauta/2026-11-13/sussurro/carrossel-02.jpg\n
- - Imagem 3 de 5: https://fontedemana.com.br/pauta/2026-11-13/sussurro/carr
- ossel-03.jpg\n- Imagem 4 de 5: https://fontedemana.com.br/pauta/2026-11-13
- /sussurro/carrossel-04.jpg\n- Imagem 5 de 5: https://fontedemana.com.br/pa
- uta/2026-11-13/sussurro/carrossel-05.jpg\n\nLegenda:\nNauctis: vazaram os 
- 4 precons de Commander da primeira coleção de 2027. Qual deles você lev
- aria para a mesa?\n\nFotos das caixas apareceram no Reddit ontem: Terrors 
- of the Abyss (azul\, preto e verde)\, Blood in the Water (azul e vermelho)
- \, Merfolk Regiment (branco\, azul e verde) e Seal the Deal (vermelho e br
- anco). Nenhum comandante apareceu e a Wizards ainda não confirmou.\n\nOfi
- cial mesmo\, por enquanto: Nauctis chega às lojas em 5 de fevereiro de 20
- 27 e é o primeiro plano do Magic debaixo d'água. Hoje às 15h (Brasília
- )\, a Wizards abre o painel de prévias na MagicCon: Atlanta\, e a gente c
- onta aqui o que for confirmado.\n\nAmanhã às 6h\, a edição completa em
-  fontedemana.com.br\n\nFonte de Mana is unofficial Fan Content permitted u
- nder the Fan Content Policy. Not approved/endorsed by Wizards. Portions of
-  the materials used are property of Wizards of the Coast. ©Wizards of the
-  Coast LLC.\n\nComentário fixado:\nQual você levaria: Terrors of the Aby
- ss\, Blood in the Water\, Merfolk Regiment ou Seal the Deal?\n\nPasso a pa
- sso:\n1. No Instagram\, toque em + e escolha Post.\n2. Selecione as 5 imag
- ens na ordem\, da 1 à 5.\n3. Toque em Adicionar música e escolha uma em 
- alta\, de clima calmo ou de mar.\n4. Cole a Legenda e publique.\n5. Escrev
- a o Comentário fixado no post e fixe.\n\nPauta completa: https://fontedem
- ana.com.br/pauta/2026-11-13/#sussurro-feed
+DESCRIPTION:Carrossel de 5 imagens com o vazamento: os precons vazados\, o 
+ que já é oficial e o que falta saber. Sai antes do Chama o Juiz das 12h 
+ e do painel das 15h. Fonte: TheGamer e Wizards. Sem hashtag\, como o resto
+  do dia (teste sem-hashtag).\n\nArquivos:\n- Imagem 1 de 5: https://fonted
+ emana.com.br/pauta/2026-11-13/sussurro/carrossel-01.jpg\n- Imagem 2 de 5: 
+ https://fontedemana.com.br/pauta/2026-11-13/sussurro/carrossel-02.jpg\n- I
+ magem 3 de 5: https://fontedemana.com.br/pauta/2026-11-13/sussurro/carross
+ el-03.jpg\n- Imagem 4 de 5: https://fontedemana.com.br/pauta/2026-11-13/su
+ ssurro/carrossel-04.jpg\n- Imagem 5 de 5: https://fontedemana.com.br/pauta
+ /2026-11-13/sussurro/carrossel-05.jpg\n\nLegenda:\nNauctis: vazaram os 4 p
+ recons de Commander da primeira coleção de 2027. Qual deles você levari
+ a para a mesa?\n\nFotos das caixas apareceram no Reddit ontem: Terrors of 
+ the Abyss (azul\, preto e verde)\, Blood in the Water (azul e vermelho)\, 
+ Merfolk Regiment (branco\, azul e verde) e Seal the Deal (vermelho e branc
+ o). Nenhum comandante apareceu e a Wizards ainda não confirmou.\n\nOficia
+ l mesmo\, por enquanto: Nauctis chega às lojas em 5 de fevereiro de 2027 
+ e é o primeiro plano do Magic debaixo d'água. Hoje às 15h (Brasília)\,
+  a Wizards abre o painel de prévias na MagicCon: Atlanta\, e a gente cont
+ a aqui o que for confirmado.\n\nAmanhã às 6h\, a edição completa em fo
+ ntedemana.com.br\n\nFonte de Mana is unofficial Fan Content permitted unde
+ r the Fan Content Policy. Not approved/endorsed by Wizards. Portions of th
+ e materials used are property of Wizards of the Coast. ©Wizards of the Co
+ ast LLC.\n\nComentário fixado:\nQual você levaria: Terrors of the Abyss\
+ , Blood in the Water\, Merfolk Regiment ou Seal the Deal?\n\nPasso a passo
+ :\n1. No Instagram\, toque em + e escolha Post.\n2. Selecione as 5 imagens
+  na ordem\, da 1 à 5.\n3. Toque em Adicionar música e escolha uma em alt
+ a\, de clima calmo ou de mar.\n4. Cole a Legenda e publique.\n5. Escreva o
+  Comentário fixado no post e fixe.\n\nPauta completa: https://fontedemana
+ .com.br/pauta/2026-11-13/#sussurro-feed
 URL:https://fontedemana.com.br/pauta/2026-11-13/#sussurro-feed
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -983,7 +983,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-sussurro-tiktok@fontedemana.com.br
-DTSTAMP:20261113T100657Z
+DTSTAMP:20261113T101548Z
 DTSTART:20261113T130500Z
 DURATION:PT15M
 SUMMARY:10:05 TikTok: Sussurro no TikTok: as mesmas imagens no modo foto
@@ -1022,7 +1022,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-sussurro-stories@fontedemana.com.br
-DTSTAMP:20261113T100657Z
+DTSTAMP:20261113T101548Z
 DTSTART:20261113T131500Z
 DURATION:PT15M
 SUMMARY:10:15 Instagram Stories: Sussurro nos Stories: enquete e contagem p
