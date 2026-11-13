@@ -19,7 +19,8 @@
    "sub": "Elim Garak drena 2 sempre que você enfrenta um dilema.",
    "narracao": "Anularam minha mágica. O Elim Garak drena ou não?",
    "gravar": "Segure uma carta de mágica na mão como se fosse jogar, mostre para a câmera e termine com cara de quem foi anulado.",
-   "segundos": 3.9
+   "segundos": 3.9,
+   "caixa": "cima"
   },
   {
    "tipo": "carta",
@@ -78,5 +79,6 @@
    "narracao": "Dois modos de uma vez? Um dilema só. Drena 2, não 4.",
    "segundos": 5
   }
- ]
+ ],
+ "rostoGravado": true
 }
