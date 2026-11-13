@@ -1,0 +1,41 @@
+{
+  "data": "2026-11-13",
+  "tema": "Sussurro: vazaram os 4 precons de Commander de Nauctis",
+  "fontes": [
+    {"nome": "TheGamer (caixas vazadas no Reddit, 12 nov)", "url": "https://www.thegamer.com/mtg-nauctis-commander-decks-leaked/"},
+    {"nome": "MTG Oracle (12 e 13 nov)", "url": "https://www.mtgoracle.gg/news/nauctis-commander-decks"},
+    {"nome": "Wizards (Nauctis em 5 fev 2027, 17 jul)", "url": "https://magic.wizards.com/news/announcements/everything-announced-for-the-magic-multiverse-in-2027"},
+    {"nome": "StarCityGames (painel em 13 nov às 13h de Atlanta)", "url": "https://articles.starcitygames.com/magic-the-gathering/upcoming-magic-panels-to-reveal-marvel-product-nauctis-previews/"}
+  ],
+  "carrossel": {
+    "capa": {"cor": "U", "chip": "Sussurro", "kicker": "Vazou ontem, antes do painel",
+             "titulo": "Os 4 precons de <b>Nauctis</b>",
+             "sub": "Fotos das caixas de Commander caíram no Reddit. <b>Ainda não é oficial</b>: a Wizards mostra Nauctis hoje às 15h, na MagicCon: Atlanta."},
+    "cartoes": [
+      {"cor": "M", "titulo": "O que dizem as caixas",
+       "itens": [
+         {"cor": "B", "html": "<b>Terrors of the Abyss</b> (azul, preto e verde): reanimar monstros do fundo do mar."},
+         {"cor": "R", "html": "<b>Blood in the Water</b> (azul e vermelho): ataque e descarte, com fichas de Sangue."},
+         {"cor": "G", "html": "<b>Merfolk Regiment</b> (branco, azul e verde): sereianos em bando, com convocar."},
+         {"cor": "W", "html": "<b>Seal the Deal</b> (vermelho e branco): abraço em grupo, trocando dor por Tesouro."}
+       ],
+       "fonte": "Fonte: caixas vazadas (TheGamer, 12 nov)"},
+      {"cor": "U", "titulo": "O que já é oficial",
+       "itens": [
+         {"cor": "G", "html": "<b>5 de fevereiro de 2027</b>: Nauctis chega às lojas, a primeira coleção do ano."},
+         {"cor": "U", "html": "O primeiro plano do Magic debaixo d'água: cidades no fundo de um oceano sem fim."},
+         {"cor": "U", "html": "Sereianos, focas, homarídeos e alguns humanos, no meio da guerra entre dois reinos."}
+       ],
+       "fonte": "Fonte: Wizards, 17 jul"},
+      {"cor": "W", "titulo": "O que falta saber",
+       "itens": [
+         {"cor": "B", "html": "<b>Nenhum comandante</b> apareceu: as caixas mostram só nome, cores e uma frase."},
+         {"cor": "A", "html": "A caixa de Seal the Deal diz <b>Premium Edition</b>. Ainda não se sabe o que muda."},
+         {"cor": "W", "html": "<b>Hoje, 15h</b> (Brasília): painel de prévias de Nauctis na MagicCon: Atlanta."}
+       ],
+       "nota": {"rotulo": "Leitura da Fonte", "texto": "o tema de cada deck é o que a frase da caixa sugere. Lista e comandantes, só com a Wizards."},
+       "fonte": "Fontes: TheGamer, MTG Oracle e StarCityGames"}
+    ],
+    "cta": {"pergunta": "Qual dos quatro você levaria para a mesa?", "quando": "Hoje às 15h, o painel. Amanhã às 6h, a edição", "salvar": "Salve para conferir o que bate com o painel de hoje"}
+  }
+}

@@ -8,277 +8,8 @@ X-WR-TIMEZONE:America/Sao_Paulo
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:fdm-2026-11-09-gravacao@fontedemana.com.br
-DTSTAMP:20261113T014926Z
-DTSTART:20261108T221500Z
-DURATION:PT15M
-SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
-DESCRIPTION:Do zero à mesa #1\, o lote do plástico bolha. Você aparece e
- m duas cenas (a 1 e a 6)\; nas outras\, só a voz por cima da carta e dos 
- trechos que você já gravou.\n\nArquivos:\n- Vídeo mudo: https://fontede
- mana.com.br/pauta/2026-11-09/tiktok/tiktok-mudo.mp4\n\nRoteiro de gravaç
- ão:\nCena 1\, rosto\, uns 3 s\nNa tela: Comprei na gringa: Veio plástico
-  bolha de carta\nComo gravar: Rosto: Olhando para a câmera\, segurando o 
- maço do lote na mão com o plástico bolha aparecendo.\nFala: Comprei car
- ta pro meu deck de vampiros e veio isso.\n\nCena 2\, só a voz\, uns 5 s\n
- Na tela: O pedido: 41 cartas pro Corte Carmesim\nComo gravar: Só a voz: p
- ode gravar em vídeo ou áudio (o Edgar Markov entra na tela)\nFala: Eram 
- 41 cartas pra completar o Corte Carmesim\, meu deck do Edgar Markov.\n\nCe
- na 3\, só a voz\, uns 5 s\nNa tela: A proteção: 323 cartas de brinde\nC
- omo gravar: Só a voz: pode gravar em vídeo ou áudio (o trecho do lote e
- ntra sozinho no fundo)\nFala: Pra proteger\, o vendedor mandou 323 cartas 
- de brinde\, de 40 coleções.\n\nCena 4\, só a voz\, uns 4 s\nNa tela: 79
-  em chinês: Aliados de Zendikar\, de 2009\nComo gravar: Só a voz: pode g
- ravar em vídeo ou áudio (o trecho do lote entra sozinho no fundo)\nFala:
-  79 vieram em chinês. Tem até aliado raro de Zendikar\, de 2009.\n\nCena
-  5\, só a voz\, uns 6 s\nNa tela: Virou deck: 15 no Corte e um deck novo\
- nComo gravar: Só a voz: pode gravar em vídeo ou áudio (o trecho do lote
-  entra sozinho no fundo)\nFala: 15 já tapam buraco no Corte. E com uns aj
- ustes deu um deck novo pro DC500\, o Rosa Sedenta.\n\nCena 6\, rosto\, uns
-  3 s\nNa tela: Do zero à mesa: O Corte Carmesim montado\nComo gravar: Ros
- to: Mostrando o Edgar Markov na mão para a câmera\, com o maço do lote 
- do lado.\nFala: Quarta eu mostro o Corte Carmesim montado.\n\n\nPasso a pa
- sso:\n1. Celular na vertical\, câmera da frente\, na altura dos olhos\, a
-  um braço de distância.\n2. Rosto na metade de cima da tela: o título e
- ntra embaixo dele\, na altura do peito.\n3. Luz de frente (de frente para 
- a janela) e fundo arrumado\; a estante de cartas é ótima.\n4. Desligue o
-  Vídeo HDR (Ajustes\, Câmera\, Gravar Vídeo) para as cores não lavarem
- .\n5. Um vídeo por cena\, falando para a câmera\, com meio segundo de si
- lêncio antes e depois\; nomeie cena_1\, cena_2... e mande todos juntos.\n
- 6. Nas cenas sem rosto\, só a voz conta: pode gravar em vídeo ou só o 
- áudio.\n7. Mande os vídeos ao Claude no projeto MGT strategy (pode ser r
- espondendo à mensagem desta tarefa) dizendo "vídeos do TikTok de 2026-11
- -09".\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-09/#grav
- acao
-URL:https://fontedemana.com.br/pauta/2026-11-09/#gravacao
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Gravação: Gravar o vídeo de amanhã (você aparece)
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-09-stories-lote@fontedemana.com.br
-DTSTAMP:20261113T014926Z
-DTSTART:20261109T210000Z
-DURATION:PT15M
-SUMMARY:18:00 Instagram Stories: Quadro do lote com enquete
-DESCRIPTION:Um quadro do vídeo do lote (o Sea Gate Loremaster em chinês) 
- com o sticker de enquete.\n\nArquivos:\n- Quadro do vídeo: https://fonted
- emana.com.br/pauta/2026-11-09/tiktok/quadro-lote.jpg\n\nEnquete:\nVocê jo
- garia com carta em chinês? Opções: Jogaria\, Só em inglês\n\nPasso a 
- passo:\n1. Poste o quadro nos Stories.\n2. Ponha o sticker de enquete com 
- a pergunta "Você jogaria com carta em chinês?" e as opções Jogaria e S
- ó em inglês.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11
- -09/#stories-lote
-URL:https://fontedemana.com.br/pauta/2026-11-09/#stories-lote
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Quadro do lote com enquete
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-09-tiktok@fontedemana.com.br
-DTSTAMP:20261113T014926Z
-DTSTART:20261109T143000Z
-DURATION:PT15M
-SUMMARY:11:30 TikTok: Do zero à mesa #1: o plástico bolha do Corte Carmes
- im
-DESCRIPTION:Vídeo com você na abertura e no fecho: o pedido pro Corte Car
- mesim\, as 323 cartas de brinde\, os aliados de Zendikar em chinês e o de
- ck novo\, o Rosa Sedenta.\n\nArquivos:\n- Vídeo do TikTok narrado: https:
- //fontedemana.com.br/pauta/2026-11-09/tiktok/tiktok-narrado.mp4\n\nLegenda
- :\nCommander: comprei cartas de Magic na gringa pro meu deck de vampiros e
-  o vendedor mandou 323 de plástico bolha. Qual a melhor carta que já vei
- o de brinde pra você?\n\nEram 41 cartas pro Corte Carmesim\, meu deck do 
- Edgar Markov.\nA proteção: 323 cartas de 40 coleções\, 79 em chinês e
-  até uma de Riftbound.\nNo meio\, aliados raros de Zendikar\, de 2009.\n1
- 5 já tapam buraco no Corte Carmesim de teste.\nE com alguns ajustes deu p
- ra montar um deck novo de Duel Commander 500\, o Rosa Sedenta.\n\nDo zero 
- à mesa. Quarta tem o Corte Carmesim montado.\nfontedemana.com.br\n\nFonte
-  de Mana is unofficial Fan Content permitted under the Fan Content Policy.
-  Not approved/endorsed by Wizards. Portions of the materials used are prop
- erty of Wizards of the Coast. ©Wizards of the Coast LLC.\n\nComentário f
- ixado:\nCarta em chinês no deck: você jogaria ou só em inglês? A séri
- e Do zero à mesa continua na quarta\, com o Corte Carmesim.\n\nPasso a pa
- sso:\n1. Poste com um som em alta da biblioteca do TikTok\, volume entre 1
- 5% e 20%.\n2. Voz própria não precisa de rótulo de IA.\n3. Fixe o comen
- tário logo depois de postar.\n\nPauta completa: https://fontedemana.com.b
- r/pauta/2026-11-09/#tiktok
-URL:https://fontedemana.com.br/pauta/2026-11-09/#tiktok
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:TikTok: Do zero à mesa #1: o plástico bolha do Corte Carmesim
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-09-threads-manha@fontedemana.com.br
-DTSTAMP:20261113T014926Z
-DTSTART:20261109T133000Z
-DURATION:PT15M
-SUMMARY:10:30 Threads: Debate: Chama o Juiz #5: Kessig Wolf Run entra num d
- eck de…
-DESCRIPTION:Post de debate do conteúdo original de hoje (Chama o Juiz) par
- a puxar conversa.\n\nPost:\nComprei 41 cartas na gringa pro meu deck de va
- mpiros e o vendedor protegeu tudo com 323 cartas de brinde\, de 40 coleç
- ões. Com elas\, deu até pra montar um deck novo.\n\nQual a melhor carta 
- que já veio de brinde ou de proteção pra você?\n\nPasso a passo:\n1. A
- bra o Threads e cole o Post.\n2. Dica: Responda os primeiros comentários 
- contando que 15 cartas do lote já estão no Corte Carmesim de teste.\n3. 
- Toque em Adicionar tópico e escolha MTG.\n4. Publique e responda quem com
- entar na primeira hora.\n\nPauta completa: https://fontedemana.com.br/paut
- a/2026-11-09/#threads-manha
-URL:https://fontedemana.com.br/pauta/2026-11-09/#threads-manha
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Debate: Chama o Juiz #5: Kessig Wolf Run entra num dec
- k de…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-09-feed@fontedemana.com.br
-DTSTAMP:20261113T014926Z
-DTSTART:20261109T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram feed: Chama o Juiz #5: Kessig Wolf Run entra num de
- ck de comandante mono…
-DESCRIPTION:Carrossel original de 5 imagens (Chama o Juiz): Chama o Juiz #5
- : Kessig Wolf Run entra num deck de comandante mono verde?. Feito para sal
- var e compartilhar.\n\nArquivos:\n- Imagem 1 de 5: https://fontedemana.com
- .br/pauta/2026-11-09/original/carrossel-01.jpg\n- Imagem 2 de 5: https://f
- ontedemana.com.br/pauta/2026-11-09/original/carrossel-02.jpg\n- Imagem 3 d
- e 5: https://fontedemana.com.br/pauta/2026-11-09/original/carrossel-03.jpg
- \n- Imagem 4 de 5: https://fontedemana.com.br/pauta/2026-11-09/original/ca
- rrossel-04.jpg\n- Imagem 5 de 5: https://fontedemana.com.br/pauta/2026-11-
- 09/original/carrossel-05.jpg\n\nLegenda:\nCommander: carta de Magic incolo
- r com símbolo de mana no texto entra em qualquer deck? Você teria acerta
- do de primeira?\n\nChama o Juiz. Seu comandante é mono verde e você quer
-  a Kessig Wolf Run nas 99. Ela só gera mana incolor\, mas a habilidade de
-  dar atropelar custa vermelho e verde.\n\nA) Pode\, terreno não tem cor\n
- B) Não pode\, o símbolo vermelho do texto conta\nC) Pode\, se o deck tiv
- er Montanha\n\nResposta no carrossel\, com a regra 903.4 das Regras Abrang
- entes.\nfontedemana.com.br\n\nFonte de Mana is unofficial Fan Content perm
- itted under the Fan Content Policy. Not approved/endorsed by Wizards. Port
- ions of the materials used are property of Wizards of the Coast. ©Wizards
-  of the Coast LLC.\n\nPasso a passo:\n1. No Instagram\, toque em + e escol
- ha Post.\n2. Selecione as 5 imagens na ordem\, da 1 à 5.\n3. Toque em Adi
- cionar música e escolha uma em alta que combine com o tema.\n4. Cole a Le
- genda e publique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026
- -11-09/#feed
-URL:https://fontedemana.com.br/pauta/2026-11-09/#feed
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram feed: Chama o Juiz #5: Kessig Wolf Run entra num deck
-  de comandante mono…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-09-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261113T014926Z
-DTSTART:20261109T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
-DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
- .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
- e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
- o do post: Kessig Wolf Run entra no deck mono verde? com Entra e Não entr
- a.\n3. Publique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-
- 11-09/#stories-meio-dia
-URL:https://fontedemana.com.br/pauta/2026-11-09/#stories-meio-dia
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-09-stories-tarde@fontedemana.com.br
-DTSTAMP:20261113T014926Z
-DTSTART:20261109T180000Z
-DURATION:PT15M
-SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
-DESCRIPTION:Story com a imagem de Kambal\, Profiteering Mayor no Topdeck do
-  Dia e o sticker de link para a edição completa.\n\nArquivos:\n- Topdeck
-  do Dia: https://fontedemana.com.br/kit/ed35/carrossel-03.jpg\n\nPasso a p
- asso:\n1. Baixe a imagem e poste no Story.\n2. Adicione o sticker de Link 
- para fontedemana.com.br com o texto Edição completa\, embaixo do texto d
- o Topdeck.\n3. Publique.\n\nPauta completa: https://fontedemana.com.br/pau
- ta/2026-11-09/#stories-tarde
-URL:https://fontedemana.com.br/pauta/2026-11-09/#stories-tarde
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Topdeck do Dia com link
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-09-reels@fontedemana.com.br
-DTSTAMP:20261113T014926Z
-DTSTART:20261109T220000Z
-DURATION:PT15M
-SUMMARY:19:00 Reels: Vídeo original: Do zero à mesa #1: comprei pro Corte
-  Carmesim e…
-DESCRIPTION:O vídeo original de hoje no Instagram\, o mesmo arquivo do Tik
- Tok\, já narrado. É o formato que mais chega a quem não segue.\n\nArqui
- vos:\n- Vídeo original narrado: https://fontedemana.com.br/pauta/2026-11-
- 09/tiktok/tiktok-narrado.mp4\n\nLegenda:\nCommander: comprei cartas de Mag
- ic na gringa pro meu deck de vampiros e o vendedor mandou 323 de plástico
-  bolha. Qual a melhor carta que já veio de brinde pra você?\n\nEram 41 c
- artas pro Corte Carmesim\, meu deck do Edgar Markov.\nA proteção: 323 ca
- rtas de 40 coleções\, 79 em chinês e até uma de Riftbound.\nNo meio\, 
- aliados raros de Zendikar\, de 2009.\n15 já tapam buraco no Corte Carmesi
- m de teste.\nE com alguns ajustes deu pra montar um deck novo de Duel Comm
- ander 500\, o Rosa Sedenta.\n\nDo zero à mesa. Quarta tem o Corte Carmesi
- m montado.\nfontedemana.com.br\n\nFonte de Mana is unofficial Fan Content 
- permitted under the Fan Content Policy. Not approved/endorsed by Wizards. 
- Portions of the materials used are property of Wizards of the Coast. ©Wiz
- ards of the Coast LLC.\n\nComentário fixado:\nCarta em chinês no deck: v
- ocê jogaria ou só em inglês? A série Do zero à mesa continua na quart
- a\, com o Corte Carmesim.\n\nPasso a passo:\n1. No Instagram\, toque em + 
- e escolha Reel.\n2. Escolha o vídeo baixado daqui\, nunca o salvo do TikT
- ok (o Instagram derruba vídeo com marca d'água).\n3. Em Áudio\, ponha u
- ma música em alta da biblioteca do Instagram com volume baixo (uns 10%)\,
-  sem cobrir a voz.\n4. Na capa\, use o primeiro quadro\, o do gancho.\n5. 
- Cole a Legenda e publique.\n6. Fixe o comentário e responda quem comentar
-  na primeira hora.\n\nPauta completa: https://fontedemana.com.br/pauta/202
- 6-11-09/#reels
-URL:https://fontedemana.com.br/pauta/2026-11-09/#reels
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reels: Vídeo original: Do zero à mesa #1: comprei pro Corte C
- armesim e…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-09-comentarios@fontedemana.com.br
-DTSTAMP:20261113T014926Z
-DTSTART:20261110T003000Z
-DURATION:PT15M
-SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
-DESCRIPTION:Uns 10 minutos nas três redes: curtir e responder os comentár
- ios das últimas 48 horas\, começando pelo vídeo e pelo carrossel de hoj
- e. Conversa nos comentários leva a peça a mais gente\, e o Instagram rec
- omenda responder em até 2 dias.\n\nPasso a passo:\n1. Instagram: nas noti
- ficações\, curta os comentários e responda com uma frase quem perguntou
-  ou discordou.\n2. TikTok e Threads: o mesmo\, começando pelo post com ma
- is comentários.\n3. Pergunta boa ou dúvida que se repete\, nos comentár
- ios ou nas DMs? Mande na conversa do projeto: vira tema de um pilar.\n\nPa
- uta completa: https://fontedemana.com.br/pauta/2026-11-09/#comentarios
-URL:https://fontedemana.com.br/pauta/2026-11-09/#comentarios
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Comentários: Responder os comentários de hoje e de ontem
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fdm-2026-11-10-gravacao@fontedemana.com.br
-DTSTAMP:20261113T014926Z
+DTSTAMP:20261113T100625Z
 DTSTART:20261109T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -330,7 +61,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-10-tiktok@fontedemana.com.br
-DTSTAMP:20261113T014926Z
+DTSTAMP:20261113T100625Z
 DTSTART:20261110T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o TikTok: o que é ramp
@@ -360,7 +91,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-10-anuncio-dragoes@fontedemana.com.br
-DTSTAMP:20261113T014926Z
+DTSTAMP:20261113T100625Z
 DTSTART:20261110T223000Z
 DURATION:PT15M
 SUMMARY:19:30 Reels: Impulsionar o Reels do Top 5 dos dragões (5/11)
@@ -384,7 +115,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-10-threads-manha@fontedemana.com.br
-DTSTAMP:20261113T014926Z
+DTSTAMP:20261113T100625Z
 DTSTART:20261110T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Dicionário do Commander #7: o que é ramp
@@ -408,7 +139,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-10-feed@fontedemana.com.br
-DTSTAMP:20261113T014926Z
+DTSTAMP:20261113T100625Z
 DTSTART:20261110T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Dicionário do Commander #7: o que é ramp
@@ -447,7 +178,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-10-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261113T014926Z
+DTSTAMP:20261113T100625Z
 DTSTART:20261110T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -466,7 +197,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-10-stories-tarde@fontedemana.com.br
-DTSTAMP:20261113T014926Z
+DTSTAMP:20261113T100625Z
 DTSTART:20261110T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -486,7 +217,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-10-reels@fontedemana.com.br
-DTSTAMP:20261113T014926Z
+DTSTAMP:20261113T100625Z
 DTSTART:20261110T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Dicionário do Commander #7: o que é
@@ -525,7 +256,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-10-reels-teste@fontedemana.com.br
-DTSTAMP:20261113T014926Z
+DTSTAMP:20261113T100625Z
 DTSTART:20261110T214000Z
 DURATION:PT15M
 SUMMARY:18:40 Reels: Reel de teste: o vídeo de hoje com o gancho B
@@ -565,7 +296,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-10-comentarios@fontedemana.com.br
-DTSTAMP:20261113T014926Z
+DTSTAMP:20261113T100625Z
 DTSTART:20261111T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -587,7 +318,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-11-gravacao@fontedemana.com.br
-DTSTAMP:20261113T014926Z
+DTSTAMP:20261113T100625Z
 DTSTART:20261110T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -645,7 +376,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-11-tiktok@fontedemana.com.br
-DTSTAMP:20261113T014926Z
+DTSTAMP:20261113T100625Z
 DTSTART:20261111T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Do zero à mesa #2: o Corte Carmesim em três passos
@@ -677,7 +408,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-11-threads-manha@fontedemana.com.br
-DTSTAMP:20261113T014926Z
+DTSTAMP:20261113T100625Z
 DTSTART:20261111T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Do zero à mesa #2: Corte Carmesim\, o deck 
@@ -703,7 +434,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-11-feed@fontedemana.com.br
-DTSTAMP:20261113T014926Z
+DTSTAMP:20261113T100625Z
 DTSTART:20261111T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Do zero à mesa #2: Corte Carmesim\, o deck d
@@ -746,7 +477,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-11-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261113T014926Z
+DTSTAMP:20261113T100625Z
 DTSTART:20261111T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -765,7 +496,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-11-stories-tarde@fontedemana.com.br
-DTSTAMP:20261113T014926Z
+DTSTAMP:20261113T100625Z
 DTSTART:20261111T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -785,7 +516,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-11-reels@fontedemana.com.br
-DTSTAMP:20261113T014926Z
+DTSTAMP:20261113T100625Z
 DTSTART:20261111T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Do zero à mesa #2: Corte Carmesim\, 
@@ -822,7 +553,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-11-comentarios@fontedemana.com.br
-DTSTAMP:20261113T014926Z
+DTSTAMP:20261113T100625Z
 DTSTART:20261112T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -844,7 +575,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-12-gravacao@fontedemana.com.br
-DTSTAMP:20261113T014926Z
+DTSTAMP:20261113T100625Z
 DTSTART:20261111T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -896,7 +627,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-12-tiktok@fontedemana.com.br
-DTSTAMP:20261113T014926Z
+DTSTAMP:20261113T100625Z
 DTSTART:20261112T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o Top 5 #6 de terrenos no TikTok
@@ -927,7 +658,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-12-threads-manha@fontedemana.com.br
-DTSTAMP:20261113T014926Z
+DTSTAMP:20261113T100625Z
 DTSTART:20261112T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Top 5 #6: os terrenos que entram em qualquer
@@ -953,7 +684,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-12-feed@fontedemana.com.br
-DTSTAMP:20261113T014926Z
+DTSTAMP:20261113T100625Z
 DTSTART:20261112T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Top 5 #6: os terrenos que entram em qualquer 
@@ -997,7 +728,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-12-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261113T014926Z
+DTSTAMP:20261113T100625Z
 DTSTART:20261112T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -1016,7 +747,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-12-stories-tarde@fontedemana.com.br
-DTSTAMP:20261113T014926Z
+DTSTAMP:20261113T100625Z
 DTSTART:20261112T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1036,7 +767,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-12-reels@fontedemana.com.br
-DTSTAMP:20261113T014926Z
+DTSTAMP:20261113T100625Z
 DTSTART:20261112T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Top 5 #6: os terrenos que entram em q
@@ -1075,7 +806,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-12-comentarios@fontedemana.com.br
-DTSTAMP:20261113T014926Z
+DTSTAMP:20261113T100625Z
 DTSTART:20261113T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1097,7 +828,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-gravacao@fontedemana.com.br
-DTSTAMP:20261113T014926Z
+DTSTAMP:20261113T100625Z
 DTSTART:20261113T010000Z
 DURATION:PT15M
 SUMMARY:22:00 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -1149,7 +880,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-tiktok@fontedemana.com.br
-DTSTAMP:20261113T014926Z
+DTSTAMP:20261113T100625Z
 DTSTART:20261113T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: TikTok: Chama o Juiz #6\, o dilema de Star Trek
@@ -1179,6 +910,139 @@ URL:https://fontedemana.com.br/pauta/2026-11-13/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:TikTok: TikTok: Chama o Juiz #6\, o dilema de Star Trek
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-13-sussurro-threads@fontedemana.com.br
+DTSTAMP:20261113T100625Z
+DTSTART:20261113T113000Z
+DURATION:PT15M
+SUMMARY:08:30 Threads: Sussurro: vazaram os 4 precons de Nauctis
+DESCRIPTION:O vazamento das caixas dos precons de Nauctis num post só\, s
+ ó texto\, antes de todo mundo. Diz que ainda não é oficial e chama para
+  o painel das 15h. Substitui o post de manhã do kit\, que diz que o dia e
+ stá calmo.\n\nPost:\nNauctis: vazaram as caixas dos 4 precons de Commande
+ r da primeira coleção de 2027. Terrors of the Abyss (azul\, preto e verd
+ e)\, Blood in the Water (azul e vermelho)\, Merfolk Regiment (branco\, azu
+ l e verde) e Seal the Deal (vermelho e branco). Ainda não é oficial e ne
+ nhum comandante apareceu. Hoje às 15h a Wizards abre o painel de Nauctis 
+ na MagicCon: Atlanta. Qual você levaria para a mesa?\n\nAmanhã às 6h\, 
+ a edição completa em fontedemana.com.br\n\nPasso a passo:\n1. No Threads
+ \, cole o Post\, sem imagem e sem sequência.\n2. Toque em Adicionar tópi
+ co e escolha MTG.\n3. Publique e responda quem comentar na primeira hora.\
+ n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-13/#sussurro-t
+ hreads
+URL:https://fontedemana.com.br/pauta/2026-11-13/#sussurro-threads
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Sussurro: vazaram os 4 precons de Nauctis
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-13-sussurro-feed@fontedemana.com.br
+DTSTAMP:20261113T100625Z
+DTSTART:20261113T130000Z
+DURATION:PT15M
+SUMMARY:10:00 Instagram feed: Sussurro no feed: os 4 precons de Nauctis
+DESCRIPTION:Carrossel de 5 imagens com o vazamento: o que dizem as caixas\,
+  o que já é oficial e o que falta saber. Sai antes do Chama o Juiz das 1
+ 2h e do painel das 15h. Fonte: TheGamer e Wizards. Sem hashtag\, como o re
+ sto do dia (teste sem-hashtag).\n\nArquivos:\n- Imagem 1 de 5: https://fon
+ tedemana.com.br/pauta/2026-11-13/sussurro/carrossel-01.jpg\n- Imagem 2 de 
+ 5: https://fontedemana.com.br/pauta/2026-11-13/sussurro/carrossel-02.jpg\n
+ - Imagem 3 de 5: https://fontedemana.com.br/pauta/2026-11-13/sussurro/carr
+ ossel-03.jpg\n- Imagem 4 de 5: https://fontedemana.com.br/pauta/2026-11-13
+ /sussurro/carrossel-04.jpg\n- Imagem 5 de 5: https://fontedemana.com.br/pa
+ uta/2026-11-13/sussurro/carrossel-05.jpg\n\nLegenda:\nNauctis: vazaram os 
+ 4 precons de Commander da primeira coleção de 2027. Qual deles você lev
+ aria para a mesa?\n\nFotos das caixas apareceram no Reddit ontem: Terrors 
+ of the Abyss (azul\, preto e verde)\, Blood in the Water (azul e vermelho)
+ \, Merfolk Regiment (branco\, azul e verde) e Seal the Deal (vermelho e br
+ anco). Nenhum comandante apareceu e a Wizards ainda não confirmou.\n\nOfi
+ cial mesmo\, por enquanto: Nauctis chega às lojas em 5 de fevereiro de 20
+ 27 e é o primeiro plano do Magic debaixo d'água. Hoje às 15h (Brasília
+ )\, a Wizards abre o painel de prévias na MagicCon: Atlanta\, e a gente c
+ onta aqui o que for confirmado.\n\nAmanhã às 6h\, a edição completa em
+  fontedemana.com.br\n\nFonte de Mana is unofficial Fan Content permitted u
+ nder the Fan Content Policy. Not approved/endorsed by Wizards. Portions of
+  the materials used are property of Wizards of the Coast. ©Wizards of the
+  Coast LLC.\n\nComentário fixado:\nQual você levaria: Terrors of the Aby
+ ss\, Blood in the Water\, Merfolk Regiment ou Seal the Deal?\n\nPasso a pa
+ sso:\n1. No Instagram\, toque em + e escolha Post.\n2. Selecione as 5 imag
+ ens na ordem\, da 1 à 5.\n3. Toque em Adicionar música e escolha uma em 
+ alta\, de clima calmo ou de mar.\n4. Cole a Legenda e publique.\n5. Escrev
+ a o Comentário fixado no post e fixe.\n\nPauta completa: https://fontedem
+ ana.com.br/pauta/2026-11-13/#sussurro-feed
+URL:https://fontedemana.com.br/pauta/2026-11-13/#sussurro-feed
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram feed: Sussurro no feed: os 4 precons de Nauctis
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-13-sussurro-tiktok@fontedemana.com.br
+DTSTAMP:20261113T100625Z
+DTSTART:20261113T130500Z
+DURATION:PT15M
+SUMMARY:10:05 TikTok: Sussurro no TikTok: as mesmas imagens no modo foto
+DESCRIPTION:As 5 imagens do Sussurro no modo foto do TikTok\, com som em al
+ ta. Chega a quem procura Nauctis hoje\, sem precisar de vídeo. O Chama o 
+ Juiz das 11h30 segue normal.\n\nArquivos:\n- Imagem 1 de 5: https://fonted
+ emana.com.br/pauta/2026-11-13/sussurro/carrossel-01.jpg\n- Imagem 2 de 5: 
+ https://fontedemana.com.br/pauta/2026-11-13/sussurro/carrossel-02.jpg\n- I
+ magem 3 de 5: https://fontedemana.com.br/pauta/2026-11-13/sussurro/carross
+ el-03.jpg\n- Imagem 4 de 5: https://fontedemana.com.br/pauta/2026-11-13/su
+ ssurro/carrossel-04.jpg\n- Imagem 5 de 5: https://fontedemana.com.br/pauta
+ /2026-11-13/sussurro/carrossel-05.jpg\n\nLegenda:\nNauctis: vazaram os 4 p
+ recons de Commander da primeira coleção de 2027. Qual deles você levari
+ a para a mesa?\n\nFotos das caixas apareceram no Reddit ontem: Terrors of 
+ the Abyss (azul\, preto e verde)\, Blood in the Water (azul e vermelho)\, 
+ Merfolk Regiment (branco\, azul e verde) e Seal the Deal (vermelho e branc
+ o). Nenhum comandante apareceu e a Wizards ainda não confirmou.\n\nOficia
+ l mesmo\, por enquanto: Nauctis chega às lojas em 5 de fevereiro de 2027 
+ e é o primeiro plano do Magic debaixo d'água. Hoje às 15h (Brasília)\,
+  a Wizards abre o painel de prévias na MagicCon: Atlanta\, e a gente cont
+ a aqui o que for confirmado.\n\nAmanhã às 6h\, a edição completa em fo
+ ntedemana.com.br\n\nFonte de Mana is unofficial Fan Content permitted unde
+ r the Fan Content Policy. Not approved/endorsed by Wizards. Portions of th
+ e materials used are property of Wizards of the Coast. ©Wizards of the Co
+ ast LLC.\n\nPasso a passo:\n1. No TikTok\, toque em + e escolha Foto (ou C
+ arregar e marque as imagens).\n2. Selecione as 5 imagens na ordem.\n3. Esc
+ olha um som em alta da biblioteca do TikTok\, com volume baixo.\n4. Cole a
+  Legenda e publique.\n\nPauta completa: https://fontedemana.com.br/pauta/2
+ 026-11-13/#sussurro-tiktok
+URL:https://fontedemana.com.br/pauta/2026-11-13/#sussurro-tiktok
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TikTok: Sussurro no TikTok: as mesmas imagens no modo foto
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-13-sussurro-stories@fontedemana.com.br
+DTSTAMP:20261113T100625Z
+DTSTART:20261113T131500Z
+DURATION:PT15M
+SUMMARY:10:15 Instagram Stories: Sussurro nos Stories: enquete e contagem p
+ ara o painel
+DESCRIPTION:Dois stories: o post do Sussurro com enquete e\, logo depois\, 
+ a contagem regressiva para o painel das 15h. Quem tocar em Lembrar recebe 
+ o aviso do Instagram na hora do painel\, quando sai o plantão.\n\nPasso a
+  passo:\n1. Abra o post do Sussurro no feed\, toque no avião de papel e e
+ scolha Adicionar post ao story.\n2. Adicione o sticker de Enquete: Qual pr
+ econ de Nauctis você levaria? com Terrors of the Abyss\, Blood in the Wat
+ er\, Merfolk Regiment e Seal the Deal.\n3. Publique.\n4. Novo story com fu
+ ndo azul: sticker de Contagem regressiva com o nome Painel de Nauctis\, te
+ rminando hoje às 15h. Publique.\n\nPauta completa: https://fontedemana.co
+ m.br/pauta/2026-11-13/#sussurro-stories
+URL:https://fontedemana.com.br/pauta/2026-11-13/#sussurro-stories
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Sussurro nos Stories: enquete e contagem par
+ a o painel
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
