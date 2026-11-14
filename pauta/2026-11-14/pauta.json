@@ -1,6 +1,8 @@
 {
   "data": "2026-11-14",
-  "fx": null,
+  "fx": "Valores em reais pela cotação de 12 nov, US$ 1 = R$ 5,6143 (Banco Central, PTAX).",
+  "forca": "calmo",
+  "feed": "original",
   "avisos": [
     {
       "id": "gravacao",
@@ -79,7 +81,7 @@
       "textos": [
         {
           "rotulo": "Legenda",
-          "texto": "Deck de Commander com teto de R$ 500 montado com cartas que vieram de brinde: dá para levar ao torneio? Do zero à mesa #3: o Rosa Sedenta, meu mono-preto de Duel Commander 500 com o Vito, Thorn of the Dusk Rose. Ele estreou no DC500 da MTG Brasil na quarta. 29 das cartas vieram no plástico bolha do lote, 24 do Corte Carmesim e 12 do meu fichário antigo. O motor: cada criatura sacrificada drena 1, e o Vito transforma a vida ganha em mais 1 de perda. Total de R$ 473,07 na LigaMagic, abaixo do teto. A sua loja joga DC500? Lista e série completa em fontedemana.com.br\n\n#rosasedenta #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+          "texto": "Deck de Commander com teto de R$ 500 montado com cartas que vieram de brinde: dá para levar ao torneio? Do zero à mesa #3: o Rosa Sedenta, meu mono-preto de Duel Commander 500 com o Vito, Thorn of the Dusk Rose. Ele estreou no DC500 da MTG Brasil na quarta. 29 das cartas vieram no plástico bolha do lote, 24 do Corte Carmesim e 12 do meu fichário antigo. O motor: cada criatura sacrificada drena 1, e o Vito transforma a vida ganha em mais 1 de perda. Total de R$ 473,07 na LigaMagic, abaixo do teto. A sua loja joga DC500? Lista e série completa em fontedemana.com.br\n\n#commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
         },
         {
           "rotulo": "Comentário fixado",
@@ -93,6 +95,148 @@
         "Se der, marque a loja MTG Brasil como local.",
         "Cole a Legenda e publique.",
         "Fixe o comentário."
+      ]
+    },
+    {
+      "id": "threads-manha",
+      "hora": "10:30",
+      "rede": "Threads",
+      "titulo": "Debate: Do zero à mesa #3: o Rosa Sedenta, deck de DC500 que nasceu…",
+      "oQue": "Post de debate do conteúdo original de hoje (Radar DC500) para puxar conversa.",
+      "textos": [
+        {
+          "rotulo": "Post",
+          "texto": "Montei um deck de Duel Commander 500 só com carta que eu já tinha. 29 vieram no plástico bolha de um lote, 24 do meu deck de vampiros e 12 do fichário. Deu R$ 473,07 na LigaMagic, abaixo do teto, e estreou na loja na quarta. Pergunta sincera: dá para montar deck de campeonato com R$ 500, ou o teto só serve para deck de brincadeira?"
+        }
+      ],
+      "passos": [
+        "Abra o Threads e cole o Post.",
+        "Dica: Enquete com as opções: Dá para competir, Só para brincar",
+        "Toque em Adicionar tópico e escolha MTG.",
+        "Publique e responda quem comentar na primeira hora."
+      ]
+    },
+    {
+      "id": "feed",
+      "hora": "12:00",
+      "rede": "Instagram feed",
+      "titulo": "Radar DC500: Do zero à mesa #3: o Rosa Sedenta, deck de DC500 que…",
+      "origem": "original:2026-11-14",
+      "oQue": "Carrossel original de 7 imagens (Radar DC500): Do zero à mesa #3: o Rosa Sedenta, deck de DC500 que nasceu do plástico bolha. Feito para salvar e compartilhar.",
+      "arquivos": [
+        {
+          "nome": "Imagem 1 de 7",
+          "url": "https://fontedemana.com.br/pauta/2026-11-14/original/carrossel-01.jpg"
+        },
+        {
+          "nome": "Imagem 2 de 7",
+          "url": "https://fontedemana.com.br/pauta/2026-11-14/original/carrossel-02.jpg"
+        },
+        {
+          "nome": "Imagem 3 de 7",
+          "url": "https://fontedemana.com.br/pauta/2026-11-14/original/carrossel-03.jpg"
+        },
+        {
+          "nome": "Imagem 4 de 7",
+          "url": "https://fontedemana.com.br/pauta/2026-11-14/original/carrossel-04.jpg"
+        },
+        {
+          "nome": "Imagem 5 de 7",
+          "url": "https://fontedemana.com.br/pauta/2026-11-14/original/carrossel-05.jpg"
+        },
+        {
+          "nome": "Imagem 6 de 7",
+          "url": "https://fontedemana.com.br/pauta/2026-11-14/original/carrossel-06.jpg"
+        },
+        {
+          "nome": "Imagem 7 de 7",
+          "url": "https://fontedemana.com.br/pauta/2026-11-14/original/carrossel-07.jpg"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Deck de Commander com teto de R$ 500: dá para montar só com carta que você já tem? Do zero à mesa #3 é o Rosa Sedenta, meu mono-preto de Duel Commander 500 com o Vito, Thorn of the Dusk Rose.\n\n29 cartas vieram no plástico bolha do lote, 24 do Corte Carmesim e 12 do fichário antigo. O plano: sacrificar criaturas, drenar 1 a cada morte e deixar o Vito transformar a vida ganha em mais perda para o oponente. Com a Exquisite Blood, o laço fecha o jogo.\n\nDeu R$ 473,07 na LigaMagic, abaixo do teto. Estreou no DC500 da MTG Brasil na quarta.\n\nFontes: Scryfall e LigaMagic. A série completa está em fontedemana.com.br\n\nA sua loja joga DC500?\n\n#commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        }
+      ],
+      "passos": [
+        "No Instagram, toque em + e escolha Post.",
+        "Selecione as 7 imagens na ordem, da 1 à 7.",
+        "Toque em Adicionar música e escolha uma em alta que combine com o tema.",
+        "Cole a Legenda e publique."
+      ]
+    },
+    {
+      "id": "stories-meio-dia",
+      "hora": "12:00",
+      "rede": "Instagram Stories",
+      "titulo": "Repost do carrossel com enquete",
+      "oQue": "Compartilhe o carrossel recém postado no Story com uma enquete.",
+      "passos": [
+        "No carrossel publicado, toque no avião de papel e em Adicionar post ao seu story.",
+        "Adicione o sticker de Enquete embaixo do post: Deck de R$ 500 compete em torneio? com Compete, sim e Só para brincar.",
+        "Publique."
+      ]
+    },
+    {
+      "id": "stories-tarde",
+      "hora": "15:00",
+      "rede": "Instagram Stories",
+      "titulo": "Topdeck do Dia com link",
+      "oQue": "Story com a imagem de Urza, Chief Artificer no Topdeck do Dia e o sticker de link para a edição completa.",
+      "arquivos": [
+        {
+          "nome": "Topdeck do Dia",
+          "url": "https://fontedemana.com.br/kit/ed40/carrossel-04.jpg"
+        }
+      ],
+      "passos": [
+        "Baixe a imagem e poste no Story.",
+        "Adicione o sticker de Link para fontedemana.com.br com o texto Edição completa, embaixo do texto do Topdeck.",
+        "Publique."
+      ]
+    },
+    {
+      "id": "reels",
+      "hora": "21:00",
+      "rede": "Reels",
+      "titulo": "Vídeo original: Do zero à mesa #3: o Rosa Sedenta, deck de DC500 que…",
+      "oQue": "O vídeo original de hoje no Instagram, o mesmo arquivo do TikTok, já narrado. É o formato que mais chega a quem não segue.",
+      "arquivos": [
+        {
+          "nome": "Vídeo original narrado",
+          "url": "https://fontedemana.com.br/pauta/2026-11-14/tiktok/tiktok-narrado.mp4"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Deck de Commander com teto de R$ 500 montado com cartas que vieram de brinde: dá para levar ao torneio? Do zero à mesa #3: o Rosa Sedenta, meu mono-preto de Duel Commander 500 com o Vito, Thorn of the Dusk Rose. Ele estreou no DC500 da MTG Brasil na quarta. 29 das cartas vieram no plástico bolha do lote, 24 do Corte Carmesim e 12 do meu fichário antigo. O motor: cada criatura sacrificada drena 1, e o Vito transforma a vida ganha em mais 1 de perda. Total de R$ 473,07 na LigaMagic, abaixo do teto. A sua loja joga DC500? Lista e série completa em fontedemana.com.br\n\n#commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        },
+        {
+          "rotulo": "Comentário fixado",
+          "texto": "A sua loja joga DC500? Se joga, qual comandante mais aparece por lá? Do zero à mesa é a série do lote do plástico bolha: amanhã tem o #4."
+        }
+      ],
+      "passos": [
+        "No Instagram, toque em + e escolha Reel.",
+        "Escolha o vídeo baixado daqui, nunca o salvo do TikTok (o Instagram derruba vídeo com marca d'água).",
+        "Em Áudio, ponha uma música em alta da biblioteca do Instagram com volume baixo (uns 10%), sem cobrir a voz.",
+        "Na capa, use o primeiro quadro, o do gancho.",
+        "Cole a Legenda e publique.",
+        "Fixe o comentário e responda quem comentar na primeira hora."
+      ]
+    },
+    {
+      "id": "comentarios",
+      "hora": "21:30",
+      "rede": "Comentários",
+      "titulo": "Responder os comentários de hoje e de ontem",
+      "oQue": "Uns 10 minutos nas três redes: curtir e responder os comentários das últimas 48 horas, começando pelo vídeo e pelo carrossel de hoje. Conversa nos comentários leva a peça a mais gente, e o Instagram recomenda responder em até 2 dias.",
+      "passos": [
+        "Instagram: nas notificações, curta os comentários e responda com uma frase quem perguntou ou discordou.",
+        "TikTok e Threads: o mesmo, começando pelo post com mais comentários.",
+        "Pergunta boa ou dúvida que se repete, nos comentários ou nas DMs? Mande na conversa do projeto: vira tema de um pilar."
       ]
     }
   ]
