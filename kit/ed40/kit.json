@@ -1,0 +1,73 @@
+{
+  "n": 40,
+  "data": "14 nov",
+  "carrossel": {
+    "capa": {"cor": "A", "titulo": "Urza dobra de preço com os <b>Borg</b>",
+             "sub": "No Weekly Winners do MTGStocks, <b>Urza, Chief Artificer</b> sobe 104% e <b>Uchuulon</b> sobe 48%, os dois puxados pelo Commander.",
+             "credito": "Arte: Uchuulon, Sam Burley"},
+    "cartoes": [
+      {"cor": "A", "titulo": "Weekly Winners da semana",
+       "linhas": [
+         {"nome": "Urza, Chief Artificer", "valor": "+104%", "sub": "US$ 14,70 (R$ 82,53)", "porque": "reforço para o precon We Are the Borg, de Star Trek"},
+         {"nome": "Uchuulon", "valor": "+48%", "sub": "US$ 9,95 (R$ 55,86)", "porque": "cresce com Homer e Uugguu, do Mystery Booster Commander"}
+       ],
+       "nota": {"rotulo": "No seu bolso", "texto": "as shocklands de Star Trek viraram a impressão mais barata, de US$ 5,99 a US$ 8,80."},
+       "fonte": "Fonte: MTGStocks, 13 nov. Reais: PTAX de 12 nov"},
+      {"cor": "G", "titulo": "Nauctis mostra suas lendas",
+       "itens": [
+         {"cor": "U", "html": "<b>Salinae, the Ocean Mother</b>: copia toda criatura e artefato que você lança, e a cópia vira um Peixe."},
+         {"cor": "B", "html": "<b>Tecton, Malignant Ruin</b>: fica barato com o cemitério cheio e compra a cada sacrifício."},
+         {"cor": "G", "html": "<b>Goramou the Coral-Taken</b>: devolve ao campo os terrenos que você descarta."}
+       ],
+       "nota": {"rotulo": "Na sua mesa", "texto": "só valem no Commander a partir de 5 de fevereiro, quando Nauctis chega às lojas."},
+       "fonte": "Fontes: MTG Salvation, But Why Tho e Scryfall, 13 nov"}
+    ],
+    "topdeck": {"titulo": "Urza, Chief Artificer",
+                "habilidades": [
+                  {"rotulo": "Fica mais barato", "texto": "cada criatura artefato sua tira 1 do custo genérico dele"},
+                  {"rotulo": "Time com ameaçar", "texto": "suas criaturas artefato só são bloqueadas por duas ou mais"},
+                  {"rotulo": "Um Constructo por turno", "texto": "nasce no seu fim de turno e cresce +1/+1 por artefato seu"}
+                ],
+                "extra": "Comandante de <b>17.459 decks</b> no EDHREC. Está a US$ 14,70 (R$ 82,53) no TCGplayer, pelo MTGStocks. Reais: PTAX de 12 nov.",
+                "credito": "Ilustração de Bartłomiej Gaweł"},
+    "ban": {"numero": "16", "unidade": "DIAS", "texto": "para a próxima janela de banimentos, em 30 de novembro. A de outubro não mexeu no Commander."},
+    "turnos": [
+      {"cor": "A", "data": "16 nov", "texto": "Rise of the Polygons no site"},
+      {"cor": "W", "data": "20 nov", "texto": "Festa de Commander de Star Trek"},
+      {"cor": "B", "data": "30 nov", "texto": "Janela de banimentos"},
+      {"cor": "G", "data": "5 fev", "texto": "Nauctis chega às lojas"}
+    ],
+    "sussurro": "Os comandantes dos precons de Nauctis já têm nome? Um site cita Gallorte, Shredmouth e mais dois. A Wizards não confirmou."
+  },
+  "video": {
+    "cena1": {"titulo": "Urza dobra de preço com os Borg", "pilulas": ["Urza +104%", "Uchuulon +48%", "Weekly Winners"]},
+    "cena2": {"rotulo": "No bolso", "cor": "A", "titulo": "Os maiores saltos da semana",
+              "linhas": [
+                {"nome": "Urza, Chief Artificer", "numero": 104, "prefixo": "+", "sufixo": "%", "sub": "US$ 14,70 (R$ 82,53)"},
+                {"nome": "Uchuulon", "numero": 48, "prefixo": "+", "sufixo": "%", "sub": "US$ 9,95 (R$ 55,86)"}
+              ],
+              "fonte": "Fonte: MTGStocks, 13 nov. Reais: PTAX de 12 nov"},
+    "cena3": {"linhas": ["<b>Urza, Chief Artificer</b> cria um Constructo por turno.", "Cada artefato deixa os robôs maiores, e com ameaçar.", "Comandante de 17.459 decks no EDHREC."]},
+    "cena4": {"texto": "Faltam 16 dias para a janela de banimentos. Nauctis chega às lojas em 5 de fevereiro.", "sussurro": "Os comandantes dos precons de Nauctis já vazaram? Sem confirmação."}
+  },
+  "textos": {
+    "legendaCarrossel": "Commander em alta no bolso: Urza, Chief Artificer dobrou de preço com o precon dos Borg.\n\nNo Weekly Winners do MTGStocks desta semana, o Urza subiu 104% e está a US$ 14,70 (R$ 82,53). Ele casa com o deck Esper da The Borg Queen, que agora é um dos comandantes mais montados no EDHREC.\nUchuulon subiu 48%, a US$ 9,95 (R$ 55,86), puxado por Homer, the Hermit e Uugguu, the Omniplasm, do Mystery Booster Commander.\nE as shocklands de Star Trek viraram a impressão mais barata de cada uma.\n\nNo painel de Atlanta, Nauctis mostrou Salinae, Tecton e Goramou, as primeiras lendas do fundo do mar.\n\nVocê colocaria o Urza no deck dos Borg ou deixaria ele no comando?\n\nEdição completa em fontedemana.com.br\nArte da capa: Uchuulon, Sam Burley. Urza, Chief Artificer: Bartłomiej Gaweł.\nValores em reais pela cotação de 12 nov (Banco Central, PTAX).\n#startrek #commander #mtg",
+    "legendaVideo": "Commander no bolso: Urza, Chief Artificer subiu 104% com o precon dos Borg, e Uchuulon subiu 48% com o Mystery Booster Commander.\nVocê já tem algum dos dois no fichário?\nTudo em fontedemana.com.br\nValores em reais pela cotação de 12 nov (Banco Central, PTAX).\n#startrek #commander #mtg",
+    "threadsPost": "Urza, Chief Artificer subiu 104% no Weekly Winners do MTGStocks e está a US$ 14,70 (R$ 82,53). O motivo é o precon dos Borg de Star Trek: os Constructos dele casam com o deck da The Borg Queen. Uchuulon subiu 48% com os comandantes do Mystery Booster Commander. Você bota o Urza nas 99 dos Borg? fontedemana.com.br\nValores em reais pela cotação de 12 nov (Banco Central, PTAX).",
+    "threadsFio": [
+      "Weekly Winners do MTGStocks: Urza, Chief Artificer subiu 104% e está a US$ 14,70 (R$ 82,53). Ele virou reforço do precon We Are the Borg, de Star Trek.",
+      "Uchuulon subiu 48%, a US$ 9,95 (R$ 55,86). As cópias dele crescem com Homer, the Hermit e Uugguu, the Omniplasm, do Mystery Booster Commander. E as shocklands de Star Trek viraram a impressão mais barata de cada uma.",
+      "Nauctis mostrou as primeiras lendas no painel de Atlanta: Salinae, a Deusa Baleia que copia criaturas e artefatos, Tecton, que compra a cada sacrifício, e Goramou, que devolve terrenos descartados. A coleção chega em 5 de fevereiro.",
+      "No Topdeck, Urza, Chief Artificer: um Constructo por fim de turno, ameaçar para o time de artefatos e 17.459 decks no EDHREC. Edição completa em fontedemana.com.br\nValores em reais pela cotação de 12 nov (Banco Central, PTAX)."
+    ],
+    "threadsAvulsos": [
+      {"titulo": "Pergunta do dia", "texto": "Urza, Chief Artificer dobrou de preço por causa dos Borg. Você usaria ele nas 99 do precon ou no comando de um deck só dele?", "obs": "Opções: nas 99 dos Borg, no comando, não uso"}
+    ]
+  },
+  "pauta": {
+    "forca": "calmo",
+    "porque": "A Notícia Lendária é variação de preço de cartas e o Nauctis já foi para o feed no plantão de ontem.",
+    "storyPergunta": "Qual carta de Commander você viu subir esta semana?",
+    "enquete": {"pergunta": "Onde o Urza, Chief Artificer joga melhor?", "opcoes": ["No comando", "Nas 99 dos Borg", "Não jogo com ele"]}
+  }
+}
