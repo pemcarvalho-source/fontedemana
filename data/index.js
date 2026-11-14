@@ -1,6 +1,7 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "Urza, Chief Artificer",
   "Krark's Thumb",
   "Y'shtola, Night's Blessed",
   "Jace, Multiverse Architect",
@@ -38,6 +39,13 @@ window.MANA_POOL_INDEX = {
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 40,
+   "date": "2026-11-14",
+   "dateLabel": "Sábado, 14 de novembro de 2026",
+   "head": "Weekly Winners: Urza dobra de preço com os Borg e Uchuulon sobe 48%",
+   "biome": "B"
+  },
   {
    "n": 39,
    "date": "2026-11-13",
@@ -246,13 +254,6 @@ window.MANA_POOL_INDEX = {
    "date": "2026-10-15",
    "dateLabel": "Quinta, 15 de outubro de 2026",
    "head": "Reality Fracture ganha dois Secret Lairs, Strange School e Duality Distorted",
-   "biome": "A"
-  },
-  {
-   "n": 9,
-   "date": "2026-10-14",
-   "dateLabel": "Quarta, 14 de outubro de 2026",
-   "head": "Jace de Reality Fracture mais que dobra de preço puxado pelo Commander",
    "biome": "A"
   }
  ]
