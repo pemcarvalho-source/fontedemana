@@ -1,40 +1,115 @@
 {
   "data": "2026-11-15",
-  "pilar": "zero",
+  "pilar": "loja",
   "item": null,
-  "tema": "Do zero à mesa #4: o que tem de bom num plástico bolha de 323 cartas",
-  "cartas": ["Sea Gate Loremaster", "Turntimber Ranger", "Cast Out", "Shardless Agent", "Goring Ceratops", "Etched Oracle"],
-  "fx": "Valores em reais pela cotação de 30 out (Banco Central, PTAX), preços do TCGplayer de 3 nov.",
+  "tema": "Rota das Lojas #1: Jogujogo, na Água Branca, e o booster que veio de brinde",
+  "cartas": [
+    "Superior Spider-Man",
+    "Maximum Carnage",
+    "Swarm, Being of Bees"
+  ],
+  "fx": null,
   "carrossel": {
-    "capa": {"cor": "A", "chip": "Do zero à mesa #4", "kicker": "323 cartas de plástico bolha", "titulo": "323 cartas de brinde: <b>US$ 43,47 (R$ 235,66)</b>", "sub": "Soma das 231 em inglês, menos de 20 centavos de dólar por carta. Mas o lote vale mais na mesa.", "arte": "pauta/2026-11-15/tiktok/arte.jpg", "credito": "Arte: Sea Gate Loremaster, Dave Kendall"},
+    "capa": {
+      "cor": "W",
+      "chip": "Rota das Lojas #1",
+      "kicker": "Jogujogo, Água Branca",
+      "titulo": "Loja nova, <b>booster de brinde</b>",
+      "sub": "Fui jogar Commander na Jogujogo e saí com um Play Booster de Spider-Man e um dado de jokenpô.",
+      "arte": "pauta/2026-11-15/tiktok/arte.jpg",
+      "credito": "Arte: Superior Spider-Man, Carlos Dattoli"
+    },
     "cartoes": [
-      {"cor": "W", "titulo": "Cast Out, da The List", "carta": "pauta/2026-11-15/original/carta-1.jpg",
-       "itens": [{"cor": "W", "html": "Remoção com <b>lampejo</b>: entra no turno de quem for e exila a ameaça enquanto ficar na mesa."},
-                 {"cor": "W", "html": "Cabe em quase todo deck branco. Está em <b>29,4 mil decks</b> no EDHREC."}],
-       "fonte": "Fonte: Scryfall e EDHREC, nov 2026"},
-      {"cor": "M", "titulo": "Shardless Agent", "carta": "pauta/2026-11-15/original/carta-2.jpg",
-       "itens": [{"cor": "M", "html": "<b>Cascata</b>: ao conjurar, vira o topo até achar mágica mais barata e joga de graça."},
-                 {"cor": "M", "html": "Duas mágicas pelo preço de uma. Está em <b>19,9 mil decks</b> no EDHREC."}],
-       "fonte": "Fonte: Scryfall e EDHREC, nov 2026"},
-      {"cor": "W", "titulo": "Goring Ceratops", "carta": "pauta/2026-11-15/original/carta-3.jpg",
-       "itens": [{"cor": "W", "html": "Quando ataca, o time todo ganha <b>golpe duplo</b> até o fim do turno."},
-                 {"cor": "W", "html": "Peça de deck de dinossauros, como o do Gishath. Está em <b>24,1 mil decks</b> no EDHREC."}],
-       "fonte": "Fonte: Scryfall e EDHREC, nov 2026"},
-      {"cor": "U", "titulo": "As cartas com história",
-       "itens": [{"cor": "U", "html": "<b>Sea Gate Loremaster</b> e <b>Turntimber Ranger</b>: aliados raros de Zendikar, de 2009, em chinês."},
-                 {"cor": "U", "html": "<b>14 cartas da The List</b>, reimpressões com o símbolo de planeswalker no canto."},
-                 {"cor": "U", "html": "Cartas de <b>Unstable</b>, a coleção de brincadeira."},
-                 {"cor": "U", "html": "E um card de <b>Riftbound</b>, o jogo de League of Legends. Nem é Magic."}],
-       "fonte": "Fonte: o lote do Paulo, nov 2026"},
-      {"cor": "G", "titulo": "Vale mais na mesa",
-       "itens": [{"cor": "G", "html": "<b>15 cartas</b> tapam buraco no Corte Carmesim de teste."},
-                 {"cor": "G", "html": "<b>29 cartas</b> estão no Rosa Sedenta, o deck de Duel Commander 500."}],
-       "nota": {"rotulo": "A lição", "texto": "o lote vale mais na mesa do que no balcão."},
-       "fonte": "Fonte: os decks do Paulo, nov 2026"}
+      {
+        "cor": "W",
+        "titulo": "A loja",
+        "carta": "pauta/2026-11-15/original/carta-1.jpg",
+        "itens": [
+          {
+            "cor": "W",
+            "html": "Limpa, organizada e com <b>várias mesas para 4</b> jogadores."
+          },
+          {
+            "cor": "W",
+            "html": "Staff cordial e <b>evento de Commander</b>. No dia, rolava um mesão."
+          }
+        ],
+        "fonte": "Fonte: visita do Paulo, 13 nov 2026"
+      },
+      {
+        "cor": "W",
+        "titulo": "O brinde",
+        "itens": [
+          {
+            "cor": "W",
+            "html": "Um <b>Play Booster de Marvel's Spider-Man</b>, com 14 cartas."
+          },
+          {
+            "cor": "W",
+            "html": "Um <b>dado de jokenpô</b>: pedra, papel e tesoura no lugar dos números."
+          },
+          {
+            "cor": "W",
+            "html": "No booster, <b>4 lendárias</b>, um foil (Swarm, Being of Bees) e a rara."
+          }
+        ],
+        "nota": {
+          "rotulo": "Próxima tela",
+          "texto": "a rara, que é das boas para o Commander."
+        },
+        "fonte": "Fonte: o booster do Paulo, nov 2026"
+      },
+      {
+        "cor": "M",
+        "titulo": "Superior Spider-Man",
+        "carta": "pauta/2026-11-15/original/carta-2.jpg",
+        "itens": [
+          {
+            "cor": "M",
+            "html": "Entra como <b>cópia de uma criatura</b> de qualquer cemitério, inclusive o do oponente."
+          },
+          {
+            "cor": "M",
+            "html": "Vira um 4/4 com a melhor criatura que já morreu na mesa. Em <b>5,35 mil decks</b> no EDHREC."
+          }
+        ],
+        "fonte": "Fonte: Scryfall e EDHREC, nov 2026"
+      },
+      {
+        "cor": "R",
+        "titulo": "Maximum Carnage",
+        "carta": "pauta/2026-11-15/original/carta-3.jpg",
+        "itens": [
+          {
+            "cor": "R",
+            "html": "Até o seu próximo turno, <b>toda criatura ataca</b>, e nunca você."
+          },
+          {
+            "cor": "R",
+            "html": "Depois, três manas vermelhas e <b>5 de dano</b> em cada oponente. Em <b>35,2 mil decks</b> no EDHREC."
+          }
+        ],
+        "fonte": "Fonte: Scryfall e EDHREC, nov 2026"
+      }
     ],
-    "cta": {"pergunta": "Qual a melhor carta que já veio de <b>brinde</b> pra você?", "quando": "Sábado, 21 nov: o double sleeve do pacote", "salvar": "Salva para olhar o plástico bolha antes de jogar fora"}
+    "cta": {
+      "pergunta": "Qual loja a gente visita na <b>próxima</b>?",
+      "quando": "Rota das Lojas: uma loja de São Paulo por vez",
+      "salvar": "Salva para lembrar da Jogujogo quando passar pela Água Branca"
+    }
   },
-  "legenda": "Commander e plástico bolha: o que tem de bom num lote de 323 cartas de Magic que veio de brinde?\nComprei 41 cartas na gringa e o vendedor mandou mais 323 de proteção. As 231 em inglês somam US$ 43,47 (R$ 235,66) no preço de mercado, menos de 20 centavos de dólar por carta.\nMas o valor está na mesa: Cast Out da The List, Shardless Agent com cascata, Goring Ceratops dando golpe duplo ao time e dois aliados raros de Zendikar em chinês.\n15 cartas tapam buraco no Corte Carmesim e 29 estão no Rosa Sedenta.\nFontes: Scryfall, EDHREC e TCGplayer. Valores em reais pela cotação de 30 out (Banco Central, PTAX), preços do TCGplayer de 3 nov.\nfontedemana.com.br\nQual a melhor carta que já veio de brinde pra você?\n#plasticobolha #commander #mtg",
-  "threads": {"texto": "Comprei 41 cartas de Magic na gringa e o vendedor mandou mais 323 de plástico bolha. Somando o preço de mercado, uns US$ 43,47 (R$ 235,66). Pouco no balcão, mas 29 delas viraram um deck de Duel Commander e 15 tapam buraco no meu Corte Carmesim.\nQual carta que veio de brinde já virou peça do seu deck?", "obs": "Se quiser enquete: Vai pro deck, Vai pro fichário ou Vende ou troca"},
-  "enquete": {"pergunta": "Carta que vem de brinde: o que você faz?", "opcoes": ["Vai pro deck", "Vai pro fichário", "Vende ou troca"]}
+  "legenda": "Loja de Magic em São Paulo: fui jogar Commander na Jogujogo, na Água Branca. Qual loja a gente visita na próxima?\nLoja limpa e organizada, várias mesas para 4, staff cordial e evento de Commander. No dia, rolava um mesão.\nDe brinde, um Play Booster de Spider-Man e um dado de jokenpô. A rara foi o Superior Spider-Man, que copia criatura de qualquer cemitério, e veio um Maximum Carnage, que está em 35,2 mil decks no EDHREC.\nFontes: Scryfall e EDHREC.\n@jogujogo\nfontedemana.com.br\n#jogujogo #commander #mtg",
+  "threads": {
+    "texto": "Fui jogar numa loja nova, a Jogujogo, na Água Branca, e saí com um booster de Spider-Man e um dado de jokenpô de brinde.\nPergunta sincera: o que faz você voltar numa loja? Brinde, mesa boa, evento de Commander ou o pessoal do balcão?",
+    "obs": "Enquete: Mesa e espaço, Evento de Commander, Brinde e preço, O staff"
+  },
+  "enquete": {
+    "pergunta": "O que faz você voltar numa loja de Magic?",
+    "opcoes": [
+      "Mesa e espaço",
+      "Evento de Commander",
+      "Brinde e preço",
+      "O staff"
+    ]
+  }
 }

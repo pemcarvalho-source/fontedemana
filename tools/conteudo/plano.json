@@ -1,5 +1,5 @@
 {
-  "versao": "2026-11-13 v5.10.1",
+  "versao": "2026-11-14 v5.10.2",
   "comentario": "Plano editorial da Fonte de Mana. Lido por tools/conteudo/contexto.cjs (tarefa da noite), tools/pauta/manha.cjs (tarefa da manhã) e tools/pauta/tiktok.cjs (molde do vídeo). A explicação completa está em tools/conteudo/ESTRATEGIA.md, os formatos (com as referências que inspiraram cada um) em tools/conteudo/FORMATOS.md e a revisão semanal em tools/conteudo/REVISAO.md. Ciclo de 3 semanas: a letra da semana é ciclo.semanas[(semana ISO + ciclo.deslocamento) % 3]. Datas comemorativas em datas: de e ate como MM-DD (todo ano) ou AAAA-MM-DD (só aquele ano); no dia, pilarNoDia troca o pilar do calendário. Os blocos video, reels, threads, legenda, audio, conversa, rosto e isca valem para datas a partir de desde (antes disso, tudo segue como na v4). plantao: eventos com dia marcado para a fase plantao do orquestrador; o tools/conteudo/plantao.cjs mostra o do dia com --qual. testes: de e ate (ou dias) em AAAA-MM-DD; hora troca o horário da grade nesses dias.",
 
   "ciclo": {"semanas": ["A", "B", "C"], "deslocamento": 2, "nota": "Semana ISO 42 (12 a 18 out 2026) = C a partir de sexta 16, 43 = A, 44 = B, 45 = C. Semana C traz os formatos novos de 15 out."},
@@ -206,43 +206,50 @@
     },
     {
       "dia": "2026-11-15",
-      "pilar": "zero",
-      "rosto": true,
-      "motivo": "Série Do zero à mesa, aprovada pelo Paulo em 6/11 e refeita em 8/11: no lugar da Bolsa de Mana deste domingo, o que tem de bom no lote do plástico bolha, pela história e pelo papel das cartas, com o valor total só no gancho.",
-      "tema": "Do zero à mesa #4: o que tem de bom num plástico bolha de 323 cartas",
+      "pilar": "loja",
+      "rosto": false,
+      "motivo": "Pedido do Paulo em 14/11: o Do zero à mesa #4 (o que tem de bom no plástico bolha) ficou repetitivo, com três peças da série na mesma semana, e saiu da grade. No lugar da Bolsa de Mana deste domingo, a visita dele à Jogujogo em 13/11, com os vídeos que ele gravou.",
+      "tema": "Rota das Lojas #1: Jogujogo, na Água Branca, e o booster que veio de brinde",
       "material": [
-        "O gancho é o valor total, uma vez só: somando o preço de mercado, as 231 cartas em inglês dão US$ 43,47 (R$ 235,66), menos de 20 centavos de dólar por carta, e 250 delas valem menos de US$ 0,25. Valores do TCGplayer Market (via Scryfall) de 3/11/2026, em reais pela PTAX de 30/10/2026 (R$ 5,4212); use esta nota e esta cotação, não o fx da edição. Depois do gancho, nenhuma carta aparece pelo preço: nenhuma passa de R$ 100.",
-        "Cartas com história: Sea Gate Loremaster e Turntimber Ranger, aliados raros de Zendikar (2009), em chinês; as 14 cartas da The List, reimpressões com o símbolo de planeswalker no canto (Shardless Agent, Cast Out, Etched Oracle); cartas de Unstable, a coleção de brincadeira; e um card de Riftbound, o card game de League of Legends, que nem é de Magic.",
-        "Cartas com papel em deck (confira o texto no Scryfall e o número de decks no EDHREC antes de usar): Cast Out e Banishing Light (remoção que cabe em muito deck), Shardless Agent (cascata), Goring Ceratops (dá golpe duplo ao time quando ataca), Gothmog, Morgul Lieutenant (fichas), Susurian Voidborn (dreno, peça do Rosa Sedenta) e Culling Dais (sacrifício).",
-        "A lição: o lote vale mais na mesa do que no balcão. 15 cartas tapam buraco no Corte Carmesim de teste e 29 estão no Rosa Sedenta.",
-        "Foco da série (pedido do Paulo em 8/11): a compra foi para montar o Corte Carmesim; o Rosa Sedenta veio depois, quando ele viu as cartas do lote e decidiu aproveitar para um deck de Duel Commander 500. Nada de conteúdo de valor de carta: nenhuma carta do lote passa de R$ 100, então as cartas aparecem pela história ou pelo papel num deck, nunca pelo preço. O valor total do lote só entra como gancho, no #4 (15/11).",
-        "A série: #1 em 9/11, a abertura do lote; #2 em 11/11, o Corte Carmesim; #3 em 14/11, o Rosa Sedenta depois da estreia no DC500; #4 em 15/11, o que tem de bom no lote; #5 em 21/11, o double sleeve com as sleeves do pacote."
+        "A loja: Jogujogo (Jógujogo TCG & Hobby Store), no bairro Água Branca, em São Paulo, Instagram @jogujogo. O Paulo foi jogar lá na sexta 13/11, pela primeira vez.",
+        "O que o Paulo achou: loja bem organizada e limpa, várias mesas para 4 jogadores, staff cordial, tem eventos de Commander; no dia em que ele foi, rolava um mesão.",
+        "O brinde: a loja deu ao Paulo um Play Booster de Marvel's Spider-Man e um dado de jokenpô. Não diga que é brinde para quem vai pela primeira vez: ele só disse que ganhou de brinde da loja.",
+        "O que veio no booster (14 cartas, vídeo dele): Superior Spider-Man (a rara), Maximum Carnage, Swarm, Being of Bees (foil), Scorpion, Seething Striker, Starling, Aerial Ally, Spider-Mobile, Doc Ock's Henchmen, Venom's Hunger, Steel Wrecking Ball, Mob Lookout, Grow Extra Arms, Damage Control Crew, Vibrant Cityscape e Savage Mansion, mais uma ficha de Food."
       ],
       "clipes": [
-        "extras/lote/lote-01-bolha.mp4 (5,5 s: o maço de cartas na mão, com o plástico bolha embaixo; Edge of Eternities)",
-        "extras/lote/lote-02-mesa-foil.mp4 (5 s: cartas na mesa, Walk the Plank e um New Horizons foil)",
-        "extras/lote/lote-03-chines.mp4 (4,6 s: cartas em chinês; o Sea Gate Loremaster, aliado raro de Zendikar, aparece a partir de uns 2 s)",
-        "extras/lote/lote-04-lembas.mp4 (4 s: Lembas em chinês, do Senhor dos Anéis)",
-        "extras/lote/lote-05-magmakin-foil.mp4 (3,5 s: Magmakin Artillerist foil)",
-        "extras/lote/lote-06-echo-foil.mp4 (3,6 s: Echo, Perceptive Prodigy foil, da coleção Marvel)",
-        "extras/lote/lote-07-gravkill.mp4 (4 s: Gravpack Monoist e Gravkill, duas das 29 cartas do lote que estão no Rosa Sedenta)",
-        "extras/lote/lote-08-fichas.mp4 (5 s: fichas de Tesouro; o lote tem 12 fichas)"
+        "pauta/2026-11-15/tiktok/clipe-chegada.mp4 (a fachada da Jogujogo, com a placa acesa)",
+        "pauta/2026-11-15/tiktok/clipe-booster.mp4 (o booster na mesa, a abertura e a primeira carta)"
       ],
-      "sugestao": "Vídeo: cena 1 rosto com o Paulo e o gancho do total (ex.: \"323 cartas, uns 236 reais. Mas tem coisa boa aqui.\"), depois cenas carta e clipe com 3 ou 4 cartas pela história ou pelo papel no deck, e o fecho com a lição. Carrossel para salvar: capa com o total, uma carta por tela (o que ela faz na mesa e em que deck entra), a tela da The List e a tela da lição. Threads: \"Qual carta que veio de brinde já virou peça do seu deck?\". Chip \"Do zero à mesa #4\". Hashtag do assunto #plasticobolha.",
-      "cuidado": "Nunca diga de que país vieram as cartas: só \"comprei na gringa\" ou \"no exterior\"; se alguém perguntar, \"um amigo trouxe de viagem\". Nunca mostre nem descreva prints de carrinho, pedido ou loja. As cartas são autênticas (o Paulo conferiu) e isso pode ser dito. O deck de Duel Commander se chama Rosa Sedenta desde 8/11 (antes, Vito 500; o comandante continua o Vito, Thorn of the Dusk Rose). Valor de mercado não é valor de venda: nada de \"ganhei R$ X\". Carta em chinês não tem cotação própria. O combo Exquisite Blood e Sanguine Bond já saiu em 28/10: não explique de novo."
+      "sugestao": "Vídeo sem rosto, com os trechos dele e a voz: a chegada, a loja, o brinde, as duas cartas que importam no Commander (Superior Spider-Man e Maximum Carnage) e a pergunta da próxima loja. Carrossel com a foto do brinde na capa, a tela da loja, as cartas e a pergunta. Post em Collab com @jogujogo e a loja marcada como local. Threads sobre brinde de loja. Chip \"Rota das Lojas #1\".",
+      "cuidado": "Nada de preço das cartas do booster: a peça é a loja. Não mostre nem cite outras pessoas da loja (no trecho da fachada aparecem um cliente de costas e o atendente ao fundo, atrás do balcão). Nada de logo da Wizards em capa ou tela gerada: a arte de fundo é a da carta. Não invente endereço, horário nem programação de eventos além do que o Paulo disse."
+    },
+    {
+      "dia": "2026-11-18",
+      "pilar": "loja",
+      "rosto": true,
+      "motivo": "Pedido do Paulo em 14/11: no lugar do Combo da semana, a história do torneio de precon que ele jogou na MTG Brasil em 14/11.",
+      "tema": "Rota das Lojas #2: fui buscar duas cartas na MTG Brasil e saí jogando um torneio de precon",
+      "material": [
+        "Em 14/11 o Paulo foi à loja MTG Brasil buscar duas cartas que tinha comprado e acabou jogando um torneio de precon: a loja deu o ingresso e emprestou um deck.",
+        "O deck emprestado tinha como comandante Jace, Multiverse Architect (Reality Fracture Commander, out 2026; confira no Scryfall qual precon é e o que ele faz).",
+        "Resultado: 4 rodadas, 2 derrotas e 2 empates. O Paulo não lembra qual carta decidiu as partidas: não invente.",
+        "A lição: dá para chegar na loja sem deck e jogar, com precon emprestado. Bom para quem está começando ou voltando ao Magic."
+      ],
+      "sugestao": "Vídeo com o Paulo na cena 1 contando o gancho (ex.: \"Fui buscar duas cartas e saí jogando um torneio.\") e no fecho com a opinião dele; no meio, o Jace em cena carta (o que ele faz na mesa) e o resultado sem drama (4 rodadas, 2 derrotas, 2 empates). Carrossel: a história em telas curtas e a lição. Threads: \"Você já jogou com deck emprestado da loja?\". Post marcando a loja. Chip \"Rota das Lojas #2\".",
+      "cuidado": "Nunca cite nem mostre os adversários (nomes, rostos, decks deles). Não invente a carta que decidiu nem jogadas que o Paulo não contou. O Jace, Multiverse Architect já foi Topdeck do jornal em 11/11 (ed37): aqui ele entra pela história do torneio. Se o Paulo mandar fotos ou vídeos da loja ou do deck, use em cenas clipe."
     },
     {
       "dia": "2026-11-21",
       "pilar": "vitrine",
       "rosto": true,
       "motivo": "Série Do zero à mesa: a Vitrine do double sleeve, que estava em 14/11, veio para o sábado de Vitrine do calendário quando o Rosa Sedenta ficou com o dia 14/11 (combinado com o Paulo em 6/11).",
-      "tema": "Do zero à mesa #5: double sleeve com as sleeves que vieram no pacote da gringa",
+      "tema": "Do zero à mesa #4: double sleeve com as sleeves que vieram no pacote da gringa",
       "material": [
         "No mesmo pacote das cartas da gringa vieram 2 pacotes de sleeves Perfect Fit (ICO, 64 x 89 mm) e 1 caixa de Dragon Shield Ember com 60 sleeves. O Paulo conferiu: as Dragon Shield servem em carta de Magic.",
         "Double sleeve: a sleeve justa (Perfect Fit) vai por dentro, colocada de cabeça para baixo, e a de fora (Dragon Shield) entra por cima. Protege as cartas do Corte Carmesim que vieram no mesmo pacote, como a Teferi's Protection e o Edgar Markov.",
-        "A série: #1 em 9/11, a abertura do lote; #2 em 11/11, o Corte Carmesim; #3 em 14/11, o Rosa Sedenta depois da estreia no DC500; #4 em 15/11, o que tem de bom no lote; #5 em 21/11, o double sleeve com as sleeves do pacote."
+        "A série (o #4 do plástico bolha, que seria em 15/11, saiu da grade a pedido do Paulo em 14/11): #1 em 9/11, a abertura do lote; #2 em 11/11, o Corte Carmesim; #3 em 14/11, o Rosa Sedenta depois da estreia no DC500; #4 em 21/11, o double sleeve com as sleeves do pacote."
       ],
-      "sugestao": "Vídeo com o Paulo nas cenas de mão: ele coloca a Perfect Fit e depois a Dragon Shield numa carta, em até 3 cenas rosto, e o resto em cenas geradas com o preço das sleeves (com fonte de loja brasileira ou do site da marca, como pede o pilar). Sem citar o preço pago na gringa. Chip \"Do zero à mesa #5\".",
+      "sugestao": "Vídeo com o Paulo nas cenas de mão: ele coloca a Perfect Fit e depois a Dragon Shield numa carta, em até 3 cenas rosto, e o resto em cenas geradas com o preço das sleeves (com fonte de loja brasileira ou do site da marca, como pede o pilar). Sem citar o preço pago na gringa. Chip \"Do zero à mesa #4\".",
       "cuidado": "Nunca diga de que país vieram as cartas: só \"comprei na gringa\" ou \"no exterior\"; se alguém perguntar, \"um amigo trouxe de viagem\". Nunca mostre nem descreva prints de carrinho, pedido ou loja. As cartas são autênticas (o Paulo conferiu) e isso pode ser dito. O deck de Duel Commander se chama Rosa Sedenta desde 8/11 (antes, Vito 500; o comandante continua o Vito, Thorn of the Dusk Rose)."
     }
   ],
