@@ -18,7 +18,8 @@
    "titulo": "29 cartas vieram no plástico bolha",
    "narracao": "29 cartas do meu deck de DC500 vieram no plástico bolha.",
    "gravar": "Segura a carta física do Vito, Thorn of the Dusk Rose na altura do peito, olha para a câmera e fala o gancho.",
-   "segundos": 4.7
+   "segundos": 4.7,
+   "caixa": "topo"
   },
   {
    "tipo": "carta",
@@ -69,5 +70,6 @@
    "narracao": "Tudo com carta que eu já tinha: 473 reais. Sua loja joga DC500?",
    "segundos": 5.4
   }
- ]
+ ],
+ "rostoGravado": true
 }
