@@ -1,0 +1,76 @@
+{
+  "n": 41,
+  "data": "15 nov",
+  "carrossel": {
+    "capa": {"cor": "A", "titulo": "Crucible of Worlds volta no <b>fundo do mar</b>",
+             "sub": "Em <i>Nauctis</i>, o <b>Crucible of Worlds</b> vira Sunken Treasure, a carta de brinde de cada caixa, com duas artes novas.",
+             "credito": "Arte: Crucible of Worlds, Chris Seaman"},
+    "cartoes": [
+      {"cor": "A", "titulo": "Crucible em Nauctis",
+       "itens": [
+         {"cor": "A", "html": "Toda caixa de Booster e de Collector Booster traz uma carta <b>Sunken Treasure</b> de brinde."},
+         {"cor": "G", "html": "São 20 opções, 15 reimpressões e 5 cartas novas. O Crucible tem versão de caixa e uma Undersea Foil."},
+         {"cor": "A", "html": "Hoje a impressão mais barata, a do Secret Lair, está a <b>US$ 26,40 (R$ 149,21)</b> no Scryfall."}
+       ],
+       "nota": {"rotulo": "No seu bolso", "texto": "é uma carta por caixa, dividida com outras 19. Quem precisa dele para jogar não tem pressa."},
+       "fonte": "Fontes: MTG Rocks, MTG Insider e Scryfall. Reais: PTAX de 13 nov"},
+      {"cor": "W", "titulo": "CommandFest em todo Spotlight",
+       "itens": [
+         {"cor": "W", "html": "A partir de 2027, todo evento do Spotlight Series terá um <b>CommandFest</b> junto."},
+         {"cor": "W", "html": "O primeiro é o Spotlight de Star Trek, em Minneapolis e Lille, em <b>9 e 10 de janeiro</b>."},
+         {"cor": "A", "html": "Quem leva o pacote do fim de semana inteiro ganha a promo do evento principal, sem foil."}
+       ],
+       "nota": {"rotulo": "Na sua mesa", "texto": "festival de Commander em todo Spotlight, sem precisar jogar o torneio de Limited."},
+       "fonte": "Fontes: Wizards e Magic.gg, 14 nov"}
+    ],
+    "topdeck": {"titulo": "Ramunap Excavator",
+                "habilidades": [
+                  {"rotulo": "Terreno nunca acaba", "texto": "você pode jogar terrenos do seu cemitério, usando a jogada do turno"},
+                  {"rotulo": "Fetchland em loop", "texto": "quebra a fetch, busca um terreno e joga a fetch de novo no turno seguinte"},
+                  {"rotulo": "Corpo de verdade", "texto": "uma 2/3 por 3 manas, coisa que o Crucible não tem"}
+                ],
+                "extra": "O primo verde do Crucible, em <b>268 mil decks</b> no EDHREC. Está a US$ 4,32 (R$ 24,42) no Scryfall. Reais: PTAX de 13 nov.",
+                "credito": "Ilustração de Mark Behm"},
+    "ban": {"numero": "15", "unidade": "DIAS", "texto": "para a próxima janela de banimentos, em 30 de novembro. A de outubro não mexeu no Commander."},
+    "turnos": [
+      {"cor": "A", "data": "16 nov", "texto": "Rise of the Polygons no site"},
+      {"cor": "W", "data": "20 nov", "texto": "Festa de Commander de Star Trek"},
+      {"cor": "B", "data": "30 nov", "texto": "Janela de banimentos"},
+      {"cor": "W", "data": "9 jan", "texto": "Primeiro Spotlight com CommandFest"},
+      {"cor": "G", "data": "5 fev", "texto": "Nauctis chega às lojas"}
+    ],
+    "sussurro": null
+  },
+  "video": {
+    "cena1": {"titulo": "Crucible of Worlds volta no fundo do mar", "pilulas": ["Sunken Treasure", "Nauctis", "2 artes novas"]},
+    "cena2": {"rotulo": "No bolso", "cor": "A", "titulo": "Quanto custa o Crucible hoje",
+              "linhas": [
+                {"nome": "Secret Lair", "numero": 26, "prefixo": "US$ ", "sufixo": "", "sub": "US$ 26,40 (R$ 149,21)"},
+                {"nome": "Core Set 2019", "numero": 30, "prefixo": "US$ ", "sufixo": "", "sub": "US$ 30,28 (R$ 171,14)"}
+              ],
+              "fonte": "Fonte: Scryfall, 15 nov. Reais: PTAX de 13 nov"},
+    "cena3": {"linhas": ["<b>Ramunap Excavator</b> joga terrenos do cemitério.", "É o Crucible em forma de criatura, por 3 manas.", "Está em 268 mil decks no EDHREC."]},
+    "cena4": {"texto": "Faltam 15 dias para a janela de banimentos. Em 2027, todo Spotlight terá CommandFest.", "sussurro": null}
+  },
+  "textos": {
+    "legendaCarrossel": "Carta de Magic de volta no Commander: o Crucible of Worlds ganha reimpressão em Nauctis.\n\nEle vem como Sunken Treasure, a carta de brinde que sai em toda caixa de Booster e de Collector Booster de Nauctis. São 20 opções, 15 reimpressões e 5 cartas novas, e o Crucible tem duas artes novas, uma delas Undersea Foil nos Collector Boosters.\nHoje a impressão mais barata está a US$ 26,40 (R$ 149,21) no Scryfall. Como é uma carta por caixa, a oferta nova é pequena.\n\nE a partir de 2027 todo Spotlight Series terá CommandFest, começando por Star Trek em 9 e 10 de janeiro.\n\nNo Topdeck, Ramunap Excavator, o Crucible verde de 3 manas.\n\nVocê joga com o Crucible ou com a Ramunap no seu deck de terrenos?\n\nEdição completa em fontedemana.com.br\nArte da capa: Crucible of Worlds, Chris Seaman. Ramunap Excavator: Mark Behm.\nValores em reais pela cotação de 13 nov (Banco Central, PTAX).\n#nauctis #commander #mtg",
+    "legendaVideo": "Commander no bolso: o Crucible of Worlds volta em Nauctis como Sunken Treasure, a carta de brinde das caixas.\nVocê tem o Crucible no fichário ou usa a Ramunap Excavator?\nTudo em fontedemana.com.br\nValores em reais pela cotação de 13 nov (Banco Central, PTAX).\n#nauctis #commander #mtg",
+    "threadsPost": "O Crucible of Worlds volta em Nauctis como Sunken Treasure, a carta de brinde de cada caixa de Booster e de Collector Booster. São 20 opções por caixa, então a oferta nova é pequena. Hoje a impressão mais barata está a US$ 26,40 (R$ 149,21) no Scryfall. Você já tem o seu ou vai de Ramunap Excavator? fontedemana.com.br\nValores em reais pela cotação de 13 nov (Banco Central, PTAX).",
+    "threadsFio": [
+      "O Crucible of Worlds volta em Nauctis. Ele é um dos Sunken Treasures, a carta de brinde que vem em toda caixa de Booster e de Collector Booster da coleção.",
+      "São 20 opções de Sunken Treasure, 15 reimpressões e 5 cartas novas. O Crucible tem duas artes novas, uma delas Undersea Foil nos Collector Boosters. Hoje a impressão mais barata está a US$ 26,40 (R$ 149,21).",
+      "Outra novidade: a partir de 2027, todo evento do Spotlight Series terá um CommandFest junto. O primeiro é o de Star Trek, em Minneapolis e Lille, em 9 e 10 de janeiro.",
+      "No Topdeck, Ramunap Excavator: joga terrenos do cemitério como o Crucible, mas é uma criatura verde de 3 manas e está em 268 mil decks no EDHREC.",
+      "Edição completa em fontedemana.com.br\nValores em reais pela cotação de 13 nov (Banco Central, PTAX)."
+    ],
+    "threadsAvulsos": [
+      {"titulo": "Crucible ou Ramunap?", "texto": "Os dois deixam você jogar terrenos do cemitério. Crucible é artefato e custa uns 150 reais. Ramunap é criatura verde e sai por uns 25. Qual entra no seu deck?", "obs": "Enquete: Crucible, Ramunap ou os dois"}
+    ]
+  },
+  "pauta": {
+    "forca": "calmo",
+    "porque": "A Notícia Lendária é uma reimpressão de brinde de caixa, sem ban, regra ou precon novo de Commander.",
+    "storyPergunta": "Você tem o Crucible of Worlds no fichário?",
+    "enquete": {"pergunta": "Pra jogar terreno do cemitério, qual você usa?", "opcoes": ["Crucible of Worlds", "Ramunap Excavator", "Os dois"]}
+  }
+}
