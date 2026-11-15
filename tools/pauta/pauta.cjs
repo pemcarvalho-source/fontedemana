@@ -2,7 +2,7 @@
 /* Pauta de postagem da Fonte de Mana: calendário com alarmes e página de consulta.
    Uso: node tools/pauta/pauta.cjs <raiz do repositório> <AAAA-MM-DD>
    Lê pauta/<data>/pauta.json (formato em tools/pauta/LEIA.md), confere e gera:
-     pauta/<data>/index.html   página do dia, com botão de copiar cada texto
+     pauta/<data>/index.html   página do dia, com miniaturas, botão de salvar as fotos e vídeos no Fotos e botão de copiar cada texto
      pauta/index.html          lista dos dias
      pauta/<CALENDARIO>        calendário (.ics) com um evento e um alarme por aviso, para assinar no celular */
 'use strict';
@@ -109,21 +109,76 @@ h2{font-size:19px;margin:0;flex-basis:100%}p{margin:0}
 .tx b{font-size:14px;color:var(--muted)}pre{white-space:pre-wrap;margin:0;font:15px/1.45 Georgia,serif}
 button{align-self:flex-start;font:600 14px system-ui,sans-serif;background:var(--gold);color:#111;border:0;border-radius:99px;padding:6px 14px}
 .ro{display:flex;flex-direction:column;gap:8px}.ro div{border-left:3px solid var(--gold);padding-left:10px}
-ol{margin:0;padding-left:20px}.fx{font-size:13px;font-style:italic;color:var(--muted)}`;
-const COPY = `document.querySelectorAll('button[data-c]').forEach(function(b){b.addEventListener('click',function(){var t=document.getElementById(b.getAttribute('data-c')).innerText;try{navigator.clipboard.writeText(t).then(function(){b.textContent='Copiado';setTimeout(function(){b.textContent='Copiar';},1500);});}catch(e){}});});`;
+ol{margin:0;padding-left:20px}.fx{font-size:13px;font-style:italic;color:var(--muted)}
+.md{display:flex;flex-direction:column;gap:8px}.th{display:grid;grid-template-columns:repeat(auto-fill,minmax(96px,1fr));gap:6px}
+.th img{width:100%;display:block;border-radius:6px;border:1px solid var(--line);-webkit-touch-callout:default}
+.th video{grid-column:1/-1;width:100%;max-height:420px;border-radius:8px;background:#000}
+button.sv{font-size:16px;padding:10px 18px}button:disabled{opacity:.6}
+.st,.dc{font:14px/1.4 system-ui,sans-serif;color:var(--muted)}.st:empty{display:none}
+details summary{font:14px system-ui,sans-serif;color:var(--muted)}
+.bar{display:none;background:var(--panel);border:1px solid var(--gold);border-radius:10px;padding:10px 12px;font:15px/1.4 system-ui,sans-serif}`;
+/* Script da página. Salvar: baixa os arquivos (as fotos já ao abrir a página) e abre o menu de compartilhar do celular,
+   que no iPhone tem "Salvar N imagens" e manda tudo direto para o Fotos. Copiar: tenta o jeito antigo (execCommand), que
+   funciona em mais navegadores embutidos, depois a API nova; se as duas falharem, deixa o texto marcado. */
+const SCRIPT = `(function(){
+var ua=navigator.userAgent,ios=/iPhone|iPad|iPod/.test(ua)||(/Macintosh/.test(ua)&&navigator.maxTouchPoints>1);
+var bar=document.getElementById('bar');
+if(ios&&!/Safari\\//.test(ua)&&/^https:/.test(location.href)&&bar){bar.querySelector('a').href='x-safari-'+location.href;bar.style.display='block';}
+function txt(id){var e=document.getElementById(id);return e?e.innerText:'';}
+function copiar(t){var ok=false;try{var ta=document.createElement('textarea');ta.value=t;ta.setAttribute('readonly','');ta.style.cssText='position:fixed;top:0;left:0;opacity:0;font-size:16px';document.body.appendChild(ta);ta.select();ta.setSelectionRange(0,t.length);ok=document.execCommand('copy');document.body.removeChild(ta);}catch(e){}
+if(ok)return Promise.resolve();if(navigator.clipboard&&navigator.clipboard.writeText)return navigator.clipboard.writeText(t);return Promise.reject(new Error('sem copia'));}
+function marcar(id){try{var r=document.createRange();r.selectNodeContents(document.getElementById(id));var s=getSelection();s.removeAllRanges();s.addRange(r);}catch(e){}}
+function aviso(b,t){if(!b.getAttribute('data-l'))b.setAttribute('data-l',b.textContent);b.textContent=t;clearTimeout(b._t);b._t=setTimeout(function(){b.textContent=b.getAttribute('data-l');},2500);}
+document.querySelectorAll('button[data-c]').forEach(function(b){b.addEventListener('click',function(){var id=b.getAttribute('data-c');copiar(txt(id)).then(function(){aviso(b,'Copiado');},function(){marcar(id);aviso(b,'Texto marcado: toque em Copiar');});});});
+var pronto={},indo={};
+function tipo(n){return /\\.mp4$/i.test(n)?'video/mp4':/\\.png$/i.test(n)?'image/png':'image/jpeg';}
+function baixar(u){if(!indo[u])indo[u]=fetch(u).then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.blob();}).then(function(bl){var n=u.split('/').pop().split('?')[0];var f=new File([bl],n,{type:bl.type||tipo(n)});pronto[u]=f;return f;});return indo[u];}
+function salvarArquivos(fs,st,depois){
+if(navigator.canShare&&navigator.canShare({files:fs})){navigator.share({files:fs}).then(function(){st.textContent='Feito.';},function(e){
+if(e&&e.name==='AbortError'){st.textContent='';}else if(e&&e.name==='NotAllowedError'&&depois){st.textContent='Arquivos prontos: toque no botão de novo.';}else{st.textContent='O menu de compartilhar não abriu aqui. Segure o dedo numa foto e escolha Salvar no Fotos, ou abra a pauta no Safari.';}});return;}
+if(ios){st.textContent='Este navegador não salva direto no Fotos. Segure o dedo numa foto e escolha Salvar no Fotos, ou abra a pauta no Safari.';return;}
+fs.forEach(function(f,i){setTimeout(function(){var a=document.createElement('a');a.href=URL.createObjectURL(f);a.download=f.name;document.body.appendChild(a);a.click();a.remove();},i*400);});st.textContent='Arquivos baixados.';}
+document.querySelectorAll('.md').forEach(function(box){var urls=JSON.parse(box.getAttribute('data-f'));
+urls.forEach(function(u){if(!/\\.mp4$/i.test(u))baixar(u).catch(function(){});});
+var b=box.querySelector('button.sv'),st=box.querySelector('.st'),cap=box.getAttribute('data-cap');
+b.addEventListener('click',function(){
+if(cap)copiar(txt(cap)).catch(function(){});
+var fs=urls.map(function(u){return pronto[u];});
+if(fs.every(Boolean)){salvarArquivos(fs,st,false);return;}
+b.disabled=true;st.textContent=urls.some(function(u){return /\\.mp4$/i.test(u);})?'Preparando o vídeo, pode levar alguns segundos...':'Preparando as fotos...';
+Promise.all(urls.map(baixar)).then(function(fs){b.disabled=false;salvarArquivos(fs,st,true);},function(){b.disabled=false;st.textContent='Não consegui baixar. Use os links dos arquivos abaixo.';});});});
+})();`;
+/* tamanho do arquivo, quando ele está no próprio repositório (links do site) */
+function tamanho(u) {
+  if (!u.startsWith(SITE + '/')) return '';
+  try { const b = fs.statSync(path.join(ROOT, decodeURIComponent(u.slice(SITE.length + 1)))).size; return b >= 1e6 ? ' (' + (b / 1e6).toFixed(0) + ' MB)' : ''; } catch (e) { return ''; }
+}
+function midia(a, k, cap) {
+  const fsx = a.arquivos || [];
+  if (!fsx.length) return '';
+  const video = f => /\.mp4($|\?)/i.test(f.url);
+  const nf = fsx.filter(f => !video(f)).length, nv = fsx.length - nf;
+  const th = fsx.map(f => video(f) ? '<video src="' + esc(f.url) + '" controls playsinline preload="metadata"></video>' : '<img src="' + esc(f.url) + '" alt="' + esc(f.nome) + '" loading="lazy">').join('');
+  const oque = nv ? (nv === 1 ? (nf ? 'o vídeo e as fotos' : 'o vídeo') : 'os ' + nv + ' vídeos') : (nf === 1 ? 'a foto' : 'as ' + nf + ' fotos');
+  const lbl = 'Salvar ' + oque + ' no Fotos' + (cap ? ' e copiar a legenda' : '');
+  const dica = 'No menu que abrir, toque em Salvar' + (nv ? '' : ' ' + (nf === 1 ? 'imagem' : nf + ' imagens')) + ', ou mande direto para o app da rede.' + (cap ? ' A legenda já fica copiada, é só colar.' : '');
+  const links = '<details><summary>Links dos arquivos</summary><ul class="files">' + fsx.map(f => '<li><a href="' + esc(f.url) + '" target="_blank" rel="noopener">' + esc(f.nome) + tamanho(f.url) + '</a></li>').join('') + '</ul></details>';
+  return '<div class="md" id="m' + k + '" data-f="' + esc(JSON.stringify(fsx.map(f => f.url))) + '"' + (cap ? ' data-cap="' + cap + '"' : '') + '><div class="th">' + th + '</div><button class="sv" type="button">' + esc(lbl) + '</button><p class="st" aria-live="polite"></p><p class="dc">' + esc(dica) + '</p>' + links + '</div>';
+}
 function pagina(p) {
   let k = 0;
   const avs = p.avisos.slice().sort((a, b) => ((a.dia || p.data) + a.hora).localeCompare((b.dia || p.data) + b.hora)).map(a => {
     const dia = a.dia && a.dia !== p.data ? ' (' + a.dia.split('-').reverse().slice(0, 2).join('/') + ')' : '';
-    const files = a.arquivos && a.arquivos.length ? '<ul class="files">' + a.arquivos.map(f => '<li><a href="' + esc(f.url) + '" download>' + esc(f.nome) + '</a></li>').join('') + '</ul>' : '';
-    const tx = (a.textos || []).map(t => { k++; return '<div class="tx"><b>' + esc(t.rotulo) + '</b><pre id="t' + k + '">' + esc(t.texto) + '</pre><button data-c="t' + k + '">Copiar</button></div>'; }).join('');
+    const k0 = k;
+    const tx = (a.textos || []).map(t => { k++; return '<div class="tx"><b>' + esc(t.rotulo) + '</b><pre id="t' + k + '">' + esc(t.texto) + '</pre><button type="button" data-c="t' + k + '">Copiar</button></div>'; }).join('');
+    const files = midia(a, ++k, a.textos && a.textos.length ? 't' + (k0 + 1) : '');
     const ro = a.roteiro && a.roteiro.length ? '<div class="ro"><b>Roteiro de gravação</b>' + a.roteiro.map(r => { k++; return '<div><b>' + esc(r.cena) + '</b><p>Na tela: ' + esc(r.tela) + '</p>' + (r.como ? '<p>Como gravar: ' + esc(r.como) + '</p>' : '') + '<pre id="t' + k + '">' + esc(r.fala) + '</pre><button data-c="t' + k + '">Copiar fala</button></div>'; }).join('') + '</div>' : '';
     const ps = a.passos && a.passos.length ? '<ol>' + a.passos.map(s => '<li>' + esc(s) + '</li>').join('') + '</ol>' : '';
     const fx = p.fx && /\(R\$/.test(JSON.stringify(a)) ? '<p class="fx">' + esc(p.fx) + '</p>' : '';
     return '<section class="av" id="' + esc(a.id) + '"><div class="hd"><span class="hr">' + esc(a.hora) + dia + '</span><span class="rd">' + esc(a.rede) + '</span><h2>' + esc(a.titulo) + '</h2></div><p>' + esc(a.oQue) + '</p>' + files + tx + ro + ps + fx + '</section>';
   }).join('');
   const lbl = p.data.split('-').reverse().join('/');
-  return '<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Pauta ' + lbl + '</title><style>' + CSS + '</style></head><body><div class="wrap"><h1>Pauta de ' + lbl + '</h1><p class="sub">O que postar em cada rede, na ordem do dia. <a href="../">Outros dias</a></p>' + avs + '</div><script>' + COPY + '</script></body></html>\n';
+  return '<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Pauta ' + lbl + '</title><style>' + CSS + '</style></head><body><div class="wrap"><h1>Pauta de ' + lbl + '</h1><p class="sub">O que postar em cada rede, na ordem do dia. <a href="../">Outros dias</a></p><p class="bar" id="bar">Os botões de salvar e copiar funcionam melhor no Safari. <a href="#">Abrir esta pauta no Safari</a></p>' + avs + '</div><script>' + SCRIPT + '</script></body></html>\n';
 }
 function indice(dias) {
   return '<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Pauta da Fonte de Mana</title><style>' + CSS + '</style></head><body><div class="wrap"><h1>Pauta da Fonte de Mana</h1><p class="sub">Calendário com alarmes: <a href="' + WEBCAL + '">assinar no iPhone</a>. Se o link não abrir, vá em Ajustes, Calendário, Contas, Adicionar Conta, Outra, Adicionar Calendário Assinado e cole <b>' + SITE.replace(/^https:\/\//, '') + '/pauta/' + CALENDARIO + '</b>, com Remover Alarmes desligado e Obter Novos Dados a cada 15 minutos.</p>' +

@@ -165,7 +165,7 @@ A partir de 26/10/2026 (`plano.json` > `reels`, `threads`, `legenda` e `testes`)
       ]
     }
 
-`node tools/pauta/pauta.cjs . AAAA-MM-DD` confere tamanhos, separadores e moeda e gera a página do dia, a lista de dias e o calendário. Links de arquivos sempre pelo site, para o Paulo baixar direto no celular.
+`node tools/pauta/pauta.cjs . AAAA-MM-DD` confere tamanhos, separadores e moeda e gera a página do dia, a lista de dias e o calendário. Links de arquivos sempre pelo site, para o Paulo baixar direto no celular. A página mostra as miniaturas e, em cada aviso com arquivos, um botão que abre o menu de compartilhar do celular (no iPhone, "Salvar N imagens" manda tudo para o Fotos de uma vez) e já copia a legenda; dentro de app que bloqueia isso, aparece um aviso para abrir no Safari.
 
 ## Juntar a narração (quando o Paulo mandar os áudios ou os vídeos)
 
