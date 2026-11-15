@@ -15,7 +15,7 @@
       "chip": "Rota das Lojas #1",
       "kicker": "Jogujogo, Água Branca",
       "titulo": "Loja nova, <b>booster de brinde</b>",
-      "sub": "Fui jogar Commander na Jogujogo e saí com um Play Booster de Spider-Man e um dado de jokenpô.",
+      "sub": "Fui jogar o mesão de Commander de sexta na Jogujogo e saí com um Play Booster de Spider-Man e um dado de jokenpô.",
       "arte": "pauta/2026-11-15/tiktok/arte.jpg",
       "credito": "Arte: Superior Spider-Man, Carlos Dattoli"
     },
@@ -27,26 +27,26 @@
         "itens": [
           {
             "cor": "W",
-            "html": "Limpa, organizada e com <b>várias mesas para 4</b> jogadores."
+            "html": "<b>Ambiente agradável</b> e gostoso para jogar Commander."
           },
           {
             "cor": "W",
-            "html": "Staff cordial e <b>evento de Commander</b>. No dia, rolava um mesão."
+            "html": "Staff cordial, loja limpa e organizada, <b>várias mesas para 4</b>."
           }
         ],
         "fonte": "Fonte: visita do Paulo, 13 nov 2026"
       },
       {
         "cor": "W",
-        "titulo": "O brinde",
+        "titulo": "O brinde do mesão",
         "itens": [
           {
             "cor": "W",
-            "html": "Um <b>Play Booster de Marvel's Spider-Man</b>, com 14 cartas."
+            "html": "Toda sexta tem <b>mesão de Commander</b>. Foi lá que ganhei o brinde."
           },
           {
             "cor": "W",
-            "html": "Um <b>dado de jokenpô</b>: pedra, papel e tesoura no lugar dos números."
+            "html": "Um <b>Play Booster de Marvel's Spider-Man</b> e um <b>dado de jokenpô</b>."
           },
           {
             "cor": "W",
@@ -98,9 +98,9 @@
       "salvar": "Salva para lembrar da Jogujogo quando passar pela Água Branca"
     }
   },
-  "legenda": "Loja de Magic em São Paulo: fui jogar Commander na Jogujogo, na Água Branca. Qual loja a gente visita na próxima?\nLoja limpa e organizada, várias mesas para 4, staff cordial e evento de Commander. No dia, rolava um mesão.\nDe brinde, um Play Booster de Spider-Man e um dado de jokenpô. A rara foi o Superior Spider-Man, que copia criatura de qualquer cemitério, e veio um Maximum Carnage, que está em 35,2 mil decks no EDHREC.\nFontes: Scryfall e EDHREC.\n@jogujogo\nfontedemana.com.br\n#jogujogo #commander #mtg",
+  "legenda": "Loja de Magic em São Paulo: fui jogar Commander na Jogujogo, na Água Branca. Qual loja a gente visita na próxima?\nAmbiente gostoso para jogar Commander, staff cordial, loja limpa e organizada e várias mesas para 4.\nToda sexta tem mesão de Commander, e foi nele que ganhei de brinde um Play Booster de Spider-Man e um dado de jokenpô. A rara foi o Superior Spider-Man, que copia criatura de qualquer cemitério, e veio um Maximum Carnage, que está em 35,2 mil decks no EDHREC.\nFontes: Scryfall e EDHREC.\n@jogujogo\nfontedemana.com.br\n#jogujogo #commander #mtg",
   "threads": {
-    "texto": "Fui jogar numa loja nova, a Jogujogo, na Água Branca, e saí com um booster de Spider-Man e um dado de jokenpô de brinde.\nPergunta sincera: o que faz você voltar numa loja? Brinde, mesa boa, evento de Commander ou o pessoal do balcão?",
+    "texto": "Fui jogar o mesão de Commander de sexta numa loja nova, a Jogujogo, na Água Branca, e saí com um booster de Spider-Man e um dado de jokenpô de brinde.\nPergunta sincera: o que faz você voltar numa loja? Brinde, mesa boa, evento de Commander ou o pessoal do balcão?",
     "obs": "Enquete: Mesa e espaço, Evento de Commander, Brinde e preço, O staff"
   },
   "enquete": {

@@ -22,13 +22,13 @@
         },
         {
           "cena": "Cena 2, uns 5 s",
-          "tela": "Limpa, organizada e com várias mesas de 4, Staff cordial e evento de Commander, No dia, rolava um mesão",
-          "fala": "Jogujogo: limpa, organizada, várias mesas de quatro e evento de Commander."
+          "tela": "Ambiente agradável e gostoso para jogar Commander, Staff cordial, loja limpa e organizada, Várias mesas para 4 jogadores",
+          "fala": "Jogujogo: ambiente gostoso pra jogar Commander, staff cordial, loja limpa e organizada."
         },
         {
-          "cena": "Cena 3, uns 4 s",
-          "tela": "Booster de Spider-Man e um dado de jokenpô (sobre o seu vídeo: a abertura do booster)",
-          "fala": "De brinde, booster do Homem-Aranha e dado de jokenpô."
+          "cena": "Cena 3, uns 6 s",
+          "tela": "O brinde do mesão de sexta: Booster de Spider-Man e um dado de jokenpô (sobre o seu vídeo: a abertura do booster)",
+          "fala": "No mesão de Commander de sexta, ganhei booster do Homem-Aranha e dado de jokenpô."
         },
         {
           "cena": "Cena 4, uns 5 s",
@@ -58,7 +58,7 @@
       "hora": "11:30",
       "rede": "TikTok",
       "titulo": "TikTok: Rota das Lojas #1, Jogujogo e o booster de brinde",
-      "oQue": "Vídeo de uns 28 s: a chegada na Jogujogo, a loja, o booster de brinde, o Superior Spider-Man e o Maximum Carnage, e a pergunta da próxima loja.",
+      "oQue": "Vídeo de uns 30 s: a chegada na Jogujogo, a loja, o booster que você ganhou no mesão de sexta, o Superior Spider-Man e o Maximum Carnage, e a pergunta da próxima loja.",
       "arquivos": [
         {
           "nome": "Vídeo mudo (tiktok-mudo.mp4)",
@@ -68,7 +68,7 @@
       "textos": [
         {
           "rotulo": "Legenda",
-          "texto": "Loja de Magic nova em São Paulo: fui jogar Commander na Jogujogo, na Água Branca, e ganhei um booster de brinde. Qual loja a gente visita na próxima?\nLoja limpa e organizada, várias mesas para 4, staff cordial e evento de Commander. No dia, rolou um mesão.\nDe brinde, um Play Booster de Spider-Man e um dado de jokenpô. A rara foi o Superior Spider-Man, e veio um Maximum Carnage, que está em 35,2 mil decks no EDHREC.\n@jogujogo\nfontedemana.com.br\n#jogujogo #commander #mtg\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+          "texto": "Loja de Magic nova em São Paulo: fui jogar Commander na Jogujogo, na Água Branca, e ganhei um booster de brinde. Qual loja a gente visita na próxima?\nAmbiente gostoso para jogar Commander, staff cordial, loja limpa e organizada e várias mesas para 4.\nToda sexta tem mesão de Commander, e foi nele que ganhei de brinde um Play Booster de Spider-Man e um dado de jokenpô. A rara foi o Superior Spider-Man, e veio um Maximum Carnage, que está em 35,2 mil decks no EDHREC.\n@jogujogo\nfontedemana.com.br\n#jogujogo #commander #mtg\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
         },
         {
           "rotulo": "Comentário fixado",

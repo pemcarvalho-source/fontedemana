@@ -7,7 +7,7 @@
  "carta": "pauta/2026-11-15/tiktok/carta.jpg",
  "credito": "Arte: Superior Spider-Man, Carlos Dattoli",
  "fx": null,
- "legenda": "Loja de Magic nova em São Paulo: fui jogar Commander na Jogujogo, na Água Branca, e ganhei um booster de brinde. Qual loja a gente visita na próxima?\nLoja limpa e organizada, várias mesas para 4, staff cordial e evento de Commander. No dia, rolou um mesão.\nDe brinde, um Play Booster de Spider-Man e um dado de jokenpô. A rara foi o Superior Spider-Man, e veio um Maximum Carnage, que está em 35,2 mil decks no EDHREC.\n@jogujogo\nfontedemana.com.br\n#jogujogo #commander #mtg\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
+ "legenda": "Loja de Magic nova em São Paulo: fui jogar Commander na Jogujogo, na Água Branca, e ganhei um booster de brinde. Qual loja a gente visita na próxima?\nAmbiente gostoso para jogar Commander, staff cordial, loja limpa e organizada e várias mesas para 4.\nToda sexta tem mesão de Commander, e foi nele que ganhei de brinde um Play Booster de Spider-Man e um dado de jokenpô. A rara foi o Superior Spider-Man, e veio um Maximum Carnage, que está em 35,2 mil decks no EDHREC.\n@jogujogo\nfontedemana.com.br\n#jogujogo #commander #mtg\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
  "comentario": "Qual loja a gente visita na próxima? Série Rota das Lojas.",
  "cenas": [
   {
@@ -24,20 +24,20 @@
    "tipo": "texto",
    "cor": "W",
    "kicker": "A loja",
-   "titulo": "Limpa, organizada e com várias mesas de 4",
-   "sub": "Staff cordial e evento de Commander",
-   "rodape": "No dia, rolava um mesão",
-   "narracao": "Jogujogo: limpa, organizada, várias mesas de quatro e evento de Commander.",
-   "segundos": 4.7
+   "titulo": "Ambiente agradável e gostoso para jogar Commander",
+   "sub": "Staff cordial, loja limpa e organizada",
+   "rodape": "Várias mesas para 4 jogadores",
+   "narracao": "Jogujogo: ambiente gostoso pra jogar Commander, staff cordial, loja limpa e organizada.",
+   "segundos": 5
   },
   {
    "tipo": "clipe",
    "cor": "W",
-   "kicker": "O brinde",
+   "kicker": "O brinde do mesão de sexta",
    "titulo": "Booster de Spider-Man e um dado de jokenpô",
    "video": "pauta/2026-11-15/tiktok/clipe-booster.mp4",
-   "narracao": "De brinde, booster do Homem-Aranha e dado de jokenpô.",
-   "segundos": 3.9
+   "narracao": "No mesão de Commander de sexta, ganhei booster do Homem-Aranha e dado de jokenpô.",
+   "segundos": 5.8
   },
   {
    "tipo": "carta",
