@@ -1,0 +1,39 @@
+{
+  "data": "2026-11-16",
+  "pilar": "regra",
+  "item": "Panglacial Wurm conjurado do meio do grimório",
+  "tema": "Chama o Juiz #7: dá para conjurar o Panglacial Wurm no meio da busca?",
+  "cartas": ["Panglacial Wurm", "Kodama's Reach"],
+  "fx": null,
+  "carrossel": {
+    "capa": {"cor": "U", "chip": "Chama o Juiz #7", "kicker": "Regra de Commander", "titulo": "Um <b>Wurm</b> de 7 manas no meio da busca", "sub": "Você joga Kodama's Reach, abre o grimório e dá de cara com o <b>Panglacial Wurm</b>. Dá para conjurar ele ali?",
+             "arte": "pauta/2026-11-16/original/arte.jpg", "credito": "Arte: Panglacial Wurm, Jim Pavelec"},
+    "cartoes": [
+      {"cor": "U", "titulo": "Qual é a certa?",
+       "itens": [
+         {"cor": "U", "html": "<b>A)</b> Não. Criatura só com a pilha vazia, e ali tem uma mágica resolvendo"},
+         {"cor": "U", "html": "<b>B)</b> Pode, mas só depois de achar os terrenos da busca"},
+         {"cor": "U", "html": "<b>C)</b> Pode, antes de pegar qualquer carta, pagando os 7 manas na hora"}
+       ],
+       "nota": {"rotulo": "Antes de arrastar", "texto": "pensa na sua. A mesa costuma errar essa."},
+       "fonte": "Fonte: ruling oficial do Panglacial Wurm"},
+      {"cor": "U", "titulo": "Letra C",
+       "itens": [
+         {"cor": "U", "html": "A própria carta abre a exceção: <b>enquanto você procura</b> no grimório, pode conjurar o Wurm de lá"},
+         {"cor": "U", "html": "Ele vai para a pilha normal. Você paga os 7 manas virando terrenos, porque mana pode ser gerada no meio do pagamento"},
+         {"cor": "U", "html": "Depois você termina a busca. O Kodama's Reach resolve primeiro e o Wurm fica na pilha esperando a vez dele"}
+       ],
+       "fonte": "Fonte: Regras Abrangentes, 601.2g, e ruling da carta"},
+      {"cor": "G", "titulo": "Onde a mesa erra", "carta": "pauta/2026-11-16/original/carta-1.jpg",
+       "itens": [
+         {"cor": "G", "html": "Tem que conjurar <b>antes de achar qualquer carta</b>. Pegou os terrenos, perdeu a chance"},
+         {"cor": "G", "html": "E os terrenos da busca não ajudam a pagar: eles só chegam quando a busca termina"}
+       ],
+       "fonte": "Fonte: rulings do Panglacial Wurm (Scryfall)"}
+    ],
+    "cta": {"pergunta": "Você teria acertado de primeira?", "quando": "Chama o Juiz: uma regra da mesa por caso", "salvar": "Salva para mostrar na próxima vez que alguém buscar um terreno"}
+  },
+  "legenda": "Regra de Commander: dá para conjurar o Panglacial Wurm no meio de uma busca no grimório? Você teria acertado?\n\nO caso: Kodama's Reach resolvendo, você abre o grimório e acha o Wurm de 7 manas.\nA) Não, só com a pilha vazia\nB) Pode, depois de achar os terrenos\nC) Pode, antes de pegar qualquer carta\n\nA resposta está no carrossel, com o número da regra. Fontes: Regras Abrangentes (601.2g) e os rulings oficiais da carta.\nMais casos em fontedemana.com.br\n\n#chamaojuiz #commander #mtg",
+  "threads": {"texto": "Chama o Juiz: você joga Kodama's Reach, abre o grimório para buscar terrenos e acha o Panglacial Wurm. Dá para conjurar o Wurm ali, no meio da busca?\n\nA) Não, criatura só com a pilha vazia\nB) Pode, mas só depois de achar os terrenos\nC) Pode, antes de pegar qualquer carta, pagando os 7 manas na hora\n\nQual é a certa?", "obs": "Resposta às 15h: letra C. Conjura antes de achar as cartas, paga os 7 na hora e o Wurm resolve depois do Kodama's Reach."},
+  "enquete": {"pergunta": "Panglacial Wurm no meio da busca: pode conjurar?", "opcoes": ["A) Não pode", "B) Depois da busca", "C) Antes de pegar"]}
+}
