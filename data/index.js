@@ -1,6 +1,7 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "Ramunap Excavator",
   "Urza, Chief Artificer",
   "Krark's Thumb",
   "Y'shtola, Night's Blessed",
@@ -39,6 +40,13 @@ window.MANA_POOL_INDEX = {
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 41,
+   "date": "2026-11-15",
+   "dateLabel": "Domingo, 15 de novembro de 2026",
+   "head": "Crucible of Worlds volta no fundo do mar como Sunken Treasure de Nauctis",
+   "biome": "A"
+  },
   {
    "n": 40,
    "date": "2026-11-14",
@@ -247,13 +255,6 @@ window.MANA_POOL_INDEX = {
    "date": "2026-10-16",
    "dateLabel": "Sexta, 16 de outubro de 2026",
    "head": "Tam faz Vraska, Betrayal's Sting quase quadruplicar de preço",
-   "biome": "A"
-  },
-  {
-   "n": 10,
-   "date": "2026-10-15",
-   "dateLabel": "Quinta, 15 de outubro de 2026",
-   "head": "Reality Fracture ganha dois Secret Lairs, Strange School e Duality Distorted",
    "biome": "A"
   }
  ]
