@@ -1,5 +1,8 @@
 {
   "data": "2026-11-15",
+  "fx": "Valores em reais pela cotação de 13 nov, US$ 1 = R$ 5,6518 (Banco Central, PTAX).",
+  "forca": "calmo",
+  "feed": "original",
   "avisos": [
     {
       "id": "gravacao",
@@ -57,18 +60,18 @@
       "id": "tiktok",
       "hora": "11:30",
       "rede": "TikTok",
-      "titulo": "TikTok: Rota das Lojas #1, Jogujogo e o booster de brinde",
+      "titulo": "Rota das Lojas #1, Jogujogo e o booster de brinde",
       "oQue": "Vídeo de uns 30 s: a chegada na Jogujogo, a loja, o booster que você ganhou no mesão de sexta, o Superior Spider-Man e o Maximum Carnage, e a pergunta da próxima loja.",
       "arquivos": [
         {
-          "nome": "Vídeo narrado (tiktok-narrado.mp4)",
+          "nome": "Vídeo do TikTok narrado",
           "url": "https://fontedemana.com.br/pauta/2026-11-15/tiktok/tiktok-narrado.mp4"
         }
       ],
       "textos": [
         {
           "rotulo": "Legenda",
-          "texto": "Loja de Magic nova em São Paulo: fui jogar Commander na Jogujogo, na Água Branca, e ganhei um booster de brinde. Qual loja a gente visita na próxima?\nAmbiente gostoso para jogar Commander, staff cordial, loja limpa e organizada e várias mesas para 4.\nToda sexta tem mesão de Commander, e foi nele que ganhei de brinde um Play Booster de Spider-Man e um dado de jokenpô. A rara foi o Superior Spider-Man, e veio um Maximum Carnage, que está em 35,2 mil decks no EDHREC.\n@jogujogo\nfontedemana.com.br\n#jogujogo #commander #mtg\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+          "texto": "Loja de Magic nova em São Paulo: fui jogar Commander na Jogujogo, na Água Branca, e ganhei um booster de brinde. Qual loja a gente visita na próxima?\nAmbiente gostoso para jogar Commander, staff cordial, loja limpa e organizada e várias mesas para 4.\nToda sexta tem mesão de Commander, e foi nele que ganhei de brinde um Play Booster de Spider-Man e um dado de jokenpô. A rara foi o Superior Spider-Man, e veio um Maximum Carnage, que está em 35,2 mil decks no EDHREC.\n@jogujogo\nfontedemana.com.br\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
         },
         {
           "rotulo": "Comentário fixado",
@@ -80,6 +83,144 @@
         "Marque a @jogujogo na legenda e a loja como local, se o TikTok achar.",
         "Voz própria não precisa de rótulo de IA.",
         "Fixe o comentário logo depois de postar."
+      ]
+    },
+    {
+      "id": "threads-manha",
+      "hora": "10:30",
+      "rede": "Threads",
+      "titulo": "Debate: Rota das Lojas #1: Jogujogo, na Água Branca, e o booster que…",
+      "oQue": "Post de debate do conteúdo original de hoje (Rota das Lojas) para puxar conversa.",
+      "textos": [
+        {
+          "rotulo": "Post",
+          "texto": "Fui jogar o mesão de Commander de sexta numa loja nova, a Jogujogo, na Água Branca, e saí com um booster de Spider-Man e um dado de jokenpô de brinde.\nPergunta sincera: o que faz você voltar numa loja? Brinde, mesa boa, evento de Commander ou o pessoal do balcão?"
+        }
+      ],
+      "passos": [
+        "Abra o Threads e cole o Post.",
+        "Dica: Enquete: Mesa e espaço, Evento de Commander, Brinde e preço, O staff",
+        "Toque em Adicionar tópico e escolha MTG.",
+        "Publique e responda quem comentar na primeira hora."
+      ]
+    },
+    {
+      "id": "feed",
+      "hora": "12:00",
+      "rede": "Instagram feed",
+      "titulo": "Rota das Lojas #1: Jogujogo, na Água Branca, e o booster que veio de…",
+      "origem": "original:2026-11-15",
+      "oQue": "Carrossel original de 6 imagens (Rota das Lojas): Rota das Lojas #1: Jogujogo, na Água Branca, e o booster que veio de brinde. Feito para salvar e compartilhar.",
+      "arquivos": [
+        {
+          "nome": "Imagem 1 de 6",
+          "url": "https://fontedemana.com.br/pauta/2026-11-15/original/carrossel-01.jpg"
+        },
+        {
+          "nome": "Imagem 2 de 6",
+          "url": "https://fontedemana.com.br/pauta/2026-11-15/original/carrossel-02.jpg"
+        },
+        {
+          "nome": "Imagem 3 de 6",
+          "url": "https://fontedemana.com.br/pauta/2026-11-15/original/carrossel-03.jpg"
+        },
+        {
+          "nome": "Imagem 4 de 6",
+          "url": "https://fontedemana.com.br/pauta/2026-11-15/original/carrossel-04.jpg"
+        },
+        {
+          "nome": "Imagem 5 de 6",
+          "url": "https://fontedemana.com.br/pauta/2026-11-15/original/carrossel-05.jpg"
+        },
+        {
+          "nome": "Imagem 6 de 6",
+          "url": "https://fontedemana.com.br/pauta/2026-11-15/original/carrossel-06.jpg"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Loja de Magic em São Paulo: fui jogar Commander na Jogujogo, na Água Branca. Qual loja a gente visita na próxima?\nAmbiente gostoso para jogar Commander, staff cordial, loja limpa e organizada e várias mesas para 4.\nToda sexta tem mesão de Commander, e foi nele que ganhei de brinde um Play Booster de Spider-Man e um dado de jokenpô. A rara foi o Superior Spider-Man, que copia criatura de qualquer cemitério, e veio um Maximum Carnage, que está em 35,2 mil decks no EDHREC.\nFontes: Scryfall e EDHREC.\n@jogujogo\nfontedemana.com.br\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        }
+      ],
+      "passos": [
+        "No Instagram, toque em + e escolha Post.",
+        "Selecione as 6 imagens na ordem, da 1 à 6.",
+        "Toque em Adicionar música e escolha uma em alta que combine com o tema.",
+        "Cole a Legenda e publique."
+      ]
+    },
+    {
+      "id": "stories-meio-dia",
+      "hora": "12:00",
+      "rede": "Instagram Stories",
+      "titulo": "Repost do carrossel com enquete",
+      "oQue": "Compartilhe o carrossel recém postado no Story com uma enquete.",
+      "passos": [
+        "No carrossel publicado, toque no avião de papel e em Adicionar post ao seu story.",
+        "Adicione o sticker de Enquete embaixo do post: O que faz você voltar numa loja de Magic? com Mesa e espaço, Evento de Commander, Brinde e preço e O staff.",
+        "Publique."
+      ]
+    },
+    {
+      "id": "stories-tarde",
+      "hora": "15:00",
+      "rede": "Instagram Stories",
+      "titulo": "Topdeck do Dia com link",
+      "oQue": "Story com a imagem de Ramunap Excavator no Topdeck do Dia e o sticker de link para a edição completa.",
+      "arquivos": [
+        {
+          "nome": "Topdeck do Dia",
+          "url": "https://fontedemana.com.br/kit/ed41/carrossel-04.jpg"
+        }
+      ],
+      "passos": [
+        "Baixe a imagem e poste no Story.",
+        "Adicione o sticker de Link para fontedemana.com.br com o texto Edição completa, embaixo do texto do Topdeck.",
+        "Publique."
+      ]
+    },
+    {
+      "id": "reels",
+      "hora": "19:00",
+      "rede": "Reels",
+      "titulo": "Vídeo original: Rota das Lojas #1: Jogujogo, na Água Branca, e o…",
+      "oQue": "O vídeo original de hoje no Instagram, o mesmo arquivo do TikTok, já narrado. É o formato que mais chega a quem não segue.",
+      "arquivos": [
+        {
+          "nome": "Vídeo original narrado",
+          "url": "https://fontedemana.com.br/pauta/2026-11-15/tiktok/tiktok-narrado.mp4"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Loja de Magic nova em São Paulo: fui jogar Commander na Jogujogo, na Água Branca, e ganhei um booster de brinde. Qual loja a gente visita na próxima?\nAmbiente gostoso para jogar Commander, staff cordial, loja limpa e organizada e várias mesas para 4.\nToda sexta tem mesão de Commander, e foi nele que ganhei de brinde um Play Booster de Spider-Man e um dado de jokenpô. A rara foi o Superior Spider-Man, e veio um Maximum Carnage, que está em 35,2 mil decks no EDHREC.\n@jogujogo\nfontedemana.com.br\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        },
+        {
+          "rotulo": "Comentário fixado",
+          "texto": "Qual loja a gente visita na próxima? Série Rota das Lojas."
+        }
+      ],
+      "passos": [
+        "No Instagram, toque em + e escolha Reel.",
+        "Escolha o vídeo baixado daqui, nunca o salvo do TikTok (o Instagram derruba vídeo com marca d'água).",
+        "Em Áudio, ponha uma música em alta da biblioteca do Instagram com volume baixo (uns 10%), sem cobrir a voz.",
+        "Na capa, use o primeiro quadro, o do gancho.",
+        "Cole a Legenda e publique.",
+        "Fixe o comentário e responda quem comentar na primeira hora."
+      ]
+    },
+    {
+      "id": "comentarios",
+      "hora": "21:30",
+      "rede": "Comentários",
+      "titulo": "Responder os comentários de hoje e de ontem",
+      "oQue": "Uns 10 minutos nas três redes: curtir e responder os comentários das últimas 48 horas, começando pelo vídeo e pelo carrossel de hoje. Conversa nos comentários leva a peça a mais gente, e o Instagram recomenda responder em até 2 dias.",
+      "passos": [
+        "Instagram: nas notificações, curta os comentários e responda com uma frase quem perguntou ou discordou.",
+        "TikTok e Threads: o mesmo, começando pelo post com mais comentários.",
+        "Pergunta boa ou dúvida que se repete, nos comentários ou nas DMs? Mande na conversa do projeto: vira tema de um pilar."
       ]
     }
   ]

@@ -8,265 +8,8 @@ X-WR-TIMEZONE:America/Sao_Paulo
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:fdm-2026-11-11-gravacao@fontedemana.com.br
-DTSTAMP:20261115T023646Z
-DTSTART:20261110T221500Z
-DURATION:PT15M
-SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
-DESCRIPTION:Do zero à mesa #2: o Corte Carmesim em três passos. Você apa
- rece nas cenas 1 e 7 (com o Edgar e cartas do pedido na mão\, depois com 
- o Rosa Sedenta)\; nas outras\, só a voz.\n\nArquivos:\n- Vídeo mudo (par
- a ver o ritmo): https://fontedemana.com.br/pauta/2026-11-11/tiktok/tiktok-
- mudo.mp4\n\nRoteiro de gravação:\nCena 1\, rosto\, uns 4 s\nNa tela: Cor
- te Carmesim: 40 cartas da gringa para um deck só\nComo gravar: Rosto: Seg
- ura o Edgar Markov e\, na outra mão\, um leque de cartas do pedido (Exqui
- site Blood\, Teferi's Protection\, Skullclamp) para a câmera.\nFala: Comp
- rei 40 cartas na gringa só pra esse deck.\n\nCena 2\, só a voz\, uns 7 s
- \nNa tela: O segredo do comandante: Edgar Markov: Da zona de comando\, cad
- a vampiro já vem com ficha\nComo gravar: Só a voz: pode gravar em vídeo
-  ou áudio\nFala: O segredo: o Edgar nem precisa entrar. Da zona de comand
- o\, cada vampiro já vem com ficha.\n\nCena 3\, só a voz\, uns 4 s\nNa te
- la: Vampiro barato: Knight of the Ebon Legion: 1 mana\, dois corpos\, e o 
- Edgar fica guardado\nComo gravar: Só a voz: pode gravar em vídeo ou áud
- io\nFala: Passo um: vampiro barato. O Edgar fica guardado.\n\nCena 4\, só
-  a voz\, uns 4 s\nNa tela: Passo 2: O Edgar ataca e o time todo cresce: Go
- lpe inicial\, ímpeto e +1/+1 em cada vampiro seu a cada ataque\nComo grav
- ar: Só a voz: pode gravar em vídeo ou áudio\nFala: Passo dois: o Edgar 
- entra atacando e cresce o time.\n\nCena 5\, só a voz\, uns 4 s\nNa tela: 
- Fechar no dreno: Cruel Celebrant: Cada criatura sua que morre drena a mesa
- \nComo gravar: Só a voz: pode gravar em vídeo ou áudio\nFala: Passo tr
- ês: cada um que morre drena a mesa.\n\nCena 6\, só a voz\, uns 4 s\nNa t
- ela: Do plástico bolha: 15 das 19 cartas que faltam: Susurian Voidborn\, 
- Gollum the Abandoned e Cast Out\nComo gravar: Só a voz: pode gravar em v
- ídeo ou áudio\nFala: No teste\, 15 vieram do plástico bolha. Olha três
- .\n\nCena 7\, rosto\, uns 5 s\nNa tela: Sábado: O Rosa Sedenta no DC500\n
- Como gravar: Rosto: Mostra o deck Rosa Sedenta na mão\, com o Vito\, Thor
- n of the Dusk Rose na frente\, e fala sorrindo para a câmera.\nFala: E o 
- deck que nasceu do lote estreia hoje no DC500.\n\n\nPasso a passo:\n1. Sep
- are o Edgar Markov\, algumas cartas do pedido da gringa (Exquisite Blood\,
-  Teferi's Protection\, Skullclamp) e o deck Rosa Sedenta com o Vito na fre
- nte.\n2. Celular na vertical\, câmera da frente\, na altura dos olhos\, a
-  um braço de distância.\n3. Rosto na metade de cima da tela: o título e
- ntra embaixo dele\, na altura do peito.\n4. Luz de frente (de frente para 
- a janela) e fundo arrumado\; a estante de cartas é ótima.\n5. Desligue o
-  Vídeo HDR (Ajustes\, Câmera\, Gravar Vídeo) para as cores não lavarem
- .\n6. Um vídeo por cena\, falando para a câmera\, com meio segundo de si
- lêncio antes e depois\; nomeie cena_1\, cena_2... e mande todos juntos.\n
- 7. Nas cenas sem rosto\, só a voz conta: pode gravar em vídeo ou só o 
- áudio.\n8. Grave num lugar silencioso\; nas cenas só de voz\, celular a 
- um palmo da boca.\n9. Mande os vídeos ao Claude no projeto MGT strategy (
- pode ser respondendo à mensagem desta tarefa) dizendo "vídeos do TikTok 
- de 2026-11-11".\n\nPauta completa: https://fontedemana.com.br/pauta/2026-1
- 1-11/#gravacao
-URL:https://fontedemana.com.br/pauta/2026-11-11/#gravacao
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Gravação: Gravar o vídeo de amanhã (você aparece)
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-11-tiktok@fontedemana.com.br
-DTSTAMP:20261115T023646Z
-DTSTART:20261111T143000Z
-DURATION:PT15M
-SUMMARY:11:30 TikTok: Do zero à mesa #2: o Corte Carmesim em três passos
-DESCRIPTION:Vídeo do Corte Carmesim\, o deck do Edgar Markov que motivou a
-  compra na gringa\, com o plano em três passos e as 15 cartas do plástic
- o bolha no deck de teste.\n\nArquivos:\n- Vídeo do TikTok narrado: https:
- //fontedemana.com.br/pauta/2026-11-11/tiktok/tiktok-narrado.mp4\n\nLegenda
- :\nDeck de Commander de vampiros: o Corte Carmesim\, com Edgar Markov\, em
-  três passos. Qual comandante de vampiros você levaria pra mesa?\n\nFoi 
- pra completar esse deck que eu comprei cartas na gringa. 81 das 100 já es
- tão comigo\, e no deck de teste 15 cartas vieram do plástico bolha.\n\nS
- ábado tem o Do zero à mesa\, com o Rosa Sedenta depois da estreia no DC5
- 00.\n\nNotícia de Magic todo dia em fontedemana.com.br\n\nFonte de Mana i
- s unofficial Fan Content permitted under the Fan Content Policy. Not appro
- ved/endorsed by Wizards. Portions of the materials used are property of Wi
- zards of the Coast. ©Wizards of the Coast LLC.\n\nComentário fixado:\nEd
- gar Markov: o comandante de vampiros mais forte ou só o mais famoso?\n\nD
- o zero à mesa: a série do lote do plástico bolha. O #3 sai no sábado.\
- n\nPasso a passo:\n1. Poste com um som em alta da biblioteca do TikTok\, c
- om volume entre 15% e 20%.\n2. Voz própria não precisa de rótulo de IA.
- \n3. Fixe o comentário logo depois de postar.\n\nPauta completa: https://
- fontedemana.com.br/pauta/2026-11-11/#tiktok
-URL:https://fontedemana.com.br/pauta/2026-11-11/#tiktok
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:TikTok: Do zero à mesa #2: o Corte Carmesim em três passos
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-11-threads-manha@fontedemana.com.br
-DTSTAMP:20261115T023646Z
-DTSTART:20261111T133000Z
-DURATION:PT15M
-SUMMARY:10:30 Threads: Debate: Do zero à mesa #2: Corte Carmesim\, o deck 
- de vampiros que…
-DESCRIPTION:Post de debate do conteúdo original de hoje (Do zero à mesa) 
- para puxar conversa.\n\nPost:\nEdgar Markov: o comandante de vampiros mais
-  forte do Commander ou só o mais famoso?\n\nDe um lado\, ele gera ficha a
- té da zona de comando e cresce o time todo no ataque. Do outro\, custa 6 
- e quase todo deck de vampiro já roda as mesmas cartas.\n\nTô montando o 
- meu\, o Corte Carmesim. Quem joga vampiros aí: qual comandante você pref
- ere?\n\nPasso a passo:\n1. Abra o Threads e cole o Post.\n2. Dica: Enquete
-  com as duas opções: o mais forte ou só o mais famoso\n3. Toque em Adic
- ionar tópico e escolha MTG.\n4. Publique e responda quem comentar na prim
- eira hora.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-11/
- #threads-manha
-URL:https://fontedemana.com.br/pauta/2026-11-11/#threads-manha
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Debate: Do zero à mesa #2: Corte Carmesim\, o deck de
-  vampiros que…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-11-feed@fontedemana.com.br
-DTSTAMP:20261115T023646Z
-DTSTART:20261111T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram feed: Do zero à mesa #2: Corte Carmesim\, o deck d
- e vampiros que começou tudo
-DESCRIPTION:Carrossel original de 7 imagens (Do zero à mesa): Do zero à m
- esa #2: Corte Carmesim\, o deck de vampiros que começou tudo. Feito para 
- salvar e compartilhar.\n\nArquivos:\n- Imagem 1 de 7: https://fontedemana.
- com.br/pauta/2026-11-11/original/carrossel-01.jpg\n- Imagem 2 de 7: https:
- //fontedemana.com.br/pauta/2026-11-11/original/carrossel-02.jpg\n- Imagem 
- 3 de 7: https://fontedemana.com.br/pauta/2026-11-11/original/carrossel-03.
- jpg\n- Imagem 4 de 7: https://fontedemana.com.br/pauta/2026-11-11/original
- /carrossel-04.jpg\n- Imagem 5 de 7: https://fontedemana.com.br/pauta/2026-
- 11-11/original/carrossel-05.jpg\n- Imagem 6 de 7: https://fontedemana.com.
- br/pauta/2026-11-11/original/carrossel-06.jpg\n- Imagem 7 de 7: https://fo
- ntedemana.com.br/pauta/2026-11-11/original/carrossel-07.jpg\n\nLegenda:\nD
- eck de Commander de vampiros com Edgar Markov: o Corte Carmesim\, carta po
- r carta. Qual comandante de vampiros você levaria pra mesa?\n\nFoi pra co
- mpletar esse deck que eu comprei cartas na gringa\, e o vendedor mandou 32
- 3 de proteção.\n\nO plano: baixar vampiro barato\, atacar com o Edgar e 
- fechar no dreno. A Teferi's Protection segura o time contra board wipe.\n\
- nNo deck de teste\, 81 das 100 estão compradas e 15 das 19 que faltam for
- am tapadas com cartas do plástico bolha.\n\nComo o Edgar é banido como c
- omandante no Duel Commander\, do lote nasceu outro deck\, o Rosa Sedenta. 
- Sábado tem o Do zero à mesa.\n\nTexto das cartas: Scryfall. Decks: EDHRE
- C.\nNotícia de Magic todo dia em fontedemana.com.br\n\nFonte de Mana is u
- nofficial Fan Content permitted under the Fan Content Policy. Not approved
- /endorsed by Wizards. Portions of the materials used are property of Wizar
- ds of the Coast. ©Wizards of the Coast LLC.\n\nPasso a passo:\n1. No Inst
- agram\, toque em + e escolha Post.\n2. Selecione as 7 imagens na ordem\, d
- a 1 à 7.\n3. Toque em Adicionar música e escolha uma em alta que combine
-  com o tema.\n4. Cole a Legenda e publique.\n\nPauta completa: https://fon
- tedemana.com.br/pauta/2026-11-11/#feed
-URL:https://fontedemana.com.br/pauta/2026-11-11/#feed
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram feed: Do zero à mesa #2: Corte Carmesim\, o deck de 
- vampiros que começou tudo
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-11-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261115T023646Z
-DTSTART:20261111T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
-DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
- .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
- e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
- o do post: Edgar Markov é o mais forte dos vampiros ou só o mais famoso?
-  com O mais forte e Só o mais famoso.\n3. Publique.\n\nPauta completa: ht
- tps://fontedemana.com.br/pauta/2026-11-11/#stories-meio-dia
-URL:https://fontedemana.com.br/pauta/2026-11-11/#stories-meio-dia
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-11-stories-tarde@fontedemana.com.br
-DTSTAMP:20261115T023646Z
-DTSTART:20261111T180000Z
-DURATION:PT15M
-SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
-DESCRIPTION:Story com a imagem de Jace\, Multiverse Architect no Topdeck do
-  Dia e o sticker de link para a edição completa.\n\nArquivos:\n- Topdeck
-  do Dia: https://fontedemana.com.br/kit/ed37/carrossel-03.jpg\n\nPasso a p
- asso:\n1. Baixe a imagem e poste no Story.\n2. Adicione o sticker de Link 
- para fontedemana.com.br com o texto Edição completa\, embaixo do texto d
- o Topdeck.\n3. Publique.\n\nPauta completa: https://fontedemana.com.br/pau
- ta/2026-11-11/#stories-tarde
-URL:https://fontedemana.com.br/pauta/2026-11-11/#stories-tarde
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Topdeck do Dia com link
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-11-reels@fontedemana.com.br
-DTSTAMP:20261115T023646Z
-DTSTART:20261111T220000Z
-DURATION:PT15M
-SUMMARY:19:00 Reels: Vídeo original: Do zero à mesa #2: Corte Carmesim\, 
- o deck de…
-DESCRIPTION:O vídeo original de hoje no Instagram\, o mesmo arquivo do Tik
- Tok\, já narrado. É o formato que mais chega a quem não segue.\n\nArqui
- vos:\n- Vídeo original narrado: https://fontedemana.com.br/pauta/2026-11-
- 11/tiktok/tiktok-narrado.mp4\n\nLegenda:\nDeck de Commander de vampiros: o
-  Corte Carmesim\, com Edgar Markov\, em três passos. Qual comandante de v
- ampiros você levaria pra mesa?\n\nFoi pra completar esse deck que eu comp
- rei cartas na gringa. 81 das 100 já estão comigo\, e no deck de teste 15
-  cartas vieram do plástico bolha.\n\nSábado tem o Do zero à mesa\, com 
- o Rosa Sedenta depois da estreia no DC500.\n\nNotícia de Magic todo dia e
- m fontedemana.com.br\n\nFonte de Mana is unofficial Fan Content permitted 
- under the Fan Content Policy. Not approved/endorsed by Wizards. Portions o
- f the materials used are property of Wizards of the Coast. ©Wizards of th
- e Coast LLC.\n\nComentário fixado:\nEdgar Markov: o comandante de vampiro
- s mais forte ou só o mais famoso?\n\nDo zero à mesa: a série do lote do
-  plástico bolha. O #3 sai no sábado.\n\nPasso a passo:\n1. No Instagram\
- , toque em + e escolha Reel.\n2. Escolha o vídeo baixado daqui\, nunca o 
- salvo do TikTok (o Instagram derruba vídeo com marca d'água).\n3. Em Áu
- dio\, ponha uma música em alta da biblioteca do Instagram com volume baix
- o (uns 10%)\, sem cobrir a voz.\n4. Na capa\, use o primeiro quadro\, o do
-  gancho.\n5. Cole a Legenda e publique.\n6. Fixe o comentário e responda 
- quem comentar na primeira hora.\n\nPauta completa: https://fontedemana.com
- .br/pauta/2026-11-11/#reels
-URL:https://fontedemana.com.br/pauta/2026-11-11/#reels
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reels: Vídeo original: Do zero à mesa #2: Corte Carmesim\, o 
- deck de…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-11-comentarios@fontedemana.com.br
-DTSTAMP:20261115T023646Z
-DTSTART:20261112T003000Z
-DURATION:PT15M
-SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
-DESCRIPTION:Uns 10 minutos nas três redes: curtir e responder os comentár
- ios das últimas 48 horas\, começando pelo vídeo e pelo carrossel de hoj
- e. Conversa nos comentários leva a peça a mais gente\, e o Instagram rec
- omenda responder em até 2 dias.\n\nPasso a passo:\n1. Instagram: nas noti
- ficações\, curta os comentários e responda com uma frase quem perguntou
-  ou discordou.\n2. TikTok e Threads: o mesmo\, começando pelo post com ma
- is comentários.\n3. Pergunta boa ou dúvida que se repete\, nos comentár
- ios ou nas DMs? Mande na conversa do projeto: vira tema de um pilar.\n\nPa
- uta completa: https://fontedemana.com.br/pauta/2026-11-11/#comentarios
-URL:https://fontedemana.com.br/pauta/2026-11-11/#comentarios
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Comentários: Responder os comentários de hoje e de ontem
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fdm-2026-11-12-gravacao@fontedemana.com.br
-DTSTAMP:20261115T023646Z
+DTSTAMP:20261115T102117Z
 DTSTART:20261111T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -318,7 +61,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-12-tiktok@fontedemana.com.br
-DTSTAMP:20261115T023646Z
+DTSTAMP:20261115T102117Z
 DTSTART:20261112T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o Top 5 #6 de terrenos no TikTok
@@ -349,7 +92,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-12-threads-manha@fontedemana.com.br
-DTSTAMP:20261115T023646Z
+DTSTAMP:20261115T102117Z
 DTSTART:20261112T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Top 5 #6: os terrenos que entram em qualquer
@@ -375,7 +118,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-12-feed@fontedemana.com.br
-DTSTAMP:20261115T023646Z
+DTSTAMP:20261115T102117Z
 DTSTART:20261112T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Top 5 #6: os terrenos que entram em qualquer 
@@ -419,7 +162,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-12-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261115T023646Z
+DTSTAMP:20261115T102117Z
 DTSTART:20261112T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -438,7 +181,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-12-stories-tarde@fontedemana.com.br
-DTSTAMP:20261115T023646Z
+DTSTAMP:20261115T102117Z
 DTSTART:20261112T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -458,7 +201,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-12-reels@fontedemana.com.br
-DTSTAMP:20261115T023646Z
+DTSTAMP:20261115T102117Z
 DTSTART:20261112T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Top 5 #6: os terrenos que entram em q
@@ -497,7 +240,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-12-comentarios@fontedemana.com.br
-DTSTAMP:20261115T023646Z
+DTSTAMP:20261115T102117Z
 DTSTART:20261113T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -519,7 +262,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-gravacao@fontedemana.com.br
-DTSTAMP:20261115T023646Z
+DTSTAMP:20261115T102117Z
 DTSTART:20261113T010000Z
 DURATION:PT15M
 SUMMARY:22:00 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -571,7 +314,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-tiktok@fontedemana.com.br
-DTSTAMP:20261115T023646Z
+DTSTAMP:20261115T102117Z
 DTSTART:20261113T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Chama o Juiz #6\, o dilema de Star Trek
@@ -606,7 +349,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-sussurro-threads@fontedemana.com.br
-DTSTAMP:20261115T023646Z
+DTSTAMP:20261115T102117Z
 DTSTART:20261113T113000Z
 DURATION:PT15M
 SUMMARY:08:30 Threads: Sussurro: vazaram os 4 precons de Nauctis
@@ -632,7 +375,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-sussurro-feed@fontedemana.com.br
-DTSTAMP:20261115T023646Z
+DTSTAMP:20261115T102117Z
 DTSTART:20261113T130000Z
 DURATION:PT15M
 SUMMARY:10:00 Instagram feed: Sussurro no feed: os 4 precons de Nauctis
@@ -674,7 +417,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-sussurro-tiktok@fontedemana.com.br
-DTSTAMP:20261115T023646Z
+DTSTAMP:20261115T102117Z
 DTSTART:20261113T130500Z
 DURATION:PT15M
 SUMMARY:10:05 TikTok: Sussurro no TikTok: as mesmas imagens no modo foto
@@ -713,7 +456,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-sussurro-stories@fontedemana.com.br
-DTSTAMP:20261115T023646Z
+DTSTAMP:20261115T102117Z
 DTSTART:20261113T131500Z
 DURATION:PT15M
 SUMMARY:10:15 Instagram Stories: Sussurro nos Stories: enquete e contagem p
@@ -738,7 +481,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-threads-manha@fontedemana.com.br
-DTSTAMP:20261115T023646Z
+DTSTAMP:20261115T102117Z
 DTSTART:20261113T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Chama o Juiz #6: anularam a mágica. O dilem
@@ -764,7 +507,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-feed@fontedemana.com.br
-DTSTAMP:20261115T023646Z
+DTSTAMP:20261115T102117Z
 DTSTART:20261113T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Chama o Juiz #6: anularam a mágica. O dilema
@@ -809,7 +552,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261115T023646Z
+DTSTAMP:20261115T102117Z
 DTSTART:20261113T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -828,7 +571,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-stories-tarde@fontedemana.com.br
-DTSTAMP:20261115T023646Z
+DTSTAMP:20261115T102117Z
 DTSTART:20261113T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -848,7 +591,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-reels@fontedemana.com.br
-DTSTAMP:20261115T023646Z
+DTSTAMP:20261115T102117Z
 DTSTART:20261113T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Chama o Juiz #6: anularam a mágica. 
@@ -891,7 +634,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-comentarios@fontedemana.com.br
-DTSTAMP:20261115T023646Z
+DTSTAMP:20261115T102117Z
 DTSTART:20261114T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -913,7 +656,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-plantao-threads@fontedemana.com.br
-DTSTAMP:20261115T023646Z
+DTSTAMP:20261115T102117Z
 DTSTART:20261113T192000Z
 DURATION:PT15M
 SUMMARY:16:20 Threads: Plantão: Nauctis na MagicCon: Atlanta: os 4 precons
@@ -945,7 +688,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-plantao-feed@fontedemana.com.br
-DTSTAMP:20261115T023646Z
+DTSTAMP:20261115T102117Z
 DTSTART:20261113T192500Z
 DURATION:PT15M
 SUMMARY:16:25 Instagram feed: Plantão no feed: Nauctis na MagicCon: Atlant
@@ -984,7 +727,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-plantao-tiktok@fontedemana.com.br
-DTSTAMP:20261115T023646Z
+DTSTAMP:20261115T102117Z
 DTSTART:20261113T193000Z
 DURATION:PT15M
 SUMMARY:16:30 TikTok: Plantão no TikTok: as mesmas imagens no modo foto
@@ -1021,7 +764,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-plantao-stories@fontedemana.com.br
-DTSTAMP:20261115T023646Z
+DTSTAMP:20261115T102117Z
 DTSTART:20261113T195000Z
 DURATION:PT15M
 SUMMARY:16:50 Instagram Stories: Plantão nos Stories: o post com enquete
@@ -1041,7 +784,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-gravacao@fontedemana.com.br
-DTSTAMP:20261115T023646Z
+DTSTAMP:20261115T102117Z
 DTSTART:20261113T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -1092,7 +835,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-tiktok@fontedemana.com.br
-DTSTAMP:20261115T023646Z
+DTSTAMP:20261115T102117Z
 DTSTART:20261114T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Do zero à mesa #3: o Rosa Sedenta
@@ -1128,7 +871,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-threads-manha@fontedemana.com.br
-DTSTAMP:20261115T023646Z
+DTSTAMP:20261115T102117Z
 DTSTART:20261114T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Do zero à mesa #3: o Rosa Sedenta\, deck de
@@ -1154,7 +897,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-feed@fontedemana.com.br
-DTSTAMP:20261115T023646Z
+DTSTAMP:20261115T102117Z
 DTSTART:20261114T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Radar DC500: Do zero à mesa #3: o Rosa Seden
@@ -1197,7 +940,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261115T023646Z
+DTSTAMP:20261115T102117Z
 DTSTART:20261114T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -1216,7 +959,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-stories-tarde@fontedemana.com.br
-DTSTAMP:20261115T023646Z
+DTSTAMP:20261115T102117Z
 DTSTART:20261114T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1236,7 +979,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-reels@fontedemana.com.br
-DTSTAMP:20261115T023646Z
+DTSTAMP:20261115T102117Z
 DTSTART:20261115T000000Z
 DURATION:PT15M
 SUMMARY:21:00 Reels: Vídeo original: Do zero à mesa #3: o Rosa Sedenta\, 
@@ -1275,7 +1018,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-comentarios@fontedemana.com.br
-DTSTAMP:20261115T023646Z
+DTSTAMP:20261115T102117Z
 DTSTART:20261115T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1297,7 +1040,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-gravacao@fontedemana.com.br
-DTSTAMP:20261115T023646Z
+DTSTAMP:20261115T102117Z
 DTSTART:20261114T231500Z
 DURATION:PT15M
 SUMMARY:20:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -1338,37 +1081,198 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-tiktok@fontedemana.com.br
-DTSTAMP:20261115T023646Z
+DTSTAMP:20261115T102117Z
 DTSTART:20261115T143000Z
 DURATION:PT15M
-SUMMARY:11:30 TikTok: TikTok: Rota das Lojas #1\, Jogujogo e o booster de b
- rinde
+SUMMARY:11:30 TikTok: Rota das Lojas #1\, Jogujogo e o booster de brinde
 DESCRIPTION:Vídeo de uns 30 s: a chegada na Jogujogo\, a loja\, o booster 
  que você ganhou no mesão de sexta\, o Superior Spider-Man e o Maximum Ca
- rnage\, e a pergunta da próxima loja.\n\nArquivos:\n- Vídeo narrado (tik
- tok-narrado.mp4): https://fontedemana.com.br/pauta/2026-11-15/tiktok/tikto
- k-narrado.mp4\n\nLegenda:\nLoja de Magic nova em São Paulo: fui jogar Com
- mander na Jogujogo\, na Água Branca\, e ganhei um booster de brinde. Qual
-  loja a gente visita na próxima?\nAmbiente gostoso para jogar Commander\,
-  staff cordial\, loja limpa e organizada e várias mesas para 4.\nToda sex
- ta tem mesão de Commander\, e foi nele que ganhei de brinde um Play Boost
- er de Spider-Man e um dado de jokenpô. A rara foi o Superior Spider-Man\,
-  e veio um Maximum Carnage\, que está em 35\,2 mil decks no EDHREC.\n@jog
- ujogo\nfontedemana.com.br\n#jogujogo #commander #mtg\nFonte de Mana is uno
- fficial Fan Content permitted under the Fan Content Policy. Not approved/e
- ndorsed by Wizards. Portions of the materials used are property of Wizards
-  of the Coast. ©Wizards of the Coast LLC.\n\nComentário fixado:\nQual lo
- ja a gente visita na próxima? Série Rota das Lojas.\n\nPasso a passo:\n1
- . Poste com um som em alta da biblioteca do TikTok\, volume entre 15% e 20
- %\, por baixo da sua voz.\n2. Marque a @jogujogo na legenda e a loja como 
- local\, se o TikTok achar.\n3. Voz própria não precisa de rótulo de IA.
- \n4. Fixe o comentário logo depois de postar.\n\nPauta completa: https://
- fontedemana.com.br/pauta/2026-11-15/#tiktok
+ rnage\, e a pergunta da próxima loja.\n\nArquivos:\n- Vídeo do TikTok na
+ rrado: https://fontedemana.com.br/pauta/2026-11-15/tiktok/tiktok-narrado.m
+ p4\n\nLegenda:\nLoja de Magic nova em São Paulo: fui jogar Commander na J
+ ogujogo\, na Água Branca\, e ganhei um booster de brinde. Qual loja a gen
+ te visita na próxima?\nAmbiente gostoso para jogar Commander\, staff cord
+ ial\, loja limpa e organizada e várias mesas para 4.\nToda sexta tem mes
+ ão de Commander\, e foi nele que ganhei de brinde um Play Booster de Spid
+ er-Man e um dado de jokenpô. A rara foi o Superior Spider-Man\, e veio um
+  Maximum Carnage\, que está em 35\,2 mil decks no EDHREC.\n@jogujogo\nfon
+ tedemana.com.br\n\nFonte de Mana is unofficial Fan Content permitted under
+  the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the
+  materials used are property of Wizards of the Coast. ©Wizards of the Coa
+ st LLC.\n\nComentário fixado:\nQual loja a gente visita na próxima? Sér
+ ie Rota das Lojas.\n\nPasso a passo:\n1. Poste com um som em alta da bibli
+ oteca do TikTok\, volume entre 15% e 20%\, por baixo da sua voz.\n2. Marqu
+ e a @jogujogo na legenda e a loja como local\, se o TikTok achar.\n3. Voz 
+ própria não precisa de rótulo de IA.\n4. Fixe o comentário logo depois
+  de postar.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-15
+ /#tiktok
 URL:https://fontedemana.com.br/pauta/2026-11-15/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:TikTok: TikTok: Rota das Lojas #1\, Jogujogo e o booster de bri
- nde
+DESCRIPTION:TikTok: Rota das Lojas #1\, Jogujogo e o booster de brinde
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-15-threads-manha@fontedemana.com.br
+DTSTAMP:20261115T102117Z
+DTSTART:20261115T133000Z
+DURATION:PT15M
+SUMMARY:10:30 Threads: Debate: Rota das Lojas #1: Jogujogo\, na Água Branc
+ a\, e o booster que…
+DESCRIPTION:Post de debate do conteúdo original de hoje (Rota das Lojas) p
+ ara puxar conversa.\n\nPost:\nFui jogar o mesão de Commander de sexta num
+ a loja nova\, a Jogujogo\, na Água Branca\, e saí com um booster de Spid
+ er-Man e um dado de jokenpô de brinde.\nPergunta sincera: o que faz você
+  voltar numa loja? Brinde\, mesa boa\, evento de Commander ou o pessoal do
+  balcão?\n\nPasso a passo:\n1. Abra o Threads e cole o Post.\n2. Dica: En
+ quete: Mesa e espaço\, Evento de Commander\, Brinde e preço\, O staff\n3
+ . Toque em Adicionar tópico e escolha MTG.\n4. Publique e responda quem c
+ omentar na primeira hora.\n\nPauta completa: https://fontedemana.com.br/pa
+ uta/2026-11-15/#threads-manha
+URL:https://fontedemana.com.br/pauta/2026-11-15/#threads-manha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Debate: Rota das Lojas #1: Jogujogo\, na Água Branca\
+ , e o booster que…
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-15-feed@fontedemana.com.br
+DTSTAMP:20261115T102117Z
+DTSTART:20261115T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram feed: Rota das Lojas #1: Jogujogo\, na Água Branca
+ \, e o booster que veio de…
+DESCRIPTION:Carrossel original de 6 imagens (Rota das Lojas): Rota das Loja
+ s #1: Jogujogo\, na Água Branca\, e o booster que veio de brinde. Feito p
+ ara salvar e compartilhar.\n\nArquivos:\n- Imagem 1 de 6: https://fontedem
+ ana.com.br/pauta/2026-11-15/original/carrossel-01.jpg\n- Imagem 2 de 6: ht
+ tps://fontedemana.com.br/pauta/2026-11-15/original/carrossel-02.jpg\n- Ima
+ gem 3 de 6: https://fontedemana.com.br/pauta/2026-11-15/original/carrossel
+ -03.jpg\n- Imagem 4 de 6: https://fontedemana.com.br/pauta/2026-11-15/orig
+ inal/carrossel-04.jpg\n- Imagem 5 de 6: https://fontedemana.com.br/pauta/2
+ 026-11-15/original/carrossel-05.jpg\n- Imagem 6 de 6: https://fontedemana.
+ com.br/pauta/2026-11-15/original/carrossel-06.jpg\n\nLegenda:\nLoja de Mag
+ ic em São Paulo: fui jogar Commander na Jogujogo\, na Água Branca. Qual 
+ loja a gente visita na próxima?\nAmbiente gostoso para jogar Commander\, 
+ staff cordial\, loja limpa e organizada e várias mesas para 4.\nToda sext
+ a tem mesão de Commander\, e foi nele que ganhei de brinde um Play Booste
+ r de Spider-Man e um dado de jokenpô. A rara foi o Superior Spider-Man\, 
+ que copia criatura de qualquer cemitério\, e veio um Maximum Carnage\, qu
+ e está em 35\,2 mil decks no EDHREC.\nFontes: Scryfall e EDHREC.\n@jogujo
+ go\nfontedemana.com.br\n\nFonte de Mana is unofficial Fan Content permitte
+ d under the Fan Content Policy. Not approved/endorsed by Wizards. Portions
+  of the materials used are property of Wizards of the Coast. ©Wizards of 
+ the Coast LLC.\n\nPasso a passo:\n1. No Instagram\, toque em + e escolha P
+ ost.\n2. Selecione as 6 imagens na ordem\, da 1 à 6.\n3. Toque em Adicion
+ ar música e escolha uma em alta que combine com o tema.\n4. Cole a Legend
+ a e publique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-
+ 15/#feed
+URL:https://fontedemana.com.br/pauta/2026-11-15/#feed
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram feed: Rota das Lojas #1: Jogujogo\, na Água Branca\,
+  e o booster que veio de…
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-15-stories-meio-dia@fontedemana.com.br
+DTSTAMP:20261115T102117Z
+DTSTART:20261115T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
+DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
+ .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
+ e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
+ o do post: O que faz você voltar numa loja de Magic? com Mesa e espaço\,
+  Evento de Commander\, Brinde e preço e O staff.\n3. Publique.\n\nPauta c
+ ompleta: https://fontedemana.com.br/pauta/2026-11-15/#stories-meio-dia
+URL:https://fontedemana.com.br/pauta/2026-11-15/#stories-meio-dia
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-15-stories-tarde@fontedemana.com.br
+DTSTAMP:20261115T102117Z
+DTSTART:20261115T180000Z
+DURATION:PT15M
+SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
+DESCRIPTION:Story com a imagem de Ramunap Excavator no Topdeck do Dia e o s
+ ticker de link para a edição completa.\n\nArquivos:\n- Topdeck do Dia: h
+ ttps://fontedemana.com.br/kit/ed41/carrossel-04.jpg\n\nPasso a passo:\n1. 
+ Baixe a imagem e poste no Story.\n2. Adicione o sticker de Link para fonte
+ demana.com.br com o texto Edição completa\, embaixo do texto do Topdeck.
+ \n3. Publique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11
+ -15/#stories-tarde
+URL:https://fontedemana.com.br/pauta/2026-11-15/#stories-tarde
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Topdeck do Dia com link
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-15-reels@fontedemana.com.br
+DTSTAMP:20261115T102117Z
+DTSTART:20261115T220000Z
+DURATION:PT15M
+SUMMARY:19:00 Reels: Vídeo original: Rota das Lojas #1: Jogujogo\, na Águ
+ a Branca\, e o…
+DESCRIPTION:O vídeo original de hoje no Instagram\, o mesmo arquivo do Tik
+ Tok\, já narrado. É o formato que mais chega a quem não segue.\n\nArqui
+ vos:\n- Vídeo original narrado: https://fontedemana.com.br/pauta/2026-11-
+ 15/tiktok/tiktok-narrado.mp4\n\nLegenda:\nLoja de Magic nova em São Paulo
+ : fui jogar Commander na Jogujogo\, na Água Branca\, e ganhei um booster 
+ de brinde. Qual loja a gente visita na próxima?\nAmbiente gostoso para jo
+ gar Commander\, staff cordial\, loja limpa e organizada e várias mesas pa
+ ra 4.\nToda sexta tem mesão de Commander\, e foi nele que ganhei de brind
+ e um Play Booster de Spider-Man e um dado de jokenpô. A rara foi o Superi
+ or Spider-Man\, e veio um Maximum Carnage\, que está em 35\,2 mil decks n
+ o EDHREC.\n@jogujogo\nfontedemana.com.br\n\nFonte de Mana is unofficial Fa
+ n Content permitted under the Fan Content Policy. Not approved/endorsed by
+  Wizards. Portions of the materials used are property of Wizards of the Co
+ ast. ©Wizards of the Coast LLC.\n\nComentário fixado:\nQual loja a gente
+  visita na próxima? Série Rota das Lojas.\n\nPasso a passo:\n1. No Insta
+ gram\, toque em + e escolha Reel.\n2. Escolha o vídeo baixado daqui\, nun
+ ca o salvo do TikTok (o Instagram derruba vídeo com marca d'água).\n3. E
+ m Áudio\, ponha uma música em alta da biblioteca do Instagram com volume
+  baixo (uns 10%)\, sem cobrir a voz.\n4. Na capa\, use o primeiro quadro\,
+  o do gancho.\n5. Cole a Legenda e publique.\n6. Fixe o comentário e resp
+ onda quem comentar na primeira hora.\n\nPauta completa: https://fontedeman
+ a.com.br/pauta/2026-11-15/#reels
+URL:https://fontedemana.com.br/pauta/2026-11-15/#reels
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reels: Vídeo original: Rota das Lojas #1: Jogujogo\, na Água 
+ Branca\, e o…
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-15-comentarios@fontedemana.com.br
+DTSTAMP:20261115T102117Z
+DTSTART:20261116T003000Z
+DURATION:PT15M
+SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
+DESCRIPTION:Uns 10 minutos nas três redes: curtir e responder os comentár
+ ios das últimas 48 horas\, começando pelo vídeo e pelo carrossel de hoj
+ e. Conversa nos comentários leva a peça a mais gente\, e o Instagram rec
+ omenda responder em até 2 dias.\n\nPasso a passo:\n1. Instagram: nas noti
+ ficações\, curta os comentários e responda com uma frase quem perguntou
+  ou discordou.\n2. TikTok e Threads: o mesmo\, começando pelo post com ma
+ is comentários.\n3. Pergunta boa ou dúvida que se repete\, nos comentár
+ ios ou nas DMs? Mande na conversa do projeto: vira tema de um pilar.\n\nPa
+ uta completa: https://fontedemana.com.br/pauta/2026-11-15/#comentarios
+URL:https://fontedemana.com.br/pauta/2026-11-15/#comentarios
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Comentários: Responder os comentários de hoje e de ontem
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
