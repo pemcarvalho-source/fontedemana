@@ -252,7 +252,8 @@ h1{font-family:CZ;font-weight:700;font-size:80px;line-height:1.05;margin-top:22p
 .pz{display:flex;align-items:baseline;flex-wrap:wrap;gap:6px 22px;margin-top:14px}
 .pz .v{font-family:CZ;font-weight:700;font-size:78px;line-height:1.05;color:var(--goldtxt);text-shadow:0 3px 14px rgba(0,0,0,.7);white-space:nowrap}
 .pz .r{font-family:CP;font-weight:600;font-size:46px;color:#F3EEE2;white-space:nowrap}
-.cg .sub{font-size:40px;line-height:1.2;margin-top:12px}
+.cg .sub{font-family:CP;font-weight:700;font-size:56px;line-height:1.1;margin-top:10px;color:#F3EEE2;text-shadow:0 3px 14px rgba(0,0,0,.7)}
+.cg .pz{gap:4px 16px;margin-top:16px}.cg .pz .v{font-size:44px}.cg .pz .r{font-size:34px}
 .cg .srcl{margin-top:18px}.cg .fxn{margin-top:12px}
 .cd{position:absolute;top:400px;right:120px;display:flex;flex-direction:column;align-items:center;gap:18px}
 .cd .n{width:250px;height:250px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:CD;font-weight:900;font-size:170px;line-height:1;color:var(--goldtxt);background:rgba(15,15,19,.82);box-shadow:0 0 0 8px var(--goldtxt),0 30px 60px -10px rgba(0,0,0,.9)}
@@ -286,11 +287,12 @@ h1{font-family:CZ;font-weight:700;font-size:80px;line-height:1.05;margin-top:22p
     inner = `<div class="art"></div>${top}<div class="crow">${cartas}</div><div class="body cb" style="top:${430 + Math.round(w * 1.395) + (c.numerar ? 70 : 45)}px"><div class="kicker"${h(1)}>${pip(c.cor || 'R')} ${esc(c.kicker)}</div>
       <h1${h(1)}>${rich(c.titulo)}</h1><div class="tbox fr-${c.cor || 'R'}"${h(1)}>${passos}</div>${c.rodape ? '<div class="foot"' + h(m + 1) + '>' + rich(c.rodape) + '</div>' : ''}${fonte}${fx}</div>`;
   } else if (c.tipo === 'carta') {
-    /* uma carta grande (540 px de largura, uns 750 de altura) e o preço logo abaixo; entram a carta, depois o preço, depois o sub */
+    /* uma carta grande (540 px de largura, uns 750 de altura) e, embaixo, o efeito em destaque e o preço menor (desde 16/11/2026,
+       pedido do Paulo: para quem joga, o que a carta faz importa mais que o preço); entram a carta, depois o efeito (sub), depois o preço */
     ah = 1240;
-    const kv = c.valor ? 2 : 1;
+    const ks = c.sub ? 2 : 1;
     inner = `<div class="art"></div>${top}<img class="ccg"${h(1)} src="${furl(path.join(ROOT, c.carta))}"><div class="body cg" style="top:1185px"><div class="kicker"${h(1)}>${pip(c.cor || 'A')} ${esc(c.kicker)}</div>
-      ${c.titulo ? '<h1' + h(1) + '>' + rich(c.titulo) + '</h1>' : ''}${c.valor ? '<div class="pz"' + h(kv) + '><span class="v">' + esc(c.valor) + '</span>' + (c.real ? '<span class="r">' + esc(c.real) + '</span>' : '') + '</div>' : ''}${c.sub ? '<div class="sub"' + h(kv + 1) + '>' + rich(c.sub) + '</div>' : ''}${fonte}${fx}</div>`;
+      ${c.titulo ? '<h1' + h(1) + '>' + rich(c.titulo) + '</h1>' : ''}${c.sub ? '<div class="sub"' + h(2) + '>' + rich(c.sub) + '</div>' : ''}${c.valor ? '<div class="pz"' + h(ks + 1) + '><span class="v">' + esc(c.valor) + '</span>' + (c.real ? '<span class="r">' + esc(c.real) + '</span>' : '') + '</div>' : ''}${fonte}${fx}</div>`;
   } else if (c.tipo === 'cta') {
     inner = `<div class="art"></div>${top}${card ? '<img class="cardimg" src="' + card + '">' : ''}
       <div class="body" style="top:1050px"><div class="kicker"${h(1)}>${pip(c.cor || 'M')} ${esc(c.kicker)}</div>

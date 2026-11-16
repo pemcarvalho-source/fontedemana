@@ -75,10 +75,10 @@ Cena de clipe (desde 6/11/2026: um trecho de vídeo que o Paulo já gravou, como
 
 O trecho entra no fundo, em 1080x1920, com o kicker e o título numa caixa no terço de cima (na cena rosto, a caixa fica embaixo), e dura o tempo da fala; se a fala for mais longa que o trecho, ele recomeça. A voz é a da narração: no aviso de gravação, a linha da cena é "Só a voz". Kicker e título curtos, porque a caixa não pode descer até o meio da tela. Não conta no limite de cenas rosto.
 
-Cena de carta (uma carta grande na tela, com o preço logo abaixo):
+Cena de carta (uma carta grande na tela; embaixo, o efeito em destaque e o preço menor, desde 16/11/2026, pedido do Paulo: para quem joga, o que a carta faz importa mais que o preço):
 
         {"tipo": "carta", "cor": "A", "chip": (18, opcional), "kicker": (40), "carta": "pauta/AMANHA/tiktok/carta-1.jpg",
-         "titulo": (40, opcional), "valor": "US$ 7,73" (12, opcional), "real": "(R$ 38,86)" (16), "sub": (140, opcional; cabe uma linha, uns 45 caracteres),
+         "titulo": (40, opcional), "valor": "US$ 7,73" (12, opcional), "real": "(R$ 38,86)" (16), "sub": o que a carta faz na mesa, em letra grande (140, mas cabem só 2 linhas, uns 55 caracteres com palavras curtas),
          "fonte": (60, opcional), "narracao": (260; no molde novo, 110)}
 
 Quando o vídeo mostra cartas com preço ou com o que fazem (Top 5, Deck, as peças de uma estratégia), prefira uma cena `carta` por carta à cena `lista` ou ao `combo` com três cartas pequenas: a carta fica legível no celular e a tela muda a cada poucos segundos (pedido do Paulo em 23 out 2026). A cena `lista` continua para preços sem carta (lacrados, produtos).

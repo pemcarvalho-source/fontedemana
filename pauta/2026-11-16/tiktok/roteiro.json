@@ -30,7 +30,7 @@
    "carta": "pauta/2026-11-16/tiktok/carta-1.jpg",
    "valor": "US$ 0,90",
    "real": "(R$ 5,09)",
-   "sub": "13 de dano em cada criatura",
+   "sub": "13 de dano em cada criatura. Mesa cheia, custa quase nada",
    "fonte": "EDHREC, nov 2026; Scryfall",
    "narracao": "Blasphemous Act. Com a mesa cheia, sai barata e dá 13 de dano em tudo.",
    "segundos": 6.2
@@ -43,7 +43,7 @@
    "carta": "pauta/2026-11-16/tiktok/carta-2.jpg",
    "valor": "US$ 0,68",
    "real": "(R$ 3,84)",
-   "sub": "Você escolhe o que morre",
+   "sub": "Você escolhe 2 efeitos. Dá para matar só as pequenas",
    "fonte": "EDHREC, nov 2026; Scryfall",
    "narracao": "Austere Command. Mata as pequenas e salva as suas grandes.",
    "segundos": 4.3
@@ -56,7 +56,7 @@
    "carta": "pauta/2026-11-16/tiktok/carta-3.jpg",
    "valor": "US$ 5,23",
    "real": "(R$ 29,56)",
-   "sub": "Exila, não destrói",
+   "sub": "Exila os tipos que você escolher, até os cemitérios",
    "fonte": "EDHREC, nov 2026; Scryfall",
    "narracao": "Farewell. Exila, então nem indestrutível escapa.",
    "segundos": 2.8
@@ -69,7 +69,7 @@
    "carta": "pauta/2026-11-16/tiktok/carta-4.jpg",
    "valor": "US$ 2,01",
    "real": "(R$ 11,36)",
-   "sub": "Remoção ou wipe, você decide",
+   "sub": "Com 2 manas, mata uma criatura. Com 4, mata todas",
    "fonte": "EDHREC, nov 2026; Scryfall",
    "narracao": "Damn. Dois manas, mata uma. Quatro, mata todas.",
    "segundos": 3.6
@@ -82,7 +82,7 @@
    "carta": "pauta/2026-11-16/tiktok/carta-5.jpg",
    "valor": "US$ 2,70",
    "real": "(R$ 15,26)",
-   "sub": "Ninguém consegue anular",
+   "sub": "Destrói todas as criaturas e não pode ser anulada",
    "fonte": "EDHREC, nov 2026; Scryfall",
    "narracao": "Supreme Verdict. Destrói tudo e ninguém anula.",
    "segundos": 3.2
