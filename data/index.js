@@ -1,6 +1,7 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "Balefire Dragon",
   "Ramunap Excavator",
   "Urza, Chief Artificer",
   "Krark's Thumb",
@@ -40,6 +41,13 @@ window.MANA_POOL_INDEX = {
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 42,
+   "date": "2026-11-16",
+   "dateLabel": "Segunda-feira, 16 de novembro de 2026",
+   "head": "Secret Lair do Extra Life abre venda hoje, com Balefire Dragon em estilo PS1",
+   "biome": "A"
+  },
   {
    "n": 41,
    "date": "2026-11-15",
@@ -249,13 +257,6 @@ window.MANA_POOL_INDEX = {
    "dateLabel": "Sábado, 17 de outubro de 2026",
    "head": "Precons de Commander de Star Trek atrasam nos EUA e na Europa",
    "biome": "G"
-  },
-  {
-   "n": 11,
-   "date": "2026-10-16",
-   "dateLabel": "Sexta, 16 de outubro de 2026",
-   "head": "Tam faz Vraska, Betrayal's Sting quase quadruplicar de preço",
-   "biome": "A"
   }
  ]
 };
