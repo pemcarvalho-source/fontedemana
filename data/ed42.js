@@ -1,7 +1,7 @@
 MANA_POOL_ED({
  "n": 42,
  "date": "2026-11-16",
- "dateLabel": "Segunda-feira, 16 de novembro de 2026",
+ "dateLabel": "Segunda, 16 de novembro de 2026",
  "coverage": "Notícias de 16 de novembro",
  "lead": {
   "title": "Resumo do Dia",
