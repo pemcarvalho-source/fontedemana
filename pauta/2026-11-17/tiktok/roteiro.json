@@ -1,0 +1,76 @@
+{
+ "data": "2026-11-17",
+ "pilar": "dicionario",
+ "tema": "Dicionário do Commander #9: o que é tutor",
+ "item": "Tutor",
+ "arte": "pauta/2026-11-17/tiktok/arte.jpg",
+ "carta": "pauta/2026-11-17/tiktok/carta.jpg",
+ "credito": "Arte: Vampiric Tutor, Raymond Swanland",
+ "fx": "Reais pela cotação de 13 nov (Banco Central, PTAX)",
+ "legenda": "Tutor no Commander: você sabe o que é quando alguém na mesa diz \"vou dar tutor\"?\n\nTutor é a carta que busca no seu deck a carta exata que você quer. O Vampiric Tutor custa 1 mana e põe a carta no topo do deck. O Diabolic Tutor custa 4 e põe direto na mão. Preços do Scryfall, reais pela cotação de 13 nov (Banco Central, PTAX).\n\nQue termo da mesa te confundiu no começo?\n\nMais no fontedemana.com.br\n\n#tutor #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
+ "comentario": "No seu deck entra qual: o Vampiric (1 mana, vai pro topo) ou o Diabolic (4 manas, vai pra mão)? Toda terça tem um termo novo do Dicionário do Commander.",
+ "cenas": [
+  {
+   "tipo": "rosto",
+   "cor": "G",
+   "chip": "Dicionário #9",
+   "kicker": "Dicionário do Commander",
+   "titulo": "\"Segura que vou dar tutor\"",
+   "sub": "Você sabe o que isso quer dizer?",
+   "narracao": "Segura que vou dar tutor. Sabe o que isso quer dizer?",
+   "gravar": "Olhando para a câmera, segura uma carta virada para baixo perto do rosto, como quem esconde a jogada, e diz a frase.",
+   "segundos": 4.7
+  },
+  {
+   "tipo": "texto",
+   "cor": "U",
+   "kicker": "Tutor é",
+   "titulo": "A carta que busca outra no seu deck",
+   "sub": "A peça exata que você quer, sem depender da compra",
+   "narracao": "Tutor é a carta que busca no deck a carta que você quer.",
+   "segundos": 5.4
+  },
+  {
+   "tipo": "carta",
+   "cor": "A",
+   "kicker": "O mais famoso",
+   "carta": "pauta/2026-11-17/tiktok/carta-1.jpg",
+   "titulo": "Vampiric Tutor",
+   "valor": "US$ 50,88",
+   "real": "(R$ 287,56)",
+   "sub": "1 mana: qualquer carta, no topo do deck",
+   "narracao": "O Vampiric custa uma mana, busca qualquer carta e põe no topo, não na mão.",
+   "segundos": 6.2
+  },
+  {
+   "tipo": "rosto",
+   "cor": "R",
+   "kicker": "O erro mais comum",
+   "titulo": "Topo do deck não é a mão",
+   "narracao": "Erro clássico: achar que já tá na mão. Só compra no próximo turno.",
+   "gravar": "Põe uma carta em cima do deck na mesa, bate o dedo nela e balança a cabeça, como quem diz \"ainda não\".",
+   "segundos": 5.4
+  },
+  {
+   "tipo": "carta",
+   "cor": "A",
+   "kicker": "O barato",
+   "carta": "pauta/2026-11-17/tiktok/carta-2.jpg",
+   "titulo": "Diabolic Tutor",
+   "valor": "US$ 1,64",
+   "real": "(R$ 9,27)",
+   "sub": "4 manas: qualquer carta, direto na mão",
+   "narracao": "O Diabolic custa quatro, mas põe direto na mão.",
+   "segundos": 3.9
+  },
+  {
+   "tipo": "texto",
+   "cor": "M",
+   "kicker": "E no seu deck?",
+   "titulo": "Rápido no topo ou barato na mão?",
+   "sub": "Vampiric, 1 mana. Diabolic, 4 manas.",
+   "narracao": "E no seu deck: o rápido ou o barato?",
+   "segundos": 3.9
+  }
+ ]
+}

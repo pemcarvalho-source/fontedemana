@@ -1,0 +1,56 @@
+{
+  "data": "2026-11-17",
+  "pilar": "dicionario",
+  "item": "Tutor",
+  "tema": "Dicionário do Commander #9: o que é tutor",
+  "cartas": ["Vampiric Tutor", "Worldly Tutor", "Diabolic Tutor"],
+  "fx": "Valores em reais pela cotação de 13 nov (Banco Central, PTAX).",
+  "carrossel": {
+    "capa": {"cor": "B", "chip": "Dicionário #9", "kicker": "Dicionário do Commander", "titulo": "O que é <b>tutor</b>?",
+             "sub": "\"Segura que vou dar tutor.\" O que isso quer dizer, três tutores de exemplo e o erro que quase todo mundo comete.",
+             "arte": "pauta/2026-11-17/tiktok/arte.jpg", "credito": "Arte: Vampiric Tutor, Raymond Swanland"},
+    "cartoes": [
+      {"cor": "U", "titulo": "Tutor, em uma frase",
+       "itens": [
+         {"cor": "U", "html": "Carta que <b>busca no seu deck</b> a carta exata que você quer."},
+         {"cor": "U", "html": "Em vez de torcer para comprar a peça certa, você vai lá e pega."},
+         {"cor": "U", "html": "No Commander o deck tem 100 cartas e só <b>uma cópia</b> de cada. Por isso tutor vale tanto."}
+       ],
+       "nota": {"rotulo": "Na mesa", "texto": "\"vou dar tutor\" quer dizer que a pessoa vai buscar a peça que falta no plano dela."},
+       "fonte": "Fonte: Regras Abrangentes, 903.5"},
+      {"cor": "B", "titulo": "Vampiric Tutor", "carta": "pauta/2026-11-17/original/carta-1.jpg",
+       "itens": [
+         {"cor": "B", "html": "<b>1 mana</b>, a qualquer hora: busca qualquer carta e põe <b>no topo</b> do deck. Custa 2 de vida."},
+         {"cor": "B", "html": "Está em <b>744 mil decks</b> no EDHREC. US$ 50,88 (R$ 287,56)."}
+       ],
+       "fx": "Reais pela cotação de 13 nov (Banco Central, PTAX).",
+       "fonte": "Fonte: Scryfall e EDHREC, nov 2026"},
+      {"cor": "G", "titulo": "Worldly Tutor", "carta": "pauta/2026-11-17/original/carta-2.jpg",
+       "itens": [
+         {"cor": "G", "html": "<b>1 mana</b>, a qualquer hora: busca só <b>criatura</b>, mostra para a mesa e põe no topo."},
+         {"cor": "G", "html": "Tem tutor que só busca um tipo de carta. US$ 26,74 (R$ 151,13)."}
+       ],
+       "fx": "Reais pela cotação de 13 nov (Banco Central, PTAX).",
+       "fonte": "Fonte: Scryfall, nov 2026"},
+      {"cor": "B", "titulo": "Diabolic Tutor", "carta": "pauta/2026-11-17/original/carta-3.jpg",
+       "itens": [
+         {"cor": "B", "html": "<b>4 manas</b>, no seu turno: busca qualquer carta e põe <b>direto na mão</b>."},
+         {"cor": "B", "html": "Mais lento, mas sai por US$ 1,64 (R$ 9,27). O tutor do deck de orçamento."}
+       ],
+       "fx": "Reais pela cotação de 13 nov (Banco Central, PTAX).",
+       "fonte": "Fonte: Scryfall, nov 2026"},
+      {"cor": "R", "titulo": "O erro mais comum",
+       "itens": [
+         {"cor": "R", "html": "<b>Topo do deck não é mão.</b> Com Vampiric e Worldly, a carta só chega na próxima compra."},
+         {"cor": "R", "html": "Buscar <b>terreno</b> no deck a mesa chama de <b>ramp</b>, não de tutor."},
+         {"cor": "R", "html": "Todo tutor <b>embaralha</b> o deck. A carta que estava no topo some lá para o meio."}
+       ],
+       "nota": {"rotulo": "Dica", "texto": "só mostre o que buscou se a carta mandar. O Worldly manda, o Vampiric não."},
+       "fonte": "Fonte: Scryfall (texto das cartas)"}
+    ],
+    "cta": {"pergunta": "No seu deck: <b>Vampiric</b> ou <b>Diabolic</b>?", "quando": "Toda terça, um termo novo do Dicionário", "salvar": "Salve para explicar tutor para quem está começando"}
+  },
+  "legenda": "Tutor no Commander: o que é essa carta de Magic que todo mundo quer no deck? Você sabe o que quer dizer \"vou dar tutor\"?\n\nTutor é a carta que busca no seu deck a carta exata que você quer. No carrossel: o Vampiric Tutor (1 mana, põe no topo), o Worldly Tutor (1 mana, só criatura) e o Diabolic Tutor (4 manas, põe na mão), mais o erro que quase todo mundo comete com eles.\n\nFontes: Scryfall, EDHREC e Regras Abrangentes. Valores em reais pela cotação de 13 nov (Banco Central, PTAX).\n\nMais em fontedemana.com.br\n\nQue termo da mesa te confundiu no começo?\n\n#tutor #commander #mtg",
+  "threads": {"texto": "Tutor no Commander divide a mesa.\n\nTem quem diga que buscar a mesma peça todo jogo deixa a partida repetitiva. Tem quem diga que, num deck de 100 cartas com uma cópia de cada, sem tutor o deck nunca faz o que promete.\n\nNa sua mesa, tutor é bem-vindo ou é melhor deixar a sorte decidir?", "obs": "Enquete: Tutor liberado / Só os baratos / Prefiro sem tutor"},
+  "enquete": {"pergunta": "Tutor no seu deck de Commander?", "opcoes": ["Liberado", "Só os baratos", "Prefiro sem"]}
+}
