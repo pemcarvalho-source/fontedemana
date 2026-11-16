@@ -1,0 +1,70 @@
+{
+  "n": 42,
+  "data": "16 nov",
+  "carrossel": {
+    "capa": {"cor": "A", "titulo": "Secret Lair do Extra Life <b>abre venda hoje</b>",
+             "sub": "O <b>Rise of the Polygons</b> traz Balefire Dragon e Sword of Truth and Justice em estilo PS1, e metade vai para a caridade.",
+             "credito": "Arte: Big Score, Brendan Sullivan"},
+    "cartoes": [
+      {"cor": "A", "titulo": "Rise of the Polygons",
+       "itens": [
+         {"cor": "G", "html": "Cinco cartas: Balefire Dragon, Big Score, Young Pyromancer, Sword of Truth and Justice e uma ficha."},
+         {"cor": "A", "html": "Sem foil, <b>US$ 39,99 (R$ 226,02)</b>. Foil, <b>US$ 49,99 (R$ 282,53)</b>."},
+         {"cor": "W", "html": "Venda no site do Secret Lair de <b>16 a 30 de novembro</b>."},
+         {"cor": "A", "html": "Metade do valor, menos as taxas, vai para a Children's Miracle Network."}
+       ],
+       "nota": {"rotulo": "No seu bolso", "texto": "se você quer só o dragão ou a espada, compare antes com o preço da carta avulsa."},
+       "fonte": "Fonte: Wizards. Reais: PTAX de 13 nov"}
+    ],
+    "topdeck": {"titulo": "Balefire Dragon",
+                "habilidades": [
+                  {"rotulo": "Ataque que limpa a mesa", "texto": "bateu 6 no jogador, cada criatura dele também leva 6"},
+                  {"rotulo": "Voa por cima", "texto": "só criaturas com voar ou alcance conseguem bloquear"},
+                  {"rotulo": "Você escolhe o alvo", "texto": "ataque quem mais ameaça a mesa e apague o campo dele"}
+                ],
+                "extra": "A estrela do Secret Lair do Extra Life, em <b>127 mil decks</b> no EDHREC. Está a US$ 17,61 (R$ 99,53) no Scryfall. Reais: PTAX de 13 nov.",
+                "credito": "Ilustração de Eric Deschamps"},
+    "ban": {"numero": "14", "unidade": "DIAS", "texto": "para a próxima janela de banimentos, em 30 de novembro. A de outubro não mexeu no Commander."},
+    "turnos": [
+      {"cor": "A", "data": "16 nov", "texto": "Rise of the Polygons no site"},
+      {"cor": "W", "data": "20 nov", "texto": "Festa de Commander de Star Trek"},
+      {"cor": "B", "data": "30 nov", "texto": "Janela de banimentos"},
+      {"cor": "W", "data": "9 jan", "texto": "Primeiro Spotlight com CommandFest"},
+      {"cor": "G", "data": "5 fev", "texto": "Nauctis chega às lojas"}
+    ],
+    "sussurro": "Imagens vazadas mostram um possível Secret Lair de Duna com oito comandantes. A Wizards não confirmou nada."
+  },
+  "video": {
+    "cena1": {"titulo": "Secret Lair do Extra Life abre venda hoje", "pilulas": ["Estilo PS1", "Balefire Dragon", "Até 30 nov"]},
+    "cena2": {"rotulo": "No bolso", "cor": "A", "titulo": "Quanto custa o Rise of the Polygons",
+              "linhas": [
+                {"nome": "Sem foil", "numero": 39, "prefixo": "US$ ", "sufixo": "", "sub": "US$ 39,99 (R$ 226,02)"},
+                {"nome": "Foil", "numero": 49, "prefixo": "US$ ", "sufixo": "", "sub": "US$ 49,99 (R$ 282,53)"}
+              ],
+              "fonte": "Fonte: Wizards. Reais: PTAX de 13 nov"},
+    "cena3": {"linhas": ["<b>Balefire Dragon</b> bate no jogador e no campo dele.", "Cada criatura leva o mesmo dano que o jogador.", "Está em 127 mil decks no EDHREC."]},
+    "cena4": {"texto": "Faltam 14 dias para a janela de banimentos. A venda do Extra Life vai até 30 de novembro.", "sussurro": "Um Secret Lair de Duna vazou? Ainda é rumor."}
+  },
+  "textos": {
+    "legendaCarrossel": "Secret Lair de Magic para Commander com causa: o Rise of the Polygons, do Extra Life, abre venda hoje.\n\nSão cinco cartas em estilo de videogame dos anos 90: Balefire Dragon, Big Score, Young Pyromancer, Sword of Truth and Justice e uma ficha de Elemental. Sem foil custa US$ 39,99 (R$ 226,02) e foil, US$ 49,99 (R$ 282,53). A venda vai até 30 de novembro, e metade do valor, menos as taxas, vai para a Children's Miracle Network.\n\nNo Topdeck, Balefire Dragon, o dragão que apaga o campo de quem ele acerta.\n\nNos Sussurros, imagens vazadas de um possível Secret Lair de Duna. Nada confirmado.\n\nVocê compraria o drop inteiro ou só pegaria o dragão avulso?\n\nEdição completa em fontedemana.com.br\nArte da capa: Big Score, Brendan Sullivan. Balefire Dragon: Eric Deschamps.\nValores em reais pela cotação de 13 nov (Banco Central, PTAX).\n#secretlair #commander #mtg",
+    "legendaVideo": "Commander no bolso: o Secret Lair do Extra Life, com Balefire Dragon em estilo PS1, abre venda hoje e vai até 30 de novembro.\nQual carta desse drop entraria no seu deck?\nTudo em fontedemana.com.br\nValores em reais pela cotação de 13 nov (Banco Central, PTAX).\n#secretlair #commander #mtg",
+    "threadsPost": "Abriu hoje a venda do Rise of the Polygons, o Secret Lair do Extra Life, com Balefire Dragon, Sword of Truth and Justice, Big Score e Young Pyromancer em estilo PS1. Sem foil custa US$ 39,99 (R$ 226,02), foil US$ 49,99 (R$ 282,53), até 30 de novembro. Metade vai para a caridade. Você compra o drop ou só a carta avulsa? fontedemana.com.br\nValores em reais pela cotação de 13 nov (Banco Central, PTAX).",
+    "threadsFio": [
+      "Abriu hoje a venda do Rise of the Polygons, o Secret Lair beneficente do Extra Life 2026. As artes imitam os gráficos de videogame dos anos 90.",
+      "São cinco cartas: Balefire Dragon, Big Score, Young Pyromancer, Sword of Truth and Justice e uma ficha de Elemental. Sem foil custa US$ 39,99 (R$ 226,02) e foil, US$ 49,99 (R$ 282,53). A venda vai até 30 de novembro.",
+      "Metade do valor de cada venda, descontadas as taxas, vai para a Children's Miracle Network, que apoia o Extra Life e o Seattle Children's Hospital.",
+      "No Topdeck, Balefire Dragon: quando ele causa dano de combate a um jogador, causa o mesmo dano a cada criatura desse jogador. Está em 127 mil decks no EDHREC.",
+      "Nos Sussurros, imagens vazadas de um possível Secret Lair de Duna com oito comandantes. A Wizards não confirmou nada.",
+      "Edição completa em fontedemana.com.br\nValores em reais pela cotação de 13 nov (Banco Central, PTAX)."
+    ],
+    "threadsAvulsos": [
+      {"titulo": "Drop inteiro ou carta avulsa?", "texto": "O Secret Lair do Extra Life tem Balefire Dragon e Sword of Truth and Justice em estilo PS1, e metade vai para a caridade. Você compra o drop inteiro ou só a carta que vai jogar?", "obs": "Enquete: drop inteiro, carta avulsa ou nenhum"}
+    ]
+  },
+  "pauta": {
+    "forca": "calmo",
+    "porque": "A Notícia Lendária é a venda de um Secret Lair já anunciado, sem ban, regra ou precon novo de Commander.",
+    "storyPergunta": "Qual carta do Secret Lair do Extra Life você quer?",
+    "enquete": {"pergunta": "Secret Lair do Extra Life: você compra?", "opcoes": ["Drop inteiro", "Só a carta avulsa", "Nenhum"]}
+  }
+}
