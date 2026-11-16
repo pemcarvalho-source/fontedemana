@@ -19,7 +19,8 @@
    "sub": "E um deles custa 68 centavos de dólar",
    "narracao": "Cinco board wipes que salvam a mesa. Um custa 68 centavos.",
    "gravar": "Olhando para a câmera, com a mesa de jogo atrás. Fala e abre as mãos como quem limpa a mesa de uma vez.",
-   "segundos": 4.7
+   "segundos": 4.7,
+   "caixa": "topo"
   },
   {
    "tipo": "carta",
@@ -86,5 +87,6 @@
    "narracao": "Supreme Verdict. Destrói tudo e ninguém anula.",
    "segundos": 3.2
   }
- ]
+ ],
+ "rostoGravado": true
 }

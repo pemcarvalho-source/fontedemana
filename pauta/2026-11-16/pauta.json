@@ -72,8 +72,8 @@
    "oQue": "Vídeo do Top 5 com os 5 board wipes, com a sua cena de abertura e a sua voz.",
    "arquivos": [
     {
-     "nome": "Vídeo do TikTok (mudo, até a narração chegar)",
-     "url": "https://fontedemana.com.br/pauta/2026-11-16/tiktok/tiktok-mudo.mp4"
+     "nome": "Vídeo do TikTok narrado",
+     "url": "https://fontedemana.com.br/pauta/2026-11-16/tiktok/tiktok-narrado.mp4"
     }
    ],
    "textos": [
@@ -89,8 +89,7 @@
    "passos": [
     "Poste com um som em alta da biblioteca do TikTok, com o volume entre 15% e 20%.",
     "Voz própria não precisa de rótulo de IA.",
-    "Fixe o comentário logo depois de postar.",
-    "Se a narração não chegar, poste o vídeo mudo com música em alta."
+    "Fixe o comentário logo depois de postar."
    ]
   }
  ]
