@@ -67,10 +67,10 @@
    "tipo": "texto",
    "cor": "M",
    "kicker": "E no seu deck?",
-   "titulo": "Rápido no topo ou barato na mão?",
+   "titulo": "Barato no topo ou caro na mão?",
    "sub": "Vampiric, 1 mana. Diabolic, 4 manas.",
-   "narracao": "E no seu deck: o rápido ou o barato?",
-   "segundos": 3.9
+   "narracao": "E no seu deck: barato no topo ou caro na mão?",
+   "segundos": 4.7
   }
  ]
 }
