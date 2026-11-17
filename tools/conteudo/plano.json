@@ -1,5 +1,5 @@
 {
-  "versao": "2026-11-16 v5.11",
+  "versao": "2026-11-16 v5.11.1",
   "comentario": "Plano editorial da Fonte de Mana. Lido por tools/conteudo/contexto.cjs (tarefa da noite), tools/pauta/manha.cjs (tarefa da manhã) e tools/pauta/tiktok.cjs (molde do vídeo). A explicação completa está em tools/conteudo/ESTRATEGIA.md, os formatos (com as referências que inspiraram cada um) em tools/conteudo/FORMATOS.md e a revisão semanal em tools/conteudo/REVISAO.md. Ciclo de 3 semanas: a letra da semana é ciclo.semanas[(semana ISO + ciclo.deslocamento) % 3]. Datas comemorativas em datas: de e ate como MM-DD (todo ano) ou AAAA-MM-DD (só aquele ano); no dia, pilarNoDia troca o pilar do calendário. Os blocos video, reels, threads, legenda, audio, conversa, rosto e isca valem para datas a partir de desde (antes disso, tudo segue como na v4). plantao: eventos com dia marcado para a fase plantao do orquestrador; o tools/conteudo/plantao.cjs mostra o do dia com --qual. testes: de e ate (ou dias) em AAAA-MM-DD; hora troca o horário da grade nesses dias.",
 
   "ciclo": {"semanas": ["A", "B", "C"], "deslocamento": 2, "nota": "Semana ISO 42 (12 a 18 out 2026) = C a partir de sexta 16, 43 = A, 44 = B, 45 = C. Semana C traz os formatos novos de 15 out."},
@@ -253,34 +253,34 @@
       "cuidado": "Nunca diga de que país vieram as cartas: só \"comprei na gringa\" ou \"no exterior\"; se alguém perguntar, \"um amigo trouxe de viagem\". Nunca mostre nem descreva prints de carrinho, pedido ou loja. As cartas são autênticas (o Paulo conferiu) e isso pode ser dito. O deck de Duel Commander se chama Rosa Sedenta desde 8/11 (antes, Vito 500; o comandante continua o Vito, Thorn of the Dusk Rose)."
     },
     {
-      "dia": "2026-11-25",
+      "dia": "2026-11-20",
       "pilar": "deck",
       "rosto": true,
-      "motivo": "Pedido do Paulo em 16/11: conteúdo em parceria (Collab) com a loja Mulligan Jogos (@mulliganjogos), combinado por ele com a loja. Entra no lugar da Matemática da Mesa da semana C e cai na semana da Black Friday, com o ângulo de deck pronto com orçamento curto.",
+      "motivo": "Pedido do Paulo em 16/11: conteúdo em parceria (Collab) com a loja Mulligan Jogos (@mulliganjogos), combinado por ele com a loja. Entra no lugar do Chama o Juiz desta sexta (o Chama o Juiz segue no carrossel de segunda) e não no Top 5 de quinta, o pilar mais forte da última revisão.",
       "tema": "Abri o precon Prismari Artistry: o que vem num deck pronto de Commander e quanto ele vale",
       "material": [
-        "Produto: Secrets of Strixhaven Commander, deck Prismari Artistry (azul e vermelho), lançado em 24/4/2026. O Paulo abre a caixa lacrada na gravação.",
+        "Produto: Secrets of Strixhaven Commander, deck Prismari Artistry (azul e vermelho), lançado em 24/4/2026. O Paulo abre a caixa lacrada na gravação da noite de 19/11.",
         "O que vem na caixa (Wizards): deck de 100 cartas pronto para jogar, 2 comandantes em foil tradicional com arte sem borda (Rootha, Mastering the Moment, o da capa, e Muddle, the Ever-Changing), 98 cartas não foil com 10 inéditas, 10 fichas de dupla face, carta de referência e a caixa do deck. Confira no Scryfall o texto dos dois comandantes.",
         "Plano do deck (EDHREC): lançar mágicas instantâneas e feitiços caros; a Rootha transforma isso em Elementais X/X com voar e ímpeto no começo do combate, e o deck vence pelo dano de combate das fichas. Reimpressões de destaque: Faerie Mastermind, Harmonic Prodigy, Goldspan Dragon, Thunderclap Drake e Veyran, Voice of Duality.",
         "Preço sugerido nos EUA: US$ 49,99 (EDHREC). Na pré-venda, as 100 cartas chegaram a somar uns US$ 350, número inflado pela procura (EDHREC). O valor de hoje sai do Scryfall no dia, com a regra de moeda; valor de mercado não é preço de venda.",
         "Veredito do EDHREC: nota B+, ótimo para quem gosta de mágica grande e mesa cheia de fichas, e não é um deck sutil. A opinião do Paulo entra no fecho."
       ],
       "sugestao": "Vídeo com o Paulo em até 3 cenas rosto: abrindo a caixa (gancho), mostrando os dois comandantes foil na mão e dando o veredito no fecho. Gancho sugerido: \"As cartas dele já somaram 350 dólares. E hoje?\". No meio, cenas carta com a Rootha, o Muddle e 2 ou 3 reimpressões. Carrossel no molde do Deck em 40 segundos: o que vem na caixa, o plano em três passos, as cartas de destaque, quanto vale hoje e o veredito. Pergunta: \"Rootha ou Muddle: qual você colocava no comando?\". Post e Reels em Collab com @mulliganjogos (o Paulo convida a loja na hora de publicar) e a frase \"Em parceria com a @mulliganjogos\" na legenda. Chip \"Abri o precon\".",
-      "cuidado": "Não chame de recebido, presente, brinde ou prêmio e não diga como os produtos chegaram ao Paulo: a origem é só \"vieram da @mulliganjogos\", e a parceria aparece no Collab. Não compare o preço da Mulligan com o de outras lojas. Se o Paulo mandar o preço do precon na Mulligan, ele entra como \"na @mulliganjogos sai por R$ X\". As sleeves e o deckbox da Viper ficam para a Vitrine de 12/12: aqui eles no máximo aparecem na mesa, sem falar deles."
+      "cuidado": "Não chame de recebido, presente, brinde ou prêmio e não diga como os produtos chegaram ao Paulo: a origem é só \"vieram da @mulliganjogos\", e a parceria aparece no Collab. Não compare o preço da Mulligan com o de outras lojas. Se o Paulo mandar o preço do precon na Mulligan, ele entra como \"na @mulliganjogos sai por R$ X\". As sleeves e o deckbox da Viper ficam para 25/11: aqui eles no máximo aparecem na mesa, sem falar deles. A Rota das Lojas de 18/11 é de outra loja (MTG Brasil): não misture as duas."
     },
     {
-      "dia": "2026-12-12",
+      "dia": "2026-11-25",
       "pilar": "vitrine",
       "rosto": true,
-      "motivo": "Pedido do Paulo em 16/11: segunda peça da parceria com a Mulligan Jogos (@mulliganjogos), no sábado de Vitrine do calendário, sem tirar o dia de nenhum pilar. Depois de umas duas semanas de uso, o teste é de mesa de verdade.",
-      "tema": "Testei por duas semanas: as sleeves e o deckbox da Viper no Prismari Artistry",
+      "motivo": "Pedido do Paulo em 16/11: segunda peça da parceria com a Mulligan Jogos (@mulliganjogos), no lugar da Matemática da Mesa da semana C. Cai na semana da Black Friday, com o ângulo do kit para começar no Commander (uma peça da semana para quem está começando).",
+      "tema": "O kit para começar no Commander: precon, sleeves e deckbox, e quanto sai tudo",
       "material": [
-        "Produtos (Viper Acessórios, dados da embalagem): sleeves Shield Matte na cor Azul Sombrio, 100 unidades, 66 x 92 mm; Deckbox Premium 100+, vermelho. O que o Paulo contar do uso entra aqui antes de 11/12.",
-        "Uso: o Paulo coloca as sleeves no Prismari Artistry depois de abrir o precon (gravação de 24/11) e joga com o deck guardado no deckbox. O teste mostra como as sleeves embaralham, se as 100 cartas com sleeve, as fichas e os dados cabem no deckbox e o que gastou ou não com o uso. O pacote tem 100 sleeves, exatamente o deck: não sobra nenhuma para trocar.",
-        "Preço: o da Mulligan, que o Paulo manda; sem ele, preço com fonte de loja brasileira, como pede o pilar."
+        "Produtos: o precon Prismari Artistry (aberto no vídeo de 20/11) e, da Viper Acessórios (dados da embalagem), sleeves Shield Matte na cor Azul Sombrio, 100 unidades, 66 x 92 mm, e o Deckbox Premium 100+, vermelho.",
+        "Uso: o Paulo coloca as sleeves no Prismari depois de abrir o precon e guarda o deck no deckbox; até a gravação de 24/11 são uns cinco dias de uso. O teste mostra como as sleeves embaralham, se as 100 cartas com sleeve, as fichas e os dados cabem no deckbox e o que o Paulo achou. O pacote tem 100 sleeves, exatamente o deck: não sobra nenhuma para trocar. O que o Paulo contar do uso entra aqui antes de 24/11.",
+        "Preço: o dos três produtos na Mulligan, que o Paulo manda; sem ele, preço com fonte de loja brasileira, como pede o pilar. O total do kit é a conta da peça."
       ],
-      "sugestao": "Vídeo com o Paulo em até 3 cenas rosto: embaralhando as 100 cartas com sleeve, fechando o deckbox com tudo dentro e dando o veredito (o que tem de bom e o que não tem). Se o Paulo mandar o vídeo da abertura das sleeves e do deckbox, use em cenas clipe (extras/mulligan/). Carrossel: o produto, os testes, o ponto fraco, o preço e onde achar. Pergunta: \"Qual sleeve você usa?\". Post e Reels em Collab com @mulliganjogos e a Viper marcada na foto e na legenda (o @ da marca o Paulo confirma). Ângulo de presente para quem joga Commander, sem pedir compra.",
-      "cuidado": "Mesmas regras de 25/11: nada de recebido, presente, brinde ou prêmio, e a origem é só \"vieram da @mulliganjogos\". Opinião honesta, com o ponto fraco se houver: nunca diga que é o melhor do mercado. Não confunda com o double sleeve de 21/11 (sleeves do pacote da gringa): aqui são as sleeves da Viper, sozinhas. Se aparecer partida, nunca mostre nem cite os adversários."
+      "sugestao": "Vídeo com o Paulo em até 3 cenas rosto: embaralhando as 100 cartas com sleeve, fechando o deckbox com tudo dentro e dando o veredito (o que tem de bom e o que não tem). Se o Paulo mandar o vídeo da abertura das sleeves e do deckbox, use em cenas clipe (extras/mulligan/). Carrossel: o kit na capa, uma tela por item (o que resolve na mesa e o preço), o ponto fraco, o total e onde achar. Pergunta: \"Qual sleeve você usa?\". Post e Reels em Collab com @mulliganjogos e a Viper marcada na foto e na legenda (o @ da marca o Paulo confirma). Black Friday só como contexto de compra consciente, sem pedir compra.",
+      "cuidado": "Mesmas regras de 20/11: nada de recebido, presente, brinde ou prêmio, e a origem é só \"vieram da @mulliganjogos\". Opinião honesta, com o ponto fraco se houver: nunca diga que é o melhor do mercado. Não repita o vídeo de 20/11: o precon aqui é só parte do kit. Não confunda com o double sleeve de 21/11 (sleeves do pacote da gringa): aqui são as sleeves da Viper, sozinhas. Se aparecer partida, nunca mostre nem cite os adversários."
     }
   ],
   "carrosselExtra": {"desde": "2026-11-09", "dia": "seg", "pilar": "regra", "motivo": "Revisão de 2/11, aprovada pelo Paulo em 4/11: o Chama o Juiz tem o maior valor do Instagram (compartilhamentos e salvamentos por alcance) em duas revisões seguidas. Na segunda, o carrossel original é um segundo caso do Chama o Juiz; o vídeo e o Threads seguem o pilar da segunda. Segunda das 12h às 15h é um dos picos do recap de outubro.", "nota": "O carrossel extra só vai para o feed em dia calmo (força do dia); em dia forte fica no banco, como todo original."},
