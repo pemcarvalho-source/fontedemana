@@ -1,0 +1,153 @@
+{
+  "n": 43,
+  "data": "17 nov",
+  "carrossel": {
+    "capa": {
+      "cor": "U",
+      "titulo": "Vem mais uma <b>atualização do Commander</b>",
+      "sub": "Gavin Verhey confirmou novidade antes do fim do ano e disse que o <b>Rhystic Study</b> está no radar. Nenhum ban confirmado.",
+      "credito": "Arte: Rhystic Study, Tatiana Kirgetova"
+    },
+    "cartoes": [
+      {
+        "cor": "U",
+        "titulo": "Rhystic Study no radar",
+        "itens": [
+          {
+            "cor": "U",
+            "html": "Verhey confirmou ao Draftsim e ao TechRaptor <b>mais uma atualização</b> em 2026."
+          },
+          {
+            "cor": "R",
+            "html": "Para ele, o Rhystic Study domina o cEDH e é muito jogado no casual."
+          },
+          {
+            "cor": "W",
+            "html": "Próxima janela de banimentos: <b>30 de novembro</b>."
+          }
+        ],
+        "nota": {
+          "rotulo": "Na sua mesa",
+          "texto": "nada muda por enquanto. Espere o anúncio antes de mexer no deck."
+        },
+        "fonte": "Fontes: Draftsim e MTG Rocks (TechRaptor)"
+      }
+    ],
+    "topdeck": {
+      "titulo": "Esper Sentinel",
+      "habilidades": [
+        {
+          "rotulo": "Pedágio na 1ª mágica",
+          "texto": "oponente conjura a primeira mágica não criatura do turno: paga ou você compra"
+        },
+        {
+          "rotulo": "Custo baixo",
+          "texto": "por 1 mana, já cobra no primeiro turno"
+        },
+        {
+          "rotulo": "Cresce com o poder",
+          "texto": "o pedágio é igual ao poder dele"
+        }
+      ],
+      "extra": "O primo branco e barato do Rhystic Study, em <b>915 mil decks</b> no EDHREC. Está a US$ 50,80 no Scryfall.",
+      "credito": "Ilustração de Eric Deschamps"
+    },
+    "ban": {
+      "numero": "13",
+      "unidade": "DIAS",
+      "texto": "para a próxima janela de banimentos, em 30 de novembro, com a última atualização do Commander em 2026."
+    },
+    "turnos": [
+      {
+        "cor": "W",
+        "data": "20 nov",
+        "texto": "Festa de Commander de Star Trek"
+      },
+      {
+        "cor": "B",
+        "data": "30 nov",
+        "texto": "Janela de banimentos"
+      },
+      {
+        "cor": "A",
+        "data": "9 dez",
+        "texto": "Nova venda do Zeta Set"
+      },
+      {
+        "cor": "W",
+        "data": "9 jan",
+        "texto": "Primeiro Spotlight com CommandFest"
+      },
+      {
+        "cor": "G",
+        "data": "5 fev",
+        "texto": "Nauctis chega às lojas"
+      }
+    ],
+    "sussurro": "Material em japonês teria mostrado dois comandantes do precon Sultai de Nauctis. A Wizards não confirmou nada."
+  },
+  "video": {
+    "cena1": {
+      "titulo": "Vem mais uma atualização do Commander",
+      "pilulas": [
+        "Antes do fim do ano",
+        "Rhystic Study",
+        "Sem ban confirmado"
+      ]
+    },
+    "cena2": {
+      "rotulo": "No deck",
+      "cor": "U",
+      "titulo": "O que Verhey disse",
+      "itens": [
+        "O Rhystic Study domina o cEDH e é muito jogado no casual.",
+        "A barra para banir no Commander é bem alta.",
+        "A próxima janela de banimentos é 30 de novembro."
+      ],
+      "fonte": "Fontes: Draftsim e MTG Rocks (TechRaptor)"
+    },
+    "cena3": {
+      "linhas": [
+        "<b>Esper Sentinel</b> cobra pedágio na primeira mágica.",
+        "Paga ou eu compro, por só 1 mana.",
+        "Está em 915 mil decks no EDHREC."
+      ]
+    },
+    "cena4": {
+      "texto": "Faltam 13 dias para a janela de banimentos. O Rhystic Study fica ou sai?",
+      "sussurro": "Comandantes de Nauctis vazaram no Japão? Ainda é rumor."
+    }
+  },
+  "textos": {
+    "legendaCarrossel": "Commander vai ter mais uma atualização antes do fim do ano, e o Rhystic Study está no radar.\n\nGavin Verhey, designer principal de Magic, disse ao Draftsim e ao TechRaptor na MagicCon: Atlanta que sai mais um anúncio do Commander em 2026. Segundo ele, o Rhystic Study domina o cEDH, mas é muito jogado nas mesas casuais, e a barra para banir é bem alta. Nenhum ban foi confirmado. A próxima janela de banimentos é 30 de novembro.\n\nNo Topdeck, Esper Sentinel, o soldado de 1 mana que cobra pedágio na primeira mágica do turno.\n\nNos Sussurros, dois comandantes de Nauctis teriam aparecido em material japonês. Nada confirmado.\n\nVocê acha que o Rhystic Study deveria sair do Commander?\n\nEdição completa em fontedemana.com.br\nArte da capa: Rhystic Study, Tatiana Kirgetova. Esper Sentinel: Eric Deschamps.\n#rhysticstudy #commander #mtg",
+    "legendaVideo": "Commander: Gavin Verhey confirmou mais uma atualização antes do fim do ano, com o Rhystic Study no radar.\nO Rhystic Study fica ou sai do formato?\nTudo em fontedemana.com.br\n#rhysticstudy #commander #mtg",
+    "threadsPost": "Gavin Verhey, designer principal de Magic, confirmou ao Draftsim e ao TechRaptor que sai mais uma atualização do Commander antes do fim do ano. Ele disse que o Rhystic Study domina o cEDH, mas é muito jogado no casual, e que a barra para banir é alta. Nenhum ban confirmado. Próxima janela: 30 de novembro. O Rhystic Study fica ou sai? fontedemana.com.br",
+    "threadsFio": [
+      "Vem mais uma atualização do Commander em 2026. Gavin Verhey, designer principal de Magic, confirmou isso em entrevistas ao Draftsim e ao TechRaptor na MagicCon: Atlanta.",
+      "Sobre o Rhystic Study, ele disse que a carta domina o cEDH, mas também é muito jogada nas mesas casuais, e que um ban pesaria nos decks e nas coleções de muita gente. A barra para banir é bem alta. Nenhum ban foi confirmado.",
+      "A próxima janela de banimentos é 30 de novembro. Ao Draftsim, Verhey disse que as decisões deste ano saem em até duas semanas.",
+      "No Topdeck, Esper Sentinel: quando um oponente conjura a primeira mágica não criatura do turno, ele paga ou você compra um card. Está em 915 mil decks no EDHREC.",
+      "Nos Sussurros, material em japonês teria mostrado dois comandantes do precon Sultai de Nauctis. A Wizards não confirmou nada.",
+      "Edição completa em fontedemana.com.br"
+    ],
+    "threadsAvulsos": [
+      {
+        "titulo": "Rhystic Study fica ou sai?",
+        "texto": "A Wizards confirmou mais uma atualização do Commander antes do fim do ano e disse que o Rhystic Study está no radar. Você baniria o Rhystic Study?",
+        "obs": "Enquete: banir ou deixar como está"
+      }
+    ]
+  },
+  "pauta": {
+    "forca": "calmo",
+    "porque": "A Notícia Lendária são falas de um designer em entrevistas, sem anúncio oficial de ban, regra ou precon.",
+    "storyPergunta": "O Rhystic Study deveria ser banido no Commander?",
+    "enquete": {
+      "pergunta": "Rhystic Study no Commander:",
+      "opcoes": [
+        "Banir",
+        "Deixar como está"
+      ]
+    }
+  }
+}
