@@ -1,6 +1,7 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "Esper Sentinel",
   "Balefire Dragon",
   "Ramunap Excavator",
   "Urza, Chief Artificer",
@@ -41,6 +42,13 @@ window.MANA_POOL_INDEX = {
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 43,
+   "date": "2026-11-17",
+   "dateLabel": "Terça, 17 de novembro de 2026",
+   "head": "Verhey confirma mais uma atualização do Commander em 2026, com o Rhystic Study no radar",
+   "biome": "U"
+  },
   {
    "n": 42,
    "date": "2026-11-16",
@@ -249,13 +257,6 @@ window.MANA_POOL_INDEX = {
    "date": "2026-10-18",
    "dateLabel": "Domingo, 18 de outubro de 2026",
    "head": "Star Trek ganha calendário de prévias, com os precons revelados de 26 a 29 de outubro",
-   "biome": "G"
-  },
-  {
-   "n": 12,
-   "date": "2026-10-17",
-   "dateLabel": "Sábado, 17 de outubro de 2026",
-   "head": "Precons de Commander de Star Trek atrasam nos EUA e na Europa",
    "biome": "G"
   }
  ]
