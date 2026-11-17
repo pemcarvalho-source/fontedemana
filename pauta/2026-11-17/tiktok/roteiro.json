@@ -44,13 +44,14 @@
    "segundos": 6.2
   },
   {
-   "tipo": "rosto",
+   "tipo": "texto",
    "cor": "R",
    "kicker": "O erro mais comum",
    "titulo": "Topo do deck não é a mão",
    "narracao": "Erro clássico: achar que já tá na mão. Só compra no próximo turno.",
-   "gravar": "Põe uma carta em cima do deck na mesa, bate o dedo nela e balança a cabeça, como quem diz \"ainda não\".",
-   "segundos": 5.4
+   "segundos": 5.4,
+   "sub": "O tutor deixa a carta <b>esperando no topo</b>",
+   "rodape": "Ela só chega na sua <b>próxima compra</b>"
   },
   {
    "tipo": "carta",
