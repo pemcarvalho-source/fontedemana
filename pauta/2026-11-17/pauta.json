@@ -1,6 +1,8 @@
 {
   "data": "2026-11-17",
   "fx": "Valores em reais pela cotação de 13 nov (Banco Central, PTAX).",
+  "forca": "calmo",
+  "feed": "original",
   "avisos": [
     {
       "id": "gravacao",
@@ -68,11 +70,11 @@
       "id": "tiktok",
       "hora": "11:30",
       "rede": "TikTok",
-      "titulo": "TikTok: Dicionário do Commander #9, tutor",
+      "titulo": "Dicionário do Commander #9, tutor",
       "oQue": "Vídeo do Dicionário do Commander #9: o que é tutor, com o Vampiric Tutor e o Diabolic Tutor.",
       "arquivos": [
         {
-          "nome": "Vídeo narrado",
+          "nome": "Vídeo do TikTok narrado",
           "url": "https://fontedemana.com.br/pauta/2026-11-17/tiktok/tiktok-narrado.mp4"
         }
       ],
@@ -125,6 +127,148 @@
         "Ainda no Story 2, ponha o sticker de Contagem regressiva com o nome Abrindo o precon, terminando em 20/11 às 19:00.",
         "Não use #recebido nem conte como os produtos chegaram: a parceria com a loja é o que aparece.",
         "Se a loja repostar, agradeça respondendo o Story dela."
+      ]
+    },
+    {
+      "id": "threads-manha",
+      "hora": "10:30",
+      "rede": "Threads",
+      "titulo": "Debate: Dicionário do Commander #9: o que é tutor",
+      "oQue": "Post de debate do conteúdo original de hoje (Dicionário do Commander) para puxar conversa.",
+      "textos": [
+        {
+          "rotulo": "Post",
+          "texto": "Tutor no Commander divide a mesa.\n\nTem quem diga que buscar a mesma peça todo jogo deixa a partida repetitiva. Tem quem diga que, num deck de 100 cartas com uma cópia de cada, sem tutor o deck nunca faz o que promete.\n\nNa sua mesa, tutor é bem-vindo ou é melhor deixar a sorte decidir?"
+        }
+      ],
+      "passos": [
+        "Abra o Threads e cole o Post.",
+        "Dica: Enquete: Tutor liberado / Só os baratos / Prefiro sem tutor",
+        "Toque em Adicionar tópico e escolha MTG.",
+        "Publique e responda quem comentar na primeira hora."
+      ]
+    },
+    {
+      "id": "feed",
+      "hora": "12:00",
+      "rede": "Instagram feed",
+      "titulo": "Dicionário do Commander #9: o que é tutor",
+      "origem": "original:2026-11-17",
+      "oQue": "Carrossel original de 7 imagens (Dicionário do Commander): Dicionário do Commander #9: o que é tutor. Feito para salvar e compartilhar.",
+      "arquivos": [
+        {
+          "nome": "Imagem 1 de 7",
+          "url": "https://fontedemana.com.br/pauta/2026-11-17/original/carrossel-01.jpg"
+        },
+        {
+          "nome": "Imagem 2 de 7",
+          "url": "https://fontedemana.com.br/pauta/2026-11-17/original/carrossel-02.jpg"
+        },
+        {
+          "nome": "Imagem 3 de 7",
+          "url": "https://fontedemana.com.br/pauta/2026-11-17/original/carrossel-03.jpg"
+        },
+        {
+          "nome": "Imagem 4 de 7",
+          "url": "https://fontedemana.com.br/pauta/2026-11-17/original/carrossel-04.jpg"
+        },
+        {
+          "nome": "Imagem 5 de 7",
+          "url": "https://fontedemana.com.br/pauta/2026-11-17/original/carrossel-05.jpg"
+        },
+        {
+          "nome": "Imagem 6 de 7",
+          "url": "https://fontedemana.com.br/pauta/2026-11-17/original/carrossel-06.jpg"
+        },
+        {
+          "nome": "Imagem 7 de 7",
+          "url": "https://fontedemana.com.br/pauta/2026-11-17/original/carrossel-07.jpg"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Tutor no Commander: o que é essa carta de Magic que todo mundo quer no deck? Você sabe o que quer dizer \"vou dar tutor\"?\n\nTutor é a carta que busca no seu deck a carta exata que você quer. No carrossel: o Vampiric Tutor (1 mana, põe no topo), o Worldly Tutor (1 mana, só criatura) e o Diabolic Tutor (4 manas, põe na mão), mais o erro que quase todo mundo comete com eles.\n\nFontes: Scryfall, EDHREC e Regras Abrangentes. Valores em reais pela cotação de 13 nov (Banco Central, PTAX).\n\nMais em fontedemana.com.br\n\nQue termo da mesa te confundiu no começo?\n\n#tutor #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        }
+      ],
+      "passos": [
+        "No Instagram, toque em + e escolha Post.",
+        "Selecione as 7 imagens na ordem, da 1 à 7.",
+        "Toque em Adicionar música e escolha uma em alta que combine com o tema.",
+        "Cole a Legenda e publique."
+      ]
+    },
+    {
+      "id": "stories-meio-dia",
+      "hora": "12:00",
+      "rede": "Instagram Stories",
+      "titulo": "Repost do carrossel com enquete",
+      "oQue": "Compartilhe o carrossel recém postado no Story com uma enquete.",
+      "passos": [
+        "No carrossel publicado, toque no avião de papel e em Adicionar post ao seu story.",
+        "Adicione o sticker de Enquete embaixo do post: Tutor no seu deck de Commander? com Liberado, Só os baratos e Prefiro sem.",
+        "Publique."
+      ]
+    },
+    {
+      "id": "stories-tarde",
+      "hora": "15:00",
+      "rede": "Instagram Stories",
+      "titulo": "Topdeck do Dia com link",
+      "oQue": "Story com a imagem de Esper Sentinel no Topdeck do Dia e o sticker de link para a edição completa.",
+      "arquivos": [
+        {
+          "nome": "Topdeck do Dia",
+          "url": "https://fontedemana.com.br/kit/ed43/carrossel-03.jpg"
+        }
+      ],
+      "passos": [
+        "Baixe a imagem e poste no Story.",
+        "Adicione o sticker de Link para fontedemana.com.br com o texto Edição completa, embaixo do texto do Topdeck.",
+        "Publique."
+      ]
+    },
+    {
+      "id": "reels",
+      "hora": "19:00",
+      "rede": "Reels",
+      "titulo": "Vídeo original: Dicionário do Commander #9: o que é tutor",
+      "oQue": "O vídeo original de hoje no Instagram, o mesmo arquivo do TikTok, já narrado. É o formato que mais chega a quem não segue.",
+      "arquivos": [
+        {
+          "nome": "Vídeo original narrado",
+          "url": "https://fontedemana.com.br/pauta/2026-11-17/tiktok/tiktok-narrado.mp4"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Tutor no Commander: você sabe o que é quando alguém na mesa diz \"vou dar tutor\"?\n\nTutor é a carta que busca no seu deck a carta exata que você quer. O Vampiric Tutor custa 1 mana e põe a carta no topo do deck. O Diabolic Tutor custa 4 e põe direto na mão. Preços do Scryfall, reais pela cotação de 13 nov (Banco Central, PTAX).\n\nQue termo da mesa te confundiu no começo?\n\nMais no fontedemana.com.br\n\n#tutor #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        },
+        {
+          "rotulo": "Comentário fixado",
+          "texto": "No seu deck entra qual: o Vampiric (1 mana, vai pro topo) ou o Diabolic (4 manas, vai pra mão)? Toda terça tem um termo novo do Dicionário do Commander."
+        }
+      ],
+      "passos": [
+        "No Instagram, toque em + e escolha Reel.",
+        "Escolha o vídeo baixado daqui, nunca o salvo do TikTok (o Instagram derruba vídeo com marca d'água).",
+        "Em Áudio, ponha uma música em alta da biblioteca do Instagram com volume baixo (uns 10%), sem cobrir a voz.",
+        "Na capa, use o primeiro quadro, o do gancho.",
+        "Cole a Legenda e publique.",
+        "Fixe o comentário e responda quem comentar na primeira hora."
+      ]
+    },
+    {
+      "id": "comentarios",
+      "hora": "21:30",
+      "rede": "Comentários",
+      "titulo": "Responder os comentários de hoje e de ontem",
+      "oQue": "Uns 10 minutos nas três redes: curtir e responder os comentários das últimas 48 horas, começando pelo vídeo e pelo carrossel de hoje. Conversa nos comentários leva a peça a mais gente, e o Instagram recomenda responder em até 2 dias.",
+      "passos": [
+        "Instagram: nas notificações, curta os comentários e responda com uma frase quem perguntou ou discordou.",
+        "TikTok e Threads: o mesmo, começando pelo post com mais comentários.",
+        "Pergunta boa ou dúvida que se repete, nos comentários ou nas DMs? Mande na conversa do projeto: vira tema de um pilar."
       ]
     }
   ]

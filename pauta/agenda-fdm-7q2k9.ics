@@ -8,530 +8,8 @@ X-WR-TIMEZONE:America/Sao_Paulo
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:fdm-2026-11-13-gravacao@fontedemana.com.br
-DTSTAMP:20261117T011937Z
-DTSTART:20261113T010000Z
-DURATION:PT15M
-SUMMARY:22:00 Gravação: Gravar o vídeo de amanhã (você aparece)
-DESCRIPTION:Roteiro novo: Chama o Juiz #6 com o dilema de Star Trek (Elim G
- arak e Command Decision anulada). Na cena 1 você aparece e fala o gancho\
- ; nas outras\, só a voz. Na cena 3\, leia a pergunta e pare: a contagem j
- á está no vídeo. Dá para gravar até umas 10h de sexta.\n\nArquivos:\n
- - Vídeo mudo (referência): https://fontedemana.com.br/pauta/2026-11-13/t
- iktok/tiktok-mudo.mp4\n\nRoteiro de gravação:\nCena 1\, rosto\, uns 4 s\
- nNa tela: Anularam a mágica. O Garak drena?\nComo gravar: Rosto: Segure u
- ma carta de mágica na mão como se fosse jogar\, mostre para a câmera e 
- termine com cara de quem foi anulado.\nFala: Anularam minha mágica. O Eli
- m Garak drena ou não?\n\nCena 2\, só a voz\, uns 5 s\nNa tela: Command D
- ecision\, Escolha um: o modo é o dilema\nComo gravar: Só a voz: pode gra
- var em vídeo ou áudio\nFala: Dilema é escolher o modo\, como o escolha 
- um da Command Decision.\n\nCena 3\, só a voz\, uns 7 s e contagem\nNa tel
- a: Escolheu o modo e anularam. Drena? A) Não: a mágica foi anulada\, B) 
- Só se a mágica resolver\, C) Sim: o dilema é na escolha do modo\nComo g
- ravar: Só a voz: pode gravar em vídeo ou áudio\nFala: Escolheu o modo e
-  anularam a Command Decision. O Garak drena? Qual é a certa? Cinco segund
- os.\n\nCena 4\, só a voz\, uns 6 s\nNa tela: Drena. O dilema é na escolh
- a A) Não: a mágica foi anulada\, B) Só se a mágica resolver\, C) Sim: 
- o dilema é na escolha do modo. Certa: C\nComo gravar: Só a voz: pode gra
- var em vídeo ou áudio\nFala: Letra C. O dilema é na escolha do modo. An
- ular depois não muda nada.\n\nCena 5\, só a voz\, uns 5 s\nNa tela: Elim
-  Garak\, US$ 0\,32 (R$ 1\,79)\, Dois modos de uma vez: um dilema só\nComo
-  gravar: Só a voz: pode gravar em vídeo ou áudio\nFala: Dois modos de u
- ma vez? Um dilema só. Drena 2\, não 4.\n\n\nPasso a passo:\n1. Celular n
- a vertical\, câmera da frente\, na altura dos olhos\, a um braço de dist
- ância.\n2. Rosto na metade de cima da tela: o título entra embaixo dele\
- , na altura do peito.\n3. Luz de frente (de frente para a janela) e fundo 
- arrumado\; a estante de cartas é ótima.\n4. Desligue o Vídeo HDR (Ajust
- es\, Câmera\, Gravar Vídeo) para as cores não lavarem.\n5. Um vídeo po
- r cena\, falando para a câmera\, com meio segundo de silêncio antes e de
- pois\; nomeie cena_1\, cena_2... e mande todos juntos.\n6. Nas cenas sem r
- osto\, só a voz conta: pode gravar em vídeo ou só o áudio.\n7. Na cena
-  1\, segure uma carta de mágica como se fosse jogar e termine com cara de
-  quem foi anulado.\n8. Mande os vídeos ao Claude no projeto MGT strategy 
- (pode ser respondendo à mensagem desta tarefa) dizendo "vídeos do TikTok
-  de 2026-11-13".\n\nValores em reais pela cotação de 10 nov (Banco Centr
- al\, PTAX).\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-13
- /#gravacao
-URL:https://fontedemana.com.br/pauta/2026-11-13/#gravacao
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Gravação: Gravar o vídeo de amanhã (você aparece)
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-13-tiktok@fontedemana.com.br
-DTSTAMP:20261117T011937Z
-DTSTART:20261113T143000Z
-DURATION:PT15M
-SUMMARY:11:30 TikTok: Chama o Juiz #6\, o dilema de Star Trek
-DESCRIPTION:Quiz de regra no dia do lançamento de Star Trek: anularam a m
- ágica\, o Elim Garak ainda drena? Vídeo com contagem de 5 s e a resposta
-  com a regra 700.17.\n\nArquivos:\n- Vídeo do TikTok narrado: https://fon
- tedemana.com.br/pauta/2026-11-13/tiktok/tiktok-narrado.mp4\n\nLegenda:\nCo
- mmander e Star Trek: anularam sua mágica. O dilema ainda conta?\n\nStar T
- rek chega hoje com uma mecânica nova: enfrentar um dilema. Você enfrenta
-  um dilema quando escolhe o modo de uma mágica ou habilidade\, como o "es
- colha um" da Command Decision.\n\nVocê controla Elim Garak\, que drena 2 
- de cada oponente sempre que você enfrenta um dilema. Você joga Command D
- ecision\, escolhe o modo e o oponente anula.\n\nA) Não drena: a mágica f
- oi anulada\nB) Só drena se a mágica resolver\nC) Drena: o dilema é na e
- scolha do modo\n\nA resposta está no vídeo\, com a regra 700.17 das Regr
- as Abrangentes.\n\nElim Garak: US$ 0\,32 (R$ 1\,79) no Scryfall. Reais pel
- a cotação de 10 nov (Banco Central\, PTAX).\n\nMais regras em fontedeman
- a.com.br\n\nComentário fixado:\nQual é a certa? A) não drena\, a mágic
- a foi anulada\, B) só drena se a mágica resolver\, C) drena\, o dilema 
- é na escolha do modo. Toda sexta tem uma regra nova no Chama o Juiz.\n\nP
- asso a passo:\n1. Poste com um som em alta da biblioteca do TikTok\, volum
- e entre 15% e 20%.\n2. Voz própria não precisa de rótulo de IA.\n3. Fix
- e o comentário logo depois de postar.\n\nValores em reais pela cotação 
- de 10 nov (Banco Central\, PTAX).\n\nPauta completa: https://fontedemana.c
- om.br/pauta/2026-11-13/#tiktok
-URL:https://fontedemana.com.br/pauta/2026-11-13/#tiktok
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:TikTok: Chama o Juiz #6\, o dilema de Star Trek
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-13-sussurro-threads@fontedemana.com.br
-DTSTAMP:20261117T011937Z
-DTSTART:20261113T113000Z
-DURATION:PT15M
-SUMMARY:08:30 Threads: Sussurro: vazaram os 4 precons de Nauctis
-DESCRIPTION:O vazamento das caixas dos precons de Nauctis num post só\, s
- ó texto\, para contar antes de todo mundo. Diz que ainda não é oficial 
- e chama para o painel das 15h. O debate das 10h30 segue normal.\n\nPost:\n
- Nauctis: vazaram as caixas dos 4 precons de Commander da primeira coleçã
- o de 2027. Terrors of the Abyss (azul\, preto e verde)\, Blood in the Wate
- r (azul e vermelho)\, Merfolk Regiment (branco\, azul e verde) e Seal the 
- Deal (vermelho e branco). Ainda não é oficial e nenhum comandante aparec
- eu. Hoje às 15h a Wizards abre o painel de Nauctis na MagicCon: Atlanta. 
- Qual você levaria para a mesa?\n\nAmanhã às 6h\, a edição completa em
-  fontedemana.com.br\n\nPasso a passo:\n1. No Threads\, cole o Post\, sem i
- magem e sem sequência.\n2. Toque em Adicionar tópico e escolha MTG.\n3. 
- Publique e responda quem comentar na primeira hora.\n\nPauta completa: htt
- ps://fontedemana.com.br/pauta/2026-11-13/#sussurro-threads
-URL:https://fontedemana.com.br/pauta/2026-11-13/#sussurro-threads
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Sussurro: vazaram os 4 precons de Nauctis
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-13-sussurro-feed@fontedemana.com.br
-DTSTAMP:20261117T011937Z
-DTSTART:20261113T130000Z
-DURATION:PT15M
-SUMMARY:10:00 Instagram feed: Sussurro no feed: os 4 precons de Nauctis
-DESCRIPTION:Carrossel de 5 imagens com o vazamento: os precons vazados\, o 
- que já é oficial e o que falta saber. Sai antes do Chama o Juiz das 12h 
- e do painel das 15h. Fonte: TheGamer e Wizards. Sem hashtag\, como o resto
-  do dia (teste sem-hashtag).\n\nArquivos:\n- Imagem 1 de 5: https://fonted
- emana.com.br/pauta/2026-11-13/sussurro/carrossel-01.jpg\n- Imagem 2 de 5: 
- https://fontedemana.com.br/pauta/2026-11-13/sussurro/carrossel-02.jpg\n- I
- magem 3 de 5: https://fontedemana.com.br/pauta/2026-11-13/sussurro/carross
- el-03.jpg\n- Imagem 4 de 5: https://fontedemana.com.br/pauta/2026-11-13/su
- ssurro/carrossel-04.jpg\n- Imagem 5 de 5: https://fontedemana.com.br/pauta
- /2026-11-13/sussurro/carrossel-05.jpg\n\nLegenda:\nNauctis: vazaram os 4 p
- recons de Commander da primeira coleção de 2027. Qual deles você levari
- a para a mesa?\n\nFotos das caixas apareceram no Reddit ontem: Terrors of 
- the Abyss (azul\, preto e verde)\, Blood in the Water (azul e vermelho)\, 
- Merfolk Regiment (branco\, azul e verde) e Seal the Deal (vermelho e branc
- o). Nenhum comandante apareceu e a Wizards ainda não confirmou.\n\nOficia
- l mesmo\, por enquanto: Nauctis chega às lojas em 5 de fevereiro de 2027 
- e é o primeiro plano do Magic debaixo d'água. Hoje às 15h (Brasília)\,
-  a Wizards abre o painel de prévias na MagicCon: Atlanta\, e a gente cont
- a aqui o que for confirmado.\n\nAmanhã às 6h\, a edição completa em fo
- ntedemana.com.br\n\nFonte de Mana is unofficial Fan Content permitted unde
- r the Fan Content Policy. Not approved/endorsed by Wizards. Portions of th
- e materials used are property of Wizards of the Coast. ©Wizards of the Co
- ast LLC.\n\nComentário fixado:\nQual você levaria: Terrors of the Abyss\
- , Blood in the Water\, Merfolk Regiment ou Seal the Deal?\n\nPasso a passo
- :\n1. No Instagram\, toque em + e escolha Post.\n2. Selecione as 5 imagens
-  na ordem\, da 1 à 5.\n3. Toque em Adicionar música e escolha uma em alt
- a\, de clima calmo ou de mar.\n4. Cole a Legenda e publique.\n5. Escreva o
-  Comentário fixado no post e fixe.\n\nPauta completa: https://fontedemana
- .com.br/pauta/2026-11-13/#sussurro-feed
-URL:https://fontedemana.com.br/pauta/2026-11-13/#sussurro-feed
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram feed: Sussurro no feed: os 4 precons de Nauctis
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-13-sussurro-tiktok@fontedemana.com.br
-DTSTAMP:20261117T011937Z
-DTSTART:20261113T130500Z
-DURATION:PT15M
-SUMMARY:10:05 TikTok: Sussurro no TikTok: as mesmas imagens no modo foto
-DESCRIPTION:As 5 imagens do Sussurro no modo foto do TikTok\, com som em al
- ta. Chega a quem procura Nauctis hoje\, sem precisar de vídeo. O Chama o 
- Juiz das 11h30 segue normal.\n\nArquivos:\n- Imagem 1 de 5: https://fonted
- emana.com.br/pauta/2026-11-13/sussurro/carrossel-01.jpg\n- Imagem 2 de 5: 
- https://fontedemana.com.br/pauta/2026-11-13/sussurro/carrossel-02.jpg\n- I
- magem 3 de 5: https://fontedemana.com.br/pauta/2026-11-13/sussurro/carross
- el-03.jpg\n- Imagem 4 de 5: https://fontedemana.com.br/pauta/2026-11-13/su
- ssurro/carrossel-04.jpg\n- Imagem 5 de 5: https://fontedemana.com.br/pauta
- /2026-11-13/sussurro/carrossel-05.jpg\n\nLegenda:\nNauctis: vazaram os 4 p
- recons de Commander da primeira coleção de 2027. Qual deles você levari
- a para a mesa?\n\nFotos das caixas apareceram no Reddit ontem: Terrors of 
- the Abyss (azul\, preto e verde)\, Blood in the Water (azul e vermelho)\, 
- Merfolk Regiment (branco\, azul e verde) e Seal the Deal (vermelho e branc
- o). Nenhum comandante apareceu e a Wizards ainda não confirmou.\n\nOficia
- l mesmo\, por enquanto: Nauctis chega às lojas em 5 de fevereiro de 2027 
- e é o primeiro plano do Magic debaixo d'água. Hoje às 15h (Brasília)\,
-  a Wizards abre o painel de prévias na MagicCon: Atlanta\, e a gente cont
- a aqui o que for confirmado.\n\nAmanhã às 6h\, a edição completa em fo
- ntedemana.com.br\n\nFonte de Mana is unofficial Fan Content permitted unde
- r the Fan Content Policy. Not approved/endorsed by Wizards. Portions of th
- e materials used are property of Wizards of the Coast. ©Wizards of the Co
- ast LLC.\n\nPasso a passo:\n1. No TikTok\, toque em + e escolha Foto (ou C
- arregar e marque as imagens).\n2. Selecione as 5 imagens na ordem.\n3. Esc
- olha um som em alta da biblioteca do TikTok\, com volume baixo.\n4. Cole a
-  Legenda e publique.\n\nPauta completa: https://fontedemana.com.br/pauta/2
- 026-11-13/#sussurro-tiktok
-URL:https://fontedemana.com.br/pauta/2026-11-13/#sussurro-tiktok
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:TikTok: Sussurro no TikTok: as mesmas imagens no modo foto
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-13-sussurro-stories@fontedemana.com.br
-DTSTAMP:20261117T011937Z
-DTSTART:20261113T131500Z
-DURATION:PT15M
-SUMMARY:10:15 Instagram Stories: Sussurro nos Stories: enquete e contagem p
- ara o painel
-DESCRIPTION:Dois stories: o post do Sussurro com enquete e\, logo depois\, 
- a contagem regressiva para o painel das 15h. Quem tocar em Lembrar recebe 
- o aviso do Instagram na hora do painel\, quando sai o plantão.\n\nPasso a
-  passo:\n1. Abra o post do Sussurro no feed\, toque no avião de papel e e
- scolha Adicionar post ao story.\n2. Adicione o sticker de Enquete: Qual pr
- econ de Nauctis você levaria? com Terrors of the Abyss\, Blood in the Wat
- er\, Merfolk Regiment e Seal the Deal.\n3. Publique.\n4. Novo story com fu
- ndo azul: sticker de Contagem regressiva com o nome Painel de Nauctis\, te
- rminando hoje às 15h. Publique.\n\nPauta completa: https://fontedemana.co
- m.br/pauta/2026-11-13/#sussurro-stories
-URL:https://fontedemana.com.br/pauta/2026-11-13/#sussurro-stories
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Sussurro nos Stories: enquete e contagem par
- a o painel
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-13-threads-manha@fontedemana.com.br
-DTSTAMP:20261117T011937Z
-DTSTART:20261113T133000Z
-DURATION:PT15M
-SUMMARY:10:30 Threads: Debate: Chama o Juiz #6: anularam a mágica. O dilem
- a de Star Trek…
-DESCRIPTION:Post de debate do conteúdo original de hoje (Chama o Juiz) par
- a puxar conversa.\n\nPost:\nStar Trek chega hoje e traz o dilema: você en
- frenta um dilema quando escolhe o modo de uma mágica.\n\nVocê controla E
- lim Garak (drena 2 a cada dilema)\, joga Command Decision\, escolhe o modo
-  e o oponente anula.\n\nA) Não drena: a mágica foi anulada\nB) Só drena
-  se a mágica resolver\nC) Drena: o dilema é na escolha do modo\n\nQual 
- é a certa?\n\nPasso a passo:\n1. Abra o Threads e cole o Post.\n2. Dica: 
- Resposta às 15h: C. O dilema é na escolha do modo e anular depois não d
- esfaz (Regras Abrangentes 700.17).\n3. Toque em Adicionar tópico e escolh
- a MTG.\n4. Publique e responda quem comentar na primeira hora.\n\nPauta co
- mpleta: https://fontedemana.com.br/pauta/2026-11-13/#threads-manha
-URL:https://fontedemana.com.br/pauta/2026-11-13/#threads-manha
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Debate: Chama o Juiz #6: anularam a mágica. O dilema 
- de Star Trek…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-13-feed@fontedemana.com.br
-DTSTAMP:20261117T011937Z
-DTSTART:20261113T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram feed: Chama o Juiz #6: anularam a mágica. O dilema
-  de Star Trek ainda conta?
-DESCRIPTION:Carrossel original de 6 imagens (Chama o Juiz): Chama o Juiz #6
- : anularam a mágica. O dilema de Star Trek ainda conta?. Feito para salva
- r e compartilhar.\n\nArquivos:\n- Imagem 1 de 6: https://fontedemana.com.b
- r/pauta/2026-11-13/original/carrossel-01.jpg\n- Imagem 2 de 6: https://fon
- tedemana.com.br/pauta/2026-11-13/original/carrossel-02.jpg\n- Imagem 3 de 
- 6: https://fontedemana.com.br/pauta/2026-11-13/original/carrossel-03.jpg\n
- - Imagem 4 de 6: https://fontedemana.com.br/pauta/2026-11-13/original/carr
- ossel-04.jpg\n- Imagem 5 de 6: https://fontedemana.com.br/pauta/2026-11-13
- /original/carrossel-05.jpg\n- Imagem 6 de 6: https://fontedemana.com.br/pa
- uta/2026-11-13/original/carrossel-06.jpg\n\nLegenda:\nCommander e Star Tre
- k: anularam sua mágica. O dilema ainda conta?\n\nStar Trek chega hoje com
-  uma mecânica nova: enfrentar um dilema. Você enfrenta um dilema quando 
- escolhe o modo de uma mágica ou habilidade.\n\nVocê controla Elim Garak\
- , que drena 2 de cada oponente sempre que enfrenta um dilema. Você joga C
- ommand Decision\, escolhe o modo e o oponente anula.\n\nA) Não drena: a m
- ágica foi anulada\nB) Só drena se a mágica resolver\nC) Drena: o dilema
-  é na escolha do modo\n\nArrasta para a resposta\, com a regra 700.17 das
-  Regras Abrangentes\, e para o erro que quase todo mundo vai cometer com d
- ois modos.\n\nElim Garak: US$ 0\,32 (R$ 1\,79) no Scryfall. Valores em rea
- is pela cotação de 10 nov (Banco Central\, PTAX).\n\nFontes: Regras Abra
- ngentes e notas oficiais de Star Trek (Wizards)\, Scryfall. Mais em fonted
- emana.com.br\n\nVocê teria acertado de primeira?\n\nFonte de Mana is unof
- ficial Fan Content permitted under the Fan Content Policy. Not approved/en
- dorsed by Wizards. Portions of the materials used are property of Wizards 
- of the Coast. ©Wizards of the Coast LLC.\n\nPasso a passo:\n1. No Instagr
- am\, toque em + e escolha Post.\n2. Selecione as 6 imagens na ordem\, da 1
-  à 6.\n3. Toque em Adicionar música e escolha uma em alta que combine co
- m o tema.\n4. Cole a Legenda e publique.\n\nValores em reais pela cotaçã
- o de 10 nov (Banco Central\, PTAX).\n\nPauta completa: https://fontedemana
- .com.br/pauta/2026-11-13/#feed
-URL:https://fontedemana.com.br/pauta/2026-11-13/#feed
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram feed: Chama o Juiz #6: anularam a mágica. O dilema d
- e Star Trek ainda conta?
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-13-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261117T011937Z
-DTSTART:20261113T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
-DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
- .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
- e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
- o do post: Anularam a mágica. O Elim Garak drena? com Não drena\, Só se
-  resolver e Drena.\n3. Publique.\n\nPauta completa: https://fontedemana.co
- m.br/pauta/2026-11-13/#stories-meio-dia
-URL:https://fontedemana.com.br/pauta/2026-11-13/#stories-meio-dia
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-13-stories-tarde@fontedemana.com.br
-DTSTAMP:20261117T011937Z
-DTSTART:20261113T180000Z
-DURATION:PT15M
-SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
-DESCRIPTION:Story com a imagem de Krark's Thumb no Topdeck do Dia e o stick
- er de link para a edição completa.\n\nArquivos:\n- Topdeck do Dia: https
- ://fontedemana.com.br/kit/ed39/carrossel-03.jpg\n\nPasso a passo:\n1. Baix
- e a imagem e poste no Story.\n2. Adicione o sticker de Link para fontedema
- na.com.br com o texto Edição completa\, embaixo do texto do Topdeck.\n3.
-  Publique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-13/
- #stories-tarde
-URL:https://fontedemana.com.br/pauta/2026-11-13/#stories-tarde
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Topdeck do Dia com link
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-13-reels@fontedemana.com.br
-DTSTAMP:20261117T011937Z
-DTSTART:20261113T220000Z
-DURATION:PT15M
-SUMMARY:19:00 Reels: Vídeo original: Chama o Juiz #6: anularam a mágica. 
- O dilema de Star…
-DESCRIPTION:O vídeo original de hoje no Instagram\, o mesmo arquivo do Tik
- Tok\, já narrado. É o formato que mais chega a quem não segue.\n\nArqui
- vos:\n- Vídeo original narrado: https://fontedemana.com.br/pauta/2026-11-
- 13/tiktok/tiktok-narrado.mp4\n\nLegenda:\nCommander e Star Trek: anularam 
- sua mágica. O dilema ainda conta?\n\nStar Trek chega hoje com uma mecâni
- ca nova: enfrentar um dilema. Você enfrenta um dilema quando escolhe o mo
- do de uma mágica ou habilidade\, como o "escolha um" da Command Decision.
- \n\nVocê controla Elim Garak\, que drena 2 de cada oponente sempre que vo
- cê enfrenta um dilema. Você joga Command Decision\, escolhe o modo e o o
- ponente anula.\n\nA) Não drena: a mágica foi anulada\nB) Só drena se a 
- mágica resolver\nC) Drena: o dilema é na escolha do modo\n\nA resposta e
- stá no vídeo\, com a regra 700.17 das Regras Abrangentes.\n\nElim Garak:
-  US$ 0\,32 (R$ 1\,79) no Scryfall. Reais pela cotação de 10 nov (Banco C
- entral\, PTAX).\n\nMais regras em fontedemana.com.br\n\nFonte de Mana is u
- nofficial Fan Content permitted under the Fan Content Policy. Not approved
- /endorsed by Wizards. Portions of the materials used are property of Wizar
- ds of the Coast. ©Wizards of the Coast LLC.\n\nComentário fixado:\nQual 
- é a certa? A) não drena\, a mágica foi anulada\, B) só drena se a mág
- ica resolver\, C) drena\, o dilema é na escolha do modo. Toda sexta tem u
- ma regra nova no Chama o Juiz.\n\nPasso a passo:\n1. No Instagram\, toque 
- em + e escolha Reel.\n2. Escolha o vídeo baixado daqui\, nunca o salvo do
-  TikTok (o Instagram derruba vídeo com marca d'água).\n3. Em Áudio\, po
- nha uma música em alta da biblioteca do Instagram com volume baixo (uns 1
- 0%)\, sem cobrir a voz.\n4. Na capa\, use o primeiro quadro\, o do gancho.
- \n5. Cole a Legenda e publique.\n6. Fixe o comentário e responda quem com
- entar na primeira hora.\n\nValores em reais pela cotação de 10 nov (Banc
- o Central\, PTAX).\n\nPauta completa: https://fontedemana.com.br/pauta/202
- 6-11-13/#reels
-URL:https://fontedemana.com.br/pauta/2026-11-13/#reels
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reels: Vídeo original: Chama o Juiz #6: anularam a mágica. O 
- dilema de Star…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-13-comentarios@fontedemana.com.br
-DTSTAMP:20261117T011937Z
-DTSTART:20261114T003000Z
-DURATION:PT15M
-SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
-DESCRIPTION:Uns 10 minutos nas três redes: curtir e responder os comentár
- ios das últimas 48 horas\, começando pelo vídeo e pelo carrossel de hoj
- e. Conversa nos comentários leva a peça a mais gente\, e o Instagram rec
- omenda responder em até 2 dias.\n\nPasso a passo:\n1. Instagram: nas noti
- ficações\, curta os comentários e responda com uma frase quem perguntou
-  ou discordou.\n2. TikTok e Threads: o mesmo\, começando pelo post com ma
- is comentários.\n3. Pergunta boa ou dúvida que se repete\, nos comentár
- ios ou nas DMs? Mande na conversa do projeto: vira tema de um pilar.\n\nPa
- uta completa: https://fontedemana.com.br/pauta/2026-11-13/#comentarios
-URL:https://fontedemana.com.br/pauta/2026-11-13/#comentarios
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Comentários: Responder os comentários de hoje e de ontem
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-13-plantao-threads@fontedemana.com.br
-DTSTAMP:20261117T011937Z
-DTSTART:20261113T192000Z
-DURATION:PT15M
-SUMMARY:16:20 Threads: Plantão: Nauctis na MagicCon: Atlanta: os 4 precons
-  confirmados\,…
-DESCRIPTION:Saiu agora: Nauctis na MagicCon: Atlanta: os 4 precons confirma
- dos\, preço e Abyssal Lotus. O anúncio num post só\, com a capa do carr
- ossel\, para ser o primeiro a contar.\n\nArquivos:\n- Imagem 1 de 5: https
- ://fontedemana.com.br/pauta/2026-11-13/plantao/carrossel-01.jpg\n\nPost:\n
- Saiu: a Wizards confirmou na MagicCon: Atlanta os 4 precons de Nauctis que
-  vazaram ontem. Merfolk Regiment\, Terrors of the Abyss\, Blood in the Wat
- er e Seal the Deal custam US$ 49\,99 (R$ 279\,14)\, e todos têm versão P
- remium com as 98 em foil por US$ 79\,99 (R$ 446\,66). Comandantes e cores\
- , ainda não. Normal ou Premium? Amanhã às 6h\, a edição completa em f
- ontedemana.com.br\n\nFonte de Mana is unofficial Fan Content permitted und
- er the Fan Content Policy. Not approved/endorsed by Wizards. Portions of t
- he materials used are property of Wizards of the Coast. ©Wizards of the C
- oast LLC.\n\nPasso a passo:\n1. No Threads\, cole o Post e anexe a capa.\n
- 2. Marque o tópico MTG e publique.\n3. Responda quem comentar na primeira
-  hora.\n\nValores em reais pela cotação de 10 nov (Banco Central\, PTAX)
- .\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-13/#plantao-
- threads
-URL:https://fontedemana.com.br/pauta/2026-11-13/#plantao-threads
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Plantão: Nauctis na MagicCon: Atlanta: os 4 precons c
- onfirmados\,…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-13-plantao-feed@fontedemana.com.br
-DTSTAMP:20261117T011937Z
-DTSTART:20261113T192500Z
-DURATION:PT15M
-SUMMARY:16:25 Instagram feed: Plantão no feed: Nauctis na MagicCon: Atlant
- a: os 4 precons…
-DESCRIPTION:Carrossel curto do plantão\, com 5 imagens\, sobre o anúncio 
- de agora. Fonte: Wizards of the Coast (Collecting Nauctis\, 13 nov).\n\nAr
- quivos:\n- Imagem 1 de 5: https://fontedemana.com.br/pauta/2026-11-13/plan
- tao/carrossel-01.jpg\n- Imagem 2 de 5: https://fontedemana.com.br/pauta/20
- 26-11-13/plantao/carrossel-02.jpg\n- Imagem 3 de 5: https://fontedemana.co
- m.br/pauta/2026-11-13/plantao/carrossel-03.jpg\n- Imagem 4 de 5: https://f
- ontedemana.com.br/pauta/2026-11-13/plantao/carrossel-04.jpg\n- Imagem 5 de
-  5: https://fontedemana.com.br/pauta/2026-11-13/plantao/carrossel-05.jpg\n
- \nLegenda:\nNauctis Commander: a Wizards confirmou hoje\, na MagicCon: Atl
- anta\, os 4 precons que vazaram ontem.\nMerfolk Regiment\, Terrors of the 
- Abyss\, Blood in the Water e Seal the Deal\, cada um com 2 comandantes nov
- os e 10 cartas inéditas.\nCaixa normal por US$ 49\,99 (R$ 279\,14) e Prem
- ium\, com as 98 em foil\, por US$ 79\,99 (R$ 446\,66).\nComandantes e core
- s ainda não foram mostrados.\nNormal ou Premium: qual versão você compr
- aria?\nAmanhã às 6h\, a edição completa em fontedemana.com.br\n#naucti
- s #commander #mtg\nValores em reais pela cotação de 10 nov (Banco Centra
- l\, PTAX).\n\nFonte de Mana is unofficial Fan Content permitted under the 
- Fan Content Policy. Not approved/endorsed by Wizards. Portions of the mate
- rials used are property of Wizards of the Coast. ©Wizards of the Coast LL
- C.\n\nPasso a passo:\n1. No Instagram\, toque em + e escolha Post.\n2. Sel
- ecione as 5 imagens na ordem\, da 1 à 5.\n3. Toque em Adicionar música e
-  escolha uma em alta que combine com o tema.\n4. Cole a Legenda e publique
- .\n\nValores em reais pela cotação de 10 nov (Banco Central\, PTAX).\n\n
- Pauta completa: https://fontedemana.com.br/pauta/2026-11-13/#plantao-feed
-URL:https://fontedemana.com.br/pauta/2026-11-13/#plantao-feed
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram feed: Plantão no feed: Nauctis na MagicCon: Atlanta:
-  os 4 precons…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-13-plantao-tiktok@fontedemana.com.br
-DTSTAMP:20261117T011937Z
-DTSTART:20261113T193000Z
-DURATION:PT15M
-SUMMARY:16:30 TikTok: Plantão no TikTok: as mesmas imagens no modo foto
-DESCRIPTION:As imagens do carrossel no modo foto do TikTok\, com som em alt
- a. Chega a quem não segue sem precisar de vídeo.\n\nArquivos:\n- Imagem 
- 1 de 5: https://fontedemana.com.br/pauta/2026-11-13/plantao/carrossel-01.j
- pg\n- Imagem 2 de 5: https://fontedemana.com.br/pauta/2026-11-13/plantao/c
- arrossel-02.jpg\n- Imagem 3 de 5: https://fontedemana.com.br/pauta/2026-11
- -13/plantao/carrossel-03.jpg\n- Imagem 4 de 5: https://fontedemana.com.br/
- pauta/2026-11-13/plantao/carrossel-04.jpg\n- Imagem 5 de 5: https://fonted
- emana.com.br/pauta/2026-11-13/plantao/carrossel-05.jpg\n\nLegenda:\nNaucti
- s Commander: a Wizards confirmou hoje\, na MagicCon: Atlanta\, os 4 precon
- s que vazaram ontem.\nMerfolk Regiment\, Terrors of the Abyss\, Blood in t
- he Water e Seal the Deal\, cada um com 2 comandantes novos e 10 cartas in
- éditas.\nCaixa normal por US$ 49\,99 (R$ 279\,14) e Premium\, com as 98 e
- m foil\, por US$ 79\,99 (R$ 446\,66).\nComandantes e cores ainda não fora
- m mostrados.\nNormal ou Premium: qual versão você compraria?\nAmanhã à
- s 6h\, a edição completa em fontedemana.com.br\n#nauctis #commander #mtg
- \nValores em reais pela cotação de 10 nov (Banco Central\, PTAX).\n\nFon
- te de Mana is unofficial Fan Content permitted under the Fan Content Polic
- y. Not approved/endorsed by Wizards. Portions of the materials used are pr
- operty of Wizards of the Coast. ©Wizards of the Coast LLC.\n\nPasso a pas
- so:\n1. No TikTok\, toque em + e escolha Foto (ou Carregar e marque as ima
- gens).\n2. Selecione as 5 imagens na ordem.\n3. Escolha um som em alta da 
- biblioteca do TikTok\, com volume baixo.\n4. Cole a Legenda e publique.\n\
- nValores em reais pela cotação de 10 nov (Banco Central\, PTAX).\n\nPaut
- a completa: https://fontedemana.com.br/pauta/2026-11-13/#plantao-tiktok
-URL:https://fontedemana.com.br/pauta/2026-11-13/#plantao-tiktok
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:TikTok: Plantão no TikTok: as mesmas imagens no modo foto
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-13-plantao-stories@fontedemana.com.br
-DTSTAMP:20261117T011937Z
-DTSTART:20261113T195000Z
-DURATION:PT15M
-SUMMARY:16:50 Instagram Stories: Plantão nos Stories: o post com enquete
-DESCRIPTION:O carrossel do plantão nos Stories\, com enquete\, para os seg
- uidores verem o anúncio.\n\nPasso a passo:\n1. Abra o post do plantão no
-  feed\, toque no avião de papel e escolha Adicionar post ao story.\n2. Ad
- icione o sticker de Enquete: Qual versão do precon de Nauctis você compr
- aria? com "A normal"\, "A Premium\, toda foil" e "Nenhuma das duas".\n3. P
- ublique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-13/#p
- lantao-stories
-URL:https://fontedemana.com.br/pauta/2026-11-13/#plantao-stories
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Plantão nos Stories: o post com enquete
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fdm-2026-11-14-gravacao@fontedemana.com.br
-DTSTAMP:20261117T011937Z
+DTSTAMP:20261117T102114Z
 DTSTART:20261113T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -582,7 +60,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-tiktok@fontedemana.com.br
-DTSTAMP:20261117T011937Z
+DTSTAMP:20261117T102114Z
 DTSTART:20261114T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Do zero à mesa #3: o Rosa Sedenta
@@ -618,7 +96,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-threads-manha@fontedemana.com.br
-DTSTAMP:20261117T011937Z
+DTSTAMP:20261117T102114Z
 DTSTART:20261114T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Do zero à mesa #3: o Rosa Sedenta\, deck de
@@ -644,7 +122,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-feed@fontedemana.com.br
-DTSTAMP:20261117T011937Z
+DTSTAMP:20261117T102114Z
 DTSTART:20261114T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Radar DC500: Do zero à mesa #3: o Rosa Seden
@@ -687,7 +165,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261117T011937Z
+DTSTAMP:20261117T102114Z
 DTSTART:20261114T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -706,7 +184,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-stories-tarde@fontedemana.com.br
-DTSTAMP:20261117T011937Z
+DTSTAMP:20261117T102114Z
 DTSTART:20261114T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -726,7 +204,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-reels@fontedemana.com.br
-DTSTAMP:20261117T011937Z
+DTSTAMP:20261117T102114Z
 DTSTART:20261115T000000Z
 DURATION:PT15M
 SUMMARY:21:00 Reels: Vídeo original: Do zero à mesa #3: o Rosa Sedenta\, 
@@ -765,7 +243,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-comentarios@fontedemana.com.br
-DTSTAMP:20261117T011937Z
+DTSTAMP:20261117T102114Z
 DTSTART:20261115T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -787,7 +265,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-gravacao@fontedemana.com.br
-DTSTAMP:20261117T011937Z
+DTSTAMP:20261117T102114Z
 DTSTART:20261114T231500Z
 DURATION:PT15M
 SUMMARY:20:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -828,7 +306,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-tiktok@fontedemana.com.br
-DTSTAMP:20261117T011937Z
+DTSTAMP:20261117T102114Z
 DTSTART:20261115T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Rota das Lojas #1\, Jogujogo e o booster de brinde
@@ -862,7 +340,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-threads-manha@fontedemana.com.br
-DTSTAMP:20261117T011937Z
+DTSTAMP:20261117T102114Z
 DTSTART:20261115T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Rota das Lojas #1: Jogujogo\, na Água Branc
@@ -887,7 +365,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-feed@fontedemana.com.br
-DTSTAMP:20261117T011937Z
+DTSTAMP:20261117T102114Z
 DTSTART:20261115T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Rota das Lojas #1: Jogujogo\, na Água Branca
@@ -927,7 +405,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261117T011937Z
+DTSTAMP:20261117T102114Z
 DTSTART:20261115T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -946,7 +424,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-stories-tarde@fontedemana.com.br
-DTSTAMP:20261117T011937Z
+DTSTAMP:20261117T102114Z
 DTSTART:20261115T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -966,7 +444,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-reels@fontedemana.com.br
-DTSTAMP:20261117T011937Z
+DTSTAMP:20261117T102114Z
 DTSTART:20261115T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Rota das Lojas #1: Jogujogo\, na Águ
@@ -1003,7 +481,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-comentarios@fontedemana.com.br
-DTSTAMP:20261117T011937Z
+DTSTAMP:20261117T102114Z
 DTSTART:20261116T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1025,7 +503,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-gravacao@fontedemana.com.br
-DTSTAMP:20261117T011937Z
+DTSTAMP:20261117T102114Z
 DTSTART:20261115T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -1077,7 +555,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-tiktok@fontedemana.com.br
-DTSTAMP:20261117T011937Z
+DTSTAMP:20261117T102114Z
 DTSTART:20261116T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o Top 5 #7: board wipes
@@ -1107,7 +585,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-threads-manha@fontedemana.com.br
-DTSTAMP:20261117T011937Z
+DTSTAMP:20261117T102114Z
 DTSTART:20261116T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Chama o Juiz #7: dá para conjurar o Panglac
@@ -1133,7 +611,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-feed@fontedemana.com.br
-DTSTAMP:20261117T011937Z
+DTSTAMP:20261117T102114Z
 DTSTART:20261116T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Chama o Juiz #7: dá para conjurar o Panglaci
@@ -1171,7 +649,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261117T011937Z
+DTSTAMP:20261117T102114Z
 DTSTART:20261116T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -1190,7 +668,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-stories-tarde@fontedemana.com.br
-DTSTAMP:20261117T011937Z
+DTSTAMP:20261117T102114Z
 DTSTART:20261116T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1210,7 +688,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-reels@fontedemana.com.br
-DTSTAMP:20261117T011937Z
+DTSTAMP:20261117T102114Z
 DTSTART:20261116T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Top 5 #7: os board wipes que salvam a
@@ -1246,7 +724,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-comentarios@fontedemana.com.br
-DTSTAMP:20261117T011937Z
+DTSTAMP:20261117T102114Z
 DTSTART:20261117T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1268,7 +746,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-gravacao@fontedemana.com.br
-DTSTAMP:20261117T011937Z
+DTSTAMP:20261117T102114Z
 DTSTART:20261116T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -1320,39 +798,39 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-tiktok@fontedemana.com.br
-DTSTAMP:20261117T011937Z
+DTSTAMP:20261117T102114Z
 DTSTART:20261117T143000Z
 DURATION:PT15M
-SUMMARY:11:30 TikTok: TikTok: Dicionário do Commander #9\, tutor
+SUMMARY:11:30 TikTok: Dicionário do Commander #9\, tutor
 DESCRIPTION:Vídeo do Dicionário do Commander #9: o que é tutor\, com o V
- ampiric Tutor e o Diabolic Tutor.\n\nArquivos:\n- Vídeo narrado: https://
- fontedemana.com.br/pauta/2026-11-17/tiktok/tiktok-narrado.mp4\n\nLegenda:\
- nTutor no Commander: você sabe o que é quando alguém na mesa diz "vou d
- ar tutor"?\n\nTutor é a carta que busca no seu deck a carta exata que voc
- ê quer. O Vampiric Tutor custa 1 mana e põe a carta no topo do deck. O D
- iabolic Tutor custa 4 e põe direto na mão. Preços do Scryfall\, reais p
- ela cotação de 13 nov (Banco Central\, PTAX).\n\nQue termo da mesa te co
- nfundiu no começo?\n\nMais no fontedemana.com.br\n\n#tutor #commander #mt
- g\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Conte
- nt Policy. Not approved/endorsed by Wizards. Portions of the materials use
- d are property of Wizards of the Coast. ©Wizards of the Coast LLC.\n\nCom
- entário fixado:\nNo seu deck entra qual: o Vampiric (1 mana\, vai pro top
- o) ou o Diabolic (4 manas\, vai pra mão)? Toda terça tem um termo novo d
- o Dicionário do Commander.\n\nPasso a passo:\n1. Postar com um som em alt
- a da biblioteca do TikTok\, com volume entre 15% e 20%.\n2. Voz própria\,
-  não precisa de rótulo de IA.\n3. Fixar o comentário logo depois de pos
- tar.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-17/#tikto
- k
+ ampiric Tutor e o Diabolic Tutor.\n\nArquivos:\n- Vídeo do TikTok narrado
+ : https://fontedemana.com.br/pauta/2026-11-17/tiktok/tiktok-narrado.mp4\n\
+ nLegenda:\nTutor no Commander: você sabe o que é quando alguém na mesa 
+ diz "vou dar tutor"?\n\nTutor é a carta que busca no seu deck a carta exa
+ ta que você quer. O Vampiric Tutor custa 1 mana e põe a carta no topo do
+  deck. O Diabolic Tutor custa 4 e põe direto na mão. Preços do Scryfall
+ \, reais pela cotação de 13 nov (Banco Central\, PTAX).\n\nQue termo da 
+ mesa te confundiu no começo?\n\nMais no fontedemana.com.br\n\n#tutor #com
+ mander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the
+  Fan Content Policy. Not approved/endorsed by Wizards. Portions of the mat
+ erials used are property of Wizards of the Coast. ©Wizards of the Coast L
+ LC.\n\nComentário fixado:\nNo seu deck entra qual: o Vampiric (1 mana\, v
+ ai pro topo) ou o Diabolic (4 manas\, vai pra mão)? Toda terça tem um te
+ rmo novo do Dicionário do Commander.\n\nPasso a passo:\n1. Postar com um 
+ som em alta da biblioteca do TikTok\, com volume entre 15% e 20%.\n2. Voz 
+ própria\, não precisa de rótulo de IA.\n3. Fixar o comentário logo dep
+ ois de postar.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11
+ -17/#tiktok
 URL:https://fontedemana.com.br/pauta/2026-11-17/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:TikTok: TikTok: Dicionário do Commander #9\, tutor
+DESCRIPTION:TikTok: Dicionário do Commander #9\, tutor
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-stories-mulligan@fontedemana.com.br
-DTSTAMP:20261117T011937Z
+DTSTAMP:20261117T102114Z
 DTSTART:20261117T210000Z
 DURATION:PT15M
 SUMMARY:18:00 Instagram Stories: Parceria com a Mulligan: os produtos chega
@@ -1382,6 +860,166 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Instagram Stories: Parceria com a Mulligan: os produtos chegara
  m (2 Stories)
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-17-threads-manha@fontedemana.com.br
+DTSTAMP:20261117T102114Z
+DTSTART:20261117T133000Z
+DURATION:PT15M
+SUMMARY:10:30 Threads: Debate: Dicionário do Commander #9: o que é tutor
+DESCRIPTION:Post de debate do conteúdo original de hoje (Dicionário do Co
+ mmander) para puxar conversa.\n\nPost:\nTutor no Commander divide a mesa.\
+ n\nTem quem diga que buscar a mesma peça todo jogo deixa a partida repeti
+ tiva. Tem quem diga que\, num deck de 100 cartas com uma cópia de cada\, 
+ sem tutor o deck nunca faz o que promete.\n\nNa sua mesa\, tutor é bem-vi
+ ndo ou é melhor deixar a sorte decidir?\n\nPasso a passo:\n1. Abra o Thre
+ ads e cole o Post.\n2. Dica: Enquete: Tutor liberado / Só os baratos / Pr
+ efiro sem tutor\n3. Toque em Adicionar tópico e escolha MTG.\n4. Publique
+  e responda quem comentar na primeira hora.\n\nPauta completa: https://fon
+ tedemana.com.br/pauta/2026-11-17/#threads-manha
+URL:https://fontedemana.com.br/pauta/2026-11-17/#threads-manha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Debate: Dicionário do Commander #9: o que é tutor
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-17-feed@fontedemana.com.br
+DTSTAMP:20261117T102114Z
+DTSTART:20261117T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram feed: Dicionário do Commander #9: o que é tutor
+DESCRIPTION:Carrossel original de 7 imagens (Dicionário do Commander): Dic
+ ionário do Commander #9: o que é tutor. Feito para salvar e compartilhar
+ .\n\nArquivos:\n- Imagem 1 de 7: https://fontedemana.com.br/pauta/2026-11-
+ 17/original/carrossel-01.jpg\n- Imagem 2 de 7: https://fontedemana.com.br/
+ pauta/2026-11-17/original/carrossel-02.jpg\n- Imagem 3 de 7: https://fonte
+ demana.com.br/pauta/2026-11-17/original/carrossel-03.jpg\n- Imagem 4 de 7:
+  https://fontedemana.com.br/pauta/2026-11-17/original/carrossel-04.jpg\n- 
+ Imagem 5 de 7: https://fontedemana.com.br/pauta/2026-11-17/original/carros
+ sel-05.jpg\n- Imagem 6 de 7: https://fontedemana.com.br/pauta/2026-11-17/o
+ riginal/carrossel-06.jpg\n- Imagem 7 de 7: https://fontedemana.com.br/paut
+ a/2026-11-17/original/carrossel-07.jpg\n\nLegenda:\nTutor no Commander: o 
+ que é essa carta de Magic que todo mundo quer no deck? Você sabe o que q
+ uer dizer "vou dar tutor"?\n\nTutor é a carta que busca no seu deck a car
+ ta exata que você quer. No carrossel: o Vampiric Tutor (1 mana\, põe no 
+ topo)\, o Worldly Tutor (1 mana\, só criatura) e o Diabolic Tutor (4 mana
+ s\, põe na mão)\, mais o erro que quase todo mundo comete com eles.\n\nF
+ ontes: Scryfall\, EDHREC e Regras Abrangentes. Valores em reais pela cota
+ ção de 13 nov (Banco Central\, PTAX).\n\nMais em fontedemana.com.br\n\nQ
+ ue termo da mesa te confundiu no começo?\n\n#tutor #commander #mtg\n\nFon
+ te de Mana is unofficial Fan Content permitted under the Fan Content Polic
+ y. Not approved/endorsed by Wizards. Portions of the materials used are pr
+ operty of Wizards of the Coast. ©Wizards of the Coast LLC.\n\nPasso a pas
+ so:\n1. No Instagram\, toque em + e escolha Post.\n2. Selecione as 7 image
+ ns na ordem\, da 1 à 7.\n3. Toque em Adicionar música e escolha uma em a
+ lta que combine com o tema.\n4. Cole a Legenda e publique.\n\nPauta comple
+ ta: https://fontedemana.com.br/pauta/2026-11-17/#feed
+URL:https://fontedemana.com.br/pauta/2026-11-17/#feed
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram feed: Dicionário do Commander #9: o que é tutor
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-17-stories-meio-dia@fontedemana.com.br
+DTSTAMP:20261117T102114Z
+DTSTART:20261117T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
+DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
+ .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
+ e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
+ o do post: Tutor no seu deck de Commander? com Liberado\, Só os baratos e
+  Prefiro sem.\n3. Publique.\n\nPauta completa: https://fontedemana.com.br/
+ pauta/2026-11-17/#stories-meio-dia
+URL:https://fontedemana.com.br/pauta/2026-11-17/#stories-meio-dia
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-17-stories-tarde@fontedemana.com.br
+DTSTAMP:20261117T102114Z
+DTSTART:20261117T180000Z
+DURATION:PT15M
+SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
+DESCRIPTION:Story com a imagem de Esper Sentinel no Topdeck do Dia e o stic
+ ker de link para a edição completa.\n\nArquivos:\n- Topdeck do Dia: http
+ s://fontedemana.com.br/kit/ed43/carrossel-03.jpg\n\nPasso a passo:\n1. Bai
+ xe a imagem e poste no Story.\n2. Adicione o sticker de Link para fontedem
+ ana.com.br com o texto Edição completa\, embaixo do texto do Topdeck.\n3
+ . Publique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-17
+ /#stories-tarde
+URL:https://fontedemana.com.br/pauta/2026-11-17/#stories-tarde
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Topdeck do Dia com link
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-17-reels@fontedemana.com.br
+DTSTAMP:20261117T102114Z
+DTSTART:20261117T220000Z
+DURATION:PT15M
+SUMMARY:19:00 Reels: Vídeo original: Dicionário do Commander #9: o que é
+  tutor
+DESCRIPTION:O vídeo original de hoje no Instagram\, o mesmo arquivo do Tik
+ Tok\, já narrado. É o formato que mais chega a quem não segue.\n\nArqui
+ vos:\n- Vídeo original narrado: https://fontedemana.com.br/pauta/2026-11-
+ 17/tiktok/tiktok-narrado.mp4\n\nLegenda:\nTutor no Commander: você sabe o
+  que é quando alguém na mesa diz "vou dar tutor"?\n\nTutor é a carta qu
+ e busca no seu deck a carta exata que você quer. O Vampiric Tutor custa 1
+  mana e põe a carta no topo do deck. O Diabolic Tutor custa 4 e põe dire
+ to na mão. Preços do Scryfall\, reais pela cotação de 13 nov (Banco Ce
+ ntral\, PTAX).\n\nQue termo da mesa te confundiu no começo?\n\nMais no fo
+ ntedemana.com.br\n\n#tutor #commander #mtg\n\nFonte de Mana is unofficial 
+ Fan Content permitted under the Fan Content Policy. Not approved/endorsed 
+ by Wizards. Portions of the materials used are property of Wizards of the 
+ Coast. ©Wizards of the Coast LLC.\n\nComentário fixado:\nNo seu deck ent
+ ra qual: o Vampiric (1 mana\, vai pro topo) ou o Diabolic (4 manas\, vai p
+ ra mão)? Toda terça tem um termo novo do Dicionário do Commander.\n\nPa
+ sso a passo:\n1. No Instagram\, toque em + e escolha Reel.\n2. Escolha o v
+ ídeo baixado daqui\, nunca o salvo do TikTok (o Instagram derruba vídeo 
+ com marca d'água).\n3. Em Áudio\, ponha uma música em alta da bibliotec
+ a do Instagram com volume baixo (uns 10%)\, sem cobrir a voz.\n4. Na capa\
+ , use o primeiro quadro\, o do gancho.\n5. Cole a Legenda e publique.\n6. 
+ Fixe o comentário e responda quem comentar na primeira hora.\n\nPauta com
+ pleta: https://fontedemana.com.br/pauta/2026-11-17/#reels
+URL:https://fontedemana.com.br/pauta/2026-11-17/#reels
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reels: Vídeo original: Dicionário do Commander #9: o que é t
+ utor
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-17-comentarios@fontedemana.com.br
+DTSTAMP:20261117T102114Z
+DTSTART:20261118T003000Z
+DURATION:PT15M
+SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
+DESCRIPTION:Uns 10 minutos nas três redes: curtir e responder os comentár
+ ios das últimas 48 horas\, começando pelo vídeo e pelo carrossel de hoj
+ e. Conversa nos comentários leva a peça a mais gente\, e o Instagram rec
+ omenda responder em até 2 dias.\n\nPasso a passo:\n1. Instagram: nas noti
+ ficações\, curta os comentários e responda com uma frase quem perguntou
+  ou discordou.\n2. TikTok e Threads: o mesmo\, começando pelo post com ma
+ is comentários.\n3. Pergunta boa ou dúvida que se repete\, nos comentár
+ ios ou nas DMs? Mande na conversa do projeto: vira tema de um pilar.\n\nPa
+ uta completa: https://fontedemana.com.br/pauta/2026-11-17/#comentarios
+URL:https://fontedemana.com.br/pauta/2026-11-17/#comentarios
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Comentários: Responder os comentários de hoje e de ontem
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
