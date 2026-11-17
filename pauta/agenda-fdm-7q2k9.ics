@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-11-14-gravacao@fontedemana.com.br
-DTSTAMP:20261117T102114Z
+DTSTAMP:20261117T212542Z
 DTSTART:20261113T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -60,7 +60,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-tiktok@fontedemana.com.br
-DTSTAMP:20261117T102114Z
+DTSTAMP:20261117T212542Z
 DTSTART:20261114T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Do zero à mesa #3: o Rosa Sedenta
@@ -96,7 +96,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-threads-manha@fontedemana.com.br
-DTSTAMP:20261117T102114Z
+DTSTAMP:20261117T212542Z
 DTSTART:20261114T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Do zero à mesa #3: o Rosa Sedenta\, deck de
@@ -122,7 +122,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-feed@fontedemana.com.br
-DTSTAMP:20261117T102114Z
+DTSTAMP:20261117T212542Z
 DTSTART:20261114T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Radar DC500: Do zero à mesa #3: o Rosa Seden
@@ -165,7 +165,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261117T102114Z
+DTSTAMP:20261117T212542Z
 DTSTART:20261114T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -184,7 +184,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-stories-tarde@fontedemana.com.br
-DTSTAMP:20261117T102114Z
+DTSTAMP:20261117T212542Z
 DTSTART:20261114T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -204,7 +204,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-reels@fontedemana.com.br
-DTSTAMP:20261117T102114Z
+DTSTAMP:20261117T212542Z
 DTSTART:20261115T000000Z
 DURATION:PT15M
 SUMMARY:21:00 Reels: Vídeo original: Do zero à mesa #3: o Rosa Sedenta\, 
@@ -243,7 +243,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-comentarios@fontedemana.com.br
-DTSTAMP:20261117T102114Z
+DTSTAMP:20261117T212542Z
 DTSTART:20261115T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -265,7 +265,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-gravacao@fontedemana.com.br
-DTSTAMP:20261117T102114Z
+DTSTAMP:20261117T212542Z
 DTSTART:20261114T231500Z
 DURATION:PT15M
 SUMMARY:20:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -306,7 +306,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-tiktok@fontedemana.com.br
-DTSTAMP:20261117T102114Z
+DTSTAMP:20261117T212542Z
 DTSTART:20261115T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Rota das Lojas #1\, Jogujogo e o booster de brinde
@@ -340,7 +340,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-threads-manha@fontedemana.com.br
-DTSTAMP:20261117T102114Z
+DTSTAMP:20261117T212542Z
 DTSTART:20261115T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Rota das Lojas #1: Jogujogo\, na Água Branc
@@ -365,7 +365,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-feed@fontedemana.com.br
-DTSTAMP:20261117T102114Z
+DTSTAMP:20261117T212542Z
 DTSTART:20261115T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Rota das Lojas #1: Jogujogo\, na Água Branca
@@ -405,7 +405,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261117T102114Z
+DTSTAMP:20261117T212542Z
 DTSTART:20261115T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -424,7 +424,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-stories-tarde@fontedemana.com.br
-DTSTAMP:20261117T102114Z
+DTSTAMP:20261117T212542Z
 DTSTART:20261115T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -444,7 +444,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-reels@fontedemana.com.br
-DTSTAMP:20261117T102114Z
+DTSTAMP:20261117T212542Z
 DTSTART:20261115T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Rota das Lojas #1: Jogujogo\, na Águ
@@ -481,7 +481,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-comentarios@fontedemana.com.br
-DTSTAMP:20261117T102114Z
+DTSTAMP:20261117T212542Z
 DTSTART:20261116T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -503,7 +503,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-gravacao@fontedemana.com.br
-DTSTAMP:20261117T102114Z
+DTSTAMP:20261117T212542Z
 DTSTART:20261115T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -555,7 +555,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-tiktok@fontedemana.com.br
-DTSTAMP:20261117T102114Z
+DTSTAMP:20261117T212542Z
 DTSTART:20261116T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o Top 5 #7: board wipes
@@ -585,7 +585,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-threads-manha@fontedemana.com.br
-DTSTAMP:20261117T102114Z
+DTSTAMP:20261117T212542Z
 DTSTART:20261116T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Chama o Juiz #7: dá para conjurar o Panglac
@@ -611,7 +611,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-feed@fontedemana.com.br
-DTSTAMP:20261117T102114Z
+DTSTAMP:20261117T212542Z
 DTSTART:20261116T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Chama o Juiz #7: dá para conjurar o Panglaci
@@ -649,7 +649,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261117T102114Z
+DTSTAMP:20261117T212542Z
 DTSTART:20261116T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -668,7 +668,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-stories-tarde@fontedemana.com.br
-DTSTAMP:20261117T102114Z
+DTSTAMP:20261117T212542Z
 DTSTART:20261116T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -688,7 +688,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-reels@fontedemana.com.br
-DTSTAMP:20261117T102114Z
+DTSTAMP:20261117T212542Z
 DTSTART:20261116T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Top 5 #7: os board wipes que salvam a
@@ -724,7 +724,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-comentarios@fontedemana.com.br
-DTSTAMP:20261117T102114Z
+DTSTAMP:20261117T212542Z
 DTSTART:20261117T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -746,7 +746,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-gravacao@fontedemana.com.br
-DTSTAMP:20261117T102114Z
+DTSTAMP:20261117T212542Z
 DTSTART:20261116T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -798,7 +798,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-tiktok@fontedemana.com.br
-DTSTAMP:20261117T102114Z
+DTSTAMP:20261117T212542Z
 DTSTART:20261117T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Dicionário do Commander #9\, tutor
@@ -830,7 +830,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-stories-mulligan@fontedemana.com.br
-DTSTAMP:20261117T102114Z
+DTSTAMP:20261117T212542Z
 DTSTART:20261117T210000Z
 DURATION:PT15M
 SUMMARY:18:00 Instagram Stories: Parceria com a Mulligan: os produtos chega
@@ -865,7 +865,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-threads-manha@fontedemana.com.br
-DTSTAMP:20261117T102114Z
+DTSTAMP:20261117T212542Z
 DTSTART:20261117T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Dicionário do Commander #9: o que é tutor
@@ -888,7 +888,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-feed@fontedemana.com.br
-DTSTAMP:20261117T102114Z
+DTSTAMP:20261117T212542Z
 DTSTART:20261117T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Dicionário do Commander #9: o que é tutor
@@ -927,7 +927,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261117T102114Z
+DTSTAMP:20261117T212542Z
 DTSTART:20261117T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -946,7 +946,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-stories-tarde@fontedemana.com.br
-DTSTAMP:20261117T102114Z
+DTSTAMP:20261117T212542Z
 DTSTART:20261117T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -966,7 +966,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-reels@fontedemana.com.br
-DTSTAMP:20261117T102114Z
+DTSTAMP:20261117T212542Z
 DTSTART:20261117T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Dicionário do Commander #9: o que é
@@ -1003,7 +1003,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-comentarios@fontedemana.com.br
-DTSTAMP:20261117T102114Z
+DTSTAMP:20261117T212542Z
 DTSTART:20261118T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1020,6 +1020,93 @@ URL:https://fontedemana.com.br/pauta/2026-11-17/#comentarios
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Comentários: Responder os comentários de hoje e de ontem
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-18-gravacao@fontedemana.com.br
+DTSTAMP:20261117T212542Z
+DTSTART:20261117T221500Z
+DURATION:PT15M
+SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
+DESCRIPTION:Rota das Lojas #2: o torneio de precon na MTG Brasil. Você apa
+ rece nas cenas 1 e 6\; nas outras\, só a voz. Seis cenas\, uns 29 s no to
+ tal.\n\nArquivos:\n- Vídeo mudo (referência): https://fontedemana.com.br
+ /pauta/2026-11-18/tiktok/tiktok-mudo.mp4\n\nRoteiro de gravação:\nCena 1
+ \, rosto\, uns 4 s\nNa tela: Fui buscar 2 cartas e joguei um torneio\nComo
+  gravar: Rosto: Olhando para a câmera\, mostra perto do rosto as duas car
+ tas que foi buscar na loja e diz a frase.\nFala: Fui buscar duas cartas e 
+ saí jogando um torneio.\n\nCena 2\, só a voz\, uns 6 s\nNa tela: A loja 
+ deu o ingresso e emprestou um deck. Torneio de precon: cada um joga com um
+  deck pronto\, de fábrica\nComo gravar: Só a voz: pode gravar em vídeo 
+ ou áudio\nFala: A loja deu o ingresso e me emprestou um precon\, deck pro
+ nto de fábrica.\n\nCena 3\, só a voz\, uns 5 s\nNa tela: Jace\, Multiver
+ se Architect (carta). Compra 2 cartas e devolve 1 para o fundo do deck\nCo
+ mo gravar: Só a voz: pode gravar em vídeo ou áudio\nFala: No comando\, 
+ o Jace: compra duas e devolve uma pro fundo do deck.\n\nCena 4\, só a voz
+ \, uns 4 s\nNa tela: Quer atacar o Jace? Paga 2 manas. Quem não paga não
+  ataca o Jace naquele turno\nComo gravar: Só a voz: pode gravar em vídeo
+  ou áudio\nFala: Pra atacar o Jace\, o oponente paga duas manas.\n\nCena 
+ 5\, só a voz\, uns 4 s\nNa tela: 4 rodadas: 2 derrotas e 2 empates. Nenhu
+ ma vitória no torneio\nComo gravar: Só a voz: pode gravar em vídeo ou 
+ áudio\nFala: Resultado: quatro rodadas\, duas derrotas e dois empates.\n\
+ nCena 6\, rosto\, uns 6 s\nNa tela: Dá para chegar sem deck e jogar. Voc
+ ê já jogou com deck emprestado da loja?\nComo gravar: Rosto: Olhando par
+ a a câmera\, de mãos abertas (sem deck)\, fala a lição em tom de conve
+ rsa\, como quem conta para um amigo.\nFala: Dá pra chegar sem deck e joga
+ r. Você já jogou com deck da loja?\n\n\nPasso a passo:\n1. Celular na ve
+ rtical\, câmera da frente\, na altura dos olhos\, a um braço de distânc
+ ia.\n2. Rosto na metade de cima da tela: o título entra embaixo dele\, na
+  altura do peito.\n3. Luz de frente (de frente para a janela) e fundo arru
+ mado\; a estante de cartas é ótima.\n4. Desligue o Vídeo HDR (Ajustes\,
+  Câmera\, Gravar Vídeo) para as cores não lavarem.\n5. Um vídeo por ce
+ na\, falando para a câmera\, com meio segundo de silêncio antes e depois
+ \; nomeie cena_1\, cena_2... e mande todos juntos.\n6. Nas cenas sem rosto
+ \, só a voz conta: pode gravar em vídeo ou só o áudio\, num lugar sile
+ ncioso\, com o celular a um palmo da boca.\n7. Para a cena 1\, tenha à m
+ ão as duas cartas que você foi buscar na loja. Não mostre nem cite os a
+ dversários do torneio.\n8. Mande os vídeos ao Claude no projeto MGT stra
+ tegy (pode ser respondendo à mensagem desta tarefa) dizendo "vídeos do T
+ ikTok de 2026-11-18".\n\nPauta completa: https://fontedemana.com.br/pauta/
+ 2026-11-18/#gravacao
+URL:https://fontedemana.com.br/pauta/2026-11-18/#gravacao
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Gravação: Gravar o vídeo de amanhã (você aparece)
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-18-tiktok@fontedemana.com.br
+DTSTAMP:20261117T212542Z
+DTSTART:20261118T143000Z
+DURATION:PT15M
+SUMMARY:11:30 TikTok: Rota das Lojas #2\, torneio de precon na MTG Brasil
+DESCRIPTION:Vídeo da Rota das Lojas #2: fui buscar duas cartas na MTG Bras
+ il e joguei um torneio de precon com o Jace\, Multiverse Architect emprest
+ ado.\n\nArquivos:\n- Vídeo do TikTok (mudo): https://fontedemana.com.br/p
+ auta/2026-11-18/tiktok/tiktok-mudo.mp4\n\nLegenda:\nTorneio de precon de C
+ ommander na MTG Brasil\, em São Paulo: você já jogou com deck emprestad
+ o da loja?\n\nFui buscar duas cartas que tinha comprado e saí jogando. A 
+ loja me deu o ingresso e emprestou um precon\, o Multiverse Reforged\, de 
+ Reality Fracture\, com o Jace\, Multiverse Architect no comando.\n\nForam 
+ 4 rodadas: 2 derrotas e 2 empates. A lição: dá para chegar na loja sem 
+ deck e jogar. Bom para quem está começando ou voltando ao Magic.\n\nMais
+  no fontedemana.com.br\n\n#precon #commander #mtg\n\nFonte de Mana is unof
+ ficial Fan Content permitted under the Fan Content Policy. Not approved/en
+ dorsed by Wizards. Portions of the materials used are property of Wizards 
+ of the Coast. ©Wizards of the Coast LLC.\n\nComentário fixado:\nVocê j
+ á jogou com deck emprestado da loja? Ou foi direto com o seu? Série Rota
+  das Lojas.\n\nPasso a passo:\n1. Postar com um som em alta da biblioteca 
+ do TikTok\, com volume entre 15% e 20%.\n2. Voz própria\, não precisa de
+  rótulo de IA.\n3. Fixar o comentário logo depois de postar.\n4. Se os v
+ ídeos não chegarem\, postar o vídeo mudo com música em alta.\n5. No Re
+ els\, marcar a MTG Brasil como local e convidar a loja para Collab.\n\nPau
+ ta completa: https://fontedemana.com.br/pauta/2026-11-18/#tiktok
+URL:https://fontedemana.com.br/pauta/2026-11-18/#tiktok
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TikTok: Rota das Lojas #2\, torneio de precon na MTG Brasil
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT

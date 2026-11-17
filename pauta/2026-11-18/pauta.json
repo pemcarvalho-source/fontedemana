@@ -1,0 +1,98 @@
+{
+ "data": "2026-11-18",
+ "fx": null,
+ "avisos": [
+  {
+   "id": "gravacao",
+   "dia": "2026-11-17",
+   "hora": "19:15",
+   "rede": "Gravação",
+   "titulo": "Gravar o vídeo de amanhã (você aparece)",
+   "oQue": "Rota das Lojas #2: o torneio de precon na MTG Brasil. Você aparece nas cenas 1 e 6; nas outras, só a voz. Seis cenas, uns 29 s no total.",
+   "arquivos": [
+    {
+     "nome": "Vídeo mudo (referência)",
+     "url": "https://fontedemana.com.br/pauta/2026-11-18/tiktok/tiktok-mudo.mp4"
+    }
+   ],
+   "roteiro": [
+    {
+     "cena": "Cena 1, rosto, uns 4 s",
+     "tela": "Fui buscar 2 cartas e joguei um torneio",
+     "fala": "Fui buscar duas cartas e saí jogando um torneio.",
+     "como": "Rosto: Olhando para a câmera, mostra perto do rosto as duas cartas que foi buscar na loja e diz a frase."
+    },
+    {
+     "cena": "Cena 2, só a voz, uns 6 s",
+     "tela": "A loja deu o ingresso e emprestou um deck. Torneio de precon: cada um joga com um deck pronto, de fábrica",
+     "fala": "A loja deu o ingresso e me emprestou um precon, deck pronto de fábrica.",
+     "como": "Só a voz: pode gravar em vídeo ou áudio"
+    },
+    {
+     "cena": "Cena 3, só a voz, uns 5 s",
+     "tela": "Jace, Multiverse Architect (carta). Compra 2 cartas e devolve 1 para o fundo do deck",
+     "fala": "No comando, o Jace: compra duas e devolve uma pro fundo do deck.",
+     "como": "Só a voz: pode gravar em vídeo ou áudio"
+    },
+    {
+     "cena": "Cena 4, só a voz, uns 4 s",
+     "tela": "Quer atacar o Jace? Paga 2 manas. Quem não paga não ataca o Jace naquele turno",
+     "fala": "Pra atacar o Jace, o oponente paga duas manas.",
+     "como": "Só a voz: pode gravar em vídeo ou áudio"
+    },
+    {
+     "cena": "Cena 5, só a voz, uns 4 s",
+     "tela": "4 rodadas: 2 derrotas e 2 empates. Nenhuma vitória no torneio",
+     "fala": "Resultado: quatro rodadas, duas derrotas e dois empates.",
+     "como": "Só a voz: pode gravar em vídeo ou áudio"
+    },
+    {
+     "cena": "Cena 6, rosto, uns 6 s",
+     "tela": "Dá para chegar sem deck e jogar. Você já jogou com deck emprestado da loja?",
+     "fala": "Dá pra chegar sem deck e jogar. Você já jogou com deck da loja?",
+     "como": "Rosto: Olhando para a câmera, de mãos abertas (sem deck), fala a lição em tom de conversa, como quem conta para um amigo."
+    }
+   ],
+   "passos": [
+    "Celular na vertical, câmera da frente, na altura dos olhos, a um braço de distância.",
+    "Rosto na metade de cima da tela: o título entra embaixo dele, na altura do peito.",
+    "Luz de frente (de frente para a janela) e fundo arrumado; a estante de cartas é ótima.",
+    "Desligue o Vídeo HDR (Ajustes, Câmera, Gravar Vídeo) para as cores não lavarem.",
+    "Um vídeo por cena, falando para a câmera, com meio segundo de silêncio antes e depois; nomeie cena_1, cena_2... e mande todos juntos.",
+    "Nas cenas sem rosto, só a voz conta: pode gravar em vídeo ou só o áudio, num lugar silencioso, com o celular a um palmo da boca.",
+    "Para a cena 1, tenha à mão as duas cartas que você foi buscar na loja. Não mostre nem cite os adversários do torneio.",
+    "Mande os vídeos ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"vídeos do TikTok de 2026-11-18\"."
+   ]
+  },
+  {
+   "id": "tiktok",
+   "hora": "11:30",
+   "rede": "TikTok",
+   "titulo": "Rota das Lojas #2, torneio de precon na MTG Brasil",
+   "oQue": "Vídeo da Rota das Lojas #2: fui buscar duas cartas na MTG Brasil e joguei um torneio de precon com o Jace, Multiverse Architect emprestado.",
+   "arquivos": [
+    {
+     "nome": "Vídeo do TikTok (mudo)",
+     "url": "https://fontedemana.com.br/pauta/2026-11-18/tiktok/tiktok-mudo.mp4"
+    }
+   ],
+   "textos": [
+    {
+     "rotulo": "Legenda",
+     "texto": "Torneio de precon de Commander na MTG Brasil, em São Paulo: você já jogou com deck emprestado da loja?\n\nFui buscar duas cartas que tinha comprado e saí jogando. A loja me deu o ingresso e emprestou um precon, o Multiverse Reforged, de Reality Fracture, com o Jace, Multiverse Architect no comando.\n\nForam 4 rodadas: 2 derrotas e 2 empates. A lição: dá para chegar na loja sem deck e jogar. Bom para quem está começando ou voltando ao Magic.\n\nMais no fontedemana.com.br\n\n#precon #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+    },
+    {
+     "rotulo": "Comentário fixado",
+     "texto": "Você já jogou com deck emprestado da loja? Ou foi direto com o seu? Série Rota das Lojas."
+    }
+   ],
+   "passos": [
+    "Postar com um som em alta da biblioteca do TikTok, com volume entre 15% e 20%.",
+    "Voz própria, não precisa de rótulo de IA.",
+    "Fixar o comentário logo depois de postar.",
+    "Se os vídeos não chegarem, postar o vídeo mudo com música em alta.",
+    "No Reels, marcar a MTG Brasil como local e convidar a loja para Collab."
+   ]
+  }
+ ]
+}

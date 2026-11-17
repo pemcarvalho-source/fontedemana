@@ -1,0 +1,74 @@
+{
+ "data": "2026-11-18",
+ "pilar": "loja",
+ "tema": "Rota das Lojas #2: fui buscar duas cartas na MTG Brasil e joguei um torneio",
+ "item": null,
+ "arte": "pauta/2026-11-18/tiktok/arte.jpg",
+ "carta": "pauta/2026-11-18/tiktok/carta.jpg",
+ "credito": "Arte: Jace, Multiverse Architect, Volkan Baǵa",
+ "fx": null,
+ "legenda": "Torneio de precon de Commander na MTG Brasil, em São Paulo: você já jogou com deck emprestado da loja?\n\nFui buscar duas cartas que tinha comprado e saí jogando. A loja me deu o ingresso e emprestou um precon, o Multiverse Reforged, de Reality Fracture, com o Jace, Multiverse Architect no comando.\n\nForam 4 rodadas: 2 derrotas e 2 empates. A lição: dá para chegar na loja sem deck e jogar. Bom para quem está começando ou voltando ao Magic.\n\nMais no fontedemana.com.br\n\n#precon #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
+ "comentario": "Você já jogou com deck emprestado da loja? Ou foi direto com o seu? Série Rota das Lojas.",
+ "cenas": [
+  {
+   "tipo": "rosto",
+   "cor": "W",
+   "chip": "Rota das Lojas #2",
+   "kicker": "MTG Brasil, São Paulo",
+   "titulo": "Fui buscar 2 cartas e joguei um torneio",
+   "sub": "E nem levei deck",
+   "narracao": "Fui buscar duas cartas e saí jogando um torneio.",
+   "gravar": "Olhando para a câmera, mostra perto do rosto as duas cartas que foi buscar na loja e diz a frase.",
+   "segundos": 3.9
+  },
+  {
+   "tipo": "texto",
+   "cor": "W",
+   "kicker": "Sem deck? Sem problema",
+   "titulo": "A loja deu o ingresso e emprestou um deck",
+   "sub": "Torneio de precon: cada um joga com um deck pronto, de fábrica",
+   "narracao": "A loja deu o ingresso e me emprestou um precon, deck pronto de fábrica.",
+   "segundos": 5.8
+  },
+  {
+   "tipo": "carta",
+   "cor": "M",
+   "chip": "O deck emprestado",
+   "kicker": "Multiverse Reforged",
+   "carta": "pauta/2026-11-18/tiktok/carta-1.jpg",
+   "titulo": "Jace, Multiverse Architect",
+   "sub": "Compra 2 cartas e devolve 1 para o fundo do deck",
+   "fonte": "Scryfall, nov 2026",
+   "narracao": "No comando, o Jace: compra duas e devolve uma pro fundo do deck.",
+   "segundos": 5.4
+  },
+  {
+   "tipo": "texto",
+   "cor": "U",
+   "kicker": "E na hora do ataque",
+   "titulo": "Quer atacar o Jace? Paga 2 manas",
+   "sub": "Quem não paga não ataca o Jace naquele turno",
+   "narracao": "Pra atacar o Jace, o oponente paga duas manas.",
+   "segundos": 3.9
+  },
+  {
+   "tipo": "texto",
+   "cor": "R",
+   "kicker": "O resultado",
+   "titulo": "4 rodadas: 2 derrotas e 2 empates",
+   "sub": "Nenhuma vitória no torneio",
+   "narracao": "Resultado: quatro rodadas, duas derrotas e dois empates.",
+   "segundos": 3.6
+  },
+  {
+   "tipo": "rosto",
+   "cor": "W",
+   "kicker": "A lição",
+   "titulo": "Dá para chegar sem deck e jogar",
+   "narracao": "Dá pra chegar sem deck e jogar. Você já jogou com deck da loja?",
+   "gravar": "Olhando para a câmera, de mãos abertas (sem deck), fala a lição em tom de conversa, como quem conta para um amigo.",
+   "sub": "Você já jogou com deck emprestado da loja?",
+   "segundos": 5.8
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "data": "2026-11-18",
+ "pilar": "loja",
+ "item": null,
+ "tema": "Rota das Lojas #2: fui buscar duas cartas na MTG Brasil e joguei um torneio",
+ "cartas": ["Jace, Multiverse Architect"],
+ "fx": null,
+ "carrossel": {
+  "capa": {"cor": "W", "chip": "Rota das Lojas #2", "kicker": "MTG Brasil, São Paulo", "titulo": "Fui buscar 2 cartas e <b>joguei um torneio</b>", "sub": "Cheguei sem deck. A loja deu o ingresso e emprestou um <b>precon</b>.", "arte": "pauta/2026-11-18/tiktok/arte.jpg", "credito": "Arte: Jace, Multiverse Architect, Volkan Baǵa"},
+  "cartoes": [
+   {"cor": "W", "titulo": "Era só para buscar cartas", "itens": [
+     {"cor": "W", "html": "Fui à MTG Brasil buscar <b>duas cartas</b> que eu tinha comprado."},
+     {"cor": "W", "html": "Estava rolando um <b>torneio de precon</b>, e a loja me deu o ingresso."},
+     {"cor": "W", "html": "Problema: eu não tinha levado deck nenhum."}],
+    "nota": {"rotulo": "Próxima tela", "texto": "como dá para jogar sem deck."},
+    "fonte": "Fonte: visita do Paulo, 14 nov 2026"},
+   {"cor": "W", "titulo": "A loja emprestou o deck", "itens": [
+     {"cor": "W", "html": "Precon é o <b>deck pronto</b> de Commander, que vem montado de fábrica."},
+     {"cor": "W", "html": "O meu foi o <b>Multiverse Reforged</b>, de Reality Fracture, lançado em outubro."}],
+    "nota": {"rotulo": "Próxima tela", "texto": "o comandante que caiu na minha mão."},
+    "fonte": "Fonte: visita do Paulo e EDHREC, nov 2026"},
+   {"cor": "M", "titulo": "Jace, Multiverse Architect", "carta": "pauta/2026-11-18/original/carta-1.jpg", "itens": [
+     {"cor": "M", "html": "Planeswalker de <b>quatro cores</b>. Compra duas cartas e devolve uma para o fundo do deck."},
+     {"cor": "M", "html": "Quem quiser atacar o Jace <b>paga 2 manas</b> no turno. Em <b>6,33 mil decks</b> no EDHREC."}],
+    "fonte": "Fonte: Scryfall e EDHREC, nov 2026"},
+   {"cor": "R", "titulo": "O resultado", "itens": [
+     {"cor": "R", "html": "<b>4 rodadas</b>: 2 derrotas e 2 empates."},
+     {"cor": "R", "html": "Nenhuma vitória, e eu nem tinha deck quando entrei na loja."}],
+    "nota": {"rotulo": "A lição", "texto": "você não precisa de deck próprio para jogar Magic na loja."},
+    "fonte": "Fonte: torneio do Paulo, 14 nov 2026"},
+   {"cor": "W", "titulo": "Para quem está começando", "itens": [
+     {"cor": "W", "html": "Torneio de precon é uma boa porta de entrada: <b>todo mundo joga com deck pronto</b>."},
+     {"cor": "W", "html": "Voltando ao Magic depois de anos? Pergunte na loja se ela <b>empresta deck</b>."}],
+    "fonte": "Fonte: visita do Paulo, 14 nov 2026"}
+  ],
+  "cta": {"pergunta": "Você já jogou com <b>deck emprestado</b> da loja?", "quando": "Rota das Lojas: uma loja de São Paulo por vez", "salvar": "Salva para lembrar que dá para jogar sem deck próprio"}
+ },
+ "legenda": "Torneio de precon de Commander na MTG Brasil, em São Paulo: você já jogou com deck emprestado da loja?\nFui buscar duas cartas que tinha comprado e saí jogando um torneio. A loja me deu o ingresso e emprestou um precon, o Multiverse Reforged, de Reality Fracture, com o Jace, Multiverse Architect no comando.\nO Jace compra duas cartas e devolve uma para o fundo do deck, e quem quiser atacar ele paga 2 manas no turno.\nResultado: 4 rodadas, 2 derrotas e 2 empates. A lição: dá para chegar na loja sem deck e jogar. Bom para quem está começando ou voltando ao Magic.\nFontes: Scryfall e EDHREC.\nfontedemana.com.br\n#precon #commander #mtg",
+ "threads": {"texto": "Fui na MTG Brasil buscar duas cartas e saí jogando um torneio de precon. Não tinha levado deck: a loja deu o ingresso e me emprestou um, com o Jace, Multiverse Architect no comando.\nQuatro rodadas, duas derrotas e dois empates.\nVocê já jogou com deck emprestado da loja? Ou só joga com o seu?", "obs": "Enquete: Já joguei com deck da loja, Só jogo com o meu, Nem sabia que dava"},
+ "enquete": {"pergunta": "Você já jogou com deck emprestado da loja?", "opcoes": ["Já joguei", "Só com o meu", "Nem sabia que dava"]}
+}
