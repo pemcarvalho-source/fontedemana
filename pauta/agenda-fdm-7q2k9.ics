@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-11-13-gravacao@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261113T010000Z
 DURATION:PT15M
 SUMMARY:22:00 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -61,7 +61,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-tiktok@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261113T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Chama o Juiz #6\, o dilema de Star Trek
@@ -96,7 +96,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-sussurro-threads@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261113T113000Z
 DURATION:PT15M
 SUMMARY:08:30 Threads: Sussurro: vazaram os 4 precons de Nauctis
@@ -122,7 +122,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-sussurro-feed@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261113T130000Z
 DURATION:PT15M
 SUMMARY:10:00 Instagram feed: Sussurro no feed: os 4 precons de Nauctis
@@ -164,7 +164,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-sussurro-tiktok@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261113T130500Z
 DURATION:PT15M
 SUMMARY:10:05 TikTok: Sussurro no TikTok: as mesmas imagens no modo foto
@@ -203,7 +203,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-sussurro-stories@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261113T131500Z
 DURATION:PT15M
 SUMMARY:10:15 Instagram Stories: Sussurro nos Stories: enquete e contagem p
@@ -228,7 +228,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-threads-manha@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261113T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Chama o Juiz #6: anularam a mágica. O dilem
@@ -254,7 +254,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-feed@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261113T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Chama o Juiz #6: anularam a mágica. O dilema
@@ -299,7 +299,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261113T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -318,7 +318,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-stories-tarde@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261113T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -338,7 +338,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-reels@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261113T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Chama o Juiz #6: anularam a mágica. 
@@ -381,7 +381,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-comentarios@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261114T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -403,7 +403,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-plantao-threads@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261113T192000Z
 DURATION:PT15M
 SUMMARY:16:20 Threads: Plantão: Nauctis na MagicCon: Atlanta: os 4 precons
@@ -435,7 +435,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-plantao-feed@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261113T192500Z
 DURATION:PT15M
 SUMMARY:16:25 Instagram feed: Plantão no feed: Nauctis na MagicCon: Atlant
@@ -474,7 +474,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-plantao-tiktok@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261113T193000Z
 DURATION:PT15M
 SUMMARY:16:30 TikTok: Plantão no TikTok: as mesmas imagens no modo foto
@@ -511,7 +511,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-13-plantao-stories@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261113T195000Z
 DURATION:PT15M
 SUMMARY:16:50 Instagram Stories: Plantão nos Stories: o post com enquete
@@ -531,7 +531,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-gravacao@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261113T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -582,7 +582,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-tiktok@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261114T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Do zero à mesa #3: o Rosa Sedenta
@@ -618,7 +618,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-threads-manha@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261114T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Do zero à mesa #3: o Rosa Sedenta\, deck de
@@ -644,7 +644,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-feed@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261114T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Radar DC500: Do zero à mesa #3: o Rosa Seden
@@ -687,7 +687,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261114T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -706,7 +706,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-stories-tarde@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261114T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -726,7 +726,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-reels@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261115T000000Z
 DURATION:PT15M
 SUMMARY:21:00 Reels: Vídeo original: Do zero à mesa #3: o Rosa Sedenta\, 
@@ -765,7 +765,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-comentarios@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261115T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -787,7 +787,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-gravacao@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261114T231500Z
 DURATION:PT15M
 SUMMARY:20:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -828,7 +828,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-tiktok@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261115T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Rota das Lojas #1\, Jogujogo e o booster de brinde
@@ -862,7 +862,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-threads-manha@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261115T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Rota das Lojas #1: Jogujogo\, na Água Branc
@@ -887,7 +887,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-feed@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261115T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Rota das Lojas #1: Jogujogo\, na Água Branca
@@ -927,7 +927,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261115T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -946,7 +946,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-stories-tarde@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261115T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -966,7 +966,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-reels@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261115T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Rota das Lojas #1: Jogujogo\, na Águ
@@ -1003,7 +1003,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-comentarios@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261116T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1025,7 +1025,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-gravacao@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261115T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -1077,7 +1077,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-tiktok@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261116T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o Top 5 #7: board wipes
@@ -1107,7 +1107,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-threads-manha@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261116T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Chama o Juiz #7: dá para conjurar o Panglac
@@ -1133,7 +1133,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-feed@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261116T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Chama o Juiz #7: dá para conjurar o Panglaci
@@ -1171,7 +1171,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261116T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -1190,7 +1190,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-stories-tarde@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261116T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1210,7 +1210,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-reels@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261116T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Top 5 #7: os board wipes que salvam a
@@ -1246,7 +1246,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-comentarios@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261117T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1268,7 +1268,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-gravacao@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261116T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -1320,7 +1320,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-tiktok@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261117T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: TikTok: Dicionário do Commander #9\, tutor
@@ -1353,31 +1353,31 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-stories-mulligan@fontedemana.com.br
-DTSTAMP:20261117T005849Z
+DTSTAMP:20261117T010055Z
 DTSTART:20261117T210000Z
 DURATION:PT15M
 SUMMARY:18:00 Instagram Stories: Parceria com a Mulligan: os produtos chega
  ram (2 Stories)
-DESCRIPTION:Dois Stories avisando a parceria com a Mulligan Jogos: um víde
- o de 8 s com os três produtos (a caixa aberta\, o precon\, o deckbox e as
-  sleeves\, com pouca mão na tela) e a foto dos três produtos com a conta
- gem regressiva para sexta\, quando sai a abertura do precon. Com a loja ma
- rcada\, ela recebe o Story e pode repostar.\n\nArquivos:\n- Story 1: os tr
- ês produtos (vídeo de 8 s): https://fontedemana.com.br/pauta/2026-11-17/
- mulligan/story-1.mp4\n- Story 2: os três produtos: https://fontedemana.co
- m.br/pauta/2026-11-17/mulligan/story-2.jpg\n\nTexto do Story 1:\nAbrindo a
-  caixa da @mulliganjogos\n\nTexto do Story 2:\nEsses três vieram da @mull
- iganjogos e vão virar conteúdo em parceria com eles. Sexta eu abro o pre
- con aqui.\n\nPasso a passo:\n1. Baixe o vídeo e a foto e poste nesta orde
- m.\n2. No Story 1\, escreva o texto do Story 1 e ponha o sticker de Menç
- ão da @mulliganjogos. O vídeo vai sem som: ponha uma música em alta com
-  o sticker de Música.\n3. No Story 2\, escreva o texto do Story 2 e marqu
- e a @mulliganjogos e a @viperacessorios com o sticker de Menção.\n4. Ain
- da no Story 2\, ponha o sticker de Contagem regressiva com o nome Abrindo 
- o precon\, terminando em 20/11 às 19:00.\n5. Não use #recebido nem conte
-  como os produtos chegaram: a parceria com a loja é o que aparece.\n6. Se
-  a loja repostar\, agradeça respondendo o Story dela.\n\nPauta completa: 
- https://fontedemana.com.br/pauta/2026-11-17/#stories-mulligan
+DESCRIPTION:Dois Stories avisando a parceria com a Mulligan Jogos: o vídeo
+  de 15 s da caixa aberta (deckbox\, precon e sleeves) e a foto dos três p
+ rodutos com a contagem regressiva para sexta\, quando sai a abertura do pr
+ econ. Com a loja marcada\, ela recebe o Story e pode repostar.\n\nArquivos
+ :\n- Story 1: a caixa aberta (vídeo de 15 s): https://fontedemana.com.br/
+ pauta/2026-11-17/mulligan/story-1.mp4\n- Story 2: os três produtos: https
+ ://fontedemana.com.br/pauta/2026-11-17/mulligan/story-2.jpg\n\nTexto do St
+ ory 1:\nAbrindo a caixa da @mulliganjogos\n\nTexto do Story 2:\nEsses trê
+ s vieram da @mulliganjogos e vão virar conteúdo em parceria com eles. Se
+ xta eu abro o precon aqui.\n\nPasso a passo:\n1. Baixe o vídeo e a foto e
+  poste nesta ordem.\n2. No Story 1\, escreva o texto do Story 1 e ponha o 
+ sticker de Menção da @mulliganjogos. O som é o da caixa abrindo\; se pr
+ eferir\, troque por uma música em alta.\n3. No Story 2\, escreva o texto 
+ do Story 2 e marque a @mulliganjogos e a @viperacessorios com o sticker de
+  Menção.\n4. Ainda no Story 2\, ponha o sticker de Contagem regressiva c
+ om o nome Abrindo o precon\, terminando em 20/11 às 19:00.\n5. Não use #
+ recebido nem conte como os produtos chegaram: a parceria com a loja é o q
+ ue aparece.\n6. Se a loja repostar\, agradeça respondendo o Story dela.\n
+ \nPauta completa: https://fontedemana.com.br/pauta/2026-11-17/#stories-mul
+ ligan
 URL:https://fontedemana.com.br/pauta/2026-11-17/#stories-mulligan
 BEGIN:VALARM
 ACTION:DISPLAY
