@@ -19,7 +19,8 @@
    "sub": "Você sabe o que isso quer dizer?",
    "narracao": "Segura que vou dar tutor. Sabe o que isso quer dizer?",
    "gravar": "Olhando para a câmera, segura uma carta virada para baixo perto do rosto, como quem esconde a jogada, e diz a frase.",
-   "segundos": 4.7
+   "segundos": 4.7,
+   "caixa": "topo"
   },
   {
    "tipo": "texto",
@@ -72,5 +73,6 @@
    "narracao": "E no seu deck: barato no topo ou caro na mão?",
    "segundos": 4.7
   }
- ]
+ ],
+ "rostoGravado": true
 }
