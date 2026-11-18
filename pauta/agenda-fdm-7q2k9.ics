@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-11-14-gravacao@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261113T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -60,7 +60,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-tiktok@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261114T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Do zero à mesa #3: o Rosa Sedenta
@@ -96,7 +96,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-threads-manha@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261114T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Do zero à mesa #3: o Rosa Sedenta\, deck de
@@ -122,7 +122,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-feed@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261114T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Radar DC500: Do zero à mesa #3: o Rosa Seden
@@ -165,7 +165,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261114T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -184,7 +184,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-stories-tarde@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261114T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -204,7 +204,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-reels@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261115T000000Z
 DURATION:PT15M
 SUMMARY:21:00 Reels: Vídeo original: Do zero à mesa #3: o Rosa Sedenta\, 
@@ -243,7 +243,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-comentarios@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261115T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -265,7 +265,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-gravacao@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261114T231500Z
 DURATION:PT15M
 SUMMARY:20:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -306,7 +306,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-tiktok@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261115T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Rota das Lojas #1\, Jogujogo e o booster de brinde
@@ -340,7 +340,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-threads-manha@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261115T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Rota das Lojas #1: Jogujogo\, na Água Branc
@@ -365,7 +365,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-feed@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261115T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Rota das Lojas #1: Jogujogo\, na Água Branca
@@ -405,7 +405,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261115T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -424,7 +424,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-stories-tarde@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261115T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -444,7 +444,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-reels@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261115T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Rota das Lojas #1: Jogujogo\, na Águ
@@ -481,7 +481,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-comentarios@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261116T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -503,7 +503,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-gravacao@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261115T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -555,7 +555,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-tiktok@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261116T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o Top 5 #7: board wipes
@@ -585,7 +585,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-threads-manha@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261116T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Chama o Juiz #7: dá para conjurar o Panglac
@@ -611,7 +611,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-feed@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261116T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Chama o Juiz #7: dá para conjurar o Panglaci
@@ -649,7 +649,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261116T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -668,7 +668,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-stories-tarde@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261116T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -688,7 +688,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-reels@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261116T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Top 5 #7: os board wipes que salvam a
@@ -724,7 +724,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-comentarios@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261117T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -746,7 +746,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-gravacao@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261116T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -798,7 +798,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-tiktok@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261117T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Dicionário do Commander #9\, tutor
@@ -830,7 +830,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-stories-mulligan@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261117T210000Z
 DURATION:PT15M
 SUMMARY:18:00 Instagram Stories: Parceria com a Mulligan: os produtos chega
@@ -865,7 +865,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-threads-manha@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261117T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Dicionário do Commander #9: o que é tutor
@@ -888,7 +888,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-feed@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261117T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Dicionário do Commander #9: o que é tutor
@@ -927,7 +927,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261117T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -946,7 +946,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-stories-tarde@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261117T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -966,7 +966,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-reels@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261117T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Dicionário do Commander #9: o que é
@@ -1003,7 +1003,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-comentarios@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261118T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1025,7 +1025,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-18-gravacao@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261117T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -1079,7 +1079,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-18-tiktok@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261118T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Rota das Lojas #2\, torneio de precon na MTG Brasil
@@ -1114,7 +1114,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-20-gravacao@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261119T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de 20/11 (você aparece)
@@ -1173,7 +1173,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-20-tiktok@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261120T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Abri o precon Prismari Artistry
@@ -1215,7 +1215,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-20-collab-mulligan@fontedemana.com.br
-DTSTAMP:20261118T020016Z
+DTSTAMP:20261118T020240Z
 DTSTART:20261120T145000Z
 DURATION:PT15M
 SUMMARY:11:50 Instagram feed: Collab com a Mulligan no carrossel e no Reels
@@ -1234,6 +1234,102 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Instagram feed: Collab com a Mulligan no carrossel e no Reels d
  e hoje
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-21-gravacao@fontedemana.com.br
+DTSTAMP:20261118T020240Z
+DTSTART:20261119T224500Z
+DURATION:PT15M
+SUMMARY:19:45 Gravação: Gravar o vídeo de 21/11 (você aparece)
+DESCRIPTION:2 de 3 gravações da noite (20\, 21 e 22/11). Do zero à mesa 
+ #4\, o double sleeve: você aparece mostrando as sleeves do pacote e coloc
+ ando as duas numa carta\; as outras cenas são só a sua voz.\n\nArquivos:
+ \n- Vídeo mudo do TikTok: https://fontedemana.com.br/pauta/2026-11-21/tik
+ tok/tiktok-mudo.mp4\n\nRoteiro de gravação:\nCena 1\, rosto\, uns 3 s\nN
+ a tela: Sleeves do pacote\, Duas sleeves numa carta\nComo gravar: Rosto: M
+ ostra para a câmera o pacote de Perfect Fit e a caixa de Dragon Shield qu
+ e vieram no pacote\, um em cada mão.\nFala: Vieram sleeves no pacote. Vir
+ ou double sleeve.\n\nCena 2\, rosto\, uns 4 s\nNa tela: Passo 1\, A justa\
+ , de cabeça para baixo\nComo gravar: Rosto: Coloca a Perfect Fit numa car
+ ta do Corte Carmesim\, entrando pelo lado de cima da carta\, devagar e per
+ to da câmera.\nFala: Primeiro a justa\, entrando de cabeça para baixo.\n
+ \nCena 3\, rosto\, uns 4 s\nNa tela: Passo 2\, A de fora\, pelo outro lado
+ \nComo gravar: Rosto: Coloca a Dragon Shield por cima da Perfect Fit\, ent
+ rando pelo lado de baixo\, e mostra a carta pronta para a câmera.\nFala: 
+ Depois a Dragon Shield por cima\, pelo outro lado.\n\nCena 4\, só a voz\,
+  uns 6 s\nNa tela: Por que duas\, Poeira e líquido não entram\, A abertu
+ ra de uma sleeve fica tampada pela outra.\nComo gravar: Só a voz: pode gr
+ avar em vídeo ou áudio\nFala: Assim a abertura de uma fica tampada pela 
+ outra: poeira e líquido não entram.\n\nCena 5\, só a voz\, uns 5 s\nNa 
+ tela: Onde eu usei\, Teferi's Protection\, Carta cara ganhou duas sleeves.
+ \nComo gravar: Só a voz: pode gravar em vídeo ou áudio\nFala: Usei nas 
+ cartas caras do Corte Carmesim\, como a Teferi's Protection.\n\nCena 6\, s
+ ó a voz\, uns 6 s\nNa tela: Quanto custa no Brasil\, Perfect Fit (100) R$
+  24\,99\, Dragon Shield (100) R$ 86\,39\nComo gravar: Só a voz: pode grav
+ ar em vídeo ou áudio\nFala: Aqui\, a justa sai a partir de uns 25 reais\
+ , e a Dragon Shield\, uns 86.\n\nCena 7\, só a voz\, uns 3 s\nNa tela: Do
+  zero à mesa\, Uma sleeve ou duas?\nComo gravar: Só a voz: pode gravar e
+ m vídeo ou áudio\nFala: E você\, usa uma sleeve ou duas?\n\n\nPasso a p
+ asso:\n1. Celular na vertical\, câmera da frente\, na altura dos olhos\, 
+ a um braço de distância.\n2. Rosto na metade de cima da tela: o título 
+ entra embaixo dele\, na altura do peito.\n3. Luz de frente (de frente para
+  a janela) e fundo arrumado\; a estante de cartas é ótima.\n4. Desligue 
+ o Vídeo HDR (Ajustes\, Câmera\, Gravar Vídeo) para as cores não lavare
+ m.\n5. Um vídeo por cena\, falando para a câmera\, com meio segundo de s
+ ilêncio antes e depois\; nomeie cena_1\, cena_2... e mande todos juntos.\
+ n6. Nas cenas sem rosto\, só a voz conta: pode gravar em vídeo ou só o 
+ áudio.\n7. Tenha à mão o pacote de Perfect Fit\, a caixa de Dragon Shie
+ ld e uma carta do Corte Carmesim (a Teferi's Protection\, se der).\n8. Nã
+ o mostre etiqueta\, nota ou print de pedido\, nem diga de que país veio o
+  pacote.\n9. Mande os vídeos ao Claude no projeto MGT strategy\, na conve
+ rsa da gravação adiantada\, dizendo "vídeos do TikTok de 2026-11-21".\n
+ \nPauta completa: https://fontedemana.com.br/pauta/2026-11-21/#gravacao
+URL:https://fontedemana.com.br/pauta/2026-11-21/#gravacao
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Gravação: Gravar o vídeo de 21/11 (você aparece)
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-21-tiktok@fontedemana.com.br
+DTSTAMP:20261118T020240Z
+DTSTART:20261121T143000Z
+DURATION:PT15M
+SUMMARY:11:30 TikTok: Do zero à mesa #4: double sleeve
+DESCRIPTION:As sleeves que vieram no pacote viraram proteção dupla: os do
+ is passos\, onde vale a pena e quanto custa no Brasil\, em 30 s.\n\nArquiv
+ os:\n- Vídeo mudo do TikTok (troque pelo narrado quando chegar): https://
+ fontedemana.com.br/pauta/2026-11-21/tiktok/tiktok-mudo.mp4\n\nLegenda:\nDo
+ uble sleeve no Commander: vale colocar duas sleeves na carta? Do zero à m
+ esa #4: no pacote que eu comprei na gringa vieram sleeves Perfect Fit e um
+ a caixa de Dragon Shield\, e eu usei as duas juntas.\n\nPrimeiro a Perfect
+  Fit\, a justa\, entrando de cabeça para baixo. Depois a Dragon Shield po
+ r cima\, pelo outro lado. Uma abertura fica tampada pela outra\, e poeira 
+ e líquido não entram. Foi o que eu fiz nas cartas mais caras do Corte Ca
+ rmesim\, como a Teferi's Protection\, que sai a partir de US$ 38\,30 (R$ 2
+ 16\,46).\n\nNo Brasil\, a Perfect Fit sai a partir de R$ 24\,99 e a Dragon
+  Shield Matte a partir de R$ 86\,39 na LigaMagic (17 nov).\n\nE você\, us
+ a uma sleeve ou duas? A série completa está em fontedemana.com.br\n\nVal
+ ores em reais pela cotação de 13 nov (Banco Central\, PTAX).\n\n#doubles
+ leeve #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted
+  under the Fan Content Policy. Not approved/endorsed by Wizards. Portions 
+ of the materials used are property of Wizards of the Coast. ©Wizards of t
+ he Coast LLC.\n\nComentário fixado:\nUma sleeve ou duas: qual é a sua? D
+ o zero à mesa é a série do pacote do plástico bolha\, e este é o #4.\
+ n\nPasso a passo:\n1. No TikTok\, toque em + e escolha o vídeo baixado da
+ qui.\n2. Adicione um som em alta da biblioteca do TikTok com volume entre 
+ 15% e 20%\, sem cobrir a voz.\n3. Voz própria não precisa de rótulo de 
+ IA.\n4. Cole a Legenda e publique.\n5. Fixe o comentário.\n6. Se o vídeo
+  narrado não chegar\, poste o mudo com música em alta.\n\nValores em rea
+ is pela cotação de 13 nov (Banco Central\, PTAX).\n\nPauta completa: htt
+ ps://fontedemana.com.br/pauta/2026-11-21/#tiktok
+URL:https://fontedemana.com.br/pauta/2026-11-21/#tiktok
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TikTok: Do zero à mesa #4: double sleeve
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT

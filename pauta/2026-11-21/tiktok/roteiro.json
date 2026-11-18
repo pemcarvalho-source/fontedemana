@@ -1,0 +1,93 @@
+{
+ "data": "2026-11-21",
+ "pilar": "vitrine",
+ "tema": "Do zero à mesa #4: double sleeve com as sleeves que vieram no pacote da gringa",
+ "item": null,
+ "arte": "pauta/2026-11-21/tiktok/arte.jpg",
+ "carta": "pauta/2026-11-21/tiktok/carta.jpg",
+ "credito": "Arte: Teferi's Protection, Chase Stone",
+ "fx": "Reais pela cotação de 13 nov (Banco Central, PTAX)",
+ "legenda": "Double sleeve no Commander: vale colocar duas sleeves na carta? Do zero à mesa #4: no pacote que eu comprei na gringa vieram sleeves Perfect Fit e uma caixa de Dragon Shield, e eu usei as duas juntas.\n\nPrimeiro a Perfect Fit, a justa, entrando de cabeça para baixo. Depois a Dragon Shield por cima, pelo outro lado. Uma abertura fica tampada pela outra, e poeira e líquido não entram. Foi o que eu fiz nas cartas mais caras do Corte Carmesim, como a Teferi's Protection, que sai a partir de US$ 38,30 (R$ 216,46).\n\nNo Brasil, a Perfect Fit sai a partir de R$ 24,99 e a Dragon Shield Matte a partir de R$ 86,39 na LigaMagic (17 nov).\n\nE você, usa uma sleeve ou duas? A série completa está em fontedemana.com.br\n\nValores em reais pela cotação de 13 nov (Banco Central, PTAX).\n\n#doublesleeve #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
+ "comentario": "Uma sleeve ou duas: qual é a sua? Do zero à mesa é a série do pacote do plástico bolha, e este é o #4.",
+ "cenas": [
+  {
+   "tipo": "rosto",
+   "cor": "W",
+   "chip": "Do zero à mesa #4",
+   "kicker": "Sleeves do pacote",
+   "titulo": "Duas sleeves numa carta",
+   "narracao": "Vieram sleeves no pacote. Virou double sleeve.",
+   "gravar": "Mostra para a câmera o pacote de Perfect Fit e a caixa de Dragon Shield que vieram no pacote, um em cada mão.",
+   "segundos": 3.2
+  },
+  {
+   "tipo": "rosto",
+   "cor": "W",
+   "kicker": "Passo 1",
+   "titulo": "A justa, de cabeça para baixo",
+   "narracao": "Primeiro a justa, entrando de cabeça para baixo.",
+   "gravar": "Coloca a Perfect Fit numa carta do Corte Carmesim, entrando pelo lado de cima da carta, devagar e perto da câmera.",
+   "segundos": 3.6
+  },
+  {
+   "tipo": "rosto",
+   "cor": "W",
+   "kicker": "Passo 2",
+   "titulo": "A de fora, pelo outro lado",
+   "narracao": "Depois a Dragon Shield por cima, pelo outro lado.",
+   "gravar": "Coloca a Dragon Shield por cima da Perfect Fit, entrando pelo lado de baixo, e mostra a carta pronta para a câmera.",
+   "segundos": 3.9
+  },
+  {
+   "tipo": "texto",
+   "cor": "U",
+   "kicker": "Por que duas",
+   "titulo": "Poeira e líquido não entram",
+   "sub": "A abertura de uma sleeve fica tampada pela outra.",
+   "narracao": "Assim a abertura de uma fica tampada pela outra: poeira e líquido não entram.",
+   "segundos": 5.8
+  },
+  {
+   "tipo": "carta",
+   "cor": "W",
+   "kicker": "Onde eu usei",
+   "carta": "pauta/2026-11-21/tiktok/carta-1.jpg",
+   "titulo": "Teferi's Protection",
+   "valor": "US$ 38,30",
+   "real": "(R$ 216,46)",
+   "sub": "Carta cara ganhou duas sleeves.",
+   "fonte": "Scryfall, a partir de",
+   "narracao": "Usei nas cartas caras do Corte Carmesim, como a Teferi's Protection.",
+   "segundos": 4.7
+  },
+  {
+   "tipo": "lista",
+   "cor": "A",
+   "chip": "No bolso",
+   "kicker": "Quanto custa no Brasil",
+   "linhas": [
+    {
+     "nome": "Perfect Fit (100)",
+     "valor": "R$ 24,99"
+    },
+    {
+     "nome": "Dragon Shield (100)",
+     "valor": "R$ 86,39"
+    }
+   ],
+   "rodape": "Menor preço na LigaMagic, 17 nov.",
+   "fonte": "LigaMagic",
+   "narracao": "Aqui, a justa sai a partir de uns 25 reais, e a Dragon Shield, uns 86.",
+   "segundos": 6.5
+  },
+  {
+   "tipo": "cta",
+   "cor": "M",
+   "kicker": "Do zero à mesa",
+   "titulo": "Uma sleeve ou duas?",
+   "destaque": "@fontedemana",
+   "narracao": "E você, usa uma sleeve ou duas?",
+   "segundos": 3.2
+  }
+ ]
+}

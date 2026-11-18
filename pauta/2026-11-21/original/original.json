@@ -1,0 +1,130 @@
+{
+ "data": "2026-11-21",
+ "pilar": "vitrine",
+ "item": null,
+ "tema": "Do zero à mesa #4: double sleeve com as sleeves que vieram no pacote da gringa",
+ "cartas": [
+  "Teferi's Protection",
+  "Edgar Markov"
+ ],
+ "fx": "Valores em reais pela cotação de 13 nov (Banco Central, PTAX).",
+ "carrossel": {
+  "capa": {
+   "cor": "W",
+   "chip": "Do zero à mesa #4",
+   "kicker": "Sleeves que vieram no pacote",
+   "titulo": "Double sleeve em <b>dois passos</b>",
+   "sub": "Perfect Fit por dentro, Dragon Shield por fora: <b>uma abertura tampa a outra</b>. E quanto custa fazer aqui.",
+   "arte": "pauta/2026-11-21/tiktok/arte.jpg",
+   "credito": "Arte: Teferi's Protection, Chase Stone"
+  },
+  "cartoes": [
+   {
+    "cor": "W",
+    "titulo": "O que veio no pacote",
+    "itens": [
+     {
+      "cor": "W",
+      "html": "<b>2 pacotes</b> de sleeves Perfect Fit, 64 x 89 mm: as justas."
+     },
+     {
+      "cor": "W",
+      "html": "<b>1 caixa</b> de Dragon Shield com 60 sleeves: as de fora."
+     },
+     {
+      "cor": "G",
+      "html": "Conferi: as Dragon Shield servem em carta de Magic."
+     }
+    ],
+    "fonte": "Do zero à mesa, o pacote do plástico bolha"
+   },
+   {
+    "cor": "U",
+    "titulo": "Passo 1: a justa por dentro",
+    "itens": [
+     {
+      "cor": "U",
+      "html": "A <b>Perfect Fit</b> entra na carta <b>de cabeça para baixo</b>: a abertura fica embaixo."
+     },
+     {
+      "cor": "U",
+      "html": "Ela é justa na carta e protege da gordura da mão e do atrito do embaralhar."
+     }
+    ],
+    "fonte": "Fonte: descrição dos fabricantes na LigaMagic"
+   },
+   {
+    "cor": "U",
+    "titulo": "Passo 2: a de fora",
+    "itens": [
+     {
+      "cor": "U",
+      "html": "A <b>Dragon Shield</b> entra por cima da justa, <b>pelo outro lado</b>."
+     },
+     {
+      "cor": "U",
+      "html": "As aberturas ficam em lados opostos: uma tampa a outra, e poeira e líquido não entram."
+     }
+    ],
+    "nota": {
+     "rotulo": "Na prática",
+     "texto": "a carta fica um pouco mais grossa, e o deck também. Vale testar no seu deckbox."
+    },
+    "fonte": "Fonte: descrição dos fabricantes na LigaMagic"
+   },
+   {
+    "cor": "W",
+    "titulo": "Onde eu usei",
+    "carta": "pauta/2026-11-21/original/carta-1.jpg",
+    "itens": [
+     {
+      "cor": "W",
+      "html": "Nas cartas caras do Corte Carmesim, como a <b>Teferi's Protection</b>: a partir de US$ 38,30 (R$ 216,46)."
+     },
+     {
+      "cor": "B",
+      "html": "E no comandante, o Edgar Markov, que veio no mesmo pacote."
+     }
+    ],
+    "fonte": "Fonte: Scryfall, 17 nov"
+   },
+   {
+    "cor": "A",
+    "titulo": "Quanto custa no Brasil",
+    "itens": [
+     {
+      "cor": "A",
+      "html": "<b>Perfect Fit</b> (100): a partir de <b>R$ 24,99</b>."
+     },
+     {
+      "cor": "A",
+      "html": "<b>Dragon Shield Matte</b> (100): a partir de <b>R$ 86,39</b>."
+     },
+     {
+      "cor": "G",
+      "html": "Para um deck de Commander, um pacote de cada."
+     }
+    ],
+    "fonte": "Fonte: LigaMagic, menor preço em 17 nov"
+   }
+  ],
+  "cta": {
+   "pergunta": "Você usa <b>uma sleeve ou duas</b>?",
+   "quando": "Do zero à mesa, a série do pacote",
+   "salvar": "Salve para fazer o double sleeve do seu deck"
+  }
+ },
+ "legenda": "Double sleeve no Commander: como fazer e quanto custa no Brasil? Do zero à mesa #4: no pacote que eu comprei na gringa vieram sleeves Perfect Fit e uma caixa de Dragon Shield, e virou proteção dupla.\n\nPasso 1: a Perfect Fit, a justa, entra de cabeça para baixo. Passo 2: a Dragon Shield entra por cima, pelo outro lado. As aberturas ficam em lados opostos, então uma tampa a outra.\n\nUsei nas cartas caras do Corte Carmesim, como a Teferi's Protection, a partir de US$ 38,30 (R$ 216,46) no Scryfall.\n\nNo Brasil, a Perfect Fit sai a partir de R$ 24,99 e a Dragon Shield Matte a partir de R$ 86,39 na LigaMagic (17 nov). Fontes: Scryfall e LigaMagic. A série completa está em fontedemana.com.br\n\nVocê usa uma sleeve ou duas?\n\nValores em reais pela cotação de 13 nov (Banco Central, PTAX).\n\n#doublesleeve #commander #mtg",
+ "threads": {
+  "texto": "Double sleeve no Commander: proteção que vale a pena ou exagero? Coloquei Perfect Fit e Dragon Shield nas cartas caras do meu deck de vampiros, uma abertura tampando a outra. Tem gente que faz no deck inteiro, tem gente que acha que uma sleeve já basta. E na sua mesa?",
+  "obs": "Enquete com as opções: Sempre duas, Só nas cartas caras, Uma basta"
+ },
+ "enquete": {
+  "pergunta": "Você usa double sleeve?",
+  "opcoes": [
+   "Sempre",
+   "Só nas cartas caras",
+   "Uma basta"
+  ]
+ }
+}

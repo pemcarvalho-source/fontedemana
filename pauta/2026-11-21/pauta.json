@@ -1,0 +1,106 @@
+{
+  "data": "2026-11-21",
+  "fx": "Valores em reais pela cotação de 13 nov (Banco Central, PTAX).",
+  "avisos": [
+    {
+      "id": "gravacao",
+      "dia": "2026-11-19",
+      "hora": "19:45",
+      "rede": "Gravação",
+      "titulo": "Gravar o vídeo de 21/11 (você aparece)",
+      "oQue": "2 de 3 gravações da noite (20, 21 e 22/11). Do zero à mesa #4, o double sleeve: você aparece mostrando as sleeves do pacote e colocando as duas numa carta; as outras cenas são só a sua voz.",
+      "arquivos": [
+        {
+          "nome": "Vídeo mudo do TikTok",
+          "url": "https://fontedemana.com.br/pauta/2026-11-21/tiktok/tiktok-mudo.mp4"
+        }
+      ],
+      "roteiro": [
+        {
+          "cena": "Cena 1, rosto, uns 3 s",
+          "tela": "Sleeves do pacote, Duas sleeves numa carta",
+          "fala": "Vieram sleeves no pacote. Virou double sleeve.",
+          "como": "Rosto: Mostra para a câmera o pacote de Perfect Fit e a caixa de Dragon Shield que vieram no pacote, um em cada mão."
+        },
+        {
+          "cena": "Cena 2, rosto, uns 4 s",
+          "tela": "Passo 1, A justa, de cabeça para baixo",
+          "fala": "Primeiro a justa, entrando de cabeça para baixo.",
+          "como": "Rosto: Coloca a Perfect Fit numa carta do Corte Carmesim, entrando pelo lado de cima da carta, devagar e perto da câmera."
+        },
+        {
+          "cena": "Cena 3, rosto, uns 4 s",
+          "tela": "Passo 2, A de fora, pelo outro lado",
+          "fala": "Depois a Dragon Shield por cima, pelo outro lado.",
+          "como": "Rosto: Coloca a Dragon Shield por cima da Perfect Fit, entrando pelo lado de baixo, e mostra a carta pronta para a câmera."
+        },
+        {
+          "cena": "Cena 4, só a voz, uns 6 s",
+          "tela": "Por que duas, Poeira e líquido não entram, A abertura de uma sleeve fica tampada pela outra.",
+          "fala": "Assim a abertura de uma fica tampada pela outra: poeira e líquido não entram.",
+          "como": "Só a voz: pode gravar em vídeo ou áudio"
+        },
+        {
+          "cena": "Cena 5, só a voz, uns 5 s",
+          "tela": "Onde eu usei, Teferi's Protection, Carta cara ganhou duas sleeves.",
+          "fala": "Usei nas cartas caras do Corte Carmesim, como a Teferi's Protection.",
+          "como": "Só a voz: pode gravar em vídeo ou áudio"
+        },
+        {
+          "cena": "Cena 6, só a voz, uns 6 s",
+          "tela": "Quanto custa no Brasil, Perfect Fit (100) R$ 24,99, Dragon Shield (100) R$ 86,39",
+          "fala": "Aqui, a justa sai a partir de uns 25 reais, e a Dragon Shield, uns 86.",
+          "como": "Só a voz: pode gravar em vídeo ou áudio"
+        },
+        {
+          "cena": "Cena 7, só a voz, uns 3 s",
+          "tela": "Do zero à mesa, Uma sleeve ou duas?",
+          "fala": "E você, usa uma sleeve ou duas?",
+          "como": "Só a voz: pode gravar em vídeo ou áudio"
+        }
+      ],
+      "passos": [
+        "Celular na vertical, câmera da frente, na altura dos olhos, a um braço de distância.",
+        "Rosto na metade de cima da tela: o título entra embaixo dele, na altura do peito.",
+        "Luz de frente (de frente para a janela) e fundo arrumado; a estante de cartas é ótima.",
+        "Desligue o Vídeo HDR (Ajustes, Câmera, Gravar Vídeo) para as cores não lavarem.",
+        "Um vídeo por cena, falando para a câmera, com meio segundo de silêncio antes e depois; nomeie cena_1, cena_2... e mande todos juntos.",
+        "Nas cenas sem rosto, só a voz conta: pode gravar em vídeo ou só o áudio.",
+        "Tenha à mão o pacote de Perfect Fit, a caixa de Dragon Shield e uma carta do Corte Carmesim (a Teferi's Protection, se der).",
+        "Não mostre etiqueta, nota ou print de pedido, nem diga de que país veio o pacote.",
+        "Mande os vídeos ao Claude no projeto MGT strategy, na conversa da gravação adiantada, dizendo \"vídeos do TikTok de 2026-11-21\"."
+      ]
+    },
+    {
+      "id": "tiktok",
+      "hora": "11:30",
+      "rede": "TikTok",
+      "titulo": "Do zero à mesa #4: double sleeve",
+      "oQue": "As sleeves que vieram no pacote viraram proteção dupla: os dois passos, onde vale a pena e quanto custa no Brasil, em 30 s.",
+      "arquivos": [
+        {
+          "nome": "Vídeo mudo do TikTok (troque pelo narrado quando chegar)",
+          "url": "https://fontedemana.com.br/pauta/2026-11-21/tiktok/tiktok-mudo.mp4"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Double sleeve no Commander: vale colocar duas sleeves na carta? Do zero à mesa #4: no pacote que eu comprei na gringa vieram sleeves Perfect Fit e uma caixa de Dragon Shield, e eu usei as duas juntas.\n\nPrimeiro a Perfect Fit, a justa, entrando de cabeça para baixo. Depois a Dragon Shield por cima, pelo outro lado. Uma abertura fica tampada pela outra, e poeira e líquido não entram. Foi o que eu fiz nas cartas mais caras do Corte Carmesim, como a Teferi's Protection, que sai a partir de US$ 38,30 (R$ 216,46).\n\nNo Brasil, a Perfect Fit sai a partir de R$ 24,99 e a Dragon Shield Matte a partir de R$ 86,39 na LigaMagic (17 nov).\n\nE você, usa uma sleeve ou duas? A série completa está em fontedemana.com.br\n\nValores em reais pela cotação de 13 nov (Banco Central, PTAX).\n\n#doublesleeve #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        },
+        {
+          "rotulo": "Comentário fixado",
+          "texto": "Uma sleeve ou duas: qual é a sua? Do zero à mesa é a série do pacote do plástico bolha, e este é o #4."
+        }
+      ],
+      "passos": [
+        "No TikTok, toque em + e escolha o vídeo baixado daqui.",
+        "Adicione um som em alta da biblioteca do TikTok com volume entre 15% e 20%, sem cobrir a voz.",
+        "Voz própria não precisa de rótulo de IA.",
+        "Cole a Legenda e publique.",
+        "Fixe o comentário.",
+        "Se o vídeo narrado não chegar, poste o mudo com música em alta."
+      ]
+    }
+  ]
+}
