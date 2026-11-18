@@ -1,0 +1,116 @@
+{
+ "data": "2026-11-22",
+ "pilar": "debate",
+ "item": "Proxy na mesa casual: pode ou não?",
+ "tema": "Debate da semana #2: proxy na mesa casual de Commander, pode ou não?",
+ "cartas": [
+  "Arcane Proxy"
+ ],
+ "fx": null,
+ "carrossel": {
+  "capa": {
+   "cor": "R",
+   "chip": "Debate da semana #2",
+   "kicker": "Proxy no Commander",
+   "titulo": "Proxy na mesa casual: <b>pode ou não</b>?",
+   "sub": "O que a Wizards diz, o melhor argumento de cada lado e o que os dois aceitam. <b>A Fonte não toma partido.</b>",
+   "arte": "pauta/2026-11-22/tiktok/arte.jpg",
+   "credito": "Arte: Arcane Proxy, Kekai Kotaki"
+  },
+  "cartoes": [
+   {
+    "cor": "U",
+    "titulo": "O que a Wizards diz",
+    "itens": [
+     {
+      "cor": "U",
+      "html": "Em evento oficial, <b>só carta original</b>. Proxy é termo de torneio: a carta que o juiz troca quando a sua estraga."
+     },
+     {
+      "cor": "U",
+      "html": "Carta de teste, como um terreno com outro nome escrito à caneta, <b>para uso pessoal</b>: ela diz que não quer policiar."
+     },
+     {
+      "cor": "B",
+      "html": "Falsificação é outra coisa, e a Wizards combate."
+     }
+    ],
+    "fonte": "Fonte: Wizards, On Proxies, Policy, and Communication"
+   },
+   {
+    "cor": "G",
+    "titulo": "Quem defende",
+    "itens": [
+     {
+      "cor": "G",
+      "html": "<b>Commander é caro.</b> Carta de teste deixa mais gente jogar."
+     },
+     {
+      "cor": "G",
+      "html": "Dá para <b>testar antes de comprar</b> a carta cara."
+     },
+     {
+      "cor": "G",
+      "html": "A mesa joga contra o jogador, <b>não contra a carteira</b>."
+     }
+    ],
+    "fonte": "Fontes: Draftsim e Geeky Domain"
+   },
+   {
+    "cor": "R",
+    "titulo": "Quem é contra",
+    "itens": [
+     {
+      "cor": "R",
+      "html": "Com proxy vem a <b>carta mais forte</b>, e o deck atropela a mesa."
+     },
+     {
+      "cor": "R",
+      "html": "Quem montou com o que tinha sente que <b>o jogo ficou desigual</b>."
+     },
+     {
+      "cor": "R",
+      "html": "A loja que empresta a mesa <b>vive de vender carta</b>."
+     }
+    ],
+    "fonte": "Fontes: Draftsim, Commander's Herald e Geeky Domain"
+   },
+   {
+    "cor": "M",
+    "titulo": "O que os dois aceitam",
+    "itens": [
+     {
+      "cor": "M",
+      "html": "<b>Avisar antes</b>, no rule zero, e a mesa decide."
+     },
+     {
+      "cor": "M",
+      "html": "Carta de teste <b>legível</b>, que ninguém confunda com original."
+     },
+     {
+      "cor": "M",
+      "html": "Proxy não serve para <b>subir a potência escondido</b>."
+     }
+    ],
+    "fonte": "Fontes: Draftsim e Tapped Out"
+   }
+  ],
+  "cta": {
+   "pergunta": "Proxy na mesa casual: <b>pode ou não</b>?",
+   "quando": "Debate da semana: os dois lados, sem torcida",
+   "salvar": "Salve para levar ao rule zero da sua mesa"
+  }
+ },
+ "legenda": "Proxy no Commander: pode ou não pode na mesa casual? Debate da semana #2, com os dois lados no mesmo espaço.\n\nO que a Wizards diz: em evento oficial, só carta original. Carta de teste para uso pessoal, sem venda, ela diz que não quer policiar, nem quando o jogo é na loja. Falsificação é outra história.\n\nQuem defende: o formato é caro, dá para testar a carta antes de comprar, e a mesa joga contra o jogador, não contra a carteira.\n\nQuem é contra: com proxy vem a carta mais forte, e o deck atropela quem montou com o que tinha.\n\nO que os dois lados aceitam: avisar antes, no rule zero, com carta de teste legível.\n\nFontes: Wizards, Draftsim, Geeky Domain e Commander's Herald. Mais em fontedemana.com.br\n\nDe que lado você está?\n\n#proxy #commander #mtg",
+ "threads": {
+  "texto": "Proxy na mesa casual de Commander: pode ou não pode? Em evento oficial, só carta original. Fora disso, a Wizards diz que não quer policiar carta de teste para uso pessoal. Quem defende fala do preço e de testar antes de comprar; quem é contra diz que o deck de proxy atropela a mesa. Na sua mesa, como é?",
+  "obs": "Enquete com as opções: Pode, Não pode"
+ },
+ "enquete": {
+  "pergunta": "Proxy na mesa casual?",
+  "opcoes": [
+   "Pode",
+   "Não pode"
+  ]
+ }
+}
