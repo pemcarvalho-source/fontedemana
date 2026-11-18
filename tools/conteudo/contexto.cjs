@@ -138,6 +138,14 @@ const out = [];
 if (!SO_PUB) {
   const p = pilarDo(DATA);
   out.push(`Data: ${DATA} (${EXTENSO[p.dia]}), semana ISO ${p.sem}, semana ${p.ab}. Plano ${plano.versao || '?'}.`);
+  // gravação adiantada (plano.json > adiantados): o original do dia já foi preparado antes e o Paulo já tem o roteiro
+  const adiant = (plano.adiantados || []).find(x => (x.dias || []).includes(DATA));
+  if (adiant) {
+    const falta = [ler('pauta/' + DATA + '/tiktok/roteiro.json') == null ? 'o roteiro.json' : null, ler('pauta/' + DATA + '/original/original.json') == null ? 'o original.json' : null].filter(Boolean);
+    out.push(`ADIANTADO: o original de ${DATA} foi preparado em ${adiant.preparado} e o Paulo grava em ${adiant.gravacao} (${adiant.motivo}). ` + (falta.length
+      ? `Falta ${falta.join(' e ')}: faça só o que falta, sem mexer no que já existe nem nos avisos de gravação.`
+      : `Na tarefa da noite, não refaça nada (roteiro, vídeo, carrossel ou avisos): termine com a mensagem "O original de ${DATA} já está pronto desde ${adiant.preparado}; a gravação é em ${adiant.gravacao}. Nada a fazer hoje."`));
+  }
   if (!p.def) out.push('Pilar: não encontrado em tools/conteudo/plano.json. Use "historia".');
   else {
     const nomeDe = id => ((plano.pilares || {})[id] || {}).nome || id;
