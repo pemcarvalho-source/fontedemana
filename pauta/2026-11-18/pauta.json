@@ -8,7 +8,7 @@
    "hora": "19:15",
    "rede": "Gravação",
    "titulo": "Gravar o vídeo de amanhã (você aparece)",
-   "oQue": "Rota das Lojas #2: o torneio de precon na MTG Brasil. Você aparece nas cenas 1 e 6; nas outras, só a voz. Seis cenas, uns 29 s no total.",
+   "oQue": "Rota das Lojas #2: o torneio de Commander precon em duplas na MTG Brasil. Você aparece nas cenas 1 e 6; nas outras, só a voz. Seis cenas, uns 30 s no total.",
    "arquivos": [
     {
      "nome": "Vídeo mudo (referência)",
@@ -23,34 +23,34 @@
      "como": "Rosto: Olhando para a câmera, mostra perto do rosto as duas cartas que foi buscar na loja e diz a frase."
     },
     {
-     "cena": "Cena 2, só a voz, uns 6 s",
-     "tela": "A loja deu o ingresso e emprestou um deck. Torneio de precon: cada um joga com um deck pronto, de fábrica",
-     "fala": "A loja deu o ingresso e me emprestou um precon, deck pronto de fábrica.",
+     "cena": "Cena 2, só a voz, uns 5 s",
+     "tela": "Commander precon em duplas. Duas duplas se enfrentam na mesa. Só vale deck precon, o pronto de fábrica",
+     "fala": "Commander precon em duplas: duas duplas se enfrentam, só com deck pronto.",
      "como": "Só a voz: pode gravar em vídeo ou áudio"
     },
     {
-     "cena": "Cena 3, só a voz, uns 5 s",
-     "tela": "Jace, Multiverse Architect (carta). Compra 2 cartas e devolve 1 para o fundo do deck",
-     "fala": "No comando, o Jace: compra duas e devolve uma pro fundo do deck.",
+     "cena": "Cena 3, só a voz, uns 6 s",
+     "tela": "Faltava um para fechar uma dupla. A loja me deu o ingresso e emprestou um deck",
+     "fala": "Pra fechar uma dupla, a loja me deu o ingresso e um deck emprestado.",
      "como": "Só a voz: pode gravar em vídeo ou áudio"
     },
     {
-     "cena": "Cena 4, só a voz, uns 4 s",
-     "tela": "Quer atacar o Jace? Paga 2 manas. Quem não paga não ataca o Jace naquele turno",
-     "fala": "Pra atacar o Jace, o oponente paga duas manas.",
+     "cena": "Cena 4, só a voz, uns 6 s",
+     "tela": "Jace, Multiverse Architect (carta). No −3, troca uma criatura sua pela próxima do deck",
+     "fala": "O forte do Jace é o menos três: troca uma criatura sua pela próxima do deck.",
      "como": "Só a voz: pode gravar em vídeo ou áudio"
     },
     {
-     "cena": "Cena 5, só a voz, uns 4 s",
-     "tela": "4 rodadas: 2 derrotas e 2 empates. Nenhuma vitória no torneio",
-     "fala": "Resultado: quatro rodadas, duas derrotas e dois empates.",
+     "cena": "Cena 5, só a voz, uns 3 s",
+     "tela": "4 rodadas: 2 derrotas e 2 empates. Nenhuma vitória, muita lição",
+     "fala": "Quatro rodadas: duas derrotas e dois empates.",
      "como": "Só a voz: pode gravar em vídeo ou áudio"
     },
     {
-     "cena": "Cena 6, rosto, uns 6 s",
-     "tela": "Dá para chegar sem deck e jogar. Você já jogou com deck emprestado da loja?",
-     "fala": "Dá pra chegar sem deck e jogar. Você já jogou com deck da loja?",
-     "como": "Rosto: Olhando para a câmera, de mãos abertas (sem deck), fala a lição em tom de conversa, como quem conta para um amigo."
+     "cena": "Cena 6, rosto, uns 5 s",
+     "tela": "Conheça o seu precon e o da dupla. Os dois decks precisam jogar juntos",
+     "fala": "Lição: conheça o seu precon e o da dupla. Os dois jogam juntos.",
+     "como": "Rosto: Olhando para a câmera, segura um deck em cada mão (o seu e o da dupla) e junta os dois enquanto fala a lição."
     }
    ],
    "passos": [
@@ -60,7 +60,7 @@
     "Desligue o Vídeo HDR (Ajustes, Câmera, Gravar Vídeo) para as cores não lavarem.",
     "Um vídeo por cena, falando para a câmera, com meio segundo de silêncio antes e depois; nomeie cena_1, cena_2... e mande todos juntos.",
     "Nas cenas sem rosto, só a voz conta: pode gravar em vídeo ou só o áudio, num lugar silencioso, com o celular a um palmo da boca.",
-    "Para a cena 1, tenha à mão as duas cartas que você foi buscar na loja. Não mostre nem cite os adversários do torneio.",
+    "Para a cena 1, tenha à mão as duas cartas que você foi buscar; para a cena 6, dois decks (um em cada mão). Não mostre nem cite os adversários do torneio.",
     "Mande os vídeos ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"vídeos do TikTok de 2026-11-18\"."
    ]
   },
@@ -69,7 +69,7 @@
    "hora": "11:30",
    "rede": "TikTok",
    "titulo": "Rota das Lojas #2, torneio de precon na MTG Brasil",
-   "oQue": "Vídeo da Rota das Lojas #2: fui buscar duas cartas na MTG Brasil e joguei um torneio de precon com o Jace, Multiverse Architect emprestado.",
+   "oQue": "Vídeo da Rota das Lojas #2: torneio de Commander precon em duplas na MTG Brasil, com o Jace, Multiverse Architect emprestado e a lição de conhecer o deck da dupla.",
    "arquivos": [
     {
      "nome": "Vídeo do TikTok (mudo)",
@@ -79,11 +79,11 @@
    "textos": [
     {
      "rotulo": "Legenda",
-     "texto": "Torneio de precon de Commander na MTG Brasil, em São Paulo: você já jogou com deck emprestado da loja?\n\nFui buscar duas cartas que tinha comprado e saí jogando. A loja me deu o ingresso e emprestou um precon, o Multiverse Reforged, de Reality Fracture, com o Jace, Multiverse Architect no comando.\n\nForam 4 rodadas: 2 derrotas e 2 empates. A lição: dá para chegar na loja sem deck e jogar. Bom para quem está começando ou voltando ao Magic.\n\nMais no fontedemana.com.br\n\n#precon #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+     "texto": "Torneio de Commander precon em duplas na MTG Brasil, em São Paulo: você já jogou com deck emprestado da loja?\n\nFui buscar duas cartas que tinha comprado e saí jogando. No torneio, duas duplas se enfrentam e só vale deck precon. Para completar uma dupla, a loja me deu o ingresso e emprestou um deck: o Multiverse Reforged, de Reality Fracture, com o Jace, Multiverse Architect no comando.\n\nForam 4 rodadas: 2 derrotas e 2 empates. A lição: conheça as cartas do seu precon e do precon da sua dupla, para montar uma estratégia em que os dois decks jogam juntos.\n\nMais no fontedemana.com.br\n\n#precon #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
     },
     {
      "rotulo": "Comentário fixado",
-     "texto": "Você já jogou com deck emprestado da loja? Ou foi direto com o seu? Série Rota das Lojas."
+     "texto": "Em dupla, você combina a estratégia antes ou cada um joga o seu? Série Rota das Lojas."
     }
    ],
    "passos": [
