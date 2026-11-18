@@ -1,6 +1,7 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "Hullbreaker Horror",
   "Esper Sentinel",
   "Balefire Dragon",
   "Ramunap Excavator",
@@ -42,6 +43,13 @@ window.MANA_POOL_INDEX = {
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 44,
+   "date": "2026-11-18",
+   "dateLabel": "Quarta, 18 de novembro de 2026",
+   "head": "Site do Secret Lair recebeu código malicioso no dia em que abriu a venda do Extra Life",
+   "biome": "U"
+  },
   {
    "n": 43,
    "date": "2026-11-17",
@@ -251,13 +259,6 @@ window.MANA_POOL_INDEX = {
    "dateLabel": "Segunda, 19 de outubro de 2026",
    "head": "Festival in a Box: Atlanta abre venda hoje com a primeira caixa de Mystery Booster Commander",
    "biome": "A"
-  },
-  {
-   "n": 13,
-   "date": "2026-10-18",
-   "dateLabel": "Domingo, 18 de outubro de 2026",
-   "head": "Star Trek ganha calendário de prévias, com os precons revelados de 26 a 29 de outubro",
-   "biome": "G"
   }
  ]
 };
