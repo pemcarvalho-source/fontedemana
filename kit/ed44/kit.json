@@ -1,0 +1,147 @@
+{
+  "n": 44,
+  "data": "18 nov",
+  "carrossel": {
+    "capa": {
+      "cor": "A",
+      "titulo": "Site do Secret Lair recebeu código malicioso",
+      "sub": "Foi em <b>16 de novembro</b>, dia em que abriu a venda do Extra Life. Quem comprou digitando o cartão deve conferir a fatura.",
+      "credito": "Arte: Moon-Circuit Hacker, Tia Masic"
+    },
+    "cartoes": [
+      {
+        "cor": "A",
+        "titulo": "Secret Lair na mira de um ataque",
+        "itens": [
+          {
+            "cor": "R",
+            "html": "Foi um dos <b>178</b> sites com código malicioso injetado pela Optimizely."
+          },
+          {
+            "cor": "A",
+            "html": "O código podia copiar cartões digitados e trocar carteiras de cripto."
+          },
+          {
+            "cor": "W",
+            "html": "Foi limpo na mesma noite, dia da venda do Extra Life."
+          }
+        ],
+        "nota": {
+          "rotulo": "No seu bolso",
+          "texto": "comprou em 16 nov digitando o cartão? Confira a fatura."
+        },
+        "fonte": "Fontes: Report URI, EDHREC e MTG Rocks"
+      }
+    ],
+    "topdeck": {
+      "titulo": "Hullbreaker Horror",
+      "habilidades": [
+        {
+          "rotulo": "Ninguém segura",
+          "texto": "Tem lampejo e não pode ser anulado. Baixa no fim do turno do oponente."
+        },
+        {
+          "rotulo": "Devolve a mágica",
+          "texto": "Cada mágica sua pode mandar a mágica do oponente de volta para a mão dele."
+        },
+        {
+          "rotulo": "Devolve permanente",
+          "texto": "Ou tira do campo um artefato, encantamento ou criatura, até o comandante."
+        }
+      ],
+      "extra": "Em <b>408 mil</b> decks no EDHREC e <b>107</b> combos no Commander Spellbook. Com Sol Ring e uma peça incolor barata, vira mana infinita. US$ 6,38 no Scryfall.",
+      "credito": "Ilustração de Svetlin Velinov"
+    },
+    "ban": {
+      "numero": "12",
+      "unidade": "DIAS",
+      "texto": "Para a próxima janela de banimentos, em 30 de novembro, com a última atualização do Commander em 2026."
+    },
+    "turnos": [
+      {
+        "cor": "W",
+        "data": "20 nov",
+        "texto": "Festa de Commander de Star Trek"
+      },
+      {
+        "cor": "B",
+        "data": "30 nov",
+        "texto": "Janela de banimentos"
+      },
+      {
+        "cor": "A",
+        "data": "9 dez",
+        "texto": "Nova janela do Zeta Set"
+      },
+      {
+        "cor": "G",
+        "data": "5 fev",
+        "texto": "Nauctis chega às lojas"
+      }
+    ],
+    "sussurro": null
+  },
+  "video": {
+    "cena1": {
+      "titulo": "Site do Secret Lair recebeu código malicioso",
+      "pilulas": [
+        "16 de novembro",
+        "178 sites afetados",
+        "Confira a fatura"
+      ]
+    },
+    "cena2": {
+      "rotulo": "No bolso",
+      "cor": "A",
+      "titulo": "O que o código fazia",
+      "itens": [
+        "Copiava dados de cartão digitados no site",
+        "Trocava endereços de carteira de criptomoeda",
+        "Foi limpo na noite do mesmo dia"
+      ],
+      "fonte": "Fontes: Report URI, EDHREC e MTG Rocks"
+    },
+    "cena3": {
+      "linhas": [
+        "<b>Hullbreaker Horror</b>, o kraken que não pode ser anulado",
+        "Cada mágica sua devolve uma coisa para a mão",
+        "Em 408 mil decks no EDHREC"
+      ]
+    },
+    "cena4": {
+      "texto": "Faltam 12 dias para a janela de banimentos de 30 de novembro.",
+      "sussurro": null
+    }
+  },
+  "textos": {
+    "legendaCarrossel": "Secret Lair, Magic e Commander: o site do Secret Lair recebeu código malicioso no dia em que abriu a venda do Extra Life.\n\nNa segunda, 16 de novembro, o site esteve entre os 178 que receberam código malicioso pela Optimizely, uma ferramenta de testes de sites, segundo a empresa de segurança Report URI. O código podia copiar dados de cartão digitados, trocar endereços de carteira de criptomoeda e roubar cookies de login. Foi limpo na mesma noite e, até a publicação do MTG Rocks, a Wizards não tinha comentado.\n\nComprou no Secret Lair em 16 de novembro digitando o cartão? Confira a fatura e fale com o banco se aparecer algo estranho. Quem pagou pelo PayPal corre menos risco.\n\nNo Topdeck do Dia, Hullbreaker Horror, o kraken azul que não pode ser anulado e devolve uma coisa para a mão a cada mágica sua.\n\nVocê já comprou direto no site do Secret Lair ou prefere loja?\n\nEdição completa em fontedemana.com.br\n\nArte da capa: Moon-Circuit Hacker, Tia Masic. Topdeck: Hullbreaker Horror, Svetlin Velinov.\n\n#secretlair #commander #mtg",
+    "legendaVideo": "Secret Lair e Commander: o site do Secret Lair recebeu código malicioso em 16 de novembro, dia da venda do Extra Life. O código podia copiar dados de cartão digitados no site. Quem comprou naquele dia deve conferir a fatura.\n\nNo Topdeck, Hullbreaker Horror, em 408 mil decks no EDHREC.\n\nVocê compra Secret Lair direto no site ou prefere loja?\n\nTudo em fontedemana.com.br\n\n#secretlair #commander #mtg",
+    "threadsPost": "O site do Secret Lair esteve entre os 178 sites que receberam código malicioso pela Optimizely em 16 de novembro, dia em que abriu a venda do Extra Life. O código podia copiar dados de cartão digitados e trocar carteiras de cripto. Foi limpo na mesma noite. Comprou naquele dia digitando o cartão? Confira a fatura. Você compra direto no site ou prefere loja? fontedemana.com.br",
+    "threadsFio": [
+      "O site do Secret Lair recebeu código malicioso em 16 de novembro, o mesmo dia em que abriu a venda do Extra Life. A Report URI listou o site entre os 178 afetados por um ataque pela Optimizely.",
+      "O código podia copiar dados de cartão digitados no site, trocar endereços de carteira de criptomoeda e roubar cookies de login. Em iPhone desatualizado, ainda tentava instalar ferramentas de invasão.",
+      "Foi limpo na mesma noite. Comprou naquele dia digitando o cartão? Confira a fatura e fale com o banco se algo estranhar. PayPal corre menos risco.",
+      "No Topdeck do Dia, Hullbreaker Horror: lampejo, não pode ser anulado e devolve uma coisa para a mão a cada mágica sua. Está em 408 mil decks no EDHREC.",
+      "Faltam 12 dias para a janela de banimentos de 30 de novembro. Edição completa em fontedemana.com.br"
+    ],
+    "threadsAvulsos": [
+      {
+        "titulo": "Pergunta do dia",
+        "texto": "Depois do susto no site do Secret Lair, você continua comprando direto lá ou prefere loja?",
+        "obs": "Opções: direto no site, prefiro loja"
+      }
+    ]
+  },
+  "pauta": {
+    "forca": "calmo",
+    "porque": "A Notícia Lendária é segurança de site e bolso, não um anúncio oficial que muda a mesa de Commander.",
+    "storyPergunta": "Você compra Secret Lair direto no site?",
+    "enquete": {
+      "pergunta": "Onde você compra Secret Lair?",
+      "opcoes": [
+        "Direto no site",
+        "Em loja"
+      ]
+    }
+  }
+}
