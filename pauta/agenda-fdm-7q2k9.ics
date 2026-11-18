@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-11-14-gravacao@fontedemana.com.br
-DTSTAMP:20261118T011126Z
+DTSTAMP:20261118T020016Z
 DTSTART:20261113T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -60,7 +60,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-tiktok@fontedemana.com.br
-DTSTAMP:20261118T011126Z
+DTSTAMP:20261118T020016Z
 DTSTART:20261114T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Do zero à mesa #3: o Rosa Sedenta
@@ -96,7 +96,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-threads-manha@fontedemana.com.br
-DTSTAMP:20261118T011126Z
+DTSTAMP:20261118T020016Z
 DTSTART:20261114T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Do zero à mesa #3: o Rosa Sedenta\, deck de
@@ -122,7 +122,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-feed@fontedemana.com.br
-DTSTAMP:20261118T011126Z
+DTSTAMP:20261118T020016Z
 DTSTART:20261114T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Radar DC500: Do zero à mesa #3: o Rosa Seden
@@ -165,7 +165,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261118T011126Z
+DTSTAMP:20261118T020016Z
 DTSTART:20261114T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -184,7 +184,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-stories-tarde@fontedemana.com.br
-DTSTAMP:20261118T011126Z
+DTSTAMP:20261118T020016Z
 DTSTART:20261114T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -204,7 +204,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-reels@fontedemana.com.br
-DTSTAMP:20261118T011126Z
+DTSTAMP:20261118T020016Z
 DTSTART:20261115T000000Z
 DURATION:PT15M
 SUMMARY:21:00 Reels: Vídeo original: Do zero à mesa #3: o Rosa Sedenta\, 
@@ -243,7 +243,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-14-comentarios@fontedemana.com.br
-DTSTAMP:20261118T011126Z
+DTSTAMP:20261118T020016Z
 DTSTART:20261115T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -265,7 +265,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-gravacao@fontedemana.com.br
-DTSTAMP:20261118T011126Z
+DTSTAMP:20261118T020016Z
 DTSTART:20261114T231500Z
 DURATION:PT15M
 SUMMARY:20:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -306,7 +306,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-tiktok@fontedemana.com.br
-DTSTAMP:20261118T011126Z
+DTSTAMP:20261118T020016Z
 DTSTART:20261115T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Rota das Lojas #1\, Jogujogo e o booster de brinde
@@ -340,7 +340,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-threads-manha@fontedemana.com.br
-DTSTAMP:20261118T011126Z
+DTSTAMP:20261118T020016Z
 DTSTART:20261115T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Rota das Lojas #1: Jogujogo\, na Água Branc
@@ -365,7 +365,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-feed@fontedemana.com.br
-DTSTAMP:20261118T011126Z
+DTSTAMP:20261118T020016Z
 DTSTART:20261115T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Rota das Lojas #1: Jogujogo\, na Água Branca
@@ -405,7 +405,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261118T011126Z
+DTSTAMP:20261118T020016Z
 DTSTART:20261115T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -424,7 +424,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-stories-tarde@fontedemana.com.br
-DTSTAMP:20261118T011126Z
+DTSTAMP:20261118T020016Z
 DTSTART:20261115T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -444,7 +444,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-reels@fontedemana.com.br
-DTSTAMP:20261118T011126Z
+DTSTAMP:20261118T020016Z
 DTSTART:20261115T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Rota das Lojas #1: Jogujogo\, na Águ
@@ -481,7 +481,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-comentarios@fontedemana.com.br
-DTSTAMP:20261118T011126Z
+DTSTAMP:20261118T020016Z
 DTSTART:20261116T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -503,7 +503,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-gravacao@fontedemana.com.br
-DTSTAMP:20261118T011126Z
+DTSTAMP:20261118T020016Z
 DTSTART:20261115T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -555,7 +555,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-tiktok@fontedemana.com.br
-DTSTAMP:20261118T011126Z
+DTSTAMP:20261118T020016Z
 DTSTART:20261116T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o Top 5 #7: board wipes
@@ -585,7 +585,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-threads-manha@fontedemana.com.br
-DTSTAMP:20261118T011126Z
+DTSTAMP:20261118T020016Z
 DTSTART:20261116T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Chama o Juiz #7: dá para conjurar o Panglac
@@ -611,7 +611,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-feed@fontedemana.com.br
-DTSTAMP:20261118T011126Z
+DTSTAMP:20261118T020016Z
 DTSTART:20261116T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Chama o Juiz #7: dá para conjurar o Panglaci
@@ -649,7 +649,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261118T011126Z
+DTSTAMP:20261118T020016Z
 DTSTART:20261116T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -668,7 +668,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-stories-tarde@fontedemana.com.br
-DTSTAMP:20261118T011126Z
+DTSTAMP:20261118T020016Z
 DTSTART:20261116T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -688,7 +688,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-reels@fontedemana.com.br
-DTSTAMP:20261118T011126Z
+DTSTAMP:20261118T020016Z
 DTSTART:20261116T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Top 5 #7: os board wipes que salvam a
@@ -724,7 +724,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-comentarios@fontedemana.com.br
-DTSTAMP:20261118T011126Z
+DTSTAMP:20261118T020016Z
 DTSTART:20261117T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -746,7 +746,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-gravacao@fontedemana.com.br
-DTSTAMP:20261118T011126Z
+DTSTAMP:20261118T020016Z
 DTSTART:20261116T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -798,7 +798,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-tiktok@fontedemana.com.br
-DTSTAMP:20261118T011126Z
+DTSTAMP:20261118T020016Z
 DTSTART:20261117T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Dicionário do Commander #9\, tutor
@@ -830,7 +830,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-stories-mulligan@fontedemana.com.br
-DTSTAMP:20261118T011126Z
+DTSTAMP:20261118T020016Z
 DTSTART:20261117T210000Z
 DURATION:PT15M
 SUMMARY:18:00 Instagram Stories: Parceria com a Mulligan: os produtos chega
@@ -865,7 +865,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-threads-manha@fontedemana.com.br
-DTSTAMP:20261118T011126Z
+DTSTAMP:20261118T020016Z
 DTSTART:20261117T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Dicionário do Commander #9: o que é tutor
@@ -888,7 +888,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-feed@fontedemana.com.br
-DTSTAMP:20261118T011126Z
+DTSTAMP:20261118T020016Z
 DTSTART:20261117T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Dicionário do Commander #9: o que é tutor
@@ -927,7 +927,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261118T011126Z
+DTSTAMP:20261118T020016Z
 DTSTART:20261117T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -946,7 +946,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-stories-tarde@fontedemana.com.br
-DTSTAMP:20261118T011126Z
+DTSTAMP:20261118T020016Z
 DTSTART:20261117T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -966,7 +966,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-reels@fontedemana.com.br
-DTSTAMP:20261118T011126Z
+DTSTAMP:20261118T020016Z
 DTSTART:20261117T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Dicionário do Commander #9: o que é
@@ -1003,7 +1003,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-comentarios@fontedemana.com.br
-DTSTAMP:20261118T011126Z
+DTSTAMP:20261118T020016Z
 DTSTART:20261118T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1025,7 +1025,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-18-gravacao@fontedemana.com.br
-DTSTAMP:20261118T011126Z
+DTSTAMP:20261118T020016Z
 DTSTART:20261117T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -1079,7 +1079,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-18-tiktok@fontedemana.com.br
-DTSTAMP:20261118T011126Z
+DTSTAMP:20261118T020016Z
 DTSTART:20261118T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Rota das Lojas #2\, torneio de precon na MTG Brasil
@@ -1109,6 +1109,131 @@ URL:https://fontedemana.com.br/pauta/2026-11-18/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:TikTok: Rota das Lojas #2\, torneio de precon na MTG Brasil
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-20-gravacao@fontedemana.com.br
+DTSTAMP:20261118T020016Z
+DTSTART:20261119T221500Z
+DURATION:PT15M
+SUMMARY:19:15 Gravação: Gravar o vídeo de 20/11 (você aparece)
+DESCRIPTION:1 de 3 gravações da noite (20\, 21 e 22/11). Abertura do prec
+ on Prismari Artistry\, em parceria com a Mulligan: você aparece abrindo a
+  caixa\, mostrando os dois comandantes e dando a opinião no fim\; as outr
+ as cenas são só a sua voz.\n\nArquivos:\n- Vídeo mudo do TikTok: https:
+ //fontedemana.com.br/pauta/2026-11-20/tiktok/tiktok-mudo.mp4\n\nRoteiro de
+  gravação:\nCena 1\, rosto\, uns 4 s\nNa tela: Prismari Artistry\, R$ 43
+ 8 fechado. Abri o meu\nComo gravar: Rosto: Segura a caixa lacrada do Prism
+ ari Artistry na altura do peito e começa a abrir enquanto fala.\nFala: Es
+ se precon sai por 438 reais fechado. Abri o meu.\n\nCena 2\, rosto\, uns 5
+  s\nNa tela: Os comandantes\, Dois foil sem borda\nComo gravar: Rosto: Tir
+ a da caixa as duas cartas foil dos comandantes e mostra uma em cada mão\,
+  perto da câmera.\nFala: Dentro\, dois comandantes em foil sem borda: a R
+ ootha e o Muddle.\n\nCena 3\, só a voz\, uns 6 s\nNa tela: Passo 1: mági
+ ca cara\, Rootha\, Mastering the Moment\, Mágica cara vira Elemental voad
+ or do mesmo tamanho.\nComo gravar: Só a voz: pode gravar em vídeo ou áu
+ dio\nFala: Primeiro\, mágica cara. A Rootha cria um Elemental voador do m
+ esmo tamanho\, com ímpeto.\n\nCena 4\, só a voz\, uns 6 s\nNa tela: Pass
+ o 2: mana\, Goldspan Dragon\, Ataca e faz Tesouro que dá duas manas.\nCom
+ o gravar: Só a voz: pode gravar em vídeo ou áudio\nFala: Pra pagar\, o 
+ Goldspan Dragon: cada ataque faz um Tesouro que dá duas manas.\n\nCena 5\
+ , só a voz\, uns 6 s\nNa tela: Passo 3: o ataque\, Muddle\, the Ever-Chan
+ ging\, Vira cópia do Elemental e ataca todo mundo.\nComo gravar: Só a vo
+ z: pode gravar em vídeo ou áudio\nFala: No ataque\, o Muddle vira cópia
+  do Elemental e manda um em cada oponente.\n\nCena 6\, só a voz\, uns 5 s
+ \nNa tela: Quanto vale hoje\, As 100 cartas US$ 88\,20 (R$ 498\,49)\, Fech
+ ado\, LigaMagic R$ 438\,53\nComo gravar: Só a voz: pode gravar em vídeo 
+ ou áudio\nFala: As cartas somam uns 88 dólares\, uns 498 reais. Fechado\
+ , sai por 438.\n\nCena 7\, rosto\, uns 5 s\nNa tela: Vale abrir?\, Rootha 
+ ou Muddle?\nComo gravar: Rosto: Com o deck aberto na mesa e os dois comand
+ antes na mão\, dá a opinião olhando para a câmera.\nFala: Pra quem gos
+ ta de mágica grande\, vale. Rootha ou Muddle no comando?\n\n\nPasso a pas
+ so:\n1. Celular na vertical\, câmera da frente\, na altura dos olhos\, a 
+ um braço de distância.\n2. Rosto na metade de cima da tela: o título en
+ tra embaixo dele\, na altura do peito.\n3. Luz de frente (de frente para a
+  janela) e fundo arrumado\; a estante de cartas é ótima.\n4. Desligue o 
+ Vídeo HDR (Ajustes\, Câmera\, Gravar Vídeo) para as cores não lavarem.
+ \n5. Um vídeo por cena\, falando para a câmera\, com meio segundo de sil
+ êncio antes e depois\; nomeie cena_1\, cena_2... e mande todos juntos.\n6
+ . Nas cenas sem rosto\, só a voz conta: pode gravar em vídeo ou só o á
+ udio.\n7. Tenha o precon lacrado na mão: a cena 1 é a abertura de verdad
+ e\, então abra a caixa só quando estiver gravando.\n8. Deixe os dois com
+ andantes foil por cima do deck para tirar na cena 2.\n9. Mande os vídeos 
+ ao Claude no projeto MGT strategy\, na conversa da gravação adiantada\, 
+ dizendo "vídeos do TikTok de 2026-11-20".\n\nValores em reais pela cotaç
+ ão de 13 nov (Banco Central\, PTAX).\n\nPauta completa: https://fontedema
+ na.com.br/pauta/2026-11-20/#gravacao
+URL:https://fontedemana.com.br/pauta/2026-11-20/#gravacao
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Gravação: Gravar o vídeo de 20/11 (você aparece)
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-20-tiktok@fontedemana.com.br
+DTSTAMP:20261118T020016Z
+DTSTART:20261120T143000Z
+DURATION:PT15M
+SUMMARY:11:30 TikTok: Abri o precon Prismari Artistry
+DESCRIPTION:O precon de Strixhaven aberto: o que vem na caixa\, o plano em 
+ três passos e quanto valem as cartas\, em parceria com a Mulligan.\n\nArq
+ uivos:\n- Vídeo mudo do TikTok (troque pelo narrado quando chegar): https
+ ://fontedemana.com.br/pauta/2026-11-20/tiktok/tiktok-mudo.mp4\n\nLegenda:\
+ nPrecon de Commander Prismari Artistry: o que vem na caixa e quanto ele va
+ le hoje? Abri o meu\, em parceria com a @mulliganjogos.\n\nO deck azul e v
+ ermelho de Secrets of Strixhaven vem com 100 cartas\, 10 inéditas\, e doi
+ s comandantes em foil sem borda\, a Rootha e o Muddle. O plano: lançar m
+ ágica cara\, a Rootha transforma isso num Elemental voador do mesmo taman
+ ho\, e o Muddle copia esse Elemental para atacar todo mundo. Nenhuma carta
+  da lista de Game Changers\, então joga no Bracket 2.\n\nAs 100 cartas so
+ mam US$ 88\,20 (R$ 498\,49) no Scryfall\; a mais cara é a Faerie Mastermi
+ nd. Fechado\, a média na LigaMagic é R$ 438\,53 (16 nov). Valor de merca
+ do não é preço de venda.\n\nRootha ou Muddle: qual você colocava no co
+ mando? Mais em fontedemana.com.br\n\nValores em reais pela cotação de 13
+  nov (Banco Central\, PTAX).\n\n#strixhaven #commander #mtg\n\nFonte de Ma
+ na is unofficial Fan Content permitted under the Fan Content Policy. Not a
+ pproved/endorsed by Wizards. Portions of the materials used are property o
+ f Wizards of the Coast. ©Wizards of the Coast LLC.\n\nComentário fixado:
+ \nRootha ou Muddle: qual você colocava no comando? Na quarta tem as sleev
+ es e o deckbox que vieram junto com esse deck.\n\nPasso a passo:\n1. No Ti
+ kTok\, toque em + e escolha o vídeo baixado daqui.\n2. Adicione um som em
+  alta da biblioteca do TikTok com volume entre 15% e 20%\, sem cobrir a vo
+ z.\n3. Voz própria não precisa de rótulo de IA.\n4. Marque a @mulliganj
+ ogos na legenda (já está escrita) e\, se quiser\, a loja como local.\n5.
+  Cole a Legenda e publique.\n6. Fixe o comentário.\n7. Se o vídeo narrad
+ o não chegar\, poste o mudo com música em alta.\n\nValores em reais pela
+  cotação de 13 nov (Banco Central\, PTAX).\n\nPauta completa: https://fo
+ ntedemana.com.br/pauta/2026-11-20/#tiktok
+URL:https://fontedemana.com.br/pauta/2026-11-20/#tiktok
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TikTok: Abri o precon Prismari Artistry
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-20-collab-mulligan@fontedemana.com.br
+DTSTAMP:20261118T020016Z
+DTSTART:20261120T145000Z
+DURATION:PT15M
+SUMMARY:11:50 Instagram feed: Collab com a Mulligan no carrossel e no Reels
+  de hoje
+DESCRIPTION:Hoje o carrossel das 12:00 e o Reels das 19:00 saem em Collab c
+ om a @mulliganjogos: o post aparece no perfil da loja também. A loja prec
+ isa aceitar o convite.\n\nPasso a passo:\n1. No carrossel das 12:00\, ante
+ s de publicar\, toque em Marcar pessoas e depois em Convidar colaborador\;
+  escolha a @mulliganjogos.\n2. Faça o mesmo no Reels das 19:00.\n3. A leg
+ enda já diz "em parceria com a @mulliganjogos"\; não escreva recebido ne
+ m conte como os produtos chegaram.\n4. Se a loja aceitar e repostar\, resp
+ onda o comentário ou o story dela.\n\nPauta completa: https://fontedemana
+ .com.br/pauta/2026-11-20/#collab-mulligan
+URL:https://fontedemana.com.br/pauta/2026-11-20/#collab-mulligan
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram feed: Collab com a Mulligan no carrossel e no Reels d
+ e hoje
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT

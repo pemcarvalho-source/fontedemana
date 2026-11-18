@@ -1,0 +1,138 @@
+{
+ "data": "2026-11-20",
+ "pilar": "deck",
+ "item": null,
+ "tema": "Abri o precon Prismari Artistry: o que vem na caixa e quanto ele vale",
+ "cartas": [
+  "Rootha, Mastering the Moment",
+  "Muddle, the Ever-Changing",
+  "Goldspan Dragon",
+  "Faerie Mastermind"
+ ],
+ "fx": "Valores em reais pela cotação de 13 nov (Banco Central, PTAX).",
+ "carrossel": {
+  "capa": {
+   "cor": "M",
+   "chip": "Abri o precon",
+   "kicker": "Secrets of Strixhaven, Commander",
+   "titulo": "O que vem no <b>Prismari Artistry</b>",
+   "sub": "Fechado, sai por <b>R$ 438</b> na LigaMagic. Abri o meu para mostrar o deck e quanto valem as cartas.",
+   "arte": "pauta/2026-11-20/original/foto-precon.jpg",
+   "credito": "Foto: Fonte de Mana"
+  },
+  "cartoes": [
+   {
+    "cor": "G",
+    "titulo": "O que vem na caixa",
+    "itens": [
+     {
+      "cor": "G",
+      "html": "<b>100 cartas</b> prontas para jogar, 10 delas inéditas."
+     },
+     {
+      "cor": "M",
+      "html": "<b>2 comandantes</b> em foil sem borda: Rootha e Muddle."
+     },
+     {
+      "cor": "G",
+      "html": "<b>10 fichas</b> de dupla face, carta de referência e a caixa do deck."
+     },
+     {
+      "cor": "U",
+      "html": "Nenhuma carta da lista de Game Changers: joga no <b>Bracket 2</b>."
+     }
+    ],
+    "fonte": "Fontes: Wizards e Scryfall"
+   },
+   {
+    "cor": "M",
+    "titulo": "Passo 1: mágica cara",
+    "carta": "pauta/2026-11-20/original/carta-1.jpg",
+    "itens": [
+     {
+      "cor": "M",
+      "html": "<b>Rootha</b>: no combate, a maior mágica do turno vira um Elemental X/X com voar e ímpeto."
+     },
+     {
+      "cor": "M",
+      "html": "Feitiço de 6 manas no turno? Um 6/6 voando e atacando na hora."
+     }
+    ],
+    "fonte": "Fonte: Scryfall"
+   },
+   {
+    "cor": "R",
+    "titulo": "Passo 2: mana para pagar",
+    "carta": "pauta/2026-11-20/original/carta-2.jpg",
+    "itens": [
+     {
+      "cor": "R",
+      "html": "<b>Goldspan Dragon</b>: cada ataque faz um Tesouro, e o Tesouro dá duas manas."
+     },
+     {
+      "cor": "A",
+      "html": "A segunda carta mais cara da lista: <b>US$ 11,97 (R$ 67,65)</b>."
+     }
+    ],
+    "fonte": "Fonte: Scryfall, 17 nov"
+   },
+   {
+    "cor": "U",
+    "titulo": "Passo 3: o ataque",
+    "carta": "pauta/2026-11-20/original/carta-3.jpg",
+    "itens": [
+     {
+      "cor": "U",
+      "html": "<b>Muddle</b>: a cada mágica, vira cópia de uma criatura sua até o fim do turno, com miríade."
+     },
+     {
+      "cor": "U",
+      "html": "Copia o Elemental e ataca cada oponente com uma cópia."
+     }
+    ],
+    "fonte": "Fonte: Scryfall"
+   },
+   {
+    "cor": "A",
+    "titulo": "Quanto vale hoje",
+    "itens": [
+     {
+      "cor": "A",
+      "html": "As 100 cartas somam <b>US$ 88,20 (R$ 498,49)</b>."
+     },
+     {
+      "cor": "A",
+      "html": "A mais cara: <b>Faerie Mastermind</b>, US$ 12,50 (R$ 70,65)."
+     },
+     {
+      "cor": "W",
+      "html": "Fechado, a média na LigaMagic é <b>R$ 438,53</b> (16 nov)."
+     }
+    ],
+    "nota": {
+     "rotulo": "Lembrete",
+     "texto": "valor de mercado não é preço de venda."
+    },
+    "fx": "Cotação de 13 nov: US$ 1 = R$ 5,6518 (Banco Central)",
+    "fonte": "Fontes: Scryfall (17 nov) e LigaMagic"
+   }
+  ],
+  "cta": {
+   "pergunta": "<b>Rootha ou Muddle</b>: qual você colocava no comando?",
+   "quando": "Na quarta, as sleeves e o deckbox desse deck",
+   "salvar": "Salve para lembrar do plano do deck na mesa"
+  }
+ },
+ "legenda": "Precon de Commander Prismari Artistry: o que vem na caixa, como o deck joga e quanto vale hoje. Abri o meu, em parceria com a @mulliganjogos.\n\nNa caixa: 100 cartas prontas, 10 delas inéditas, dois comandantes em foil sem borda (Rootha e Muddle), 10 fichas e a caixa do deck. Nenhuma carta da lista de Game Changers: joga no Bracket 2.\n\nO plano em três passos: mágica cara vira um Elemental voador com a Rootha, o Goldspan Dragon faz Tesouro para pagar e o Muddle copia o Elemental no ataque.\n\nAs 100 cartas somam US$ 88,20 (R$ 498,49) no Scryfall. Fechado, a média na LigaMagic é R$ 438,53 (16 nov). Valor de mercado não é preço de venda.\n\nFontes: Wizards, Scryfall e LigaMagic. Mais em fontedemana.com.br\n\nRootha ou Muddle: qual você colocava no comando?\n\nValores em reais pela cotação de 13 nov (Banco Central, PTAX).\n\n#strixhaven #commander #mtg",
+ "threads": {
+  "texto": "Precon de Commander: você abre para jogar ou guarda lacrado? Abri o Prismari Artistry de Secrets of Strixhaven, que sai por R$ 438 fechado na LigaMagic, e as 100 cartas somam US$ 88,20 (R$ 498,49). Tem gente que só compra para guardar, tem gente que já embaralha na loja. Qual é o seu caso?",
+  "obs": "Enquete com as opções: Abro para jogar, Guardo lacrado"
+ },
+ "enquete": {
+  "pergunta": "Rootha ou Muddle no comando?",
+  "opcoes": [
+   "Rootha",
+   "Muddle"
+  ]
+ }
+}

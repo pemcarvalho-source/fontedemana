@@ -1,0 +1,95 @@
+{
+ "data": "2026-11-20",
+ "pilar": "deck",
+ "tema": "Abri o precon Prismari Artistry: o que vem na caixa e quanto ele vale",
+ "item": null,
+ "arte": "pauta/2026-11-20/tiktok/arte.jpg",
+ "carta": "pauta/2026-11-20/tiktok/carta.jpg",
+ "credito": "Arte: Rootha, Mastering the Moment, Lie Setiawan",
+ "fx": "Reais pela cotação de 13 nov (Banco Central, PTAX)",
+ "legenda": "Precon de Commander Prismari Artistry: o que vem na caixa e quanto ele vale hoje? Abri o meu, em parceria com a @mulliganjogos.\n\nO deck azul e vermelho de Secrets of Strixhaven vem com 100 cartas, 10 inéditas, e dois comandantes em foil sem borda, a Rootha e o Muddle. O plano: lançar mágica cara, a Rootha transforma isso num Elemental voador do mesmo tamanho, e o Muddle copia esse Elemental para atacar todo mundo. Nenhuma carta da lista de Game Changers, então joga no Bracket 2.\n\nAs 100 cartas somam US$ 88,20 (R$ 498,49) no Scryfall; a mais cara é a Faerie Mastermind. Fechado, a média na LigaMagic é R$ 438,53 (16 nov). Valor de mercado não é preço de venda.\n\nRootha ou Muddle: qual você colocava no comando? Mais em fontedemana.com.br\n\nValores em reais pela cotação de 13 nov (Banco Central, PTAX).\n\n#strixhaven #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
+ "comentario": "Rootha ou Muddle: qual você colocava no comando? Na quarta tem as sleeves e o deckbox que vieram junto com esse deck.",
+ "cenas": [
+  {
+   "tipo": "rosto",
+   "cor": "M",
+   "chip": "Abri o precon",
+   "kicker": "Prismari Artistry",
+   "titulo": "R$ 438 fechado. Abri o meu",
+   "narracao": "Esse precon sai por 438 reais fechado. Abri o meu.",
+   "gravar": "Segura a caixa lacrada do Prismari Artistry na altura do peito e começa a abrir enquanto fala.",
+   "segundos": 4.3
+  },
+  {
+   "tipo": "rosto",
+   "cor": "M",
+   "kicker": "Os comandantes",
+   "titulo": "Dois foil sem borda",
+   "narracao": "Dentro, dois comandantes em foil sem borda: a Rootha e o Muddle.",
+   "gravar": "Tira da caixa as duas cartas foil dos comandantes e mostra uma em cada mão, perto da câmera.",
+   "segundos": 5
+  },
+  {
+   "tipo": "carta",
+   "cor": "M",
+   "kicker": "Passo 1: mágica cara",
+   "carta": "pauta/2026-11-20/tiktok/carta-1.jpg",
+   "titulo": "Rootha, Mastering the Moment",
+   "sub": "Mágica cara vira Elemental voador do mesmo tamanho.",
+   "narracao": "Primeiro, mágica cara. A Rootha cria um Elemental voador do mesmo tamanho, com ímpeto.",
+   "segundos": 5.8
+  },
+  {
+   "tipo": "carta",
+   "cor": "R",
+   "kicker": "Passo 2: mana",
+   "carta": "pauta/2026-11-20/tiktok/carta-2.jpg",
+   "titulo": "Goldspan Dragon",
+   "valor": "US$ 11,97",
+   "real": "(R$ 67,65)",
+   "sub": "Ataca e faz Tesouro que dá duas manas.",
+   "narracao": "Pra pagar, o Goldspan Dragon: cada ataque faz um Tesouro que dá duas manas.",
+   "segundos": 5.8
+  },
+  {
+   "tipo": "carta",
+   "cor": "U",
+   "kicker": "Passo 3: o ataque",
+   "carta": "pauta/2026-11-20/tiktok/carta-4.jpg",
+   "titulo": "Muddle, the Ever-Changing",
+   "sub": "Vira cópia do Elemental e ataca todo mundo.",
+   "narracao": "No ataque, o Muddle vira cópia do Elemental e manda um em cada oponente.",
+   "segundos": 5.8
+  },
+  {
+   "tipo": "lista",
+   "cor": "A",
+   "chip": "No bolso",
+   "kicker": "Quanto vale hoje",
+   "linhas": [
+    {
+     "nome": "As 100 cartas",
+     "valor": "US$ 88,20",
+     "real": "(R$ 498,49)"
+    },
+    {
+     "nome": "Fechado, LigaMagic",
+     "valor": "R$ 438,53"
+    }
+   ],
+   "rodape": "Sem Game Changers: Bracket 2. Mercado não é preço de venda.",
+   "fonte": "Scryfall (17 nov) e LigaMagic (16 nov)",
+   "narracao": "As cartas somam uns 88 dólares, uns 498 reais. Fechado, sai por 438.",
+   "segundos": 5.4
+  },
+  {
+   "tipo": "rosto",
+   "cor": "M",
+   "kicker": "Vale abrir?",
+   "titulo": "Rootha ou Muddle?",
+   "narracao": "Pra quem gosta de mágica grande, vale. Rootha ou Muddle no comando?",
+   "gravar": "Com o deck aberto na mesa e os dois comandantes na mão, dá a opinião olhando para a câmera.",
+   "segundos": 5
+  }
+ ]
+}

@@ -1,0 +1,120 @@
+{
+  "data": "2026-11-20",
+  "fx": "Valores em reais pela cotação de 13 nov (Banco Central, PTAX).",
+  "avisos": [
+    {
+      "id": "gravacao",
+      "dia": "2026-11-19",
+      "hora": "19:15",
+      "rede": "Gravação",
+      "titulo": "Gravar o vídeo de 20/11 (você aparece)",
+      "oQue": "1 de 3 gravações da noite (20, 21 e 22/11). Abertura do precon Prismari Artistry, em parceria com a Mulligan: você aparece abrindo a caixa, mostrando os dois comandantes e dando a opinião no fim; as outras cenas são só a sua voz.",
+      "arquivos": [
+        {
+          "nome": "Vídeo mudo do TikTok",
+          "url": "https://fontedemana.com.br/pauta/2026-11-20/tiktok/tiktok-mudo.mp4"
+        }
+      ],
+      "roteiro": [
+        {
+          "cena": "Cena 1, rosto, uns 4 s",
+          "tela": "Prismari Artistry, R$ 438 fechado. Abri o meu",
+          "fala": "Esse precon sai por 438 reais fechado. Abri o meu.",
+          "como": "Rosto: Segura a caixa lacrada do Prismari Artistry na altura do peito e começa a abrir enquanto fala."
+        },
+        {
+          "cena": "Cena 2, rosto, uns 5 s",
+          "tela": "Os comandantes, Dois foil sem borda",
+          "fala": "Dentro, dois comandantes em foil sem borda: a Rootha e o Muddle.",
+          "como": "Rosto: Tira da caixa as duas cartas foil dos comandantes e mostra uma em cada mão, perto da câmera."
+        },
+        {
+          "cena": "Cena 3, só a voz, uns 6 s",
+          "tela": "Passo 1: mágica cara, Rootha, Mastering the Moment, Mágica cara vira Elemental voador do mesmo tamanho.",
+          "fala": "Primeiro, mágica cara. A Rootha cria um Elemental voador do mesmo tamanho, com ímpeto.",
+          "como": "Só a voz: pode gravar em vídeo ou áudio"
+        },
+        {
+          "cena": "Cena 4, só a voz, uns 6 s",
+          "tela": "Passo 2: mana, Goldspan Dragon, Ataca e faz Tesouro que dá duas manas.",
+          "fala": "Pra pagar, o Goldspan Dragon: cada ataque faz um Tesouro que dá duas manas.",
+          "como": "Só a voz: pode gravar em vídeo ou áudio"
+        },
+        {
+          "cena": "Cena 5, só a voz, uns 6 s",
+          "tela": "Passo 3: o ataque, Muddle, the Ever-Changing, Vira cópia do Elemental e ataca todo mundo.",
+          "fala": "No ataque, o Muddle vira cópia do Elemental e manda um em cada oponente.",
+          "como": "Só a voz: pode gravar em vídeo ou áudio"
+        },
+        {
+          "cena": "Cena 6, só a voz, uns 5 s",
+          "tela": "Quanto vale hoje, As 100 cartas US$ 88,20 (R$ 498,49), Fechado, LigaMagic R$ 438,53",
+          "fala": "As cartas somam uns 88 dólares, uns 498 reais. Fechado, sai por 438.",
+          "como": "Só a voz: pode gravar em vídeo ou áudio"
+        },
+        {
+          "cena": "Cena 7, rosto, uns 5 s",
+          "tela": "Vale abrir?, Rootha ou Muddle?",
+          "fala": "Pra quem gosta de mágica grande, vale. Rootha ou Muddle no comando?",
+          "como": "Rosto: Com o deck aberto na mesa e os dois comandantes na mão, dá a opinião olhando para a câmera."
+        }
+      ],
+      "passos": [
+        "Celular na vertical, câmera da frente, na altura dos olhos, a um braço de distância.",
+        "Rosto na metade de cima da tela: o título entra embaixo dele, na altura do peito.",
+        "Luz de frente (de frente para a janela) e fundo arrumado; a estante de cartas é ótima.",
+        "Desligue o Vídeo HDR (Ajustes, Câmera, Gravar Vídeo) para as cores não lavarem.",
+        "Um vídeo por cena, falando para a câmera, com meio segundo de silêncio antes e depois; nomeie cena_1, cena_2... e mande todos juntos.",
+        "Nas cenas sem rosto, só a voz conta: pode gravar em vídeo ou só o áudio.",
+        "Tenha o precon lacrado na mão: a cena 1 é a abertura de verdade, então abra a caixa só quando estiver gravando.",
+        "Deixe os dois comandantes foil por cima do deck para tirar na cena 2.",
+        "Mande os vídeos ao Claude no projeto MGT strategy, na conversa da gravação adiantada, dizendo \"vídeos do TikTok de 2026-11-20\"."
+      ]
+    },
+    {
+      "id": "tiktok",
+      "hora": "11:30",
+      "rede": "TikTok",
+      "titulo": "Abri o precon Prismari Artistry",
+      "oQue": "O precon de Strixhaven aberto: o que vem na caixa, o plano em três passos e quanto valem as cartas, em parceria com a Mulligan.",
+      "arquivos": [
+        {
+          "nome": "Vídeo mudo do TikTok (troque pelo narrado quando chegar)",
+          "url": "https://fontedemana.com.br/pauta/2026-11-20/tiktok/tiktok-mudo.mp4"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Precon de Commander Prismari Artistry: o que vem na caixa e quanto ele vale hoje? Abri o meu, em parceria com a @mulliganjogos.\n\nO deck azul e vermelho de Secrets of Strixhaven vem com 100 cartas, 10 inéditas, e dois comandantes em foil sem borda, a Rootha e o Muddle. O plano: lançar mágica cara, a Rootha transforma isso num Elemental voador do mesmo tamanho, e o Muddle copia esse Elemental para atacar todo mundo. Nenhuma carta da lista de Game Changers, então joga no Bracket 2.\n\nAs 100 cartas somam US$ 88,20 (R$ 498,49) no Scryfall; a mais cara é a Faerie Mastermind. Fechado, a média na LigaMagic é R$ 438,53 (16 nov). Valor de mercado não é preço de venda.\n\nRootha ou Muddle: qual você colocava no comando? Mais em fontedemana.com.br\n\nValores em reais pela cotação de 13 nov (Banco Central, PTAX).\n\n#strixhaven #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        },
+        {
+          "rotulo": "Comentário fixado",
+          "texto": "Rootha ou Muddle: qual você colocava no comando? Na quarta tem as sleeves e o deckbox que vieram junto com esse deck."
+        }
+      ],
+      "passos": [
+        "No TikTok, toque em + e escolha o vídeo baixado daqui.",
+        "Adicione um som em alta da biblioteca do TikTok com volume entre 15% e 20%, sem cobrir a voz.",
+        "Voz própria não precisa de rótulo de IA.",
+        "Marque a @mulliganjogos na legenda (já está escrita) e, se quiser, a loja como local.",
+        "Cole a Legenda e publique.",
+        "Fixe o comentário.",
+        "Se o vídeo narrado não chegar, poste o mudo com música em alta."
+      ]
+    },
+    {
+      "id": "collab-mulligan",
+      "hora": "11:50",
+      "rede": "Instagram feed",
+      "titulo": "Collab com a Mulligan no carrossel e no Reels de hoje",
+      "oQue": "Hoje o carrossel das 12:00 e o Reels das 19:00 saem em Collab com a @mulliganjogos: o post aparece no perfil da loja também. A loja precisa aceitar o convite.",
+      "passos": [
+        "No carrossel das 12:00, antes de publicar, toque em Marcar pessoas e depois em Convidar colaborador; escolha a @mulliganjogos.",
+        "Faça o mesmo no Reels das 19:00.",
+        "A legenda já diz \"em parceria com a @mulliganjogos\"; não escreva recebido nem conte como os produtos chegaram.",
+        "Se a loja aceitar e repostar, responda o comentário ou o story dela."
+      ]
+    }
+  ]
+}
