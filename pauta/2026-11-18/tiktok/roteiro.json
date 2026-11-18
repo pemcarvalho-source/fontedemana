@@ -19,7 +19,8 @@
    "sub": "E nem levei deck",
    "narracao": "Fui buscar duas cartas e saí jogando um torneio.",
    "gravar": "Olhando para a câmera, mostra perto do rosto as duas cartas que foi buscar na loja e diz a frase.",
-   "segundos": 3.9
+   "segundos": 3.9,
+   "caixa": "topo"
   },
   {
    "tipo": "texto",
@@ -69,7 +70,9 @@
    "sub": "Os dois decks precisam jogar juntos",
    "narracao": "Lição: conheça o seu precon e o da dupla. Os dois jogam juntos.",
    "gravar": "Olhando para a câmera, segura um deck em cada mão (o seu e o da dupla) e junta os dois enquanto fala a lição.",
-   "segundos": 5.4
+   "segundos": 5.4,
+   "caixa": "topo"
   }
- ]
+ ],
+ "rostoGravado": true
 }
