@@ -1,0 +1,99 @@
+{
+ "data": "2026-11-19",
+ "pilar": "top5",
+ "tema": "Top 5 #8: os mana rocks baratos que mais aparecem no Commander",
+ "item": "Mana rocks baratos",
+ "arte": "pauta/2026-11-19/tiktok/arte.jpg",
+ "carta": "pauta/2026-11-19/tiktok/carta.jpg",
+ "credito": "Arte: Sol Ring, Mike Bierek",
+ "fx": "Reais pela cotação de 16 nov (Banco Central, PTAX)",
+ "legenda": "Commander: os 5 mana rocks baratos que mais aparecem nos decks. Qual não sai do seu?\n\n1. Sol Ring\n2. Thought Vessel\n3. Commander's Sphere\n4. Chromatic Lantern\n5. Talisman of Dominance\n\nOs cinco juntos saem por US$ 5,39 (R$ 30,90). Decks no EDHREC (nov 2026) e preços do Scryfall. Reais pela cotação de 16 nov (Banco Central, PTAX).\nMais em fontedemana.com.br\n\n#solring #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
+ "comentario": "Qual mana rock não sai do seu deck: Sol Ring, Thought Vessel, Commander's Sphere, Chromatic Lantern ou o Talisman da sua cor? Toda quinta tem um Top 5 novo da Fonte de Mana.",
+ "cenas": [
+  {
+   "tipo": "rosto",
+   "cor": "G",
+   "chip": "Top 5 #8",
+   "kicker": "Mana rocks no Commander",
+   "titulo": "5 baratos e fortes",
+   "sub": "Os cinco juntos saem por US$ 5,39 (R$ 30,90)",
+   "narracao": "Cinco mana rocks fortes, e nenhum passa de três dólares.",
+   "gravar": "Olhando para a câmera, com um Sol Ring na mão (ou outra pedra de mana do fichário). Mostra a carta para a câmera enquanto fala.",
+   "segundos": 4.3
+  },
+  {
+   "tipo": "texto",
+   "cor": "A",
+   "kicker": "Pra quem está voltando",
+   "titulo": "Mana rock é artefato que gera mana",
+   "sub": "Jogou um de 2 no turno 2? No turno 3 já tem 4 manas",
+   "narracao": "Mana rock é artefato que gera mana. Ele adianta seu jogo em um turno.",
+   "segundos": 5.8
+  },
+  {
+   "tipo": "carta",
+   "cor": "A",
+   "chip": "#1",
+   "kicker": "8,82 milhões de decks no EDHREC",
+   "carta": "pauta/2026-11-19/tiktok/carta-1.jpg",
+   "valor": "US$ 1,15",
+   "real": "(R$ 6,59)",
+   "sub": "Custa 1 e gera 2 manas",
+   "fonte": "EDHREC, nov 2026; Scryfall",
+   "narracao": "Sol Ring. Custa um, gera dois. Está em 83% dos decks.",
+   "segundos": 4.7
+  },
+  {
+   "tipo": "carta",
+   "cor": "U",
+   "chip": "#2",
+   "kicker": "1,75 milhão de decks no EDHREC",
+   "carta": "pauta/2026-11-19/tiktok/carta-2.jpg",
+   "valor": "US$ 1,42",
+   "real": "(R$ 8,14)",
+   "sub": "Gera 1 mana e sua mão fica sem limite",
+   "fonte": "EDHREC, nov 2026; Scryfall",
+   "narracao": "Thought Vessel. Gera um, e você não descarta mais.",
+   "segundos": 3.9
+  },
+  {
+   "tipo": "carta",
+   "cor": "M",
+   "chip": "#3",
+   "kicker": "1,04 milhão de decks no EDHREC",
+   "carta": "pauta/2026-11-19/tiktok/carta-3.jpg",
+   "valor": "US$ 0,27",
+   "real": "(R$ 1,55)",
+   "sub": "Qualquer cor do comandante, e depois vira carta",
+   "fonte": "EDHREC, nov 2026; Scryfall",
+   "narracao": "Commander's Sphere. Qualquer cor, e no fim vira carta.",
+   "segundos": 3.9
+  },
+  {
+   "tipo": "carta",
+   "cor": "M",
+   "chip": "#4",
+   "kicker": "875 mil decks no EDHREC",
+   "carta": "pauta/2026-11-19/tiktok/carta-4.jpg",
+   "valor": "US$ 2,20",
+   "real": "(R$ 12,61)",
+   "sub": "Todo terreno seu passa a gerar qualquer cor",
+   "fonte": "EDHREC, nov 2026; Scryfall",
+   "narracao": "Chromatic Lantern. Todo terreno gera qualquer cor.",
+   "segundos": 3.2
+  },
+  {
+   "tipo": "carta",
+   "cor": "B",
+   "chip": "#5",
+   "kicker": "831 mil decks no EDHREC",
+   "carta": "pauta/2026-11-19/tiktok/carta-5.jpg",
+   "valor": "US$ 0,35",
+   "real": "(R$ 2,01)",
+   "sub": "Azul ou preto, e tem um para cada par de cores",
+   "fonte": "EDHREC, nov 2026; Scryfall",
+   "narracao": "Talisman. Tem um para cada par de cores.",
+   "segundos": 3.6
+  }
+ ]
+}
