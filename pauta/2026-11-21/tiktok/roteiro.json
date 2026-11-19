@@ -18,7 +18,8 @@
    "titulo": "Duas sleeves numa carta",
    "narracao": "Vieram sleeves no pacote. Virou double sleeve.",
    "gravar": "Mostra para a câmera o pacote de Perfect Fit e a caixa de Dragon Shield que vieram no pacote, um em cada mão.",
-   "segundos": 3.2
+   "segundos": 3.2,
+   "caixa": "topo"
   },
   {
    "tipo": "rosto",
@@ -27,7 +28,8 @@
    "titulo": "A justa, de cabeça para baixo",
    "narracao": "Primeiro a justa, entrando de cabeça para baixo.",
    "gravar": "Coloca a Perfect Fit numa carta do Corte Carmesim, entrando pelo lado de cima da carta, devagar e perto da câmera.",
-   "segundos": 3.6
+   "segundos": 3.6,
+   "caixa": "cima"
   },
   {
    "tipo": "rosto",
@@ -36,7 +38,8 @@
    "titulo": "A de fora, pelo outro lado",
    "narracao": "Depois a Dragon Shield por cima, pelo outro lado.",
    "gravar": "Coloca a Dragon Shield por cima da Perfect Fit, entrando pelo lado de baixo, e mostra a carta pronta para a câmera.",
-   "segundos": 3.9
+   "segundos": 3.9,
+   "caixa": "cima"
   },
   {
    "tipo": "texto",
@@ -89,5 +92,6 @@
    "narracao": "E você, usa uma sleeve ou duas?",
    "segundos": 3.2
   }
- ]
+ ],
+ "rostoGravado": true
 }

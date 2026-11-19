@@ -18,8 +18,7 @@
    "titulo": "R$ 438 fechado. Abri o meu",
    "narracao": "Esse precon sai por 438 reais fechado. Abri o meu.",
    "gravar": "Segura a caixa lacrada do Prismari Artistry na altura do peito e começa a abrir enquanto fala.",
-   "segundos": 4.3,
-   "caixa": "topo"
+   "segundos": 4.3
   },
   {
    "tipo": "rosto",
@@ -28,8 +27,7 @@
    "titulo": "Dois foil sem borda",
    "narracao": "Dentro, dois comandantes em foil sem borda: a Rootha e o Muddle.",
    "gravar": "Tira da caixa as duas cartas foil dos comandantes e mostra uma em cada mão, perto da câmera.",
-   "segundos": 5,
-   "caixa": "topo"
+   "segundos": 5
   },
   {
    "tipo": "carta",
@@ -91,8 +89,7 @@
    "titulo": "Rootha ou Muddle?",
    "narracao": "Pra quem gosta de mágica grande, vale. Rootha ou Muddle no comando?",
    "gravar": "Com o deck aberto na mesa e os dois comandantes na mão, dá a opinião olhando para a câmera.",
-   "segundos": 5,
-   "caixa": "topo"
+   "segundos": 5
   }
  ],
  "rostoGravado": true
