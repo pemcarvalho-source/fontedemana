@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-11-15-gravacao@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261114T231500Z
 DURATION:PT15M
 SUMMARY:20:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -50,7 +50,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-tiktok@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261115T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Rota das Lojas #1\, Jogujogo e o booster de brinde
@@ -84,7 +84,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-threads-manha@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261115T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Rota das Lojas #1: Jogujogo\, na Água Branc
@@ -109,7 +109,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-feed@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261115T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Rota das Lojas #1: Jogujogo\, na Água Branca
@@ -149,7 +149,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261115T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -168,7 +168,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-stories-tarde@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261115T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -188,7 +188,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-reels@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261115T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Rota das Lojas #1: Jogujogo\, na Águ
@@ -225,7 +225,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-15-comentarios@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261116T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -247,7 +247,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-gravacao@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261115T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -299,7 +299,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-tiktok@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261116T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o Top 5 #7: board wipes
@@ -329,7 +329,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-threads-manha@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261116T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Chama o Juiz #7: dá para conjurar o Panglac
@@ -355,7 +355,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-feed@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261116T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Chama o Juiz #7: dá para conjurar o Panglaci
@@ -393,7 +393,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261116T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -412,7 +412,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-stories-tarde@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261116T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -432,7 +432,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-reels@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261116T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Top 5 #7: os board wipes que salvam a
@@ -468,7 +468,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-comentarios@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261117T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -490,7 +490,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-gravacao@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261116T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -542,7 +542,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-tiktok@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261117T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Dicionário do Commander #9\, tutor
@@ -574,7 +574,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-stories-mulligan@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261117T210000Z
 DURATION:PT15M
 SUMMARY:18:00 Instagram Stories: Parceria com a Mulligan: os produtos chega
@@ -609,7 +609,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-threads-manha@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261117T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Dicionário do Commander #9: o que é tutor
@@ -632,7 +632,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-feed@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261117T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Dicionário do Commander #9: o que é tutor
@@ -671,7 +671,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261117T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -690,7 +690,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-stories-tarde@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261117T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -710,7 +710,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-reels@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261117T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Dicionário do Commander #9: o que é
@@ -747,7 +747,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-comentarios@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261118T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -769,7 +769,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-18-gravacao@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261117T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -823,7 +823,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-18-tiktok@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261118T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Rota das Lojas #2\, torneio de precon na MTG Brasil
@@ -858,7 +858,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-18-threads-manha@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261118T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Rota das Lojas #2: fui buscar duas cartas na
@@ -885,7 +885,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-18-feed@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261118T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Rota das Lojas #2: fui buscar duas cartas na 
@@ -929,7 +929,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-18-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261118T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -948,7 +948,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-18-stories-tarde@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261118T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -968,7 +968,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-18-reels@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261118T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Rota das Lojas #2: fui buscar duas ca
@@ -1007,7 +1007,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-18-comentarios@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261119T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1029,7 +1029,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-19-gravacao@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261118T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -1085,30 +1085,29 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-19-tiktok@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261119T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o Top 5 #8: mana rocks baratos
 DESCRIPTION:Vídeo do Top 5 com os 5 mana rocks baratos\, com a sua cena de
-  abertura e a sua voz.\n\nArquivos:\n- Vídeo do TikTok (mudo): https://fo
- ntedemana.com.br/pauta/2026-11-19/tiktok/tiktok-mudo.mp4\n\nLegenda:\nComm
- ander: os 5 mana rocks baratos que mais aparecem nos decks. Qual não sai 
- do seu?\n\n1. Sol Ring\n2. Thought Vessel\n3. Commander's Sphere\n4. Chrom
- atic Lantern\n5. Talisman of Dominance\n\nOs cinco juntos saem por US$ 5\,
- 39 (R$ 30\,90). Decks no EDHREC (nov 2026) e preços do Scryfall. Reais pe
- la cotação de 16 nov (Banco Central\, PTAX).\nMais em fontedemana.com.br
- \n\n#solring #commander #mtg\n\nFonte de Mana is unofficial Fan Content pe
- rmitted under the Fan Content Policy. Not approved/endorsed by Wizards. Po
- rtions of the materials used are property of Wizards of the Coast. ©Wizar
- ds of the Coast LLC.\n\nComentário fixado:\nQual mana rock não sai do se
- u deck: Sol Ring\, Thought Vessel\, Commander's Sphere\, Chromatic Lantern
-  ou o Talisman da sua cor? Toda quinta tem um Top 5 novo da Fonte de Mana.
- \n\nPasso a passo:\n1. Poste com um som em alta da biblioteca do TikTok\, 
- com o volume entre 15% e 20%.\n2. Voz própria não precisa de rótulo de 
- IA.\n3. Fixe o comentário logo depois de postar.\n4. Se os vídeos não c
- hegarem\, poste o vídeo mudo com uma música em alta.\n\nValores em reais
-  pela cotação de 16 nov (Banco Central\, PTAX).\n\nPauta completa: https
- ://fontedemana.com.br/pauta/2026-11-19/#tiktok
+  abertura e a sua voz.\n\nArquivos:\n- Vídeo do TikTok narrado: https://f
+ ontedemana.com.br/pauta/2026-11-19/tiktok/tiktok-narrado.mp4\n\nLegenda:\n
+ Commander: os 5 mana rocks baratos que mais aparecem nos decks. Qual não 
+ sai do seu?\n\n1. Sol Ring\n2. Thought Vessel\n3. Commander's Sphere\n4. C
+ hromatic Lantern\n5. Talisman of Dominance\n\nOs cinco juntos saem por US$
+  5\,39 (R$ 30\,90). Decks no EDHREC (nov 2026) e preços do Scryfall. Reai
+ s pela cotação de 16 nov (Banco Central\, PTAX).\nMais em fontedemana.co
+ m.br\n\n#solring #commander #mtg\n\nFonte de Mana is unofficial Fan Conten
+ t permitted under the Fan Content Policy. Not approved/endorsed by Wizards
+ . Portions of the materials used are property of Wizards of the Coast. ©W
+ izards of the Coast LLC.\n\nComentário fixado:\nQual mana rock não sai d
+ o seu deck: Sol Ring\, Thought Vessel\, Commander's Sphere\, Chromatic Lan
+ tern ou o Talisman da sua cor? Toda quinta tem um Top 5 novo da Fonte de M
+ ana.\n\nPasso a passo:\n1. Poste com um som em alta da biblioteca do TikTo
+ k\, com o volume entre 15% e 20%.\n2. Voz própria não precisa de rótulo
+  de IA.\n3. Fixe o comentário logo depois de postar.\n\nValores em reais 
+ pela cotação de 16 nov (Banco Central\, PTAX).\n\nPauta completa: https:
+ //fontedemana.com.br/pauta/2026-11-19/#tiktok
 URL:https://fontedemana.com.br/pauta/2026-11-19/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1118,7 +1117,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-20-gravacao@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261119T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de 20/11 (você aparece)
@@ -1177,7 +1176,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-20-tiktok@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261120T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Abri o precon Prismari Artistry
@@ -1219,7 +1218,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-20-collab-mulligan@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261120T145000Z
 DURATION:PT15M
 SUMMARY:11:50 Instagram feed: Collab com a Mulligan no carrossel e no Reels
@@ -1243,7 +1242,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-21-gravacao@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261119T224500Z
 DURATION:PT15M
 SUMMARY:19:45 Gravação: Gravar o vídeo de 21/11 (você aparece)
@@ -1299,7 +1298,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-21-tiktok@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261121T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Do zero à mesa #4: double sleeve
@@ -1339,7 +1338,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-22-gravacao@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261119T231500Z
 DURATION:PT15M
 SUMMARY:20:15 Gravação: Gravar o vídeo de 22/11 (você aparece)
@@ -1392,7 +1391,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-22-tiktok@fontedemana.com.br
-DTSTAMP:20261118T213037Z
+DTSTAMP:20261119T015943Z
 DTSTART:20261122T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Debate da semana #2: proxy na mesa casual
