@@ -1,0 +1,156 @@
+{
+  "n": 45,
+  "data": "19 nov",
+  "carrossel": {
+    "capa": {
+      "cor": "A",
+      "titulo": "Secret Lair de Duna é oficial",
+      "sub": "Três drops, <b>oito comandantes inéditos</b> e o verme Shai-Hulud. A venda é em <b>30 de novembro</b>, às 14h de Brasília.",
+      "credito": "Arte: Shai-Hulud, Grzegorz Rutkowski"
+    },
+    "cartoes": [
+      {
+        "cor": "A",
+        "titulo": "Os três drops de Duna",
+        "linhas": [
+          {
+            "nome": "Balance of Power",
+            "valor": "$ 39,99",
+            "sub": "8 lendas novas, US$ 49,99 foil"
+          },
+          {
+            "nome": "Deserts of Arrakis",
+            "valor": "$ 39,99",
+            "sub": "Shai-Hulud, US$ 49,99 foil"
+          },
+          {
+            "nome": "Spice",
+            "valor": "$ 59,99",
+            "sub": "Darksteel Forge, halo foil"
+          }
+        ],
+        "nota": {
+          "rotulo": "Na sua mesa",
+          "texto": "os oito comandantes de Duna só existem nesse drop, todos legais no Commander."
+        },
+        "fonte": "Fontes: Wizards e MTG Rocks"
+      }
+    ],
+    "topdeck": {
+      "titulo": "Darksteel Forge",
+      "habilidades": [
+        {
+          "rotulo": "Tudo indestrutível",
+          "texto": "Seus artefatos ignoram qualquer efeito que diga destruir."
+        },
+        {
+          "rotulo": "Ela também",
+          "texto": "A Forja é artefato e se protege. Só sai com exílio, devolução ou sacrifício."
+        },
+        {
+          "rotulo": "Criaturas de metal",
+          "texto": "Criatura artefato sua não morre por dano nem por Doom Blade."
+        }
+      ],
+      "extra": "Volta como Pain Box no drop Spice. Em <b>116 mil</b> decks no EDHREC e em <b>40%</b> dos decks de The Everforger. US$ 42,99 no Scryfall.",
+      "credito": "Ilustração de Martina Pilcerova"
+    },
+    "ban": {
+      "numero": "11",
+      "unidade": "DIAS",
+      "texto": "Para a próxima janela de banimentos, em 30 de novembro, o mesmo dia da venda do Secret Lair de Duna."
+    },
+    "turnos": [
+      {
+        "cor": "W",
+        "data": "20 nov",
+        "texto": "Festa de Commander de Star Trek"
+      },
+      {
+        "cor": "A",
+        "data": "30 nov",
+        "texto": "Venda do Secret Lair de Duna"
+      },
+      {
+        "cor": "B",
+        "data": "30 nov",
+        "texto": "Janela de banimentos"
+      },
+      {
+        "cor": "A",
+        "data": "9 dez",
+        "texto": "Nova janela do Zeta Set"
+      },
+      {
+        "cor": "G",
+        "data": "5 fev",
+        "texto": "Nauctis chega às lojas"
+      }
+    ],
+    "sussurro": null
+  },
+  "video": {
+    "cena1": {
+      "titulo": "Secret Lair de Duna é oficial",
+      "pilulas": [
+        "8 comandantes inéditos",
+        "Venda em 30 nov",
+        "Shai-Hulud"
+      ]
+    },
+    "cena2": {
+      "rotulo": "No bolso",
+      "cor": "A",
+      "titulo": "O que vem em cada drop",
+      "itens": [
+        "Balance of Power: oito lendas novas, US$ 39,99",
+        "Deserts of Arrakis: Shai-Hulud e reimpressões, US$ 39,99",
+        "Spice: Darksteel Forge em halo foil, US$ 59,99"
+      ],
+      "fonte": "Fontes: Wizards e MTG Rocks"
+    },
+    "cena3": {
+      "linhas": [
+        "<b>Darksteel Forge</b> deixa seus artefatos indestrutíveis",
+        "Volta como Pain Box no drop Spice de Duna",
+        "Em 116 mil decks no EDHREC"
+      ]
+    },
+    "cena4": {
+      "texto": "Faltam 11 dias para 30 de novembro, dia da venda de Duna e da janela de banimentos.",
+      "sussurro": null
+    }
+  },
+  "textos": {
+    "legendaCarrossel": "Secret Lair, Magic e Commander: o Secret Lair de Duna é oficial, com oito comandantes inéditos.\n\nA Wizards anunciou em 18 de novembro o My Arrakis, My Superdrop, que tinha vazado uma semana antes. São três drops. Balance of Power traz oito lendas novas, como Paul Atreides, Baron Vladimir Harkonnen e Muad'Dib, por US$ 39,99 (US$ 49,99 em foil). Deserts of Arrakis tem o Shai-Hulud, verme novo de 9 manas que destrói artefatos e encantamentos ao entrar, pelo mesmo preço. Spice sai só em halo foil por US$ 59,99, com Darksteel Forge e Revel in Riches. O bundle com os dois primeiros, com e sem foil, custa US$ 174,99.\n\nA venda abre em 30 de novembro, às 14h de Brasília, só no site do Secret Lair.\n\nNo Topdeck do Dia, Darksteel Forge, o artefato que deixa todos os seus artefatos indestrutíveis e volta como Pain Box no drop Spice.\n\nQual lenda de Duna você colocaria de comandante?\n\nEdição completa em fontedemana.com.br\n\nArte da capa: Shai-Hulud, Grzegorz Rutkowski. Topdeck: Darksteel Forge, Martina Pilcerova.\n\n#secretlair #commander #mtg",
+    "legendaVideo": "Secret Lair de Duna e Commander: a Wizards confirmou três drops, com oito comandantes inéditos e o verme Shai-Hulud. A venda é em 30 de novembro, às 14h de Brasília.\n\nNo Topdeck, Darksteel Forge, em 116 mil decks no EDHREC.\n\nQual lenda de Duna você montaria primeiro?\n\nTudo em fontedemana.com.br\n\n#secretlair #commander #mtg",
+    "threadsPost": "O Secret Lair de Duna é oficial: três drops, com oito comandantes inéditos e o verme Shai-Hulud, todos legais no Commander. Balance of Power e Deserts of Arrakis custam US$ 39,99 cada (US$ 49,99 em foil) e Spice, com Darksteel Forge, US$ 59,99. A venda abre em 30 de novembro, às 14h de Brasília. Qual lenda de Duna você colocaria de comandante? fontedemana.com.br",
+    "threadsFio": [
+      "O Secret Lair de Duna é oficial. A Wizards anunciou em 18 de novembro o My Arrakis, My Superdrop, que tinha vazado uma semana antes. São três drops e a venda abre em 30 de novembro, às 14h de Brasília.",
+      "Balance of Power traz oito lendas inéditas, como Paul Atreides, Baron Vladimir Harkonnen, Chani e Muad'Dib, todas legais no Commander. US$ 39,99, ou US$ 49,99 em foil.",
+      "Deserts of Arrakis tem o Shai-Hulud, verme novo de 9 manas com atropelar e indestrutível, que destrói artefatos e encantamentos ao entrar. Spice, só em halo foil, sai por US$ 59,99 com Darksteel Forge.",
+      "No Topdeck do Dia, Darksteel Forge: todos os seus artefatos ficam indestrutíveis. Está em 116 mil decks no EDHREC.",
+      "Faltam 11 dias para a janela de banimentos de 30 de novembro, o mesmo dia da venda de Duna. Edição completa em fontedemana.com.br"
+    ],
+    "threadsAvulsos": [
+      {
+        "titulo": "Pergunta do dia",
+        "texto": "Saiu o Secret Lair de Duna, com oito comandantes inéditos. Qual você colocaria na mesa: Muad'Dib, o Barão Harkonnen ou Paul Atreides?",
+        "obs": "Opções: Muad'Dib, Barão Harkonnen, Paul Atreides"
+      }
+    ]
+  },
+  "pauta": {
+    "forca": "calmo",
+    "porque": "A Notícia Lendária é um Secret Lair, produto que não é precon nem coleção de Commander, e o drop já tinha vazado.",
+    "storyPergunta": "Qual lenda de Duna você montaria?",
+    "enquete": {
+      "pergunta": "Vai comprar o Secret Lair de Duna?",
+      "opcoes": [
+        "Vou comprar",
+        "Só as avulsas",
+        "Passo"
+      ]
+    }
+  }
+}
