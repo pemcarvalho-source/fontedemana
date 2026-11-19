@@ -1,102 +1,246 @@
 {
- "data": "2026-11-19",
- "fx": "Valores em reais pela cotação de 16 nov (Banco Central, PTAX).",
- "avisos": [
-  {
-   "id": "gravacao",
-   "dia": "2026-11-18",
-   "hora": "19:15",
-   "rede": "Gravação",
-   "titulo": "Gravar o vídeo de amanhã (você aparece)",
-   "oQue": "Top 5 #8: os mana rocks baratos que mais aparecem no Commander. Você aparece só na cena 1, falando o gancho para a câmera; nas outras 6, só a sua voz por cima das telas.",
-   "arquivos": [
+  "data": "2026-11-19",
+  "fx": "Valores em reais pela cotação de 16 nov (Banco Central, PTAX).",
+  "forca": "calmo",
+  "feed": "original",
+  "avisos": [
     {
-     "nome": "Vídeo mudo (referência das cenas)",
-     "url": "https://fontedemana.com.br/pauta/2026-11-19/tiktok/tiktok-mudo.mp4"
+      "id": "gravacao",
+      "dia": "2026-11-18",
+      "hora": "19:15",
+      "rede": "Gravação",
+      "titulo": "Gravar o vídeo de amanhã (você aparece)",
+      "oQue": "Top 5 #8: os mana rocks baratos que mais aparecem no Commander. Você aparece só na cena 1, falando o gancho para a câmera; nas outras 6, só a sua voz por cima das telas.",
+      "arquivos": [
+        {
+          "nome": "Vídeo mudo (referência das cenas)",
+          "url": "https://fontedemana.com.br/pauta/2026-11-19/tiktok/tiktok-mudo.mp4"
+        }
+      ],
+      "roteiro": [
+        {
+          "cena": "Cena 1, rosto, uns 4 s",
+          "tela": "Mana rocks no Commander: 5 baratos e fortes",
+          "fala": "Cinco mana rocks fortes, e nenhum passa de três dólares.",
+          "como": "Rosto: Olhando para a câmera, com um Sol Ring na mão (ou outra pedra de mana do fichário). Mostra a carta para a câmera enquanto fala."
+        },
+        {
+          "cena": "Cena 2, só a voz, uns 6 s",
+          "tela": "Pra quem está voltando: Mana rock é artefato que gera mana",
+          "fala": "Mana rock é artefato que gera mana. Ele adianta seu jogo em um turno.",
+          "como": "Só a voz: pode gravar em vídeo ou áudio"
+        },
+        {
+          "cena": "Cena 3, só a voz, uns 5 s",
+          "tela": "#1 8,82 milhões de decks no EDHREC, US$ 1,15 (R$ 6,59). Custa 1 e gera 2 manas",
+          "fala": "Sol Ring. Custa um, gera dois. Está em 83% dos decks.",
+          "como": "Só a voz: pode gravar em vídeo ou áudio"
+        },
+        {
+          "cena": "Cena 4, só a voz, uns 4 s",
+          "tela": "#2 1,75 milhão de decks no EDHREC, US$ 1,42 (R$ 8,14). Gera 1 mana e sua mão fica sem limite",
+          "fala": "Thought Vessel. Gera um, e você não descarta mais.",
+          "como": "Só a voz: pode gravar em vídeo ou áudio"
+        },
+        {
+          "cena": "Cena 5, só a voz, uns 4 s",
+          "tela": "#3 1,04 milhão de decks no EDHREC, US$ 0,27 (R$ 1,55). Qualquer cor do comandante, e depois vira carta",
+          "fala": "Commander's Sphere. Qualquer cor, e no fim vira carta.",
+          "como": "Só a voz: pode gravar em vídeo ou áudio"
+        },
+        {
+          "cena": "Cena 6, só a voz, uns 3 s",
+          "tela": "#4 875 mil decks no EDHREC, US$ 2,20 (R$ 12,61). Todo terreno seu passa a gerar qualquer cor",
+          "fala": "Chromatic Lantern. Todo terreno gera qualquer cor.",
+          "como": "Só a voz: pode gravar em vídeo ou áudio"
+        },
+        {
+          "cena": "Cena 7, só a voz, uns 4 s",
+          "tela": "#5 831 mil decks no EDHREC, US$ 0,35 (R$ 2,01). Azul ou preto, e tem um para cada par de cores",
+          "fala": "Talisman. Tem um para cada par de cores.",
+          "como": "Só a voz: pode gravar em vídeo ou áudio"
+        }
+      ],
+      "passos": [
+        "Celular na vertical, câmera da frente, na altura dos olhos, a um braço de distância.",
+        "Rosto na metade de cima da tela: o título entra embaixo dele, na altura do peito.",
+        "Luz de frente (de frente para a janela) e fundo arrumado; a estante de cartas é ótima.",
+        "Desligue o Vídeo HDR (Ajustes, Câmera, Gravar Vídeo) para as cores não lavarem.",
+        "Um vídeo por cena, falando para a câmera, com meio segundo de silêncio antes e depois; nomeie cena_1, cena_2... e mande todos juntos.",
+        "Nas cenas sem rosto, só a voz conta: pode gravar em vídeo ou só o áudio.",
+        "Num lugar silencioso, fale do jeito que diria na mesa, sem cara de leitura.",
+        "Mande os vídeos ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"vídeos do TikTok de 2026-11-19\"."
+      ]
+    },
+    {
+      "id": "tiktok",
+      "hora": "11:30",
+      "rede": "TikTok",
+      "titulo": "Postar o Top 5 #8: mana rocks baratos",
+      "oQue": "Vídeo do Top 5 com os 5 mana rocks baratos, com a sua cena de abertura e a sua voz.",
+      "arquivos": [
+        {
+          "nome": "Vídeo do TikTok narrado",
+          "url": "https://fontedemana.com.br/pauta/2026-11-19/tiktok/tiktok-narrado.mp4"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Commander: os 5 mana rocks baratos que mais aparecem nos decks. Qual não sai do seu?\n\n1. Sol Ring\n2. Thought Vessel\n3. Commander's Sphere\n4. Chromatic Lantern\n5. Talisman of Dominance\n\nOs cinco juntos saem por US$ 5,39 (R$ 30,90). Decks no EDHREC (nov 2026) e preços do Scryfall. Reais pela cotação de 16 nov (Banco Central, PTAX).\nMais em fontedemana.com.br\n\n#solring #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        },
+        {
+          "rotulo": "Comentário fixado",
+          "texto": "Qual mana rock não sai do seu deck: Sol Ring, Thought Vessel, Commander's Sphere, Chromatic Lantern ou o Talisman da sua cor? Toda quinta tem um Top 5 novo da Fonte de Mana."
+        }
+      ],
+      "passos": [
+        "Poste com um som em alta da biblioteca do TikTok, com o volume entre 15% e 20%.",
+        "Voz própria não precisa de rótulo de IA.",
+        "Fixe o comentário logo depois de postar."
+      ]
+    },
+    {
+      "id": "threads-manha",
+      "hora": "10:30",
+      "rede": "Threads",
+      "titulo": "Debate: Top 5 #8: os mana rocks baratos que mais aparecem no Commander",
+      "oQue": "Post de debate do conteúdo original de hoje (Top 5) para puxar conversa.",
+      "textos": [
+        {
+          "rotulo": "Post",
+          "texto": "Sol Ring está em 8,82 milhões de decks de Commander no EDHREC, 83% de todos que podem jogar ele. Custa 1 e gera 2 manas no turno 1.\n\nTem mesa casual que prefere sem ele, porque quem abre com Sol Ring sai na frente. Você deixa o Sol Ring no deck ou acha que ele estraga a mesa?"
+        }
+      ],
+      "passos": [
+        "Abra o Threads e cole o Post.",
+        "Dica: Enquete com duas opções: Fica no deck e Tira na mesa casual",
+        "Toque em Adicionar tópico e escolha MTG.",
+        "Publique e responda quem comentar na primeira hora."
+      ]
+    },
+    {
+      "id": "feed",
+      "hora": "12:00",
+      "rede": "Instagram feed",
+      "titulo": "Top 5 #8: os mana rocks baratos que mais aparecem no Commander",
+      "origem": "original:2026-11-19",
+      "oQue": "Carrossel original de 7 imagens (Top 5): Top 5 #8: os mana rocks baratos que mais aparecem no Commander. Feito para salvar e compartilhar.",
+      "arquivos": [
+        {
+          "nome": "Imagem 1 de 7",
+          "url": "https://fontedemana.com.br/pauta/2026-11-19/original/carrossel-01.jpg"
+        },
+        {
+          "nome": "Imagem 2 de 7",
+          "url": "https://fontedemana.com.br/pauta/2026-11-19/original/carrossel-02.jpg"
+        },
+        {
+          "nome": "Imagem 3 de 7",
+          "url": "https://fontedemana.com.br/pauta/2026-11-19/original/carrossel-03.jpg"
+        },
+        {
+          "nome": "Imagem 4 de 7",
+          "url": "https://fontedemana.com.br/pauta/2026-11-19/original/carrossel-04.jpg"
+        },
+        {
+          "nome": "Imagem 5 de 7",
+          "url": "https://fontedemana.com.br/pauta/2026-11-19/original/carrossel-05.jpg"
+        },
+        {
+          "nome": "Imagem 6 de 7",
+          "url": "https://fontedemana.com.br/pauta/2026-11-19/original/carrossel-06.jpg"
+        },
+        {
+          "nome": "Imagem 7 de 7",
+          "url": "https://fontedemana.com.br/pauta/2026-11-19/original/carrossel-07.jpg"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Mana rocks no Commander: 5 cartas de Magic baratas que aceleram qualquer deck. Qual seria o seu número 1?\n\nMana rock é artefato que gera mana. Jogou um de 2 manas no turno 2? No turno 3 você já tem 4. Nenhum desses passa de 3 dólares, e os cinco juntos saem por US$ 5,39 (R$ 30,90).\n\n5. Talisman of Dominance: tem um para cada par de cores\n4. Chromatic Lantern: todo terreno gera qualquer cor\n3. Commander's Sphere: qualquer cor do comandante, depois vira carta\n2. Thought Vessel: mão sem limite\n1. Sol Ring: custa 1 e gera 2\n\nNúmero de decks pelo EDHREC e preços pelo Scryfall, nov 2026. Valores em reais pela cotação de 16 nov (Banco Central, PTAX).\n\nMais em fontedemana.com.br\n\nFaltou algum? Qual entra primeiro no seu deck?\n\n#solring #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        }
+      ],
+      "passos": [
+        "No Instagram, toque em + e escolha Post.",
+        "Selecione as 7 imagens na ordem, da 1 à 7.",
+        "Toque em Adicionar música e escolha uma em alta que combine com o tema.",
+        "Cole a Legenda e publique."
+      ]
+    },
+    {
+      "id": "stories-meio-dia",
+      "hora": "12:00",
+      "rede": "Instagram Stories",
+      "titulo": "Repost do carrossel com enquete",
+      "oQue": "Compartilhe o carrossel recém postado no Story com uma enquete.",
+      "passos": [
+        "No carrossel publicado, toque no avião de papel e em Adicionar post ao seu story.",
+        "Adicione o sticker de Enquete embaixo do post: Qual mana rock não sai do seu deck? com Sol Ring, Thought Vessel, Commander's Sphere e Chromatic Lantern.",
+        "Publique."
+      ]
+    },
+    {
+      "id": "stories-tarde",
+      "hora": "15:00",
+      "rede": "Instagram Stories",
+      "titulo": "Topdeck do Dia com link",
+      "oQue": "Story com a imagem de Darksteel Forge no Topdeck do Dia e o sticker de link para a edição completa.",
+      "arquivos": [
+        {
+          "nome": "Topdeck do Dia",
+          "url": "https://fontedemana.com.br/kit/ed45/carrossel-03.jpg"
+        }
+      ],
+      "passos": [
+        "Baixe a imagem e poste no Story.",
+        "Adicione o sticker de Link para fontedemana.com.br com o texto Edição completa, embaixo do texto do Topdeck.",
+        "Publique."
+      ]
+    },
+    {
+      "id": "reels",
+      "hora": "19:00",
+      "rede": "Reels",
+      "titulo": "Vídeo original: Top 5 #8: os mana rocks baratos que mais aparecem no…",
+      "oQue": "O vídeo original de hoje no Instagram, o mesmo arquivo do TikTok, já narrado. É o formato que mais chega a quem não segue.",
+      "arquivos": [
+        {
+          "nome": "Vídeo original narrado",
+          "url": "https://fontedemana.com.br/pauta/2026-11-19/tiktok/tiktok-narrado.mp4"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Commander: os 5 mana rocks baratos que mais aparecem nos decks. Qual não sai do seu?\n\n1. Sol Ring\n2. Thought Vessel\n3. Commander's Sphere\n4. Chromatic Lantern\n5. Talisman of Dominance\n\nOs cinco juntos saem por US$ 5,39 (R$ 30,90). Decks no EDHREC (nov 2026) e preços do Scryfall. Reais pela cotação de 16 nov (Banco Central, PTAX).\nMais em fontedemana.com.br\n\n#solring #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        },
+        {
+          "rotulo": "Comentário fixado",
+          "texto": "Qual mana rock não sai do seu deck: Sol Ring, Thought Vessel, Commander's Sphere, Chromatic Lantern ou o Talisman da sua cor? Toda quinta tem um Top 5 novo da Fonte de Mana."
+        }
+      ],
+      "passos": [
+        "No Instagram, toque em + e escolha Reel.",
+        "Escolha o vídeo baixado daqui, nunca o salvo do TikTok (o Instagram derruba vídeo com marca d'água).",
+        "Em Áudio, ponha uma música em alta da biblioteca do Instagram com volume baixo (uns 10%), sem cobrir a voz.",
+        "Na capa, use o primeiro quadro, o do gancho.",
+        "Cole a Legenda e publique.",
+        "Fixe o comentário e responda quem comentar na primeira hora."
+      ]
+    },
+    {
+      "id": "comentarios",
+      "hora": "21:30",
+      "rede": "Comentários",
+      "titulo": "Responder os comentários de hoje e de ontem",
+      "oQue": "Uns 10 minutos nas três redes: curtir e responder os comentários das últimas 48 horas, começando pelo vídeo e pelo carrossel de hoje. Conversa nos comentários leva a peça a mais gente, e o Instagram recomenda responder em até 2 dias.",
+      "passos": [
+        "Instagram: nas notificações, curta os comentários e responda com uma frase quem perguntou ou discordou.",
+        "TikTok e Threads: o mesmo, começando pelo post com mais comentários.",
+        "Pergunta boa ou dúvida que se repete, nos comentários ou nas DMs? Mande na conversa do projeto: vira tema de um pilar."
+      ]
     }
-   ],
-   "roteiro": [
-    {
-     "cena": "Cena 1, rosto, uns 4 s",
-     "tela": "Mana rocks no Commander: 5 baratos e fortes",
-     "fala": "Cinco mana rocks fortes, e nenhum passa de três dólares.",
-     "como": "Rosto: Olhando para a câmera, com um Sol Ring na mão (ou outra pedra de mana do fichário). Mostra a carta para a câmera enquanto fala."
-    },
-    {
-     "cena": "Cena 2, só a voz, uns 6 s",
-     "tela": "Pra quem está voltando: Mana rock é artefato que gera mana",
-     "fala": "Mana rock é artefato que gera mana. Ele adianta seu jogo em um turno.",
-     "como": "Só a voz: pode gravar em vídeo ou áudio"
-    },
-    {
-     "cena": "Cena 3, só a voz, uns 5 s",
-     "tela": "#1 8,82 milhões de decks no EDHREC, US$ 1,15 (R$ 6,59). Custa 1 e gera 2 manas",
-     "fala": "Sol Ring. Custa um, gera dois. Está em 83% dos decks.",
-     "como": "Só a voz: pode gravar em vídeo ou áudio"
-    },
-    {
-     "cena": "Cena 4, só a voz, uns 4 s",
-     "tela": "#2 1,75 milhão de decks no EDHREC, US$ 1,42 (R$ 8,14). Gera 1 mana e sua mão fica sem limite",
-     "fala": "Thought Vessel. Gera um, e você não descarta mais.",
-     "como": "Só a voz: pode gravar em vídeo ou áudio"
-    },
-    {
-     "cena": "Cena 5, só a voz, uns 4 s",
-     "tela": "#3 1,04 milhão de decks no EDHREC, US$ 0,27 (R$ 1,55). Qualquer cor do comandante, e depois vira carta",
-     "fala": "Commander's Sphere. Qualquer cor, e no fim vira carta.",
-     "como": "Só a voz: pode gravar em vídeo ou áudio"
-    },
-    {
-     "cena": "Cena 6, só a voz, uns 3 s",
-     "tela": "#4 875 mil decks no EDHREC, US$ 2,20 (R$ 12,61). Todo terreno seu passa a gerar qualquer cor",
-     "fala": "Chromatic Lantern. Todo terreno gera qualquer cor.",
-     "como": "Só a voz: pode gravar em vídeo ou áudio"
-    },
-    {
-     "cena": "Cena 7, só a voz, uns 4 s",
-     "tela": "#5 831 mil decks no EDHREC, US$ 0,35 (R$ 2,01). Azul ou preto, e tem um para cada par de cores",
-     "fala": "Talisman. Tem um para cada par de cores.",
-     "como": "Só a voz: pode gravar em vídeo ou áudio"
-    }
-   ],
-   "passos": [
-    "Celular na vertical, câmera da frente, na altura dos olhos, a um braço de distância.",
-    "Rosto na metade de cima da tela: o título entra embaixo dele, na altura do peito.",
-    "Luz de frente (de frente para a janela) e fundo arrumado; a estante de cartas é ótima.",
-    "Desligue o Vídeo HDR (Ajustes, Câmera, Gravar Vídeo) para as cores não lavarem.",
-    "Um vídeo por cena, falando para a câmera, com meio segundo de silêncio antes e depois; nomeie cena_1, cena_2... e mande todos juntos.",
-    "Nas cenas sem rosto, só a voz conta: pode gravar em vídeo ou só o áudio.",
-    "Num lugar silencioso, fale do jeito que diria na mesa, sem cara de leitura.",
-    "Mande os vídeos ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"vídeos do TikTok de 2026-11-19\"."
-   ]
-  },
-  {
-   "id": "tiktok",
-   "hora": "11:30",
-   "rede": "TikTok",
-   "titulo": "Postar o Top 5 #8: mana rocks baratos",
-   "oQue": "Vídeo do Top 5 com os 5 mana rocks baratos, com a sua cena de abertura e a sua voz.",
-   "arquivos": [
-    {
-     "nome": "Vídeo do TikTok narrado",
-     "url": "https://fontedemana.com.br/pauta/2026-11-19/tiktok/tiktok-narrado.mp4"
-    }
-   ],
-   "textos": [
-    {
-     "rotulo": "Legenda",
-     "texto": "Commander: os 5 mana rocks baratos que mais aparecem nos decks. Qual não sai do seu?\n\n1. Sol Ring\n2. Thought Vessel\n3. Commander's Sphere\n4. Chromatic Lantern\n5. Talisman of Dominance\n\nOs cinco juntos saem por US$ 5,39 (R$ 30,90). Decks no EDHREC (nov 2026) e preços do Scryfall. Reais pela cotação de 16 nov (Banco Central, PTAX).\nMais em fontedemana.com.br\n\n#solring #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
-    },
-    {
-     "rotulo": "Comentário fixado",
-     "texto": "Qual mana rock não sai do seu deck: Sol Ring, Thought Vessel, Commander's Sphere, Chromatic Lantern ou o Talisman da sua cor? Toda quinta tem um Top 5 novo da Fonte de Mana."
-    }
-   ],
-   "passos": [
-    "Poste com um som em alta da biblioteca do TikTok, com o volume entre 15% e 20%.",
-    "Voz própria não precisa de rótulo de IA.",
-    "Fixe o comentário logo depois de postar."
-   ]
-  }
- ]
+  ]
 }
