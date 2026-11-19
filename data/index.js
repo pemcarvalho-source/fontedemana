@@ -1,6 +1,7 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "Darksteel Forge",
   "Hullbreaker Horror",
   "Esper Sentinel",
   "Balefire Dragon",
@@ -43,6 +44,13 @@ window.MANA_POOL_INDEX = {
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 45,
+   "date": "2026-11-19",
+   "dateLabel": "Quinta, 19 de novembro de 2026",
+   "head": "Secret Lair de Duna é oficial, com oito comandantes novos e venda em 30 de novembro",
+   "biome": "G"
+  },
   {
    "n": 44,
    "date": "2026-11-18",
@@ -252,13 +260,6 @@ window.MANA_POOL_INDEX = {
    "dateLabel": "Terça, 20 de outubro de 2026",
    "head": "Tolabow, Loch Rascal ganha texto novo antes de chegar ao Commander",
    "biome": "U"
-  },
-  {
-   "n": 14,
-   "date": "2026-10-19",
-   "dateLabel": "Segunda, 19 de outubro de 2026",
-   "head": "Festival in a Box: Atlanta abre venda hoje com a primeira caixa de Mystery Booster Commander",
-   "biome": "A"
   }
  ]
 };
