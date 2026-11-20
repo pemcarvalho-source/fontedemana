@@ -68,14 +68,15 @@
    "segundos": 6.9
   },
   {
-   "tipo": "rosto",
+   "tipo": "clipe",
    "cor": "M",
    "kicker": "E você?",
    "titulo": "Na sua mesa, soma ou atrapalha?",
    "narracao": "A Fonte não toma partido. Na sua mesa, Universes Beyond soma ou atrapalha?",
-   "gravar": "Olha para a câmera e faz a pergunta do fim.",
    "segundos": 5.4,
-   "caixa": "topo"
+   "video": "pauta/2026-11-22/tiktok/universos.mp4",
+   "inicio": 0,
+   "nota": "Pedido do Paulo em 19/11: só a voz dele, com cartas de vários Universes Beyond enchendo a tela (Avatar, Final Fantasy, Star Trek, Tartarugas Ninja, Quarteto Fantástico, Homem-Aranha, O Senhor dos Anéis, Doctor Who, Fallout, Assassin's Creed, Marvel). Animação feita com as imagens do Scryfall."
   }
  ],
  "rostoGravado": true
