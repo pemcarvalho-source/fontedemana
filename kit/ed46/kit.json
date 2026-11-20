@@ -1,0 +1,104 @@
+{
+ "n": 46,
+ "data": "20 nov",
+ "carrossel": {
+  "capa": {
+   "cor": "G",
+   "titulo": "Sexta calma, Festa de Commander hoje",
+   "sub": "Nenhum fato novo nesta sexta. Hoje começa a <b>Festa de Commander de Star Trek</b> e no Topdeck tem a nave Jund que subiu no EDHREC.",
+   "credito": "Arte: Tranquility, Rob Alexander"
+  },
+  "cartoes": [
+   {
+    "cor": "W",
+    "titulo": "O que vem nos próximos dias",
+    "itens": [
+     {"cor": "W", "html": "<b>20 a 26 nov</b>: primeira rodada da Festa de Commander de Star Trek."},
+     {"cor": "A", "html": "<b>até 30 nov</b>: venda do Secret Lair do Extra Life."},
+     {"cor": "A", "html": "<b>30 nov</b>: venda do Secret Lair de Duna, às 14h de Brasília."},
+     {"cor": "B", "html": "<b>30 nov</b>: próxima janela de banimentos do Commander."}
+    ],
+    "fonte": "Fontes: Wizards e WPN"
+   }
+  ],
+  "topdeck": {
+   "titulo": "Hearthhull, the Worldseed",
+   "habilidades": [
+    {"rotulo": "Carregar a nave", "texto": "Vire outra criatura sua e ponha marcadores iguais ao poder dela."},
+    {"rotulo": "Com 2 marcadores", "texto": "Pague 1, vire e sacrifique um terreno: compre dois e ganhe mais uma descida."},
+    {"rotulo": "Com 8 marcadores", "texto": "Vira 6/7 voadora, e cada terreno sacrificado tira 2 de cada oponente."}
+   ],
+   "extra": "<b>3º comandante</b> mais montado da semana no EDHREC, com 1,25 mil decks. US$ 0,97 (R$ 5,71) no Scryfall. Reais: cotação PTAX de 19 nov",
+   "credito": "Ilustração de Daniel Ljunggren"
+  },
+  "ban": {
+   "numero": "10",
+   "unidade": "DIAS",
+   "texto": "Para a próxima janela de banimentos, em 30 de novembro, o mesmo dia da venda do Secret Lair de Duna."
+  },
+  "turnos": [
+   {"cor": "W", "data": "20 nov", "texto": "Festa de Commander de Star Trek"},
+   {"cor": "A", "data": "30 nov", "texto": "Venda do Secret Lair de Duna"},
+   {"cor": "B", "data": "30 nov", "texto": "Janela de banimentos"},
+   {"cor": "A", "data": "9 dez", "texto": "Nova janela do Zeta Set"},
+   {"cor": "G", "data": "5 fev", "texto": "Nauctis chega às lojas"}
+  ],
+  "sussurro": null
+ },
+ "video": {
+  "cena1": {
+   "titulo": "Sexta calma, Festa de Commander hoje",
+   "pilulas": ["Festa de Star Trek", "Nave Jund no Topdeck", "Ban em 10 dias"]
+  },
+  "cena2": {
+   "rotulo": "Agenda",
+   "cor": "W",
+   "titulo": "O que vem nos próximos dias",
+   "itens": [
+    "De 20 a 26 nov: Festa de Commander de Star Trek.",
+    "30 nov: venda do Secret Lair de Duna, às 14h.",
+    "30 nov: próxima janela de banimentos."
+   ],
+   "fonte": "Fontes: Wizards e WPN"
+  },
+  "cena3": {
+   "linhas": [
+    "<b>Hearthhull, the Worldseed</b> troca terreno por duas cartas.",
+    "Com 8 marcadores, cada terreno sacrificado drena 2.",
+    "3º comandante da semana no EDHREC, por menos de 1 dólar."
+   ]
+  },
+  "cena4": {
+   "texto": "Faltam 10 dias para 30 de novembro, dia da janela de banimentos e da venda de Duna.",
+   "sussurro": null
+  }
+ },
+ "textos": {
+  "legendaCarrossel": "Commander, Magic e Festa de Commander de Star Trek: sexta calma, sem fato novo confirmado, mas a mesa está posta.\n\nHoje começa a primeira rodada da Festa de Commander de Star Trek, que vai até 26 de novembro nas lojas. Em 30 de novembro tem venda do Secret Lair de Duna, às 14h de Brasília, e a próxima janela de banimentos do Commander, no mesmo dia.\n\nNo Topdeck do Dia, Hearthhull, the Worldseed, a espaçonave Jund que sacrifica terreno para comprar duas cartas e, com 8 marcadores, drena 2 de cada oponente a cada terreno sacrificado. É o 3º comandante mais montado da semana no EDHREC, com 1,25 mil decks, e sai a US$ 0,97 (R$ 5,71) no Scryfall.\n\nVocê montaria a Hearthhull de comandante ou colocaria nas 99 de um deck de terrenos?\n\nEdição completa em fontedemana.com.br\n\nArte da capa: Tranquility, Rob Alexander. Topdeck: Hearthhull, the Worldseed, Daniel Ljunggren.\n\nValores em reais pela cotação de 19 nov (Banco Central, PTAX).\n\n#startrek #commander #mtg",
+  "legendaVideo": "Commander e Magic numa sexta calma: hoje começa a Festa de Commander de Star Trek e faltam 10 dias para a janela de banimentos.\n\nNo Topdeck, Hearthhull, the Worldseed, a nave Jund que troca terreno por carta e é o 3º comandante da semana no EDHREC.\n\nQual terreno você sacrificaria primeiro com ela?\n\nTudo em fontedemana.com.br\n\n#startrek #commander #mtg",
+  "threadsPost": "Sexta calma no Commander, sem fato novo confirmado. Hoje começa a Festa de Commander de Star Trek, até 26 de novembro. No Topdeck, Hearthhull, the Worldseed, a nave Jund que sacrifica terreno para comprar duas e drena 2 de cada oponente com 8 marcadores. É o 3º comandante da semana no EDHREC, a US$ 0,97 (R$ 5,71). Você jogaria de Hearthhull? fontedemana.com.br\nValores em reais pela cotação de 19 nov (Banco Central, PTAX).",
+  "threadsFio": [
+   "Sexta calma no Commander, sem fato novo confirmado. O Secret Lair de Duna segue com venda marcada para 30 de novembro, às 14h de Brasília.",
+   "Hoje começa a primeira rodada da Festa de Commander de Star Trek, que vai até 26 de novembro nas lojas.",
+   "No Topdeck do Dia, Hearthhull, the Worldseed. Com 2 marcadores, sacrifica um terreno para comprar duas cartas e ganha mais uma descida de terreno. Com 8, vira uma 6/7 voadora e cada terreno sacrificado tira 2 de vida de cada oponente.",
+   "É o 3º comandante mais montado da semana no EDHREC, com 1,25 mil decks, e sai a US$ 0,97 (R$ 5,71) no Scryfall.",
+   "Faltam 10 dias para a janela de banimentos de 30 de novembro. Edição completa em fontedemana.com.br\nValores em reais pela cotação de 19 nov (Banco Central, PTAX)."
+  ],
+  "threadsAvulsos": [
+   {
+    "titulo": "Pergunta do dia",
+    "texto": "Hearthhull, the Worldseed no comando: você vai de fetchland e Splendid Reclamation para drenar a mesa ou prefere usar a nave só para comprar cartas?",
+    "obs": "Pergunta aberta, sem enquete"
+   }
+  ]
+ },
+ "pauta": {
+  "forca": "calmo",
+  "porque": "Sexta sem fato novo sobre Commander; a Festa de Star Trek, Duna e o ban de 30 nov já estavam na agenda.",
+  "storyPergunta": "Qual terreno você sacrificaria com a Hearthhull?",
+  "enquete": {
+   "pergunta": "Vai jogar a Festa de Commander de Star Trek?",
+   "opcoes": ["Vou sim", "Só se der tempo", "Passo essa"]
+  }
+ }
+}
