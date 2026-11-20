@@ -5,10 +5,10 @@
     {
       "id": "gravacao",
       "dia": "2026-11-19",
-      "hora": "20:15",
+      "hora": "21:30",
       "rede": "Gravação",
       "titulo": "Gravar o vídeo de 22/11 (você aparece)",
-      "oQue": "3 de 3 gravações da noite (20, 21 e 22/11). Debate da semana #2, proxy na mesa casual: você aparece na pergunta do começo e na resposta do fim, com uma carta de teste na mão; o meio é só a sua voz.",
+      "oQue": "3 de 3 gravações da noite (20, 21 e 22/11). Debate da semana #2, Sol Ring no Commander (tema trocado em 19/11, no lugar do proxy): você aparece na pergunta do começo e no fim, com a Sol Ring na mão; o meio é só a sua voz.",
       "arquivos": [
         {
           "nome": "Vídeo mudo do TikTok",
@@ -17,34 +17,34 @@
       ],
       "roteiro": [
         {
-          "cena": "Cena 1, rosto, uns 4 s",
-          "tela": "Proxy no Commander, Carta de teste na mesa: pode?",
-          "fala": "Proxy na mesa de Commander: pode ou não pode?",
-          "como": "Rosto: Mostra para a câmera um terreno básico com o nome de outra carta escrito à caneta, com cara de dúvida."
+          "cena": "Cena 1, rosto, uns 3 s",
+          "tela": "Sol Ring no Commander, Banir ou deixar?",
+          "fala": "Sol Ring: banir do Commander ou deixar?",
+          "como": "Rosto: Mostra para a câmera a Sol Ring de um dos seus decks, com cara de dúvida."
         },
         {
           "cena": "Cena 2, só a voz, uns 6 s",
-          "tela": "O que a Wizards diz, Em torneio, só carta original, Para uso pessoal, sem venda, ela diz que não vai policiar.",
-          "fala": "Em torneio oficial, só carta original. Pra uso pessoal, a Wizards diz que não vai policiar.",
+          "tela": "Quem cuidava do formato, Banir mudaria a cara do Commander, Foi o que o comitê do formato escreveu em 2024. Ela segue liberada.",
+          "fala": "Em 2024, quem cuidava do formato disse: banir a Sol Ring mudaria a identidade do Commander.",
           "como": "Só a voz: pode gravar em vídeo ou áudio"
         },
         {
-          "cena": "Cena 3, só a voz, uns 6 s",
-          "tela": "Quem defende, Commander é caro, Dá para testar antes de comprar e jogar contra o jogador, não contra a carteira.",
-          "fala": "Quem defende diz: o formato é caro, e dá pra testar a carta antes de comprar.",
+          "cena": "Cena 3, só a voz, uns 7 s",
+          "tela": "Quem quer manter, Vem em quase todo precon, Todo iniciante tem uma, e quem baixa no turno 1 vira alvo da mesa.",
+          "fala": "Quem quer manter diz: vem em quase todo precon, e quem baixa no turno 1 vira alvo.",
           "como": "Só a voz: pode gravar em vídeo ou áudio"
         },
         {
           "cena": "Cena 4, só a voz, uns 7 s",
-          "tela": "Quem é contra, O deck de proxy atropela, Com proxy vem a carta mais forte, e quem montou com o que tinha fica para trás.",
-          "fala": "Quem é contra diz: com proxy vem a carta mais forte, e o deck atropela a mesa.",
+          "tela": "Quem quer banir, Turno 1 com ela desequilibra, Quem abre com Sol Ring sai uma volta na frente, e ela entra em quase todo deck.",
+          "fala": "Quem quer banir diz: Sol Ring no turno 1 deixa um jogador uma volta inteira na frente.",
           "como": "Só a voz: pode gravar em vídeo ou áudio"
         },
         {
-          "cena": "Cena 5, rosto, uns 5 s",
-          "tela": "Na minha mesa, A gente combina antes",
-          "fala": "Na minha mesa, a gente combina antes, no rule zero. E na sua?",
-          "como": "Rosto: Com a carta de teste na mão, olha para a câmera e responde como é na sua mesa."
+          "cena": "Cena 5, rosto, uns 7 s",
+          "tela": "No 1x1, No Duel Commander, já é banida",
+          "fala": "No Duel Commander, que eu jogo, ela já é banida. E na mesa de 4: fica ou sai?",
+          "como": "Rosto: Com a Sol Ring na mão, olha para a câmera e faz a pergunta do fim."
         }
       ],
       "passos": [
@@ -54,8 +54,8 @@
         "Desligue o Vídeo HDR (Ajustes, Câmera, Gravar Vídeo) para as cores não lavarem.",
         "Um vídeo por cena, falando para a câmera, com meio segundo de silêncio antes e depois; nomeie cena_1, cena_2... e mande todos juntos.",
         "Nas cenas sem rosto, só a voz conta: pode gravar em vídeo ou só o áudio.",
-        "Antes de gravar, escreva à caneta o nome de outra carta num terreno básico (por exemplo, Sol Ring numa Ilha): é a carta de teste das cenas com você.",
-        "No fim, a resposta é sobre a sua mesa (combinar antes), sem defender um dos lados: a Fonte não toma partido no Debate.",
+        "Separe a Sol Ring de um dos seus decks: ela aparece nas duas cenas com você.",
+        "No fim, a fala é um fato (no Duel Commander ela é banida) e uma pergunta, sem defender um dos lados: a Fonte não toma partido no Debate.",
         "Mande os vídeos ao Claude no projeto MGT strategy, na conversa da gravação adiantada, dizendo \"vídeos do TikTok de 2026-11-22\"."
       ]
     },
@@ -63,8 +63,8 @@
       "id": "tiktok",
       "hora": "11:30",
       "rede": "TikTok",
-      "titulo": "Debate da semana #2: proxy na mesa casual",
-      "oQue": "Proxy no Commander, pode ou não: o que a Wizards diz e o melhor argumento de cada lado, em 30 s.",
+      "titulo": "Debate da semana #2: Sol Ring no Commander",
+      "oQue": "Sol Ring no Commander, banir ou deixar: o que disse quem cuidava do formato e o melhor argumento de cada lado, em 30 s.",
       "arquivos": [
         {
           "nome": "Vídeo mudo do TikTok (troque pelo narrado quando chegar)",
@@ -74,11 +74,11 @@
       "textos": [
         {
           "rotulo": "Legenda",
-          "texto": "Proxy no Commander: pode ou não pode na mesa casual? Debate da semana #2.\n\nO que a Wizards diz: em evento oficial, só carta original. Fora disso, ela diz que não tem interesse em policiar carta de teste feita para uso pessoal, sem venda, nem quando o jogo é na loja.\n\nQuem defende: Commander é caro, dá para testar a carta antes de comprar, e a mesa joga contra o jogador, não contra a carteira. Quem é contra: com proxy vem a carta mais forte, e o deck atropela quem montou com o que tinha.\n\nO ponto em comum dos dois lados: avisar antes, no rule zero.\n\nDe que lado você está? Fontes: Wizards e guias de Commander. Mais em fontedemana.com.br\n\n#proxy #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+          "texto": "Sol Ring no Commander: banir ou deixar? Debate da semana #2, a uma semana do anúncio de banimentos da Wizards (30 de novembro).\n\nO que disse quem cuidava do formato: em 2024, o comitê do Commander escreveu que banir a Sol Ring mudaria a identidade do formato. Ela segue liberada.\n\nQuem quer manter: ela vem em quase todo precon, todo iniciante tem uma, e quem baixa no turno 1 vira alvo da mesa. Quem quer banir: Sol Ring no turno 1 deixa um jogador uma volta na frente, e ela entra em quase todo deck.\n\nNo Duel Commander, o 1x1, ela já é banida.\n\nFica ou sai? Fontes: Commander Rules Committee, Wizards e Duel Commander. Mais em fontedemana.com.br\n\n#solring #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
         },
         {
           "rotulo": "Comentário fixado",
-          "texto": "Proxy na mesa casual: pode, não pode ou só combinando antes? Debate da semana é o tema que divide a mesa, sempre com os dois lados."
+          "texto": "Sol Ring no Commander: fica ou sai? Debate da semana é o tema que divide a mesa, sempre com os dois lados."
         }
       ],
       "passos": [

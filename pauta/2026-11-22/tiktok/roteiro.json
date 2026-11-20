@@ -1,61 +1,61 @@
 {
  "data": "2026-11-22",
  "pilar": "debate",
- "tema": "Debate da semana #2: proxy na mesa casual de Commander, pode ou não?",
- "item": "Proxy na mesa casual: pode ou não?",
+ "tema": "Debate da semana #2: Sol Ring no Commander, banir ou deixar?",
+ "item": "Sol Ring deveria sair do formato?",
  "arte": "pauta/2026-11-22/tiktok/arte.jpg",
  "carta": "pauta/2026-11-22/tiktok/carta.jpg",
- "credito": "Arte: Arcane Proxy, Kekai Kotaki",
+ "credito": "Arte: Sol Ring, Mike Bierek",
  "fx": null,
- "legenda": "Proxy no Commander: pode ou não pode na mesa casual? Debate da semana #2.\n\nO que a Wizards diz: em evento oficial, só carta original. Fora disso, ela diz que não tem interesse em policiar carta de teste feita para uso pessoal, sem venda, nem quando o jogo é na loja.\n\nQuem defende: Commander é caro, dá para testar a carta antes de comprar, e a mesa joga contra o jogador, não contra a carteira. Quem é contra: com proxy vem a carta mais forte, e o deck atropela quem montou com o que tinha.\n\nO ponto em comum dos dois lados: avisar antes, no rule zero.\n\nDe que lado você está? Fontes: Wizards e guias de Commander. Mais em fontedemana.com.br\n\n#proxy #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
- "comentario": "Proxy na mesa casual: pode, não pode ou só combinando antes? Debate da semana é o tema que divide a mesa, sempre com os dois lados.",
+ "legenda": "Sol Ring no Commander: banir ou deixar? Debate da semana #2, a uma semana do anúncio de banimentos da Wizards (30 de novembro).\n\nO que disse quem cuidava do formato: em 2024, o comitê do Commander escreveu que banir a Sol Ring mudaria a identidade do formato. Ela segue liberada.\n\nQuem quer manter: ela vem em quase todo precon, todo iniciante tem uma, e quem baixa no turno 1 vira alvo da mesa. Quem quer banir: Sol Ring no turno 1 deixa um jogador uma volta na frente, e ela entra em quase todo deck.\n\nNo Duel Commander, o 1x1, ela já é banida.\n\nFica ou sai? Fontes: Commander Rules Committee, Wizards e Duel Commander. Mais em fontedemana.com.br\n\n#solring #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
+ "comentario": "Sol Ring no Commander: fica ou sai? Debate da semana é o tema que divide a mesa, sempre com os dois lados.",
  "cenas": [
   {
    "tipo": "rosto",
    "cor": "R",
    "chip": "Debate #2",
-   "kicker": "Proxy no Commander",
-   "titulo": "Carta de teste na mesa: pode?",
-   "narracao": "Proxy na mesa de Commander: pode ou não pode?",
-   "gravar": "Mostra para a câmera um terreno básico com o nome de outra carta escrito à caneta, com cara de dúvida.",
-   "segundos": 3.9
+   "kicker": "Sol Ring no Commander",
+   "titulo": "Banir ou deixar?",
+   "narracao": "Sol Ring: banir do Commander ou deixar?",
+   "gravar": "Mostra para a câmera a Sol Ring de um dos seus decks, com cara de dúvida.",
+   "segundos": 3.2
   },
   {
    "tipo": "texto",
    "cor": "U",
-   "kicker": "O que a Wizards diz",
-   "titulo": "Em torneio, só carta original",
-   "sub": "Para uso pessoal, sem venda, ela diz que não vai policiar.",
-   "narracao": "Em torneio oficial, só carta original. Pra uso pessoal, a Wizards diz que não vai policiar.",
-   "rodape": "Fonte: Wizards, On Proxies, Policy, and Communication",
+   "kicker": "Quem cuidava do formato",
+   "titulo": "Banir mudaria a cara do Commander",
+   "sub": "Foi o que o comitê do formato escreveu em 2024. Ela segue liberada.",
+   "narracao": "Em 2024, quem cuidava do formato disse: banir a Sol Ring mudaria a identidade do Commander.",
+   "rodape": "Fonte: Commander Rules Committee, set. 2024",
    "segundos": 6.5
   },
   {
    "tipo": "texto",
    "cor": "G",
-   "kicker": "Quem defende",
-   "titulo": "Commander é caro",
-   "sub": "Dá para testar antes de comprar e jogar contra o jogador, não contra a carteira.",
-   "narracao": "Quem defende diz: o formato é caro, e dá pra testar a carta antes de comprar.",
-   "segundos": 6.5
+   "kicker": "Quem quer manter",
+   "titulo": "Vem em quase todo precon",
+   "sub": "Todo iniciante tem uma, e quem baixa no turno 1 vira alvo da mesa.",
+   "narracao": "Quem quer manter diz: vem em quase todo precon, e quem baixa no turno 1 vira alvo.",
+   "segundos": 6.9
   },
   {
    "tipo": "texto",
    "cor": "R",
-   "kicker": "Quem é contra",
-   "titulo": "O deck de proxy atropela",
-   "sub": "Com proxy vem a carta mais forte, e quem montou com o que tinha fica para trás.",
-   "narracao": "Quem é contra diz: com proxy vem a carta mais forte, e o deck atropela a mesa.",
+   "kicker": "Quem quer banir",
+   "titulo": "Turno 1 com ela desequilibra",
+   "sub": "Quem abre com Sol Ring sai uma volta na frente, e ela entra em quase todo deck.",
+   "narracao": "Quem quer banir diz: Sol Ring no turno 1 deixa um jogador uma volta inteira na frente.",
    "segundos": 6.9
   },
   {
    "tipo": "rosto",
    "cor": "M",
-   "kicker": "Na minha mesa",
-   "titulo": "A gente combina antes",
-   "narracao": "Na minha mesa, a gente combina antes, no rule zero. E na sua?",
-   "gravar": "Com a carta de teste na mão, olha para a câmera e responde como é na sua mesa.",
-   "segundos": 5.4
+   "kicker": "No 1x1",
+   "titulo": "No Duel Commander, já é banida",
+   "narracao": "No Duel Commander, que eu jogo, ela já é banida. E na mesa de 4: fica ou sai?",
+   "gravar": "Com a Sol Ring na mão, olha para a câmera e faz a pergunta do fim.",
+   "segundos": 7.3
   }
  ]
 }

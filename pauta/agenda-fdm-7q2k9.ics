@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-11-16-gravacao@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261115T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -61,7 +61,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-tiktok@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261116T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o Top 5 #7: board wipes
@@ -91,7 +91,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-threads-manha@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261116T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Chama o Juiz #7: dá para conjurar o Panglac
@@ -117,7 +117,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-feed@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261116T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Chama o Juiz #7: dá para conjurar o Panglaci
@@ -155,7 +155,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261116T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -174,7 +174,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-stories-tarde@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261116T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -194,7 +194,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-reels@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261116T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Top 5 #7: os board wipes que salvam a
@@ -230,7 +230,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-16-comentarios@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261117T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -252,7 +252,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-gravacao@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261116T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -304,7 +304,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-tiktok@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261117T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Dicionário do Commander #9\, tutor
@@ -336,7 +336,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-stories-mulligan@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261117T210000Z
 DURATION:PT15M
 SUMMARY:18:00 Instagram Stories: Parceria com a Mulligan: os produtos chega
@@ -371,7 +371,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-threads-manha@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261117T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Dicionário do Commander #9: o que é tutor
@@ -394,7 +394,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-feed@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261117T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Dicionário do Commander #9: o que é tutor
@@ -433,7 +433,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261117T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -452,7 +452,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-stories-tarde@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261117T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -472,7 +472,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-reels@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261117T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Dicionário do Commander #9: o que é
@@ -509,7 +509,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-17-comentarios@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261118T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -531,7 +531,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-18-gravacao@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261117T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -585,7 +585,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-18-tiktok@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261118T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Rota das Lojas #2\, torneio de precon na MTG Brasil
@@ -620,7 +620,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-18-threads-manha@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261118T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Rota das Lojas #2: fui buscar duas cartas na
@@ -647,7 +647,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-18-feed@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261118T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Rota das Lojas #2: fui buscar duas cartas na 
@@ -691,7 +691,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-18-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261118T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -710,7 +710,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-18-stories-tarde@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261118T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -730,7 +730,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-18-reels@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261118T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Rota das Lojas #2: fui buscar duas ca
@@ -769,7 +769,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-18-comentarios@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261119T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -791,7 +791,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-19-gravacao@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261118T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -847,7 +847,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-19-tiktok@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261119T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o Top 5 #8: mana rocks baratos
@@ -879,7 +879,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-19-threads-manha@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261119T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Top 5 #8: os mana rocks baratos que mais apa
@@ -904,7 +904,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-19-feed@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261119T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Top 5 #8: os mana rocks baratos que mais apar
@@ -949,7 +949,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-19-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261119T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -968,7 +968,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-19-stories-tarde@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261119T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -988,7 +988,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-19-reels@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261119T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Top 5 #8: os mana rocks baratos que m
@@ -1026,7 +1026,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-19-comentarios@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261120T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1048,7 +1048,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-20-gravacao@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261119T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de 20/11 (você aparece)
@@ -1107,7 +1107,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-20-tiktok@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261120T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Abri o precon Prismari Artistry
@@ -1148,7 +1148,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-20-collab-mulligan@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261120T145000Z
 DURATION:PT15M
 SUMMARY:11:50 Instagram feed: Collab com a Mulligan no carrossel e no Reels
@@ -1172,7 +1172,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-21-gravacao@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261119T224500Z
 DURATION:PT15M
 SUMMARY:19:45 Gravação: Gravar o vídeo de 21/11 (você aparece)
@@ -1228,7 +1228,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-21-tiktok@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261121T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Do zero à mesa #4: double sleeve
@@ -1267,50 +1267,49 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-22-gravacao@fontedemana.com.br
-DTSTAMP:20261119T235255Z
-DTSTART:20261119T231500Z
+DTSTAMP:20261120T000201Z
+DTSTART:20261120T003000Z
 DURATION:PT15M
-SUMMARY:20:15 Gravação: Gravar o vídeo de 22/11 (você aparece)
+SUMMARY:21:30 Gravação: Gravar o vídeo de 22/11 (você aparece)
 DESCRIPTION:3 de 3 gravações da noite (20\, 21 e 22/11). Debate da semana
-  #2\, proxy na mesa casual: você aparece na pergunta do começo e na resp
- osta do fim\, com uma carta de teste na mão\; o meio é só a sua voz.\n\
- nArquivos:\n- Vídeo mudo do TikTok: https://fontedemana.com.br/pauta/2026
- -11-22/tiktok/tiktok-mudo.mp4\n\nRoteiro de gravação:\nCena 1\, rosto\, 
- uns 4 s\nNa tela: Proxy no Commander\, Carta de teste na mesa: pode?\nComo
-  gravar: Rosto: Mostra para a câmera um terreno básico com o nome de out
- ra carta escrito à caneta\, com cara de dúvida.\nFala: Proxy na mesa de 
- Commander: pode ou não pode?\n\nCena 2\, só a voz\, uns 6 s\nNa tela: O 
- que a Wizards diz\, Em torneio\, só carta original\, Para uso pessoal\, s
- em venda\, ela diz que não vai policiar.\nComo gravar: Só a voz: pode gr
- avar em vídeo ou áudio\nFala: Em torneio oficial\, só carta original. P
- ra uso pessoal\, a Wizards diz que não vai policiar.\n\nCena 3\, só a vo
- z\, uns 6 s\nNa tela: Quem defende\, Commander é caro\, Dá para testar a
- ntes de comprar e jogar contra o jogador\, não contra a carteira.\nComo g
- ravar: Só a voz: pode gravar em vídeo ou áudio\nFala: Quem defende diz:
-  o formato é caro\, e dá pra testar a carta antes de comprar.\n\nCena 4\
- , só a voz\, uns 7 s\nNa tela: Quem é contra\, O deck de proxy atropela\
- , Com proxy vem a carta mais forte\, e quem montou com o que tinha fica pa
- ra trás.\nComo gravar: Só a voz: pode gravar em vídeo ou áudio\nFala: 
- Quem é contra diz: com proxy vem a carta mais forte\, e o deck atropela a
-  mesa.\n\nCena 5\, rosto\, uns 5 s\nNa tela: Na minha mesa\, A gente combi
- na antes\nComo gravar: Rosto: Com a carta de teste na mão\, olha para a c
- âmera e responde como é na sua mesa.\nFala: Na minha mesa\, a gente comb
- ina antes\, no rule zero. E na sua?\n\n\nPasso a passo:\n1. Celular na ver
- tical\, câmera da frente\, na altura dos olhos\, a um braço de distânci
- a.\n2. Rosto na metade de cima da tela: o título entra embaixo dele\, na 
- altura do peito.\n3. Luz de frente (de frente para a janela) e fundo arrum
- ado\; a estante de cartas é ótima.\n4. Desligue o Vídeo HDR (Ajustes\, 
- Câmera\, Gravar Vídeo) para as cores não lavarem.\n5. Um vídeo por cen
- a\, falando para a câmera\, com meio segundo de silêncio antes e depois\
- ; nomeie cena_1\, cena_2... e mande todos juntos.\n6. Nas cenas sem rosto\
- , só a voz conta: pode gravar em vídeo ou só o áudio.\n7. Antes de gra
- var\, escreva à caneta o nome de outra carta num terreno básico (por exe
- mplo\, Sol Ring numa Ilha): é a carta de teste das cenas com você.\n8. N
- o fim\, a resposta é sobre a sua mesa (combinar antes)\, sem defender um 
- dos lados: a Fonte não toma partido no Debate.\n9. Mande os vídeos ao Cl
- aude no projeto MGT strategy\, na conversa da gravação adiantada\, dizen
- do "vídeos do TikTok de 2026-11-22".\n\nPauta completa: https://fontedema
- na.com.br/pauta/2026-11-22/#gravacao
+  #2\, Sol Ring no Commander (tema trocado em 19/11\, no lugar do proxy): v
+ ocê aparece na pergunta do começo e no fim\, com a Sol Ring na mão\; o 
+ meio é só a sua voz.\n\nArquivos:\n- Vídeo mudo do TikTok: https://font
+ edemana.com.br/pauta/2026-11-22/tiktok/tiktok-mudo.mp4\n\nRoteiro de grava
+ ção:\nCena 1\, rosto\, uns 3 s\nNa tela: Sol Ring no Commander\, Banir o
+ u deixar?\nComo gravar: Rosto: Mostra para a câmera a Sol Ring de um dos 
+ seus decks\, com cara de dúvida.\nFala: Sol Ring: banir do Commander ou d
+ eixar?\n\nCena 2\, só a voz\, uns 6 s\nNa tela: Quem cuidava do formato\,
+  Banir mudaria a cara do Commander\, Foi o que o comitê do formato escrev
+ eu em 2024. Ela segue liberada.\nComo gravar: Só a voz: pode gravar em v
+ ídeo ou áudio\nFala: Em 2024\, quem cuidava do formato disse: banir a So
+ l Ring mudaria a identidade do Commander.\n\nCena 3\, só a voz\, uns 7 s\
+ nNa tela: Quem quer manter\, Vem em quase todo precon\, Todo iniciante tem
+  uma\, e quem baixa no turno 1 vira alvo da mesa.\nComo gravar: Só a voz:
+  pode gravar em vídeo ou áudio\nFala: Quem quer manter diz: vem em quase
+  todo precon\, e quem baixa no turno 1 vira alvo.\n\nCena 4\, só a voz\, 
+ uns 7 s\nNa tela: Quem quer banir\, Turno 1 com ela desequilibra\, Quem ab
+ re com Sol Ring sai uma volta na frente\, e ela entra em quase todo deck.\
+ nComo gravar: Só a voz: pode gravar em vídeo ou áudio\nFala: Quem quer 
+ banir diz: Sol Ring no turno 1 deixa um jogador uma volta inteira na frent
+ e.\n\nCena 5\, rosto\, uns 7 s\nNa tela: No 1x1\, No Duel Commander\, já 
+ é banida\nComo gravar: Rosto: Com a Sol Ring na mão\, olha para a câmer
+ a e faz a pergunta do fim.\nFala: No Duel Commander\, que eu jogo\, ela j
+ á é banida. E na mesa de 4: fica ou sai?\n\n\nPasso a passo:\n1. Celular
+  na vertical\, câmera da frente\, na altura dos olhos\, a um braço de di
+ stância.\n2. Rosto na metade de cima da tela: o título entra embaixo del
+ e\, na altura do peito.\n3. Luz de frente (de frente para a janela) e fund
+ o arrumado\; a estante de cartas é ótima.\n4. Desligue o Vídeo HDR (Aju
+ stes\, Câmera\, Gravar Vídeo) para as cores não lavarem.\n5. Um vídeo 
+ por cena\, falando para a câmera\, com meio segundo de silêncio antes e 
+ depois\; nomeie cena_1\, cena_2... e mande todos juntos.\n6. Nas cenas sem
+  rosto\, só a voz conta: pode gravar em vídeo ou só o áudio.\n7. Separ
+ e a Sol Ring de um dos seus decks: ela aparece nas duas cenas com você.\n
+ 8. No fim\, a fala é um fato (no Duel Commander ela é banida) e uma perg
+ unta\, sem defender um dos lados: a Fonte não toma partido no Debate.\n9.
+  Mande os vídeos ao Claude no projeto MGT strategy\, na conversa da grava
+ ção adiantada\, dizendo "vídeos do TikTok de 2026-11-22".\n\nPauta comp
+ leta: https://fontedemana.com.br/pauta/2026-11-22/#gravacao
 URL:https://fontedemana.com.br/pauta/2026-11-22/#gravacao
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1320,38 +1319,38 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-22-tiktok@fontedemana.com.br
-DTSTAMP:20261119T235255Z
+DTSTAMP:20261120T000201Z
 DTSTART:20261122T143000Z
 DURATION:PT15M
-SUMMARY:11:30 TikTok: Debate da semana #2: proxy na mesa casual
-DESCRIPTION:Proxy no Commander\, pode ou não: o que a Wizards diz e o melh
- or argumento de cada lado\, em 30 s.\n\nArquivos:\n- Vídeo mudo do TikTok
-  (troque pelo narrado quando chegar): https://fontedemana.com.br/pauta/202
- 6-11-22/tiktok/tiktok-mudo.mp4\n\nLegenda:\nProxy no Commander: pode ou n
- ão pode na mesa casual? Debate da semana #2.\n\nO que a Wizards diz: em e
- vento oficial\, só carta original. Fora disso\, ela diz que não tem inte
- resse em policiar carta de teste feita para uso pessoal\, sem venda\, nem 
- quando o jogo é na loja.\n\nQuem defende: Commander é caro\, dá para te
- star a carta antes de comprar\, e a mesa joga contra o jogador\, não cont
- ra a carteira. Quem é contra: com proxy vem a carta mais forte\, e o deck
-  atropela quem montou com o que tinha.\n\nO ponto em comum dos dois lados:
-  avisar antes\, no rule zero.\n\nDe que lado você está? Fontes: Wizards 
- e guias de Commander. Mais em fontedemana.com.br\n\n#proxy #commander #mtg
- \n\nFonte de Mana is unofficial Fan Content permitted under the Fan Conten
- t Policy. Not approved/endorsed by Wizards. Portions of the materials used
-  are property of Wizards of the Coast. ©Wizards of the Coast LLC.\n\nCome
- ntário fixado:\nProxy na mesa casual: pode\, não pode ou só combinando 
- antes? Debate da semana é o tema que divide a mesa\, sempre com os dois l
- ados.\n\nPasso a passo:\n1. No TikTok\, toque em + e escolha o vídeo baix
- ado daqui.\n2. Adicione um som em alta da biblioteca do TikTok com volume 
- entre 15% e 20%\, sem cobrir a voz.\n3. Voz própria não precisa de rótu
- lo de IA.\n4. Cole a Legenda e publique.\n5. Fixe o comentário.\n6. Se o 
- vídeo narrado não chegar\, poste o mudo com música em alta.\n\nPauta co
- mpleta: https://fontedemana.com.br/pauta/2026-11-22/#tiktok
+SUMMARY:11:30 TikTok: Debate da semana #2: Sol Ring no Commander
+DESCRIPTION:Sol Ring no Commander\, banir ou deixar: o que disse quem cuida
+ va do formato e o melhor argumento de cada lado\, em 30 s.\n\nArquivos:\n-
+  Vídeo mudo do TikTok (troque pelo narrado quando chegar): https://fonted
+ emana.com.br/pauta/2026-11-22/tiktok/tiktok-mudo.mp4\n\nLegenda:\nSol Ring
+  no Commander: banir ou deixar? Debate da semana #2\, a uma semana do anú
+ ncio de banimentos da Wizards (30 de novembro).\n\nO que disse quem cuidav
+ a do formato: em 2024\, o comitê do Commander escreveu que banir a Sol Ri
+ ng mudaria a identidade do formato. Ela segue liberada.\n\nQuem quer mante
+ r: ela vem em quase todo precon\, todo iniciante tem uma\, e quem baixa no
+  turno 1 vira alvo da mesa. Quem quer banir: Sol Ring no turno 1 deixa um 
+ jogador uma volta na frente\, e ela entra em quase todo deck.\n\nNo Duel C
+ ommander\, o 1x1\, ela já é banida.\n\nFica ou sai? Fontes: Commander Ru
+ les Committee\, Wizards e Duel Commander. Mais em fontedemana.com.br\n\n#s
+ olring #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitte
+ d under the Fan Content Policy. Not approved/endorsed by Wizards. Portions
+  of the materials used are property of Wizards of the Coast. ©Wizards of 
+ the Coast LLC.\n\nComentário fixado:\nSol Ring no Commander: fica ou sai?
+  Debate da semana é o tema que divide a mesa\, sempre com os dois lados.\
+ n\nPasso a passo:\n1. No TikTok\, toque em + e escolha o vídeo baixado da
+ qui.\n2. Adicione um som em alta da biblioteca do TikTok com volume entre 
+ 15% e 20%\, sem cobrir a voz.\n3. Voz própria não precisa de rótulo de 
+ IA.\n4. Cole a Legenda e publique.\n5. Fixe o comentário.\n6. Se o vídeo
+  narrado não chegar\, poste o mudo com música em alta.\n\nPauta completa
+ : https://fontedemana.com.br/pauta/2026-11-22/#tiktok
 URL:https://fontedemana.com.br/pauta/2026-11-22/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:TikTok: Debate da semana #2: proxy na mesa casual
+DESCRIPTION:TikTok: Debate da semana #2: Sol Ring no Commander
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
