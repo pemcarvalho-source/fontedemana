@@ -1,112 +1,97 @@
 {
  "data": "2026-11-22",
  "pilar": "debate",
- "item": "Sol Ring deveria sair do formato?",
- "tema": "Debate da semana #2: Sol Ring no Commander, banir ou deixar?",
+ "item": "Universes Beyond no Commander",
+ "tema": "Debate da semana #2: Universes Beyond no Commander, soma ou atrapalha?",
  "cartas": [
-  "Sol Ring"
+  "Starship Enterprise"
  ],
  "fx": null,
  "carrossel": {
   "capa": {
    "cor": "R",
    "chip": "Debate da semana #2",
-   "kicker": "Sol Ring no Commander",
-   "titulo": "Sol Ring: <b>banir ou deixar</b>?",
-   "sub": "O que disse quem cuidava do formato e o melhor argumento de cada lado, a uma semana do anúncio de banimentos. <b>A Fonte não toma partido.</b>",
+   "kicker": "Universes Beyond",
+   "titulo": "Marvel e Star Trek no Commander: <b>soma ou atrapalha</b>?",
+   "sub": "O que a Wizards fez e o melhor argumento de cada lado. <b>A Fonte não toma partido.</b>",
    "arte": "pauta/2026-11-22/tiktok/arte.jpg",
-   "credito": "Arte: Sol Ring, Mike Bierek"
+   "credito": "Arte: Starship Enterprise, Dofresh"
   },
   "cartoes": [
    {
     "cor": "U",
-    "titulo": "A posição até hoje",
+    "titulo": "O que a Wizards fez",
     "itens": [
      {
       "cor": "U",
-      "html": "Em 2024, o comitê do Commander escreveu que banir a Sol Ring <b>mudaria a identidade do formato</b>."
+      "html": "Em 2021, ao lançar o Universes Beyond, disse que essas cartas <b>não iriam para o Standard</b>."
      },
      {
       "cor": "U",
-      "html": "Ela segue <b>liberada</b> no Commander. O próximo anúncio de banimentos da Wizards é em <b>30 de novembro</b>."
+      "html": "Desde 2025, as coleções novas de outras marcas <b>valem em todos os formatos</b>."
+     },
+     {
+      "cor": "U",
+      "html": "No Commander, <b>sempre valeram</b>. Em 2026 vieram Tartarugas Ninja, Marvel e Star Trek."
      }
     ],
-    "fonte": "Fontes: Commander Rules Committee (2024) e Wizards (B&R out. 2026)"
+    "fonte": "Fontes: Wizards (out. 2024), AetherHub e Scryfall"
    },
    {
     "cor": "G",
-    "titulo": "Quem quer manter",
+    "titulo": "Quem gosta",
     "itens": [
      {
       "cor": "G",
-      "html": "Ela vem em <b>quase todo precon</b>: todo iniciante já tem uma."
+      "html": "<b>Traz gente nova</b>: chega pelo personagem e fica no Commander."
      },
      {
       "cor": "G",
-      "html": "Está no Commander <b>desde o começo</b>: virou o símbolo do formato."
+      "html": "Final Fantasy virou a <b>coleção mais vendida</b> da história, segundo a Hasbro."
      },
      {
       "cor": "G",
-      "html": "Na mesa de 4, quem baixa no turno 1 <b>vira alvo</b> dos outros três."
+      "html": "Dá para montar o deck do <b>universo que você ama</b>."
      }
     ],
-    "fonte": "Fontes: Commander Rules Committee, EDHREC e Prism News"
+    "fonte": "Fontes: Hasbro (abr. 2025) e Popverse"
    },
    {
     "cor": "R",
-    "titulo": "Quem quer banir",
+    "titulo": "Quem não gosta",
     "itens": [
      {
       "cor": "R",
-      "html": "Sol Ring no turno 1 deixa um jogador <b>uma volta na frente</b>."
+      "html": "Magic <b>perde a cara de Magic</b>: Spock e Homem-Aranha quebram o mundo do jogo."
      },
      {
       "cor": "R",
-      "html": "É a carta que entra em <b>quase todo deck</b>, de qualquer cor: menos variedade."
+      "html": "É <b>coleção atrás de coleção</b>, e a carteira não acompanha."
      },
      {
       "cor": "R",
-      "html": "Jogo decidido pela <b>mão de abertura</b>, não pelas escolhas."
+      "html": "A Wizards <b>mudou o que tinha dito</b> em 2021 sobre o Standard."
      }
     ],
-    "fonte": "Fontes: Goonhammer e Bad Wolf Gaming"
-   },
-   {
-    "cor": "M",
-    "titulo": "Onde ela já é proibida",
-    "itens": [
-     {
-      "cor": "M",
-      "html": "<b>Duel Commander</b>, o Commander 1x1: banida."
-     },
-     {
-      "cor": "M",
-      "html": "<b>Legacy</b>: banida. <b>Vintage</b>: restrita a uma cópia."
-     },
-     {
-      "cor": "M",
-      "html": "No Commander de mesa de 4, <b>liberada</b>."
-     }
-    ],
-    "fonte": "Fontes: Duel Commander e Wizards (lista de banidas e restritas)"
+    "fonte": "Fontes: AetherHub e GosuGamers"
    }
   ],
   "cta": {
-   "pergunta": "Sol Ring no Commander: <b>fica ou sai</b>?",
+   "pergunta": "Universes Beyond no Commander: <b>soma ou atrapalha</b>?",
    "quando": "Debate da semana: os dois lados, sem torcida",
    "salvar": "Salve para levar ao rule zero da sua mesa"
   }
  },
- "legenda": "Sol Ring no Commander: banir ou deixar? Debate da semana #2, com os dois lados no mesmo espaço, a uma semana do anúncio de banimentos da Wizards (30 de novembro).\n\nA posição até hoje: em 2024, o comitê do Commander escreveu que banir a Sol Ring mudaria a identidade do formato. Ela segue liberada.\n\nQuem quer manter: ela vem em quase todo precon, todo iniciante já tem uma, e na mesa de 4 quem baixa no turno 1 vira alvo dos outros três.\n\nQuem quer banir: Sol Ring no turno 1 deixa um jogador uma volta na frente, entra em quase todo deck e faz o jogo depender da mão de abertura.\n\nOnde ela já é proibida: banida no Duel Commander (o 1x1) e no Legacy, restrita no Vintage.\n\nFontes: Commander Rules Committee, Wizards, Duel Commander, EDHREC, Goonhammer e Bad Wolf Gaming. Mais em fontedemana.com.br\n\nFica ou sai?\n\n#solring #commander #mtg",
+ "legenda": "Marvel, Star Trek e Final Fantasy no Commander: soma ou atrapalha? Debate da semana #2, com os dois lados no mesmo espaço.\n\nO que a Wizards fez: em 2021, ao lançar o Universes Beyond, disse que essas cartas não iriam para o Standard. Desde 2025, as coleções novas de outras marcas valem em todos os formatos. No Commander, sempre valeram, e só em 2026 vieram Tartarugas Ninja, Marvel e Star Trek.\n\nQuem gosta: traz gente nova, que chega pelo personagem e fica no Commander. Final Fantasy virou a coleção mais vendida da história, segundo a Hasbro.\n\nQuem não gosta: Magic perde a cara de Magic, é coleção atrás de coleção, e a Wizards mudou o que tinha dito em 2021.\n\nFontes: Wizards, Hasbro, AetherHub, GosuGamers e Popverse. Mais em fontedemana.com.br\n\nSoma ou atrapalha?\n\n#universesbeyond #commander #mtg",
  "threads": {
-  "texto": "Sol Ring no Commander: fica ou sai? Em 2024, o comitê do formato escreveu que banir a Sol Ring mudaria a identidade do Commander, e ela segue liberada. Quem quer manter lembra que ela vem em quase todo precon; quem quer banir diz que turno 1 com ela deixa um jogador uma volta na frente. No Duel Commander, ela já é banida. Dia 30 tem anúncio de banimentos. Na sua mesa, fica ou sai?",
-  "obs": "Enquete com as opções: Fica, Sai"
+  "texto": "Universes Beyond no Commander: soma ou atrapalha? Desde 2025, coleção de outra marca vale em todos os formatos, e Final Fantasy virou a mais vendida da história. Quem gosta diz que traz gente nova pra mesa; quem não gosta diz que Magic perde a cara de Magic, com coleção atrás de coleção. Só em 2026 vieram Tartarugas Ninja, Marvel e Star Trek. Na sua mesa, como é?",
+  "obs": "Enquete com as opções: Soma, Atrapalha"
  },
  "enquete": {
-  "pergunta": "Sol Ring no Commander?",
+  "pergunta": "Universes Beyond no Commander?",
   "opcoes": [
-   "Fica",
-   "Sai"
+   "Soma",
+   "Atrapalha"
   ]
  }
 }

@@ -1,61 +1,61 @@
 {
  "data": "2026-11-22",
  "pilar": "debate",
- "tema": "Debate da semana #2: Sol Ring no Commander, banir ou deixar?",
- "item": "Sol Ring deveria sair do formato?",
+ "tema": "Debate da semana #2: Universes Beyond no Commander, soma ou atrapalha?",
+ "item": "Universes Beyond no Commander",
  "arte": "pauta/2026-11-22/tiktok/arte.jpg",
  "carta": "pauta/2026-11-22/tiktok/carta.jpg",
- "credito": "Arte: Sol Ring, Mike Bierek",
+ "credito": "Arte: Starship Enterprise, Dofresh",
  "fx": null,
- "legenda": "Sol Ring no Commander: banir ou deixar? Debate da semana #2, a uma semana do anúncio de banimentos da Wizards (30 de novembro).\n\nO que disse quem cuidava do formato: em 2024, o comitê do Commander escreveu que banir a Sol Ring mudaria a identidade do formato. Ela segue liberada.\n\nQuem quer manter: ela vem em quase todo precon, todo iniciante tem uma, e quem baixa no turno 1 vira alvo da mesa. Quem quer banir: Sol Ring no turno 1 deixa um jogador uma volta na frente, e ela entra em quase todo deck.\n\nNo Duel Commander, o 1x1, ela já é banida.\n\nFica ou sai? Fontes: Commander Rules Committee, Wizards e Duel Commander. Mais em fontedemana.com.br\n\n#solring #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
- "comentario": "Sol Ring no Commander: fica ou sai? Debate da semana é o tema que divide a mesa, sempre com os dois lados.",
+ "legenda": "Marvel, Star Trek e Final Fantasy no Commander: soma ou atrapalha? Debate da semana #2.\n\nO que a Wizards fez: desde 2025, as coleções de outras marcas (Universes Beyond) valem em todos os formatos, e Final Fantasy virou a coleção mais vendida da história. No Commander, elas sempre valeram.\n\nQuem gosta: traz gente nova, que chega pelo personagem e fica no Commander. Quem não gosta: Magic perde a cara de Magic, e é coleção nova atrás de coleção nova.\n\nSoma ou atrapalha? Fontes: Wizards e Hasbro. Mais em fontedemana.com.br\n\n#universesbeyond #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
+ "comentario": "Universes Beyond no Commander: soma ou atrapalha? Debate da semana é o tema que divide a mesa, sempre com os dois lados.",
  "cenas": [
   {
    "tipo": "rosto",
    "cor": "R",
    "chip": "Debate #2",
-   "kicker": "Sol Ring no Commander",
-   "titulo": "Banir ou deixar?",
-   "narracao": "Sol Ring: banir do Commander ou deixar?",
-   "gravar": "Mostra para a câmera a Sol Ring de um dos seus decks, com cara de dúvida.",
-   "segundos": 3.2
+   "kicker": "Universes Beyond",
+   "titulo": "Soma ou atrapalha?",
+   "narracao": "Marvel e Star Trek no Commander: soma ou atrapalha?",
+   "gravar": "Olha para a câmera e faz a pergunta, com cara de dúvida. Não precisa de carta na mão.",
+   "segundos": 3.9
   },
   {
    "tipo": "texto",
    "cor": "U",
-   "kicker": "Quem cuidava do formato",
-   "titulo": "Banir mudaria a cara do Commander",
-   "sub": "Foi o que o comitê do formato escreveu em 2024. Ela segue liberada.",
-   "narracao": "Em 2024, quem cuidava do formato disse: banir a Sol Ring mudaria a identidade do Commander.",
-   "rodape": "Fonte: Commander Rules Committee, set. 2024",
-   "segundos": 6.5
+   "kicker": "O que a Wizards fez",
+   "titulo": "Outras marcas valem em todo formato",
+   "sub": "Desde 2025. E Final Fantasy virou a coleção mais vendida da história.",
+   "narracao": "Desde 2025, coleção de outra marca vale em todo formato, e Final Fantasy virou a mais vendida da história.",
+   "rodape": "Fontes: Wizards (out. 2024) e Hasbro (abr. 2025)",
+   "segundos": 7.6
   },
   {
    "tipo": "texto",
    "cor": "G",
-   "kicker": "Quem quer manter",
-   "titulo": "Vem em quase todo precon",
-   "sub": "Todo iniciante tem uma, e quem baixa no turno 1 vira alvo da mesa.",
-   "narracao": "Quem quer manter diz: vem em quase todo precon, e quem baixa no turno 1 vira alvo.",
-   "segundos": 6.9
+   "kicker": "Quem gosta",
+   "titulo": "Traz gente nova para a mesa",
+   "sub": "Gente chega pelo personagem e fica para jogar Commander.",
+   "narracao": "Quem gosta diz: traz gente nova, que chega pelo personagem e fica no Commander.",
+   "segundos": 5.8
   },
   {
    "tipo": "texto",
    "cor": "R",
-   "kicker": "Quem quer banir",
-   "titulo": "Turno 1 com ela desequilibra",
-   "sub": "Quem abre com Sol Ring sai uma volta na frente, e ela entra em quase todo deck.",
-   "narracao": "Quem quer banir diz: Sol Ring no turno 1 deixa um jogador uma volta inteira na frente.",
+   "kicker": "Quem não gosta",
+   "titulo": "Magic perde a cara de Magic",
+   "sub": "Spock e Homem-Aranha quebram o mundo do jogo, e é coleção atrás de coleção.",
+   "narracao": "Quem não gosta diz: Magic perde a cara de Magic, e é coleção nova atrás de coleção.",
    "segundos": 6.9
   },
   {
    "tipo": "rosto",
    "cor": "M",
-   "kicker": "No 1x1",
-   "titulo": "No Duel Commander, já é banida",
-   "narracao": "No Duel Commander, que eu jogo, ela já é banida. E na mesa de 4: fica ou sai?",
-   "gravar": "Com a Sol Ring na mão, olha para a câmera e faz a pergunta do fim.",
-   "segundos": 7.3
+   "kicker": "E você?",
+   "titulo": "Na sua mesa, soma ou atrapalha?",
+   "narracao": "A Fonte não toma partido. Na sua mesa, Universes Beyond soma ou atrapalha?",
+   "gravar": "Olha para a câmera e faz a pergunta do fim.",
+   "segundos": 5.4
   }
  ]
 }

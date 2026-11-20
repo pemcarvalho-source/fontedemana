@@ -8,7 +8,7 @@
       "hora": "21:30",
       "rede": "Gravação",
       "titulo": "Gravar o vídeo de 22/11 (você aparece)",
-      "oQue": "3 de 3 gravações da noite (20, 21 e 22/11). Debate da semana #2, Sol Ring no Commander (tema trocado em 19/11, no lugar do proxy): você aparece na pergunta do começo e no fim, com a Sol Ring na mão; o meio é só a sua voz.",
+      "oQue": "3 de 3 gravações da noite (20, 21 e 22/11). Debate da semana #2, Universes Beyond no Commander (tema trocado em 19/11): você aparece na pergunta do começo e no fim, só falando para a câmera; o meio é só a sua voz.",
       "arquivos": [
         {
           "nome": "Vídeo mudo do TikTok",
@@ -17,34 +17,34 @@
       ],
       "roteiro": [
         {
-          "cena": "Cena 1, rosto, uns 3 s",
-          "tela": "Sol Ring no Commander, Banir ou deixar?",
-          "fala": "Sol Ring: banir do Commander ou deixar?",
-          "como": "Rosto: Mostra para a câmera a Sol Ring de um dos seus decks, com cara de dúvida."
+          "cena": "Cena 1, rosto, uns 4 s",
+          "tela": "Universes Beyond, Soma ou atrapalha?",
+          "fala": "Marvel e Star Trek no Commander: soma ou atrapalha?",
+          "como": "Rosto: Olha para a câmera e faz a pergunta, com cara de dúvida. Não precisa de carta na mão."
         },
         {
-          "cena": "Cena 2, só a voz, uns 6 s",
-          "tela": "Quem cuidava do formato, Banir mudaria a cara do Commander, Foi o que o comitê do formato escreveu em 2024. Ela segue liberada.",
-          "fala": "Em 2024, quem cuidava do formato disse: banir a Sol Ring mudaria a identidade do Commander.",
+          "cena": "Cena 2, só a voz, uns 8 s",
+          "tela": "O que a Wizards fez, Outras marcas valem em todo formato, Desde 2025. E Final Fantasy virou a coleção mais vendida da história.",
+          "fala": "Desde 2025, coleção de outra marca vale em todo formato, e Final Fantasy virou a mais vendida da história.",
           "como": "Só a voz: pode gravar em vídeo ou áudio"
         },
         {
-          "cena": "Cena 3, só a voz, uns 7 s",
-          "tela": "Quem quer manter, Vem em quase todo precon, Todo iniciante tem uma, e quem baixa no turno 1 vira alvo da mesa.",
-          "fala": "Quem quer manter diz: vem em quase todo precon, e quem baixa no turno 1 vira alvo.",
+          "cena": "Cena 3, só a voz, uns 6 s",
+          "tela": "Quem gosta, Traz gente nova para a mesa, Gente chega pelo personagem e fica para jogar Commander.",
+          "fala": "Quem gosta diz: traz gente nova, que chega pelo personagem e fica no Commander.",
           "como": "Só a voz: pode gravar em vídeo ou áudio"
         },
         {
           "cena": "Cena 4, só a voz, uns 7 s",
-          "tela": "Quem quer banir, Turno 1 com ela desequilibra, Quem abre com Sol Ring sai uma volta na frente, e ela entra em quase todo deck.",
-          "fala": "Quem quer banir diz: Sol Ring no turno 1 deixa um jogador uma volta inteira na frente.",
+          "tela": "Quem não gosta, Magic perde a cara de Magic, Spock e Homem-Aranha quebram o mundo do jogo, e é coleção atrás de coleção.",
+          "fala": "Quem não gosta diz: Magic perde a cara de Magic, e é coleção nova atrás de coleção.",
           "como": "Só a voz: pode gravar em vídeo ou áudio"
         },
         {
-          "cena": "Cena 5, rosto, uns 7 s",
-          "tela": "No 1x1, No Duel Commander, já é banida",
-          "fala": "No Duel Commander, que eu jogo, ela já é banida. E na mesa de 4: fica ou sai?",
-          "como": "Rosto: Com a Sol Ring na mão, olha para a câmera e faz a pergunta do fim."
+          "cena": "Cena 5, rosto, uns 5 s",
+          "tela": "E você?, Na sua mesa, soma ou atrapalha?",
+          "fala": "A Fonte não toma partido. Na sua mesa, Universes Beyond soma ou atrapalha?",
+          "como": "Rosto: Olha para a câmera e faz a pergunta do fim."
         }
       ],
       "passos": [
@@ -54,8 +54,8 @@
         "Desligue o Vídeo HDR (Ajustes, Câmera, Gravar Vídeo) para as cores não lavarem.",
         "Um vídeo por cena, falando para a câmera, com meio segundo de silêncio antes e depois; nomeie cena_1, cena_2... e mande todos juntos.",
         "Nas cenas sem rosto, só a voz conta: pode gravar em vídeo ou só o áudio.",
-        "Separe a Sol Ring de um dos seus decks: ela aparece nas duas cenas com você.",
-        "No fim, a fala é um fato (no Duel Commander ela é banida) e uma pergunta, sem defender um dos lados: a Fonte não toma partido no Debate.",
+        "Não precisa de carta na mão: as duas cenas com você são só o rosto.",
+        "No fim, a fala é só a pergunta, sem defender um dos lados: a Fonte não toma partido no Debate.",
         "Mande os vídeos ao Claude no projeto MGT strategy, na conversa da gravação adiantada, dizendo \"vídeos do TikTok de 2026-11-22\"."
       ]
     },
@@ -63,8 +63,8 @@
       "id": "tiktok",
       "hora": "11:30",
       "rede": "TikTok",
-      "titulo": "Debate da semana #2: Sol Ring no Commander",
-      "oQue": "Sol Ring no Commander, banir ou deixar: o que disse quem cuidava do formato e o melhor argumento de cada lado, em 30 s.",
+      "titulo": "Debate da semana #2: Universes Beyond no Commander",
+      "oQue": "Universes Beyond no Commander, soma ou atrapalha: o que a Wizards fez e o melhor argumento de cada lado, em 30 s.",
       "arquivos": [
         {
           "nome": "Vídeo mudo do TikTok (troque pelo narrado quando chegar)",
@@ -74,11 +74,11 @@
       "textos": [
         {
           "rotulo": "Legenda",
-          "texto": "Sol Ring no Commander: banir ou deixar? Debate da semana #2, a uma semana do anúncio de banimentos da Wizards (30 de novembro).\n\nO que disse quem cuidava do formato: em 2024, o comitê do Commander escreveu que banir a Sol Ring mudaria a identidade do formato. Ela segue liberada.\n\nQuem quer manter: ela vem em quase todo precon, todo iniciante tem uma, e quem baixa no turno 1 vira alvo da mesa. Quem quer banir: Sol Ring no turno 1 deixa um jogador uma volta na frente, e ela entra em quase todo deck.\n\nNo Duel Commander, o 1x1, ela já é banida.\n\nFica ou sai? Fontes: Commander Rules Committee, Wizards e Duel Commander. Mais em fontedemana.com.br\n\n#solring #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+          "texto": "Marvel, Star Trek e Final Fantasy no Commander: soma ou atrapalha? Debate da semana #2.\n\nO que a Wizards fez: desde 2025, as coleções de outras marcas (Universes Beyond) valem em todos os formatos, e Final Fantasy virou a coleção mais vendida da história. No Commander, elas sempre valeram.\n\nQuem gosta: traz gente nova, que chega pelo personagem e fica no Commander. Quem não gosta: Magic perde a cara de Magic, e é coleção nova atrás de coleção nova.\n\nSoma ou atrapalha? Fontes: Wizards e Hasbro. Mais em fontedemana.com.br\n\n#universesbeyond #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
         },
         {
           "rotulo": "Comentário fixado",
-          "texto": "Sol Ring no Commander: fica ou sai? Debate da semana é o tema que divide a mesa, sempre com os dois lados."
+          "texto": "Universes Beyond no Commander: soma ou atrapalha? Debate da semana é o tema que divide a mesa, sempre com os dois lados."
         }
       ],
       "passos": [
