@@ -34,8 +34,10 @@
       "precon": "Federation Fleet",
       "carta": "Jean-Luc Picard, Luminary (TRC 3, Jason Pastrana)"
      }
-    ]
-   }
+    ],
+    "feito": "19/11: Marvel à esquerda (entra em 0,05 s) e Star Trek à direita (1,15 s), até 5,6 s, sobre o narrado; a versão sem as cartas não fica no site."
+   },
+   "caixa": "topo"
   },
   {
    "tipo": "texto",
@@ -72,7 +74,9 @@
    "titulo": "Na sua mesa, soma ou atrapalha?",
    "narracao": "A Fonte não toma partido. Na sua mesa, Universes Beyond soma ou atrapalha?",
    "gravar": "Olha para a câmera e faz a pergunta do fim.",
-   "segundos": 5.4
+   "segundos": 5.4,
+   "caixa": "topo"
   }
- ]
+ ],
+ "rostoGravado": true
 }
