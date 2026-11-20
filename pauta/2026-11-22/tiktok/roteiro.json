@@ -17,8 +17,8 @@
    "kicker": "Universes Beyond",
    "titulo": "Soma ou atrapalha?",
    "narracao": "Marvel e Star Trek no Commander: soma ou atrapalha?",
-   "gravar": "Rosto no centro, um pouco mais longe da câmera, com espaço dos dois lados. Ao dizer \"Marvel\", aponta o dedo para um lado; ao dizer \"Star Trek\", aponta para o outro.",
-   "segundos": 4.0,
+   "gravar": "Rosto no centro, com espaço dos lados. Ao dizer \"Marvel\", aponta para um lado; ao dizer \"Star Trek\", para o outro.",
+   "segundos": 3.9,
    "apontar": {
     "nota": "Overlay feito depois da narração (ffmpeg), no momento em que o Paulo aponta, do lado para onde ele aponta: apontar-<id>-esq.png ou -dir.png nesta pasta, com fade de 0,2 s, até o fim da cena 1.",
     "cartas": [
