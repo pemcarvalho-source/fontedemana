@@ -8,7 +8,7 @@
       "hora": "21:30",
       "rede": "Gravação",
       "titulo": "Gravar o vídeo de 22/11 (você aparece)",
-      "oQue": "3 de 3 gravações da noite (20, 21 e 22/11). Debate da semana #2, Universes Beyond no Commander (tema trocado em 19/11): você aparece na pergunta do começo e no fim, só falando para a câmera; o meio é só a sua voz.",
+      "oQue": "3 de 3 gravações da noite (20, 21 e 22/11). Debate da semana #2, Universes Beyond no Commander (tema trocado em 19/11): você aparece na pergunta do começo, apontando para os dois lados, e no fim; o meio é só a sua voz.",
       "arquivos": [
         {
           "nome": "Vídeo mudo do TikTok",
@@ -20,7 +20,7 @@
           "cena": "Cena 1, rosto, uns 4 s",
           "tela": "Universes Beyond, Soma ou atrapalha?",
           "fala": "Marvel e Star Trek no Commander: soma ou atrapalha?",
-          "como": "Rosto: Olha para a câmera e faz a pergunta, com cara de dúvida. Não precisa de carta na mão."
+          "como": "Rosto: Rosto no centro, um pouco mais longe da câmera, com espaço dos dois lados. Ao dizer \"Marvel\", aponta o dedo para um lado; ao dizer \"Star Trek\", aponta para o outro."
         },
         {
           "cena": "Cena 2, só a voz, uns 8 s",
@@ -54,7 +54,8 @@
         "Desligue o Vídeo HDR (Ajustes, Câmera, Gravar Vídeo) para as cores não lavarem.",
         "Um vídeo por cena, falando para a câmera, com meio segundo de silêncio antes e depois; nomeie cena_1, cena_2... e mande todos juntos.",
         "Nas cenas sem rosto, só a voz conta: pode gravar em vídeo ou só o áudio.",
-        "Não precisa de carta na mão: as duas cenas com você são só o rosto.",
+        "Cena 1: ao dizer \"Marvel\", aponte para um lado; ao dizer \"Star Trek\", para o outro. Na edição, entra a carta do precon de cada universo do lado para onde você apontou (Avengers Assemble e Federation Fleet).",
+        "Não precisa de carta na mão.",
         "No fim, a fala é só a pergunta, sem defender um dos lados: a Fonte não toma partido no Debate.",
         "Mande os vídeos ao Claude no projeto MGT strategy, na conversa da gravação adiantada, dizendo \"vídeos do TikTok de 2026-11-22\"."
       ]
