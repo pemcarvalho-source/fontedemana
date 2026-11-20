@@ -89,7 +89,8 @@
    "titulo": "Rootha ou Muddle?",
    "narracao": "Pra quem gosta de mágica grande, vale. Rootha ou Muddle no comando?",
    "gravar": "Com o deck aberto na mesa e os dois comandantes na mão, dá a opinião olhando para a câmera.",
-   "segundos": 5
+   "segundos": 5,
+   "caixa": "topo"
   }
  ],
  "rostoGravado": true
