@@ -1,6 +1,7 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "The Borg Queen",
   "Hearthhull, the Worldseed",
   "Darksteel Forge",
   "Hullbreaker Horror",
@@ -45,6 +46,13 @@ window.MANA_POOL_INDEX = {
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 47,
+   "date": "2026-11-21",
+   "dateLabel": "Sábado, 21 de novembro de 2026",
+   "head": "Dia calmo no Multiverso",
+   "biome": "G"
+  },
   {
    "n": 46,
    "date": "2026-11-20",
@@ -254,13 +262,6 @@ window.MANA_POOL_INDEX = {
    "dateLabel": "Quinta, 22 de outubro de 2026",
    "head": "Stardates de Star Trek colocam Minamo e Sheoldred nos Play Boosters",
    "biome": "A"
-  },
-  {
-   "n": 16,
-   "date": "2026-10-21",
-   "dateLabel": "Quarta, 21 de outubro de 2026",
-   "head": "Star Trek revela os quatro comandantes dos precons",
-   "biome": "M"
   }
  ]
 };
