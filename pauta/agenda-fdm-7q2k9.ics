@@ -8,287 +8,8 @@ X-WR-TIMEZONE:America/Sao_Paulo
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:fdm-2026-11-17-gravacao@fontedemana.com.br
-DTSTAMP:20261120T123216Z
-DTSTART:20261116T221500Z
-DURATION:PT15M
-SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
-DESCRIPTION:Dicionário do Commander #9: o que é tutor. Você aparece nas 
- cenas 1 e 4\; nas outras\, só a voz. Seis cenas\, uns 30 s no total.\n\nA
- rquivos:\n- Vídeo mudo (referência): https://fontedemana.com.br/pauta/20
- 26-11-17/tiktok/tiktok-mudo.mp4\n\nRoteiro de gravação:\nCena 1\, rosto\
- , uns 4 s\nNa tela: "Segura que vou dar tutor"\nComo gravar: Rosto: Olhand
- o para a câmera\, segura uma carta virada para baixo perto do rosto\, com
- o quem esconde a jogada\, e diz a frase.\nFala: Segura que vou dar tutor. 
- Sabe o que isso quer dizer?\n\nCena 2\, só a voz\, uns 4 s\nNa tela: A ca
- rta que busca outra no seu deck. A peça exata que você quer\, sem depend
- er da compra\nComo gravar: Só a voz: pode gravar em vídeo ou áudio\nFal
- a: Tutor é a carta que busca no deck a carta que você quer.\n\nCena 3\, 
- só a voz\, uns 6 s\nNa tela: Vampiric Tutor\, US$ 50\,88 (R$ 287\,56). 1 
- mana: qualquer carta\, no topo do deck\nComo gravar: Só a voz: pode grava
- r em vídeo ou áudio\nFala: O Vampiric custa uma mana\, busca qualquer ca
- rta e põe no topo\, não na mão.\n\nCena 4\, só a voz\, uns 5 s\nNa tel
- a: Topo do deck não é a mão. O tutor deixa a carta esperando no topo. E
- la só chega na sua próxima compra.\nComo gravar: Só a voz: pode gravar 
- em vídeo ou áudio\nFala: Erro clássico: achar que já tá na mão. Só 
- compra no próximo turno.\n\nCena 5\, só a voz\, uns 4 s\nNa tela: Diabol
- ic Tutor\, US$ 1\,64 (R$ 9\,27). 4 manas: qualquer carta\, direto na mão\
- nComo gravar: Só a voz: pode gravar em vídeo ou áudio\nFala: O Diabolic
-  custa quatro\, mas põe direto na mão.\n\nCena 6\, só a voz\, uns 3 s\n
- Na tela: Barato no topo ou caro na mão? Vampiric\, 1 mana. Diabolic\, 4 m
- anas.\nComo gravar: Só a voz: pode gravar em vídeo ou áudio\nFala: E no
-  seu deck: barato no topo ou caro na mão?\n\n\nPasso a passo:\n1. Celular
-  na vertical\, câmera da frente\, na altura dos olhos\, a um braço de di
- stância.\n2. Rosto na metade de cima da tela: o título entra embaixo del
- e\, na altura do peito.\n3. Luz de frente (de frente para a janela) e fund
- o arrumado\; a estante de cartas é ótima.\n4. Desligue o Vídeo HDR (Aju
- stes\, Câmera\, Gravar Vídeo) para as cores não lavarem.\n5. Um vídeo 
- por cena\, falando para a câmera\, com meio segundo de silêncio antes e 
- depois\; nomeie cena_1\, cena_2... e mande todos juntos.\n6. Nas cenas sem
-  rosto\, só a voz conta: pode gravar em vídeo ou só o áudio\, num luga
- r silencioso\, com o celular a um palmo da boca.\n7. Para as cenas 1 e 4\,
-  tenha à mão uma carta qualquer e o seu deck (de preferência com um tut
- or).\n8. Mande os vídeos ao Claude no projeto MGT strategy (pode ser resp
- ondendo à mensagem desta tarefa) dizendo "vídeos do TikTok de 2026-11-17
- ".\n\nValores em reais pela cotação de 13 nov (Banco Central\, PTAX).\n\
- nPauta completa: https://fontedemana.com.br/pauta/2026-11-17/#gravacao
-URL:https://fontedemana.com.br/pauta/2026-11-17/#gravacao
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Gravação: Gravar o vídeo de amanhã (você aparece)
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-17-tiktok@fontedemana.com.br
-DTSTAMP:20261120T123216Z
-DTSTART:20261117T143000Z
-DURATION:PT15M
-SUMMARY:11:30 TikTok: Dicionário do Commander #9\, tutor
-DESCRIPTION:Vídeo do Dicionário do Commander #9: o que é tutor\, com o V
- ampiric Tutor e o Diabolic Tutor.\n\nArquivos:\n- Vídeo do TikTok narrado
- : https://fontedemana.com.br/pauta/2026-11-17/tiktok/tiktok-narrado.mp4\n\
- nLegenda:\nTutor no Commander: você sabe o que é quando alguém na mesa 
- diz "vou dar tutor"?\n\nTutor é a carta que busca no seu deck a carta exa
- ta que você quer. O Vampiric Tutor custa 1 mana e põe a carta no topo do
-  deck. O Diabolic Tutor custa 4 e põe direto na mão. Preços do Scryfall
- \, reais pela cotação de 13 nov (Banco Central\, PTAX).\n\nQue termo da 
- mesa te confundiu no começo?\n\nMais no fontedemana.com.br\n\n#tutor #com
- mander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the
-  Fan Content Policy. Not approved/endorsed by Wizards. Portions of the mat
- erials used are property of Wizards of the Coast. ©Wizards of the Coast L
- LC.\n\nComentário fixado:\nNo seu deck entra qual: o Vampiric (1 mana\, v
- ai pro topo) ou o Diabolic (4 manas\, vai pra mão)? Toda terça tem um te
- rmo novo do Dicionário do Commander.\n\nPasso a passo:\n1. Postar com um 
- som em alta da biblioteca do TikTok\, com volume entre 15% e 20%.\n2. Voz 
- própria\, não precisa de rótulo de IA.\n3. Fixar o comentário logo dep
- ois de postar.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11
- -17/#tiktok
-URL:https://fontedemana.com.br/pauta/2026-11-17/#tiktok
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:TikTok: Dicionário do Commander #9\, tutor
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-17-stories-mulligan@fontedemana.com.br
-DTSTAMP:20261120T123216Z
-DTSTART:20261117T210000Z
-DURATION:PT15M
-SUMMARY:18:00 Instagram Stories: Parceria com a Mulligan: os produtos chega
- ram (2 Stories)
-DESCRIPTION:Dois Stories avisando a parceria com a Mulligan Jogos: o vídeo
-  de 15 s da caixa aberta (deckbox\, precon e sleeves) e a foto dos três p
- rodutos com a contagem regressiva para sexta\, quando sai a abertura do pr
- econ. Com a loja marcada\, ela recebe o Story e pode repostar.\n\nArquivos
- :\n- Story 1: a caixa aberta (vídeo de 15 s): https://fontedemana.com.br/
- pauta/2026-11-17/mulligan/story-1.mp4\n- Story 2: os três produtos: https
- ://fontedemana.com.br/pauta/2026-11-17/mulligan/story-2.jpg\n\nTexto do St
- ory 1:\nAbrindo a caixa da @mulliganjogos\n\nTexto do Story 2:\nEsses trê
- s vieram da @mulliganjogos e vão virar conteúdo em parceria com eles. Se
- xta eu abro o precon aqui.\n\nPasso a passo:\n1. Baixe o vídeo e a foto e
-  poste nesta ordem.\n2. No Story 1\, escreva o texto do Story 1 e ponha o 
- sticker de Menção da @mulliganjogos. O som é o da caixa abrindo\; se pr
- eferir\, troque por uma música em alta.\n3. No Story 2\, escreva o texto 
- do Story 2 e marque a @mulliganjogos e a @viperacessorios com o sticker de
-  Menção.\n4. Ainda no Story 2\, ponha o sticker de Contagem regressiva c
- om o nome Abrindo o precon\, terminando em 20/11 às 19:00.\n5. Não use #
- recebido nem conte como os produtos chegaram: a parceria com a loja é o q
- ue aparece.\n6. Se a loja repostar\, agradeça respondendo o Story dela.\n
- \nPauta completa: https://fontedemana.com.br/pauta/2026-11-17/#stories-mul
- ligan
-URL:https://fontedemana.com.br/pauta/2026-11-17/#stories-mulligan
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Parceria com a Mulligan: os produtos chegara
- m (2 Stories)
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-17-threads-manha@fontedemana.com.br
-DTSTAMP:20261120T123216Z
-DTSTART:20261117T133000Z
-DURATION:PT15M
-SUMMARY:10:30 Threads: Debate: Dicionário do Commander #9: o que é tutor
-DESCRIPTION:Post de debate do conteúdo original de hoje (Dicionário do Co
- mmander) para puxar conversa.\n\nPost:\nTutor no Commander divide a mesa.\
- n\nTem quem diga que buscar a mesma peça todo jogo deixa a partida repeti
- tiva. Tem quem diga que\, num deck de 100 cartas com uma cópia de cada\, 
- sem tutor o deck nunca faz o que promete.\n\nNa sua mesa\, tutor é bem-vi
- ndo ou é melhor deixar a sorte decidir?\n\nPasso a passo:\n1. Abra o Thre
- ads e cole o Post.\n2. Dica: Enquete: Tutor liberado / Só os baratos / Pr
- efiro sem tutor\n3. Toque em Adicionar tópico e escolha MTG.\n4. Publique
-  e responda quem comentar na primeira hora.\n\nPauta completa: https://fon
- tedemana.com.br/pauta/2026-11-17/#threads-manha
-URL:https://fontedemana.com.br/pauta/2026-11-17/#threads-manha
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Debate: Dicionário do Commander #9: o que é tutor
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-17-feed@fontedemana.com.br
-DTSTAMP:20261120T123216Z
-DTSTART:20261117T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram feed: Dicionário do Commander #9: o que é tutor
-DESCRIPTION:Carrossel original de 7 imagens (Dicionário do Commander): Dic
- ionário do Commander #9: o que é tutor. Feito para salvar e compartilhar
- .\n\nArquivos:\n- Imagem 1 de 7: https://fontedemana.com.br/pauta/2026-11-
- 17/original/carrossel-01.jpg\n- Imagem 2 de 7: https://fontedemana.com.br/
- pauta/2026-11-17/original/carrossel-02.jpg\n- Imagem 3 de 7: https://fonte
- demana.com.br/pauta/2026-11-17/original/carrossel-03.jpg\n- Imagem 4 de 7:
-  https://fontedemana.com.br/pauta/2026-11-17/original/carrossel-04.jpg\n- 
- Imagem 5 de 7: https://fontedemana.com.br/pauta/2026-11-17/original/carros
- sel-05.jpg\n- Imagem 6 de 7: https://fontedemana.com.br/pauta/2026-11-17/o
- riginal/carrossel-06.jpg\n- Imagem 7 de 7: https://fontedemana.com.br/paut
- a/2026-11-17/original/carrossel-07.jpg\n\nLegenda:\nTutor no Commander: o 
- que é essa carta de Magic que todo mundo quer no deck? Você sabe o que q
- uer dizer "vou dar tutor"?\n\nTutor é a carta que busca no seu deck a car
- ta exata que você quer. No carrossel: o Vampiric Tutor (1 mana\, põe no 
- topo)\, o Worldly Tutor (1 mana\, só criatura) e o Diabolic Tutor (4 mana
- s\, põe na mão)\, mais o erro que quase todo mundo comete com eles.\n\nF
- ontes: Scryfall\, EDHREC e Regras Abrangentes. Valores em reais pela cota
- ção de 13 nov (Banco Central\, PTAX).\n\nMais em fontedemana.com.br\n\nQ
- ue termo da mesa te confundiu no começo?\n\n#tutor #commander #mtg\n\nFon
- te de Mana is unofficial Fan Content permitted under the Fan Content Polic
- y. Not approved/endorsed by Wizards. Portions of the materials used are pr
- operty of Wizards of the Coast. ©Wizards of the Coast LLC.\n\nPasso a pas
- so:\n1. No Instagram\, toque em + e escolha Post.\n2. Selecione as 7 image
- ns na ordem\, da 1 à 7.\n3. Toque em Adicionar música e escolha uma em a
- lta que combine com o tema.\n4. Cole a Legenda e publique.\n\nPauta comple
- ta: https://fontedemana.com.br/pauta/2026-11-17/#feed
-URL:https://fontedemana.com.br/pauta/2026-11-17/#feed
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram feed: Dicionário do Commander #9: o que é tutor
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-17-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261120T123216Z
-DTSTART:20261117T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
-DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
- .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
- e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
- o do post: Tutor no seu deck de Commander? com Liberado\, Só os baratos e
-  Prefiro sem.\n3. Publique.\n\nPauta completa: https://fontedemana.com.br/
- pauta/2026-11-17/#stories-meio-dia
-URL:https://fontedemana.com.br/pauta/2026-11-17/#stories-meio-dia
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-17-stories-tarde@fontedemana.com.br
-DTSTAMP:20261120T123216Z
-DTSTART:20261117T180000Z
-DURATION:PT15M
-SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
-DESCRIPTION:Story com a imagem de Esper Sentinel no Topdeck do Dia e o stic
- ker de link para a edição completa.\n\nArquivos:\n- Topdeck do Dia: http
- s://fontedemana.com.br/kit/ed43/carrossel-03.jpg\n\nPasso a passo:\n1. Bai
- xe a imagem e poste no Story.\n2. Adicione o sticker de Link para fontedem
- ana.com.br com o texto Edição completa\, embaixo do texto do Topdeck.\n3
- . Publique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-17
- /#stories-tarde
-URL:https://fontedemana.com.br/pauta/2026-11-17/#stories-tarde
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Topdeck do Dia com link
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-17-reels@fontedemana.com.br
-DTSTAMP:20261120T123216Z
-DTSTART:20261117T220000Z
-DURATION:PT15M
-SUMMARY:19:00 Reels: Vídeo original: Dicionário do Commander #9: o que é
-  tutor
-DESCRIPTION:O vídeo original de hoje no Instagram\, o mesmo arquivo do Tik
- Tok\, já narrado. É o formato que mais chega a quem não segue.\n\nArqui
- vos:\n- Vídeo original narrado: https://fontedemana.com.br/pauta/2026-11-
- 17/tiktok/tiktok-narrado.mp4\n\nLegenda:\nTutor no Commander: você sabe o
-  que é quando alguém na mesa diz "vou dar tutor"?\n\nTutor é a carta qu
- e busca no seu deck a carta exata que você quer. O Vampiric Tutor custa 1
-  mana e põe a carta no topo do deck. O Diabolic Tutor custa 4 e põe dire
- to na mão. Preços do Scryfall\, reais pela cotação de 13 nov (Banco Ce
- ntral\, PTAX).\n\nQue termo da mesa te confundiu no começo?\n\nMais no fo
- ntedemana.com.br\n\n#tutor #commander #mtg\n\nFonte de Mana is unofficial 
- Fan Content permitted under the Fan Content Policy. Not approved/endorsed 
- by Wizards. Portions of the materials used are property of Wizards of the 
- Coast. ©Wizards of the Coast LLC.\n\nComentário fixado:\nNo seu deck ent
- ra qual: o Vampiric (1 mana\, vai pro topo) ou o Diabolic (4 manas\, vai p
- ra mão)? Toda terça tem um termo novo do Dicionário do Commander.\n\nPa
- sso a passo:\n1. No Instagram\, toque em + e escolha Reel.\n2. Escolha o v
- ídeo baixado daqui\, nunca o salvo do TikTok (o Instagram derruba vídeo 
- com marca d'água).\n3. Em Áudio\, ponha uma música em alta da bibliotec
- a do Instagram com volume baixo (uns 10%)\, sem cobrir a voz.\n4. Na capa\
- , use o primeiro quadro\, o do gancho.\n5. Cole a Legenda e publique.\n6. 
- Fixe o comentário e responda quem comentar na primeira hora.\n\nPauta com
- pleta: https://fontedemana.com.br/pauta/2026-11-17/#reels
-URL:https://fontedemana.com.br/pauta/2026-11-17/#reels
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reels: Vídeo original: Dicionário do Commander #9: o que é t
- utor
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-17-comentarios@fontedemana.com.br
-DTSTAMP:20261120T123216Z
-DTSTART:20261118T003000Z
-DURATION:PT15M
-SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
-DESCRIPTION:Uns 10 minutos nas três redes: curtir e responder os comentár
- ios das últimas 48 horas\, começando pelo vídeo e pelo carrossel de hoj
- e. Conversa nos comentários leva a peça a mais gente\, e o Instagram rec
- omenda responder em até 2 dias.\n\nPasso a passo:\n1. Instagram: nas noti
- ficações\, curta os comentários e responda com uma frase quem perguntou
-  ou discordou.\n2. TikTok e Threads: o mesmo\, começando pelo post com ma
- is comentários.\n3. Pergunta boa ou dúvida que se repete\, nos comentár
- ios ou nas DMs? Mande na conversa do projeto: vira tema de um pilar.\n\nPa
- uta completa: https://fontedemana.com.br/pauta/2026-11-17/#comentarios
-URL:https://fontedemana.com.br/pauta/2026-11-17/#comentarios
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Comentários: Responder os comentários de hoje e de ontem
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fdm-2026-11-18-gravacao@fontedemana.com.br
-DTSTAMP:20261120T123216Z
+DTSTAMP:20261121T102117Z
 DTSTART:20261117T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -342,7 +63,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-18-tiktok@fontedemana.com.br
-DTSTAMP:20261120T123216Z
+DTSTAMP:20261121T102117Z
 DTSTART:20261118T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Rota das Lojas #2\, torneio de precon na MTG Brasil
@@ -377,7 +98,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-18-threads-manha@fontedemana.com.br
-DTSTAMP:20261120T123216Z
+DTSTAMP:20261121T102117Z
 DTSTART:20261118T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Rota das Lojas #2: fui buscar duas cartas na
@@ -404,7 +125,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-18-feed@fontedemana.com.br
-DTSTAMP:20261120T123216Z
+DTSTAMP:20261121T102117Z
 DTSTART:20261118T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Rota das Lojas #2: fui buscar duas cartas na 
@@ -448,7 +169,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-18-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261120T123216Z
+DTSTAMP:20261121T102117Z
 DTSTART:20261118T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -467,7 +188,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-18-stories-tarde@fontedemana.com.br
-DTSTAMP:20261120T123216Z
+DTSTAMP:20261121T102117Z
 DTSTART:20261118T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -487,7 +208,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-18-reels@fontedemana.com.br
-DTSTAMP:20261120T123216Z
+DTSTAMP:20261121T102117Z
 DTSTART:20261118T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Rota das Lojas #2: fui buscar duas ca
@@ -526,7 +247,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-18-comentarios@fontedemana.com.br
-DTSTAMP:20261120T123216Z
+DTSTAMP:20261121T102117Z
 DTSTART:20261119T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -548,7 +269,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-19-gravacao@fontedemana.com.br
-DTSTAMP:20261120T123216Z
+DTSTAMP:20261121T102117Z
 DTSTART:20261118T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -604,7 +325,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-19-tiktok@fontedemana.com.br
-DTSTAMP:20261120T123216Z
+DTSTAMP:20261121T102117Z
 DTSTART:20261119T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o Top 5 #8: mana rocks baratos
@@ -636,7 +357,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-19-threads-manha@fontedemana.com.br
-DTSTAMP:20261120T123216Z
+DTSTAMP:20261121T102117Z
 DTSTART:20261119T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Top 5 #8: os mana rocks baratos que mais apa
@@ -661,7 +382,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-19-feed@fontedemana.com.br
-DTSTAMP:20261120T123216Z
+DTSTAMP:20261121T102117Z
 DTSTART:20261119T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Top 5 #8: os mana rocks baratos que mais apar
@@ -706,7 +427,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-19-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261120T123216Z
+DTSTAMP:20261121T102117Z
 DTSTART:20261119T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -725,7 +446,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-19-stories-tarde@fontedemana.com.br
-DTSTAMP:20261120T123216Z
+DTSTAMP:20261121T102117Z
 DTSTART:20261119T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -745,7 +466,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-19-reels@fontedemana.com.br
-DTSTAMP:20261120T123216Z
+DTSTAMP:20261121T102117Z
 DTSTART:20261119T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Top 5 #8: os mana rocks baratos que m
@@ -783,7 +504,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-19-comentarios@fontedemana.com.br
-DTSTAMP:20261120T123216Z
+DTSTAMP:20261121T102117Z
 DTSTART:20261120T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -805,7 +526,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-20-gravacao@fontedemana.com.br
-DTSTAMP:20261120T123216Z
+DTSTAMP:20261121T102117Z
 DTSTART:20261119T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de 20/11 (você aparece)
@@ -864,7 +585,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-20-tiktok@fontedemana.com.br
-DTSTAMP:20261120T123216Z
+DTSTAMP:20261121T102117Z
 DTSTART:20261120T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Abri o precon Prismari Artistry
@@ -905,7 +626,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-20-collab-mulligan@fontedemana.com.br
-DTSTAMP:20261120T123216Z
+DTSTAMP:20261121T102117Z
 DTSTART:20261120T145000Z
 DURATION:PT15M
 SUMMARY:11:50 Instagram feed: Collab com a Mulligan no carrossel e no Reels
@@ -929,7 +650,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-20-threads-manha@fontedemana.com.br
-DTSTAMP:20261120T123216Z
+DTSTAMP:20261121T102117Z
 DTSTART:20261120T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Abri o precon Prismari Artistry: o que vem n
@@ -955,7 +676,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-20-feed@fontedemana.com.br
-DTSTAMP:20261120T123216Z
+DTSTAMP:20261121T102117Z
 DTSTART:20261120T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Deck em 40 segundos: Abri o precon Prismari A
@@ -1001,7 +722,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-20-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261120T123216Z
+DTSTAMP:20261121T102117Z
 DTSTART:20261120T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -1020,7 +741,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-20-stories-tarde@fontedemana.com.br
-DTSTAMP:20261120T123216Z
+DTSTAMP:20261121T102117Z
 DTSTART:20261120T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1040,7 +761,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-20-reels@fontedemana.com.br
-DTSTAMP:20261120T123216Z
+DTSTAMP:20261121T102117Z
 DTSTART:20261120T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Abri o precon Prismari Artistry: o qu
@@ -1084,7 +805,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-20-comentarios@fontedemana.com.br
-DTSTAMP:20261120T123216Z
+DTSTAMP:20261121T102117Z
 DTSTART:20261121T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1106,7 +827,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-21-gravacao@fontedemana.com.br
-DTSTAMP:20261120T123216Z
+DTSTAMP:20261121T102117Z
 DTSTART:20261119T224500Z
 DURATION:PT15M
 SUMMARY:19:45 Gravação: Gravar o vídeo de 21/11 (você aparece)
@@ -1162,7 +883,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-21-tiktok@fontedemana.com.br
-DTSTAMP:20261120T123216Z
+DTSTAMP:20261121T102117Z
 DTSTART:20261121T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Do zero à mesa #4: double sleeve
@@ -1180,18 +901,18 @@ DESCRIPTION:As sleeves que vieram no pacote viraram proteção dupla: os do
  ect Fit sai a partir de R$ 24\,99 e a Dragon Shield Matte a partir de R$ 8
  6\,39 na LigaMagic (17 nov).\n\nE você\, usa uma sleeve ou duas? A série
   completa está em fontedemana.com.br\n\nValores em reais pela cotação d
- e 13 nov (Banco Central\, PTAX).\n\n#doublesleeve #commander #mtg\n\nFonte
-  de Mana is unofficial Fan Content permitted under the Fan Content Policy.
-  Not approved/endorsed by Wizards. Portions of the materials used are prop
- erty of Wizards of the Coast. ©Wizards of the Coast LLC.\n\nComentário f
- ixado:\nUma sleeve ou duas: qual é a sua? Do zero à mesa é a série do 
- pacote do plástico bolha\, e este é o #4.\n\nPasso a passo:\n1. No TikTo
- k\, toque em + e escolha o vídeo baixado daqui.\n2. Adicione um som em al
- ta da biblioteca do TikTok com volume entre 15% e 20%\, sem cobrir a voz.\
- n3. Voz própria não precisa de rótulo de IA.\n4. Cole a Legenda e publi
- que.\n5. Fixe o comentário.\n\nValores em reais pela cotação de 13 nov 
- (Banco Central\, PTAX).\n\nPauta completa: https://fontedemana.com.br/paut
- a/2026-11-21/#tiktok
+ e 13 nov (Banco Central\, PTAX).\n\n#commander #mtg\n\nFonte de Mana is un
+ official Fan Content permitted under the Fan Content Policy. Not approved/
+ endorsed by Wizards. Portions of the materials used are property of Wizard
+ s of the Coast. ©Wizards of the Coast LLC.\n\nComentário fixado:\nUma sl
+ eeve ou duas: qual é a sua? Do zero à mesa é a série do pacote do plá
+ stico bolha\, e este é o #4.\n\nPasso a passo:\n1. No TikTok\, toque em +
+  e escolha o vídeo baixado daqui.\n2. Adicione um som em alta da bibliote
+ ca do TikTok com volume entre 15% e 20%\, sem cobrir a voz.\n3. Voz própr
+ ia não precisa de rótulo de IA.\n4. Cole a Legenda e publique.\n5. Fixe 
+ o comentário.\n\nValores em reais pela cotação de 19 nov\, US$ 1 = R$ 5
+ \,8889 (Banco Central\, PTAX).\n\nPauta completa: https://fontedemana.com.
+ br/pauta/2026-11-21/#tiktok
 URL:https://fontedemana.com.br/pauta/2026-11-21/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1200,8 +921,183 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:fdm-2026-11-21-threads-manha@fontedemana.com.br
+DTSTAMP:20261121T102117Z
+DTSTART:20261121T133000Z
+DURATION:PT15M
+SUMMARY:10:30 Threads: Debate: Do zero à mesa #4: double sleeve com as sle
+ eves que vieram…
+DESCRIPTION:Post de debate do conteúdo original de hoje (Vitrine de acess
+ órios) para puxar conversa.\n\nPost:\nDouble sleeve no Commander: proteç
+ ão que vale a pena ou exagero? Coloquei Perfect Fit e Dragon Shield nas c
+ artas caras do meu deck de vampiros\, uma abertura tampando a outra. Tem g
+ ente que faz no deck inteiro\, tem gente que acha que uma sleeve já basta
+ . E na sua mesa?\n\nPasso a passo:\n1. Abra o Threads e cole o Post.\n2. D
+ ica: Enquete com as opções: Sempre duas\, Só nas cartas caras\, Uma bas
+ ta\n3. Toque em Adicionar tópico e escolha MTG.\n4. Publique e responda q
+ uem comentar na primeira hora.\n\nPauta completa: https://fontedemana.com.
+ br/pauta/2026-11-21/#threads-manha
+URL:https://fontedemana.com.br/pauta/2026-11-21/#threads-manha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Debate: Do zero à mesa #4: double sleeve com as sleev
+ es que vieram…
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-21-feed@fontedemana.com.br
+DTSTAMP:20261121T102117Z
+DTSTART:20261121T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram feed: Vitrine de acessórios: Do zero à mesa #4: d
+ ouble sleeve com as…
+DESCRIPTION:Carrossel original de 7 imagens (Vitrine de acessórios): Do ze
+ ro à mesa #4: double sleeve com as sleeves que vieram no pacote da gringa
+ . Feito para salvar e compartilhar.\n\nArquivos:\n- Imagem 1 de 7: https:/
+ /fontedemana.com.br/pauta/2026-11-21/original/carrossel-01.jpg\n- Imagem 2
+  de 7: https://fontedemana.com.br/pauta/2026-11-21/original/carrossel-02.j
+ pg\n- Imagem 3 de 7: https://fontedemana.com.br/pauta/2026-11-21/original/
+ carrossel-03.jpg\n- Imagem 4 de 7: https://fontedemana.com.br/pauta/2026-1
+ 1-21/original/carrossel-04.jpg\n- Imagem 5 de 7: https://fontedemana.com.b
+ r/pauta/2026-11-21/original/carrossel-05.jpg\n- Imagem 6 de 7: https://fon
+ tedemana.com.br/pauta/2026-11-21/original/carrossel-06.jpg\n- Imagem 7 de 
+ 7: https://fontedemana.com.br/pauta/2026-11-21/original/carrossel-07.jpg\n
+ \nLegenda:\nDouble sleeve no Commander: como fazer e quanto custa no Brasi
+ l? Do zero à mesa #4: no pacote que eu comprei na gringa vieram sleeves P
+ erfect Fit e uma caixa de Dragon Shield\, e virou proteção dupla.\n\nPas
+ so 1: a Perfect Fit\, a justa\, entra de cabeça para baixo. Passo 2: a Dr
+ agon Shield entra por cima\, pelo outro lado. As aberturas ficam em lados 
+ opostos\, então uma tampa a outra.\n\nUsei nas cartas caras do Corte Carm
+ esim\, como a Teferi's Protection\, a partir de US$ 38\,30 (R$ 216\,46) no
+  Scryfall.\n\nNo Brasil\, a Perfect Fit sai a partir de R$ 24\,99 e a Drag
+ on Shield Matte a partir de R$ 86\,39 na LigaMagic (17 nov). Fontes: Scryf
+ all e LigaMagic. A série completa está em fontedemana.com.br\n\nVocê us
+ a uma sleeve ou duas?\n\nValores em reais pela cotação de 13 nov (Banco 
+ Central\, PTAX).\n\n#commander #mtg\n\nFonte de Mana is unofficial Fan Con
+ tent permitted under the Fan Content Policy. Not approved/endorsed by Wiza
+ rds. Portions of the materials used are property of Wizards of the Coast. 
+ ©Wizards of the Coast LLC.\n\nPasso a passo:\n1. No Instagram\, toque em 
+ + e escolha Post.\n2. Selecione as 7 imagens na ordem\, da 1 à 7.\n3. Toq
+ ue em Adicionar música e escolha uma em alta que combine com o tema.\n4. 
+ Cole a Legenda e publique.\n\nValores em reais pela cotação de 19 nov\, 
+ US$ 1 = R$ 5\,8889 (Banco Central\, PTAX).\n\nPauta completa: https://font
+ edemana.com.br/pauta/2026-11-21/#feed
+URL:https://fontedemana.com.br/pauta/2026-11-21/#feed
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram feed: Vitrine de acessórios: Do zero à mesa #4: dou
+ ble sleeve com as…
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-21-stories-meio-dia@fontedemana.com.br
+DTSTAMP:20261121T102117Z
+DTSTART:20261121T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
+DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
+ .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
+ e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
+ o do post: Você usa double sleeve? com Sempre\, Só nas cartas caras e Um
+ a basta.\n3. Publique.\n\nPauta completa: https://fontedemana.com.br/pauta
+ /2026-11-21/#stories-meio-dia
+URL:https://fontedemana.com.br/pauta/2026-11-21/#stories-meio-dia
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-21-stories-tarde@fontedemana.com.br
+DTSTAMP:20261121T102117Z
+DTSTART:20261121T180000Z
+DURATION:PT15M
+SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
+DESCRIPTION:Story com a imagem de The Borg Queen no Topdeck do Dia e o stic
+ ker de link para a edição completa.\n\nArquivos:\n- Topdeck do Dia: http
+ s://fontedemana.com.br/kit/ed47/carrossel-03.jpg\n\nPasso a passo:\n1. Bai
+ xe a imagem e poste no Story.\n2. Adicione o sticker de Link para fontedem
+ ana.com.br com o texto Edição completa\, embaixo do texto do Topdeck.\n3
+ . Publique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-21
+ /#stories-tarde
+URL:https://fontedemana.com.br/pauta/2026-11-21/#stories-tarde
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Topdeck do Dia com link
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-21-reels@fontedemana.com.br
+DTSTAMP:20261121T102117Z
+DTSTART:20261122T000000Z
+DURATION:PT15M
+SUMMARY:21:00 Reels: Vídeo original: Do zero à mesa #4: double sleeve com
+  as sleeves que…
+DESCRIPTION:O vídeo original de hoje no Instagram\, o mesmo arquivo do Tik
+ Tok\, já narrado. É o formato que mais chega a quem não segue.\n\nArqui
+ vos:\n- Vídeo original narrado: https://fontedemana.com.br/pauta/2026-11-
+ 21/tiktok/tiktok-narrado.mp4\n\nLegenda:\nDouble sleeve no Commander: vale
+  colocar duas sleeves na carta? Do zero à mesa #4: no pacote que eu compr
+ ei na gringa vieram sleeves Perfect Fit e uma caixa de Dragon Shield\, e e
+ u usei as duas juntas.\n\nPrimeiro a Perfect Fit\, a justa\, entrando de c
+ abeça para baixo. Depois a Dragon Shield por cima\, pelo outro lado. Uma 
+ abertura fica tampada pela outra\, e poeira e líquido não entram. Foi o 
+ que eu fiz nas cartas mais caras do Corte Carmesim\, como a Teferi's Prote
+ ction\, que sai a partir de US$ 38\,30 (R$ 216\,46).\n\nNo Brasil\, a Perf
+ ect Fit sai a partir de R$ 24\,99 e a Dragon Shield Matte a partir de R$ 8
+ 6\,39 na LigaMagic (17 nov).\n\nE você\, usa uma sleeve ou duas? A série
+  completa está em fontedemana.com.br\n\nValores em reais pela cotação d
+ e 13 nov (Banco Central\, PTAX).\n\n#commander #mtg\n\nFonte de Mana is un
+ official Fan Content permitted under the Fan Content Policy. Not approved/
+ endorsed by Wizards. Portions of the materials used are property of Wizard
+ s of the Coast. ©Wizards of the Coast LLC.\n\nComentário fixado:\nUma sl
+ eeve ou duas: qual é a sua? Do zero à mesa é a série do pacote do plá
+ stico bolha\, e este é o #4.\n\nPasso a passo:\n1. No Instagram\, toque e
+ m + e escolha Reel.\n2. Escolha o vídeo baixado daqui\, nunca o salvo do 
+ TikTok (o Instagram derruba vídeo com marca d'água).\n3. Em Áudio\, pon
+ ha uma música em alta da biblioteca do Instagram com volume baixo (uns 10
+ %)\, sem cobrir a voz.\n4. Na capa\, use o primeiro quadro\, o do gancho.\
+ n5. Cole a Legenda e publique.\n6. Fixe o comentário e responda quem come
+ ntar na primeira hora.\n\nValores em reais pela cotação de 19 nov\, US$ 
+ 1 = R$ 5\,8889 (Banco Central\, PTAX).\n\nPauta completa: https://fontedem
+ ana.com.br/pauta/2026-11-21/#reels
+URL:https://fontedemana.com.br/pauta/2026-11-21/#reels
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reels: Vídeo original: Do zero à mesa #4: double sleeve com a
+ s sleeves que…
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-21-comentarios@fontedemana.com.br
+DTSTAMP:20261121T102117Z
+DTSTART:20261122T003000Z
+DURATION:PT15M
+SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
+DESCRIPTION:Uns 10 minutos nas três redes: curtir e responder os comentár
+ ios das últimas 48 horas\, começando pelo vídeo e pelo carrossel de hoj
+ e. Conversa nos comentários leva a peça a mais gente\, e o Instagram rec
+ omenda responder em até 2 dias.\n\nPasso a passo:\n1. Instagram: nas noti
+ ficações\, curta os comentários e responda com uma frase quem perguntou
+  ou discordou.\n2. TikTok e Threads: o mesmo\, começando pelo post com ma
+ is comentários.\n3. Pergunta boa ou dúvida que se repete\, nos comentár
+ ios ou nas DMs? Mande na conversa do projeto: vira tema de um pilar.\n\nPa
+ uta completa: https://fontedemana.com.br/pauta/2026-11-21/#comentarios
+URL:https://fontedemana.com.br/pauta/2026-11-21/#comentarios
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Comentários: Responder os comentários de hoje e de ontem
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:fdm-2026-11-22-gravacao@fontedemana.com.br
-DTSTAMP:20261120T123216Z
+DTSTAMP:20261121T102117Z
 DTSTART:20261120T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Gravação: Gravar o vídeo de 22/11 (você aparece)
@@ -1255,7 +1151,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-22-tiktok@fontedemana.com.br
-DTSTAMP:20261120T123216Z
+DTSTAMP:20261121T102117Z
 DTSTART:20261122T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Debate da semana #2: Universes Beyond no Commander
