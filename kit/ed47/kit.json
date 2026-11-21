@@ -1,0 +1,104 @@
+{
+ "n": 47,
+ "data": "21 nov",
+ "carrossel": {
+  "capa": {
+   "cor": "G",
+   "titulo": "Sábado calmo, a rainha dos Borg na mesa",
+   "sub": "Nenhum fato novo neste sábado. A <b>Festa de Commander de Star Trek</b> segue até 26 de novembro e no Topdeck tem a comandante dos Borg.",
+   "credito": "Arte: Respite, Rebecca Guay"
+  },
+  "cartoes": [
+   {
+    "cor": "W",
+    "titulo": "O que vem nos próximos dias",
+    "itens": [
+     {"cor": "W", "html": "<b>até 26 nov</b>: primeira rodada da Festa de Commander de Star Trek."},
+     {"cor": "A", "html": "<b>até 30 nov</b>: venda do Secret Lair do Extra Life."},
+     {"cor": "A", "html": "<b>30 nov</b>: venda do Secret Lair de Duna, às 14h de Brasília."},
+     {"cor": "B", "html": "<b>30 nov</b>: próxima janela de banimentos do Commander."}
+    ],
+    "fonte": "Fontes: Wizards e WPN"
+   }
+  ],
+  "topdeck": {
+   "titulo": "The Borg Queen",
+   "habilidades": [
+    {"rotulo": "Hino de artefato", "texto": "Suas criaturas artefato ganham +2/+2."},
+    {"rotulo": "Assimilar", "texto": "Ao entrar ou atacar, rouba a primeira criatura do grimório de um oponente."},
+    {"rotulo": "Vira Borg", "texto": "A criatura roubada chega como artefato Borg, com um marcador +1/+1."}
+   ],
+   "extra": "<b>4º comandante</b> mais montado da semana no EDHREC, com 1,22 mil decks. US$ 8,30 (R$ 48,88) no Scryfall. Reais: cotação PTAX de 19 nov",
+   "credito": "Ilustração de Jodie Muir"
+  },
+  "ban": {
+   "numero": "9",
+   "unidade": "DIAS",
+   "texto": "Para a próxima janela de banimentos, em 30 de novembro, o mesmo dia da venda do Secret Lair de Duna."
+  },
+  "turnos": [
+   {"cor": "W", "data": "até 26 nov", "texto": "Festa de Commander de Star Trek"},
+   {"cor": "A", "data": "30 nov", "texto": "Venda do Secret Lair de Duna"},
+   {"cor": "B", "data": "30 nov", "texto": "Janela de banimentos"},
+   {"cor": "A", "data": "9 dez", "texto": "Nova janela do Zeta Set"},
+   {"cor": "W", "data": "11 dez", "texto": "2ª rodada da Festa de Star Trek"}
+  ],
+  "sussurro": null
+ },
+ "video": {
+  "cena1": {
+   "titulo": "Sábado calmo, a rainha dos Borg na mesa",
+   "pilulas": ["Festa de Star Trek", "Borg Queen no Topdeck", "Ban em 9 dias"]
+  },
+  "cena2": {
+   "rotulo": "Agenda",
+   "cor": "W",
+   "titulo": "O que vem nos próximos dias",
+   "itens": [
+    "Até 26 nov: Festa de Commander de Star Trek.",
+    "30 nov: venda do Secret Lair de Duna, às 14h.",
+    "30 nov: próxima janela de banimentos."
+   ],
+   "fonte": "Fontes: Wizards e WPN"
+  },
+  "cena3": {
+   "linhas": [
+    "<b>The Borg Queen</b> dá +2/+2 às suas criaturas artefato.",
+    "Cada vez que entra ou ataca, rouba uma criatura do grimório.",
+    "4º comandante da semana no EDHREC, com 1,22 mil decks."
+   ]
+  },
+  "cena4": {
+   "texto": "Faltam 9 dias para 30 de novembro, dia da janela de banimentos e da venda de Duna.",
+   "sussurro": null
+  }
+ },
+ "textos": {
+  "legendaCarrossel": "Commander, Magic e Festa de Commander de Star Trek: sábado calmo, sem fato novo confirmado.\n\nA primeira rodada da Festa de Commander de Star Trek segue até 26 de novembro nas lojas. Em 30 de novembro tem venda do Secret Lair de Duna, às 14h de Brasília, e a próxima janela de banimentos do Commander, no mesmo dia.\n\nNo Topdeck do Dia, The Borg Queen, a comandante do precon We Are the Borg. Ela dá +2/+2 às suas criaturas artefato e, toda vez que entra ou ataca, rouba a primeira criatura do topo do grimório de um oponente, que chega do seu lado como artefato Borg. É o 4º comandante mais montado da semana no EDHREC, com 1,22 mil decks, e sai a US$ 8,30 (R$ 48,88) no Scryfall.\n\nQual criatura você mais gostaria de assimilar do grimório do seu oponente?\n\nEdição completa em fontedemana.com.br\n\nArte da capa: Respite, Rebecca Guay. Topdeck: The Borg Queen, Jodie Muir.\n\nValores em reais pela cotação de 19 nov (Banco Central, PTAX).\n\n#startrek #commander #mtg",
+  "legendaVideo": "Commander e Magic num sábado calmo: a Festa de Commander de Star Trek segue até 26 de novembro e faltam 9 dias para a janela de banimentos.\n\nNo Topdeck, The Borg Queen, que rouba criaturas do grimório do oponente e é o 4º comandante da semana no EDHREC.\n\nVocê jogaria de Borg Queen na sua mesa?\n\nTudo em fontedemana.com.br\n\n#startrek #commander #mtg",
+  "threadsPost": "Sábado calmo no Commander, sem fato novo confirmado. A Festa de Commander de Star Trek segue até 26 de novembro. No Topdeck, The Borg Queen: dá +2/+2 às criaturas artefato e, ao entrar ou atacar, rouba a primeira criatura do grimório de um oponente. É o 4º comandante da semana no EDHREC, com 1,22 mil decks, a US$ 8,30 (R$ 48,88). Você jogaria de Borg Queen? fontedemana.com.br\nValores em reais pela cotação de 19 nov (Banco Central, PTAX).",
+  "threadsFio": [
+   "Sábado calmo no Commander, sem fato novo confirmado. O Secret Lair de Duna e a janela de banimentos seguem marcados para 30 de novembro.",
+   "A primeira rodada da Festa de Commander de Star Trek vai até 26 de novembro nas lojas. A segunda é de 11 a 17 de dezembro.",
+   "No Topdeck do Dia, The Borg Queen, a comandante do precon We Are the Borg. Ela dá +2/+2 às suas criaturas artefato e, toda vez que entra ou ataca, o oponente vira cartas até achar uma criatura, que entra do seu lado como artefato Borg.",
+   "É o 4º comandante mais montado da semana no EDHREC, com 1,22 mil decks, e sai a US$ 8,30 (R$ 48,88) no Scryfall.",
+   "Faltam 9 dias para a janela de banimentos de 30 de novembro. Edição completa em fontedemana.com.br\nValores em reais pela cotação de 19 nov (Banco Central, PTAX)."
+  ],
+  "threadsAvulsos": [
+   {
+    "titulo": "Pergunta do dia",
+    "texto": "The Borg Queen rouba a primeira criatura do grimório do oponente toda vez que ataca. Qual seria a pior criatura para perder assim na sua mesa?",
+    "obs": "Pergunta aberta, sem enquete"
+   }
+  ]
+ },
+ "pauta": {
+  "forca": "calmo",
+  "porque": "Sábado sem fato novo sobre Commander; a Festa de Star Trek, Duna e o ban de 30 nov já estavam na agenda.",
+  "storyPergunta": "Qual criatura você roubaria com a Borg Queen?",
+  "enquete": {
+   "pergunta": "Já jogou a Festa de Commander de Star Trek?",
+   "opcoes": ["Já joguei", "Vou até dia 26", "Passo essa"]
+  }
+ }
+}
