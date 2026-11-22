@@ -1,0 +1,104 @@
+{
+ "n": 48,
+ "data": "22 nov",
+ "carrossel": {
+  "capa": {
+   "cor": "G",
+   "titulo": "Domingo calmo, Goblin Bombardment na mesa",
+   "sub": "Nenhum fato novo neste domingo. A <b>Festa de Commander de Star Trek</b> segue até 26 de novembro e no Topdeck tem um clássico vermelho.",
+   "credito": "Arte: Lull, Terese Nielsen"
+  },
+  "cartoes": [
+   {
+    "cor": "W",
+    "titulo": "O que vem nos próximos dias",
+    "itens": [
+     {"cor": "W", "html": "<b>até 26 nov</b>: primeira rodada da Festa de Commander de Star Trek."},
+     {"cor": "A", "html": "<b>até 30 nov</b>: venda do Secret Lair do Extra Life."},
+     {"cor": "A", "html": "<b>30 nov</b>: venda do Secret Lair de Duna, às 14h de Brasília."},
+     {"cor": "B", "html": "<b>30 nov</b>: próxima janela de banimentos do Commander."}
+    ],
+    "fonte": "Fontes: Wizards e WPN"
+   }
+  ],
+  "topdeck": {
+   "titulo": "Goblin Bombardment",
+   "habilidades": [
+    {"rotulo": "Sem custo de mana", "texto": "Sacrifique uma criatura sua, quantas vezes quiser, até no turno do oponente."},
+    {"rotulo": "Dano em qualquer alvo", "texto": "Cada criatura sacrificada vira 1 de dano num jogador, criatura ou planeswalker."},
+    {"rotulo": "Peça de combo", "texto": "Com Kiki-Jiki, Mirror Breaker e Karmic Guide, vira dano infinito."}
+   ],
+   "extra": "Está em <b>287 mil decks</b> no EDHREC. US$ 4,41 (R$ 25,97) no Scryfall. Reais: cotação PTAX de 19 nov",
+   "credito": "Ilustração de Dave Kendall"
+  },
+  "ban": {
+   "numero": "8",
+   "unidade": "DIAS",
+   "texto": "Para a próxima janela de banimentos, em 30 de novembro, o mesmo dia da venda do Secret Lair de Duna."
+  },
+  "turnos": [
+   {"cor": "W", "data": "até 26 nov", "texto": "Festa de Commander de Star Trek"},
+   {"cor": "A", "data": "30 nov", "texto": "Venda do Secret Lair de Duna"},
+   {"cor": "B", "data": "30 nov", "texto": "Janela de banimentos"},
+   {"cor": "A", "data": "9 dez", "texto": "Nova janela do Zeta Set"},
+   {"cor": "W", "data": "11 dez", "texto": "2ª rodada da Festa de Star Trek"}
+  ],
+  "sussurro": null
+ },
+ "video": {
+  "cena1": {
+   "titulo": "Domingo calmo, Goblin Bombardment na mesa",
+   "pilulas": ["Festa de Star Trek", "Bombardment no Topdeck", "Ban em 8 dias"]
+  },
+  "cena2": {
+   "rotulo": "Agenda",
+   "cor": "W",
+   "titulo": "O que vem nos próximos dias",
+   "itens": [
+    "Até 26 nov: Festa de Commander de Star Trek.",
+    "30 nov: venda do Secret Lair de Duna, às 14h.",
+    "30 nov: próxima janela de banimentos."
+   ],
+   "fonte": "Fontes: Wizards e WPN"
+  },
+  "cena3": {
+   "linhas": [
+    "<b>Goblin Bombardment</b> troca criatura por 1 de dano.",
+    "Sem mana e sem virar: ficha vira dano no rosto do oponente.",
+    "Está em 287 mil decks no EDHREC."
+   ]
+  },
+  "cena4": {
+   "texto": "Faltam 8 dias para 30 de novembro, dia da janela de banimentos e da venda de Duna.",
+   "sussurro": null
+  }
+ },
+ "textos": {
+  "legendaCarrossel": "Commander, Magic e Festa de Commander de Star Trek: domingo calmo, sem fato novo confirmado.\n\nA primeira rodada da Festa de Commander de Star Trek segue até 26 de novembro nas lojas. Em 30 de novembro tem venda do Secret Lair de Duna, às 14h de Brasília, e a próxima janela de banimentos do Commander, no mesmo dia.\n\nNo Topdeck do Dia, Goblin Bombardment, o encantamento vermelho de 2 manas de 1997. Você sacrifica uma criatura sua e causa 1 de dano em qualquer alvo, sem pagar mana e quantas vezes quiser. Com fichas vira chuva de dano, e com Kiki-Jiki e Karmic Guide vira combo de dano infinito. Está em 287 mil decks no EDHREC e sai a US$ 4,41 (R$ 25,97) no Scryfall.\n\nEm qual deck seu o Goblin Bombardment faria mais estrago?\n\nEdição completa em fontedemana.com.br\n\nArte da capa: Lull, Terese Nielsen. Topdeck: Goblin Bombardment, Dave Kendall.\n\nValores em reais pela cotação de 19 nov (Banco Central, PTAX).\n\n#goblins #commander #mtg",
+  "legendaVideo": "Commander e Magic num domingo calmo: a Festa de Commander de Star Trek segue até 26 de novembro e faltam 8 dias para a janela de banimentos.\n\nNo Topdeck, Goblin Bombardment, que troca cada criatura sua por 1 de dano e está em 287 mil decks no EDHREC.\n\nVocê já fechou uma partida com Goblin Bombardment?\n\nTudo em fontedemana.com.br\n\n#goblins #commander #mtg",
+  "threadsPost": "Domingo calmo no Commander, sem fato novo confirmado. No Topdeck, Goblin Bombardment: sacrifique uma criatura e cause 1 de dano em qualquer alvo, sem pagar mana, quantas vezes quiser. Com Kiki-Jiki e Karmic Guide vira dano infinito. Está em 287 mil decks no EDHREC, a US$ 4,41 (R$ 25,97). Em qual deck seu ele faria mais estrago? fontedemana.com.br\nValores em reais pela cotação de 19 nov (Banco Central, PTAX).",
+  "threadsFio": [
+   "Domingo calmo no Commander, sem fato novo confirmado. O Secret Lair de Duna e a janela de banimentos seguem marcados para 30 de novembro.",
+   "A primeira rodada da Festa de Commander de Star Trek vai até 26 de novembro nas lojas. A segunda é de 11 a 17 de dezembro.",
+   "No Topdeck do Dia, Goblin Bombardment. Você sacrifica uma criatura sua e causa 1 de dano em qualquer alvo, sem pagar mana. Em resposta a um board wipe, a mesa que ia morrer vira dano no rosto de alguém.",
+   "Está em 287 mil decks no EDHREC, em 47% dos decks do Tresserhorn's Lord, Returned, e sai a US$ 4,41 (R$ 25,97) no Scryfall.",
+   "Faltam 8 dias para a janela de banimentos de 30 de novembro. Edição completa em fontedemana.com.br\nValores em reais pela cotação de 19 nov (Banco Central, PTAX)."
+  ],
+  "threadsAvulsos": [
+   {
+    "titulo": "Pergunta do dia",
+    "texto": "Goblin Bombardment troca cada criatura sua por 1 de dano. Qual é a melhor criatura para sacrificar nele na sua mesa?",
+    "obs": "Pergunta aberta, sem enquete"
+   }
+  ]
+ },
+ "pauta": {
+  "forca": "calmo",
+  "porque": "Domingo sem fato novo sobre Commander; a Festa de Star Trek, Duna e o ban de 30 nov já estavam na agenda.",
+  "storyPergunta": "Qual criatura você sacrificaria no Goblin Bombardment?",
+  "enquete": {
+   "pergunta": "Goblin Bombardment no seu deck?",
+   "opcoes": ["Já uso", "Vou colocar", "Não é pra mim"]
+  }
+ }
+}
