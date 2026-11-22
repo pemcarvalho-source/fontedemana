@@ -52,6 +52,8 @@ const tags = s => {
 // música (plano.audio): Reels narrado e carrossel levam som em alta da biblioteca do Instagram
 const AUDIO = vale(plano.audio);
 const comMusica = passos => AUDIO ? passos.slice(0, -1).concat(['Toque em Adicionar música e escolha uma em alta que combine com o tema.'], passos.slice(-1)) : passos;
+// Reels só com música royalty free (plano.reelsMusicaLivre): Reel com música licenciada em alta não pode ser impulsionado, e trocar a música no anúncio apaga a voz
+const REELS_MUSICA_LIVRE = vale(plano.reelsMusicaLivre);
 
 let ed = null, n = null;
 {
@@ -218,7 +220,7 @@ if (REELS_ORIG && tiktok && roteiro && tkVideo && legOrig) {
     oQue: corta(`O vídeo original de hoje no Instagram, o mesmo arquivo do TikTok${narr ? ', já narrado' : ', ainda mudo'}. É o formato que mais chega a quem não segue.`, 400),
     arquivos: [{ nome: narr ? 'Vídeo original narrado' : 'Vídeo original mudo', url: url(tkVideo) }],
     textos: [{ rotulo: 'Legenda', texto: legOrig }].concat(roteiro.comentario ? [{ rotulo: 'Comentário fixado', texto: roteiro.comentario }] : []),
-    passos: ['No Instagram, toque em + e escolha Reel.', 'Escolha o vídeo baixado daqui, nunca o salvo do TikTok (o Instagram derruba vídeo com marca d\'água).' + (narr ? '' : ' Ele está mudo: adicione uma música em alta com volume baixo.')].concat(narr && AUDIO ? ['Em Áudio, ponha uma música em alta da biblioteca do Instagram com volume baixo (uns 10%), sem cobrir a voz.'] : [], ['Na capa, use o primeiro quadro, o do gancho.', 'Cole a Legenda e publique.', 'Fixe o comentário e responda quem comentar na primeira hora.']) });
+    passos: ['No Instagram, toque em + e escolha Reel.', 'Escolha o vídeo baixado daqui, nunca o salvo do TikTok (o Instagram derruba vídeo com marca d\'água).' + (narr ? '' : (REELS_MUSICA_LIVRE ? ' Ele está mudo: adicione uma música da aba Royalty free com volume baixo.' : ' Ele está mudo: adicione uma música em alta com volume baixo.'))].concat(narr && REELS_MUSICA_LIVRE ? ['Em Áudio, abra a aba Royalty free (Sound Collection) e ponha uma música com volume baixo (uns 10%), sem cobrir a voz. Não use música em alta: Reel com música licenciada não pode ser impulsionado.'] : narr && AUDIO ? ['Em Áudio, ponha uma música em alta da biblioteca do Instagram com volume baixo (uns 10%), sem cobrir a voz.'] : [], ['Na capa, use o primeiro quadro, o do gancho.', 'Cole a Legenda e publique.', 'Fixe o comentário e responda quem comentar na primeira hora.']) });
   // Reel de teste da semana (plano.testes > reel-teste): o mesmo vídeo com o gancho B, só para quem não segue
   const rt = testesHoje.find(t => t.id === 'reel-teste');
   const tVideo = ex(tkDir + 'tiktok-teste-narrado.mp4') ? tkDir + 'tiktok-teste-narrado.mp4' : (ex(tkDir + 'tiktok-teste.mp4') ? tkDir + 'tiktok-teste.mp4' : null);
@@ -226,7 +228,7 @@ if (REELS_ORIG && tiktok && roteiro && tkVideo && legOrig) {
     oQue: 'Teste da semana: o vídeo de hoje com outro gancho, mostrado só para quem não segue. Sai antes do Reels das 19:00 porque o Instagram corta o alcance de Reel de teste com conteúdo que a conta já postou. Na revisão, as views dele são comparadas com as de não seguidores do Reels das 19:00.',
     arquivos: [{ nome: 'Vídeo de teste, gancho B' + (/narrado/.test(tVideo) ? '' : ' (mudo)'), url: url(tVideo) }],
     textos: [{ rotulo: 'Legenda', texto: legOrig }],
-    passos: ['No Instagram, toque em + e escolha Reel, com o vídeo de teste baixado daqui.', 'Antes de compartilhar, ative a opção Reel de teste (Trial reel), para ele aparecer só para quem não segue.', 'Deixe o compartilhamento automático desligado e não publique para todos depois: o Reels das 19:00 leva o vídeo aos seguidores.', 'Use a música e o volume que vai usar no Reels das 19:00, para o teste comparar só o gancho.', 'Cole a Legenda e publique.', 'Daqui a 3 dias, tire um print do Insights deste Reel e do Reels das 19:00 (views de seguidores e de não seguidores) e mande na conversa da revisão.'] });
+    passos: ['No Instagram, toque em + e escolha Reel, com o vídeo de teste baixado daqui.', 'Antes de compartilhar, ative a opção Reel de teste (Trial reel), para ele aparecer só para quem não segue.', 'Deixe o compartilhamento automático desligado e não publique para todos depois: o Reels das 19:00 leva o vídeo aos seguidores.', (REELS_MUSICA_LIVRE ? 'Use a mesma música da aba Royalty free e o mesmo volume do Reels das 19:00, para o teste comparar só o gancho.' : 'Use a música e o volume que vai usar no Reels das 19:00, para o teste comparar só o gancho.'), 'Cole a Legenda e publique.', 'Daqui a 3 dias, tire um print do Insights deste Reel e do Reels das 19:00 (views de seguidores e de não seguidores) e mande na conversa da revisão.'] });
   else if (rt) avisosLog.push('hoje é dia de Reel de teste, mas a noite não gerou o vídeo com o gancho B');
 } else if (kVideo) {
   if (REELS_ORIG) avisosLog.push('sem o vídeo original de hoje, o Reels volta a ser o vídeo do jornal');

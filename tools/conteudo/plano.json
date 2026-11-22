@@ -51,6 +51,7 @@
   },
 
   "audio": {"desde": "2026-10-26", "nota": "Recomendação do Instagram (melhores práticas, out 2026): som em alta deixa a peça mais atual. Reels narrado leva música em alta da biblioteca do Instagram em volume baixo, sem cobrir a voz; carrossel leva uma música que combine com o tema."},
+  "reelsMusicaLivre": {"desde": "2026-11-26", "nota": "O Reels narrado e o Reel de teste levam só música da aba Royalty free (Meta Sound Collection), com volume baixo. O Instagram não deixa impulsionar Reel com música licenciada em alta, e trocar a música no anúncio apaga a narração. O carrossel segue com música em alta (plano.audio)."},
 
   "conversa": {"desde": "2026-10-26", "hora": "21:30", "nota": "Recomendação do Instagram (melhores práticas, out 2026): curtir e responder comentários em até 2 dias puxa conversa e leva a peça a mais gente. A pauta põe um aviso diário às 21:30 para responder os comentários de hoje e de ontem nas três redes."},
 
