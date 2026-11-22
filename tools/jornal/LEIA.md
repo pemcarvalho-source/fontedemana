@@ -16,7 +16,7 @@ Publica a edição de hoje no site fontedemana.com.br e gera o Kit de Redes. Lei
 
 ## 2. Pesquisar
 
-Escopo: só Commander (ban e regra de outros formatos não entram), Brasil e EUA, temas de regras, coleções e decks de Commander, Reserved List (só com movimento relevante de preço), ban e Game Changers, acessórios, eventos, produtos (Secret Lair, boosters, god packs), polêmicas e preços.
+Escopo: só Commander (ban e regra de outros formatos não entram), Brasil e EUA, temas de regras, coleções e decks de Commander, Reserved List (só com movimento relevante de preço), ban e Game Changers, acessórios, eventos, produtos (Secret Lair, boosters, god packs), polêmicas e preços. Exceção: a série Planeswalker, da Netflix (item 9 do radar), entra mesmo sem ser de Commander, até a estreia.
 
 **Radar fixo (sempre, nesta ordem).** Toda página é aberta como manda "Páginas da web" em `tools/REGRAS.md`: WebSearch primeiro e WebFetch só no link que voltou na busca.
 1. Wizards: WebSearch com `allowed_domains` ["magic.wizards.com"] e "Magic announcements <mês> <ano>"; WebFetch no link de `/en/news/announcements` que voltar (ou direto nos anúncios da janela que aparecerem).
@@ -27,6 +27,7 @@ Escopo: só Commander (ban e regra de outros formatos não entram), Brasil e EUA
 6. Lojas e criadores que o Paulo segue (epicsaopaulo, pink.mtg, freitastcg, supplyhouseoficial, mesaderpg, commanderlvl17, armageddoncardshop, mtgversus, moxvault.tcg, tapforme_mtg, kirin.tcg, mtgbrasilofc, ligamagic, gamegenicsupplies): Instagram não é lido. Faça 2 buscas na web pelo nome, alternando os nomes a cada dia. MTG Brasil (Praça Baronesa da Bocaina, 123, Alto de Pinheiros, perto do metrô Vila Madalena) e Epic São Paulo são lojas de São Paulo; evento de Commander delas com data confirmada na página da loja ou na LigaMagic entra com etiqueta Brasil ou na agenda. Lançamento da Gamegenic entra com etiqueta Acessórios. Afirmação de criador sem confirmação vai para os Sussurros.
 7. Termômetro das Redes (vidIQ, seção 2b).
 8. Termômetro da Mesa (EDHREC, seção 2c).
+9. Planeswalker, a série animada de Magic na Netflix (pedido do Paulo em 22/11/2026: o tema rende engajamento; fica no radar até a estreia, prevista para 2027, data ainda não anunciada). Toda edição: 1 WebSearch "Planeswalker Netflix Magic <mês> <ano>" e WebFetch só no link que voltar com fato da janela. Fato novo vira manchete com fonte primária (Netflix/Tudum ou magic.wizards.com) ou 2 fontes independentes: data de estreia, trailer ou cena nova, elenco de vozes, número de episódios, produto ou carta ligada à série (Secret Lair, coleção, promo), o quadrinho Untold Stories: Chandra (Dark Horse) e o livro Planeswalker Encyclopedia. Data confirmada vai para a agenda, e na mensagem final avise que vale plantão no dia (a revisão de segunda propõe; o Paulo aprova). Boato (vazamento, "fonte interna") vai para os Sussurros. Sem fato novo: nada, e não repita o anúncio de 13/11/2026 (título, 2027, Chandra e Ajani, Terry Matalas, DIGIC), que já é conhecido.
 
 **Aprofundar:** cada pista do radar que pode virar manchete ganha até 2 buscas para confirmar (fonte primária ou segunda fonte independente). Total da pesquisa de notícias: de 12 a 26 chamadas (cada página custa uma busca e uma abertura), fora o Topdeck. Dia sem pista nova termina no radar; não procure assunto antigo para encher a edição.
 
