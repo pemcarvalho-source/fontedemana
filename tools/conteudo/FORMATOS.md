@@ -1,6 +1,6 @@
 # Formatos de conteúdo da Fonte de Mana
 
-Versão 2, 16 out 2026. Nasceu das gravações de criadores que o Paulo mandou como inspiração (registro no fim). A tarefa da noite lê este arquivo quando o `contexto.cjs` mostra uma linha **Formato**. O pilar diz o assunto; o formato diz o molde da peça em cada rede.
+Versão 3, 22 nov 2026 (versão 2: 16 out 2026). Nasceu das gravações de criadores que o Paulo mandou como inspiração (registro no fim). A tarefa da noite lê este arquivo quando o `contexto.cjs` mostra uma linha **Formato**. O pilar diz o assunto; o formato diz o molde da peça em cada rede.
 
 **Regra de ouro:** a referência inspira o molde, nunca o conteúdo. Não copiar roteiro, frase, piada, tema, arte nem o visual de outro criador. Toda peça usa fatos próprios conferidos com `tools/REGRAS.md` e o visual da Fonte de Mana.
 
@@ -153,6 +153,30 @@ Humor de observação sobre tipos de jogador de Commander. Cada peça: as frases
 - **Carrossel**: um tipo só em passos, ou quatro tipos com uma carta cada.
 - **Threads**: "qual desses mais aparece na sua mesa?" com opções.
 
+## Formatos novos de 22 nov 2026 (inovar sem perder a identidade)
+
+Pedido do Paulo em 22/11: variar os tipos de peça (vídeo, animação, mistura de gravação real com imagem de carta), com equilíbrio. **Regra de equilíbrio:** no máximo dois formatos novos por semana, sempre dentro de um pilar que já existe; o resto da semana segue o molde. Toda peça nova mantém a marca no alto, as fontes e as cores do kit, só imagem e arte de carta real (Scryfall, nunca imagem gerada) e a fonte de todo número que aparece na tela.
+
+### Carta cheia (carrossel)
+
+A carta grande no alto da tela (790 px de altura) e, embaixo, a placa com o título e até 2 linhas curtas (até 80 caracteres): o dado (decks no EDHREC, preço) e o porquê. No `original.json`, a tela leva `"cheia": true` e `"carta"`. Padrão do Top 5 e do Top 5 Lado B desde 22/11: a carta é o que a pessoa salva e manda. Ferramenta: `tools/extras/carrossel.cjs`.
+
+### Chuva de cartas (vídeo)
+
+Fundo de uma cena clipe: cartas reais entram uma depois da outra, cada vez mais rápido, até encher a tela, com a voz do Paulo e o título por cima. Serve de fecho para tema amplo (as coleções de Universes Beyond, as cartas de uma mecânica). Ferramenta: `python3 tools/pauta/colagem.py cartas.json saida.mp4 [segundos]` (lista de 8 a 24 cartas `{"nome", "set"}`); a cena vira `"tipo": "clipe"` com `"video"` apontando para o mp4. Estreia: cena final de 22/11/2026.
+
+### Cartas ao lado do rosto (vídeo)
+
+Na cena rosto, o Paulo aponta para um lado e a carta aparece ali. Estreia: cena 1 de 22/11/2026 (Avengers Assemble e Federation Fleet). Na gravação: rosto no centro, com espaço dos dois lados, e o gesto na hora da palavra. Depois da narração, cada carta entra por cima do vídeo narrado no instante em que ele aponta (PNG 1080x1920 transparente com a carta e o nome embaixo, `ffmpeg` overlay com fade de 0,15 s, até a troca de cena). Ainda é feito à mão: anote lado, carta e tempos no `roteiro.json`, campo `"apontar"` da cena.
+
+### Mesa real (vídeo)
+
+As mãos do Paulo na mesa, filmadas de cima, com a carta física e os marcadores (dados) de verdade, intercaladas com as cenas geradas da carta. Entra como cena clipe. Pedido de gravação: celular de cima, playmat no fundo, sem rosto. Combina com Top 5 de mecânica (o marcador dobrando na mesa), Combo e Do zero à mesa. Só com cartas que o Paulo tem: pergunte antes de pôr no roteiro.
+
+### Série por mecânica: Lado B e Lado A (Top 5)
+
+Uma mecânica em duas peças. **Lado B**: as 5 subestimadas, com poucos decks do tema no EDHREC (número e percentual na tela), preço baixo e um motivo claro para entrar. **Lado A**: as 5 mais jogadas do tema no EDHREC. A segunda peça lembra a primeira ("lembra das subestimadas?"). Começa com marcadores +1/+1 (filas do `plano.json`); depois fichas, sacrifício, landfall e proliferar, com aprovação do Paulo. "Subestimada" e "mais jogada" sempre com o número do EDHREC, nunca opinião solta, e o texto da carta conferido no Scryfall. Cartas de carrossel de referência não entram (regra de ouro).
+
 ## Formatos dos pilares que já existiam
 
 - **Top 5**: uma carta por tela com imagem, decks no EDHREC e preço; número no título da capa; CTA com motivo para salvar.
@@ -180,6 +204,7 @@ O `plano.json` tem uma lista `datas` com janelas de dias (Halloween e Dia do Sac
 - **Decks da casa**: os decks reais do Paulo (ex.: Edgar Markov) em carrossel de grade 3x3 com as 99, bracket, preço e o relatório das partidas. Falta o layout de grade no `carrossel.cjs` e a lista do deck em `extras/decks/`.
 - **E se fosse carta?**: cartas fan-made com moldura própria da Fonte de Mana (nunca imitando a moldura oficial), em temas de domínio público como o folclore brasileiro (Saci, Curupira, Iara, Boitatá), com a mecânica contando a história. Falta um gerador de carta e arte com crédito; sempre com o aviso de carta não oficial.
 - **Do fichário**: foto da carta física na mão do Paulo, sem rosto, com o título por cima. Depende de fotos dele.
+- **Marcador animado**: a carta real com o marcador +1/+1 (ou o dado) entrando e o número subindo (1, 2, 4), para mostrar a mecânica dobrando sem precisar explicar. Falta a animação (no `tiktok.cjs` ou no `colagem.py`).
 - **Mata-mata da semana**: oito cartas de um papel (ex.: mana rocks), uma enquete por dia nos Stories, final no domingo. Falta a sequência de enquetes na pauta da manhã.
 
 ## Registro de referências
@@ -199,3 +224,4 @@ Uma linha por referência. A análise completa de cada lote fica no projeto MGT 
 | 15 out | rocklovejewelry e Magic (carrossel) | Coleção de joias Mox, cada peça ao lado da carta original, lançamento com data | 2.172 curtidas, 1.122 envios | Produtos licenciados no jornal |
 | 15 out | Stories de mtgbrasilofc, moxvault.tcg, magicfinderapp, the_dianatavares | Repost de seguidor, visita à loja, "qual loja vocês indicam?", "Tinder MTG" das cores | sem número visível | Ideias de Stories para a Rota das Lojas |
 | 16 out | manafloodedbr (carrossel, 8 telas) | Review de precon com nota própria e faixa: plano, melhores cartas, pontos fortes e fracos, custo médio de mana, frase de tensão, "comente X ou Y"; arte gerada por IA (com rótulo) e música no carrossel | recém-postado | Nota da Mesa (ideia), comentário de uma palavra, dado duro, frase de tensão |
+| 22 nov | cassiusmarsh (carrossel, 10 telas) | "The most underrated +1/+1 counter cards in Commander": capa com o título por cima da primeira carta, depois uma carta inteira por tela, sem texto; a explicação fica na legenda | 634 curtidas, 4 comentários, 224 envios (post de 12 nov) | Carta cheia, série por mecânica (Lado B e Lado A) |

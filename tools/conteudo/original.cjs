@@ -52,12 +52,13 @@ req(Array.isArray(c.cartoes) && c.cartoes.length >= 3 && c.cartoes.length <= 5, 
     if (k.destaque != null) req(Number.isInteger(k.destaque) && k.destaque >= 0 && k.destaque < (k.barras || []).length, n + '.destaque precisa ser o índice da barra em destaque (0 é a primeira)');
     req(!k.carta && !k.nota, n + ': tela com barras não leva carta nem nota');
     req(Array.isArray(k.itens) && k.itens.length >= 1 && k.itens.length <= 2, n + '.itens precisa de 1 a 2 numa tela com barras');
-  } else req(Array.isArray(k.itens) && k.itens.length >= 2 && k.itens.length <= 4, n + '.itens precisa de 2 a 4');
+  } else req(Array.isArray(k.itens) && k.itens.length >= (k.cheia ? 1 : 2) && k.itens.length <= 4, n + (k.cheia ? '.itens precisa de 1 a 2 na tela cheia' : '.itens precisa de 2 a 4'));
   (k.itens || []).forEach((x, j) => { cor(x.cor, `${n}.itens[${j}].cor`); len(x.html, 120, `${n}.itens[${j}].html`); });
   if (k.nota) { len(k.nota.rotulo, 24, n + '.nota.rotulo'); len(k.nota.texto, 95, n + '.nota.texto'); }
   len(k.fx, 110, n + '.fx', true);
   if (k.carta) req(dentro(k.carta), n + '.carta precisa existir dentro de pauta/' + DATA + '/');
   if (k.carta) req(k.itens && k.itens.length <= 2 && !k.nota, n + ': tela com carta aceita no máximo 2 itens e nenhuma nota');
+  if (k.cheia) { req(k.carta, n + ': "cheia": true precisa de carta (a imagem grande da tela)'); req(!k.barras && !k.fx, n + ': tela cheia não leva barras nem fx'); (k.itens || []).forEach((x, j) => len(x.html, 80, `${n}.itens[${j}].html (tela cheia)`)); }
 });
 const cta = c.cta || {};
 len(cta.pergunta, 70, 'cta.pergunta'); len(cta.quando, 60, 'cta.quando'); len(cta.salvar, 70, 'cta.salvar');
