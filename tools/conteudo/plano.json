@@ -291,6 +291,19 @@
       "cuidado": "A série não tem data de estreia, elenco nem número de episódios confirmados: não invente. Não repita como notícia o anúncio de 13/11; ele entra só como gancho. A troca não mexe nos conteúdos dos produtos da Mulligan (25/11 segue igual)."
     },
     {
+      "dia": "2026-12-03",
+      "pilar": "top5",
+      "motivo": "Pedido do Paulo em 22/11 (referência: carrossel de cartas de marcador +1/+1 subestimadas): primeira peça da série por mecânica, o Lado B. Formatos novos da semana: carta cheia no carrossel e mesa real no vídeo, com as cartas do Corte Carmesim que o Paulo tem.",
+      "tema": "Marcadores +1/+1, Lado B: 5 cartas subestimadas (poucos decks do tema no EDHREC, preço baixo e o motivo de entrar; chip Top 5 Lado B; nenhuma carta do carrossel de referência de 22/11)",
+      "material": [
+        "Mesa real (cena clipe logo depois da cena 1, sem rosto, celular de cima, playmat no fundo): o Paulo ataca com o Edgar Markov e mais dois ou três vampiros do Corte Carmesim e põe um dado em cada um, como marcador +1/+1. É o que o Edgar faz ao atacar (Scryfall: \"Whenever Edgar attacks, put a +1/+1 counter on each Vampire you control.\"). A cena mostra o que é marcador antes da lista; a fala explica em uma frase.",
+        "Cartas do Corte Carmesim que usam marcador +1/+1 (conferidas no Scryfall em 22/11): Edgar Markov, Drana, Liberator of Malakir, Elenda, the Dusk Rose, Knight of the Ebon Legion, Olivia Voldaren, Patron of the Vein, Yahenni, Undying Partisan e Sorin, Imperious Bloodlord. Se alguma entrar na lista do EDHREC, o Paulo mostra a carta física na cena da mesa. Pergunte antes se ele já tem Blade of the Bloodchief e Bartolomé del Presidio (faltavam em 6/11).",
+        "EDHREC visto em 22/11 (trecho de busca): Drana, Liberator of Malakir aparece em 66% de 447 decks Rakdos de marcadores +1/+1, com +63% de sinergia, e o guia de marcadores do EDHREC a cita entre as melhores do preto. Ou seja, é Lado A, não Lado B. Knight of the Ebon Legion e Patron of the Vein aparecem na página de marcadores do mono-preto.",
+        "Gravação na noite de 2/12: cena_1 (rosto, o gancho) e cena_2 (a mesa, de cima). As outras cenas são geradas, com a voz dele."
+      ],
+      "cuidado": "Nenhuma carta do carrossel de referência (The Wise Mothman, Tromell, Seymour's Butler, Zimone, Paradox Sculptor, Brokers Ascendancy, Corpsejack Menace, Conclave Mentor, Master Biomancer, High Score, Animation Module e Dusk Legion Duelist). \"Subestimada\" só com o número de decks do EDHREC na tela. Não precisa de carta do precon Prismari. Telas de carta com \"cheia\": true."
+    },
+    {
       "dia": "2026-11-25",
       "pilar": "vitrine",
       "rosto": true,
