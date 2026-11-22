@@ -1,6 +1,8 @@
 {
   "data": "2026-11-22",
-  "fx": null,
+  "fx": "Valores em reais pela cotação de 19 nov, US$ 1 = R$ 5,8889 (Banco Central, PTAX).",
+  "forca": "calmo",
+  "feed": "original",
   "avisos": [
     {
       "id": "gravacao",
@@ -75,7 +77,7 @@
       "textos": [
         {
           "rotulo": "Legenda",
-          "texto": "Marvel, Star Trek e Final Fantasy no Commander: soma ou atrapalha? Debate da semana #2.\n\nO que a Wizards fez: desde 2025, as coleções de outras marcas (Universes Beyond) valem em todos os formatos, e Final Fantasy virou a coleção mais vendida da história. No Commander, elas sempre valeram.\n\nQuem gosta: traz gente nova, que chega pelo personagem e fica no Commander. Quem não gosta: Magic perde a cara de Magic, e é coleção nova atrás de coleção nova.\n\nSoma ou atrapalha? Fontes: Wizards e Hasbro. Mais em fontedemana.com.br\n\n#universesbeyond #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+          "texto": "Marvel, Star Trek e Final Fantasy no Commander: soma ou atrapalha? Debate da semana #2.\n\nO que a Wizards fez: desde 2025, as coleções de outras marcas (Universes Beyond) valem em todos os formatos, e Final Fantasy virou a coleção mais vendida da história. No Commander, elas sempre valeram.\n\nQuem gosta: traz gente nova, que chega pelo personagem e fica no Commander. Quem não gosta: Magic perde a cara de Magic, e é coleção nova atrás de coleção nova.\n\nSoma ou atrapalha? Fontes: Wizards e Hasbro. Mais em fontedemana.com.br\n\n#commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
         },
         {
           "rotulo": "Comentário fixado",
@@ -88,6 +90,140 @@
         "Voz própria não precisa de rótulo de IA.",
         "Cole a Legenda e publique.",
         "Fixe o comentário."
+      ]
+    },
+    {
+      "id": "threads-manha",
+      "hora": "10:30",
+      "rede": "Threads",
+      "titulo": "Debate: Debate da semana #2: Universes Beyond no Commander, soma ou…",
+      "oQue": "Post de debate do conteúdo original de hoje (Debate da semana) para puxar conversa.",
+      "textos": [
+        {
+          "rotulo": "Post",
+          "texto": "Universes Beyond no Commander: soma ou atrapalha? Desde 2025, coleção de outra marca vale em todos os formatos, e Final Fantasy virou a mais vendida da história. Quem gosta diz que traz gente nova pra mesa; quem não gosta diz que Magic perde a cara de Magic, com coleção atrás de coleção. Só em 2026 vieram Tartarugas Ninja, Marvel e Star Trek. Na sua mesa, como é?"
+        }
+      ],
+      "passos": [
+        "Abra o Threads e cole o Post.",
+        "Dica: Enquete com as opções: Soma, Atrapalha",
+        "Toque em Adicionar tópico e escolha MTG.",
+        "Publique e responda quem comentar na primeira hora."
+      ]
+    },
+    {
+      "id": "feed",
+      "hora": "12:00",
+      "rede": "Instagram feed",
+      "titulo": "Debate da semana #2: Universes Beyond no Commander, soma ou atrapalha?",
+      "origem": "original:2026-11-22",
+      "oQue": "Carrossel original de 5 imagens (Debate da semana): Debate da semana #2: Universes Beyond no Commander, soma ou atrapalha?. Feito para salvar e compartilhar.",
+      "arquivos": [
+        {
+          "nome": "Imagem 1 de 5",
+          "url": "https://fontedemana.com.br/pauta/2026-11-22/original/carrossel-01.jpg"
+        },
+        {
+          "nome": "Imagem 2 de 5",
+          "url": "https://fontedemana.com.br/pauta/2026-11-22/original/carrossel-02.jpg"
+        },
+        {
+          "nome": "Imagem 3 de 5",
+          "url": "https://fontedemana.com.br/pauta/2026-11-22/original/carrossel-03.jpg"
+        },
+        {
+          "nome": "Imagem 4 de 5",
+          "url": "https://fontedemana.com.br/pauta/2026-11-22/original/carrossel-04.jpg"
+        },
+        {
+          "nome": "Imagem 5 de 5",
+          "url": "https://fontedemana.com.br/pauta/2026-11-22/original/carrossel-05.jpg"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Marvel, Star Trek e Final Fantasy no Commander: soma ou atrapalha? Debate da semana #2, com os dois lados no mesmo espaço.\n\nO que a Wizards fez: em 2021, ao lançar o Universes Beyond, disse que essas cartas não iriam para o Standard. Desde 2025, as coleções novas de outras marcas valem em todos os formatos. No Commander, sempre valeram, e só em 2026 vieram Tartarugas Ninja, Marvel e Star Trek.\n\nQuem gosta: traz gente nova, que chega pelo personagem e fica no Commander. Final Fantasy virou a coleção mais vendida da história, segundo a Hasbro.\n\nQuem não gosta: Magic perde a cara de Magic, é coleção atrás de coleção, e a Wizards mudou o que tinha dito em 2021.\n\nFontes: Wizards, Hasbro, AetherHub, GosuGamers e Popverse. Mais em fontedemana.com.br\n\nSoma ou atrapalha?\n\n#commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        }
+      ],
+      "passos": [
+        "No Instagram, toque em + e escolha Post.",
+        "Selecione as 5 imagens na ordem, da 1 à 5.",
+        "Toque em Adicionar música e escolha uma em alta que combine com o tema.",
+        "Cole a Legenda e publique."
+      ]
+    },
+    {
+      "id": "stories-meio-dia",
+      "hora": "12:00",
+      "rede": "Instagram Stories",
+      "titulo": "Repost do carrossel com enquete",
+      "oQue": "Compartilhe o carrossel recém postado no Story com uma enquete.",
+      "passos": [
+        "No carrossel publicado, toque no avião de papel e em Adicionar post ao seu story.",
+        "Adicione o sticker de Enquete embaixo do post: Universes Beyond no Commander? com Soma e Atrapalha.",
+        "Publique."
+      ]
+    },
+    {
+      "id": "stories-tarde",
+      "hora": "15:00",
+      "rede": "Instagram Stories",
+      "titulo": "Topdeck do Dia com link",
+      "oQue": "Story com a imagem de Goblin Bombardment no Topdeck do Dia e o sticker de link para a edição completa.",
+      "arquivos": [
+        {
+          "nome": "Topdeck do Dia",
+          "url": "https://fontedemana.com.br/kit/ed48/carrossel-03.jpg"
+        }
+      ],
+      "passos": [
+        "Baixe a imagem e poste no Story.",
+        "Adicione o sticker de Link para fontedemana.com.br com o texto Edição completa, embaixo do texto do Topdeck.",
+        "Publique."
+      ]
+    },
+    {
+      "id": "reels",
+      "hora": "19:00",
+      "rede": "Reels",
+      "titulo": "Vídeo original: Debate da semana #2: Universes Beyond no Commander…",
+      "oQue": "O vídeo original de hoje no Instagram, o mesmo arquivo do TikTok, já narrado. É o formato que mais chega a quem não segue.",
+      "arquivos": [
+        {
+          "nome": "Vídeo original narrado",
+          "url": "https://fontedemana.com.br/pauta/2026-11-22/tiktok/tiktok-narrado.mp4"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Marvel, Star Trek e Final Fantasy no Commander: soma ou atrapalha? Debate da semana #2.\n\nO que a Wizards fez: desde 2025, as coleções de outras marcas (Universes Beyond) valem em todos os formatos, e Final Fantasy virou a coleção mais vendida da história. No Commander, elas sempre valeram.\n\nQuem gosta: traz gente nova, que chega pelo personagem e fica no Commander. Quem não gosta: Magic perde a cara de Magic, e é coleção nova atrás de coleção nova.\n\nSoma ou atrapalha? Fontes: Wizards e Hasbro. Mais em fontedemana.com.br\n\n#commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        },
+        {
+          "rotulo": "Comentário fixado",
+          "texto": "Universes Beyond no Commander: soma ou atrapalha? Debate da semana é o tema que divide a mesa, sempre com os dois lados."
+        }
+      ],
+      "passos": [
+        "No Instagram, toque em + e escolha Reel.",
+        "Escolha o vídeo baixado daqui, nunca o salvo do TikTok (o Instagram derruba vídeo com marca d'água).",
+        "Em Áudio, ponha uma música em alta da biblioteca do Instagram com volume baixo (uns 10%), sem cobrir a voz.",
+        "Na capa, use o primeiro quadro, o do gancho.",
+        "Cole a Legenda e publique.",
+        "Fixe o comentário e responda quem comentar na primeira hora."
+      ]
+    },
+    {
+      "id": "comentarios",
+      "hora": "21:30",
+      "rede": "Comentários",
+      "titulo": "Responder os comentários de hoje e de ontem",
+      "oQue": "Uns 10 minutos nas três redes: curtir e responder os comentários das últimas 48 horas, começando pelo vídeo e pelo carrossel de hoje. Conversa nos comentários leva a peça a mais gente, e o Instagram recomenda responder em até 2 dias.",
+      "passos": [
+        "Instagram: nas notificações, curta os comentários e responda com uma frase quem perguntou ou discordou.",
+        "TikTok e Threads: o mesmo, começando pelo post com mais comentários.",
+        "Pergunta boa ou dúvida que se repete, nos comentários ou nas DMs? Mande na conversa do projeto: vira tema de um pilar."
       ]
     }
   ]
