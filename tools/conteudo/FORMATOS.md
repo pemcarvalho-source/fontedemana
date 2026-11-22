@@ -127,13 +127,13 @@ Deck de Commander: 99 cartas no grimório (o comandante fica na zona de comando)
 
 ### Treta das Cores (pilar `treta`)
 
-Esquete sem rosto. Dois personagens, cada um uma cor, discutem uma jogada; a regra de verdade resolve.
+Padrão desde 23/11/2026 (pedido do Paulo em 22/11): o Paulo abre o tema com o rosto, dois personagens animados, cada um de uma cor, discutem uma jogada na mesa vista de cima, e o Paulo volta no fim com o veredito e a regra de verdade.
 
 - Os personagens são as cores, com o jeito de cada uma no color pie: azul anula tudo e pensa três turnos à frente; verde quer bicho grande e atacar; preto paga qualquer preço; branco tem regra e taxa para tudo; vermelho resolve na pancada e agora.
-- **TikTok**: gancho com a fala de mesa que abre a treta; uma cena `texto` por fala (cor da cena = cor de quem fala, `chip` com o nome do personagem, ex. "Azul"); no máximo 3 falas; cena com a regra e a `fonte`; CTA "quem tinha razão?". O Paulo grava as duas vozes mudando o tom; avise isso nos passos da gravação.
+- **TikTok**: cena 1 `rosto`, o Paulo apresenta a treta em forma de pergunta olhando para a câmera (até 60 caracteres). Depois, uma cena `texto` por fala com `"personagem"` e `"mesa"` (cor da cena = cor de quem fala, `chip` com o nome da cor, até 80 caracteres, no máximo 3 falas), com `"mesa"` no roteiro (o comandante de cada lado). Jogadas animadas: `equipar` (a carta vai para baixo do comandante e aparece o escudo com o `rotulo`) e `wipe` (a carta voa para o centro, o `dano` aparece em cada criatura e elas morrem; o equipamento fica solto na mesa). Jogada que ainda não tem animação: os personagens falam na mesa sem `jogada`, a carta entra numa cena `carta`, e a mensagem final avisa o Paulo. Se couber, uma cena `carta` com a carta-chave, o que ela faz e o preço. Última cena `rosto`: o Paulo dá o veredito (kicker com o número da regra, até 80 caracteres). Depois do `tiktok.cjs` sem erros, rode `node tools/pauta/personagens.cjs . AMANHA` para o vídeo mudo com os personagens. O Paulo grava as vozes mudando o tom; avise isso nos passos da gravação.
+- **Duplas**: varie a dupla de cores a cada Treta, só com personagens desenhados (Preto, Branco e Vermelho; Azul e Verde ainda não existem, o Paulo pede numa conversa). #1 foi Preto e Branco; #2, Branco e Vermelho.
 - **Carrossel**: o diálogo nos itens, cada item com a cor de quem fala (a bolinha de mana vira o rosto do personagem); tela final com a regra.
 - **Threads**: a melhor fala e "você já ouviu isso na mesa?".
-- **Personagens animados e mesa vista de cima** (desde 22/11/2026, pedido do Paulo): as falas das cores podem ser personagens animados (`personagem` na cena: Preto, Branco ou Vermelho, dublados pelo Paulo) e, com `"mesa"`, a discussão acontece na mesa vista de cima, um personagem de cada lado, com a jogada na mesa (o Branco equipa, o Vermelho joga o wipe). Na Treta #2 (23/11) o Paulo abriu o tema com o rosto na cena 1 e voltou na cena 5 para o veredito, por troca do dia (`rosto: true`). Varie as duplas de cores entre as Tretas.
 
 ### Top 5 Lado B (pilar `ladob`)
 
