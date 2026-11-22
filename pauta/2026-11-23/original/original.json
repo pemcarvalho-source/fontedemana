@@ -1,0 +1,51 @@
+{
+  "data": "2026-11-23",
+  "pilar": "regra",
+  "item": "Mindslaver e jogar o turno do oponente",
+  "tema": "Chama o Juiz #8: Mindslaver te deu o turno dele. A criatura é de quem?",
+  "cartas": ["Mindslaver"],
+  "fx": null,
+  "carrossel": {
+    "capa": {"cor": "U", "chip": "Chama o Juiz #8", "kicker": "Mindslaver na mesa",
+             "titulo": "Você joga o turno dele. A criatura é <b>de quem</b>?",
+             "sub": "Você sacrificou a Mindslaver, pegou o turno do oponente e conjurou uma criatura da mão dele.",
+             "arte": "pauta/2026-11-23/original/arte.jpg", "credito": "Arte: Mindslaver, Volkan Baǵa"},
+    "cartoes": [
+      {"cor": "U", "titulo": "Entra no campo de quem?",
+       "itens": [
+         {"cor": "U", "html": "<b>A)</b> No seu. Foi você que conjurou."},
+         {"cor": "U", "html": "<b>B)</b> No dele. Você só controla o jogador."},
+         {"cor": "U", "html": "<b>C)</b> No seu até o fim do turno, depois volta."}
+       ],
+       "nota": {"rotulo": "Valendo", "texto": "pensa na sua antes de arrastar."},
+       "fonte": "Chama o Juiz, caso extra de segunda"},
+      {"cor": "U", "titulo": "Letra B: fica com ele",
+       "itens": [
+         {"cor": "U", "html": "A Mindslaver controla <b>o jogador</b>, não as coisas dele. Tudo segue com o dono de sempre."},
+         {"cor": "U", "html": "A criatura entra do lado dele da mesa. Você só decidiu jogar ela."},
+         {"cor": "U", "html": "Você escolhe o que ele conjura, quem ataca e os alvos, pagando só com a mana e as cartas <b>dele</b>."}
+       ],
+       "fonte": "Fonte: Regras Abrangentes, 723.3 e 723.5"},
+      {"cor": "U", "titulo": "O erro comum", "carta": "pauta/2026-11-23/original/carta-1.jpg",
+       "itens": [
+         {"cor": "U", "html": "Achar que roubou as cartas. O truque é outro: fazer o oponente <b>gastar mal</b> o próprio turno."},
+         {"cor": "U", "html": "Ataque contra quem você quiser, mágica no alvo errado e recurso jogado fora."}
+       ],
+       "fonte": "Fonte: Scryfall, rulings da Mindslaver"},
+      {"cor": "U", "titulo": "O que não dá para fazer",
+       "itens": [
+         {"cor": "U", "html": "Você vê a mão dele, mas <b>não pode</b> fazer ele conceder a partida."},
+         {"cor": "U", "html": "Não paga as coisas dele com a sua mana, nem as suas com a dele."},
+         {"cor": "U", "html": "Chamar juiz ou aceitar empate continua sendo decisão dele."}
+       ],
+       "fonte": "Fonte: Regras Abrangentes, 723.4 a 723.6"}
+    ],
+    "cta": {"pergunta": "Você teria acertado <b>de primeira</b>?",
+            "quando": "Chama o Juiz toda sexta, e caso extra na segunda",
+            "salvar": "Salva para a próxima vez que alguém sacrificar a Mindslaver"}
+  },
+  "legenda": "Chama o Juiz no Commander: a Mindslaver te dá o turno do oponente. A criatura que você conjura da mão dele entra no campo de quem?\n\nA) No seu, foi você que conjurou\nB) No dele, você só controla o jogador\nC) No seu até o fim do turno\n\nA resposta está no carrossel, com a regra: Regras Abrangentes 723.3 e os rulings da Mindslaver no Scryfall.\n\nMais regras de mesa em fontedemana.com.br\n\nVocê teria acertado de primeira?\n\n#mindslaver #commander #mtg",
+  "threads": {"texto": "Chama o Juiz: você sacrificou a Mindslaver e está jogando o turno do oponente. Conjura uma criatura da mão dele. Ela entra no campo de quem?\n\nA) No seu, foi você que conjurou\nB) No dele, você só controla o jogador\nC) No seu até o fim do turno\n\nQual é a certa?",
+              "obs": "Resposta: B. Você controla o jogador, não as coisas dele (Regras Abrangentes 723.3)."},
+  "enquete": {"pergunta": "Mindslaver: a criatura conjurada é de quem?", "opcoes": ["Minha, eu conjurei", "Dele, sempre", "Minha até o fim do turno"]}
+}

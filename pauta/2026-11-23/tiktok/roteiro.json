@@ -1,0 +1,67 @@
+{
+ "data": "2026-11-23",
+ "pilar": "treta",
+ "tema": "Treta das Cores #2: hexproof salva o comandante do board wipe?",
+ "item": "Hexproof não salva de board wipe",
+ "arte": "pauta/2026-11-23/tiktok/arte.jpg",
+ "carta": "pauta/2026-11-23/tiktok/carta.jpg",
+ "credito": "Arte: Decree of Pain, Mathias Kollros",
+ "fx": "Reais pela cotação de 19 nov (Banco Central, PTAX)",
+ "legenda": "Treta das Cores no Commander: hexproof salva o comandante do board wipe? O Branco botou a bota, o Preto jogou o wipe. Quem tinha razão?\n\nA regra que resolve: Regras Abrangentes 702.11b (hexproof só impede ser alvo do oponente).\nDecree of Pain sai por US$ 0,36 (R$ 2,12) no Scryfall. Reais pela cotação de 19 nov (Banco Central, PTAX).\n\nMais regras de mesa em fontedemana.com.br\n\n#hexproof #commander #mtg",
+ "comentario": "Nessa treta, quem tinha razão: o Branco, com a bota de hexproof, ou o Preto, com o wipe? Toda Treta das Cores termina com a regra de verdade.",
+ "cenas": [
+  {
+   "tipo": "rosto",
+   "cor": "W",
+   "chip": "Treta das Cores #2",
+   "kicker": "Hexproof contra wipe",
+   "titulo": "Hexproof salva do wipe?",
+   "narracao": "Relaxa, meu comandante tem hexproof. Wipe não pega.",
+   "gravar": "Olha para a câmera tranquilo, com uma carta na mão como se fosse o comandante protegido, e dá de ombros no fim da fala",
+   "segundos": 3.6
+  },
+  {
+   "tipo": "texto",
+   "cor": "W",
+   "chip": "Branco",
+   "kicker": "O Branco",
+   "titulo": "Botei as Swiftfoot Boots.",
+   "sub": "Hexproof. Ninguém mexe no meu comandante.",
+   "narracao": "Equipei as Swiftfoot Boots. Hexproof. Pela regra, ninguém mexe no meu comandante.",
+   "segundos": 5
+  },
+  {
+   "tipo": "texto",
+   "cor": "B",
+   "chip": "Preto",
+   "kicker": "O Preto",
+   "titulo": "Decree of Pain não mira ninguém.",
+   "sub": "Destrói todas. E eu compro uma carta por cada.",
+   "narracao": "Decree of Pain, querido. Destrói todas as criaturas. Não escolhi alvo nenhum.",
+   "segundos": 5
+  },
+  {
+   "tipo": "carta",
+   "cor": "B",
+   "kicker": "O wipe do Preto",
+   "carta": "pauta/2026-11-23/tiktok/carta-1.jpg",
+   "valor": "US$ 0,36",
+   "real": "(R$ 2,12)",
+   "sub": "Destrói todas as criaturas e compra uma por cada",
+   "fonte": "Scryfall, 22 nov 2026",
+   "narracao": "E custa trinta e seis centavos de dólar, uns dois reais. Ainda compra carta.",
+   "segundos": 5.8
+  },
+  {
+   "tipo": "texto",
+   "cor": "U",
+   "kicker": "A regra",
+   "titulo": "Hexproof só protege de alvo",
+   "sub": "Quem diz todas as criaturas não escolhe alvo. O wipe pega.",
+   "fonte": "Regras Abrangentes, 702.11b",
+   "narracao": "Hexproof só impede ser alvo. Mágica que pega todas as criaturas não mira ninguém. O Preto tinha razão.",
+   "rodape": "O Preto tinha razão.",
+   "segundos": 7.3
+  }
+ ]
+}
