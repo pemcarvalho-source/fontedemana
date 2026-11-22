@@ -304,6 +304,18 @@
       "cuidado": "Nenhuma carta do carrossel de referência (The Wise Mothman, Tromell, Seymour's Butler, Zimone, Paradox Sculptor, Brokers Ascendancy, Corpsejack Menace, Conclave Mentor, Master Biomancer, High Score, Animation Module e Dusk Legion Duelist). \"Subestimada\" só com o número de decks do EDHREC na tela. Não precisa de carta do precon Prismari. Telas de carta com \"cheia\": true."
     },
     {
+      "dia": "2026-12-07",
+      "pilar": "top5",
+      "motivo": "Pedido do Paulo em 22/11: segunda peça da série por mecânica, o Lado A dos marcadores +1/+1, depois do Lado B de 3/12. Decisão do Paulo em 22/11: lista de todas as cores (não só preto).",
+      "tema": "Marcadores +1/+1, Lado A: as 5 mais jogadas do tema no EDHREC (lembra o Lado B da semana anterior)",
+      "material": [
+        "As 5 mais jogadas do tema de marcadores +1/+1 no EDHREC, de todas as cores, com o número de decks e o percentual na tela (carta cheia).",
+        "A peça lembra o Lado B de 3/12 (\"lembra das subestimadas?\"), sem repetir nenhuma carta dele.",
+        "Sem cena de mesa: a lista deve ter cartas que o Paulo não tem. Se alguma das cinco for do Corte Carmesim (Edgar Markov, Drana, Liberator of Malakir, Elenda, the Dusk Rose, Knight of the Ebon Legion, Olivia Voldaren, Patron of the Vein, Yahenni, Undying Partisan e Sorin, Imperious Bloodlord), pergunte ao Paulo se ele quer filmar a carta física."
+      ],
+      "cuidado": "Nenhuma carta do carrossel de referência de 22/11. \"Mais jogada\" só com o número de decks do EDHREC na tela. Telas de carta com \"cheia\": true."
+    },
+    {
       "dia": "2026-11-25",
       "pilar": "vitrine",
       "rosto": true,
