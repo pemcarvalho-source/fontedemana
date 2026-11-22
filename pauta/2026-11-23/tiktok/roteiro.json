@@ -26,7 +26,8 @@
    "titulo": "Hexproof salva do wipe?",
    "narracao": "Hexproof salva o comandante de um board wipe? Bora ver.",
    "gravar": "Olha para a câmera e apresenta a treta do dia; no fim aponta para baixo, como quem chama a mesa",
-   "segundos": 4.3
+   "segundos": 4.3,
+   "caixa": "topo"
   },
   {
    "tipo": "texto",
@@ -81,7 +82,8 @@
    "titulo": "Hexproof só protege de alvo",
    "narracao": "Hexproof só protege de alvo. Wipe não mira ninguém. O Vermelho tinha razão.",
    "gravar": "Olha para a câmera e dá o veredito; aponta para o lado, como quem dá a vitória ao Vermelho",
-   "segundos": 5.4
+   "segundos": 5.4,
+   "caixa": "topo"
   }
  ]
 }
