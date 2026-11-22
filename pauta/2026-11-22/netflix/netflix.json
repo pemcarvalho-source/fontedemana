@@ -1,0 +1,27 @@
+{
+  "data": "2026-11-22",
+  "tema": "Planeswalker: a série de Magic na Netflix, o que já se sabe",
+  "fontes": [
+    {"nome": "Wizards (Netflix Reveals Magic: The Gathering Animated Series PLANESWALKER, 14 nov)", "url": "https://magic.wizards.com/en/news/announcements/netflix-reveals-magic-the-gathering-animated-series-planeswalker"},
+    {"nome": "Variety (first look, 2027)", "url": "https://variety.com/2026/tv/news/netflix-magic-the-gathering-series-planeswalker-first-look-1236947203/"},
+    {"nome": "Inverse (Terry Matalas, Cindy Appel e DIGIC, 16 nov)", "url": "https://www.inverse.com/entertainment/netflix-magic-the-gathering-animated-series"},
+    {"nome": "Nerdist (Ajani com a Chandra)", "url": "https://nerdist.com/article/announcements-takeaways-magiccon-atlanta-2026/"},
+    {"nome": "Collider (projeto desde 2019)", "url": "https://collider.com/magic-the-gathering-planeswalker-netflix-first-look-2027/"}
+  ],
+  "carrossel": {
+    "capa": {"cor": "R", "chip": "Netflix", "kicker": "A série de Magic",
+             "titulo": "A série de Magic na Netflix tem nome: <b>Planeswalker</b>",
+             "sub": "Estreia em <b>2027</b>, com a Chandra no centro. A data exata ainda não saiu.",
+             "arte": "pauta/2026-11-22/netflix/arte.jpg", "credito": "Arte: Chandra, Torch of Defiance, Magali Villeneuve"},
+    "cartoes": [
+      {"cor": "R", "titulo": "O que já se sabe",
+       "itens": [
+         {"cor": "R", "html": "A protagonista é a <b>Chandra</b>, piromante caçada pelos próprios poderes. O <b>Ajani</b> está com ela."},
+         {"cor": "U", "html": "Showrunner: <b>Terry Matalas</b>, de Star Trek: Picard. Animação: <b>DIGIC</b>, das cinemáticas de Elden Ring."},
+         {"cor": "B", "html": "Anunciada em <b>13/11</b>, na MagicCon Atlanta. A Netflix tentava tirar a série do papel <b>desde 2019</b>."}
+       ],
+       "fonte": "Fontes: Wizards, Variety, Inverse, Nerdist e Collider"}
+    ],
+    "cta": {"pergunta": "Vai assistir <b>Planeswalker</b>?", "quando": "A gente acompanha cada novidade até a estreia", "salvar": "Data de estreia, trailer e elenco: tudo aqui quando sair"}
+  }
+}

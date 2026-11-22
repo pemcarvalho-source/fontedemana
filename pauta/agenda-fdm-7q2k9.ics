@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-11-19-gravacao@fontedemana.com.br
-DTSTAMP:20261122T102132Z
+DTSTAMP:20261122T105150Z
 DTSTART:20261118T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -65,7 +65,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-19-tiktok@fontedemana.com.br
-DTSTAMP:20261122T102132Z
+DTSTAMP:20261122T105150Z
 DTSTART:20261119T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o Top 5 #8: mana rocks baratos
@@ -97,7 +97,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-19-threads-manha@fontedemana.com.br
-DTSTAMP:20261122T102132Z
+DTSTAMP:20261122T105150Z
 DTSTART:20261119T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Top 5 #8: os mana rocks baratos que mais apa
@@ -122,7 +122,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-19-feed@fontedemana.com.br
-DTSTAMP:20261122T102132Z
+DTSTAMP:20261122T105150Z
 DTSTART:20261119T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Top 5 #8: os mana rocks baratos que mais apar
@@ -167,7 +167,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-19-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261122T102132Z
+DTSTAMP:20261122T105150Z
 DTSTART:20261119T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -186,7 +186,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-19-stories-tarde@fontedemana.com.br
-DTSTAMP:20261122T102132Z
+DTSTAMP:20261122T105150Z
 DTSTART:20261119T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -206,7 +206,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-19-reels@fontedemana.com.br
-DTSTAMP:20261122T102132Z
+DTSTAMP:20261122T105150Z
 DTSTART:20261119T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Top 5 #8: os mana rocks baratos que m
@@ -244,7 +244,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-19-comentarios@fontedemana.com.br
-DTSTAMP:20261122T102132Z
+DTSTAMP:20261122T105150Z
 DTSTART:20261120T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -266,7 +266,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-20-gravacao@fontedemana.com.br
-DTSTAMP:20261122T102132Z
+DTSTAMP:20261122T105150Z
 DTSTART:20261119T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de 20/11 (você aparece)
@@ -325,7 +325,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-20-tiktok@fontedemana.com.br
-DTSTAMP:20261122T102132Z
+DTSTAMP:20261122T105150Z
 DTSTART:20261120T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Abri o precon Prismari Artistry
@@ -366,7 +366,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-20-collab-mulligan@fontedemana.com.br
-DTSTAMP:20261122T102132Z
+DTSTAMP:20261122T105150Z
 DTSTART:20261120T145000Z
 DURATION:PT15M
 SUMMARY:11:50 Instagram feed: Collab com a Mulligan no carrossel e no Reels
@@ -390,7 +390,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-20-threads-manha@fontedemana.com.br
-DTSTAMP:20261122T102132Z
+DTSTAMP:20261122T105150Z
 DTSTART:20261120T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Abri o precon Prismari Artistry: o que vem n
@@ -416,7 +416,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-20-feed@fontedemana.com.br
-DTSTAMP:20261122T102132Z
+DTSTAMP:20261122T105150Z
 DTSTART:20261120T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Deck em 40 segundos: Abri o precon Prismari A
@@ -462,7 +462,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-20-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261122T102132Z
+DTSTAMP:20261122T105150Z
 DTSTART:20261120T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -481,7 +481,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-20-stories-tarde@fontedemana.com.br
-DTSTAMP:20261122T102132Z
+DTSTAMP:20261122T105150Z
 DTSTART:20261120T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -501,7 +501,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-20-reels@fontedemana.com.br
-DTSTAMP:20261122T102132Z
+DTSTAMP:20261122T105150Z
 DTSTART:20261120T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Abri o precon Prismari Artistry: o qu
@@ -545,7 +545,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-20-comentarios@fontedemana.com.br
-DTSTAMP:20261122T102132Z
+DTSTAMP:20261122T105150Z
 DTSTART:20261121T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -567,7 +567,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-21-gravacao@fontedemana.com.br
-DTSTAMP:20261122T102132Z
+DTSTAMP:20261122T105150Z
 DTSTART:20261119T224500Z
 DURATION:PT15M
 SUMMARY:19:45 Gravação: Gravar o vídeo de 21/11 (você aparece)
@@ -623,7 +623,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-21-tiktok@fontedemana.com.br
-DTSTAMP:20261122T102132Z
+DTSTAMP:20261122T105150Z
 DTSTART:20261121T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Do zero à mesa #4: double sleeve
@@ -662,7 +662,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-21-threads-manha@fontedemana.com.br
-DTSTAMP:20261122T102132Z
+DTSTAMP:20261122T105150Z
 DTSTART:20261121T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Do zero à mesa #4: double sleeve com as sle
@@ -687,7 +687,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-21-feed@fontedemana.com.br
-DTSTAMP:20261122T102132Z
+DTSTAMP:20261122T105150Z
 DTSTART:20261121T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Vitrine de acessórios: Do zero à mesa #4: d
@@ -733,7 +733,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-21-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261122T102132Z
+DTSTAMP:20261122T105150Z
 DTSTART:20261121T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -752,7 +752,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-21-stories-tarde@fontedemana.com.br
-DTSTAMP:20261122T102132Z
+DTSTAMP:20261122T105150Z
 DTSTART:20261121T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -772,7 +772,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-21-reels@fontedemana.com.br
-DTSTAMP:20261122T102132Z
+DTSTAMP:20261122T105150Z
 DTSTART:20261122T000000Z
 DURATION:PT15M
 SUMMARY:21:00 Reels: Vídeo original: Do zero à mesa #4: double sleeve com
@@ -815,7 +815,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-21-comentarios@fontedemana.com.br
-DTSTAMP:20261122T102132Z
+DTSTAMP:20261122T105150Z
 DTSTART:20261122T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -837,7 +837,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-22-gravacao@fontedemana.com.br
-DTSTAMP:20261122T102132Z
+DTSTAMP:20261122T105150Z
 DTSTART:20261120T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Gravação: Gravar o vídeo de 22/11 (você aparece)
@@ -890,8 +890,62 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:fdm-2026-11-22-netflix-stories@fontedemana.com.br
+DTSTAMP:20261122T105150Z
+DTSTART:20261122T123000Z
+DURATION:PT15M
+SUMMARY:09:30 Instagram Stories: Planeswalker\, a série de Magic na Netfli
+ x: o que já se sabe
+DESCRIPTION:Três stories sobre a série anunciada em 13/11\, para quem viu
+  o trailer e quer entender: o nome e a estreia em 2027\, o que já se sabe
+  (Chandra\, Ajani\, quem faz a série) e uma enquete. Sem gravação. Fica
+  de manhã\, antes do Debate das 10h30 e do carrossel das 12h. Fontes: Wiz
+ ards\, Variety\, Inverse\, Nerdist e Collider.\n\nArquivos:\n- Story 1 de 
+ 3: https://fontedemana.com.br/pauta/2026-11-22/netflix/carrossel-01.jpg\n-
+  Story 2 de 3: https://fontedemana.com.br/pauta/2026-11-22/netflix/carross
+ el-02.jpg\n- Story 3 de 3: https://fontedemana.com.br/pauta/2026-11-22/net
+ flix/carrossel-03.jpg\n\nPasso a passo:\n1. Baixe as três imagens.\n2. Po
+ ste a 1 e a 2 nos Stories\, nessa ordem.\n3. Na 3\, adicione o sticker de 
+ Enquete embaixo da pergunta: Vai assistir Planeswalker? com Já tô espera
+ ndo e Vou ver se presta.\n4. Publique.\n\nPauta completa: https://fontedem
+ ana.com.br/pauta/2026-11-22/#netflix-stories
+URL:https://fontedemana.com.br/pauta/2026-11-22/#netflix-stories
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Planeswalker\, a série de Magic na Netflix:
+  o que já se sabe
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-22-threads-manha@fontedemana.com.br
+DTSTAMP:20261122T105150Z
+DTSTART:20261122T133000Z
+DURATION:PT15M
+SUMMARY:10:30 Threads: Debate: Debate da semana #2: Universes Beyond no Com
+ mander\, soma ou…
+DESCRIPTION:Post de debate do conteúdo original de hoje (Debate da semana)
+  para puxar conversa.\n\nPost:\nUniverses Beyond no Commander: soma ou atr
+ apalha? Desde 2025\, coleção de outra marca vale em todos os formatos\, 
+ e Final Fantasy virou a mais vendida da história. Quem gosta diz que traz
+  gente nova pra mesa\; quem não gosta diz que Magic perde a cara de Magic
+ \, com coleção atrás de coleção. Só em 2026 vieram Tartarugas Ninja\
+ , Marvel e Star Trek. Na sua mesa\, como é?\n\nPasso a passo:\n1. Abra o 
+ Threads e cole o Post.\n2. Dica: Enquete com as opções: Soma\, Atrapalha
+ \n3. Toque em Adicionar tópico e escolha MTG.\n4. Publique e responda que
+ m comentar na primeira hora.\n\nPauta completa: https://fontedemana.com.br
+ /pauta/2026-11-22/#threads-manha
+URL:https://fontedemana.com.br/pauta/2026-11-22/#threads-manha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Debate: Debate da semana #2: Universes Beyond no Comma
+ nder\, soma ou…
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:fdm-2026-11-22-tiktok@fontedemana.com.br
-DTSTAMP:20261122T102132Z
+DTSTAMP:20261122T105150Z
 DTSTART:20261122T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Debate da semana #2: Universes Beyond no Commander
@@ -924,34 +978,8 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fdm-2026-11-22-threads-manha@fontedemana.com.br
-DTSTAMP:20261122T102132Z
-DTSTART:20261122T133000Z
-DURATION:PT15M
-SUMMARY:10:30 Threads: Debate: Debate da semana #2: Universes Beyond no Com
- mander\, soma ou…
-DESCRIPTION:Post de debate do conteúdo original de hoje (Debate da semana)
-  para puxar conversa.\n\nPost:\nUniverses Beyond no Commander: soma ou atr
- apalha? Desde 2025\, coleção de outra marca vale em todos os formatos\, 
- e Final Fantasy virou a mais vendida da história. Quem gosta diz que traz
-  gente nova pra mesa\; quem não gosta diz que Magic perde a cara de Magic
- \, com coleção atrás de coleção. Só em 2026 vieram Tartarugas Ninja\
- , Marvel e Star Trek. Na sua mesa\, como é?\n\nPasso a passo:\n1. Abra o 
- Threads e cole o Post.\n2. Dica: Enquete com as opções: Soma\, Atrapalha
- \n3. Toque em Adicionar tópico e escolha MTG.\n4. Publique e responda que
- m comentar na primeira hora.\n\nPauta completa: https://fontedemana.com.br
- /pauta/2026-11-22/#threads-manha
-URL:https://fontedemana.com.br/pauta/2026-11-22/#threads-manha
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Debate: Debate da semana #2: Universes Beyond no Comma
- nder\, soma ou…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fdm-2026-11-22-feed@fontedemana.com.br
-DTSTAMP:20261122T102132Z
+DTSTAMP:20261122T105150Z
 DTSTART:20261122T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Debate da semana #2: Universes Beyond no Comm
@@ -993,7 +1021,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-22-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261122T102132Z
+DTSTAMP:20261122T105150Z
 DTSTART:20261122T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -1012,7 +1040,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-22-stories-tarde@fontedemana.com.br
-DTSTAMP:20261122T102132Z
+DTSTAMP:20261122T105150Z
 DTSTART:20261122T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1031,8 +1059,37 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:fdm-2026-11-22-netflix-threads@fontedemana.com.br
+DTSTAMP:20261122T105150Z
+DTSTART:20261122T213000Z
+DURATION:PT15M
+SUMMARY:18:30 Threads: Planeswalker no Threads: quem você quer ver na sér
+ ie?
+DESCRIPTION:Post de texto sobre a série da Netflix\, com uma pergunta aber
+ ta. Fica no fim da tarde\, longe do Debate das 10h30. Só Chandra e Ajani 
+ estão confirmados\; Jace\, Liliana e Garruk\, que estrearam com a Chandra
+  em Lorwyn (2007)\, são palpite da Nerdist\, não anúncio.\n\nArquivos:\
+ n- Imagem opcional: https://fontedemana.com.br/pauta/2026-11-22/netflix/ca
+ rrossel-01.jpg\n\nPost:\nA série de Magic na Netflix tem nome: Planeswalk
+ er. Estreia em 2027\, data ainda não anunciada. A protagonista é a Chand
+ ra\, com o Ajani do lado. Por enquanto\, só os dois estão confirmados. A
+  Chandra estreou nas cartas em 2007\, junto com Jace\, Liliana\, Garruk e 
+ Ajani. Qual planeswalker você quer ver aparecer na série?\n\nPasso a pas
+ so:\n1. No Threads\, cole o Post. Se quiser\, anexe a imagem.\n2. Toque em
+  Adicionar tópico e escolha MTG.\n3. Publique e responda quem comentar na
+  primeira hora.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-1
+ 1-22/#netflix-threads
+URL:https://fontedemana.com.br/pauta/2026-11-22/#netflix-threads
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Planeswalker no Threads: quem você quer ver na série
+ ?
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:fdm-2026-11-22-reels@fontedemana.com.br
-DTSTAMP:20261122T102132Z
+DTSTAMP:20261122T105150Z
 DTSTART:20261122T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Debate da semana #2: Universes Beyond
@@ -1070,7 +1127,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-22-comentarios@fontedemana.com.br
-DTSTAMP:20261122T102132Z
+DTSTAMP:20261122T105150Z
 DTSTART:20261123T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem

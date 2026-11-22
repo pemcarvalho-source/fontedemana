@@ -63,6 +63,52 @@
       ]
     },
     {
+      "id": "netflix-stories",
+      "hora": "09:30",
+      "rede": "Instagram Stories",
+      "titulo": "Planeswalker, a série de Magic na Netflix: o que já se sabe",
+      "oQue": "Três stories sobre a série anunciada em 13/11, para quem viu o trailer e quer entender: o nome e a estreia em 2027, o que já se sabe (Chandra, Ajani, quem faz a série) e uma enquete. Sem gravação. Fica de manhã, antes do Debate das 10h30 e do carrossel das 12h. Fontes: Wizards, Variety, Inverse, Nerdist e Collider.",
+      "arquivos": [
+        {
+          "nome": "Story 1 de 3",
+          "url": "https://fontedemana.com.br/pauta/2026-11-22/netflix/carrossel-01.jpg"
+        },
+        {
+          "nome": "Story 2 de 3",
+          "url": "https://fontedemana.com.br/pauta/2026-11-22/netflix/carrossel-02.jpg"
+        },
+        {
+          "nome": "Story 3 de 3",
+          "url": "https://fontedemana.com.br/pauta/2026-11-22/netflix/carrossel-03.jpg"
+        }
+      ],
+      "passos": [
+        "Baixe as três imagens.",
+        "Poste a 1 e a 2 nos Stories, nessa ordem.",
+        "Na 3, adicione o sticker de Enquete embaixo da pergunta: Vai assistir Planeswalker? com Já tô esperando e Vou ver se presta.",
+        "Publique."
+      ]
+    },
+    {
+      "id": "threads-manha",
+      "hora": "10:30",
+      "rede": "Threads",
+      "titulo": "Debate: Debate da semana #2: Universes Beyond no Commander, soma ou…",
+      "oQue": "Post de debate do conteúdo original de hoje (Debate da semana) para puxar conversa.",
+      "textos": [
+        {
+          "rotulo": "Post",
+          "texto": "Universes Beyond no Commander: soma ou atrapalha? Desde 2025, coleção de outra marca vale em todos os formatos, e Final Fantasy virou a mais vendida da história. Quem gosta diz que traz gente nova pra mesa; quem não gosta diz que Magic perde a cara de Magic, com coleção atrás de coleção. Só em 2026 vieram Tartarugas Ninja, Marvel e Star Trek. Na sua mesa, como é?"
+        }
+      ],
+      "passos": [
+        "Abra o Threads e cole o Post.",
+        "Dica: Enquete com as opções: Soma, Atrapalha",
+        "Toque em Adicionar tópico e escolha MTG.",
+        "Publique e responda quem comentar na primeira hora."
+      ]
+    },
+    {
       "id": "tiktok",
       "hora": "11:30",
       "rede": "TikTok",
@@ -90,25 +136,6 @@
         "Voz própria não precisa de rótulo de IA.",
         "Cole a Legenda e publique.",
         "Fixe o comentário."
-      ]
-    },
-    {
-      "id": "threads-manha",
-      "hora": "10:30",
-      "rede": "Threads",
-      "titulo": "Debate: Debate da semana #2: Universes Beyond no Commander, soma ou…",
-      "oQue": "Post de debate do conteúdo original de hoje (Debate da semana) para puxar conversa.",
-      "textos": [
-        {
-          "rotulo": "Post",
-          "texto": "Universes Beyond no Commander: soma ou atrapalha? Desde 2025, coleção de outra marca vale em todos os formatos, e Final Fantasy virou a mais vendida da história. Quem gosta diz que traz gente nova pra mesa; quem não gosta diz que Magic perde a cara de Magic, com coleção atrás de coleção. Só em 2026 vieram Tartarugas Ninja, Marvel e Star Trek. Na sua mesa, como é?"
-        }
-      ],
-      "passos": [
-        "Abra o Threads e cole o Post.",
-        "Dica: Enquete com as opções: Soma, Atrapalha",
-        "Toque em Adicionar tópico e escolha MTG.",
-        "Publique e responda quem comentar na primeira hora."
       ]
     },
     {
@@ -181,6 +208,30 @@
         "Baixe a imagem e poste no Story.",
         "Adicione o sticker de Link para fontedemana.com.br com o texto Edição completa, embaixo do texto do Topdeck.",
         "Publique."
+      ]
+    },
+    {
+      "id": "netflix-threads",
+      "hora": "18:30",
+      "rede": "Threads",
+      "titulo": "Planeswalker no Threads: quem você quer ver na série?",
+      "oQue": "Post de texto sobre a série da Netflix, com uma pergunta aberta. Fica no fim da tarde, longe do Debate das 10h30. Só Chandra e Ajani estão confirmados; Jace, Liliana e Garruk, que estrearam com a Chandra em Lorwyn (2007), são palpite da Nerdist, não anúncio.",
+      "arquivos": [
+        {
+          "nome": "Imagem opcional",
+          "url": "https://fontedemana.com.br/pauta/2026-11-22/netflix/carrossel-01.jpg"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Post",
+          "texto": "A série de Magic na Netflix tem nome: Planeswalker. Estreia em 2027, data ainda não anunciada. A protagonista é a Chandra, com o Ajani do lado. Por enquanto, só os dois estão confirmados. A Chandra estreou nas cartas em 2007, junto com Jace, Liliana, Garruk e Ajani. Qual planeswalker você quer ver aparecer na série?"
+        }
+      ],
+      "passos": [
+        "No Threads, cole o Post. Se quiser, anexe a imagem.",
+        "Toque em Adicionar tópico e escolha MTG.",
+        "Publique e responda quem comentar na primeira hora."
       ]
     },
     {
