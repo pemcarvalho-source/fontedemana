@@ -212,8 +212,235 @@ ${[325, 755].map(x => `<g transform="translate(${x} 1430)"><ellipse rx="128" ry=
     return s;
   }
 
+  /* ---------- O Vermelho: bárbaro piromante numa forja de vulcão (desde 22/11/2026) ---------- */
+  function vermelho(t, m, humor) {
+    const calmo = humor === 'debochado';
+    const resp = Math.sin(t * 2.4) * 5;
+    const rot = Math.sin(t * 1.6) * 1.4 + m * 1.6 + (calmo ? 0 : Math.sin(t * 8) * 0.9 * m);
+    const fecha = piscar(t, 1.7);
+    const bola = 1 + ruido(t * 2.2, 3) * 0.1 + m * 0.22;
+    let s = `<defs>
+<linearGradient id="forja" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#120605"/><stop offset=".45" stop-color="#3a0f08"/><stop offset=".75" stop-color="#7a2410"/><stop offset="1" stop-color="#1a0805"/></linearGradient>
+<radialGradient id="lavaG" cx=".5" cy="1" r=".9"><stop offset="0" stop-color="#ffb347" stop-opacity=".75"/><stop offset=".4" stop-color="#ff5a1f" stop-opacity=".35"/><stop offset="1" stop-color="#ff5a1f" stop-opacity="0"/></radialGradient>
+<linearGradient id="lava" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd27a"/><stop offset=".5" stop-color="#ff7a1f"/><stop offset="1" stop-color="#c2290f"/></linearGradient>
+<linearGradient id="couro" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6b3a22"/><stop offset="1" stop-color="#2e170d"/></linearGradient>
+<linearGradient id="ferro" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#b9b3ad"/><stop offset=".5" stop-color="#6d6762"/><stop offset="1" stop-color="#2f2b29"/></linearGradient>
+<radialGradient id="peleR" cx=".45" cy=".38" r=".72"><stop offset="0" stop-color="#e3a77f"/><stop offset=".75" stop-color="#c47d56"/><stop offset="1" stop-color="#97563a"/></radialGradient>
+<linearGradient id="barba" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e2672a"/><stop offset=".6" stop-color="#b53a17"/><stop offset="1" stop-color="#7d2410"/></linearGradient>
+<linearGradient id="juba" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#9c2c12"/><stop offset=".55" stop-color="#e2672a"/><stop offset="1" stop-color="#ffc35c"/></linearGradient>
+<radialGradient id="bola" cx=".45" cy=".45"><stop offset="0" stop-color="#fff6d0"/><stop offset=".3" stop-color="#ffd05a"/><stop offset=".65" stop-color="#ff6a1f"/><stop offset="1" stop-color="#ff3d0f" stop-opacity="0"/></radialGradient>
+<radialGradient id="vinheta" cx=".5" cy=".55" r=".75"><stop offset=".55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#0d0302" stop-opacity=".7"/></radialGradient>
+<filter id="b24" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="24"/></filter>
+<filter id="brilhoR" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1080" height="1920" fill="url(#forja)"/>
+<path d="M0 1180 L180 980 L300 1060 L420 900 L520 860 L640 905 L760 1040 L900 950 L1080 1120 V1920 H0Z" fill="#1c0906"/>
+<path d="M470 880 Q520 905 560 872 Q548 960 520 1040 Q505 1120 470 1200 Q490 1100 486 1010 Q480 940 470 880Z" fill="url(#lava)" opacity=".85" filter="url(#brilhoR)"/>
+<path d="M820 1000 Q850 1060 830 1140 Q815 1210 840 1290" stroke="url(#lava)" stroke-width="10" fill="none" opacity=".7" filter="url(#brilhoR)"/>
+<path d="M0 1320 Q200 1260 420 1300 T860 1280 T1080 1260 V1920 H0Z" fill="#120504"/>
+<rect x="0" y="1200" width="1080" height="720" fill="url(#lavaG)"/>
+<g opacity=".5" stroke="#2a0d07" stroke-width="5" fill="none"><path d="M60 1500 L150 1440 L240 1480"/><path d="M820 1560 L900 1500 L1010 1540"/></g>`;
+    /* brasas subindo */
+    for (let k = 0; k < 16; k++) {
+      const x = (k * 71 + Math.sin(t * 1.3 + k) * 26) % 1080;
+      const y = 1700 - ((t * (60 + (k % 5) * 14) + k * 97) % 1100);
+      const a = Math.max(0, Math.min(1, (1700 - y) / 160)) * Math.max(0, Math.min(1, (y - 600) / 200));
+      s += `<circle cx="${f(x)}" cy="${f(y)}" r="${k % 4 === 0 ? 5 : 3}" fill="#ffb347" opacity="${f(a)}" filter="url(#brilhoR)"/>`;
+    }
+    s += `<g transform="translate(540 1920) scale(1.12) translate(-540 -1920)"><g transform="translate(0 ${f(resp)})">
+<path d="M205 1920 L250 1480 Q285 1370 420 1340 L660 1340 Q795 1370 830 1480 L875 1920Z" fill="url(#couro)"/>
+<path d="M330 1420 L760 1700" stroke="#3b1f12" stroke-width="44"/><path d="M330 1420 L760 1700" stroke="#7a4a2c" stroke-width="6" stroke-dasharray="2 28"/>
+${[0, 1, 2, 3, 4].map(k => `<circle cx="${f(360 + k * 90)}" cy="${f(1440 + k * 58)}" r="8" fill="url(#ferro)"/>`).join('')}
+<g transform="translate(540 1520)"><circle r="40" fill="url(#ferro)"/><circle r="26" fill="#b3200d"/><path d="M0 -18 Q12 -2 6 12 Q0 4 -6 12 Q-12 -2 0 -18Z" fill="#ffc35c" filter="url(#brilhoR)"/></g>
+<rect x="494" y="1215" width="92" height="140" fill="#b06d4a"/><path d="M494 1290 Q540 1325 586 1290 V1355 H494Z" fill="#8f5236"/>
+<path d="M380 1370 Q420 1320 470 1330 L540 1370 L610 1330 Q660 1320 700 1370 L690 1405 Q620 1380 540 1410 Q460 1380 390 1405Z" fill="#3a2418"/>
+<g fill="#4a2e1f">${Array.from({ length: 11 }, (x, k) => `<path d="M${f(392 + k * 28)} 1392 l14 34 l14 -34Z"/>`).join('')}</g>
+${[310, 770].map((x, j) => `<g transform="translate(${x} 1425)"><ellipse rx="130" ry="86" fill="url(#ferro)"/><ellipse cy="-6" rx="108" ry="64" fill="#5d5752"/><path d="M-90 -40 Q0 -70 90 -40" stroke="#cfc8c0" stroke-width="5" fill="none" opacity=".6"/>${[-70, -20, 30, 80].map(a => `<path d="M${a - 14} -48 L${a} ${-120 + Math.abs(a) * 0.2} L${a + 14} -48Z" fill="#8b847d" stroke="#2f2b29" stroke-width="3" transform="scale(${j ? -1 : 1} 1)"/>`).join('')}</g>`).join('')}
+<path d="M285 1500 Q230 1640 300 1770 L355 1750 Q300 1650 330 1530Z" fill="url(#couro)"/>
+<path d="M300 1755 Q285 1800 318 1812 L368 1806 Q384 1790 372 1760 L330 1748Z" fill="url(#peleR)"/>
+<path d="M740 1470 Q880 1450 900 1320 L826 1296 Q812 1384 730 1402Z" fill="url(#peleR)"/><path d="M900 1320 L826 1296" stroke="url(#ferro)" stroke-width="18" stroke-linecap="round"/>
+<g filter="url(#brilhoR)"><circle cx="866" cy="${f(1210 - m * 10)}" r="${f(78 * bola)}" fill="url(#bola)"/>
+${[0, 1, 2, 3, 4].map(k => { const a = t * 3 + k * 1.25; return `<path d="M${f(866 + Math.cos(a) * 40)} ${f(1200 + Math.sin(a) * 30)} q${f(Math.cos(a) * 18)} -40 ${f(Math.cos(a) * 6)} -${f(70 + 20 * Math.sin(t * 7 + k))}" stroke="#ffcf6a" stroke-width="7" fill="none" stroke-linecap="round" opacity=".8"/>`; }).join('')}</g>
+<path d="M828 1300 Q822 1262 846 1252 L884 1254 Q902 1266 896 1302 Q876 1320 850 1316Z" fill="url(#peleR)"/>
+<path d="M834 1268 H890 M836 1284 H892" stroke="#7a3f26" stroke-width="3"/>`;
+    /* cabeça */
+    const ira = calmo ? 0.4 : 1;
+    s += `<g transform="rotate(${f(rot)} 540 1250)">
+<g>${Array.from({ length: 9 }, (x, k) => {
+      const a = -Math.PI + (k + 0.5) * Math.PI / 9, L = 150 + (k % 2 ? 30 : 70) + Math.sin(t * 5 + k * 1.7) * 14;
+      const bx = 540 + Math.cos(a) * 120, by = 1010 + Math.sin(a) * 120, tx = 540 + Math.cos(a) * L + Math.sin(t * 4 + k) * 10, ty = 1010 + Math.sin(a) * L * 1.1;
+      return `<path d="M${f(bx - 46)} ${f(by + 10)} Q${f((bx + tx) / 2 - 30)} ${f((by + ty) / 2)} ${f(tx)} ${f(ty)} Q${f((bx + tx) / 2 + 30)} ${f((by + ty) / 2)} ${f(bx + 46)} ${f(by + 10)}Z" fill="url(#juba)"/>`;
+    }).join('')}</g>
+<ellipse cx="430" cy="1100" rx="18" ry="28" fill="#c47d56"/><ellipse cx="650" cy="1100" rx="18" ry="28" fill="#c47d56"/>
+<circle cx="428" cy="1128" r="9" fill="none" stroke="url(#ferro)" stroke-width="5"/><circle cx="652" cy="1128" r="9" fill="none" stroke="url(#ferro)" stroke-width="5"/>
+<path d="M432 1070 Q432 970 540 962 Q648 970 648 1070 Q648 1160 610 1212 Q578 1246 540 1248 Q502 1246 470 1212 Q432 1160 432 1070Z" fill="url(#peleR)"/>
+<path d="M436 1040 Q450 960 540 952 Q630 960 644 1040 Q620 990 580 985 Q560 1000 540 992 Q520 1000 500 985 Q460 990 436 1040Z" fill="url(#juba)"/>
+<path d="M452 1118 L512 1130 M452 1140 L506 1150 M628 1118 L568 1130 M628 1140 L574 1150" stroke="#b3200d" stroke-width="9" stroke-linecap="round" opacity=".85"/>
+<path d="M600 1020 L618 1060" stroke="#8f4f33" stroke-width="4" stroke-linecap="round"/>`;
+    for (const [cx, k] of [[494, 0], [586, 1]]) {
+      const hh = 12 * (1 - fecha) * (calmo ? 0.75 : 0.9);
+      const d = `M${cx - 23} 1090 Q${cx} ${f(1090 - hh * 1.6)} ${cx + 23} 1090 Q${cx} ${f(1090 + hh * 1.1)} ${cx - 23} 1090Z`;
+      s += `<path d="${d}" fill="#f4ead8"/>`;
+      if (hh > 2) s += `<clipPath id="r${k}"><path d="${d}"/></clipPath><g clip-path="url(#r${k})"><circle cx="${cx}" cy="1090" r="10" fill="#c46a12"/><circle cx="${cx}" cy="1090" r="5" fill="#1a0a04"/><circle cx="${cx + 4}" cy="1086" r="2.5" fill="#fff"/></g>`;
+      s += `<path d="M${cx - 26} 1091 Q${cx} ${f(1090 - hh * 1.65 - 3)} ${cx + 26} 1089" stroke="#3a1206" stroke-width="5" fill="none" stroke-linecap="round"/>`;
+    }
+    const tremor = calmo ? 0 : Math.sin(t * 11) * 3 * m;
+    s += `<path d="M458 ${f(1050 - 4 * ira + tremor)} Q492 ${f(1052)} 524 ${f(1066 + 6 * ira)}" stroke="#b53a17" stroke-width="13" fill="none" stroke-linecap="round"/>
+<path d="M556 ${f(1066 + 6 * ira)} Q588 1052 622 ${f(1050 - 4 * ira + tremor)}" stroke="#b53a17" stroke-width="13" fill="none" stroke-linecap="round"/>
+<path d="M540 1098 Q530 1136 524 1148 Q540 1160 556 1148" stroke="#8f4f33" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M436 1110 Q440 1230 498 1300 Q518 1356 540 1392 Q562 1356 582 1300 Q640 1230 644 1110 Q628 1172 600 1196 Q570 1180 540 1186 Q510 1180 480 1196 Q452 1172 436 1110Z" fill="url(#barba)"/>
+<path d="M470 1240 Q500 1290 520 1340 M610 1240 Q580 1290 560 1340 M540 1250 V1370" stroke="#8a2a10" stroke-width="4" fill="none" opacity=".6"/>
+<g transform="translate(0 ${f(m * 8)})"><path d="M540 1380 V1470" stroke="#b53a17" stroke-width="26" stroke-linecap="round"/>
+<rect x="526" y="1400" width="28" height="12" rx="4" fill="url(#ferro)"/><rect x="526" y="1438" width="28" height="12" rx="4" fill="url(#ferro)"/></g>`;
+    s += boca(540, 1214 + m * 4, m, calmo ? 6 : -1, '#9a3b28', '#2a0806', 66);
+    s += `<path d="M486 1172 Q512 1152 540 1164 Q568 1152 594 1172 Q606 1190 598 1200 Q572 1182 540 1186 Q508 1182 482 1200 Q474 1190 486 1172Z" fill="url(#barba)"/>
+</g></g></g><rect width="1080" height="1920" fill="url(#vinheta)"/>`;
+    return s;
+  }
+
+  const PERS = { preto, branco, vermelho };
+  /* ids únicos para desenhar dois personagens no mesmo quadro (gradientes e recortes com o mesmo nome se atropelam) */
+  const prefixa = (svg, p) => svg.replace(/id="([^"]+)"/g, `id="${p}$1"`).replace(/url\(#([^)]+)\)/g, `url(#${p}$1)`);
+
+  /* ---------- A mesa vista de cima (desde 22/11/2026): os dois personagens, um de cada lado, e a jogada da cena ----------
+     cfg = {cima, baixo: nomes dos personagens; fala: 'cima' | 'baixo'; img: {cima, baixo, equip, wipe: URLs};
+            jogada: 'equipar' | 'wipe' | null; feitas: jogadas das cenas anteriores (já resolvidas); rotulo; dano}
+     p = progresso da fala (0 no começo, 1 no fim); m = boca de quem fala. */
+  const CORES = { branco: '#f3d27a', preto: '#8dffbe', vermelho: '#ff7a3a', azul: '#6fb6ff', verde: '#7ee07a' };
+  const NOMEP = { branco: 'Branco', preto: 'Preto', vermelho: 'Vermelho' };
+  /* recorte do rosto de cada personagem no medalhão (o Vermelho tem a juba alta) */
+  const VISTA = { vermelho: '290 690 500 500' };
+  const ease = x => x <= 0 ? 0 : x >= 1 ? 1 : x * x * (3 - 2 * x);
+  const seg = (p, a, b) => ease((p - a) / (b - a));
+  const LADO = { cima: { med: [800, 690], cmd: [372, 830], terras: [[130, 600], [250, 600], [130, 1000], [250, 1000]] },
+    baixo: { med: [280, 1400], cmd: [708, 1250], terras: [[830, 1060], [950, 1060], [830, 1460], [950, 1460]] } };
+  const CW = 236, CH = 330;
+  function carta(href, cx, cy, sc, rot, extra) {
+    const w = CW * sc, h = CH * sc;
+    return `<g transform="translate(${f(cx)} ${f(cy)}) rotate(${f(rot || 0)})"><rect x="${f(-w / 2 + 6)}" y="${f(-h / 2 + 10)}" width="${f(w)}" height="${f(h)}" rx="${f(12 * sc)}" fill="#000" opacity=".45" filter="url(#mSombra)"/>
+<clipPath id="cc${Math.round(cx)}_${Math.round(cy)}"><rect x="${f(-w / 2)}" y="${f(-h / 2)}" width="${f(w)}" height="${f(h)}" rx="${f(12 * sc)}"/></clipPath>
+<image href="${href}" x="${f(-w / 2)}" y="${f(-h / 2)}" width="${f(w)}" height="${f(h)}" preserveAspectRatio="xMidYMid slice" clip-path="url(#cc${Math.round(cx)}_${Math.round(cy)})" ${extra || ''}/></g>`;
+  }
+  function terra(x, y, cor, virada) {
+    return `<g transform="translate(${x} ${y}) rotate(${virada ? 90 : 0})"><rect x="-44" y="-62" width="88" height="124" rx="9" fill="#1b1714" stroke="#3a322b" stroke-width="3"/><rect x="-36" y="-54" width="72" height="108" rx="6" fill="${cor}" opacity=".28"/><circle r="20" fill="${cor}" opacity=".9"/><circle r="20" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="3"/></g>`;
+  }
+  function medalhao(nome, lado, t, m, ativo, pi) {
+    const [cx, cy] = LADO[lado].med, r = 128, cor = CORES[nome] || '#ddd';
+    const pulso = ativo ? 1 + Math.sin(t * 6) * 0.04 + m * 0.05 : 1;
+    const R = r * (ativo ? 1.06 : 0.94);
+    let s = `<g transform="translate(${cx} ${cy}) scale(${f(pulso)}) translate(${-cx} ${-cy})">`;
+    if (ativo) s += `<circle cx="${cx}" cy="${cy}" r="${f(R + 26)}" fill="${cor}" opacity="${f(0.28 + m * 0.25)}" filter="url(#mBrilho)"/>`;
+    s += `<clipPath id="md${pi}"><circle cx="${cx}" cy="${cy}" r="${f(R)}"/></clipPath>
+<g clip-path="url(#md${pi})"><svg x="${f(cx - R)}" y="${f(cy - R)}" width="${f(2 * R)}" height="${f(2 * R)}" viewBox="${VISTA[nome] || '300 780 480 480'}" preserveAspectRatio="xMidYMid slice">${prefixa(PERS[nome](t, ativo ? m : 0, ''), pi)}</svg>
+${ativo ? '' : `<circle cx="${cx}" cy="${cy}" r="${f(R)}" fill="#0b0a0e" opacity=".45"/>`}</g>
+<circle cx="${cx}" cy="${cy}" r="${f(R)}" fill="none" stroke="${ativo ? cor : '#6a6158'}" stroke-width="${ativo ? 10 : 6}"/>
+<circle cx="${cx}" cy="${cy}" r="${f(R + 8)}" fill="none" stroke="#000" stroke-opacity=".5" stroke-width="3"/>
+<g transform="translate(${cx} ${f(cy + R + 6)})"><rect x="-108" y="-24" width="216" height="52" rx="26" fill="#121014" stroke="${cor}" stroke-width="3" opacity="${ativo ? 1 : 0.8}"/>
+<text y="13" text-anchor="middle" font-family="CZ, serif" font-weight="700" font-size="30" letter-spacing="2" fill="${ativo ? cor : '#bdb2a4'}">${(NOMEP[nome] || nome).toUpperCase()}</text></g></g>`;
+    return s;
+  }
+  function raio(x1, y1, x2, y2, t, k) {
+    const n = 9, pts = [];
+    for (let i = 0; i <= n; i++) {
+      const u = i / n, j = i === 0 || i === n ? 0 : Math.sin(t * 40 + i * 2.3 + k * 5) * 34 * Math.sin(u * Math.PI);
+      const dx = x2 - x1, dy = y2 - y1, L = Math.hypot(dx, dy) || 1;
+      pts.push([x1 + dx * u - dy / L * j, y1 + dy * u + dx / L * j]);
+    }
+    const d = 'M' + pts.map(q => f(q[0]) + ' ' + f(q[1])).join(' L');
+    return `<path d="${d}" stroke="#ff5a1f" stroke-width="22" fill="none" opacity=".55" filter="url(#mBrilho)" stroke-linejoin="round"/><path d="${d}" stroke="#ffe3a0" stroke-width="7" fill="none" stroke-linejoin="round"/>`;
+  }
+  function mesa(cfg, t, p, m) {
+    const feitas = cfg.feitas || [], qe = cfg.ladoEquip || 'baixo', qw = cfg.ladoWipe || 'cima';
+    const eq = cfg.jogada === 'equipar' ? seg(p, 0.12, 0.42) : feitas.includes('equipar') ? 1 : -1;
+    const escudo = cfg.jogada === 'equipar' ? seg(p, 0.45, 0.6) : feitas.includes('equipar') ? 1 : 0;
+    const W = cfg.jogada === 'wipe';
+    const voo = W ? seg(p, 0.04, 0.28) : 0, choque = W ? seg(p, 0.3, 0.42) : 0, morte = W ? seg(p, 0.55, 0.8) : 0;
+    const someW = W ? seg(p, 0.42, 0.55) : 0;
+    let s = `<defs>
+<linearGradient id="mMadeira" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3b2416"/><stop offset=".5" stop-color="#2a180e"/><stop offset="1" stop-color="#1a0e07"/></linearGradient>
+<radialGradient id="mTapete" cx=".5" cy=".5" r=".75"><stop offset="0" stop-color="#2b3140"/><stop offset=".7" stop-color="#1b1f2a"/><stop offset="1" stop-color="#11131a"/></radialGradient>
+<linearGradient id="mLadoC" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${CORES[cfg.cima] || '#888'}" stop-opacity=".16"/><stop offset="1" stop-color="${CORES[cfg.cima] || '#888'}" stop-opacity="0"/></linearGradient>
+<linearGradient id="mLadoB" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="${CORES[cfg.baixo] || '#888'}" stop-opacity=".16"/><stop offset="1" stop-color="${CORES[cfg.baixo] || '#888'}" stop-opacity="0"/></linearGradient>
+<radialGradient id="mFogo" cx=".5" cy=".5"><stop offset="0" stop-color="#fff2c4" stop-opacity=".9"/><stop offset=".35" stop-color="#ff8a2a" stop-opacity=".55"/><stop offset="1" stop-color="#ff3d0f" stop-opacity="0"/></radialGradient>
+<radialGradient id="mEscudo" cx=".5" cy=".45" r=".6"><stop offset="0" stop-color="#bfe6ff" stop-opacity=".05"/><stop offset=".8" stop-color="#8fd0ff" stop-opacity=".22"/><stop offset="1" stop-color="#e8f6ff" stop-opacity=".55"/></radialGradient>
+<filter id="mSombra" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="9"/></filter>
+<filter id="mBrilho" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="10"/></filter>
+<filter id="mCinza"><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncR type="linear" slope=".55"/><feFuncG type="linear" slope=".55"/><feFuncB type="linear" slope=".55"/></feComponentTransfer></filter>
+<filter id="mVermelho"><feColorMatrix type="matrix" values="1 .3 .3 0 .25  0 .55 0 0 0  0 0 .5 0 0  0 0 0 1 0"/></filter>
+</defs>
+<rect width="1080" height="1920" fill="url(#mMadeira)"/>
+<g stroke="#4a2e1c" stroke-width="3" opacity=".5" fill="none">${[90, 260, 430, 1660, 1780, 1880].map((y, k) => `<path d="M0 ${y} Q300 ${y + (k % 2 ? 14 : -12)} 600 ${y} T1080 ${y + 6}"/>`).join('')}</g>
+<rect x="40" y="500" width="1000" height="1120" rx="40" fill="url(#mTapete)" stroke="#0b0c10" stroke-width="6"/>
+<rect x="40" y="500" width="1000" height="560" rx="40" fill="url(#mLadoC)"/><rect x="40" y="1060" width="1000" height="560" rx="40" fill="url(#mLadoB)"/>
+<path d="M90 1060 H990" stroke="#c9b892" stroke-width="3" stroke-dasharray="14 16" opacity=".35"/>
+<rect x="56" y="516" width="968" height="1088" rx="30" fill="none" stroke="#c9b892" stroke-opacity=".15" stroke-width="2"/>`;
+    for (const lado of ['cima', 'baixo']) {
+      const nome = cfg[lado], cor = CORES[nome] || '#ccc';
+      LADO[lado].terras.forEach(([x, y], k) => { s += terra(x, y, cor, k % 2 === 1); });
+    }
+    /* criaturas: o comandante de cada lado */
+    const tremeC = W ? Math.sin(t * 50) * 6 * (choque - morte) : 0;
+    const filtroMorte = morte > 0.5 ? 'filter="url(#mCinza)"' : (W && choque > 0.3 ? 'filter="url(#mVermelho)"' : '');
+    const quedaY = morte * 26, opa = 1 - morte * 0.45;
+    /* equipamento: anexado embaixo do comandante (sobra uma faixa à mostra); depois do wipe, fica solto na mesa */
+    const [bx, by] = LADO[qe].cmd;
+    const eqAlvo = [bx + 16, by - 74], eqSolto = [bx - 150, by + 150];
+    if (eq >= 1) {
+      const pos = morte > 0 ? [eqAlvo[0] + (eqSolto[0] - eqAlvo[0]) * morte, eqAlvo[1] + (eqSolto[1] - eqAlvo[1]) * morte] : eqAlvo;
+      s += carta(cfg.img.equip, pos[0], pos[1], 0.86, -6 + morte * 14);
+    }
+    for (const lado of ['cima', 'baixo']) {
+      const [x, y] = LADO[lado].cmd;
+      s += `<g opacity="${f(opa)}" transform="translate(${f(tremeC * (lado === 'cima' ? 1 : -1))} ${f(quedaY)})">${carta(cfg.img[lado], x, y, 1, lado === 'cima' ? 2 : -2, filtroMorte)}</g>`;
+      if (W && choque > 0) {
+        const pop = seg(p, 0.42, 0.5), sai = seg(p, 0.85, 0.98);
+        if (pop > 0) s += `<g transform="translate(${x + 80} ${y - 120}) scale(${f(pop * (1 - sai * 0.3))})" opacity="${f(1 - sai)}"><circle r="62" fill="#c2290f" stroke="#ffd27a" stroke-width="6"/><text y="24" text-anchor="middle" font-family="CZ, serif" font-weight="700" font-size="70" fill="#fff6e0">${cfg.dano || ''}</text></g>`;
+        s += `<circle cx="${x}" cy="${y}" r="${f(200 * choque)}" fill="url(#mFogo)" opacity="${f((1 - morte) * 0.9)}"/>`;
+      }
+    }
+    /* o escudo do hexproof: não segura o wipe (o raio passa por ele) */
+    if (escudo > 0) {
+      const pis = W ? (choque > 0 && morte < 1 ? 0.55 + Math.abs(Math.sin(t * 30)) * 0.45 : 1) : 1;
+      const sc = (0.85 + 0.15 * escudo) * (1 + Math.sin(t * 3) * 0.015), a = escudo * pis * (1 - morte);
+      s += `<g transform="translate(${bx} ${by}) scale(${f(sc)})" opacity="${f(a)}"><path d="M0 -205 L165 -140 Q172 60 0 205 Q-172 60 -165 -140Z" fill="url(#mEscudo)" stroke="#bfe6ff" stroke-width="6"/>
+<path d="M0 -205 L165 -140 Q172 60 0 205 Q-172 60 -165 -140Z" fill="none" stroke="#e8f6ff" stroke-width="16" opacity=".35" filter="url(#mBrilho)"/></g>
+<g transform="translate(${bx} ${by - 238})" opacity="${f(a)}"><rect x="-128" y="-30" width="256" height="60" rx="30" fill="#0f1a26" stroke="#bfe6ff" stroke-width="4"/><text y="13" text-anchor="middle" font-family="CZ, serif" font-weight="700" font-size="32" letter-spacing="3" fill="#e8f6ff">${(cfg.rotulo || 'Hexproof').toUpperCase()}</text></g>`;
+    }
+    /* raios da reação em cadeia: da carta para cada criatura */
+    if (W && choque > 0 && morte < 1) {
+      const [cxA, cyA] = LADO[qe === 'cima' ? 'baixo' : 'cima'].cmd, al = (1 - seg(p, 0.6, 0.75));
+      s += `<g opacity="${f(al)}">${raio(540, 1060, cxA, cyA, t, 1)}${raio(540, 1060, bx, by, t, 2)}${raio(cxA, cyA, bx, by, t, 3)}</g>`;
+    }
+    /* medalhões: quem fala brilha, quem escuta fica mais apagado */
+    s += medalhao(cfg.cima, 'cima', t + 0.7, m, cfg.fala === 'cima', 'pa');
+    s += medalhao(cfg.baixo, 'baixo', t, m, cfg.fala === 'baixo', 'pb');
+    /* a carta jogada voa da mão de quem fala (por cima de tudo) */
+    if (cfg.jogada === 'equipar' && eq >= 0 && eq < 1) {
+      const [ox, oy] = LADO[qe].med, k = eq;
+      const x = ox + (eqAlvo[0] - ox) * k, y = oy + (eqAlvo[1] - oy) * k - Math.sin(k * Math.PI) * 220;
+      s += carta(cfg.img.equip, x, y, 0.5 + 0.55 * k + Math.sin(k * Math.PI) * 0.25, -20 + 14 * k);
+    }
+    if (W && someW < 1) {
+      const [ox, oy] = LADO[qw].med;
+      const x = ox + (540 - ox) * voo, y = oy + (1060 - oy) * voo - Math.sin(voo * Math.PI) * 160;
+      const sc = (0.5 + voo * 0.85) * (1 + choque * 0.12);
+      if (choque > 0) s += `<circle cx="540" cy="1060" r="${f(300 * choque)}" fill="url(#mFogo)" opacity="${f(1 - someW)}"/>`;
+      s += `<g opacity="${f(1 - someW)}">${carta(cfg.img.wipe, x, y, sc, 8 - 8 * voo)}</g>`;
+    }
+    if (W && choque > 0) {
+      for (let k = 0; k < 22; k++) {
+        const a = k * 2.4, d = 120 + ((t * 260 + k * 53) % 520), al = (1 - morte * 0.6) * Math.max(0, 1 - d / 640);
+        s += `<circle cx="${f(540 + Math.cos(a) * d)}" cy="${f(1060 + Math.sin(a) * d * 1.1)}" r="${k % 3 ? 5 : 8}" fill="#ffb347" opacity="${f(al)}"/>`;
+      }
+    }
+    return s;
+  }
+
   window.desenha = function (nome, t, m, humor) {
     const svg = document.getElementById('s');
-    svg.innerHTML = nome === 'branco' ? branco(t, m, humor) : preto(t, m, humor);
+    svg.innerHTML = (PERS[nome] || preto)(t, m, humor);
+  };
+  window.desenhaMesa = function (cfg, t, p, m) {
+    document.getElementById('s').innerHTML = mesa(cfg, t, p, m);
   };
 })();

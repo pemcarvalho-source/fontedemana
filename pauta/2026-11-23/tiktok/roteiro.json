@@ -5,10 +5,18 @@
  "item": "Hexproof não salva de board wipe",
  "arte": "pauta/2026-11-23/tiktok/arte.jpg",
  "carta": "pauta/2026-11-23/tiktok/carta.jpg",
- "credito": "Arte: Decree of Pain, Mathias Kollros",
+ "credito": "Arte: Chain Reaction, Trevor Claxton",
  "fx": "Reais pela cotação de 19 nov (Banco Central, PTAX)",
- "legenda": "Treta das Cores no Commander: hexproof salva o comandante do board wipe? O Branco botou a bota, o Preto jogou o wipe. Quem tinha razão?\n\nA regra que resolve: Regras Abrangentes 702.11b (hexproof só impede ser alvo do oponente).\nDecree of Pain sai por US$ 0,36 (R$ 2,12) no Scryfall. Reais pela cotação de 19 nov (Banco Central, PTAX).\n\nMais regras de mesa em fontedemana.com.br\n\n#hexproof #commander #mtg",
- "comentario": "Nessa treta, quem tinha razão: o Branco, com a bota de hexproof, ou o Preto, com o wipe? Toda Treta das Cores termina com a regra de verdade.",
+ "legenda": "Treta das Cores no Commander: hexproof salva o comandante do board wipe? O Branco botou a bota no Sram, o Vermelho jogou Chain Reaction. Quem tinha razão?\n\nA regra que resolve: Regras Abrangentes 702.11b (hexproof só impede ser alvo do oponente).\nChain Reaction sai por US$ 0,26 (R$ 1,53) no Scryfall. Reais pela cotação de 19 nov (Banco Central, PTAX).\n\nMais regras de mesa em fontedemana.com.br\n\n#hexproof #commander #mtg",
+ "comentario": "Nessa treta, quem tinha razão: o Branco, com a bota de hexproof, ou o Vermelho, com o wipe? Toda Treta das Cores termina com a regra de verdade.",
+ "mesa": {
+  "cima": "vermelho",
+  "baixo": "branco",
+  "cartas": {
+   "cima": "pauta/2026-11-23/tiktok/mesa-cima.jpg",
+   "baixo": "pauta/2026-11-23/tiktok/mesa-baixo.jpg"
+  }
+ },
  "cenas": [
   {
    "tipo": "rosto",
@@ -16,52 +24,64 @@
    "chip": "Treta das Cores #2",
    "kicker": "Hexproof contra wipe",
    "titulo": "Hexproof salva do wipe?",
-   "narracao": "Relaxa, meu comandante tem hexproof. Wipe não pega.",
-   "gravar": "Olha para a câmera tranquilo, com uma carta na mão como se fosse o comandante protegido, e dá de ombros no fim da fala",
-   "segundos": 3.6
+   "narracao": "Hexproof salva o comandante de um board wipe? Bora ver.",
+   "gravar": "Olha para a câmera e apresenta a treta do dia; no fim aponta para baixo, como quem chama a mesa",
+   "segundos": 4.3
   },
   {
    "tipo": "texto",
    "cor": "W",
+   "personagem": "branco",
+   "humor": "severa",
    "chip": "Branco",
    "kicker": "O Branco",
-   "titulo": "Botei as Swiftfoot Boots.",
-   "sub": "Hexproof. Ninguém mexe no meu comandante.",
-   "narracao": "Equipei as Swiftfoot Boots. Hexproof. Pela regra, ninguém mexe no meu comandante.",
+   "titulo": "Botas no comandante",
+   "sub": "Hexproof. Ninguém mexe no Sram.",
+   "mesa": {
+    "jogada": "equipar",
+    "carta": "pauta/2026-11-23/tiktok/mesa-equip.jpg",
+    "rotulo": "Hexproof"
+   },
+   "narracao": "Equipei as Swiftfoot Boots no Sram. Hexproof. Ninguém mexe no meu comandante.",
    "segundos": 5
   },
   {
    "tipo": "texto",
-   "cor": "B",
-   "chip": "Preto",
-   "kicker": "O Preto",
-   "titulo": "Decree of Pain não mira ninguém.",
-   "sub": "Destrói todas. E eu compro uma carta por cada.",
-   "narracao": "Decree of Pain, querido. Destrói todas as criaturas. Não escolhi alvo nenhum.",
-   "segundos": 5
+   "cor": "R",
+   "personagem": "vermelho",
+   "humor": "impaciente",
+   "chip": "Vermelho",
+   "kicker": "O Vermelho",
+   "titulo": "Não mirei em ninguém",
+   "sub": "Duas criaturas na mesa, dois de dano em cada.",
+   "mesa": {
+    "jogada": "wipe",
+    "carta": "pauta/2026-11-23/tiktok/mesa-wipe.jpg",
+    "dano": "2"
+   },
+   "narracao": "Chain Reaction! Duas criaturas, dois de dano em cada. Não mirei em ninguém.",
+   "segundos": 5.4
   },
   {
    "tipo": "carta",
-   "cor": "B",
-   "kicker": "O wipe do Preto",
+   "cor": "R",
+   "kicker": "O wipe do Vermelho",
    "carta": "pauta/2026-11-23/tiktok/carta-1.jpg",
-   "valor": "US$ 0,36",
-   "real": "(R$ 2,12)",
-   "sub": "Destrói todas as criaturas e compra uma por cada",
+   "valor": "US$ 0,26",
+   "real": "(R$ 1,53)",
+   "sub": "Dano em cada criatura, um por criatura na mesa",
    "fonte": "Scryfall, 22 nov 2026",
-   "narracao": "E custa trinta e seis centavos de dólar, uns dois reais. Ainda compra carta.",
-   "segundos": 5.8
+   "narracao": "Custa vinte e seis centavos de dólar, menos de dois reais. E o dano cresce com a mesa.",
+   "segundos": 7.3
   },
   {
-   "tipo": "texto",
+   "tipo": "rosto",
    "cor": "U",
-   "kicker": "A regra",
+   "kicker": "A regra, 702.11b",
    "titulo": "Hexproof só protege de alvo",
-   "sub": "Quem diz todas as criaturas não escolhe alvo. O wipe pega.",
-   "fonte": "Regras Abrangentes, 702.11b",
-   "narracao": "Hexproof só impede ser alvo. Mágica que pega todas as criaturas não mira ninguém. O Preto tinha razão.",
-   "rodape": "O Preto tinha razão.",
-   "segundos": 7.3
+   "narracao": "Hexproof só protege de alvo. Wipe não mira ninguém. O Vermelho tinha razão.",
+   "gravar": "Olha para a câmera e dá o veredito; aponta para o lado, como quem dá a vitória ao Vermelho",
+   "segundos": 5.4
   }
  ]
 }

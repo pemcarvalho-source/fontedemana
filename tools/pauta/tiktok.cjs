@@ -112,7 +112,8 @@ function validate(r) {
   if (V) {
     if (r.pilar != null) req((PLANO.pilares || {})[r.pilar], 'pilar desconhecido em plano.json: ' + r.pilar);
     if (RO && Array.isArray(r.cenas)) {
-      const nr = r.cenas.filter(c => c.tipo === 'rosto').length;
+      /* personagemVideo: cena de personagem animado que o personagens.cjs passa como rosto (não é o Paulo na tela) */
+      const nr = r.cenas.filter(c => c.tipo === 'rosto' && !c.personagemVideo).length;
       const ajuste = (PLANO.trocas || []).find(t => t.dia === DATA && t.pilar === r.pilar);
       const rostoPilar = (RO.pilares || []).includes(r.pilar) && (!(RO.pilaresDesde || {})[r.pilar] || DATA >= RO.pilaresDesde[r.pilar]);
       if (rostoPilar && (RO.soCena1 || []).includes(r.pilar) && !(ajuste && ajuste.rosto)) req(nr <= 1, 'no pilar ' + r.pilar + ' só a cena 1 tem o Paulo (plano.json > rosto.soCena1); as outras cenas são geradas');

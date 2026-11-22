@@ -100,6 +100,18 @@
   "trocasNota": "Troca de pilar num dia, combinada com o Paulo: vale acima do calendário e das datas comemorativas (não acima de visita marcada em extras/lojas). Lida por tools/conteudo/contexto.cjs, que mostra o motivo, o material, as fotos e o cuidado; com rosto true, o Paulo aparece no vídeo mesmo fora de rosto.pilares (o tiktok.cjs exige a cena 1 rosto).",
   "trocas": [
     {
+      "dia": "2026-11-23",
+      "pilar": "treta",
+      "rosto": true,
+      "motivo": "Pedido do Paulo em 22/11, depois do roteiro da noite: o Paulo abre o vídeo com o rosto (cena 1, apresenta o tema) e volta na cena 5 para dar o veredito; no meio, os personagens Branco e Vermelho discutem na mesa vista de cima (personagens.cjs com \"mesa\"). Primeira Treta com o Vermelho no lugar do Preto.",
+      "tema": "Treta das Cores #2: hexproof salva o comandante do board wipe? Swiftfoot Boots no Sram contra Chain Reaction",
+      "material": [
+        "Cartas na mesa: Sram, Senior Edificer (Branco) e Captain Lannery Storm (Vermelho), as duas 2/2. Chain Reaction com 2 criaturas na mesa dá 2 de dano em cada.",
+        "Regra: Regras Abrangentes 702.11b (hexproof só impede ser alvo de mágicas e habilidades do oponente)."
+      ],
+      "cuidado": "Cenas 2 e 3 são dos personagens (o Paulo só grava a voz); a cena 4 é a carta Chain Reaction com o preço."
+    },
+    {
       "dia": "2026-10-31",
       "pilar": "dc500",
       "rosto": true,

@@ -8,7 +8,7 @@
       "hora": "19:15",
       "rede": "Gravação",
       "titulo": "Gravar o vídeo de amanhã (você aparece)",
-      "oQue": "Treta das Cores #2: hexproof salva o comandante do board wipe? Você abre o vídeo com o rosto na cena 1; nas outras, só a voz. Nas cenas 2 e 3 você faz as duas vozes, mudando o tom: o Branco e o Preto.",
+      "oQue": "Treta das Cores #2: hexproof salva o comandante do board wipe? Você aparece nas cenas 1 (abre o tema) e 5 (dá o veredito). Nas cenas 2 e 3, os personagens Branco e Vermelho discutem na mesa vista de cima, e você faz as duas vozes.",
       "arquivos": [
         {
           "nome": "Vídeo mudo de referência",
@@ -19,32 +19,32 @@
         {
           "cena": "Cena 1, rosto, uns 4 s",
           "tela": "Hexproof salva do wipe?",
-          "fala": "Relaxa, meu comandante tem hexproof. Wipe não pega.",
-          "como": "Rosto: Olha para a câmera tranquilo, com uma carta na mão como se fosse o comandante protegido, e dá de ombros no fim da fala"
+          "fala": "Hexproof salva o comandante de um board wipe? Bora ver.",
+          "como": "Rosto: Olha para a câmera e apresenta a treta do dia; no fim aponta para baixo, como quem chama a mesa"
         },
         {
-          "cena": "Cena 2, só a voz, uns 6 s",
-          "tela": "Botei as Swiftfoot Boots.",
-          "fala": "Equipei as Swiftfoot Boots. Hexproof. Pela regra, ninguém mexe no meu comandante.",
-          "como": "Só a voz: pode gravar em vídeo ou áudio. Voz do Branco: firme, certinha, de quem sabe a regra de cor"
+          "cena": "Cena 2, só a voz, uns 5 s",
+          "tela": "Mesa vista de cima: o Branco equipa as Swiftfoot Boots no Sram (escudo de Hexproof)",
+          "fala": "Equipei as Swiftfoot Boots no Sram. Hexproof. Ninguém mexe no meu comandante.",
+          "como": "Só a voz (vídeo ou áudio). Voz do Branco: firme, de quem sabe a regra. Na tela, a mesa de cima e o Branco equipando as botas no Sram"
         },
         {
-          "cena": "Cena 3, só a voz, uns 6 s",
-          "tela": "Decree of Pain não mira ninguém.",
-          "fala": "Decree of Pain, querido. Destrói todas as criaturas. Não escolhi alvo nenhum.",
-          "como": "Só a voz: pode gravar em vídeo ou áudio. Voz do Preto: debochada, calma, com um sorrisinho"
+          "cena": "Cena 3, só a voz, uns 5 s",
+          "tela": "Mesa vista de cima: o Vermelho joga Chain Reaction, 2 de dano em cada criatura",
+          "fala": "Chain Reaction! Duas criaturas, dois de dano em cada. Não mirei em ninguém.",
+          "como": "Só a voz (vídeo ou áudio). Voz do Vermelho: alta, impaciente, na pancada. Na tela, a Chain Reaction pega fogo na mesa"
         },
         {
-          "cena": "Cena 4, só a voz, uns 5 s",
-          "tela": "Carta Decree of Pain, US$ 0,36 (R$ 2,12)",
-          "fala": "E custa trinta e seis centavos de dólar, uns dois reais. Ainda compra carta.",
-          "como": "Só a voz: pode gravar em vídeo ou áudio. Sua voz normal"
+          "cena": "Cena 4, só a voz, uns 7 s",
+          "tela": "Carta Chain Reaction, US$ 0,26 (R$ 1,53)",
+          "fala": "Custa vinte e seis centavos de dólar, menos de dois reais. E o dano cresce com a mesa.",
+          "como": "Só a voz (vídeo ou áudio). Sua voz normal"
         },
         {
-          "cena": "Cena 5, só a voz, uns 7 s",
-          "tela": "Hexproof só protege de alvo",
-          "fala": "Hexproof só impede ser alvo. Mágica que pega todas as criaturas não mira ninguém. O Preto tinha razão.",
-          "como": "Só a voz: pode gravar em vídeo ou áudio. Sua voz normal, de quem dá o veredito"
+          "cena": "Cena 5, rosto, uns 5 s",
+          "tela": "A regra, 702.11b: Hexproof só protege de alvo",
+          "fala": "Hexproof só protege de alvo. Wipe não mira ninguém. O Vermelho tinha razão.",
+          "como": "Rosto: Olha para a câmera e dá o veredito; aponta para o lado, como quem dá a vitória ao Vermelho"
         }
       ],
       "passos": [
@@ -54,7 +54,7 @@
         "Desligue o Vídeo HDR (Ajustes, Câmera, Gravar Vídeo) para as cores não lavarem.",
         "Um vídeo por cena, falando para a câmera, com meio segundo de silêncio antes e depois; nomeie cena_1, cena_2... e mande todos juntos.",
         "Nas cenas sem rosto, só a voz conta: pode gravar em vídeo ou só o áudio.",
-        "Treta das Cores: grave o Branco com voz firme de quem sabe a regra e o Preto com voz debochada. Mudar o tom já basta.",
+        "Treta das Cores: grave o Branco com voz firme de quem sabe a regra e o Vermelho com voz alta e impaciente. Mudar o tom já basta: a boca de cada personagem acompanha a sua voz.",
         "Mande os vídeos ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"vídeos do TikTok de 2026-11-23\"."
       ]
     },
@@ -63,7 +63,7 @@
       "hora": "11:30",
       "rede": "TikTok",
       "titulo": "Postar o TikTok: Treta das Cores #2",
-      "oQue": "Hexproof salva o comandante do board wipe? O Branco com a bota, o Preto com o wipe e a regra no fim.",
+      "oQue": "Hexproof salva o comandante do board wipe? O Branco com as botas, o Vermelho com a Chain Reaction e o veredito no fim.",
       "arquivos": [
         {
           "nome": "Vídeo do TikTok (mudo)",
@@ -73,11 +73,11 @@
       "textos": [
         {
           "rotulo": "Legenda",
-          "texto": "Treta das Cores no Commander: hexproof salva o comandante do board wipe? O Branco botou a bota, o Preto jogou o wipe. Quem tinha razão?\n\nA regra que resolve: Regras Abrangentes 702.11b (hexproof só impede ser alvo do oponente).\nDecree of Pain sai por US$ 0,36 (R$ 2,12) no Scryfall. Reais pela cotação de 19 nov (Banco Central, PTAX).\n\nMais regras de mesa em fontedemana.com.br\n\n#hexproof #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+          "texto": "Treta das Cores no Commander: hexproof salva o comandante do board wipe? O Branco botou a bota no Sram, o Vermelho jogou Chain Reaction. Quem tinha razão?\n\nA regra que resolve: Regras Abrangentes 702.11b (hexproof só impede ser alvo do oponente).\nChain Reaction sai por US$ 0,26 (R$ 1,53) no Scryfall. Reais pela cotação de 19 nov (Banco Central, PTAX).\n\nMais regras de mesa em fontedemana.com.br\n\n#hexproof #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
         },
         {
           "rotulo": "Comentário fixado",
-          "texto": "Nessa treta, quem tinha razão: o Branco, com a bota de hexproof, ou o Preto, com o wipe? Toda Treta das Cores termina com a regra de verdade."
+          "texto": "Nessa treta, quem tinha razão: o Branco, com a bota de hexproof, ou o Vermelho, com o wipe? Toda Treta das Cores termina com a regra de verdade."
         }
       ],
       "passos": [

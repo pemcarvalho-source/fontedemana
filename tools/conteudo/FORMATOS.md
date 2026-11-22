@@ -133,6 +133,7 @@ Esquete sem rosto. Dois personagens, cada um uma cor, discutem uma jogada; a reg
 - **TikTok**: gancho com a fala de mesa que abre a treta; uma cena `texto` por fala (cor da cena = cor de quem fala, `chip` com o nome do personagem, ex. "Azul"); no máximo 3 falas; cena com a regra e a `fonte`; CTA "quem tinha razão?". O Paulo grava as duas vozes mudando o tom; avise isso nos passos da gravação.
 - **Carrossel**: o diálogo nos itens, cada item com a cor de quem fala (a bolinha de mana vira o rosto do personagem); tela final com a regra.
 - **Threads**: a melhor fala e "você já ouviu isso na mesa?".
+- **Personagens animados e mesa vista de cima** (desde 22/11/2026, pedido do Paulo): as falas das cores podem ser personagens animados (`personagem` na cena: Preto, Branco ou Vermelho, dublados pelo Paulo) e, com `"mesa"`, a discussão acontece na mesa vista de cima, um personagem de cada lado, com a jogada na mesa (o Branco equipa, o Vermelho joga o wipe). Na Treta #2 (23/11) o Paulo abriu o tema com o rosto na cena 1 e voltou na cena 5 para o veredito, por troca do dia (`rosto: true`). Varie as duplas de cores entre as Tretas.
 
 ### Top 5 Lado B (pilar `ladob`)
 

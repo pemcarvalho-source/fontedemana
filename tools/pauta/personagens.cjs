@@ -8,7 +8,12 @@
      node tools/pauta/personagens.cjs <raiz> <AAAA-MM-DD> --narrar <cena_1> <cena_2> ...
        um áudio por cena, na ordem; nas cenas de personagem a boca acompanha o volume da voz do Paulo; gera tiktok-narrado.mp4
    No roteiro.json, a cena de personagem continua do tipo "texto" (o tiktok.cjs sozinho ainda funciona) e ganha
-   "personagem": "preto" | "branco" e, se quiser, "humor": "debochado" | "impaciente" | "severa".
+   "personagem": "preto" | "branco" | "vermelho" e, se quiser, "humor": "debochado" | "impaciente" | "severa".
+   Mesa vista de cima (desde 22/11/2026, pedido do Paulo): com "mesa" no roteiro ({"cima": personagem, "baixo": personagem,
+   "cartas": {"cima": jpg do comandante de cima, "baixo": jpg do comandante de baixo}}), a cena de personagem que tiver
+   "mesa": {"jogada": "equipar" | "wipe", "carta": jpg da carta jogada, "rotulo": texto do escudo (equipar), "dano": número
+   (wipe)} mostra a mesa de cima, com os dois personagens em medalhões, um de cada lado; quem fala brilha e mexe a boca, e
+   a jogada acontece durante a fala (o que as cenas anteriores jogaram já está na mesa). A caixa do título fica no topo.
    Por dentro: monta uma cópia da pasta do dia num diretório temporário, troca as cenas de personagem para o tipo rosto
    e roda o próprio tiktok.cjs nessa cópia, passando o vídeo do personagem no lugar do vídeo do Paulo. Assim o roteiro do
    repositório não marca "rostoGravado" (o Paulo não apareceu) e o molde, as transições e o volume são os mesmos. */
@@ -22,7 +27,7 @@ const AUDIOS = IDX > 0 ? process.argv.slice(IDX + 1).map(a => path.resolve(a)) :
 if (!/^\d{4}-\d{2}-\d{2}$/.test(DATA)) { console.error('Uso: node tools/pauta/personagens.cjs <raiz> <AAAA-MM-DD> [--narrar a1 a2 ...]'); process.exit(2); }
 const DIR = path.join(ROOT, 'pauta', DATA, 'tiktok');
 const FPS = 30;
-const NOMES = { preto: 'O Preto', branco: 'O Branco' };
+const NOMES = { preto: 'O Preto', branco: 'O Branco', vermelho: 'O Vermelho' };
 
 function run(cmd, args, opts) {
   const p = cp.spawnSync(cmd, args, Object.assign({ encoding: 'utf8', maxBuffer: 1 << 28 }, opts || {}));
@@ -72,7 +77,8 @@ function paginaHTML() {
   const arte = fs.readFileSync(path.join(__dirname, 'personagens-arte.js'), 'utf8');
   const css = fs.readFileSync(path.join(ROOT, 'tools/kit/kit.css'), 'utf8');
   const g = (css.match(/--tex-grain:(url\("[^"]+"\))/) || [])[1] || 'none';
-  return `<!doctype html><html><head><meta charset="utf-8"><style>html,body{margin:0;background:#000}#c{position:relative;width:1080px;height:1920px;overflow:hidden}svg{position:absolute;left:0;top:0}
+  const fonte = fs.readFileSync(path.join(ROOT, 'tools/kit/fonts/cinzel-latin-700-normal.woff2')).toString('base64');
+  return `<!doctype html><html><head><meta charset="utf-8"><style>@font-face{font-family:CZ;font-weight:700;src:url(data:font/woff2;base64,${fonte})}html,body{margin:0;background:#000}#c{position:relative;width:1080px;height:1920px;overflow:hidden}svg{position:absolute;left:0;top:0}
 .grain{position:absolute;inset:0;background:${g};background-size:200px;opacity:.6;mix-blend-mode:overlay}</style></head>
 <body><div id="c"><svg id="s" width="1080" height="1920" viewBox="0 0 1080 1920"></svg><div class="grain"></div></div><script>${arte}</script></body></html>`;
 }
@@ -90,6 +96,55 @@ async function clipe(browser, nome, humor, env, out) {
   return out;
 }
 
+/* a mesa vista de cima: as imagens entram uma vez na página (URLs blob) e cada quadro redesenha a cena */
+const ENV_LIMIAR = 0.12;
+function falaDe(env) {
+  const i = env.findIndex(x => x > ENV_LIMIAR); let j = env.length - 1; while (j > 0 && !(env[j] > ENV_LIMIAR)) j--;
+  return i < 0 || j <= i ? [0, Math.max(1, env.length - 1) / FPS] : [i / FPS, j / FPS];
+}
+function cfgMesa(r, i) {
+  const M = r.mesa, c = r.cenas[i], lado = M.cima === c.personagem ? 'cima' : 'baixo';
+  const img = { cima: M.cartas.cima, baixo: M.cartas.baixo }, feitas = [];
+  let ladoEquip = 'baixo', ladoWipe = 'cima', rotulo = null;
+  r.cenas.forEach((x, k) => {
+    if (!x.mesa || !x.personagem) return;
+    const l = M.cima === x.personagem ? 'cima' : 'baixo';
+    if (x.mesa.jogada === 'equipar') { img.equip = x.mesa.carta; ladoEquip = l; rotulo = x.mesa.rotulo || rotulo; }
+    if (x.mesa.jogada === 'wipe') { img.wipe = x.mesa.carta; ladoWipe = l; }
+    if (k < i && x.mesa.jogada) feitas.push(x.mesa.jogada);
+  });
+  return { cima: M.cima, baixo: M.baixo, fala: lado, jogada: c.mesa.jogada || null, feitas, img, ladoEquip, ladoWipe, rotulo, dano: c.mesa.dano || '' };
+}
+async function clipeMesa(browser, cfg, env, out) {
+  const pg = await browser.newPage({ viewport: { width: 1080, height: 1920 } });
+  await pg.setContent(paginaHTML());
+  const dados = {};
+  for (const k of Object.keys(cfg.img)) dados[k] = fs.readFileSync(path.join(ROOT, cfg.img[k])).toString('base64');
+  const urls = await pg.evaluate(async d => {
+    const o = {};
+    for (const k of Object.keys(d)) {
+      const b = await (await fetch('data:image/jpeg;base64,' + d[k])).blob();
+      o[k] = URL.createObjectURL(b);
+      const im = new Image(); im.src = o[k]; await im.decode();
+    }
+    await document.fonts.load('700 30px CZ');
+    return o;
+  }, dados);
+  const c2 = Object.assign({}, cfg, { img: urls });
+  const [ini, fim] = falaDe(env);
+  const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'fdm-mesa-'));
+  for (let i = 0; i < env.length; i++) {
+    const t = i / FPS, p = Math.max(0, Math.min(1, (t - ini) / Math.max(0.5, fim - ini)));
+    await pg.evaluate(([c, t, p, m]) => window.desenhaMesa(c, t, p, m), [c2, t, p, env[i]]);
+    await pg.screenshot({ path: path.join(tmp, 'q' + String(i).padStart(5, '0') + '.jpg'), type: 'jpeg', quality: 90 });
+  }
+  await pg.close();
+  run('ffmpeg', ['-y', '-loglevel', 'error', '-framerate', String(FPS), '-i', path.join(tmp, 'q%05d.jpg'), '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '18', '-pix_fmt', 'yuv420p', '-r', String(FPS), out]);
+  fs.rmSync(tmp, { recursive: true, force: true });
+  return out;
+}
+const clipeDe = (browser, r, i, env, out) => r.cenas[i].mesa && r.mesa ? clipeMesa(browser, cfgMesa(r, i), env, out) : clipe(browser, r.cenas[i].personagem, r.cenas[i].humor, env, out);
+
 /* ---------- cópia da pasta do dia com as cenas de personagem como rosto ---------- */
 function montaRaiz(r) {
   const raiz = fs.mkdtempSync(path.join(os.tmpdir(), 'fdm-treta-'));
@@ -98,7 +153,8 @@ function montaRaiz(r) {
   fs.mkdirSync(dir, { recursive: true });
   for (const f of fs.readdirSync(DIR)) if (!/\.mp4$/.test(f) && f !== 'roteiro.json' && fs.statSync(path.join(DIR, f)).isFile()) fs.copyFileSync(path.join(DIR, f), path.join(dir, f));
   const c2 = JSON.parse(JSON.stringify(r));
-  c2.cenas.forEach(c => { if (c.personagem) { c.tipo = 'rosto'; c.gravar = (NOMES[c.personagem] || c.personagem) + ' animado fala; o Paulo só grava a voz'; } });
+  /* personagemVideo: o tiktok.cjs não conta essas cenas como cenas do Paulo (limite de cenas rosto e rosto.soCena1) */
+  c2.cenas.forEach(c => { if (c.personagem) { c.tipo = 'rosto'; c.personagemVideo = true; c.gravar = (NOMES[c.personagem] || c.personagem) + ' animado fala; o Paulo só grava a voz'; if (c.mesa && r.mesa && !c.caixa) c.caixa = 'topo'; } });
   fs.writeFileSync(path.join(dir, 'roteiro.json'), JSON.stringify(c2, null, 1) + '\n');
   return { raiz, dir };
 }
@@ -114,13 +170,29 @@ function tiktok(raiz, extra) {
   const idx = r.cenas.map((c, i) => c.personagem ? i : -1).filter(i => i >= 0);
   if (!idx.length) { console.log('ERROS:\n  nenhuma cena com "personagem" no roteiro: use o tiktok.cjs'); process.exit(1); }
   for (const i of idx) if (!NOMES[r.cenas[i].personagem]) { console.log('ERROS:\n  cena ' + (i + 1) + ': personagem "' + r.cenas[i].personagem + '" ainda não foi desenhado (tem: ' + Object.keys(NOMES).join(', ') + ')'); process.exit(1); }
+  const EM = [];
+  if (r.cenas.some(c => c.mesa)) {
+    const M = r.mesa;
+    if (!M || !M.cartas) EM.push('cena com "mesa" precisa de "mesa": {"cima", "baixo", "cartas": {"cima", "baixo"}} no roteiro');
+    else {
+      for (const l of ['cima', 'baixo']) { if (!NOMES[M[l]]) EM.push('mesa.' + l + ': personagem desconhecido "' + M[l] + '"'); if (!M.cartas[l] || !fs.existsSync(path.join(ROOT, M.cartas[l]))) EM.push('mesa.cartas.' + l + ' não encontrada: ' + M.cartas[l]); }
+      r.cenas.forEach((c, i) => {
+        if (!c.mesa) return;
+        if (!c.personagem || (c.personagem !== M.cima && c.personagem !== M.baixo)) EM.push('cena ' + (i + 1) + ': a cena de mesa precisa de "personagem" igual a mesa.cima ou mesa.baixo');
+        if (c.mesa.jogada && !['equipar', 'wipe'].includes(c.mesa.jogada)) EM.push('cena ' + (i + 1) + ': mesa.jogada precisa ser "equipar" ou "wipe"');
+        if (c.mesa.jogada && (!c.mesa.carta || !fs.existsSync(path.join(ROOT, c.mesa.carta)))) EM.push('cena ' + (i + 1) + ': mesa.carta não encontrada: ' + c.mesa.carta);
+      });
+    }
+  }
+  if (EM.length) { console.log('ERROS:\n' + EM.map(e => '  ' + e).join('\n')); process.exit(1); }
   const { raiz, dir } = montaRaiz(r);
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'fdm-treta-a-'));
   const pw = loadPlaywright(), exe = chromePath();
   const browser = await pw.chromium.launch(exe ? { executablePath: exe } : {});
   try {
     if (!AUDIOS) {
-      /* vídeo mudo: o próprio pipeline da narração, com um chiado baixinho no lugar da voz (para o tempo de cada cena
+      /* vídeo mudo: o próprio pipeline da narração, com um chiado no lugar da voz (alto o bastante para o corte de silêncio
+         do tiktok.cjs não comer pedaços da cena; para o tempo de cada cena
          sair igual ao do vídeo mudo normal), e o som é tirado no fim */
       tiktok(raiz);
       const rr = JSON.parse(fs.readFileSync(path.join(dir, 'roteiro.json'), 'utf8'));
@@ -128,9 +200,9 @@ function tiktok(raiz, extra) {
       for (let i = 0; i < r.cenas.length; i++) {
         const c = r.cenas[i], secs = rr.cenas[i].segundos || 3;
         const chiado = path.join(tmp, 'n' + (i + 1) + '.wav');
-        run('ffmpeg', ['-y', '-loglevel', 'error', '-f', 'lavfi', '-i', `anoisesrc=d=${(c.personagem ? secs : Math.max(1, secs - 0.8)).toFixed(2)}:c=pink:a=0.04`, '-ar', '48000', '-ac', '2', chiado]);
+        run('ffmpeg', ['-y', '-loglevel', 'error', '-f', 'lavfi', '-i', `anoisesrc=d=${(c.personagem ? secs : Math.max(1, secs - 0.8)).toFixed(2)}:c=pink:a=0.3`, '-ar', '48000', '-ac', '2', chiado]);
         if (!c.personagem) { arqs.push(chiado); continue; }
-        const v = await clipe(browser, c.personagem, c.humor, envSintetico(c.narracao, secs), path.join(tmp, 'p' + (i + 1) + '.mp4'));
+        const v = await clipeDe(browser, r, i, envSintetico(c.narracao, secs), path.join(tmp, 'p' + (i + 1) + '.mp4'));
         const mv = path.join(tmp, 'cena_' + (i + 1) + '.mp4');
         run('ffmpeg', ['-y', '-loglevel', 'error', '-i', v, '-i', chiado, '-map', '0:v', '-map', '1:a', '-c:v', 'copy', '-c:a', 'aac', '-shortest', mv]);
         arqs.push(mv);
@@ -145,7 +217,7 @@ function tiktok(raiz, extra) {
         const c = r.cenas[i], a = AUDIOS[i];
         if (!c || !c.personagem) { arqs.push(a); continue; }
         const env = envAudio(a);
-        const v = await clipe(browser, c.personagem, c.humor, env, path.join(tmp, 'p' + (i + 1) + '.mp4'));
+        const v = await clipeDe(browser, r, i, env, path.join(tmp, 'p' + (i + 1) + '.mp4'));
         const mv = path.join(tmp, 'cena_' + (i + 1) + '.mp4');
         run('ffmpeg', ['-y', '-loglevel', 'error', '-i', v, '-i', a, '-map', '0:v', '-map', '1:a:0', '-c:v', 'copy', '-c:a', 'aac', '-ar', '48000', '-shortest', mv]);
         arqs.push(mv);
