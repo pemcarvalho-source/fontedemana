@@ -1,6 +1,7 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "Cultivate",
   "Goblin Bombardment",
   "The Borg Queen",
   "Hearthhull, the Worldseed",
@@ -47,6 +48,13 @@ window.MANA_POOL_INDEX = {
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 49,
+   "date": "2026-11-23",
+   "dateLabel": "Segunda-feira, 23 de novembro de 2026",
+   "head": "Dia calmo no Multiverso",
+   "biome": "W"
+  },
   {
    "n": 48,
    "date": "2026-11-22",
@@ -256,13 +264,6 @@ window.MANA_POOL_INDEX = {
    "dateLabel": "Sábado, 24 de outubro de 2026",
    "head": "Weekly Winners: Radiant Solar sobe 30% com deck de cEDH da Dack Fayden",
    "biome": "W"
-  },
-  {
-   "n": 18,
-   "date": "2026-10-23",
-   "dateLabel": "Sexta, 23 de outubro de 2026",
-   "head": "Georgiou, Terran Emperor deixa você jogar com vida negativa",
-   "biome": "B"
   }
  ]
 };
