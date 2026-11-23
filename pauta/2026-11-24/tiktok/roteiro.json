@@ -1,0 +1,76 @@
+{
+ "data": "2026-11-24",
+ "pilar": "dicionario",
+ "tema": "Dicionário do Commander #10: o que é planeswalker, o nome da série da Netflix",
+ "item": "Planeswalker",
+ "arte": "pauta/2026-11-24/tiktok/arte.jpg",
+ "carta": "pauta/2026-11-24/tiktok/carta.jpg",
+ "credito": "Arte: Chandra, Torch of Defiance, Magali Villeneuve",
+ "fx": "Reais pela cotação de 19 nov (Banco Central, PTAX)",
+ "legenda": "Planeswalker no Commander: você sabe o que é? A série de Magic na Netflix tem esse nome, e na mesa ele é um tipo de carta que pode até ser atacado.\n\nNa história, é o mago com a centelha que viaja entre os planos. Na mesa, entra com marcadores de lealdade e usa uma habilidade por turno. E nem todo planeswalker pode ser comandante: só se a carta disser (Regras Abrangentes, 903.3a).\nChandra, Torch of Defiance sai por US$ 3,59 (R$ 21,14) no Scryfall e está em 73.808 decks no EDHREC. Reais pela cotação de 19 nov (Banco Central, PTAX).\n\nQual planeswalker você quer ver na série?\n\nMais termos da mesa em fontedemana.com.br\n\n#planeswalker #commander #mtg",
+ "comentario": "Qual planeswalker você quer ver na série da Netflix: Chandra, Jace, Liliana, Nissa ou outro? Toda terça tem um termo novo do Dicionário do Commander.",
+ "cenas": [
+  {
+   "tipo": "rosto",
+   "cor": "G",
+   "chip": "Dicionário #10",
+   "kicker": "A série da Netflix",
+   "titulo": "O que é um planeswalker?",
+   "narracao": "A série do Magic na Netflix é Planeswalker. Sabe o que é?",
+   "gravar": "Olha para a câmera com cara de pergunta; se tiver, mostra uma carta de planeswalker na mão, de costas, sem revelar ainda",
+   "segundos": 5
+  },
+  {
+   "tipo": "texto",
+   "cor": "G",
+   "kicker": "Na história",
+   "titulo": "Um mago com a centelha",
+   "sub": "Ele viaja entre os planos, os mundos do Magic.",
+   "rodape": "A Chandra, que protagoniza a série, é uma.",
+   "narracao": "Na história, é o mago com a centelha, que viaja entre os mundos do Magic.",
+   "segundos": 6.2
+  },
+  {
+   "tipo": "carta",
+   "cor": "R",
+   "kicker": "Na mesa",
+   "carta": "pauta/2026-11-24/tiktok/carta-1.jpg",
+   "valor": "US$ 3,59",
+   "real": "(R$ 21,14)",
+   "sub": "Entra com lealdade e usa uma habilidade por turno",
+   "fonte": "Scryfall; EDHREC, em 73.808 decks",
+   "narracao": "Na mesa, é uma carta com lealdade. Usa uma habilidade por turno.",
+   "segundos": 5
+  },
+  {
+   "tipo": "texto",
+   "cor": "R",
+   "kicker": "O porém",
+   "titulo": "Ele pode ser atacado",
+   "sub": "Cada dano tira um marcador de lealdade.",
+   "rodape": "Zerou, vai para o cemitério.",
+   "narracao": "E pode ser atacado. Cada dano tira lealdade. Zerou, morreu.",
+   "segundos": 4.3
+  },
+  {
+   "tipo": "carta",
+   "cor": "M",
+   "kicker": "O erro no Commander",
+   "carta": "pauta/2026-11-24/tiktok/carta-2.jpg",
+   "titulo": "Nem todo vira comandante",
+   "sub": "Só se a carta disser que pode ser seu comandante",
+   "fonte": "Regras Abrangentes, 903.3a",
+   "narracao": "Nem todo planeswalker vira comandante. Só se a carta disser.",
+   "segundos": 4.3
+  },
+  {
+   "tipo": "rosto",
+   "cor": "M",
+   "kicker": "E na série?",
+   "titulo": "Qual você quer ver?",
+   "narracao": "Qual planeswalker você quer ver na série?",
+   "gravar": "Volta para a câmera, sorri e abre as mãos, como quem pergunta para a mesa",
+   "segundos": 3.2
+  }
+ ]
+}

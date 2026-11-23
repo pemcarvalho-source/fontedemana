@@ -1,0 +1,96 @@
+{
+ "data": "2026-11-24",
+ "fx": "Valores em reais pela cotação de 19 nov (Banco Central, PTAX).",
+ "avisos": [
+  {
+   "id": "gravacao",
+   "dia": "2026-11-23",
+   "hora": "19:15",
+   "rede": "Gravação",
+   "titulo": "Gravar o vídeo de amanhã (você aparece)",
+   "oQue": "Dicionário do Commander #10: o que é planeswalker, o nome da série de Magic na Netflix. Você aparece nas cenas 1 e 6; nas outras, só a voz.",
+   "arquivos": [
+    {
+     "nome": "Vídeo mudo do TikTok",
+     "url": "https://fontedemana.com.br/pauta/2026-11-24/tiktok/tiktok-mudo.mp4"
+    }
+   ],
+   "roteiro": [
+    {
+     "cena": "Cena 1, rosto, uns 5 s",
+     "tela": "O que é um planeswalker?",
+     "fala": "A série do Magic na Netflix é Planeswalker. Sabe o que é?",
+     "como": "Rosto: Olha para a câmera com cara de pergunta; se tiver, mostra uma carta de planeswalker na mão, de costas, sem revelar ainda"
+    },
+    {
+     "cena": "Cena 2, só a voz, uns 6 s",
+     "tela": "Um mago com a centelha",
+     "fala": "Na história, é o mago com a centelha, que viaja entre os mundos do Magic.",
+     "como": "Só a voz: pode gravar em vídeo ou áudio"
+    },
+    {
+     "cena": "Cena 3, só a voz, uns 5 s",
+     "tela": "Entra com lealdade e usa uma habilidade por turno",
+     "fala": "Na mesa, é uma carta com lealdade. Usa uma habilidade por turno.",
+     "como": "Só a voz: pode gravar em vídeo ou áudio"
+    },
+    {
+     "cena": "Cena 4, só a voz, uns 4 s",
+     "tela": "Ele pode ser atacado",
+     "fala": "E pode ser atacado. Cada dano tira lealdade. Zerou, morreu.",
+     "como": "Só a voz: pode gravar em vídeo ou áudio"
+    },
+    {
+     "cena": "Cena 5, só a voz, uns 4 s",
+     "tela": "Nem todo vira comandante: Só se a carta disser que pode ser seu comandante",
+     "fala": "Nem todo planeswalker vira comandante. Só se a carta disser.",
+     "como": "Só a voz: pode gravar em vídeo ou áudio"
+    },
+    {
+     "cena": "Cena 6, rosto, uns 3 s",
+     "tela": "Qual você quer ver?",
+     "fala": "Qual planeswalker você quer ver na série?",
+     "como": "Rosto: Volta para a câmera, sorri e abre as mãos, como quem pergunta para a mesa"
+    }
+   ],
+   "passos": [
+    "Celular na vertical, câmera da frente, na altura dos olhos, a um braço de distância.",
+    "Rosto na metade de cima da tela: o título entra embaixo dele, na altura do peito.",
+    "Luz de frente (de frente para a janela) e fundo arrumado; a estante de cartas é ótima.",
+    "Desligue o Vídeo HDR (Ajustes, Câmera, Gravar Vídeo) para as cores não lavarem.",
+    "Um vídeo por cena, falando para a câmera, com meio segundo de silêncio antes e depois; nomeie cena_1, cena_2... e mande todos juntos.",
+    "Nas cenas sem rosto, só a voz conta: pode gravar em vídeo ou só o áudio.",
+    "Mande os vídeos ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"vídeos do TikTok de 2026-11-24\"."
+   ]
+  },
+  {
+   "id": "tiktok",
+   "hora": "11:30",
+   "rede": "TikTok",
+   "titulo": "Postar o Dicionário #10: planeswalker",
+   "oQue": "Vídeo do Dicionário do Commander sobre planeswalker, o termo que dá nome à série da Netflix. O mesmo vídeo e a mesma legenda vão para o Reels das 19:00.",
+   "arquivos": [
+    {
+     "nome": "Vídeo do TikTok (mudo)",
+     "url": "https://fontedemana.com.br/pauta/2026-11-24/tiktok/tiktok-mudo.mp4"
+    }
+   ],
+   "textos": [
+    {
+     "rotulo": "Legenda",
+     "texto": "Planeswalker no Commander: você sabe o que é? A série de Magic na Netflix tem esse nome, e na mesa ele é um tipo de carta que pode até ser atacado.\n\nNa história, é o mago com a centelha que viaja entre os planos. Na mesa, entra com marcadores de lealdade e usa uma habilidade por turno. E nem todo planeswalker pode ser comandante: só se a carta disser (Regras Abrangentes, 903.3a).\nChandra, Torch of Defiance sai por US$ 3,59 (R$ 21,14) no Scryfall e está em 73.808 decks no EDHREC. Reais pela cotação de 19 nov (Banco Central, PTAX).\n\nQual planeswalker você quer ver na série?\n\nMais termos da mesa em fontedemana.com.br\n\n#planeswalker #commander #mtg"
+    },
+    {
+     "rotulo": "Comentário fixado",
+     "texto": "Qual planeswalker você quer ver na série da Netflix: Chandra, Jace, Liliana, Nissa ou outro? Toda terça tem um termo novo do Dicionário do Commander."
+    }
+   ],
+   "passos": [
+    "Poste com um som em alta da biblioteca do TikTok, com volume entre 15% e 20%.",
+    "Voz própria não precisa de rótulo de IA.",
+    "Fixe o comentário logo depois de postar.",
+    "Se os vídeos da narração não chegarem, poste o vídeo mudo com uma música em alta."
+   ]
+  }
+ ]
+}

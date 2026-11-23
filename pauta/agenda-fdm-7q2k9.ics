@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-11-20-gravacao@fontedemana.com.br
-DTSTAMP:20261123T102126Z
+DTSTAMP:20261123T213154Z
 DTSTART:20261119T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de 20/11 (você aparece)
@@ -68,7 +68,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-20-tiktok@fontedemana.com.br
-DTSTAMP:20261123T102126Z
+DTSTAMP:20261123T213154Z
 DTSTART:20261120T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Abri o precon Prismari Artistry
@@ -109,7 +109,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-20-collab-mulligan@fontedemana.com.br
-DTSTAMP:20261123T102126Z
+DTSTAMP:20261123T213154Z
 DTSTART:20261120T145000Z
 DURATION:PT15M
 SUMMARY:11:50 Instagram feed: Collab com a Mulligan no carrossel e no Reels
@@ -133,7 +133,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-20-threads-manha@fontedemana.com.br
-DTSTAMP:20261123T102126Z
+DTSTAMP:20261123T213154Z
 DTSTART:20261120T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Abri o precon Prismari Artistry: o que vem n
@@ -159,7 +159,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-20-feed@fontedemana.com.br
-DTSTAMP:20261123T102126Z
+DTSTAMP:20261123T213154Z
 DTSTART:20261120T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Deck em 40 segundos: Abri o precon Prismari A
@@ -205,7 +205,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-20-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261123T102126Z
+DTSTAMP:20261123T213154Z
 DTSTART:20261120T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -224,7 +224,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-20-stories-tarde@fontedemana.com.br
-DTSTAMP:20261123T102126Z
+DTSTAMP:20261123T213154Z
 DTSTART:20261120T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -244,7 +244,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-20-reels@fontedemana.com.br
-DTSTAMP:20261123T102126Z
+DTSTAMP:20261123T213154Z
 DTSTART:20261120T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Abri o precon Prismari Artistry: o qu
@@ -288,7 +288,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-20-comentarios@fontedemana.com.br
-DTSTAMP:20261123T102126Z
+DTSTAMP:20261123T213154Z
 DTSTART:20261121T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -310,7 +310,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-21-gravacao@fontedemana.com.br
-DTSTAMP:20261123T102126Z
+DTSTAMP:20261123T213154Z
 DTSTART:20261119T224500Z
 DURATION:PT15M
 SUMMARY:19:45 Gravação: Gravar o vídeo de 21/11 (você aparece)
@@ -366,7 +366,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-21-tiktok@fontedemana.com.br
-DTSTAMP:20261123T102126Z
+DTSTAMP:20261123T213154Z
 DTSTART:20261121T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Do zero à mesa #4: double sleeve
@@ -405,7 +405,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-21-threads-manha@fontedemana.com.br
-DTSTAMP:20261123T102126Z
+DTSTAMP:20261123T213154Z
 DTSTART:20261121T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Do zero à mesa #4: double sleeve com as sle
@@ -430,7 +430,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-21-feed@fontedemana.com.br
-DTSTAMP:20261123T102126Z
+DTSTAMP:20261123T213154Z
 DTSTART:20261121T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Vitrine de acessórios: Do zero à mesa #4: d
@@ -476,7 +476,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-21-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261123T102126Z
+DTSTAMP:20261123T213154Z
 DTSTART:20261121T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -495,7 +495,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-21-stories-tarde@fontedemana.com.br
-DTSTAMP:20261123T102126Z
+DTSTAMP:20261123T213154Z
 DTSTART:20261121T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -515,7 +515,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-21-reels@fontedemana.com.br
-DTSTAMP:20261123T102126Z
+DTSTAMP:20261123T213154Z
 DTSTART:20261122T000000Z
 DURATION:PT15M
 SUMMARY:21:00 Reels: Vídeo original: Do zero à mesa #4: double sleeve com
@@ -558,7 +558,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-21-comentarios@fontedemana.com.br
-DTSTAMP:20261123T102126Z
+DTSTAMP:20261123T213154Z
 DTSTART:20261122T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -580,7 +580,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-22-gravacao@fontedemana.com.br
-DTSTAMP:20261123T102126Z
+DTSTAMP:20261123T213154Z
 DTSTART:20261120T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Gravação: Gravar o vídeo de 22/11 (você aparece)
@@ -634,7 +634,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-22-netflix-stories@fontedemana.com.br
-DTSTAMP:20261123T102126Z
+DTSTAMP:20261123T213154Z
 DTSTART:20261122T123000Z
 DURATION:PT15M
 SUMMARY:09:30 Instagram Stories: Planeswalker\, a série de Magic na Netfli
@@ -662,7 +662,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-22-threads-manha@fontedemana.com.br
-DTSTAMP:20261123T102126Z
+DTSTAMP:20261123T213154Z
 DTSTART:20261122T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Debate da semana #2: Universes Beyond no Com
@@ -688,7 +688,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-22-tiktok@fontedemana.com.br
-DTSTAMP:20261123T102126Z
+DTSTAMP:20261123T213154Z
 DTSTART:20261122T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Debate da semana #2: Universes Beyond no Commander
@@ -722,7 +722,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-22-feed@fontedemana.com.br
-DTSTAMP:20261123T102126Z
+DTSTAMP:20261123T213154Z
 DTSTART:20261122T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Debate da semana #2: Universes Beyond no Comm
@@ -764,7 +764,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-22-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261123T102126Z
+DTSTAMP:20261123T213154Z
 DTSTART:20261122T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -783,7 +783,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-22-stories-tarde@fontedemana.com.br
-DTSTAMP:20261123T102126Z
+DTSTAMP:20261123T213154Z
 DTSTART:20261122T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -803,7 +803,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-22-netflix-threads@fontedemana.com.br
-DTSTAMP:20261123T102126Z
+DTSTAMP:20261123T213154Z
 DTSTART:20261122T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Threads: Planeswalker no Threads: quem você quer ver na sér
@@ -832,7 +832,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-22-reels@fontedemana.com.br
-DTSTAMP:20261123T102126Z
+DTSTAMP:20261123T213154Z
 DTSTART:20261122T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Debate da semana #2: Universes Beyond
@@ -870,7 +870,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-22-comentarios@fontedemana.com.br
-DTSTAMP:20261123T102126Z
+DTSTAMP:20261123T213154Z
 DTSTART:20261123T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -892,7 +892,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-23-gravacao@fontedemana.com.br
-DTSTAMP:20261123T102126Z
+DTSTAMP:20261123T213154Z
 DTSTART:20261122T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -946,7 +946,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-23-tiktok@fontedemana.com.br
-DTSTAMP:20261123T102126Z
+DTSTAMP:20261123T213154Z
 DTSTART:20261123T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o TikTok: Treta das Cores #2
@@ -979,7 +979,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-23-threads-manha@fontedemana.com.br
-DTSTAMP:20261123T102126Z
+DTSTAMP:20261123T213154Z
 DTSTART:20261123T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Chama o Juiz #8: Mindslaver te deu o turno d
@@ -1004,7 +1004,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-23-feed@fontedemana.com.br
-DTSTAMP:20261123T102126Z
+DTSTAMP:20261123T213154Z
 DTSTART:20261123T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Chama o Juiz #8: Mindslaver te deu o turno de
@@ -1042,7 +1042,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-23-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261123T102126Z
+DTSTAMP:20261123T213154Z
 DTSTART:20261123T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -1061,7 +1061,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-23-stories-tarde@fontedemana.com.br
-DTSTAMP:20261123T102126Z
+DTSTAMP:20261123T213154Z
 DTSTART:20261123T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1081,7 +1081,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-23-reels@fontedemana.com.br
-DTSTAMP:20261123T102126Z
+DTSTAMP:20261123T213154Z
 DTSTART:20261123T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Treta das Cores #2: hexproof salva o 
@@ -1119,7 +1119,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-23-comentarios@fontedemana.com.br
-DTSTAMP:20261123T102126Z
+DTSTAMP:20261123T213154Z
 DTSTART:20261124T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1136,6 +1136,88 @@ URL:https://fontedemana.com.br/pauta/2026-11-23/#comentarios
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Comentários: Responder os comentários de hoje e de ontem
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-24-gravacao@fontedemana.com.br
+DTSTAMP:20261123T213154Z
+DTSTART:20261123T221500Z
+DURATION:PT15M
+SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
+DESCRIPTION:Dicionário do Commander #10: o que é planeswalker\, o nome da
+  série de Magic na Netflix. Você aparece nas cenas 1 e 6\; nas outras\, 
+ só a voz.\n\nArquivos:\n- Vídeo mudo do TikTok: https://fontedemana.com.
+ br/pauta/2026-11-24/tiktok/tiktok-mudo.mp4\n\nRoteiro de gravação:\nCena
+  1\, rosto\, uns 5 s\nNa tela: O que é um planeswalker?\nComo gravar: Ros
+ to: Olha para a câmera com cara de pergunta\; se tiver\, mostra uma carta
+  de planeswalker na mão\, de costas\, sem revelar ainda\nFala: A série d
+ o Magic na Netflix é Planeswalker. Sabe o que é?\n\nCena 2\, só a voz\,
+  uns 6 s\nNa tela: Um mago com a centelha\nComo gravar: Só a voz: pode gr
+ avar em vídeo ou áudio\nFala: Na história\, é o mago com a centelha\, 
+ que viaja entre os mundos do Magic.\n\nCena 3\, só a voz\, uns 5 s\nNa te
+ la: Entra com lealdade e usa uma habilidade por turno\nComo gravar: Só a 
+ voz: pode gravar em vídeo ou áudio\nFala: Na mesa\, é uma carta com lea
+ ldade. Usa uma habilidade por turno.\n\nCena 4\, só a voz\, uns 4 s\nNa t
+ ela: Ele pode ser atacado\nComo gravar: Só a voz: pode gravar em vídeo o
+ u áudio\nFala: E pode ser atacado. Cada dano tira lealdade. Zerou\, morre
+ u.\n\nCena 5\, só a voz\, uns 4 s\nNa tela: Nem todo vira comandante: Só
+  se a carta disser que pode ser seu comandante\nComo gravar: Só a voz: po
+ de gravar em vídeo ou áudio\nFala: Nem todo planeswalker vira comandante
+ . Só se a carta disser.\n\nCena 6\, rosto\, uns 3 s\nNa tela: Qual você 
+ quer ver?\nComo gravar: Rosto: Volta para a câmera\, sorri e abre as mão
+ s\, como quem pergunta para a mesa\nFala: Qual planeswalker você quer ver
+  na série?\n\n\nPasso a passo:\n1. Celular na vertical\, câmera da frent
+ e\, na altura dos olhos\, a um braço de distância.\n2. Rosto na metade d
+ e cima da tela: o título entra embaixo dele\, na altura do peito.\n3. Luz
+  de frente (de frente para a janela) e fundo arrumado\; a estante de carta
+ s é ótima.\n4. Desligue o Vídeo HDR (Ajustes\, Câmera\, Gravar Vídeo)
+  para as cores não lavarem.\n5. Um vídeo por cena\, falando para a câme
+ ra\, com meio segundo de silêncio antes e depois\; nomeie cena_1\, cena_2
+ ... e mande todos juntos.\n6. Nas cenas sem rosto\, só a voz conta: pode 
+ gravar em vídeo ou só o áudio.\n7. Mande os vídeos ao Claude no projet
+ o MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo "v
+ ídeos do TikTok de 2026-11-24".\n\nPauta completa: https://fontedemana.co
+ m.br/pauta/2026-11-24/#gravacao
+URL:https://fontedemana.com.br/pauta/2026-11-24/#gravacao
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Gravação: Gravar o vídeo de amanhã (você aparece)
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-24-tiktok@fontedemana.com.br
+DTSTAMP:20261123T213154Z
+DTSTART:20261124T143000Z
+DURATION:PT15M
+SUMMARY:11:30 TikTok: Postar o Dicionário #10: planeswalker
+DESCRIPTION:Vídeo do Dicionário do Commander sobre planeswalker\, o termo
+  que dá nome à série da Netflix. O mesmo vídeo e a mesma legenda vão 
+ para o Reels das 19:00.\n\nArquivos:\n- Vídeo do TikTok (mudo): https://f
+ ontedemana.com.br/pauta/2026-11-24/tiktok/tiktok-mudo.mp4\n\nLegenda:\nPla
+ neswalker no Commander: você sabe o que é? A série de Magic na Netflix 
+ tem esse nome\, e na mesa ele é um tipo de carta que pode até ser atacad
+ o.\n\nNa história\, é o mago com a centelha que viaja entre os planos. N
+ a mesa\, entra com marcadores de lealdade e usa uma habilidade por turno. 
+ E nem todo planeswalker pode ser comandante: só se a carta disser (Regras
+  Abrangentes\, 903.3a).\nChandra\, Torch of Defiance sai por US$ 3\,59 (R$
+  21\,14) no Scryfall e está em 73.808 decks no EDHREC. Reais pela cotaç
+ ão de 19 nov (Banco Central\, PTAX).\n\nQual planeswalker você quer ver 
+ na série?\n\nMais termos da mesa em fontedemana.com.br\n\n#planeswalker #
+ commander #mtg\n\nComentário fixado:\nQual planeswalker você quer ver na
+  série da Netflix: Chandra\, Jace\, Liliana\, Nissa ou outro? Toda terça
+  tem um termo novo do Dicionário do Commander.\n\nPasso a passo:\n1. Post
+ e com um som em alta da biblioteca do TikTok\, com volume entre 15% e 20%.
+ \n2. Voz própria não precisa de rótulo de IA.\n3. Fixe o comentário lo
+ go depois de postar.\n4. Se os vídeos da narração não chegarem\, poste
+  o vídeo mudo com uma música em alta.\n\nValores em reais pela cotação
+  de 19 nov (Banco Central\, PTAX).\n\nPauta completa: https://fontedemana.
+ com.br/pauta/2026-11-24/#tiktok
+URL:https://fontedemana.com.br/pauta/2026-11-24/#tiktok
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:TikTok: Postar o Dicionário #10: planeswalker
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
