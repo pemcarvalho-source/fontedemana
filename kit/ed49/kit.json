@@ -1,0 +1,104 @@
+{
+ "n": 49,
+ "data": "23 nov",
+ "carrossel": {
+  "capa": {
+   "cor": "W",
+   "titulo": "Segunda calma, Cultivate na mesa",
+   "sub": "Nenhum fato novo nesta segunda. A <b>Festa de Commander de Star Trek</b> segue até 26 de novembro e no Topdeck tem ramp de centavos.",
+   "credito": "Arte: Silence, Wayne Reynolds"
+  },
+  "cartoes": [
+   {
+    "cor": "W",
+    "titulo": "O que vem nos próximos dias",
+    "itens": [
+     {"cor": "W", "html": "<b>até 26 nov</b>: primeira rodada da Festa de Commander de Star Trek."},
+     {"cor": "A", "html": "<b>até 30 nov</b>: venda do Secret Lair do Extra Life."},
+     {"cor": "A", "html": "<b>30 nov</b>: venda do Secret Lair de Duna, às 14h de Brasília."},
+     {"cor": "B", "html": "<b>30 nov</b>: próxima janela de banimentos do Commander."}
+    ],
+    "fonte": "Fontes: Wizards e WPN"
+   }
+  ],
+  "topdeck": {
+   "titulo": "Cultivate",
+   "habilidades": [
+    {"rotulo": "Um terreno agora", "texto": "Busca um básico e coloca no campo, virado. No turno seguinte, uma mana a mais."},
+    {"rotulo": "Outro na mão", "texto": "O segundo básico vai para a mão e garante a próxima jogada de terreno."},
+    {"rotulo": "Conserta a cor", "texto": "Busca dois básicos de tipos diferentes e destrava deck de três cores."}
+   ],
+   "extra": "Está em <b>2 milhões de decks</b> no EDHREC. US$ 0,31 (R$ 1,83) no Scryfall. Reais: cotação PTAX de 19 nov",
+   "credito": "Ilustração de Ariel Orea"
+  },
+  "ban": {
+   "numero": "7",
+   "unidade": "DIAS",
+   "texto": "Para a próxima janela de banimentos, em 30 de novembro, o mesmo dia da venda do Secret Lair de Duna."
+  },
+  "turnos": [
+   {"cor": "W", "data": "até 26 nov", "texto": "Festa de Commander de Star Trek"},
+   {"cor": "A", "data": "30 nov", "texto": "Venda do Secret Lair de Duna"},
+   {"cor": "B", "data": "30 nov", "texto": "Janela de banimentos"},
+   {"cor": "A", "data": "9 dez", "texto": "Nova janela do Zeta Set"},
+   {"cor": "W", "data": "11 dez", "texto": "2ª rodada da Festa de Star Trek"}
+  ],
+  "sussurro": null
+ },
+ "video": {
+  "cena1": {
+   "titulo": "Segunda calma, Cultivate na mesa",
+   "pilulas": ["Festa de Star Trek", "Cultivate no Topdeck", "Ban em 7 dias"]
+  },
+  "cena2": {
+   "rotulo": "Agenda",
+   "cor": "W",
+   "titulo": "O que vem nos próximos dias",
+   "itens": [
+    "Até 26 nov: Festa de Commander de Star Trek.",
+    "30 nov: venda do Secret Lair de Duna, às 14h.",
+    "30 nov: próxima janela de banimentos."
+   ],
+   "fonte": "Fontes: Wizards e WPN"
+  },
+  "cena3": {
+   "linhas": [
+    "<b>Cultivate</b> busca dois terrenos básicos por 3 manas.",
+    "Um vai para o campo e o outro para a mão.",
+    "Está em 2 milhões de decks e custa centavos."
+   ]
+  },
+  "cena4": {
+   "texto": "Faltam 7 dias para 30 de novembro, dia da janela de banimentos e da venda de Duna.",
+   "sussurro": null
+  }
+ },
+ "textos": {
+  "legendaCarrossel": "Commander, Magic e Festa de Commander de Star Trek: segunda calma, sem fato novo confirmado.\n\nA primeira rodada da Festa de Commander de Star Trek segue até 26 de novembro nas lojas. Em 30 de novembro tem venda do Secret Lair de Duna, às 14h de Brasília, e a próxima janela de banimentos do Commander, no mesmo dia.\n\nNo Topdeck do Dia, Cultivate, o feitiço verde de 3 manas. Ele busca dois terrenos básicos: um entra no campo virado e o outro vai para a mão. Em deck de três cores, é o que acerta a mana do comandante. Está em 2 milhões de decks no EDHREC e a versão de Star Trek, com o Sulu na arte, sai a US$ 0,31 (R$ 1,83) no Scryfall. Ramp bom e barato na semana de Black Friday.\n\nCultivate ainda tem vaga no seu deck ou você já trocou por outro ramp?\n\nEdição completa em fontedemana.com.br\n\nArte da capa: Silence, Wayne Reynolds. Topdeck: Cultivate, Ariel Orea.\n\nValores em reais pela cotação de 19 nov (Banco Central, PTAX).\n\n#ramp #commander #mtg",
+  "legendaVideo": "Commander e Magic numa segunda calma: a Festa de Commander de Star Trek segue até 26 de novembro e faltam 7 dias para a janela de banimentos.\n\nNo Topdeck, Cultivate, que busca dois terrenos básicos por 3 manas e está em 2 milhões de decks no EDHREC.\n\nQual é o seu ramp favorito no turno 3?\n\nTudo em fontedemana.com.br\n\n#ramp #commander #mtg",
+  "threadsPost": "Segunda calma no Commander, sem fato novo confirmado. No Topdeck, Cultivate: por 3 manas, busca dois terrenos básicos, um vai para o campo virado e o outro para a mão. Está em 2 milhões de decks no EDHREC e a versão de Star Trek sai a US$ 0,31 (R$ 1,83). Ainda tem vaga no seu deck? fontedemana.com.br\nValores em reais pela cotação de 19 nov (Banco Central, PTAX).",
+  "threadsFio": [
+   "Segunda calma no Commander, sem fato novo confirmado. O Secret Lair de Duna e a janela de banimentos seguem marcados para 30 de novembro.",
+   "A primeira rodada da Festa de Commander de Star Trek vai até 26 de novembro nas lojas. A segunda é de 11 a 17 de dezembro.",
+   "No Topdeck do Dia, Cultivate. Por 3 manas, busca dois terrenos básicos: um entra no campo virado e o outro vai para a mão. Em deck de três cores, conserta a mana do comandante.",
+   "Está em 2 milhões de decks no EDHREC, em 65% dos decks do Blor the Impervious, e a versão de Star Trek sai a US$ 0,31 (R$ 1,83) no Scryfall.",
+   "Faltam 7 dias para a janela de banimentos de 30 de novembro. Edição completa em fontedemana.com.br\nValores em reais pela cotação de 19 nov (Banco Central, PTAX)."
+  ],
+  "threadsAvulsos": [
+   {
+    "titulo": "Pergunta do dia",
+    "texto": "Cultivate está em 2 milhões de decks e custa centavos. Qual é o seu ramp de 3 manas preferido no Commander?",
+    "obs": "Pergunta aberta, sem enquete"
+   }
+  ]
+ },
+ "pauta": {
+  "forca": "calmo",
+  "porque": "Segunda sem fato novo sobre Commander; a Festa de Star Trek, Duna e o ban de 30 nov já estavam na agenda.",
+  "storyPergunta": "Qual é o seu ramp favorito no turno 3?",
+  "enquete": {
+   "pergunta": "Cultivate no seu deck?",
+   "opcoes": ["Já uso", "Vou colocar", "Prefiro outro ramp"]
+  }
+ }
+}
