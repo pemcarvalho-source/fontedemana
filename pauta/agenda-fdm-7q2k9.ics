@@ -8,309 +8,8 @@ X-WR-TIMEZONE:America/Sao_Paulo
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:fdm-2026-11-20-gravacao@fontedemana.com.br
-DTSTAMP:20261124T012930Z
-DTSTART:20261119T221500Z
-DURATION:PT15M
-SUMMARY:19:15 Gravação: Gravar o vídeo de 20/11 (você aparece)
-DESCRIPTION:1 de 3 gravações da noite (20\, 21 e 22/11). Abertura do prec
- on Prismari Artistry\, em parceria com a Mulligan: você aparece abrindo a
-  caixa\, mostrando os dois comandantes e dando a opinião no fim\; as outr
- as cenas são só a sua voz.\n\nArquivos:\n- Vídeo mudo do TikTok: https:
- //fontedemana.com.br/pauta/2026-11-20/tiktok/tiktok-mudo.mp4\n\nRoteiro de
-  gravação:\nCena 1\, rosto\, uns 4 s\nNa tela: Prismari Artistry\, R$ 43
- 8 fechado. Abri o meu\nComo gravar: Rosto: Segura a caixa lacrada do Prism
- ari Artistry na altura do peito e começa a abrir enquanto fala.\nFala: Es
- se precon sai por 438 reais fechado. Abri o meu.\n\nCena 2\, rosto\, uns 5
-  s\nNa tela: Os comandantes\, Dois foil sem borda\nComo gravar: Rosto: Tir
- a da caixa as duas cartas foil dos comandantes e mostra uma em cada mão\,
-  perto da câmera.\nFala: Dentro\, dois comandantes em foil sem borda: a R
- ootha e o Muddle.\n\nCena 3\, só a voz\, uns 6 s\nNa tela: Passo 1: mági
- ca cara\, Rootha\, Mastering the Moment\, Mágica cara vira Elemental voad
- or do mesmo tamanho.\nComo gravar: Só a voz: pode gravar em vídeo ou áu
- dio\nFala: Primeiro\, mágica cara. A Rootha cria um Elemental voador do m
- esmo tamanho\, com ímpeto.\n\nCena 4\, só a voz\, uns 6 s\nNa tela: Pass
- o 2: mana\, Goldspan Dragon\, Ataca e faz Tesouro que dá duas manas.\nCom
- o gravar: Só a voz: pode gravar em vídeo ou áudio\nFala: Pra pagar\, o 
- Goldspan Dragon: cada ataque faz um Tesouro que dá duas manas.\n\nCena 5\
- , só a voz\, uns 6 s\nNa tela: Passo 3: o ataque\, Muddle\, the Ever-Chan
- ging\, Vira cópia do Elemental e ataca todo mundo.\nComo gravar: Só a vo
- z: pode gravar em vídeo ou áudio\nFala: No ataque\, o Muddle vira cópia
-  do Elemental e manda um em cada oponente.\n\nCena 6\, só a voz\, uns 5 s
- \nNa tela: Quanto vale hoje\, As 100 cartas US$ 88\,20 (R$ 498\,49)\, Fech
- ado\, LigaMagic R$ 438\,53\nComo gravar: Só a voz: pode gravar em vídeo 
- ou áudio\nFala: As cartas somam uns 88 dólares\, uns 498 reais. Fechado\
- , sai por 438.\n\nCena 7\, rosto\, uns 5 s\nNa tela: Vale abrir?\, Rootha 
- ou Muddle?\nComo gravar: Rosto: Com o deck aberto na mesa e os dois comand
- antes na mão\, dá a opinião olhando para a câmera.\nFala: Pra quem gos
- ta de mágica grande\, vale. Rootha ou Muddle no comando?\n\n\nPasso a pas
- so:\n1. Celular na vertical\, câmera da frente\, na altura dos olhos\, a 
- um braço de distância.\n2. Rosto na metade de cima da tela: o título en
- tra embaixo dele\, na altura do peito.\n3. Luz de frente (de frente para a
-  janela) e fundo arrumado\; a estante de cartas é ótima.\n4. Desligue o 
- Vídeo HDR (Ajustes\, Câmera\, Gravar Vídeo) para as cores não lavarem.
- \n5. Um vídeo por cena\, falando para a câmera\, com meio segundo de sil
- êncio antes e depois\; nomeie cena_1\, cena_2... e mande todos juntos.\n6
- . Nas cenas sem rosto\, só a voz conta: pode gravar em vídeo ou só o á
- udio.\n7. Tenha o precon lacrado na mão: a cena 1 é a abertura de verdad
- e\, então abra a caixa só quando estiver gravando.\n8. Deixe os dois com
- andantes foil por cima do deck para tirar na cena 2.\n9. Mande os vídeos 
- ao Claude no projeto MGT strategy\, na conversa da gravação adiantada\, 
- dizendo "vídeos do TikTok de 2026-11-20".\n\nValores em reais pela cotaç
- ão de 19 nov\, US$ 1 = R$ 5\,8889 (Banco Central\, PTAX).\n\nPauta comple
- ta: https://fontedemana.com.br/pauta/2026-11-20/#gravacao
-URL:https://fontedemana.com.br/pauta/2026-11-20/#gravacao
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Gravação: Gravar o vídeo de 20/11 (você aparece)
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-20-tiktok@fontedemana.com.br
-DTSTAMP:20261124T012930Z
-DTSTART:20261120T143000Z
-DURATION:PT15M
-SUMMARY:11:30 TikTok: Abri o precon Prismari Artistry
-DESCRIPTION:O precon de Strixhaven aberto: o que vem na caixa\, o plano em 
- três passos e quanto valem as cartas\, em parceria com a Mulligan.\n\nArq
- uivos:\n- Vídeo do TikTok narrado: https://fontedemana.com.br/pauta/2026-
- 11-20/tiktok/tiktok-narrado.mp4\n\nLegenda:\nPrecon de Commander Prismari 
- Artistry: o que vem na caixa e quanto ele vale hoje? Abri o meu\, em parce
- ria com a @mulliganjogos.\n\nO deck azul e vermelho de Secrets of Strixhav
- en vem com 100 cartas\, 10 inéditas\, e dois comandantes em foil sem bord
- a\, a Rootha e o Muddle. O plano: lançar mágica cara\, a Rootha transfor
- ma isso num Elemental voador do mesmo tamanho\, e o Muddle copia esse Elem
- ental para atacar todo mundo. Nenhuma carta da lista de Game Changers\, en
- tão joga no Bracket 2.\n\nAs 100 cartas somam US$ 88\,20 (R$ 498\,49) no 
- Scryfall\; a mais cara é a Faerie Mastermind. Fechado\, a média na LigaM
- agic é R$ 438\,53 (16 nov). Valor de mercado não é preço de venda.\n\n
- Rootha ou Muddle: qual você colocava no comando? Mais em fontedemana.com.
- br\n\nValores em reais pela cotação de 13 nov (Banco Central\, PTAX).\n\
- n#strixhaven #commander #mtg\n\nFonte de Mana is unofficial Fan Content pe
- rmitted under the Fan Content Policy. Not approved/endorsed by Wizards. Po
- rtions of the materials used are property of Wizards of the Coast. ©Wizar
- ds of the Coast LLC.\n\nComentário fixado:\nRootha ou Muddle: qual você 
- colocava no comando? Na quarta tem as sleeves e o deckbox que vieram junto
-  com esse deck.\n\nPasso a passo:\n1. No TikTok\, toque em + e escolha o v
- ídeo baixado daqui.\n2. Adicione um som em alta da biblioteca do TikTok c
- om volume entre 15% e 20%\, sem cobrir a voz.\n3. Voz própria não precis
- a de rótulo de IA.\n4. Marque a @mulliganjogos na legenda (já está escr
- ita) e\, se quiser\, a loja como local.\n5. Cole a Legenda e publique.\n6.
-  Fixe o comentário.\n\nValores em reais pela cotação de 19 nov\, US$ 1 
- = R$ 5\,8889 (Banco Central\, PTAX).\n\nPauta completa: https://fontedeman
- a.com.br/pauta/2026-11-20/#tiktok
-URL:https://fontedemana.com.br/pauta/2026-11-20/#tiktok
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:TikTok: Abri o precon Prismari Artistry
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-20-collab-mulligan@fontedemana.com.br
-DTSTAMP:20261124T012930Z
-DTSTART:20261120T145000Z
-DURATION:PT15M
-SUMMARY:11:50 Instagram feed: Collab com a Mulligan no carrossel e no Reels
-  de hoje
-DESCRIPTION:Hoje o carrossel das 12:00 e o Reels das 19:00 saem em Collab c
- om a @mulliganjogos: o post aparece no perfil da loja também. A loja prec
- isa aceitar o convite.\n\nPasso a passo:\n1. No carrossel das 12:00\, ante
- s de publicar\, toque em Marcar pessoas e depois em Convidar colaborador\;
-  escolha a @mulliganjogos.\n2. Faça o mesmo no Reels das 19:00.\n3. A leg
- enda já diz "em parceria com a @mulliganjogos"\; não escreva recebido ne
- m conte como os produtos chegaram.\n4. Se a loja aceitar e repostar\, resp
- onda o comentário ou o story dela.\n\nPauta completa: https://fontedemana
- .com.br/pauta/2026-11-20/#collab-mulligan
-URL:https://fontedemana.com.br/pauta/2026-11-20/#collab-mulligan
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram feed: Collab com a Mulligan no carrossel e no Reels d
- e hoje
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-20-threads-manha@fontedemana.com.br
-DTSTAMP:20261124T012930Z
-DTSTART:20261120T133000Z
-DURATION:PT15M
-SUMMARY:10:30 Threads: Debate: Abri o precon Prismari Artistry: o que vem n
- a caixa e quanto…
-DESCRIPTION:Post de debate do conteúdo original de hoje (Deck em 40 segund
- os) para puxar conversa.\n\nPost:\nPrecon de Commander: você abre para jo
- gar ou guarda lacrado? Abri o Prismari Artistry de Secrets of Strixhaven\,
-  que sai por R$ 438 fechado na LigaMagic\, e as 100 cartas somam US$ 88\,2
- 0 (R$ 498\,49). Tem gente que só compra para guardar\, tem gente que já 
- embaralha na loja. Qual é o seu caso?\n\nPasso a passo:\n1. Abra o Thread
- s e cole o Post.\n2. Dica: Enquete com as opções: Abro para jogar\, Guar
- do lacrado\n3. Toque em Adicionar tópico e escolha MTG.\n4. Publique e re
- sponda quem comentar na primeira hora.\n\nValores em reais pela cotação 
- de 19 nov\, US$ 1 = R$ 5\,8889 (Banco Central\, PTAX).\n\nPauta completa: 
- https://fontedemana.com.br/pauta/2026-11-20/#threads-manha
-URL:https://fontedemana.com.br/pauta/2026-11-20/#threads-manha
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Debate: Abri o precon Prismari Artistry: o que vem na 
- caixa e quanto…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-20-feed@fontedemana.com.br
-DTSTAMP:20261124T012930Z
-DTSTART:20261120T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram feed: Deck em 40 segundos: Abri o precon Prismari A
- rtistry: o que vem na…
-DESCRIPTION:Carrossel original de 7 imagens (Deck em 40 segundos): Abri o p
- recon Prismari Artistry: o que vem na caixa e quanto ele vale. Feito para 
- salvar e compartilhar.\n\nArquivos:\n- Imagem 1 de 7: https://fontedemana.
- com.br/pauta/2026-11-20/original/carrossel-01.jpg\n- Imagem 2 de 7: https:
- //fontedemana.com.br/pauta/2026-11-20/original/carrossel-02.jpg\n- Imagem 
- 3 de 7: https://fontedemana.com.br/pauta/2026-11-20/original/carrossel-03.
- jpg\n- Imagem 4 de 7: https://fontedemana.com.br/pauta/2026-11-20/original
- /carrossel-04.jpg\n- Imagem 5 de 7: https://fontedemana.com.br/pauta/2026-
- 11-20/original/carrossel-05.jpg\n- Imagem 6 de 7: https://fontedemana.com.
- br/pauta/2026-11-20/original/carrossel-06.jpg\n- Imagem 7 de 7: https://fo
- ntedemana.com.br/pauta/2026-11-20/original/carrossel-07.jpg\n\nLegenda:\nP
- recon de Commander Prismari Artistry: o que vem na caixa\, como o deck jog
- a e quanto vale hoje. Abri o meu\, em parceria com a @mulliganjogos.\n\nNa
-  caixa: 100 cartas prontas\, 10 delas inéditas\, dois comandantes em foil
-  sem borda (Rootha e Muddle)\, 10 fichas e a caixa do deck. Nenhuma carta 
- da lista de Game Changers: joga no Bracket 2.\n\nO plano em três passos: 
- mágica cara vira um Elemental voador com a Rootha\, o Goldspan Dragon faz
-  Tesouro para pagar e o Muddle copia o Elemental no ataque.\n\nAs 100 cart
- as somam US$ 88\,20 (R$ 498\,49) no Scryfall. Fechado\, a média na LigaMa
- gic é R$ 438\,53 (16 nov). Valor de mercado não é preço de venda.\n\nF
- ontes: Wizards\, Scryfall e LigaMagic. Mais em fontedemana.com.br\n\nRooth
- a ou Muddle: qual você colocava no comando?\n\nValores em reais pela cota
- ção de 13 nov (Banco Central\, PTAX).\n\n#strixhaven #commander #mtg\n\n
- Fonte de Mana is unofficial Fan Content permitted under the Fan Content Po
- licy. Not approved/endorsed by Wizards. Portions of the materials used are
-  property of Wizards of the Coast. ©Wizards of the Coast LLC.\n\nPasso a 
- passo:\n1. No Instagram\, toque em + e escolha Post.\n2. Selecione as 7 im
- agens na ordem\, da 1 à 7.\n3. Toque em Adicionar música e escolha uma e
- m alta que combine com o tema.\n4. Cole a Legenda e publique.\n\nValores e
- m reais pela cotação de 19 nov\, US$ 1 = R$ 5\,8889 (Banco Central\, PTA
- X).\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-20/#feed
-URL:https://fontedemana.com.br/pauta/2026-11-20/#feed
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram feed: Deck em 40 segundos: Abri o precon Prismari Art
- istry: o que vem na…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-20-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261124T012930Z
-DTSTART:20261120T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
-DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
- .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
- e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
- o do post: Rootha ou Muddle no comando? com Rootha e Muddle.\n3. Publique.
- \n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-20/#stories-m
- eio-dia
-URL:https://fontedemana.com.br/pauta/2026-11-20/#stories-meio-dia
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-20-stories-tarde@fontedemana.com.br
-DTSTAMP:20261124T012930Z
-DTSTART:20261120T180000Z
-DURATION:PT15M
-SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
-DESCRIPTION:Story com a imagem de Hearthhull\, the Worldseed no Topdeck do 
- Dia e o sticker de link para a edição completa.\n\nArquivos:\n- Topdeck 
- do Dia: https://fontedemana.com.br/kit/ed46/carrossel-03.jpg\n\nPasso a pa
- sso:\n1. Baixe a imagem e poste no Story.\n2. Adicione o sticker de Link p
- ara fontedemana.com.br com o texto Edição completa\, embaixo do texto do
-  Topdeck.\n3. Publique.\n\nPauta completa: https://fontedemana.com.br/paut
- a/2026-11-20/#stories-tarde
-URL:https://fontedemana.com.br/pauta/2026-11-20/#stories-tarde
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Topdeck do Dia com link
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-20-reels@fontedemana.com.br
-DTSTAMP:20261124T012930Z
-DTSTART:20261120T220000Z
-DURATION:PT15M
-SUMMARY:19:00 Reels: Vídeo original: Abri o precon Prismari Artistry: o qu
- e vem na caixa…
-DESCRIPTION:O vídeo original de hoje no Instagram\, o mesmo arquivo do Tik
- Tok\, já narrado. É o formato que mais chega a quem não segue.\n\nArqui
- vos:\n- Vídeo original narrado: https://fontedemana.com.br/pauta/2026-11-
- 20/tiktok/tiktok-narrado.mp4\n\nLegenda:\nPrecon de Commander Prismari Art
- istry: o que vem na caixa e quanto ele vale hoje? Abri o meu\, em parceria
-  com a @mulliganjogos.\n\nO deck azul e vermelho de Secrets of Strixhaven 
- vem com 100 cartas\, 10 inéditas\, e dois comandantes em foil sem borda\,
-  a Rootha e o Muddle. O plano: lançar mágica cara\, a Rootha transforma 
- isso num Elemental voador do mesmo tamanho\, e o Muddle copia esse Element
- al para atacar todo mundo. Nenhuma carta da lista de Game Changers\, entã
- o joga no Bracket 2.\n\nAs 100 cartas somam US$ 88\,20 (R$ 498\,49) no Scr
- yfall\; a mais cara é a Faerie Mastermind. Fechado\, a média na LigaMagi
- c é R$ 438\,53 (16 nov). Valor de mercado não é preço de venda.\n\nRoo
- tha ou Muddle: qual você colocava no comando? Mais em fontedemana.com.br\
- n\nValores em reais pela cotação de 13 nov (Banco Central\, PTAX).\n\n#s
- trixhaven #commander #mtg\n\nFonte de Mana is unofficial Fan Content permi
- tted under the Fan Content Policy. Not approved/endorsed by Wizards. Porti
- ons of the materials used are property of Wizards of the Coast. ©Wizards 
- of the Coast LLC.\n\nComentário fixado:\nRootha ou Muddle: qual você col
- ocava no comando? Na quarta tem as sleeves e o deckbox que vieram junto co
- m esse deck.\n\nPasso a passo:\n1. No Instagram\, toque em + e escolha Ree
- l.\n2. Escolha o vídeo baixado daqui\, nunca o salvo do TikTok (o Instagr
- am derruba vídeo com marca d'água).\n3. Em Áudio\, ponha uma música em
-  alta da biblioteca do Instagram com volume baixo (uns 10%)\, sem cobrir a
-  voz.\n4. Na capa\, use o primeiro quadro\, o do gancho.\n5. Cole a Legend
- a e publique.\n6. Fixe o comentário e responda quem comentar na primeira 
- hora.\n\nValores em reais pela cotação de 19 nov\, US$ 1 = R$ 5\,8889 (B
- anco Central\, PTAX).\n\nPauta completa: https://fontedemana.com.br/pauta/
- 2026-11-20/#reels
-URL:https://fontedemana.com.br/pauta/2026-11-20/#reels
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reels: Vídeo original: Abri o precon Prismari Artistry: o que 
- vem na caixa…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-20-comentarios@fontedemana.com.br
-DTSTAMP:20261124T012930Z
-DTSTART:20261121T003000Z
-DURATION:PT15M
-SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
-DESCRIPTION:Uns 10 minutos nas três redes: curtir e responder os comentár
- ios das últimas 48 horas\, começando pelo vídeo e pelo carrossel de hoj
- e. Conversa nos comentários leva a peça a mais gente\, e o Instagram rec
- omenda responder em até 2 dias.\n\nPasso a passo:\n1. Instagram: nas noti
- ficações\, curta os comentários e responda com uma frase quem perguntou
-  ou discordou.\n2. TikTok e Threads: o mesmo\, começando pelo post com ma
- is comentários.\n3. Pergunta boa ou dúvida que se repete\, nos comentár
- ios ou nas DMs? Mande na conversa do projeto: vira tema de um pilar.\n\nPa
- uta completa: https://fontedemana.com.br/pauta/2026-11-20/#comentarios
-URL:https://fontedemana.com.br/pauta/2026-11-20/#comentarios
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Comentários: Responder os comentários de hoje e de ontem
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fdm-2026-11-21-gravacao@fontedemana.com.br
-DTSTAMP:20261124T012930Z
+DTSTAMP:20261124T102139Z
 DTSTART:20261119T224500Z
 DURATION:PT15M
 SUMMARY:19:45 Gravação: Gravar o vídeo de 21/11 (você aparece)
@@ -366,7 +65,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-21-tiktok@fontedemana.com.br
-DTSTAMP:20261124T012930Z
+DTSTAMP:20261124T102139Z
 DTSTART:20261121T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Do zero à mesa #4: double sleeve
@@ -405,7 +104,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-21-threads-manha@fontedemana.com.br
-DTSTAMP:20261124T012930Z
+DTSTAMP:20261124T102139Z
 DTSTART:20261121T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Do zero à mesa #4: double sleeve com as sle
@@ -430,7 +129,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-21-feed@fontedemana.com.br
-DTSTAMP:20261124T012930Z
+DTSTAMP:20261124T102139Z
 DTSTART:20261121T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Vitrine de acessórios: Do zero à mesa #4: d
@@ -476,7 +175,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-21-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261124T012930Z
+DTSTAMP:20261124T102139Z
 DTSTART:20261121T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -495,7 +194,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-21-stories-tarde@fontedemana.com.br
-DTSTAMP:20261124T012930Z
+DTSTAMP:20261124T102139Z
 DTSTART:20261121T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -515,7 +214,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-21-reels@fontedemana.com.br
-DTSTAMP:20261124T012930Z
+DTSTAMP:20261124T102139Z
 DTSTART:20261122T000000Z
 DURATION:PT15M
 SUMMARY:21:00 Reels: Vídeo original: Do zero à mesa #4: double sleeve com
@@ -558,7 +257,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-21-comentarios@fontedemana.com.br
-DTSTAMP:20261124T012930Z
+DTSTAMP:20261124T102139Z
 DTSTART:20261122T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -580,7 +279,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-22-gravacao@fontedemana.com.br
-DTSTAMP:20261124T012930Z
+DTSTAMP:20261124T102139Z
 DTSTART:20261120T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Gravação: Gravar o vídeo de 22/11 (você aparece)
@@ -634,7 +333,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-22-netflix-stories@fontedemana.com.br
-DTSTAMP:20261124T012930Z
+DTSTAMP:20261124T102139Z
 DTSTART:20261122T123000Z
 DURATION:PT15M
 SUMMARY:09:30 Instagram Stories: Planeswalker\, a série de Magic na Netfli
@@ -662,7 +361,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-22-threads-manha@fontedemana.com.br
-DTSTAMP:20261124T012930Z
+DTSTAMP:20261124T102139Z
 DTSTART:20261122T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Debate da semana #2: Universes Beyond no Com
@@ -688,7 +387,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-22-tiktok@fontedemana.com.br
-DTSTAMP:20261124T012930Z
+DTSTAMP:20261124T102139Z
 DTSTART:20261122T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Debate da semana #2: Universes Beyond no Commander
@@ -722,7 +421,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-22-feed@fontedemana.com.br
-DTSTAMP:20261124T012930Z
+DTSTAMP:20261124T102139Z
 DTSTART:20261122T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Debate da semana #2: Universes Beyond no Comm
@@ -764,7 +463,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-22-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261124T012930Z
+DTSTAMP:20261124T102139Z
 DTSTART:20261122T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -783,7 +482,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-22-stories-tarde@fontedemana.com.br
-DTSTAMP:20261124T012930Z
+DTSTAMP:20261124T102139Z
 DTSTART:20261122T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -803,7 +502,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-22-netflix-threads@fontedemana.com.br
-DTSTAMP:20261124T012930Z
+DTSTAMP:20261124T102139Z
 DTSTART:20261122T213000Z
 DURATION:PT15M
 SUMMARY:18:30 Threads: Planeswalker no Threads: quem você quer ver na sér
@@ -832,7 +531,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-22-reels@fontedemana.com.br
-DTSTAMP:20261124T012930Z
+DTSTAMP:20261124T102139Z
 DTSTART:20261122T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Debate da semana #2: Universes Beyond
@@ -870,7 +569,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-22-comentarios@fontedemana.com.br
-DTSTAMP:20261124T012930Z
+DTSTAMP:20261124T102139Z
 DTSTART:20261123T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -892,7 +591,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-23-gravacao@fontedemana.com.br
-DTSTAMP:20261124T012930Z
+DTSTAMP:20261124T102139Z
 DTSTART:20261122T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -946,7 +645,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-23-tiktok@fontedemana.com.br
-DTSTAMP:20261124T012930Z
+DTSTAMP:20261124T102139Z
 DTSTART:20261123T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o TikTok: Treta das Cores #2
@@ -979,7 +678,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-23-threads-manha@fontedemana.com.br
-DTSTAMP:20261124T012930Z
+DTSTAMP:20261124T102139Z
 DTSTART:20261123T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Chama o Juiz #8: Mindslaver te deu o turno d
@@ -1004,7 +703,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-23-feed@fontedemana.com.br
-DTSTAMP:20261124T012930Z
+DTSTAMP:20261124T102139Z
 DTSTART:20261123T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Chama o Juiz #8: Mindslaver te deu o turno de
@@ -1042,7 +741,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-23-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261124T012930Z
+DTSTAMP:20261124T102139Z
 DTSTART:20261123T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -1061,7 +760,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-23-stories-tarde@fontedemana.com.br
-DTSTAMP:20261124T012930Z
+DTSTAMP:20261124T102139Z
 DTSTART:20261123T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1081,7 +780,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-23-reels@fontedemana.com.br
-DTSTAMP:20261124T012930Z
+DTSTAMP:20261124T102139Z
 DTSTART:20261123T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Treta das Cores #2: hexproof salva o 
@@ -1119,7 +818,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-23-comentarios@fontedemana.com.br
-DTSTAMP:20261124T012930Z
+DTSTAMP:20261124T102139Z
 DTSTART:20261124T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1141,7 +840,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-24-gravacao@fontedemana.com.br
-DTSTAMP:20261124T012930Z
+DTSTAMP:20261124T102139Z
 DTSTART:20261123T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -1188,35 +887,203 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-24-tiktok@fontedemana.com.br
-DTSTAMP:20261124T012930Z
+DTSTAMP:20261124T102139Z
 DTSTART:20261124T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o Dicionário #10: planeswalker
 DESCRIPTION:Vídeo do Dicionário do Commander sobre planeswalker\, o termo
   que dá nome à série da Netflix. O mesmo vídeo e a mesma legenda vão 
- para o Reels das 19:00.\n\nArquivos:\n- Vídeo do TikTok (narrado): https:
- //fontedemana.com.br/pauta/2026-11-24/tiktok/tiktok-narrado.mp4\n\nLegenda
- :\nPlaneswalker no Commander: você sabe o que é? A série de Magic na Ne
- tflix tem esse nome\, e na mesa ele é um tipo de carta que pode até ser 
- atacado.\n\nNa história\, é o mago com a centelha que viaja entre os pla
- nos. Na mesa\, entra com marcadores de lealdade e usa uma habilidade por t
- urno. E nem todo planeswalker pode ser comandante: só se a carta disser (
- Regras Abrangentes\, 903.3a).\nChandra\, Torch of Defiance sai por US$ 3\,
- 59 (R$ 21\,14) no Scryfall e está em 73.808 decks no EDHREC. Reais pela c
- otação de 19 nov (Banco Central\, PTAX).\n\nQual planeswalker você quer
-  ver na série?\n\nMais termos da mesa em fontedemana.com.br\n\n#planeswal
- ker #commander #mtg\n\nComentário fixado:\nQual planeswalker você quer v
- er na série da Netflix: Chandra\, Jace\, Liliana\, Nissa ou outro? Toda t
- erça tem um termo novo do Dicionário do Commander.\n\nPasso a passo:\n1.
-  Poste com um som em alta da biblioteca do TikTok\, com volume entre 15% e
-  20%.\n2. Voz própria não precisa de rótulo de IA.\n3. Fixe o comentár
- io logo depois de postar.\n\nValores em reais pela cotação de 19 nov (Ba
- nco Central\, PTAX).\n\nPauta completa: https://fontedemana.com.br/pauta/2
- 026-11-24/#tiktok
+ para o Reels das 19:00.\n\nArquivos:\n- Vídeo do TikTok narrado: https://
+ fontedemana.com.br/pauta/2026-11-24/tiktok/tiktok-narrado.mp4\n\nLegenda:\
+ nPlaneswalker no Commander: você sabe o que é? A série de Magic na Netf
+ lix tem esse nome\, e na mesa ele é um tipo de carta que pode até ser at
+ acado.\n\nNa história\, é o mago com a centelha que viaja entre os plano
+ s. Na mesa\, entra com marcadores de lealdade e usa uma habilidade por tur
+ no. E nem todo planeswalker pode ser comandante: só se a carta disser (Re
+ gras Abrangentes\, 903.3a).\nChandra\, Torch of Defiance sai por US$ 3\,59
+  (R$ 21\,14) no Scryfall e está em 73.808 decks no EDHREC. Reais pela cot
+ ação de 19 nov (Banco Central\, PTAX).\n\nQual planeswalker você quer v
+ er na série?\n\nMais termos da mesa em fontedemana.com.br\n\n#planeswalke
+ r #commander #mtg\n\nComentário fixado:\nQual planeswalker você quer ver
+  na série da Netflix: Chandra\, Jace\, Liliana\, Nissa ou outro? Toda ter
+ ça tem um termo novo do Dicionário do Commander.\n\nPasso a passo:\n1. P
+ oste com um som em alta da biblioteca do TikTok\, com volume entre 15% e 2
+ 0%.\n2. Voz própria não precisa de rótulo de IA.\n3. Fixe o comentário
+  logo depois de postar.\n\nValores em reais pela cotação de 19 nov (Banc
+ o Central\, PTAX).\n\nPauta completa: https://fontedemana.com.br/pauta/202
+ 6-11-24/#tiktok
 URL:https://fontedemana.com.br/pauta/2026-11-24/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:TikTok: Postar o Dicionário #10: planeswalker
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-24-threads-manha@fontedemana.com.br
+DTSTAMP:20261124T102139Z
+DTSTART:20261124T133000Z
+DURATION:PT15M
+SUMMARY:10:30 Threads: Debate: Dicionário do Commander #10: o que é plane
+ swalker\, o nome da…
+DESCRIPTION:Post de debate do conteúdo original de hoje (Dicionário do Co
+ mmander) para puxar conversa.\n\nPost:\nA série de Magic na Netflix se ch
+ ama Planeswalker e a protagonista é a Chandra. Estreia em 2027.\n\nSe des
+ se para escolher\, qual planeswalker você queria ver junto com ela? Jace\
+ , Liliana\, Nissa\, Gideon ou alguém que quase ninguém lembra?\n\nPasso 
+ a passo:\n1. Abra o Threads e cole o Post.\n2. Dica: Enquete com Jace\, Li
+ liana\, Nissa e Outro\n3. Toque em Adicionar tópico e escolha MTG.\n4. Pu
+ blique e responda quem comentar na primeira hora.\n\nPauta completa: https
+ ://fontedemana.com.br/pauta/2026-11-24/#threads-manha
+URL:https://fontedemana.com.br/pauta/2026-11-24/#threads-manha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Debate: Dicionário do Commander #10: o que é planesw
+ alker\, o nome da…
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-24-feed@fontedemana.com.br
+DTSTAMP:20261124T102139Z
+DTSTART:20261124T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram feed: Dicionário do Commander #10: o que é planes
+ walker\, o nome da série…
+DESCRIPTION:Carrossel original de 6 imagens (Dicionário do Commander): Dic
+ ionário do Commander #10: o que é planeswalker\, o nome da série da Net
+ flix. Feito para salvar e compartilhar.\n\nArquivos:\n- Imagem 1 de 6: htt
+ ps://fontedemana.com.br/pauta/2026-11-24/original/carrossel-01.jpg\n- Imag
+ em 2 de 6: https://fontedemana.com.br/pauta/2026-11-24/original/carrossel-
+ 02.jpg\n- Imagem 3 de 6: https://fontedemana.com.br/pauta/2026-11-24/origi
+ nal/carrossel-03.jpg\n- Imagem 4 de 6: https://fontedemana.com.br/pauta/20
+ 26-11-24/original/carrossel-04.jpg\n- Imagem 5 de 6: https://fontedemana.c
+ om.br/pauta/2026-11-24/original/carrossel-05.jpg\n- Imagem 6 de 6: https:/
+ /fontedemana.com.br/pauta/2026-11-24/original/carrossel-06.jpg\n\nLegenda:
+ \nPlaneswalker no Commander: o que é e por que quase nenhum pode ser seu 
+ comandante? A série de Magic na Netflix tem esse nome\, então bora expli
+ car.\n\nNa história\, planeswalker é o mago com a centelha\, que viaja e
+ ntre os planos. Na mesa\, é um tipo de carta: entra com lealdade\, usa um
+ a habilidade por turno e pode ser atacado. E no Commander só vira comanda
+ nte se a carta disser.\n\nFontes: Wizards of the Coast\, Regras Abrangente
+ s\, Scryfall e EDHREC. Valores em reais pela cotação de 19 nov (Banco Ce
+ ntral\, PTAX).\n\nMais termos da mesa em fontedemana.com.br\n\nQual planes
+ walker você quer ver na série: Chandra\, Jace\, Liliana ou outro?\n\n#pl
+ aneswalker #commander #mtg\n\nFonte de Mana is unofficial Fan Content perm
+ itted under the Fan Content Policy. Not approved/endorsed by Wizards. Port
+ ions of the materials used are property of Wizards of the Coast. ©Wizards
+  of the Coast LLC.\n\nPasso a passo:\n1. No Instagram\, toque em + e escol
+ ha Post.\n2. Selecione as 6 imagens na ordem\, da 1 à 6.\n3. Toque em Adi
+ cionar música e escolha uma em alta que combine com o tema.\n4. Cole a Le
+ genda e publique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026
+ -11-24/#feed
+URL:https://fontedemana.com.br/pauta/2026-11-24/#feed
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram feed: Dicionário do Commander #10: o que é planeswa
+ lker\, o nome da série…
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-24-stories-meio-dia@fontedemana.com.br
+DTSTAMP:20261124T102139Z
+DTSTART:20261124T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
+DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
+ .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
+ e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
+ o do post: Qual planeswalker você quer ver na série da Netflix? com Jace
+ \, Liliana\, Nissa e Outro.\n3. Publique.\n\nPauta completa: https://fonte
+ demana.com.br/pauta/2026-11-24/#stories-meio-dia
+URL:https://fontedemana.com.br/pauta/2026-11-24/#stories-meio-dia
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-24-stories-tarde@fontedemana.com.br
+DTSTAMP:20261124T102139Z
+DTSTART:20261124T180000Z
+DURATION:PT15M
+SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
+DESCRIPTION:Story com a imagem de Swords to Plowshares no Topdeck do Dia e 
+ o sticker de link para a edição completa.\n\nArquivos:\n- Topdeck do Dia
+ : https://fontedemana.com.br/kit/ed50/carrossel-03.jpg\n\nPasso a passo:\n
+ 1. Baixe a imagem e poste no Story.\n2. Adicione o sticker de Link para fo
+ ntedemana.com.br com o texto Edição completa\, embaixo do texto do Topde
+ ck.\n3. Publique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026
+ -11-24/#stories-tarde
+URL:https://fontedemana.com.br/pauta/2026-11-24/#stories-tarde
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Topdeck do Dia com link
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-24-reels@fontedemana.com.br
+DTSTAMP:20261124T102139Z
+DTSTART:20261124T220000Z
+DURATION:PT15M
+SUMMARY:19:00 Reels: Vídeo original: Dicionário do Commander #10: o que 
+ é planeswalker\, o…
+DESCRIPTION:O vídeo original de hoje no Instagram\, o mesmo arquivo do Tik
+ Tok\, já narrado. É o formato que mais chega a quem não segue.\n\nArqui
+ vos:\n- Vídeo original narrado: https://fontedemana.com.br/pauta/2026-11-
+ 24/tiktok/tiktok-narrado.mp4\n\nLegenda:\nPlaneswalker no Commander: você
+  sabe o que é? A série de Magic na Netflix tem esse nome\, e na mesa ele
+  é um tipo de carta que pode até ser atacado.\n\nNa história\, é o mag
+ o com a centelha que viaja entre os planos. Na mesa\, entra com marcadores
+  de lealdade e usa uma habilidade por turno. E nem todo planeswalker pode 
+ ser comandante: só se a carta disser (Regras Abrangentes\, 903.3a).\nChan
+ dra\, Torch of Defiance sai por US$ 3\,59 (R$ 21\,14) no Scryfall e está 
+ em 73.808 decks no EDHREC. Reais pela cotação de 19 nov (Banco Central\,
+  PTAX).\n\nQual planeswalker você quer ver na série?\n\nMais termos da m
+ esa em fontedemana.com.br\n\n#planeswalker #commander #mtg\n\nFonte de Man
+ a is unofficial Fan Content permitted under the Fan Content Policy. Not ap
+ proved/endorsed by Wizards. Portions of the materials used are property of
+  Wizards of the Coast. ©Wizards of the Coast LLC.\n\nComentário fixado:\
+ nQual planeswalker você quer ver na série da Netflix: Chandra\, Jace\, L
+ iliana\, Nissa ou outro? Toda terça tem um termo novo do Dicionário do C
+ ommander.\n\nPasso a passo:\n1. No Instagram\, toque em + e escolha Reel.\
+ n2. Escolha o vídeo baixado daqui\, nunca o salvo do TikTok (o Instagram 
+ derruba vídeo com marca d'água).\n3. Em Áudio\, ponha uma música em al
+ ta da biblioteca do Instagram com volume baixo (uns 10%)\, sem cobrir a vo
+ z.\n4. Na capa\, use o primeiro quadro\, o do gancho.\n5. Cole a Legenda e
+  publique.\n6. Fixe o comentário e responda quem comentar na primeira hor
+ a.\n\nValores em reais pela cotação de 19 nov (Banco Central\, PTAX).\n\
+ nPauta completa: https://fontedemana.com.br/pauta/2026-11-24/#reels
+URL:https://fontedemana.com.br/pauta/2026-11-24/#reels
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reels: Vídeo original: Dicionário do Commander #10: o que é 
+ planeswalker\, o…
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-24-comentarios@fontedemana.com.br
+DTSTAMP:20261124T102139Z
+DTSTART:20261125T003000Z
+DURATION:PT15M
+SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
+DESCRIPTION:Uns 10 minutos nas três redes: curtir e responder os comentár
+ ios das últimas 48 horas\, começando pelo vídeo e pelo carrossel de hoj
+ e. Conversa nos comentários leva a peça a mais gente\, e o Instagram rec
+ omenda responder em até 2 dias.\n\nPasso a passo:\n1. Instagram: nas noti
+ ficações\, curta os comentários e responda com uma frase quem perguntou
+  ou discordou.\n2. TikTok e Threads: o mesmo\, começando pelo post com ma
+ is comentários.\n3. Pergunta boa ou dúvida que se repete\, nos comentár
+ ios ou nas DMs? Mande na conversa do projeto: vira tema de um pilar.\n\nPa
+ uta completa: https://fontedemana.com.br/pauta/2026-11-24/#comentarios
+URL:https://fontedemana.com.br/pauta/2026-11-24/#comentarios
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Comentários: Responder os comentários de hoje e de ontem
 TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
