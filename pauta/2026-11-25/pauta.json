@@ -5,10 +5,10 @@
     {
       "id": "gravacao",
       "dia": "2026-11-24",
-      "hora": "19:15",
+      "hora": "21:15",
       "rede": "Gravação",
       "titulo": "Gravar o vídeo de amanhã (você aparece)",
-      "oQue": "Vitrine de acessórios com a Mulligan: as sleeves e o deckbox da Viper no Prismari. Três cenas com o seu rosto (gancho, embaralhando e o veredito fechando o deckbox) e três só com a voz. Se o teste deu diferente do roteiro (não fechou, a sleeve agarrou), fale o que aconteceu.",
+      "oQue": "Vitrine com a Mulligan, agora sobre a qualidade do kit: sleeves Azul Sombrio e deckbox vermelho nas cores do Prismari. Três cenas com o seu rosto (o kit nas cores do deck, embaralhando e a gaveta com o ímã) e quatro só com a voz. Se algo no teste foi diferente do roteiro, fale o que aconteceu.",
       "arquivos": [
         {
           "nome": "Vídeo mudo (referência)",
@@ -18,39 +18,45 @@
       "roteiro": [
         {
           "cena": "Cena 1, rosto, uns 4 s",
-          "tela": "Teste de 5 dias: R$ 438 de deck, mais R$ 250 de proteção?",
-          "fala": "Um deck de R$ 438 merece mais R$ 250 de proteção?",
-          "como": "Rosto: Olhando para a câmera, com o Prismari já com sleeve numa mão e o deckbox vermelho na outra."
+          "tela": "Prismari protegido: Deck azul e vermelho, kit azul e vermelho",
+          "fala": "Meu deck é azul e vermelho. A proteção também.",
+          "como": "Rosto: Deck com as sleeves azuis numa mão e o deckbox vermelho na outra, lado a lado, na altura do peito."
         },
         {
           "cena": "Cena 2, só a voz, uns 5 s",
-          "tela": "Viper Shield Matte: 100 sleeves por R$ 59,99",
-          "fala": "Sleeves foscas, 66 por 92. Vêm 100: um deck de Commander certinho.",
+          "tela": "Shield Matte, Azul Sombrio: Fosca, com verso de textura",
+          "fala": "Sleeve fosca, Azul Sombrio. Frente transparente, verso com cor e textura.",
           "como": "Só a voz: pode gravar em vídeo ou áudio"
         },
         {
           "cena": "Cena 3, rosto, uns 4 s",
-          "tela": "O teste: Embaralhando as 100",
-          "fala": "Cinco dias com elas no Prismari. Olha como embaralha.",
-          "como": "Rosto: Embaralhando o deck inteiro com sleeve na frente da câmera, com as cartas aparecendo."
+          "tela": "Cinco dias de mesa: O teste do embaralhar",
+          "fala": "Cinco dias de mesa com elas. Olha como embaralha.",
+          "como": "Rosto: Embaralha as 100 cartas com sleeve perto da câmera, deixando ouvir o som e ver o verso azul."
         },
         {
           "cena": "Cena 4, só a voz, uns 4 s",
-          "tela": "Deckbox Premium 100+: R$ 189,99, a parte cara",
-          "fala": "O deckbox é a parte cara do kit: R$ 189,99.",
+          "tela": "Deckbox Premium 100+: Textura, costura e logo em relevo",
+          "fala": "O deckbox vermelho tem textura, costura e o logo em baixo relevo.",
           "como": "Só a voz: pode gravar em vídeo ou áudio"
         },
         {
-          "cena": "Cena 5, só a voz, uns 5 s",
-          "tela": "A conta: R$ 249,98 para proteger um deck de R$ 438",
-          "fala": "R$ 249,98, mais da metade do deck. E nenhuma sleeve sobra de reserva.",
+          "cena": "Cena 5, rosto, uns 5 s",
+          "tela": "Por dentro: Gaveta para dados e fecho no ímã",
+          "fala": "Embaixo, gaveta pros dados e fichas. Em cima, o deck. E fecha no ímã.",
+          "como": "Rosto: Abre a gaveta, põe o dado e as fichas, encaixa o deck em cima e fecha a tampa perto da câmera."
+        },
+        {
+          "cena": "Cena 6, só a voz, uns 4 s",
+          "tela": "Ponto fraco: 100 sleeves, nenhuma de reserva",
+          "fala": "O ponto fraco: vêm 100, o deck certinho. Não sobra reserva.",
           "como": "Só a voz: pode gravar em vídeo ou áudio"
         },
         {
-          "cena": "Cena 6, rosto, uns 5 s",
-          "tela": "O veredito: Vale para deck que sai de casa",
-          "fala": "Vale se o deck vai pra mesa toda semana. E você, qual sleeve usa?",
-          "como": "Rosto: Põe o deck, as fichas e o dado no deckbox, fecha na frente da câmera e dá o veredito olhando para ela."
+          "cena": "Cena 7, só a voz, uns 3 s",
+          "tela": "E na sua mesa?: Seu deck tem sleeve na cor dele?",
+          "fala": "E o seu deck, tem sleeve na cor dele?",
+          "como": "Só a voz: pode gravar em vídeo ou áudio"
         }
       ],
       "passos": [
@@ -67,8 +73,8 @@
       "id": "tiktok",
       "hora": "11:30",
       "rede": "TikTok",
-      "titulo": "Postar o TikTok das sleeves e do deckbox",
-      "oQue": "Vídeo da Vitrine com a Mulligan: um precon de R$ 438 merece mais R$ 250 de proteção? Marque a @viperacessorios e a @mulliganjogos.",
+      "titulo": "Postar o TikTok do kit nas cores do deck",
+      "oQue": "Vídeo da Vitrine com a Mulligan: sleeves Azul Sombrio e deckbox vermelho da Viper no Prismari, que joga de azul e vermelho. Marque a @viperacessorios e a @mulliganjogos.",
       "arquivos": [
         {
           "nome": "Vídeo mudo",
@@ -78,11 +84,11 @@
       "textos": [
         {
           "rotulo": "Legenda",
-          "texto": "Sleeve e deckbox para deck de Commander: um precon de R$ 438 merece mais R$ 250 de proteção? Testei as sleeves Shield Matte Azul Sombrio e o Deckbox Premium 100+ da @viperacessorios no Prismari Artistry, por uns cinco dias. Vieram da @mulliganjogos: sleeves R$ 59,99 e deckbox R$ 189,99. Semana de Black Friday: vale comprar o que o deck vai usar. Qual sleeve você usa? Mais no fontedemana.com.br\n\n#sleeves #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+          "texto": "Sleeve e deckbox para deck de Commander: seu deck tem sleeve na cor dele? O Prismari Artistry joga de azul e vermelho, então ganhou as sleeves Shield Matte Azul Sombrio e o Deckbox Premium 100+ vermelho da @viperacessorios. Cinco dias de mesa: sleeve fosca com verso texturizado, deckbox com gaveta para dados e fecho magnético. Vieram da @mulliganjogos. Combina com o deck, uma cor só para tudo ou sem sleeve? Mais no fontedemana.com.br\n\n#sleeves #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
         },
         {
           "rotulo": "Comentário fixado",
-          "texto": "Qual sleeve você usa? Fosca, brilhante, double sleeve ou nenhuma? Na Vitrine de acessórios, só o que foi testado na mesa."
+          "texto": "Seu deck tem sleeve na cor dele? Combina com o deck, uma cor só para tudo ou sem sleeve? Na Vitrine de acessórios, só o que foi testado na mesa."
         }
       ],
       "passos": [
