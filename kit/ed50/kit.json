@@ -1,0 +1,104 @@
+{
+ "n": 50,
+ "data": "24 nov",
+ "carrossel": {
+  "capa": {
+   "cor": "W",
+   "titulo": "Terça calma, Swords to Plowshares na mesa",
+   "sub": "Nenhum fato novo nesta terça. A <b>Festa de Commander de Star Trek</b> vai até quinta e no Topdeck tem a remoção branca de 1 mana.",
+   "credito": "Arte: Holy Day, Volkan Baǵa"
+  },
+  "cartoes": [
+   {
+    "cor": "W",
+    "titulo": "O que vem nos próximos dias",
+    "itens": [
+     {"cor": "W", "html": "<b>até 26 nov</b>: primeira rodada da Festa de Commander de Star Trek."},
+     {"cor": "A", "html": "<b>até 30 nov</b>: venda do Secret Lair do Extra Life."},
+     {"cor": "A", "html": "<b>30 nov</b>: venda do Secret Lair de Duna, às 14h de Brasília."},
+     {"cor": "B", "html": "<b>30 nov</b>: próxima janela de banimentos do Commander."}
+    ],
+    "fonte": "Fontes: Wizards e WPN"
+   }
+  ],
+  "topdeck": {
+   "titulo": "Swords to Plowshares",
+   "habilidades": [
+    {"rotulo": "Exila, não destrói", "texto": "A criatura sai do jogo de vez. Indestrutível não salva e o cemitério fica vazio."},
+    {"rotulo": "Custa 1 mana", "texto": "Sai por uma mana branca, a qualquer momento, até no meio do ataque."},
+    {"rotulo": "O preço da troca", "texto": "O dono da criatura ganha vida igual ao poder dela."}
+   ],
+   "extra": "Está em <b>3 milhões de decks</b> no EDHREC. US$ 1,13 no Scryfall, na versão de Star Trek com o Picard na arte.",
+   "credito": "Ilustração de Pablo Mendoza"
+  },
+  "ban": {
+   "numero": "6",
+   "unidade": "DIAS",
+   "texto": "Para a próxima janela de banimentos, em 30 de novembro, o mesmo dia da venda do Secret Lair de Duna."
+  },
+  "turnos": [
+   {"cor": "W", "data": "até 26 nov", "texto": "Festa de Commander de Star Trek"},
+   {"cor": "A", "data": "30 nov", "texto": "Venda do Secret Lair de Duna"},
+   {"cor": "B", "data": "30 nov", "texto": "Janela de banimentos"},
+   {"cor": "A", "data": "9 dez", "texto": "Nova janela do Zeta Set"},
+   {"cor": "W", "data": "11 dez", "texto": "2ª rodada da Festa de Star Trek"}
+  ],
+  "sussurro": null
+ },
+ "video": {
+  "cena1": {
+   "titulo": "Terça calma, Swords to Plowshares na mesa",
+   "pilulas": ["Festa de Star Trek", "Swords no Topdeck", "Ban em 6 dias"]
+  },
+  "cena2": {
+   "rotulo": "Agenda",
+   "cor": "W",
+   "titulo": "O que vem nos próximos dias",
+   "itens": [
+    "Até 26 nov: Festa de Commander de Star Trek.",
+    "30 nov: venda do Secret Lair de Duna, às 14h.",
+    "30 nov: próxima janela de banimentos."
+   ],
+   "fonte": "Fontes: Wizards e WPN"
+  },
+  "cena3": {
+   "linhas": [
+    "<b>Swords to Plowshares</b> exila uma criatura por 1 mana.",
+    "O dono dela ganha vida igual ao poder.",
+    "Está em 3 milhões de decks e custa US$ 1,13."
+   ]
+  },
+  "cena4": {
+   "texto": "Faltam 6 dias para 30 de novembro, dia da janela de banimentos e da venda de Duna.",
+   "sussurro": null
+  }
+ },
+ "textos": {
+  "legendaCarrossel": "Commander, Magic e Festa de Commander de Star Trek: terça calma, sem fato novo confirmado.\n\nA primeira rodada da Festa de Commander de Star Trek vai até quinta, 26 de novembro, nas lojas. Em 30 de novembro tem venda do Secret Lair de Duna, às 14h de Brasília, e a próxima janela de banimentos do Commander, no mesmo dia.\n\nNo Topdeck do Dia, Swords to Plowshares, a mágica instantânea branca de 1 mana. Ela exila uma criatura de vez, então indestrutível não salva, e o dono da criatura ganha vida igual ao poder dela. Está em 3 milhões de decks no EDHREC e a versão de Star Trek, com o Picard na vinha, sai a US$ 1,13 no Scryfall. Remoção boa e barata na semana de Black Friday.\n\nQual criatura você mais gosta de exilar com Swords to Plowshares?\n\nEdição completa em fontedemana.com.br\n\nArte da capa: Holy Day, Volkan Baǵa. Topdeck: Swords to Plowshares, Pablo Mendoza.\n\n#startrek #commander #mtg",
+  "legendaVideo": "Commander e Magic numa terça calma: a Festa de Commander de Star Trek vai até quinta e faltam 6 dias para a janela de banimentos.\n\nNo Topdeck, Swords to Plowshares, que exila uma criatura por 1 mana e está em 3 milhões de decks no EDHREC.\n\nQual é a sua remoção favorita de 1 mana?\n\nTudo em fontedemana.com.br\n\n#startrek #commander #mtg",
+  "threadsPost": "Terça calma no Commander, sem fato novo confirmado. No Topdeck, Swords to Plowshares: por 1 mana branca, exila uma criatura, e o dono dela ganha vida igual ao poder. Indestrutível não salva. Está em 3 milhões de decks no EDHREC e a versão de Star Trek, com o Picard, sai a US$ 1,13. Qual é a sua remoção favorita de 1 mana? fontedemana.com.br",
+  "threadsFio": [
+   "Terça calma no Commander, sem fato novo confirmado. O Secret Lair de Duna e a janela de banimentos seguem marcados para 30 de novembro.",
+   "A primeira rodada da Festa de Commander de Star Trek vai até quinta, 26 de novembro, nas lojas. A segunda é de 11 a 17 de dezembro.",
+   "No Topdeck do Dia, Swords to Plowshares. Por 1 mana branca, exila uma criatura de vez. O dono dela ganha vida igual ao poder, e indestrutível não salva.",
+   "Está em 3 milhões de decks no EDHREC, em 83% dos decks do Jace, Multiverse Architect, e a versão de Star Trek sai a US$ 1,13 no Scryfall.",
+   "Faltam 6 dias para a janela de banimentos de 30 de novembro. Edição completa em fontedemana.com.br"
+  ],
+  "threadsAvulsos": [
+   {
+    "titulo": "Pergunta do dia",
+    "texto": "Swords to Plowshares está em 3 milhões de decks e custa pouco mais de um dólar. Qual é a sua remoção de 1 mana preferida no Commander?",
+    "obs": "Pergunta aberta, sem enquete"
+   }
+  ]
+ },
+ "pauta": {
+  "forca": "calmo",
+  "porque": "Terça sem fato novo sobre Commander; a Festa de Star Trek, Duna e o ban de 30 nov já estavam na agenda.",
+  "storyPergunta": "Qual é a sua remoção favorita de 1 mana?",
+  "enquete": {
+   "pergunta": "Swords to Plowshares no seu deck?",
+   "opcoes": ["Já uso", "Vou colocar", "Não jogo de branco"]
+  }
+ }
+}
