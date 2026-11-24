@@ -1,0 +1,44 @@
+{
+  "data": "2026-11-25",
+  "pilar": "vitrine",
+  "item": null,
+  "tema": "Um precon de R$ 438 merece mais R$ 250 de proteção? Sleeves e deckbox da Viper",
+  "cartas": [],
+  "fx": null,
+  "carrossel": {
+    "capa": {"cor": "A", "chip": "Vitrine", "kicker": "Testado por 5 dias", "titulo": "Um deck de R$ 438 merece mais <b>R$ 250</b> de proteção?", "sub": "As sleeves e o deckbox da Viper no precon Prismari Artistry: o que resolve, quanto custa e o ponto fraco.", "arte": "pauta/2026-11-25/tiktok/arte.jpg", "credito": "Foto: Fonte de Mana"},
+    "cartoes": [
+      {"cor": "G", "titulo": "As sleeves: R$ 59,99", "carta": "pauta/2026-11-25/original/carta-1.jpg",
+       "itens": [
+         {"cor": "G", "html": "Shield Matte, cor Azul Sombrio: <b>foscas</b>, 66 x 92 mm, o tamanho padrão para carta de Magic."},
+         {"cor": "G", "html": "Vêm <b>100</b>: exatamente um deck de Commander com o comandante."}
+       ],
+       "fonte": "Fonte: embalagem Viper e Mulligan Jogos, nov 2026"},
+      {"cor": "R", "titulo": "O deckbox: R$ 189,99", "carta": "pauta/2026-11-25/original/carta-2.jpg",
+       "itens": [
+         {"cor": "R", "html": "Deckbox Premium 100+, vermelho: feito para guardar <b>um deck inteiro com sleeve</b>."},
+         {"cor": "R", "html": "É a parte cara do kit: <b>mais de três vezes</b> o preço das sleeves."}
+       ],
+       "fonte": "Fonte: embalagem Viper e Mulligan Jogos, nov 2026"},
+      {"cor": "A", "titulo": "A conta",
+       "itens": [
+         {"cor": "A", "html": "Precon Prismari Artistry: <b>R$ 438,53</b>, preço médio na LigaMagic em 16 nov."},
+         {"cor": "A", "html": "Sleeves e deckbox juntos: <b>R$ 249,98</b>, uns 57% do preço do deck."}
+       ],
+       "nota": {"rotulo": "Ponto fraco", "texto": "são 100 sleeves cravadas. Se uma rasgar, não tem reserva no pacote."},
+       "fonte": "Fonte: LigaMagic e Mulligan Jogos, nov 2026"},
+      {"cor": "W", "titulo": "Vale para quem?",
+       "itens": [
+         {"cor": "W", "html": "Deck que sai de casa toda semana: sleeve e caixa poupam a carta do <b>desgaste da mesa</b>."},
+         {"cor": "W", "html": "Deck que fica na estante: dá para começar <b>só pelas sleeves</b>, R$ 59,99."},
+         {"cor": "W", "html": "Onde achar: na <b>@mulliganjogos</b>, de onde vieram os dois."}
+       ],
+       "nota": {"rotulo": "Black Friday", "texto": "proteger é escolha de quem joga. Compre o que o seu deck vai usar."},
+       "fonte": "Fonte: Mulligan Jogos, nov 2026"}
+    ],
+    "cta": {"pergunta": "Qual sleeve você usa?", "quando": "Fosca, brilhante, double sleeve ou nenhuma?", "salvar": "Salve para a próxima vez que comprar um deck."}
+  },
+  "legenda": "Sleeve e deckbox para deck de Commander: vale gastar R$ 250 para proteger um precon de R$ 438?\n\nTestei por uns cinco dias as sleeves Shield Matte Azul Sombrio e o Deckbox Premium 100+ da @viperacessorios no precon Prismari Artistry. Vieram da @mulliganjogos.\n\nSleeves: R$ 59,99, foscas, 66 x 92 mm, 100 unidades.\nDeckbox: R$ 189,99.\nOs dois: R$ 249,98, uns 57% do preço médio do precon na LigaMagic, R$ 438,53 em 16 nov.\nPonto fraco: 100 sleeves cravadas, nenhuma de reserva.\n\nSemana de Black Friday: proteger é escolha de quem joga, e vale comprar o que o deck vai usar.\n\nFontes: embalagem Viper, Mulligan Jogos e LigaMagic. Mais no fontedemana.com.br\n\nQual sleeve você usa? Fosca, brilhante, double sleeve ou nenhuma?\n\n#sleeves #commander #mtg",
+  "threads": {"texto": "Pergunta honesta para quem joga Commander: você põe sleeve em precon?\n\nFiz a conta com o Prismari Artistry. O deck sai uns R$ 438 na LigaMagic. Sleeves e deckbox da Viper, R$ 249,98 os dois. Mais da metade do preço do deck só em proteção.\n\nTem quem diga que deck sem sleeve não sai de casa. Tem quem jogue no pelo há anos e nunca perdeu carta.\n\nDe que lado você está?", "obs": "Enquete: Sleeve sempre / Só nas cartas caras / Nunca uso"},
+  "enquete": {"pergunta": "Você põe sleeve no precon?", "opcoes": ["Sempre", "Só nas caras", "Nunca"]}
+}
