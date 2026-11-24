@@ -64,13 +64,28 @@
    "segundos": 4.3
   },
   {
-   "tipo": "rosto",
+   "tipo": "combo",
    "cor": "M",
    "kicker": "E na série?",
    "titulo": "Qual você quer ver?",
-   "narracao": "Qual planeswalker você quer ver na série?",
-   "gravar": "Volta para a câmera, sorri e abre as mãos, como quem pergunta para a mesa",
-   "segundos": 3.2
+   "cartas": [
+    "pauta/2026-11-24/tiktok/carta-3.jpg",
+    "pauta/2026-11-24/tiktok/carta-4.jpg",
+    "pauta/2026-11-24/tiktok/carta-5.jpg"
+   ],
+   "passos": [
+    {
+     "txt": "Jace, o mago da mente"
+    },
+    {
+     "txt": "Liliana, a necromante"
+    },
+    {
+     "txt": "Nissa, a voz da natureza"
+    }
+   ],
+   "narracao": "Qual planeswalker você quer ver na série?"
   }
- ]
+ ],
+ "rostoGravado": true
 }

@@ -3,38 +3,124 @@
  "pilar": "dicionario",
  "item": "Planeswalker",
  "tema": "Dicionário do Commander #10: o que é planeswalker, o nome da série da Netflix",
- "cartas": ["Chandra, Torch of Defiance", "Daretti, Scrap Savant", "Chandra, Fire of Kaladesh"],
+ "cartas": [
+  "Chandra, Torch of Defiance",
+  "Daretti, Scrap Savant",
+  "Chandra, Fire of Kaladesh",
+  "Jace, the Mind Sculptor",
+  "Liliana of the Veil",
+  "Nissa, Who Shakes the World"
+ ],
  "fx": "Valores em reais pela cotação de 19 nov (Banco Central, PTAX).",
  "carrossel": {
-  "capa": {"cor": "R", "chip": "Dicionário #10", "kicker": "O nome da série da Netflix", "titulo": "O que é um <b>planeswalker</b>?",
-           "sub": "A palavra tem dois sentidos: um na história do Magic e outro na mesa. E o segundo derruba muita gente no Commander.",
-           "arte": "pauta/2026-11-24/tiktok/arte.jpg", "credito": "Arte: Chandra, Torch of Defiance, Magali Villeneuve"},
+  "capa": {
+   "cor": "R",
+   "chip": "Dicionário #10",
+   "kicker": "O nome da série da Netflix",
+   "titulo": "O que é um <b>planeswalker</b>?",
+   "sub": "A palavra tem dois sentidos: um na história do Magic e outro na mesa. E o segundo derruba muita gente no Commander.",
+   "arte": "pauta/2026-11-24/tiktok/arte.jpg",
+   "credito": "Arte: Chandra, Torch of Defiance, Magali Villeneuve"
+  },
   "cartoes": [
-   {"cor": "G", "titulo": "Na história",
-    "itens": [{"cor": "G", "html": "É o mago que tem a <b>centelha</b>: o dom de viajar entre os planos, os mundos do Magic."},
-              {"cor": "G", "html": "A <b>Chandra</b>, piromante que protagoniza a série Planeswalker da Netflix, é uma delas."},
-              {"cor": "G", "html": "A série estreia em <b>2027</b>, ainda sem data marcada."}],
-    "nota": {"rotulo": "Na mesa", "texto": "o mesmo nome virou um tipo de carta. Próxima tela."},
-    "fonte": "Fonte: Wizards of the Coast, 13 nov 2026"},
-   {"cor": "R", "titulo": "Na mesa, um tipo de carta", "carta": "pauta/2026-11-24/original/carta-1.jpg",
-    "itens": [{"cor": "R", "html": "Entra com <b>marcadores de lealdade</b> e usa <b>uma habilidade por turno</b>: o + sobe a lealdade, o menos gasta."},
-              {"cor": "R", "html": "A Chandra, Torch of Defiance está em <b>73.808 decks</b> e custa US$ 3,59 (R$ 21,14)."}],
+   {
+    "cor": "G",
+    "titulo": "Na história",
+    "itens": [
+     {
+      "cor": "G",
+      "html": "É o mago que tem a <b>centelha</b>: o dom de viajar entre os planos, os mundos do Magic."
+     },
+     {
+      "cor": "G",
+      "html": "A <b>Chandra</b>, piromante que protagoniza a série Planeswalker da Netflix, é uma delas."
+     },
+     {
+      "cor": "G",
+      "html": "A série estreia em <b>2027</b>, ainda sem data marcada."
+     }
+    ],
+    "nota": {
+     "rotulo": "Na mesa",
+     "texto": "o mesmo nome virou um tipo de carta. Próxima tela."
+    },
+    "fonte": "Fonte: Wizards of the Coast, 13 nov 2026"
+   },
+   {
+    "cor": "R",
+    "titulo": "Na mesa, um tipo de carta",
+    "carta": "pauta/2026-11-24/original/carta-1.jpg",
+    "itens": [
+     {
+      "cor": "R",
+      "html": "Entra com <b>marcadores de lealdade</b> e usa <b>uma habilidade por turno</b>: o + sobe a lealdade, o menos gasta."
+     },
+     {
+      "cor": "R",
+      "html": "A Chandra, Torch of Defiance está em <b>73.808 decks</b> e custa US$ 3,59 (R$ 21,14)."
+     }
+    ],
     "fx": "Valores em reais pela cotação de 19 nov (Banco Central, PTAX).",
-    "fonte": "Fonte: Scryfall e EDHREC, nov 2026"},
-   {"cor": "B", "titulo": "Ele pode ser atacado",
-    "itens": [{"cor": "B", "html": "No ataque, quem ataca escolhe: você ou o seu <b>planeswalker</b>."},
-              {"cor": "B", "html": "Cada ponto de dano tira <b>um marcador</b> de lealdade."},
-              {"cor": "B", "html": "Lealdade zerou: ele vai para o <b>cemitério</b>."}],
-    "nota": {"rotulo": "Na mesa", "texto": "proteger o planeswalker com criaturas faz parte do jogo."},
-    "fonte": "Fonte: Regras Abrangentes, 306.6 a 306.9"},
-   {"cor": "M", "titulo": "O erro no Commander", "carta": "pauta/2026-11-24/original/carta-2.jpg",
-    "itens": [{"cor": "M", "html": "Comandante é criatura lendária. Planeswalker só entra se a carta disser <b>que pode ser seu comandante</b>."},
-              {"cor": "M", "html": "Dano de comandante é <b>dano de combate</b>: o 21 só conta se ele atacar como criatura."}],
-    "fonte": "Fonte: Regras Abrangentes, 903.3a e 903.10a"}
+    "fonte": "Fonte: Scryfall e EDHREC, nov 2026"
+   },
+   {
+    "cor": "B",
+    "titulo": "Ele pode ser atacado",
+    "itens": [
+     {
+      "cor": "B",
+      "html": "No ataque, quem ataca escolhe: você ou o seu <b>planeswalker</b>."
+     },
+     {
+      "cor": "B",
+      "html": "Cada ponto de dano tira <b>um marcador</b> de lealdade."
+     },
+     {
+      "cor": "B",
+      "html": "Lealdade zerou: ele vai para o <b>cemitério</b>."
+     }
+    ],
+    "nota": {
+     "rotulo": "Na mesa",
+     "texto": "proteger o planeswalker com criaturas faz parte do jogo."
+    },
+    "fonte": "Fonte: Regras Abrangentes, 306.6 a 306.9"
+   },
+   {
+    "cor": "M",
+    "titulo": "O erro no Commander",
+    "carta": "pauta/2026-11-24/original/carta-2.jpg",
+    "itens": [
+     {
+      "cor": "M",
+      "html": "Comandante é criatura lendária. Planeswalker só entra se a carta disser <b>que pode ser seu comandante</b>."
+     },
+     {
+      "cor": "M",
+      "html": "Dano de comandante é <b>dano de combate</b>: o 21 só conta se ele atacar como criatura."
+     }
+    ],
+    "fonte": "Fonte: Regras Abrangentes, 903.3a e 903.10a"
+   }
   ],
-  "cta": {"pergunta": "Qual <b>planeswalker</b> você quer ver na série?", "quando": "Toda terça tem um termo novo do Dicionário", "salvar": "Salve para explicar a quem chegou pelo trailer"}
+  "cta": {
+   "pergunta": "Qual <b>planeswalker</b> você quer ver na série?",
+   "quando": "Toda terça tem um termo novo do Dicionário",
+   "salvar": "Salve para explicar a quem chegou pelo trailer"
+  }
  },
  "legenda": "Planeswalker no Commander: o que é e por que quase nenhum pode ser seu comandante? A série de Magic na Netflix tem esse nome, então bora explicar.\n\nNa história, planeswalker é o mago com a centelha, que viaja entre os planos. Na mesa, é um tipo de carta: entra com lealdade, usa uma habilidade por turno e pode ser atacado. E no Commander só vira comandante se a carta disser.\n\nFontes: Wizards of the Coast, Regras Abrangentes, Scryfall e EDHREC. Valores em reais pela cotação de 19 nov (Banco Central, PTAX).\n\nMais termos da mesa em fontedemana.com.br\n\nQual planeswalker você quer ver na série: Chandra, Jace, Liliana ou outro?\n\n#planeswalker #commander #mtg",
- "threads": {"texto": "A série de Magic na Netflix se chama Planeswalker e a protagonista é a Chandra. Estreia em 2027.\n\nSe desse para escolher, qual planeswalker você queria ver junto com ela? Jace, Liliana, Nissa, Gideon ou alguém que quase ninguém lembra?", "obs": "Enquete com Jace, Liliana, Nissa e Outro"},
- "enquete": {"pergunta": "Qual planeswalker você quer ver na série da Netflix?", "opcoes": ["Jace", "Liliana", "Nissa", "Outro"]}
+ "threads": {
+  "texto": "A série de Magic na Netflix se chama Planeswalker e a protagonista é a Chandra. Estreia em 2027.\n\nSe desse para escolher, qual planeswalker você queria ver junto com ela? Jace, Liliana, Nissa, Gideon ou alguém que quase ninguém lembra?",
+  "obs": "Enquete com Jace, Liliana, Nissa e Outro"
+ },
+ "enquete": {
+  "pergunta": "Qual planeswalker você quer ver na série da Netflix?",
+  "opcoes": [
+   "Jace",
+   "Liliana",
+   "Nissa",
+   "Outro"
+  ]
+ }
 }
