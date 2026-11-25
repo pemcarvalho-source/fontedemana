@@ -35,19 +35,25 @@
           "como": "Rosto: Abre o deck em leque na frente da câmera, com os versos azuis aparecendo e a caixa da sleeve ao lado."
         },
         {
-          "cena": "Cena 4, só a voz, uns 4 s",
+          "cena": "Cena 4, rosto, uns 3 s",
+          "tela": "O teste: O embaralhar",
+          "fala": "E embaralhando, olha o som.",
+          "como": "Rosto: Embaralha o deck perto da câmera por uns 3 s, deixando ouvir o som das sleeves."
+        },
+        {
+          "cena": "Cena 5, só a voz, uns 4 s",
           "tela": "Por que textura: A pilha não escorrega",
           "fala": "A textura segura a pilha, e a cor deixa o deck com uma cara só.",
           "como": "Só a voz: pode gravar em vídeo ou áudio"
         },
         {
-          "cena": "Cena 5, só a voz, uns 4 s",
+          "cena": "Cena 6, só a voz, uns 4 s",
           "tela": "Surpresa no pacote: A caixa diz 100, mas veio mais",
           "fala": "A caixa diz 100, mas vieram algumas a mais. Já tem reserva.",
           "como": "Só a voz: pode gravar em vídeo ou áudio"
         },
         {
-          "cena": "Cena 6, só a voz, uns 3 s",
+          "cena": "Cena 7, só a voz, uns 3 s",
           "tela": "E na sua mesa?: Seu deck tem sleeve na cor dele?",
           "fala": "E o seu deck, tem sleeve na cor dele?",
           "como": "Só a voz: pode gravar em vídeo ou áudio"

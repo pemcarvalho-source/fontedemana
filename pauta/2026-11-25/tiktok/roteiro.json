@@ -27,7 +27,7 @@
    "chip": "Sleeves",
    "kicker": "Viper Shield Matte",
    "titulo": "Azul Sombrio, fosca",
-   "video": "extras/mulligan/mulligan-04-sleeves.mp4",
+   "video": "pauta/2026-11-25/tiktok/abrindo.mp4",
    "narracao": "Shield Matte da Viper, cor Azul Sombrio. Fosca, frente transparente.",
    "segundos": 4.3
   },
@@ -39,6 +39,15 @@
    "narracao": "Cor e textura no verso. O deck inteiro fica assim.",
    "gravar": "Abre o deck em leque na frente da câmera, com os versos azuis aparecendo e a caixa da sleeve ao lado.",
    "segundos": 4.3
+  },
+  {
+   "tipo": "rosto",
+   "cor": "U",
+   "kicker": "O teste",
+   "titulo": "O embaralhar",
+   "narracao": "E embaralhando, olha o som.",
+   "gravar": "Embaralha o deck perto da câmera por uns 3 s, deixando ouvir o som das sleeves.",
+   "segundos": 2.5
   },
   {
    "tipo": "texto",
