@@ -1,5 +1,5 @@
 {
-  "versao": "2026-11-25 v5.12.2",
+  "versao": "2026-11-25 v5.12.3",
   "comentario": "Plano editorial da Fonte de Mana. Lido por tools/conteudo/contexto.cjs (tarefa da noite), tools/pauta/manha.cjs (tarefa da manhã) e tools/pauta/tiktok.cjs (molde do vídeo). A explicação completa está em tools/conteudo/ESTRATEGIA.md, os formatos (com as referências que inspiraram cada um) em tools/conteudo/FORMATOS.md e a revisão semanal em tools/conteudo/REVISAO.md. Ciclo de 3 semanas: a letra da semana é ciclo.semanas[(semana ISO + ciclo.deslocamento) % 3]. Datas comemorativas em datas: de e ate como MM-DD (todo ano) ou AAAA-MM-DD (só aquele ano); no dia, pilarNoDia troca o pilar do calendário. Os blocos video, reels, threads, legenda, audio, conversa, rosto e isca valem para datas a partir de desde (antes disso, tudo segue como na v4). plantao: eventos com dia marcado para a fase plantao do orquestrador; o tools/conteudo/plantao.cjs mostra o do dia com --qual. testes: de e ate (ou dias) em AAAA-MM-DD; hora troca o horário da grade nesses dias.",
 
   "ciclo": {"semanas": ["A", "B", "C"], "deslocamento": 2, "nota": "Semana ISO 42 (12 a 18 out 2026) = C a partir de sexta 16, 43 = A, 44 = B, 45 = C. Semana C traz os formatos novos de 15 out."},
