@@ -1,0 +1,161 @@
+{
+  "n": 51,
+  "data": "25 nov",
+  "carrossel": {
+    "capa": {
+      "cor": "R",
+      "titulo": "Wizards processa a PrintMTG por cartas falsas",
+      "sub": "Acusada de vender cartas que se passam por originais, não proxies. O pedido passa de <b>US$ 26 milhões</b> (R$ 155,24 milhões).",
+      "credito": "Arte: Clone, Kev Walker"
+    },
+    "cartoes": [
+      {
+        "cor": "R",
+        "titulo": "O processo contra a PrintMTG",
+        "itens": [
+          {
+            "cor": "R",
+            "html": "Processo de 97 páginas aberto em 23 de novembro, num tribunal de Washington."
+          },
+          {
+            "cor": "R",
+            "html": "Alvos: a PrintMTG Enterprises e a família Dunn, de Utah."
+          },
+          {
+            "cor": "A",
+            "html": "O pedido passa de US$ 26.000.000 (R$ 155,24 milhões)."
+          },
+          {
+            "cor": "U",
+            "html": "A proxy honesta, que não finge ser original, não é o alvo."
+          }
+        ],
+        "nota": {
+          "rotulo": "Na sua mesa",
+          "texto": "proxy de teste feita em casa segue tolerada. O risco é a carta falsa vendida como original."
+        },
+        "fonte": "Fontes: Aftermath e MTG Salvation. Reais: PTAX de 23 nov"
+      }
+    ],
+    "topdeck": {
+      "titulo": "Counterspell",
+      "habilidades": [
+        {
+          "rotulo": "Para qualquer coisa",
+          "texto": "Criatura, feitiço ou o próprio comandante: se é mágica na pilha, ela anula."
+        },
+        {
+          "rotulo": "Só 2 mana",
+          "texto": "Duas manas azuis abertas no turno do oponente e ainda sobra mana no seu."
+        },
+        {
+          "rotulo": "Não para habilidade",
+          "texto": "Gatilho de criatura e habilidade ativada não são mágica e passam direto."
+        }
+      ],
+      "extra": "Em <b>2,2 milhões</b> de decks no EDHREC. Sai a US$ 2,58 (R$ 15,40) em Foundations Commander. Reais: PTAX de 23 nov.",
+      "credito": "Ilustração de Zack Stella"
+    },
+    "ban": {
+      "numero": "5",
+      "unidade": "DIAS",
+      "texto": "Para a próxima janela de banimentos, em 30 de novembro, o mesmo dia da venda do Secret Lair de Duna."
+    },
+    "turnos": [
+      {
+        "cor": "W",
+        "data": "26 nov",
+        "texto": "Fim da 1ª Festa de Commander"
+      },
+      {
+        "cor": "B",
+        "data": "30 nov",
+        "texto": "Janela de banimentos"
+      },
+      {
+        "cor": "A",
+        "data": "30 nov",
+        "texto": "Venda do Secret Lair de Duna"
+      },
+      {
+        "cor": "A",
+        "data": "9 dez",
+        "texto": "Nova janela do Zeta Set"
+      },
+      {
+        "cor": "W",
+        "data": "11 dez",
+        "texto": "2ª Festa de Commander de Star Trek"
+      }
+    ],
+    "sussurro": null
+  },
+  "video": {
+    "cena1": {
+      "titulo": "Wizards processa a PrintMTG por cartas falsas",
+      "pilulas": [
+        "Processo de 97 páginas",
+        "Cartas falsas",
+        "Proxy honesta fica fora"
+      ]
+    },
+    "cena2": {
+      "rotulo": "Polêmica",
+      "cor": "R",
+      "titulo": "O que a Wizards pede",
+      "linhas": [
+        {
+          "nome": "Indenização",
+          "numero": 26,
+          "prefixo": "US$ ",
+          "sufixo": " mi",
+          "sub": "R$ 155,24 milhões"
+        }
+      ],
+      "fonte": "Fontes: Aftermath e MTG Salvation. Reais: PTAX de 23 nov"
+    },
+    "cena3": {
+      "linhas": [
+        "<b>Counterspell</b> anula qualquer mágica por 2 mana",
+        "Em 2,2 milhões de decks no EDHREC",
+        "Sai a US$ 2,58 (R$ 15,40) em Foundations Commander"
+      ]
+    },
+    "cena4": {
+      "texto": "Faltam 5 dias para 30 de novembro, dia da janela de banimentos e da venda de Duna.",
+      "sussurro": null
+    }
+  },
+  "textos": {
+    "legendaCarrossel": "Carta de Magic falsa e Commander: a Wizards processou a PrintMTG, acusada de vender cartas feitas para passar por originais.\n\nO processo tem 97 páginas e foi aberto na segunda, 23 de novembro, num tribunal de Washington, nos EUA, contra a PrintMTG Enterprises e a família Dunn, de Utah. A Wizards pede mais de US$ 26 milhões (R$ 155,24 milhões) de indenização, além do lucro da empresa e dos custos do processo, e quer o fim das operações. Segundo a queixa, a proxy honesta, que não finge ser original, não é o alvo. O problema é a carta que engana quem paga preço de original.\n\nNo Topdeck do Dia, Counterspell, o anula de 2 mana que está em 2,2 milhões de decks no EDHREC e sai a US$ 2,58 (R$ 15,40) em Foundations Commander.\n\nVocê joga com proxy de teste na sua mesa?\n\nEdição completa em fontedemana.com.br\n\nArte da capa: Clone, Kev Walker. Topdeck: Counterspell, Zack Stella.\n\nValores em reais pela cotação de 23 nov (Banco Central, PTAX).\n\n#proxy #commander #mtg",
+    "legendaVideo": "Carta falsa no Magic: a Wizards processou a PrintMTG e pede mais de US$ 26 milhões (uns 155 milhões de reais). Segundo a Wizards, a proxy honesta não é o alvo.\n\nNo Topdeck, Counterspell, em 2,2 milhões de decks de Commander no EDHREC.\n\nNa sua mesa, proxy de teste vale ou não vale?\n\nTudo em fontedemana.com.br\n\nValores em reais pela cotação de 23 nov (Banco Central, PTAX).\n\n#proxy #commander #mtg",
+    "threadsPost": "A Wizards processou a PrintMTG, acusada de vender cartas falsas feitas para passar por originais. O processo foi aberto em 23 de novembro nos EUA e pede mais de US$ 26 milhões (R$ 155,24 milhões). Segundo a Wizards, a proxy honesta, que não finge ser original, não é o alvo. Na sua mesa, proxy de teste vale? fontedemana.com.br\n\nValores em reais pela cotação de 23 nov (Banco Central, PTAX).",
+    "threadsFio": [
+      "A Wizards processou a PrintMTG, acusada de vender cartas falsas feitas para passar por originais. O processo tem 97 páginas e foi aberto na segunda, 23 de novembro, num tribunal de Washington, nos EUA.",
+      "Os alvos são a PrintMTG Enterprises e a família Dunn, de Utah. A Wizards pede mais de US$ 26 milhões (R$ 155,24 milhões), o lucro da empresa e os custos do processo, e quer julgamento com júri.",
+      "Segundo a queixa, a proxy honesta, que não finge ser original, não é o alvo. O problema é a carta que engana quem paga preço de original. Para quem compra singles, vale comprar de loja confiável.",
+      "No Topdeck do Dia, Counterspell: anula qualquer mágica por 2 mana, está em 2,2 milhões de decks no EDHREC e sai a US$ 2,58 (R$ 15,40) em Foundations Commander.",
+      "Em 30 de novembro tem janela de banimentos e venda do Secret Lair de Duna. Edição completa em fontedemana.com.br\n\nValores em reais pela cotação de 23 nov (Banco Central, PTAX)."
+    ],
+    "threadsAvulsos": [
+      {
+        "titulo": "Proxy na mesa",
+        "texto": "A Wizards processou uma empresa por vender cartas falsas como originais, mas disse que a proxy honesta não é o alvo. Na sua mesa de Commander, proxy de teste vale?",
+        "obs": "Opções: vale sempre, só para testar, só com aviso, não vale"
+      }
+    ]
+  },
+  "pauta": {
+    "forca": "calmo",
+    "porque": "A Notícia Lendária é um processo judicial, polêmica que não muda ban, regra nem precon de Commander.",
+    "storyPergunta": "Proxy de teste vale na sua mesa de Commander?",
+    "enquete": {
+      "pergunta": "Proxy de teste na mesa de Commander:",
+      "opcoes": [
+        "Vale sempre",
+        "Só com aviso",
+        "Não vale"
+      ]
+    }
+  }
+}
