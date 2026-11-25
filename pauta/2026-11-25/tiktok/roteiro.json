@@ -41,15 +41,6 @@
    "segundos": 4.3
   },
   {
-   "tipo": "rosto",
-   "cor": "U",
-   "kicker": "O teste",
-   "titulo": "O embaralhar",
-   "narracao": "E embaralhando, olha o som.",
-   "gravar": "Embaralha o deck perto da câmera por uns 3 s, deixando ouvir o som das sleeves.",
-   "segundos": 2.5
-  },
-  {
    "tipo": "texto",
    "cor": "G",
    "kicker": "Por que textura",
@@ -78,5 +69,6 @@
    "narracao": "E o seu deck, tem sleeve na cor dele?",
    "segundos": 3.9
   }
- ]
+ ],
+ "rostoGravado": true
 }
