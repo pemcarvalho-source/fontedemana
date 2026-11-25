@@ -1,0 +1,72 @@
+{
+ "data": "2026-11-28",
+ "pilar": "vitrine",
+ "tema": "Deck, fichas e dado numa caixa só: o Deckbox Premium 100+ da Viper, testado",
+ "item": null,
+ "arte": "pauta/2026-11-28/tiktok/arte.jpg",
+ "carta": null,
+ "credito": "Foto: Fonte de Mana",
+ "fx": null,
+ "legenda": "Deckbox para deck de Commander: onde mora o seu deck? O Prismari, vestido com as sleeves Azul Sombrio, agora mora no Deckbox Premium 100+ vermelho da @viperacessorios: deck em cima, gaveta para dados e fichas embaixo, tampa com ímã. Vieram da @mulliganjogos. Deckbox, elástico, saquinho ou a caixa do precon? Mais no fontedemana.com.br\n\n#deckbox #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
+ "comentario": "Onde mora o seu deck? Deckbox, elástico, saquinho ou a caixa do precon? Na Vitrine de acessórios, só o que foi testado na mesa.",
+ "cenas": [
+  {
+   "tipo": "rosto",
+   "cor": "R",
+   "chip": "Vitrine",
+   "kicker": "Deckbox Premium 100+",
+   "titulo": "Deck, fichas e dado numa caixa só",
+   "sub": "O deckbox vermelho da Viper guardando o Prismari.",
+   "narracao": "Deck, fichas e dado. Tudo numa caixa só.",
+   "gravar": "Deckbox vermelho fechado na mão, perto do rosto, girando um pouco para mostrar a textura.",
+   "segundos": 3.6
+  },
+  {
+   "tipo": "clipe",
+   "cor": "R",
+   "chip": "Deckbox",
+   "kicker": "Viper, vermelho",
+   "titulo": "Textura, costura e logo em relevo",
+   "video": "extras/mulligan/mulligan-02-deckbox.mp4",
+   "narracao": "É o Deckbox Premium 100+ da Viper. Textura, costura e o logo em baixo relevo.",
+   "segundos": 6.2
+  },
+  {
+   "tipo": "rosto",
+   "cor": "R",
+   "kicker": "Por dentro",
+   "titulo": "Deck em cima, gaveta embaixo",
+   "narracao": "Em cima, o deck inteiro com sleeve. Embaixo, a gaveta dos dados e fichas.",
+   "gravar": "Tira a tampa, mostra o deck com sleeve azul encaixado e abre a gaveta com o dado e as fichas.",
+   "segundos": 5.8
+  },
+  {
+   "tipo": "rosto",
+   "cor": "R",
+   "kicker": "O fecho",
+   "titulo": "Tampa com ímã",
+   "narracao": "E a tampa fecha no ímã. Olha o clique.",
+   "gravar": "Fecha a tampa perto da câmera, devagar, para ver e ouvir o ímã puxar.",
+   "segundos": 3.9
+  },
+  {
+   "tipo": "texto",
+   "cor": "A",
+   "kicker": "Ponto fraco",
+   "titulo": "Sem vitrine para o comandante",
+   "sub": "A frente é fechada: o comandante não aparece por fora.",
+   "rodape": "Para mostrar a carta, a Viper tem o modelo Showcase.",
+   "narracao": "O ponto fraco: a frente é fechada, sem vitrine para o comandante.",
+   "segundos": 5
+  },
+  {
+   "tipo": "cta",
+   "cor": "M",
+   "kicker": "E na sua mesa?",
+   "titulo": "Onde mora o seu deck?",
+   "destaque": "@fontedemana",
+   "narracao": "E o seu deck, mora onde: caixa, elástico ou saquinho?",
+   "segundos": 4.3
+  }
+ ]
+}

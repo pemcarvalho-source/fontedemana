@@ -2,34 +2,53 @@
   "data": "2026-11-25",
   "pilar": "vitrine",
   "item": null,
-  "tema": "Sleeve e deckbox nas cores do deck: o kit da Viper no Prismari, testado",
+  "tema": "Sleeve fosca, cinco dias de mesa: Shield Matte Azul Sombrio da Viper no Prismari",
   "cartas": [],
   "fx": null,
   "carrossel": {
     "capa": {
-      "cor": "M",
+      "cor": "U",
       "chip": "Vitrine",
-      "kicker": "Cinco dias no Prismari",
-      "titulo": "O kit nas <b>cores do deck</b>",
-      "sub": "Sleeves Azul Sombrio e deckbox vermelho da Viper num precon azul e vermelho: o que eles têm de bom e o ponto fraco.",
+      "kicker": "Cinco dias de mesa",
+      "titulo": "A sleeve <b>Azul Sombrio</b> no deck azul e vermelho",
+      "sub": "As Shield Matte da Viper no Prismari: o que a textura faz, por que fosca, a cor e o ponto fraco.",
       "arte": "pauta/2026-11-25/tiktok/arte.jpg",
       "credito": "Foto: Fonte de Mana"
     },
     "cartoes": [
       {
         "cor": "U",
-        "titulo": "Sleeve fosca, verso com textura",
+        "titulo": "Shield Matte, Azul Sombrio",
         "carta": "pauta/2026-11-25/original/carta-1.jpg",
         "itens": [
           {
             "cor": "U",
-            "html": "Acabamento <b>matte</b>: frente transparente e verso com cor e textura, para a pilha não deslizar."
+            "html": "Acabamento <b>matte</b>: frente transparente e verso com cor e textura."
           },
           {
             "cor": "U",
-            "html": "66 x 92 mm, abertura em cima: veste a carta de Magic no tamanho padrão."
+            "html": "66 x 92 mm, abertura em cima, <b>100</b> no pacote: veste um deck de Commander."
           }
         ],
+        "fonte": "Fonte: viperacessorios.com.br, nov 2026"
+      },
+      {
+        "cor": "G",
+        "titulo": "O que a textura faz",
+        "itens": [
+          {
+            "cor": "G",
+            "html": "O verso texturizado <b>segura a pilha</b>: as cartas não deslizam umas sobre as outras, promete a Viper."
+          },
+          {
+            "cor": "G",
+            "html": "A frente é <b>transparente</b>: arte, nome e texto da carta aparecem inteiros."
+          }
+        ],
+        "nota": {
+          "rotulo": "Para quem volta",
+          "texto": "sleeve é a capinha da carta. Protege de dobra, sujeira e desgaste."
+        },
         "fonte": "Fonte: viperacessorios.com.br e teste, nov 2026"
       },
       {
@@ -38,11 +57,11 @@
         "itens": [
           {
             "cor": "U",
-            "html": "O Prismari joga de <b>azul e vermelho</b>. Sleeve azul e caixa vermelha: o deck se reconhece de longe."
+            "html": "O Prismari joga de <b>azul e vermelho</b>. A sleeve puxa a cor do deck."
           },
           {
             "cor": "R",
-            "html": "A linha Shield Matte tem outras cores, como Vermelho Fúria, Verde Selvagem, Roxo Místico e Preto Mortífero."
+            "html": "A linha tem outras cores, como Vermelho Fúria, Verde Selvagem, Roxo Místico e Preto Mortífero."
           }
         ],
         "nota": {
@@ -50,22 +69,6 @@
           "texto": "uma cor de sleeve por deck evita misturar as cartas na hora de guardar."
         },
         "fonte": "Fonte: viperacessorios.com.br, nov 2026"
-      },
-      {
-        "cor": "R",
-        "titulo": "Deckbox vermelho, 100+",
-        "carta": "pauta/2026-11-25/original/carta-2.jpg",
-        "itens": [
-          {
-            "cor": "R",
-            "html": "Por fora: textura, costura e o logo Viper em <b>baixo relevo</b>."
-          },
-          {
-            "cor": "R",
-            "html": "Por dentro: o deck em cima, uma <b>gaveta</b> para dados e fichas embaixo e fecho magnético."
-          }
-        ],
-        "fonte": "Fonte: teste e ficha do Deckbox Premium 100+, nov 2026"
       },
       {
         "cor": "A",
@@ -77,7 +80,7 @@
           },
           {
             "cor": "A",
-            "html": "Deck, fichas e dado guardados <b>na mesma caixa</b>, prontos para a mesa."
+            "html": "Cinco dias embaralhando, comprando e guardando o Prismari."
           }
         ],
         "nota": {
@@ -93,9 +96,9 @@
       "salvar": "Salve para quando for vestir o próximo deck."
     }
   },
-  "legenda": "Sleeve e deckbox para deck de Commander: seu deck tem sleeve na cor dele?\n\nO Prismari Artistry joga de azul e vermelho, então ganhou um kit nas mesmas cores: as sleeves Shield Matte Azul Sombrio e o Deckbox Premium 100+ vermelho da @viperacessorios. Vieram da @mulliganjogos.\n\nSleeves: foscas, frente transparente, verso com cor e textura, 66 x 92 mm.\nDeckbox: textura, costura, logo em baixo relevo, gaveta para dados e fichas e fecho magnético.\nPonto fraco: vêm 100 sleeves, o deck certinho, sem reserva.\n\nFontes: viperacessorios.com.br e cinco dias de teste na mesa. Mais no fontedemana.com.br\n\nCombina com o deck, uma cor para tudo ou sem sleeve?\n\n#sleeves #commander #mtg",
+  "legenda": "Sleeve para deck de Commander: seu deck tem sleeve na cor dele?\n\nCinco dias de mesa com as Shield Matte Azul Sombrio da @viperacessorios no Prismari Artistry, um deck azul e vermelho. Vieram da @mulliganjogos.\n\nFosca, frente transparente, verso com cor e textura para a pilha não deslizar.\n66 x 92 mm, abertura em cima, 100 no pacote.\nPonto fraco: 100 certinhas, o deck inteiro, sem reserva.\n\nFontes: viperacessorios.com.br e cinco dias de teste na mesa. Mais no fontedemana.com.br\n\nCombina com o deck, uma cor para tudo ou sem sleeve?\n\n#sleeves #commander #mtg",
   "threads": {
-    "texto": "Sleeve na cor do deck: capricho ou bobagem?\n\nO meu Prismari joga de azul e vermelho. Vesti com sleeve azul e guardei numa caixa vermelha. Na mesa, dá para saber de longe de quem é cada deck, e na hora de guardar nada se mistura.\n\nTem gente que usa uma cor só para todos os decks. Tem gente que joga sem sleeve nenhuma.\n\nQual é o seu caso?",
+    "texto": "Sleeve na cor do deck: capricho ou bobagem?\n\nO meu Prismari joga de azul e vermelho e ganhou sleeve azul. Na mesa, dá para saber de longe de quem é cada deck, e na hora de guardar nada se mistura.\n\nTem gente que usa uma cor só para todos os decks. Tem gente que joga sem sleeve nenhuma.\n\nQual é o seu caso?",
     "obs": "Enquete: Combino com o deck / Uma cor para tudo / Sem sleeve"
   },
   "enquete": {

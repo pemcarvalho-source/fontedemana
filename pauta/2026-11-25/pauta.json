@@ -5,10 +5,10 @@
     {
       "id": "gravacao",
       "dia": "2026-11-24",
-      "hora": "21:15",
+      "hora": "22:00",
       "rede": "Gravação",
-      "titulo": "Gravar o vídeo de amanhã (você aparece)",
-      "oQue": "Vitrine com a Mulligan, agora sobre a qualidade do kit: sleeves Azul Sombrio e deckbox vermelho nas cores do Prismari. Três cenas com o seu rosto (o kit nas cores do deck, embaralhando e a gaveta com o ímã) e quatro só com a voz. Se algo no teste foi diferente do roteiro, fale o que aconteceu.",
+      "titulo": "Gravar o vídeo de 25/11 (você aparece)",
+      "oQue": "Vitrine com a Mulligan, só as sleeves: Shield Matte Azul Sombrio no Prismari. Três cenas com o seu rosto (a caixa na mão, o leque de cartas e o embaralhar) e quatro só com a voz. Se algo no teste foi diferente do roteiro, fale o que aconteceu.",
       "arquivos": [
         {
           "nome": "Vídeo mudo (referência)",
@@ -17,39 +17,39 @@
       ],
       "roteiro": [
         {
-          "cena": "Cena 1, rosto, uns 4 s",
-          "tela": "Prismari protegido: Deck azul e vermelho, kit azul e vermelho",
-          "fala": "Meu deck é azul e vermelho. A proteção também.",
-          "como": "Rosto: Deck com as sleeves azuis numa mão e o deckbox vermelho na outra, lado a lado, na altura do peito."
+          "cena": "Cena 1, rosto, uns 3 s",
+          "tela": "Cinco dias de mesa: A sleeve azul do meu deck",
+          "fala": "Cinco dias de mesa com essa sleeve.",
+          "como": "Rosto: Caixa das sleeves Azul Sombrio numa mão, perto do rosto, e o deck já vestido na outra."
         },
         {
           "cena": "Cena 2, só a voz, uns 5 s",
-          "tela": "Shield Matte, Azul Sombrio: Fosca, com verso de textura",
-          "fala": "Sleeve fosca, Azul Sombrio. Frente transparente, verso com cor e textura.",
+          "tela": "Viper Shield Matte: Azul Sombrio, fosca",
+          "fala": "Shield Matte da Viper, cor Azul Sombrio. Fosca, frente transparente.",
           "como": "Só a voz: pode gravar em vídeo ou áudio"
         },
         {
           "cena": "Cena 3, rosto, uns 4 s",
-          "tela": "Cinco dias de mesa: O teste do embaralhar",
-          "fala": "Cinco dias de mesa com elas. Olha como embaralha.",
-          "como": "Rosto: Embaralha as 100 cartas com sleeve perto da câmera, deixando ouvir o som e ver o verso azul."
+          "tela": "O verso: Cor e textura no verso",
+          "fala": "Cor e textura no verso. O deck inteiro fica assim.",
+          "como": "Rosto: Abre o deck em leque na frente da câmera, com os versos azuis aparecendo e a caixa da sleeve ao lado."
         },
         {
-          "cena": "Cena 4, só a voz, uns 4 s",
-          "tela": "Deckbox Premium 100+: Textura, costura e logo em relevo",
-          "fala": "O deckbox vermelho tem textura, costura e o logo em baixo relevo.",
+          "cena": "Cena 4, rosto, uns 3 s",
+          "tela": "O teste: O embaralhar",
+          "fala": "E embaralhando, olha o som.",
+          "como": "Rosto: Embaralha o deck perto da câmera por uns 3 s, deixando ouvir o som das sleeves."
+        },
+        {
+          "cena": "Cena 5, só a voz, uns 4 s",
+          "tela": "Por que textura: A pilha não escorrega",
+          "fala": "A textura segura a pilha, e a cor deixa o deck com uma cara só.",
           "como": "Só a voz: pode gravar em vídeo ou áudio"
-        },
-        {
-          "cena": "Cena 5, rosto, uns 5 s",
-          "tela": "Por dentro: Gaveta para dados e fecho no ímã",
-          "fala": "Embaixo, gaveta pros dados e fichas. Em cima, o deck. E fecha no ímã.",
-          "como": "Rosto: Abre a gaveta, põe o dado e as fichas, encaixa o deck em cima e fecha a tampa perto da câmera."
         },
         {
           "cena": "Cena 6, só a voz, uns 4 s",
           "tela": "Ponto fraco: 100 sleeves, nenhuma de reserva",
-          "fala": "O ponto fraco: vêm 100, o deck certinho. Não sobra reserva.",
+          "fala": "Ponto fraco: vêm 100, o deck certinho. Sem reserva.",
           "como": "Só a voz: pode gravar em vídeo ou áudio"
         },
         {
@@ -73,8 +73,8 @@
       "id": "tiktok",
       "hora": "11:30",
       "rede": "TikTok",
-      "titulo": "Postar o TikTok do kit nas cores do deck",
-      "oQue": "Vídeo da Vitrine com a Mulligan: sleeves Azul Sombrio e deckbox vermelho da Viper no Prismari, que joga de azul e vermelho. Marque a @viperacessorios e a @mulliganjogos.",
+      "titulo": "Postar o TikTok das sleeves Azul Sombrio",
+      "oQue": "Vídeo da Vitrine com a Mulligan: as sleeves Shield Matte Azul Sombrio da Viper no Prismari. Marque a @viperacessorios e a @mulliganjogos.",
       "arquivos": [
         {
           "nome": "Vídeo mudo",
@@ -84,11 +84,11 @@
       "textos": [
         {
           "rotulo": "Legenda",
-          "texto": "Sleeve e deckbox para deck de Commander: seu deck tem sleeve na cor dele? O Prismari Artistry joga de azul e vermelho, então ganhou as sleeves Shield Matte Azul Sombrio e o Deckbox Premium 100+ vermelho da @viperacessorios. Cinco dias de mesa: sleeve fosca com verso texturizado, deckbox com gaveta para dados e fecho magnético. Vieram da @mulliganjogos. Combina com o deck, uma cor só para tudo ou sem sleeve? Mais no fontedemana.com.br\n\n#sleeves #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+          "texto": "Sleeve para deck de Commander: seu deck tem sleeve na cor dele? Cinco dias de mesa com as Shield Matte Azul Sombrio da @viperacessorios no Prismari, um deck azul e vermelho. Fosca, frente transparente, verso com cor e textura, 66 x 92 mm, 100 no pacote. Vieram da @mulliganjogos. Combina com o deck, uma cor para tudo ou sem sleeve? Mais no fontedemana.com.br\n\n#sleeves #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
         },
         {
           "rotulo": "Comentário fixado",
-          "texto": "Seu deck tem sleeve na cor dele? Combina com o deck, uma cor só para tudo ou sem sleeve? Na Vitrine de acessórios, só o que foi testado na mesa."
+          "texto": "Seu deck tem sleeve na cor dele? Combina com o deck, uma cor para tudo ou sem sleeve? Na Vitrine de acessórios, só o que foi testado na mesa."
         }
       ],
       "passos": [

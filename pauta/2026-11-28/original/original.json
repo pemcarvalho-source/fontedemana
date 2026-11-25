@@ -1,0 +1,117 @@
+{
+  "data": "2026-11-28",
+  "pilar": "vitrine",
+  "item": null,
+  "tema": "Deck, fichas e dado numa caixa só: o Deckbox Premium 100+ da Viper, testado",
+  "cartas": [],
+  "fx": null,
+  "carrossel": {
+    "capa": {
+      "cor": "R",
+      "chip": "Vitrine",
+      "kicker": "Testado no Prismari",
+      "titulo": "Deck, fichas e dado <b>numa caixa só</b>",
+      "sub": "O Deckbox Premium 100+ vermelho da Viper: por fora, por dentro, os cuidados e o ponto fraco.",
+      "arte": "pauta/2026-11-28/tiktok/arte.jpg",
+      "credito": "Foto: Fonte de Mana"
+    },
+    "cartoes": [
+      {
+        "cor": "R",
+        "titulo": "Por fora",
+        "carta": "pauta/2026-11-28/original/carta-1.jpg",
+        "itens": [
+          {
+            "cor": "R",
+            "html": "Vermelho, com <b>textura</b>, costura e o logo Viper em <b>baixo relevo</b>."
+          },
+          {
+            "cor": "R",
+            "html": "Com as sleeves Azul Sombrio dentro, o kit fecha nas cores do Prismari: azul e vermelho."
+          }
+        ],
+        "fonte": "Fonte: teste da Fonte de Mana, nov 2026"
+      },
+      {
+        "cor": "R",
+        "titulo": "Por dentro",
+        "itens": [
+          {
+            "cor": "R",
+            "html": "Em cima, o <b>deck de Commander</b> inteiro com sleeve."
+          },
+          {
+            "cor": "R",
+            "html": "Embaixo, uma <b>gaveta</b> para dados e fichas."
+          },
+          {
+            "cor": "R",
+            "html": "A tampa sai inteira e fecha com <b>ímã</b>."
+          }
+        ],
+        "nota": {
+          "rotulo": "Dica de mesa",
+          "texto": "as fichas do deck guardadas junto com ele poupam tempo de procurar na hora do jogo."
+        },
+        "fonte": "Fonte: teste e ficha do Deckbox Premium 100+, nov 2026"
+      },
+      {
+        "cor": "G",
+        "titulo": "Cuidados para durar",
+        "itens": [
+          {
+            "cor": "G",
+            "html": "Longe do <b>sol, do calor e da umidade</b>."
+          },
+          {
+            "cor": "G",
+            "html": "Limpe com pano seco ou levemente úmido, <b>sem álcool</b> nem produto de limpeza."
+          },
+          {
+            "cor": "G",
+            "html": "Não force a <b>capacidade máxima</b>: deck apertado gasta a caixa e a sleeve."
+          }
+        ],
+        "fonte": "Fonte: viperacessorios.com.br, nov 2026"
+      },
+      {
+        "cor": "A",
+        "titulo": "O ponto fraco",
+        "itens": [
+          {
+            "cor": "A",
+            "html": "A frente é <b>fechada</b>: o comandante não aparece por fora."
+          },
+          {
+            "cor": "A",
+            "html": "Quem quer mostrar a carta tem o modelo <b>Showcase 100+</b> da Viper, com vitrine na frente."
+          }
+        ],
+        "nota": {
+          "rotulo": "Para quem volta",
+          "texto": "deckbox é a caixa do deck. Protege na mochila e guarda tudo do jogo junto."
+        },
+        "fonte": "Fonte: viperacessorios.com.br e teste, nov 2026"
+      }
+    ],
+    "cta": {
+      "pergunta": "Onde mora <b>o seu deck</b>?",
+      "quando": "Deckbox, elástico, saquinho ou a caixa do precon?",
+      "salvar": "Salve para quando for escolher a caixa do próximo deck."
+    }
+  },
+  "legenda": "Deckbox para deck de Commander: onde mora o seu deck?\n\nO Prismari Artistry, vestido com as sleeves Azul Sombrio, agora mora no Deckbox Premium 100+ vermelho da @viperacessorios. Vieram da @mulliganjogos.\n\nPor fora: textura, costura e logo em baixo relevo.\nPor dentro: deck em cima, gaveta para dados e fichas embaixo, tampa com ímã.\nPonto fraco: a frente é fechada, sem vitrine para o comandante.\n\nFontes: viperacessorios.com.br e o teste na mesa. Mais no fontedemana.com.br\n\nDeckbox, elástico, saquinho ou a caixa do precon?\n\n#deckbox #commander #mtg",
+  "threads": {
+    "texto": "Pergunta séria de mesa: onde mora o seu deck?\n\nO meu Prismari ganhou deckbox com gaveta para dado e ficha. Mas eu sei que tem muito deck bom por aí morando num elástico de dinheiro ou na caixa original do precon.\n\nE o seu, mora onde?",
+    "obs": "Enquete: Deckbox / Elástico / Caixa do precon / Saquinho"
+  },
+  "enquete": {
+    "pergunta": "Onde mora o seu deck?",
+    "opcoes": [
+      "Deckbox",
+      "Elástico",
+      "Caixa do precon",
+      "Saquinho"
+    ]
+  }
+}

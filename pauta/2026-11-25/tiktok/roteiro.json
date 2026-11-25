@@ -1,73 +1,73 @@
 {
  "data": "2026-11-25",
  "pilar": "vitrine",
- "tema": "Sleeve e deckbox nas cores do deck: o kit da Viper no Prismari, testado",
+ "tema": "Sleeve fosca, cinco dias de mesa: Shield Matte Azul Sombrio da Viper no Prismari",
  "item": null,
  "arte": "pauta/2026-11-25/tiktok/arte.jpg",
  "carta": null,
  "credito": "Foto: Fonte de Mana",
  "fx": null,
- "legenda": "Sleeve e deckbox para deck de Commander: seu deck tem sleeve na cor dele? O Prismari Artistry joga de azul e vermelho, então ganhou as sleeves Shield Matte Azul Sombrio e o Deckbox Premium 100+ vermelho da @viperacessorios. Cinco dias de mesa: sleeve fosca com verso texturizado, deckbox com gaveta para dados e fecho magnético. Vieram da @mulliganjogos. Combina com o deck, uma cor só para tudo ou sem sleeve? Mais no fontedemana.com.br\n\n#sleeves #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
- "comentario": "Seu deck tem sleeve na cor dele? Combina com o deck, uma cor só para tudo ou sem sleeve? Na Vitrine de acessórios, só o que foi testado na mesa.",
+ "legenda": "Sleeve para deck de Commander: seu deck tem sleeve na cor dele? Cinco dias de mesa com as Shield Matte Azul Sombrio da @viperacessorios no Prismari, um deck azul e vermelho. Fosca, frente transparente, verso com cor e textura, 66 x 92 mm, 100 no pacote. Vieram da @mulliganjogos. Combina com o deck, uma cor para tudo ou sem sleeve? Mais no fontedemana.com.br\n\n#sleeves #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
+ "comentario": "Seu deck tem sleeve na cor dele? Combina com o deck, uma cor para tudo ou sem sleeve? Na Vitrine de acessórios, só o que foi testado na mesa.",
  "cenas": [
   {
    "tipo": "rosto",
-   "cor": "M",
+   "cor": "U",
    "chip": "Vitrine",
-   "kicker": "Prismari protegido",
-   "titulo": "Deck azul e vermelho, kit azul e vermelho",
-   "sub": "Sleeves Azul Sombrio e deckbox vermelho da Viper.",
-   "narracao": "Meu deck é azul e vermelho. A proteção também.",
-   "gravar": "Deck com as sleeves azuis numa mão e o deckbox vermelho na outra, lado a lado, na altura do peito.",
-   "segundos": 3.9
+   "kicker": "Cinco dias de mesa",
+   "titulo": "A sleeve azul do meu deck",
+   "sub": "Shield Matte Azul Sombrio, da Viper, no Prismari.",
+   "narracao": "Cinco dias de mesa com essa sleeve.",
+   "gravar": "Caixa das sleeves Azul Sombrio numa mão, perto do rosto, e o deck já vestido na outra.",
+   "segundos": 3.2
   },
   {
    "tipo": "clipe",
    "cor": "U",
    "chip": "Sleeves",
-   "kicker": "Shield Matte, Azul Sombrio",
-   "titulo": "Fosca, com verso de textura",
+   "kicker": "Viper Shield Matte",
+   "titulo": "Azul Sombrio, fosca",
    "video": "extras/mulligan/mulligan-04-sleeves.mp4",
-   "narracao": "Sleeve fosca, Azul Sombrio. Frente transparente, verso com cor e textura.",
-   "segundos": 4.7
+   "narracao": "Shield Matte da Viper, cor Azul Sombrio. Fosca, frente transparente.",
+   "segundos": 4.3
   },
   {
    "tipo": "rosto",
    "cor": "U",
-   "kicker": "Cinco dias de mesa",
-   "titulo": "O teste do embaralhar",
-   "narracao": "Cinco dias de mesa com elas. Olha como embaralha.",
-   "gravar": "Embaralha as 100 cartas com sleeve perto da câmera, deixando ouvir o som e ver o verso azul.",
-   "segundos": 3.9
-  },
-  {
-   "tipo": "clipe",
-   "cor": "R",
-   "chip": "Deckbox",
-   "kicker": "Deckbox Premium 100+",
-   "titulo": "Textura, costura e logo em relevo",
-   "video": "extras/mulligan/mulligan-02-deckbox.mp4",
-   "narracao": "O deckbox vermelho tem textura, costura e o logo em baixo relevo.",
-   "segundos": 5
+   "kicker": "O verso",
+   "titulo": "Cor e textura no verso",
+   "narracao": "Cor e textura no verso. O deck inteiro fica assim.",
+   "gravar": "Abre o deck em leque na frente da câmera, com os versos azuis aparecendo e a caixa da sleeve ao lado.",
+   "segundos": 4.3
   },
   {
    "tipo": "rosto",
-   "cor": "R",
-   "kicker": "Por dentro",
-   "titulo": "Gaveta para dados e fecho no ímã",
-   "narracao": "Embaixo, gaveta pros dados e fichas. Em cima, o deck. E fecha no ímã.",
-   "gravar": "Abre a gaveta, põe o dado e as fichas, encaixa o deck em cima e fecha a tampa perto da câmera.",
-   "segundos": 5.8
+   "cor": "U",
+   "kicker": "O teste",
+   "titulo": "O embaralhar",
+   "narracao": "E embaralhando, olha o som.",
+   "gravar": "Embaralha o deck perto da câmera por uns 3 s, deixando ouvir o som das sleeves.",
+   "segundos": 2.5
+  },
+  {
+   "tipo": "texto",
+   "cor": "G",
+   "kicker": "Por que textura",
+   "titulo": "A pilha não escorrega",
+   "sub": "O verso tem textura para as cartas não deslizarem, diz a Viper.",
+   "rodape": "E a cor no verso deixa o deck inteiro com uma cara só.",
+   "narracao": "A textura segura a pilha, e a cor deixa o deck com uma cara só.",
+   "segundos": 6.2
   },
   {
    "tipo": "texto",
    "cor": "A",
    "kicker": "Ponto fraco",
    "titulo": "100 sleeves, nenhuma de reserva",
-   "sub": "O pacote veste o deck certinho.",
+   "sub": "O pacote veste o deck de Commander certinho.",
    "rodape": "Se uma rasgar, precisa de outro pacote.",
-   "narracao": "O ponto fraco: vêm 100, o deck certinho. Não sobra reserva.",
-   "segundos": 4.7
+   "narracao": "Ponto fraco: vêm 100, o deck certinho. Sem reserva.",
+   "segundos": 3.9
   },
   {
    "tipo": "cta",
