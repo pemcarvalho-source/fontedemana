@@ -1,0 +1,42 @@
+{
+  "data": "2026-11-26",
+  "pilar": "top5",
+  "item": null,
+  "tema": "Top 5 #9: cartas de Commander por menos de 1 dólar que estão em milhões de decks",
+  "cartas": ["Arcane Signet", "Path to Exile", "Farseek", "Chaos Warp", "Brainstorm"],
+  "fx": "Valores em reais pela cotação de 23 nov (Banco Central, PTAX).",
+  "carrossel": {
+    "capa": {"cor": "A", "chip": "Top 5 #9", "kicker": "Black Friday do Commander",
+             "titulo": "5 cartas por <b>menos de 1 dólar</b>",
+             "sub": "Todas em quase 1 milhão de decks ou mais no EDHREC. As cinco juntas saem por <b>US$ 2,43 (R$ 14,51)</b>.",
+             "arte": "pauta/2026-11-26/tiktok/arte.jpg", "credito": "Arte: Arcane Signet, Dan Murayama Scott"},
+    "cartoes": [
+      {"cor": "U", "titulo": "#5 Brainstorm", "cheia": true, "carta": "pauta/2026-11-26/original/carta-1.jpg",
+       "itens": [{"cor": "U", "html": "<b>929 mil decks</b>, US$ 0,43 (R$ 2,57)"},
+                 {"cor": "U", "html": "Compra três e devolve duas: limpa a mão por uma mana"}],
+       "fonte": "Fonte: EDHREC (2 anos) e Scryfall, nov 2026"},
+      {"cor": "R", "titulo": "#4 Chaos Warp", "cheia": true, "carta": "pauta/2026-11-26/original/carta-2.jpg",
+       "itens": [{"cor": "R", "html": "<b>1,49 milhão de decks</b>, US$ 0,33 (R$ 1,97)"},
+                 {"cor": "R", "html": "O vermelho tira encantamento, artefato ou o que for"}],
+       "fonte": "Fonte: EDHREC (2 anos) e Scryfall, nov 2026"},
+      {"cor": "G", "titulo": "#3 Farseek", "cheia": true, "carta": "pauta/2026-11-26/original/carta-3.jpg",
+       "itens": [{"cor": "G", "html": "<b>1,71 milhão de decks</b>, US$ 0,50 (R$ 2,99)"},
+                 {"cor": "G", "html": "Ramp de 2 manas que busca até terreno duplo com tipo"}],
+       "fonte": "Fonte: EDHREC (2 anos) e Scryfall, nov 2026"},
+      {"cor": "W", "titulo": "#2 Path to Exile", "cheia": true, "carta": "pauta/2026-11-26/original/carta-4.jpg",
+       "itens": [{"cor": "W", "html": "<b>2,33 milhões de decks</b>, US$ 0,68 (R$ 4,06)"},
+                 {"cor": "W", "html": "Uma mana branca e a criatura vai para o exílio"}],
+       "fonte": "Fonte: EDHREC (2 anos) e Scryfall, nov 2026"},
+      {"cor": "A", "titulo": "#1 Arcane Signet", "cheia": true, "carta": "pauta/2026-11-26/original/carta-5.jpg",
+       "itens": [{"cor": "A", "html": "<b>7,46 milhões de decks</b>, US$ 0,49 (R$ 2,93)"},
+                 {"cor": "A", "html": "Mana de qualquer cor do seu comandante, no turno 2"}],
+       "fonte": "Fonte: EDHREC (2 anos) e Scryfall, nov 2026"}
+    ],
+    "cta": {"pergunta": "Qual dessas <b>ainda falta</b> no seu deck?",
+            "quando": "Toda quinta tem um Top 5 novo",
+            "salvar": "Salva para levar a lista na loja ou no pedido da Black Friday"}
+  },
+  "legenda": "Commander barato: 5 cartas de Magic por menos de 1 dólar que estão em milhões de decks. Qual delas ainda falta no seu deck?\n\n#5 Brainstorm: 929 mil decks, US$ 0,43 (R$ 2,57)\n#4 Chaos Warp: 1,49 milhão de decks, US$ 0,33 (R$ 1,97)\n#3 Farseek: 1,71 milhão de decks, US$ 0,50 (R$ 2,99)\n#2 Path to Exile: 2,33 milhões de decks, US$ 0,68 (R$ 4,06)\n#1 Arcane Signet: 7,46 milhões de decks, US$ 0,49 (R$ 2,93)\n\nAs cinco juntas: US$ 2,43 (R$ 14,51). Para completar o deck na Black Friday sem gastar muito.\n\nFontes: EDHREC (decks dos últimos 2 anos) e Scryfall (impressão mais barata), nov 2026. Valores em reais pela cotação de 23 nov (Banco Central, PTAX). Mais em fontedemana.com.br\n\n#blackfriday #commander #mtg",
+  "threads": {"texto": "Black Friday do Commander: Arcane Signet, Path to Exile, Farseek, Chaos Warp e Brainstorm custam menos de 1 dólar cada e estão em milhões de decks no EDHREC.\n\nPergunta sincera: a carta barata que mais faz diferença no seu deck é staple ou é aquela que ninguém mais joga?\n\nQual é a sua carta de menos de 1 dólar que não sai do deck?", "obs": "Enquete: staple barata ou carta que ninguém joga?"},
+  "enquete": {"pergunta": "Qual dessas falta no seu deck?", "opcoes": ["Arcane Signet", "Path to Exile", "Farseek", "Chaos Warp"]}
+}
