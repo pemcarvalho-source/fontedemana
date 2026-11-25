@@ -1,6 +1,7 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "Counterspell",
   "Swords to Plowshares",
   "Cultivate",
   "Goblin Bombardment",
@@ -49,6 +50,13 @@ window.MANA_POOL_INDEX = {
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 51,
+   "date": "2026-11-25",
+   "dateLabel": "Quarta-feira, 25 de novembro de 2026",
+   "head": "Wizards processa a PrintMTG por cartas falsas e pede indenização milionária",
+   "biome": "U"
+  },
   {
    "n": 50,
    "date": "2026-11-24",
@@ -258,13 +266,6 @@ window.MANA_POOL_INDEX = {
    "dateLabel": "Segunda, 26 de outubro de 2026",
    "head": "Secret Lairs de Reality Fracture entram à venda hoje na Chaos Vault",
    "biome": "A"
-  },
-  {
-   "n": 20,
-   "date": "2026-10-25",
-   "dateLabel": "Domingo, 25 de outubro de 2026",
-   "head": "Jadzia Dax, mítica de 2 manas, gera mais mana a cada turno",
-   "biome": "G"
   }
  ]
 };
