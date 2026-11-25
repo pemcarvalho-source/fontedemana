@@ -1,5 +1,5 @@
 {
-  "versao": "2026-11-24 v5.12.1",
+  "versao": "2026-11-25 v5.12.2",
   "comentario": "Plano editorial da Fonte de Mana. Lido por tools/conteudo/contexto.cjs (tarefa da noite), tools/pauta/manha.cjs (tarefa da manhã) e tools/pauta/tiktok.cjs (molde do vídeo). A explicação completa está em tools/conteudo/ESTRATEGIA.md, os formatos (com as referências que inspiraram cada um) em tools/conteudo/FORMATOS.md e a revisão semanal em tools/conteudo/REVISAO.md. Ciclo de 3 semanas: a letra da semana é ciclo.semanas[(semana ISO + ciclo.deslocamento) % 3]. Datas comemorativas em datas: de e ate como MM-DD (todo ano) ou AAAA-MM-DD (só aquele ano); no dia, pilarNoDia troca o pilar do calendário. Os blocos video, reels, threads, legenda, audio, conversa, rosto e isca valem para datas a partir de desde (antes disso, tudo segue como na v4). plantao: eventos com dia marcado para a fase plantao do orquestrador; o tools/conteudo/plantao.cjs mostra o do dia com --qual. testes: de e ate (ou dias) em AAAA-MM-DD; hora troca o horário da grade nesses dias.",
 
   "ciclo": {"semanas": ["A", "B", "C"], "deslocamento": 2, "nota": "Semana ISO 42 (12 a 18 out 2026) = C a partir de sexta 16, 43 = A, 44 = B, 45 = C. Semana C traz os formatos novos de 15 out."},
@@ -328,6 +328,30 @@
       "cuidado": "Nenhuma carta do carrossel de referência de 22/11. \"Mais jogada\" só com o número de decks do EDHREC na tela. Telas de carta com \"cheia\": true."
     },
     {
+      "dia": "2027-01-26",
+      "pilar": "dicionario",
+      "motivo": "Aprovado pelo Paulo em 25/11/2026: a rotação do Standard é em 29/1/2027 (mesa; no Arena, 2/2) e muita gente que vem do Arena pergunta se o deck de Commander perde cartas. O Dicionário de terça explica o termo três dias antes.",
+      "tema": "Dicionário do Commander: o que é rotação (e por que o seu deck de Commander não perde cartas)",
+      "material": [
+        "Fonte da rotação: MTG Insider, 24/11/2026 (https://mtginsider.com/mtg-standard-rotation-2027/): o Standard de mesa roda em 29/1/2027, com os pré-lançamentos de Nauctis; no Arena, em 2/2. Saem sete coleções: Wilds of Eldraine, The Lost Caverns of Ixalan, Murders at Karlov Manor, Outlaws of Thunder Junction, The Big Score, Bloomburrow e Duskmourn. Confirme datas e coleções no anúncio da Wizards antes de publicar.",
+        "O ponto do Dicionário: rotação é coisa de formato que gira (Standard); o Commander é um formato eterno, em que toda carta já lançada continua valendo, a não ser que esteja banida. A carta de exemplo pode ser um terreno que sai do Standard e é muito jogado no Commander (lista em extras/precos/rotacao-standard-2027.json, com o rank do EDHREC)."
+      ],
+      "sugestao": "Gancho: \"Seu deck de Commander vai perder cartas em janeiro?\" (resposta só depois da primeira troca de tela). A Bolsa de Mana de 31/1 mostra o que aconteceu com os preços.",
+      "cuidado": "Não fale do Standard além do necessário para explicar o termo; não preveja preço."
+    },
+    {
+      "dia": "2027-01-31",
+      "pilar": "bolsa",
+      "motivo": "Aprovado pelo Paulo em 25/11/2026: dois dias depois da rotação do Standard (29/1), a Bolsa de Mana mostra o que aconteceu com o preço dos terrenos que saem do Standard e são jogados no Commander.",
+      "tema": "Rotação do Standard: os terrenos de Commander que saem (preço antes e depois de 29/1/2027)",
+      "material": [
+        "Preços: extras/precos/rotacao-standard-2027.json, com fotografias do Scryfall (preço do TCGplayer em dólar, da impressão da coleção que sai) de 25/11/2026 e 28/1/2027 (véspera, tarefa agendada). Na tarefa da noite de 30/1, rode python3 tools/extras/precos.py extras/precos/rotacao-standard-2027.json para a fotografia do dia e compare as três.",
+        "Os terrenos: Cavern of Souls (LCI), Fabled Passage (BLB), as 10 surveil lands (MKM), as 5 verge lands aliadas (DSK) e as 5 fast lands (OTJ), todos com rank do EDHREC no arquivo (Fabled Passage era o #38 e Cavern of Souls o #113 em 25/11/2026).",
+        "Dólar primeiro e o real entre parênteses, pela PTAX do dia, com a nota da cotação."
+      ],
+      "cuidado": "Só o que aconteceu com o preço, com data e fonte em cada número: nada de previsão, \"hora de comprar\" ou recomendação de investimento. Preço de outra impressão (reimpressão, Secret Lair) não entra na conta. Sem fotografia de 28/1, compare só 25/11 com o dia da peça e diga isso."
+    },
+    {
       "dia": "2026-11-25",
       "pilar": "vitrine",
       "rosto": true,
@@ -565,7 +589,7 @@
   "filas": {
     "historia": ["Sol Ring", "Command Tower", "Rhystic Study", "Smothering Tithe", "Cyclonic Rift", "Edgar Markov", "Atraxa, Praetors' Voice", "The Ur-Dragon", "Lightning Greaves", "Ashling, the Pilgrim"],
     "lore": ["Chandra Nalaar, a protagonista de Planeswalker (Netflix)", "Ajani Goldmane, o leonino de Planeswalker (Netflix)", "Ashling, a peregrina de Lorwyn", "Edgar Markov e a linhagem de Sorin", "Nicol Bolas", "Urza e Mishra", "Teferi", "Liliana Vess", "Elesh Norn e a Phyrexia", "Jodah", "Kenrith e Eldraine", "Tiamat e os dragões cromáticos"],
-    "dicionario": ["EDH", "Staple", "Mana dork", "Stack (pilha)", "Ramp", "The List", "Tutor", "Planeswalker", "Board wipe", "Commander tax", "Identidade de cores", "Game Changer", "Rule 0", "Topdeck", "ETB", "Voltron", "Stax", "Blink", "Reanimator", "Proliferate", "Cantrip", "Mana rock", "Fetch land", "Shock land", "Sac outlet", "Partner", "Group hug", "Wincon", "Goodstuff", "Pod", "Mulligan", "Scoop", "Aristocrats", "Landfall", "cEDH", "Bracket", "Precon", "As 99"],
+    "dicionario": ["EDH", "Staple", "Mana dork", "Stack (pilha)", "Ramp", "The List", "Tutor", "Planeswalker", "Rotação", "Board wipe", "Commander tax", "Identidade de cores", "Game Changer", "Rule 0", "Topdeck", "ETB", "Voltron", "Stax", "Blink", "Reanimator", "Proliferate", "Cantrip", "Mana rock", "Fetch land", "Shock land", "Sac outlet", "Partner", "Group hug", "Wincon", "Goodstuff", "Pod", "Mulligan", "Scoop", "Aristocrats", "Landfall", "cEDH", "Bracket", "Precon", "As 99"],
     "top5": ["Elementais para o deck de Ashling", "Vampiros mais fortes do Commander", "Cartas antigas que voltaram a valer no Commander (para quem parou de jogar)", "Precons para começar no Commander", "Marcadores +1/+1, Lado B: 5 cartas subestimadas (poucos decks do tema no EDHREC, preço baixo e o motivo de entrar; chip Top 5 Lado B; nenhuma carta do carrossel de referência de 22/11)", "Marcadores +1/+1, Lado A: as 5 mais jogadas do tema no EDHREC (lembra o Lado B da semana anterior)", "Dragões obrigatórios em um deck de dragões", "Terrenos que todo deck de Commander deveria ter", "Mana rocks baratos", "Board wipes", "Comandantes para quem está começando", "Remoções instantâneas", "Elfos", "Zumbis", "Goblins", "Anjos", "Comandantes de Bloomburrow", "Comandantes de Lorwyn Eclipsed"],
     "regra": ["Dano de comandante com comandante roubado", "Comandante que voltou para a mão paga imposto?", "Comandante exilado volta para a zona de comando?", "Dois comandantes (Partner): um imposto para cada", "Identidade de cor conta o símbolo de mana no texto", "Panglacial Wurm conjurado do meio do grimório", "Mindslaver e jogar o turno do oponente", "Teferi's Protection e phasing", "Humility com Opalescence e as camadas", "Worldgorger Dragon e o loop que empata", "Split second", "Lich's Mastery e perder permanentes", "Hive Mind com Pact", "Criatura virada para baixo (morph) não tem nome"],
     "debate": ["Rule 0 antes de toda partida: necessário ou chato?", "Universes Beyond no Commander", "Brackets funcionam na prática?", "Mesa de 4 ou duelo 1x1?", "Precon original ou upgrade logo na compra?", "Tutor demais deixa o jogo repetitivo?", "Proxy na mesa casual: pode ou não?"],

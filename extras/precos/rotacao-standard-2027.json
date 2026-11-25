@@ -1,0 +1,276 @@
+{
+ "tema": "Rotação do Standard de 29/1/2027 (mesa; Arena em 2/2): os terrenos jogados no Commander que saem do Standard",
+ "fonteDaRotacao": "MTG Insider, 24/11/2026 (https://mtginsider.com/mtg-standard-rotation-2027/); conferir com o anúncio da Wizards antes de publicar",
+ "uso": "Bolsa de Mana de 31/1/2027 (plano.json > trocas). Fotos: 25/11/2026 (referência), 28/1/2027 (véspera, tarefa agendada) e a do dia da peça.",
+ "cartas": [
+  {
+   "nome": "Cavern of Souls",
+   "set": "lci"
+  },
+  {
+   "nome": "Fabled Passage",
+   "set": "blb"
+  },
+  {
+   "nome": "Underground Mortuary",
+   "set": "mkm"
+  },
+  {
+   "nome": "Undercity Sewers",
+   "set": "mkm"
+  },
+  {
+   "nome": "Hedge Maze",
+   "set": "mkm"
+  },
+  {
+   "nome": "Raucous Theater",
+   "set": "mkm"
+  },
+  {
+   "nome": "Shadowy Backstreet",
+   "set": "mkm"
+  },
+  {
+   "nome": "Thundering Falls",
+   "set": "mkm"
+  },
+  {
+   "nome": "Commercial District",
+   "set": "mkm"
+  },
+  {
+   "nome": "Meticulous Archive",
+   "set": "mkm"
+  },
+  {
+   "nome": "Lush Portico",
+   "set": "mkm"
+  },
+  {
+   "nome": "Elegant Parlor",
+   "set": "mkm"
+  },
+  {
+   "nome": "Blazemire Verge",
+   "set": "dsk"
+  },
+  {
+   "nome": "Gloomlake Verge",
+   "set": "dsk"
+  },
+  {
+   "nome": "Floodfarm Verge",
+   "set": "dsk"
+  },
+  {
+   "nome": "Hushwood Verge",
+   "set": "dsk"
+  },
+  {
+   "nome": "Thornspire Verge",
+   "set": "dsk"
+  },
+  {
+   "nome": "Concealed Courtyard",
+   "set": "otj"
+  },
+  {
+   "nome": "Inspiring Vantage",
+   "set": "otj"
+  },
+  {
+   "nome": "Blooming Marsh",
+   "set": "otj"
+  },
+  {
+   "nome": "Spirebluff Canal",
+   "set": "otj"
+  },
+  {
+   "nome": "Botanical Sanctum",
+   "set": "otj"
+  }
+ ],
+ "fotos": {
+  "2026-11-25": {
+   "Cavern of Souls": {
+    "set": "lci",
+    "numero": "269",
+    "usd": "48.92",
+    "usd_foil": "55.30",
+    "edhrec_rank": 113,
+    "scryfall": "https://scryfall.com/card/lci/269/cavern-of-souls"
+   },
+   "Fabled Passage": {
+    "set": "blb",
+    "numero": "252",
+    "usd": "1.69",
+    "usd_foil": "3.16",
+    "edhrec_rank": 38,
+    "scryfall": "https://scryfall.com/card/blb/252/fabled-passage"
+   },
+   "Underground Mortuary": {
+    "set": "mkm",
+    "numero": "271",
+    "usd": "14.82",
+    "usd_foil": "16.55",
+    "edhrec_rank": 486,
+    "scryfall": "https://scryfall.com/card/mkm/271/underground-mortuary"
+   },
+   "Undercity Sewers": {
+    "set": "mkm",
+    "numero": "270",
+    "usd": "15.90",
+    "usd_foil": "17.28",
+    "edhrec_rank": 423,
+    "scryfall": "https://scryfall.com/card/mkm/270/undercity-sewers"
+   },
+   "Hedge Maze": {
+    "set": "mkm",
+    "numero": "262",
+    "usd": "12.56",
+    "usd_foil": "14.14",
+    "edhrec_rank": 561,
+    "scryfall": "https://scryfall.com/card/mkm/262/hedge-maze"
+   },
+   "Raucous Theater": {
+    "set": "mkm",
+    "numero": "266",
+    "usd": "12.10",
+    "usd_foil": "13.03",
+    "edhrec_rank": 572,
+    "scryfall": "https://scryfall.com/card/mkm/266/raucous-theater"
+   },
+   "Shadowy Backstreet": {
+    "set": "mkm",
+    "numero": "268",
+    "usd": "11.26",
+    "usd_foil": "11.93",
+    "edhrec_rank": 579,
+    "scryfall": "https://scryfall.com/card/mkm/268/shadowy-backstreet"
+   },
+   "Thundering Falls": {
+    "set": "mkm",
+    "numero": "269",
+    "usd": "14.86",
+    "usd_foil": "17.27",
+    "edhrec_rank": 633,
+    "scryfall": "https://scryfall.com/card/mkm/269/thundering-falls"
+   },
+   "Commercial District": {
+    "set": "mkm",
+    "numero": "259",
+    "usd": "8.03",
+    "usd_foil": "8.92",
+    "edhrec_rank": 666,
+    "scryfall": "https://scryfall.com/card/mkm/259/commercial-district"
+   },
+   "Meticulous Archive": {
+    "set": "mkm",
+    "numero": "264",
+    "usd": "14.51",
+    "usd_foil": "15.85",
+    "edhrec_rank": 668,
+    "scryfall": "https://scryfall.com/card/mkm/264/meticulous-archive"
+   },
+   "Lush Portico": {
+    "set": "mkm",
+    "numero": "263",
+    "usd": "6.49",
+    "usd_foil": "7.69",
+    "edhrec_rank": 735,
+    "scryfall": "https://scryfall.com/card/mkm/263/lush-portico"
+   },
+   "Elegant Parlor": {
+    "set": "mkm",
+    "numero": "260",
+    "usd": "7.88",
+    "usd_foil": "9.68",
+    "edhrec_rank": 779,
+    "scryfall": "https://scryfall.com/card/mkm/260/elegant-parlor"
+   },
+   "Blazemire Verge": {
+    "set": "dsk",
+    "numero": "256",
+    "usd": "10.94",
+    "usd_foil": "12.62",
+    "edhrec_rank": 497,
+    "scryfall": "https://scryfall.com/card/dsk/256/blazemire-verge"
+   },
+   "Gloomlake Verge": {
+    "set": "dsk",
+    "numero": "260",
+    "usd": "10.14",
+    "usd_foil": "12.33",
+    "edhrec_rank": 596,
+    "scryfall": "https://scryfall.com/card/dsk/260/gloomlake-verge"
+   },
+   "Floodfarm Verge": {
+    "set": "dsk",
+    "numero": "259",
+    "usd": "9.70",
+    "usd_foil": "8.97",
+    "edhrec_rank": 615,
+    "scryfall": "https://scryfall.com/card/dsk/259/floodfarm-verge"
+   },
+   "Hushwood Verge": {
+    "set": "dsk",
+    "numero": "261",
+    "usd": "8.11",
+    "usd_foil": "8.08",
+    "edhrec_rank": 675,
+    "scryfall": "https://scryfall.com/card/dsk/261/hushwood-verge"
+   },
+   "Thornspire Verge": {
+    "set": "dsk",
+    "numero": "270",
+    "usd": "5.36",
+    "usd_foil": "5.53",
+    "edhrec_rank": 716,
+    "scryfall": "https://scryfall.com/card/dsk/270/thornspire-verge"
+   },
+   "Concealed Courtyard": {
+    "set": "otj",
+    "numero": "268",
+    "usd": "1.70",
+    "usd_foil": "1.48",
+    "edhrec_rank": 1173,
+    "scryfall": "https://scryfall.com/card/otj/268/concealed-courtyard"
+   },
+   "Inspiring Vantage": {
+    "set": "otj",
+    "numero": "269",
+    "usd": "2.02",
+    "usd_foil": "2.53",
+    "edhrec_rank": 1439,
+    "scryfall": "https://scryfall.com/card/otj/269/inspiring-vantage"
+   },
+   "Blooming Marsh": {
+    "set": "otj",
+    "numero": "266",
+    "usd": "3.56",
+    "usd_foil": "3.25",
+    "edhrec_rank": 1544,
+    "scryfall": "https://scryfall.com/card/otj/266/blooming-marsh"
+   },
+   "Spirebluff Canal": {
+    "set": "otj",
+    "numero": "270",
+    "usd": "3.84",
+    "usd_foil": "5.47",
+    "edhrec_rank": 1565,
+    "scryfall": "https://scryfall.com/card/otj/270/spirebluff-canal"
+   },
+   "Botanical Sanctum": {
+    "set": "otj",
+    "numero": "267",
+    "usd": "2.15",
+    "usd_foil": "2.08",
+    "edhrec_rank": 1652,
+    "scryfall": "https://scryfall.com/card/otj/267/botanical-sanctum"
+   }
+  }
+ },
+ "fonte": "Scryfall (preço do TCGplayer em dólar, da impressão indicada), lido no dia de cada fotografia"
+}
