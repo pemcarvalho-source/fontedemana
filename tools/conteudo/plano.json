@@ -1,5 +1,5 @@
 {
-  "versao": "2026-11-22 v5.12",
+  "versao": "2026-11-24 v5.12.1",
   "comentario": "Plano editorial da Fonte de Mana. Lido por tools/conteudo/contexto.cjs (tarefa da noite), tools/pauta/manha.cjs (tarefa da manhã) e tools/pauta/tiktok.cjs (molde do vídeo). A explicação completa está em tools/conteudo/ESTRATEGIA.md, os formatos (com as referências que inspiraram cada um) em tools/conteudo/FORMATOS.md e a revisão semanal em tools/conteudo/REVISAO.md. Ciclo de 3 semanas: a letra da semana é ciclo.semanas[(semana ISO + ciclo.deslocamento) % 3]. Datas comemorativas em datas: de e ate como MM-DD (todo ano) ou AAAA-MM-DD (só aquele ano); no dia, pilarNoDia troca o pilar do calendário. Os blocos video, reels, threads, legenda, audio, conversa, rosto e isca valem para datas a partir de desde (antes disso, tudo segue como na v4). plantao: eventos com dia marcado para a fase plantao do orquestrador; o tools/conteudo/plantao.cjs mostra o do dia com --qual. testes: de e ate (ou dias) em AAAA-MM-DD; hora troca o horário da grade nesses dias.",
 
   "ciclo": {"semanas": ["A", "B", "C"], "deslocamento": 2, "nota": "Semana ISO 42 (12 a 18 out 2026) = C a partir de sexta 16, 43 = A, 44 = B, 45 = C. Semana C traz os formatos novos de 15 out."},
@@ -331,28 +331,48 @@
       "dia": "2026-11-25",
       "pilar": "vitrine",
       "rosto": true,
-      "motivo": "Pedido do Paulo em 16/11: segunda peça da parceria com a Mulligan Jogos (@mulliganjogos), no lugar da Matemática da Mesa da semana C. Cai na semana da Black Friday, com o ângulo de compra consciente: o que vale gastar para proteger um deck (uma peça da semana para quem está começando).",
-      "tema": "Um precon de R$ 438 merece mais R$ 250 de proteção? As sleeves e o deckbox da Viper, testados",
+      "motivo": "Pedido do Paulo em 16/11: segunda peça da parceria com a Mulligan Jogos (@mulliganjogos), no lugar da Matemática da Mesa da semana C. Em 24/11 o Paulo pediu para separar: 25/11 só sobre as sleeves e o deckbox em 28/11, com foco na qualidade e não no preço.",
+      "tema": "Sleeve fosca, cinco dias de mesa: Shield Matte Azul Sombrio da Viper no Prismari",
       "material": [
-        "Produtos: o precon Prismari Artistry (aberto no vídeo de 20/11), que é o deck protegido, e da Viper Acessórios (dados da embalagem), sleeves Shield Matte na cor Azul Sombrio, 100 unidades, 66 x 92 mm, e o Deckbox Premium 100+, vermelho.",
-        "Uso: o Paulo coloca as sleeves no Prismari depois de abrir o precon e guarda o deck no deckbox; até a gravação de 24/11 são uns cinco dias de uso. O teste mostra como as sleeves embaralham, se as 100 cartas com sleeve, as fichas e os dados cabem no deckbox e o que o Paulo achou. O pacote tem 100 sleeves, exatamente o deck: não sobra nenhuma para trocar. O que o Paulo contar do uso entra aqui antes de 24/11.",
-        "Preço na Mulligan (informado pelo Paulo em 16/11): sleeves Shield Matte Azul Sombrio R$ 59,99 e Deckbox Premium 100+ R$ 189,99, R$ 249,98 os dois. O precon não está mais à venda na Mulligan; o preço médio dele na LigaMagic é R$ 438,53 (16/11). A conta da peça é a da proteção: R$ 249,98 para um deck de uns R$ 438."
+        "Produto: sleeves Shield Matte da Viper Acessórios, cor Azul Sombrio, 100 unidades, 66 x 92 mm, no precon Prismari Artistry (azul e vermelho), uns cinco dias de uso até a gravação de 24/11.",
+        "Site da Viper (Shield Matte, nov 2026): acabamento matte, frente transparente, verso com cor e textura para as cartas não deslizarem, abertura em cima, formato standard. Outras cores da linha: Vermelho Fúria, Verde Selvagem, Roxo Místico, Preto Mortífero.",
+        "Referências do Paulo em 24/11 (destaque Reviews da @viperacessorios): caixa na mão falando para a câmera, nome da cor em close, embaralhar em close e o leque de cartas vestidas ao lado da caixa da mesma cor."
       ],
       "fotos": [
-        "extras/mulligan/kit.jpg (os três produtos lado a lado no playmat)",
         "extras/mulligan/sleeves.jpg (a caixa das sleeves Azul Sombrio, 66 x 92 mm, 100 unidades)",
-        "extras/mulligan/deckbox.jpg (o Deckbox Premium 100+ vermelho na caixa)"
+        "extras/mulligan/kit.jpg (os três produtos lado a lado no playmat)"
       ],
       "clipes": [
-        "extras/mulligan/mulligan-02-deckbox.mp4 (6 s: a caixa do deckbox na mão, girando)",
         "extras/mulligan/mulligan-04-sleeves.mp4 (6 s: a caixa das sleeves na mão, com o lado NO MERCY)"
       ],
-      "sugestao": "Vídeo com o Paulo em até 3 cenas rosto: embaralhando as 100 cartas com sleeve, fechando o deckbox com tudo dentro e dando o veredito (o que tem de bom e o que não tem). Os trechos da chegada estão nos clipes acima; se o Paulo mandar o vídeo colocando as sleeves no deck, ele também entra como cena clipe (extras/mulligan/). Gancho sugerido: \"Um deck de R$ 438 merece mais R$ 250 de proteção?\". Carrossel: a pergunta na capa, uma tela para as sleeves e outra para o deckbox (o que resolve na mesa, o teste e o preço), o ponto fraco, a conta e onde achar. Pergunta: \"Qual sleeve você usa?\". Post e Reels em Collab com @mulliganjogos e a @viperacessorios marcada na foto e na legenda. Black Friday só como contexto de compra consciente, sem pedir compra.",
-      "cuidado": "Mesmas regras de 20/11: nada de recebido, presente, brinde ou prêmio, e a origem é só \"vieram da @mulliganjogos\". Opinião honesta, com o ponto fraco se houver: nunca diga que é o melhor do mercado. Não repita o vídeo de 20/11: o precon aqui é só o deck que está sendo protegido, e não está mais à venda na Mulligan. Não diga que proteção é obrigatória: é escolha de quem joga. Não confunda com o double sleeve de 21/11 (sleeves do pacote da gringa): aqui são as sleeves da Viper, sozinhas. Se aparecer partida, nunca mostre nem cite os adversários."
+      "sugestao": "Vídeo com o Paulo em 3 cenas rosto (a caixa na mão, o leque de cartas vestidas e o embaralhar em close), o verso com textura, por que fosca e o ponto fraco (100 sleeves, nenhuma de reserva). Pergunta: \"Seu deck tem sleeve na cor dele?\". Post e Reels em Collab com @mulliganjogos e @viperacessorios marcada.",
+      "cuidado": "Mesmas regras de 20/11: nada de recebido, presente, brinde ou prêmio, e a origem é só \"vieram da @mulliganjogos\". Opinião honesta, com o ponto fraco: nunca diga que é o melhor do mercado. Foco na qualidade do produto e no encaixe com o deck, não no preço (pedido do Paulo em 24/11). Não diga que proteção é obrigatória: é escolha de quem joga. Se aparecer partida, nunca mostre nem cite os adversários. Só as sleeves: o deckbox fica para 28/11. Não confunda com o double sleeve de 21/11."
+    },
+    {
+      "dia": "2026-11-28",
+      "pilar": "vitrine",
+      "rosto": true,
+      "motivo": "Pedido do Paulo em 24/11: o deckbox da Viper ganhou uma peça só dele, separada das sleeves de 25/11, no sábado (dia da Vitrine na grade), no lugar do Qual entra? da semana C. Gravado em 24/11 com as sleeves.",
+      "tema": "Deck, fichas e dado numa caixa só: o Deckbox Premium 100+ da Viper, testado",
+      "material": [
+        "Produto: Deckbox Premium 100+ da Viper Acessórios, vermelho, guardando o Prismari Artistry com as sleeves Azul Sombrio de 25/11.",
+        "Por fora (visível na foto e no vídeo): textura, costura e o logo Viper em baixo relevo. Por dentro (ficha do produto na loja Life Geek e teste do Paulo): o deck em cima, gaveta para dados e marcadores embaixo e fecho magnético.",
+        "Ponto fraco: a frente é fechada, sem vitrine para o comandante; a Viper tem o modelo Showcase 100+ com display para carta (site da Viper, nov 2026).",
+        "Cuidados do site da Viper: longe do sol, calor e umidade, limpar com pano seco ou levemente úmido, sem álcool, e não forçar a capacidade máxima."
+      ],
+      "fotos": [
+        "extras/mulligan/deckbox.jpg (o Deckbox Premium 100+ vermelho na caixa)",
+        "extras/mulligan/kit.jpg (os três produtos lado a lado no playmat)"
+      ],
+      "clipes": [
+        "extras/mulligan/mulligan-02-deckbox.mp4 (6 s: a caixa do deckbox na mão, girando)"
+      ],
+      "sugestao": "Vídeo com o Paulo em 3 cenas rosto (o deckbox na mão, abrindo com o deck em cima e a gaveta embaixo, e fechando no ímã), o clipe da caixa, o ponto fraco e a pergunta \"Onde mora o seu deck?\". Post e Reels em Collab com @mulliganjogos e @viperacessorios marcada.",
+      "cuidado": "Mesmas regras de 20/11: nada de recebido, presente, brinde ou prêmio, e a origem é só \"vieram da @mulliganjogos\". Opinião honesta, com o ponto fraco: nunca diga que é o melhor do mercado. Foco na qualidade do produto e no encaixe com o deck, não no preço (pedido do Paulo em 24/11). Não diga que proteção é obrigatória: é escolha de quem joga. Se aparecer partida, nunca mostre nem cite os adversários. Capacidade com double sleeve só aparece na ficha de uma loja: não afirme."
     }
   ],
   "carrosselExtra": {"desde": "2026-11-09", "dia": "seg", "pilar": "regra", "motivo": "Revisão de 2/11, aprovada pelo Paulo em 4/11: o Chama o Juiz tem o maior valor do Instagram (compartilhamentos e salvamentos por alcance) em duas revisões seguidas. Na segunda, o carrossel original é um segundo caso do Chama o Juiz; o vídeo e o Threads seguem o pilar da segunda. Segunda das 12h às 15h é um dos picos do recap de outubro.", "nota": "O carrossel extra só vai para o feed em dia calmo (força do dia); em dia forte fica no banco, como todo original."},
-  "adiantados": [{"dias": ["2026-11-20", "2026-11-21", "2026-11-22"], "preparado": "2026-11-17", "gravacao": "2026-11-19", "motivo": "pedido do Paulo em 17/11: ele não consegue gravar de 20 a 22/11 e grava os três vídeos na noite de 19/11; só posta nos dias certos"}],
+  "adiantados": [{"dias": ["2026-11-20", "2026-11-21", "2026-11-22"], "preparado": "2026-11-17", "gravacao": "2026-11-19", "motivo": "pedido do Paulo em 17/11: ele não consegue gravar de 20 a 22/11 e grava os três vídeos na noite de 19/11; só posta nos dias certos"}, {"dias": ["2026-11-28"], "preparado": "2026-11-24", "gravacao": "2026-11-24", "motivo": "pedido do Paulo em 24/11: o deckbox da Viper saiu da peça de 25/11 e ganhou o sábado; ele grava os dois vídeos na noite de 24/11"}],
   "calendario": {
     "seg": {"A": "historia", "B": "top5", "C": "treta"},
     "ter": {"A": "dicionario", "B": "dicionario", "C": "dicionario"},
