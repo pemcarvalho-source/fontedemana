@@ -19,7 +19,8 @@
    "sub": "O deckbox vermelho da Viper guardando o Prismari.",
    "narracao": "Deck, fichas e dado. Tudo numa caixa só.",
    "gravar": "Deckbox vermelho fechado na mão, perto do rosto, girando um pouco para mostrar a textura.",
-   "segundos": 3.6
+   "segundos": 3.6,
+   "caixa": "topo"
   },
   {
    "tipo": "clipe",
@@ -29,7 +30,8 @@
    "titulo": "Textura, costura e logo em relevo",
    "video": "extras/mulligan/mulligan-02-deckbox.mp4",
    "narracao": "É o Deckbox Premium 100+ da Viper. Textura, costura e o logo em baixo relevo.",
-   "segundos": 6.2
+   "segundos": 6.2,
+   "caixa": "topo"
   },
   {
    "tipo": "rosto",
@@ -38,7 +40,8 @@
    "titulo": "Deck em cima, gaveta embaixo",
    "narracao": "Em cima, o deck inteiro com sleeve. Embaixo, a gaveta dos dados e fichas.",
    "gravar": "Tira a tampa, mostra o deck com sleeve azul encaixado e abre a gaveta com o dado e as fichas.",
-   "segundos": 5.8
+   "segundos": 5.8,
+   "caixa": "topo"
   },
   {
    "tipo": "rosto",
@@ -47,7 +50,8 @@
    "titulo": "Tampa com ímã",
    "narracao": "E a tampa fecha no ímã. Olha o clique.",
    "gravar": "Fecha a tampa perto da câmera, devagar, para ver e ouvir o ímã puxar.",
-   "segundos": 3.9
+   "segundos": 3.9,
+   "caixa": "topo"
   },
   {
    "tipo": "texto",
