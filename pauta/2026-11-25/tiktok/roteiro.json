@@ -1,25 +1,25 @@
 {
  "data": "2026-11-25",
  "pilar": "vitrine",
- "tema": "Sleeve fosca, cinco dias de mesa: Shield Matte Azul Sombrio da Viper no Prismari",
+ "tema": "Dia 1 da sleeve fosca: Shield Matte Azul Sombrio da Viper no Prismari",
  "item": null,
  "arte": "pauta/2026-11-25/tiktok/arte.jpg",
  "carta": null,
  "credito": "Foto: Fonte de Mana",
  "fx": null,
- "legenda": "Sleeve para deck de Commander: seu deck tem sleeve na cor dele? Cinco dias de mesa com as Shield Matte Azul Sombrio da @viperacessorios no Prismari, um deck azul e vermelho. Fosca, frente transparente, verso com cor e textura, 66 x 92 mm, 100 no pacote. Vieram da @mulliganjogos. Combina com o deck, uma cor para tudo ou sem sleeve? Mais no fontedemana.com.br\n\n#sleeves #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
+ "legenda": "Sleeve para deck de Commander: seu deck tem sleeve na cor dele? Dia 1 das Shield Matte Azul Sombrio da @viperacessorios no Prismari, um deck azul e vermelho. Fosca, frente transparente, verso com cor e textura, 66 x 92 mm. A caixa diz 100, mas vieram algumas a mais. Vieram da @mulliganjogos. Combina com o deck, uma cor para tudo ou sem sleeve? Mais no fontedemana.com.br\n\n#sleeves #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.",
  "comentario": "Seu deck tem sleeve na cor dele? Combina com o deck, uma cor para tudo ou sem sleeve? Na Vitrine de acessórios, só o que foi testado na mesa.",
  "cenas": [
   {
    "tipo": "rosto",
    "cor": "U",
    "chip": "Vitrine",
-   "kicker": "Cinco dias de mesa",
-   "titulo": "A sleeve azul do meu deck",
+   "kicker": "Dia 1",
+   "titulo": "Acabei de vestir o deck",
    "sub": "Shield Matte Azul Sombrio, da Viper, no Prismari.",
-   "narracao": "Cinco dias de mesa com essa sleeve.",
-   "gravar": "Caixa das sleeves Azul Sombrio numa mão, perto do rosto, e o deck já vestido na outra.",
-   "segundos": 3.2
+   "narracao": "Acabei de abrir. Dia 1 das sleeves no deck.",
+   "gravar": "A caixa das sleeves recém-aberta numa mão, perto do rosto, e o deck recém-vestido na outra.",
+   "segundos": 3.9
   },
   {
    "tipo": "clipe",
@@ -61,13 +61,13 @@
   },
   {
    "tipo": "texto",
-   "cor": "A",
-   "kicker": "Ponto fraco",
-   "titulo": "100 sleeves, nenhuma de reserva",
-   "sub": "O pacote veste o deck de Commander certinho.",
-   "rodape": "Se uma rasgar, precisa de outro pacote.",
-   "narracao": "Ponto fraco: vêm 100, o deck certinho. Sem reserva.",
-   "segundos": 3.9
+   "cor": "G",
+   "kicker": "Surpresa no pacote",
+   "titulo": "A caixa diz 100, mas veio mais",
+   "sub": "Vieram algumas sleeves extras.",
+   "rodape": "Rasgou uma? Já tem reserva.",
+   "narracao": "A caixa diz 100, mas vieram algumas a mais. Já tem reserva.",
+   "segundos": 5
   },
   {
    "tipo": "cta",

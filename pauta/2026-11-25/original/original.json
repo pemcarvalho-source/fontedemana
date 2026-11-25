@@ -2,16 +2,16 @@
   "data": "2026-11-25",
   "pilar": "vitrine",
   "item": null,
-  "tema": "Sleeve fosca, cinco dias de mesa: Shield Matte Azul Sombrio da Viper no Prismari",
+  "tema": "Dia 1 da sleeve fosca: Shield Matte Azul Sombrio da Viper no Prismari",
   "cartas": [],
   "fx": null,
   "carrossel": {
     "capa": {
       "cor": "U",
       "chip": "Vitrine",
-      "kicker": "Cinco dias de mesa",
+      "kicker": "Dia 1 no Prismari",
       "titulo": "A sleeve <b>Azul Sombrio</b> no deck azul e vermelho",
-      "sub": "As Shield Matte da Viper no Prismari: o que a textura faz, por que fosca, a cor e o ponto fraco.",
+      "sub": "As Shield Matte da Viper no deck azul e vermelho: o que a textura faz, a cor e uma surpresa no pacote.",
       "arte": "pauta/2026-11-25/tiktok/arte.jpg",
       "credito": "Foto: Fonte de Mana"
     },
@@ -27,7 +27,7 @@
           },
           {
             "cor": "U",
-            "html": "66 x 92 mm, abertura em cima, <b>100</b> no pacote: veste um deck de Commander."
+            "html": "66 x 92 mm, abertura em cima: veste a carta de Magic no <b>tamanho padrão</b>."
           }
         ],
         "fonte": "Fonte: viperacessorios.com.br, nov 2026"
@@ -72,20 +72,20 @@
       },
       {
         "cor": "A",
-        "titulo": "Cinco dias de teste",
+        "titulo": "Dia 1 no deck",
         "itens": [
           {
             "cor": "A",
-            "html": "O deck inteiro vestido com as <b>100 sleeves</b> do pacote."
+            "html": "O deck inteiro vestido no dia em que a caixa abriu."
           },
           {
             "cor": "A",
-            "html": "Cinco dias embaralhando, comprando e guardando o Prismari."
+            "html": "A caixa diz <b>100</b>, mas vieram <b>algumas a mais</b>: já sobra reserva."
           }
         ],
         "nota": {
-          "rotulo": "Ponto fraco",
-          "texto": "vêm 100 sleeves, o deck certinho. Se uma rasgar, não sobra reserva."
+          "rotulo": "Dia 1",
+          "texto": "o uso começou agora: desgaste e durabilidade só o tempo mostra."
         },
         "fonte": "Fonte: teste da Fonte de Mana, nov 2026"
       }
@@ -96,7 +96,7 @@
       "salvar": "Salve para quando for vestir o próximo deck."
     }
   },
-  "legenda": "Sleeve para deck de Commander: seu deck tem sleeve na cor dele?\n\nCinco dias de mesa com as Shield Matte Azul Sombrio da @viperacessorios no Prismari Artistry, um deck azul e vermelho. Vieram da @mulliganjogos.\n\nFosca, frente transparente, verso com cor e textura para a pilha não deslizar.\n66 x 92 mm, abertura em cima, 100 no pacote.\nPonto fraco: 100 certinhas, o deck inteiro, sem reserva.\n\nFontes: viperacessorios.com.br e cinco dias de teste na mesa. Mais no fontedemana.com.br\n\nCombina com o deck, uma cor para tudo ou sem sleeve?\n\n#sleeves #commander #mtg",
+  "legenda": "Sleeve para deck de Commander: seu deck tem sleeve na cor dele?\n\nDia 1 das Shield Matte Azul Sombrio da @viperacessorios no Prismari Artistry, um deck azul e vermelho. Vieram da @mulliganjogos.\n\nFosca, frente transparente, verso com cor e textura para a pilha não deslizar.\n66 x 92 mm, abertura em cima.\nA caixa diz 100, mas vieram algumas a mais: já sobra reserva.\n\nFontes: viperacessorios.com.br e o primeiro dia no deck. Mais no fontedemana.com.br\n\nCombina com o deck, uma cor para tudo ou sem sleeve?\n\n#sleeves #commander #mtg",
   "threads": {
     "texto": "Sleeve na cor do deck: capricho ou bobagem?\n\nO meu Prismari joga de azul e vermelho e ganhou sleeve azul. Na mesa, dá para saber de longe de quem é cada deck, e na hora de guardar nada se mistura.\n\nTem gente que usa uma cor só para todos os decks. Tem gente que joga sem sleeve nenhuma.\n\nQual é o seu caso?",
     "obs": "Enquete: Combino com o deck / Uma cor para tudo / Sem sleeve"
