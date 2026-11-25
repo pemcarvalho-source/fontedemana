@@ -5,10 +5,10 @@
     {
       "id": "gravacao",
       "dia": "2026-11-25",
-      "hora": "19:15",
+      "hora": "21:15",
       "rede": "Gravação",
       "titulo": "Gravar o vídeo de amanhã (você aparece)",
-      "oQue": "Top 5 #9 da Black Friday: 5 cartas de Commander por menos de 1 dólar que estão em milhões de decks. Você aparece só na cena 1, falando o gancho com uma carta na mão; nas outras, só a voz.",
+      "oQue": "Top 5 #9 da Black Friday: 5 comandantes fortes por menos de 10 reais, todos no top 100 do EDHREC. Você aparece só na cena 1, falando o gancho com um comandante na mão; nas outras, só a voz.",
       "arquivos": [
         {
           "nome": "Vídeo mudo (tiktok-mudo.mp4)",
@@ -17,43 +17,44 @@
       ],
       "roteiro": [
         {
-          "cena": "Cena 1, rosto, uns 4 s",
-          "tela": "Black Friday do Commander: 5 cartas por menos de 1 dólar",
-          "fala": "Cinco cartas de Commander por menos de um dólar cada.",
-          "como": "Rosto: Olhando para a câmera, segura uma carta barata do fichário (de preferência uma das cinco) e mostra para a câmera ao falar."
+          "cena": "Cena 1, rosto, uns 3 s",
+          "tela": "Black Friday do Commander: 5 comandantes por menos de 10 reais",
+          "fala": "Cinco comandantes fortes por menos de dez reais.",
+          "como": "Rosto: Olhando para a câmera, segura um comandante ou um deck na mão e mostra para a câmera ao falar."
         },
         {
-          "cena": "Cena 2, só a voz, uns 3 s",
-          "tela": "#5 Brainstorm, em 929 mil decks, US$ 0,43 (R$ 2,57), Compra três, devolve duas",
-          "fala": "Cinco: Brainstorm. Compra três e devolve duas.",
+          "cena": "Cena 2, só a voz, uns 5 s",
+          "tela": "#5 Arabella, 79º comandante no EDHREC, US$ 0,70 (R$ 4,18), Dano por criatura pequena",
+          "fala": "Cinco: Arabella. Ataca e bate em todo mundo por cada criatura pequena.",
           "como": "Só a voz: pode gravar em vídeo ou áudio"
         },
         {
           "cena": "Cena 3, só a voz, uns 5 s",
-          "tela": "#4 Chaos Warp, em 1,49 milhão de decks, US$ 0,33 (R$ 1,97), Some com qualquer permanente",
-          "fala": "Quatro: Chaos Warp. A resposta do vermelho para qualquer permanente.",
+          "tela": "#4 Queen Marchesa, 69º comandante no EDHREC, US$ 1,12 (R$ 6,69), Entra e você vira o monarca",
+          "fala": "Quatro: Queen Marchesa. Vira o monarca e compra carta extra no seu turno.",
           "como": "Só a voz: pode gravar em vídeo ou áudio"
         },
         {
           "cena": "Cena 4, só a voz, uns 4 s",
-          "tela": "#3 Farseek, em 1,71 milhão de decks, US$ 0,50 (R$ 2,99), Busca terreno, até dual",
-          "fala": "Três: Farseek. Ramp de duas manas que busca até terreno duplo.",
+          "tela": "#3 Korvold, 62º comandante no EDHREC, US$ 0,49 (R$ 2,93), Sacrificou, comprou carta",
+          "fala": "Três: Korvold. Cada coisa que você sacrifica vira carta na mão.",
           "como": "Só a voz: pode gravar em vídeo ou áudio"
         },
         {
           "cena": "Cena 5, só a voz, uns 4 s",
-          "tela": "#2 Path to Exile, em 2,33 milhões de decks, US$ 0,68 (R$ 4,06), Exila criatura por 1 mana",
-          "fala": "Dois: Path to Exile. Uma mana branca e a criatura vai embora.",
+          "tela": "#2 Hakbal, 36º comandante no EDHREC, US$ 0,43 (R$ 2,57), Merfolks exploram e crescem",
+          "fala": "Dois: Hakbal. Todo combate, seus merfolks exploram e crescem.",
           "como": "Só a voz: pode gravar em vídeo ou áudio"
         },
         {
-          "cena": "Cena 6, só a voz, uns 4 s",
-          "tela": "#1 Arcane Signet, em 7,46 milhões de decks, US$ 0,49 (R$ 2,93), Mana das cores do comandante",
-          "fala": "E a número um: Arcane Signet, em mais de sete milhões de decks.",
+          "cena": "Cena 6, só a voz, uns 5 s",
+          "tela": "#1 Lathril, 14º comandante no EDHREC, US$ 1,16 (R$ 6,93), Cada oponente perde 10",
+          "fala": "E o número um: Lathril. Junta dez elfos e cada oponente perde dez.",
           "como": "Só a voz: pode gravar em vídeo ou áudio"
         }
       ],
       "passos": [
+        "Roteiro novo: o Top 5 agora é de comandantes baratos. Se já gravou o das cartas de 1 dólar, grave de novo.",
         "Grave um vídeo por cena: a cena 1 com o rosto e as cenas 2 a 6 só com a voz.",
         "Celular na vertical, câmera da frente, na altura dos olhos, a um braço de distância.",
         "Rosto na metade de cima da tela: o título entra embaixo dele, na altura do peito.",
@@ -61,7 +62,7 @@
         "Desligue o Vídeo HDR (Ajustes, Câmera, Gravar Vídeo) para as cores não lavarem.",
         "Um vídeo por cena, falando para a câmera, com meio segundo de silêncio antes e depois; nomeie cena_1, cena_2... e mande todos juntos.",
         "Nas cenas sem rosto, só a voz conta: pode gravar em vídeo ou só o áudio.",
-        "Na cena 1, pegue uma carta barata do fichário (de preferência Arcane Signet, Path to Exile, Farseek, Chaos Warp ou Brainstorm) e mostre para a câmera ao falar.",
+        "Na cena 1, mostre um comandante ou um deck seu para a câmera ao falar.",
         "Nas cenas de voz, fale num lugar silencioso, com o celular a um palmo da boca.",
         "Mande os vídeos ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"vídeos do TikTok de 2026-11-26\"."
       ]
@@ -70,7 +71,7 @@
       "id": "tiktok",
       "hora": "11:30",
       "rede": "TikTok",
-      "titulo": "Postar o Top 5 #9: cartas por menos de 1 dólar",
+      "titulo": "Postar o Top 5 #9: comandantes por menos de 10 reais",
       "oQue": "Vídeo do Top 5 da Black Friday, com a legenda e o comentário fixado abaixo. A mesma legenda e o mesmo vídeo vão para o Reels das 19:00.",
       "arquivos": [
         {
@@ -81,11 +82,11 @@
       "textos": [
         {
           "rotulo": "Legenda",
-          "texto": "Commander barato na Black Friday: 5 cartas de Magic por menos de 1 dólar que estão em milhões de decks. Qual delas ainda falta no seu deck?\n\nArcane Signet, Path to Exile, Farseek, Chaos Warp e Brainstorm. As cinco juntas saem por US$ 2,43 (R$ 14,51).\n\nDecks no EDHREC (últimos 2 anos) e preço da impressão mais barata no Scryfall, nov 2026. Reais pela cotação de 23 nov (Banco Central, PTAX). Toda quinta tem Top 5 em fontedemana.com.br\n\n#blackfriday #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+          "texto": "Commander barato na Black Friday: 5 comandantes fortes por menos de 10 reais, todos no top 100 do EDHREC. Qual deles você montaria?\n\n#5 Arabella, Abandoned Doll: US$ 0,70 (R$ 4,18)\n#4 Queen Marchesa: US$ 1,12 (R$ 6,69)\n#3 Korvold, Fae-Cursed King: US$ 0,49 (R$ 2,93)\n#2 Hakbal of the Surging Soul: US$ 0,43 (R$ 2,57)\n#1 Lathril, Blade of the Elves: US$ 1,16 (R$ 6,93)\n\nPosição no ranking de comandantes do EDHREC (últimos 2 anos) e preço da impressão mais barata de moldura comum no Scryfall, nov 2026. Reais pela cotação de 23 nov (Banco Central, PTAX). Toda quinta tem Top 5 em fontedemana.com.br\n\n#blackfriday #commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
         },
         {
           "rotulo": "Comentário fixado",
-          "texto": "Qual delas falta no seu deck: Arcane Signet, Path to Exile, Farseek, Chaos Warp ou Brainstorm? Toda quinta tem um Top 5 novo aqui."
+          "texto": "Qual deles você montaria: Lathril, Hakbal, Korvold, Queen Marchesa ou Arabella? Toda quinta tem um Top 5 novo aqui."
         }
       ],
       "passos": [
