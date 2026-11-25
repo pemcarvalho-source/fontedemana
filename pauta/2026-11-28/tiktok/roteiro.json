@@ -51,22 +51,14 @@
   },
   {
    "tipo": "texto",
-   "cor": "A",
-   "kicker": "Ponto fraco",
-   "titulo": "Sem vitrine para o comandante",
-   "sub": "A frente é fechada: o comandante não aparece por fora.",
-   "rodape": "Para mostrar a carta, a Viper tem o modelo Showcase.",
-   "narracao": "O ponto fraco: a frente é fechada, sem vitrine para o comandante.",
-   "segundos": 5
-  },
-  {
-   "tipo": "cta",
    "cor": "M",
    "kicker": "E na sua mesa?",
    "titulo": "Onde mora o seu deck?",
-   "destaque": "@fontedemana",
+   "sub": "Deckbox, elástico, saquinho ou a caixa do precon?",
+   "rodape": "@fontedemana",
    "narracao": "E o seu deck, mora onde: caixa, elástico ou saquinho?",
    "segundos": 4.3
   }
- ]
+ ],
+ "rostoGravado": true
 }
