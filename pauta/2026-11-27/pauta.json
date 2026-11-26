@@ -1,0 +1,82 @@
+{
+  "data": "2026-11-27",
+  "fx": "Valores em reais pela cotação de 24 nov (Banco Central, PTAX).",
+  "avisos": [
+    {
+      "id": "gravacao",
+      "dia": "2026-11-26",
+      "hora": "19:15",
+      "rede": "Gravação",
+      "titulo": "Gravar a narração do TikTok de amanhã",
+      "oQue": "Bolsa de Mana da Black Friday: a mesma carta custa até 178 vezes mais conforme a edição. São 5 cenas, uns 30 s de fala. Grave um áudio por cena.",
+      "arquivos": [
+        {
+          "nome": "Vídeo mudo do TikTok",
+          "url": "https://fontedemana.com.br/pauta/2026-11-27/tiktok/tiktok-mudo.mp4"
+        }
+      ],
+      "roteiro": [
+        {
+          "cena": "Cena 1, uns 5 s",
+          "tela": "Mesma carta, 178 vezes mais cara. US$ 0,37 (R$ 2,17) ou US$ 66,12 (R$ 387,28). O que muda é a edição.",
+          "fala": "A mesma carta pode custar 178 vezes mais. O que muda é a edição."
+        },
+        {
+          "cena": "Cena 2, uns 6 s",
+          "tela": "Arcane Signet, Edição de Final Fantasy: US$ 0,37 (R$ 2,17). Mana de qualquer cor do comandante",
+          "fala": "Arcane Signet: 37 centavos de dólar, uns 2 reais. No Secret Lair, 178 vezes mais."
+        },
+        {
+          "cena": "Cena 3, uns 6 s",
+          "tela": "Path to Exile, Edição de Star Trek: US$ 0,71 (R$ 4,16). Exila a criatura por 1 mana branca",
+          "fala": "Path to Exile: 71 centavos, uns 4 reais. No Secret Lair, 19 vezes mais."
+        },
+        {
+          "cena": "Cena 4, uns 6 s",
+          "tela": "Solemn Simulacrum, Edição de Final Fantasy: US$ 0,25 (R$ 1,46). Busca terreno e compra quando morre",
+          "fala": "Solemn Simulacrum: 25 centavos, um real e meio. No Secret Lair, 75 vezes mais."
+        },
+        {
+          "cena": "Cena 5, uns 8 s",
+          "tela": "Peça a edição exata. Confira o estado (Near Mint ou Slightly Played) e o mínimo por carta da loja. A mais barata ou a mais bonita?",
+          "fala": "Antes de pagar, peça a edição exata e confira o estado. Você leva a mais barata ou a mais bonita?"
+        }
+      ],
+      "passos": [
+        "Assista ao vídeo mudo uma vez para pegar o ritmo de cada cena.",
+        "Grave um áudio por cena no Gravador do iPhone, num lugar silencioso, com o celular a um palmo da boca.",
+        "Nomeie os áudios cena_1, cena_2, cena_3, cena_4 e cena_5.",
+        "Mande os áudios ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"áudios do TikTok de 2026-11-27\"."
+      ]
+    },
+    {
+      "id": "tiktok",
+      "hora": "11:30",
+      "rede": "TikTok",
+      "titulo": "TikTok: a mesma carta, 178 vezes mais cara",
+      "oQue": "Vídeo da Bolsa de Mana da Black Friday: Arcane Signet, Path to Exile e Solemn Simulacrum, a edição barata e a do Secret Lair, e o que conferir antes de pagar.",
+      "arquivos": [
+        {
+          "nome": "Vídeo do TikTok",
+          "url": "https://fontedemana.com.br/pauta/2026-11-27/tiktok/tiktok-mudo.mp4"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Black Friday no Commander: a mesma carta de Magic pode custar 178 vezes mais, e o que muda é a edição. Você compra a mais barata ou a edição bonita?\n\nArcane Signet, Path to Exile e Solemn Simulacrum estão entre as cartas mais jogadas do formato e têm impressão por menos de US$ 1 (R$ 5,86). No Secret Lair, a mesma carta vai de US$ 13,69 (R$ 80,19) a US$ 66,12 (R$ 387,28). Antes de comprar, peça a edição exata, confira o estado (Near Mint ou Slightly Played) e veja se a loja cobra um mínimo por carta.\n\nPreços do Scryfall (TCGplayer) em 26 nov e decks do EDHREC. Reais pela cotação de 24 nov (Banco Central, PTAX). Não é recomendação de investimento.\n\nMais em fontedemana.com.br\n\n#blackfriday #commander #mtg"
+        },
+        {
+          "rotulo": "Comentário fixado",
+          "texto": "Na Black Friday, você compra a edição mais barata ou a mais bonita? Bolsa de Mana, a carta que mexeu no preço."
+        }
+      ],
+      "passos": [
+        "Poste o vídeo com um som em alta da biblioteca do TikTok, com volume entre 15% e 20%.",
+        "Voz própria não precisa de rótulo de IA.",
+        "Cole a legenda e fixe o comentário.",
+        "Se os áudios não chegarem, poste o vídeo mudo com música em alta."
+      ]
+    }
+  ]
+}
