@@ -19,7 +19,8 @@
    "sub": "Todos no top 100 do EDHREC",
    "narracao": "Cinco comandantes fortes por menos de dez reais.",
    "gravar": "Olhando para a câmera, segura um comandante ou um deck na mão e mostra para a câmera ao falar.",
-   "segundos": 3.6
+   "segundos": 3.6,
+   "caixa": "topo"
   },
   {
    "tipo": "carta",
