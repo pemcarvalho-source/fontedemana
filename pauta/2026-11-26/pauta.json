@@ -75,8 +75,8 @@
       "oQue": "Vídeo do Top 5 da Black Friday, com a legenda e o comentário fixado abaixo. A mesma legenda e o mesmo vídeo vão para o Reels das 19:00.",
       "arquivos": [
         {
-          "nome": "Vídeo (tiktok-mudo.mp4)",
-          "url": "https://fontedemana.com.br/pauta/2026-11-26/tiktok/tiktok-mudo.mp4"
+          "nome": "Vídeo narrado (tiktok-narrado.mp4)",
+          "url": "https://fontedemana.com.br/pauta/2026-11-26/tiktok/tiktok-narrado.mp4"
         }
       ],
       "textos": [
@@ -92,8 +92,7 @@
       "passos": [
         "Poste com um som em alta da biblioteca do TikTok, com volume entre 15% e 20%.",
         "Voz própria não precisa de rótulo de IA.",
-        "Fixe o comentário logo depois de postar.",
-        "Se os vídeos da gravação não chegarem, poste o vídeo mudo com uma música em alta."
+        "Fixe o comentário logo depois de postar."
       ]
     }
   ]
