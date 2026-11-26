@@ -1,0 +1,104 @@
+{
+ "n": 52,
+ "data": "26 nov",
+ "carrossel": {
+  "capa": {
+   "cor": "G",
+   "titulo": "Quinta calma, Night's Whisper na mesa",
+   "sub": "Nada novo no feriado de Ação de Graças dos EUA. Hoje acaba a <b>Festa de Commander de Star Trek</b> e no Topdeck tem compra preta por menos de um dólar.",
+   "credito": "Arte: Fog, Jaime Jones"
+  },
+  "cartoes": [
+   {
+    "cor": "W",
+    "titulo": "O que vem nos próximos dias",
+    "itens": [
+     {"cor": "W", "html": "<b>26 nov</b>: último dia da primeira rodada da Festa de Commander de Star Trek."},
+     {"cor": "A", "html": "<b>até 30 nov</b>: venda do Secret Lair do Extra Life."},
+     {"cor": "A", "html": "<b>30 nov</b>: venda do Secret Lair de Duna, às 14h de Brasília."},
+     {"cor": "B", "html": "<b>30 nov</b>: próxima janela de banimentos do Commander."}
+    ],
+    "fonte": "Fontes: Wizards e WPN"
+   }
+  ],
+  "topdeck": {
+   "titulo": "Night's Whisper",
+   "habilidades": [
+    {"rotulo": "Duas por duas", "texto": "Paga 2 mana e põe duas cartas na mão na hora, sem precisar de nada na mesa."},
+    {"rotulo": "Paga em vida", "texto": "Custa 2 pontos de vida. Com 40 de vida no Commander, quase sempre é barato."},
+    {"rotulo": "Cedo ou tarde", "texto": "No turno 2 acha terreno. No fim do jogo, recarrega a mão após um board wipe."}
+   ],
+   "extra": "Está em <b>547 mil decks</b> no EDHREC. US$ 0,23 no Scryfall, na versão do precon de Star Trek.",
+   "credito": "Ilustração de Runa I. Rosenberger"
+  },
+  "ban": {
+   "numero": "4",
+   "unidade": "DIAS",
+   "texto": "Para a próxima janela de banimentos, em 30 de novembro, o mesmo dia da venda do Secret Lair de Duna."
+  },
+  "turnos": [
+   {"cor": "W", "data": "26 nov", "texto": "Fim da Festa de Star Trek"},
+   {"cor": "A", "data": "30 nov", "texto": "Venda do Secret Lair de Duna"},
+   {"cor": "B", "data": "30 nov", "texto": "Janela de banimentos"},
+   {"cor": "A", "data": "9 dez", "texto": "Nova janela do Zeta Set"},
+   {"cor": "W", "data": "11 dez", "texto": "2ª rodada da Festa de Star Trek"}
+  ],
+  "sussurro": null
+ },
+ "video": {
+  "cena1": {
+   "titulo": "Quinta calma, Night's Whisper na mesa",
+   "pilulas": ["Festa de Star Trek acaba", "Compra barata", "Ban em 4 dias"]
+  },
+  "cena2": {
+   "rotulo": "Agenda",
+   "cor": "W",
+   "titulo": "O que vem nos próximos dias",
+   "itens": [
+    "Hoje: último dia da Festa de Commander de Star Trek.",
+    "30 nov: venda do Secret Lair de Duna, às 14h.",
+    "30 nov: próxima janela de banimentos."
+   ],
+   "fonte": "Fontes: Wizards e WPN"
+  },
+  "cena3": {
+   "linhas": [
+    "<b>Night's Whisper</b> compra duas cartas por 2 mana.",
+    "Custa só 2 pontos de vida.",
+    "Está em 547 mil decks e custa US$ 0,23."
+   ]
+  },
+  "cena4": {
+   "texto": "Faltam 4 dias para 30 de novembro, dia da janela de banimentos e da venda de Duna.",
+   "sussurro": null
+  }
+ },
+ "textos": {
+  "legendaCarrossel": "Commander, Magic e carta barata de Black Friday: quinta calma, sem fato novo confirmado.\n\nHoje é o último dia da primeira rodada da Festa de Commander de Star Trek nas lojas. Na segunda, 30 de novembro, tem venda do Secret Lair de Duna, às 14h de Brasília, e a próxima janela de banimentos do Commander, no mesmo dia.\n\nNo Topdeck do Dia, Night's Whisper, o feitiço preto de 2 mana que compra duas cartas e custa 2 pontos de vida. Está em 547 mil decks no EDHREC e a versão do precon de Star Trek sai a US$ 0,23 no Scryfall. Compra de carta que cabe em qualquer deck preto e em qualquer bolso.\n\nQual é a sua compra de carta favorita no preto?\n\nEdição completa em fontedemana.com.br\n\nArte da capa: Fog, Jaime Jones. Topdeck: Night's Whisper, Runa I. Rosenberger.\n\n#blackfriday #commander #mtg",
+  "legendaVideo": "Commander e Magic numa quinta calma: hoje acaba a Festa de Commander de Star Trek e faltam 4 dias para a janela de banimentos.\n\nNo Topdeck, Night's Whisper, que compra duas cartas por 2 mana e está em 547 mil decks no EDHREC.\n\nNo seu deck preto, você paga vida para comprar carta?\n\nTudo em fontedemana.com.br\n\n#blackfriday #commander #mtg",
+  "threadsPost": "Quinta calma no Commander, sem fato novo confirmado. No Topdeck, Night's Whisper: por 2 mana, você compra duas cartas e perde 2 pontos de vida. Está em 547 mil decks no EDHREC e a versão do precon de Star Trek sai a US$ 0,23. Qual é a sua compra de carta favorita no preto? fontedemana.com.br",
+  "threadsFio": [
+   "Quinta calma no Commander, sem fato novo confirmado. O Secret Lair de Duna e a janela de banimentos seguem marcados para 30 de novembro.",
+   "Hoje é o último dia da primeira rodada da Festa de Commander de Star Trek nas lojas. A segunda é de 11 a 17 de dezembro.",
+   "No Topdeck do Dia, Night's Whisper. Por 2 mana, compra duas cartas e custa 2 pontos de vida. Não tem alvo: quem compra e perde vida é sempre você.",
+   "Está em 547 mil decks no EDHREC e a versão do precon de Star Trek sai a US$ 0,23 no Scryfall. Carta de Black Friday que já vem em quase todo precon preto.",
+   "Faltam 4 dias para a janela de banimentos de 30 de novembro. Edição completa em fontedemana.com.br"
+  ],
+  "threadsAvulsos": [
+   {
+    "titulo": "Pergunta do dia",
+    "texto": "Night's Whisper está em 547 mil decks e custa menos de um dólar. Qual é a sua compra de carta preferida no preto no Commander?",
+    "obs": "Pergunta aberta, sem enquete"
+   }
+  ]
+ },
+ "pauta": {
+  "forca": "calmo",
+  "porque": "Quinta sem fato novo sobre Commander; a Festa de Star Trek, Duna e o ban de 30 nov já estavam na agenda.",
+  "storyPergunta": "Qual é a sua compra de carta favorita no preto?",
+  "enquete": {
+   "pergunta": "Night's Whisper no seu deck?",
+   "opcoes": ["Já uso", "Vou colocar", "Não jogo de preto"]
+  }
+ }
+}
