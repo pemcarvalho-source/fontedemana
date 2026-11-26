@@ -1,6 +1,7 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "Night's Whisper",
   "Counterspell",
   "Swords to Plowshares",
   "Cultivate",
@@ -50,6 +51,13 @@ window.MANA_POOL_INDEX = {
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 52,
+   "date": "2026-11-26",
+   "dateLabel": "Quinta-feira, 26 de novembro de 2026",
+   "head": "Dia calmo no Multiverso",
+   "biome": "G"
+  },
   {
    "n": 51,
    "date": "2026-11-25",
@@ -259,13 +267,6 @@ window.MANA_POOL_INDEX = {
    "dateLabel": "Terça, 27 de outubro de 2026",
    "head": "We Are the Borg tem lista completa, com Toxic Deluge e Skullclamp",
    "biome": "M"
-  },
-  {
-   "n": 21,
-   "date": "2026-10-26",
-   "dateLabel": "Segunda, 26 de outubro de 2026",
-   "head": "Secret Lairs de Reality Fracture entram à venda hoje na Chaos Vault",
-   "biome": "A"
   }
  ]
 };
