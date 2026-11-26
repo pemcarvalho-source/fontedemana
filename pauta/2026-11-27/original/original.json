@@ -3,33 +3,130 @@
   "pilar": "bolsa",
   "item": null,
   "tema": "Bolsa de Mana da Black Friday: a mesma carta de 37 centavos a 66 dólares",
-  "cartas": ["Arcane Signet", "Path to Exile", "Solemn Simulacrum"],
+  "cartas": [
+    "Arcane Signet",
+    "Path to Exile",
+    "Solemn Simulacrum"
+  ],
   "fx": "Valores em reais pela cotação de 24 nov (Banco Central, PTAX).",
   "carrossel": {
-    "capa": {"cor": "A", "chip": "Bolsa de Mana", "kicker": "Black Friday no Commander", "titulo": "A mesma carta, <b>178 vezes</b> mais cara", "sub": "Três staples por menos de US$ 1 (R$ 5,86) e o que conferir <b>antes de pagar</b>.", "arte": "pauta/2026-11-27/tiktok/arte.jpg", "credito": "Arte: Path to Exile, Pierre Raveneau"},
+    "capa": {
+      "cor": "A",
+      "chip": "Bolsa de Mana",
+      "kicker": "Black Friday no Commander",
+      "titulo": "A mesma carta, <b>178 vezes</b> mais cara",
+      "sub": "Três staples por menos de US$ 1 (R$ 5,86) e o que conferir <b>antes de pagar</b>.",
+      "arte": "pauta/2026-11-27/tiktok/arte.jpg",
+      "credito": "Arte: Path to Exile, Pierre Raveneau"
+    },
     "cartoes": [
-      {"cor": "A", "titulo": "Arcane Signet", "carta": "pauta/2026-11-27/original/carta-1.jpg",
-       "itens": [{"cor": "A", "html": "Final Fantasy Commander: <b>US$ 0,37 (R$ 2,17)</b>. Secret Lair: US$ 66,12 (R$ 387,28)."},
-                 {"cor": "M", "html": "Em <b>72% dos decks</b> no EDHREC. Mana de qualquer cor do comandante."}],
-       "fonte": "Fonte: Scryfall (TCGplayer), 26 nov; EDHREC"},
-      {"cor": "W", "titulo": "Path to Exile", "carta": "pauta/2026-11-27/original/carta-2.jpg",
-       "itens": [{"cor": "A", "html": "Precon de Star Trek: <b>US$ 0,71 (R$ 4,16)</b>. Secret Lair: US$ 13,69 (R$ 80,19)."},
-                 {"cor": "W", "html": "Em <b>48% dos decks</b> brancos no EDHREC. Exila a criatura por 1 mana."}],
-       "fonte": "Fonte: Scryfall (TCGplayer), 26 nov; EDHREC"},
-      {"cor": "M", "titulo": "Solemn Simulacrum", "carta": "pauta/2026-11-27/original/carta-3.jpg",
-       "itens": [{"cor": "A", "html": "Final Fantasy Commander: <b>US$ 0,25 (R$ 1,46)</b>. Secret Lair: US$ 18,84 (R$ 110,35)."},
-                 {"cor": "M", "html": "Em <b>11% dos decks</b> no EDHREC. Busca terreno e compra carta quando morre."}],
-       "fonte": "Fonte: Scryfall (TCGplayer), 26 nov; EDHREC"},
-      {"cor": "U", "titulo": "Antes de pagar",
-       "itens": [{"cor": "U", "html": "Peça a <b>edição exata</b>, com coleção e número. Pelo nome, pode vir a cara."},
-                 {"cor": "A", "html": "Confira o estado: <b>Near Mint</b> e <b>Slightly Played</b> têm preços diferentes."},
-                 {"cor": "W", "html": "Veja se a loja cobra um <b>mínimo por carta</b>. Na carta de centavos, ele pesa."}],
-       "nota": {"rotulo": "Na mesa", "texto": "a carta faz a mesma coisa. Quem decide o preço é a edição."},
-       "fonte": "Fonte: Fonte de Mana"}
+      {
+        "cor": "A",
+        "titulo": "Arcane Signet",
+        "carta": "pauta/2026-11-27/original/carta-1.jpg",
+        "itens": [
+          {
+            "cor": "A",
+            "html": "Final Fantasy Commander: <b>US$ 0,37 (R$ 2,17)</b>. Secret Lair: US$ 66,12 (R$ 387,28)."
+          },
+          {
+            "cor": "M",
+            "html": "Em <b>72% dos decks</b> no EDHREC. Mana de qualquer cor do comandante."
+          }
+        ],
+        "fonte": "Fonte: Scryfall (TCGplayer), 26 nov; EDHREC"
+      },
+      {
+        "cor": "W",
+        "titulo": "Path to Exile",
+        "carta": "pauta/2026-11-27/original/carta-2.jpg",
+        "itens": [
+          {
+            "cor": "A",
+            "html": "Precon de Star Trek: <b>US$ 0,71 (R$ 4,16)</b>. Secret Lair: US$ 13,69 (R$ 80,19)."
+          },
+          {
+            "cor": "W",
+            "html": "Em <b>48% dos decks</b> brancos no EDHREC. Exila a criatura por 1 mana."
+          }
+        ],
+        "fonte": "Fonte: Scryfall (TCGplayer), 26 nov; EDHREC"
+      },
+      {
+        "cor": "M",
+        "titulo": "Solemn Simulacrum",
+        "carta": "pauta/2026-11-27/original/carta-3.jpg",
+        "itens": [
+          {
+            "cor": "A",
+            "html": "Final Fantasy Commander: <b>US$ 0,25 (R$ 1,46)</b>. Secret Lair: US$ 18,84 (R$ 110,35)."
+          },
+          {
+            "cor": "M",
+            "html": "Em <b>11% dos decks</b> no EDHREC. Busca terreno e compra carta quando morre."
+          }
+        ],
+        "fonte": "Fonte: Scryfall (TCGplayer), 26 nov; EDHREC"
+      },
+      {
+        "cor": "G",
+        "titulo": "Por que muda o preço?",
+        "itens": [
+          {
+            "cor": "G",
+            "html": "<b>Tiragem</b>: o precon é impresso em grande quantidade, e a carta sobra no mercado."
+          },
+          {
+            "cor": "A",
+            "html": "<b>Venda limitada</b>: o Secret Lair fica à venda por pouco tempo e depois só se acha de segunda mão."
+          },
+          {
+            "cor": "M",
+            "html": "<b>Arte e acabamento</b>: arte especial, sem borda ou foil atraem quem coleciona."
+          }
+        ],
+        "nota": {
+          "rotulo": "Na mesa",
+          "texto": "o efeito é o mesmo. O que você paga a mais é a raridade e a arte."
+        },
+        "fonte": "Fonte: Fonte de Mana"
+      },
+      {
+        "cor": "U",
+        "titulo": "Antes de pagar",
+        "itens": [
+          {
+            "cor": "U",
+            "html": "Peça a <b>edição exata</b>, com coleção e número. Pelo nome, pode vir a cara."
+          },
+          {
+            "cor": "A",
+            "html": "Confira o estado: <b>Near Mint</b> e <b>Slightly Played</b> têm preços diferentes."
+          },
+          {
+            "cor": "W",
+            "html": "Veja se a loja cobra um <b>mínimo por carta</b>. Na carta de centavos, ele pesa."
+          }
+        ],
+        "fonte": "Fonte: Fonte de Mana"
+      }
     ],
-    "cta": {"pergunta": "Você leva a <b>mais barata</b> ou a <b>mais bonita</b>?", "quando": "Black Friday, 27 nov", "salvar": "Salve para conferir na hora de fechar o carrinho"}
+    "cta": {
+      "pergunta": "Você leva a <b>mais barata</b> ou a <b>mais bonita</b>?",
+      "quando": "Black Friday, 27 nov",
+      "salvar": "Salve para conferir na hora de fechar o carrinho"
+    }
   },
-  "legenda": "Black Friday no Commander: a mesma carta de Magic pode custar 178 vezes mais. Você compra a edição mais barata ou a mais bonita?\n\nArcane Signet, Path to Exile e Solemn Simulacrum estão entre as cartas mais jogadas do formato e têm impressão por menos de US$ 1 (R$ 5,86). No Secret Lair, as mesmas cartas vão de US$ 13,69 (R$ 80,19) a US$ 66,12 (R$ 387,28).\n\nAntes de pagar:\n1. Peça a edição exata, com coleção e número.\n2. Confira o estado: Near Mint e Slightly Played têm preços diferentes.\n3. Veja se a loja cobra um mínimo por carta.\n\nFontes: Scryfall (preço do TCGplayer em 26 nov) e EDHREC. Valores em reais pela cotação de 24 nov (Banco Central, PTAX). Não é recomendação de investimento.\n\nMais em fontedemana.com.br\n\n#blackfriday #commander #mtg",
-  "threads": {"texto": "Black Friday no Commander. O Arcane Signet da edição de Final Fantasy sai por US$ 0,37 (R$ 2,17). O do Secret Lair, US$ 66,12 (R$ 387,28). Na mesa, os dois fazem exatamente a mesma coisa.\n\nQuando você completa o deck, paga pela edição bonita ou pega a mais barata e guarda o dinheiro para a próxima carta?", "obs": "Enquete com duas opções: a mais barata, a mais bonita"},
-  "enquete": {"pergunta": "Na Black Friday, qual edição você compra?", "opcoes": ["A mais barata", "A mais bonita"]}
+  "legenda": "Black Friday no Commander: a mesma carta de Magic pode custar 178 vezes mais. Você compra a edição mais barata ou a mais bonita?\n\nArcane Signet, Path to Exile e Solemn Simulacrum estão entre as cartas mais jogadas do formato e têm impressão por menos de US$ 1 (R$ 5,86). No Secret Lair, as mesmas cartas vão de US$ 13,69 (R$ 80,19) a US$ 66,12 (R$ 387,28).\n\nPor que a diferença? O precon é impresso em grande quantidade. O Secret Lair fica à venda por pouco tempo, com arte especial e acabamento diferente, e atrai quem coleciona. Na mesa, as duas fazem a mesma coisa.\n\nAntes de pagar:\n1. Peça a edição exata, com coleção e número.\n2. Confira o estado: Near Mint e Slightly Played têm preços diferentes.\n3. Veja se a loja cobra um mínimo por carta.\n\nFontes: Scryfall (preço do TCGplayer em 26 nov) e EDHREC. Valores em reais pela cotação de 24 nov (Banco Central, PTAX). Não é recomendação de investimento.\n\nMais em fontedemana.com.br\n\n#blackfriday #commander #mtg",
+  "threads": {
+    "texto": "Black Friday no Commander. O Arcane Signet da edição de Final Fantasy sai por US$ 0,37 (R$ 2,17). O do Secret Lair, US$ 66,12 (R$ 387,28). Na mesa, os dois fazem exatamente a mesma coisa.\n\nQuando você completa o deck, paga pela edição bonita ou pega a mais barata e guarda o dinheiro para a próxima carta?",
+    "obs": "Enquete com duas opções: a mais barata, a mais bonita"
+  },
+  "enquete": {
+    "pergunta": "Na Black Friday, qual edição você compra?",
+    "opcoes": [
+      "A mais barata",
+      "A mais bonita"
+    ]
+  }
 }

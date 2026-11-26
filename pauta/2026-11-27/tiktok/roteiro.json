@@ -7,7 +7,7 @@
  "carta": "pauta/2026-11-27/tiktok/carta.jpg",
  "credito": "Arte: Path to Exile, Pierre Raveneau",
  "fx": "Reais pela cotação de 24 nov (Banco Central, PTAX)",
- "legenda": "Black Friday no Commander: a mesma carta de Magic pode custar 178 vezes mais, e o que muda é a edição. Você compra a mais barata ou a edição bonita?\n\nArcane Signet, Path to Exile e Solemn Simulacrum estão entre as cartas mais jogadas do formato e têm impressão por menos de US$ 1 (R$ 5,86). No Secret Lair, a mesma carta vai de US$ 13,69 (R$ 80,19) a US$ 66,12 (R$ 387,28). Antes de comprar, peça a edição exata, confira o estado (Near Mint ou Slightly Played) e veja se a loja cobra um mínimo por carta.\n\nPreços do Scryfall (TCGplayer) em 26 nov e decks do EDHREC. Reais pela cotação de 24 nov (Banco Central, PTAX). Não é recomendação de investimento.\n\nMais em fontedemana.com.br\n\n#blackfriday #commander #mtg",
+ "legenda": "Black Friday no Commander: a mesma carta de Magic pode custar 178 vezes mais, e o que muda é a edição. Você compra a mais barata ou a edição bonita?\n\nArcane Signet, Path to Exile e Solemn Simulacrum estão entre as cartas mais jogadas do formato e têm impressão por menos de US$ 1 (R$ 5,86). No Secret Lair, a mesma carta vai de US$ 13,69 (R$ 80,19) a US$ 66,12 (R$ 387,28). Por que a diferença? O precon é impresso em grande quantidade, e o Secret Lair fica à venda por pouco tempo, com arte especial e acabamento diferente. Na mesa, as duas fazem a mesma coisa. Antes de comprar, peça a edição exata, confira o estado (Near Mint ou Slightly Played) e veja se a loja cobra um mínimo por carta.\n\nPreços do Scryfall (TCGplayer) em 26 nov e decks do EDHREC. Reais pela cotação de 24 nov (Banco Central, PTAX). Não é recomendação de investimento.\n\nMais em fontedemana.com.br\n\n#blackfriday #commander #mtg",
  "comentario": "Na Black Friday, você compra a edição mais barata ou a mais bonita? Bolsa de Mana, a carta que mexeu no preço.",
  "cenas": [
   {
@@ -17,8 +17,8 @@
    "kicker": "Black Friday no Commander",
    "titulo": "Mesma carta, 178 vezes mais cara",
    "sub": "US$ 0,37 (R$ 2,17) ou US$ 66,12 (R$ 387,28). O que muda é a edição.",
-   "narracao": "A mesma carta pode custar 178 vezes mais. O que muda é a edição.",
-   "segundos": 5.8
+   "narracao": "Mesma carta, 178 vezes mais cara. Culpa da edição.",
+   "segundos": 3.9
   },
   {
    "tipo": "carta",
@@ -30,8 +30,8 @@
    "real": "(R$ 2,17)",
    "sub": "Mana de qualquer cor do comandante",
    "fonte": "Scryfall, 26 nov; EDHREC",
-   "narracao": "Arcane Signet: 37 centavos de dólar, uns 2 reais. No Secret Lair, 178 vezes mais.",
-   "segundos": 6.2
+   "narracao": "Arcane Signet: 37 centavos, uns 2 reais. No Secret Lair, 178 vezes mais.",
+   "segundos": 5.4
   },
   {
    "tipo": "carta",
@@ -43,8 +43,8 @@
    "real": "(R$ 4,16)",
    "sub": "Exila a criatura por 1 mana branca",
    "fonte": "Scryfall, 26 nov; EDHREC",
-   "narracao": "Path to Exile: 71 centavos, uns 4 reais. No Secret Lair, 19 vezes mais.",
-   "segundos": 5.8
+   "narracao": "Path to Exile de Star Trek: 71 centavos, uns 4 reais.",
+   "segundos": 4.7
   },
   {
    "tipo": "carta",
@@ -56,7 +56,17 @@
    "real": "(R$ 1,46)",
    "sub": "Busca terreno e compra quando morre",
    "fonte": "Scryfall, 26 nov; EDHREC",
-   "narracao": "Solemn Simulacrum: 25 centavos, um real e meio. No Secret Lair, 75 vezes mais.",
+   "narracao": "Solemn Simulacrum: 25 centavos, um real e meio.",
+   "segundos": 3.6
+  },
+  {
+   "tipo": "texto",
+   "cor": "G",
+   "kicker": "Por que muda o preço?",
+   "titulo": "Tiragem e acabamento",
+   "sub": "Precon imprime aos montes. Secret Lair vende por pouco tempo, com arte especial.",
+   "rodape": "Na mesa, as duas fazem a mesma coisa.",
+   "narracao": "Por quê? Precon imprime aos montes. Secret Lair vende pouco tempo, com arte especial.",
    "segundos": 5.8
   },
   {
@@ -66,8 +76,8 @@
    "titulo": "Peça a edição exata",
    "sub": "Confira o estado (Near Mint ou Slightly Played) e o mínimo por carta da loja.",
    "rodape": "A mais barata ou a mais bonita?",
-   "narracao": "Antes de pagar, peça a edição exata e confira o estado. Você leva a mais barata ou a mais bonita?",
-   "segundos": 8
+   "narracao": "Na mesa é igual. Peça a edição exata. Mais barata ou mais bonita?",
+   "segundos": 5.4
   }
  ]
 }

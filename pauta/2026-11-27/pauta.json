@@ -8,7 +8,7 @@
       "hora": "19:15",
       "rede": "Gravação",
       "titulo": "Gravar a narração do TikTok de amanhã",
-      "oQue": "Bolsa de Mana da Black Friday: a mesma carta custa até 178 vezes mais conforme a edição. São 5 cenas, uns 30 s de fala. Grave um áudio por cena.",
+      "oQue": "Bolsa de Mana da Black Friday: a mesma carta custa até 178 vezes mais conforme a edição, e por quê. São 6 cenas, uns 30 s de fala. Grave um áudio por cena.",
       "arquivos": [
         {
           "nome": "Vídeo mudo do TikTok",
@@ -17,35 +17,40 @@
       ],
       "roteiro": [
         {
-          "cena": "Cena 1, uns 5 s",
+          "cena": "Cena 1, uns 4 s",
           "tela": "Mesma carta, 178 vezes mais cara. US$ 0,37 (R$ 2,17) ou US$ 66,12 (R$ 387,28). O que muda é a edição.",
-          "fala": "A mesma carta pode custar 178 vezes mais. O que muda é a edição."
+          "fala": "Mesma carta, 178 vezes mais cara. Culpa da edição."
         },
         {
-          "cena": "Cena 2, uns 6 s",
-          "tela": "Arcane Signet, Edição de Final Fantasy: US$ 0,37 (R$ 2,17). Mana de qualquer cor do comandante",
-          "fala": "Arcane Signet: 37 centavos de dólar, uns 2 reais. No Secret Lair, 178 vezes mais."
+          "cena": "Cena 2, uns 5 s",
+          "tela": "Arcane Signet, edição de Final Fantasy: US$ 0,37 (R$ 2,17). Mana de qualquer cor do comandante.",
+          "fala": "Arcane Signet: 37 centavos, uns 2 reais. No Secret Lair, 178 vezes mais."
         },
         {
-          "cena": "Cena 3, uns 6 s",
-          "tela": "Path to Exile, Edição de Star Trek: US$ 0,71 (R$ 4,16). Exila a criatura por 1 mana branca",
-          "fala": "Path to Exile: 71 centavos, uns 4 reais. No Secret Lair, 19 vezes mais."
+          "cena": "Cena 3, uns 5 s",
+          "tela": "Path to Exile, edição de Star Trek: US$ 0,71 (R$ 4,16). Exila a criatura por 1 mana branca.",
+          "fala": "Path to Exile de Star Trek: 71 centavos, uns 4 reais."
         },
         {
-          "cena": "Cena 4, uns 6 s",
-          "tela": "Solemn Simulacrum, Edição de Final Fantasy: US$ 0,25 (R$ 1,46). Busca terreno e compra quando morre",
-          "fala": "Solemn Simulacrum: 25 centavos, um real e meio. No Secret Lair, 75 vezes mais."
+          "cena": "Cena 4, uns 4 s",
+          "tela": "Solemn Simulacrum, edição de Final Fantasy: US$ 0,25 (R$ 1,46). Busca terreno e compra quando morre.",
+          "fala": "Solemn Simulacrum: 25 centavos, um real e meio."
         },
         {
-          "cena": "Cena 5, uns 8 s",
+          "cena": "Cena 5, uns 6 s",
+          "tela": "Por que muda o preço? Tiragem e acabamento. Precon imprime aos montes. Secret Lair vende por pouco tempo, com arte especial.",
+          "fala": "Por quê? Precon imprime aos montes. Secret Lair vende pouco tempo, com arte especial."
+        },
+        {
+          "cena": "Cena 6, uns 5 s",
           "tela": "Peça a edição exata. Confira o estado (Near Mint ou Slightly Played) e o mínimo por carta da loja. A mais barata ou a mais bonita?",
-          "fala": "Antes de pagar, peça a edição exata e confira o estado. Você leva a mais barata ou a mais bonita?"
+          "fala": "Na mesa é igual. Peça a edição exata. Mais barata ou mais bonita?"
         }
       ],
       "passos": [
         "Assista ao vídeo mudo uma vez para pegar o ritmo de cada cena.",
         "Grave um áudio por cena no Gravador do iPhone, num lugar silencioso, com o celular a um palmo da boca.",
-        "Nomeie os áudios cena_1, cena_2, cena_3, cena_4 e cena_5.",
+        "Nomeie os áudios cena_1, cena_2, cena_3, cena_4, cena_5 e cena_6.",
         "Mande os áudios ao Claude no projeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo \"áudios do TikTok de 2026-11-27\"."
       ]
     },
@@ -64,7 +69,7 @@
       "textos": [
         {
           "rotulo": "Legenda",
-          "texto": "Black Friday no Commander: a mesma carta de Magic pode custar 178 vezes mais, e o que muda é a edição. Você compra a mais barata ou a edição bonita?\n\nArcane Signet, Path to Exile e Solemn Simulacrum estão entre as cartas mais jogadas do formato e têm impressão por menos de US$ 1 (R$ 5,86). No Secret Lair, a mesma carta vai de US$ 13,69 (R$ 80,19) a US$ 66,12 (R$ 387,28). Antes de comprar, peça a edição exata, confira o estado (Near Mint ou Slightly Played) e veja se a loja cobra um mínimo por carta.\n\nPreços do Scryfall (TCGplayer) em 26 nov e decks do EDHREC. Reais pela cotação de 24 nov (Banco Central, PTAX). Não é recomendação de investimento.\n\nMais em fontedemana.com.br\n\n#blackfriday #commander #mtg"
+          "texto": "Black Friday no Commander: a mesma carta de Magic pode custar 178 vezes mais, e o que muda é a edição. Você compra a mais barata ou a edição bonita?\n\nArcane Signet, Path to Exile e Solemn Simulacrum estão entre as cartas mais jogadas do formato e têm impressão por menos de US$ 1 (R$ 5,86). No Secret Lair, a mesma carta vai de US$ 13,69 (R$ 80,19) a US$ 66,12 (R$ 387,28). Por que a diferença? O precon é impresso em grande quantidade, e o Secret Lair fica à venda por pouco tempo, com arte especial e acabamento diferente. Na mesa, as duas fazem a mesma coisa. Antes de comprar, peça a edição exata, confira o estado (Near Mint ou Slightly Played) e veja se a loja cobra um mínimo por carta.\n\nPreços do Scryfall (TCGplayer) em 26 nov e decks do EDHREC. Reais pela cotação de 24 nov (Banco Central, PTAX). Não é recomendação de investimento.\n\nMais em fontedemana.com.br\n\n#blackfriday #commander #mtg"
         },
         {
           "rotulo": "Comentário fixado",
