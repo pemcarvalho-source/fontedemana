@@ -1,0 +1,65 @@
+{
+ "data": "2026-11-29",
+ "pilar": "todamesa",
+ "tema": "Toda mesa tem um #3: o que esquece os próprios gatilhos",
+ "item": "O que esquece os próprios gatilhos",
+ "arte": "pauta/2026-11-29/tiktok/arte.jpg",
+ "carta": "pauta/2026-11-29/tiktok/carta.jpg",
+ "credito": "Arte: Bitterblossom, Rebecca Guay",
+ "fx": "Reais pela cotação de 24 nov (Banco Central, PTAX)",
+ "legenda": "Toda mesa de Commander tem um que esquece os próprios gatilhos. Quem é esse na sua mesa?\n\nA carta preferida dele é o Bitterblossom: todo começo de turno, perde 1 de vida e ganha uma fada voadora. Isso quando lembra. Dica de mesa: deixe um dado em cima de cada carta com gatilho e combine antes da partida o que acontece com gatilho esquecido.\n\nBitterblossom está em 231 mil decks no EDHREC e custa US$ 32,54 (R$ 190,60) na edição Double Masters 2022 (Scryfall, 26 nov). Reais pela cotação de 24 nov (Banco Central, PTAX).\n\nMais em fontedemana.com.br\n\n#bitterblossom #commander #mtg",
+ "comentario": "Quem é esse na sua mesa: você, o amigo, ou ninguém confessa? Todo domingo tem mais um tipo do Toda mesa tem um.",
+ "cenas": [
+  {
+   "tipo": "rosto",
+   "cor": "B",
+   "chip": "Toda mesa tem um",
+   "kicker": "Commander",
+   "titulo": "O que esquece os gatilhos",
+   "sub": "Toda mesa tem um.",
+   "narracao": "Toda mesa tem um que esquece os próprios gatilhos.",
+   "gravar": "Imita o jogador: olha para a mesa, faz cara de quem lembrou tarde e bate a mão na testa.",
+   "segundos": 3.9
+  },
+  {
+   "tipo": "texto",
+   "cor": "R",
+   "kicker": "A frase de sempre",
+   "titulo": "\"Era pra eu ter comprado uma carta.\"",
+   "sub": "Três turnos depois.",
+   "narracao": "Ah, era pra eu ter comprado uma carta. Três turnos atrás.",
+   "segundos": 4.7
+  },
+  {
+   "tipo": "texto",
+   "cor": "R",
+   "kicker": "E a clássica",
+   "titulo": "\"Volta, esqueci o upkeep!\"",
+   "sub": "Com o oponente já no meio do ataque.",
+   "narracao": "Volta, volta, esqueci o upkeep. Com o oponente já atacando.",
+   "segundos": 4.3
+  },
+  {
+   "tipo": "carta",
+   "cor": "B",
+   "chip": "A carta dele",
+   "kicker": "Em 231 mil decks",
+   "carta": "pauta/2026-11-29/tiktok/carta-1.jpg",
+   "valor": "US$ 32,54",
+   "real": "(R$ 190,60)",
+   "sub": "Todo turno: perde 1 de vida e ganha uma fada",
+   "fonte": "Scryfall, 26 nov; EDHREC",
+   "narracao": "A carta que ele ama: Bitterblossom. Todo turno, perde 1 de vida e ganha uma fada. Quando lembra.",
+   "segundos": 7.3
+  },
+  {
+   "tipo": "rosto",
+   "cor": "U",
+   "kicker": "Dica de mesa",
+   "titulo": "Um dado em cima da carta",
+   "narracao": "Dica: um dado em cima da carta com gatilho. Quem é esse na sua mesa?",
+   "gravar": "Põe um dado em cima de uma carta na mesa, mostra para a câmera e termina com a pergunta olhando para a lente.",
+   "segundos": 6.2
+  }
+ ]
+}

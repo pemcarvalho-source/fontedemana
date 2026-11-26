@@ -1,0 +1,114 @@
+{
+  "data": "2026-11-29",
+  "pilar": "todamesa",
+  "item": "O que esquece os próprios gatilhos",
+  "tema": "Toda mesa tem um #3: o que esquece os próprios gatilhos",
+  "cartas": [
+    "Bitterblossom"
+  ],
+  "fx": "Valores em reais pela cotação de 24 nov (Banco Central, PTAX).",
+  "carrossel": {
+    "capa": {
+      "cor": "B",
+      "chip": "Toda mesa tem um #3",
+      "kicker": "Commander",
+      "titulo": "O que esquece os <b>próprios gatilhos</b>",
+      "sub": "Toda mesa tem um. Às vezes, <b>é você</b>.",
+      "arte": "pauta/2026-11-29/tiktok/arte.jpg",
+      "credito": "Arte: Bitterblossom, Rebecca Guay"
+    },
+    "cartoes": [
+      {
+        "cor": "R",
+        "titulo": "As frases dele",
+        "itens": [
+          {
+            "cor": "R",
+            "html": "\"Ah, era pra eu ter comprado uma carta.\" <i>Três turnos depois.</i>"
+          },
+          {
+            "cor": "R",
+            "html": "\"Volta, volta, esqueci o upkeep!\" <i>Com o oponente já atacando.</i>"
+          },
+          {
+            "cor": "B",
+            "html": "\"Ué, cadê minha ficha?\" <i>Olhando para o próprio campo vazio.</i>"
+          }
+        ],
+        "fonte": "Fonte: Fonte de Mana"
+      },
+      {
+        "cor": "U",
+        "titulo": "O que é gatilho?",
+        "itens": [
+          {
+            "cor": "U",
+            "html": "É um efeito que acontece <b>sozinho</b> num momento certo, sem você pagar nada."
+          },
+          {
+            "cor": "U",
+            "html": "<b>Upkeep</b> é o começo do seu turno, antes de comprar. É lá que mora o esquecimento."
+          }
+        ],
+        "nota": {
+          "rotulo": "Na mesa",
+          "texto": "o gatilho é seu, então lembrar também é com você."
+        },
+        "fonte": "Fonte: Regras Abrangentes, 503 e 603"
+      },
+      {
+        "cor": "B",
+        "titulo": "A carta que ele ama",
+        "carta": "pauta/2026-11-29/original/carta-1.jpg",
+        "itens": [
+          {
+            "cor": "B",
+            "html": "<b>Bitterblossom</b>: todo upkeep, perde 1 de vida e ganha uma fada voadora 1/1."
+          },
+          {
+            "cor": "A",
+            "html": "Em <b>231 mil decks</b> no EDHREC. US$ 32,54 (R$ 190,60) na Double Masters 2022."
+          }
+        ],
+        "fonte": "Fonte: Scryfall, 26 nov; EDHREC"
+      },
+      {
+        "cor": "G",
+        "titulo": "Dica de mesa",
+        "itens": [
+          {
+            "cor": "G",
+            "html": "Deixe um <b>dado em cima</b> de cada carta com gatilho. Bateu o olho, lembrou."
+          },
+          {
+            "cor": "G",
+            "html": "Antes da partida, combine com a mesa o que acontece com <b>gatilho esquecido</b>."
+          }
+        ],
+        "nota": {
+          "rotulo": "Resumo",
+          "texto": "a piada é boa, mas a fada esquecida não volta sozinha."
+        },
+        "fonte": "Fonte: Fonte de Mana"
+      }
+    ],
+    "cta": {
+      "pergunta": "Quem é esse na sua mesa: <b>você</b>, <b>o amigo</b> ou <b>ninguém confessa</b>?",
+      "quando": "Todo domingo tem um tipo novo",
+      "salvar": "Mande para quem precisa de um dado em cima da carta"
+    }
+  },
+  "legenda": "Toda mesa de Commander tem um que esquece os próprios gatilhos. Quem é esse na sua mesa?\n\nGatilho é o efeito que acontece sozinho num momento certo, e o upkeep (o começo do turno, antes de comprar) é onde ele mais some. A carta preferida desse jogador é o Bitterblossom: todo upkeep, perde 1 de vida e ganha uma fada voadora. Isso quando lembra.\n\nDica de mesa: um dado em cima de cada carta com gatilho e um combinado antes da partida sobre gatilho esquecido.\n\nFontes: Scryfall (preço do TCGplayer em 26 nov), EDHREC e Regras Abrangentes. Valores em reais pela cotação de 24 nov (Banco Central, PTAX).\n\nMais em fontedemana.com.br\n\n#bitterblossom #commander #mtg",
+  "threads": {
+    "texto": "Toda mesa de Commander tem um que esquece os próprios gatilhos. Três turnos depois: \"ah, era pra eu ter comprado uma carta\".\n\nNa sua mesa, gatilho esquecido volta ou já era? E quem é o campeão de esquecer: você, o amigo ou ninguém confessa?",
+    "obs": "Enquete: volta, já era, depende do gatilho"
+  },
+  "enquete": {
+    "pergunta": "Gatilho esquecido na sua mesa:",
+    "opcoes": [
+      "Volta",
+      "Já era",
+      "Depende"
+    ]
+  }
+}
