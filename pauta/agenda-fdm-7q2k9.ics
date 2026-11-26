@@ -8,320 +8,8 @@ X-WR-TIMEZONE:America/Sao_Paulo
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:fdm-2026-11-22-gravacao@fontedemana.com.br
-DTSTAMP:20261126T010140Z
-DTSTART:20261120T003000Z
-DURATION:PT15M
-SUMMARY:21:30 Gravação: Gravar o vídeo de 22/11 (você aparece)
-DESCRIPTION:3 de 3 gravações da noite (20\, 21 e 22/11). Debate da semana
-  #2\, Universes Beyond no Commander (tema trocado em 19/11): você aparece
-  na pergunta do começo\, apontando para os dois lados\, e no fim\; o meio
-  é só a sua voz.\n\nArquivos:\n- Vídeo mudo do TikTok: https://fontedem
- ana.com.br/pauta/2026-11-22/tiktok/tiktok-mudo.mp4\n\nRoteiro de gravaçã
- o:\nCena 1\, rosto\, uns 4 s\nNa tela: Universes Beyond\, Soma ou atrapalh
- a?\nComo gravar: Rosto: Rosto no centro\, com espaço dos lados. Ao dizer 
- "Marvel"\, aponta para um lado\; ao dizer "Star Trek"\, para o outro.\nFal
- a: Marvel e Star Trek no Commander: soma ou atrapalha?\n\nCena 2\, só a v
- oz\, uns 8 s\nNa tela: O que a Wizards fez\, Outras marcas valem em todo f
- ormato\, Desde 2025. E Final Fantasy virou a coleção mais vendida da his
- tória.\nComo gravar: Só a voz: pode gravar em vídeo ou áudio\nFala: De
- sde 2025\, coleção de outra marca vale em todo formato\, e Final Fantasy
-  virou a mais vendida da história.\n\nCena 3\, só a voz\, uns 6 s\nNa te
- la: Quem gosta\, Traz gente nova para a mesa\, Gente chega pelo personagem
-  e fica para jogar Commander.\nComo gravar: Só a voz: pode gravar em víd
- eo ou áudio\nFala: Quem gosta diz: traz gente nova\, que chega pelo perso
- nagem e fica no Commander.\n\nCena 4\, só a voz\, uns 7 s\nNa tela: Quem 
- não gosta\, Magic perde a cara de Magic\, Spock e Homem-Aranha quebram o 
- mundo do jogo\, e é coleção atrás de coleção.\nComo gravar: Só a vo
- z: pode gravar em vídeo ou áudio\nFala: Quem não gosta diz: Magic perde
-  a cara de Magic\, e é coleção nova atrás de coleção.\n\nCena 5\, ro
- sto\, uns 5 s\nNa tela: E você?\, Na sua mesa\, soma ou atrapalha?\nComo 
- gravar: Rosto: Olha para a câmera e faz a pergunta do fim.\nFala: A Fonte
-  não toma partido. Na sua mesa\, Universes Beyond soma ou atrapalha?\n\n\
- nPasso a passo:\n1. Celular na vertical\, câmera da frente\, na altura do
- s olhos\, a um braço de distância.\n2. Rosto na metade de cima da tela: 
- o título entra embaixo dele\, na altura do peito.\n3. Luz de frente (de f
- rente para a janela) e fundo arrumado\; a estante de cartas é ótima.\n4.
-  Desligue o Vídeo HDR (Ajustes\, Câmera\, Gravar Vídeo) para as cores n
- ão lavarem.\n5. Um vídeo por cena\, falando para a câmera\, com meio se
- gundo de silêncio antes e depois\; nomeie cena_1\, cena_2... e mande todo
- s juntos.\n6. Nas cenas sem rosto\, só a voz conta: pode gravar em vídeo
-  ou só o áudio.\n7. Cena 1: ao dizer "Marvel"\, aponte para um lado\; ao
-  dizer "Star Trek"\, para o outro. Na edição\, entra a carta do precon d
- e cada universo do lado para onde você apontou (Avengers Assemble e Feder
- ation Fleet).\n8. Não precisa de carta na mão.\n9. No fim\, a fala é s
- ó a pergunta\, sem defender um dos lados: a Fonte não toma partido no De
- bate.\n10. Mande os vídeos ao Claude no projeto MGT strategy\, na convers
- a da gravação adiantada\, dizendo "vídeos do TikTok de 2026-11-22".\n\n
- Pauta completa: https://fontedemana.com.br/pauta/2026-11-22/#gravacao
-URL:https://fontedemana.com.br/pauta/2026-11-22/#gravacao
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Gravação: Gravar o vídeo de 22/11 (você aparece)
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-22-netflix-stories@fontedemana.com.br
-DTSTAMP:20261126T010140Z
-DTSTART:20261122T123000Z
-DURATION:PT15M
-SUMMARY:09:30 Instagram Stories: Planeswalker\, a série de Magic na Netfli
- x: o que já se sabe
-DESCRIPTION:Três stories sobre a série anunciada em 13/11\, para quem viu
-  o trailer e quer entender: o nome e a estreia em 2027\, o que já se sabe
-  (Chandra\, Ajani\, quem faz a série) e uma enquete. Sem gravação. Fica
-  de manhã\, antes do Debate das 10h30 e do carrossel das 12h. Fontes: Wiz
- ards\, Variety\, Inverse\, Nerdist e Collider.\n\nArquivos:\n- Story 1 de 
- 3: https://fontedemana.com.br/pauta/2026-11-22/netflix/carrossel-01.jpg\n-
-  Story 2 de 3: https://fontedemana.com.br/pauta/2026-11-22/netflix/carross
- el-02.jpg\n- Story 3 de 3: https://fontedemana.com.br/pauta/2026-11-22/net
- flix/carrossel-03.jpg\n\nPasso a passo:\n1. Baixe as três imagens.\n2. Po
- ste a 1 e a 2 nos Stories\, nessa ordem.\n3. Na 3\, adicione o sticker de 
- Enquete embaixo da pergunta: Vai assistir Planeswalker? com Já tô espera
- ndo e Vou ver se presta.\n4. Publique.\n\nPauta completa: https://fontedem
- ana.com.br/pauta/2026-11-22/#netflix-stories
-URL:https://fontedemana.com.br/pauta/2026-11-22/#netflix-stories
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Planeswalker\, a série de Magic na Netflix:
-  o que já se sabe
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-22-threads-manha@fontedemana.com.br
-DTSTAMP:20261126T010140Z
-DTSTART:20261122T133000Z
-DURATION:PT15M
-SUMMARY:10:30 Threads: Debate: Debate da semana #2: Universes Beyond no Com
- mander\, soma ou…
-DESCRIPTION:Post de debate do conteúdo original de hoje (Debate da semana)
-  para puxar conversa.\n\nPost:\nUniverses Beyond no Commander: soma ou atr
- apalha? Desde 2025\, coleção de outra marca vale em todos os formatos\, 
- e Final Fantasy virou a mais vendida da história. Quem gosta diz que traz
-  gente nova pra mesa\; quem não gosta diz que Magic perde a cara de Magic
- \, com coleção atrás de coleção. Só em 2026 vieram Tartarugas Ninja\
- , Marvel e Star Trek. Na sua mesa\, como é?\n\nPasso a passo:\n1. Abra o 
- Threads e cole o Post.\n2. Dica: Enquete com as opções: Soma\, Atrapalha
- \n3. Toque em Adicionar tópico e escolha MTG.\n4. Publique e responda que
- m comentar na primeira hora.\n\nPauta completa: https://fontedemana.com.br
- /pauta/2026-11-22/#threads-manha
-URL:https://fontedemana.com.br/pauta/2026-11-22/#threads-manha
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Debate: Debate da semana #2: Universes Beyond no Comma
- nder\, soma ou…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-22-tiktok@fontedemana.com.br
-DTSTAMP:20261126T010140Z
-DTSTART:20261122T143000Z
-DURATION:PT15M
-SUMMARY:11:30 TikTok: Debate da semana #2: Universes Beyond no Commander
-DESCRIPTION:Universes Beyond no Commander\, soma ou atrapalha: o que a Wiza
- rds fez e o melhor argumento de cada lado\, em 30 s.\n\nArquivos:\n- Víde
- o do TikTok narrado: https://fontedemana.com.br/pauta/2026-11-22/tiktok/ti
- ktok-narrado.mp4\n\nLegenda:\nMarvel\, Star Trek e Final Fantasy no Comman
- der: soma ou atrapalha? Debate da semana #2.\n\nO que a Wizards fez: desde
-  2025\, as coleções de outras marcas (Universes Beyond) valem em todos o
- s formatos\, e Final Fantasy virou a coleção mais vendida da história. 
- No Commander\, elas sempre valeram.\n\nQuem gosta: traz gente nova\, que c
- hega pelo personagem e fica no Commander. Quem não gosta: Magic perde a c
- ara de Magic\, e é coleção nova atrás de coleção nova.\n\nSoma ou at
- rapalha? Fontes: Wizards e Hasbro. Mais em fontedemana.com.br\n\n#commande
- r #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan 
- Content Policy. Not approved/endorsed by Wizards. Portions of the material
- s used are property of Wizards of the Coast. ©Wizards of the Coast LLC.\n
- \nComentário fixado:\nUniverses Beyond no Commander: soma ou atrapalha? D
- ebate da semana é o tema que divide a mesa\, sempre com os dois lados.\n\
- nPasso a passo:\n1. No TikTok\, toque em + e escolha o vídeo baixado daqu
- i.\n2. Adicione um som em alta da biblioteca do TikTok com volume entre 15
- % e 20%\, sem cobrir a voz.\n3. Voz própria não precisa de rótulo de IA
- .\n4. Cole a Legenda e publique.\n5. Fixe o comentário.\n\nPauta completa
- : https://fontedemana.com.br/pauta/2026-11-22/#tiktok
-URL:https://fontedemana.com.br/pauta/2026-11-22/#tiktok
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:TikTok: Debate da semana #2: Universes Beyond no Commander
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-22-feed@fontedemana.com.br
-DTSTAMP:20261126T010140Z
-DTSTART:20261122T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram feed: Debate da semana #2: Universes Beyond no Comm
- ander\, soma ou atrapalha?
-DESCRIPTION:Carrossel original de 5 imagens (Debate da semana): Debate da s
- emana #2: Universes Beyond no Commander\, soma ou atrapalha?. Feito para s
- alvar e compartilhar.\n\nArquivos:\n- Imagem 1 de 5: https://fontedemana.c
- om.br/pauta/2026-11-22/original/carrossel-01.jpg\n- Imagem 2 de 5: https:/
- /fontedemana.com.br/pauta/2026-11-22/original/carrossel-02.jpg\n- Imagem 3
-  de 5: https://fontedemana.com.br/pauta/2026-11-22/original/carrossel-03.j
- pg\n- Imagem 4 de 5: https://fontedemana.com.br/pauta/2026-11-22/original/
- carrossel-04.jpg\n- Imagem 5 de 5: https://fontedemana.com.br/pauta/2026-1
- 1-22/original/carrossel-05.jpg\n\nLegenda:\nMarvel\, Star Trek e Final Fan
- tasy no Commander: soma ou atrapalha? Debate da semana #2\, com os dois la
- dos no mesmo espaço.\n\nO que a Wizards fez: em 2021\, ao lançar o Unive
- rses Beyond\, disse que essas cartas não iriam para o Standard. Desde 202
- 5\, as coleções novas de outras marcas valem em todos os formatos. No Co
- mmander\, sempre valeram\, e só em 2026 vieram Tartarugas Ninja\, Marvel 
- e Star Trek.\n\nQuem gosta: traz gente nova\, que chega pelo personagem e 
- fica no Commander. Final Fantasy virou a coleção mais vendida da histór
- ia\, segundo a Hasbro.\n\nQuem não gosta: Magic perde a cara de Magic\, 
- é coleção atrás de coleção\, e a Wizards mudou o que tinha dito em 2
- 021.\n\nFontes: Wizards\, Hasbro\, AetherHub\, GosuGamers e Popverse. Mais
-  em fontedemana.com.br\n\nSoma ou atrapalha?\n\n#commander #mtg\n\nFonte d
- e Mana is unofficial Fan Content permitted under the Fan Content Policy. N
- ot approved/endorsed by Wizards. Portions of the materials used are proper
- ty of Wizards of the Coast. ©Wizards of the Coast LLC.\n\nPasso a passo:\
- n1. No Instagram\, toque em + e escolha Post.\n2. Selecione as 5 imagens n
- a ordem\, da 1 à 5.\n3. Toque em Adicionar música e escolha uma em alta 
- que combine com o tema.\n4. Cole a Legenda e publique.\n\nPauta completa: 
- https://fontedemana.com.br/pauta/2026-11-22/#feed
-URL:https://fontedemana.com.br/pauta/2026-11-22/#feed
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram feed: Debate da semana #2: Universes Beyond no Comman
- der\, soma ou atrapalha?
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-22-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261126T010140Z
-DTSTART:20261122T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
-DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
- .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
- e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
- o do post: Universes Beyond no Commander? com Soma e Atrapalha.\n3. Publiq
- ue.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-22/#storie
- s-meio-dia
-URL:https://fontedemana.com.br/pauta/2026-11-22/#stories-meio-dia
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-22-stories-tarde@fontedemana.com.br
-DTSTAMP:20261126T010140Z
-DTSTART:20261122T180000Z
-DURATION:PT15M
-SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
-DESCRIPTION:Story com a imagem de Goblin Bombardment no Topdeck do Dia e o 
- sticker de link para a edição completa.\n\nArquivos:\n- Topdeck do Dia: 
- https://fontedemana.com.br/kit/ed48/carrossel-03.jpg\n\nPasso a passo:\n1.
-  Baixe a imagem e poste no Story.\n2. Adicione o sticker de Link para font
- edemana.com.br com o texto Edição completa\, embaixo do texto do Topdeck
- .\n3. Publique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-1
- 1-22/#stories-tarde
-URL:https://fontedemana.com.br/pauta/2026-11-22/#stories-tarde
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Topdeck do Dia com link
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-22-netflix-threads@fontedemana.com.br
-DTSTAMP:20261126T010140Z
-DTSTART:20261122T213000Z
-DURATION:PT15M
-SUMMARY:18:30 Threads: Planeswalker no Threads: quem você quer ver na sér
- ie?
-DESCRIPTION:Post de texto sobre a série da Netflix\, com uma pergunta aber
- ta. Fica no fim da tarde\, longe do Debate das 10h30. Só Chandra e Ajani 
- estão confirmados\; Jace\, Liliana e Garruk\, que estrearam com a Chandra
-  em Lorwyn (2007)\, são palpite da Nerdist\, não anúncio.\n\nArquivos:\
- n- Imagem opcional: https://fontedemana.com.br/pauta/2026-11-22/netflix/ca
- rrossel-01.jpg\n\nPost:\nA série de Magic na Netflix tem nome: Planeswalk
- er. Estreia em 2027\, data ainda não anunciada. A protagonista é a Chand
- ra\, com o Ajani do lado. Por enquanto\, só os dois estão confirmados. A
-  Chandra estreou nas cartas em 2007\, junto com Jace\, Liliana\, Garruk e 
- Ajani. Qual planeswalker você quer ver aparecer na série?\n\nPasso a pas
- so:\n1. No Threads\, cole o Post. Se quiser\, anexe a imagem.\n2. Toque em
-  Adicionar tópico e escolha MTG.\n3. Publique e responda quem comentar na
-  primeira hora.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-1
- 1-22/#netflix-threads
-URL:https://fontedemana.com.br/pauta/2026-11-22/#netflix-threads
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Planeswalker no Threads: quem você quer ver na série
- ?
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-22-reels@fontedemana.com.br
-DTSTAMP:20261126T010140Z
-DTSTART:20261122T220000Z
-DURATION:PT15M
-SUMMARY:19:00 Reels: Vídeo original: Debate da semana #2: Universes Beyond
-  no Commander…
-DESCRIPTION:O vídeo original de hoje no Instagram\, o mesmo arquivo do Tik
- Tok\, já narrado. É o formato que mais chega a quem não segue.\n\nArqui
- vos:\n- Vídeo original narrado: https://fontedemana.com.br/pauta/2026-11-
- 22/tiktok/tiktok-narrado.mp4\n\nLegenda:\nMarvel\, Star Trek e Final Fanta
- sy no Commander: soma ou atrapalha? Debate da semana #2.\n\nO que a Wizard
- s fez: desde 2025\, as coleções de outras marcas (Universes Beyond) vale
- m em todos os formatos\, e Final Fantasy virou a coleção mais vendida da
-  história. No Commander\, elas sempre valeram.\n\nQuem gosta: traz gente 
- nova\, que chega pelo personagem e fica no Commander. Quem não gosta: Mag
- ic perde a cara de Magic\, e é coleção nova atrás de coleção nova.\n
- \nSoma ou atrapalha? Fontes: Wizards e Hasbro. Mais em fontedemana.com.br\
- n\n#commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted un
- der the Fan Content Policy. Not approved/endorsed by Wizards. Portions of 
- the materials used are property of Wizards of the Coast. ©Wizards of the 
- Coast LLC.\n\nComentário fixado:\nUniverses Beyond no Commander: soma ou 
- atrapalha? Debate da semana é o tema que divide a mesa\, sempre com os do
- is lados.\n\nPasso a passo:\n1. No Instagram\, toque em + e escolha Reel.\
- n2. Escolha o vídeo baixado daqui\, nunca o salvo do TikTok (o Instagram 
- derruba vídeo com marca d'água).\n3. Em Áudio\, ponha uma música em al
- ta da biblioteca do Instagram com volume baixo (uns 10%)\, sem cobrir a vo
- z.\n4. Na capa\, use o primeiro quadro\, o do gancho.\n5. Cole a Legenda e
-  publique.\n6. Fixe o comentário e responda quem comentar na primeira hor
- a.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-22/#reels
-URL:https://fontedemana.com.br/pauta/2026-11-22/#reels
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reels: Vídeo original: Debate da semana #2: Universes Beyond n
- o Commander…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-22-comentarios@fontedemana.com.br
-DTSTAMP:20261126T010140Z
-DTSTART:20261123T003000Z
-DURATION:PT15M
-SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
-DESCRIPTION:Uns 10 minutos nas três redes: curtir e responder os comentár
- ios das últimas 48 horas\, começando pelo vídeo e pelo carrossel de hoj
- e. Conversa nos comentários leva a peça a mais gente\, e o Instagram rec
- omenda responder em até 2 dias.\n\nPasso a passo:\n1. Instagram: nas noti
- ficações\, curta os comentários e responda com uma frase quem perguntou
-  ou discordou.\n2. TikTok e Threads: o mesmo\, começando pelo post com ma
- is comentários.\n3. Pergunta boa ou dúvida que se repete\, nos comentár
- ios ou nas DMs? Mande na conversa do projeto: vira tema de um pilar.\n\nPa
- uta completa: https://fontedemana.com.br/pauta/2026-11-22/#comentarios
-URL:https://fontedemana.com.br/pauta/2026-11-22/#comentarios
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Comentários: Responder os comentários de hoje e de ontem
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fdm-2026-11-23-gravacao@fontedemana.com.br
-DTSTAMP:20261126T010140Z
+DTSTAMP:20261126T102140Z
 DTSTART:20261122T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -375,7 +63,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-23-tiktok@fontedemana.com.br
-DTSTAMP:20261126T010140Z
+DTSTAMP:20261126T102140Z
 DTSTART:20261123T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o TikTok: Treta das Cores #2
@@ -408,7 +96,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-23-threads-manha@fontedemana.com.br
-DTSTAMP:20261126T010140Z
+DTSTAMP:20261126T102140Z
 DTSTART:20261123T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Chama o Juiz #8: Mindslaver te deu o turno d
@@ -433,7 +121,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-23-feed@fontedemana.com.br
-DTSTAMP:20261126T010140Z
+DTSTAMP:20261126T102140Z
 DTSTART:20261123T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Chama o Juiz #8: Mindslaver te deu o turno de
@@ -471,7 +159,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-23-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261126T010140Z
+DTSTAMP:20261126T102140Z
 DTSTART:20261123T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -490,7 +178,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-23-stories-tarde@fontedemana.com.br
-DTSTAMP:20261126T010140Z
+DTSTAMP:20261126T102140Z
 DTSTART:20261123T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -510,7 +198,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-23-reels@fontedemana.com.br
-DTSTAMP:20261126T010140Z
+DTSTAMP:20261126T102140Z
 DTSTART:20261123T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Treta das Cores #2: hexproof salva o 
@@ -548,7 +236,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-23-comentarios@fontedemana.com.br
-DTSTAMP:20261126T010140Z
+DTSTAMP:20261126T102140Z
 DTSTART:20261124T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -570,7 +258,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-24-gravacao@fontedemana.com.br
-DTSTAMP:20261126T010140Z
+DTSTAMP:20261126T102140Z
 DTSTART:20261123T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -617,7 +305,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-24-tiktok@fontedemana.com.br
-DTSTAMP:20261126T010140Z
+DTSTAMP:20261126T102140Z
 DTSTART:20261124T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o Dicionário #10: planeswalker
@@ -651,7 +339,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-24-threads-manha@fontedemana.com.br
-DTSTAMP:20261126T010140Z
+DTSTAMP:20261126T102140Z
 DTSTART:20261124T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Dicionário do Commander #10: o que é plane
@@ -675,7 +363,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-24-feed@fontedemana.com.br
-DTSTAMP:20261126T010140Z
+DTSTAMP:20261126T102140Z
 DTSTART:20261124T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Dicionário do Commander #10: o que é planes
@@ -717,7 +405,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-24-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261126T010140Z
+DTSTAMP:20261126T102140Z
 DTSTART:20261124T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -736,7 +424,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-24-stories-tarde@fontedemana.com.br
-DTSTAMP:20261126T010140Z
+DTSTAMP:20261126T102140Z
 DTSTART:20261124T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -756,7 +444,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-24-reels@fontedemana.com.br
-DTSTAMP:20261126T010140Z
+DTSTAMP:20261126T102140Z
 DTSTART:20261124T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Dicionário do Commander #10: o que 
@@ -797,7 +485,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-24-comentarios@fontedemana.com.br
-DTSTAMP:20261126T010140Z
+DTSTAMP:20261126T102140Z
 DTSTART:20261125T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -819,7 +507,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-25-gravacao@fontedemana.com.br
-DTSTAMP:20261126T010140Z
+DTSTAMP:20261126T102140Z
 DTSTART:20261125T011000Z
 DURATION:PT15M
 SUMMARY:22:10 Gravação: Gravar o vídeo de 25/11 (você aparece)
@@ -869,7 +557,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-25-tiktok@fontedemana.com.br
-DTSTAMP:20261126T010140Z
+DTSTAMP:20261126T102140Z
 DTSTART:20261125T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o TikTok das sleeves Azul Sombrio
@@ -900,7 +588,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-25-threads-manha@fontedemana.com.br
-DTSTAMP:20261126T010140Z
+DTSTAMP:20261126T102140Z
 DTSTART:20261125T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Dia 1 da sleeve fosca: Shield Matte Azul Som
@@ -925,7 +613,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-25-feed@fontedemana.com.br
-DTSTAMP:20261126T010140Z
+DTSTAMP:20261126T102140Z
 DTSTART:20261125T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Vitrine de acessórios: Dia 1 da sleeve fosca
@@ -965,7 +653,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-25-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261126T010140Z
+DTSTAMP:20261126T102140Z
 DTSTART:20261125T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -984,7 +672,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-25-stories-tarde@fontedemana.com.br
-DTSTAMP:20261126T010140Z
+DTSTAMP:20261126T102140Z
 DTSTART:20261125T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1004,7 +692,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-25-reels@fontedemana.com.br
-DTSTAMP:20261126T010140Z
+DTSTAMP:20261126T102140Z
 DTSTART:20261125T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Dia 1 da sleeve fosca: Shield Matte A
@@ -1041,7 +729,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-25-comentarios@fontedemana.com.br
-DTSTAMP:20261126T010140Z
+DTSTAMP:20261126T102140Z
 DTSTART:20261126T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1063,7 +751,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-26-gravacao@fontedemana.com.br
-DTSTAMP:20261126T010140Z
+DTSTAMP:20261126T102140Z
 DTSTART:20261126T001500Z
 DURATION:PT15M
 SUMMARY:21:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -1109,8 +797,8 @@ DESCRIPTION:Top 5 #9 da Black Friday: 5 comandantes fortes por menos de 10
  silencioso\, com o celular a um palmo da boca.\n11. Mande os vídeos ao Cl
  aude no projeto MGT strategy (pode ser respondendo à mensagem desta taref
  a) dizendo "vídeos do TikTok de 2026-11-26".\n\nValores em reais pela cot
- ação de 23 nov (Banco Central\, PTAX).\n\nPauta completa: https://fonted
- emana.com.br/pauta/2026-11-26/#gravacao
+ ação de 24 nov\, US$ 1 = R$ 5\,8573 (Banco Central\, PTAX).\n\nPauta com
+ pleta: https://fontedemana.com.br/pauta/2026-11-26/#gravacao
 URL:https://fontedemana.com.br/pauta/2026-11-26/#gravacao
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1120,33 +808,32 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-26-tiktok@fontedemana.com.br
-DTSTAMP:20261126T010140Z
+DTSTAMP:20261126T102140Z
 DTSTART:20261126T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o Top 5 #9: comandantes por menos de 10 reais
 DESCRIPTION:Vídeo do Top 5 da Black Friday\, com a legenda e o comentário
   fixado abaixo. A mesma legenda e o mesmo vídeo vão para o Reels das 19:
- 00.\n\nArquivos:\n- Vídeo narrado (tiktok-narrado.mp4): https://fontedema
- na.com.br/pauta/2026-11-26/tiktok/tiktok-narrado.mp4\n\nLegenda:\nCommande
- r barato na Black Friday: 5 comandantes fortes por menos de 10 reais\, tod
- os no top 100 do EDHREC. Qual deles você montaria?\n\n#5 Arabella\, Aband
- oned Doll: US$ 0\,70 (R$ 4\,18)\n#4 Queen Marchesa: US$ 1\,12 (R$ 6\,69)\n
- #3 Korvold\, Fae-Cursed King: US$ 0\,49 (R$ 2\,93)\n#2 Hakbal of the Surgi
- ng Soul: US$ 0\,43 (R$ 2\,57)\n#1 Lathril\, Blade of the Elves: US$ 1\,16 
- (R$ 6\,93)\n\nPosição no ranking de comandantes do EDHREC (últimos 2 an
- os) e preço da impressão mais barata de moldura comum no Scryfall\, nov 
- 2026. Reais pela cotação de 23 nov (Banco Central\, PTAX). Toda quinta t
- em Top 5 em fontedemana.com.br\n\n#blackfriday #commander #mtg\n\nFonte de
-  Mana is unofficial Fan Content permitted under the Fan Content Policy. No
- t approved/endorsed by Wizards. Portions of the materials used are propert
- y of Wizards of the Coast. ©Wizards of the Coast LLC.\n\nComentário fixa
- do:\nQual deles você montaria: Lathril\, Hakbal\, Korvold\, Queen Marches
- a ou Arabella? Toda quinta tem um Top 5 novo aqui.\n\nPasso a passo:\n1. P
- oste com um som em alta da biblioteca do TikTok\, com volume entre 15% e 2
- 0%.\n2. Voz própria não precisa de rótulo de IA.\n3. Fixe o comentário
-  logo depois de postar.\n\nValores em reais pela cotação de 23 nov (Banc
- o Central\, PTAX).\n\nPauta completa: https://fontedemana.com.br/pauta/202
- 6-11-26/#tiktok
+ 00.\n\nArquivos:\n- Vídeo do TikTok narrado: https://fontedemana.com.br/p
+ auta/2026-11-26/tiktok/tiktok-narrado.mp4\n\nLegenda:\nCommander barato na
+  Black Friday: 5 comandantes fortes por menos de 10 reais\, todos no top 1
+ 00 do EDHREC. Qual deles você montaria?\n\n#5 Arabella\, Abandoned Doll: 
+ US$ 0\,70 (R$ 4\,18)\nQueen Marchesa: US$ 1\,12 (R$ 6\,69)\nKorvold\, Fae-
+ Cursed King: US$ 0\,49 (R$ 2\,93)\nHakbal of the Surging Soul: US$ 0\,43 (
+ R$ 2\,57)\nLathril\, Blade of the Elves: US$ 1\,16 (R$ 6\,93)\n\nPosição
+  no ranking de comandantes do EDHREC (últimos 2 anos) e preço da impress
+ ão mais barata de moldura comum no Scryfall\, nov 2026. Reais pela cotaç
+ ão de 23 nov (Banco Central\, PTAX). Toda quinta tem Top 5 em fontedemana
+ .com.br\n\n#commander #mtg\n\nFonte de Mana is unofficial Fan Content perm
+ itted under the Fan Content Policy. Not approved/endorsed by Wizards. Port
+ ions of the materials used are property of Wizards of the Coast. ©Wizards
+  of the Coast LLC.\n\nComentário fixado:\nQual deles você montaria: Lath
+ ril\, Hakbal\, Korvold\, Queen Marchesa ou Arabella? Toda quinta tem um To
+ p 5 novo aqui.\n\nPasso a passo:\n1. Poste com um som em alta da bibliotec
+ a do TikTok\, com volume entre 15% e 20%.\n2. Voz própria não precisa de
+  rótulo de IA.\n3. Fixe o comentário logo depois de postar.\n\nValores e
+ m reais pela cotação de 24 nov\, US$ 1 = R$ 5\,8573 (Banco Central\, PTA
+ X).\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-26/#tiktok
 URL:https://fontedemana.com.br/pauta/2026-11-26/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1155,8 +842,183 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:fdm-2026-11-26-threads-manha@fontedemana.com.br
+DTSTAMP:20261126T102140Z
+DTSTART:20261126T133000Z
+DURATION:PT15M
+SUMMARY:10:30 Threads: Debate: Top 5 #9: comandantes fortes por menos de 10
+  reais
+DESCRIPTION:Post de debate do conteúdo original de hoje (Top 5) para puxar
+  conversa.\n\nPost:\nComandante bom não precisa custar caro. Lathril\, Ha
+ kbal\, Korvold\, Queen Marchesa e Arabella saem por menos de 10 reais cada
+  e estão no top 100 de comandantes do EDHREC.\n\nNa sua mesa\, qual coman
+ dante barato já ganhou partida de deck caro?\n\nPasso a passo:\n1. Abra o
+  Threads e cole o Post.\n2. Dica: Enquete: na sua mesa\, ganha mais o coma
+ ndante barato ou o caro?\n3. Toque em Adicionar tópico e escolha MTG.\n4.
+  Publique e responda quem comentar na primeira hora.\n\nPauta completa: ht
+ tps://fontedemana.com.br/pauta/2026-11-26/#threads-manha
+URL:https://fontedemana.com.br/pauta/2026-11-26/#threads-manha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Debate: Top 5 #9: comandantes fortes por menos de 10 r
+ eais
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-26-feed@fontedemana.com.br
+DTSTAMP:20261126T102140Z
+DTSTART:20261126T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram feed: Top 5 #9: comandantes fortes por menos de 10 
+ reais
+DESCRIPTION:Carrossel original de 7 imagens (Top 5): Top 5 #9: comandantes 
+ fortes por menos de 10 reais. Feito para salvar e compartilhar.\n\nArquivo
+ s:\n- Imagem 1 de 7: https://fontedemana.com.br/pauta/2026-11-26/original/
+ carrossel-01.jpg\n- Imagem 2 de 7: https://fontedemana.com.br/pauta/2026-1
+ 1-26/original/carrossel-02.jpg\n- Imagem 3 de 7: https://fontedemana.com.b
+ r/pauta/2026-11-26/original/carrossel-03.jpg\n- Imagem 4 de 7: https://fon
+ tedemana.com.br/pauta/2026-11-26/original/carrossel-04.jpg\n- Imagem 5 de 
+ 7: https://fontedemana.com.br/pauta/2026-11-26/original/carrossel-05.jpg\n
+ - Imagem 6 de 7: https://fontedemana.com.br/pauta/2026-11-26/original/carr
+ ossel-06.jpg\n- Imagem 7 de 7: https://fontedemana.com.br/pauta/2026-11-26
+ /original/carrossel-07.jpg\n\nLegenda:\nCommander barato: 5 comandantes fo
+ rtes por menos de 10 reais\, todos no top 100 do EDHREC. Qual deles você 
+ montaria?\n\n#5 Arabella\, Abandoned Doll: US$ 0\,70 (R$ 4\,18). Ataca e c
+ ausa dano a cada oponente por criatura sua de poder 2 ou menos. Monte com 
+ fichas 1/1.\nQueen Marchesa: US$ 1\,12 (R$ 6\,69). Entra e você vira o mo
+ narca\, com carta extra no fim do seu turno. Monte com remoção e toque m
+ ortífero.\nKorvold\, Fae-Cursed King: US$ 0\,49 (R$ 2\,93). Cada sacrifí
+ cio vira carta e marcador. Monte com Tesouros e fichas.\nHakbal of the Sur
+ ging Soul: US$ 0\,43 (R$ 2\,57). Seus merfolks exploram todo combate. Mont
+ e com merfolks.\nLathril\, Blade of the Elves: US$ 1\,16 (R$ 6\,93). Dano 
+ de combate vira elfo\, e 10 elfos fazem cada oponente perder 10. Monte com
+  elfos.\n\nOs cinco juntos: US$ 3\,90 (R$ 23\,29).\n\nFontes: ranking de c
+ omandantes do EDHREC (últimos 2 anos) e Scryfall (impressão mais barata 
+ de moldura comum)\, nov 2026. Valores em reais pela cotação de 23 nov (B
+ anco Central\, PTAX). Mais em fontedemana.com.br\n\n#commander #mtg\n\nFon
+ te de Mana is unofficial Fan Content permitted under the Fan Content Polic
+ y. Not approved/endorsed by Wizards. Portions of the materials used are pr
+ operty of Wizards of the Coast. ©Wizards of the Coast LLC.\n\nPasso a pas
+ so:\n1. No Instagram\, toque em + e escolha Post.\n2. Selecione as 7 image
+ ns na ordem\, da 1 à 7.\n3. Toque em Adicionar música e escolha uma em a
+ lta que combine com o tema.\n4. Cole a Legenda e publique.\n\nValores em r
+ eais pela cotação de 24 nov\, US$ 1 = R$ 5\,8573 (Banco Central\, PTAX).
+ \n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-26/#feed
+URL:https://fontedemana.com.br/pauta/2026-11-26/#feed
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram feed: Top 5 #9: comandantes fortes por menos de 10 re
+ ais
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-26-stories-meio-dia@fontedemana.com.br
+DTSTAMP:20261126T102140Z
+DTSTART:20261126T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
+DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
+ .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
+ e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
+ o do post: Qual desses você montaria? com Lathril\, Hakbal\, Korvold e Qu
+ een Marchesa.\n3. Publique.\n\nPauta completa: https://fontedemana.com.br/
+ pauta/2026-11-26/#stories-meio-dia
+URL:https://fontedemana.com.br/pauta/2026-11-26/#stories-meio-dia
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-26-stories-tarde@fontedemana.com.br
+DTSTAMP:20261126T102140Z
+DTSTART:20261126T180000Z
+DURATION:PT15M
+SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
+DESCRIPTION:Story com a imagem de Night's Whisper no Topdeck do Dia e o sti
+ cker de link para a edição completa.\n\nArquivos:\n- Topdeck do Dia: htt
+ ps://fontedemana.com.br/kit/ed52/carrossel-03.jpg\n\nPasso a passo:\n1. Ba
+ ixe a imagem e poste no Story.\n2. Adicione o sticker de Link para fontede
+ mana.com.br com o texto Edição completa\, embaixo do texto do Topdeck.\n
+ 3. Publique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-2
+ 6/#stories-tarde
+URL:https://fontedemana.com.br/pauta/2026-11-26/#stories-tarde
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Topdeck do Dia com link
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-26-reels@fontedemana.com.br
+DTSTAMP:20261126T102140Z
+DTSTART:20261126T220000Z
+DURATION:PT15M
+SUMMARY:19:00 Reels: Vídeo original: Top 5 #9: comandantes fortes por meno
+ s de 10 reais
+DESCRIPTION:O vídeo original de hoje no Instagram\, o mesmo arquivo do Tik
+ Tok\, já narrado. É o formato que mais chega a quem não segue.\n\nArqui
+ vos:\n- Vídeo original narrado: https://fontedemana.com.br/pauta/2026-11-
+ 26/tiktok/tiktok-narrado.mp4\n\nLegenda:\nCommander barato na Black Friday
+ : 5 comandantes fortes por menos de 10 reais\, todos no top 100 do EDHREC.
+  Qual deles você montaria?\n\n#5 Arabella\, Abandoned Doll: US$ 0\,70 (R$
+  4\,18)\nQueen Marchesa: US$ 1\,12 (R$ 6\,69)\nKorvold\, Fae-Cursed King: 
+ US$ 0\,49 (R$ 2\,93)\nHakbal of the Surging Soul: US$ 0\,43 (R$ 2\,57)\nLa
+ thril\, Blade of the Elves: US$ 1\,16 (R$ 6\,93)\n\nPosição no ranking d
+ e comandantes do EDHREC (últimos 2 anos) e preço da impressão mais bara
+ ta de moldura comum no Scryfall\, nov 2026. Reais pela cotação de 23 nov
+  (Banco Central\, PTAX). Toda quinta tem Top 5 em fontedemana.com.br\n\n#c
+ ommander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under t
+ he Fan Content Policy. Not approved/endorsed by Wizards. Portions of the m
+ aterials used are property of Wizards of the Coast. ©Wizards of the Coast
+  LLC.\n\nComentário fixado:\nQual deles você montaria: Lathril\, Hakbal\
+ , Korvold\, Queen Marchesa ou Arabella? Toda quinta tem um Top 5 novo aqui
+ .\n\nPasso a passo:\n1. No Instagram\, toque em + e escolha Reel.\n2. Esco
+ lha o vídeo baixado daqui\, nunca o salvo do TikTok (o Instagram derruba 
+ vídeo com marca d'água).\n3. Em Áudio\, abra a aba Royalty free (Sound 
+ Collection) e ponha uma música com volume baixo (uns 10%)\, sem cobrir a 
+ voz. Não use música em alta: Reel com música licenciada não pode ser i
+ mpulsionado.\n4. Na capa\, use o primeiro quadro\, o do gancho.\n5. Cole a
+  Legenda e publique.\n6. Fixe o comentário e responda quem comentar na pr
+ imeira hora.\n\nValores em reais pela cotação de 24 nov\, US$ 1 = R$ 5\,
+ 8573 (Banco Central\, PTAX).\n\nPauta completa: https://fontedemana.com.br
+ /pauta/2026-11-26/#reels
+URL:https://fontedemana.com.br/pauta/2026-11-26/#reels
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reels: Vídeo original: Top 5 #9: comandantes fortes por menos 
+ de 10 reais
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-26-comentarios@fontedemana.com.br
+DTSTAMP:20261126T102140Z
+DTSTART:20261127T003000Z
+DURATION:PT15M
+SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
+DESCRIPTION:Uns 10 minutos nas três redes: curtir e responder os comentár
+ ios das últimas 48 horas\, começando pelo vídeo e pelo carrossel de hoj
+ e. Conversa nos comentários leva a peça a mais gente\, e o Instagram rec
+ omenda responder em até 2 dias.\n\nPasso a passo:\n1. Instagram: nas noti
+ ficações\, curta os comentários e responda com uma frase quem perguntou
+  ou discordou.\n2. TikTok e Threads: o mesmo\, começando pelo post com ma
+ is comentários.\n3. Pergunta boa ou dúvida que se repete\, nos comentár
+ ios ou nas DMs? Mande na conversa do projeto: vira tema de um pilar.\n\nPa
+ uta completa: https://fontedemana.com.br/pauta/2026-11-26/#comentarios
+URL:https://fontedemana.com.br/pauta/2026-11-26/#comentarios
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Comentários: Responder os comentários de hoje e de ontem
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:fdm-2026-11-28-gravacao@fontedemana.com.br
-DTSTAMP:20261126T010140Z
+DTSTAMP:20261126T102140Z
 DTSTART:20261125T013000Z
 DURATION:PT15M
 SUMMARY:22:30 Gravação: Gravar o vídeo de 28/11 (você aparece)
@@ -1202,7 +1064,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-28-tiktok@fontedemana.com.br
-DTSTAMP:20261126T010140Z
+DTSTAMP:20261126T102140Z
 DTSTART:20261128T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o TikTok do deckbox da Viper
