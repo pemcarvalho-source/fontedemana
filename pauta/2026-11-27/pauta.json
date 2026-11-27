@@ -57,6 +57,56 @@
       ]
     },
     {
+      "id": "reels-26-atrasado",
+      "hora": "09:15",
+      "rede": "Reels",
+      "titulo": "Reels de ontem (não saiu às 19h): Top 5 #9, comandantes por menos de 10 reais",
+      "oQue": "O Reels de 26/11 não foi postado. Sai hoje cedo porque o tema é a Black Friday, que é hoje, e fica longe do carrossel das 12h e do Reels das 19h. Mesmo vídeo e mesma legenda de ontem; no TikTok ele já saiu, não poste de novo.",
+      "arquivos": [
+        {
+          "nome": "Vídeo original narrado",
+          "url": "https://fontedemana.com.br/pauta/2026-11-26/tiktok/tiktok-narrado.mp4"
+        }
+      ],
+      "textos": [
+        {
+          "rotulo": "Legenda",
+          "texto": "Commander barato na Black Friday: 5 comandantes fortes por menos de 10 reais, todos no top 100 do EDHREC. Qual deles você montaria?\n\n#5 Arabella, Abandoned Doll: US$ 0,70 (R$ 4,18)\nQueen Marchesa: US$ 1,12 (R$ 6,69)\nKorvold, Fae-Cursed King: US$ 0,49 (R$ 2,93)\nHakbal of the Surging Soul: US$ 0,43 (R$ 2,57)\nLathril, Blade of the Elves: US$ 1,16 (R$ 6,93)\n\nPosição no ranking de comandantes do EDHREC (últimos 2 anos) e preço da impressão mais barata de moldura comum no Scryfall, nov 2026. Reais pela cotação de 23 nov (Banco Central, PTAX). Toda quinta tem Top 5 em fontedemana.com.br\n\n#commander #mtg\n\nFonte de Mana is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC."
+        },
+        {
+          "rotulo": "Comentário fixado",
+          "texto": "Qual deles você montaria: Lathril, Hakbal, Korvold, Queen Marchesa ou Arabella? Toda quinta tem um Top 5 novo aqui."
+        }
+      ],
+      "passos": [
+        "No Instagram, toque em + e escolha Reel.",
+        "Escolha o vídeo baixado daqui, nunca o salvo do TikTok (o Instagram derruba vídeo com marca d'água).",
+        "Em Áudio, abra a aba Royalty free (Sound Collection) e ponha uma música com volume baixo (uns 10%), sem cobrir a voz. Não use música em alta: Reel com música licenciada não pode ser impulsionado.",
+        "Na capa, use o primeiro quadro, o do gancho.",
+        "Cole a Legenda e publique.",
+        "Fixe o comentário e responda quem comentar na primeira hora."
+      ]
+    },
+    {
+      "id": "threads-manha",
+      "hora": "10:30",
+      "rede": "Threads",
+      "titulo": "Debate: Bolsa de Mana da Black Friday: a mesma carta de 37 centavos…",
+      "oQue": "Post de debate do conteúdo original de hoje (Bolsa de Mana) para puxar conversa.",
+      "textos": [
+        {
+          "rotulo": "Post",
+          "texto": "Black Friday no Commander. O Arcane Signet da edição de Final Fantasy sai por US$ 0,37 (R$ 2,17). O do Secret Lair, US$ 66,12 (R$ 387,28). Na mesa, os dois fazem exatamente a mesma coisa.\n\nQuando você completa o deck, paga pela edição bonita ou pega a mais barata e guarda o dinheiro para a próxima carta?"
+        }
+      ],
+      "passos": [
+        "Abra o Threads e cole o Post.",
+        "Dica: Enquete com duas opções: a mais barata, a mais bonita",
+        "Toque em Adicionar tópico e escolha MTG.",
+        "Publique e responda quem comentar na primeira hora."
+      ]
+    },
+    {
       "id": "tiktok",
       "hora": "11:30",
       "rede": "TikTok",
@@ -82,25 +132,6 @@
         "Poste o vídeo com um som em alta da biblioteca do TikTok, com volume entre 15% e 20%.",
         "Voz própria não precisa de rótulo de IA.",
         "Cole a legenda e fixe o comentário."
-      ]
-    },
-    {
-      "id": "threads-manha",
-      "hora": "10:30",
-      "rede": "Threads",
-      "titulo": "Debate: Bolsa de Mana da Black Friday: a mesma carta de 37 centavos…",
-      "oQue": "Post de debate do conteúdo original de hoje (Bolsa de Mana) para puxar conversa.",
-      "textos": [
-        {
-          "rotulo": "Post",
-          "texto": "Black Friday no Commander. O Arcane Signet da edição de Final Fantasy sai por US$ 0,37 (R$ 2,17). O do Secret Lair, US$ 66,12 (R$ 387,28). Na mesa, os dois fazem exatamente a mesma coisa.\n\nQuando você completa o deck, paga pela edição bonita ou pega a mais barata e guarda o dinheiro para a próxima carta?"
-        }
-      ],
-      "passos": [
-        "Abra o Threads e cole o Post.",
-        "Dica: Enquete com duas opções: a mais barata, a mais bonita",
-        "Toque em Adicionar tópico e escolha MTG.",
-        "Publique e responda quem comentar na primeira hora."
       ]
     },
     {
