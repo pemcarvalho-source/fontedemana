@@ -70,7 +70,8 @@
    "titulo": "Quem é esse na sua mesa?",
    "narracao": "Quem é esse na sua mesa?",
    "gravar": "Termina com a pergunta olhando para a lente.",
-   "segundos": 2.8
+   "segundos": 2.8,
+   "caixa": "topo"
   }
  ],
  "rostoGravado": true
