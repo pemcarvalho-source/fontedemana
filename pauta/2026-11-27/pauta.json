@@ -62,8 +62,8 @@
       "oQue": "Vídeo da Bolsa de Mana da Black Friday: Arcane Signet, Path to Exile e Solemn Simulacrum, a edição barata e a do Secret Lair, e o que conferir antes de pagar.",
       "arquivos": [
         {
-          "nome": "Vídeo do TikTok",
-          "url": "https://fontedemana.com.br/pauta/2026-11-27/tiktok/tiktok-mudo.mp4"
+          "nome": "Vídeo narrado do TikTok",
+          "url": "https://fontedemana.com.br/pauta/2026-11-27/tiktok/tiktok-narrado.mp4"
         }
       ],
       "textos": [
@@ -79,8 +79,7 @@
       "passos": [
         "Poste o vídeo com um som em alta da biblioteca do TikTok, com volume entre 15% e 20%.",
         "Voz própria não precisa de rótulo de IA.",
-        "Cole a legenda e fixe o comentário.",
-        "Se os áudios não chegarem, poste o vídeo mudo com música em alta."
+        "Cole a legenda e fixe o comentário."
       ]
     }
   ]
