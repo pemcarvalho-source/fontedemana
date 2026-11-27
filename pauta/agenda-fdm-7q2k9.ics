@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
 UID:fdm-2026-11-24-gravacao@fontedemana.com.br
-DTSTAMP:20261127T102129Z
+DTSTAMP:20261127T114727Z
 DTSTART:20261123T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -56,7 +56,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-24-tiktok@fontedemana.com.br
-DTSTAMP:20261127T102129Z
+DTSTAMP:20261127T114727Z
 DTSTART:20261124T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o Dicionário #10: planeswalker
@@ -90,7 +90,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-24-threads-manha@fontedemana.com.br
-DTSTAMP:20261127T102129Z
+DTSTAMP:20261127T114727Z
 DTSTART:20261124T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Dicionário do Commander #10: o que é plane
@@ -114,7 +114,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-24-feed@fontedemana.com.br
-DTSTAMP:20261127T102129Z
+DTSTAMP:20261127T114727Z
 DTSTART:20261124T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Dicionário do Commander #10: o que é planes
@@ -156,7 +156,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-24-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261127T102129Z
+DTSTAMP:20261127T114727Z
 DTSTART:20261124T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -175,7 +175,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-24-stories-tarde@fontedemana.com.br
-DTSTAMP:20261127T102129Z
+DTSTAMP:20261127T114727Z
 DTSTART:20261124T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -195,7 +195,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-24-reels@fontedemana.com.br
-DTSTAMP:20261127T102129Z
+DTSTAMP:20261127T114727Z
 DTSTART:20261124T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Dicionário do Commander #10: o que 
@@ -236,7 +236,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-24-comentarios@fontedemana.com.br
-DTSTAMP:20261127T102129Z
+DTSTAMP:20261127T114727Z
 DTSTART:20261125T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -258,7 +258,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-25-gravacao@fontedemana.com.br
-DTSTAMP:20261127T102129Z
+DTSTAMP:20261127T114727Z
 DTSTART:20261125T011000Z
 DURATION:PT15M
 SUMMARY:22:10 Gravação: Gravar o vídeo de 25/11 (você aparece)
@@ -308,7 +308,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-25-tiktok@fontedemana.com.br
-DTSTAMP:20261127T102129Z
+DTSTAMP:20261127T114727Z
 DTSTART:20261125T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o TikTok das sleeves Azul Sombrio
@@ -339,7 +339,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-25-threads-manha@fontedemana.com.br
-DTSTAMP:20261127T102129Z
+DTSTAMP:20261127T114727Z
 DTSTART:20261125T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Dia 1 da sleeve fosca: Shield Matte Azul Som
@@ -364,7 +364,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-25-feed@fontedemana.com.br
-DTSTAMP:20261127T102129Z
+DTSTAMP:20261127T114727Z
 DTSTART:20261125T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Vitrine de acessórios: Dia 1 da sleeve fosca
@@ -404,7 +404,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-25-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261127T102129Z
+DTSTAMP:20261127T114727Z
 DTSTART:20261125T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -423,7 +423,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-25-stories-tarde@fontedemana.com.br
-DTSTAMP:20261127T102129Z
+DTSTAMP:20261127T114727Z
 DTSTART:20261125T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -443,7 +443,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-25-reels@fontedemana.com.br
-DTSTAMP:20261127T102129Z
+DTSTAMP:20261127T114727Z
 DTSTART:20261125T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Dia 1 da sleeve fosca: Shield Matte A
@@ -480,7 +480,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-25-comentarios@fontedemana.com.br
-DTSTAMP:20261127T102129Z
+DTSTAMP:20261127T114727Z
 DTSTART:20261126T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -502,7 +502,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-26-gravacao@fontedemana.com.br
-DTSTAMP:20261127T102129Z
+DTSTAMP:20261127T114727Z
 DTSTART:20261126T001500Z
 DURATION:PT15M
 SUMMARY:21:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -559,7 +559,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-26-tiktok@fontedemana.com.br
-DTSTAMP:20261127T102129Z
+DTSTAMP:20261127T114727Z
 DTSTART:20261126T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o Top 5 #9: comandantes por menos de 10 reais
@@ -594,7 +594,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-26-threads-manha@fontedemana.com.br
-DTSTAMP:20261127T102129Z
+DTSTAMP:20261127T114727Z
 DTSTART:20261126T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Top 5 #9: comandantes fortes por menos de 10
@@ -618,7 +618,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-26-feed@fontedemana.com.br
-DTSTAMP:20261127T102129Z
+DTSTAMP:20261127T114727Z
 DTSTART:20261126T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Top 5 #9: comandantes fortes por menos de 10 
@@ -666,7 +666,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-26-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261127T102129Z
+DTSTAMP:20261127T114727Z
 DTSTART:20261126T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -685,7 +685,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-26-stories-tarde@fontedemana.com.br
-DTSTAMP:20261127T102129Z
+DTSTAMP:20261127T114727Z
 DTSTART:20261126T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -705,7 +705,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-26-reels@fontedemana.com.br
-DTSTAMP:20261127T102129Z
+DTSTAMP:20261127T114727Z
 DTSTART:20261126T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Top 5 #9: comandantes fortes por meno
@@ -747,7 +747,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-26-comentarios@fontedemana.com.br
-DTSTAMP:20261127T102129Z
+DTSTAMP:20261127T114727Z
 DTSTART:20261127T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -769,7 +769,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-27-gravacao@fontedemana.com.br
-DTSTAMP:20261127T102129Z
+DTSTAMP:20261127T114727Z
 DTSTART:20261126T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -811,8 +811,77 @@ TRIGGER:PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:fdm-2026-11-27-reels-26-atrasado@fontedemana.com.br
+DTSTAMP:20261127T114727Z
+DTSTART:20261127T121500Z
+DURATION:PT15M
+SUMMARY:09:15 Reels: Reels de ontem: Top 5 #9\, comandantes por menos de 10
+  reais
+DESCRIPTION:O Reels de 26/11 não foi postado. Sai hoje cedo porque o tema 
+ é a Black Friday\, que é hoje\, e fica longe do carrossel das 12h e do R
+ eels das 19h. Mesmo vídeo e mesma legenda de ontem\; no TikTok ele já sa
+ iu\, não poste de novo.\n\nArquivos:\n- Vídeo original narrado: https://
+ fontedemana.com.br/pauta/2026-11-26/tiktok/tiktok-narrado.mp4\n\nLegenda:\
+ nCommander barato na Black Friday: 5 comandantes fortes por menos de 10 re
+ ais\, todos no top 100 do EDHREC. Qual deles você montaria?\n\n#5 Arabell
+ a\, Abandoned Doll: US$ 0\,70 (R$ 4\,18)\nQueen Marchesa: US$ 1\,12 (R$ 6\
+ ,69)\nKorvold\, Fae-Cursed King: US$ 0\,49 (R$ 2\,93)\nHakbal of the Surgi
+ ng Soul: US$ 0\,43 (R$ 2\,57)\nLathril\, Blade of the Elves: US$ 1\,16 (R$
+  6\,93)\n\nPosição no ranking de comandantes do EDHREC (últimos 2 anos)
+  e preço da impressão mais barata de moldura comum no Scryfall\, nov 202
+ 6. Reais pela cotação de 23 nov (Banco Central\, PTAX). Toda quinta tem 
+ Top 5 em fontedemana.com.br\n\n#commander #mtg\n\nFonte de Mana is unoffic
+ ial Fan Content permitted under the Fan Content Policy. Not approved/endor
+ sed by Wizards. Portions of the materials used are property of Wizards of 
+ the Coast. ©Wizards of the Coast LLC.\n\nComentário fixado:\nQual deles 
+ você montaria: Lathril\, Hakbal\, Korvold\, Queen Marchesa ou Arabella? T
+ oda quinta tem um Top 5 novo aqui.\n\nPasso a passo:\n1. No Instagram\, to
+ que em + e escolha Reel.\n2. Escolha o vídeo baixado daqui\, nunca o salv
+ o do TikTok (o Instagram derruba vídeo com marca d'água).\n3. Em Áudio\
+ , abra a aba Royalty free (Sound Collection) e ponha uma música com volum
+ e baixo (uns 10%)\, sem cobrir a voz. Não use música em alta: Reel com m
+ úsica licenciada não pode ser impulsionado.\n4. Na capa\, use o primeiro
+  quadro\, o do gancho.\n5. Cole a Legenda e publique.\n6. Fixe o comentár
+ io e responda quem comentar na primeira hora.\n\nValores em reais pela cot
+ ação de 25 nov\, US$ 1 = R$ 5\,8825 (Banco Central\, PTAX).\n\nPauta com
+ pleta: https://fontedemana.com.br/pauta/2026-11-27/#reels-26-atrasado
+URL:https://fontedemana.com.br/pauta/2026-11-27/#reels-26-atrasado
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reels: Reels de ontem: Top 5 #9\, comandantes por menos de 10 r
+ eais
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-27-threads-manha@fontedemana.com.br
+DTSTAMP:20261127T114727Z
+DTSTART:20261127T133000Z
+DURATION:PT15M
+SUMMARY:10:30 Threads: Debate: Bolsa de Mana da Black Friday: a mesma carta
+  de 37 centavos…
+DESCRIPTION:Post de debate do conteúdo original de hoje (Bolsa de Mana) pa
+ ra puxar conversa.\n\nPost:\nBlack Friday no Commander. O Arcane Signet da
+  edição de Final Fantasy sai por US$ 0\,37 (R$ 2\,17). O do Secret Lair\
+ , US$ 66\,12 (R$ 387\,28). Na mesa\, os dois fazem exatamente a mesma cois
+ a.\n\nQuando você completa o deck\, paga pela edição bonita ou pega a m
+ ais barata e guarda o dinheiro para a próxima carta?\n\nPasso a passo:\n1
+ . Abra o Threads e cole o Post.\n2. Dica: Enquete com duas opções: a mai
+ s barata\, a mais bonita\n3. Toque em Adicionar tópico e escolha MTG.\n4.
+  Publique e responda quem comentar na primeira hora.\n\nValores em reais p
+ ela cotação de 25 nov\, US$ 1 = R$ 5\,8825 (Banco Central\, PTAX).\n\nPa
+ uta completa: https://fontedemana.com.br/pauta/2026-11-27/#threads-manha
+URL:https://fontedemana.com.br/pauta/2026-11-27/#threads-manha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Debate: Bolsa de Mana da Black Friday: a mesma carta d
+ e 37 centavos…
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:fdm-2026-11-27-tiktok@fontedemana.com.br
-DTSTAMP:20261127T102129Z
+DTSTAMP:20261127T114727Z
 DTSTART:20261127T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: a mesma carta\, 178 vezes mais cara
@@ -848,34 +917,8 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fdm-2026-11-27-threads-manha@fontedemana.com.br
-DTSTAMP:20261127T102129Z
-DTSTART:20261127T133000Z
-DURATION:PT15M
-SUMMARY:10:30 Threads: Debate: Bolsa de Mana da Black Friday: a mesma carta
-  de 37 centavos…
-DESCRIPTION:Post de debate do conteúdo original de hoje (Bolsa de Mana) pa
- ra puxar conversa.\n\nPost:\nBlack Friday no Commander. O Arcane Signet da
-  edição de Final Fantasy sai por US$ 0\,37 (R$ 2\,17). O do Secret Lair\
- , US$ 66\,12 (R$ 387\,28). Na mesa\, os dois fazem exatamente a mesma cois
- a.\n\nQuando você completa o deck\, paga pela edição bonita ou pega a m
- ais barata e guarda o dinheiro para a próxima carta?\n\nPasso a passo:\n1
- . Abra o Threads e cole o Post.\n2. Dica: Enquete com duas opções: a mai
- s barata\, a mais bonita\n3. Toque em Adicionar tópico e escolha MTG.\n4.
-  Publique e responda quem comentar na primeira hora.\n\nValores em reais p
- ela cotação de 25 nov\, US$ 1 = R$ 5\,8825 (Banco Central\, PTAX).\n\nPa
- uta completa: https://fontedemana.com.br/pauta/2026-11-27/#threads-manha
-URL:https://fontedemana.com.br/pauta/2026-11-27/#threads-manha
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Debate: Bolsa de Mana da Black Friday: a mesma carta d
- e 37 centavos…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fdm-2026-11-27-feed@fontedemana.com.br
-DTSTAMP:20261127T102129Z
+DTSTAMP:20261127T114727Z
 DTSTART:20261127T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Bolsa de Mana da Black Friday: a mesma carta 
@@ -923,7 +966,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-27-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261127T102129Z
+DTSTAMP:20261127T114727Z
 DTSTART:20261127T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -942,7 +985,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-27-stories-tarde@fontedemana.com.br
-DTSTAMP:20261127T102129Z
+DTSTAMP:20261127T114727Z
 DTSTART:20261127T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -962,7 +1005,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-27-reels@fontedemana.com.br
-DTSTAMP:20261127T102129Z
+DTSTAMP:20261127T114727Z
 DTSTART:20261127T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Bolsa de Mana da Black Friday: a mesm
@@ -1008,7 +1051,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-27-comentarios@fontedemana.com.br
-DTSTAMP:20261127T102129Z
+DTSTAMP:20261127T114727Z
 DTSTART:20261128T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1030,7 +1073,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-28-gravacao@fontedemana.com.br
-DTSTAMP:20261127T102129Z
+DTSTAMP:20261127T114727Z
 DTSTART:20261125T013000Z
 DURATION:PT15M
 SUMMARY:22:30 Gravação: Gravar o vídeo de 28/11 (você aparece)
@@ -1076,7 +1119,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-28-tiktok@fontedemana.com.br
-DTSTAMP:20261127T102129Z
+DTSTAMP:20261127T114727Z
 DTSTART:20261128T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o TikTok do deckbox da Viper
@@ -1106,7 +1149,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-29-gravacao@fontedemana.com.br
-DTSTAMP:20261127T102129Z
+DTSTAMP:20261127T114727Z
 DTSTART:20261126T224500Z
 DURATION:PT15M
 SUMMARY:19:45 Gravação: Gravar o vídeo de domingo (você aparece)
@@ -1153,7 +1196,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-29-tiktok@fontedemana.com.br
-DTSTAMP:20261127T102129Z
+DTSTAMP:20261127T114727Z
 DTSTART:20261129T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: TikTok: o que esquece os próprios gatilhos
