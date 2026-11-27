@@ -1,0 +1,97 @@
+{
+ "n": 53,
+ "data": "27 nov",
+ "carrossel": {
+  "capa": {
+   "cor": "W",
+   "titulo": "Black Friday calma, Mind Stone na mesa",
+   "sub": "Nada novo no Commander hoje. Na segunda tem <b>janela de banimentos</b> e Duna, e no Topdeck tem pedra de mana por trocado.",
+   "credito": "Arte: Peace Talks, Roger Raupp"
+  },
+  "cartoes": [
+   {
+    "cor": "W",
+    "titulo": "O que vem nos próximos dias",
+    "itens": [
+     {"cor": "A", "html": "<b>até 30 nov</b>: venda do Secret Lair do Extra Life."},
+     {"cor": "A", "html": "<b>30 nov</b>: venda do Secret Lair de Duna, às 14h de Brasília."},
+     {"cor": "B", "html": "<b>30 nov</b>: próxima janela de banimentos do Commander."},
+     {"cor": "A", "html": "<b>9 dez</b>: nova janela de 24 horas para comprar o Zeta Set."}
+    ],
+    "fonte": "Fontes: Wizards e WPN"
+   }
+  ],
+  "topdeck": {
+   "titulo": "Mind Stone",
+   "habilidades": [
+    {"rotulo": "Mana extra", "texto": "Jogou no turno 2, no turno 3 você já tem 4 mana para o comandante."},
+    {"rotulo": "Vira carta", "texto": "No fim do jogo, paga 1, vira e sacrifica para comprar um card."},
+    {"rotulo": "Incolor", "texto": "Não pede cor nenhuma e entra em qualquer deck, do mono ao cinco cores."}
+   ],
+   "extra": "Está em <b>1,44 milhão de decks</b> no EDHREC. US$ 0,33 (R$ 1,94) no Scryfall. Reais: cotação PTAX de 25 nov",
+   "credito": "Ilustração de Adam Rex"
+  },
+  "ban": {
+   "numero": "3",
+   "unidade": "DIAS",
+   "texto": "Para a próxima janela de banimentos, em 30 de novembro, o mesmo dia da venda do Secret Lair de Duna."
+  },
+  "turnos": [
+   {"cor": "A", "data": "30 nov", "texto": "Venda do Secret Lair de Duna"},
+   {"cor": "B", "data": "30 nov", "texto": "Janela de banimentos"},
+   {"cor": "A", "data": "9 dez", "texto": "Nova janela do Zeta Set"},
+   {"cor": "W", "data": "11 dez", "texto": "2ª rodada da Festa de Star Trek"},
+   {"cor": "A", "data": "17 dez", "texto": "Promo do Doctor Doom no cinema"}
+  ],
+  "sussurro": null
+ },
+ "video": {
+  "cena1": {
+   "titulo": "Black Friday calma, Mind Stone na mesa",
+   "pilulas": ["Sem fato novo", "Pedra de mana barata", "Ban em 3 dias"]
+  },
+  "cena2": {
+   "rotulo": "Agenda",
+   "cor": "W",
+   "titulo": "O que vem nos próximos dias",
+   "itens": [
+    "Até 30 nov: venda do Secret Lair do Extra Life.",
+    "30 nov: venda do Secret Lair de Duna, às 14h.",
+    "30 nov: próxima janela de banimentos."
+   ],
+   "fonte": "Fontes: Wizards e WPN"
+  },
+  "cena3": {
+   "linhas": [
+    "<b>Mind Stone</b> acelera um turno e depois vira carta.",
+    "É incolor e entra em qualquer deck.",
+    "Está em 1,44 milhão de decks e custa US$ 0,33."
+   ]
+  },
+  "cena4": {
+   "texto": "Faltam 3 dias para 30 de novembro, dia da janela de banimentos e da venda de Duna.",
+   "sussurro": null
+  }
+ },
+ "textos": {
+  "legendaCarrossel": "Commander, Magic e carta barata de Black Friday: sexta calma, sem fato novo confirmado.\n\nNa segunda, 30 de novembro, tem venda do Secret Lair de Duna, às 14h de Brasília, e a próxima janela de banimentos do Commander, no mesmo dia. O Secret Lair do Extra Life fica à venda até lá.\n\nNo Topdeck do Dia, Mind Stone, a pedra de 2 mana que acelera um turno e, quando a mana sobra, vira carta. É incolor, então cabe em qualquer deck. Está em 1,44 milhão de decks no EDHREC e sai a US$ 0,33 (R$ 1,94) no Scryfall.\n\nQuantas pedras de mana você usa no seu deck?\n\nEdição completa em fontedemana.com.br\n\nArte da capa: Peace Talks, Roger Raupp. Topdeck: Mind Stone, Adam Rex.\n\nValores em reais pela cotação de 25 nov (Banco Central, PTAX).\n\n#blackfriday #commander #mtg",
+  "legendaVideo": "Commander e Magic numa Black Friday calma: faltam 3 dias para a janela de banimentos e a venda do Secret Lair de Duna.\n\nNo Topdeck, Mind Stone, que acelera um turno, vira carta no fim do jogo e está em 1,44 milhão de decks no EDHREC.\n\nNo seu deck, pedra de mana fica até o fim ou vira carta?\n\nTudo em fontedemana.com.br\n\n#blackfriday #commander #mtg",
+  "threadsPost": "Black Friday calma no Commander, sem fato novo confirmado. No Topdeck, Mind Stone: por 2 mana, acelera um turno e depois você paga 1 e sacrifica para comprar um card. É incolor, está em 1,44 milhão de decks no EDHREC e sai a US$ 0,33 (R$ 1,94). Quantas pedras de mana você usa? fontedemana.com.br\n\nValores em reais pela cotação de 25 nov (Banco Central, PTAX).",
+  "threadsFio": [
+   "Black Friday calma no Commander, sem fato novo confirmado. O Secret Lair de Duna e a janela de banimentos seguem marcados para segunda, 30 de novembro.",
+   "O Secret Lair do Extra Life, com Balefire Dragon em estilo PS1, fica à venda até 30 de novembro.",
+   "No Topdeck do Dia, Mind Stone. Por 2 mana, gera uma mana incolor por turno. Quando sobrar mana, você paga 1, vira e sacrifica a pedra para comprar um card.",
+   "A mana é incolor: não paga símbolo colorido. Está em 1,44 milhão de decks no EDHREC e sai a US$ 0,33 (R$ 1,94) no Scryfall.",
+   "Faltam 3 dias para a janela de banimentos de 30 de novembro. Edição completa em fontedemana.com.br\n\nValores em reais pela cotação de 25 nov (Banco Central, PTAX)."
+  ],
+  "threadsAvulsos": [
+   {"titulo": "Pergunta do dia", "texto": "Mind Stone está em 1,44 milhão de decks e custa menos de um dólar. Quantas pedras de mana você coloca no seu deck de Commander?", "obs": "Pergunta aberta, sem enquete"}
+  ]
+ },
+ "pauta": {
+  "forca": "calmo",
+  "porque": "Black Friday sem fato novo sobre Commander; Duna e o ban de 30 nov já estavam na agenda.",
+  "storyPergunta": "Quantas pedras de mana você usa no seu deck?",
+  "enquete": {"pergunta": "Mind Stone no seu deck?", "opcoes": ["Já uso", "Vou colocar", "Prefiro outra pedra"]}
+ }
+}
