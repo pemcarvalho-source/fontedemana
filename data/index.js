@@ -1,6 +1,7 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "Mind Stone",
   "Night's Whisper",
   "Counterspell",
   "Swords to Plowshares",
@@ -51,6 +52,13 @@ window.MANA_POOL_INDEX = {
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 53,
+   "date": "2026-11-27",
+   "dateLabel": "Sexta-feira, 27 de novembro de 2026",
+   "head": "Dia calmo no Multiverso",
+   "biome": "W"
+  },
   {
    "n": 52,
    "date": "2026-11-26",
@@ -260,13 +268,6 @@ window.MANA_POOL_INDEX = {
    "dateLabel": "Quarta, 28 de outubro de 2026",
    "head": "Star Trek ganha cinco Secret Lairs, com Thrasios e Kambal na versão Lower Decks",
    "biome": "A"
-  },
-  {
-   "n": 22,
-   "date": "2026-10-27",
-   "dateLabel": "Terça, 27 de outubro de 2026",
-   "head": "We Are the Borg tem lista completa, com Toxic Deluge e Skullclamp",
-   "biome": "M"
   }
  ]
 };
