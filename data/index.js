@@ -1,6 +1,7 @@
 /* Fonte de Mana, índice das edições (mais recente primeiro) e cartas já usadas no Topdeck do Dia. Formato: window.MANA_POOL_INDEX = {...}; com JSON válido. */
 window.MANA_POOL_INDEX = {
  "featuredCards": [
+  "Prosper, Tome-Bound",
   "Mind Stone",
   "Night's Whisper",
   "Counterspell",
@@ -52,6 +53,13 @@ window.MANA_POOL_INDEX = {
   "Aminatou, the Fateshifter"
  ],
  "editions": [
+  {
+   "n": 54,
+   "date": "2026-11-28",
+   "dateLabel": "Sábado, 28 de novembro de 2026",
+   "head": "Dia calmo no Multiverso",
+   "biome": "G"
+  },
   {
    "n": 53,
    "date": "2026-11-27",
@@ -261,13 +269,6 @@ window.MANA_POOL_INDEX = {
    "dateLabel": "Quinta, 29 de outubro de 2026",
    "head": "Klingon Fury tem lista completa, com Worf atacando para comprar",
    "biome": "M"
-  },
-  {
-   "n": 23,
-   "date": "2026-10-28",
-   "dateLabel": "Quarta, 28 de outubro de 2026",
-   "head": "Star Trek ganha cinco Secret Lairs, com Thrasios e Kambal na versão Lower Decks",
-   "biome": "A"
   }
  ]
 };
