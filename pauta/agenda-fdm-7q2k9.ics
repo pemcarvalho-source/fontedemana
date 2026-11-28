@@ -8,257 +8,8 @@ X-WR-TIMEZONE:America/Sao_Paulo
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:fdm-2026-11-24-gravacao@fontedemana.com.br
-DTSTAMP:20261127T114727Z
-DTSTART:20261123T221500Z
-DURATION:PT15M
-SUMMARY:19:15 Gravação: Gravar o vídeo de amanhã (você aparece)
-DESCRIPTION:Dicionário do Commander #10: o que é planeswalker\, o nome da
-  série de Magic na Netflix. Você aparece nas cenas 1 e 6\; nas outras\, 
- só a voz.\n\nArquivos:\n- Vídeo mudo do TikTok: https://fontedemana.com.
- br/pauta/2026-11-24/tiktok/tiktok-mudo.mp4\n\nRoteiro de gravação:\nCena
-  1\, rosto\, uns 5 s\nNa tela: O que é um planeswalker?\nComo gravar: Ros
- to: Olha para a câmera com cara de pergunta\; se tiver\, mostra uma carta
-  de planeswalker na mão\, de costas\, sem revelar ainda\nFala: A série d
- o Magic na Netflix é Planeswalker. Sabe o que é?\n\nCena 2\, só a voz\,
-  uns 6 s\nNa tela: Um mago com a centelha\nComo gravar: Só a voz: pode gr
- avar em vídeo ou áudio\nFala: Na história\, é o mago com a centelha\, 
- que viaja entre os mundos do Magic.\n\nCena 3\, só a voz\, uns 5 s\nNa te
- la: Entra com lealdade e usa uma habilidade por turno\nComo gravar: Só a 
- voz: pode gravar em vídeo ou áudio\nFala: Na mesa\, é uma carta com lea
- ldade. Usa uma habilidade por turno.\n\nCena 4\, só a voz\, uns 4 s\nNa t
- ela: Ele pode ser atacado\nComo gravar: Só a voz: pode gravar em vídeo o
- u áudio\nFala: E pode ser atacado. Cada dano tira lealdade. Zerou\, morre
- u.\n\nCena 5\, só a voz\, uns 4 s\nNa tela: Nem todo vira comandante: Só
-  se a carta disser que pode ser seu comandante\nComo gravar: Só a voz: po
- de gravar em vídeo ou áudio\nFala: Nem todo planeswalker vira comandante
- . Só se a carta disser.\n\nCena 6\, só a voz\, uns 3 s\nNa tela: Qual vo
- cê quer ver? Jace\, Liliana e Nissa\nComo gravar: Só a voz: na tela entr
- am as cartas de Jace\, Liliana e Nissa\nFala: Qual planeswalker você quer
-  ver na série?\n\n\nPasso a passo:\n1. Celular na vertical\, câmera da f
- rente\, na altura dos olhos\, a um braço de distância.\n2. Rosto na meta
- de de cima da tela: o título entra embaixo dele\, na altura do peito.\n3.
-  Luz de frente (de frente para a janela) e fundo arrumado\; a estante de c
- artas é ótima.\n4. Desligue o Vídeo HDR (Ajustes\, Câmera\, Gravar Ví
- deo) para as cores não lavarem.\n5. Um vídeo por cena\, falando para a c
- âmera\, com meio segundo de silêncio antes e depois\; nomeie cena_1\, ce
- na_2... e mande todos juntos.\n6. Nas cenas sem rosto\, só a voz conta: p
- ode gravar em vídeo ou só o áudio.\n7. Mande os vídeos ao Claude no pr
- ojeto MGT strategy (pode ser respondendo à mensagem desta tarefa) dizendo
-  "vídeos do TikTok de 2026-11-24".\n\nPauta completa: https://fontedemana
- .com.br/pauta/2026-11-24/#gravacao
-URL:https://fontedemana.com.br/pauta/2026-11-24/#gravacao
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Gravação: Gravar o vídeo de amanhã (você aparece)
-TRIGGER:PT0M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-24-tiktok@fontedemana.com.br
-DTSTAMP:20261127T114727Z
-DTSTART:20261124T143000Z
-DURATION:PT15M
-SUMMARY:11:30 TikTok: Postar o Dicionário #10: planeswalker
-DESCRIPTION:Vídeo do Dicionário do Commander sobre planeswalker\, o termo
-  que dá nome à série da Netflix. O mesmo vídeo e a mesma legenda vão 
- para o Reels das 19:00.\n\nArquivos:\n- Vídeo do TikTok narrado: https://
- fontedemana.com.br/pauta/2026-11-24/tiktok/tiktok-narrado.mp4\n\nLegenda:\
- nPlaneswalker no Commander: você sabe o que é? A série de Magic na Netf
- lix tem esse nome\, e na mesa ele é um tipo de carta que pode até ser at
- acado.\n\nNa história\, é o mago com a centelha que viaja entre os plano
- s. Na mesa\, entra com marcadores de lealdade e usa uma habilidade por tur
- no. E nem todo planeswalker pode ser comandante: só se a carta disser (Re
- gras Abrangentes\, 903.3a).\nChandra\, Torch of Defiance sai por US$ 3\,59
-  (R$ 21\,14) no Scryfall e está em 73.808 decks no EDHREC. Reais pela cot
- ação de 19 nov (Banco Central\, PTAX).\n\nQual planeswalker você quer v
- er na série?\n\nMais termos da mesa em fontedemana.com.br\n\n#planeswalke
- r #commander #mtg\n\nComentário fixado:\nQual planeswalker você quer ver
-  na série da Netflix: Chandra\, Jace\, Liliana\, Nissa ou outro? Toda ter
- ça tem um termo novo do Dicionário do Commander.\n\nPasso a passo:\n1. P
- oste com um som em alta da biblioteca do TikTok\, com volume entre 15% e 2
- 0%.\n2. Voz própria não precisa de rótulo de IA.\n3. Fixe o comentário
-  logo depois de postar.\n\nValores em reais pela cotação de 19 nov (Banc
- o Central\, PTAX).\n\nPauta completa: https://fontedemana.com.br/pauta/202
- 6-11-24/#tiktok
-URL:https://fontedemana.com.br/pauta/2026-11-24/#tiktok
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:TikTok: Postar o Dicionário #10: planeswalker
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-24-threads-manha@fontedemana.com.br
-DTSTAMP:20261127T114727Z
-DTSTART:20261124T133000Z
-DURATION:PT15M
-SUMMARY:10:30 Threads: Debate: Dicionário do Commander #10: o que é plane
- swalker\, o nome da…
-DESCRIPTION:Post de debate do conteúdo original de hoje (Dicionário do Co
- mmander) para puxar conversa.\n\nPost:\nA série de Magic na Netflix se ch
- ama Planeswalker e a protagonista é a Chandra. Estreia em 2027.\n\nSe des
- se para escolher\, qual planeswalker você queria ver junto com ela? Jace\
- , Liliana\, Nissa\, Gideon ou alguém que quase ninguém lembra?\n\nPasso 
- a passo:\n1. Abra o Threads e cole o Post.\n2. Dica: Enquete com Jace\, Li
- liana\, Nissa e Outro\n3. Toque em Adicionar tópico e escolha MTG.\n4. Pu
- blique e responda quem comentar na primeira hora.\n\nPauta completa: https
- ://fontedemana.com.br/pauta/2026-11-24/#threads-manha
-URL:https://fontedemana.com.br/pauta/2026-11-24/#threads-manha
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Threads: Debate: Dicionário do Commander #10: o que é planesw
- alker\, o nome da…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-24-feed@fontedemana.com.br
-DTSTAMP:20261127T114727Z
-DTSTART:20261124T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram feed: Dicionário do Commander #10: o que é planes
- walker\, o nome da série…
-DESCRIPTION:Carrossel original de 6 imagens (Dicionário do Commander): Dic
- ionário do Commander #10: o que é planeswalker\, o nome da série da Net
- flix. Feito para salvar e compartilhar.\n\nArquivos:\n- Imagem 1 de 6: htt
- ps://fontedemana.com.br/pauta/2026-11-24/original/carrossel-01.jpg\n- Imag
- em 2 de 6: https://fontedemana.com.br/pauta/2026-11-24/original/carrossel-
- 02.jpg\n- Imagem 3 de 6: https://fontedemana.com.br/pauta/2026-11-24/origi
- nal/carrossel-03.jpg\n- Imagem 4 de 6: https://fontedemana.com.br/pauta/20
- 26-11-24/original/carrossel-04.jpg\n- Imagem 5 de 6: https://fontedemana.c
- om.br/pauta/2026-11-24/original/carrossel-05.jpg\n- Imagem 6 de 6: https:/
- /fontedemana.com.br/pauta/2026-11-24/original/carrossel-06.jpg\n\nLegenda:
- \nPlaneswalker no Commander: o que é e por que quase nenhum pode ser seu 
- comandante? A série de Magic na Netflix tem esse nome\, então bora expli
- car.\n\nNa história\, planeswalker é o mago com a centelha\, que viaja e
- ntre os planos. Na mesa\, é um tipo de carta: entra com lealdade\, usa um
- a habilidade por turno e pode ser atacado. E no Commander só vira comanda
- nte se a carta disser.\n\nFontes: Wizards of the Coast\, Regras Abrangente
- s\, Scryfall e EDHREC. Valores em reais pela cotação de 19 nov (Banco Ce
- ntral\, PTAX).\n\nMais termos da mesa em fontedemana.com.br\n\nQual planes
- walker você quer ver na série: Chandra\, Jace\, Liliana ou outro?\n\n#pl
- aneswalker #commander #mtg\n\nFonte de Mana is unofficial Fan Content perm
- itted under the Fan Content Policy. Not approved/endorsed by Wizards. Port
- ions of the materials used are property of Wizards of the Coast. ©Wizards
-  of the Coast LLC.\n\nPasso a passo:\n1. No Instagram\, toque em + e escol
- ha Post.\n2. Selecione as 6 imagens na ordem\, da 1 à 6.\n3. Toque em Adi
- cionar música e escolha uma em alta que combine com o tema.\n4. Cole a Le
- genda e publique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026
- -11-24/#feed
-URL:https://fontedemana.com.br/pauta/2026-11-24/#feed
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram feed: Dicionário do Commander #10: o que é planeswa
- lker\, o nome da série…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-24-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261127T114727Z
-DTSTART:20261124T150000Z
-DURATION:PT15M
-SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
-DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
- .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
- e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
- o do post: Qual planeswalker você quer ver na série da Netflix? com Jace
- \, Liliana\, Nissa e Outro.\n3. Publique.\n\nPauta completa: https://fonte
- demana.com.br/pauta/2026-11-24/#stories-meio-dia
-URL:https://fontedemana.com.br/pauta/2026-11-24/#stories-meio-dia
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-24-stories-tarde@fontedemana.com.br
-DTSTAMP:20261127T114727Z
-DTSTART:20261124T180000Z
-DURATION:PT15M
-SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
-DESCRIPTION:Story com a imagem de Swords to Plowshares no Topdeck do Dia e 
- o sticker de link para a edição completa.\n\nArquivos:\n- Topdeck do Dia
- : https://fontedemana.com.br/kit/ed50/carrossel-03.jpg\n\nPasso a passo:\n
- 1. Baixe a imagem e poste no Story.\n2. Adicione o sticker de Link para fo
- ntedemana.com.br com o texto Edição completa\, embaixo do texto do Topde
- ck.\n3. Publique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026
- -11-24/#stories-tarde
-URL:https://fontedemana.com.br/pauta/2026-11-24/#stories-tarde
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Instagram Stories: Topdeck do Dia com link
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-24-reels@fontedemana.com.br
-DTSTAMP:20261127T114727Z
-DTSTART:20261124T220000Z
-DURATION:PT15M
-SUMMARY:19:00 Reels: Vídeo original: Dicionário do Commander #10: o que 
- é planeswalker\, o…
-DESCRIPTION:O vídeo original de hoje no Instagram\, o mesmo arquivo do Tik
- Tok\, já narrado. É o formato que mais chega a quem não segue.\n\nArqui
- vos:\n- Vídeo original narrado: https://fontedemana.com.br/pauta/2026-11-
- 24/tiktok/tiktok-narrado.mp4\n\nLegenda:\nPlaneswalker no Commander: você
-  sabe o que é? A série de Magic na Netflix tem esse nome\, e na mesa ele
-  é um tipo de carta que pode até ser atacado.\n\nNa história\, é o mag
- o com a centelha que viaja entre os planos. Na mesa\, entra com marcadores
-  de lealdade e usa uma habilidade por turno. E nem todo planeswalker pode 
- ser comandante: só se a carta disser (Regras Abrangentes\, 903.3a).\nChan
- dra\, Torch of Defiance sai por US$ 3\,59 (R$ 21\,14) no Scryfall e está 
- em 73.808 decks no EDHREC. Reais pela cotação de 19 nov (Banco Central\,
-  PTAX).\n\nQual planeswalker você quer ver na série?\n\nMais termos da m
- esa em fontedemana.com.br\n\n#planeswalker #commander #mtg\n\nFonte de Man
- a is unofficial Fan Content permitted under the Fan Content Policy. Not ap
- proved/endorsed by Wizards. Portions of the materials used are property of
-  Wizards of the Coast. ©Wizards of the Coast LLC.\n\nComentário fixado:\
- nQual planeswalker você quer ver na série da Netflix: Chandra\, Jace\, L
- iliana\, Nissa ou outro? Toda terça tem um termo novo do Dicionário do C
- ommander.\n\nPasso a passo:\n1. No Instagram\, toque em + e escolha Reel.\
- n2. Escolha o vídeo baixado daqui\, nunca o salvo do TikTok (o Instagram 
- derruba vídeo com marca d'água).\n3. Em Áudio\, ponha uma música em al
- ta da biblioteca do Instagram com volume baixo (uns 10%)\, sem cobrir a vo
- z.\n4. Na capa\, use o primeiro quadro\, o do gancho.\n5. Cole a Legenda e
-  publique.\n6. Fixe o comentário e responda quem comentar na primeira hor
- a.\n\nValores em reais pela cotação de 19 nov (Banco Central\, PTAX).\n\
- nPauta completa: https://fontedemana.com.br/pauta/2026-11-24/#reels
-URL:https://fontedemana.com.br/pauta/2026-11-24/#reels
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Reels: Vídeo original: Dicionário do Commander #10: o que é 
- planeswalker\, o…
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fdm-2026-11-24-comentarios@fontedemana.com.br
-DTSTAMP:20261127T114727Z
-DTSTART:20261125T003000Z
-DURATION:PT15M
-SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
-DESCRIPTION:Uns 10 minutos nas três redes: curtir e responder os comentár
- ios das últimas 48 horas\, começando pelo vídeo e pelo carrossel de hoj
- e. Conversa nos comentários leva a peça a mais gente\, e o Instagram rec
- omenda responder em até 2 dias.\n\nPasso a passo:\n1. Instagram: nas noti
- ficações\, curta os comentários e responda com uma frase quem perguntou
-  ou discordou.\n2. TikTok e Threads: o mesmo\, começando pelo post com ma
- is comentários.\n3. Pergunta boa ou dúvida que se repete\, nos comentár
- ios ou nas DMs? Mande na conversa do projeto: vira tema de um pilar.\n\nPa
- uta completa: https://fontedemana.com.br/pauta/2026-11-24/#comentarios
-URL:https://fontedemana.com.br/pauta/2026-11-24/#comentarios
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Comentários: Responder os comentários de hoje e de ontem
-TRIGGER:-PT5M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fdm-2026-11-25-gravacao@fontedemana.com.br
-DTSTAMP:20261127T114727Z
+DTSTAMP:20261128T102211Z
 DTSTART:20261125T011000Z
 DURATION:PT15M
 SUMMARY:22:10 Gravação: Gravar o vídeo de 25/11 (você aparece)
@@ -308,7 +59,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-25-tiktok@fontedemana.com.br
-DTSTAMP:20261127T114727Z
+DTSTAMP:20261128T102211Z
 DTSTART:20261125T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o TikTok das sleeves Azul Sombrio
@@ -339,7 +90,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-25-threads-manha@fontedemana.com.br
-DTSTAMP:20261127T114727Z
+DTSTAMP:20261128T102211Z
 DTSTART:20261125T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Dia 1 da sleeve fosca: Shield Matte Azul Som
@@ -364,7 +115,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-25-feed@fontedemana.com.br
-DTSTAMP:20261127T114727Z
+DTSTAMP:20261128T102211Z
 DTSTART:20261125T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Vitrine de acessórios: Dia 1 da sleeve fosca
@@ -404,7 +155,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-25-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261127T114727Z
+DTSTAMP:20261128T102211Z
 DTSTART:20261125T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -423,7 +174,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-25-stories-tarde@fontedemana.com.br
-DTSTAMP:20261127T114727Z
+DTSTAMP:20261128T102211Z
 DTSTART:20261125T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -443,7 +194,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-25-reels@fontedemana.com.br
-DTSTAMP:20261127T114727Z
+DTSTAMP:20261128T102211Z
 DTSTART:20261125T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Dia 1 da sleeve fosca: Shield Matte A
@@ -480,7 +231,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-25-comentarios@fontedemana.com.br
-DTSTAMP:20261127T114727Z
+DTSTAMP:20261128T102211Z
 DTSTART:20261126T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -502,7 +253,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-26-gravacao@fontedemana.com.br
-DTSTAMP:20261127T114727Z
+DTSTAMP:20261128T102211Z
 DTSTART:20261126T001500Z
 DURATION:PT15M
 SUMMARY:21:15 Gravação: Gravar o vídeo de amanhã (você aparece)
@@ -559,7 +310,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-26-tiktok@fontedemana.com.br
-DTSTAMP:20261127T114727Z
+DTSTAMP:20261128T102211Z
 DTSTART:20261126T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o Top 5 #9: comandantes por menos de 10 reais
@@ -594,7 +345,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-26-threads-manha@fontedemana.com.br
-DTSTAMP:20261127T114727Z
+DTSTAMP:20261128T102211Z
 DTSTART:20261126T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Top 5 #9: comandantes fortes por menos de 10
@@ -618,7 +369,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-26-feed@fontedemana.com.br
-DTSTAMP:20261127T114727Z
+DTSTAMP:20261128T102211Z
 DTSTART:20261126T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Top 5 #9: comandantes fortes por menos de 10 
@@ -666,7 +417,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-26-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261127T114727Z
+DTSTAMP:20261128T102211Z
 DTSTART:20261126T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -685,7 +436,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-26-stories-tarde@fontedemana.com.br
-DTSTAMP:20261127T114727Z
+DTSTAMP:20261128T102211Z
 DTSTART:20261126T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -705,7 +456,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-26-reels@fontedemana.com.br
-DTSTAMP:20261127T114727Z
+DTSTAMP:20261128T102211Z
 DTSTART:20261126T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Top 5 #9: comandantes fortes por meno
@@ -747,7 +498,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-26-comentarios@fontedemana.com.br
-DTSTAMP:20261127T114727Z
+DTSTAMP:20261128T102211Z
 DTSTART:20261127T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -769,7 +520,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-27-gravacao@fontedemana.com.br
-DTSTAMP:20261127T114727Z
+DTSTAMP:20261128T102211Z
 DTSTART:20261126T221500Z
 DURATION:PT15M
 SUMMARY:19:15 Gravação: Gravar a narração do TikTok de amanhã
@@ -812,7 +563,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-27-reels-26-atrasado@fontedemana.com.br
-DTSTAMP:20261127T114727Z
+DTSTAMP:20261128T102211Z
 DTSTART:20261127T121500Z
 DURATION:PT15M
 SUMMARY:09:15 Reels: Reels de ontem: Top 5 #9\, comandantes por menos de 10
@@ -855,7 +606,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-27-threads-manha@fontedemana.com.br
-DTSTAMP:20261127T114727Z
+DTSTAMP:20261128T102211Z
 DTSTART:20261127T133000Z
 DURATION:PT15M
 SUMMARY:10:30 Threads: Debate: Bolsa de Mana da Black Friday: a mesma carta
@@ -881,7 +632,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-27-tiktok@fontedemana.com.br
-DTSTAMP:20261127T114727Z
+DTSTAMP:20261128T102211Z
 DTSTART:20261127T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: a mesma carta\, 178 vezes mais cara
@@ -918,7 +669,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-27-feed@fontedemana.com.br
-DTSTAMP:20261127T114727Z
+DTSTAMP:20261128T102211Z
 DTSTART:20261127T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram feed: Bolsa de Mana da Black Friday: a mesma carta 
@@ -966,7 +717,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-27-stories-meio-dia@fontedemana.com.br
-DTSTAMP:20261127T114727Z
+DTSTAMP:20261128T102211Z
 DTSTART:20261127T150000Z
 DURATION:PT15M
 SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
@@ -985,7 +736,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-27-stories-tarde@fontedemana.com.br
-DTSTAMP:20261127T114727Z
+DTSTAMP:20261128T102211Z
 DTSTART:20261127T180000Z
 DURATION:PT15M
 SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
@@ -1005,7 +756,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-27-reels@fontedemana.com.br
-DTSTAMP:20261127T114727Z
+DTSTAMP:20261128T102211Z
 DTSTART:20261127T220000Z
 DURATION:PT15M
 SUMMARY:19:00 Reels: Vídeo original: Bolsa de Mana da Black Friday: a mesm
@@ -1051,7 +802,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-27-comentarios@fontedemana.com.br
-DTSTAMP:20261127T114727Z
+DTSTAMP:20261128T102211Z
 DTSTART:20261128T003000Z
 DURATION:PT15M
 SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
@@ -1073,7 +824,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-28-gravacao@fontedemana.com.br
-DTSTAMP:20261127T114727Z
+DTSTAMP:20261128T102211Z
 DTSTART:20261125T013000Z
 DURATION:PT15M
 SUMMARY:22:30 Gravação: Gravar o vídeo de 28/11 (você aparece)
@@ -1119,27 +870,28 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-28-tiktok@fontedemana.com.br
-DTSTAMP:20261127T114727Z
+DTSTAMP:20261128T102211Z
 DTSTART:20261128T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: Postar o TikTok do deckbox da Viper
 DESCRIPTION:Vídeo da Vitrine com a Mulligan: o Deckbox Premium 100+ vermel
  ho da Viper. Marque a @viperacessorios e a @mulliganjogos.\n\nArquivos:\n-
-  Vídeo narrado: https://fontedemana.com.br/pauta/2026-11-28/tiktok/tiktok
- -narrado.mp4\n\nLegenda:\nDeckbox para deck de Commander: onde mora o seu 
- deck? O Prismari\, vestido com as sleeves Azul Sombrio\, agora mora no Dec
- kbox Premium 100+ vermelho da @viperacessorios: deck em cima\, gaveta para
-  dados e fichas embaixo\, tampa com ímã. Vieram da @mulliganjogos. Deckb
- ox\, elástico\, saquinho ou a caixa do precon? Mais no fontedemana.com.br
- \n\n#deckbox #commander #mtg\n\nFonte de Mana is unofficial Fan Content pe
- rmitted under the Fan Content Policy. Not approved/endorsed by Wizards. Po
- rtions of the materials used are property of Wizards of the Coast. ©Wizar
- ds of the Coast LLC.\n\nComentário fixado:\nOnde mora o seu deck? Deckbox
- \, elástico\, saquinho ou a caixa do precon? Na Vitrine de acessórios\, 
- só o que foi testado na mesa.\n\nPasso a passo:\n1. Poste com um som em a
- lta da biblioteca do TikTok\, com volume entre 15% e 20%.\n2. Voz própria
-  não precisa de rótulo de IA.\n3. Fixe o comentário logo depois de post
- ar.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-28/#tiktok
+  Vídeo do TikTok narrado: https://fontedemana.com.br/pauta/2026-11-28/tik
+ tok/tiktok-narrado.mp4\n\nLegenda:\nDeckbox para deck de Commander: onde m
+ ora o seu deck? O Prismari\, vestido com as sleeves Azul Sombrio\, agora m
+ ora no Deckbox Premium 100+ vermelho da @viperacessorios: deck em cima\, g
+ aveta para dados e fichas embaixo\, tampa com ímã. Vieram da @mulliganjo
+ gos. Deckbox\, elástico\, saquinho ou a caixa do precon? Mais no fontedem
+ ana.com.br\n\n#deckbox #commander #mtg\n\nFonte de Mana is unofficial Fan 
+ Content permitted under the Fan Content Policy. Not approved/endorsed by W
+ izards. Portions of the materials used are property of Wizards of the Coas
+ t. ©Wizards of the Coast LLC.\n\nComentário fixado:\nOnde mora o seu dec
+ k? Deckbox\, elástico\, saquinho ou a caixa do precon? Na Vitrine de aces
+ sórios\, só o que foi testado na mesa.\n\nPasso a passo:\n1. Poste com u
+ m som em alta da biblioteca do TikTok\, com volume entre 15% e 20%.\n2. Vo
+ z própria não precisa de rótulo de IA.\n3. Fixe o comentário logo depo
+ is de postar.\n\nPauta completa: https://fontedemana.com.br/pauta/2026-11-
+ 28/#tiktok
 URL:https://fontedemana.com.br/pauta/2026-11-28/#tiktok
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1148,8 +900,170 @@ TRIGGER:-PT5M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:fdm-2026-11-28-threads-manha@fontedemana.com.br
+DTSTAMP:20261128T102211Z
+DTSTART:20261128T133000Z
+DURATION:PT15M
+SUMMARY:10:30 Threads: Debate: Deck\, fichas e dado numa caixa só: o Deckb
+ ox Premium 100+ da…
+DESCRIPTION:Post de debate do conteúdo original de hoje (Vitrine de acess
+ órios) para puxar conversa.\n\nPost:\nPergunta séria de mesa: onde mora 
+ o seu deck?\n\nO meu Prismari ganhou deckbox com gaveta para dado e ficha.
+  Mas eu sei que tem muito deck bom por aí morando num elástico de dinhei
+ ro ou na caixa original do precon.\n\nE o seu\, mora onde?\n\nPasso a pass
+ o:\n1. Abra o Threads e cole o Post.\n2. Dica: Enquete: Deckbox / Elástic
+ o / Caixa do precon / Saquinho\n3. Toque em Adicionar tópico e escolha MT
+ G.\n4. Publique e responda quem comentar na primeira hora.\n\nPauta comple
+ ta: https://fontedemana.com.br/pauta/2026-11-28/#threads-manha
+URL:https://fontedemana.com.br/pauta/2026-11-28/#threads-manha
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Threads: Debate: Deck\, fichas e dado numa caixa só: o Deckbox
+  Premium 100+ da…
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-28-feed@fontedemana.com.br
+DTSTAMP:20261128T102211Z
+DTSTART:20261128T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram feed: Vitrine de acessórios: Deck\, fichas e dado 
+ numa caixa só: o Deckbox…
+DESCRIPTION:Carrossel original de 6 imagens (Vitrine de acessórios): Deck\
+ , fichas e dado numa caixa só: o Deckbox Premium 100+ da Viper\, testado.
+  Feito para salvar e compartilhar.\n\nArquivos:\n- Imagem 1 de 6: https://
+ fontedemana.com.br/pauta/2026-11-28/original/carrossel-01.jpg\n- Imagem 2 
+ de 6: https://fontedemana.com.br/pauta/2026-11-28/original/carrossel-02.jp
+ g\n- Imagem 3 de 6: https://fontedemana.com.br/pauta/2026-11-28/original/c
+ arrossel-03.jpg\n- Imagem 4 de 6: https://fontedemana.com.br/pauta/2026-11
+ -28/original/carrossel-04.jpg\n- Imagem 5 de 6: https://fontedemana.com.br
+ /pauta/2026-11-28/original/carrossel-05.jpg\n- Imagem 6 de 6: https://font
+ edemana.com.br/pauta/2026-11-28/original/carrossel-06.jpg\n\nLegenda:\nDec
+ kbox para deck de Commander: onde mora o seu deck?\n\nO Prismari Artistry\
+ , vestido com as sleeves Azul Sombrio\, agora mora no Deckbox Premium 100+
+  vermelho da @viperacessorios. Vieram da @mulliganjogos.\n\nPor fora: text
+ ura\, costura e logo em baixo relevo.\nPor dentro: deck em cima\, gaveta p
+ ara dados e fichas embaixo\, tampa com ímã.\nPonto fraco: a frente é fe
+ chada\, sem vitrine para o comandante.\n\nFontes: viperacessorios.com.br e
+  o teste na mesa. Mais no fontedemana.com.br\n\nDeckbox\, elástico\, saqu
+ inho ou a caixa do precon?\n\n#deckbox #commander #mtg\n\nFonte de Mana is
+  unofficial Fan Content permitted under the Fan Content Policy. Not approv
+ ed/endorsed by Wizards. Portions of the materials used are property of Wiz
+ ards of the Coast. ©Wizards of the Coast LLC.\n\nPasso a passo:\n1. No In
+ stagram\, toque em + e escolha Post.\n2. Selecione as 6 imagens na ordem\,
+  da 1 à 6.\n3. Toque em Adicionar música e escolha uma em alta que combi
+ ne com o tema.\n4. Cole a Legenda e publique.\n\nPauta completa: https://f
+ ontedemana.com.br/pauta/2026-11-28/#feed
+URL:https://fontedemana.com.br/pauta/2026-11-28/#feed
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram feed: Vitrine de acessórios: Deck\, fichas e dado nu
+ ma caixa só: o Deckbox…
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-28-stories-meio-dia@fontedemana.com.br
+DTSTAMP:20261128T102211Z
+DTSTART:20261128T150000Z
+DURATION:PT15M
+SUMMARY:12:00 Instagram Stories: Repost do carrossel com enquete
+DESCRIPTION:Compartilhe o carrossel recém postado no Story com uma enquete
+ .\n\nPasso a passo:\n1. No carrossel publicado\, toque no avião de papel 
+ e em Adicionar post ao seu story.\n2. Adicione o sticker de Enquete embaix
+ o do post: Onde mora o seu deck? com Deckbox\, Elástico\, Caixa do precon
+  e Saquinho.\n3. Publique.\n\nPauta completa: https://fontedemana.com.br/p
+ auta/2026-11-28/#stories-meio-dia
+URL:https://fontedemana.com.br/pauta/2026-11-28/#stories-meio-dia
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Repost do carrossel com enquete
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-28-stories-tarde@fontedemana.com.br
+DTSTAMP:20261128T102211Z
+DTSTART:20261128T180000Z
+DURATION:PT15M
+SUMMARY:15:00 Instagram Stories: Topdeck do Dia com link
+DESCRIPTION:Story com a imagem de Prosper\, Tome-Bound no Topdeck do Dia e 
+ o sticker de link para a edição completa.\n\nArquivos:\n- Topdeck do Dia
+ : https://fontedemana.com.br/kit/ed54/carrossel-03.jpg\n\nPasso a passo:\n
+ 1. Baixe a imagem e poste no Story.\n2. Adicione o sticker de Link para fo
+ ntedemana.com.br com o texto Edição completa\, embaixo do texto do Topde
+ ck.\n3. Publique.\n\nPauta completa: https://fontedemana.com.br/pauta/2026
+ -11-28/#stories-tarde
+URL:https://fontedemana.com.br/pauta/2026-11-28/#stories-tarde
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Instagram Stories: Topdeck do Dia com link
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-28-reels@fontedemana.com.br
+DTSTAMP:20261128T102211Z
+DTSTART:20261129T000000Z
+DURATION:PT15M
+SUMMARY:21:00 Reels: Vídeo original: Deck\, fichas e dado numa caixa só: 
+ o Deckbox Premium…
+DESCRIPTION:O vídeo original de hoje no Instagram\, o mesmo arquivo do Tik
+ Tok\, já narrado. É o formato que mais chega a quem não segue.\n\nArqui
+ vos:\n- Vídeo original narrado: https://fontedemana.com.br/pauta/2026-11-
+ 28/tiktok/tiktok-narrado.mp4\n\nLegenda:\nDeckbox para deck de Commander: 
+ onde mora o seu deck? O Prismari\, vestido com as sleeves Azul Sombrio\, a
+ gora mora no Deckbox Premium 100+ vermelho da @viperacessorios: deck em ci
+ ma\, gaveta para dados e fichas embaixo\, tampa com ímã. Vieram da @mull
+ iganjogos. Deckbox\, elástico\, saquinho ou a caixa do precon? Mais no fo
+ ntedemana.com.br\n\n#deckbox #commander #mtg\n\nFonte de Mana is unofficia
+ l Fan Content permitted under the Fan Content Policy. Not approved/endorse
+ d by Wizards. Portions of the materials used are property of Wizards of th
+ e Coast. ©Wizards of the Coast LLC.\n\nComentário fixado:\nOnde mora o s
+ eu deck? Deckbox\, elástico\, saquinho ou a caixa do precon? Na Vitrine d
+ e acessórios\, só o que foi testado na mesa.\n\nPasso a passo:\n1. No In
+ stagram\, toque em + e escolha Reel.\n2. Escolha o vídeo baixado daqui\, 
+ nunca o salvo do TikTok (o Instagram derruba vídeo com marca d'água).\n3
+ . Em Áudio\, abra a aba Royalty free (Sound Collection) e ponha uma músi
+ ca com volume baixo (uns 10%)\, sem cobrir a voz. Não use música em alta
+ : Reel com música licenciada não pode ser impulsionado.\n4. Na capa\, us
+ e o primeiro quadro\, o do gancho.\n5. Cole a Legenda e publique.\n6. Fixe
+  o comentário e responda quem comentar na primeira hora.\n\nPauta complet
+ a: https://fontedemana.com.br/pauta/2026-11-28/#reels
+URL:https://fontedemana.com.br/pauta/2026-11-28/#reels
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reels: Vídeo original: Deck\, fichas e dado numa caixa só: o 
+ Deckbox Premium…
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdm-2026-11-28-comentarios@fontedemana.com.br
+DTSTAMP:20261128T102211Z
+DTSTART:20261129T003000Z
+DURATION:PT15M
+SUMMARY:21:30 Comentários: Responder os comentários de hoje e de ontem
+DESCRIPTION:Uns 10 minutos nas três redes: curtir e responder os comentár
+ ios das últimas 48 horas\, começando pelo vídeo e pelo carrossel de hoj
+ e. Conversa nos comentários leva a peça a mais gente\, e o Instagram rec
+ omenda responder em até 2 dias.\n\nPasso a passo:\n1. Instagram: nas noti
+ ficações\, curta os comentários e responda com uma frase quem perguntou
+  ou discordou.\n2. TikTok e Threads: o mesmo\, começando pelo post com ma
+ is comentários.\n3. Pergunta boa ou dúvida que se repete\, nos comentár
+ ios ou nas DMs? Mande na conversa do projeto: vira tema de um pilar.\n\nPa
+ uta completa: https://fontedemana.com.br/pauta/2026-11-28/#comentarios
+URL:https://fontedemana.com.br/pauta/2026-11-28/#comentarios
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Comentários: Responder os comentários de hoje e de ontem
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:fdm-2026-11-29-gravacao@fontedemana.com.br
-DTSTAMP:20261127T114727Z
+DTSTAMP:20261128T102211Z
 DTSTART:20261126T224500Z
 DURATION:PT15M
 SUMMARY:19:45 Gravação: Gravar o vídeo de domingo (você aparece)
@@ -1196,7 +1110,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdm-2026-11-29-tiktok@fontedemana.com.br
-DTSTAMP:20261127T114727Z
+DTSTAMP:20261128T102211Z
 DTSTART:20261129T143000Z
 DURATION:PT15M
 SUMMARY:11:30 TikTok: TikTok: o que esquece os próprios gatilhos
