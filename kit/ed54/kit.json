@@ -1,0 +1,97 @@
+{
+ "n": 54,
+ "data": "28 nov",
+ "carrossel": {
+  "capa": {
+   "cor": "G",
+   "titulo": "Sábado calmo, Prosper no Topdeck",
+   "sub": "Nada novo no Commander hoje. Na segunda tem <b>janela de banimentos</b> e Duna, e no Topdeck tem bruxo que vira Tesouro.",
+   "credito": "Arte: Moment's Peace, Rebecca Guay"
+  },
+  "cartoes": [
+   {
+    "cor": "W",
+    "titulo": "O que vem nos próximos dias",
+    "itens": [
+     {"cor": "A", "html": "<b>até 30 nov</b>: venda do Secret Lair do Extra Life."},
+     {"cor": "A", "html": "<b>30 nov</b>: venda do Secret Lair de Duna, às 14h de Brasília."},
+     {"cor": "B", "html": "<b>30 nov</b>: próxima janela de banimentos do Commander."},
+     {"cor": "A", "html": "<b>9 dez</b>: nova janela de 24 horas para comprar o Zeta Set."}
+    ],
+    "fonte": "Fontes: Wizards e WPN"
+   }
+  ],
+  "topdeck": {
+   "titulo": "Prosper, Tome-Bound",
+   "habilidades": [
+    {"rotulo": "Carta extra", "texto": "No fim do turno, exila o topo do grimório. Você joga até o fim do próximo turno."},
+    {"rotulo": "Tesouro", "texto": "Toda carta jogada do exílio vira uma ficha de Tesouro."},
+    {"rotulo": "Bloqueador", "texto": "1/4 com toque mortífero: quem ataca nele perde a criatura."}
+   ],
+   "extra": "Comandante de <b>14.570 decks</b> no EDHREC. Versão de Stardates a US$ 1,68 (R$ 9,65) no Scryfall. Reais: cotação PTAX de 26 nov",
+   "credito": "Ilustração de Yongjae Choi"
+  },
+  "ban": {
+   "numero": "2",
+   "unidade": "DIAS",
+   "texto": "Para a próxima janela de banimentos, em 30 de novembro, o mesmo dia da venda do Secret Lair de Duna."
+  },
+  "turnos": [
+   {"cor": "A", "data": "30 nov", "texto": "Venda do Secret Lair de Duna"},
+   {"cor": "B", "data": "30 nov", "texto": "Janela de banimentos"},
+   {"cor": "A", "data": "9 dez", "texto": "Nova janela do Zeta Set"},
+   {"cor": "W", "data": "11 dez", "texto": "2ª rodada da Festa de Star Trek"},
+   {"cor": "A", "data": "17 dez", "texto": "Promo do Doctor Doom no cinema"}
+  ],
+  "sussurro": null
+ },
+ "video": {
+  "cena1": {
+   "titulo": "Sábado calmo, Prosper no Topdeck",
+   "pilulas": ["Sem fato novo", "Bruxo do Tesouro", "Ban em 2 dias"]
+  },
+  "cena2": {
+   "rotulo": "Agenda",
+   "cor": "W",
+   "titulo": "O que vem nos próximos dias",
+   "itens": [
+    "Até 30 nov: venda do Secret Lair do Extra Life.",
+    "30 nov: venda do Secret Lair de Duna, às 14h.",
+    "30 nov: próxima janela de banimentos."
+   ],
+   "fonte": "Fontes: Wizards e WPN"
+  },
+  "cena3": {
+   "linhas": [
+    "<b>Prosper</b> exila o topo do grimório todo fim de turno.",
+    "Cada carta jogada do exílio vira um Tesouro.",
+    "É comandante de 14.570 decks no EDHREC."
+   ]
+  },
+  "cena4": {
+   "texto": "Faltam 2 dias para 30 de novembro, dia da janela de banimentos e da venda de Duna.",
+   "sussurro": null
+  }
+ },
+ "textos": {
+  "legendaCarrossel": "Commander, Magic e comandante Rakdos no Topdeck: sábado calmo, sem fato novo confirmado.\n\nNa segunda, 30 de novembro, tem venda do Secret Lair de Duna, às 14h de Brasília, e a próxima janela de banimentos do Commander, no mesmo dia. O Secret Lair do Extra Life fica à venda até lá.\n\nNo Topdeck do Dia, Prosper, Tome-Bound. No fim de cada turno seu, ele exila o card do topo do grimório e você pode jogar esse card até o fim do próximo turno. Toda carta jogada do exílio vira uma ficha de Tesouro. É comandante de 14.570 decks no EDHREC, e a versão de Stardates sai a US$ 1,68 (R$ 9,65) no Scryfall.\n\nVocê já montou um deck que joga cartas do exílio?\n\nEdição completa em fontedemana.com.br\n\nArte da capa: Moment's Peace, Rebecca Guay. Topdeck: Prosper, Tome-Bound, Yongjae Choi.\n\nValores em reais pela cotação de 26 nov (Banco Central, PTAX).\n\n#prosper #commander #mtg",
+  "legendaVideo": "Commander e Magic num sábado calmo: faltam 2 dias para a janela de banimentos e a venda do Secret Lair de Duna.\n\nNo Topdeck, Prosper, Tome-Bound, o bruxo Rakdos que exila o topo do grimório e transforma cada carta jogada do exílio em Tesouro. Comandante de 14.570 decks no EDHREC.\n\nProsper no comando ou nas 99?\n\nTudo em fontedemana.com.br\n\n#prosper #commander #mtg",
+  "threadsPost": "Sábado calmo no Commander, sem fato novo confirmado. No Topdeck, Prosper, Tome-Bound: no fim do seu turno ele exila o topo do grimório, você joga essa carta até o fim do próximo turno e ganha um Tesouro. Comandante de 14.570 decks no EDHREC, com versão de Stardates a US$ 1,68 (R$ 9,65). Você já jogou com ele? fontedemana.com.br\n\nValores em reais pela cotação de 26 nov (Banco Central, PTAX).",
+  "threadsFio": [
+   "Sábado calmo no Commander, sem fato novo confirmado. O Secret Lair de Duna e a janela de banimentos seguem marcados para segunda, 30 de novembro.",
+   "O Secret Lair do Extra Life, com Balefire Dragon em estilo PS1, fica à venda até 30 de novembro.",
+   "No Topdeck do Dia, Prosper, Tome-Bound. No fim de cada turno seu, ele exila o card do topo do grimório. Você pode jogar esse card até o fim do seu próximo turno.",
+   "Toda carta jogada do exílio vira uma ficha de Tesouro, não só a que o Prosper exilou. Pega no pulo: terreno jogado do exílio usa a sua jogada de terreno do turno.",
+   "Prosper é comandante de 14.570 decks no EDHREC, e a versão de Stardates sai a US$ 1,68 (R$ 9,65) no Scryfall. Edição completa em fontedemana.com.br\n\nValores em reais pela cotação de 26 nov (Banco Central, PTAX)."
+  ],
+  "threadsAvulsos": [
+   {"titulo": "Pergunta do dia", "texto": "Prosper transforma cada carta jogada do exílio em Tesouro. Qual carta que joga do exílio você não tira do seu deck de Commander?", "obs": "Pergunta aberta, sem enquete"}
+  ]
+ },
+ "pauta": {
+  "forca": "calmo",
+  "porque": "Sábado sem fato novo sobre Commander; Duna e o ban de 30 nov já estavam na agenda.",
+  "storyPergunta": "Qual carta que joga do exílio você não tira do deck?",
+  "enquete": {"pergunta": "Prosper no seu deck?", "opcoes": ["No comando", "Nas 99", "Não jogo Rakdos"]}
+ }
+}
